@@ -1,0 +1,8 @@
+#lang scribble/sigplan
+
+@title{Game Manual 0}
+
+@abstract{This is a compilation of all the pages into one page}
+
+@include-section["getting-started-in-ftc.scrbl"]
+@include-section["principles-of-first-tech-challenge.scrbl"]

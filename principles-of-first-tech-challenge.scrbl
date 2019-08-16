@@ -30,7 +30,7 @@
            @item{Always aim for at least 90° of chain and belt wrap.}
            @item{Use the JVN for FTC calculator to determine feasibility and optimization.}]
 
-@linebreak
+@linebreak{}
 
 @section{Full Principles}
  @subsection{Reliability and Efficiency}
@@ -180,7 +180,7 @@
    and belt especially require good support and alignment to reduce efficiency loss and
    prolong their lifetimes.
 
- @subsection{The Value of Prototypign}
+ @subsection{The Value of Prototyping}
   @bold{CAD does not replace actual prototyping.} While CAD can be a great tool to plan
    out the robot, no team can jump from CAD → final design. Prototyping is important to
    understand how your robot will actually work. It is a quick way to determine feasibility
