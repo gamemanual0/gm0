@@ -1,0 +1,10 @@
+#lang scribble/sigplan
+
+@title{Principles of FIRST Tech Challenge}
+@abstract{In this section, we have compiled some important and valuable lessons that we have learned
+          over the years. We encourage you to read through this section in order to avoid some of the
+          mistakes we made in the past as young teams. The principles are generally in order of
+          importance from top down.}
+
+Here is a TL;DR of this section; followed by the full version
+@itemlist
