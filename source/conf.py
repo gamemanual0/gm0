@@ -16,19 +16,14 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import datetime
-
 # -- Project information -----------------------------------------------------
 
-project = 'Game Manual 0 Site'
-author = 'TEMP, ADD FROM CONTRIBUTORS'
+is_release_build = False
+
+project = 'Game Manual 0'
+author = 'Game Manual 0 Contributors'
 
 copyright_year = 2019
-
-if copyright_year != datetime.datetime.now().year:
-    print("WARNING: Copyright year is incorrect, check conf.py")
-    print("Copyright Year: ", copyright_year)
-    print("Current Year: ", datetime.datetime.now().year)
 
 copyright = str(copyright_year) + ", " + str(author)
 
@@ -52,6 +47,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
+    'sphinx.ext.graphviz',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -71,7 +67,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -186,9 +182,11 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 
-# -- Extension configuration -------------------------------------------------
+def setup(app):
+    app.add_stylesheet('css/gm0-rtd.css')
+
 
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = not is_release_build
