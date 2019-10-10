@@ -29,6 +29,7 @@ teams in terms of flexibility.
 Kit Parts
 =========
 https://www.pitsco.com/sharedimages/resources/FTC_COMPETITIONSET_18-19.pdf
+
 (Note: this is for the 2018-2019 season)
 * 32x32mm Aluminum C-Channel, various lengths
 * Assorted plates and brackets, flat and 90 degree
@@ -73,7 +74,7 @@ When mounting motors, it is recommended that two clamping motor mounts are used
 to mount one motor. Using standoffs inside channel to prevent the channel from 
 bending inward or outward is also highly recommended.
 
-.. figure:: images/6022-vv.jpg
+.. figure:: images/tetrix/6022-vv.jpg
     :alt: 6022 To Be Determined's Velocity Vortex Robot
 
     TETRIX based robots have succeeded in competition, 

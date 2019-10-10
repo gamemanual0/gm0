@@ -1,0 +1,395 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tank (Skid-Steer) Drivetrains &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Holonomic Drivetrains" href="holonomic.html" />
+    <link rel="prev" title="Drivetrains" href="index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="tank-skid-steer-drivetrains">
+<h1>Tank (Skid-Steer) Drivetrains<a class="headerlink" href="#tank-skid-steer-drivetrains" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="wheel-drive-pushbot-drive">
+<h2>2 Wheel Drive (Pushbot Drive)<a class="headerlink" href="#wheel-drive-pushbot-drive" title="Permalink to this headline">¶</a></h2>
+<p><strong>Recommended only for first drivetrain, not for competitions</strong></p>
+<p>This rookie drivetrain is considered one of the inferior drivetrains,
+though it is usable at low competition levels.
+This is the introductory drivetrain type for many rookies,
+as it is promoted in official guides published by FIRST
+(giving it the name pushbot).
+It often has direct driven traction wheels with unpowered omni wheels.
+This type of drivetrain has poor turning as the center of turning is at the back
+of the robot between the two powered wheels.
+In comparison to other drivetrains, it has poor acceleration due to only using
+two motors.
+Even though it may not be an optimal drivetrain,
+it is still possible to be competitive as long as the drivetrain is reliable.
+As a consensus, we would advise every new team to build the pushbot primarily to
+learn how to build with a kit.
+The pushbot is a good starting point and helps the team get familiarized with
+using kit parts, attaching wheels, mounting motors, etc.;
+however, it is subpar to every other drivetrain in a competitive context.
+<strong>While the pushbot is a good first drivetrain for new teams to get acquainted
+with the kit, it is recommended that teams move away from this drivetrain when
+building their competition robot.</strong></p>
+<div class="section" id="advantages">
+<h3>Advantages<a class="headerlink" href="#advantages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Most simple drivetrain to build</li>
+<li>No need to worry about powering all four wheels</li>
+</ul>
+</div>
+<div class="section" id="disadvantages">
+<h3>Disadvantages<a class="headerlink" href="#disadvantages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Slower than other options</li>
+<li>Underpowered (all other drivetrain options typically use 4 motors)</li>
+<li>Uses the Tetrix MAX motor, which is prone to burning out easily, is underpowered, and has a fragile gearbox.</li>
+<li>Lacks agility and maneuverability due to 2 motor turning</li>
+<li>Poor acceleration due to 2 motors</li>
+<li>Often direct driven, which is highly discouraged for drivetrains</li>
+</ul>
+<div class="figure" id="id10">
+<a class="reference internal image-reference" href="../../_images/tetrix-pushbot.jpg"><img alt="Tetrix pushbot" src="../../_images/tetrix-pushbot.jpg" style="width: 508.5px; height: 320.25px;" /></a>
+<p class="caption"><span class="caption-text">Example pushbot drivetrain included in the starter FTC guide</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="wheel-drive">
+<h2>4 Wheel Drive<a class="headerlink" href="#wheel-drive" title="Permalink to this headline">¶</a></h2>
+<p>In its most common form, the drivetrain uses the same wheel layout as the two
+wheel drivetrain (2 traction wheels in the back, 2 omnis in the front),
+but with one notable difference: <strong>all four wheels are powered</strong>.
+Some teams will put all four traction wheels or use all four omni wheels.
+It is not suggested to use all 4 traction wheels due to poor turning that
+results in this setup.
+This is caused by wheel scrub
+(friction between the side of the wheel and the floor tile).
+Using omni wheels for all four wheels will result in incredible turning, with
+the robot rotating around its center.
+However, this advantage comes with a major loss of traction.
+For these reasons, many teams choose to use two traction wheels and two omni
+wheels for a balance between quick turning and traction.
+The primary advantage of this drivetrain over other tank drivetrains is its
+ability to easily move across raised terrain when the bot’s center is raised
+above the terrain.</p>
+<p>It is suggested that a four wheel drivetrain be close to, or exactly, a square.
+Otherwise, one may encounter problems turning.
+<strong>Weight distribution is furthermore a large factor that should be considered:
+the more weight in the back, the better</strong>.
+Off-center turning, which may or may not be a drawback,
+is nearly ubiquitous among 4 wheel drives.
+This may not be a problem for teams, but it is good to be aware of it.
+Off-center turning can be an advantage, but be warned that turning will be
+slightly slower on 4 wheel drives than their six or eight wheel counterparts.</p>
+<div class="section" id="id1">
+<h3>Advantages<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>More maneuverable than 2WD</li>
+<li>Solid acceleration and traction</li>
+<li>Can traverse terrain if the chassis is raised high enough</li>
+<li>Good pushing power for defense, yet maneuverable enough to avoid it</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Disadvantages<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Can tip more easily than 6WD/8WD with a high center of mass</li>
+<li>All traction wheel 4WD can have decreased maneuverability</li>
+<li>Weight distribution factors into the turning point and turning radius of the robot</li>
+</ul>
+<div class="figure" id="id11">
+<img alt="3736 Serious Business' modified 4WD" src="../../_images/3736-modified-4wd.png" />
+<p class="caption"><span class="caption-text">3736 Serious Business, Rover Ruckus; modified 4WD</span></p>
+</div>
+<div class="figure" id="id12">
+<img alt="7209 Tech Hog's Relic Recovery Robot" src="../../_images/7209-4wd.jpg" />
+<p class="caption"><span class="caption-text">7209 Tech Hogs, Relic Recovery</span></p>
+</div>
+<a class="reference internal image-reference" href="../../_images/10641-4wd-table.png"><img alt="10641 Atomic Gear's 4WD on a table" src="../../_images/10641-4wd-table.png" style="width: 533.5px; height: 533.5px;" /></a>
+<div class="figure" id="id13">
+<img alt="10641 Atomic Gear's 4WD in a void" src="../../_images/10641-4wd-void.png" />
+<p class="caption"><span class="caption-text">10641 Atomic Gears, Rover Ruckus</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="wheel-drive-6wd">
+<h2>6 Wheel Drive (6WD)<a class="headerlink" href="#wheel-drive-6wd" title="Permalink to this headline">¶</a></h2>
+<p>A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple
+reasons: it has fantastic traction, great turning,
+and by having 6 wheels, the drivetrain has more contact with the ground,
+helping with stability and traction.
+There are two main types of 6 wheel drivetrains:
+ones with <strong>corner omnis</strong> and ones with a <strong>drop center</strong>.</p>
+<p>A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly
+below the other two wheels.
+The drop should be anywhere from more than 1/16” up to ¼”.
+However, the recommended drop is around ⅛”.
+Typically, lighter robots (&lt;25 lbs.) can have less drop, while heavier robots
+(&gt;25 lbs.) perform slightly better with more than ⅛” drop.
+The purpose of dropping the middle wheel is to ensure that only 4 wheels are in
+contact with the ground at all times.
+This is because turning with 6 wheels on the ground introduces lots of friction,
+making it very difficult to turn quickly.
+Note that the <strong>required drop may vary depending on both field condition and
+weight of the overall robot</strong>.
+Turning can drastically degrade due to a difference in material underneath the
+field, leading to the robot sinking down further than usual.
+Moreover, <strong>most drop center 6 wheel drives are made using custom drivetrains</strong>
+because it is difficult to get the center wheel drop using a kit based build
+system (a notable exception being REV-based kit drivetrains).
+It is possible to execute a drop center using goBILDA and Actobotics using
+pillow blocks, but it is a little bit more awkward.</p>
+<p>6 wheel drive with corner omni wheels does not have a center drop.
+It attempts to solve the issue of turning by replacing the corner traction
+wheels with omni wheels, allowing the drivetrain to achieve better turning,
+albeit with slightly less traction than a center-drop.
+This is very easily buildable in kits, and is a great all-around drivetrain.
+Drop center and corner omnis can be combined for maximum turning reliability,
+although this comes with side effects like rocking and reduced traction.</p>
+<p>(Side note: tolerances in the size of the wheel may affect the traction of this
+drivetrain - many VEX Robotics Competition teams have built 6WDs like this only
+to find that their center traction wheel wasn’t touching the ground due to
+variance in size.
+We don’t have data on this phenomenon with FTC-class wheels,
+but it’s something to be aware of.)</p>
+<div class="section" id="id3">
+<h3>Advantages<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Great traction and maneuverability</li>
+<li>Good acceleration, can have a high top speed</li>
+<li>Great stability under all robot weights</li>
+<li>Able to play defense</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Disadvantages<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Drop-center 6WD is tricky to build with channel-based systems</li>
+<li>Drop-center 6WD as slightly worse turning, but more traction</li>
+<li>Drop-center 6WD is dependent on field conditions</li>
+<li>Corner omni 6WD has less traction</li>
+<li>Slow gear ratios will make a 6WD feel sluggish</li>
+</ul>
+<div class="figure" id="id14">
+<img alt="AndyMark's TileRunner 6wd" src="../../_images/tilerunner-6wd.jpg" />
+<p class="caption"><span class="caption-text">COTS Andymark Tilerunner Drivetrain with 0.05” center drop.
+<strong>Not recommended due to price</strong>.</span></p>
+</div>
+<div class="figure" id="id15">
+<img alt="7236 Recharged Green's 6wd" src="../../_images/7236-6wd.png" />
+<p class="caption"><span class="caption-text">7236 Recharged Green, Rover Ruckus; drop center 6WD</span></p>
+</div>
+<div class="figure" id="id16">
+<img alt="5795 Cybots's 6wd" src="../../_images/5795-6wd.png" />
+<p class="caption"><span class="caption-text">5975 Cybots, Velocity Vortex, drop center and corner omni 6WD</span></p>
+</div>
+<div class="figure" id="id17">
+<img alt="Ethan Doak's 6wd" src="../../_images/ethan-6wd.jpg" />
+<p class="caption"><span class="caption-text">Ethan Doak, goBILDA 6 wheel drive with corner omni wheels</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>8 Wheel Drive<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>An 8 wheel drivetrain is less common than its 6WD counterpart,
+combining elements found in both 4 wheel and 6 wheel drivetrains.
+For example, the 6 wheel drivetrain generally will have a dropped center wheel
+so that the robot turns on four wheels instead of six,
+reducing friction and increasing turning mobility.
+On an 8 wheel drive, the center four wheels are dropped.
+This means that when turning, only these middle four wheels are touching the
+ground.
+Thus, the 8 wheel drivetrain has slightly more stability while turning than a 6
+wheel drive, whereas 6 wheel drives can turn more quickly.
+Furthermore, since the 8 wheel drive has wheels in the same place as a 4 wheel
+drive, it has the stability of a 4 wheel drive.
+It is suggested that all eight wheels should be powered,
+and planetary motors should be used over a spur gear motor.
+Teams have the option of using doubled omni wheels on the outer four wheels.
+Doing so will reduce traction/pushing power and increase mobility.</p>
+<div class="section" id="id6">
+<h3>Advantages<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Combines the stability of 6WD with the agility of 4WD</li>
+<li>Even more stable than 6WD</li>
+<li>Fantastic traction and acceleration</li>
+<li>Great for defense</li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h3>Disadvantages<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Takes up more space than 6WD</li>
+<li>Powering all 8 wheels can be tricky</li>
+<li>Without adequate center drop, turning can be drastically reduced</li>
+</ul>
+<div class="figure" id="id18">
+<img alt="3846 Maelstrom's 8WD" src="../../_images/3846-8wd.jpg" />
+<p class="caption"><span class="caption-text">3846 Maelstrom, Rover Ruckus</span></p>
+</div>
+<img alt="A render of 13075 Coram Deo Academy Robotics' 8WD" src="../../_images/13075-8wd-render.png" />
+<div class="figure" id="id19">
+<img alt="13075 Coram Deo Academy Robotics' 8WD" src="../../_images/13075-8wd.png" />
+<p class="caption"><span class="caption-text">13075 Coram Deo Academy Robotics, Rover Ruckus</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="tread-drive">
+<h2>Tread Drive<a class="headerlink" href="#tread-drive" title="Permalink to this headline">¶</a></h2>
+<p>Tread drive is the use of tank treads or wide belts to power movement,
+much like a real life tank.
+Unfortunately, in FTC, it is not a competitive drivetrain for a number of
+reasons.
+Tread is complex, and has many points of failure.
+Treads are also very prone to defense, and a slight hit from another robot is
+enough to misalign the treads.
+Commercial Off-The-Shelf (COTS) tread options aren’t great either -
+TETRIX tracks have a tendency to snap and derail when used on robot drivetrains,
+making them not suitable for competition use.
+While it is possible to implement tread drive successfully,
+such as in the example below, most inexperienced teams do not have the
+capability and know-how to do so.
+Tread drive has negligible traction improvements at the cost of maneuverability.
+There are better options to traverse terrain, such as a 4WD.</p>
+<div class="section" id="id8">
+<h3>Advantages<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Very good at traversing terrain</li>
+<li>Fantastic traction and pushing power</li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h3>Disadvantages<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Suffers in maneuverability and top speed</li>
+<li>Very complex to implement</li>
+<li>Treads are prone to breakage and can fall off easily</li>
+</ul>
+<div class="figure" id="id20">
+<img alt="5975 Cybots' Tread Drive Render" src="../../_images/5975-tread.png" />
+<p class="caption"><span class="caption-text">5975 Cybots, Res-Q</span></p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Tank (Skid-Steer) Drivetrains</a><ul>
+<li><a class="reference internal" href="#wheel-drive-pushbot-drive">2 Wheel Drive (Pushbot Drive)</a><ul>
+<li><a class="reference internal" href="#advantages">Advantages</a></li>
+<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wheel-drive">4 Wheel Drive</a><ul>
+<li><a class="reference internal" href="#id1">Advantages</a></li>
+<li><a class="reference internal" href="#id2">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wheel-drive-6wd">6 Wheel Drive (6WD)</a><ul>
+<li><a class="reference internal" href="#id3">Advantages</a></li>
+<li><a class="reference internal" href="#id4">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id5">8 Wheel Drive</a><ul>
+<li><a class="reference internal" href="#id6">Advantages</a></li>
+<li><a class="reference internal" href="#id7">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tread-drive">Tread Drive</a><ul>
+<li><a class="reference internal" href="#id8">Advantages</a></li>
+<li><a class="reference internal" href="#id9">Disadvantages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Drivetrains</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Drivetrains</a></li>
+      <li>Next: <a href="holonomic.html" title="next chapter">Holonomic Drivetrains</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/drivetrains/tank.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/drivetrains/tank.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

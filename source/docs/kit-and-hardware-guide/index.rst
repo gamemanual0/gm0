@@ -44,3 +44,6 @@ Kit Options
     tetrix
     actobotics
     gobilda
+    rev-robotics
+    custom
+    

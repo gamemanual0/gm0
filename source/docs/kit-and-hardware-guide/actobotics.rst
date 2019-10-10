@@ -65,19 +65,19 @@ Disadvantages
 * The belts from ServoCity are not great. It is recommended that belts are purchased from vendors other than ServoCity. This may necessitate 3D printed belt pulleys and other parts, which is more difficult for newer teams. There also isn’t a large amount of space inside the channel for a belt or chain run, vastly limiting the size of the pulleys.
 * Channel takes up more space than extrusion, so mechanisms can be a bit larger with the Actobotics kit. To remediate this issue, ServoCity sells mini-channel which is a similar size as extrusion.
 
-.. figure:: images/8644-rr1.jpg
+.. figure:: images/actobotics/8644-rr1.jpg
     :alt: 8644 Brainstormers' Relic Recovery robot
 
     An example of a successful Actobotics based robot, 8644 Brainstormers:
     2018 Winning Alliance Captain (Detroit), Relic Recovery
 
-.. figure:: images/9971-rr2.jpg
+.. figure:: images/actobotics/9971-rr2.jpg
     :alt: 9971 LanBros' Rover Ruckus robot
     
     Another successful Actobotics based robot, 9971 LanBros: 
     2019 Winning Alliance Captain (Detroit), Rover Ruckus
 
-.. figure:: images/9794-rr2.png
+.. figure:: images/actobotics/9794-rr2.png
     :alt: 9794 Wizards.exe's Rover Ruckus robot
     
     9794 Wizards.exe used both Actobotics and REV extrusion to build their Rover

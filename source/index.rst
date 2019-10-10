@@ -75,21 +75,24 @@ Game Manual 0 Table of Contents
    :maxdepth: 2
    
    docs/meta/index
-   
-.. toctree::
-   :maxdepth: 2
-   
    docs/getting-started-in-ftc/index
-   
-.. toctree::
-   :maxdepth: 2
-   
    docs/rookie-mistakes/index
    
 .. toctree::
    :maxdepth: 3
    
    docs/kit-and-hardware-guide/index
+
+.. toctree::
+   :maxdepth: 1
+   
+   docs/tools-list.rst
+   docs/materials-guide.rst
+
+.. toctree::
+   :maxdepth: 4
+   
+   docs/drivetrains/index
 
 Indices and tables
 ==================

@@ -46,7 +46,6 @@ release = '0.0.1'
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
-    'sphinx.ext.githubpages',
     'sphinx.ext.graphviz',
 ]
 

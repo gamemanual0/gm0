@@ -56,10 +56,10 @@ Disadvantages
 * To achieve perfect center-to-center (C2C), goBILDA chose to adopt the HTD 3 belt standard. While this is a good choice, note that under extremely high torque loads (like an arm) the belt may skip. An easy way to remedy this would be to 3D print and use the HTD 5 belt standard, which will have perfect C2C on goBILDA channel every 5 bearing holes. 
 * Because of metric pattern spacing, goBILDA utilizes 8mm pitch chain, as opposed to the FTC standard #25 Imperial chain. This means that other kits' chain and sprockets won’t work with goBILDA chain and sprockets. 
 
-.. image:: images/7182-rr2-hanging.png
+.. image:: images/gobilda/7182-rr2-hanging.png
     :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander
 
-.. figure:: images/7182-rr2-field.jpg
+.. figure:: images/gobilda/7182-rr2-field.jpg
     :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the field
     
     An example of a successful goBILDA based robot, 7182 Mechanical Paradox 
