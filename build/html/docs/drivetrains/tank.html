@@ -4,24 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Tank (Skid-Steer) Drivetrains &#8212; Game Manual 0 0.0.1 documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '0.0.1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/gm0-rtd.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Holonomic Drivetrains" href="holonomic.html" />
@@ -29,15 +23,17 @@
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
+  
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
-  </head>
-  <body>
+  </head><body>
   
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="tank-skid-steer-drivetrains">
@@ -309,41 +305,54 @@ There are better options to traverse terrain, such as a 4WD.</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Tank (Skid-Steer) Drivetrains</a><ul>
-<li><a class="reference internal" href="#wheel-drive-pushbot-drive">2 Wheel Drive (Pushbot Drive)</a><ul>
-<li><a class="reference internal" href="#advantages">Advantages</a></li>
-<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+<h1 class="logo"><a href="../../index.html">Game Manual 0</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../meta/index.html">Meta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started-in-ftc/index.html">Getting Started in FTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rookie-mistakes/index.html">Rookie Mistakes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../kit-and-hardware-guide/index.html">Kit and Hardware Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools-list.html">Tools List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../materials-guide.html">Materials Guide</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Drivetrains</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-are-the-kinds-of-drivetrains">What Are the Kinds of Drivetrains?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#how-to-choose-a-drivetrain">How to Choose A Drivetrain</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#drivetrain-options">Drivetrain Options</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Tank (Skid-Steer) Drivetrains</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#wheel-drive-pushbot-drive">2 Wheel Drive (Pushbot Drive)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wheel-drive">4 Wheel Drive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wheel-drive-6wd">6 Wheel Drive (6WD)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">8 Wheel Drive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tread-drive">Tread Drive</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#wheel-drive">4 Wheel Drive</a><ul>
-<li><a class="reference internal" href="#id1">Advantages</a></li>
-<li><a class="reference internal" href="#id2">Disadvantages</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#wheel-drive-6wd">6 Wheel Drive (6WD)</a><ul>
-<li><a class="reference internal" href="#id3">Advantages</a></li>
-<li><a class="reference internal" href="#id4">Disadvantages</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#id5">8 Wheel Drive</a><ul>
-<li><a class="reference internal" href="#id6">Advantages</a></li>
-<li><a class="reference internal" href="#id7">Disadvantages</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#tread-drive">Tread Drive</a><ul>
-<li><a class="reference internal" href="#id8">Advantages</a></li>
-<li><a class="reference internal" href="#id9">Disadvantages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="holonomic.html">Holonomic Drivetrains</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cad-tutorials.html">CAD Tutorials</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
+
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
@@ -355,23 +364,26 @@ There are better options to traverse terrain, such as a 4WD.</p>
   </ul></li>
 </ul>
 </div>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../_sources/docs/drivetrains/tank.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
         </div>
       </div>
       <div class="clearer"></div>
@@ -380,8 +392,8 @@ There are better options to traverse terrain, such as a 4WD.</p>
       &copy;2019, Game Manual 0 Contributors.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="../../_sources/docs/drivetrains/tank.rst.txt"
