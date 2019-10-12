@@ -94,6 +94,11 @@ Game Manual 0 Table of Contents
    
    docs/drivetrains/index
 
+.. toctree::
+   :maxdepth: 2
+   
+   docs/power-transmission/index
+
 Indices and tables
 ==================
 

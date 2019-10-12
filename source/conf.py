@@ -136,8 +136,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'GameManual0Site.tex', 'Game Manual 0 Site Documentation',
-     'TEMP, ADD FROM CONTRIBUTORS', 'manual'),
+    (master_doc, 'GameManual0.tex', 'Game Manual 0',
+     'Game Manual 0 Contributors', 'manual'),
 ]
 
 
@@ -146,7 +146,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'gamemanual0site', 'Game Manual 0 Site Documentation',
+    (master_doc, 'gamemanual0', 'Game Manual 0',
      [author], 1)
 ]
 
@@ -157,8 +157,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GameManual0Site', 'Game Manual 0 Site Documentation',
-     author, 'GameManual0Site', 'One line description of project.',
+    (master_doc, 'GameManual0', 'Game Manual 0',
+     author, 'GameManual0', 'A guide for FTC teams.',
      'Miscellaneous'),
 ]
 
@@ -189,3 +189,8 @@ def setup(app):
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = not is_release_build
+
+# -- Options for imgmath extension -------------------------------------------
+
+# Changes imgmath_image_format to svg (default png)
+imgmath_image_format = 'svg'
