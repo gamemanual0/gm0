@@ -1,44 +1,197 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Motor Hardware &#8212; Game Manual 0 0.0.1 documentation</title>
-    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '0.0.1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Motor Hardware &mdash; Game Manual 0 0.0.1 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/gm0-logo.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="JVN Calculator" href="jvn-calculator.html" />
-    <link rel="prev" title="Motor Guide" href="index.html" />
+    <link rel="prev" title="Motor Guide" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
    
-  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
 
-  </head>
-  <body>
-  
+          
+            <a href="../../index.html" class="icon icon-home"> Game Manual 0
+          
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+          
+            
+            <img src="../../_static/gm0-logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../meta/index.html">Meta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started-in-ftc/index.html">Getting Started in FTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rookie-mistakes/index.html">Rookie Mistakes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../kit-and-hardware-guide/index.html">Kit and Hardware Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools-list.html">Tools List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../materials-guide.html">Materials Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../drivetrains/index.html">Drivetrains</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../power-transmission/index.html">Power Transmission</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linear-motion-guide/index.html">Linear Motion Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arms/index.html">Arms</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../passive-intake/index.html">Passive Intake/Claw</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../active-intake/index.html">Active Intake</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Motor Guide</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Motor Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jvn-calculator.html">JVN Calculator</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../servo-guide/index.html">Servo Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../electronics/index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software/index.html">Software</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/index.html">Appendix</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Game Manual 0</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Motor Guide</a> &raquo;</li>
+        
+      <li>Motor Hardware</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/docs/motor-guide/motor-hardware.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
             
   <div class="section" id="motor-hardware">
 <h1>Motor Hardware<a class="headerlink" href="#motor-hardware" title="Permalink to this headline">¶</a></h1>
@@ -52,49 +205,44 @@ Adapting from different shaft types can be very inelegant and inefficient,
 with the exception of 5 mm to/from ½” hex.
 The different (common) types of shafts in FTC are as follows.</p>
 <ul class="simple">
-<li><dl class="first docutils">
-<dt>Hex</dt>
-<dd><ul class="first last">
-<li>5 mm hex</li>
-<li>⅜” hex (Thunderhex)</li>
-<li>½” hex (Ultrahex, Thunderhex)</li>
+<li><dl class="simple">
+<dt>Hex</dt><dd><ul>
+<li><p>5 mm hex</p></li>
+<li><p>⅜” hex (Thunderhex)</p></li>
+<li><p>½” hex (Ultrahex, Thunderhex)</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt>D-shaft</dt>
-<dd><ul class="first last">
-<li>4.7 mm D-shaft</li>
-<li>6 mm D-shaft</li>
-<li>¼” D-shaft</li>
+<li><dl class="simple">
+<dt>D-shaft</dt><dd><ul>
+<li><p>4.7 mm D-shaft</p></li>
+<li><p>6 mm D-shaft</p></li>
+<li><p>¼” D-shaft</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt>Round</dt>
-<dd><ul class="first last">
-<li>6 mm round shaft</li>
-<li>8 mm round shaft</li>
+<li><dl class="simple">
+<dt>Round</dt><dd><ul>
+<li><p>6 mm round shaft</p></li>
+<li><p>8 mm round shaft</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt>Square</dt>
-<dd><ul class="first last">
-<li>⅛” square shaft</li>
-<li>¼” square shaft (Thundersquare)</li>
+<li><dl class="simple">
+<dt>Square</dt><dd><ul>
+<li><p>⅛” square shaft</p></li>
+<li><p>¼” square shaft (Thundersquare)</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt>REX (round and hex profile shaft)</dt>
-<dd><ul class="first last">
-<li>8 mm diameter</li>
-<li>12 mm diameter</li>
+<li><dl class="simple">
+<dt>REX (round and hex profile shaft)</dt><dd><ul>
+<li><p>8 mm diameter</p></li>
+<li><p>12 mm diameter</p></li>
 </ul>
 </dd>
 </dl>
@@ -109,9 +257,9 @@ Teams need to adapt to the JST system used by REV if they are using the
 REV Expansion Hub.
 Here are the different types of connectors for FTC motors.</p>
 <ul class="simple">
-<li>JST connector (standard REV)</li>
-<li>Anderson PowerPole</li>
-<li>Bullet connector</li>
+<li><p>JST connector (standard REV)</p></li>
+<li><p>Anderson PowerPole</p></li>
+<li><p>Bullet connector</p></li>
 </ul>
 </div>
 <div class="section" id="gearboxes">
@@ -144,10 +292,10 @@ the gearbox will stop functioning.
 <strong>We do not recommend using spur gearboxes on high-load applications such as
 drivetrains or arms.
 Instead, use planetary gearboxes</strong>.</p>
-<div class="figure" id="id1">
+<div class="figure align-default" id="id1">
 <img alt="An example spur gearbox" src="../../_images/spur-gearbox.jpg" />
 <p class="caption"><span class="caption-text">Example of a spur gearbox.
-Note how all gears mesh with only one other gear.</span></p>
+Note how all gears mesh with only one other gear.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="advantages-of-spur-gearboxes">
 <h4>Advantages of Spur Gearboxes<a class="headerlink" href="#advantages-of-spur-gearboxes" title="Permalink to this headline">¶</a></h4>
@@ -166,9 +314,9 @@ are very comparable and practically indistinguishable in performance
 The main thing to consider here is your <strong>desired reduction,
 your desired motor connections, and your desired output shaft type</strong>.</p>
 <ul class="simple">
-<li>goBILDA’s 5201 series spur gearboxes are much cheaper than either REV’s or Andymark’s; whether that’s a good or bad thing is up to you. They utilize the rather uncommon (in the FTC world) bullet connection for power. The output shaft is a 6mm D-shaft.</li>
-<li>REV HD Hex Planetary 40:1 motor - This motor comes only in a 40:1 ratio, but does use the same connections (JST VH) as the REV Expansion and Control hub for power which means no adapter cables. The output shaft is a 5mm hex shaft. REV UltraHex has a 5mm hex bore running through the middle of a ½” hex shaft, which makes adapting this motor to any length of Ultrahex, and by extension, ½” hex shaft, very easy.</li>
-<li>Andymark NeveRest Classic motors come in a few different ratios, which are 40:1 and 60:1. The output shaft is a 6mm D-shaft, and like all NeveRest motors use the Anderson Power Pole to connect to power. This connector is perhaps the most robust of the ones listed here.</li>
+<li><p>goBILDA’s 5201 series spur gearboxes are much cheaper than either REV’s or Andymark’s; whether that’s a good or bad thing is up to you. They utilize the rather uncommon (in the FTC world) bullet connection for power. The output shaft is a 6mm D-shaft.</p></li>
+<li><p>REV HD Hex Planetary 40:1 motor - This motor comes only in a 40:1 ratio, but does use the same connections (JST VH) as the REV Expansion and Control hub for power which means no adapter cables. The output shaft is a 5mm hex shaft. REV UltraHex has a 5mm hex bore running through the middle of a ½” hex shaft, which makes adapting this motor to any length of Ultrahex, and by extension, ½” hex shaft, very easy.</p></li>
+<li><p>Andymark NeveRest Classic motors come in a few different ratios, which are 40:1 and 60:1. The output shaft is a 6mm D-shaft, and like all NeveRest motors use the Anderson Power Pole to connect to power. This connector is perhaps the most robust of the ones listed here.</p></li>
 </ul>
 </div>
 </div>
@@ -188,17 +336,17 @@ NeveRest Sport and 57 Sport,
 and VEXpro sells the customizable VersaPlanetary gearbox.
 As you can see from the graphic below, there are more teeth meshing per stage
 than in the spur gearbox.</p>
-<div class="figure" id="id2">
+<div class="figure align-default" id="id2">
 <img alt="A planetary gearbox diagram" src="../../_images/planetary-gearbox.png" />
 <p class="caption"><span class="caption-text">Example of a planetary gearbox stage.
-Note how the sun gear meshes with &gt;1 gear.</span></p>
+Note how the sun gear meshes with &gt;1 gear.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="advantages-of-planetary-gearboxes">
 <h4>Advantages of Planetary Gearboxes<a class="headerlink" href="#advantages-of-planetary-gearboxes" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li>Backlash is lower than spur gearbox equivalents. Backlash is defined as the clearance or lost motion caused by gaps between parts. This can easily be explained through putting a wheel or gear on a motor shaft and lightly rotating it. The part should be able to wiggle around a little without having considerable force imparted on it. This is caused because it is impossible for the gear teeth inside the gearbox to mesh perfectly, and is the same for chain and sprockets, or any other form of power transmission. However, planetary gearboxes have less backlash as they have less stages of gears.</li>
-<li>Efficiency is better than spur gearboxes. A typical two-stage spur gearbox is about 85% efficient, whereas most two stage planetary gearboxes are 94% efficient.</li>
-<li>Load capacity is higher for planetary gearboxes. This is due to having multiple teeth engaged per stage, which spreads the load. <strong>This means planetary gearboxes will not break as easily when used in high-load applications such as drivetrains</strong>.</li>
+<li><p>Backlash is lower than spur gearbox equivalents. Backlash is defined as the clearance or lost motion caused by gaps between parts. This can easily be explained through putting a wheel or gear on a motor shaft and lightly rotating it. The part should be able to wiggle around a little without having considerable force imparted on it. This is caused because it is impossible for the gear teeth inside the gearbox to mesh perfectly, and is the same for chain and sprockets, or any other form of power transmission. However, planetary gearboxes have less backlash as they have less stages of gears.</p></li>
+<li><p>Efficiency is better than spur gearboxes. A typical two-stage spur gearbox is about 85% efficient, whereas most two stage planetary gearboxes are 94% efficient.</p></li>
+<li><p>Load capacity is higher for planetary gearboxes. This is due to having multiple teeth engaged per stage, which spreads the load. <strong>This means planetary gearboxes will not break as easily when used in high-load applications such as drivetrains</strong>.</p></li>
 </ul>
 </div>
 <div class="section" id="available-planetary-gearboxes-and-motors">
@@ -213,23 +361,22 @@ while not interchangeable, are very comparable in terms of robustness.
 Once again, the main thing to consider here is your <strong>desired reduction,
 your desired motor connections, and your desired output shaft type</strong>.</p>
 <ul class="simple">
-<li>goBILDA has, by far, the most varied selection of gearbox ratios with too many to list here, but utilize the rather uncommon (in the FTC world) bullet connection for power. The output shaft is a 6mm D-shaft.</li>
-<li>REV HD Hex Planetary motor - This motor comes only in a 20:1 ratio, but uses the same connections (JST-VH) as the REV Expansion and Control hub for power which means no adapter cables. The output shaft is a 5mm hex shaft. REV Ultrahex has a 5mm hex bore running through the middle of a ½” hex shaft, which makes adapting this motor to any length of Ultrahex, and by extension, ½” hex shaft very easy. The ratio of HD Hex is 20:1.</li>
-<li>Andymark NeveRest Orbital motors come in two ratios, which are 3.7:1 and 20:1. The output shaft is a 6mm D-shaft, and like all NeveRest motors use the Anderson Power Pole to connect to power. This connector is perhaps the most robust of the ones listed here.</li>
+<li><p>goBILDA has, by far, the most varied selection of gearbox ratios with too many to list here, but utilize the rather uncommon (in the FTC world) bullet connection for power. The output shaft is a 6mm D-shaft.</p></li>
+<li><p>REV HD Hex Planetary motor - This motor comes only in a 20:1 ratio, but uses the same connections (JST-VH) as the REV Expansion and Control hub for power which means no adapter cables. The output shaft is a 5mm hex shaft. REV Ultrahex has a 5mm hex bore running through the middle of a ½” hex shaft, which makes adapting this motor to any length of Ultrahex, and by extension, ½” hex shaft very easy. The ratio of HD Hex is 20:1.</p></li>
+<li><p>Andymark NeveRest Orbital motors come in two ratios, which are 3.7:1 and 20:1. The output shaft is a 6mm D-shaft, and like all NeveRest motors use the Anderson Power Pole to connect to power. This connector is perhaps the most robust of the ones listed here.</p></li>
 </ul>
 <p>High-end planetary gearboxes include Andymark NeveRest Sport and VersaPlanetary
 gearboxes, which can be quite expensive.
 However, the REV UltraPlanetary gearbox is a very affordable kit for new teams.</p>
 <ul class="simple">
-<li>REV UltraPlanetary gearbox - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix &amp; matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and maximum. The UltraPlanetary was intended to give teams the maximum customization without the typical limiting factor - high cost. The total cost for the three stage gearbox and motor is $36 - a very affordable price, given that most spur gearbox motors are in the ~30 range. In addition, the UltraPlanetary has a female 5mm hex output shaft which allows teams to customize the shaft length. The UltraPlanetary is a great option for teams as it allows for customizability and very good value.</li>
-<li>Andymark NeveRest Sport gearboxes - These gearboxes were designed to be more robust than the gearboxes found on Andymark NeveRest motors. The NeveRest sport gearboxes can handle larger shock loads, and can provide a larger reduction with options up to 256:1. These gearboxes are relatively expensive, but still not the most expensive gearbox you can use in FTC, with prices ranging from $46.00 for the 4:1 reduction to $77.50 for the 256:1 reduction. There are no motors included with the gearbox, you will need a bare NeveRest motor, REV HD Hex motor, or goBilda motor to attach to the gearbox. The selection should be based only on which connection type you like the most (powerpole vs. JST VH vs. 3.5mm bullet) for power.</li>
-<li><dl class="first docutils">
-<dt>VersaPlanetary gearboxes - These planetary gearboxes were designed for FRC use and can be very expensive (upwards of $80 for a 40:1 ratio) but because they were designed for such heavy use the VersaPlanetary is arguably the most durable gearbox you can use in FTC. If you somehow manage you break one of the components of the gearbox, they are very easy to repair. Unlike other gearboxes, almost every part of the gearbox is replaceable and able to be bought by itself. Every other gearbox on this list would require you to buy a whole new gearbox if one part of it breaks. In addition to that, you can disassemble the gearbox from the motor-side of the gearbox, meaning in the event that something breaks, you don’t have to remove the gearbox from the plate it’s attached to to be able to switch that part out. Another nice thing is that attaching the pinion to a bare motor is super easy since it clamps onto the motor shaft instead of being a press fit like the NeveRest sport pinion gear is. This means you don’t need any special tools like a press and can switch motors out very quickly, even during a competition. VersaPlanetarys also allow you to choose your own ratio with swappable 3:1, 4:1, 5:1, 7:1, 9:1, and 10:1 stages. When using VersaPlanetary gearboxes there are a few important factors for you to consider.</dt>
-<dd><ul class="first last">
-<li>The higher the reduction, the weaker the stage is. So for instance, a gearbox with 4:1, 4:1, 5:1 stages would be stronger than a 10:1, 10:1 gearbox though they end up with the same output ratio of 100:1.</li>
-<li>Always place the highest reduction as close as you can to the motor. There is less load placed on it here, and is less likely to break than if you placed it higher in the reduction. Then after your weakest stage, you should use your next weakest stage, until you reach the output stage.</li>
-<li>Vex Pro also sells a VersaPlanetary Lite option, which replaces the outer aluminum ring gear and housing with a 30% glass filled nylon. VersaPlanetary Lite gearboxes use the same gear sets as the regular VersaPlanetary, so if you ever feel the need for a stronger gearbox you can mix and match parts to fill your requirement. While still expensive (compared to other planetary gearboxes from Andymark, REV, and goBilda) at about $50 for one gearbox, it’s still one of the strongest gearboxes available for FTC use. It should be noted that the lite version comes with a ⅜” output shaft only, whereas the more expensive VersaPlanetary comes with various options including ½” hex, ⅜” hex, ½” round with ⅛” keyway, a CIM Output option, and a Universal Female Output Shaft. However, the shaft can be swapped out for a different one. The VersaPlanetary lite also loses side mounting holes on the gearbox.</li>
-<li>Like the NeveRest Sport gearboxes, you will need to supply your own bare motor to attach to the gearbox.</li>
+<li><p>REV UltraPlanetary gearbox - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix &amp; matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and maximum. The UltraPlanetary was intended to give teams the maximum customization without the typical limiting factor - high cost. The total cost for the three stage gearbox and motor is $36 - a very affordable price, given that most spur gearbox motors are in the ~30 range. In addition, the UltraPlanetary has a female 5mm hex output shaft which allows teams to customize the shaft length. The UltraPlanetary is a great option for teams as it allows for customizability and very good value.</p></li>
+<li><p>Andymark NeveRest Sport gearboxes - These gearboxes were designed to be more robust than the gearboxes found on Andymark NeveRest motors. The NeveRest sport gearboxes can handle larger shock loads, and can provide a larger reduction with options up to 256:1. These gearboxes are relatively expensive, but still not the most expensive gearbox you can use in FTC, with prices ranging from $46.00 for the 4:1 reduction to $77.50 for the 256:1 reduction. There are no motors included with the gearbox, you will need a bare NeveRest motor, REV HD Hex motor, or goBilda motor to attach to the gearbox. The selection should be based only on which connection type you like the most (powerpole vs. JST VH vs. 3.5mm bullet) for power.</p></li>
+<li><dl class="simple">
+<dt>VersaPlanetary gearboxes - These planetary gearboxes were designed for FRC use and can be very expensive (upwards of $80 for a 40:1 ratio) but because they were designed for such heavy use the VersaPlanetary is arguably the most durable gearbox you can use in FTC. If you somehow manage you break one of the components of the gearbox, they are very easy to repair. Unlike other gearboxes, almost every part of the gearbox is replaceable and able to be bought by itself. Every other gearbox on this list would require you to buy a whole new gearbox if one part of it breaks. In addition to that, you can disassemble the gearbox from the motor-side of the gearbox, meaning in the event that something breaks, you don’t have to remove the gearbox from the plate it’s attached to to be able to switch that part out. Another nice thing is that attaching the pinion to a bare motor is super easy since it clamps onto the motor shaft instead of being a press fit like the NeveRest sport pinion gear is. This means you don’t need any special tools like a press and can switch motors out very quickly, even during a competition. VersaPlanetarys also allow you to choose your own ratio with swappable 3:1, 4:1, 5:1, 7:1, 9:1, and 10:1 stages. When using VersaPlanetary gearboxes there are a few important factors for you to consider.</dt><dd><ul>
+<li><p>The higher the reduction, the weaker the stage is. So for instance, a gearbox with 4:1, 4:1, 5:1 stages would be stronger than a 10:1, 10:1 gearbox though they end up with the same output ratio of 100:1.</p></li>
+<li><p>Always place the highest reduction as close as you can to the motor. There is less load placed on it here, and is less likely to break than if you placed it higher in the reduction. Then after your weakest stage, you should use your next weakest stage, until you reach the output stage.</p></li>
+<li><p>Vex Pro also sells a VersaPlanetary Lite option, which replaces the outer aluminum ring gear and housing with a 30% glass filled nylon. VersaPlanetary Lite gearboxes use the same gear sets as the regular VersaPlanetary, so if you ever feel the need for a stronger gearbox you can mix and match parts to fill your requirement. While still expensive (compared to other planetary gearboxes from Andymark, REV, and goBilda) at about $50 for one gearbox, it’s still one of the strongest gearboxes available for FTC use. It should be noted that the lite version comes with a ⅜” output shaft only, whereas the more expensive VersaPlanetary comes with various options including ½” hex, ⅜” hex, ½” round with ⅛” keyway, a CIM Output option, and a Universal Female Output Shaft. However, the shaft can be swapped out for a different one. The VersaPlanetary lite also loses side mounting holes on the gearbox.</p></li>
+<li><p>Like the NeveRest Sport gearboxes, you will need to supply your own bare motor to attach to the gearbox.</p></li>
 </ul>
 </dd>
 </dl>
@@ -274,78 +421,52 @@ and which is easiest to work with your existing electronics system.</p>
 </div>
 
 
+           </div>
+           
           </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="jvn-calculator.html" class="btn btn-neutral float-right" title="JVN Calculator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Motor Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Game Manual 0 Contributors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Motor Hardware</a><ul>
-<li><a class="reference internal" href="#shafts">Shafts</a></li>
-<li><a class="reference internal" href="#connectors">Connectors</a></li>
-<li><a class="reference internal" href="#gearboxes">Gearboxes</a><ul>
-<li><a class="reference internal" href="#spur-gearboxes">Spur Gearboxes</a><ul>
-<li><a class="reference internal" href="#advantages-of-spur-gearboxes">Advantages of Spur Gearboxes</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#planetary-gearboxes">Planetary Gearboxes</a><ul>
-<li><a class="reference internal" href="#advantages-of-planetary-gearboxes">Advantages of Planetary Gearboxes</a></li>
-<li><a class="reference internal" href="#available-planetary-gearboxes-and-motors">Available Planetary Gearboxes and Motors</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#choosing-the-right-gearbox">Choosing the right gearbox</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="../../index.html">Documentation overview</a><ul>
-  <li><a href="index.html">Motor Guide</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter">Motor Guide</a></li>
-      <li>Next: <a href="jvn-calculator.html" title="next chapter">JVN Calculator</a></li>
-  </ul></li>
-  </ul></li>
-</ul>
-</div>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../_sources/docs/motor-guide/motor-hardware.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="../../search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &copy;2019, Game Manual 0 Contributors.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
-      
-      |
-      <a href="../../_sources/docs/motor-guide/motor-hardware.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
 
-    
+    </section>
 
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+  
+  
     
-  </body>
+   
+
+</body>
 </html>
