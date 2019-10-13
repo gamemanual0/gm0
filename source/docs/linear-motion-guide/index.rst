@@ -17,7 +17,7 @@ In some games, an extension of 36" or more may be needed.
 **Note - it is possible to achieve extension with an arm, 
 but since this guide is geared toward newer teams, 
 linear extensions should be prioritized over arms. 
-Refer to the :doc:`Arm Guide <../arms/index>` for more information.**
+Refer to the** :doc:`Arm Guide <../arms/index>` **for more information.**
 
 .. toctree::
    :maxdepth: 1
