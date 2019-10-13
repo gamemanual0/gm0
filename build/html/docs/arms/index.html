@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Arms &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Single Arm" href="single-arm.html" />
+    <link rel="prev" title="Rigging" href="../linear-motion-guide/rigging.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="arms">
+<h1>Arms<a class="headerlink" href="#arms" title="Permalink to this headline">¶</a></h1>
+<p>Arms are another way to achieve extension past the 18” x 18” dimension of the
+robot.
+Unlike linear extensions, arms require lots of torque -
+a standard 40:1 or even 60:1 gearbox will not be suitable in most applications.
+For example, many teams will run a 256:1 gearbox for their rotation motor.
+A budget option is the goBILDA planetary 188:1 which gives a high gear ratio at
+a relatively low price of $30.
+Note that these will have to be very well supported,
+more so than the VersaPlanetary or Sport options
+(more expensive and more robust alternatives).
+Rarely should an arm be directly mounted to the driving motor.
+Instead, torque should be transferred via gear, chain, or belt.
+Large arms can also be hard to control
+(with the addition of momentum adding load to the gearbox,
+it is hard to stop a three-foot arm that weighs five pounds quickly without
+breaking a gearbox).
+In many cases, this issue can be mitigated with software
+(see the <a class="reference internal" href="../software/control-loops.html"><span class="doc">Control Loops</span></a> section).</p>
+<p>Depending on the application and implementation,
+arms can be either faster or slower than extension options.</p>
+<p>The different types of arms in FTC include single arm, chain bar and
+multi-axis arms.</p>
+<div class="section" id="advantages">
+<h2>Advantages<a class="headerlink" href="#advantages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Single bar arms can be relatively simple to build.</li>
+<li>Arms can be useful in low-load applications; however, most mechanisms in FTC are not very light.</li>
+</ul>
+</div>
+<div class="section" id="disadvantages">
+<h2>Disadvantages<a class="headerlink" href="#disadvantages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Arms require an insane amount of torque, and in order to do so, teams must purchase more expensive gearboxes not found in kits, such as the Andymark NeveRest Sport or VersaPlanetary.</li>
+<li>While single arm arms may be more simple, they cannot provide enough extension for most games.</li>
+</ul>
+</div>
+<div class="section" id="types-of-arms">
+<h2>Types of Arms<a class="headerlink" href="#types-of-arms" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="single-arm.html">Single Arm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chain-bar-arm.html">Chain Bar Arm/4-Bar Linkage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multi-axis-arm.html">Multi-Axis Arm</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Arms</a><ul>
+<li><a class="reference internal" href="#advantages">Advantages</a></li>
+<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+<li><a class="reference internal" href="#types-of-arms">Types of Arms</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../linear-motion-guide/rigging.html" title="previous chapter">Rigging</a></li>
+      <li>Next: <a href="single-arm.html" title="next chapter">Single Arm</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/arms/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/arms/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -12,13 +12,13 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-is_release_build = False
+is_release_build = os.environ.get('READTHEDOCS') == 'True'
 
 project = 'Game Manual 0'
 author = 'Game Manual 0 Contributors'
@@ -27,6 +27,7 @@ copyright_year = 2019
 
 copyright = str(copyright_year) + ", " + str(author)
 
+highlight_language = "java"
 
 # The short X.Y version
 version = ''
@@ -47,7 +48,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.graphviz',
-    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

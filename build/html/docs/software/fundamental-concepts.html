@@ -1,0 +1,277 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Fundamental Concepts of Programming &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Options for Programming" href="options-for-programming.html" />
+    <link rel="prev" title="Software" href="index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fundamental-concepts-of-programming">
+<h1>Fundamental Concepts of Programming<a class="headerlink" href="#fundamental-concepts-of-programming" title="Permalink to this headline">¶</a></h1>
+<p>For almost any programming language, whether it’s Java, Python, or Blocks,
+there are concepts in coding that transfer across languages.
+These ideas are foundational when learning to program and should be applicable
+in FTC and beyond.</p>
+<p>This section is primarily for people with limited Java experience.
+However, even if you are more experienced,
+it may still be helpful to skim through the section,
+as you might find concepts that have not yet been introduced to you.</p>
+<p>Examples will mostly be in Java, where <code class="docutils literal"><span class="pre">//</span></code> indicates a comment which the
+program ignores and is used for people to read.:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">number</span><span class="o">;</span> <span class="c1">// Declaring that number will contain an integer.</span>
+<span class="n">number</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span> <span class="c1">// Setting a value so that the variable holds something.</span>
+<span class="kt">int</span> <span class="n">secondNumber</span> <span class="o">=</span> <span class="mi">6</span><span class="o">;</span> <span class="c1">// Doing both above.</span>
+<span class="kt">int</span> <span class="n">total</span> <span class="o">=</span> <span class="n">number</span> <span class="o">+</span> <span class="n">secondNumber</span><span class="o">;</span> <span class="c1">// Math.</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">total</span><span class="o">);</span> <span class="c1">// Printing, it will show up as 11.</span>
+</pre></div>
+</div>
+<div class="section" id="java-specific-exploratory-questions">
+<h2>Java-Specific Exploratory Questions<a class="headerlink" href="#java-specific-exploratory-questions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>If I didn’t set a value for number and then I printed it, what would it print?</li>
+<li>What other operations can I do with number and secondNumber?</li>
+<li>Can I set a decimal to number? If not, what happens?</li>
+<li>What is System.out.println(); ?</li>
+<li>Delete one character in the code. Remember the error (if any), and then undo it. Delete another part. How many different errors can you get?</li>
+</ul>
+<div class="section" id="there-are-different-types-of-variables">
+<h3>There are different types of variables<a class="headerlink" href="#there-are-different-types-of-variables" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Numbers (Integers, Floats, Doubles)</li>
+<li>Strings (Text) or characters</li>
+<li>And a lot more depending on the language (Ex: Arrays)</li>
+<li>They help tell the program know the basis of what it should do with a variable.</li>
+</ul>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">String</span> <span class="n">coolName</span> <span class="o">=</span> <span class="s">&quot;Gluten Free&quot;</span><span class="o">;</span>
+<span class="n">String</span> <span class="n">restOfSentence</span> <span class="o">=</span> <span class="s">&quot; is epic.&quot;</span><span class="o">;</span>
+
+<span class="c1">// Prints out the sentence by combining the strings, unlike adding if they // were integers</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">coolName</span> <span class="o">+</span> <span class="n">restOfSentence</span><span class="o">);</span>
+
+<span class="c1">// Fun fact: Using + to add strings is called String Concatenation</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h2>Java-Specific Exploratory Questions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Replace the text in coolName to something else. Your name, a phone number, your favorite anime. What about emotes and copypastas? What about characters in other languages?</li>
+<li>Try adding a number and a string, what happens?</li>
+<li>Is it possible to add multiple strings and numbers together?</li>
+</ul>
+<div class="section" id="important-control-structures">
+<h3>Important Control Structures<a class="headerlink" href="#important-control-structures" title="Permalink to this headline">¶</a></h3>
+<p>Be sure to familiarize yourself with basic control structures
+(if/else statements, for loops, while loops, and for-each loops).
+These control structures are by far the most commonly encountered, and thus,
+familiarizing yourself with these principles is extremely important
+(not just for FTC, but programming in general).
+However, there are a few control structures that are far less common that are
+extremely useful in FTC.</p>
+</div>
+</div>
+<div class="section" id="finite-state-machines-and-enums">
+<h2>Finite State Machines and Enums<a class="headerlink" href="#finite-state-machines-and-enums" title="Permalink to this headline">¶</a></h2>
+<p>A Finite State Machine (FSM) is a control structure that executes one of several
+code segments depending on its state. The logic can be thought of using
+if-statements:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="o">(</span><span class="n">state</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">doThing1</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">state</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">doThing2</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">state</span> <span class="o">==</span> <span class="mi">2</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">doThing3</span><span class="o">();</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<p>In this example, the state variable can have 1 of 3 values: 0, 1, and 2.
+Depending on what value state has, different code segments are executed.
+However, instead of using primitive types or strings to store this information,
+the data type known as an Enum can be used instead.</p>
+<p>Enums are a user-defined data structure that allow you to easily create and keep
+track of states in a state machine.
+<strong>Each state should represent one unique, independent action of the robot</strong>.
+Here’s one simple example when a state machine is applied to a scoring lift:</p>
+<p>This is how the state machine is defined:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kd">public</span> <span class="kd">enum</span> <span class="n">LiftState</span> <span class="o">{</span>
+    <span class="n">IDLE</span><span class="o">,</span>
+    <span class="n">EXTEND</span><span class="o">,</span>
+    <span class="n">RETRACT</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<p>Then, you can initialize the a LiftState enum like this:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">LiftState</span> <span class="n">liftState</span> <span class="o">=</span> <span class="n">LiftState</span><span class="o">.</span><span class="na">IDLE</span><span class="o">;</span>
+</pre></div>
+</div>
+<p>And here is how to use the enum LiftState to create a state machine:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="c1">//anything inside the brackets after switch(autoState) defines the robot&#39;s action at each state</span>
+<span class="k">switch</span> <span class="o">(</span><span class="n">liftState</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">//case IDLE is equivalent to if(liftState == LiftState.IDLE)</span>
+    <span class="k">case</span> <span class="n">IDLE</span><span class="o">:</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">b</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">liftState</span> <span class="o">=</span> <span class="n">LiftState</span><span class="o">.</span><span class="na">EXTEND</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">a</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">liftState</span> <span class="o">=</span> <span class="n">LiftState</span><span class="o">.</span><span class="na">RETRACT</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="c1">//break tells the program it should no longer execute the code within the IDLE state and can move on to check the next state</span>
+        <span class="k">break</span><span class="o">;</span>
+    <span class="k">case</span> <span class="n">EXTEND</span><span class="o">:</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">topTouchSensor</span><span class="o">.</span><span class="na">isPressed</span><span class="o">()){</span>
+            <span class="n">liftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+            <span class="n">liftState</span> <span class="o">=</span> <span class="n">LiftState</span> <span class="o">=</span> <span class="n">LiftState</span><span class="o">.</span><span class="na">IDLE</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">else</span> <span class="o">{</span>
+            <span class="n">liftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">break</span><span class="o">;</span>
+    <span class="k">case</span> <span class="n">RETRACT</span><span class="o">:</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">bottomTouchSensor</span><span class="o">.</span><span class="na">isPressed</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">liftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+            <span class="n">liftState</span> <span class="o">=</span> <span class="n">LiftState</span> <span class="o">=</span> <span class="n">LiftState</span><span class="o">.</span><span class="na">IDLE</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">else</span> <span class="o">{</span>
+            <span class="n">liftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(-</span><span class="mi">1</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">break</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<div class="section" id="data-structures-arrays">
+<h3>Data Structures (Arrays)<a class="headerlink" href="#data-structures-arrays" title="Permalink to this headline">¶</a></h3>
+<p>Data structures are a method of organizing and storing large amounts of data.
+There are a lot of different types of data structures that mostly differ in the
+relationships between data points,
+and we would recommend that you read into them.
+We will only go over a few here.</p>
+<dl class="docutils">
+<dt><a class="reference external" href="https://www.geeksforgeeks.org/arrays-in-java/">Arrays</a></dt>
+<dd>Arrays are the most basic and simple data structure.
+When an array is initialized, its size must be set,
+and it cannot be changed.
+If you wish to expand an array,
+a new one must be created and all of the old data copied over.
+Elements of an array are stored adjacent to each other in memory,
+so when they are accessed the number you want to access times the amount of
+bits in the object in the array is added to the starting address,
+and data is accessed from there.
+This means that arrays are incredibly efficient at reading data in a
+nonlinear order.</dd>
+</dl>
+<p><a class="reference external" href="https://www.geeksforgeeks.org/arraylist-in-java/">ArrayList</a></p>
+<p><a class="reference external" href="https://www.geeksforgeeks.org/classes-objects-java/">Object Oriented Programming in Java</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Fundamental Concepts of Programming</a><ul>
+<li><a class="reference internal" href="#java-specific-exploratory-questions">Java-Specific Exploratory Questions</a><ul>
+<li><a class="reference internal" href="#there-are-different-types-of-variables">There are different types of variables</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id1">Java-Specific Exploratory Questions</a><ul>
+<li><a class="reference internal" href="#important-control-structures">Important Control Structures</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#finite-state-machines-and-enums">Finite State Machines and Enums</a><ul>
+<li><a class="reference internal" href="#data-structures-arrays">Data Structures (Arrays)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Software</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Software</a></li>
+      <li>Next: <a href="options-for-programming.html" title="next chapter">Options for Programming</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/software/fundamental-concepts.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/software/fundamental-concepts.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

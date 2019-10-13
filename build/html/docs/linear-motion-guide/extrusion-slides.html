@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Extrusion Slides &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Drawer Slides" href="drawer-slides.html" />
+    <link rel="prev" title="Linear Motion Guide" href="index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="extrusion-slides">
+<h1>Extrusion Slides<a class="headerlink" href="#extrusion-slides" title="Permalink to this headline">¶</a></h1>
+<p>Extrusion slides are made up of a stack of extrusions that extend by sliding
+along each other.
+There are two ways to make this happen: bushings or V-wheels.
+Bushing slides connect the two slides with two self-lubricating plastic pieces
+that slide smoothly along the slots in the extrusion.
+V-wheel slides have V-shaped groove bearings on both sides of the extrusion that
+bite intro grooves on the extrusion, allowing the stages to slide smoothly.
+REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate nicely
+with existing FTC kit parts.
+Beyond this, MakerBeam sells components for a V-wheel extrusion slide,
+and Misumi offers a few different sizes of bushing-based extrusion slides.
+REV furthermore sells a 8020 v-groove bearing slide kit for FRC,
+that is not recommended for FTC use cases.
+<strong>We recommend that newer teams stick to slide kits designed for FTC instead of
+DIY alternatives.</strong></p>
+<div class="section" id="rev-robotics-15mm-linear-motion-kit">
+<h2>REV Robotics 15mm Linear Motion Kit<a class="headerlink" href="#rev-robotics-15mm-linear-motion-kit" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="http://www.revrobotics.com/rev-45-1507/">REV 15mm Linear Motion Kit</a>
+is based off of the 15mm extrusion system.
+<strong>This extrusion kit does not perform spectacularly without modification.</strong>
+This has been partially remedied by REV as they have developed a second
+iteration of their slide kit,
+which has much better tolerances on the Delrin sliders.
+Still, you’ll see a lot of competitive teams use this kit with multiple
+modifications, such as adding lots of lubricant and mounting the sliders
+differently.
+Teams have also 3D printed their own sliders,
+though this is not a great idea for teams without much 3D printing experience.
+One of the biggest issues with the stock REV kit is the tendency of the slides
+to bind.
+Additionally, since the only thing attaching one extrusion to another is the
+plastic slider, the REV slides are not particularly sturdy,
+and require crossbeams to keep alignment.
+Overall, this kit is lightweight, simple, and cheap.
+It can be a good start for teams using REV and needing a linear extension,
+and is generally usable out of the box.
+However, it is not very smooth and only achieves its maximum potential when
+modified and tweaked.</p>
+<div class="section" id="advantages">
+<h3>Advantages<a class="headerlink" href="#advantages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>REV has complete guide on how to rig the linear slides</li>
+<li>Easily interfaces with REV building system</li>
+<li>Lightweight, should be used for light/medium loads only</li>
+<li>If tweaked, can be a very efficient linear slide</li>
+</ul>
+</div>
+<div class="section" id="disadvantages">
+<h3>Disadvantages<a class="headerlink" href="#disadvantages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Does not perform perfectly out of the box</li>
+<li>Can flex under load, needs additional support</li>
+<li>May need some modifications such as custom sliders</li>
+</ul>
+</div>
+</div>
+<div class="section" id="actobotics-x-rail-slide-kit">
+<h2>Actobotics X-rail Slide Kit<a class="headerlink" href="#actobotics-x-rail-slide-kit" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://www.servocity.com/cascading-x-rail-slide-kit">X-rail Slide Kit</a>
+works well out of the box.
+However, the main caveat is that the kit has a <strong>very low maximum load
+(2lb. at maximum extension)</strong>.
+Teams will have to keep their designs on this kit particularly lightweight.
+This slide uses elastic retraction through the use of surgical tubing,
+which means that instead of having both an extend and return string,
+there is a retraction force applied at all times.
+This helps simplify tensioning and spooling, however,
+limits how fast the slide can be run.
+Additionally, the plastic end caps have a reputation of breaking regularly
+because they endure shock load every time the slide extends to maximum.
+3D printed alternatives may be more sturdy than the stock end caps.
+<strong>It is highly recommended that teams add an additional set of v-groove bearings
+at the end of each piece of extrusion to give each stage an additional point of
+support</strong>.
+This will increase load capacity and possibly smoothness.</p>
+<div class="section" id="id1">
+<h3>Advantages<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Easily interfaces with Actobotics building system</li>
+<li>Elastic retraction is a simple way to retract</li>
+<li><strong>Should be used for light/medium loads only</strong></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Disadvantages<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Will flex under load, needs additional support</li>
+<li>Elastic retraction slows down extension speed and retraction will be slower than string retraction</li>
+</ul>
+</div>
+</div>
+<div class="section" id="gobilda-gorail">
+<h2>goBILDA goRAIL<a class="headerlink" href="#gobilda-gorail" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.gobilda.com/gorail-based/">Linear motion guides</a> are goBILDA’s
+take on linear motion using goRAIL, which is a type of extrusion compatible with
+v-groove bearings.
+Similar to a standard 8020 v-groove carriage, used in FRC,
+goRAIL is a lighter option that is better suited for FTC.</p>
+<img alt="11115 Gluten Free's Rover Ruckus robot with slides extended" src="../../_images/11115-slides.png" />
+<div class="figure" id="id3">
+<img alt="11115 Gluten Free's custom Rev slider" src="../../_images/11115-slider.png" />
+<p class="caption"><span class="caption-text">11115 Gluten Free, Rover Ruckus, custom REV slides</span></p>
+</div>
+<div class="figure" id="id4">
+<img alt="8680 Kraken-Pinion's Rover Ruckus robot with slides extended" src="../../_images/8680-slides.jpg" />
+<p class="caption"><span class="caption-text">8680 Kraken-Pinion, Rover Ruckus, REV</span></p>
+</div>
+<div class="figure" id="id5">
+<img alt="12599 Overcharged's Relic Recovery robot with relic slide extended" src="../../_images/12599-slides.jpg" />
+<p class="caption"><span class="caption-text">12599 Overcharged, Relic Recovery, Actobotics X-Rail</span></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Extrusion Slides</a><ul>
+<li><a class="reference internal" href="#rev-robotics-15mm-linear-motion-kit">REV Robotics 15mm Linear Motion Kit</a><ul>
+<li><a class="reference internal" href="#advantages">Advantages</a></li>
+<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#actobotics-x-rail-slide-kit">Actobotics X-rail Slide Kit</a><ul>
+<li><a class="reference internal" href="#id1">Advantages</a></li>
+<li><a class="reference internal" href="#id2">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#gobilda-gorail">goBILDA goRAIL</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Linear Motion Guide</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Linear Motion Guide</a></li>
+      <li>Next: <a href="drawer-slides.html" title="next chapter">Drawer Slides</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/linear-motion-guide/extrusion-slides.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/linear-motion-guide/extrusion-slides.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

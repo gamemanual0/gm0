@@ -1,0 +1,163 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Passive Intake/Claw &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Active Intake" href="../active-intake/index.html" />
+    <link rel="prev" title="Multi-Axis Arm" href="../arms/multi-axis-arm.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="passive-intake-claw">
+<h1>Passive Intake/Claw<a class="headerlink" href="#passive-intake-claw" title="Permalink to this headline">¶</a></h1>
+<p>Passive intakes are mechanisms in which the driver must pick up individual
+items, usually by actuating some sort of gripper,
+which holds the game element.
+Claws are the most common sort of passive intake and probably one of the first
+mechanisms that jump to mind during brainstorming.
+Unlike most intakes, claws can be made with only servos,
+and thus don’t require valuable motor slots.
+This is not to say there are no disadvantages; notably, unlike intakes,
+when you pick up something with a claw,
+it isn’t easy to transfer the collected element to a separate scoring mechanism.
+For this reason, in most cases, claws double as both a collection method and a
+scoring method.
+<strong>Claws are extremely useful for picking up large, unwieldy elements that cannot
+be controlled by active intakes</strong>.
+For example, the relic in Relic Recovery would be much harder to control using a
+more active intake; so teams used a claw.
+<strong>However, claws are outclassed by active intakes for picking up small game pieces
+in nearly every game</strong>.</p>
+<div class="section" id="advantages">
+<h2>Advantages<a class="headerlink" href="#advantages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Much simpler than an intake</li>
+<li>Takes a lot less time to build than a reliable intake + transfer</li>
+<li>Less moving parts = less things that can go wrong</li>
+<li>Usually does not take up a motor slot</li>
+<li>Can pick up odd shaped game elements that active intakes can’t</li>
+</ul>
+</div>
+<div class="section" id="disadvantages">
+<h2>Disadvantages<a class="headerlink" href="#disadvantages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Depending on their use case, claws are slower than intakes.</dt>
+<dd><ul class="first last">
+<li>The driver must angle the robot, position the claw, and grab the game element.</li>
+<li>By contrast, with an intake, the driver needs only to position the intake and grab the game elements.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>Claws can be more fragile and break easily.</li>
+<li>In cases in which claws are slower than intakes, they can be much more prone to defensive maneuvers. The more time spent collecting, the more vulnerable you are.</li>
+</ul>
+<div class="figure" id="id1">
+<img alt="11115's relic claw" src="../../_images/11115-relic-claw.png" />
+<p class="caption"><span class="caption-text">11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery</span></p>
+</div>
+<div class="figure" id="id2">
+<img alt="8680's relic claw" src="../../_images/8680-relic-claw.png" />
+<p class="caption"><span class="caption-text">8680 Kraken-Pinion, Relic Recovery</span></p>
+</div>
+<div class="figure" id="id3">
+<img alt="13075's glyph claw" src="../../_images/13075-glyph-claw.png" />
+<p class="caption"><span class="caption-text">13075 Coram Deo Academy Robotics, Relic Recovery (<strong>suboptimal use case</strong>)</span></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Passive Intake/Claw</a><ul>
+<li><a class="reference internal" href="#advantages">Advantages</a></li>
+<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../arms/multi-axis-arm.html" title="previous chapter">Multi-Axis Arm</a></li>
+      <li>Next: <a href="../active-intake/index.html" title="next chapter">Active Intake</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/passive-intake/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/passive-intake/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

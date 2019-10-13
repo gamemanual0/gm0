@@ -1,0 +1,326 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Using the FTC SDK &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Programming Tutorial - Mecanum Drivetrain" href="mecanum-drive.html" />
+    <link rel="prev" title="Options for Programming" href="options-for-programming.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="using-the-ftc-sdk">
+<h1>Using the FTC SDK<a class="headerlink" href="#using-the-ftc-sdk" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="linearopmode-vs-opmode">
+<h2>LinearOpMode vs OpMode<a class="headerlink" href="#linearopmode-vs-opmode" title="Permalink to this headline">¶</a></h2>
+<p>There are two OpMode classes within the FTC SDK:
+<code class="docutils literal"><span class="pre">OpMode</span></code> and <code class="docutils literal"><span class="pre">LinearOpMode</span></code>.
+The one you use affects how you write the program.
+For examples of how to use OpMode and LinearOpMode,
+<a class="reference external" href="https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples">refer to the example OpModes in the sdk</a>.</p>
+<div class="section" id="linearopmode-methods">
+<h3>LinearOpMode Methods<a class="headerlink" href="#linearopmode-methods" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">runOpMode()</span></code>: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.</li>
+<li><code class="docutils literal"><span class="pre">waitForStart()</span></code>: This method pauses the Op-Mode until you press the START button on the driver station</li>
+<li><code class="docutils literal"><span class="pre">isStarted()</span></code>: returns <code class="docutils literal"><span class="pre">true</span></code> if the START button has been pressed, otherwise it returns <code class="docutils literal"><span class="pre">false</span></code></li>
+<li><code class="docutils literal"><span class="pre">isStopRequested()</span></code>: returns <code class="docutils literal"><span class="pre">true</span></code> if the STOP button has been pressed, otherwise it returns <code class="docutils literal"><span class="pre">false</span></code></li>
+<li><code class="docutils literal"><span class="pre">idle()</span></code>: puts the thread to sleep</li>
+<li><code class="docutils literal"><span class="pre">opModeIsActive()</span></code>: returns <code class="docutils literal"><span class="pre">isStarted()</span> <span class="pre">&amp;&amp;</span> <span class="pre">!isStopRequested()</span></code> and calls <code class="docutils literal"><span class="pre">idle()</span></code></li>
+</ul>
+</div>
+<div class="section" id="opmode-methods">
+<h3>OpMode Methods<a class="headerlink" href="#opmode-methods" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">init()</span></code>: Code inside this method will run exactly once after you press the INIT button on the driver station</li>
+<li><code class="docutils literal"><span class="pre">init_loop()</span></code>: Once the code in <code class="docutils literal"><span class="pre">init()</span></code> has been run, code inside this method will run continuously until the START button is pressed on the driver station</li>
+<li><code class="docutils literal"><span class="pre">start()</span></code>: Code inside this method will run exactly once after you press the START button on the driver station</li>
+<li><code class="docutils literal"><span class="pre">loop()</span></code>: Once the code in <code class="docutils literal"><span class="pre">start()</span></code> has been run, code inside this method will run continuously until the STOP button is pressed on the driver station</li>
+<li><code class="docutils literal"><span class="pre">stop()</span></code>: Code inside this method will run exactly once after you press the STOP button on the driver station</li>
+</ul>
+<p>Note that unlike LinearOpMode, all methods in OpMode must be overwritten to be used.</p>
+</div>
+</div>
+<div class="section" id="reading-and-writing-to-hardware">
+<h2>Reading and Writing to Hardware<a class="headerlink" href="#reading-and-writing-to-hardware" title="Permalink to this headline">¶</a></h2>
+<p>When using the FTC SDK, there are a variety of built in hardware classes.
+Objects can be created for these classes and then instantiated.
+These objects can then be used to communicate with hardware on the robot such as
+DC Motors, Servos, and Sensors.</p>
+<div class="section" id="creating-and-instantiating-hardware-objects">
+<h3>Creating and Instantiating Hardware Objects<a class="headerlink" href="#creating-and-instantiating-hardware-objects" title="Permalink to this headline">¶</a></h3>
+<p>The first thing required to properly create an object is to import its class.
+In Android Studio, if the class is referenced without being imported Alt+Enter
+can be pressed to automatically import it.
+After it is imported, the next step is to create the object:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kd">private</span> <span class="n">DcMotor</span> <span class="n">liftMotor</span><span class="o">;</span>
+</pre></div>
+</div>
+<p>After the object is created, it must be instantiated.
+Part of the opmode superclass is something called <code class="docutils literal"><span class="pre">hardwareMap</span></code>.
+<code class="docutils literal"><span class="pre">hardwareMap</span></code> is used in the FTC SDK to instantiate objects rather than
+calling a constructor.
+It contains all of the information entered into the configuration on the
+Robot Controller, such as names of hardware and what port it is plugged into.
+Here is an example of instantiating the motor we created above:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">liftMotor</span> <span class="o">=</span> <span class="n">hardwareMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Lift Motor&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Whatever sensor you are using,
+you will pass that class into the spot where <code class="docutils literal"><span class="pre">DcMotor.class</span></code> is.
+For example, if liftMotor was a Servo, <code class="docutils literal"><span class="pre">Servo.class</span></code> would be passed
+instead.
+For the second argument, you pass whatever the device is named in the Robot
+Controller configuration.
+<code class="docutils literal"><span class="pre">hardwareMap</span></code> will then go find what port the device with that name is
+plugged into, which allows the hardware to be accessed.</p>
+</div>
+<div class="section" id="examples-of-using-common-hardware-components">
+<h3>Examples of Using Common Hardware Components<a class="headerlink" href="#examples-of-using-common-hardware-components" title="Permalink to this headline">¶</a></h3>
+<p>Built in to the FTC SDK are many examples of using things such as Color Sensors,
+Distance Sensors, Servos, Motors, etc.
+Here, we would like to give more of an explanation of using Motors and Servos
+because there are a few things the examples do not teach.</p>
+<div class="section" id="dc-motor">
+<h4>DC Motor<a class="headerlink" href="#dc-motor" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">DcMotor</span> <span class="n">leftMotor</span> <span class="o">=</span> <span class="n">hardwareMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Left Motor&quot;</span><span class="o">);</span>
+<span class="n">DcMotor</span> <span class="n">rightMotor</span> <span class="o">=</span> <span class="n">hardwareMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Right Motor&quot;</span><span class="o">);</span>
+
+<span class="n">DcMotor</span> <span class="n">elevatorMotor</span> <span class="o">=</span> <span class="n">hardware</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Elevator Motor&quot;</span><span class="o">);</span>
+<span class="n">DcMotor</span> <span class="n">intakeMotor</span> <span class="o">=</span> <span class="n">hardware</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Intake Motor&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>After a <code class="docutils literal"><span class="pre">DcMotor</span></code> is instantiated,
+there are a few variables you can set to affect how the DC Motor runs.
+The first of these is direction:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">leftMotor</span><span class="o">.</span><span class="na">setDirection</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">Direction</span><span class="o">.</span><span class="na">REVERSE</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setDirection</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">Direction</span><span class="o">.</span><span class="na">FORWARD</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Changing the direction of the motor does exactly what should be expected,
+it changes the direction.
+If a power of 1 is applied to the motor while it is in forward mode,
+it will turn one direction.
+If it is in reverse, a power of 1 will spin it in the other direction.
+If you face the shaft of the motor towards you,
+forward is counterclockwise (with the exception of NeveRest motors).</p>
+<p>Next, there are two zero power behaviors that can be adjusted:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">leftMotor</span><span class="o">.</span><span class="na">setZeroPowerBehavior</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">ZeroPowerBehavior</span><span class="o">.</span><span class="na">BRAKE</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setZeroPowerBehavior</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">ZeroPowerBehavior</span><span class="o">.</span><span class="na">FLOAT</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Changing this variable affects how the DC Motor behaves while a power of 0 is
+applied.
+<code class="docutils literal"><span class="pre">BRAKE</span></code> will cause the motor to try and slow itself down if it is moving
+(it will NOT cause the motor to hold its position if not already moving),
+while <code class="docutils literal"><span class="pre">FLOAT</span></code> causes the motor to glide to a stop, letting friction do all
+the work.</p>
+<p>Finally, there are four different run modes that can be used with DC motors:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">leftMotor</span><span class="o">.</span><span class="na">setMode</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">RunMode</span><span class="o">.</span><span class="na">RUN_WITHOUT_ENCODER</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setMode</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">RunMode</span><span class="o">.</span><span class="na">RUN_USING_ENCODER</span><span class="o">);</span>
+
+<span class="n">elevatorMotor</span><span class="o">.</span><span class="na">setMode</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">RunMode</span><span class="o">.</span><span class="na">RUN_TO_POSITION</span><span class="o">);</span>
+<span class="n">intakeMotor</span><span class="o">.</span><span class="na">setMode</span><span class="o">(</span><span class="n">DcMotor</span><span class="o">.</span><span class="na">RunMode</span><span class="o">.</span><span class="na">STOP_AND_RESET_ENCODER</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>It is important to note that encoder values can be read in any of these modes
+provided an encoder is properly plugged in.
+These modes just change how the motor reacts to these encoder values.
+<code class="docutils literal"><span class="pre">RUN_WITHOUT_ENCODER</span></code> makes the motor behave as if there is no encoder
+plugged in.
+When <code class="docutils literal"><span class="pre">setPower()</span></code> is called, it sets the output voltage to the motor
+directly.</p>
+<p>Using <code class="docutils literal"><span class="pre">RUN_WITH_ENCODER</span></code>, the power set takes a more indirect route to the
+motor.
+It first goes through a velocity PID,
+and the output from that controller is output to the motor.
+This effectively means that setPower() sets the speed of the motor,
+not the power.
+If a power of .2 were fed while this mode is active,
+the motor will attempt to turn the same speed by fluctuating the output voltage
+depending on the load on the motor.
+This mode has one significant disadvantage, however.
+The max speed of the motor is somewhat significantly decreased, so it is
+recommended to use <code class="docutils literal"><span class="pre">RUN_WITHOUT_ENCODER</span></code> if possible if maximum speed is
+the goal; however, <code class="docutils literal"><span class="pre">RUN_USING_ENCODER</span></code> will provide more consistent
+results.</p>
+<p>The final mode is <code class="docutils literal"><span class="pre">RUN_TO_POSITION</span></code>.
+To make the motor move with this mode,
+the function <code class="docutils literal"><span class="pre">setTargetPosition()</span></code> must be called.
+When a power is applied to the motor,
+a control loop will use that as the max power and try to drive the encoder
+position to the target position.
+This can be useful to newer teams for autonomous,
+as it can be an easy way to have accurate driving functions.</p>
+</div>
+<div class="section" id="servo">
+<h4>Servo<a class="headerlink" href="#servo" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">Servo</span> <span class="n">relicServo</span> <span class="o">=</span> <span class="n">hardwareMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">Servo</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Release Servo&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>After instantiating a Servo, there are two main functions that can be called:
+<code class="docutils literal"><span class="pre">setPosition()</span></code> and <code class="docutils literal"><span class="pre">getPosition()</span></code>.</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">releaseServo</span><span class="o">.</span><span class="na">setPosition</span><span class="o">(</span><span class="mf">0.75</span><span class="o">);</span>
+<span class="n">telemetry</span><span class="o">.</span><span class="na">addData</span><span class="o">(</span><span class="s">&quot;Release Servo Target&quot;</span><span class="o">,</span> <span class="n">releaseServo</span><span class="o">.</span><span class="na">getPosition</span><span class="o">());</span>
+</pre></div>
+</div>
+<p><code class="docutils literal"><span class="pre">setPosition()</span></code> sets the position of the servo.
+The SDK will use a built-in control loop with the servo’s potentiometer to drive
+the servo to that position and hold that position. <code class="docutils literal"><span class="pre">setPosition()</span></code> takes
+in a double between 0 and 1, where 0 is the servo’s lower limit of rotation and
+1 is the servo’s upper limit of rotation.
+Everything between is directly proportional,
+so 0.5 is the middle, 0.75 is ¾ the way up, etc.</p>
+<p><code class="docutils literal"><span class="pre">getPosition()</span></code> does not return the servo’s current position,
+rather its current target position.
+If a variable for the servo’s current target position is stored properly,
+this function should never be needed.</p>
+</div>
+<div class="section" id="continuous-rotation-servo">
+<h4>Continuous Rotation Servo<a class="headerlink" href="#continuous-rotation-servo" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">CRServo</span> <span class="n">intakeServo</span> <span class="o">=</span> <span class="n">hardwareMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">CRServo</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="s">&quot;Intake Servo&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>A CRServo has one main method; <code class="docutils literal"><span class="pre">setPower()</span></code>.
+This works very similarly to <code class="docutils literal"><span class="pre">DcMotor</span></code> ‘s <code class="docutils literal"><span class="pre">setPower()</span></code>, meaning that
+passing it 0 makes it stop, passing it 1 makes it go forward at full speed,
+passing it -1 makes it go backwards at full speed, and everything in between.</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">intakeServo</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="mf">0.75</span><span class="o">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="gamepad-input">
+<h4>Gamepad Input<a class="headerlink" href="#gamepad-input" title="Permalink to this headline">¶</a></h4>
+<p>A very important aspect of programming a driver controlled opmode is taking
+driver controls.
+Thankfully in the FTC SDK, this is very easy to do.
+Inside of every opmode, there are already 2 working gamepad objects,
+<code class="docutils literal"><span class="pre">gamepad1</span></code> and <code class="docutils literal"><span class="pre">gamepad2</span></code>.
+<code class="docutils literal"><span class="pre">gamepad1</span></code> is the controller that is connected using start+a, while
+<code class="docutils literal"><span class="pre">gamepad2</span></code> is the controller connected using start+b.
+To get input, no functions need to be called,
+rather static variables need to be accessed. Here are a few examples:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="n">leftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">);</span>
+
+<span class="k">if</span> <span class="o">(</span><span class="n">gamepad2</span><span class="o">.</span><span class="na">a</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">intakeServo</span><span class="o">.</span><span class="na">setPower</span><span class="o">(-</span><span class="mf">1.0</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">gamepad2</span><span class="o">.</span><span class="na">b</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">intakeServo</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="mf">1.0</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using the FTC SDK</a><ul>
+<li><a class="reference internal" href="#linearopmode-vs-opmode">LinearOpMode vs OpMode</a><ul>
+<li><a class="reference internal" href="#linearopmode-methods">LinearOpMode Methods</a></li>
+<li><a class="reference internal" href="#opmode-methods">OpMode Methods</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#reading-and-writing-to-hardware">Reading and Writing to Hardware</a><ul>
+<li><a class="reference internal" href="#creating-and-instantiating-hardware-objects">Creating and Instantiating Hardware Objects</a></li>
+<li><a class="reference internal" href="#examples-of-using-common-hardware-components">Examples of Using Common Hardware Components</a><ul>
+<li><a class="reference internal" href="#dc-motor">DC Motor</a></li>
+<li><a class="reference internal" href="#servo">Servo</a></li>
+<li><a class="reference internal" href="#continuous-rotation-servo">Continuous Rotation Servo</a></li>
+<li><a class="reference internal" href="#gamepad-input">Gamepad Input</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Software</a><ul>
+      <li>Previous: <a href="options-for-programming.html" title="previous chapter">Options for Programming</a></li>
+      <li>Next: <a href="mecanum-drive.html" title="next chapter">Programming Tutorial - Mecanum Drivetrain</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/software/using-the-sdk.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/software/using-the-sdk.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

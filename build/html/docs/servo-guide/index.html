@@ -1,0 +1,220 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Servo Guide &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Electronics" href="../electronics/index.html" />
+    <link rel="prev" title="JVN Calculator" href="../motor-guide/jvn-calculator.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="servo-guide">
+<h1>Servo Guide<a class="headerlink" href="#servo-guide" title="Permalink to this headline">¶</a></h1>
+<p>First, a disclaimer.
+<strong>Servos are NOT replacements for DC motors, and should not be used as such.
+Servos are made for fine-tuned and accurate movement,
+not high-load or quick rotation applications</strong>.</p>
+<p>Servos are an interesting beast in FTC.
+They are their own animal and vary widely in price, performance and value.
+Picking the right servo for your application is a question that’s almost
+impossible to give a blanket answer for.
+There are two subcategories of servo specifications that you should use to
+decide what servo you want to use: <strong>output power</strong> (measured in speed and torque)
+and <strong>durability</strong>
+(normally best represented by the gear material inside the servo).</p>
+<p>Let’s start with durability, as this is probably the easiest to summarize.
+The two things that threaten a servo’s longevity are the motor inside burning
+out and more commonly, the gears stripping inside the servo.
+A motor burning out is pretty uncommon, but it can happen under large loads for
+a prolonged amount of time.
+This means <strong>you should never stall a servo against an immovable object</strong>.
+When selecting a servo, pay attention to the material the gears are made from.
+This ranges from plastic to titanium,
+so let’s go down the list, starting from the weakest.</p>
+<ul class="simple">
+<li><strong>Plastic</strong>: with low power servos, these are normally okay. Generally used for applications in model airplanes such as ailerons.</li>
+<li><strong>Karbonite</strong>: Hitec’s gear plastic is a very durable and long lasting plastic and is very good under long use and low load. Be aware that it can strip easily under the shock loads found in FTC.</li>
+<li><strong>Brass</strong>: Brass gears are stronger than plastics but also suffer greatly when faced with shock loads in FTC, like intake wrists and deposit buckets. It’s found on slightly higher end servos in the $25-30 range, such as the REV smart servo.</li>
+<li><strong>Steel</strong>: This is where we start getting big. Steel gears are very durable and you’ll have a tough time stripping these. Expect to pay $40+.</li>
+<li><strong>Titanium</strong>: Titanium is where you get into really high end, virtually unbreakable servos. Starting from $75, they can reach over $150.</li>
+</ul>
+<p>The next variable is output power, measured in both <strong>speed</strong> and <strong>torque</strong>.
+Speed (normally in seconds per 60°), refers to how fast the servo turns 60
+degrees in Standard Rotation mode.
+Torque (usually measured in oz-in),
+refers to the amount of force the servo can apply to a lever.
+For reference, if you put a 1” bar on a servo,
+then put a force gauge on the end, the torque rating of the servo (in oz/in)
+will be measured.
+As you may know, speed and torque have an inverse relationship.
+Generally you can find some insanely powerful servos that are pretty slow
+(slower than 0.20 s/60°) or some less powerful ones with faster ratios
+(anything faster than 0.12 s/60° is considered very fast).
+Finding the right servo for your application can be tough,
+but a good way is trying to decide if you need more speed or torque,
+and if your servo will experience shock loads or not.</p>
+<p>The last proposition is cost.
+Servos range from cheap $7 servos for light applications,
+all the way up to some Hitec or Savox servos for close to $200.
+By far the best bang for your buck servos out there are the Feetech dual mode
+servos, which is a programmable type of servo.
+This includes both the <strong>REV SRS</strong> (Smart Robot Servo) and
+<strong>both goBILDA Dual Mode servos</strong>.
+The biggest downside to the REV SRS and the old goBILDA servos are their brass
+gears.
+Coupled with high output power, this meant that stripping gears with any shock
+load was commonplace.
+The new goBILDA Dual Mode servos have steel gears now, but are new and aren’t as
+competition tested as other servos.
+The next big name in FTC Servos is Hitec,
+who are a huge name in hobby servos for decades and are very well trusted.
+Their low end servos are inexpensive but easily broken.</p>
+<p>A mid-priced Hitec servo is the HS 485-HB servo, with Karbonite gears.
+While it shouldn’t be used in high load applications,
+it is fine for general use such as claws or trapdoors.
+Where Hitec really shines is the high end market. If your budget is over $100,
+you can get into some very powerful Hitec servos.
+Most have titanium gears and are programmable,
+so you can dial in the performance and range to exactly what you need.
+The last big player in the servo market in FTC is Savox, which produces
+great mid-high range servos (think $60-$100+).
+They are made with titanium gears (close to bulletproof) and are <strong>fast</strong>.
+Savox servos are mostly brushless and coreless,
+so they do tend to scream a little under load,
+but they’re definitely worth it if your budget allows for it.</p>
+<p>Another question that often comes up is “what is the extended and continuous
+rotation options on the Servocity website/other sites?”
+You don’t have to worry about those -
+as FTC ruled those modifications were illegal,
+just save a buck and buy stock servos.
+The only legal continuous rotation servos are servos that are continuous
+rotation from the factory. This includes the REV SRS servo and
+both goBILDA Dual Mode servos, programmed to continuous rotation mode.
+In other words, if you have a seller like ServoCity modify a servo for
+continuous rotation, that servo is not legal.</p>
+<div class="section" id="best-value">
+<h2>Best Value<a class="headerlink" href="#best-value" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Low Priced (~$18)</dt>
+<dd><ul class="first last">
+<li>HiTec 485HB</li>
+<li>Futaba servos</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Medium Priced (~$30)</dt>
+<dd><ul class="first last">
+<li>goBILDA Dual Mode Servo</li>
+<li>REV Smart Servo</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Best Performance ($75+)</dt>
+<dd><ul class="first last">
+<li>Savox titanium servos</li>
+<li>Hitec titanium servos</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Servo Guide</a><ul>
+<li><a class="reference internal" href="#best-value">Best Value</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../motor-guide/jvn-calculator.html" title="previous chapter">JVN Calculator</a></li>
+      <li>Next: <a href="../electronics/index.html" title="next chapter">Electronics</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/servo-guide/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/servo-guide/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

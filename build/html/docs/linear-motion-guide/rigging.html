@@ -1,0 +1,531 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rigging &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Arms" href="../arms/index.html" />
+    <link rel="prev" title="Rack and Pinion" href="rack-and-pinion.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="rigging">
+<h1>Rigging<a class="headerlink" href="#rigging" title="Permalink to this headline">¶</a></h1>
+<p>Rigging refers to the way that string, belt,
+or chain is set up to extend and retract a linear extension.
+This is an important and time-consuming requirement for any team that uses
+linear extension, so be sure to spend adequate time on it.</p>
+<div class="figure" id="id10">
+<img alt="The rigging for 7236's elevator in Rover Ruckus" src="../../_images/7236-elevator-rigging.png" />
+<p class="caption"><span class="caption-text">Example rigging setup from team 7236 Recharged Green.
+This setup utilizes a continuous stringing setup for the first stage and a
+cascaded belt-driven second stage.</span></p>
+</div>
+<div class="section" id="continuous-rigging">
+<h2>Continuous Rigging<a class="headerlink" href="#continuous-rigging" title="Permalink to this headline">¶</a></h2>
+<p><strong>Generally recommended</strong></p>
+<p>Continuous rigging entails rigging one long <strong>extension string</strong>,
+originating from a motor-powered spool, to the top of the base stage,
+then to the bottom of the first stage, then to the top of the first stage,
+then to the bottom of the second stage, etc.
+A <strong>retraction string</strong>, originating from a second spool on the same axis as the
+extension spool, is then anchored to the top stage.
+When the motor rotates one direction, the extension spool reels in the extension
+string, so it becomes shorter.
+In doing so, the distance between the top of one stage and the bottom of the
+next stage decreases, causing the system to extend.
+Note that <strong>the last stage always extends and retracts before the other stages
+(this can be either an advantage or a disadvantage,
+depending on the application)</strong>.
+Once the last stage hits its limit, the next to last stage extends outwards,
+and so on; the pattern repeats until every stage is fully extended.
+When the motor spins <strong>in the opposite direction</strong>,
+the retraction string is reeled in,
+pulling the top stage closer to its starting position until the system is back
+where it started.
+For the retraction string, it is often necessary to add an extra pulley near the
+back of the extension.
+This is because the retraction will only retract to the farthest point,
+which generally is the spool.
+However, the spool may not be mounted at the very back of the robot -
+thus an extra pulley is needed.
+Note that for this to work, the extension string should be wrapped around the
+spool in the opposite direction of the retraction string.
+Thus, if the extension is wrapped clockwise,
+the retraction must be wrapped counterclockwise.</p>
+<p>Here are some additional considerations when rigging a continuous system.</p>
+<ul class="simple">
+<li>As a general rule, continuous spools can be powered by a system with a relatively low gear ratio.</li>
+<li>The extension string and retraction string <strong>do not need to be separate strings, but it is much easier to tension the system if they are separate</strong>.</li>
+<li>The extension spool and retraction spool should be the same diameter.</li>
+<li>You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.</li>
+<li>The width and diameter of your spool should be enough such that once fully wounded, your string never overlaps. The reason for this is because when the string starts to overlap, this can change the diameter of your spool, causing the tension in the string to change.</li>
+</ul>
+<div class="figure" id="id11">
+<img alt="A diagram of continuous riggin" src="../../_images/continuous-rigging-diagram.jpg" />
+<p class="caption"><span class="caption-text">Continuous rigging diagram</span></p>
+</div>
+</div>
+<div class="section" id="cascade-rigging">
+<h2>Cascade Rigging<a class="headerlink" href="#cascade-rigging" title="Permalink to this headline">¶</a></h2>
+<p><strong>Generally recommended</strong></p>
+<p>Cascade rigging is a bit more complicated than continuous rigging.
+Much like continuous rigging, an extension string originating from a spool is
+rigged to the top of the base, running down to the bottom of the first stage.
+However, instead of being rigged to the top of the stage,
+the extension string is anchored to the bottom of the first stage.
+A second extension string, anchored to the top of the base,
+is rigged to the top of the first stage and anchored at the bottom of the second
+stage.
+The pattern continues until all stages have been rigged.
+Note that <strong>the number of strings required to extend is equal to the number of
+stages in the system</strong>.
+When the motor rotates one direction,
+the extension spool reels in the first string,
+decreasing the distance between the base and the bottom of the first stage.
+This pushes the second string forward, decreasing the distance between the top
+of the first stage and the bottom of the second stage, and so on.
+Note that unlike continuous rigging, <strong>every stage moves at the same time</strong>.
+The second stage moves 2 times as fast as the first stage relative to the base,
+the third 3 times as fast, and so on.</p>
+<p>A cascaded system can be retracted in three ways:
+using continuous retraction, elastic retraction, or reverse-cascade retraction.</p>
+</div>
+<div class="section" id="retraction-options">
+<h2>Retraction Options<a class="headerlink" href="#retraction-options" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cascade-retraction">
+<h3>Cascade retraction<a class="headerlink" href="#cascade-retraction" title="Permalink to this headline">¶</a></h3>
+<p>As the name suggests, continuous retraction utilizes the same retraction method
+as continuous rigging with one notable difference:
+if the variable <img class="math" src="../../_images/math/f4170ed8938b79490d8923857962695514a8e4cb.svg" alt="N"/> is the number of stages in the system,
+the diameter of the extension spool must be <strong>:math:`N` times smaller</strong>
+than the retraction spool.</p>
+<div class="section" id="advantages">
+<h4>Advantages<a class="headerlink" href="#advantages" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Requires less string (less strings to tension, less strings that can become loose)</li>
+</ul>
+</div>
+<div class="section" id="disadvantages">
+<h4>Disadvantages<a class="headerlink" href="#disadvantages" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Requires more space, as it demands a larger spool retraction spool</li>
+</ul>
+</div>
+</div>
+<div class="section" id="elastic-retraction">
+<h3>Elastic retraction<a class="headerlink" href="#elastic-retraction" title="Permalink to this headline">¶</a></h3>
+<p>Instead of retracting using a retraction spool,
+one common way to retract is to attach a piece of elastic
+(commonly surgical tubing) to the last stage.
+The elastic applies a force on the last stage that is counteracted by the motor
+when extending.
+However, when retracting, the motor reels the last slide back in.
+While this is the retraction method recommended by many kit slide manuals,
+we do not recommend this method.</p>
+<div class="section" id="id1">
+<h4>Advantages<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>There is only one string to tension, instead of multiple, so tensioning is simpler.</li>
+<li>The elastic automatically tensions the extension string.</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h4>Disadvantages<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Since the elastic applies a force to the slide at all times, this force opposes the force applied by the motor when extending the slides. <strong>Thus, elastic retraction decreases extension speed considerably</strong>.</li>
+<li>The elastic does not apply a constant force at all times. It applies force proportional to the amount that the slide is extended, so retraction may not be smooth and controlled, like other rigging methods.</li>
+<li>It is very easy to unwind your extension spool when using elastic retraction</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>Cascade retraction<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Cascade retraction entails simply rigging another set of cascade string that can
+retract the system when engaged (see the image below).</p>
+<div class="section" id="id4">
+<h4>Advantages<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Very space-efficient</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h4>Disadvantages<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Requires more string (less strings to tension, less strings that can become loose)</li>
+</ul>
+</div>
+<div class="section" id="additional-considerations">
+<h4>Additional Considerations<a class="headerlink" href="#additional-considerations" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>If the system has only one stage, cascade rigging is <strong>identical to continuous rigging</strong></li>
+<li>Unlike continuous rigging, each time a new stage is added to a cascaded system, the gear ratio required to maintain the same extension speed increases. For instance, if 2 stages are added to a 1 stage cascaded lift that is geared at a ratio of 3:1, the ratio must increase by a factor of <img class="math" src="../../_images/math/44f234df1deb2bff0f5ba4f0a20bd1e683310473.svg" alt="\frac{2+1}{1}"/> to maintain the same speed, changing the ratio to 9:1.</li>
+<li>One disadvantage of cascade rigging is that each string must be kept tensioned. This is still the case with continuous rigging, but you have many more strings to keep track of, as tension must be maintained on all of them.</li>
+<li>You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.</li>
+</ul>
+<div class="figure" id="id12">
+<img alt="A diagram of continuous retraction" src="../../_images/continuous-retraction.jpg" />
+<p class="caption"><span class="caption-text">Continuous retraction</span></p>
+</div>
+<div class="figure" id="id13">
+<img alt="A diagram of cascading retraction" src="../../_images/cascading-retraction.png" />
+<p class="caption"><span class="caption-text">Cascade retraction</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="belt-driven-slides">
+<h2>Belt-driven slides<a class="headerlink" href="#belt-driven-slides" title="Permalink to this headline">¶</a></h2>
+<p>One increasingly popular alternative to traditional string-based rigging is
+belt-driven slides.
+This can be done continuously or using cascade rigging.</p>
+<div class="section" id="advantages-over-string">
+<h3>Advantages over string<a class="headerlink" href="#advantages-over-string" title="Permalink to this headline">¶</a></h3>
+<p>Unlike string, belts used on slides never need to be tensioned.
+As discussed in the linear motion section,
+in order for string-driven slides to remain efficient,
+string tension must be maintained.
+Naturally, string loosens over time,
+so you either need a mechanism that can provide extra tension (a spring) or
+manually tighten string,
+which can get a bit tedious (especially for cascade rigging).
+However, belts do not have this issue.
+They tend not to stretch over time,
+meaning complex external tensioners are rarely needed.
+Belts are also on an automatic one to one loop, meaning that for every inch you
+pull in on the extension side, you always feed back out that inch on the
+retraction side, and vise versa.
+While this might not seem like a big deal,
+if a string winds itself up on a spool and overlaps at any point,
+the diameter of the spool changes, making the two spools out of sync.</p>
+</div>
+<div class="section" id="disadvantages-over-string">
+<h3>Disadvantages over string<a class="headerlink" href="#disadvantages-over-string" title="Permalink to this headline">¶</a></h3>
+<p>The main disadvantage of belt-driven slides are the size restriction.
+Simply put, belt pulleys take up much more room than the 4mm thick,
+12mm diameter pulley bearings REV sells.
+When using belt-driven slides, pulleys are at least double that thickness and
+have a considerably larger diameter, meaning each stage must be thicker.</p>
+<div class="figure" id="id14">
+<img alt="7236's Rover Ruckus' robot's belt rigging" src="../../_images/7236-continuous-belt.png" />
+<p class="caption"><span class="caption-text">7236 Recharged Green, Rover Ruckus, <strong>continuous</strong> rig</span></p>
+</div>
+<div class="figure" id="id15">
+<img alt="11190's Relic Recovery robot's belt rigging" src="../../_images/11190-continuous-belt.jpg" />
+<p class="caption"><span class="caption-text">11190 Mechadojos, Relic Recovery, continuous belt rig</span></p>
+</div>
+<div class="figure" id="id16">
+<img alt="5064's cascading belt rigging diagram" src="../../_images/5064-cascading-belt-diagram.jpg" />
+<p class="caption"><span class="caption-text">5064 Aperture Science Rover Ruckus <strong>cascade</strong> belt-driven proof of concept drawing</span></p>
+</div>
+<div class="figure" id="id17">
+<img alt="5064's cascading belt rigging" src="../../_images/5064-cascading-belt.png" />
+<p class="caption"><span class="caption-text">5064 Aperture Science Rover Ruckus <strong>cascade</strong> belt-driven final version</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="belt-or-chain-driven-elevators">
+<h2>Belt or chain driven elevators<a class="headerlink" href="#belt-or-chain-driven-elevators" title="Permalink to this headline">¶</a></h2>
+<p>Almost ubiquitous in FRC, belt and chain elevators have existed seemingly
+forever.
+The basic premise is to have sprockets or pulleys mounted at the top and bottom
+of the elevator to the robot superstructure.
+Then, the belt or chain is hard bolted to the elevator near the bottom sprocket
+or pulley.
+When the chain or belt is driven, the elevator will move up and down.
+It is possible for elevators to have multi stage designs,
+but powering them will be more complex.</p>
+<div class="figure" id="id18">
+<img alt="7236's belt driven elevator" src="../../_images/7236-belt-driven-elevator.jpg" />
+<p class="caption"><span class="caption-text">7236 Recharged Green, Rover Ruckus</span></p>
+</div>
+</div>
+<div class="section" id="tensioners">
+<h2>Tensioners<a class="headerlink" href="#tensioners" title="Permalink to this headline">¶</a></h2>
+<p>Tensioning string is one of the most painstaking tasks for a builder in FTC.
+Ensuring that both sets of slides are tensioned evenly can be an arduous and
+annoying job.
+However, adding tensioners to your strings can help solve the uneven tension and
+ensure that both sides of slides run together.
+The most common type of tensioner is a spring that can be purchased at a
+hardware store.
+It generally will be placed at the end of the string run, near the part that
+extends farthest out from the robot’s center.
+By doing so, the string will stretch out when the spool extends the arm,
+keeping tension so that the string does not detach from the pulleys in the
+linear slide extension.
+Another form of tensioner can be a spring-loaded pulley.
+Since the pulley is spring-loaded, it will take up the slack in the string.
+Alternatively, it is possible to mount a pulley on a piece of extrusion,
+and slide it so the string is taut.
+There are two main reasons that tensioners are highly recommended in string
+based linear slides, the first and oftentimes more important one,
+is that at its core, a run of string is a series of polygons,
+and as the slide extends the effective size of that polygon changes.
+Meaning that when fully extended,
+your slide may require more or less string compared to when halfway extended.
+Or partially extended.
+The closer each set of bearings are,
+the less this impracts string tension.
+Another (but less impactful) thing to keep in mind that spool size changes as
+string is added/removed from the spool.
+If the spool radius increases, the speed of the extension will also increase,
+and torque, which opposes speed, will decrease.
+Consequently, tension will change as well.
+Therefore, a bit of slack is inherent in all linear extension designs using
+string.
+It is highly encouraged that teams have at least one spring tensioner per
+linear slide set.</p>
+<img alt="An image of 13075 linear slides" src="../../_images/13075-slides.png" />
+<div class="figure" id="id19">
+<img alt="An image of 13075 linear slide's string tensioner" src="../../_images/13075-string-tensioner.png" />
+<p class="caption"><span class="caption-text">13075 Coram Deo Robotics, Rover Ruckus, string tensioner</span></p>
+</div>
+</div>
+<div class="section" id="picking-the-right-spool-size">
+<h2>Picking the right spool size<a class="headerlink" href="#picking-the-right-spool-size" title="Permalink to this headline">¶</a></h2>
+<p>Spools have a special property that isn’t often discussed,
+but is extremely useful when creating linear slide systems.
+Just as the system’s speed and torque can be changed by changing its gear ratio,
+speed and torque can also be changed by changing the spool size.
+The motor rotates the spool at a constant angular speed.
+Thus, the translational speed (the speed of the slide)
+is proportional to the radius of the spool,
+and since torque is inversely proportional to speed,
+changing the spool size changes torque as well.
+This is important to recognize, as changing spool size is often more convenient
+than changing gear ratio to get the desired combination of speed and torque.
+To illustrate this, say you have a linear extension system with a
+3.7:1 gear ratio.
+You then decide that a 5:1 gear ratio would provide a more desirable combination
+of speed and torque than your current 3.7:1 ratio.
+In many cases, instead of swapping gearboxes,
+it makes more sense to swap out spools to a smaller one.
+If your spool is currently 2 inches, your new size should be
+<img class="math" src="../../_images/math/e5efe7e9718959b5df69914510b5b421f11a0e10.svg" alt="\frac{2*3.7}{5}"/> inches to achieve the same result.
+You also need to make sure that when fully wrapped on the spool,
+your cable or string doesn’t overlap.
+Overlapping can result in a change in spool diameter,
+which will change the tension in your string.</p>
+</div>
+<div class="section" id="cable-management">
+<h2>Cable management<a class="headerlink" href="#cable-management" title="Permalink to this headline">¶</a></h2>
+<p>When extending outwards, wire management becomes increasingly important.
+Obviously, it is a necessity to use wires slightly longer than the extension
+length.
+However, it is not recommended that these wires are left unprotected,
+as they can get tangled or caught in the slides much more easily than with
+protection.
+In general, teams should ensure that wires never protrude outside the structural
+parts of the robot, because they can get caught on other robots or game pieces.
+This can be accomplished by cable ties or Velcro ties,
+or by using acrylic plate to keep wires inside.
+However, for linear extensions, other forms of cable management are needed.
+The two types of cable management recommended are cable carrier and
+retractable coil cord.
+Refer to the <a class="reference internal" href="../electronics/index.html"><span class="doc">Electronics and Wiring</span></a>
+section for more information.</p>
+<div class="section" id="cable-carrier-drag-chain">
+<h3>Cable Carrier/Drag Chain<a class="headerlink" href="#cable-carrier-drag-chain" title="Permalink to this headline">¶</a></h3>
+<p>Cable carrier, the standard wire management method within industry,
+is plastic chain links with a hollow center.
+Cables are placed inside the chain, allowing the system to extend indefinitely.
+The links are somewhat stiff yet flexible,
+allowing cable chain to bend when the extension is retracted and straighten
+when extended.
+They typically are stiff enough not to sag excessively when retracted.</p>
+<p>Here are some links to various drag chain products:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.igus.com/info/energy-chains-e2-micro-small-cable-carrier">igus cable carrier</a></li>
+<li><a class="reference external" href="https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&amp;qid=1566188144&amp;s=gateway&amp;sr=8-1&amp;th=1">uxcell 10x10mm drag chain, from Amazon</a></li>
+</ul>
+<div class="section" id="id6">
+<h4>Advantages<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Difficult to get tangled/hooked onto other objects or robots</li>
+<li>Sturdy and durable</li>
+<li>Protects wires very well</li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h4>Disadvantages<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Large form factor, takes up a lot of space</li>
+<li>Links need to be added if additional extension is needed</li>
+<li>Can be on the heavy side, especially with a long length of drag chain</li>
+</ul>
+<div class="figure" id="id20">
+<img alt="7236's Rover Ruckus robot with cable carriers visible" src="../../_images/7236-cable-carrier.png" />
+<p class="caption"><span class="caption-text">7236 Recharged Green, Rover Ruckus
+Cable carrier on the left side of their horizontal slides and the right side
+of vertical slides</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="retractable-coil-cord">
+<h3>Retractable Coil Cord<a class="headerlink" href="#retractable-coil-cord" title="Permalink to this headline">¶</a></h3>
+<p>While not common within industry, coil cords are still very common
+(coil cord is a nearly ubiquitous staple of older telephones).
+Retractable coil cord is more flexible than cable carriers,
+stretching when extended.</p>
+<p>Here are some links to coil cord products:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.cablescience.com/coils/nec/nec-series.html">Cable Science NEC (non-electric cord)</a></li>
+</ul>
+<div class="section" id="id8">
+<h4>Advantages<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Very space-efficient</li>
+<li>Flexible and can usually extend to any length needed (unlike cable carriers, no new links ever need to be added)</li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h4>Disadvantages<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Can get tangled more easily, as it is less stiff than drag chain</li>
+</ul>
+<img alt="10030's robot's coil cord" src="../../_images/10030-coil-cord-1.png" />
+<div class="figure" id="id21">
+<img alt="10030's robot's coil cord" src="../../_images/10030-coil-cord-2.png" />
+<p class="caption"><span class="caption-text">10030 7 Sigma Robotics, Relic Recovery
+Coil-cord on horizontal extension mechanism</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Rigging</a><ul>
+<li><a class="reference internal" href="#continuous-rigging">Continuous Rigging</a></li>
+<li><a class="reference internal" href="#cascade-rigging">Cascade Rigging</a></li>
+<li><a class="reference internal" href="#retraction-options">Retraction Options</a><ul>
+<li><a class="reference internal" href="#cascade-retraction">Cascade retraction</a><ul>
+<li><a class="reference internal" href="#advantages">Advantages</a></li>
+<li><a class="reference internal" href="#disadvantages">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#elastic-retraction">Elastic retraction</a><ul>
+<li><a class="reference internal" href="#id1">Advantages</a></li>
+<li><a class="reference internal" href="#id2">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id3">Cascade retraction</a><ul>
+<li><a class="reference internal" href="#id4">Advantages</a></li>
+<li><a class="reference internal" href="#id5">Disadvantages</a></li>
+<li><a class="reference internal" href="#additional-considerations">Additional Considerations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#belt-driven-slides">Belt-driven slides</a><ul>
+<li><a class="reference internal" href="#advantages-over-string">Advantages over string</a></li>
+<li><a class="reference internal" href="#disadvantages-over-string">Disadvantages over string</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#belt-or-chain-driven-elevators">Belt or chain driven elevators</a></li>
+<li><a class="reference internal" href="#tensioners">Tensioners</a></li>
+<li><a class="reference internal" href="#picking-the-right-spool-size">Picking the right spool size</a></li>
+<li><a class="reference internal" href="#cable-management">Cable management</a><ul>
+<li><a class="reference internal" href="#cable-carrier-drag-chain">Cable Carrier/Drag Chain</a><ul>
+<li><a class="reference internal" href="#id6">Advantages</a></li>
+<li><a class="reference internal" href="#id7">Disadvantages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#retractable-coil-cord">Retractable Coil Cord</a><ul>
+<li><a class="reference internal" href="#id8">Advantages</a></li>
+<li><a class="reference internal" href="#id9">Disadvantages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Linear Motion Guide</a><ul>
+      <li>Previous: <a href="rack-and-pinion.html" title="previous chapter">Rack and Pinion</a></li>
+      <li>Next: <a href="../arms/index.html" title="next chapter">Arms</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/linear-motion-guide/rigging.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/linear-motion-guide/rigging.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

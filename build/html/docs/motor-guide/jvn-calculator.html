@@ -1,0 +1,173 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>JVN Calculator &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Servo Guide" href="../servo-guide/index.html" />
+    <link rel="prev" title="Motor Hardware" href="motor-hardware.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="jvn-calculator">
+<h1>JVN Calculator<a class="headerlink" href="#jvn-calculator" title="Permalink to this headline">¶</a></h1>
+<p>With the JVN calculator for FTC, it is possible to calculate the gear ratio that
+is necessary for an arm.
+The JVN Design Calculator is a very valuable
+resource for picking appropriate gear ratios for almost application you need.
+It was developed by <a class="reference external" href="https://johnvneun.com">John V-Neun</a>, coach of FRC 148,
+and was initially designed for FRC calculations.</p>
+<p>It is fairly intuitive,
+but can save a lot of time doing calculations on your own,
+especially when developing designs like arms, linear slides, and drivetrains.
+This is as the balance between power/torque and speed is critical to the end
+design.
+For example, arms require much more torque than speed,
+while linear slides need very little torque to maximize speed.</p>
+<p>To use the calculator for rotary mechanisms (arms), select the Rotary Arm sheet.
+A good practice is to “pencil in” VEX’s dynamometer testing for the bare
+NeveRest motor.</p>
+<p><strong>The VEX dyno test is a trusted and accurate resource for teams,
+even though its results are significantly higher than the specifications posted
+on vendor pages</strong>.</p>
+<p>The test results may be found by searching VEX Dyno Testing, or by clicking
+<a class="reference external" href="https://motors.vex.com/other-motors/am-NeveRest">here</a>.
+(Note: this testing is done to the bare motor, without the end gearbox.)
+Then, change the gear ratio in the sheet itself.
+The bottom left of the sheet has a gear reduction page.
+Simply put the overall gear ratio of your gearbox in the right side,
+keeping the one on the left.
+For example for a NeveRest 20:1,
+write in “1” in the driving gear column and “20” in the “driven gear” column.
+Then, add the additional gearing.
+For example, if the total ratio is 40:1,
+there should be a 1:2 ratio in the driving:driven gear ratio below the 1:20.
+It doesn’t matter whether it is 10:20, or 42:84 - only the proportion matters.
+This gives you a lot of flexibility when looking for the right ratio.
+Additional gear reductions can be added if needed.</p>
+<p>The same goes for linear mechanisms, with one additional note.
+The calculator will ask for a pulley diameter,
+so provide the diameter of the spool that the string is wound on.
+For a horizontal linear mechanism, neglect stall load.
+For vertical linear mechanisms, only pay attention to stall load if the
+mechanism will hang the robot.
+It is recommended that the load is 60+ pounds for a 40 pound robot for safety.
+A good starting point is around 6 in/sec, but most teams will increase the speed
+over time.</p>
+<p>For 1-speed drivetrains,
+just enter in the correct motor specifications and add in the total weight and
+wheel diameter.
+Don’t worry about the efficiency and speed loss, just keep it where it is.
+The adjusted speed will account for sag into field tiles,
+loss of efficiency through belts, gears, etc.,
+and loss of grip as the wheels eventually wear out.
+A good starting point should be around 1.5-2 ft/s,
+though many teams have faster drivetrains.</p>
+<div class="section" id="general-tips">
+<h2>General Tips<a class="headerlink" href="#general-tips" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Always use the VEX dyno test results for free speed, stall torque, stall current, and free current.</li>
+<li>Ensure that the total current draw does not exceed the stall current! Generally, this should not be a problem, but it is something to be aware of.</li>
+<li>Stall load refers to how heavy a weight the mechanism can lift at the end before it stalls. <strong>It is a good principle for the stall load to be 1.5x-2x, or even more, of the actual load. This is called a Factor of Safety</strong>.</li>
+<li>For linear slides, maximize linear speed by using a low gear ratio. For arms, maximize torque by using a high gear ratio.</li>
+<li>You need to keep in mind the loaded current draw on your motor. Your motor has a stall current of ~10 amps, so you don’t want to exceed that. You also have a 20amp fuse on your battery, so make sure that you don’t exceed that for too long, or else you’ll pop the fuse.</li>
+<li>With each stage of gears, chains or belts, you lose efficiency. Depending on how well you build your system and what you are using, the percent loss changes. However, generally it is around <img class="math" src="../../_images/math/6495fb4db7c0add458285bf141a0f29ff0a20e22.svg" alt="5\%"/> per stage. Meaning that if you had three stages of gears, your efficiency should be <img class="math" src="../../_images/math/94e3208fad808c90fdc1fb15f036e363d69959a2.svg" alt="0.95^3"/>, or approximately <img class="math" src="../../_images/math/26211fc71477715176d6ebd6045277df31e84e45.svg" alt="0.857"/> or <img class="math" src="../../_images/math/bbbc5c7b52f2a81d3cce02640ca557e400660ba4.svg" alt="85.7\%"/></li>
+</ul>
+<p><a class="reference external" href="https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx">Download Link</a>
+(If the link is broken, search JVN for FTC)</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">JVN Calculator</a><ul>
+<li><a class="reference internal" href="#general-tips">General Tips</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Motor Guide</a><ul>
+      <li>Previous: <a href="motor-hardware.html" title="previous chapter">Motor Hardware</a></li>
+      <li>Next: <a href="../servo-guide/index.html" title="next chapter">Servo Guide</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/motor-guide/jvn-calculator.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/motor-guide/jvn-calculator.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

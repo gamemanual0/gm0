@@ -1,0 +1,261 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Programming Tutorial - Mecanum Drivetrain &#8212; Game Manual 0 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/gm0-rtd.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Control Loops" href="control-loops.html" />
+    <link rel="prev" title="Using the FTC SDK" href="using-the-sdk.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="programming-tutorial-mecanum-drivetrain">
+<h1>Programming Tutorial - Mecanum Drivetrain<a class="headerlink" href="#programming-tutorial-mecanum-drivetrain" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="mecanum-physics">
+<h2>Mecanum Physics<a class="headerlink" href="#mecanum-physics" title="Permalink to this headline">¶</a></h2>
+<p>A very common choice for drivetrain in FTC is mecanum drive,
+but we have noticed that not a lot of people know how they work or how to
+properly program them.
+Mecanum wheels have rollers at a 45° angle to the rest of the wheel.
+Since these are in contact with the ground instead of something solid like in a
+traction wheel, instead of the wheel creating a force parallel to the
+orientation of the wheel,
+it creates one 45° from parallel.
+Depending on how the wheels are driven, X or Y components of the force vectors
+can cancel which allows movement in any direction.</p>
+<img alt="Force diagram of a single mecanum wheel" src="../../_images/mecanum-worms-eye-view.png" />
+</div>
+<div class="section" id="using-vectoring-to-create-omnidirectional-movement">
+<h2>Using Vectoring to Create Omnidirectional Movement<a class="headerlink" href="#using-vectoring-to-create-omnidirectional-movement" title="Permalink to this headline">¶</a></h2>
+<p>As stated earlier, depending on how the wheels are driven,
+movement in any direction can be created.
+This is because with 4 wheels on a robot oriented in and X orientation,
+the vectors can be cancelled such that movement is created in any direction.
+It is important to note that because of friction,
+perfect movement isn’t possible in every direction,
+so a mecanum drivetrain will be able to drive slightly faster
+forwards/backwards than any other directions.</p>
+<img alt="Force diagram of a complete mecanum drive" src="../../_images/mecanum-drive-force-diagram.png" />
+<p>In that image, 1, 2, 3, and 4 are the force vectors created by the mecanum
+wheels when driven towards the top of the image.
+The blue and red lines are their X and Y components, respectively.
+Here are a few examples of how the wheels must be driven to achieve different
+movements (It is not recommended to hard code these in;
+there is a much better mathematical way to program mecanum that allows for true
+omnidirectional movement and is much cleaner):</p>
+<img alt="Examples of ways to move the wheels on mecanum drive to move the robot in different directions" src="../../_images/mecanum-drive-directions.png" />
+</div>
+<div class="section" id="deriving-mecanum-control-equations">
+<h2>Deriving Mecanum Control Equations<a class="headerlink" href="#deriving-mecanum-control-equations" title="Permalink to this headline">¶</a></h2>
+<p>Before thinking about mecanum, envision a scenario where you have a 2 motor tank
+drivetrain which you want to control using the left stick Y axis for
+forward/backward movement, and the right stick X axis for pivot turning.
+The motors are configured so that positive is clockwise for the right motor when
+the body is facing away from you, and the left motor is the opposite.
+To control only forward/backward movement,
+you simply need to set the motor powers to the Y stick value
+(flip the sign since Y is reversed):</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">;</span> <span class="c1">// Remember, this is reversed!</span>
+
+<span class="n">leftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Although at first adding rotation might seem like a difficult task,
+it’s actually super simple.
+All you need to do is subtract the x value from the right side, and add it to
+the left:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">;</span> <span class="c1">// Remember, this is reversed!</span>
+<span class="kt">double</span> <span class="n">x</span> <span class="o">=</span> <span class="n">gamepad1</span><span class="o">.</span><span class="na">right_stick_x</span><span class="o">;</span>
+
+<span class="n">leftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">+</span> <span class="n">x</span><span class="o">);</span>
+<span class="n">rightMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">x</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Here, if the Y stick is pressed upwards,
+both of the motors will be fed a positive value, causing the robot to move
+forward.
+If it is pressed downwards, both of the motors will be fed a negative value,
+causing the robot to move backwards.
+A similar principle applies for rotation:
+if the X stick is pushed rightward, the left wheels will spin forward while the
+right spin backward, causing rotation.
+The opposite applies for pushing the stick left.
+If both sticks are pushed at the same time,
+say the Y stick is at 1 and the X stick is also at 1,
+the value of the left wheels will be <img class="math" src="../../_images/math/29e37b54151ed741ec4e8e598a994bad38600497.svg" alt="1+1=2"/>
+(which gets converted to 1 in the SDK) and the right wheels will be
+<img class="math" src="../../_images/math/b110fff58eaccb06df67434260fc2d2013986b7a.svg" alt="1-1=0"/>, which causes a rightward curve.</p>
+<p>Applying omnidirectional movement with mecanum wheels operates under the same
+principle as adding turning into the tank example.
+The left stick X values will be added or subtracted to each wheel depending on
+how that wheel needs to rotate to get the desired movement.
+The only difference between adding turning is that rather than wheels on the
+same side being the same sign,
+wheels diagonal to each other will be the same sign.</p>
+<p>We want a positive X value to correlate to rightward strafing.
+If we refer back to the vectoring image,
+this means that the front left and back right need to rotate forward,
+while the back left and front right need to rotate backwards.
+So, we should add the x value to the front left and back right and subtract it
+from the back right and front left:</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">;</span> <span class="c1">// Remember, this is reversed!</span>
+<span class="kt">double</span> <span class="n">x</span> <span class="o">=</span> <span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_x</span><span class="o">;</span>
+<span class="kt">double</span> <span class="n">rx</span> <span class="o">=</span> <span class="n">gamepad1</span><span class="o">.</span><span class="na">right_stick_x</span><span class="o">;</span>
+
+<span class="n">frontLeftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">+</span> <span class="n">x</span> <span class="o">+</span> <span class="n">rx</span><span class="o">);</span>
+<span class="n">backLeftMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">x</span> <span class="o">+</span> <span class="n">rx</span><span class="o">);</span>
+<span class="n">frontRightMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">x</span> <span class="o">-</span> <span class="n">rx</span><span class="o">);</span>
+<span class="n">backRightMotor</span><span class="o">.</span><span class="na">setPower</span><span class="o">(</span><span class="n">y</span> <span class="o">+</span> <span class="n">x</span> <span class="o">-</span> <span class="n">rx</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>This is the same as the tank example,
+except now with 4 motors and the strafing component added.
+Similarly to the tank example, the Y component is added to all wheels,
+and the right x (rx) is added to the left and subtracted from the right.
+Now, we have added another component that will allow us to strafe rightward.
+In doing that, however, we have actually allowed for strafing in any direction.
+If you think about it, pressing the joystick to the left will do the same thing
+in reverse, which is what is needed to strafe left.
+If it is pressed at 45 degrees, the x and y components of the joystick will be
+equal.
+This will cause two diagonal motors to cancel, allowing for diagonal movement.
+This same effect applies to every angle of the joystick.</p>
+<p>Now that we have a functioning mecanum driving program,
+there are a few things that can be done to clean it up.
+The first of these would be multiplying the left X value by something to
+counteract imperfect strafing.
+Doing this will make the drive feel more accurate on non axis aligned
+directions, and make field centric driving more accurate.
+In this tutorial, we will use 1.5, but it’s really up to driver preference.</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_y</span><span class="o">;</span> <span class="c1">// Remember, this is reversed!</span>
+<span class="kt">double</span> <span class="n">x</span> <span class="o">=</span> <span class="n">gamepad1</span><span class="o">.</span><span class="na">left_stick_x</span> <span class="o">*</span> <span class="mf">1.5</span><span class="o">;</span> <span class="c1">// Counteract imperfect strafing</span>
+<span class="kt">double</span> <span class="n">rx</span> <span class="o">=</span> <span class="n">gamepad1</span><span class="o">.</span><span class="na">right_stick_x</span><span class="o">;</span>
+</pre></div>
+</div>
+<p>The other improvement we can make is scale the values into the range of -1 to 1.
+Since the SDK simply rounds if the input is out of that range,
+we can lose the ratio we are looking for unless we proactively put all the
+numbers back in that range while still maintaining our calculated ratio.
+For example, if we calculate values of 0.4, 0.1, 1.1, and 1.4,
+plugging those into the motors they will become 0.4, 0.1, 1.0, and 1.0,
+which is not the same ratio.
+Instead, we need to divide all of them by the largest number (absolute value):</p>
+<div class="highlight-java"><div class="highlight"><pre><span></span><span class="c1">// Put powers in the range of -1 to 1 only if they aren&#39;t already (not</span>
+<span class="c1">// checking would cause us to always drive at full speed)</span>
+
+<span class="k">if</span> <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">frontLeftPower</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">backLeftPower</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">||</span>
+    <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">frontRightPower</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">backRightPower</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// Find the largest power</span>
+    <span class="kt">double</span> <span class="n">max</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="n">max</span> <span class="o">=</span> <span class="n">Math</span><span class="o">.</span><span class="na">max</span><span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">frontLeftPower</span><span class="o">),</span> <span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">backLeftPower</span><span class="o">));</span>
+    <span class="n">max</span> <span class="o">=</span> <span class="n">Math</span><span class="o">.</span><span class="na">max</span><span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">frontRightPower</span><span class="o">),</span> <span class="n">max</span><span class="o">);</span>
+    <span class="n">max</span> <span class="o">=</span> <span class="n">Math</span><span class="o">.</span><span class="na">max</span><span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">abs</span><span class="o">(</span><span class="n">backRightPower</span><span class="o">),</span> <span class="n">max</span><span class="o">);</span>
+
+    <span class="c1">// Divide everything by max (it&#39;s positive so we don&#39;t need to worry</span>
+    <span class="c1">// about signs)</span>
+    <span class="n">frontLeftPower</span> <span class="o">/=</span> <span class="n">max</span><span class="o">;</span>
+    <span class="n">backLeftPower</span> <span class="o">/=</span> <span class="n">max</span><span class="o">;</span>
+    <span class="n">frontRightPower</span> <span class="o">/=</span> <span class="n">max</span><span class="o">;</span>
+    <span class="n">backRightPower</span> <span class="o">/=</span> <span class="n">max</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Programming Tutorial - Mecanum Drivetrain</a><ul>
+<li><a class="reference internal" href="#mecanum-physics">Mecanum Physics</a></li>
+<li><a class="reference internal" href="#using-vectoring-to-create-omnidirectional-movement">Using Vectoring to Create Omnidirectional Movement</a></li>
+<li><a class="reference internal" href="#deriving-mecanum-control-equations">Deriving Mecanum Control Equations</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Software</a><ul>
+      <li>Previous: <a href="using-the-sdk.html" title="previous chapter">Using the FTC SDK</a></li>
+      <li>Next: <a href="control-loops.html" title="next chapter">Control Loops</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/software/mecanum-drive.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Game Manual 0 Contributors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../../_sources/docs/software/mecanum-drive.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
