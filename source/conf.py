@@ -95,7 +95,8 @@ html_theme_options = {
     'collapse_navigation': True,
 	'sticky_navigation': False,
 	'titles_only': True,
-}
+    'style_external_links': True,
+    }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -190,7 +191,6 @@ epub_exclude_files = ['search.html']
 
 def setup(app):
     app.add_stylesheet('css/gm0-rtd.css')
-
 
 # -- Options for todo extension ----------------------------------------------
 

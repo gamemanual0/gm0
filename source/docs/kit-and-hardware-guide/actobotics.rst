@@ -32,6 +32,7 @@ many options to expand upon.**
 Kit Parts
 =========
 https://www.servocity.com/ftc-competition-kit
+
 * Aluminum c-channel and mini channel, various lengths
 * X-rail (a special type of extruded rail similar to 8020) 
 * Assorted plates and brackets, flat and 90 degree

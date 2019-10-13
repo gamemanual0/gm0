@@ -1,1 +1,5 @@
-/* add stuff here to make things look nice */
+@media screen and (max-width: 768px) {
+    .header-bar {
+        display:none;
+    }
+}
