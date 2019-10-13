@@ -54,7 +54,7 @@ Just as chain, the actual calculations for precise c-c distances for belts are
 complicated. Here is a 
 `calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
 or 
-`two <https://sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
+`two <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
 that simplifies the work.
 
 .. math::

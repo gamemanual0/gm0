@@ -13,7 +13,7 @@ Vendor List
 * `McMaster-Carr <https://www.mcmaster.com>`_
     * McMaster-Carr sells hardware and raw materials in bulk quantities. They stock nearly every type of bolt, screw, and nut possible, as well as washers, bearings, springs, etc. Purchase from them for bulk quantities of hardware, as well as the times you need a very obscure part. 
     * Don't be turned off by the hidden shipping. Generally, McMaster-Carr's shipping is around the same price as other vendors, and shipping is usually next-day. 
-* `MiSUMI <https://us.MiSUMI-ec.com>`_
+* `MiSUMI <https://us.misumi-ec.com/>`_
     * MiSUMI is a Japanese company specializing in industrial and manufacturing components. They sell bulk 15mm anodized extrusion similar to the REV Robotics extrusion. The 15mm extrusion can be cut to length as well. 
     * MiSUMI also sells aluminum drawer slides that are popular for linear extensions. They are available in different lengths, but the most common is 400mm. 
 * `Pitsco <https://www.pitsco.com>`_

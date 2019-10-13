@@ -12,7 +12,7 @@ official publication of Game Manual 0.
     ========== ===========================================================
     Date       Change Made
     ========== ===========================================================
-    2019-09-04 Official publication of Game Manual 0 at http://gm0.copr.cc
+    2019-09-04 Official publication of Game Manual 0 at http://gm0.copperforge.cc
     2019-09-07 * Added Update Log
                * Added Team Interest Form
                * Added CAD Guide Part 3

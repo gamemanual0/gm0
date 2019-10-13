@@ -38,7 +38,7 @@ head to REV Robotics’ Technical Resources page on their website.
 
 * `USB Retention Mount <http://www.revrobotics.com/rev-41-1214/>`_
 * `XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_
-* `REV Robotics Technical Resources <http://revrobotics.com/resources>`_
+* `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
 
 .. image:: images/control-system/exh-wiring-diagram.jpg
     :alt: A diagram of the RC Phone + Expansion Hub(s) control system
