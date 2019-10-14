@@ -23,7 +23,7 @@ to the needs of the FTC community.
 
 Kit of Parts
 ============
-https://www.gobilda.com/master-ftc-kit-2018-2019-season/
+https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 
 * 5202 Series, 26.9:1 Ratio, 223 RPM Planetary Gear Motor w/Encoder **x2**
 * 5202 Series, 13.7:1 Ratio, 435 RPM Planetary Gear Motor w/Encoder **x2**

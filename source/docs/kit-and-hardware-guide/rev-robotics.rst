@@ -49,7 +49,7 @@ option for teams needing an exact cut.
 The drawback to Misumi is that it is quite a bit heavier than the REV extrusion. 
 It is encouraged that teams use Misumi for drivetrain and structural support, 
 and REV for mechanisms that will be under low to medium load. REV also sells 
-punch tubing, which is 15 mm aluminum square tubing that is compatible with ⅛” 
+punch tubing, which is 15 mm aluminum square tubing that is compatible with 1/8” 
 rivets. 
 This will prevent bolts from loosening or sliding around, as punch tubing 
 requires teams to drill through the tubing in order to fasten parts to it. 

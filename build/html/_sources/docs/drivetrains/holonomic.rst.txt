@@ -169,7 +169,7 @@ instead of the typical 4in.
 .. _Nexus Bushing Mecanum Wheel: https://www.amazon.com/100Mm-Aluminum-Mecanum-Wheel-Right/dp/B01CTUT4GY
 .. _VexPro Mecanum Wheels: https://www.vexrobotics.com/mecanum-wheels.html
 .. _TETRIX Mecanum Wheels: https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels
-.. _VEX EDR Mecanum Wheels: https://www.robotshop.com/en/mecanum-wheel-set.html#productsReviewBoxTitle
+.. _VEX EDR Mecanum Wheels: https://www.robotshop.com/en/mecanum-wheel-set.html
 .. _AndyMark Standard Duty Mecanum Wheels: https://www.andymark.com/products/4-in-standard-mecanum-single-wheel?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6OkNhdGFsb2
 .. _REV 75mm Mecanum Wheels: http://www.revrobotics.com/rev-45-1655/
 

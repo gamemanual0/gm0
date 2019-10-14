@@ -28,7 +28,7 @@ teams in terms of flexibility.
 
 Kit Parts
 =========
-https://www.pitsco.com/sharedimages/resources/FTC_COMPETITIONSET_18-19.pdf
+https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf
 
 (Note: this is for the 2018-2019 season)
 * 32x32mm Aluminum C-Channel, various lengths
