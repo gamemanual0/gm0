@@ -70,10 +70,9 @@ not by reading a step-by-step guide or instruction manual.
 Thus, while GM0 has plenty of advice, we do not have specific steps included. 
 Good luck, and have fun in FTC!** 
 
-Game Manual 0 Table of Contents
-===============================
 
 .. toctree::
+    :caption: Game Manual 0 Table of Contents
     :maxdepth: 2
 
     docs/meta/index
@@ -129,13 +128,5 @@ Game Manual 0 Table of Contents
     :maxdepth: 3
 
     docs/appendix/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 
 .. todolist::

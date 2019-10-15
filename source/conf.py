@@ -96,7 +96,7 @@ html_theme_options = {
 	'sticky_navigation': False,
 	'titles_only': True,
     'style_external_links': True,
-    }
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -122,22 +122,82 @@ htmlhelp_basename = 'GameManual0Sitedoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+latex_logo = 'assets/gm0-logo.png'
+
+latex_engine = 'xelatex'
+
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
+    'releasename':"Game Manual 0",
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
+    'papersize': 'letterpaper',
 
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
+    'fontpkg': r'''
+        \setmainfont{DejaVu Serif}
+        \setsansfont{DejaVu Sans}
+        \setmonofont{DejaVu Sans Mono}''',
+        'preamble': r'''
+        \usepackage[titles]{tocloft}
+        \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+        \setlength{\cftchapnumwidth}{0.75cm}
+        \setlength{\cftsecindent}{\cftchapnumwidth}
+        \setlength{\cftsecnumwidth}{1.25cm}
+	''',
 
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+
+    'preamble': r'''
+        \usepackage{datetime}
+
+        \newdateformat{MonthYearFormat}{%
+            \monthname[\THEMONTH], \THEYEAR}
+
+        \usepackage{placeins}
+
+        \let\Oldsection\section
+        \renewcommand{\section}{\FloatBarrier\Oldsection}
+
+        \let\Oldsubsection\subsection
+        \renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+        \let\Oldsubsubsection\subsubsection
+        \renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+    ''',
+
+    'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+
+        \begin{titlepage}
+            \centering
+
+            \vspace*{30mm} %%% * is used to give space from top
+
+            \vspace{0mm}
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[scale=0.25]{gm0-logo.png}
+            \end{figure}
+            \begin{flushright}
+                \textbf{\Huge {"Game Manual 0"}}
+                \\
+                \textbf{\Large {a guide for FTC teams\\enjoy!}}
+            \end{flushright}
+
+            \vspace{0mm}
+
+            \vfill
+            \small Published on : September, 2019
+
+            \vspace*{0mm}
+            \small  Last updated : \MonthYearFormat\today
+
+        \end{titlepage}
+
+        \clearpage
+        \pagenumbering{roman}
+        \clearpage
+        \pagenumbering{arabic}
+
+    ''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
