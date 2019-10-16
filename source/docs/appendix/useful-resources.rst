@@ -51,7 +51,6 @@ For further reading, we highly suggest you check out those links.**
     * `Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
     * `Pulley Center-to-Center Calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
     * `Pulley Center-to-Center Calculator, alternate version <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
-    * `9773 Robocracy Optimal Gear Ratio Calculator <https://hub.gke.mybinder.org/user/nickyeichen-gearratiooptimizer-8kfykwoi/login?next=%2Fuser%2Fnickyeichen-gearratiooptimizer-8kfykwoi%2Fnotebooks%2FCalculator.ipynb>`_
 * Coding and Software Resources
     * `Java in 7 Days Tutorial <https://www.guru99.com/java-tutorial.html>`_
     * `Advanced Java Tutorial  <http://enos.itcollege.ee/~jpoial/allalaadimised/reading/Advanced-java.pdf>`_

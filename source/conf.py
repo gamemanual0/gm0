@@ -48,6 +48,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.graphviz',
+    'notfound.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -126,6 +127,8 @@ latex_logo = 'assets/gm0-logo.png'
 
 latex_engine = 'xelatex'
 
+latex_show_urls = 'footnote'
+
 latex_elements = {
     'releasename':"Game Manual 0",
 
@@ -134,7 +137,9 @@ latex_elements = {
     'fontpkg': r'''
         \setmainfont{Roboto}
         \setsansfont{Roboto}
-        \setmonofont{Inconsolata}''',
+        \setmonofont{DejaVu Sans Mono}
+    ''',
+
         'preamble': r'''
         \usepackage[titles]{tocloft}
         \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
@@ -218,6 +223,7 @@ man_pages = [
      [author], 1)
 ]
 
+linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*"]
 
 # -- Options for Texinfo output ----------------------------------------------
 
