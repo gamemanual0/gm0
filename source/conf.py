@@ -132,9 +132,9 @@ latex_elements = {
     'papersize': 'letterpaper',
 
     'fontpkg': r'''
-        \setmainfont{Fira Sans}
-        \setsansfont{Fira Sans}
-        \setmonofont{Hermit}''',
+        \setmainfont{Roboto}
+        \setsansfont{Roboto}
+        \setmonofont{Inconsolata}''',
         'preamble': r'''
         \usepackage[titles]{tocloft}
         \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
