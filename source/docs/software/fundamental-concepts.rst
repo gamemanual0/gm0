@@ -13,7 +13,8 @@ it may still be helpful to skim through the section,
 as you might find concepts that have not yet been introduced to you.
 
 Examples will mostly be in Java, where ``//`` indicates a comment which the 
-program ignores and is used for people to read.::    
+program ignores and is used for people to read.
+::    
 
     int number; // Declaring that number will contain an integer.
     number = 5; // Setting a value so that the variable holds something.
@@ -27,7 +28,7 @@ Java-Specific Exploratory Questions
 * If I didn’t set a value for number and then I printed it, what would it print?
 * What other operations can I do with number and secondNumber?
 * Can I set a decimal to number? If not, what happens?
-* What is System.out.println(); ?
+* What is ``System.out.println();``?
 * Delete one character in the code. Remember the error (if any), and then undo it. Delete another part. How many different errors can you get?
 
 There are different types of variables
