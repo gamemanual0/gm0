@@ -13,6 +13,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+import re
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -29,10 +30,12 @@ copyright = str(copyright_year) + ", " + str(author)
 
 highlight_language = "java"
 
-# The short X.Y version
-version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = re.sub('^v', '', os.popen('git describe').read().strip())
+
+# The short X.Y version
+version = release
+
 
 
 # -- General configuration ---------------------------------------------------
