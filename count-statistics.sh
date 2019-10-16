@@ -4,7 +4,7 @@ add_numbers='{a+=$1}END{print a}'
 
 EXT="rst"
 
-files=`find . -type f -name "*.$EXT"`
+files=`find source/ -type f -name "*.$EXT"`
 
 # Print the word count of all the .$EXT files recursively
 printf "Word Count: "
