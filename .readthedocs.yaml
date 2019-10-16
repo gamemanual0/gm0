@@ -13,4 +13,4 @@ formats:
 python:
   version: 3.7
   install:
-    - requirements: source/docs/requirements.txt
+    - requirements: source/requirements.txt
