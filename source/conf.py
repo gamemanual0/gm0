@@ -132,9 +132,9 @@ latex_elements = {
     'papersize': 'letterpaper',
 
     'fontpkg': r'''
-        \setmainfont{DejaVu Serif}
-        \setsansfont{DejaVu Sans}
-        \setmonofont{DejaVu Sans Mono}''',
+        \setmainfont{Fira Sans}
+        \setsansfont{Fira Sans}
+        \setmonofont{Hermit}''',
         'preamble': r'''
         \usepackage[titles]{tocloft}
         \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
