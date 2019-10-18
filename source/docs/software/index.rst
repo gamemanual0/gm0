@@ -1,7 +1,6 @@
 ========
 Software
 ========
-
 .. toctree::
     :maxdepth: 1
 

@@ -1,7 +1,6 @@
 ===============
 Rookie Mistakes
 ===============
-
 .. toctree::
     :maxdepth: 1
 

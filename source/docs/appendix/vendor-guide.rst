@@ -1,16 +1,14 @@
 ============
 Vendor Guide
 ============
-
 Vendor Identification
 =====================
-
-When you read some Bill of Materials (BOMs) or part numbers that are references 
-in this guide, it might be confusing to find what vendor the part you need comes 
-from. 
-The obvious thing to do is Google the part number, 
-and generally it can identify what you want and where it comes from. 
-But if that fails, here are some quick tips to identify the vendor selling what 
+When you read some Bill of Materials (BOMs) or part numbers that are references
+in this guide, it might be confusing to find what vendor the part you need
+comes from.
+The obvious thing to do is Google the part number,
+and generally it can identify what you want and where it comes from.
+But if that fails, here are some quick tips to identify the vendor selling what
 you need.
 
 Prefix Identification
@@ -25,10 +23,14 @@ Prefix Identification
 SKU Identification
 ------------------
 
-* Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. PQ12)
-* goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. 3213-3606-0001)
-* Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. W44260)
-* Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. 615190)
+* Actuonix: 3-4 digit SKU, alphanumeric,
+  in the form of XX00 or X00 (i.e. PQ12)
+* goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000
+  (i.e. 3213-3606-0001)
+* Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000
+  (i.e. W44260)
+* Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000
+  (i.e. 615190)
 
 Where can I get ...?
 ====================

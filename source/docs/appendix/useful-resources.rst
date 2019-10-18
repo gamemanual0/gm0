@@ -1,11 +1,10 @@
 ================
 Useful Resources
 ================
-
-Here is a page dedicated to useful resources around the interwebs. 
-Enjoy! 
-**The links with an asterisk are resources that are especially pertinent or 
-helpful. 
+Here is a page dedicated to useful resources around the interwebs.
+Enjoy!
+**The links with an asterisk are resources that are especially pertinent or
+helpful.
 For further reading, we highly suggest you check out those links.**
 
 * This Guide!
@@ -37,7 +36,7 @@ For further reading, we highly suggest you check out those links.**
         * `SDP-SI Designing Belt Drives <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_
     * `KHK Guide to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_
     * `Gears Educational Systems Guide to Chain Drive Systems <http://gearseds.com/documentation/deb%20holmes/2.5_Chain_drive_systems.pdf>`_
-    * `3D Printing Practical and Safety Course <https://docs.google.com/presentation/d/1EmkYcllHyltXlu7-TJMrwAawMWSspljUsFFP4Se32I8/edit?usp=sharing>`_ - Tom Bladykas, FTC 3736 
+    * `3D Printing Practical and Safety Course <https://docs.google.com/presentation/d/1EmkYcllHyltXlu7-TJMrwAawMWSspljUsFFP4Se32I8/edit?usp=sharing>`_ - Tom Bladykas, FTC 3736
     * `8644 Brainstormers Tips and Tricks <https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_
 * Building Resources - CAD
     * `SOLIDWORKS Student Sponsorship for FIRST (SolidWorks Download) <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
@@ -59,5 +58,8 @@ For further reading, we highly suggest you check out those links.**
 * Vendor Resources
     * `REV Robotics Technical Resources <http://www.revrobotics.com/resources/>`_
 * Discord
-    * `FTC Discord <https://discordapp.com/invite/8v3cbkj>`_
-    * The FIRST Tech Challenge Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
+    * `FTC Discord <https://discordapp.com/invite/first-tech-challenge>`_
+    * The FIRST Tech Challenge Discord server is a discussion-based community
+      server that has teams ranging from first-year rookies to Winning Alliance
+      Captains at the World Championships.
+      It also has a channel for direct access to vendors.

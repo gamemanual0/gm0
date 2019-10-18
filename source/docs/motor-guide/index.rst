@@ -1,7 +1,6 @@
 ===========
 Motor Guide
 ===========
-
 .. toctree::
     :maxdepth: 1
 
