@@ -31,7 +31,7 @@ How to check if the documentation is valid:
 * `make lint`
 * `make linkcheck`
 
-How to build the HTML version of the documentation:
+How to build the different versions of the documentation:
 * `make html`
 * `make latexpdf`
 

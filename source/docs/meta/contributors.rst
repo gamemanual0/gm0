@@ -51,6 +51,7 @@ Hardware & Electrical
 
 Software
 ========
+* Daniel - FTC 7026 JDroids - dansman805@gmail.com
 * Wes - FTC 3658 Bosons - wgfransen@gmail.com
 * David - FTC 7236 Recharged Green - pellarobotics@gmail.com
 * Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
