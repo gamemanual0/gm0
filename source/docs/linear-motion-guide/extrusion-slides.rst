@@ -57,6 +57,19 @@ Disadvantages
 * Can flex under load, needs additional support
 * May need some modifications such as custom sliders
 
+.. image:: images/extrusion-slides/11115-slides.png
+    :alt: 11115 Gluten Free's Rover Ruckus robot with slides extended
+
+.. figure:: images/extrusion-slides/11115-slider.png
+    :alt: 11115 Gluten Free's custom Rev slider
+
+    11115 Gluten Free, Rover Ruckus, custom REV slides
+
+.. figure:: images/extrusion-slides/8680-slides.jpg
+    :alt: 8680 Kraken-Pinion's Rover Ruckus robot with slides extended
+
+    8680 Kraken-Pinion, Rover Ruckus, REV
+
 Actobotics X-rail Slide Kit
 ===========================
 The `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-slide-kit>`_
@@ -91,6 +104,11 @@ Disadvantages
 * Elastic retraction slows down extension speed and retraction will be slower
   than string retraction
 
+.. figure:: images/extrusion-slides/12599-slides.jpg
+    :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
+
+    12599 Overcharged, Relic Recovery, Actobotics X-Rail
+
 goBILDA goRAIL
 ==============
 
@@ -99,21 +117,3 @@ take on linear motion using goRAIL, which is a type of extrusion compatible
 with v-groove bearings.
 Similar to a standard 8020 v-groove carriage, used in FRC,
 goRAIL is a lighter option that is better suited for FTC.
-
-.. image:: images/extrusion-slides/11115-slides.png
-    :alt: 11115 Gluten Free's Rover Ruckus robot with slides extended
-
-.. figure:: images/extrusion-slides/11115-slider.png
-    :alt: 11115 Gluten Free's custom Rev slider
-
-    11115 Gluten Free, Rover Ruckus, custom REV slides
-
-.. figure:: images/extrusion-slides/8680-slides.jpg
-    :alt: 8680 Kraken-Pinion's Rover Ruckus robot with slides extended
-
-    8680 Kraken-Pinion, Rover Ruckus, REV
-
-.. figure:: images/extrusion-slides/12599-slides.jpg
-    :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
-
-    12599 Overcharged, Relic Recovery, Actobotics X-Rail
