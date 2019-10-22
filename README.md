@@ -37,3 +37,6 @@ How to build the different versions of the documentation:
 
 How to see the options for building:
 * `make help`
+
+How to develop the website:
+* `make autobuild`

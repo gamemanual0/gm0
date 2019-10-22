@@ -6,8 +6,12 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
+
 LINTER = doc8
 LINTEROPTS = 
+
+AUTOBUILD = sphinx-autobuild
+HTMLBUILDDIR = docs/build/html
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -19,6 +23,11 @@ lint:
 	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)
 
 .PHONY: help lint Makefile
+
+autobuild:
+	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR)
+
+.PHONY: help autobuild Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
