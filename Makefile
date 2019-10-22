@@ -11,7 +11,7 @@ LINTER = doc8
 LINTEROPTS = 
 
 AUTOBUILD = sphinx-autobuild
-HTMLBUILDDIR = docs/build/html
+HTMLBUILDDIR = build/html
 
 # Put it first so that "make" without argument is like "make help".
 help:
