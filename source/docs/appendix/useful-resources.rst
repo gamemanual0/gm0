@@ -8,9 +8,7 @@ helpful.
 For further reading, we highly suggest you check out those links.**
 
 * This Guide!
-    * `Game Manual 0 <http://gm0.copr.cc/full>`_
-    * `Game Manual 0 Compressed <http://gm0.copr.cc/compressed>`_
-    * `Game Manual 0 Abridged <http://gm0.copr.cc/abridged>`_
+    * `Game Manual 0 <http://gm0.copperforge.cc>`_
 * Official FIRSTInspires Resources
     * `2019-2020 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
     * `2019-2020 Game Manual Part 1* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf>`_
