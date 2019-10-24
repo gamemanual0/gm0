@@ -81,6 +81,7 @@ It does not mean external ratios outside of the motor gearbox,
 which will always be in a spur gear configuration.**
 
 Single/multi axis arm → Linear extension
+=========================================
 Teams are generally advised to stay away from arms and move in the direction of
 linear slides, primarily due to the issue of complexity.
 This is because arms typically are less effective than linear extensions and
