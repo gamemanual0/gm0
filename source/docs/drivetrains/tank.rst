@@ -132,7 +132,7 @@ Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots
 The purpose of dropping the middle wheel is to ensure that only 4 wheels are in
 contact with the ground at all times.
 This is because turning with 6 wheels on the ground introduces lots of
-friction,making it very difficult to turn quickly.
+friction, making it very difficult to turn quickly.
 Note that the **required drop may vary depending on both field condition and
 weight of the overall robot**.
 Turning can drastically degrade due to a difference in material underneath the
