@@ -102,7 +102,7 @@ Cascade retraction
 As the name suggests, continuous retraction utilizes the same retraction method
 as continuous rigging with one notable difference:
 if the variable :math:`N` is the number of stages in the system,
-the diameter of the extension spool must be **:math:`N` times smaller**
+the diameter of the extension spool must be :math:`N` **times smaller**
 than the retraction spool.
 
 Advantages
