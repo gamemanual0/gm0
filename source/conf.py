@@ -132,6 +132,8 @@ latex_engine = 'xelatex'
 
 latex_show_urls = 'footnote'
 
+latex_show_pagerefs = True
+
 latex_elements = {
     'releasename':"Game Manual 0",
 
