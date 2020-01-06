@@ -4,15 +4,21 @@ Materials Guide
 In FTC, teams aren't limited in terms of what raw materials to use.
 However, there are definitely some important materials which you should be
 aware of.
+
+Commonly used vendors  for raw materials are (in addition to your local
+hardware store) McMaster-Carr and OnlineMetals. For more vendors, check the
+Appendix.
+
 Here are the materials to use, listed in order of importance.
+
 
 Recommended Materials
 ---------------------
 
 * Aluminum channel & angle
-* Aluminum extrusion (15mm)
+* Aluminum extrusion (15 and 20 mm)
 * Polycarbonate (Lexan™)
-* Baltic birch
+* ABS
 * Delrin
 * HDPE
 
@@ -20,7 +26,7 @@ Conditionally Recommended
 -------------------------
 
 * Aluminum sheet
-* 80/20 extrusion
+* Aluminum extrusion (1 inch)
 * Plywood
 * Polyvinyl chloride (PVC)
 
@@ -31,6 +37,9 @@ Not Recommended
 * Steel
 * Acrylic
 
+
+Metals
+------
 Aluminum
 ========
 
@@ -45,11 +54,13 @@ Aluminum
   and/or twisting under load. Both REV and Misumi extrusion are sold in bulk
   quantities, and Misumi has the option to cut to the half millimeter.
   Keep in mind that a lot of extrusion can add up quickly in terms of weight.
-* 8020 extrusion (1") is regularly used as the primary building system in FRC.
-  It is definitely overkill for FTC purposes and should not be considered as
-  the primary building component by teams.
-  It may be useful in certain applications
-  (for example, linear motion using v-groove bearings).
+* Misumi and 8020 also offer aluminum extrusions in other sizes, such as 20mm
+  and 1". 20 mm extrusion can be a good choice if you need sturdier frame than
+  provided by 15mm extrusion. Note that then you would need to buy special nuts,
+  as 20mm extrusion is not compatible with M3 nuts.
+  One inch extrusion is regularly used as the primary building system in FRC,
+  but is  definitely an  overkill for FTC purposes.  It may be useful in
+  certain applications (for example, linear motion using v-groove bearings).
 * Aluminum flat and aluminum angle is widely available at hardware stores.
   In certain applications, such as adapting from different build systems,
   it is possible to drill custom adapter plates to mount mechanisms to the
@@ -72,26 +83,6 @@ Aluminum
   of flex for adjustability - in those cases, use your judgment and test it out
   for yourself!
 
-Wood
-====
-
-* A medium to high strength material suitable for use in a wide variety of
-  applications. Keep in mind that wood cannot be exposed to water or excessive
-  humidity, as lumber for use in FTC isn't treated and may warp or expand.
-  Do not try to use laser cut wood for a drivetrain. This is especially
-  important if you live in a humid region such as Florida -
-  wood expanding can completely ruin a custom drivetrain.
-* Baltic Birch is the highest grade plywood, used in commercial applications
-  and furniture.
-  It contains 8+ layers (usually), is extremely dense, and is recommended for
-  high-load applications or structure.
-  It is quite an expensive material, so prototype and plan carefully before
-  cutting.
-* Plywood is not recommended for final iterations,
-  but can be a cheap prototyping material.
-  It doesn't bear load especially well and can flex quite a bit.
-* MDF is generally discouraged as there are better options and absorbs water
-  easily.
 
 Steel
 =====
@@ -102,6 +93,8 @@ Steel
   (most are made out of precision-ground stainless steel) and gearboxes.
 * Steel drawer slides can be used, but aluminum slides are highly recommended.
 
+Plastics
+--------
 Lexan
 =====
 Polycarbonate, commonly known by its brand name Lexan,
@@ -125,6 +118,38 @@ heat can work for thinner sheets.
 Lexan is one of the most expensive materials per square foot,
 so make sure you have carefully planned out what you are cutting before doing
 so.
+
+ABS
+===
+ABS is a hard plastic, used in many applications (it is the material used
+for LEGO blocks). It is low-friction and easily machinable using hand
+tools or CNC. ABS sheets can be also bent using sheet bender (recommended) or a
+heat gun. Thin (1/16 inch) ABS sheets can also be cut using shears. It can be
+used for side panels, ramps, and even drivetrain plates. It is not as strong as
+Delrin, but more than strong enough for most purposes; it is also cheaper
+than Lexan and Delrin.
+
+Delrin
+======
+* Acetal, also known under brand name Delrin, is a low-friction strong plastic. It
+  is the common plastic used for wheels, plastic gears, and sprockets. REV
+  robotics also uses Delrin for extrusion brackets.
+  It is a durable and strong plastic that is not easily cracked.
+  Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness),
+  but Delrin sheet is also quite expensive.
+* Delrin can be machined in a variety of ways including laser cutting,
+  cnc routing and hand sculpting. However, bending Delrin is much harder than
+  bending Lexan or ABS.
+
+HDPE
+====
+* HDPE stands for High Density Polyethylene and usually comes in opaque white
+  or black sheets and plates
+* HDPE is a cheaper alternative with low-friction characteristics similar to
+  delrin and flexibility/structure near polycarbonate.
+* HDPE is easily machined by both hand tools and machine tools.
+  However, it will burn in a laser cutter, so do not laser cut HDPE.
+
 
 Polyvinyl chloride (PVC)
 ========================
@@ -158,25 +183,34 @@ tangling with wires, etc.)
 Treat acrylic as fancy clear cardboard - it cannot be loaded and should only be
 used in very specific circumstances.
 
-Delrin
-======
 
-* Delrin is a low-friction plastic used in many REV Robotics parts.
-  It is a durable and strong plastic that is not easily cracked.
-  Delrin can be used in drivetrain plates,
-  but delrin sheet is also quite expensive.
-* Delrin can be machined in a variety of ways including laser cutting,
-  cnc routing and hand sculpting.
 
-HDPE
-====
 
-* HDPE stands for High Density Polyethylene and usually comes in opaque white
-  or black sheets and plates
-* HDPE is a cheaper alternative with low-friction characteristics similar to
-  delrin and flexibility/structure near polycarbonate.
-* HDPE is easily machined by both hand tools and machine tools.
-  However, it will burn in a laser cutter, so do not laser cut HDPE.
+
+Other
+-----
+Plywood and MDF
+===============
+
+* A medium to high strength material suitable for use in a wide variety of
+  applications. Keep in mind that wood cannot be exposed to water or excessive
+  humidity, as lumber for use in FTC isn't treated and may warp or expand.
+  Do not try to use laser cut wood for a drivetrain. This is especially
+  important if you live in a humid region such as Florida -
+  wood expanding can completely ruin a custom drivetrain.
+* Baltic Birch is the highest grade plywood, used in commercial applications
+  and furniture.
+  It contains 8+ layers (usually), is extremely dense, and is recommended for
+  high-load applications or structure.
+  It is quite an expensive material, so prototype and plan carefully before
+  cutting.
+* Plywood is not recommended for final iterations,
+  but can be a cheap prototyping material.
+  It doesn't bear load especially well and can flex quite a bit.
+* MDF is generally discouraged as there are better options and absorbs water
+  easily.
+
+
 
 Carbon fiber
 ============
