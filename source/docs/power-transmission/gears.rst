@@ -83,7 +83,7 @@ your gears (the number of teeth per inch of the gear’s diameter).
 With these two pieces of information, you can use the equation
 :math:`D=\frac{T_{1}+T_{2}}{P}`.
 In this equation, :math:`D` is the distance between the center of both gears,
-:math:`T_{1}` and :math:`T_{2}`
+:math:`T_1` and :math:`T_2`
 are the number of teeth of each gear in question,
 and :math:`P` is the diametral pitch of the gears.
 
