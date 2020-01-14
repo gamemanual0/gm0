@@ -37,6 +37,7 @@ teams as a starting point.
 
 Kit Options
 ===========
+Below is the list of kits commonly used in FTC.
 .. toctree::
     :maxdepth: 1
 
@@ -45,3 +46,23 @@ Kit Options
     gobilda
     rev-robotics
     custom
+
+Which kit should one choose?
+============================
+Choice of a kit a matter of many a debate in FTC forums, and each team has
+their favorites. If you are a rookie team and do not have any experience
+with any of the kits above, we would recommend starting with a kit from either
+REV robotics or goBILDA. These kits provide good selection of parts,
+reliability, and reasonable price. REV is slightly cheaper but takes more
+effort to work with (you  need to cut aluminum extrusion to length); it is
+also available from FIRST storefront, which might be convenient for teams doing
+their purchasing through official school procurement systems. goBILDA is
+slightly more expensive, but is easier to get started with.
+
+Tetrix is probably the simplest system to work with, but its part selection is
+limited, and the use of 4.7mm shaft with set screws is inferior to clamping
+hubs used in other systems.
+
+Actobotics (which in many ways is similar to goBILDA and is made by the same
+company) is good, but for most FTC teams, goBILDA would probably be a better
+choice, unless you already have a large stock of Actobotics parts. 
