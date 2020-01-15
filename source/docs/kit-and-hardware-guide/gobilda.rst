@@ -1,25 +1,45 @@
 =======
 goBILDA
 =======
-goBILDA is a fixed-pitch, channel based building system that was fully released
-in the 2018-2019 season.
-The goBILDA build system revolves around 48mm aluminum U-channels and the
-pattern features a unique 8mm grid with 16mm square clocked slots.
-It uses a metric hole pattern, M4 screws, 8mm pitch chain, HTD 3 belt,
-and metric shafts (6mm D).
-goBILDA’s robust motion system, which is all metric, allows teams to easily
-build drivetrains and mechanisms without worrying about placement and
-tensioning.
-Much like Actobotics, it is channel based with an additional extrusion system
-for flexibility and adjustability.
-Unlike Actobotics, however, low-side channel (smaller profile channel) is the
-foundational building material to supplement full size U-channel.
+goBILDA (http://gobilda.com) is a fixed-pitch, channel based building system
+that was fully released in the 2018-2019 season. In many ways it is similar to
+Actobotics (and in fact
+is created by the same company); unlike Actobotics, it is based on metric
+measurements, featuring hole pattern with 4mm holes on 8mm grid, M4 screws,
+8mm pitch chain, HTD 3 or HTD 5  belt, and metric shafts (6mm D and 8mm rounded
+hex). The principal structure pieces of goBILDA are  48mm aluminum U-channels
+shown below.
+
+.. figure:: images/gobilda/gobilda_channel.jpg
+    :alt: goBilda U-channel
+
+    goBILDA U-channel (48x48 mm)
+
+In addition, goBILDA provides  low-side channel (smaller profile channel)
+to supplement full size U-channel, measuring just 12mm height and allowing
+for more compact builds.
+
+.. figure:: images/gobilda/gobilda_low_channel.jpg
+    :alt: goBilda low-side channel
+
+    goBilda low-side channel (12x48 mm)
+
+
 Even though this may initially seem like a stepback,
 the use of low side channel opens up many new possibilities such as a kit-based
 parallel plate drivetrain.
+
+
+goBILDA’s robust motion system, which is all metric, allows teams to easily
+build drivetrains and mechanisms without worrying about placement and
+tensioning. goBILDA mostly uses clamping hubs, eliminating the unreliable set
+screws.
+
 Additionally, goBILDA is still being developed at a quick pace and is
 responsive to the needs of the FTC community.
 **goBILDA offers a 25% discount for FIRST teams.**
+
+
 
 Kit of Parts
 ============
@@ -41,7 +61,7 @@ https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 
 Advantages
 ==========
-* goBILDA's low sized U-channel opens up many new possibilities due to its
+* goBILDA's low-side U-channel opens up many new possibilities due to its
   flexibility and compactness.
   For example, one can now make a parallel plate drivetrain without custom
   machining, or make custom width U-channel.
@@ -58,25 +78,26 @@ Advantages
 * goBILDA has a well thought-out ball bearing based motion system with smart
   motion transfer.
   It is easy to do chain or belt in channel.
-  8mm chain and HTD 3 belt can do perfect C2C (center to center) on the
+  8mm chain and HTD 3 and 5 mm  belt can do perfect C2C (center to center) on the
   goBILDA pattern.
-* goBILDA has plenty of shaft, bearing and pillow block options.
+* goBILDA has plenty of shaft, ball bearing and pillow block options.
 * goBILDA motors can face mount natively into channel,
   eliminating the need for motor mounts and providing a robust, reliable way to
   mount motors.
 * goBILDA has some special parts are unavailable in other systems,
   like square beam shafts.
+* goBILDA provides a large selection of 12V DC motors. Their Yellow Jacket
+  motors use orbital gearboxes (which are more reliable than spur gears) and
+  are available in 10 different gear ratios, ranging from 30 RPM (and enough
+  torque to twist off 6mm steel  shaft) to speedy 1620 RPM. 
 
 Disadvantages
 =============
 * goBILDA is not the cheapest build system;
   it is relatively equivalent in pricing to Actobotics, but REV is cheaper.
-* To achieve perfect center-to-center (C2C), goBILDA chose to adopt the HTD-3
-  belt standard.
-  While this is a good choice, note that under extremely high torque loads
-  (like an arm) the belt may skip. An easy way to remedy this would be to 3D
-  print pulleys and use the HTD-5 belt standard,
-  which will have perfect C2C on goBILDA channel every 5 bearing holes.
+* goBILDA U-channels are larger than the channels from Tetrix, resulting in
+  larger builds. However, this is more than compensated by the fact that one
+  can put a goBILDA motor *inside* a channel
 * Because of metric pattern spacing, goBILDA utilizes 8mm pitch chain,
   as opposed to the FTC standard #25 Imperial chain.
   This means that other kits' chain and sprockets won’t work with goBILDA chain
@@ -90,4 +111,3 @@ Disadvantages
 
     An example of a successful goBILDA based robot, 7182 Mechanical Paradox
     Cubed: Finalist Alliance 1st Pick (Detroit), Rover Ruckus
-
