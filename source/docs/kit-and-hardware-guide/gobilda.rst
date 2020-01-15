@@ -11,7 +11,7 @@ hex). The principal structure pieces of goBILDA are  48mm aluminum U-channels
 shown below.
 
 .. figure:: images/gobilda/gobilda_channel.jpg
-    :alt: goBilda U-channel
+    :alt: goBILDA U-channel
 
     goBILDA U-channel (48x48 mm)
 
@@ -20,9 +20,9 @@ to supplement full size U-channel, measuring just 12mm height and allowing
 for more compact builds.
 
 .. figure:: images/gobilda/gobilda_low_channel.jpg
-    :alt: goBilda low-side channel
+    :alt: goBILDA low-side channel
 
-    goBilda low-side channel (12x48 mm)
+    goBILDA low-side channel (12x48 mm)
 
 
 Even though this may initially seem like a stepback,
