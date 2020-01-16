@@ -38,6 +38,7 @@ teams as a starting point.
 Kit Options
 ===========
 Below is the list of kits commonly used in FTC.
+
 .. toctree::
     :maxdepth: 1
 
