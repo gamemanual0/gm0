@@ -1,6 +1,6 @@
-====
-Meta
-====
+===================
+About this document
+===================
 .. toctree::
     :maxdepth: 1
 
