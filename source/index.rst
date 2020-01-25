@@ -74,7 +74,7 @@ Good luck, and have fun in FTC!**
     :caption: Game Manual 0 Table of Contents
     :maxdepth: 3
 
-    docs/getting-started/index
+    docs/getting-started-in-ftc/index
     docs/hardware-basics/index
     docs/robot-design/index
     docs/power-and-electronics/index
