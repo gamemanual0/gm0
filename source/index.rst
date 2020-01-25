@@ -72,7 +72,7 @@ Good luck, and have fun in FTC!**
 
 .. toctree::
     :caption: Game Manual 0 Table of Contents
-    :maxdepth: 3
+    :maxdepth: 2
 
     docs/getting-started-in-ftc/index
     docs/hardware-basics/index
