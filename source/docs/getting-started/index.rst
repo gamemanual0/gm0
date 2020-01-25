@@ -1,7 +1,9 @@
-
+=============================
+Getting started for new teams
+=============================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     meta/index
     getting-started-in-ftc/index

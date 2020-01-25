@@ -1,4 +1,8 @@
-
+===============
+Hardware basics
+===============
+This chapter covers the basics of building the robot: tools, materials,
+kits of parts.
 
 .. toctree::
     :maxdepth: 2
