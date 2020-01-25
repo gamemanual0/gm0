@@ -1,6 +1,7 @@
 ===================
 About this document
 ===================
+Information about Game Manual 0. 
 .. toctree::
     :maxdepth: 1
 

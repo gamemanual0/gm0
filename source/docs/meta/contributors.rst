@@ -48,6 +48,7 @@ Hardware & Electrical
 * Adham - FTC 14875 LightSpeed
 * Dom - FTC 15692 Rust in Pieces huppdo@rustinpieces.tech
 * John V-Neun - FRC 148 Mentor - JVN Design Calculator
+* Shurik - FTC 4137 Islandbots - islandbots.ftc@gmail.com
 
 Software
 ========
