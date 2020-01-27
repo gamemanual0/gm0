@@ -195,7 +195,7 @@ pretty simple.
 
 After this, extrude that sketch into the first plate of the drivetrain.
 Typically, a standard thickness of aluminum plate is 1/8”.
-Thinner plate (3/32”) can be used as well, but generally most teams stick to 
+Thinner plate (3/32”) can be used as well, but generally most teams stick to
 1/8”.
 Extrude the plate to that thickness. Below is the sketch after extruding.
 

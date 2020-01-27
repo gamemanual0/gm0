@@ -69,7 +69,7 @@ Advantages
   (identical to Actobotics other than hole pattern)
   which drastically increase servo life.
 * goBILDA has native large bore hex shaft support
-  (12mm REX is comparable to 3/8" Thunderhex) which is one of the main 
+  (12mm REX is comparable to 3/8" Thunderhex) which is one of the main
   advantages of custom fabrication brought to a kit based system.
 * goBILDA also is able to interface with TETRIX channel because they share some
   holes.
@@ -78,8 +78,8 @@ Advantages
 * goBILDA has a well thought-out ball bearing based motion system with smart
   motion transfer.
   It is easy to do chain or belt in channel.
-  8mm chain and HTD 3 and 5 mm  belt can do perfect C2C (center to center) on the
-  goBILDA pattern.
+  8mm chain and HTD 3 and 5 mm  belt can do perfect C2C (center to center) on
+  the goBILDA pattern.
 * goBILDA has plenty of shaft, ball bearing and pillow block options.
 * goBILDA motors can face mount natively into channel,
   eliminating the need for motor mounts and providing a robust, reliable way to
@@ -89,7 +89,7 @@ Advantages
 * goBILDA provides a large selection of 12V DC motors. Their Yellow Jacket
   motors use orbital gearboxes (which are more reliable than spur gears) and
   are available in 10 different gear ratios, ranging from 30 RPM (and enough
-  torque to twist off 6mm steel  shaft) to speedy 1620 RPM. 
+  torque to twist off 6mm steel  shaft) to speedy 1620 RPM.
 
 Disadvantages
 =============

@@ -26,8 +26,10 @@ On the electronics side, there are the two REV expansion hubs and the Android
 phone, along with extras such as the Servo Power Module, if necessary.
 
 The kit guide provides information on
-:doc:`selecting the right kit for your team <../hardware-basics/kit-and-hardware-guide/index>`.
-Along with this, we have included a :doc:`list of tools <../hardware-basics/tools-list>`
+:doc:`selecting the right kit for your team
+<../hardware-basics/kit-and-hardware-guide/index>`.
+Along with this, we have included a
+:doc:`list of tools <../hardware-basics/tools-list>`
 that may be necessary or beneficial for your team to purchase.
 The building guides for drivetrain, linear extension, and intake go over the
 different routes teams can take, as well as providing advice on which to

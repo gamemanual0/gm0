@@ -56,8 +56,8 @@ Aluminum
   Keep in mind that a lot of extrusion can add up quickly in terms of weight.
 * Misumi and 8020 also offer aluminum extrusions in other sizes, such as 20mm
   and 1". 20 mm extrusion can be a good choice if you need sturdier frame than
-  provided by 15mm extrusion. Note that then you would need to buy special nuts,
-  as 20mm extrusion is not compatible with M3 nuts.
+  provided by 15mm extrusion. Note that then you would need to buy special
+  nuts, as 20mm extrusion is not compatible with M3 nuts.
   One inch extrusion is regularly used as the primary building system in FRC,
   but is  definitely an  overkill for FTC purposes.  It may be useful in
   certain applications (for example, linear motion using v-groove bearings).
@@ -131,8 +131,8 @@ than Lexan and Delrin.
 
 Delrin
 ======
-* Acetal, also known under brand name Delrin, is a low-friction strong plastic. It
-  is the common plastic used for wheels, plastic gears, and sprockets. REV
+* Acetal, also known under brand name Delrin, is a low-friction strong plastic.
+  It is the common plastic used for wheels, plastic gears, and sprockets. REV
   robotics also uses Delrin for extrusion brackets.
   It is a durable and strong plastic that is not easily cracked.
   Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness),

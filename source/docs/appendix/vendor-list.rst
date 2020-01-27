@@ -11,7 +11,7 @@ Vendor List
       as well as individual game parts and the SoftTiles foam tiles.
     * AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner,
       compliant, stealth, and mecanum wheels, as well as many other items.
-* `goBILDA < https://www.gobilda.com/>`_
+* `goBILDA <https://www.gobilda.com/>`_
     * goBILDA sells its own build system, complete with Yellow Jacket motors,
       channel, motion components, and battery.
       Note that the cheapest batteries are found here,
