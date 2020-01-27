@@ -1,7 +1,7 @@
 =======
 goBILDA
 =======
-goBILDA (http://gobilda.com) is a fixed-pitch, channel based building system
+goBILDA (https://www.gobilda.com/) is a fixed-pitch, channel based building system
 that was fully released in the 2018-2019 season. In many ways it is similar to
 Actobotics (and in fact
 is created by the same company); unlike Actobotics, it is based on metric

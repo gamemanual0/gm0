@@ -13,7 +13,7 @@ For further reading, we highly suggest you check out those links.**
     * `2019-2020 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
     * `2019-2020 Game Manual Part 1* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf>`_
     * `2019-2020 Game Manual Part 2* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2.pdf>`_
-    * `FTC Forum - USFIRST <https://ftcforum.usfirst.org/forum?s=2b3d68a255bd1bdd36e0831c9aa9078a>`_
+    * `FTC Forum - USFIRST <https://ftcforum.firstinspires.org/>`_
     * `Robot Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`_
     * `Field Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-inspection-checklist.pdf>`_
     * `DIY Field Perimeter Build Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/low-cost-field-perimeter-guide.pdf>`_
@@ -23,10 +23,10 @@ For further reading, we highly suggest you check out those links.**
     * `Mentor Manual <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf>`_
 * General Team Resources
     * `KNO3 Software/Mechanical/CAD Resources <https://www.kno3.net/resources>`_
-    * `Simbotics FRC Philosophy and Game Analysis* <http://www.simbotics.org/files/pdf/robotdesign.pdf>`_
+    * `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
 * Building Resources - Principles
-    * `Simbotics FRC Mechanical Design Principles* <http://www.simbotics.org/files/pdf/mechanical.pdf>`_
-    * `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/files/pdf/drivetraindesign.pdf>`_
+    * `Simbotics FRC Mechanical Design Principles* <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_
+    * `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
     * `FTCKey - FTC wiki (slightly outdated) <http://ftckey.com/>`_
 * Building Resources - Applications
     * `goBILDA with TETRIX (Blog for interfacing goBILDA with TETRIX) <https://gobildatetrix.blogspot.com>`_

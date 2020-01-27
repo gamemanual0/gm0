@@ -13,7 +13,7 @@ Encoders/Potentiometers
 
 * Rotational
     * Absolute (+ Potentiometers)
-        * MA3 (`am-2899 <https://www.andymark.com/products/absolute-encoder-with-cable>`_)
+        * MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-cable>`_)
         * Potentiometer (`REV-31-1155 <http://www.revrobotics.com/rev-31-1155/>`_)
     * Relative
         * E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
