@@ -1,5 +1,5 @@
 ============
-Robot design
+Robot Design
 ============
 
 This chapter covers basic principles of robot design as well as suggestions for

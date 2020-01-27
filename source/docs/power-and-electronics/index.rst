@@ -1,5 +1,5 @@
 =====================
-Power and electronics
+Power And Electronics
 =====================
 
 This chapter contains information on electric power  and electronics of the
@@ -9,8 +9,6 @@ robot,  including information on wiring, batteries, motors, and control system.
     :maxdepth: 1
 
     wiring
-    motor-guide/index
-    servo-guide/index
     control-system
     sensor-glossary
     tips-and-tricks

@@ -1,5 +1,5 @@
 ===============
-Hardware basics
+Hardware Basics
 ===============
 This chapter covers the basics of building the robot: tools, materials,
 kits of parts.
@@ -10,3 +10,5 @@ kits of parts.
     kit-and-hardware-guide/index
     materials-guide
     tools-list
+    motor-guide/index
+    servo-guide/index
