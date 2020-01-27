@@ -67,13 +67,13 @@ Aluminum
   drivetrain.
   Aluminum angle is also a very sturdy structural support piece that takes up
   relatively little space, and can adapt to any build system.
-  We suggest using ⅛” alumimum with drivetrain or mounting applications,
+  We suggest using 1/8” alumimum with drivetrain or mounting applications,
   and 1/16” aluminum for low-load situations.
 * Aluminum drawer slides, often with ball bearing sliders, are recommended over
   steel drawer slides primarily for weight purposes.
   Refer to the Linear Motion section for more information.
 * Sheet aluminum is generally used for drivetrain plates on custom drivetrains.
-  The recommended thickness is ⅛" or 3/16". Because it is a plate,
+  The recommended thickness is 1/8" or 3/16". Because it is a plate,
   sheet aluminum will bend if not supported correctly with standoffs or
   channel.
   Only load the sheet in the plane that it is in

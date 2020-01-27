@@ -8,7 +8,7 @@ is powering.
 Keep in mind that some shafts such as 8 mm round shaft cannot use set screws
 (although set screws are generally discouraged).
 Adapting from different shaft types can be very inelegant and inefficient,
-with the exception of 5 mm to/from ½” hex.
+with the exception of 5 mm to/from 1/2” hex.
 The different (common) types of shafts in FTC are as follows.
 
 * Hex
@@ -107,8 +107,8 @@ your desired motor connections, and your desired output shaft type**.
   but does use the same connections (JST VH) as the REV Expansion and
   Control hub for power which means no adapter cables.
   The output shaft is a 5mm hex shaft. REV UltraHex has a 5mm hex bore running
-  through the middle of a ½” hex shaft, which makes adapting this motor to any
-  length of Ultrahex, and by extension, ½” hex shaft, very easy.
+  through the middle of a 1/2” hex shaft, which makes adapting this motor to any
+  length of Ultrahex, and by extension, 1/2” hex shaft, very easy.
 * Andymark NeveRest Classic motors come in a few different ratios,
   which are 40:1 and 60:1. The output shaft is a 6mm D-shaft,
   and like all NeveRest motors use the Anderson Power Pole to connect to power.

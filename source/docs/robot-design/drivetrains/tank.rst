@@ -128,7 +128,7 @@ below the other two wheels.
 The drop should be anywhere from more than 1/16” up to 1/4”.
 However, the recommended drop is around 1/8”.
 Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots
-(>25 lbs.) perform slightly better with more than ⅛” drop.
+(>25 lbs.) perform slightly better with more than 1/8” drop.
 The purpose of dropping the middle wheel is to ensure that only 4 wheels are in
 contact with the ground at all times.
 This is because turning with 6 wheels on the ground introduces lots of

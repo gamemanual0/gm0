@@ -69,8 +69,8 @@ Advantages
   (identical to Actobotics other than hole pattern)
   which drastically increase servo life.
 * goBILDA has native large bore hex shaft support
-  (12mm REX is comparable to ⅜ Thunderhex) which is one of the main advantages
-  of custom fabrication brought to a kit based system.
+  (12mm REX is comparable to 3/8" Thunderhex) which is one of the main 
+  advantages of custom fabrication brought to a kit based system.
 * goBILDA also is able to interface with TETRIX channel because they share some
   holes.
   For more information about TETRIX-goBILDA compatibility,

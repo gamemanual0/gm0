@@ -219,7 +219,7 @@ and keep slack on the connector end when adding strain relief to the cable.
 
 The JST data connectors on the REV Expansion Hub and Control Hub have +5v, GND,
 and two data pins.
-If you are using a digital or analog sensor that does not use I²C, you can use
+If you are using a digital or analog sensor that does not use I2C, you can use
 a Y cable that gives two sensors off of one port.
 
 Miscellaneous

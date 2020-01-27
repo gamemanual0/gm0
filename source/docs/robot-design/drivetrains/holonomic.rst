@@ -147,7 +147,7 @@ TETRIX Mecanum Wheels**.
 
 7. `VEX EDR Mecanum Wheels`_ ($59.99):
 These are the cheapest mecanum wheels,
-but have a strange shaft standard (⅛ square) which require the use of 3D
+but have a strange shaft standard (1/8" square) which require the use of 3D
 printed adapters.
 **There are not many reasons to purchase these wheels.**
 
