@@ -303,7 +303,7 @@ makes the shaft spin, not the gearbox that is often mounted on the motor,
 doesn’t matter all that much in FTC.
 The motors from Andymark, REV, and goBILDA might have different specifications
 on their websites, but they’re all very similar.
-The VEX motor testing (link in the `jvn-calculator` section)
+The VEX motor testing (link in the :doc:`jvn-calculator` section)
 shows the accurate specifications of a bare RS-555 series motor.
 When choosing between companies,
 always go with what works best with your motion system,
