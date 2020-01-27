@@ -18,7 +18,7 @@ but of course there are better answers than others.
 We hope this guide gives some solid advice on which kit might be the best for
 you.
 
-Why use a kit?
+Why Use a Kit?
 ==============
 After all, plenty of successful robots have not followed this framework.
 However, we still recommend new teams purchase a starter kit for one big
@@ -48,7 +48,7 @@ Below is the list of kits commonly used in FTC.
     rev-robotics
     custom
 
-Which kit should one choose?
+Which Kit Should One Choose?
 ============================
 Choice of a kit a matter of many a debate in FTC forums, and each team has
 their favorites. If you are a rookie team and do not have any experience
@@ -66,4 +66,4 @@ hubs used in other systems.
 
 Actobotics (which in many ways is similar to goBILDA and is made by the same
 company) is good, but for most FTC teams, goBILDA would probably be a better
-choice, unless you already have a large stock of Actobotics parts. 
+choice, unless you already have a large stock of Actobotics parts.

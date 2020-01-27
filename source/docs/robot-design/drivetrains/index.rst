@@ -47,7 +47,7 @@ Here are some priorities for that we think are important for each drivetrain:
    is used in the drivetrain.
    For example, spur gearboxes are much more likely to break under load than a
    planetary gearboxes.
-   (See :doc:`../motor-guide/index` for details).
+   (See :doc:`../../hardware-basics/motor-guide/index` for details).
    Thus, spur gear motors are not the optimal choice for drivetrain,
    especially if the robot is projected to be on the heavy side (30+ pounds).
    Reliability, the key to success in FIRST Tech Challenge,
@@ -62,7 +62,7 @@ Here are some priorities for that we think are important for each drivetrain:
    Generally, a solid drivetrain should have a maximum speed of around 2-3.5
    feet/second, and be able to turn fully in around two seconds.
    A good resource to determine the agility of a drivetrain is the
-   :doc:`../motor-guide/jvn-calculator` -
+   :doc:`../../hardware-basics//motor-guide/jvn-calculator` -
    refer to that section for more information.
 3. **Number of motors and gear ratio**: Generally, new teams may try to use
    only two motors on the drivetrain.
