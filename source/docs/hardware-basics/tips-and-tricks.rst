@@ -18,7 +18,7 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
 
 * **Only use locknuts**. Never use regular nuts in your builds - they easily
   come loose under vibration. Kep nuts used in TETRIX are better, but they are
-  still prone to coming loose. For best results, always use nylon locknuts.
+  still prone to loosening. For best results, always use nylon locknuts.
 
 * **Do not use socket head screws on plastic**. Using socket head screws for
   attaching plastic parts (in particular, for attaching servos) damages the
@@ -34,7 +34,23 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   situation arises  is when using attachment blocks where two screw holes
   intersect - if you are not careful, you could have one screw hitting another.
 
-* **Never connect two components which both have  threaded holes**. To get
+* **Do not connect two components which both have  threaded holes**. To get
   tight connection, the screw should go through an **unthreaded** hole in one
   component into a **threaded**  hole in another, or through  two unthreaded holes
   into a nut.
+
+* **Removing stripped screws**. A common problem is removing a screw in which
+  the hex socket head  is damaged or worn out and thus the regular hex driver
+  doesn't provide enough holding power to loosen the screw. Here are some ways
+  to deal with the problem.
+  * Get a better hex driver. Hex driver can also be worn out, especially
+    ball head hex drivers. Get a new hex driver (not ball head), which is not
+    yet worn out, and it might give you more traction with stubborn screws.
+  * Put a rubber band between the tip of the hex driver and the socket.
+    This increases the traction.
+  * Use a hacksaw or a dremel to cut a slot in the screw head, turning it into
+    a slotted screw that can be removed using regular flat screwdriver.
+  * If nothing works, drill it out.
+  
+  Needless to say, once you removed the damaged screw, discard it immediately -
+  do not put it back in the box with other screws.
