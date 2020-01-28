@@ -12,3 +12,4 @@ kits of parts.
     tools-list
     motor-guide/index
     servo-guide/index
+    tips-and-tricks 
