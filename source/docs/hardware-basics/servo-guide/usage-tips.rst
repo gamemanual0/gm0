@@ -5,7 +5,7 @@ Servo Usage Tips
 Below are some tips on using servos in FTC.
 
 
-* Do not backdrive servos. Trying to forcibly rotate a powered servo away from
+* Do not backdrive servos. Forcibly rotating a powered servo away from
   its position risks damaging the internal gears.
 
 
@@ -18,7 +18,7 @@ Below are some tips on using servos in FTC.
   to prevent the connection from coming apart when someone pulls on the wire.
 
 * Do not use socket head screws to attach servos - when tightened, they will
-  damage the plastic. Use button head crews or socket heads with a washer.  
+  damage the plastic. Use button head crews or socket heads with a washer.
 
 * Servos break very easily when subjected to lateral loads or bending of the
   shaft. For example, if you mount an arm or a claw directly on the servo
@@ -33,20 +33,21 @@ Below are some tips on using servos in FTC.
   .. figure:: images/servoblock.jpg
       :alt: servoblock
 
-      A a servo in a ServoBlock
+      A servo in a ServoBlock
 
 * Use linkages. Instead of mounting some rotating piece directly on a servo,
   mount it so it can rotate around a pivot point and then connect it to the
   servo using linkage as shown below:
 
 
-  .. figure:: images/servoblock.jpg
-      :alt: servoblock
+  .. figure:: images/linkage.jpg
+      :alt: linkage
 
-      A a servo in a ServoBlock
+      Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam
+      is used as the link.
 
 * If you need more power, use
-  `REV Servo Power Module `<http://www.revrobotics.com/rev-11-1144/>`_.
+  `REV Servo Power Module <http://www.revrobotics.com/rev-11-1144/>`_.
   By itself, REV Expansion hub provides 5V power to servos, and the current
   is limited to 2A for each of 3 pairs of servo ports (0-1, 2-3, 4-5). Since
   stall current on a servo such as goBILDA Dual Mode servo is about 2.5A,

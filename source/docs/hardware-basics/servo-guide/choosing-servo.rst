@@ -6,9 +6,7 @@ For many  applications, you can just use one of the two most common servos
 in FTC,  `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
 `goBILDA Dual Mode Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
 However, sometimes these servos are not enough. To choose the right servo in
-these cases, you need to know more about servos. They vary widely in price,
-performance and value. Picking the right servo for your application is a
-question that’s almost impossible to give a blanket answer for.
+these cases, you need to know more about servos.
 
 
 Here are some of servo features you need to pay attention to when selecting
@@ -161,4 +159,4 @@ Best Value
     * Hitec titanium servos
 
 REV and goBILDA servos can be purchased from REV and goBILDA websites
-respectively. For all other servos, good source is servocity.com or Amazon. 
+respectively. For all other servos, good source is servocity.com or Amazon.
