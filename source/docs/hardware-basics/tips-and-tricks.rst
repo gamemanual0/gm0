@@ -12,8 +12,10 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
 * **Avoid set screws**.  Set screws easily come loose, causing the hub to slip. In
   addition, set screws damage the axle, sometimes making it very hard to remove
   the hub later. For these reasons, whenever possible, use clamping hubs and
-  collars instead of set screw ones. If you must use set screw hubs, use blue
-  (non-permanent) loctite to prevent them from loosening.
+  collars instead of set screw ones. If you must use set screw hubs, use a
+  non-permanent threadlocker (such as `Loctite blue
+  <https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html>`_
+  to prevent them from loosening.
 
 
 * **Only use locknuts**. Never use regular nuts in your builds - they easily
@@ -43,14 +45,15 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   the hex socket head  is damaged or worn out and thus the regular hex driver
   doesn't provide enough holding power to loosen the screw. Here are some ways
   to deal with the problem.
-  * Get a better hex driver. Hex driver can also be worn out, especially
+
+  - Get a better hex driver. Hex driver can also be worn out, especially
     ball head hex drivers. Get a new hex driver (not ball head), which is not
     yet worn out, and it might give you more traction with stubborn screws.
-  * Put a rubber band between the tip of the hex driver and the socket.
+  - Put a rubber band between the tip of the hex driver and the socket.
     This increases the traction.
-  * Use a hacksaw or a dremel to cut a slot in the screw head, turning it into
+  - Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into
     a slotted screw that can be removed using regular flat screwdriver.
-  * If nothing works, drill it out.
-  
+  - If nothing works, drill it out.
+
   Needless to say, once you removed the damaged screw, discard it immediately -
   do not put it back in the box with other screws.
