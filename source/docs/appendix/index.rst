@@ -7,4 +7,5 @@ Appendix
     vendor-list
     vendor-guide
     useful-resources
+    gallery
     license
