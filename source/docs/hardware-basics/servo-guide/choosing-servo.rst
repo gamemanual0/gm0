@@ -152,8 +152,8 @@ Best Value
     * HiTec 488HB
     * Futaba servos
 * Medium Priced (~$25)
-    * goBILDA Dual Mode Servo (25-2)
-    * REV Smart Servo
+    * `goBILDA Dual Mode Servo (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
+    * `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_
 * Best Performance ($75+)
     * Savox titanium servos
     * Hitec titanium servos
