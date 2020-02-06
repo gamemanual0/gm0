@@ -18,7 +18,7 @@ Large arms can also be hard to control
 it is hard to stop a three-foot arm that weighs five pounds quickly without
 breaking a gearbox).
 In many cases, this issue can be mitigated with software
-(see the :doc:`../software/control-loops` section).
+(see the :doc:`../../software/control-loops` section).
 
 Depending on the application and implementation,
 arms can be either faster or slower than extension options.

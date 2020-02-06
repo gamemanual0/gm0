@@ -55,7 +55,7 @@ and if your servo will experience shock loads or not.
 
 
 Durability and Servo Gear Material
--------------------
+----------------------------------
 The two things that threaten a servo’s longevity are the motor inside burning
 out and more commonly, the gears stripping inside the servo.
 A motor burning out is pretty uncommon, but it can happen under large loads for
@@ -117,8 +117,9 @@ By far the best bang for your buck servos out there are the Feetech dual mode
 servos, which is a programmable type of servo.
 This includes both the **REV SRS** (Smart Robot Servo) and
 **both goBILDA Dual Mode servos**.
-The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their brass
-gears. Coupled with high output power, this meant that stripping gears with any shock
+The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their
+brass gears.
+Coupled with high output power, this meant that stripping gears with any shock
 load was commonplace.
 The new goBILDA Dual Mode servos (25-2)  have steel gears now, but are new
 and aren’t as competition tested as other servos.

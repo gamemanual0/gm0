@@ -86,8 +86,8 @@ the robot will not encounter opposing robots.
 Sufficient driver practice will be able to better simulate in-game conditions
 and test the reliability of the robot.
 To remedy this problem, refer to the
-:doc:`Materials Guide <../materials-guide>` to gain a better understanding of
-what materials are recommended for use.
+:doc:`Materials Guide <../hardware-basics/materials-guide>` to gain a better
+understanding of what materials are recommended for use.
 In addition, teams often forget to account for twisting or compression forces
 that may occur upon the mechanism.
 While we cannot give any specific recommendations, do keep in mind what forces
@@ -96,7 +96,7 @@ motion, and account for what occurs when it might hit another
 robot/field wall/field.
 Building more robustly is always worth the time spent.
 Furthermore, a common cause of robot disconnect is wiring issues.
-Refer to the :doc:`Wiring section <../electronics/wiring>` for more
+Refer to the :doc:`Wiring section <../power-and-electronics/wiring>` for more
 information; in short, make sure to plan ahead and leave space for wires,
 and use strain relief whenever possible.
 All these tips combined will help your robot become more reliable,
