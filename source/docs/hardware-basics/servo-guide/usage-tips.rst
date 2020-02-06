@@ -32,6 +32,7 @@ Below are some tips on using servos in FTC.
 
   .. figure:: images/servoblock.jpg
       :alt: servoblock
+      :width: 40%
 
       A servo in a ServoBlock
 

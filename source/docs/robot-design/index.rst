@@ -9,6 +9,7 @@ design of  common components of FTC robots: drivetrain, linear motion
 .. toctree::
     :maxdepth: 2
 
+    cad
     drivetrains/index
     power-transmission/index
     linear-motion-guide/index

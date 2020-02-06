@@ -16,6 +16,7 @@ In FTC, servos are typically used for claws, grabbers, and arms.
 
 .. figure:: images/hs488.jpg
     :alt: HS488 Hitec servo
+    :width: 40%
 
     A common servo, HS488-HB from Hitec
 

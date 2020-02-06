@@ -13,7 +13,7 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   addition, set screws damage the axle, sometimes making it very hard to remove
   the hub later. For these reasons, whenever possible, use clamping hubs and
   collars instead of set screw ones. If you must use set screw hubs, use a
-  non-permanent threadlocker (such as `Loctite blue
+  non-permanent threadlocker such as `Loctite blue
   <https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html>`_
   to prevent them from loosening.
 
@@ -53,6 +53,7 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
     This increases the traction.
   - Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into
     a slotted screw that can be removed using regular flat screwdriver.
+  - Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_
   - If nothing works, drill it out.
 
   Needless to say, once you removed the damaged screw, discard it immediately -
