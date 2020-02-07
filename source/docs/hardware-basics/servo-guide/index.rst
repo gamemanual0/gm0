@@ -24,8 +24,8 @@ In FTC, servos are typically used for claws, grabbers, and arms.
 
 
 There is a huge variety of servos from different manufacturers, which vary
-widely in price, performance and value. Fortunately, virtually all servos use the
-standard 3-wire connector, and accept the same kind of controlling signal
+widely in price, performance and value. Fortunately, virtually all servos use
+the standard 3-wire connector, and accept the same kind of controlling signal
 (PWM signal at 50 hz). REV Expansion hub provides 6 servo ports, so you
 can plug in a servo from any manufacturer. Also, virtually all servos use one
 of common servo sizes, so you can use the same mounts for them. Common general

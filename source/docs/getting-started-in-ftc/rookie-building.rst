@@ -40,7 +40,7 @@ Thirdly, it is not advisable to use direct drive.
 However, most if not all of these problems will be solved by using a four-motor
 drivetrain such as the ones recommended in the Drivetrain guide (Mecanum, 6WD).
 Therefore, it is recommended for teams to refer to the
-:doc:`Drivetrain <../drivetrains/index>` section and
+:doc:`Drivetrain <../robot-design/drivetrains/index>` section and
 see which drivetrain would fit best for their overall game strategy.
 
 Passive Intake/Claw → Active Intake

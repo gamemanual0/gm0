@@ -10,7 +10,8 @@ Below are some tips on using servos in FTC.
 
 
 * Servo connectors provide no protection from plugging them the wrong way:
-  if you rotate it 180 degrees, it will still fit - but the servo would not work.
+  if you rotate it 180 degrees, it will still fit -
+  but the servo would not work.
   (It wouldn't be damaged, though). Thus, if you servo is not working, first
   check if they are plugged in correctly. Then check it again.
 
@@ -26,8 +27,9 @@ Below are some tips on using servos in FTC.
   the servo first time you drive into the wall with the arm extended
   (and this will inevitably happen). To avoid that, use additional supports.
   The easiest way to do it is by using Servoblocks(TM)  from Actobotics or
-  goBILDA. These assemblies act as exoskeletons for the servo, providing additional
-  support. They are expensive, but worth every penny.
+  goBILDA. These assemblies act as exoskeletons for the servo,
+  providing additional support.
+  They are expensive, but worth every penny.
 
 
   .. figure:: images/servoblock.jpg

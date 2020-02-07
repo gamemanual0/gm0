@@ -350,7 +350,7 @@ or by using acrylic plate to keep wires inside.
 However, for linear extensions, other forms of cable management are needed.
 The two types of cable management recommended are cable carrier and
 retractable coil cord.
-Refer to the :doc:`Electronics and Wiring <../electronics/index>`
+Refer to the :doc:`Electronics and Wiring <../../power-and-electronics/index>`
 section for more information.
 
 Cable Carrier/Drag Chain

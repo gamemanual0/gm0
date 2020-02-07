@@ -24,7 +24,8 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
 
 * **Do not use socket head screws on plastic**. Using socket head screws for
   attaching plastic parts (in particular, for attaching servos) damages the
-  plastic. Use button head screws instead, or use socket head screws with washers.
+  plastic. Use button head screws instead,
+  or use socket head screws withwashers.
 
 * **Make sure screws are not hitting anything**. When you are attaching a part,
   make sure the screw you are using is not longer than the depth of the
@@ -38,8 +39,8 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
 
 * **Do not connect two components which both have  threaded holes**. To get
   tight connection, the screw should go through an **unthreaded** hole in one
-  component into a **threaded**  hole in another, or through  two unthreaded holes
-  into a nut.
+  component into a **threaded**  hole in another, or through  two unthreaded
+  holes into a nut.
 
 * **Removing stripped screws**. A common problem is removing a screw in which
   the hex socket head  is damaged or worn out and thus the regular hex driver
