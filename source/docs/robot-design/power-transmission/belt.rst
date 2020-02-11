@@ -102,11 +102,15 @@ If it’s too tight, then the belt will barely move under a gentle press.
 
 Best practices for wrap
 -----------------------
-.. image:: images/belt/belt-wrap-1.png
+.. figure:: images/belt/belt-wrap-1.png
     :alt: Properly done belt wrap without tensioners
+    
+    Ethan Doak, goBILDA
 
-.. image:: images/belt/belt-wrap-2.png
+.. figure:: images/belt/belt-wrap-2.png
     :alt: Properly done belt wrap with tensioners
+    
+    7236 Recharged Green, Rover Ruckus
 
 Advantages:
 ===========
@@ -161,8 +165,3 @@ Disadvantages:
     :alt: A drivetrain by 5975 using belt
 
     5975 Cybots, Velocity Vortex
-
-.. figure:: images/belt/ethan-dt.png
-    :alt: A drivetrain by Ethan Doak using belt
-
-    Ethan Doak, goBILDA
