@@ -101,14 +101,15 @@ If it’s too tight, then the chain will barely move under a gentle press.
 
 Best practices for wrap
 -----------------------
-.. image:: images/chain/chain-wrap-1.png
-    :alt: Properly done chain (really belt) wrap without tensioners
+.. figure:: images/chain/7244-chain.png
+    :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
+    
+    7244 OUT of the BOX Robotics, Relic Recovery
 
-.. image:: images/chain/chain-wrap-2.png
+.. figure:: images/chain/chain-wrap-3.png
     :alt: Properly done chain wrap with tensioners
-
-.. image:: images/chain/chain-wrap-3.png
-    :alt: Properly done chain wrap with tensioners
+    
+    Properly done chain wrap with the REV system
 
 Advantages
 ==========
@@ -155,10 +156,6 @@ Disadvantages
   Sprocket teeth are much larger than gear or pulley teeth,
   so your reductions are going to be much larger.
 
-.. figure:: images/chain/7244-chain.png
-    :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
-
-    7244 OUT of the BOX Robotics, Relic Recovery
 
 .. figure:: images/chain/9794-intake.png
     :alt: A plastic chain on an intake by 9794, Wizards.exe
