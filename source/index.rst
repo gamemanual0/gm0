@@ -76,56 +76,10 @@ Good luck, and have fun in FTC!**
 
     docs/meta/index
     docs/getting-started-in-ftc/index
-    docs/rookie-mistakes/index
-
-.. toctree::
-    :maxdepth: 3
-
-    docs/kit-and-hardware-guide/index
-
-.. toctree::
-    :maxdepth: 1
-
-    docs/tools-list.rst
-    docs/materials-guide.rst
-
-.. toctree::
-    :maxdepth: 4
-
-    docs/drivetrains/index
-
-.. toctree::
-    :maxdepth: 2
-
-    docs/power-transmission/index
-    docs/linear-motion-guide/index
-    docs/arms/index
-
-.. toctree::
-    :maxdepth: 1
-
-    docs/passive-intake/index
-
-
-.. toctree::
-    :maxdepth: 2
-
-    docs/active-intake/index
-    docs/motor-guide/index
-
-.. toctree::
-    :maxdepth: 1
-
-    docs/servo-guide/index
-
-.. toctree::
-    :maxdepth: 2
-
-    docs/electronics/index
+    docs/hardware-basics/index
+    docs/robot-design/index
+    docs/power-and-electronics/index
     docs/software/index
-.. toctree::
-    :maxdepth: 3
-
     docs/appendix/index
 
 .. todolist::

@@ -11,7 +11,7 @@ Vendor List
       as well as individual game parts and the SoftTiles foam tiles.
     * AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner,
       compliant, stealth, and mecanum wheels, as well as many other items.
-* `goBILDA <https://www.gobilda.com>`_
+* `goBILDA <https://www.gobilda.com/>`_
     * goBILDA sells its own build system, complete with Yellow Jacket motors,
       channel, motion components, and battery.
       Note that the cheapest batteries are found here,
@@ -66,7 +66,7 @@ Vendor List
       it to adapt to the Expansion Hub.
     * VEX offers the VersaPlanetary motor which allows teams to customize a
       specific gear ratio for their needs.
-* `West Coast Products <https://www.wcproducts.net>`_
+* `West Coast Products <https://www.wcproducts.com/>`_
     * Also known as WCP, West Coast Products sells products exclusively aimed
       toward FRC use.
       However, much like VEXPro, many of their parts can be used in FTC,

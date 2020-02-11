@@ -17,17 +17,19 @@ but please read our kit guide to find out which kit is right for your team.
 The physical components of a robot are split into the hardware and electronics
 section.
 On the hardware side, you have your
-:doc:`drivetrain <../drivetrains/index>`,
-:doc:`linear extension mechanisms <../linear-motion-guide/index>`,
-a :doc:`claw <../passive-intake/index>` or
-:doc:`intake <../active-intake/index>` to pick up game elements, as well as any
-other mechanisms specific to the game.
+:doc:`drivetrain <../robot-design/drivetrains/index>`,
+:doc:`linear extension mechanisms <../robot-design/linear-motion-guide/index>`,
+a :doc:`claw <../robot-design/passive-intake/index>` or
+:doc:`intake <../robot-design/active-intake/index>` to pick up game elements,
+as well as any other mechanisms specific to the game.
 On the electronics side, there are the two REV expansion hubs and the Android
 phone, along with extras such as the Servo Power Module, if necessary.
 
 The kit guide provides information on
-:doc:`selecting the right kit for your team <../kit-and-hardware-guide/index>`.
-Along with this, we have included a :doc:`list of tools <../tools-list>`
+:doc:`selecting the right kit for your team
+<../hardware-basics/kit-and-hardware-guide/index>`.
+Along with this, we have included a
+:doc:`list of tools <../hardware-basics/tools-list>`
 that may be necessary or beneficial for your team to purchase.
 The building guides for drivetrain, linear extension, and intake go over the
 different routes teams can take, as well as providing advice on which to
@@ -107,3 +109,6 @@ as many new teams run into problems during their tournament because of it.
 
     know-your-lingo
     engineering-design-process
+    rookie-building
+    rookie-principles
+    rookie-competition
