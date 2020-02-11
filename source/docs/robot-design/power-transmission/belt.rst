@@ -108,9 +108,6 @@ Best practices for wrap
 .. image:: images/belt/belt-wrap-2.png
     :alt: Properly done belt wrap with tensioners
 
-.. image:: images/belt/belt-wrap-3.png
-    :alt: Properly done belt (really chain) wrap with tensioners
-
 Advantages:
 ===========
 
