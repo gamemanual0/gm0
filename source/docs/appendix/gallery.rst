@@ -7,7 +7,7 @@ design solutions for your robot!
 2019-20 Skystone
 ----------------
 * 11503 Viperbots Hyperfang
-    * `Robot portfolio <>https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing`_
+    * `Robot portfolio <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`_
     * `CAD <https://myhub.autodesk360.com/ue2d6cfee/shares/public/SH919a0QTf3c32634dcfc62291ba1fe920f7>`_
     * `Animation <https://drive.google.com/open?id=1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr>`_
 
