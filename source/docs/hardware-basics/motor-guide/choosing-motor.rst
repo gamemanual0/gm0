@@ -110,7 +110,7 @@ This category includes `Andymark NeveRest Sport <https://www.andymark.com/produc
   gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1,
   and 5:1, and can be mix & matched to create a custom ratio.
   It is possible to use from one to three gearboxes for a minimum ratio of 3:1
-  and maximum.
+  and maximum of 143:1.
   The UltraPlanetary was intended to give teams the maximum customization
   without the typical limiting factor - high cost.
   The total cost for the three stage gearbox and motor is $36 -
