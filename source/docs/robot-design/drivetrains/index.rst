@@ -130,3 +130,4 @@ Drivetrain Options
    tank
    holonomic
    cad-tutorials
+   drivetrain-gallery
