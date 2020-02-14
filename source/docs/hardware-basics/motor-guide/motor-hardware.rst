@@ -44,8 +44,7 @@ Here are the different types of connectors for FTC motors.
 Gearboxes
 =========
 Fundamentally, a gearbox is just a collection of gears and an enclosure that
-causes those gears to connect.
-Gearboxes have an output ratio,
+causes those gears to connect. Gearboxes have an output ratio,
 the final gear ratio between the motor input and the final output shaft.
 Gear ratios are further explained in the glossary.
 

@@ -31,6 +31,10 @@ design solutions for your robot!
     * Videos
         * `Practice Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`_,
         * `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`_,
+* 9472 (In)Formal Logic:
+    * `CAD <https://a360.co/2OPwMUJ>`_
+    * `Robot Reveal video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`_
+    * `Behind the Bot interview <https://www.youtube.com/watch?v=6PjfbOV496c>`_
 * 9048 Philobots
     * `CAD <https://myhub.autodesk360.com/ue2d6cfee/shares/public/SH919a0QTf3c32634dcf1857225708295441>`_
 
@@ -44,6 +48,10 @@ design solutions for your robot!
 
 2016-17 Velocity Vortex
 -----------------------
+* 3415 Livingston Lancers:
+    * `Robot Reveal Video <https://www.youtube.com/watch?v=8jvF94d46cs>`_
+    * `Robot CAD render <https://drive.google.com/open?id=1oCy7M8DCr8fLGUcjR6L4Akm1JUgkqhYt>`_
+    * `Engineering drawing <https://drive.google.com/open?id=1YQMyEWS5sPdL1YOPntXIR0FdsY30-G6H>`_
 * 9794 Wizards.exe:
     * `Robot Reveal Video <https://www.youtube.com/watch?v=pJs-R-j0zXg>`_
 * 4137 Islandbots:
