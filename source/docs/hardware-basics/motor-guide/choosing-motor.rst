@@ -6,13 +6,14 @@ Legal Motors
 ------------
 12 V motors are strictly controlled by FTC rules. As of 2019-2020 season,
 the only FTC legal motors are the following ones:
-*  TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_,
-   `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
-*  `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
-*  Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors <https://www.gobilda.com/motors/>`_,
-   which are MATRIX motors with a different gearbox)
-*  `REV Robotics HD Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1301/>`_
-*  `REV Robotics Core Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1300/>`_
+
+* TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_,
+  `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
+* `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
+* Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors <https://www.gobilda.com/motors/>`_,
+  which are MATRIX motors with a different gearbox)
+* `REV Robotics HD Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1301/>`_
+* `REV Robotics Core Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1300/>`_
 
 With the exception of REV Core Hex Motor, which is discussed separately,
 all other motors above have very similar structure. They consist of
@@ -52,9 +53,9 @@ should **always** use planetary gearboxes.
 
 Available Spur Gearboxes and Motors
 -----------------------------------
-Motors with spur gearboxes include Andymark NeveRest Classic motors
+Motors with spur gearboxes include AndyMark NeveRest Classic motors
 (in 40:1 and 60:1 ratios), the REV HD Hex 40:1 Spur motor,
-and goBilda 5201 Series Yellow Jacket Spur Gear Motors. All of them offer
+and goBILDA 5201 Series Yellow Jacket Spur Gear Motors. All of them offer
 similar performance and reliability, so your  choice is primarily  dictated
 by the convenience of mounting and connecting to the rest of your design
 (e.g., if you use REV kit, you should probably choose REV HD Hex motor, as it
@@ -100,13 +101,11 @@ High-end Planetary Gearboxes
 These gearboxes can be used to replace the "standard" gearboxes listed above.
 They give you more options and gear ratios and in some cases, are more robust
 than the standard  ones, but they can be quite expensive and require more work.
-This category includes
-`Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_,
- `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_, and
+This category includes `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_,
+`VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_, and
 `REV UltraPlanetary <http://www.revrobotics.com/rev-41-1600/>`_ gearboxes.
-However, the new REV UltraPlanetary gearbox is a very affordable kit for new teams.
 
-* **`REV UltraPlanetary <http://www.revrobotics.com/rev-41-1600/>`_ gearbox** -
+* `REV UltraPlanetary <http://www.revrobotics.com/rev-41-1600/>`_ gearbox -
   The UltraPlanetary is a customizable planetary
   gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1,
   and 5:1, and can be mix & matched to create a custom ratio.
@@ -121,7 +120,7 @@ However, the new REV UltraPlanetary gearbox is a very affordable kit for new tea
   allows teams to customize the shaft length.
   The UltraPlanetary is a great option for teams as it allows for
   customizability and very good value.
-* **`Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_  gearboxes** -
+* `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_  gearboxes -
   These gearboxes were designed to be more robust than the gearboxes found on
   Andymark NeveRest motors.  The NeveRest sport gearboxes can handle larger shock loads,
   and can provide a larger reduction with options up to 256:1.
@@ -133,7 +132,7 @@ However, the new REV UltraPlanetary gearbox is a very affordable kit for new tea
   attach to the gearbox.
   The selection should be based only on which connection type you like the most
   (powerpole vs. JST VH vs. 3.5mm bullet) for power.
-* **`VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_ gearboxes** -
+* `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_ gearboxes -
   These planetary gearboxes were designed for FRC use and can be very expensive
   (upwards of $80 for a 40:1 ratio) but because they were designed for such
   heavy use the VersaPlanetary is arguably the most durable gearbox you can use

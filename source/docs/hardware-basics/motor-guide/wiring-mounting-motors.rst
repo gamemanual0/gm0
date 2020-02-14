@@ -16,14 +16,14 @@ Bullet connectors are very compact, making it easy to route the cable through
 openings, but can disconnect if someone pulls on the wire, so you need to be
 careful with them.
 
-Since Rev hubs use JST VH connectors, to connect motor with
+Since REV Hubs use JST VH connectors, to connect motor with
 PowerPole  or bullet connectors you need adapters, which you can buy from
 REV Robotics and goBILDA.
 
 You can extend or shorten motor power cables by soldering additional length
 of cable. This is legal as long as you use 18 gauge or thicker cables.
 
-For more tips on wiring the robot, see :doc:`wiring`.
+For more tips on wiring the robot, see :doc:`../../power-and-electronics/wiring`.
 
 
 Encoders
@@ -56,4 +56,4 @@ that the pattern of face mounting holes is different for different vendors
 AndyMark classic motors use 6 M3 holes on a 31 mm diameter circle), so face
 mounting, say, NeveRest motors to goBILDA parts requires use of special
 adapters. Similarly, gearbox diameter also varies between motors, so when
-choosing a clamping hub, make sure to use the right diameter. 
+choosing a clamping hub, make sure to use the right diameter.
