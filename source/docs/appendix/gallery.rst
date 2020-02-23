@@ -31,7 +31,7 @@ design solutions for your robot!
     * Videos
         * `Practice Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`_,
         * `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`_,
-* 9472 (In)Formal Logic:
+* 9872 (In)Formal Logic:
     * `CAD <https://a360.co/2OPwMUJ>`_
     * `Robot Reveal video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`_
     * `Behind the Bot interview <https://www.youtube.com/watch?v=6PjfbOV496c>`_
