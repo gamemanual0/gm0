@@ -64,8 +64,6 @@ Disadvantages
 
     Configuration for mecanum wheels, courtesy goBILDA
 
-Mecanum Wheels Miniguide
-------------------------
 There are plenty of mecanum wheels on the market,
 and it can be very daunting to choose between the many vendors.
 An important feature is the type of mechanism that facilitates the motion,
