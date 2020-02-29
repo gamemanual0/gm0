@@ -38,6 +38,16 @@ Below are some tips on using servos in FTC.
 
       A servo in a ServoBlock
 
+There are also some alternative designs of servo supports; one of them, which
+is not as strong as the original ServoBlock but much more compact, is shown below
+(`CAD <https://a360.co/38POMq6>`_ is also available):
+  .. figure:: images/compact_servo_block.png
+     :alt: compact servoblock
+     :width: 40%
+
+     Alternative  servo support block
+
+
 * Use linkages. Instead of mounting some rotating piece directly on a servo,
   mount it so it can rotate around a pivot point and then connect it to the
   servo using linkage as shown below:

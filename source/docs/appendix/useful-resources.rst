@@ -43,6 +43,16 @@ For further reading, we highly suggest you check out those links.**
     * `Actobotics (ServoCity) Official CAD Library <https://www.servocity.com/step-files>`_
     * `REV Robotics Official CAD Library <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_
     * `Guide to Rendering in CAD <https://drive.google.com/file/d/1t8Ke626MCedOHR4kzaNYtMdG7IC0bhGs/view>`_  - Justin, FTC 9656
+    * 4137 Islandbots Library of goBILDA parts in Fusion360 format:
+        * `axles, hubs, wheels <https://a360.co/2QWq9Qh>`_
+        * `beams <https://a360.co/2QRUFej>`_
+        * `channels <https://a360.co/2WSpaGk>`_
+        * `gears, sprockets, pulleys <https://a360.co/2QTFFg1>`_
+        * `goRAIL< v-guide, lead screw <https://a360.co/2QTG95P>`_
+        * `motors, servos, accessories <https://a360.co/2I2Gkc3>`_
+        * `mounts, spacers, adapters <https://a360.co/2IryGqC>`_
+        * `plates, brackets <https://a360.co/2QWx1gx>`_
+        * `screws, threaded plates, standoffs <https://a360.co/2QRzIzY>`_
 * Building Resources - Calculators
     * `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
     * `Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
