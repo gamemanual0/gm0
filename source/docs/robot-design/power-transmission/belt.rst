@@ -106,11 +106,12 @@ Best practices for wrap
     :alt: Properly done belt wrap without tensioners
     
     Ethan Doak, goBILDA
-
-.. figure:: images/belt/belt-wrap-2.png
-    :alt: Properly done belt wrap with tensioners
     
-    7236 Recharged Green, Rover Ruckus
+    
+.. figure:: images/belt/8103-dt.png
+    :alt: A drivetrain by 8103 using belt
+
+    8103 Null Robotics, offseason prototype, properly done belt wrap with tensioners
 
 Advantages:
 ===========
@@ -151,17 +152,13 @@ Disadvantages:
   you’ll most likely be buying each belt brand new.
   While this can get expensive, you’ll be saving money on pulleys.
 
-.. figure:: images/belt/8103-dt.png
-    :alt: A drivetrain by 8103 using belt
-
-    8103 Null Robotics, offseason prototype
+    
+.. figure:: images/belt/belt-wrap-2.png
+    :alt: Properly done belt wrap with tensioners
+    
+    7236 Recharged Green, Rover Ruckus
 
 .. figure:: images/belt/8417-dt.png
     :alt: A drivetrain by 8417 using belt
 
     8417 Lectric Legends, Rover Ruckus
-
-.. figure:: images/belt/5975-dt.png
-    :alt: A drivetrain by 5975 using belt
-
-    5975 Cybots, Velocity Vortex
