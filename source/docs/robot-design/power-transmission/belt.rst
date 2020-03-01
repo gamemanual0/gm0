@@ -104,10 +104,10 @@ Best practices for wrap
 -----------------------
 .. figure:: images/belt/belt-wrap-1.png
     :alt: Properly done belt wrap without tensioners
-    
+
     Ethan Doak, goBILDA
-    
-    
+
+
 .. figure:: images/belt/8103-dt.png
     :alt: A drivetrain by 8103 using belt
 
@@ -152,10 +152,10 @@ Disadvantages:
   you’ll most likely be buying each belt brand new.
   While this can get expensive, you’ll be saving money on pulleys.
 
-    
+
 .. figure:: images/belt/belt-wrap-2.png
     :alt: Properly done belt wrap with tensioners
-    
+
     7236 Recharged Green, Rover Ruckus
 
 .. figure:: images/belt/8417-dt.png

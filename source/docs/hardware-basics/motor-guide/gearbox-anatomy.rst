@@ -9,7 +9,7 @@ Gear ratios are further explained in the glossary.
 In FTC, gearboxes may be more common than you think -
 every motor has a gearbox attached to it.
 These gearboxes are one of the following two types: spur or planetary.
-Below we give a detailed analysis of each of these gearbox types. 
+Below we give a detailed analysis of each of these gearbox types.
 **Just for clarification, the gearboxes below are separate from the base
 motor.**
 
@@ -59,7 +59,7 @@ your desired motor connections, and your desired output shaft type**.
 * goBILDA’s 5201 series spur gearboxes are much cheaper than either REV’s or
   Andymark’s; whether that’s a good or bad thing is up to you.
   They utilize the rather uncommon (in the FTC world) bullet connection for
-  power.
+  power. However, these are now discontinued.
   The output shaft is a 6mm D-shaft.
 * REV HD Hex Planetary 40:1 motor - This motor comes only in a 40:1 ratio,
   but does use the same connections (JST VH) as the REV Expansion and

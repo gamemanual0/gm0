@@ -4,7 +4,8 @@ Motor Wiring And Mounting
 
 Power Connections
 -----------------
-Depending on the vendor, the motors can come with one of the following connectors:
+Depending on the vendor, the motors can come with one of the following
+connectors:
 
 * JST VH  connector (REV motors)
 * Anderson PowerPole (AndyMark's NeveRest)
@@ -23,7 +24,8 @@ REV Robotics and goBILDA.
 You can extend or shorten motor power cables by soldering additional length
 of cable. This is legal as long as you use 18 gauge or thicker cables.
 
-For more tips on wiring the robot, see :doc:`../../power-and-electronics/wiring`.
+For more tips on wiring the robot, see
+:doc:`../../power-and-electronics/wiring`.
 
 
 Encoders

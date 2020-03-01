@@ -107,7 +107,7 @@ Best practices for wrap
     :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
 
     724 Rednek Robotics Wun, Relic Recovery
-    
+
 .. figure:: images/chain/8103-dt.png
     :alt: A metal chain for a drivetrain by 8103, Null Robotics
 
@@ -160,16 +160,16 @@ Disadvantages
 
 .. figure:: images/chain/7244-chain.png
     :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
-    
+
     7244 OUT of the BOX Robotics, Relic Recovery
-    
+
 
 .. figure:: images/chain/9794-intake.png
     :alt: A plastic chain on an intake by 9794, Wizards.exe
 
     9794 Wizards.exe, Rover Ruckus, plastic chain on intake
-    
+
 .. figure:: images/chain/chain-wrap-3.png
     :alt: Properly done chain wrap with tensioners
-    
+
     Properly done chain wrap with the REV system

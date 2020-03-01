@@ -19,22 +19,24 @@ With the exception of REV Core Hex Motor, which is discussed separately,
 all other motors above have very similar structure. They consist of
 
 * **Bare motor**. In all cases above, this is a 12V  motor of so-called RS-555
-  type, with free speed around 6,000 RPM and stall current around 10A. The motor
-  specs posted by different vendors might be slightly different, but the
-  difference is mainly due to different testing methods. In real life, the bare
-  motors  used by  AndyMark  NeveRest motors, REV robotics core hex motors,
-  and goBILDA motors are virtually identical.  The most reliable  specs for this
-  kind of motor can be found on  `VEX  website <https://motors.vex.com/other-motors/am-NeveRest>`_.
-* **Gearbox**. The gearbox is attached to the front of the motor and reduces the
-  speed while increasing the torque; for example, popular 20:1 gearbox reduces
-  the speed by factor of 20, resulting in no-load speed of around 300RPM.
+  type, with free speed around 6,000 RPM and stall current around 10A.
+  The motor specs posted by different vendors might be slightly different,
+  but the difference is mainly due to different testing methods.
+  In real life, the bare motors  used by  AndyMark  NeveRest motors,
+  REV Robotics HD Hex motors, and goBILDA motors are virtually identical.
+  The most reliable  specs for this kind of motor can be found on the
+  `VEX  website <https://motors.vex.com/other-motors/am-NeveRest>`_.
+* **Gearbox**. The gearbox is attached to the front of the motor and reduces
+  the speed while increasing the torque; for example, popular 20:1 gearbox
+  reduces the speed by factor of 20, resulting in no-load speed of around
+  300RPM.
   Gearbox also contains the output shaft (typically 6mm D profile; REV motors
   use 5mm hex shafts) and mounting holes. Gearbox can be replaced; this
   is FTC legal but requires some skill.
-* **Encoder**. Attached to the back of the motor and protected by a plastic cap,
-  the encoder contains a sensor registering motor shaft rotation. It can be
-  connected to REV hubs and  used for precise control of motor speed or rotating
-  to a specific position.
+* **Encoder**. Attached to the back of the motor and protected by a plastic
+  cap, the encoder contains a sensor registering motor shaft rotation.
+  It can be connected to REV hubs and  used for precise control of motor speed
+  or rotating to a specific position.
 
 Since the bare motor is similar for all motors discussed above, the choice
 of the right motor is dictated by the gearbox: the gear ratio, output shaft
@@ -70,7 +72,8 @@ advised that you do not use them for drivetrain.
 Available Planetary Gearboxes and Motors: Standard
 --------------------------------------------------
 Standard planetary gearboxes include Andymark NeveRest Orbital motors,
-REV 20:1 Planetary motor, and goBILDA’s 5202 Series Yellow Jacket Planetary Gear Motors.
+REV 20:1 Planetary motor, and goBILDA’s 5202 Series Yellow Jacket Planetary
+Gear Motors.
 
 Any of these “standard” gearboxes are more robust than  spur
 gearboxes.
@@ -122,8 +125,8 @@ This category includes `Andymark NeveRest Sport <https://www.andymark.com/produc
   customizability and very good value.
 * `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_  gearboxes -
   These gearboxes were designed to be more robust than the gearboxes found on
-  Andymark NeveRest motors.  The NeveRest sport gearboxes can handle larger shock loads,
-  and can provide a larger reduction with options up to 256:1.
+  Andymark NeveRest motors.  The NeveRest sport gearboxes can handle larger
+  shock loads, and can provide a larger reduction with options up to 256:1.
   These gearboxes are relatively expensive, but still not the most expensive
   gearbox you can use in FTC, with prices ranging from $46.00 for the 4:1
   reduction to $77.50 for the 256:1 reduction.
@@ -132,11 +135,12 @@ This category includes `Andymark NeveRest Sport <https://www.andymark.com/produc
   attach to the gearbox.
   The selection should be based only on which connection type you like the most
   (powerpole vs. JST VH vs. 3.5mm bullet) for power.
-* `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_ gearboxes -
-  These planetary gearboxes were designed for FRC use and can be very expensive
-  (upwards of $80 for a 40:1 ratio) but because they were designed for such
-  heavy use the VersaPlanetary is arguably the most durable gearbox you can use
-  in FTC.  If you somehow manage you break one of the components of the gearbox,
+* `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_
+  gearboxes - These planetary gearboxes were designed for FRC use and can be
+  very expensive (upwards of $80 for a 40:1 ratio) but because they were
+  designed for such heavy use the VersaPlanetary is arguably the most durable
+  gearbox you can use in FTC.
+  If you somehow manage you break one of the components of the gearbox,
   they are very easy to repair.
   Unlike other gearboxes, almost every part of the gearbox is replaceable and
   able to be bought by itself.

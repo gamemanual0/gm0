@@ -42,7 +42,7 @@ FTC Teams
 * 8680 Kraken-Pinion
 * 8686 Height Differential
 * 9048 Philobots
-* 9472 (In)Formal Logic 
+* 9472 (In)Formal Logic
 * 9794 Wizards.exe
 * 9804 Bomb Squad
 * 9829 MakBots

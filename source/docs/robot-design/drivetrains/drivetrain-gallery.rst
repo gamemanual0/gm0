@@ -3,8 +3,9 @@ Sample Drivetrains
 ==================
 
 In this section, we compile several sample drivetrains
-which you can use as a starting point for your own designs. You should also check
-:doc:`gallery of  robot designs <../../appendix/gallery>` in the Appendix.
+which you can use as a starting point for your own designs.
+You should also check :doc:`gallery of  robot designs <../../appendix/gallery>`
+in the Appendix.
 
 `goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit/>`_
     Basic chassis by goBILDA. Simple and easy to build chassis, providing
