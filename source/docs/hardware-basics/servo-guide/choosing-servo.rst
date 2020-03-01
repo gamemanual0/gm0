@@ -21,7 +21,7 @@ servo form factor. They have no position control; instead, PWM signal is
 used to control their rotation  speed.
 
 Both REV Smart Servo and goBILDA Dual Mode servo (which are both based on
-Feetech dual mode programmable servo) can be used as either regular or
+FR5311m programmable servo by Feetech) can be used as either regular or
 continuous rotation servos. To switch between these two modes, you need
 to use a *servo programmer*, available separately from REV or  goBILDA.
 

@@ -1,8 +1,8 @@
 =======
 Credits
 =======
-We would also like to recognize the teams who have provided pictures of their
-robot(s) for this guide.
+We would also like to recognize the teams who have provided pictures, videos,
+and CAD models of their robot(s) for this guide.
 We hope you find the pictures to be informative as real examples of what teams
 have achieved in the past seasons.
 
@@ -12,9 +12,11 @@ FTC Teams
 * 731 Wannabee Strange
 * 2818 G-Force
 * 2856 Tesseract
+* 3415 Livingston Lancers
 * 3736 Serious Business
 * 3846 Maelstrom
 * 4042 Nonstandard Deviation
+* 4137 Islandbots
 * 4545 ViperBots Ouroboros
 * 5040 Nuts and Bolts
 * 5064 Aperture Science
@@ -39,6 +41,8 @@ FTC Teams
 * 8644 Brainstormers
 * 8680 Kraken-Pinion
 * 8686 Height Differential
+* 9048 Philobots
+* 9472 (In)Formal Logic 
 * 9794 Wizards.exe
 * 9804 Bomb Squad
 * 9829 MakBots
@@ -50,10 +54,13 @@ FTC Teams
 * 11190 Mechadojos
 * 11260 Up-A-Creek Robotics
 * 11316 Weapons of Mass Construction
+* 11503 Viperbots Hyperfang
 * 12599 Overcharged
 * 12670 Eclipse
 * 12897 Newton’s Law of Mass
 * 13075 Coram Deo Robotics
+* 14270 Quantum Robotics
+* 14875 LightSpeed
 * 15692 Rust In Pieces
 
 FRC Teams

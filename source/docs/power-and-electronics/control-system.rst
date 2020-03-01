@@ -41,6 +41,9 @@ especially if your team is starting from scratch.
 
 RC Phone + REV Expansion Hub(s)
 ===============================
+
+.. warning:: |firmware warning|
+
 This is the standard control system for teams starting out in FTC.
 The REV Expansion Hub is reliable, as long as proper strain relief and wiring
 is carried out.
@@ -61,6 +64,9 @@ head to REV Robotics’ Technical Resources page on their website.
 
 REV Control Hub + REV Expansion Hub
 ===================================
+
+.. warning:: |firmware warning|
+
 **Note: The Control Hub is currently undergoing a pilot program and is only
 legal for competition in specific regions throughout the US.
 It is not legal for all FTC teams for the 2019-2020 season.**
