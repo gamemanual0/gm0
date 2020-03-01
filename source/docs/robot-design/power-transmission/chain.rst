@@ -101,14 +101,17 @@ If it’s too tight, then the chain will barely move under a gentle press.
 
 Best practices for wrap
 -----------------------
-.. image:: images/chain/chain-wrap-1.png
-    :alt: Properly done chain (really belt) wrap without tensioners
 
-.. image:: images/chain/chain-wrap-2.png
-    :alt: Properly done chain wrap with tensioners
 
-.. image:: images/chain/chain-wrap-3.png
-    :alt: Properly done chain wrap with tensioners
+.. figure:: images/chain/724-dt.png
+    :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
+
+    724 Rednek Robotics Wun, Relic Recovery
+    
+.. figure:: images/chain/8103-dt.png
+    :alt: A metal chain for a drivetrain by 8103, Null Robotics
+
+    8103 Null Robotics, Rover Ruckus
 
 Advantages
 ==========
@@ -157,20 +160,16 @@ Disadvantages
 
 .. figure:: images/chain/7244-chain.png
     :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
-
+    
     7244 OUT of the BOX Robotics, Relic Recovery
+    
 
 .. figure:: images/chain/9794-intake.png
     :alt: A plastic chain on an intake by 9794, Wizards.exe
 
     9794 Wizards.exe, Rover Ruckus, plastic chain on intake
-
-.. figure:: images/chain/724-dt.png
-    :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
-
-    724 Rednek Robotics Wun, Winning Alliance 1st Pick (Houston), Relic Recovery
-
-.. figure:: images/chain/8103-dt.png
-    :alt: A metal chain for a drivetrain by 8103, Null Robotics
-
-    8103 Null Robotics, Rover Ruckus
+    
+.. figure:: images/chain/chain-wrap-3.png
+    :alt: Properly done chain wrap with tensioners
+    
+    Properly done chain wrap with the REV system
