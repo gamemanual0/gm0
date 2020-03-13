@@ -24,7 +24,7 @@ is_release_build = os.environ.get('READTHEDOCS') == 'True'
 project = 'Game Manual 0'
 author = 'Game Manual 0 Contributors'
 
-copyright_year = 2019
+copyright_year = 2020
 
 copyright = str(copyright_year) + ", " + str(author)
 
