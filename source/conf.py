@@ -48,10 +48,10 @@ version = release
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.graphviz',
-    'notfound.extension',
+    'sphinx_tabs.tabs', 
+    'sphinx_sitemap'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -88,7 +88,8 @@ pygments_style = None
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-html_logo = "assets/gm0-logo.png"
+html_theme_path = ["_themes", ]
+html_logo = "assets/gm0-logo-colored.png"
 html_favicon = "assets/gm0-logo.ico"
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -96,10 +97,7 @@ html_favicon = "assets/gm0-logo.ico"
 # documentation.
 #
 html_theme_options = {
-    'collapse_navigation': True,
-	'sticky_navigation': False,
-	'titles_only': True,
-    'style_external_links': True,
+    'logo_only': True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

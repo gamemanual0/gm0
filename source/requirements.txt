@@ -32,6 +32,8 @@ Sphinx==2.2.0
 sphinx-autobuild==0.7.1
 sphinx-notfound-page==0.4
 sphinx-rtd-theme==0.4.3
+sphinx-sitemap==2.1.0
+sphinx-tabs==1.1.13
 sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-devhelp==1.0.1
 sphinxcontrib-htmlhelp==1.0.2
