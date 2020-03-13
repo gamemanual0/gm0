@@ -54,7 +54,9 @@ Linear Extension/Slide
     of the robot.
 REV Expansion Hub
     Hardware controller for the robot, connected to Robot Controller phone.
-    Controls motors, servos, sensors. 2 hubs maximum.
+    Controls 4 motor and encoders, 6 servos, and various sensors via digital, analog, and I2C ports. Maximum of 2 hubs.
+REV Control Hub
+    Integrated Expansion Hub + Android phone (robot controller phone). It serves many of the same purposes as the Expansion Hub but eliminates the need for a robot controller phone. 1 Control Hub may be used with 1 Expansion Hub. 
 Driver Station
     Android phone connected to the gamepad controller.
     Drivers interact with the DS phone to start/stop robot.
