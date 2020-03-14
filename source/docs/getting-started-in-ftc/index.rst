@@ -22,8 +22,8 @@ On the hardware side, you have your
 a :doc:`claw <../robot-design/passive-intake/index>` or
 :doc:`intake <../robot-design/active-intake/index>` to pick up game elements,
 as well as any other mechanisms specific to the game.
-On the electronics side, there are the two REV expansion hubs and the Android
-phone, along with extras such as the Servo Power Module, if necessary.
+On the electronics side, there are the two REV Expansion Hubs 
+(or one Control Hub and one Expansion Hub), the Android phone(s), and controllers.
 
 The kit guide provides information on
 :doc:`selecting the right kit for your team
@@ -34,28 +34,33 @@ that may be necessary or beneficial for your team to purchase.
 The building guides for drivetrain, linear extension, and intake go over the
 different routes teams can take, as well as providing advice on which to
 choose.
-However, we want your team to have the full learning experience,
-so we don't provide specific instructions for building mechanisms.
+However, our personal experience is that trial and error through designing your own robot 
+is the best teacher. 
+We want your team to have the full learning experience,
+so we don't provide specific instructions for building mechanisms. 
+Instead we have provided general and specific recommendations and best practices to follow.  
 
 Here's an overview of how FTC works.
 Each season, Game Manual 1 (GM1) will be updated sometime in the summer.
 GM1 contains the general rules of FTC, competition and advancement,
 as well as hardware and software restrictions.
 Game Manual 2 (GM2) is released on kickoff day.
-It provides details about the specific game that your team will be
-participating in this year.
-Every year, teams are required to build a robot according to rules in GM1 and
-document what they have done in an Engineering Notebook.
+It provides the game rules about the specific game that your team will be
+participating in this year, such as how to score points, what autonomous should do, penalties, etc.
+Every year, teams are required to build a robot following restrictions in GM1 and
+document what they have done in an Engineering Notebook. The Engineering Notebook describes 
+your team's journey through the engineering design process in an organized and cohesive way. 
+GM0's focus is currently not about the Engineering Notebook, although there are other great resources out there. 
 Each team will have at least one chance to compete, either at Qualifier Events
 or League Meets.
 At Qualifier tournaments, every team will play 5 to 6 matches. The top 4 teams
 are captains and form four alliances of three teams each.
-More information on the selection process are in GM1.
-The top teams will advance to the next level, generally the State or Regional
+As for League Meets, the meet process varies greatly among regions, but generally teams will 
+compete at low-stress League Meets, and have a culminating Leage Championship. 
+More information on the selection process is in GM1.
+The top teams in both events will advance to the next level, generally the State or Regional
 Championship.
-Leagues are different, having a few meets where teams participate in matches.
-At the end, the top teams from the League Championship will also advance to the
-State or Regional Competition.
+
 
 Game Manual 2 is published when the season officially starts,
 and provides game specific rules that change from year to year.
@@ -66,6 +71,7 @@ as many new teams run into problems during their tournament because of it.
 * All teams MUST bring the Consent and Release forms to every competition.
   Teams will not be allowed to compete if the forms are not signed.
 * The maximum **starting** size up the robot is an 18 inch cube.
+  Technically, the robot may not touch the sizing cube, which usually is not a perfect cube. 
   The robot may expand after the match starts.
   This sizing limit has been in place since the start of FTC.
 * Starting in the 2018-2019 and continuing in 2019-2020 season,

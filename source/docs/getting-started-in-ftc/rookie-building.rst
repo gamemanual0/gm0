@@ -47,7 +47,8 @@ Passive Intake/Claw → Active Intake
 ===================================
 Active intakes (ones with continuous rotational motion)
 should always be prioritized over passive intakes and grippers because active
-intakes are much more efficient and effective in picking up most game elements.
+intakes are much more efficient and effective in picking up common game elements such as 
+balls, cubes, rectangular prisms, etc.
 The exception is that a claw should be used for irregularly shaped objects that
 would be impossible to control via intake; for example, the relic in Relic
 Recovery.
@@ -67,13 +68,18 @@ great effect, so there is plenty of precedent to follow.
 
 Spur Gear Gearboxes → Planetary Gearboxes
 =========================================
+Note: Spur gear gearboxes are fine for most applications for a rookie team. 
+We are not advocating necessarily having to upgrade to planetary motors, 
+but there are some advantages which may become useful in more advanced
+use cases such as high-load systems. 
 Spur gear gearboxes have inherent disadvantages to planetary gearboxes.
 Spur gear gearboxes should not be used in high-load situations,
 primarily because the gears can strip and destroy the gearbox.
+An example would be a drivetrain that has to change directions repeatedly and quickly
 Planetary gearboxes are much better suited for drivetrain and arms,
 due to the configuration of the sun and planet gears.
 In addition, spur gear gearboxes are prone to shock loads; therefore,
-direct drive is definitely not advisable on drivetrains.
+direct drive is not advisable on drivetrains.
 Refer to the Motor guide for more complete information on gearboxes.
 **This refers to using spur gear gearboxes which are attached directly to the
 pinion gear of the motor.
@@ -89,9 +95,11 @@ are harder to implement properly.
 Arms require a high gear ratio,
 which usually in turn will require an expensive gearbox (e.g.
 `VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_)
-that teams may not want to invest in.
+that teams on a tight budget may not want to invest in. 
+However, there are more inexpensive options such as the REV UltraPlanetary motor to consider. 
 Furthermore, arms must be supported extremely well to bear the torque that the
-motor provides.
+motor provides. A poorly supported and/or constructed arm will cause the driver 
+needless pain as it is exceedingly difficult to line up an arm that constantly shakes. 
 In contrast, linear extensions do not need to worry about gear ratios and
 gearboxes.
 They can be optimized to be more efficient than arms, and typically are more
