@@ -36,7 +36,7 @@ Where can I get ...?
 ====================
 
 * Motors and Gearboxes
-    * Spur Gear Motors (not recommended)
+    * Spur Gear Motors
         * AndyMark NeveRest Classic
         * REV HD Hex & Core Hex
         * goBILDA 5201 Spur Gear
@@ -45,16 +45,16 @@ Where can I get ...?
         * AndyMark NeveRest Orbital
         * REV HD Hex Planetary & *UltraPlanetary*
         * goBILDA 5202 YellowJacket Planetary
-        * Vex *VersaPlanetary Lite* (gearbox only)
+        * VEX *VersaPlanetary Lite* (gearbox only)
         * (*italicized* = customizable gearbox ratio)
     * Servos
-        * HiTec (from ServoCity)
-        * REV Smart Robot Servo
-        * goBILDA Dual Mode Servo
-        * Futaba (from ServoCity)
-        * Savox heavy-duty servos
+        * HiTec (from ServoCity); 24 tooth
+        * REV Smart Robot Servo; 25 tooth
+        * goBILDA Dual Mode Servo; 25 tooth 
+        * Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth
+        * Savox heavy-duty servos; 25 tooth 
         * Actuonix (linear actuators)
-        * VEX 393 EDR
+        * VEX 393 EDR; 1/8" square shaft 
     * Sensors
         * AndyMark
         * REV
