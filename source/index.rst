@@ -81,5 +81,3 @@ Good luck, and have fun in FTC!**
     docs/power-and-electronics/index
     docs/software/index
     docs/appendix/index
-
-.. todolist::
