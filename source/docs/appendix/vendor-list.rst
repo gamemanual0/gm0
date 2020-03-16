@@ -11,6 +11,14 @@ Vendor List
       as well as individual game parts and the SoftTiles foam tiles.
     * AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner,
       compliant, stealth, and mecanum wheels, as well as many other items.
+* `CopperState <http://www.copperstate.com/>`_
+    * Cheap vendor for fasteners/other hardare.
+* `eplastics <https://www.eplastics.com/>`_
+    * Vendor for raw plastics, such as polycarbonate, acetal, HDPE, etc.
+* `estreetplastics <https://www.estreetplastics.com/Default.asp>`_
+    * Vendor for raw plastics, including smoked polycarbonate.
+* `Fastenal <https://www.fastenal.com/>`_
+    * Mid-range vendor for fasteners/other hardare, including tools.
 * `goBILDA <https://www.gobilda.com/>`_
     * goBILDA sells its own build system, complete with Yellow Jacket motors,
       channel, motion components, and battery.
@@ -36,6 +44,8 @@ Vendor List
     * MiSUMI also sells aluminum drawer slides that are popular for linear
       extensions.
       They are available in different lengths, but the most common is 400mm.
+* `OnlineMetals <https://www.onlinemetals.com/>`_
+    * A common vendor for purchasing various raw metals.
 * `Pitsco <https://www.pitsco.com>`_
     * Pitsco sells the Tetrix kit with channels, TorqueNado motors,
       and their own motion system.
