@@ -207,11 +207,6 @@ Disadvantages
     8393 Giant Diencephalic BrainSTEM Robotics Team,
     Winning Alliance 1st Pick (St. Louis), Relic Recovery
 
-.. figure:: images/tubing-intake/8375-intake.png
-    :alt: 8375's surgical tubing intake
-
-    8375 Vulcan Robotics, Res-Q - great example of funneling
-
 .. figure:: images/tubing-intake/11115-intake.png
     :alt: 11115's surgical tubing intake
 
