@@ -142,7 +142,7 @@ by all means explore this option.
 
     6929 Data Force, Rover Ruckus, Misumi SAR3
     
-.. image:: images/drawer-slides/5143 Sar 2.png
+.. figure:: images/drawer-slides/5143 Sar 2.png
     :alt: 5143's Skystone robot with its lift fully extended
     
     5143 Xcentrics, Skystone, Misumi SAR2
