@@ -34,6 +34,7 @@ Hardware & Electrical
 * Tyler - FRC 3184 Blaze Robotics
 * Tom - FTC Alum - 3736 Serious Business- seminole3736@gmail.com
 * Shurik - FTC 4137 Islandbots mentor - islandbots.ftc@gmail.com
+* Fulton - FTC 5143 Xcentrics - jfult.1503@gmail.com
 * Derek - FTC Alum - 5484 EnderBots
 * Karter - FTC Alum - 5975 Cybots
 * Neo - FTC 6710 Sigmas - ftcsigmas@gmail.com
