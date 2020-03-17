@@ -20,6 +20,7 @@ FTC Teams
 * 4545 ViperBots Ouroboros
 * 5040 Nuts and Bolts
 * 5064 Aperture Science
+* 5143 Xcentrics
 * 5975 Cybots
 * 6022 To Be Determined
 * 6299 ViperBots QuadX
