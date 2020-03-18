@@ -5963,6 +5963,11 @@ span[id*=MathJax-Span] {
     width: 150px;
 }
 
+/*
+Styling for images and captions (centered captions) 
+Both images and captions 400px by default
+*/ 
+
 img:not(.math) {
     border: 0;
     -ms-interpolation-mode: bicubic;
