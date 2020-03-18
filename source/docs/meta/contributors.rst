@@ -3,9 +3,11 @@ Contributors
 ============
 Game Manual 0 would not have been possible without the many contributors who
 have sacrificed their precious freetime
-(or merely found another excuse to procrastinate their work). 
-I am especially grateful to Ben and Dan for helping port over Game Manual 0 to Copperforge, 
-and for all those who have continued to add and revise GM0 during the busy school year. 
+(or merely found another excuse to procrastinate their work).
+I am especially grateful to Ben and Dan for helping port over Game Manual 0 to
+Copperforge,
+and for all those who have continued to add and revise GM0 during the busy
+school year.
 GM0 had been my dream for quite some time,
 and as an alum tremendously grateful for all that FIRST has taught me,
 I wanted to create GM0 to preserve and spread the knowledge base that might

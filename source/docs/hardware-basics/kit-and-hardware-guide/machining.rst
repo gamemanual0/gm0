@@ -32,7 +32,6 @@ parts, as can be seen in many of example robots in this section.
 
 .. figure:: images/machining/8680-rr2.jpg
     :alt: 8680 Kraken Pinion's Rover Ruckus robot
-    :scale: 25%
 
     8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus
 
@@ -40,15 +39,12 @@ parts, as can be seen in many of example robots in this section.
 
 .. figure:: images/machining/8393-rr1.jpg
     :alt: 8393 Giant Diencephalic BrainSTEM Robotics Team's Relic Recovery robot
-    :scale: 25%
 
-    8393 Giant Diencephalic BrainSTEM Robotics Team
-
-    Winning Alliance Captain (Detroit), Relic Recovery, fully custom
+    8393 Giant Diencephalic BrainSTEM Robotics Team,
+    Winning Alliance First Pick (Detroit), Relic Recovery, fully custom
 
 .. figure:: images/machining/731-rr2.png
     :alt: 731 Wannabee Strange's Rover Ruckus robot
-    :scale: 25%
 
     731 Wannabee Strange, Rover Ruckus, Design Award Finalist (Houston)
 

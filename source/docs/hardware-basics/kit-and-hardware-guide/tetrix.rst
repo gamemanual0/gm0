@@ -30,7 +30,8 @@ Kit Parts
 =========
 https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf
 
-(Note: this is for the 2018-2019 season)
+.. note:: This parts list is for the 2018-2019 season
+
 * 32x32mm Aluminum C-Channel, various lengths
 * Assorted plates and brackets, flat and 90 degree
 * Flat plates

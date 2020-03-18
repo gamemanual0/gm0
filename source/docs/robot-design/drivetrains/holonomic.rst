@@ -61,6 +61,7 @@ Disadvantages
 
 .. figure:: images/holonomic/gobilda-mecanum-direction.png
     :alt: Diagram of mecanum wheel directions
+    :width: 100%
 
     Configuration for mecanum wheels, courtesy goBILDA
 

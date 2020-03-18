@@ -16,12 +16,8 @@ In FTC, servos are typically used for claws, grabbers, and arms.
 
 .. figure:: images/hs488.jpg
     :alt: HS488 Hitec servo
-    :width: 40%
 
     A common servo, HS488-HB from Hitec
-
-
-
 
 There is a huge variety of servos from different manufacturers, which vary
 widely in price, performance and value. Fortunately, virtually all servos use
@@ -40,7 +36,6 @@ servos strip easily  when subjected to shock loads. Servos are also very
 bad at handling lateral  loads or bending of the shaft. To avoid having to
 frequently replace servos,  choose ones with metal gears and read the usage
 suggestion section below.
-
 
 .. toctree::
     :maxdepth: 1

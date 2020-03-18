@@ -96,4 +96,5 @@ For further reading, we highly suggest you check out those links.**
       Captains at the World Championships.
       It also has a channel for direct access to vendors.
     * `FIRST Updates Now Discord <discord.gg/firstupdatesnow>`_
-    * FIRST Updates Now provides FTC/FRC related content including recaps, shows, analysis, reveals, and top 25.
+    * FIRST Updates Now provides FTC/FRC related content including recaps,
+      shows, analysis, reveals, and top 25.

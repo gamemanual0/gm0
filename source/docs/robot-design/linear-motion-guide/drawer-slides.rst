@@ -141,12 +141,12 @@ by all means explore this option.
     :alt: 6929's Rover Ruckus robot with its slides extended
 
     6929 Data Force, Rover Ruckus, Misumi SAR3
-    
+
 .. figure:: images/drawer-slides/5143-Sar-2.png
     :alt: 5143's Skystone robot with its lift fully extended
-    
+
     5143 Xcentrics, Skystone, Misumi SAR2
-    
+
 .. image:: images/drawer-slides/11115-hafele.png
     :alt: 11115's Relic Recovery robot with its relic slides extended
 

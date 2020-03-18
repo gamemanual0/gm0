@@ -48,13 +48,14 @@ Where can I get ...?
         * VEX *VersaPlanetary Lite* (gearbox only)
         * (*italicized* = customizable gearbox ratio)
     * Servos
-        * HiTec (from ServoCity); 24 tooth
-        * REV Smart Robot Servo; 25 tooth
-        * goBILDA Dual Mode Servo; 25 tooth 
-        * Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth
-        * Savox heavy-duty servos; 25 tooth 
+        * HiTec (from ServoCity); 24 tooth spline
+        * REV Smart Robot Servo; 25 tooth spline
+        * goBILDA Dual Mode Servo; 25 tooth spline
+        * Futaba (Futaba servos are widely used in RC and hobby aircraft);
+          25 tooth spline
+        * Savox heavy-duty servos; 25 tooth spline
         * Actuonix (linear actuators)
-        * VEX 393 EDR; 1/8" square shaft 
+        * VEX 393 EDR; 1/8" square shaft
     * Sensors
         * AndyMark
         * REV

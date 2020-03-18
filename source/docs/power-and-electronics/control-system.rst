@@ -38,6 +38,7 @@ especially if your team is starting from scratch.
 
 .. image:: images/control-system/mr-wiring-diagram.png
     :alt: A diagram of the RC Phone + Modern Robotics control system
+    :width: 100%
 
 RC Phone + REV Expansion Hub(s)
 ===============================
@@ -61,6 +62,7 @@ head to REV Robotics’ Technical Resources page on their website.
 
 .. image:: images/control-system/exh-wiring-diagram.jpg
     :alt: A diagram of the RC Phone + Expansion Hub(s) control system
+    :width: 100%
 
 REV Control Hub + REV Expansion Hub
 ===================================
@@ -73,3 +75,4 @@ It is not legal for all FTC teams for the 2019-2020 season.**
 
 .. image:: images/control-system/ch-wiring-diagram.png
     :alt: A diagram of the Control Hub + Expansion Hub control system
+    :width: 100%

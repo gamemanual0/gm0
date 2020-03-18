@@ -200,13 +200,6 @@ dd {
     margin: 0
 }
 
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-    vertical-align: middle;
-    max-width: 100%
-}
-
 svg:not(:root) {
     overflow: hidden
 }
@@ -5418,7 +5411,7 @@ footer p {
     }
 }
 
-.rst-content img {
+.rst-content {
     max-width: 100%;
     height: auto
 }
@@ -5964,4 +5957,21 @@ span[id*=MathJax-Span] {
     font-weight: 700;
     src: url(fonts/Roboto-Slab-Bold.woff2?9984f4a9bda09be08e83f2506954adbe) format("woff2"), url(fonts/Roboto-Slab-Bold.woff?bed5564a116b05148e3b3bea6fb1162a) format("woff");
     font-display: swap
+}
+
+#copperforge-logo {
+    width: 150px;
+}
+
+img:not(.math) {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    width: 400px;
+    height: auto;
+}
+
+.caption {
+    width: 400px;
+    text-align: center;
 }
