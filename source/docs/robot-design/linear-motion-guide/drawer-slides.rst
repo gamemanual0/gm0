@@ -76,9 +76,9 @@ As a tip, try to protect chips or sawdust from falling into the slides,
 as the sliding will have a noticeable difference.
 
 MiSUMI sells two different types of slides: SAR2 and SAR3.
-The SAR is a two-piece slide,
+The SAR2 is a two-piece slide,
 while the the SAR3 is a three-stage slide
-(has intermediate slider to increase the extension of the slide.
+(has intermediate slider to increase the extension of the slide).
 Teams have used both successfully, and there isn’t neither option is clearly
 superior.
 
