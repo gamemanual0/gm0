@@ -3,3 +3,21 @@
         display:none;
     }
 }
+
+/*
+Styling for images and captions (centered captions) 
+Both images and captions 400px by default
+*/ 
+
+img:not(.math) {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    width: 400px;
+    height: auto;
+}
+
+.caption {
+    width: 400px;
+    text-align: center;
+}
