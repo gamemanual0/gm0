@@ -20,18 +20,18 @@ design solutions for your robot!
         * `Practice Run <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__
         * `World Record Match <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__
         * `Behind the Bot Interview <https://www.youtube.com/watch?v=zun--sNljks>`__
-* 8417 'Lectric Legends:
+* 8417 'Lectric Legends
     * `CAD <https://a360.co/385w8Kr>`__
     * Videos
         * `Robot Reveal Video <https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__
         * `Behind the bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__
-* 14270 Quantum Robotics:
+* 14270 Quantum Robotics
     * `CAD <https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968e7fc6e5b3808809c>`__
     * `Robot Description Flyer <https://qrobotics.eu/media/resources/2018-2019/mti.pdf>`__
     * Videos
         * `Practice Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__
         * `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__
-* 9872 (In)Formal Logic:
+* 9872 (In)Formal Logic
     * `CAD <https://a360.co/2OPwMUJ>`__
     * `Robot Reveal video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`__
     * `Behind the Bot interview <https://www.youtube.com/watch?v=6PjfbOV496c>`__
@@ -48,13 +48,13 @@ design solutions for your robot!
 
 2016-17 Velocity Vortex
 -----------------------
-* 3415 Livingston Lancers:
+* 3415 Livingston Lancers
     * `Robot Reveal Video <https://www.youtube.com/watch?v=8jvF94d46cs>`__
     * `Robot CAD render <https://drive.google.com/open?id=1oCy7M8DCr8fLGUcjR6L4Akm1JUgkqhYt>`__
     * `Engineering drawing <https://drive.google.com/open?id=1YQMyEWS5sPdL1YOPntXIR0FdsY30-G6H>`__
-* 9794 Wizards.exe:
+* 9794 Wizards.exe
     * `Robot Reveal Video <https://www.youtube.com/watch?v=pJs-R-j0zXg>`__
-* 4137 Islandbots:
+* 4137 Islandbots
     * `Description <https://docs.google.com/document/d/1RMsGYUu_mo943I42diFhakRUgHF-Bi4TcWEwkxHUE9g/edit?usp=sharing>`__
     * `CAD Model <https://a360.co/2zmSCb4>`__
     * `Reveal video <https://www.youtube.com/watch?v=acWoCPkWOZs>`__
