@@ -72,6 +72,7 @@ Note: Spur gear gearboxes are fine for most applications for a rookie team.
 We are not advocating necessarily having to upgrade to planetary motors, 
 but there are some advantages which may become useful in more advanced
 use cases such as high-load systems. 
+
 Spur gear gearboxes have inherent disadvantages to planetary gearboxes.
 Spur gear gearboxes should not be used in high-load situations,
 primarily because the gears can strip and destroy the gearbox.
