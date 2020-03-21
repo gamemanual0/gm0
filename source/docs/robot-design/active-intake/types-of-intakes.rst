@@ -92,7 +92,7 @@ Disadvantages
 .. figure:: images/compliant-wheel-intake/9971-intake.png
     :alt: 9971's Relic Recovery intake
 
-    9971 LanBros, Finalist Alliance 1st Pick (Detroit),
+    9971 LanBros, Finalist Alliance First Pick (Detroit),
     Relic Recovery, springloaded
 
 .. figure:: images/compliant-wheel-intake/8680-intake.png
@@ -205,17 +205,12 @@ Disadvantages
     :alt: 8393's surgical tubing intake
 
     8393 Giant Diencephalic BrainSTEM Robotics Team,
-    Winning Alliance 1st Pick (St. Louis), Relic Recovery
-
-.. figure:: images/tubing-intake/8375-intake.png
-    :alt: 8375's surgical tubing intake
-
-    8375 Vulcan Robotics, Res-Q - great example of funneling
+    Winning Alliance First Pick (St. Louis), Relic Recovery
 
 .. figure:: images/tubing-intake/11115-intake.png
     :alt: 11115's surgical tubing intake
 
-    11115 Gluten Free, Winning Alliance 1st Pick (Detroit), Rover Ruckus
+    11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus
 
 .. figure:: images/tubing-intake/7203-intake.png
     :alt: 7203's surgical tubing intake

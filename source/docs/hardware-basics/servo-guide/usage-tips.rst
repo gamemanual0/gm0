@@ -34,7 +34,6 @@ Below are some tips on using servos in FTC.
 
   .. figure:: images/servoblock.jpg
       :alt: servoblock
-      :width: 40%
 
       A servo in a ServoBlock
 
@@ -44,7 +43,6 @@ below (`CAD <https://a360.co/38POMq6>`_ is also available):
 
 .. figure:: images/compact_servo_block.png
      :alt: compact servoblock
-     :width: 40%
 
      Alternative servo support block
 

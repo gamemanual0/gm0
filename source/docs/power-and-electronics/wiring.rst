@@ -13,64 +13,52 @@ Connectors and Wires
 There are many types of connectors for use in FTC.
 Here are the most common connectors you will find on an FTC robot.
 
-For module power:
+* Powerpoles
 
-.. figure:: images/wiring/powerpole-connector.png
-    :alt: A powerpole connector
-    :scale: 25%
+    .. image:: images/wiring/powerpole-connector.png
+        :alt: A powerpole connector
+        :width: 200px
 
-    Powerpoles
+    * Used for module power
+    * Used for motor power
+* XT30
 
-.. figure:: images/wiring/xt30-connector.png
-    :alt: A XT30 connector
-    :scale: 50%
+    .. image:: images/wiring/xt30-connector.png
+        :alt: A XT30 connector
+        :width: 200px
 
-    XT30 connectors
+    * Used for module power
+* JST-VH
 
-For motor power:
+    .. image:: images/wiring/jst-vh-connector.png
+        :alt: A JST-VH connector
+        :width: 200px
 
-.. figure:: images/wiring/powerpole-connector.png
-    :alt: A powerpole connector
-    :scale: 25%
+    * Used for motor power
+* Dupont 0.1”
 
-    Powerpoles
+    .. image:: images/wiring/dupont-connector.png
+        :alt: A Dupont 0.1" connector
+        :width: 200px
 
-.. figure:: images/wiring/jst-vh-connector.png
-    :alt: A JST-VH connector
-    :scale: 10%
+    * Used for sensors
+    * Used for servo wires
+* JST-PH and JST-XH
+    .. image:: images/wiring/jst-sensor-connectors.png
+        :alt: JST-PH and JST-XH connectors
+        :width: 200px
 
-    JST-VH connectors
+    * Used for sensors
+* Tamiya
+    .. image:: images/wiring/tamiya-connector.png
+        :alt: A Tamiya connector
+        :width: 200px
 
-For sensor wires:
+    .. warning::
+        Do not use these connectors!
+        The metal connectors are fragile and will lead to random disconnects.
 
-.. figure:: images/wiring/dupont-connector.png
-    :alt: A Dupont 0.1" connector
-    :scale: 20%
-
-    Dupont 0.1”
-
-.. figure:: images/wiring/jst-sensor-connectors.png
-    :alt: JST-PH and JST-XH connectors
-    :scale: 15%
-
-    JST-PH or JST-XH connectors
-
-For servo wires:
-
-.. figure:: images/wiring/dupont-connector.png
-    :alt: A Dupont 0.1" connector
-    :scale: 20%
-
-    Dupont 0.1”
-
-
-The connectors you **SHOULD NOT** use:
-
-.. figure:: images/wiring/tamiya-connector.png
-    :alt: A Tamiya connector
-
-    Tamiya Connectors
-    (the metal connectors are fragile and will lead to random disconnects)
+    * Used for module power
 
 FTC Wiring Guide
 ================

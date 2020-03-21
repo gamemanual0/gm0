@@ -47,6 +47,7 @@ Start with a 2D sketch of everything before trying to extrude and make actual
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-technical-drawing.jpg
     :alt: Drivetrain Plate Technical Drawing
+    :width: 100%
 
 This is a sketch of the inner plate of the drive base.
 Everything should be laid out in a 2D sketch to determine the mounting holes,
@@ -71,6 +72,7 @@ Go back to your inner plate and start a 2D sketch.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-ui-chrome.jpg
     :alt: Drivetrain Plate, with entire face seleected
+    :width: 100%
 
 After starting the new sketch on the inner plate,
 hit “Project Geometry” and just click anywhere on the part.
@@ -363,6 +365,7 @@ in a sketch or feature.
 
 .. image:: images/cad-tutorial/custom-pulley-template/equations-view.png
     :alt: A screenshot of the "Equations, Global Variables, and Dimensions" view
+    :width: 100%
 
 First, define a new variable “n” and set a default value of 24.
 This is crucial since “n” will affect the number of teeth –

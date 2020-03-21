@@ -76,9 +76,9 @@ As a tip, try to protect chips or sawdust from falling into the slides,
 as the sliding will have a noticeable difference.
 
 MiSUMI sells two different types of slides: SAR2 and SAR3.
-The SAR is a two-piece slide,
+The SAR2 is a two-piece slide,
 while the the SAR3 is a three-stage slide
-(has intermediate slider to increase the extension of the slide.
+(has intermediate slider to increase the extension of the slide).
 Teams have used both successfully, and there isn’t neither option is clearly
 superior.
 
@@ -123,20 +123,6 @@ Disadvantages
 * Not the best slide smoothness
 * Suffers in build quality (after all, it is very cheap)
 
-REV UltraSlide
-==============
-The REV UltraSlide is an aluminum ball bearing drawer slide that uses M3
-mounting.
-It is of similar form factor to the MiSUMI SAR drawer slide.
-The key feature of the UltraSlide is the side extrusion profile,
-which is compatible with REV’s 15mm extrusion.
-It allows the REV pulleys used in the Linear Slide Kit to be mounted directly
-to the slide, thus making each stage compact and lightweight.
-
-**Since this is a new product,
-currently a list of advantages/disadvantages is unable to be provided.
-More details will come in a future revision.**
-
 Igus
 ====
 Igus slides used to be a popular option among top teams for linear extension
@@ -155,6 +141,11 @@ by all means explore this option.
     :alt: 6929's Rover Ruckus robot with its slides extended
 
     6929 Data Force, Rover Ruckus, Misumi SAR3
+
+.. figure:: images/drawer-slides/5143-Sar-2.png
+    :alt: 5143's Skystone robot with its lift fully extended
+
+    5143 Xcentrics, Skystone, Misumi SAR2
 
 .. image:: images/drawer-slides/11115-hafele.png
     :alt: 11115's Relic Recovery robot with its relic slides extended

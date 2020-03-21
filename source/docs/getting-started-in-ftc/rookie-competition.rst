@@ -2,11 +2,13 @@
 Rookie Mistakes: Competition
 ============================
 .. image:: images/competition.png
+    :width: 100%
 
 Neglect driver practice → Constant driver training
 ==================================================
 A persistent problem with new teams is neglecting driver practice.
 > Drive practice is to be done throughout the season, **not the week before competition.**
+
 No matter how good your robot is, the robot is only 50% of the equation.
 The driver(s) is the other 50% which determine the success of the team as a
 whole.
@@ -14,10 +16,13 @@ Even if your robot is the best in the world,
 an inferior robot with a competent drive team more than likely will beat your
 robot with a poor drive team.
 By April's world championships, most top teams have run hundreds of
-practice matches. This gives some obvious advantages to a team with lesser practice.
-1) the driver(s) is totally familiar with handling the robot in every situation. 
+practice matches.
+This gives some obvious advantages compared to a team with lesser practice.
+1) the driver(s) is totally familiar with handling the robot in every
+situation.
 2) the robot is proven to be reliable enough to survive hours of operation.
-3. the immense data that teams gather from test runs are used to optimize every element of the robot. 
+3. the immense data that teams gather from test runs are used to optimize every
+element of the robot.
 Driver practice not only familiarizes the driver(s) with the robot and serves
 as a test of robot reliability, it also simulates in-game conditions.
 **Learning to push the limits of your robot should be done in practice,
@@ -25,9 +30,11 @@ not at competition.**
 This way, drivers will become more comfortable driving under stress and
 pressure.
 Teams with intensive driver practice will purposely make things more difficult
-(such as placing a disabled robot in the middle of the field or unplugging a drivetrain motor).
-Extreme, you might say? No, it's called preparedness. If your driver doesn't know how to react,
-then you need more drive practice. 
+(such as placing a disabled robot in the middle of the field or unplugging a
+drivetrain motor).
+Extreme, you might say?
+No, it's called preparedness.
+If your driver doesn't know how to react, then you need more drive practice.
 
 No game strategy → Strategic driving
 ====================================
@@ -50,7 +57,7 @@ hinder the other alliance from scoring.
 **Remember, denying the other alliance 10 points is the same value as scoring
 10 points**.
 However, it is not advised for rookie teams to play defense due to the specific
-rules surrounding this strategy. 
+rules surrounding this strategy.
 If a team wishes to execute a defensive strategy, be sure to read all the rules
 as defense can incur penalties/cards if done improperly.
 
@@ -62,10 +69,13 @@ First of all, automating tasks can save time and reduce the need for driver
 multi-tasking.
 Drivers should always be controlling the robot with as few button presses as
 possible.
-For example, automatically stopping the intake mechanism when game elements have 
-been collected saves a button press.
-Second, autonomously operating some mechanisms has the advantage of eliminating driver error
-and relieves stress. For example, if a lift has to extend to exactly 30 inches, a motor with 
-an encoder can complete that with 100% accuracy at full speed, compared to a human driver's minor error. 
-Note: autonomous functions should be able to be overrided by manual input in case something goes wrong 
-(e.g. encoder is unplugged, a part breaks, etc.) to prevent damage to the robot. 
+For example, automatically stopping the intake mechanism when game elements
+have been collected saves a button press.
+Second, autonomously operating some mechanisms has the advantage of eliminating
+driver error and relieves stress.
+For example, if a lift has to extend to exactly 30 inches,
+a motor with an encoder can complete that with 100% accuracy at full speed,
+compared to a human driver's minor error.
+Note: autonomous functions should be able to be overrided by manual input in
+case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.)
+to prevent damage to the robot.

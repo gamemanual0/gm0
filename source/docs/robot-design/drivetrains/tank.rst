@@ -46,7 +46,6 @@ Disadvantages
 
 .. figure:: images/tank/tetrix-pushbot.jpg
     :alt: Tetrix pushbot
-    :scale: 75%
 
     Example pushbot drivetrain included in the starter FTC guide
 
@@ -107,7 +106,6 @@ Disadvantages
 
 .. image:: images/tank/10641-4wd-table.png
     :alt: 10641 Atomic Gear's 4WD on a table
-    :scale: 50%
 
 .. figure:: images/tank/10641-4wd-void.png
     :alt: 10641 Atomic Gear's 4WD in a void

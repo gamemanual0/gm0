@@ -93,7 +93,7 @@ than in the spur gearbox.
     :alt: A planetary gearbox diagram
 
     Example of a planetary gearbox stage.
-    Note how the sun gear meshes with >1 gear.
+    Note how the sun gear meshes with more than one gear.
 
 Advantages of Planetary Gearboxes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
