@@ -237,10 +237,11 @@ will take approximately 3 milliseconds to execute,
 except for I2C calls which can take upwards of 7ms.
 This is because behind the scenes, the SDK may need to make multiple hardware
 calls in order to perform the I2C operation.
+
 .. note:: When using a Control Hub, you may see considerably faster hardware
-call times because the Control Hub uses a direct UART connection to the Lynx
-board instead of going through USB and a middle-man FTDI as happens when using
-a phone.
+    call times because the Control Hub uses a direct UART connection to the
+    Lynx board instead of going through USB and a middle-man FTDI as happens
+    when using a phone.
 
 These times may seem fast, but they add up quickly.
 Consider a control loop to drive forward for N encoder counts while maintaining
