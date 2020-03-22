@@ -4,6 +4,18 @@ Rookie Mistakes: Competition
 .. image:: images/competition.png
     :width: 100%
 
+.. table:: Rookie Mistakes in Competition 
+    :widths: auto
+    
+    =============================== ==============================
+                Problem                        Solution           
+    =============================== ==============================
+    Neglect drive practice          Constant driver training
+        Drivers unfamiliar with robot   Drivers comfortable with controls
+        Robot reliability untested      Proven and tested robot
+    =============================== ==============================
+
+
 Neglect driver practice → Constant driver training
 ==================================================
 .. important:: A persistent problem with new teams is neglecting driver
