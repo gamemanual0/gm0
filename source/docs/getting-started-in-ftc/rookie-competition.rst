@@ -4,10 +4,19 @@ Rookie Mistakes: Competition
 .. image:: images/competition.png
     :width: 100%
 
+=============================== ==============================
+            Problem                        Solution           
+=============================== ==============================
+Neglect drive practice          Constant driver training
+    Drivers unfamiliar with robot   Drivers comfortable with controls
+    Robot reliability untested      Proven and tested robot
+=============================== ==============================
+
+
 Neglect driver practice → Constant driver training
 ==================================================
-A persistent problem with new teams is neglecting driver practice.
-> Drive practice is to be done throughout the season, **not the week before competition.**
+    A persistent problem with new teams is neglecting driver practice.
+    Drive practice is to be done throughout the season, **not the week before competition.**
 
 No matter how good your robot is, the robot is only 50% of the equation.
 The driver(s) is the other 50% which determine the success of the team as a
