@@ -6,9 +6,11 @@ Rookie Mistakes: Competition
 
 Neglect driver practice → Constant driver training
 ==================================================
-A persistent problem with new teams is neglecting driver practice.
-Drive practice is to be done throughout the season,
-**not the week before competition.**
+.. important:: A persistent problem with new teams is neglecting driver
+    practice.
+    Drive practice is to be done throughout the season,
+    **not the week before competition.**
+
 No matter how good your robot is, the robot is only 50% of the equation.
 The driver(s) is the other 50% which determine the success of the team as a
 whole.
@@ -42,9 +44,11 @@ Similar to drive practice,
 this is something that many inexperienced teams ignore.
 A sports example is handy - even with the most talented players,
 a team won’t go far without good game strategy.
-An inferior team with better strategy execution could even pull off an upset.
-Planning a strategy ensures that every second in the 2:30 game time is used to
-the maximum efficiency, which yields more points.
+
+.. important:: An inferior team with better strategy execution could even pull 
+    off an upset.
+    Planning a strategy ensures that every second in the 2:30 game time is used
+    to the maximum efficiency, which yields more points.
 For example, drivers should know exactly where the robot needs to be positioned
 after the autonomous → tele-op switch.
 Practicing this switch will save a couple of seconds when drivers have to think
@@ -63,8 +67,9 @@ as defense can incur penalties/cards if done improperly.
 
 Fully driver-controlled → Partially automated tasks
 ===================================================
-Autonomous should not be limited to only the autonomous mode.
-Automating simple tasks can be a real time-saver and efficiency boost to teams.
+.. important:: Autonomous should not be limited to only the autonomous mode.
+    Automating simple tasks can be a real time-saver and efficiency boost to
+    teams.
 First of all, automating tasks can save time and reduce the need for driver
 multi-tasking.
 Drivers should always be controlling the robot with as few button presses as

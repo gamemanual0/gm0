@@ -10,8 +10,9 @@ and strategic planning stages.
 Do Everything At Once → Perfect One Objective First
 ===================================================
 **Consistency is king.**
-A common pitfall for first year teams is trying to accomplish all the game
-objectives at once, especially in tele-op and endgame.
+
+.. important:: A common pitfall for first year teams is trying to accomplish
+    all the game objectives at once, especially in tele-op and endgame.
 **This is highly discouraged** because oftentimes new teams do not have the
 experience to do so.
 It is no small achievement to have a consistent robot that completes all
@@ -35,8 +36,10 @@ and this is a recommended goal for new teams.
 Overcomplicate → Simplify
 =========================
 **Simplifying your robot simplifies possible headaches later.**
-Another common trap that teams fall into is to overcomplicate needlessly.
-Simplicity and compactness are two hallmarks of engineering.
+
+.. important:: Another common trap that teams fall into is to overcomplicate
+    needlessly.
+    Simplicity and compactness are two hallmarks of engineering.
 While some robots are very complicated,
 keep in mind that those teams are generally experienced, have some sort of
 machining capability, and fully design their robot in CAD.
@@ -78,10 +81,11 @@ Too many teams fall into the pit of prioritizing scoring ability more than
 anything else, which is a grave error.
 In keeping with the first tip, to perfect one objective first,
 this practice will serve to increase consistency.
-**While scoring ability should be a priority and objective when designing
-mechanisms, it is not everything in this game.
-We advise being consistent at low and medium scoring levels than inconsistently
-scoring at a high level.**
+
+.. important:: While scoring ability should be a priority and objective when
+    designing mechanisms, it is not everything in this game. We advise being
+    consistent at low and medium scoring levels than inconsistently 
+    scoring at a high level.
 Focus on being able to do that one thing every single time throughout your
 matches, and you will begin to see how important consistency is.
 **This tip is equally as important during alliance selections.
@@ -93,10 +97,13 @@ every time to the alliance score, rather than selecting a boom-or-bust pick.
 Build haphazardly → Build for reliability
 =========================================
 **Build for the worst case scenario, not the best case scenario.**
-When building, teams often overlook a key principle: build for reliability.
-All too often, teams skimp on the quality of construction as well as materials,
-which leads to one of the most common reasons for unsuccessful tournaments:
-part failure.
+
+.. important:: When building, teams often overlook a key principle: build for
+    reliability.
+    All too often, 
+    teams skimp on the quality of construction as well as materials,
+    which leads to one of the most common reasons for unsuccessful tournaments:
+    part failure.
 Teams also do not take into account the rigors of competition and build as if
 the robot will not encounter opposing robots.
 Sufficient driver practice will be able to better simulate in-game conditions
@@ -128,10 +135,13 @@ a key characteristic of all world-level robots.
 Fret about Design → Focus on Execution
 ======================================
 **A good execution of a bad design will beat a bad execution of good design.**
-FTC is all about how well you execute in both the mechanical aspect and the
-driver aspect. If your goal is winning, then how mechanically beautiful your
-robot is doesn't matter. Your goal is less of impressing the judges but
-performing the best you possibly can on the field.
+
+.. important:: FTC is all about how well you execute in both the mechanical 
+    aspect and the driver aspect.
+    If your goal is winning, then how mechanically beautiful your robot is 
+    doesn't matter.
+    Your goal is less of impressing the judges but performing the best you
+    possibly can on the field.
 It is very possible to take a bad design, execute it well, and still be
 competitive at a high level.
 Even though not many teams are able to do so, it still goes to show that the
