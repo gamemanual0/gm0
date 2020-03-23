@@ -7,12 +7,42 @@ and strategic planning stages.
 .. image:: images/principles.png
     :width: 100%
 
++--------------------------------+-----------------------------------------+
+|            Problem             |                Solution                 |
++================================+=========================================+
+| Do everything at once          | Perfect one objective first             |
+|                                |                                         |
+| * Robot becomes half-baked     | * Robot is highly optimized             |
+| * Cannot excel in one area     | * Consistently excels in one area       |
++--------------------------------+-----------------------------------------+
+| *Over*\ complicate             | Simplify                                |
+|                                |                                         |
+| * More time needed to iterate  | * Best designs are usually simplest     |
+| * Less reliable                | * Less moving parts                     |
++--------------------------------+-----------------------------------------+
+| Score-first designs            | Design for consistency                  |
+|                                |                                         |
+| * Neglect proper principles    | * Usually reliability > scoring ability |
+| * Often wildly inconsistent    | * Great plus for alliance selection     |
++--------------------------------+-----------------------------------------+
+| Build haphazardly              | Build for reliability                   |
+|                                |                                         |
+| * Build with subpar materials  | * Remove unneeded moving parts          |
+| * Inadequate support structure | * Eliminate single points of failure    |
++--------------------------------+-----------------------------------------+
+| Fret about design              | Focus on execution                      |
+|                                |                                         |
+| * Wastes testing time          | * Make a decision, then stick to it     |
+| * Design alone is not enough   | * Execution often beats design          |
++--------------------------------+-----------------------------------------+
+
 Do Everything At Once → Perfect One Objective First
 ===================================================
 **Consistency is king.**
 
 .. important:: A common pitfall for first year teams is trying to accomplish
     all the game objectives at once, especially in tele-op and endgame.
+
 **This is highly discouraged** because oftentimes new teams do not have the
 experience to do so.
 It is no small achievement to have a consistent robot that completes all
@@ -40,6 +70,7 @@ Overcomplicate → Simplify
 .. important:: Another common trap that teams fall into is to overcomplicate
     needlessly.
     Simplicity and compactness are two hallmarks of engineering.
+
 While some robots are very complicated,
 keep in mind that those teams are generally experienced, have some sort of
 machining capability, and fully design their robot in CAD.
@@ -84,8 +115,9 @@ this practice will serve to increase consistency.
 
 .. important:: While scoring ability should be a priority and objective when
     designing mechanisms, it is not everything in this game. We advise being
-    consistent at low and medium scoring levels than inconsistently 
+    consistent at low and medium scoring levels than inconsistently
     scoring at a high level.
+
 Focus on being able to do that one thing every single time throughout your
 matches, and you will begin to see how important consistency is.
 **This tip is equally as important during alliance selections.
@@ -100,10 +132,11 @@ Build haphazardly → Build for reliability
 
 .. important:: When building, teams often overlook a key principle: build for
     reliability.
-    All too often, 
+    All too often,
     teams skimp on the quality of construction as well as materials,
     which leads to one of the most common reasons for unsuccessful tournaments:
     part failure.
+
 Teams also do not take into account the rigors of competition and build as if
 the robot will not encounter opposing robots.
 Sufficient driver practice will be able to better simulate in-game conditions
@@ -136,12 +169,13 @@ Fret about Design → Focus on Execution
 ======================================
 **A good execution of a bad design will beat a bad execution of good design.**
 
-.. important:: FTC is all about how well you execute in both the mechanical 
+.. important:: FTC is all about how well you execute in both the mechanical
     aspect and the driver aspect.
-    If your goal is winning, then how mechanically beautiful your robot is 
+    If your goal is winning, then how mechanically beautiful your robot is
     doesn't matter.
     Your goal is less of impressing the judges but performing the best you
     possibly can on the field.
+
 It is very possible to take a bad design, execute it well, and still be
 competitive at a high level.
 Even though not many teams are able to do so, it still goes to show that the

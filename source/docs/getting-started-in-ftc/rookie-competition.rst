@@ -4,17 +4,24 @@ Rookie Mistakes: Competition
 .. image:: images/competition.png
     :width: 100%
 
-.. table:: Rookie Mistakes in Competition 
-    :widths: auto
-    
-    =============================== ==============================
-                Problem                        Solution           
-    =============================== ==============================
-    Neglect drive practice          Constant driver training
-        Drivers unfamiliar with robot   Drivers comfortable with controls
-        Robot reliability untested      Proven and tested robot
-    =============================== ==============================
-
++---------------------------------+-------------------------------------+
+|             Problem             |              Solution               |
++=================================+=====================================+
+| Neglect drive practice          | Constant driver training            |
+|                                 |                                     |
+| * Drivers unfamiliar with robot | * Drivers comfortable with controls |
+| * Robot reliability untested    | * Proven and tested robot           |
++---------------------------------+-------------------------------------+
+| No game strategy                | Strategical driving                 |
+|                                 |                                     |
+| * Lack of contingency plans     | * Only purposeful actions taken     |
+| * Weakens alliance strength     | * Efficient and effective driving   |
++---------------------------------+-------------------------------------+
+| Fully driver-controlled         | Partially automated tasks           |
+|                                 |                                     |
+| * Less efficient                | * Relieves stress on driver         |
+| * Requires more practice        | * Removes human error               |
++---------------------------------+-------------------------------------+
 
 Neglect driver practice → Constant driver training
 ==================================================
@@ -57,10 +64,11 @@ this is something that many inexperienced teams ignore.
 A sports example is handy - even with the most talented players,
 a team won’t go far without good game strategy.
 
-.. important:: An inferior team with better strategy execution could even pull 
+.. important:: An inferior team with better strategy execution could even pull
     off an upset.
     Planning a strategy ensures that every second in the 2:30 game time is used
     to the maximum efficiency, which yields more points.
+
 For example, drivers should know exactly where the robot needs to be positioned
 after the autonomous → tele-op switch.
 Practicing this switch will save a couple of seconds when drivers have to think
@@ -82,6 +90,7 @@ Fully driver-controlled → Partially automated tasks
 .. important:: Autonomous should not be limited to only the autonomous mode.
     Automating simple tasks can be a real time-saver and efficiency boost to
     teams.
+
 First of all, automating tasks can save time and reduce the need for driver
 multi-tasking.
 Drivers should always be controlling the robot with as few button presses as

@@ -4,12 +4,43 @@ Rookie Mistakes: Building
 .. image:: images/building.png
     :width: 100%
 
++--------------------------------------+-----------------------------------+
+|               Problem                |             Solution              |
++======================================+===================================+
+| 2 motor drivetrain                   | 4 motor drivetrain                |
+|                                      |                                   |
+| * Less power                         | * More power, higher efficiency   |
+| * Less acceleration                  | * Improved acceleration           |
++--------------------------------------+-----------------------------------+
+| Pushbot                              | Mecanum, 6WD, etc.                |
+|                                      |                                   |
+| * Poor agility                       | * More agile, higher top speed    |
+| * Poor top speed                     | * Customizable gear ratio         |
++--------------------------------------+-----------------------------------+
+| Claw                                 | Intake                            |
+|                                      |                                   |
+| * Controls 1 element at a time       | * Controls multiple elements at a |
+| * Easy to break                      |   time                            |
+|                                      | * Much more efficient             |
++--------------------------------------+-----------------------------------+
+| Spur gear gearboxes                  | Planetary gearboxes               |
+|                                      |                                   |
+| * Not for high load use cases        | * For drivetrains and high load   |
+| * Will break under shock load        | * Resistant to shock loads        |
++--------------------------------------+-----------------------------------+
+| Single/multi-axis arm                | Linear extension                  |
+|                                      |                                   |
+| * Requires high gear ratio           | * Generally faster than arms      |
+| * More complex than linear extension | * Much more precise               |
++--------------------------------------+-----------------------------------+
+
 2 Motor Drivetrain → 4 Motor Drivetrain
 =======================================
 .. important:: In general, it is not recommended for teams to use 2 motors on
     the drivetrain, but instead use 4.
     This is mainly due to the added power and increased acceleration 4 motors
     provide.
+
 Typically, top speed is determined by the gear ratio and the motor
 specifications, not the number of motors.
 **However**, acceleration is affected by the number of motors,
@@ -27,6 +58,7 @@ Pushbot → Mecanum, 6WD, Other Recommended Drivetrains
 .. important:: The pushbot drivetrain,
     commonly built by first-year teams using the FIRST-provided guides,
     should not be used as a competitive drivetrain.
+
 We do recommend teams who have purchased the Tetrix kit to build it for
 educational purposes only -
 that is, to get familiarized with the parts and basic building principles using
@@ -50,6 +82,7 @@ Passive Intake/Claw → Active Intake
     should always be prioritized over passive intakes and grippers because
     active intakes are much more efficient and effective in picking up common
     game elements such as balls, cubes, rectangular prisms, etc.
+
 The exception is that a claw should be used for irregularly shaped objects that
 would be impossible to control via intake; for example, the relic in Relic
 Recovery.
@@ -74,10 +107,11 @@ We are not advocating necessarily having to upgrade to planetary motors,
 but there are some advantages which may become useful in more advanced
 use cases such as high-load systems.
 
-.. important:: Spur gear gearboxes have inherent disadvantages to planetary 
+.. important:: Spur gear gearboxes have inherent disadvantages to planetary
     gearboxes.
     Spur gear gearboxes should not be used in high-load situations,
     primarily because the gears can strip and destroy the gearbox.
+
 An example would be a drivetrain that has to change directions repeatedly and
 quickly.
 Planetary gearboxes are much better suited for drivetrain and arms,
@@ -96,6 +130,7 @@ Single/multi axis arm → Linear extension
     the direction of linear slides, primarily due to the issue of complexity.
     This is because arms typically are less effective than linear extensions
     and are harder to implement properly.
+
 Arms require a high gear ratio,
 which usually in turn will require an expensive gearbox (e.g.
 `VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_)
