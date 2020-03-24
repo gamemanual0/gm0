@@ -39,12 +39,14 @@ an inferior robot with a competent drive team more than likely will beat your
 robot with a poor drive team.
 By April's world championships, most top teams have run hundreds of
 practice matches.
+
 This gives some obvious advantages compared to a team with lesser practice.
 1.  the driver(s) is totally familiar with handling the robot in every
 situation.
 2.  the robot is proven to be reliable enough to survive hours of operation.
 3.  the immense data that teams gather from test runs are used to optimize every
 element of the robot.
+
 Driver practice not only familiarizes the driver(s) with the robot and serves
 as a test of robot reliability, it also simulates in-game conditions.
 **Learning to push the limits of your robot should be done in practice,
@@ -108,6 +110,6 @@ For example, if a lift has to extend to exactly 30 inches,
 a motor with an encoder can complete that with 100% accuracy at full speed,
 compared to a human driver's minor error.
 
-..note::    Autonomous functions should be able to be overrided by manual input in
+.. note::    Autonomous functions should be able to be overrided by manual input in
     case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.)
     to prevent damage to the robot and to be compliant with game rules.
