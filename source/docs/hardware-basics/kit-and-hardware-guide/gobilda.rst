@@ -5,7 +5,9 @@ goBILDA (https://www.gobilda.com/) is a fixed-pitch, channel based building syst
 using metric units. It was recently released in the 2018-2019 season 
 and is made by the same company as Actobotics.
 
-Notes about this build system
+Special Considerations
+======================
+
 * goBILDA is based on metric measurements using M4 hardware. 
   The hole pattern has 4mm holes on 8mm grid.
 * The kit is primarily structured around U-channel, which is strong and durable. 
@@ -19,6 +21,8 @@ Notes about this build system
 * **goBILDA offers a 25% discount for FIRST teams.**
 
 Notable components
+==================
+
 * goBILDA uses 8mm pitch chain and HTD 3 or HTD 5 belts for motion. 
 * goBILDA mostly uses clamping hubs (called Sonic hubs), eliminating the unreliable set
   screws. 
@@ -45,6 +49,8 @@ Notable components
   actuator kit for extending mechanisms. 
 
 Verdict
+=======
+
 goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. It offers a 
 great deal of flexibility and part options from their catalog. goBILDA is a solid choice
 due to reasonable pricing, low learning curve, and thought-out design that reduces headaches. 

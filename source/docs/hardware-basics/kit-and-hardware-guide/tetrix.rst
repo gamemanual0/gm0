@@ -4,7 +4,9 @@ Tetrix
 The TETRIX build system is a fixed pitch,
 channel-based building system that uses both imperial and metric units.
 
-Notes about this build system 
+Special Considerations 
+======================
+
 * The TETRIX build system revolves around 32 mm aluminum c-channels and a 16mm
   bolt circle, on 16mm spacing (centers of the circles are 16mm apart).
   TETRIX is patterned along these channels to create many mounting options
@@ -26,9 +28,10 @@ Notes about this build system
   value found in kits such as REV and goBILDA. 
 
 Verdict
-As a young team, you may be considering TETRIX as a starter kit,
-but we encourage you to explore your options and consider your club limitations
-before selecting a kit.
+=======
+
+While you may be considering TETRIX as a starter kit,
+we encourage you to explore your options before selecting a kit.
 While Tetrix does pick up quite a lot of flak from the community,
 it isn’t a bad choice in terms of physical qualities such as strength,
 but the mounting options and hole patterns leave more to be desired and
@@ -118,7 +121,7 @@ or having multiple points of support for a piece of channel.
 Due to TETRIX’s relatively fragile nature, this advice goes double with TETRIX.
 Instead of just supporting a shaft at two points,
 it is recommended to support the shaft at 4 or more
-(if you are using a 4.7mm Standard).
+(if you are using a 4.7mm standard).
 When mounting motors, it is recommended that two clamping motor mounts are used
 to mount one motor. Using standoffs inside channel to prevent the channel from
 bending inward or outward is also highly recommended.

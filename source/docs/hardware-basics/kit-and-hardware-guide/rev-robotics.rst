@@ -4,7 +4,9 @@ Rev Robotics
 The REV kit is an infinite-pitch,
 extrusion based building system which uses the metric system and M3 hardware. 
 
-Notes about this build system
+Special Considerations
+======================
+
 * The REV ecosystem is based upon 15x15mm aluminum extrusion and is
   complemented by 45x45mm channels.
 * With extrusion, there are no fixed mounting holes,
@@ -21,7 +23,9 @@ Notes about this build system
   owing to the fact that constructing structurally sound mechanisms requires just a 
   little more thought. 
 
-Notable components 
+Notable components
+================== 
+
 * REV's bread and butter is the 15x15mm aluminum extrusion. It accepts M3 hex screws
   which slide along the grooves. 
 * In addition, REV also offers both 45x45mm U-channel and 15x45mm C-channel,
@@ -39,16 +43,20 @@ Notable components
   the aluminum brackets.
 
 Verdict
+=======
+
 **The REV kit is good for teams willing to invest the time into an extrusion
 building system.** 
 It is the most flexible kit as it is extrusion based, yet it has the 
 ability to integrate channel along with extrusion. REV offers the option to upgrade parts 
 for those wanting a further investment into the REV building system.
 
-..  note: REV and MiSUMI Compatibility 
+.. note: REV and MiSUMI Compatibility 
+
 One advantage to the REV kit is the compatibility of
 15x15mm Misumi extrusion.
 15x15mm REV extrusion isn’t as structurally strong as Misumi for two reasons.
+
 1.  REV extrusion is 6063 aluminum,
     while MiSUMI extrusion is made out of A6N01SS-T5 aluminum,
     a stronger and stiffer alloy.

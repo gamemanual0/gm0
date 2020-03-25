@@ -6,7 +6,9 @@ channel-based building system using imperial units.
 Its 1.5” c-channel and ball-bearing based motion system allows teams to iterate
 and build mechanisms entirely from kit parts.
 
-Notes about this build system 
+Special Considerations
+======================
+
 * Actobotics' channel hole pattern has many more mounting holes than a Tetrix channel, 
   so it offers more flexibility in terms of mounting.
 * Actobotics uses imperial units across the board,
@@ -17,6 +19,8 @@ Notes about this build system
   making pricing competitive.
 
 Notable Components 
+==================
+
 * Mini-channel is offered in addition to the standard size channel for non-structural components.
 * Actobotics' X-rail extrusion system offers immense adjustability and flexibility as it adds 
   a extrusion component to a channel-based kit.
@@ -29,6 +33,8 @@ Notable Components
   kits (using lead screws) for specific use cases. 
 
 Verdict
+=======
+
   Actobotics is a solid choice for new teams, offering a reliable base kit with
   many options to expand upon.
 
