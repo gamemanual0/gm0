@@ -10,27 +10,27 @@ and strategic planning stages.
 +--------------------------------+-----------------------------------------+
 |            Problem             |                Solution                 |
 +================================+=========================================+
-| Do everything at once          | Perfect one objective first             |
+| **Do everything at once**      | **Perfect one objective first**         |
 |                                |                                         |
 | * Robot becomes half-baked     | * Robot is highly optimized             |
 | * Cannot excel in one area     | * Consistently excels in one area       |
 +--------------------------------+-----------------------------------------+
-| *Over*\ complicate             | Simplify                                |
+| ***Over*\ complicate**         | **Simplify**                            |
 |                                |                                         |
 | * More time needed to iterate  | * Best designs are usually simplest     |
 | * Less reliable                | * Less moving parts                     |
 +--------------------------------+-----------------------------------------+
-| Score-first designs            | Design for consistency                  |
+| **Score-first designs**        | **Design for consistency**              |
 |                                |                                         |
 | * Neglect proper principles    | * Usually reliability > scoring ability |
 | * Often wildly inconsistent    | * Great plus for alliance selection     |
 +--------------------------------+-----------------------------------------+
-| Build haphazardly              | Build for reliability                   |
+| **Build haphazardly**          | **Build for reliability**               |
 |                                |                                         |
 | * Build with subpar materials  | * Remove unneeded moving parts          |
 | * Inadequate support structure | * Eliminate single points of failure    |
 +--------------------------------+-----------------------------------------+
-| Fret about design              | Focus on execution                      |
+| **Fret about design**          | **Focus on execution**                  |
 |                                |                                         |
 | * Wastes testing time          | * Make a decision, then stick to it     |
 | * Design alone is not enough   | * Execution often beats design          |
@@ -59,18 +59,14 @@ everything inconsistently.
 We recommend teams focus on one objective during tele-op/endgame and perfect
 it.
 
-**Typically, teams which have a solid autonomous and consistent endgame can be
-competitive at the Qualifier level**,
-and this is a recommended goal for new teams.
+.. tip::    Typically, teams which have a solid autonomous and consistent endgame can be
+    competitive at the Qualifier level. This is a recommended goal for new teams.
 
 Overcomplicate → Simplify
 =========================
-**Simplifying your robot simplifies possible headaches later.**
-
 .. important:: Another common trap that teams fall into is to overcomplicate
-    needlessly.
-    Simplicity and compactness are two hallmarks of engineering.
-
+    needlessly. Simplifying your robot simplifies possible headaches later.
+    
 While some robots are very complicated,
 keep in mind that those teams are generally experienced, have some sort of
 machining capability, and fully design their robot in CAD.
@@ -81,22 +77,24 @@ failure, given that the robot has less moving parts.
 Additionally, it takes much less time to iterate through and perfect a simple
 mechanism as opposed to a complicated one. The reasoning is that a complicated
 system has many more variables that need to be adjusted/could cause problems.
+
 Keeping things simple can be practically achieved through a couple of ways.
-First, try to limit the degrees of motion that the mechanism operates in.
-For example, a linear slide goes in and out in a straight line, as opposed to
-an arm, which rotates along an axis.
-Doing so will serve to eliminate forces that otherwise could adversely affect
-the mechanism.
-Another way to simplify is to build for the shortest travel distance.
-Obviously, the shortest distance from A to B is in a straight line,
-so teams should strive to keep the game elements approximately within a
-reasonably straight line.
-This can help in solving possible problems if the game elements need to change
-direction too many times.
+1.  Limit the degrees of motion that the mechanism operates in.
+    For example, a linear slide goes in and out in a straight line, as opposed to
+    an arm, which rotates along an axis.
+    Doing so will serve to eliminate forces that otherwise could adversely affect
+    the mechanism.
+2.  Another way to simplify is to build for the shortest travel distance.
+    Obviously, the shortest distance from A to B is in a straight line,
+    so teams should strive to keep the game elements approximately within a
+    reasonably straight line.
+    This can help in solving possible problems if the game elements need to change
+    direction too many times.
 
 Score-first designs → Design for Consistency
 ============================================
-**Teams should prioritize consistency over scoring ability.**
+.. important::  Teams should prioritize consistency over scoring ability.
+
 The tortoise beats the rabbit.
 An overused parable, but it still holds a kernel of truth.
 Why?
@@ -128,12 +126,9 @@ every time to the alliance score, rather than selecting a boom-or-bust pick.
 
 Build haphazardly → Build for reliability
 =========================================
-**Build for the worst case scenario, not the best case scenario.**
-
-.. important:: When building, teams often overlook a key principle: build for
-    reliability.
-    All too often,
-    teams skimp on the quality of construction as well as materials,
+.. important:: Build for the worst case scenario, not the best case scenario.
+    When building, teams often overlook a key principle: build for reliability.
+    All too often, teams skimp on the quality of construction as well as materials,
     which leads to one of the most common reasons for unsuccessful tournaments:
     part failure.
 
@@ -167,7 +162,7 @@ a key characteristic of all world-level robots.
 
 Fret about Design → Focus on Execution
 ======================================
-**A good execution of a bad design will beat a bad execution of good design.**
+.. tip:: A good execution of a bad design will beat a bad execution of good design.
 
 .. important:: FTC is all about how well you execute in both the mechanical
     aspect and the driver aspect.

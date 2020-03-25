@@ -1,33 +1,36 @@
 ==========
 Actobotics
 ==========
-The Actobotics kit from ServoCity is another fixed-pitch,
-channel-based building system.
+The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch,
+channel-based building system using imperial units. 
 Its 1.5” c-channel and ball-bearing based motion system allows teams to iterate
 and build mechanisms entirely from kit parts.
-One advantage of Actobotics is that their channel hole pattern has many more
-mounting holes than a Tetrix channel, so it is less restrictive in terms of
-mounting.
-Actobotics uses imperial units across the board,
-allowing for clean spacing and fitting.
-A variety of mounts and brackets make strong, compact joints between channels.
-Actobotics also sells mini-channel in addition to the standard size channel.
-In addition to the channel, the main structural component in Actobotics kits,
-the X-rail extrusion system offers immense adjustability.
-To complement the structural offerings,
-Actobotics uses a series of clamping hubs and a robust 1/4” steel D-shaft.
-Finally, Actobotics has a Linear Motion Kit which uses X-rail extrusion to
-build extending mechanisms.
-The ServoBlock, which prolongs the life of a servo,
-is recommended for all teams, regardless of kit; however,
-ServoBlocks seamlessly interface with the Actobotics ecosystem.
-Actobotics furthermore offers options such as bevel gears and Linear Actuator
-kits (using lead screws) for specific use cases. Actobotics can interface with
-other kits such as REV through a variety of Pattern Adapters.
-**ServoCity offers a 25% off discount for all FIRST teams,
-making pricing competitive.
-Actobotics is a solid choice for new teams, offering a reliable base kit with
-many options to expand upon.**
+
+Notes about this build system 
+* Actobotics' channel hole pattern has many more mounting holes than a Tetrix channel, 
+  so it offers more flexibility in terms of mounting.
+* Actobotics uses imperial units across the board,
+  allowing for clean spacing and fitting. However, most other kits use metric. 
+* Actobotics can interface with
+  other kits such as REV through a variety of Pattern Adapters.
+* ServoCity offers a 25% off discount for all FIRST teams (https://www.servocity.com/first_team_discounts),
+  making pricing competitive.
+
+Notable Components 
+* Mini-channel is offered in addition to the standard size channel for non-structural components.
+* Actobotics' X-rail extrusion system offers immense adjustability and flexibility as it adds 
+  a extrusion component to a channel-based kit.
+* To complement the structural offerings, Actobotics uses a series of clamping hubs and a robust 1/4” steel D-shaft.
+* The Linear Motion Kit uses X-rail extrusion to build extending mechanisms.
+* The ServoBlock, which prolongs the life of a servo,
+  is recommended for all teams, regardless of kit. However,
+  ServoBlocks seamlessly interface with the Actobotics ecosystem.
+* Actobotics furthermore offers motion options such as bevel gears and Linear Actuator
+  kits (using lead screws) for specific use cases. 
+
+Verdict
+  Actobotics is a solid choice for new teams, offering a reliable base kit with
+  many options to expand upon.
 
 Kit Parts
 =========

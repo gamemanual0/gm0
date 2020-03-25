@@ -19,9 +19,8 @@ Rookie Mistakes: Building
 +--------------------------------------+----------------------------------------+
 | **Claw**                             | **Intake**                             |
 |                                      |                                        |
-| * Controls 1 element at a time       | * Controls multiple elements at a      |
-| * Easy to break                      | time                                   |
-|                                      | * Much more efficient                  |
+| * Controls 1 element at a time       | * Controls multiple elements at a time |
+| * Easy to break                      | * Much more efficient                  |
 +--------------------------------------+----------------------------------------+
 | **Spur gear gearboxes**              | **Planetary gearboxes**                |
 |                                      |                                        |
@@ -74,8 +73,8 @@ that is, to get familiarized with the parts and basic building principles using
 a channel-based kit.
 However, we do not advise that teams use that pushbot at a competition due to
 its many flaws.
-1.  The pushbot is powered by 2 motors,
-    and as stated above, there isn’t a reason to stay with 2 motors on drivetrain.
+1.  The pushbot is powered by 2 motors, and as stated above, 
+there isn’t a reason to stay with 2 motors on drivetrain.
 2.  The pushbot has poor top speed and turning ability, given that the
     gear ratio (40:1 on 4 inch wheels) is half the speed that many teams use.
 3.  It is not advisable to use direct drive.
@@ -130,7 +129,7 @@ Planetary gearboxes are much better suited for drivetrain and arms,
 due to the configuration of the sun and planet gears.
 In addition, spur gear gearboxes are prone to shock loads; therefore,
 direct drive is not advisable on drivetrains.
-Refer to the :doc:`Motor Guide <../Hardware-Guide/Motor-Guide/index>` for more complete information on gearboxes.
+Refer to the :doc:`Motor Guide <../hardware-basics/motor-guide/gearbox-anatomy>` for more complete information on gearboxes.
 **This refers to using spur gear gearboxes which are attached directly to the
 pinion gear of the motor.
 It does not mean external ratios outside of the motor gearbox,

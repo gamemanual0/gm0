@@ -2,22 +2,30 @@
 Tetrix
 ======
 The TETRIX build system is a fixed pitch,
-channel-based building system that has existed for many years.
-The TETRIX build system revolves around 32 mm aluminum c-channels and a 16mm
-bolt circle, on 16mm spacing.
-This means that the centers of the circles are 16mm apart from each other.
-TETRIX is patterned along these channels to create plenty of mounting options
-for building structures.
-These channels have a tendency to flex and bend under load,
-often requiring reinforcement using multiple channels to maintain their shape.
-While TETRIX channel is measured in metric units,
-the system employs Imperial (SAE) bolts and Imperial chain.
-This mix of units means that things often don’t quite line up how they’re
-supposed to.
-This means that additional tensioners are required when using chain on TETRIX.
-Beyond this, TETRIX gears and sprockets offer very limited options for creating
-ratios, and the aluminum gears tend to grind away very quickly,
-especially if they are not supported correctly on both sides.
+channel-based building system that uses both imperial and metric units.
+
+Notes about this build system 
+* The TETRIX build system revolves around 32 mm aluminum c-channels and a 16mm
+  bolt circle, on 16mm spacing (centers of the circles are 16mm apart).
+  TETRIX is patterned along these channels to create many mounting options
+  for building structures.
+* These channels have a tendency to flex and bend under load,
+  often requiring reinforcement using multiple channels to maintain their shape.
+* While TETRIX channel is measured in metric units,
+  the system employs Imperial (SAE) bolts and Imperial chain.
+  This mix of units means that things often don’t quite line up how they’re
+  supposed to, causing unforeseen problems.
+* Additional tensioners are often required when using chain on TETRIX.
+* TETRIX gears and sprockets offer very limited options for creating
+  ratios. 
+  The aluminum gears tend to grind away very quickly,
+  especially if they are not supported correctly on both sides.
+* Tetrix parts generally do not have the best track record for reliability and longevity
+  due to subpar material choices. 
+* Tetrix parts are slightly overpriced and lack bang-for-your-buck
+  value found in kits such as REV and goBILDA. 
+
+Verdict
 As a young team, you may be considering TETRIX as a starter kit,
 but we encourage you to explore your options and consider your club limitations
 before selecting a kit.
@@ -30,7 +38,7 @@ Kit Parts
 =========
 https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf
 
-.. note:: This parts list is for the 2018-2019 season
+.. note:: This parts list is for the 2018-2019 season.
 
 * 32x32mm Aluminum C-Channel, various lengths
 * Assorted plates and brackets, flat and 90 degree
@@ -67,8 +75,7 @@ Advantages
   load.
 * It is simple to build basic mechanisms such as an arm using the gears and
   d-shaft.
-  However, as will be explained later,
-  there are many potential drawbacks to doing so.
+  However, there are potential drawbacks to doing so.
 
 Disadvantages
 =============

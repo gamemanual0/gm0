@@ -41,11 +41,12 @@ By April's world championships, most top teams have run hundreds of
 practice matches.
 
 This gives some obvious advantages compared to a team with lesser practice.
-1.  the driver(s) is totally familiar with handling the robot in every
-situation.
-2.  the robot is proven to be reliable enough to survive hours of operation.
-3.  the immense data that teams gather from test runs are used to optimize every
-element of the robot.
+
+1.  The driver(s) is totally familiar with handling the robot in every
+    situation.
+2.  The robot is proven to be reliable enough to survive hours of operation.
+3.  The immense data that teams gather from test runs are used to optimize every
+    element of the robot.
 
 Driver practice not only familiarizes the driver(s) with the robot and serves
 as a test of robot reliability, it also simulates in-game conditions.
@@ -98,17 +99,16 @@ Fully driver-controlled → Partially automated tasks
     Automating simple tasks can be a real time-saver and efficiency boost to
     teams.
 
-First of all, automating tasks can save time and reduce the need for driver
-multi-tasking.
-Drivers should always be controlling the robot with as few button presses as
-possible.
-For example, automatically stopping the intake mechanism when game elements
-have been collected saves a button press.
-Second, autonomously operating some mechanisms has the advantage of eliminating
-driver error and relieves stress.
-For example, if a lift has to extend to exactly 30 inches,
-a motor with an encoder can complete that with 100% accuracy at full speed,
-compared to a human driver's minor error.
+1.  Automating tasks can save time and reduce the need for driver multi-tasking.
+    Drivers should always be controlling the robot with as few button presses as
+    possible.
+    For example, automatically stopping the intake mechanism when game elements
+    have been collected saves a button press.
+2.  Autonomously operating some mechanisms has the advantage of eliminating
+    driver error and relieves stress.
+    For example, if a lift has to extend to exactly 30 inches,
+    a motor with an encoder can complete that with 100% accuracy at full speed,
+    compared to a human driver's minor error.
 
 .. note::    Autonomous functions should be able to be overrided by manual input in
     case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.)

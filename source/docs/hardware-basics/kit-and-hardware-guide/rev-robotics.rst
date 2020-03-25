@@ -2,48 +2,59 @@
 Rev Robotics
 ============
 The REV kit is an infinite-pitch,
-extrusion based building system which uses 15x15mm aluminum extrusion and is
-complemented by channels.
-With extrusion, there are no fixed mounting holes,
-increasing adjustability and flexibility.
-For example, tensioning chain is simple when sliding the mount or bracket
-increases tension.
-Extrusion systems are one step towards a custom bot,
-as it needs to be cut to length using a saw or bandsaw.
-In addition, REV also offers both 45x45mm U-channel and 15x45mm C-channel,
-which is stronger than extrusion and provides stiffness and support when
-needed.
-The REV system uses metric dimensions (15 mm extrusion, M3 hardware), with the
-exception of #25 roller chain.
-REV also uses 5 mm hex steel shafts for motion,
-which some vendors have added compatibility for in recent months.
-REV also has pattern adapters for other systems built into many parts such as
-the aluminum brackets.
-Another advantage to REV is the delrin (a kind of low-friction plastic)
-components reduce the kit cost, but many products have stronger aluminum
-options as well.
-While plastic typically is suitable for a new team,
-the aluminum parts are recommended if your budget allows for it.
-Furthermore, REV has released new products such as channel mentioned above,
-the UltraPlanetary gearbox which has customizable planetary ring gear ratios,
-as well as UltraSlide, a low-profile aluminum slide.
-**In general, REV has a steeper learning curve than other build systems**,
-owing to the fact that mounting points in mechanisms need to be accounted for.
-However, this is not necessarily a disadvantage.
-**The REV kit is good for teams willing to invest the time into an extrusion
-building system.
-It has the ability to integrate channel along with extrusion,
-as well as the option to upgrade parts** for those wanting a further investment
-into the REV building system.
+extrusion based building system which uses the metric system and M3 hardware. 
 
-Another advantage to the REV kit is the compatibility of
+Notes about this build system
+* The REV ecosystem is based upon 15x15mm aluminum extrusion and is
+  complemented by 45x45mm channels.
+* With extrusion, there are no fixed mounting holes,
+  increasing adjustability and flexibility.
+  For example, tensioning chain is simple when sliding the mount or bracket
+  increases tension.
+* The REV system uses metric dimensions (15 mm extrusion, M3 hardware), with the
+  exception of #25 roller chain (FTC standard, imperial).
+* REV has purposefully designed with compatibility in mind, as pattern adapters 
+  ease compatibility issues. 
+* Many REV parts are made of Delrin, a high-wear resistance plastic, which reduces
+  overall cost. However, REV offers aluminum options for high-load parts as well. 
+* REV does have a steeper learning curve than channel based build systems,
+  owing to the fact that constructing structurally sound mechanisms requires just a 
+  little more thought. 
+
+Notable components 
+* REV's bread and butter is the 15x15mm aluminum extrusion. It accepts M3 hex screws
+  which slide along the grooves. 
+* In addition, REV also offers both 45x45mm U-channel and 15x45mm C-channel,
+  which is stronger than extrusion and provides stiffness and support when
+  needed.
+* REV also offers punch tubing for teams wanting a more permanent mounting system 
+  while having the flexibility of channel. 
+* REV uses 5 mm hex steel shafts and a ball-bearing motion support system. 
+  The shaft may be cut to length, which can be very useful for certain use cases. 
+  Many vendors have added compatibility to 5 mm hex shaft. 
+* REV offers 3 types of HD HEX motors: spur gear, planetary, and UltraPlanetary motors. 
+  The UltraPlanetary has customizable planetary ring gear ratios for a very affordable price. 
+* The Core Hex Motor may be useful in certain use cases such as space constrained mechanisms. 
+* REV also has pattern adapters for other systems built into many parts such as
+  the aluminum brackets.
+
+Verdict
+**The REV kit is good for teams willing to invest the time into an extrusion
+building system.** 
+It is the most flexible kit as it is extrusion based, yet it has the 
+ability to integrate channel along with extrusion. REV offers the option to upgrade parts 
+for those wanting a further investment into the REV building system.
+
+..  note: REV and MiSUMI Compatibility 
+One advantage to the REV kit is the compatibility of
 15x15mm Misumi extrusion.
-REV extrusion isn’t as structurally strong as Misumi for two reasons.
-REV extrusion is 6063 aluminum,
-while MiSUMI extrusion is made out of A6N01SS-T5 aluminum,
-a stronger and stiffer alloy.
-Additionally, the MiSUMI extrusion has a larger surface area,
-so there is more area of contact.
+15x15mm REV extrusion isn’t as structurally strong as Misumi for two reasons.
+1.  REV extrusion is 6063 aluminum,
+    while MiSUMI extrusion is made out of A6N01SS-T5 aluminum,
+    a stronger and stiffer alloy.
+2.  The MiSUMI extrusion has a larger surface area,
+    so there is more area of contact.
+
 Misumi offers greater strength at a lower bulk cost.
 Additionally, Misumi will cut to the half millimeter for free, making it a
 great option for teams needing an exact cut.
@@ -55,16 +66,17 @@ punch tubing, which is 15 mm aluminum square tubing that is compatible with
 1/8” rivets.
 This will prevent bolts from loosening or sliding around, as punch tubing
 requires teams to drill through the tubing in order to fasten parts to it.
+Another easy option is to use REV 45x45mm channel. 
 
 .. figure:: images/rev-robotics/rev-extrusion.png
     :alt: A piece of rev extrusion
 
-    REV Extrusion
+    REV 15x15mm Extrusion
 
 .. figure:: images/rev-robotics/misumi-extrusion.png
     :alt: A technical drawing of MiSUMI Extrusion's profile
 
-    MiSUMI Extrusion Profile
+    MiSUMI 15x15mm Extrusion Profile
 
 Kit of Parts
 ============
@@ -103,14 +115,17 @@ Advantages
   placement.
 * Channel complements extrusion extremely well -
   having the adjustability of extrusion and the rigidity of channel makes it a
-  very solid build system
+  very solid build system. 
+* Generally, REV products are designed with affordability in mind, and so the 
+  components are of good value for money. 
 
 Disadvantages
 =============
 
-* Steeper learning curve, more time consuming to prepare extrusion.
-* Requires tools such as a saw and bandsaw
-* Requires forethought and planning of extrusion length and placement
+* 15x15mm extrusion is not as sturdy as channel options under high stress loads. 
+* Steeper learning curve, more time consuming to measure and cut extrusion to length.
+* Requires tools such as a saw and bandsaw. 
+* Requires forethought and planning of extrusion length and placement. 
 * Parts loosen over time (to remediate: use punch tubing)
 * M3 bolts, especially those sold directly by REV, are prone to bending under
   higher load (such as when used as an axle for a pulley)
