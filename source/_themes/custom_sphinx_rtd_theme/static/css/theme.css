@@ -4454,8 +4454,8 @@ body, html {
 }
 
 body {
-    font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
     color: #404040;
     min-height: 100%;
     background: #edf0f2
@@ -4532,12 +4532,12 @@ a.wy-text-neutral:hover {
 .rst-content .toctree-wrapper p.caption, h1, h2, h3, h4, h5, h6, legend {
     margin-top: 0;
     font-weight: 700;
-    font-family: Roboto Slab, ff-tisa-web-pro, Georgia, Arial, sans-serif
+    font-family: 'Fira Sans', sans-serif;
 }
 
 p {
-    line-height: 24px;
-    font-size: 16px;
+    line-height: 32px;
+    font-size: 20px;
     margin: 0 0 24px
 }
 
