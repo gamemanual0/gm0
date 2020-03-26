@@ -1,15 +1,15 @@
 ===============
 Materials Guide
 ===============
-In FTC, teams aren't limited in terms of what raw materials to use.
-However, there are definitely some important materials which you should be
-aware of.
+In FTC, teams have design freeedom in terms of what raw materials to use.
+However, there are definitely some important recommendations regarding 
+material usage.
 
-Commonly used vendors  for raw materials are (in addition to your local
-hardware store) McMaster-Carr and OnlineMetals. For more vendors, check the
-Appendix.
+Common raw materials may be found at your local hardware store. 
+McMaster-Carr and OnlineMetals are two frequently used online vendors. 
+For more vendors, check the Appendix.
 
-Here are the materials to use, listed in order of importance.
+Here are recommended materials listed in order of importance.
 
 
 Recommended Materials
@@ -45,43 +45,51 @@ Aluminum
 
 * A high strength, medium-high density material. Suitable for use in nearly
   every application; recommended in load-bearing applications.
-* Aluminum channel is used in many build system kits and is very popular among
-  teams of various skill levels. Channel is strong yet relatively lightweight,
-  and offers many mounting options for teams.
-* 15 mm extrusion is compatible with M3 hardware, allowing teams to slide in
-  bolts to their desired location. REV extrusion is not as great structurally,
-  but is lighter than Misumi extrusion, which is more resistant to flexing
-  and/or twisting under load. Both REV and Misumi extrusion are sold in bulk
-  quantities, and Misumi has the option to cut to the half millimeter.
-  Keep in mind that a lot of extrusion can add up quickly in terms of weight.
-* Misumi and 8020 also offer aluminum extrusions in other sizes, such as 20mm
-  and 1". 20 mm extrusion can be a good choice if you need sturdier frame than
-  provided by 15mm extrusion. Note that then you would need to buy special
-  nuts, as 20mm extrusion is not compatible with M3 nuts.
-  One inch extrusion is regularly used as the primary building system in FRC,
-  but is  definitely an  overkill for FTC purposes.  It may be useful in
-  certain applications (for example, linear motion using v-groove bearings).
-* Aluminum flat and aluminum angle is widely available at hardware stores.
-  In certain applications, such as adapting from different build systems,
-  it is possible to drill custom adapter plates to mount mechanisms to the
-  drivetrain.
-  Aluminum angle is also a very sturdy structural support piece that takes up
-  relatively little space, and can adapt to any build system.
-  We suggest using 1/8” alumimum with drivetrain or mounting applications,
-  and 1/16” aluminum for low-load situations.
-* Aluminum drawer slides, often with ball bearing sliders, are recommended over
-  steel drawer slides primarily for weight purposes.
-  Refer to the Linear Motion section for more information.
-* Sheet aluminum is generally used for drivetrain plates on custom drivetrains.
-  The recommended thickness is 1/8" or 3/16". Because it is a plate,
-  sheet aluminum will bend if not supported correctly with standoffs or
-  channel.
-  Only load the sheet in the plane that it is in
-  (if the sheet is vertical, then only put vertical load on it;
-  do not load it horizontally).
-  However, there may be some applications that would benefit from a slight bit
-  of flex for adjustability - in those cases, use your judgment and test it out
-  for yourself!
+* Aluminum comes in channel, extrusion, flat, angle, sheet/plate, and is used in some 
+  drawer slides. 
+
+Aluminum channel is used in many build system kits and is very popular among
+teams of various skill levels. Channel is strong yet relatively lightweight,
+and offers many mounting options for teams.
+
+15 mm extrusion is compatible with M3 hardware, allowing teams to slide in
+bolts to their desired location. REV and MiSUMI offer 15 mm extrusion. 
+REV extrusion is not as great structurally,
+but is lighter than Misumi extrusion. MiSUMI is more resistant to flexing
+and/or twisting under load. Both REV and Misumi extrusion are sold in bulk, 
+and Misumi has the option to cut to the half millimeter.
+Keep in mind that a lot of extrusion can add up quickly in terms of weight.
+
+Misumi and 8020 also offer aluminum extrusions in other sizes, such as 20mm
+and 1". 20 mm extrusion can be a good choice if you need a sturdier frame than
+provided by 15mm extrusion. Note that then you would need to buy special
+nuts, as 20mm extrusion is not compatible with M3 nuts.
+1" extrusion is regularly used as the primary building system in FRC,
+but is definitely overkill for FTC.
+
+Aluminum flat and aluminum angle is widely available at hardware stores.
+In certain applications, such as adapting from different build systems,
+it is possible to drill custom adapter plates to mount mechanisms to the
+drivetrain.
+Aluminum angle is also a very sturdy structural support piece that takes up
+relatively little space, and can adapt to any build system.
+We suggest using 1/8” alumimum with drivetrain or mounting applications,
+and 1/16” aluminum for low-load situations.
+
+Aluminum drawer slides, often with ball bearings, are recommended over
+steel drawer slides due to weight savings.
+Refer to the Linear Motion section for more information.
+
+Sheet aluminum is generally used for drivetrain plates on custom drivetrains.
+The recommended thickness is 1/8" or 3/16". Because it is a plate,
+sheet aluminum will bend if not supported correctly with standoffs or
+channel.
+Only load the sheet in the plane that it is in
+(if the sheet is vertical, then only put vertical load on it;
+do not load it horizontally).
+However, there may be some applications that would benefit from a slight bit
+of flex for adjustability - in those cases, use your judgment and test it out
+for yourself!
 
 
 Steel
@@ -97,48 +105,47 @@ Plastics
 --------
 Lexan
 =====
-Polycarbonate, commonly known by its brand name Lexan,
-is a material that is great for applications such as drivetrain plates or
-intake collector boxes.
-It can bear load and is very impact-resistant.
-Many teams use it in the intake and deposit mechanisms as it is clear,
-allowing the drive team to see into the intake itself, an advantage over wood.
-Thick lexan can be used for drivetrain plates, though this is not recommended
-for inexperienced teams.
+* Polycarbonate, commonly known by its brand name Lexan,
+  is a material that is great for applications such as drivetrain plates or
+  intake collector boxes.
+* Lexan can bear load and is very impact-resistant.
+* Lexan is commonly used in intake and deposit mechanisms as it is clear,
+  allowing the drive team to see into the intake itself, an advantage over wood.
+* Thick Lexan can be used for drivetrain plates, though this is not recommended
+  for inexperienced teams.
+
+..  note::  Lexan is one of the most expensive materials per square foot,
+  so make sure you have carefully planned out what you are cutting before doing so.
+
 Thin lexan can be bent with a metal brake or sheet bender.
 It is recommended for teams to use bends instead of connecting with bolts -
 bending tends to be much stronger than bolting as it means the part stays in
 one continuous piece.
 If a sheet bender is out of the question, it is possible to use a heat gun or
 camping burners to heat up the lexan in order to bend it.
-This is not recommended as it can cause injury as well as bubbling
-(which results from overheating the lexan).
+This is not recommended as it can cause injury and bubbling if the Lexan is overheated.
 Alternatively, "cold bending", bending along a straight edge without applying
 heat can work for thinner sheets.
-Lexan is one of the most expensive materials per square foot,
-so make sure you have carefully planned out what you are cutting before doing
-so.
 
 ABS
 ===
-ABS is a hard plastic, used in many applications (it is the material used
-for LEGO blocks). It is low-friction and easily machinable using hand
-tools or CNC. ABS sheets can be also bent using sheet bender (recommended) or a
-heat gun. Thin (1/16 inch) ABS sheets can also be cut using shears. It can be
-used for side panels, ramps, and even drivetrain plates. It is not as strong as
-Delrin, but more than strong enough for most purposes; it is also cheaper
-than Lexan and Delrin.
+* ABS is a hard low-friction plastic that is easily machinable.  
+* ABS sheet can be used for side panels, ramps, and even drivetrain plates. 
+* It is not as strong as Delrin, but strong enough for most purposes. 
+* ABS is cheaper than Lexan and Delrin.
+* ABS can be machined using hand tools or CNC. ABS sheets can be also bent using sheet bender (recommended) or a
+  heat gun. 
+* Thin (1/16 inch) ABS sheets can also be cut using shears. 
 
 Delrin
 ======
 * Acetal, also known under brand name Delrin, is a low-friction strong plastic.
-  It is the common plastic used for wheels, plastic gears, and sprockets. REV
-  robotics also uses Delrin for extrusion brackets.
-  It is a durable and strong plastic that is not easily cracked.
+  It is a common plastic used for wheels, plastic gears, and sprockets (especially in the REV system).
+* It is a durable and strong plastic that is not easily cracked.
   Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness),
   but Delrin sheet is also quite expensive.
 * Delrin can be machined in a variety of ways including laser cutting,
-  cnc routing and hand sculpting. However, bending Delrin is much harder than
+  CNC routing and hand sculpting. However, bending Delrin is much harder than
   bending Lexan or ABS.
 
 HDPE
@@ -148,44 +155,40 @@ HDPE
 * HDPE is a cheaper alternative with low-friction characteristics similar to
   delrin and flexibility/structure near polycarbonate.
 * HDPE is easily machined by both hand tools and machine tools.
-  However, it will burn in a laser cutter, so do not laser cut HDPE.
+  However, it will burn in a laser cutter, so **do not laser cut HDPE.**
 
 
 Polyvinyl chloride (PVC)
 ========================
 
+* PVC is a common lightweight plastic ubiquitous at any hardware store. 
 * PVC is most commonly sold as pipe, though PVC sheet does exist.
-  FTC teams generally use PVC in order to customize intake rollers,
+* FTC teams generally use PVC in order to customize intake rollers,
   especially for surgical tubing intakes.
   Due to the soft plastic, it is very easy to drill through,
   so teams often attach the surgical tubing to a PVC pipe.
   The PVC roller will then be attached to the intake motor.
-  Since PVC is cheap, teams can easily experiment with the number of tubes,
-  angle, etc. to build an optimal intake for their use case.
-* PVC is sometimes used in cable management as a channel to run wires through,
-  as it comes in different diameters and can easily be mounted to nearly any
-  surface.
+* Since PVC is cheap, teams can easily experiment with different mechanism configurations.
+* PVC pipe is sometimes used in cable management to run wires through,
+  as it comes in different diameters and can easily be mounted. 
 * PVC sheet can be bought or made by cutting vertically along the pipe so that
-  the profile looks like a C.
-  Bake in oven.
+  the profile looks like a C. Bake in oven.
   PVC sheet is pliable yet sturdy, making it a good option for backstops or
   customizing connectors that require some sort of flex.
 
 Acrylic
 =======
-**Acrylic is not a load-bearing material.
-It will crack and possibly shatter under impact.**
-Do not use it on drivetrains by any means!
-It should only be used in mechanisms where there is no chance of shock impact.
-It can be used for aesthetic purposes or as shielding
-(to protect game elements from falling into the robot or from other robots
-tangling with wires, etc.)
-Treat acrylic as fancy clear cardboard - it cannot be loaded and should only be
-used in very specific circumstances.
+..  warning:: Acrylic is not a load-bearing material.
+  It will crack and possibly shatter under impact.**
+  Do not use it on drivetrains by any means!
 
-
-
-
+* Acrylic is a transparent thermoplastic commonly known as Plexiglass. 
+* As acrylic is not a structural material, it should only be used in mechanisms where there is no chance of shock impact.
+* It may be used for aesthetic purposes or as shielding
+  (to protect game elements from falling into the robot or from other robots
+  tangling with wires, etc.)
+* Treat acrylic as fancy clear cardboard - it cannot be loaded and should only be
+  used in very specific circumstances.
 
 Other
 -----
@@ -212,22 +215,24 @@ Plywood and MDF
 
 
 
-Carbon fiber
+Carbon Fiber
 ============
 
-* Carbon fiber is one of the strongest materials that any FTC team could use.
-  For most teams it is totally overkill,
-  but it can be used in some specific applications.
-  Carbon fiber rods are used in custom linear slide extensions or multi-axis
-  arms.
-  It is probably the most expensive material to purchase.
-* **Machining carbon fiber, like any fibrous substance, is a significant
+..  warning:: **Machining carbon fiber, like any fibrous substance, is a significant
   SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is
   incredibly dangerous.
   DO NOT MACHINE/CUT carbon fiber unless you know what you are doing.
   When you do, make sure to either use machinery that is designed to cut carbon
   fiber, or cut in a well ventilated area with sufficient respiratory
   protection and running water over the carbon fiber.**
+
+* Carbon fiber is one of the strongest materials for FTC use.
+  For most teams it is totally overkill,
+  but it can be used in some specific applications.
+* Carbon fiber rods are used in custom linear slide extensions or multi-axis
+  arms.
+* It is probably the most expensive material to purchase.
+
 
 Cardboard
 =========

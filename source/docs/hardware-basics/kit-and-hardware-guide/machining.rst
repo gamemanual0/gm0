@@ -6,6 +6,7 @@ Advantages of Machining
 * Machining allows teams to create practically any part without limitations.
 * Machining allows teams to create custom drivetrain plates, arms,
   linear slides, etc to fit their design needs more effectively than kits.
+* Machining is cool. Yes, really. 
 
 Disadvantages of Machining
 ==========================
@@ -18,7 +19,7 @@ Disadvantages of Machining
   Sketching will not cut it when building custom robots.
 * Another barrier is that prototyping with fully custom systems is almost
   always much slower than using kit parts.
-  This is because the full CAD process takes time,
+  The full CAD process takes time,
   and fabrication/getting parts fabricated by a shop or sponsor is another
   lengthy process.
   Notwithstanding those two factors,
@@ -29,6 +30,8 @@ It must be noted that teams do not need to pick between a fully kit-based robot
 or a fully custom robot.
 In fact, many successful teams are actually a hybrid of both kit and custom
 parts, as can be seen in many of example robots in this section.
+However, our suggestion is that inexperienced teams should prioritize 3D printing
+over machining for fabricating custom parts, at least for the near term. 
 
 .. figure:: images/machining/8680-rr2.jpg
     :alt: 8680 Kraken Pinion's Rover Ruckus robot

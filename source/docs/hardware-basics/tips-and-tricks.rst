@@ -1,8 +1,8 @@
 ===============
-Tips And tricks
+Tips and Tricks
 ===============
 Below is a collection of tips and tricks on basic building. Some of them may
-seem obvious, but almost every  FTC newbie made these mistakes at least once.
+seem obvious, but almost every FTC newbie made these mistakes at least once.
 
 
 * **Color code your tools**. If you are using several different sizes of hex
@@ -16,7 +16,6 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   non-permanent threadlocker such as `Loctite blue
   <https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html>`_
   to prevent them from loosening.
-
 
 * **Only use locknuts**. Never use regular nuts in your builds - they easily
   come loose under vibration. Kep nuts used in TETRIX are better, but they are
@@ -37,7 +36,7 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   situation arises  is when using attachment blocks where two screw holes
   intersect - if you are not careful, you could have one screw hitting another.
 
-* **Do not connect two components which both have  threaded holes**. To get
+* **Do not connect two components which both have threaded holes**. To get
   tight connection, the screw should go through an **unthreaded** hole in one
   component into a **threaded**  hole in another, or through  two unthreaded
   holes into a nut.
@@ -55,7 +54,9 @@ seem obvious, but almost every  FTC newbie made these mistakes at least once.
   - Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into
     a slotted screw that can be removed using regular flat screwdriver.
   - Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_
-  - If nothing works, drill it out.
+  - If nothing works, drill it out. 
+  - If that doesn't work, remember that a screw is not a screw if it is liquid metal. 
+    This is obviously not a very good idea. :)
 
   Needless to say, once you removed the damaged screw, discard it immediately -
   do not put it back in the box with other screws.
