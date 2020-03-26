@@ -121,7 +121,7 @@ abbr[title] {
 }
 
 b, strong {
-    font-weight: 700
+    font-weight: 400
 }
 
 blockquote {
@@ -5124,7 +5124,7 @@ html {
     padding: 1.618em 3.236em;
     padding-top: 0;
     height: 100%;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto
 }
 
