@@ -4536,21 +4536,37 @@ a.wy-text-neutral:hover {
 }
 
 p {
-    line-height: 32px;
-    font-size: 20px;
-    margin: 0 0 24px
+    line-height: 28px;
+    font-size: 19px;
+    margin: 0 0 24px;
+    font-weight: 300;
+    letter-spacing: -0.6px
+
 }
 
 h1 {
-    font-size: 175%
+    font-size: 175%;
+    font-style: italic;
+    font-weight: 800;
+    font-style: italic;
+    font-variant-caps: titling-caps;
+    text-transform: lowercase
 }
 
 .rst-content .toctree-wrapper p.caption, h2 {
-    font-size: 150%
+    font-size: 140%;
+    font-weight: 600;
+    font-style: italic;
+    font-variant-caps: normal;
+    text-transform: lowercase
 }
 
 h3 {
-    font-size: 125%
+    font-size: 120%;
+    font-weight: 500;
+    font-style: italic;
+    font-variant-caps: normal;
+    text-transform: lowercase
 }
 
 h4 {

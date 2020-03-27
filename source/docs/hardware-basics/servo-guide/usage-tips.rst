@@ -8,8 +8,9 @@ Below are some tips on using servos in FTC.
 * Do not backdrive servos. Forcibly rotating a powered servo away from
   its position risks damaging the internal gears.
 
-
-* Servo connectors provide no protection from plugging them the wrong way:
+* Servo wires usually are black-red-white. Matching the colors is an easy way to check
+  if the servo is plugged in correctly. 
+  Servo connectors provide no protection from plugging them the wrong way:
   if you rotate it 180 degrees, it will still fit -
   but the servo would not work.
   (It wouldn't be damaged, though). Thus, if you servo is not working, first
@@ -17,6 +18,7 @@ Below are some tips on using servos in FTC.
 
 * When using servo wire extensions, use `retaining clips <https://www.gobilda.com/servo-connector-clip-yellow-6-pack/>`_
   to prevent the connection from coming apart when someone pulls on the wire.
+  Alternatively, electrical tape will work in a pinch. 
 
 * Do not use socket head screws to attach servos - when tightened, they will
   damage the plastic. Use button head crews or socket heads with a washer.
@@ -26,10 +28,12 @@ Below are some tips on using servos in FTC.
   without any additional precautions, it is very likely that you will break
   the servo first time you drive into the wall with the arm extended
   (and this will inevitably happen). To avoid that, use additional supports.
-  The easiest way to do it is by using Servoblocks(TM)  from Actobotics or
+  The easiest way to do it is by using ServoBlocks(TM)  from Actobotics or
   goBILDA. These assemblies act as exoskeletons for the servo,
   providing additional support.
   They are expensive, but worth every penny.
+  Additionally, REV offers the inside and outside channel servo bracket, which when paired with
+  the aluminum servo shaft adapter and bearing assembly, fulfills the same function. 
 
 
   .. figure:: images/servoblock.jpg

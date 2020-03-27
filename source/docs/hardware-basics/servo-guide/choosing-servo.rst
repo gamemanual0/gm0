@@ -3,36 +3,30 @@ Choosing a Servo
 ================
 
 For many  applications, you can just use one of the two most common servos
-in FTC,  `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
+in FTC, `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
 `goBILDA Dual Mode Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
-However, sometimes these servos are not enough. To choose the right servo in
-these cases, you need to know more about servos.
-
-
-Here are some of servo features you need to pay attention to when selecting
+However, sometimes these servos are not enough. Here are some of servo features you need to pay attention to when selecting
 a servo for your needs.
 
 Servo Type: Regular or Continuous
 ---------------------------------
 Servos described above, which can rotate to a given position based on PWM
-input signal, are called *regular servos*. In addition, there are also
-*continuous rotation* servos, which are effectively just small motors using
+input signal, are called **regular servos**. In addition, there are also
+**continuous rotation** servos, which are effectively just small motors in a
 servo form factor. They have no position control; instead, PWM signal is
 used to control their rotation  speed.
 
 Both REV Smart Servo and goBILDA Dual Mode servo (which are both based on
 FR5311m programmable servo by Feetech) can be used as either regular or
 continuous rotation servos. To switch between these two modes, you need
-to use a *servo programmer*, available separately from REV or  goBILDA.
+to use a servo programmer, available separately from REV or goBILDA.
 
-Note that some vendors such as Servocity offer continuous rotation option
-on some of the servos they sell. These options are modifications to the
-original servo made by the vendor and are illegal in FTC.
-The only legal continuous rotation servos are servos that are continuous
-rotation from the **factory**: if you have a seller like ServoCity modify a
-servo for continuous rotation, that servo is not legal.
-
-
+..  caution::  Some vendors offer continuous rotation *option*
+  on some servos. These options are modifications to the
+  original servo made by the vendor and are illegal in FTC.
+  The only legal continuous rotation servos are CR servos from the **factory**. 
+  If you have a seller modify a
+  servo for continuous rotation, that servo is not legal.
 
 
 Servo Torque And Speed
@@ -56,18 +50,20 @@ and if your servo will experience shock loads or not.
 
 Durability and Servo Gear Material
 ----------------------------------
-The two things that threaten a servo’s longevity are the motor inside burning
+The two things that threaten a servo’s longevity are the internal motor burning
 out and more commonly, the gears stripping inside the servo.
 A motor burning out is pretty uncommon, but it can happen under large loads for
 a prolonged amount of time.
 This means **you should never stall a servo against an immovable object**.
 
-Gear stripping is a very  common problem, and it is directly to  the material
+Gear stripping is a very common problem, and it is directly to the material
 the gears are made from. This ranges from plastic to titanium,
 so let’s go down the list, starting from the weakest.
 
 * **Plastic**: with low power servos, these are normally okay.
   Generally used for applications in model airplanes such as ailerons.
+  FTC applications include light load mechanisms which will not have direct 
+  contact with any game elements or the field. 
 * **Karbonite**: Hitec’s gear plastic is a very durable and long lasting
   plastic and is very good under long use and low load.
   Be aware that it can strip easily under the shock loads found in FTC.
@@ -90,7 +86,7 @@ Servos come in different sizes. Fortunately, almost all manufacturers use the
 same standard set of servo sizes, ranging from sub-micro to large. The two
 sizes commonly used in FTC are *standard size* (which includes REV Smart Servo
 and goBILDA Dual Mode Servo) and *large size* (also known as
-quarter-scale) servos.
+quarter-scale) servos. However, large servos are quite uncommon. 
 
 Note that while in general, the larger the size, the more powerful the servo,
 it is not a strict rule. You can buy very powerful standard size servos -
@@ -99,7 +95,7 @@ just expect to pay more for them.
 
 Servo Spline
 ------------
-The output shaft of the servo is commonly called *spline*. Most servos you meet
+The output shaft of the servo is commonly called the **spline**. Most servos
 have industry standard 25 tooth spline (also known as F3); in particular,
 this is the spline used by REV Smart Servo and goBILDA Dual Mode servo.
 However, Hitec servos using 24 tooth spline are also very popular. Please check
@@ -116,12 +112,12 @@ all the way up to some Hitec or Savox servos for close to $200.
 By far the best bang for your buck servos out there are the Feetech dual mode
 servos, which is a programmable type of servo.
 This includes both the **REV SRS** (Smart Robot Servo) and
-**both goBILDA Dual Mode servos**.
+**goBILDA Dual Mode servos**.
 The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their
 brass gears.
 Coupled with high output power, this meant that stripping gears with any shock
 load was commonplace.
-The new goBILDA Dual Mode servos (25-2)  have steel gears now, but are new
+The new goBILDA Dual Mode servos (25-2) have steel gears, but are new
 and aren’t as competition tested as other servos.
 
 The next big name in FTC Servos is Hitec,
