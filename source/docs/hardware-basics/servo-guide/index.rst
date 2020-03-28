@@ -34,7 +34,7 @@ servo for your application is a question that’s almost impossible to give
 a blanket answer for. To learn more, please read the
 :doc:`Choosing a servo<choosing-servo>` section below.
 
-The more prevalent problem with servos is durability: internal servo gears in cheaper
+The most prevalent problem with servos is durability: internal servo gears in cheaper
 servos strip easily when subjected to shock loads. Servos are also very
 bad at handling lateral loads or bending of the shaft. To avoid having to
 frequently replace servos, choose ones with metal gears and use a ServoBlock or 

@@ -3,13 +3,13 @@ Drivetrains
 ===========
 This section will cover the heart of any robot, the drivetrain.
 The purpose of the drivetrain is to facilitate the movement of the robot,
-and thus is a mechanism crucial to the overall function of the robot.
+and thus is crucial to the overall function of the robot.
 If the drivetrain doesn’t work, the rest of the robot won’t work either.
 There are many possible types of drivetrains in FTC,
 which we have covered in the guide.
 Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
-What Are the Kinds of Drivetrains?
+Drivetrain types
 ==================================
 A tank drivetrain primarily utilizes traction wheels and cannot strafe
 (move sideways).
@@ -33,27 +33,25 @@ However, holonomic is susceptible to defense and can suffer with a heavy robot.
 Holonomic has been proven to be competitive at the highest level for many
 years, and is common among world-class robots.
 
-How to Choose A Drivetrain
+Drivetrain selection
 ==========================
 
 When building any mechanism,
 teams must list out some necessities or desired features.
 Here are some priorities for that we think are important for each drivetrain:
 
-1. **Reliability**: The drivetrain must work every time, not break,
-   and if there are flaws, these flaws must be reliably present so they can be
-   corrected.
+1. **Reliability**: Reliability, the key to success in FIRST Tech Challenge,
+   starts with the drivetrain, the foundation to any robot.
    One aspect of reliability to consider is the type of motor and gearbox that
    is used in the drivetrain.
-   For example, spur gearboxes are much more likely to break under load than a
+   For example, spur gearboxes are more likely to break under load than a
    planetary gearboxes.
    (See :doc:`../../hardware-basics/motor-guide/index` for details).
    Thus, spur gear motors are not the optimal choice for drivetrain,
    especially if the robot is projected to be on the heavy side (30+ pounds).
-   Reliability, the key to success in FIRST Tech Challenge,
-   starts with the drivetrain,
-   the foundation to any robot.
-   Our advice for new teams is to stick to the simpler drivetrains such as 4 or
+   
+   Generally, more complex drivetrains pose more reliability challenges for inexperienced teams. 
+   Our advice is to stick to the simpler drivetrains such as 4 or
    6 wheel drive and mecanum drive.
 2. **Agility**: There are many factors to agility: top speed, acceleration,
    turning radius, turn speed, and ability to strafe.
@@ -67,7 +65,7 @@ Here are some priorities for that we think are important for each drivetrain:
 3. **Number of motors and gear ratio**: Generally, new teams may try to use
    only two motors on the drivetrain.
    While this is possible, it is not recommended,
-   as all competitive teams use four motors on the drivetrain.
+   as all competitive teams use 4+ motors on the drivetrain.
    Another issue stemming from experience is that most teams’ drivetrains are
    too slow.
    More advanced teams may focus on the ability to play defense,

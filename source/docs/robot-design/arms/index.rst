@@ -6,11 +6,8 @@ robot.
 Unlike linear extensions, arms require lots of torque -
 a standard 40:1 or even 60:1 gearbox will not be suitable in most applications.
 For example, many teams will run a 256:1 gearbox for their rotation motor.
-A budget option is the goBILDA planetary 188:1 which gives a high gear ratio at
-a relatively low price of $30.
-Note that these will have to be very well supported,
-more so than the VersaPlanetary or Sport options
-(more expensive and more robust alternatives).
+Do note that such motors must be very well supported, or else the motor may 
+torque itself free from its mount. 
 Rarely should an arm be directly mounted to the driving motor.
 Instead, torque should be transferred via gear, chain, or belt.
 Large arms can also be hard to control
