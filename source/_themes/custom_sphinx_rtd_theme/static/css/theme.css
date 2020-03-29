@@ -4821,7 +4821,7 @@ html {
 }
 
 .wy-menu-vertical li.current a:hover {
-    background: #ffffff
+    background: #4e4a4a6e
 }
 
 .rst-content .wy-menu-vertical li tt, .wy-menu-vertical li .rst-content tt, .wy-menu-vertical li code {
@@ -4847,11 +4847,13 @@ html {
     position: relative;
     background: #ffffff;
     border: none;
-    padding: .4045em 1.618em
+    padding: .4045em 1.618em;
+     font-variant-caps: all-small-caps;
+    font-size: 120%
 }
 
 .wy-menu-vertical li.current > a:hover, .wy-menu-vertical li.on a:hover {
-    background: #ffffff
+    background: #4e4a4a6e
 }
 
 .wy-menu-vertical li.current > a:hover span.toctree-expand, .wy-menu-vertical li.on a:hover span.toctree-expand {
@@ -4863,6 +4865,7 @@ html {
     font-size: .8em;
     line-height: 1.6em;
     color: #000;
+
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
@@ -4872,6 +4875,8 @@ html {
 
 .wy-menu-vertical li.toctree-l2 a, .wy-menu-vertical li.toctree-l3 a, .wy-menu-vertical li.toctree-l4 a {
     color: #000000;
+    font-variant-caps: all-small-caps;
+    font-size: 120%
     
 }
 
@@ -4895,7 +4900,7 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
-    color: white
+    color: #4e4a4a6e
 }
 
 .wy-menu-vertical li.toctree-l2 span.toctree-expand {
@@ -4903,7 +4908,9 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l3 {
-    font-size: .9em
+    font-size: .9em;
+    font-variant-caps: all-small-caps;
+    font-size: 120%
 }
 
 .wy-menu-vertical li.toctree-l3.current > a {
@@ -4918,11 +4925,11 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {
-    color: white
+    color: #4e4a4a6e
 }
 
 .wy-menu-vertical li.toctree-l3 span.toctree-expand {
-    color: #969696
+    color: #969696;
 }
 
 .wy-menu-vertical li.toctree-l4 {
@@ -4947,15 +4954,20 @@ html {
 .wy-menu-vertical a {
     display: inline-block;
     line-height: 18px;
-    padding: .4045em 1.618em;
+    padding: 0.75em 1em;
+    margin-left: 0px;
     display: block;
     position: relative;
-    font-size: 90%;
-    color: #000000
+    border-radius: 2px;
+    font-size: 140%;
+    color: #000000;
+     font-variant-caps: all-small-caps;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2pt;
 }
 
 .wy-menu-vertical a:hover {
-    background-color: #4e4a4a;
+    background-color: #4e4a4a6e;
     cursor: pointer
 }
 
