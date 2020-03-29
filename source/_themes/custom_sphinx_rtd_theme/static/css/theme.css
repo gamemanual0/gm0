@@ -121,7 +121,7 @@ abbr[title] {
 }
 
 b, strong {
-    font-weight: 700
+    font-weight: 600
 }
 
 blockquote {
@@ -4536,21 +4536,53 @@ a.wy-text-neutral:hover {
 }
 
 p {
-    line-height: 32px;
-    font-size: 20px;
-    margin: 0 0 24px
+    line-height: 28px;
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: -0.0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-    font-size: 175%
+    font-size: 175%;
+    font-style: italic;
+    font-weight: 800;
+    font-style: normal;
+    font-variant-caps: small-caps;
+    text-transform: normal;
+    background: #555555;
+    color: #ffffff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 2px;
+    text-align: right;
+    letter-spacing: 1pt;
+
 }
 
 .rst-content .toctree-wrapper p.caption, h2 {
-    font-size: 150%
+    font-size: 140%;
+    font-weight: 600;
+    font-style: initial;
+    font-variant-caps: unset;
+    text-transform: initial;
+    margin-bottom: -0.1px;
+    margin-top: 40px
 }
 
 h3 {
-    font-size: 125%
+    font-size: 120%;
+    font-weight: 500;
+    font-style: normal;
+    font-variant-caps: normal;
+    text-transform: initial;
+    margin-top: 20px;
 }
 
 h4 {
@@ -5061,7 +5093,8 @@ html {
     min-height: 100%;
     color: #9b9b9b;
     background: #343131;
-    z-index: 200
+    z-index: 200;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .wy-side-scroll {
@@ -5124,7 +5157,7 @@ html {
     padding: 1.618em 3.236em;
     padding-top: 0;
     height: 100%;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto
 }
 

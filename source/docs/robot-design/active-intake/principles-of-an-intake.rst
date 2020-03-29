@@ -5,7 +5,7 @@ Reliability
 ===========
 
 * An intake must be reliable, as picking up and scoring game elements is the
-  primary method to gain points in all FTC games
+  primary method to gain points in all FTC games.
 * Intakes have many moving parts and are susceptible to breaking,
   especially at high RPM. Thus, the intake material must be durable to
   withstand long periods of operation.
@@ -24,7 +24,7 @@ Reliability
 Consistency
 ===========
 
-* The intake **must** be able to pick up game elements consistently.
+* The intake **must** be able to pick up game elements consistently and quickly.
   For example, in Rover Ruckus each robot could only possess 2 minerals at a
   time.
   Therefore, the intake should only pick up two pieces at a time,
@@ -46,11 +46,15 @@ Controllability
 
 * The intake must be able to consistently control the game elements.
   For example, if the intake is too fast and the collection box is not well
-  designed, then game pieces might fly out.
-  It is possible for pieces to get jammed at an unreachable angle,
-  especially when using wheeled intakes.
-  Optimally, the minerals should follow a certain path each time if funneling
-  is done correctly.
+  designed, then game pieces might fly out. If the intake is too slow, 
+  it may jam itself when contacting the game elements. 
+* It is possible for pieces to get jammed at an unreachable angle,
+  especially when using wheeled intakes. If this occurs, ensure that the driver
+  can jar the stuck element loose to avoid having a disabled robot. 
+* Optimally, the minerals should follow a certain path each time if funneling
+  is done correctly. 
+* It is best practice that the driver can see the game elements which are being controlled. 
+  This can be done through using clear plating such as Lexan. 
 
 Efficiency
 ==========

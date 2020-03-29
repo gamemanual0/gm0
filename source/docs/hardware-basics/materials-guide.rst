@@ -1,7 +1,7 @@
 ===============
 Materials Guide
 ===============
-In FTC, teams have design freeedom in terms of what raw materials to use.
+In FTC, teams have design freedom in terms of what raw materials to use.
 However, there are definitely some important recommendations regarding 
 material usage.
 
