@@ -4,34 +4,35 @@ Rookie Mistakes: Building
 .. image:: images/building.png
     :width: 100%
 
-+--------------------------------------+----------------------------------------+
-|             **Problem**              |                Solution                |
-+======================================+========================================+
-| **2 motor drivetrain**               | **4 motor drivetrain**                 |
-|                                      |                                        |
-| * Less power                         | * Ability to traverse obstacles        |
-| * Less acceleration                  | * Improved power and acceleration      |
-+--------------------------------------+----------------------------------------+
-| **Pushbot**                          | **Mecanum, 6WD, etc.**                 |
-|                                      |                                        |
-| * Poor agility/manuverability        | * More agile, higher top speed         |
-| * Poor top speed                     | * Customizable gear ratio              |
-+--------------------------------------+----------------------------------------+
-| **Claw**                             | **Intake**                             |
-|                                      |                                        |
-| * Controls 1 element at a time       | * Controls multiple elements at a time |
-| * Easy to break                      | * Much more efficient                  |
-+--------------------------------------+----------------------------------------+
-| **Spur gear gearboxes**              | **Planetary gearboxes**                |
-|                                      |                                        |
-| * Not for high load use cases        | * Better for drivetrains and high load |
-| * Will break under shock load        | * Resistant to shock loads             |
-+--------------------------------------+----------------------------------------+
-| **Single/multi-axis arm**            | **Linear extension**                   |
-|                                      |                                        |
-| * Often needs high gear ratio        | * Generally faster than arms           |
-| * More complex than linear extension | * Much more precise                    |
-+--------------------------------------+----------------------------------------+
++--------------------------------+----------------------------------------+
+|          **Problem**           |                Solution                |
++================================+========================================+
+| **2 motor drivetrain**         | **4 motor drivetrain**                 |
+|                                |                                        |
+| * Less power                   | * Ability to traverse obstacles        |
+| * Less acceleration            | * Improved power and acceleration      |
++--------------------------------+----------------------------------------+
+| **Pushbot**                    | **Mecanum, 6WD, etc.**                 |
+|                                |                                        |
+| * Poor agility/manuverability  | * More agile, higher top speed         |
+| * Poor top speed               | * Customizable gear ratio              |
++--------------------------------+----------------------------------------+
+| **Claw**                       | **Intake**                             |
+|                                |                                        |
+| * Controls 1 element at a time | * Controls multiple elements at a time |
+| * Easy to break                | * Much more efficient                  |
++--------------------------------+----------------------------------------+
+| **Spur gear gearboxes**        | **Planetary gearboxes**                |
+|                                |                                        |
+| * Not for high load use cases  | * Better for drivetrains and high load |
+| * Will break under shock load  | * Resistant to shock loads             |
++--------------------------------+----------------------------------------+
+| **Single/multi-axis arm**      | **Linear extension**                   |
+|                                |                                        |
+| * Often needs high gear ratio  | * Generally faster than arms           |
+| * More complex than linear     | * Much more precise                    |
+|   extension                    |                                        |
++--------------------------------+----------------------------------------+
 
 
 2 Motor Drivetrain → 4 Motor Drivetrain
@@ -49,7 +50,8 @@ match, slow acceleration has a significant adverse effect on the
 competitiveness of the robot.
 In addition, 2 motor robots may struggle to get over obstacles or climb up
 ramps, due to less power.
-One question that often comes up is "don't I need more motors for other things on the robot?"
+One question that often comes up is
+"don't I need more motors for other things on the robot?"
 This is a valid question, but the answer is generally no. 
 It is possible to build a competitive robot with 4 motors
 allocated to drivetrain, and 4 motors for other mechanisms,
@@ -73,13 +75,16 @@ that is, to get familiarized with the parts and basic building principles using
 a channel-based kit.
 However, we do not advise that teams use that pushbot at a competition due to
 its many flaws.
-1.  The pushbot is powered by 2 motors, and as stated above, 
-there isn’t a reason to stay with 2 motors on drivetrain.
-2.  The pushbot has poor top speed and turning ability, given that the
-    gear ratio (40:1 on 4 inch wheels) is half the speed that many teams use.
-3.  It is not advisable to use direct drive.
+
+1. The pushbot is powered by 2 motors, and as stated above, 
+   there isn’t a reason to stay with 2 motors on drivetrain.
+2. The pushbot has poor top speed and turning ability, given that the
+   gear ratio (40:1 on 4 inch wheels) is half the speed that many teams use.
+3. It is not advisable to use direct drive.
+
 However, most if not all of these problems will be solved by using a four-motor
-drivetrain such as the ones recommended in the Drivetrain guide (mecanum, 6WD, etc.).
+drivetrain such as the ones recommended in the drivetrain guide
+(mecanum, 6WD, etc.).
 Therefore, it is recommended for teams to refer to the
 :doc:`Drivetrain <../robot-design/drivetrains/index>` section and
 see which drivetrain would fit best for their overall game strategy.
@@ -92,14 +97,17 @@ Passive Intake/Claw → Active Intake
 
 Active intakes are much more efficient and effective in picking up common
 game elements such as balls, cubes, and rectangular prisms than claws. 
-This has been a widely accepted rule; many Worlds-level robots over the years use intakes. 
-**The exception** is that a claw should be used for irregularly shaped objects that
-would be impossible to control via intake; for example, the relic in Relic
-Recovery.
+This has been a widely accepted rule;
+many Worlds-level robots over the years use intakes. 
+**The exception** is that a claw should be used for irregularly shaped objects
+that would be impossible to control via intake;
+for example, the relic in Relic Recovery.
 
 Intakes have two major advantages over claws. 
-1.  Intakes can control multiple game elements at a time
-2.  Intakes are indiscriminate at picking up objects, making them much more efficient.
+
+1. Intakes can control multiple game elements at a time.
+2. Intakes are indiscriminate at picking up objects,
+   making them much more efficient.
 
 Claws can only pick up one object at a time, and the driver needs to aim the
 claw at that specific object to grab it.
@@ -129,7 +137,9 @@ Planetary gearboxes are much better suited for drivetrain and arms,
 due to the configuration of the sun and planet gears.
 In addition, spur gear gearboxes are prone to shock loads; therefore,
 direct drive is not advisable on drivetrains.
-Refer to the :doc:`Motor Guide <../hardware-basics/motor-guide/gearbox-anatomy>` for more complete information on gearboxes.
+Refer to the 
+:doc:`Gearbox Anatomy <../hardware-basics/motor-guide/gearbox-anatomy>`
+for more complete information on gearboxes.
 **This refers to using spur gear gearboxes which are attached directly to the
 pinion gear of the motor.
 It does not mean external ratios outside of the motor gearbox,
@@ -156,5 +166,5 @@ In contrast, linear extensions do not need to worry about gear ratios and
 gearboxes.
 They can be optimized to be more efficient than arms, and typically are more
 precise, as linear motion is easier to control than angular motion.
-Another positive is that linear slides can have more extension than arms, with some
-reaching 5+ feet in length.
+Another positive is that linear slides can have more extension than arms, 
+with some reaching 5+ feet in length.

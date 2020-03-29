@@ -16,7 +16,8 @@ the only FTC legal motors are the following ones:
 * `REV Robotics Core Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1300/>`_
 
 With the exception of REV Core Hex Motor, which is discussed separately,
-all other motors above have very similar structure. They consist of the following components. 
+all other motors above have very similar structure.
+They consist of the following components. 
 
 * **Bare motor**. In all cases above, this is a 12V  motor of RS-555
   type, with free speed around 6,000 RPM and stall current around 10A.
@@ -95,8 +96,9 @@ while not interchangeable, are very comparable in terms of robustness.
 Once again, the main thing to consider here is your **desired reduction,
 your desired motor connections, and your desired output shaft type**.
 
-* **goBILDA Yellow Jacket** has the most varied selection of gearbox ratios with too
-  many to list here, but utilize the rather uncommon bullet connection for power.
+* **goBILDA Yellow Jacket** has the most varied selection of gearbox ratios
+  with too many to list here,
+  but utilize the rather uncommon bullet connection for power.
   The output shaft is a 6mm D-shaft.
 * **REV HD Hex Planetary motor** - This motor comes only in a 20:1 ratio,
   but uses the same connections (JST-VH) as the REV Expansion and Control hub
@@ -139,11 +141,12 @@ than the standard  ones, but they can be quite expensive and require more work.
   The selection should be based only on which connection type you like the most
   (PowerPole vs. JST VH vs. 3.5mm bullet) for power.
 * `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_
-  gearboxes - These planetary gearboxes were designed for FRC use and are arguably
-  the most durable gearbox in FTC. Because they were designed for such heavy use, 
-  the VP is quite costly. 
+  gearboxes - These planetary gearboxes were designed for FRC use and are
+  arguably the most durable gearbox in FTC.
+  Because they were designed for such heavy use, the VP is quite costly. 
   If you break one of the components, the gearbox is very easy to repair.
-  Unlike other gearboxes, almost every part is replaceable and can be purchased separately.
+  Unlike other gearboxes, almost every part is replaceable and can be purchased
+  separately.
   You can disassemble the gearbox from the motor-side, 
   so removing the gearbox from the mounted plate is not necessary
   Attaching the pinion to a bare motor is simple
@@ -169,10 +172,11 @@ than the standard  ones, but they can be quite expensive and require more work.
     VersaPlanetary Lite gearboxes use the same gear sets as the regular
     VersaPlanetary, so if you ever feel the need for a stronger gearbox you
     can mix and match parts to fill your requirement.
-    While still expensive, the VPLite is still one of the strongest gearboxes available for FTC use.
- * Like the NeveRest Sport gearboxes, you *will* need to supply your own bare
+    While still expensive, the VPLite is still one of the strongest gearboxes
+    available for FTC use.
+  * Like the NeveRest Sport gearboxes, you *will* need to supply your own bare
     motor to attach to the gearbox.
-  
+
 .. note:: The VPLite comes with a 3/8” hex output
   shaft only, whereas the more expensive VersaPlanetary comes with various
   options including 1/2” hex, 3/8” hex, 1/2” round with 1/8” keyway,

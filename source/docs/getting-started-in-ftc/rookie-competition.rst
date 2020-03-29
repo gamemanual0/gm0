@@ -42,11 +42,11 @@ practice matches.
 
 This gives some obvious advantages compared to a team with lesser practice.
 
-1.  The driver(s) is totally familiar with handling the robot in every
-    situation.
-2.  The robot is proven to be reliable enough to survive hours of operation.
-3.  The immense data that teams gather from test runs are used to optimize every
-    element of the robot.
+1. The driver(s) is totally familiar with handling the robot in every
+   situation.
+2. The robot is proven to be reliable enough to survive hours of operation.
+3. The immense data that teams gather from test runs are used to optimize every
+   element of the robot.
 
 Driver practice not only familiarizes the driver(s) with the robot and serves
 as a test of robot reliability, it also simulates in-game conditions.
@@ -78,17 +78,19 @@ For example, drivers should know exactly where the robot needs to be positioned
 after the autonomous → tele-op switch.
 Practicing this switch will save a couple of seconds when drivers have to think
 “what do I do now?” 
-In very competitive matches, these few seconds may be able to gain your team an 
+In very competitive matches, these few seconds may be able to gain your team an
 extra cycle. 
 Knowing when to transition from a tele-op to endgame objective is equally
 important (hint: perfect one first) and will save valuable time.
 Strategy should **always be used to maximize points** - whether this is a
 positioning strategy to access the game elements, or a defensive strategy to
 hinder the other alliance from scoring.
-    **Remember, denying the other alliance 10 points is the same value as scoring
-    10 points**.
-*However, it is not advised for rookie teams to play defense* due to the specific
-rules surrounding this strategy.
+    
+.. tip:: Remember, denying the other alliance 10 points is the same value as
+    scoring 10 points.
+
+*However, it is not advised for rookie teams to play defense* due to the
+specific rules surrounding this strategy.
 If a team wishes to execute a defensive strategy, be sure to read all the rules
 as defense can easily incur penalties/cards if done improperly.
 
@@ -99,17 +101,18 @@ Fully driver-controlled → Partially automated tasks
     Automating simple tasks can be a real time-saver and efficiency boost to
     teams.
 
-1.  Automating tasks can save time and reduce the need for driver multi-tasking.
-    Drivers should always be controlling the robot with as few button presses as
-    possible.
-    For example, automatically stopping the intake mechanism when game elements
-    have been collected saves a button press.
-2.  Autonomously operating some mechanisms has the advantage of eliminating
-    driver error and relieves stress.
-    For example, if a lift has to extend to exactly 30 inches,
-    a motor with an encoder can complete that with 100% accuracy at full speed,
-    compared to a human driver's minor error.
+1. Automating tasks can save time and reduce the need for driver multi-tasking.
+   Drivers should always be controlling the robot with as few button presses
+   as possible.
+   For example, automatically stopping the intake mechanism when game elements
+   have been collected saves a button press.
+2. Autonomously operating some mechanisms has the advantage of eliminating
+   driver error and relieves stress.
+   For example, if a lift has to extend to exactly 30 inches,
+   a motor with an encoder can complete that with 100% accuracy at full speed,
+   compared to a human driver's minor error.
 
-.. note::    Autonomous functions should be able to be overrided by manual input in
-    case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.)
+.. note:: Autonomous functions should be able to be overrided by manual input
+    in case something goes wrong
+    (e.g. encoder is unplugged, a part breaks, etc.)
     to prevent damage to the robot and to be compliant with game rules.

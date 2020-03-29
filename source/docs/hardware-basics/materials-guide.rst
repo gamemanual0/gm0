@@ -45,8 +45,8 @@ Aluminum
 
 * A high strength, medium-high density material. Suitable for use in nearly
   every application; recommended in load-bearing applications.
-* Aluminum comes in channel, extrusion, flat, angle, sheet/plate, and is used in some 
-  drawer slides. 
+* Aluminum comes in channel, extrusion, flat, angle, sheet/plate,
+  and is used in some drawer slides. 
 
 Aluminum channel is used in many build system kits and is very popular among
 teams of various skill levels. Channel is strong yet relatively lightweight,
@@ -110,7 +110,8 @@ Lexan
   intake collector boxes.
 * Lexan can bear load and is very impact-resistant.
 * Lexan is commonly used in intake and deposit mechanisms as it is clear,
-  allowing the drive team to see into the intake itself, an advantage over wood.
+  allowing the drive team to see into the intake itself,
+  an advantage over wood.
 * Thick Lexan can be used for drivetrain plates, though this is not recommended
   for inexperienced teams.
 
@@ -123,7 +124,8 @@ bending tends to be much stronger than bolting as it means the part stays in
 one continuous piece.
 If a sheet bender is out of the question, it is possible to use a heat gun or
 camping burners to heat up the lexan in order to bend it.
-This is not recommended as it can cause injury and bubbling if the Lexan is overheated.
+This is not recommended as it can cause injury and bubbling if the Lexan is
+overheated.
 Alternatively, "cold bending", bending along a straight edge without applying
 heat can work for thinner sheets.
 
@@ -133,14 +135,15 @@ ABS
 * ABS sheet can be used for side panels, ramps, and even drivetrain plates. 
 * It is not as strong as Delrin, but strong enough for most purposes. 
 * ABS is cheaper than Lexan and Delrin.
-* ABS can be machined using hand tools or CNC. ABS sheets can be also bent using sheet bender (recommended) or a
-  heat gun. 
+* ABS can be machined using hand tools or CNC.
+  ABS sheets can be also bent using sheet bender (recommended) or a heat gun. 
 * Thin (1/16 inch) ABS sheets can also be cut using shears. 
 
 Delrin
 ======
 * Acetal, also known under brand name Delrin, is a low-friction strong plastic.
-  It is a common plastic used for wheels, plastic gears, and sprockets (especially in the REV system).
+  It is a common plastic used for wheels, plastic gears, 
+  and sprockets (especially in the REV system).
 * It is a durable and strong plastic that is not easily cracked.
   Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness),
   but Delrin sheet is also quite expensive.
@@ -168,7 +171,8 @@ Polyvinyl chloride (PVC)
   Due to the soft plastic, it is very easy to drill through,
   so teams often attach the surgical tubing to a PVC pipe.
   The PVC roller will then be attached to the intake motor.
-* Since PVC is cheap, teams can easily experiment with different mechanism configurations.
+* Since PVC is cheap,
+  teams can easily experiment with different mechanism configurations.
 * PVC pipe is sometimes used in cable management to run wires through,
   as it comes in different diameters and can easily be mounted. 
 * PVC sheet can be bought or made by cutting vertically along the pipe so that
@@ -183,12 +187,14 @@ Acrylic
   Do not use it on drivetrains by any means!
 
 * Acrylic is a transparent thermoplastic commonly known as Plexiglass. 
-* As acrylic is not a structural material, it should only be used in mechanisms where there is no chance of shock impact.
+* As acrylic is not a structural material, 
+  it should only be used in mechanisms where there is no chance of shock
+  impact.
 * It may be used for aesthetic purposes or as shielding
   (to protect game elements from falling into the robot or from other robots
   tangling with wires, etc.)
-* Treat acrylic as fancy clear cardboard - it cannot be loaded and should only be
-  used in very specific circumstances.
+* Treat acrylic as fancy clear cardboard - 
+  it cannot be loaded and should only be used in very specific circumstances.
 
 Other
 -----

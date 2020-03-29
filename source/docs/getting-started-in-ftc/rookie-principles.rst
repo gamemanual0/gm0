@@ -79,17 +79,18 @@ mechanism as opposed to a complicated one. The reasoning is that a complicated
 system has many more variables that need to be adjusted/could cause problems.
 
 Keeping things simple can be practically achieved through a couple of ways.
-1.  Limit the degrees of motion that the mechanism operates in.
-    For example, a linear slide goes in and out in a straight line, as opposed to
-    an arm, which rotates along an axis.
-    Doing so will serve to eliminate forces that otherwise could adversely affect
-    the mechanism.
-2.  Another way to simplify is to build for the shortest travel distance.
-    Obviously, the shortest distance from A to B is in a straight line,
-    so teams should strive to keep the game elements approximately within a
-    reasonably straight line.
-    This can help in solving possible problems if the game elements need to change
-    direction too many times.
+
+1. Limit the degrees of motion that the mechanism operates in.
+   For example, a linear slide goes in and out in a straight line, 
+   as opposed to an arm, which rotates along an axis.
+   Doing so will serve to eliminate forces that otherwise could adversely
+   affect the mechanism.
+2. Another way to simplify is to build for the shortest travel distance.
+   Obviously, the shortest distance from A to B is in a straight line,
+   so teams should strive to keep the game elements approximately within a
+   reasonably straight line.
+   This can help in solving possible problems if the game elements need to
+   change direction too many times.
 
 Score-first designs → Design for Consistency
 ============================================

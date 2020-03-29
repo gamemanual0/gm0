@@ -13,32 +13,37 @@ Special Considerations
   increasing adjustability and flexibility.
   For example, tensioning chain is simple when sliding the mount or bracket
   increases tension.
-* The REV system uses metric dimensions (15 mm extrusion, M3 hardware), with the
-  exception of #25 roller chain (FTC standard, imperial).
-* REV has purposefully designed with compatibility in mind, as pattern adapters 
+* The REV system uses metric dimensions (15 mm extrusion, M3 hardware),
+  with the exception of #25 roller chain (FTC standard, imperial).
+* REV has purposefully designed with compatibility in mind, as pattern adapters
   ease compatibility issues. 
-* Many REV parts are made of Delrin, a high-wear resistance plastic, which reduces
-  overall cost. However, REV offers aluminum options for high-load parts as well. 
+* Many REV parts are made of Delrin, a high-wear resistance plastic,
+  which reduces overall cost.
+  However, REV offers aluminum options for high-load parts as well. 
 * REV does have a steeper learning curve than channel based build systems,
-  owing to the fact that constructing structurally sound mechanisms requires just a 
-  little more thought. 
+  owing to the fact that constructing structurally sound mechanisms requires
+  just a little more thought. 
 
 Notable components
 ================== 
 
-* REV's bread and butter is the 15x15mm aluminum extrusion. It accepts M3 hex screws
-  which slide along the grooves. 
+* REV's bread and butter is the 15x15mm aluminum extrusion. 
+  It accepts M3 hex screws which slide along the grooves. 
 * In addition, REV also offers both 45x45mm U-channel and 15x45mm C-channel,
   which is stronger than extrusion and provides stiffness and support when
   needed.
-* REV also offers punch tubing for teams wanting a more permanent mounting system 
-  while having the flexibility of channel. 
+* REV also offers punch tubing for teams wanting a more permanent mounting 
+  system while having the flexibility of channel. 
 * REV uses 5 mm hex steel shafts and a ball-bearing motion support system. 
-  The shaft may be cut to length, which can be very useful for certain use cases. 
+  The shaft may be cut to length, which can be very useful for certain use
+  cases. 
   Many vendors have added compatibility to 5 mm hex shaft. 
-* REV offers 3 types of HD HEX motors: spur gear, planetary, and UltraPlanetary motors. 
-  The UltraPlanetary has customizable planetary ring gear ratios for a very affordable price. 
-* The Core Hex Motor may be useful in certain use cases such as space constrained mechanisms. 
+* REV offers 3 types of HD HEX motors: spur gear, planetary, and UltraPlanetary
+  motors. 
+  The UltraPlanetary has customizable planetary ring gear ratios for a very
+  affordable price. 
+* The Core Hex Motor may be useful in certain use cases such as space
+  constrained mechanisms. 
 * REV also has pattern adapters for other systems built into many parts such as
   the aluminum brackets.
 
@@ -48,8 +53,9 @@ Verdict
 **The REV kit is good for teams willing to invest the time into an extrusion
 building system.** 
 It is the most flexible kit as it is extrusion based, yet it has the 
-ability to integrate channel along with extrusion. REV offers the option to upgrade parts 
-for those wanting a further investment into the REV building system.
+ability to integrate channel along with extrusion. REV offers the option to
+upgrade parts  for those wanting a further investment into the REV building
+system.
 
 .. note: REV and MiSUMI Compatibility 
 
@@ -130,8 +136,10 @@ Advantages
 Disadvantages
 =============
 
-* 15x15mm extrusion is not as sturdy as channel options under high stress loads. 
-* Steeper learning curve, more time consuming to measure and cut extrusion to length.
+* 15x15mm extrusion is not as sturdy as channel options under high stress 
+  loads. 
+* Steeper learning curve, more time consuming to measure and cut extrusion to
+  length.
 * Requires tools such as a saw and bandsaw. 
 * Requires forethought and planning of extrusion length and placement. 
 * Parts loosen over time (to remediate: use punch tubing)

@@ -5962,3 +5962,27 @@ span[id*=MathJax-Span] {
 #copperforge-logo {
     width: 150px;
 }
+
+@media screen and (max-width: 768px) {
+    .header-bar {
+        display:none;
+    }
+}
+
+/*
+Styling for images and captions (centered captions) 
+Both images and captions 400px by default
+*/ 
+
+img:not(.math) {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    width: 400px;
+    height: auto;
+}
+
+.caption:not(.wy-menu) {
+    width: 400px;
+    text-align: left;
+}
