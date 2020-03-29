@@ -66,7 +66,7 @@ header {
 }
 
 .tabs-container ul li.active a {
-    background: #c9803c;
+    background: #c46b18;
     color: #fff;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -193,7 +193,8 @@ dl, ol, ul {
 }
 
 li {
-    list-style: none
+    list-style: none;
+  
 }
 
 dd {
@@ -588,2703 +589,2703 @@ big, small {
 }
 
 .fa-glass:before {
-    content: ""
+    content: "ï€€"
 }
 
 .fa-music:before {
-    content: ""
+    content: "ï€"
 }
 
 .fa-search:before, .icon-search:before {
-    content: ""
+    content: "ï€‚"
 }
 
 .fa-envelope-o:before {
-    content: ""
+    content: "ï€ƒ"
 }
 
 .fa-heart:before {
-    content: ""
+    content: "ï€„"
 }
 
 .fa-star:before {
-    content: ""
+    content: "ï€…"
 }
 
 .fa-star-o:before {
-    content: ""
+    content: "ï€†"
 }
 
 .fa-user:before {
-    content: ""
+    content: "ï€‡"
 }
 
 .fa-film:before {
-    content: ""
+    content: "ï€ˆ"
 }
 
 .fa-th-large:before {
-    content: ""
+    content: "ï€‰"
 }
 
 .fa-th:before {
-    content: ""
+    content: "ï€Š"
 }
 
 .fa-th-list:before {
-    content: ""
+    content: "ï€‹"
 }
 
 .fa-check:before {
-    content: ""
+    content: "ï€Œ"
 }
 
 .fa-close:before, .fa-remove:before, .fa-times:before {
-    content: ""
+    content: "ï€"
 }
 
 .fa-search-plus:before {
-    content: ""
+    content: "ï€Ž"
 }
 
 .fa-search-minus:before {
-    content: ""
+    content: "ï€"
 }
 
 .fa-power-off:before {
-    content: ""
+    content: "ï€‘"
 }
 
 .fa-signal:before {
-    content: ""
+    content: "ï€’"
 }
 
 .fa-cog:before, .fa-gear:before {
-    content: ""
+    content: "ï€“"
 }
 
 .fa-trash-o:before {
-    content: ""
+    content: "ï€”"
 }
 
 .fa-home:before, .icon-home:before {
-    content: ""
+    content: "ï€•"
 }
 
 .fa-file-o:before {
-    content: ""
+    content: "ï€–"
 }
 
 .fa-clock-o:before {
-    content: ""
+    content: "ï€—"
 }
 
 .fa-road:before {
-    content: ""
+    content: "ï€˜"
 }
 
 .fa-download:before, .rst-content code.download span:first-child:before, .rst-content tt.download span:first-child:before {
-    content: ""
+    content: "ï€™"
 }
 
 .fa-arrow-circle-o-down:before {
-    content: ""
+    content: "ï€š"
 }
 
 .fa-arrow-circle-o-up:before {
-    content: ""
+    content: "ï€›"
 }
 
 .fa-inbox:before {
-    content: ""
+    content: "ï€œ"
 }
 
 .fa-play-circle-o:before {
-    content: ""
+    content: "ï€"
 }
 
 .fa-repeat:before, .fa-rotate-right:before {
-    content: ""
+    content: "ï€ž"
 }
 
 .fa-refresh:before {
-    content: ""
+    content: "ï€¡"
 }
 
 .fa-list-alt:before {
-    content: ""
+    content: "ï€¢"
 }
 
 .fa-lock:before {
-    content: ""
+    content: "ï€£"
 }
 
 .fa-flag:before {
-    content: ""
+    content: "ï€¤"
 }
 
 .fa-headphones:before {
-    content: ""
+    content: "ï€¥"
 }
 
 .fa-volume-off:before {
-    content: ""
+    content: "ï€¦"
 }
 
 .fa-volume-down:before {
-    content: ""
+    content: "ï€§"
 }
 
 .fa-volume-up:before {
-    content: ""
+    content: "ï€¨"
 }
 
 .fa-qrcode:before {
-    content: ""
+    content: "ï€©"
 }
 
 .fa-barcode:before {
-    content: ""
+    content: "ï€ª"
 }
 
 .fa-tag:before {
-    content: ""
+    content: "ï€«"
 }
 
 .fa-tags:before {
-    content: ""
+    content: "ï€¬"
 }
 
 .fa-book:before, .icon-book:before {
-    content: ""
+    content: "ï€­"
 }
 
 .fa-bookmark:before {
-    content: ""
+    content: "ï€®"
 }
 
 .fa-print:before {
-    content: ""
+    content: "ï€¯"
 }
 
 .fa-camera:before {
-    content: ""
+    content: "ï€°"
 }
 
 .fa-font:before {
-    content: ""
+    content: "ï€±"
 }
 
 .fa-bold:before {
-    content: ""
+    content: "ï€²"
 }
 
 .fa-italic:before {
-    content: ""
+    content: "ï€³"
 }
 
 .fa-text-height:before {
-    content: ""
+    content: "ï€´"
 }
 
 .fa-text-width:before {
-    content: ""
+    content: "ï€µ"
 }
 
 .fa-align-left:before {
-    content: ""
+    content: "ï€¶"
 }
 
 .fa-align-center:before {
-    content: ""
+    content: "ï€·"
 }
 
 .fa-align-right:before {
-    content: ""
+    content: "ï€¸"
 }
 
 .fa-align-justify:before {
-    content: ""
+    content: "ï€¹"
 }
 
 .fa-list:before {
-    content: ""
+    content: "ï€º"
 }
 
 .fa-dedent:before, .fa-outdent:before {
-    content: ""
+    content: "ï€»"
 }
 
 .fa-indent:before {
-    content: ""
+    content: "ï€¼"
 }
 
 .fa-video-camera:before {
-    content: ""
+    content: "ï€½"
 }
 
 .fa-image:before, .fa-photo:before, .fa-picture-o:before {
-    content: ""
+    content: "ï€¾"
 }
 
 .fa-pencil:before {
-    content: ""
+    content: "ï€"
 }
 
 .fa-map-marker:before {
-    content: ""
+    content: "ï"
 }
 
 .fa-adjust:before {
-    content: ""
+    content: "ï‚"
 }
 
 .fa-tint:before {
-    content: ""
+    content: "ïƒ"
 }
 
 .fa-edit:before, .fa-pencil-square-o:before {
-    content: ""
+    content: "ï„"
 }
 
 .fa-share-square-o:before {
-    content: ""
+    content: "ï…"
 }
 
 .fa-check-square-o:before {
-    content: ""
+    content: "ï†"
 }
 
 .fa-arrows:before {
-    content: ""
+    content: "ï‡"
 }
 
 .fa-step-backward:before {
-    content: ""
+    content: "ïˆ"
 }
 
 .fa-fast-backward:before {
-    content: ""
+    content: "ï‰"
 }
 
 .fa-backward:before {
-    content: ""
+    content: "ïŠ"
 }
 
 .fa-play:before {
-    content: ""
+    content: "ï‹"
 }
 
 .fa-pause:before {
-    content: ""
+    content: "ïŒ"
 }
 
 .fa-stop:before {
-    content: ""
+    content: "ï"
 }
 
 .fa-forward:before {
-    content: ""
+    content: "ïŽ"
 }
 
 .fa-fast-forward:before {
-    content: ""
+    content: "ï"
 }
 
 .fa-step-forward:before {
-    content: ""
+    content: "ï‘"
 }
 
 .fa-eject:before {
-    content: ""
+    content: "ï’"
 }
 
 .fa-chevron-left:before {
-    content: ""
+    content: "ï“"
 }
 
 .fa-chevron-right:before {
-    content: ""
+    content: "ï”"
 }
 
 .fa-plus-circle:before {
-    content: ""
+    content: "ï•"
 }
 
 .fa-minus-circle:before {
-    content: ""
+    content: "ï–"
 }
 
 .fa-times-circle:before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before {
-    content: ""
+    content: "ï—"
 }
 
 .fa-check-circle:before, .wy-inline-validate.wy-inline-validate-success .wy-input-context:before {
-    content: ""
+    content: "ï˜"
 }
 
 .fa-question-circle:before {
-    content: ""
+    content: "ï™"
 }
 
 .fa-info-circle:before {
-    content: ""
+    content: "ïš"
 }
 
 .fa-crosshairs:before {
-    content: ""
+    content: "ï›"
 }
 
 .fa-times-circle-o:before {
-    content: ""
+    content: "ïœ"
 }
 
 .fa-check-circle-o:before {
-    content: ""
+    content: "ï"
 }
 
 .fa-ban:before {
-    content: ""
+    content: "ïž"
 }
 
 .fa-arrow-left:before {
-    content: ""
+    content: "ï "
 }
 
 .fa-arrow-right:before {
-    content: ""
+    content: "ï¡"
 }
 
 .fa-arrow-up:before {
-    content: ""
+    content: "ï¢"
 }
 
 .fa-arrow-down:before {
-    content: ""
+    content: "ï£"
 }
 
 .fa-mail-forward:before, .fa-share:before {
-    content: ""
+    content: "ï¤"
 }
 
 .fa-expand:before {
-    content: ""
+    content: "ï¥"
 }
 
 .fa-compress:before {
-    content: ""
+    content: "ï¦"
 }
 
 .fa-plus:before {
-    content: ""
+    content: "ï§"
 }
 
 .fa-minus:before {
-    content: ""
+    content: "ï¨"
 }
 
 .fa-asterisk:before {
-    content: ""
+    content: "ï©"
 }
 
 .fa-exclamation-circle:before, .rst-content .admonition-title:before, .wy-inline-validate.wy-inline-validate-info .wy-input-context:before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before {
-    content: ""
+    content: "ïª"
 }
 
 .fa-gift:before {
-    content: ""
+    content: "ï«"
 }
 
 .fa-leaf:before {
-    content: ""
+    content: "ï¬"
 }
 
 .fa-fire:before, .icon-fire:before {
-    content: ""
+    content: "ï­"
 }
 
 .fa-eye:before {
-    content: ""
+    content: "ï®"
 }
 
 .fa-eye-slash:before {
-    content: ""
+    content: "ï°"
 }
 
 .fa-exclamation-triangle:before, .fa-warning:before {
-    content: ""
+    content: "ï±"
 }
 
 .fa-plane:before {
-    content: ""
+    content: "ï²"
 }
 
 .fa-calendar:before {
-    content: ""
+    content: "ï³"
 }
 
 .fa-random:before {
-    content: ""
+    content: "ï´"
 }
 
 .fa-comment:before {
-    content: ""
+    content: "ïµ"
 }
 
 .fa-magnet:before {
-    content: ""
+    content: "ï¶"
 }
 
 .fa-chevron-up:before {
-    content: ""
+    content: "ï·"
 }
 
 .fa-chevron-down:before {
-    content: ""
+    content: "ï¸"
 }
 
 .fa-retweet:before {
-    content: ""
+    content: "ï¹"
 }
 
 .fa-shopping-cart:before {
-    content: ""
+    content: "ïº"
 }
 
 .fa-folder:before {
-    content: ""
+    content: "ï»"
 }
 
 .fa-folder-open:before {
-    content: ""
+    content: "ï¼"
 }
 
 .fa-arrows-v:before {
-    content: ""
+    content: "ï½"
 }
 
 .fa-arrows-h:before {
-    content: ""
+    content: "ï¾"
 }
 
 .fa-bar-chart-o:before, .fa-bar-chart:before {
-    content: ""
+    content: "ï‚€"
 }
 
 .fa-twitter-square:before {
-    content: ""
+    content: "ï‚"
 }
 
 .fa-facebook-square:before {
-    content: ""
+    content: "ï‚‚"
 }
 
 .fa-camera-retro:before {
-    content: ""
+    content: "ï‚ƒ"
 }
 
 .fa-key:before {
-    content: ""
+    content: "ï‚„"
 }
 
 .fa-cogs:before, .fa-gears:before {
-    content: ""
+    content: "ï‚…"
 }
 
 .fa-comments:before {
-    content: ""
+    content: "ï‚†"
 }
 
 .fa-thumbs-o-up:before {
-    content: ""
+    content: "ï‚‡"
 }
 
 .fa-thumbs-o-down:before {
-    content: ""
+    content: "ï‚ˆ"
 }
 
 .fa-star-half:before {
-    content: ""
+    content: "ï‚‰"
 }
 
 .fa-heart-o:before {
-    content: ""
+    content: "ï‚Š"
 }
 
 .fa-sign-out:before {
-    content: ""
+    content: "ï‚‹"
 }
 
 .fa-linkedin-square:before {
-    content: ""
+    content: "ï‚Œ"
 }
 
 .fa-thumb-tack:before {
-    content: ""
+    content: "ï‚"
 }
 
 .fa-external-link:before {
-    content: ""
+    content: "ï‚Ž"
 }
 
 .fa-sign-in:before {
-    content: ""
+    content: "ï‚"
 }
 
 .fa-trophy:before {
-    content: ""
+    content: "ï‚‘"
 }
 
 .fa-github-square:before {
-    content: ""
+    content: "ï‚’"
 }
 
 .fa-upload:before {
-    content: ""
+    content: "ï‚“"
 }
 
 .fa-lemon-o:before {
-    content: ""
+    content: "ï‚”"
 }
 
 .fa-phone:before {
-    content: ""
+    content: "ï‚•"
 }
 
 .fa-square-o:before {
-    content: ""
+    content: "ï‚–"
 }
 
 .fa-bookmark-o:before {
-    content: ""
+    content: "ï‚—"
 }
 
 .fa-phone-square:before {
-    content: ""
+    content: "ï‚˜"
 }
 
 .fa-twitter:before {
-    content: ""
+    content: "ï‚™"
 }
 
 .fa-facebook-f:before, .fa-facebook:before {
-    content: ""
+    content: "ï‚š"
 }
 
 .fa-github:before, .icon-github:before {
-    content: ""
+    content: "ï‚›"
 }
 
 .fa-unlock:before {
-    content: ""
+    content: "ï‚œ"
 }
 
 .fa-credit-card:before {
-    content: ""
+    content: "ï‚"
 }
 
 .fa-feed:before, .fa-rss:before {
-    content: ""
+    content: "ï‚ž"
 }
 
 .fa-hdd-o:before {
-    content: ""
+    content: "ï‚ "
 }
 
 .fa-bullhorn:before {
-    content: ""
+    content: "ï‚¡"
 }
 
 .fa-bell:before {
-    content: ""
+    content: "ïƒ³"
 }
 
 .fa-certificate:before {
-    content: ""
+    content: "ï‚£"
 }
 
 .fa-hand-o-right:before {
-    content: ""
+    content: "ï‚¤"
 }
 
 .fa-hand-o-left:before {
-    content: ""
+    content: "ï‚¥"
 }
 
 .fa-hand-o-up:before {
-    content: ""
+    content: "ï‚¦"
 }
 
 .fa-hand-o-down:before {
-    content: ""
+    content: "ï‚§"
 }
 
 .fa-arrow-circle-left:before, .icon-circle-arrow-left:before {
-    content: ""
+    content: "ï‚¨"
 }
 
 .fa-arrow-circle-right:before, .icon-circle-arrow-right:before {
-    content: ""
+    content: "ï‚©"
 }
 
 .fa-arrow-circle-up:before {
-    content: ""
+    content: "ï‚ª"
 }
 
 .fa-arrow-circle-down:before {
-    content: ""
+    content: "ï‚«"
 }
 
 .fa-globe:before {
-    content: ""
+    content: "ï‚¬"
 }
 
 .fa-wrench:before {
-    content: ""
+    content: "ï‚­"
 }
 
 .fa-tasks:before {
-    content: ""
+    content: "ï‚®"
 }
 
 .fa-filter:before {
-    content: ""
+    content: "ï‚°"
 }
 
 .fa-briefcase:before {
-    content: ""
+    content: "ï‚±"
 }
 
 .fa-arrows-alt:before {
-    content: ""
+    content: "ï‚²"
 }
 
 .fa-group:before, .fa-users:before {
-    content: ""
+    content: "ïƒ€"
 }
 
 .fa-chain:before, .fa-link:before, .icon-link:before {
-    content: ""
+    content: "ïƒ"
 }
 
 .fa-cloud:before {
-    content: ""
+    content: "ïƒ‚"
 }
 
 .fa-flask:before {
-    content: ""
+    content: "ïƒƒ"
 }
 
 .fa-cut:before, .fa-scissors:before {
-    content: ""
+    content: "ïƒ„"
 }
 
 .fa-copy:before, .fa-files-o:before {
-    content: ""
+    content: "ïƒ…"
 }
 
 .fa-paperclip:before {
-    content: ""
+    content: "ïƒ†"
 }
 
 .fa-floppy-o:before, .fa-save:before {
-    content: ""
+    content: "ïƒ‡"
 }
 
 .fa-square:before {
-    content: ""
+    content: "ïƒˆ"
 }
 
 .fa-bars:before, .fa-navicon:before, .fa-reorder:before {
-    content: ""
+    content: "ïƒ‰"
 }
 
 .fa-list-ul:before {
-    content: ""
+    content: "ïƒŠ"
 }
 
 .fa-list-ol:before {
-    content: ""
+    content: "ïƒ‹"
 }
 
 .fa-strikethrough:before {
-    content: ""
+    content: "ïƒŒ"
 }
 
 .fa-underline:before {
-    content: ""
+    content: "ïƒ"
 }
 
 .fa-table:before {
-    content: ""
+    content: "ïƒŽ"
 }
 
 .fa-magic:before {
-    content: ""
+    content: "ïƒ"
 }
 
 .fa-truck:before {
-    content: ""
+    content: "ïƒ‘"
 }
 
 .fa-pinterest:before {
-    content: ""
+    content: "ïƒ’"
 }
 
 .fa-pinterest-square:before {
-    content: ""
+    content: "ïƒ“"
 }
 
 .fa-google-plus-square:before {
-    content: ""
+    content: "ïƒ”"
 }
 
 .fa-google-plus:before {
-    content: ""
+    content: "ïƒ•"
 }
 
 .fa-money:before {
-    content: ""
+    content: "ïƒ–"
 }
 
 .fa-caret-down:before, .icon-caret-down:before, .wy-dropdown .caret:before {
-    content: ""
+    content: "ïƒ—"
 }
 
 .fa-caret-up:before {
-    content: ""
+    content: "ïƒ˜"
 }
 
 .fa-caret-left:before {
-    content: ""
+    content: "ïƒ™"
 }
 
 .fa-caret-right:before {
-    content: ""
+    content: "ïƒš"
 }
 
 .fa-columns:before {
-    content: ""
+    content: "ïƒ›"
 }
 
 .fa-sort:before, .fa-unsorted:before {
-    content: ""
+    content: "ïƒœ"
 }
 
 .fa-sort-desc:before, .fa-sort-down:before {
-    content: ""
+    content: "ïƒ"
 }
 
 .fa-sort-asc:before, .fa-sort-up:before {
-    content: ""
+    content: "ïƒž"
 }
 
 .fa-envelope:before {
-    content: ""
+    content: "ïƒ "
 }
 
 .fa-linkedin:before {
-    content: ""
+    content: "ïƒ¡"
 }
 
 .fa-rotate-left:before, .fa-undo:before {
-    content: ""
+    content: "ïƒ¢"
 }
 
 .fa-gavel:before, .fa-legal:before {
-    content: ""
+    content: "ïƒ£"
 }
 
 .fa-dashboard:before, .fa-tachometer:before {
-    content: ""
+    content: "ïƒ¤"
 }
 
 .fa-comment-o:before {
-    content: ""
+    content: "ïƒ¥"
 }
 
 .fa-comments-o:before {
-    content: ""
+    content: "ïƒ¦"
 }
 
 .fa-bolt:before, .fa-flash:before {
-    content: ""
+    content: "ïƒ§"
 }
 
 .fa-sitemap:before {
-    content: ""
+    content: "ïƒ¨"
 }
 
 .fa-umbrella:before {
-    content: ""
+    content: "ïƒ©"
 }
 
 .fa-clipboard:before, .fa-paste:before {
-    content: ""
+    content: "ïƒª"
 }
 
 .fa-lightbulb-o:before {
-    content: ""
+    content: "ïƒ«"
 }
 
 .fa-exchange:before {
-    content: ""
+    content: "ïƒ¬"
 }
 
 .fa-cloud-download:before {
-    content: ""
+    content: "ïƒ­"
 }
 
 .fa-cloud-upload:before {
-    content: ""
+    content: "ïƒ®"
 }
 
 .fa-user-md:before {
-    content: ""
+    content: "ïƒ°"
 }
 
 .fa-stethoscope:before {
-    content: ""
+    content: "ïƒ±"
 }
 
 .fa-suitcase:before {
-    content: ""
+    content: "ïƒ²"
 }
 
 .fa-bell-o:before {
-    content: ""
+    content: "ï‚¢"
 }
 
 .fa-coffee:before {
-    content: ""
+    content: "ïƒ´"
 }
 
 .fa-cutlery:before {
-    content: ""
+    content: "ïƒµ"
 }
 
 .fa-file-text-o:before {
-    content: ""
+    content: "ïƒ¶"
 }
 
 .fa-building-o:before {
-    content: ""
+    content: "ïƒ·"
 }
 
 .fa-hospital-o:before {
-    content: ""
+    content: "ïƒ¸"
 }
 
 .fa-ambulance:before {
-    content: ""
+    content: "ïƒ¹"
 }
 
 .fa-medkit:before {
-    content: ""
+    content: "ïƒº"
 }
 
 .fa-fighter-jet:before {
-    content: ""
+    content: "ïƒ»"
 }
 
 .fa-beer:before {
-    content: ""
+    content: "ïƒ¼"
 }
 
 .fa-h-square:before {
-    content: ""
+    content: "ïƒ½"
 }
 
 .fa-plus-square:before {
-    content: ""
+    content: "ïƒ¾"
 }
 
 .fa-angle-double-left:before {
-    content: ""
+    content: "ï„€"
 }
 
 .fa-angle-double-right:before {
-    content: ""
+    content: "ï„"
 }
 
 .fa-angle-double-up:before {
-    content: ""
+    content: "ï„‚"
 }
 
 .fa-angle-double-down:before {
-    content: ""
+    content: "ï„ƒ"
 }
 
 .fa-angle-left:before {
-    content: ""
+    content: "ï„„"
 }
 
 .fa-angle-right:before {
-    content: ""
+    content: "ï„…"
 }
 
 .fa-angle-up:before {
-    content: ""
+    content: "ï„†"
 }
 
 .fa-angle-down:before {
-    content: ""
+    content: "ï„‡"
 }
 
 .fa-desktop:before {
-    content: ""
+    content: "ï„ˆ"
 }
 
 .fa-laptop:before {
-    content: ""
+    content: "ï„‰"
 }
 
 .fa-tablet:before {
-    content: ""
+    content: "ï„Š"
 }
 
 .fa-mobile-phone:before, .fa-mobile:before {
-    content: ""
+    content: "ï„‹"
 }
 
 .fa-circle-o:before {
-    content: ""
+    content: "ï„Œ"
 }
 
 .fa-quote-left:before {
-    content: ""
+    content: "ï„"
 }
 
 .fa-quote-right:before {
-    content: ""
+    content: "ï„Ž"
 }
 
 .fa-spinner:before {
-    content: ""
+    content: "ï„"
 }
 
 .fa-circle:before {
-    content: ""
+    content: "ï„‘"
 }
 
 .fa-mail-reply:before, .fa-reply:before {
-    content: ""
+    content: "ï„’"
 }
 
 .fa-github-alt:before {
-    content: ""
+    content: "ï„“"
 }
 
 .fa-folder-o:before {
-    content: ""
+    content: "ï„”"
 }
 
 .fa-folder-open-o:before {
-    content: ""
+    content: "ï„•"
 }
 
 .fa-smile-o:before {
-    content: ""
+    content: "ï„˜"
 }
 
 .fa-frown-o:before {
-    content: ""
+    content: "ï„™"
 }
 
 .fa-meh-o:before {
-    content: ""
+    content: "ï„š"
 }
 
 .fa-gamepad:before {
-    content: ""
+    content: "ï„›"
 }
 
 .fa-keyboard-o:before {
-    content: ""
+    content: "ï„œ"
 }
 
 .fa-flag-o:before {
-    content: ""
+    content: "ï„"
 }
 
 .fa-flag-checkered:before {
-    content: ""
+    content: "ï„ž"
 }
 
 .fa-terminal:before {
-    content: ""
+    content: "ï„ "
 }
 
 .fa-code:before {
-    content: ""
+    content: "ï„¡"
 }
 
 .fa-mail-reply-all:before, .fa-reply-all:before {
-    content: ""
+    content: "ï„¢"
 }
 
 .fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
-    content: ""
+    content: "ï„£"
 }
 
 .fa-location-arrow:before {
-    content: ""
+    content: "ï„¤"
 }
 
 .fa-crop:before {
-    content: ""
+    content: "ï„¥"
 }
 
 .fa-code-fork:before {
-    content: ""
+    content: "ï„¦"
 }
 
 .fa-chain-broken:before, .fa-unlink:before {
-    content: ""
+    content: "ï„§"
 }
 
 .fa-question:before {
-    content: ""
+    content: "ï„¨"
 }
 
 .fa-info:before {
-    content: ""
+    content: "ï„©"
 }
 
 .fa-exclamation:before {
-    content: ""
+    content: "ï„ª"
 }
 
 .fa-superscript:before {
-    content: ""
+    content: "ï„«"
 }
 
 .fa-subscript:before {
-    content: ""
+    content: "ï„¬"
 }
 
 .fa-eraser:before {
-    content: ""
+    content: "ï„­"
 }
 
 .fa-puzzle-piece:before {
-    content: ""
+    content: "ï„®"
 }
 
 .fa-microphone:before {
-    content: ""
+    content: "ï„°"
 }
 
 .fa-microphone-slash:before {
-    content: ""
+    content: "ï„±"
 }
 
 .fa-shield:before {
-    content: ""
+    content: "ï„²"
 }
 
 .fa-calendar-o:before {
-    content: ""
+    content: "ï„³"
 }
 
 .fa-fire-extinguisher:before {
-    content: ""
+    content: "ï„´"
 }
 
 .fa-rocket:before {
-    content: ""
+    content: "ï„µ"
 }
 
 .fa-maxcdn:before {
-    content: ""
+    content: "ï„¶"
 }
 
 .fa-chevron-circle-left:before {
-    content: ""
+    content: "ï„·"
 }
 
 .fa-chevron-circle-right:before {
-    content: ""
+    content: "ï„¸"
 }
 
 .fa-chevron-circle-up:before {
-    content: ""
+    content: "ï„¹"
 }
 
 .fa-chevron-circle-down:before {
-    content: ""
+    content: "ï„º"
 }
 
 .fa-html5:before {
-    content: ""
+    content: "ï„»"
 }
 
 .fa-css3:before {
-    content: ""
+    content: "ï„¼"
 }
 
 .fa-anchor:before {
-    content: ""
+    content: "ï„½"
 }
 
 .fa-unlock-alt:before {
-    content: ""
+    content: "ï„¾"
 }
 
 .fa-bullseye:before {
-    content: ""
+    content: "ï…€"
 }
 
 .fa-ellipsis-h:before {
-    content: ""
+    content: "ï…"
 }
 
 .fa-ellipsis-v:before {
-    content: ""
+    content: "ï…‚"
 }
 
 .fa-rss-square:before {
-    content: ""
+    content: "ï…ƒ"
 }
 
 .fa-play-circle:before {
-    content: ""
+    content: "ï…„"
 }
 
 .fa-ticket:before {
-    content: ""
+    content: "ï……"
 }
 
 .fa-minus-square:before {
-    content: ""
+    content: "ï…†"
 }
 
 .fa-minus-square-o:before, .wy-menu-vertical li.current > a span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before {
-    content: ""
+    content: "ï…‡"
 }
 
 .fa-level-up:before {
-    content: ""
+    content: "ï…ˆ"
 }
 
 .fa-level-down:before {
-    content: ""
+    content: "ï…‰"
 }
 
 .fa-check-square:before {
-    content: ""
+    content: "ï…Š"
 }
 
 .fa-pencil-square:before {
-    content: ""
+    content: "ï…‹"
 }
 
 .fa-external-link-square:before {
-    content: ""
+    content: "ï…Œ"
 }
 
 .fa-share-square:before {
-    content: ""
+    content: "ï…"
 }
 
 .fa-compass:before {
-    content: ""
+    content: "ï…Ž"
 }
 
 .fa-caret-square-o-down:before, .fa-toggle-down:before {
-    content: ""
+    content: "ï…"
 }
 
 .fa-caret-square-o-up:before, .fa-toggle-up:before {
-    content: ""
+    content: "ï…‘"
 }
 
 .fa-caret-square-o-right:before, .fa-toggle-right:before {
-    content: ""
+    content: "ï…’"
 }
 
 .fa-eur:before, .fa-euro:before {
-    content: ""
+    content: "ï…“"
 }
 
 .fa-gbp:before {
-    content: ""
+    content: "ï…”"
 }
 
 .fa-dollar:before, .fa-usd:before {
-    content: ""
+    content: "ï…•"
 }
 
 .fa-inr:before, .fa-rupee:before {
-    content: ""
+    content: "ï…–"
 }
 
 .fa-cny:before, .fa-jpy:before, .fa-rmb:before, .fa-yen:before {
-    content: ""
+    content: "ï…—"
 }
 
 .fa-rouble:before, .fa-rub:before, .fa-ruble:before {
-    content: ""
+    content: "ï…˜"
 }
 
 .fa-krw:before, .fa-won:before {
-    content: ""
+    content: "ï…™"
 }
 
 .fa-bitcoin:before, .fa-btc:before {
-    content: ""
+    content: "ï…š"
 }
 
 .fa-file:before {
-    content: ""
+    content: "ï…›"
 }
 
 .fa-file-text:before {
-    content: ""
+    content: "ï…œ"
 }
 
 .fa-sort-alpha-asc:before {
-    content: ""
+    content: "ï…"
 }
 
 .fa-sort-alpha-desc:before {
-    content: ""
+    content: "ï…ž"
 }
 
 .fa-sort-amount-asc:before {
-    content: ""
+    content: "ï… "
 }
 
 .fa-sort-amount-desc:before {
-    content: ""
+    content: "ï…¡"
 }
 
 .fa-sort-numeric-asc:before {
-    content: ""
+    content: "ï…¢"
 }
 
 .fa-sort-numeric-desc:before {
-    content: ""
+    content: "ï…£"
 }
 
 .fa-thumbs-up:before {
-    content: ""
+    content: "ï…¤"
 }
 
 .fa-thumbs-down:before {
-    content: ""
+    content: "ï…¥"
 }
 
 .fa-youtube-square:before {
-    content: ""
+    content: "ï…¦"
 }
 
 .fa-youtube:before {
-    content: ""
+    content: "ï…§"
 }
 
 .fa-xing:before {
-    content: ""
+    content: "ï…¨"
 }
 
 .fa-xing-square:before {
-    content: ""
+    content: "ï…©"
 }
 
 .fa-youtube-play:before {
-    content: ""
+    content: "ï…ª"
 }
 
 .fa-dropbox:before {
-    content: ""
+    content: "ï…«"
 }
 
 .fa-stack-overflow:before {
-    content: ""
+    content: "ï…¬"
 }
 
 .fa-instagram:before {
-    content: ""
+    content: "ï…­"
 }
 
 .fa-flickr:before {
-    content: ""
+    content: "ï…®"
 }
 
 .fa-adn:before {
-    content: ""
+    content: "ï…°"
 }
 
 .fa-bitbucket:before, .icon-bitbucket:before {
-    content: ""
+    content: "ï…±"
 }
 
 .fa-bitbucket-square:before {
-    content: ""
+    content: "ï…²"
 }
 
 .fa-tumblr:before {
-    content: ""
+    content: "ï…³"
 }
 
 .fa-tumblr-square:before {
-    content: ""
+    content: "ï…´"
 }
 
 .fa-long-arrow-down:before {
-    content: ""
+    content: "ï…µ"
 }
 
 .fa-long-arrow-up:before {
-    content: ""
+    content: "ï…¶"
 }
 
 .fa-long-arrow-left:before {
-    content: ""
+    content: "ï…·"
 }
 
 .fa-long-arrow-right:before {
-    content: ""
+    content: "ï…¸"
 }
 
 .fa-apple:before {
-    content: ""
+    content: "ï…¹"
 }
 
 .fa-windows:before {
-    content: ""
+    content: "ï…º"
 }
 
 .fa-android:before {
-    content: ""
+    content: "ï…»"
 }
 
 .fa-linux:before {
-    content: ""
+    content: "ï…¼"
 }
 
 .fa-dribbble:before {
-    content: ""
+    content: "ï…½"
 }
 
 .fa-skype:before {
-    content: ""
+    content: "ï…¾"
 }
 
 .fa-foursquare:before {
-    content: ""
+    content: "ï†€"
 }
 
 .fa-trello:before {
-    content: ""
+    content: "ï†"
 }
 
 .fa-female:before {
-    content: ""
+    content: "ï†‚"
 }
 
 .fa-male:before {
-    content: ""
+    content: "ï†ƒ"
 }
 
 .fa-gittip:before, .fa-gratipay:before {
-    content: ""
+    content: "ï†„"
 }
 
 .fa-sun-o:before {
-    content: ""
+    content: "ï†…"
 }
 
 .fa-moon-o:before {
-    content: ""
+    content: "ï††"
 }
 
 .fa-archive:before {
-    content: ""
+    content: "ï†‡"
 }
 
 .fa-bug:before {
-    content: ""
+    content: "ï†ˆ"
 }
 
 .fa-vk:before {
-    content: ""
+    content: "ï†‰"
 }
 
 .fa-weibo:before {
-    content: ""
+    content: "ï†Š"
 }
 
 .fa-renren:before {
-    content: ""
+    content: "ï†‹"
 }
 
 .fa-pagelines:before {
-    content: ""
+    content: "ï†Œ"
 }
 
 .fa-stack-exchange:before {
-    content: ""
+    content: "ï†"
 }
 
 .fa-arrow-circle-o-right:before {
-    content: ""
+    content: "ï†Ž"
 }
 
 .fa-arrow-circle-o-left:before {
-    content: ""
+    content: "ï†"
 }
 
 .fa-caret-square-o-left:before, .fa-toggle-left:before {
-    content: ""
+    content: "ï†‘"
 }
 
 .fa-dot-circle-o:before {
-    content: ""
+    content: "ï†’"
 }
 
 .fa-wheelchair:before {
-    content: ""
+    content: "ï†“"
 }
 
 .fa-vimeo-square:before {
-    content: ""
+    content: "ï†”"
 }
 
 .fa-try:before, .fa-turkish-lira:before {
-    content: ""
+    content: "ï†•"
 }
 
 .fa-plus-square-o:before, .wy-menu-vertical li span.toctree-expand:before {
-    content: ""
+    content: "ï†–"
 }
 
 .fa-space-shuttle:before {
-    content: ""
+    content: "ï†—"
 }
 
 .fa-slack:before {
-    content: ""
+    content: "ï†˜"
 }
 
 .fa-envelope-square:before {
-    content: ""
+    content: "ï†™"
 }
 
 .fa-wordpress:before {
-    content: ""
+    content: "ï†š"
 }
 
 .fa-openid:before {
-    content: ""
+    content: "ï†›"
 }
 
 .fa-bank:before, .fa-institution:before, .fa-university:before {
-    content: ""
+    content: "ï†œ"
 }
 
 .fa-graduation-cap:before, .fa-mortar-board:before {
-    content: ""
+    content: "ï†"
 }
 
 .fa-yahoo:before {
-    content: ""
+    content: "ï†ž"
 }
 
 .fa-google:before {
-    content: ""
+    content: "ï† "
 }
 
 .fa-reddit:before {
-    content: ""
+    content: "ï†¡"
 }
 
 .fa-reddit-square:before {
-    content: ""
+    content: "ï†¢"
 }
 
 .fa-stumbleupon-circle:before {
-    content: ""
+    content: "ï†£"
 }
 
 .fa-stumbleupon:before {
-    content: ""
+    content: "ï†¤"
 }
 
 .fa-delicious:before {
-    content: ""
+    content: "ï†¥"
 }
 
 .fa-digg:before {
-    content: ""
+    content: "ï†¦"
 }
 
 .fa-pied-piper-pp:before {
-    content: ""
+    content: "ï†§"
 }
 
 .fa-pied-piper-alt:before {
-    content: ""
+    content: "ï†¨"
 }
 
 .fa-drupal:before {
-    content: ""
+    content: "ï†©"
 }
 
 .fa-joomla:before {
-    content: ""
+    content: "ï†ª"
 }
 
 .fa-language:before {
-    content: ""
+    content: "ï†«"
 }
 
 .fa-fax:before {
-    content: ""
+    content: "ï†¬"
 }
 
 .fa-building:before {
-    content: ""
+    content: "ï†­"
 }
 
 .fa-child:before {
-    content: ""
+    content: "ï†®"
 }
 
 .fa-paw:before {
-    content: ""
+    content: "ï†°"
 }
 
 .fa-spoon:before {
-    content: ""
+    content: "ï†±"
 }
 
 .fa-cube:before {
-    content: ""
+    content: "ï†²"
 }
 
 .fa-cubes:before {
-    content: ""
+    content: "ï†³"
 }
 
 .fa-behance:before {
-    content: ""
+    content: "ï†´"
 }
 
 .fa-behance-square:before {
-    content: ""
+    content: "ï†µ"
 }
 
 .fa-steam:before {
-    content: ""
+    content: "ï†¶"
 }
 
 .fa-steam-square:before {
-    content: ""
+    content: "ï†·"
 }
 
 .fa-recycle:before {
-    content: ""
+    content: "ï†¸"
 }
 
 .fa-automobile:before, .fa-car:before {
-    content: ""
+    content: "ï†¹"
 }
 
 .fa-cab:before, .fa-taxi:before {
-    content: ""
+    content: "ï†º"
 }
 
 .fa-tree:before {
-    content: ""
+    content: "ï†»"
 }
 
 .fa-spotify:before {
-    content: ""
+    content: "ï†¼"
 }
 
 .fa-deviantart:before {
-    content: ""
+    content: "ï†½"
 }
 
 .fa-soundcloud:before {
-    content: ""
+    content: "ï†¾"
 }
 
 .fa-database:before {
-    content: ""
+    content: "ï‡€"
 }
 
 .fa-file-pdf-o:before {
-    content: ""
+    content: "ï‡"
 }
 
 .fa-file-word-o:before {
-    content: ""
+    content: "ï‡‚"
 }
 
 .fa-file-excel-o:before {
-    content: ""
+    content: "ï‡ƒ"
 }
 
 .fa-file-powerpoint-o:before {
-    content: ""
+    content: "ï‡„"
 }
 
 .fa-file-image-o:before, .fa-file-photo-o:before, .fa-file-picture-o:before {
-    content: ""
+    content: "ï‡…"
 }
 
 .fa-file-archive-o:before, .fa-file-zip-o:before {
-    content: ""
+    content: "ï‡†"
 }
 
 .fa-file-audio-o:before, .fa-file-sound-o:before {
-    content: ""
+    content: "ï‡‡"
 }
 
 .fa-file-movie-o:before, .fa-file-video-o:before {
-    content: ""
+    content: "ï‡ˆ"
 }
 
 .fa-file-code-o:before {
-    content: ""
+    content: "ï‡‰"
 }
 
 .fa-vine:before {
-    content: ""
+    content: "ï‡Š"
 }
 
 .fa-codepen:before {
-    content: ""
+    content: "ï‡‹"
 }
 
 .fa-jsfiddle:before {
-    content: ""
+    content: "ï‡Œ"
 }
 
 .fa-life-bouy:before, .fa-life-buoy:before, .fa-life-ring:before, .fa-life-saver:before, .fa-support:before {
-    content: ""
+    content: "ï‡"
 }
 
 .fa-circle-o-notch:before {
-    content: ""
+    content: "ï‡Ž"
 }
 
 .fa-ra:before, .fa-rebel:before, .fa-resistance:before {
-    content: ""
+    content: "ï‡"
 }
 
 .fa-empire:before, .fa-ge:before {
-    content: ""
+    content: "ï‡‘"
 }
 
 .fa-git-square:before {
-    content: ""
+    content: "ï‡’"
 }
 
 .fa-git:before {
-    content: ""
+    content: "ï‡“"
 }
 
 .fa-hacker-news:before, .fa-y-combinator-square:before, .fa-yc-square:before {
-    content: ""
+    content: "ï‡”"
 }
 
 .fa-tencent-weibo:before {
-    content: ""
+    content: "ï‡•"
 }
 
 .fa-qq:before {
-    content: ""
+    content: "ï‡–"
 }
 
 .fa-wechat:before, .fa-weixin:before {
-    content: ""
+    content: "ï‡—"
 }
 
 .fa-paper-plane:before, .fa-send:before {
-    content: ""
+    content: "ï‡˜"
 }
 
 .fa-paper-plane-o:before, .fa-send-o:before {
-    content: ""
+    content: "ï‡™"
 }
 
 .fa-history:before {
-    content: ""
+    content: "ï‡š"
 }
 
 .fa-circle-thin:before {
-    content: ""
+    content: "ï‡›"
 }
 
 .fa-header:before {
-    content: ""
+    content: "ï‡œ"
 }
 
 .fa-paragraph:before {
-    content: ""
+    content: "ï‡"
 }
 
 .fa-sliders:before {
-    content: ""
+    content: "ï‡ž"
 }
 
 .fa-share-alt:before {
-    content: ""
+    content: "ï‡ "
 }
 
 .fa-share-alt-square:before {
-    content: ""
+    content: "ï‡¡"
 }
 
 .fa-bomb:before {
-    content: ""
+    content: "ï‡¢"
 }
 
 .fa-futbol-o:before, .fa-soccer-ball-o:before {
-    content: ""
+    content: "ï‡£"
 }
 
 .fa-tty:before {
-    content: ""
+    content: "ï‡¤"
 }
 
 .fa-binoculars:before {
-    content: ""
+    content: "ï‡¥"
 }
 
 .fa-plug:before {
-    content: ""
+    content: "ï‡¦"
 }
 
 .fa-slideshare:before {
-    content: ""
+    content: "ï‡§"
 }
 
 .fa-twitch:before {
-    content: ""
+    content: "ï‡¨"
 }
 
 .fa-yelp:before {
-    content: ""
+    content: "ï‡©"
 }
 
 .fa-newspaper-o:before {
-    content: ""
+    content: "ï‡ª"
 }
 
 .fa-wifi:before {
-    content: ""
+    content: "ï‡«"
 }
 
 .fa-calculator:before {
-    content: ""
+    content: "ï‡¬"
 }
 
 .fa-paypal:before {
-    content: ""
+    content: "ï‡­"
 }
 
 .fa-google-wallet:before {
-    content: ""
+    content: "ï‡®"
 }
 
 .fa-cc-visa:before {
-    content: ""
+    content: "ï‡°"
 }
 
 .fa-cc-mastercard:before {
-    content: ""
+    content: "ï‡±"
 }
 
 .fa-cc-discover:before {
-    content: ""
+    content: "ï‡²"
 }
 
 .fa-cc-amex:before {
-    content: ""
+    content: "ï‡³"
 }
 
 .fa-cc-paypal:before {
-    content: ""
+    content: "ï‡´"
 }
 
 .fa-cc-stripe:before {
-    content: ""
+    content: "ï‡µ"
 }
 
 .fa-bell-slash:before {
-    content: ""
+    content: "ï‡¶"
 }
 
 .fa-bell-slash-o:before {
-    content: ""
+    content: "ï‡·"
 }
 
 .fa-trash:before {
-    content: ""
+    content: "ï‡¸"
 }
 
 .fa-copyright:before {
-    content: ""
+    content: "ï‡¹"
 }
 
 .fa-at:before {
-    content: ""
+    content: "ï‡º"
 }
 
 .fa-eyedropper:before {
-    content: ""
+    content: "ï‡»"
 }
 
 .fa-paint-brush:before {
-    content: ""
+    content: "ï‡¼"
 }
 
 .fa-birthday-cake:before {
-    content: ""
+    content: "ï‡½"
 }
 
 .fa-area-chart:before {
-    content: ""
+    content: "ï‡¾"
 }
 
 .fa-pie-chart:before {
-    content: ""
+    content: "ïˆ€"
 }
 
 .fa-line-chart:before {
-    content: ""
+    content: "ïˆ"
 }
 
 .fa-lastfm:before {
-    content: ""
+    content: "ïˆ‚"
 }
 
 .fa-lastfm-square:before {
-    content: ""
+    content: "ïˆƒ"
 }
 
 .fa-toggle-off:before {
-    content: ""
+    content: "ïˆ„"
 }
 
 .fa-toggle-on:before {
-    content: ""
+    content: "ïˆ…"
 }
 
 .fa-bicycle:before {
-    content: ""
+    content: "ïˆ†"
 }
 
 .fa-bus:before {
-    content: ""
+    content: "ïˆ‡"
 }
 
 .fa-ioxhost:before {
-    content: ""
+    content: "ïˆˆ"
 }
 
 .fa-angellist:before {
-    content: ""
+    content: "ïˆ‰"
 }
 
 .fa-cc:before {
-    content: ""
+    content: "ïˆŠ"
 }
 
 .fa-ils:before, .fa-shekel:before, .fa-sheqel:before {
-    content: ""
+    content: "ïˆ‹"
 }
 
 .fa-meanpath:before {
-    content: ""
+    content: "ïˆŒ"
 }
 
 .fa-buysellads:before {
-    content: ""
+    content: "ïˆ"
 }
 
 .fa-connectdevelop:before {
-    content: ""
+    content: "ïˆŽ"
 }
 
 .fa-dashcube:before {
-    content: ""
+    content: "ïˆ"
 }
 
 .fa-forumbee:before {
-    content: ""
+    content: "ïˆ‘"
 }
 
 .fa-leanpub:before {
-    content: ""
+    content: "ïˆ’"
 }
 
 .fa-sellsy:before {
-    content: ""
+    content: "ïˆ“"
 }
 
 .fa-shirtsinbulk:before {
-    content: ""
+    content: "ïˆ”"
 }
 
 .fa-simplybuilt:before {
-    content: ""
+    content: "ïˆ•"
 }
 
 .fa-skyatlas:before {
-    content: ""
+    content: "ïˆ–"
 }
 
 .fa-cart-plus:before {
-    content: ""
+    content: "ïˆ—"
 }
 
 .fa-cart-arrow-down:before {
-    content: ""
+    content: "ïˆ˜"
 }
 
 .fa-diamond:before {
-    content: ""
+    content: "ïˆ™"
 }
 
 .fa-ship:before {
-    content: ""
+    content: "ïˆš"
 }
 
 .fa-user-secret:before {
-    content: ""
+    content: "ïˆ›"
 }
 
 .fa-motorcycle:before {
-    content: ""
+    content: "ïˆœ"
 }
 
 .fa-street-view:before {
-    content: ""
+    content: "ïˆ"
 }
 
 .fa-heartbeat:before {
-    content: ""
+    content: "ïˆž"
 }
 
 .fa-venus:before {
-    content: ""
+    content: "ïˆ¡"
 }
 
 .fa-mars:before {
-    content: ""
+    content: "ïˆ¢"
 }
 
 .fa-mercury:before {
-    content: ""
+    content: "ïˆ£"
 }
 
 .fa-intersex:before, .fa-transgender:before {
-    content: ""
+    content: "ïˆ¤"
 }
 
 .fa-transgender-alt:before {
-    content: ""
+    content: "ïˆ¥"
 }
 
 .fa-venus-double:before {
-    content: ""
+    content: "ïˆ¦"
 }
 
 .fa-mars-double:before {
-    content: ""
+    content: "ïˆ§"
 }
 
 .fa-venus-mars:before {
-    content: ""
+    content: "ïˆ¨"
 }
 
 .fa-mars-stroke:before {
-    content: ""
+    content: "ïˆ©"
 }
 
 .fa-mars-stroke-v:before {
-    content: ""
+    content: "ïˆª"
 }
 
 .fa-mars-stroke-h:before {
-    content: ""
+    content: "ïˆ«"
 }
 
 .fa-neuter:before {
-    content: ""
+    content: "ïˆ¬"
 }
 
 .fa-genderless:before {
-    content: ""
+    content: "ïˆ­"
 }
 
 .fa-facebook-official:before {
-    content: ""
+    content: "ïˆ°"
 }
 
 .fa-pinterest-p:before {
-    content: ""
+    content: "ïˆ±"
 }
 
 .fa-whatsapp:before {
-    content: ""
+    content: "ïˆ²"
 }
 
 .fa-server:before {
-    content: ""
+    content: "ïˆ³"
 }
 
 .fa-user-plus:before {
-    content: ""
+    content: "ïˆ´"
 }
 
 .fa-user-times:before {
-    content: ""
+    content: "ïˆµ"
 }
 
 .fa-bed:before, .fa-hotel:before {
-    content: ""
+    content: "ïˆ¶"
 }
 
 .fa-viacoin:before {
-    content: ""
+    content: "ïˆ·"
 }
 
 .fa-train:before {
-    content: ""
+    content: "ïˆ¸"
 }
 
 .fa-subway:before {
-    content: ""
+    content: "ïˆ¹"
 }
 
 .fa-medium:before {
-    content: ""
+    content: "ïˆº"
 }
 
 .fa-y-combinator:before, .fa-yc:before {
-    content: ""
+    content: "ïˆ»"
 }
 
 .fa-optin-monster:before {
-    content: ""
+    content: "ïˆ¼"
 }
 
 .fa-opencart:before {
-    content: ""
+    content: "ïˆ½"
 }
 
 .fa-expeditedssl:before {
-    content: ""
+    content: "ïˆ¾"
 }
 
 .fa-battery-4:before, .fa-battery-full:before, .fa-battery:before {
-    content: ""
+    content: "ï‰€"
 }
 
 .fa-battery-3:before, .fa-battery-three-quarters:before {
-    content: ""
+    content: "ï‰"
 }
 
 .fa-battery-2:before, .fa-battery-half:before {
-    content: ""
+    content: "ï‰‚"
 }
 
 .fa-battery-1:before, .fa-battery-quarter:before {
-    content: ""
+    content: "ï‰ƒ"
 }
 
 .fa-battery-0:before, .fa-battery-empty:before {
-    content: ""
+    content: "ï‰„"
 }
 
 .fa-mouse-pointer:before {
-    content: ""
+    content: "ï‰…"
 }
 
 .fa-i-cursor:before {
-    content: ""
+    content: "ï‰†"
 }
 
 .fa-object-group:before {
-    content: ""
+    content: "ï‰‡"
 }
 
 .fa-object-ungroup:before {
-    content: ""
+    content: "ï‰ˆ"
 }
 
 .fa-sticky-note:before {
-    content: ""
+    content: "ï‰‰"
 }
 
 .fa-sticky-note-o:before {
-    content: ""
+    content: "ï‰Š"
 }
 
 .fa-cc-jcb:before {
-    content: ""
+    content: "ï‰‹"
 }
 
 .fa-cc-diners-club:before {
-    content: ""
+    content: "ï‰Œ"
 }
 
 .fa-clone:before {
-    content: ""
+    content: "ï‰"
 }
 
 .fa-balance-scale:before {
-    content: ""
+    content: "ï‰Ž"
 }
 
 .fa-hourglass-o:before {
-    content: ""
+    content: "ï‰"
 }
 
 .fa-hourglass-1:before, .fa-hourglass-start:before {
-    content: ""
+    content: "ï‰‘"
 }
 
 .fa-hourglass-2:before, .fa-hourglass-half:before {
-    content: ""
+    content: "ï‰’"
 }
 
 .fa-hourglass-3:before, .fa-hourglass-end:before {
-    content: ""
+    content: "ï‰“"
 }
 
 .fa-hourglass:before {
-    content: ""
+    content: "ï‰”"
 }
 
 .fa-hand-grab-o:before, .fa-hand-rock-o:before {
-    content: ""
+    content: "ï‰•"
 }
 
 .fa-hand-paper-o:before, .fa-hand-stop-o:before {
-    content: ""
+    content: "ï‰–"
 }
 
 .fa-hand-scissors-o:before {
-    content: ""
+    content: "ï‰—"
 }
 
 .fa-hand-lizard-o:before {
-    content: ""
+    content: "ï‰˜"
 }
 
 .fa-hand-spock-o:before {
-    content: ""
+    content: "ï‰™"
 }
 
 .fa-hand-pointer-o:before {
-    content: ""
+    content: "ï‰š"
 }
 
 .fa-hand-peace-o:before {
-    content: ""
+    content: "ï‰›"
 }
 
 .fa-trademark:before {
-    content: ""
+    content: "ï‰œ"
 }
 
 .fa-registered:before {
-    content: ""
+    content: "ï‰"
 }
 
 .fa-creative-commons:before {
-    content: ""
+    content: "ï‰ž"
 }
 
 .fa-gg:before {
-    content: ""
+    content: "ï‰ "
 }
 
 .fa-gg-circle:before {
-    content: ""
+    content: "ï‰¡"
 }
 
 .fa-tripadvisor:before {
-    content: ""
+    content: "ï‰¢"
 }
 
 .fa-odnoklassniki:before {
-    content: ""
+    content: "ï‰£"
 }
 
 .fa-odnoklassniki-square:before {
-    content: ""
+    content: "ï‰¤"
 }
 
 .fa-get-pocket:before {
-    content: ""
+    content: "ï‰¥"
 }
 
 .fa-wikipedia-w:before {
-    content: ""
+    content: "ï‰¦"
 }
 
 .fa-safari:before {
-    content: ""
+    content: "ï‰§"
 }
 
 .fa-chrome:before {
-    content: ""
+    content: "ï‰¨"
 }
 
 .fa-firefox:before {
-    content: ""
+    content: "ï‰©"
 }
 
 .fa-opera:before {
-    content: ""
+    content: "ï‰ª"
 }
 
 .fa-internet-explorer:before {
-    content: ""
+    content: "ï‰«"
 }
 
 .fa-television:before, .fa-tv:before {
-    content: ""
+    content: "ï‰¬"
 }
 
 .fa-contao:before {
-    content: ""
+    content: "ï‰­"
 }
 
 .fa-500px:before {
-    content: ""
+    content: "ï‰®"
 }
 
 .fa-amazon:before {
-    content: ""
+    content: "ï‰°"
 }
 
 .fa-calendar-plus-o:before {
-    content: ""
+    content: "ï‰±"
 }
 
 .fa-calendar-minus-o:before {
-    content: ""
+    content: "ï‰²"
 }
 
 .fa-calendar-times-o:before {
-    content: ""
+    content: "ï‰³"
 }
 
 .fa-calendar-check-o:before {
-    content: ""
+    content: "ï‰´"
 }
 
 .fa-industry:before {
-    content: ""
+    content: "ï‰µ"
 }
 
 .fa-map-pin:before {
-    content: ""
+    content: "ï‰¶"
 }
 
 .fa-map-signs:before {
-    content: ""
+    content: "ï‰·"
 }
 
 .fa-map-o:before {
-    content: ""
+    content: "ï‰¸"
 }
 
 .fa-map:before {
-    content: ""
+    content: "ï‰¹"
 }
 
 .fa-commenting:before {
-    content: ""
+    content: "ï‰º"
 }
 
 .fa-commenting-o:before {
-    content: ""
+    content: "ï‰»"
 }
 
 .fa-houzz:before {
-    content: ""
+    content: "ï‰¼"
 }
 
 .fa-vimeo:before {
-    content: ""
+    content: "ï‰½"
 }
 
 .fa-black-tie:before {
-    content: ""
+    content: "ï‰¾"
 }
 
 .fa-fonticons:before {
-    content: ""
+    content: "ïŠ€"
 }
 
 .fa-reddit-alien:before {
-    content: ""
+    content: "ïŠ"
 }
 
 .fa-edge:before {
-    content: ""
+    content: "ïŠ‚"
 }
 
 .fa-credit-card-alt:before {
-    content: ""
+    content: "ïŠƒ"
 }
 
 .fa-codiepie:before {
-    content: ""
+    content: "ïŠ„"
 }
 
 .fa-modx:before {
-    content: ""
+    content: "ïŠ…"
 }
 
 .fa-fort-awesome:before {
-    content: ""
+    content: "ïŠ†"
 }
 
 .fa-usb:before {
-    content: ""
+    content: "ïŠ‡"
 }
 
 .fa-product-hunt:before {
-    content: ""
+    content: "ïŠˆ"
 }
 
 .fa-mixcloud:before {
-    content: ""
+    content: "ïŠ‰"
 }
 
 .fa-scribd:before {
-    content: ""
+    content: "ïŠŠ"
 }
 
 .fa-pause-circle:before {
-    content: ""
+    content: "ïŠ‹"
 }
 
 .fa-pause-circle-o:before {
-    content: ""
+    content: "ïŠŒ"
 }
 
 .fa-stop-circle:before {
-    content: ""
+    content: "ïŠ"
 }
 
 .fa-stop-circle-o:before {
-    content: ""
+    content: "ïŠŽ"
 }
 
 .fa-shopping-bag:before {
-    content: ""
+    content: "ïŠ"
 }
 
 .fa-shopping-basket:before {
-    content: ""
+    content: "ïŠ‘"
 }
 
 .fa-hashtag:before {
-    content: ""
+    content: "ïŠ’"
 }
 
 .fa-bluetooth:before {
-    content: ""
+    content: "ïŠ“"
 }
 
 .fa-bluetooth-b:before {
-    content: ""
+    content: "ïŠ”"
 }
 
 .fa-percent:before {
-    content: ""
+    content: "ïŠ•"
 }
 
 .fa-gitlab:before, .icon-gitlab:before {
-    content: ""
+    content: "ïŠ–"
 }
 
 .fa-wpbeginner:before {
-    content: ""
+    content: "ïŠ—"
 }
 
 .fa-wpforms:before {
-    content: ""
+    content: "ïŠ˜"
 }
 
 .fa-envira:before {
-    content: ""
+    content: "ïŠ™"
 }
 
 .fa-universal-access:before {
-    content: ""
+    content: "ïŠš"
 }
 
 .fa-wheelchair-alt:before {
-    content: ""
+    content: "ïŠ›"
 }
 
 .fa-question-circle-o:before {
-    content: ""
+    content: "ïŠœ"
 }
 
 .fa-blind:before {
-    content: ""
+    content: "ïŠ"
 }
 
 .fa-audio-description:before {
-    content: ""
+    content: "ïŠž"
 }
 
 .fa-volume-control-phone:before {
-    content: ""
+    content: "ïŠ "
 }
 
 .fa-braille:before {
-    content: ""
+    content: "ïŠ¡"
 }
 
 .fa-assistive-listening-systems:before {
-    content: ""
+    content: "ïŠ¢"
 }
 
 .fa-american-sign-language-interpreting:before, .fa-asl-interpreting:before {
-    content: ""
+    content: "ïŠ£"
 }
 
 .fa-deaf:before, .fa-deafness:before, .fa-hard-of-hearing:before {
-    content: ""
+    content: "ïŠ¤"
 }
 
 .fa-glide:before {
-    content: ""
+    content: "ïŠ¥"
 }
 
 .fa-glide-g:before {
-    content: ""
+    content: "ïŠ¦"
 }
 
 .fa-sign-language:before, .fa-signing:before {
-    content: ""
+    content: "ïŠ§"
 }
 
 .fa-low-vision:before {
-    content: ""
+    content: "ïŠ¨"
 }
 
 .fa-viadeo:before {
-    content: ""
+    content: "ïŠ©"
 }
 
 .fa-viadeo-square:before {
-    content: ""
+    content: "ïŠª"
 }
 
 .fa-snapchat:before {
-    content: ""
+    content: "ïŠ«"
 }
 
 .fa-snapchat-ghost:before {
-    content: ""
+    content: "ïŠ¬"
 }
 
 .fa-snapchat-square:before {
-    content: ""
+    content: "ïŠ­"
 }
 
 .fa-pied-piper:before {
-    content: ""
+    content: "ïŠ®"
 }
 
 .fa-first-order:before {
-    content: ""
+    content: "ïŠ°"
 }
 
 .fa-yoast:before {
-    content: ""
+    content: "ïŠ±"
 }
 
 .fa-themeisle:before {
-    content: ""
+    content: "ïŠ²"
 }
 
 .fa-google-plus-circle:before, .fa-google-plus-official:before {
-    content: ""
+    content: "ïŠ³"
 }
 
 .fa-fa:before, .fa-font-awesome:before {
-    content: ""
+    content: "ïŠ´"
 }
 
 .fa-handshake-o:before {
-    content: ""
+    content: "ïŠµ"
 }
 
 .fa-envelope-open:before {
-    content: ""
+    content: "ïŠ¶"
 }
 
 .fa-envelope-open-o:before {
-    content: ""
+    content: "ïŠ·"
 }
 
 .fa-linode:before {
-    content: ""
+    content: "ïŠ¸"
 }
 
 .fa-address-book:before {
-    content: ""
+    content: "ïŠ¹"
 }
 
 .fa-address-book-o:before {
-    content: ""
+    content: "ïŠº"
 }
 
 .fa-address-card:before, .fa-vcard:before {
-    content: ""
+    content: "ïŠ»"
 }
 
 .fa-address-card-o:before, .fa-vcard-o:before {
-    content: ""
+    content: "ïŠ¼"
 }
 
 .fa-user-circle:before {
-    content: ""
+    content: "ïŠ½"
 }
 
 .fa-user-circle-o:before {
-    content: ""
+    content: "ïŠ¾"
 }
 
 .fa-user-o:before {
-    content: ""
+    content: "ï‹€"
 }
 
 .fa-id-badge:before {
-    content: ""
+    content: "ï‹"
 }
 
 .fa-drivers-license:before, .fa-id-card:before {
-    content: ""
+    content: "ï‹‚"
 }
 
 .fa-drivers-license-o:before, .fa-id-card-o:before {
-    content: ""
+    content: "ï‹ƒ"
 }
 
 .fa-quora:before {
-    content: ""
+    content: "ï‹„"
 }
 
 .fa-free-code-camp:before {
-    content: ""
+    content: "ï‹…"
 }
 
 .fa-telegram:before {
-    content: ""
+    content: "ï‹†"
 }
 
 .fa-thermometer-4:before, .fa-thermometer-full:before, .fa-thermometer:before {
-    content: ""
+    content: "ï‹‡"
 }
 
 .fa-thermometer-3:before, .fa-thermometer-three-quarters:before {
-    content: ""
+    content: "ï‹ˆ"
 }
 
 .fa-thermometer-2:before, .fa-thermometer-half:before {
-    content: ""
+    content: "ï‹‰"
 }
 
 .fa-thermometer-1:before, .fa-thermometer-quarter:before {
-    content: ""
+    content: "ï‹Š"
 }
 
 .fa-thermometer-0:before, .fa-thermometer-empty:before {
-    content: ""
+    content: "ï‹‹"
 }
 
 .fa-shower:before {
-    content: ""
+    content: "ï‹Œ"
 }
 
 .fa-bath:before, .fa-bathtub:before, .fa-s15:before {
-    content: ""
+    content: "ï‹"
 }
 
 .fa-podcast:before {
-    content: ""
+    content: "ï‹Ž"
 }
 
 .fa-window-maximize:before {
-    content: ""
+    content: "ï‹"
 }
 
 .fa-window-minimize:before {
-    content: ""
+    content: "ï‹‘"
 }
 
 .fa-window-restore:before {
-    content: ""
+    content: "ï‹’"
 }
 
 .fa-times-rectangle:before, .fa-window-close:before {
-    content: ""
+    content: "ï‹“"
 }
 
 .fa-times-rectangle-o:before, .fa-window-close-o:before {
-    content: ""
+    content: "ï‹”"
 }
 
 .fa-bandcamp:before {
-    content: ""
+    content: "ï‹•"
 }
 
 .fa-grav:before {
-    content: ""
+    content: "ï‹–"
 }
 
 .fa-etsy:before {
-    content: ""
+    content: "ï‹—"
 }
 
 .fa-imdb:before {
-    content: ""
+    content: "ï‹˜"
 }
 
 .fa-ravelry:before {
-    content: ""
+    content: "ï‹™"
 }
 
 .fa-eercast:before {
-    content: ""
+    content: "ï‹š"
 }
 
 .fa-microchip:before {
-    content: ""
+    content: "ï‹›"
 }
 
 .fa-snowflake-o:before {
-    content: ""
+    content: "ï‹œ"
 }
 
 .fa-superpowers:before {
-    content: ""
+    content: "ï‹"
 }
 
 .fa-wpexplorer:before {
-    content: ""
+    content: "ï‹ž"
 }
 
 .fa-meetup:before {
-    content: ""
+    content: "ï‹ "
 }
 
 .sr-only {
@@ -4454,11 +4455,11 @@ body, html {
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #404040;
     min-height: 100%;
-    background: #edf0f2
+    background: #2886c5;
 }
 
 .wy-text-left {
@@ -4661,7 +4662,8 @@ hr {
 }
 
 .rst-content .section ol li p:last-child, .rst-content .section ol li ul, .rst-content ol.arabic li p:last-child, .rst-content ol.arabic li ul, .wy-plain-list-decimal li p:last-child, .wy-plain-list-decimal li ul, article ol li p:last-child, article ol li ul {
-    margin-bottom: 0
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .rst-content .section ol li ul li, .rst-content ol.arabic li ul li, .wy-plain-list-decimal li ul li, article ol li ul li {
@@ -4781,21 +4783,23 @@ html {
 }
 
 .wy-menu-vertical header, .wy-menu-vertical p.caption {
-    color: lightsteelblue;
+    color: #6ab0de;
     height: 32px;
     display: inline-block;
     line-height: 32px;
-    padding: 0 1.618em;
+    padding: 0em;
     margin: 12px 0 0;
     display: block;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 85%;
-    white-space: nowrap
+    white-space: nowrap;
+    text-align: left;
 }
 
 .wy-menu-vertical ul {
-    margin-bottom: 0
+    margin-bottom: 0;
+    background-color: #ffffff00
 }
 
 .wy-menu-vertical li.divide-top {
@@ -4807,17 +4811,17 @@ html {
 }
 
 .wy-menu-vertical li.current {
-    background: #e3e3e3
+    background: #00000000
 }
 
 .wy-menu-vertical li.current a {
-    color: grey;
-    border-right: 1px solid #c9c9c9;
+    color: white;
+    border-right: 1px solid #ffffff00;
     padding: .4045em 2.427em
 }
 
 .wy-menu-vertical li.current a:hover {
-    background: #d6d6d6
+    background: #ffffff
 }
 
 .rst-content .wy-menu-vertical li tt, .wy-menu-vertical li .rst-content tt, .wy-menu-vertical li code {
@@ -4834,40 +4838,41 @@ html {
     margin-left: -1.2em;
     font-size: .8em;
     line-height: 1.6em;
-    color: #4d4d4d
+    color: #ffffff
 }
 
 .wy-menu-vertical li.current > a, .wy-menu-vertical li.on a {
-    color: #404040;
+    color: #000000;
     font-weight: 700;
     position: relative;
-    background: #fcfcfc;
+    background: #ffffff;
     border: none;
     padding: .4045em 1.618em
 }
 
 .wy-menu-vertical li.current > a:hover, .wy-menu-vertical li.on a:hover {
-    background: #fcfcfc
+    background: #ffffff
 }
 
 .wy-menu-vertical li.current > a:hover span.toctree-expand, .wy-menu-vertical li.on a:hover span.toctree-expand {
-    color: grey
+    color: white
 }
 
 .wy-menu-vertical li.current > a span.toctree-expand, .wy-menu-vertical li.on a span.toctree-expand {
     display: block;
     font-size: .8em;
     line-height: 1.6em;
-    color: #333
+    color: #000;
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
-    border-bottom: 1px solid #c9c9c9;
-    border-top: 1px solid #c9c9c9
+    border-bottom: 1px solid #ffffff00;
+    border-top: 1px solid #ffffff00
 }
 
 .wy-menu-vertical li.toctree-l2 a, .wy-menu-vertical li.toctree-l3 a, .wy-menu-vertical li.toctree-l4 a {
-    color: #404040
+    color: #000000;
+    
 }
 
 .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > ul, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > ul {
@@ -4879,22 +4884,22 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l2.current > a {
-    background: #c9c9c9;
+    background: #ffffff00;
     padding: .4045em 2.427em
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
     display: block;
-    background: #c9c9c9;
+    background: #ffffff00;
     padding: .4045em 4.045em
 }
 
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
-    color: grey
+    color: white
 }
 
 .wy-menu-vertical li.toctree-l2 span.toctree-expand {
-    color: #a3a3a3
+    color: #ffffff
 }
 
 .wy-menu-vertical li.toctree-l3 {
@@ -4902,7 +4907,7 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l3.current > a {
-    background: #bdbdbd;
+    background: #ffffff00;
     padding: .4045em 4.045em
 }
 
@@ -4913,7 +4918,7 @@ html {
 }
 
 .wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {
-    color: grey
+    color: white
 }
 
 .wy-menu-vertical li.toctree-l3 span.toctree-expand {
@@ -4946,7 +4951,7 @@ html {
     display: block;
     position: relative;
     font-size: 90%;
-    color: #d9d9d9
+    color: #000000
 }
 
 .wy-menu-vertical a:hover {
@@ -5078,32 +5083,27 @@ html {
 .wy-grid-for-nav {
     position: absolute;
     width: 100%;
-    height: 100%
+    height: auto;
 }
 
 .wy-nav-side {
-    position: fixed;
+    position:absolute;
     top: 0;
     bottom: 0;
     left: 0;
     padding-bottom: 2em;
-    width: 300px;
+    padding-left: 4em;
+    padding-right; 0em;
+    width: 400px;
     overflow-x: hidden;
     overflow-y: hidden;
     min-height: 100%;
-    color: #9b9b9b;
-    background: #343131;
+    color: #d51e1e;
+    background: #ffffff;
     z-index: 200;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.wy-side-scroll {
-    width: 320px;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 100%
-}
+
 
 .wy-nav-top {
     display: none;
@@ -5148,16 +5148,16 @@ html {
 }
 
 .wy-nav-content-wrap {
-    margin-left: 300px;
-    background: #fcfcfc;
+    margin-left: 400px;
+    background: #89898912;
     min-height: 100%
 }
 
 .wy-nav-content {
-    padding: 1.618em 3.236em;
+    padding: 8em;
     padding-top: 0;
     height: 100%;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto
 }
 
@@ -5994,28 +5994,4 @@ span[id*=MathJax-Span] {
 
 #copperforge-logo {
     width: 150px;
-}
-
-@media screen and (max-width: 768px) {
-    .header-bar {
-        display:none;
-    }
-}
-
-/*
-Styling for images and captions (centered captions) 
-Both images and captions 400px by default
-*/ 
-
-img:not(.math) {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-    vertical-align: middle;
-    width: 400px;
-    height: auto;
-}
-
-.caption:not(.wy-menu) {
-    width: 400px;
-    text-align: left;
 }
