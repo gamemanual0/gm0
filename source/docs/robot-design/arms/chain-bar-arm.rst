@@ -20,7 +20,8 @@ Chain bar arms can provide the >24" optimal extension needed to be competitive
 in games, but it also has disadvantages.
 It is much harder to control than a linear slide,
 since a chain bar arm has momentum.
-Thus, it is very difficult to be precise with a chain bar when stopping the arm quickly.
+Thus, it is very difficult to be precise with a chain bar when stopping the arm
+quickly.
 
 .. image:: images/chain-bar/8103-chain-bar-1.png
     :alt: 8103's chain bar to move the relic in Relic Recovery

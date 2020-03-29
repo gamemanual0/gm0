@@ -59,14 +59,16 @@ everything inconsistently.
 We recommend teams focus on one objective during tele-op/endgame and perfect
 it.
 
-.. tip::    Typically, teams which have a solid autonomous and consistent endgame can be
-    competitive at the Qualifier level. This is a recommended goal for new teams.
+.. tip::
+    Typically, teams which have a solid autonomous and consistent endgame can
+    be competitive at the Qualifier level.
+    This is a recommended goal for new teams.
 
 Overcomplicate → Simplify
 =========================
 .. important:: Another common trap that teams fall into is to overcomplicate
     needlessly. Simplifying your robot simplifies possible headaches later.
-    
+
 While some robots are very complicated,
 keep in mind that those teams are generally experienced, have some sort of
 machining capability, and fully design their robot in CAD.
@@ -81,7 +83,7 @@ system has many more variables that need to be adjusted/could cause problems.
 Keeping things simple can be practically achieved through a couple of ways.
 
 1. Limit the degrees of motion that the mechanism operates in.
-   For example, a linear slide goes in and out in a straight line, 
+   For example, a linear slide goes in and out in a straight line,
    as opposed to an arm, which rotates along an axis.
    Doing so will serve to eliminate forces that otherwise could adversely
    affect the mechanism.

@@ -52,15 +52,15 @@ In addition, 2 motor robots may struggle to get over obstacles or climb up
 ramps, due to less power.
 One question that often comes up is
 "don't I need more motors for other things on the robot?"
-This is a valid question, but the answer is generally no. 
+This is a valid question, but the answer is generally no.
 It is possible to build a competitive robot with 4 motors
 allocated to drivetrain, and 4 motors for other mechanisms,
 so there should be no reason to skimp.
-Do remember that the drivetrain is the foundation of the robot. 
+Do remember that the drivetrain is the foundation of the robot.
 Your mechanisms will not be anywhere near optimized if the drivetrain can't get
-your robot from A to B quickly and efficiently. 
-There has not been a game in FTC history where the top robots needed >4 motors 
-for the drivetrain, so this is a pretty safe rule to follow. 
+your robot from A to B quickly and efficiently.
+There has not been a game in FTC history where the top robots needed >4 motors
+for the drivetrain, so this is a pretty safe rule to follow.
 
 
 Pushbot → Mecanum, 6WD, Other Recommended Drivetrains
@@ -76,7 +76,7 @@ a channel-based kit.
 However, we do not advise that teams use that pushbot at a competition due to
 its many flaws.
 
-1. The pushbot is powered by 2 motors, and as stated above, 
+1. The pushbot is powered by 2 motors, and as stated above,
    there isn’t a reason to stay with 2 motors on drivetrain.
 2. The pushbot has poor top speed and turning ability, given that the
    gear ratio (40:1 on 4 inch wheels) is half the speed that many teams use.
@@ -96,14 +96,14 @@ Passive Intake/Claw → Active Intake
     should always be prioritized over passive intakes and grippers.
 
 Active intakes are much more efficient and effective in picking up common
-game elements such as balls, cubes, and rectangular prisms than claws. 
+game elements such as balls, cubes, and rectangular prisms than claws.
 This has been a widely accepted rule;
-many Worlds-level robots over the years use intakes. 
+many Worlds-level robots over the years use intakes.
 **The exception** is that a claw should be used for irregularly shaped objects
 that would be impossible to control via intake;
 for example, the relic in Relic Recovery.
 
-Intakes have two major advantages over claws. 
+Intakes have two major advantages over claws.
 
 1. Intakes can control multiple game elements at a time.
 2. Intakes are indiscriminate at picking up objects,
@@ -137,7 +137,7 @@ Planetary gearboxes are much better suited for drivetrain and arms,
 due to the configuration of the sun and planet gears.
 In addition, spur gear gearboxes are prone to shock loads; therefore,
 direct drive is not advisable on drivetrains.
-Refer to the 
+Refer to the
 :doc:`Gearbox Anatomy <../hardware-basics/motor-guide/gearbox-anatomy>`
 for more complete information on gearboxes.
 **This refers to using spur gear gearboxes which are attached directly to the
@@ -166,5 +166,5 @@ In contrast, linear extensions do not need to worry about gear ratios and
 gearboxes.
 They can be optimized to be more efficient than arms, and typically are more
 precise, as linear motion is easier to control than angular motion.
-Another positive is that linear slides can have more extension than arms, 
+Another positive is that linear slides can have more extension than arms,
 with some reaching 5+ feet in length.

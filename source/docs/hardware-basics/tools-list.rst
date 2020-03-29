@@ -38,7 +38,7 @@ Necessary
 Helpful
 =======
 
-* Bandsaw 
+* Bandsaw
 
 ..  caution::   A bandsaw **cannot** cut through steel shafts!
 

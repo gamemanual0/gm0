@@ -13,7 +13,7 @@ Thus, with a maximum of 18” of extension,
 a couple inches must be subtracted,
 since the point of rotation is inside the 18” sizing cube;
 therefore the extension is around 15-16”.
-Therefore, a single arm with further linear extension is optimal. 
+Therefore, a single arm with further linear extension is optimal.
 For example, some teams built a single arm with an added linear extension
 mechanism to reach the desired extension length, which is generally >24”.
 

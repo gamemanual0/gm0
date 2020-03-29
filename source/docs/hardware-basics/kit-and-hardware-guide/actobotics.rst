@@ -2,7 +2,7 @@
 Actobotics
 ==========
 The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch,
-channel-based building system using imperial units. 
+channel-based building system using imperial units.
 Its 1.5” c-channel and ball-bearing based motion system allows teams to iterate
 and build mechanisms entirely from kit parts.
 
@@ -12,20 +12,20 @@ Special Considerations
 * Actobotics' channel hole pattern has many more mounting holes than a Tetrix
   channel, so it offers more flexibility in terms of mounting.
 * Actobotics uses imperial units across the board,
-  allowing for clean spacing and fitting. However, most other kits use metric. 
+  allowing for clean spacing and fitting. However, most other kits use metric.
 * Actobotics can interface with
   other kits such as REV through a variety of Pattern Adapters.
-* ServoCity offers a 25% off discount for all FIRST teams 
+* ServoCity offers a 25% off discount for all FIRST teams
   (https://www.servocity.com/first_team_discounts),
   making pricing competitive.
 
-Notable Components 
+Notable Components
 ==================
 
 * Mini-channel is offered in addition to the standard size channel for
   non-structural components.
 * Actobotics' X-rail extrusion system offers immense adjustability and
-  flexibility as it adds 
+  flexibility as it adds
   a extrusion component to a channel-based kit.
 * To complement the structural offerings, Actobotics uses a series of clamping
   hubs and a robust 1/4” steel D-shaft.
@@ -34,7 +34,7 @@ Notable Components
   is recommended for all teams, regardless of kit. However,
   ServoBlocks seamlessly interface with the Actobotics ecosystem.
 * Actobotics furthermore offers motion options such as bevel gears and Linear
-  Actuator kits (using lead screws) for specific use cases. 
+  Actuator kits (using lead screws) for specific use cases.
 
 Verdict
 =======

@@ -54,9 +54,9 @@ seem obvious, but almost every FTC newbie made these mistakes at least once.
   - Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into
     a slotted screw that can be removed using regular flat screwdriver.
   - Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_
-  - If nothing works, drill it out. 
-  - If that doesn't work, 
-    remember that a screw is not a screw if it is liquid metal. 
+  - If nothing works, drill it out.
+  - If that doesn't work,
+    remember that a screw is not a screw if it is liquid metal.
     This is obviously not a very good idea. :)
 
   Needless to say, once you removed the damaged screw, discard it immediately -

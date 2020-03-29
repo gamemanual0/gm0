@@ -5,7 +5,8 @@ Choosing a Servo
 For many  applications, you can just use one of the two most common servos
 in FTC, `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
 `goBILDA Dual Mode Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
-However, sometimes these servos are not enough. Here are some of servo features you need to pay attention to when selecting
+However, sometimes these servos are not enough.
+Here are some of servo features you need to pay attention to when selecting
 a servo for your needs.
 
 Servo Type: Regular or Continuous
@@ -24,7 +25,7 @@ to use a servo programmer, available separately from REV or goBILDA.
 ..  caution::  Some vendors offer continuous rotation *option*
   on some servos. These options are modifications to the
   original servo made by the vendor and are illegal in FTC.
-  The only legal continuous rotation servos are CR servos from the **factory**. 
+  The only legal continuous rotation servos are CR servos from the **factory**.
   If you have a seller modify a
   servo for continuous rotation, that servo is not legal.
 
@@ -62,8 +63,8 @@ so let’s go down the list, starting from the weakest.
 
 * **Plastic**: with low power servos, these are normally okay.
   Generally used for applications in model airplanes such as ailerons.
-  FTC applications include light load mechanisms which will not have direct 
-  contact with any game elements or the field. 
+  FTC applications include light load mechanisms which will not have direct
+  contact with any game elements or the field.
 * **Karbonite**: Hitec’s gear plastic is a very durable and long lasting
   plastic and is very good under long use and low load.
   Be aware that it can strip easily under the shock loads found in FTC.
@@ -86,7 +87,7 @@ Servos come in different sizes. Fortunately, almost all manufacturers use the
 same standard set of servo sizes, ranging from sub-micro to large. The two
 sizes commonly used in FTC are *standard size* (which includes REV Smart Servo
 and goBILDA Dual Mode Servo) and *large size* (also known as
-quarter-scale) servos. However, large servos are quite uncommon. 
+quarter-scale) servos. However, large servos are quite uncommon.
 
 Note that while in general, the larger the size, the more powerful the servo,
 it is not a strict rule. You can buy very powerful standard size servos -

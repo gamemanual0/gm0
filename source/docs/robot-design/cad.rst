@@ -8,23 +8,25 @@ CAD stands for computer aided design: making a 3d model of your robot using
 special computer software.
 
 
-.. tip::    CAD is not necessary in FTC to build a successful robot.
+.. tip:: CAD is not necessary in FTC to build a successful robot.
 
 Many successful teams didn’t CAD their robot at all.
 Other successful teams only made parts of their robot in CAD.
 Still other teams fully designed their robot in CAD.
 
-So, what's the point of CAD, then? It is encouraged that new teams try their hand at CAD,
+So, what's the point of CAD, then?
+It is encouraged that new teams try their hand at CAD,
 especially if you have a mentor or parent who is experienced in such an area.
 CAD is beneficial for multiple reasons.
 
-1.  CAD solves a lot of preventable headaches, such as spacing issues.
-    Thus, it will save time when you discover problems in CAD that you can
-    remediate before you build your robot.
-2.  CAD is a professional tool that is used in many STEM fields.
-    Having CAD knowledge and skills will be beneficial in your future career,
-    should you study and work in those fields.
-3.  If you desire to create 3D-printed or machined parts, CAD will be necessary to do so. 
+1. CAD solves a lot of preventable headaches, such as spacing issues.
+   Thus, it will save time when you discover problems in CAD that you can
+   remediate before you build your robot.
+2. CAD is a professional tool that is used in many STEM fields.
+   Having CAD knowledge and skills will be beneficial in your future career,
+   should you study and work in those fields.
+3. If you desire to create 3D-printed or machined parts,
+   CAD will be necessary to do so.
 
 **However, CAD is not the magic genie that will guarantee you success in FTC.**
 When used properly, it is a great tool to aid teams in building their robot.
@@ -45,7 +47,7 @@ a good one is TFI who makes detailed tutorials for Autodesk Inventor.
 
 Overview of CAD Programs
 ------------------------
-There are many possible CAD programs that teams can learn, all of which 
+There are many possible CAD programs that teams can learn, all of which
 can be downloaded for free under a student or FTC team license.
 You’ll have to do a bit of research here,
 as the requirements for free copies vary based on the program.
@@ -59,8 +61,8 @@ SolidWorks
     college-level engineering classes.
     However, **it isn’t available for Mac users**,
     and you’ll need a pretty beefy computer to run it (16GB RAM is standard).
-    SolidWorks also comes with a solid simulation program if you wish to 
-    test the structural properties of your robot or a custom-designed part. 
+    SolidWorks also comes with a solid simulation program if you wish to
+    test the structural properties of your robot or a custom-designed part.
     If you have mentors or team members with previous experience in SolidWorks
     or an engineering class at your school that teaches SolidWorks,
     it will be your best choice.
@@ -165,8 +167,8 @@ check :doc:`../appendix/useful-resources` section in the Appendix.
 
 File sharing
 ------------
-Teams often have multiple members working on CAD models, and thus require 
-a file sharing system for ensuring that each person has up-to-date files. 
+Teams often have multiple members working on CAD models, and thus require
+a file sharing system for ensuring that each person has up-to-date files.
 Some recommendations include GrabCAD, Box, Google Drive, or Dropbox.
-It is also a good idea that one team member work on the model at a time 
-to prevent confusion. 
+It is also a good idea that one team member work on the model at a time
+to prevent confusion.

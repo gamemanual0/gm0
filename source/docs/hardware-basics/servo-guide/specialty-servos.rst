@@ -27,23 +27,27 @@ and similar designs. Note that this servo requires 6V input, so it can not be
 used  directly with REV hubs, which only provide 5V. Instead, you need a
 `REV Servo Power Module <http://www.revrobotics.com/rev-11-1144/>`_.
 
-VEX 393 EDR 
+VEX 393 EDR
 ===========
-The VEX 393 motor is technically a motor, but is legally counted as a servo in 
-Game Manual 1 rules. Why this is, we do not know, but VEX 393 motors have been legal 
-in FTC for many years. 
-The 393 motor acts as a more powerful and faster continuous rotation servo. 
+The VEX 393 motor is technically a motor, but is legally counted as a servo in
+Game Manual 1 rules.
+Why this is, we do not know, but VEX 393 motors have been legal in FTC for many
+years.
+The 393 motor acts as a more powerful and faster continuous rotation servo.
 
-However, there are some difficulties to keep in mind. 
-The 393 motor uses a 1/8" square shaft, which is not directly compatible with any FTC 
-build system. You will have to make custom adapters. 
-Using a 393 motor requires two additional equipment. 
-*   **Motor Controller 29**
-    The MC29 converts the 2-wire motor signal used to drive the 393 into a PWM signal
-    for servo. 
-*   **REV Servo Power Module**
-    The REV SPM is used to boost the voltage given to servos through the Expansion Hub (3.3V) to 
-    5V, which is the minimum voltage needed to run a 393. The SPM accepts PWM signal through the 
-    three-pronged wire end of the MC29. 
-    The SPM will need to be plugged in to the Expansion Hub's power through a Tamiya connector. 
-    Crimping ring terminals to the SPM is necessary. 
+However, there are some difficulties to keep in mind.
+The 393 motor uses a 1/8" square shaft, which is not directly compatible with
+any FTC build system.
+You will have to make custom adapters.
+Using a 393 motor requires two additional equipment.
+
+* **Motor Controller 29**
+  The MC29 converts the 2-wire motor signal used to drive the 393 into a PWM
+  signal for servo.
+* **REV Servo Power Module**
+  The REV SPM is used to boost the voltage given to servos through the
+  Expansion Hub (3.3V) to 5V, which is the minimum voltage needed to run a 393.
+  The SPM accepts PWM signal through the three-pronged wire end of the MC29.
+  The SPM will need to be plugged in to the Expansion Hub's power through a
+  Tamiya connector.
+  Crimping ring terminals to the SPM is necessary.

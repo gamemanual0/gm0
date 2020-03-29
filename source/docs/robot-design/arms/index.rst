@@ -6,8 +6,8 @@ robot.
 Unlike linear extensions, arms require lots of torque -
 a standard 40:1 or even 60:1 gearbox will not be suitable in most applications.
 For example, many teams will run a 256:1 gearbox for their rotation motor.
-Do note that such motors must be very well supported, or else the motor may 
-torque itself free from its mount. 
+Do note that such motors must be very well supported, or else the motor may
+torque itself free from its mount.
 Rarely should an arm be directly mounted to the driving motor.
 Instead, torque should be transferred via gear, chain, or belt.
 Large arms can also be hard to control

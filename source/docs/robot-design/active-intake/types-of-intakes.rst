@@ -46,9 +46,10 @@ Compliant wheels also accounting for different game element orientations
 Compliant Wheel Intake
 ----------------------
 The compliant wheel intake is most commonly used with large game elements such
-as the glyphs in the 2017-2018 season, Relic Recovery. 
-Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes
-or rectangular prisms. They suffer at picking up balls. 
+as the glyphs in the 2017-2018 season, Relic Recovery.
+Compliant wheel intakes excel at controlling elements with flat surfaces such
+as cubes or rectangular prisms.
+They suffer at picking up balls.
 In this game, robots had to pick up glyphs, which were 6 inch foam cubes,
 from the center pit and place them in the cryptobox.
 This game had many wheeled intakes primarily because the wheels had consistent
@@ -58,6 +59,9 @@ point of contact to the deposit plate,
 which would flip up to deposit the glyphs.
 
 Wheeled intakes can be spring-loaded or locked into place.
+
+.. sidebar:: Spring-Loaded Intakes
+
     A spring-loaded intake is able to pivot in order to accommodate a game element
     when it is passing through the intake,
     but will snap back when the element has gone through.
@@ -65,8 +69,9 @@ Wheeled intakes can be spring-loaded or locked into place.
     but guarantees that the intake wheel will always be in contact with the desired
     element.
 
-    A locked intake simply means that the wheels are locked into place and cannot
-    pivot.
+    A locked intake simply means that the wheels are locked into place and
+    cannot pivot.
+
 Teams could choose one or mix; in Relic Recovery,
 some teams spring-loaded the set of wheels that made contact first,
 and then had a fixed set in the back.
@@ -164,7 +169,7 @@ have multiple sets of tubing in order to move minerals from the collection
 point to the holding box.
 This was most often seen in games where robots had to transfer minerals from
 the field to an elevated location.
-Unlike wheeled and rubber band intakes, which can be spring-loaded, 
+Unlike wheeled and rubber band intakes, which can be spring-loaded,
 surgical tubing intakes are practically always fixed at a certain height and
 angle.
 
@@ -177,8 +182,10 @@ tubing that is quite stiff.
 Using some lubricant, insert the clear tubing into the surgical tubing for
 added stiffness.
 It is encouraged that teams test different RPMs and stiffness to develop the
-optimal intake. You will be surprised how changing one small variable such as the 
-diameter of tubing or how far the tubing extends can affect intake effectiveness. 
+optimal intake.
+You will be surprised how changing one small variable such as the
+diameter of tubing or how far the tubing extends can affect intake
+effectiveness.
 
 Surgical tubing intakes are especially good at picking up multiple elements at
 a time, due to the high RPM (sometimes >1000 RPM) of the rollers.
@@ -191,7 +198,7 @@ Advantages
 
 * Able to collect multiple elements at a time
 * Generally more efficient than wheeled intakes
-* Specializes in small and odd-shaped elements 
+* Specializes in small and odd-shaped elements
 
 Disadvantages
 ^^^^^^^^^^^^^
@@ -225,8 +232,8 @@ Zip Tie Intake
 --------------
 Instead of using surgical tubing, some teams opt for heavy zip ties instead.
 This can work, but we recommend surgical tubing as it is one of the most tried
-and tested methods for picking up nearly any game element. Zip ties lack 
-the friction of rubber tubing. 
+and tested methods for picking up nearly any game element. Zip ties lack
+the friction of rubber tubing.
 
 3D printed intake (NinjaFlex/TPU Filament)
 ------------------------------------------

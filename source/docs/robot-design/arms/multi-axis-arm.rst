@@ -3,7 +3,7 @@ Multi-Axis Arm
 ==============
 A multi-axis arm is an arm which has multiple points of rotation.
 Multi-axis arms introduce many variables that exponentially complicate matters
-and can really only be modeled through complex kinematic equations. 
+and can really only be modeled through complex kinematic equations.
 This is highly discouraged for inexperienced FTC teams due to the difficulty of
 building as well as the need for machine tools.
 

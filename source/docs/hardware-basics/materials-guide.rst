@@ -2,11 +2,11 @@
 Materials Guide
 ===============
 In FTC, teams have design freedom in terms of what raw materials to use.
-However, there are definitely some important recommendations regarding 
+However, there are definitely some important recommendations regarding
 material usage.
 
-Common raw materials may be found at your local hardware store. 
-McMaster-Carr and OnlineMetals are two frequently used online vendors. 
+Common raw materials may be found at your local hardware store.
+McMaster-Carr and OnlineMetals are two frequently used online vendors.
 For more vendors, check the Appendix.
 
 Here are recommended materials listed in order of importance.
@@ -46,17 +46,17 @@ Aluminum
 * A high strength, medium-high density material. Suitable for use in nearly
   every application; recommended in load-bearing applications.
 * Aluminum comes in channel, extrusion, flat, angle, sheet/plate,
-  and is used in some drawer slides. 
+  and is used in some drawer slides.
 
 Aluminum channel is used in many build system kits and is very popular among
 teams of various skill levels. Channel is strong yet relatively lightweight,
 and offers many mounting options for teams.
 
 15 mm extrusion is compatible with M3 hardware, allowing teams to slide in
-bolts to their desired location. REV and MiSUMI offer 15 mm extrusion. 
+bolts to their desired location. REV and MiSUMI offer 15 mm extrusion.
 REV extrusion is not as great structurally,
 but is lighter than Misumi extrusion. MiSUMI is more resistant to flexing
-and/or twisting under load. Both REV and Misumi extrusion are sold in bulk, 
+and/or twisting under load. Both REV and Misumi extrusion are sold in bulk,
 and Misumi has the option to cut to the half millimeter.
 Keep in mind that a lot of extrusion can add up quickly in terms of weight.
 
@@ -131,18 +131,18 @@ heat can work for thinner sheets.
 
 ABS
 ===
-* ABS is a hard low-friction plastic that is easily machinable.  
-* ABS sheet can be used for side panels, ramps, and even drivetrain plates. 
-* It is not as strong as Delrin, but strong enough for most purposes. 
+* ABS is a hard low-friction plastic that is easily machinable.
+* ABS sheet can be used for side panels, ramps, and even drivetrain plates.
+* It is not as strong as Delrin, but strong enough for most purposes.
 * ABS is cheaper than Lexan and Delrin.
 * ABS can be machined using hand tools or CNC.
-  ABS sheets can be also bent using sheet bender (recommended) or a heat gun. 
-* Thin (1/16 inch) ABS sheets can also be cut using shears. 
+  ABS sheets can be also bent using sheet bender (recommended) or a heat gun.
+* Thin (1/16 inch) ABS sheets can also be cut using shears.
 
 Delrin
 ======
 * Acetal, also known under brand name Delrin, is a low-friction strong plastic.
-  It is a common plastic used for wheels, plastic gears, 
+  It is a common plastic used for wheels, plastic gears,
   and sprockets (especially in the REV system).
 * It is a durable and strong plastic that is not easily cracked.
   Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness),
@@ -164,7 +164,7 @@ HDPE
 Polyvinyl chloride (PVC)
 ========================
 
-* PVC is a common lightweight plastic ubiquitous at any hardware store. 
+* PVC is a common lightweight plastic ubiquitous at any hardware store.
 * PVC is most commonly sold as pipe, though PVC sheet does exist.
 * FTC teams generally use PVC in order to customize intake rollers,
   especially for surgical tubing intakes.
@@ -174,7 +174,7 @@ Polyvinyl chloride (PVC)
 * Since PVC is cheap,
   teams can easily experiment with different mechanism configurations.
 * PVC pipe is sometimes used in cable management to run wires through,
-  as it comes in different diameters and can easily be mounted. 
+  as it comes in different diameters and can easily be mounted.
 * PVC sheet can be bought or made by cutting vertically along the pipe so that
   the profile looks like a C. Bake in oven.
   PVC sheet is pliable yet sturdy, making it a good option for backstops or
@@ -186,14 +186,14 @@ Acrylic
   It will crack and possibly shatter under impact.**
   Do not use it on drivetrains by any means!
 
-* Acrylic is a transparent thermoplastic commonly known as Plexiglass. 
-* As acrylic is not a structural material, 
+* Acrylic is a transparent thermoplastic commonly known as Plexiglass.
+* As acrylic is not a structural material,
   it should only be used in mechanisms where there is no chance of shock
   impact.
 * It may be used for aesthetic purposes or as shielding
   (to protect game elements from falling into the robot or from other robots
   tangling with wires, etc.)
-* Treat acrylic as fancy clear cardboard - 
+* Treat acrylic as fancy clear cardboard -
   it cannot be loaded and should only be used in very specific circumstances.
 
 Other

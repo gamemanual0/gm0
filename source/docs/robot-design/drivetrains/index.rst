@@ -49,10 +49,11 @@ Here are some priorities for that we think are important for each drivetrain:
    (See :doc:`../../hardware-basics/motor-guide/index` for details).
    Thus, spur gear motors are not the optimal choice for drivetrain,
    especially if the robot is projected to be on the heavy side (30+ pounds).
-   
-   Generally, more complex drivetrains pose more reliability challenges for inexperienced teams. 
-   Our advice is to stick to the simpler drivetrains such as 4 or
-   6 wheel drive and mecanum drive.
+
+   Generally, more complex drivetrains pose more reliability challenges for
+   inexperienced teams.
+   Our advice is to stick to the simpler drivetrains such as 4 or 6 wheel drive
+   and mecanum drive.
 2. **Agility**: There are many factors to agility: top speed, acceleration,
    turning radius, turn speed, and ability to strafe.
    Note that turning radius is an often overlooked feature that is critical to
@@ -60,7 +61,7 @@ Here are some priorities for that we think are important for each drivetrain:
    Generally, a solid drivetrain should have a maximum speed of around 2-3.5
    feet/second, and be able to turn fully in around two seconds.
    A good resource to determine the agility of a drivetrain is the
-   :doc:`../../hardware-basics//motor-guide/jvn-calculator` -
+   :doc:`../../hardware-basics//motor-guide/jvn-calculator`;
    refer to that section for more information.
 3. **Number of motors and gear ratio**: Generally, new teams may try to use
    only two motors on the drivetrain.

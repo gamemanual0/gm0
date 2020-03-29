@@ -29,7 +29,7 @@ and if one gear breaks,
 the entire gearbox will stop functioning.
 
 ..  tip:: Using spur gearboxes on high-load applications such as
-  drivetrains or arms is not recommended. 
+  drivetrains or arms is not recommended.
   Instead, use planetary gearboxes.
 
 .. figure:: images/motor-hardware/spur-gearbox.jpg
@@ -44,7 +44,7 @@ Generally, spur gearboxes are cheaper than planetary gearboxes.
 However, in FTC that price change is often minimal.
 A 20:1 planetary gearbox from REV is only $4 more than a spur 20:1
 
-Spur gearboxes from different vendors are not interchangeable. 
+Spur gearboxes from different vendors are not interchangeable.
 However, they are comparable and practically indistinguishable in performance.
 The main thing to consider here is your **desired reduction,
 your desired motor connections, and your desired output shaft type**.

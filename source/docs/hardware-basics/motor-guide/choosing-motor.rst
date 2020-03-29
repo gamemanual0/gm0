@@ -17,7 +17,7 @@ the only FTC legal motors are the following ones:
 
 With the exception of REV Core Hex Motor, which is discussed separately,
 all other motors above have very similar structure.
-They consist of the following components. 
+They consist of the following components.
 
 * **Bare motor**. In all cases above, this is a 12V  motor of RS-555
   type, with free speed around 6,000 RPM and stall current around 10A.
@@ -127,8 +127,8 @@ than the standard  ones, but they can be quite expensive and require more work.
   and maximum of 125:1.
   The UltraPlanetary was intended to give teams the maximum customization
   without the typical limiting factor - high cost.
-  The total cost for the three stage gearbox and motor is *exceptionally* 
-  good value for a customizable motor. 
+  The total cost for the three stage gearbox and motor is *exceptionally*
+  good value for a customizable motor.
   In addition, the UltraPlanetary has a female 5mm hex output shaft which
   allows teams to customize the shaft length.
 * `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_  gearboxes -
@@ -143,11 +143,11 @@ than the standard  ones, but they can be quite expensive and require more work.
 * `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_
   gearboxes - These planetary gearboxes were designed for FRC use and are
   arguably the most durable gearbox in FTC.
-  Because they were designed for such heavy use, the VP is quite costly. 
+  Because they were designed for such heavy use, the VP is quite costly.
   If you break one of the components, the gearbox is very easy to repair.
   Unlike other gearboxes, almost every part is replaceable and can be purchased
   separately.
-  You can disassemble the gearbox from the motor-side, 
+  You can disassemble the gearbox from the motor-side,
   so removing the gearbox from the mounted plate is not necessary
   Attaching the pinion to a bare motor is simple
   since it clamps onto the motor shaft instead of a press fit like the
@@ -182,7 +182,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   options including 1/2” hex, 3/8” hex, 1/2” round with 1/8” keyway,
   a CIM Output option, and a Universal Female Output Shaft.
   However, the shaft can be swapped out for a different one.
- 
+
 
 
 

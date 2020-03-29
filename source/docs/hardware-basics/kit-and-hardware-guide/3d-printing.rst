@@ -4,7 +4,7 @@
 Advantages of 3D Printing
 =========================
 * **3D printing allows teams to have customizable strain relief on wires and
-  connections. This is a great project and well worth your time.** 
+  connections. This is a great project and well worth your time.**
 * 3D printing allows for customizable sizing and perfect optimization;
   for example, teams can print a spool of the exact diameter needed for optimal
   speed.
@@ -64,7 +64,7 @@ Common Filament Types
   TPU also has very high layer bonding strength compared to other filament
   types, making it suitable for high load applications that do not need to be
   stiff.
-  TPU must be printed on a printer with a direct extruder. 
+  TPU must be printed on a printer with a direct extruder.
   It will not work on bowden extruders.
   A bowden extruder is mounted on the frame of the 3D printer and is connected
   to the nozzle with a flexible tube that guides the filament.
@@ -73,7 +73,7 @@ Common Filament Types
 
 3D Printing Design Guide
 ========================
-Here is a quick guide on designing 3D printed parts that we hope is helpful 
+Here is a quick guide on designing 3D printed parts that we hope is helpful
 for teams who may be unfamiliar with 3D parts.
 
 The first consideration when designing 3D printed parts is print orientation.
@@ -98,8 +98,8 @@ is wasted.
     :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
     :scale: 25%
 
-.. tip::   Don't chamfer or round anything on the perimeter of the first layer 
-  on the bottom face of the part. Chamfering or rounding will increase the 
+.. tip::   Don't chamfer or round anything on the perimeter of the first layer
+  on the bottom face of the part. Chamfering or rounding will increase the
   chances of the part warping, especially on unheated print plates.
 
 Draft Angle

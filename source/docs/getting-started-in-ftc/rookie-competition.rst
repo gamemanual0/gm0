@@ -77,15 +77,15 @@ a team won’t go far without good game strategy.
 For example, drivers should know exactly where the robot needs to be positioned
 after the autonomous → tele-op switch.
 Practicing this switch will save a couple of seconds when drivers have to think
-“what do I do now?” 
+“what do I do now?”
 In very competitive matches, these few seconds may be able to gain your team an
-extra cycle. 
+extra cycle.
 Knowing when to transition from a tele-op to endgame objective is equally
 important (hint: perfect one first) and will save valuable time.
 Strategy should **always be used to maximize points** - whether this is a
 positioning strategy to access the game elements, or a defensive strategy to
 hinder the other alliance from scoring.
-    
+
 .. tip:: Remember, denying the other alliance 10 points is the same value as
     scoring 10 points.
 

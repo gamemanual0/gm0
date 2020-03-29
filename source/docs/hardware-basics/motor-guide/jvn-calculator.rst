@@ -53,17 +53,17 @@ The calculator will ask for a pulley diameter,
 so provide the diameter of the spool that the string is wound on.
 For a horizontal linear mechanism, neglect stall load.
 For vertical linear mechanisms, only pay attention to stall load if the
-mechanism will hang the robot. 
+mechanism will hang the robot.
 
-..  note::  It is recommended that the factor of safety for a hang be 1.5-2x the weight of the robot. 
+..  note::  It is recommended that the factor of safety for a hang be 1.5-2x the weight of the robot.
   Thus, the load should be 60-80+ pounds for a 40 pound robot.
 
 A good starting point for non-hang extensions is around 6 in/sec, but most
-teams will increase speed over time. 
-It may be prudent to start slower, though, 
-to allow your driver to adjust to the speed before increasing it. 
+teams will increase speed over time.
+It may be prudent to start slower, though,
+to allow your driver to adjust to the speed before increasing it.
 
-Drivetrains 
+Drivetrains
 ===========
 For 1-speed drivetrains,
 just enter in the correct motor specifications and add in the total weight and
@@ -73,7 +73,7 @@ The adjusted speed will account for sag into field tiles,
 loss of efficiency through belts, gears, etc.,
 and loss of grip as the wheels eventually wear out.
 A good starting point should be around 2 ft/s,
-though many teams have faster drivetrains ranging to 5+ ft/s. 
+though many teams have faster drivetrains ranging to 5+ ft/s.
 Bear in mind that for inexperienced teams,
 a fast drivetrain decreases controllability.
 
