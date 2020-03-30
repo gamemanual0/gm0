@@ -6,7 +6,7 @@ Tank (Skid-Steer) Drivetrains
 =============================
 **Recommended only for first drivetrain, not for competitions**
 
-This rookie drivetrain is considered to be a subpar drivetrain,
+This rookie drivetrain is considered one of the inferior drivetrains,
 though it is usable at low competition levels.
 This is the introductory drivetrain type for many rookies,
 as it is promoted in official guides published by FIRST
