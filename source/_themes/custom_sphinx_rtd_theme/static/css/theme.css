@@ -2,7 +2,7 @@ header {
     margin-left: -3.236em;
     margin-right: -3.236em;
     margin-bottom: 10px;
-    background: #555555;
+    background: #ffffff00;
     flex-shrink: 0;
 }
 
@@ -51,9 +51,10 @@ header {
     /*border-top-left-radius: 2px;*/
     /*border-top-right-radius: 2px;*/
     /*-webkit-transition: .2s all;*/
-    transition: 1s all;
+    transition: 2s all;
     font-weight: 700;
-    color: #fff;
+    color: #000;
+    font-family: 'Lato', sans-serif
 }
 
 .tabs-container ul li:first-of-type a {
@@ -4812,7 +4813,7 @@ html {
 
 .wy-menu-vertical li.current a {
     color: grey;
-    border-right: 1px solid #c9c9c9;
+    border-right: 1px solid #00000000;
     padding: .4045em 2.427em
 }
 
@@ -4941,12 +4942,12 @@ html {
 
 .wy-menu-vertical a {
     display: inline-block;
-    line-height: 18px;
+    line-height: 30px;
     padding: .4045em 1.618em;
     display: block;
     position: relative;
     font-size: 90%;
-    color: #d9d9d9
+    color: #000000;
 }
 
 .wy-menu-vertical a:hover {
@@ -5082,23 +5083,27 @@ html {
 }
 
 .wy-nav-side {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     padding-bottom: 2em;
-    width: 300px;
+    width: 400px;
     overflow-x: hidden;
     overflow-y: hidden;
-    min-height: 100%;
+    min-height: fit-content;
+    padding-left: 50px;
     color: #9b9b9b;
-    background: #343131;
+    background: #fcfcfc;
     z-index: 200;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 140%;
+    letter-spacing: 2pt;
 }
 
 .wy-side-scroll {
-    width: 320px;
+    width: 350px;
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -5148,7 +5153,7 @@ html {
 }
 
 .wy-nav-content-wrap {
-    margin-left: 300px;
+    margin-left: 500px;
     background: #fcfcfc;
     min-height: 100%
 }
