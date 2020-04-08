@@ -26,6 +26,7 @@ For further reading, we highly suggest you check out those links.**
     * `KNO3 Software/Mechanical/CAD Resources <https://www.kno3.net/resources>`_
     * `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
     * `FIRST things FIRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
+    * `(Unofficial) FTC Tutorials <http://ftctutorials.com/>`_
     * `The Orange Alliance (TOA) (Competition/Performance Data) <http://www.theorangealliance.org/>`_
     * `TOA Text (Query TOA Data via text messaging) <https://docs.google.com/document/d/1jnZJtvooSV0mYEuOF1iGqjgWHXIShS4nFgICLt5anjI/edit#>`_
     * `FTCScores (Sometimes used instead of TOA) <https://ftcscores.com/>`_
