@@ -91,8 +91,8 @@ The **module** (abbreviated **MOD**) of a gear is used similarly to diametral
 pitch.
 It is the number of millimeters of the gear’s diameter per tooth of the gear.
 The equation to find center distance :math:`D` is
-:math:`D = \frac{(T_{1} + T_{2}) * M}{2}`, where :math:`T_{1}` and :math:
-`T_{2}` are the number of teeth of each gear in question, and :math:`M` is the
+:math:`D = \frac{(T_{1} + T_{2}) * M}{2}`, where :math:`T_{1}` and
+:math:`T_2` are the number of teeth of each gear in question, and :math:`M` is the
 module of the gear.
 
 Additionally, it is possible to average the pitch diameters of the two gears to
