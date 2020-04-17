@@ -11,8 +11,6 @@ Game Manual 0 employs the
 and the articles themselves are written in 
 [reStructuredText](http://docutils.sourceforge.net/rst.html).  
 
-Currently, building Game Manual 0 is only supported on POSIX systems.
-
 Requirements
 ------------
 * Python 3
