@@ -70,7 +70,7 @@ SolidWorks
 Inventor
     Autodesk’s industrial CAD offering.
     It offers many similar features to SolidWorks,
-    but has a different UI and two distinct assembly modes.
+    but has a different UI and three distinct assembly modes.
     While it’s used by many companies in the industry,
     it doesn’t appear in very many college curriculums.
     Inventor is generally the second choice for companies who don’t use
