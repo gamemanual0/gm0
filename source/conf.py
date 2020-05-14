@@ -89,7 +89,7 @@ pygments_style = None
 #
 html_theme = 'custom_sphinx_rtd_theme'
 html_theme_path = ["_themes", ]
-html_logo = "assets/gm0-logo-colored.png"
+html_logo = "assets/gm0-logo.png"
 html_favicon = "assets/gm0-logo.ico"
 
 # Theme options are theme-specific and customize the look and feel of a theme

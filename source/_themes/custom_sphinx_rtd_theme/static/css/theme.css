@@ -5260,7 +5260,7 @@ footer p {
     }
 
     .wy-nav-side {
-        left: -300px
+        display: none;
     }
 
     .wy-nav-side.shift {
@@ -5269,7 +5269,7 @@ footer p {
     }
 
     .wy-menu.wy-menu-vertical, .wy-side-nav-search, .wy-side-scroll {
-        width: auto
+        display: none;
     }
 
     .wy-nav-content-wrap {
@@ -5999,12 +5999,6 @@ span[id*=MathJax-Span] {
 
 #copperforge-logo {
     width: 150px;
-}
-
-@media screen and (max-width: 768px) {
-    .header-bar {
-        display:none;
-    }
 }
 
 /*
