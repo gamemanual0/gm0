@@ -5250,58 +5250,54 @@ footer p {
     margin-left: 24px
 }
 
+
 @media screen and (max-width: 768px) {
     .wy-body-for-nav {
-        background: #fcfcfc
+     background:#fcfcfc
     }
-
     .wy-nav-top {
-        display: block
+     display:block
     }
-
     .wy-nav-side {
-        display: none;
+     left:-400px;
     }
-
     .wy-nav-side.shift {
-        width: 85%;
-        left: 0
+     width: 85%;
+     left: 0;
     }
-
-    .wy-menu.wy-menu-vertical, .wy-side-nav-search, .wy-side-scroll {
-        display: none;
+    .wy-side-scroll {
+     width:auto
     }
-
+    .wy-side-nav-search {
+     width:auto
+    }
+    .wy-menu.wy-menu-vertical {
+     width:auto
+    }
     .wy-nav-content-wrap {
-        margin-left: 0
+     margin-left:0
     }
-
     .wy-nav-content-wrap .wy-nav-content {
-        padding: 1.618em;
-        padding-top: 0;
+     padding:1.618em
     }
-
     .wy-nav-content-wrap.shift {
-        position: fixed;
-        min-width: 100%;
-        left: 85%;
-        top: 0;
-        height: 100%;
-        overflow: hidden
+     position:fixed;
+     min-width:100%;
+     left:85%;
+     top:0;
+     height:100%;
+     overflow:hidden
     }
-}
-
-@media screen and (min-width: 1100px) {
+   }
+   @media screen and (min-width: 1100px) {
     .wy-nav-content-wrap {
-        background: rgba(0, 0, 0, .05)
+     background:rgba(0,0,0,0.05)
     }
-
     .wy-nav-content {
-        margin: 0;
-        background: #fcfcfc
+     margin:0;
+     background:#fcfcfc
     }
-}
-
+   }
 @media print {
     .rst-versions, .wy-nav-side, footer {
         display: none
