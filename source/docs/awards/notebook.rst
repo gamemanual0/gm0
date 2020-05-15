@@ -1,6 +1,6 @@
-========  =======  ===  =========
+=================================
 Notebook  Designs  and  Decisions
-========  =======  ===  =========
+=================================
 
 This section will cover both what needs to be in the notebook and the decisions
 you need to make about it affecting both individual sections and it as a whole.
