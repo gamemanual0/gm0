@@ -1,5 +1,5 @@
 =================================
-Notebook  Designs  and  Decisions
+Notebook Designs and Decisions
 =================================
 
 This section will cover both what needs to be in the notebook and the decisions

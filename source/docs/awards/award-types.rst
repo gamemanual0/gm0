@@ -2,6 +2,9 @@
 Award Types
 ===========
 
+Advancing Awards
+================
+
 There are 7 awards for FTC teams (excluding optional awards).
 In order of advancement priority, these are:
 
@@ -185,6 +188,7 @@ Official Game Manual Description
 
 Control Award
 -------------
+
 The Control award is meant to recognize a team that has a good software
 solution to make their robot intelligent.
 It’s known as the “software award” and is for the team with thebest/most
@@ -248,7 +252,7 @@ Some examples of control award sheets are
 * `9794 Wizards.exe Skystone <https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_
 
 Connect vs Motivate
-===================
+-------------------
 
 Both outreach awards can be hard to differentiate,
 as the official descriptions are super vague,
