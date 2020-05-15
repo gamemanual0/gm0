@@ -46,8 +46,10 @@ Hardware & Electrical
 * Andrew - FTC 8417 ‘Lectric Legends - team@lectriclegends.org
 * Eric - FTC Alum - 8417 ‘Lectric Legends - team@lectriclegends.org
 * Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
+* David - FTC 8680 Kraken Pinion
 * Kevin - FTC 9048 Philobots
 * Justin - FTC 9656 Omega - evhsomega@gmail.com
+* Arjun - FTC 9794 Wizards.exe - oberoiarjun2009@gmail.com
 * Baylor - FTC 10641 Atomic Gears
 * Peter - FTC 12533 Inception - team@ftc12533.org
 * Nate - FTC 12897 Newton’s Law of Mass
