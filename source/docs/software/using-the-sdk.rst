@@ -215,7 +215,8 @@ Inside of every opmode, there are already 2 working gamepad objects,
 ``gamepad1`` and ``gamepad2``.
 ``gamepad1`` is the controller that is connected using start+a, while
 ``gamepad2`` is the controller connected using start+b.
-To get input, no functions need to be called; rather fields of ``gamepad1`` or ``gamepad2`` need to be accessed. 
+To get input, no functions need to be called;
+rather fields of ``gamepad1`` or ``gamepad2`` need to be accessed.
 Here are a few examples:
 ::
 

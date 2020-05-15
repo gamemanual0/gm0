@@ -76,3 +76,11 @@ It is not legal for all FTC teams for the 2019-2020 season.**
 .. image:: images/control-system/ch-wiring-diagram.png
     :alt: A diagram of the Control Hub + Expansion Hub control system
     :width: 100%
+
+
+.. |firmware warning| replace:: It is of vital importance to update the
+    firmware on REV Expansion hubs to at least version 1.8.2.
+    It includes better protection against disconnects and improves program
+    performance. See the `REV Expansion Hub firmware update docs`_.
+
+.. _REV Expansion Hub firmware update docs: https://www.revrobotics.com/software/#ExpansionHubFirmware

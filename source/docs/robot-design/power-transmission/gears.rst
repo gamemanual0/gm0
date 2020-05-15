@@ -92,8 +92,8 @@ pitch.
 It is the number of millimeters of the gear’s diameter per tooth of the gear.
 The equation to find center distance :math:`D` is
 :math:`D = \frac{(T_{1} + T_{2}) * M}{2}`, where :math:`T_{1}` and
-:math:`T_2` are the number of teeth of each gear in question, and :math:`M` is the
-module of the gear.
+:math:`T_2` are the number of teeth of each gear in question,
+and :math:`M` is the module of the gear.
 
 Additionally, it is possible to average the pitch diameters of the two gears to
 find the correct center-to-center distance.

@@ -272,10 +272,8 @@ todo_include_todos = not is_release_build
 imgmath_image_format = 'svg'
 
 rst_epilog = """
-.. |firmware warning| replace:: It is of vital importance to update the 
-    firmware on REV Expansion hubs to at least version 1.8.2. 
-    It includes better protection against disconnects and improves program 
-    performance. See the `REV Expansion Hub firmware update docs`_.
-
-.. _REV Expansion Hub firmware update docs: https://www.revrobotics.com/software/#ExpansionHubFirmware
+.. |gm0| replace:: Game Manual 0
+.. |gm1| replace:: Game Manual Part 1
+.. |gm2| replace:: Game Manual Part 2
+.. |EN| replace:: Engineering Notebook
 """

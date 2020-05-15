@@ -44,19 +44,19 @@ Instead we have provided general and specific recommendations and best
 practices to follow.
 
 Here's an overview of how FTC works.
-Each season, Game Manual 1 (GM1) will be updated sometime in the summer.
+Each season, |gm1| will be updated sometime in the summer.
 GM1 contains the general rules of FTC, competition and advancement,
 as well as hardware and software restrictions.
-Game Manual 2 (GM2) is released on kickoff day.
+|gm2| is released on kickoff day.
 It provides the game rules about the specific game that your team will be
 participating in this year, such as how to score points, what autonomous should
 do, penalties, etc.
-Every year, teams are required to build a robot following restrictions in GM1
+Every year, teams are required to build a robot following restrictions in |gm1|
 and document what they have done in an Engineering Notebook.
 The Engineering Notebook describes your team's journey through the engineering
 design process in an organized and cohesive way.
-GM0's focus is currently not about the Engineering Notebook, although there are
-other great resources out there on that particular subject.
+|gm0|'s focus is currently not about the Engineering Notebook,
+although there are other great resources out there on that particular subject.
 Each team will have at least one chance to compete, either at Qualifier Events
 or League Meets.
 At Qualifier tournaments, every team will play 5 to 6 matches. The top 4 teams
@@ -64,14 +64,14 @@ are captains and form four alliances of three teams each.
 As for League Meets, the meet process varies greatly among regions, but
 generally teams will
 compete at low-stress League Meets, and have a culminating Leage Championship.
-More information on the selection process is in GM1.
+More information on the selection process is in |gm1|.
 The top teams in both events will advance to the next level, generally the
 State or Regional Championship.
 
-Game Manual 2 is published when the season officially starts,
+|gm2| is published when the season officially starts,
 and provides game specific rules that change from year to year.
-While we cannot provide any help for GM2,
-here are some rules in GM1 for teams to be aware of,
+While we cannot provide any help for |gm2|,
+here are some rules in |gm1| for teams to be aware of,
 as many new teams run into problems during their tournament because of it.
 
 * All teams MUST bring the Consent and Release forms to every competition.
