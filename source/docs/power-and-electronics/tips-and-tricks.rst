@@ -20,7 +20,7 @@ The file can be found on Thingiverse or through this
     An example XT30 to Anderson Powerpole adapter
 
 The Tamiya connectors found on many of the FTC legal batteries are very weak
-and prone to becoming unreliable after 10-20 repeated plug/unplug cycles.
+and prone to becoming unreliable after many repeated plug/unplug cycles.
 It is recommended that teams crimp new Anderson Powerpole connectors onto the
 battery.
 

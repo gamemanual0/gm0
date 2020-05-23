@@ -58,8 +58,8 @@ Here are some priorities for that we think are important for each drivetrain:
    turning radius, turn speed, and ability to strafe.
    Note that turning radius is an often overlooked feature that is critical to
    the overall agility of the drivetrain.
-   Generally, a solid drivetrain should have a maximum speed of around 2-3.5
-   feet/second, and be able to turn fully in around two seconds.
+   Generally, a solid drivetrain should have a speed in the range of 3-5
+   feet/second, and be able to turn fully in around 1 second.
    A good resource to determine the agility of a drivetrain is the
    :doc:`../../hardware-basics//motor-guide/jvn-calculator`;
    refer to that section for more information.
@@ -85,7 +85,8 @@ Here are some priorities for that we think are important for each drivetrain:
 4. **Traction/Pushing Power**: While this feature is often overemphasized,
    it is still very important.
    Pushing power describes a drivetrain’s ability to endure defense/engage in
-   defense.
+   defense. In addition, traction will be important if the drivetrain must 
+   traverse obstacles or some sort of terrain. 
    Many factors affect the pushing power of a drivetrain, including wheel type,
    motor gearing, and overall weight of the robot.
    Note that if you already have a very agile drivetrain with experienced
@@ -119,7 +120,8 @@ Here are some priorities for that we think are important for each drivetrain:
 * Pushing power?
 * Ability to get over terrain?
 * Do you need to strafe?
-* All of these questions need to be answered before choosing a drivetrain.
+
+All of these questions should be answered before choosing a drivetrain.
 
 Drivetrain Options
 ==================

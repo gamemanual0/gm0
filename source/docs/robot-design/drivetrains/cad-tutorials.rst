@@ -33,7 +33,7 @@ Here are some things to figure out before starting:
 * Drive Type (mecanum, 6wd, 8wd, etc.)
 * Number of Motors (four motors recommended in most cases)
 * Type of wheels (Colson, omni, etc.)
-* Drive Power (belt, chain, gear)
+* Drive power (belt, chain, gear)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors.
 The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid

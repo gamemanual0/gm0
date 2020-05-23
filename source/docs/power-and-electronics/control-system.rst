@@ -7,7 +7,7 @@ and a “Driver Station.” The “Robot Controller” phone is mounted on the r
 and connected by a USB cable to a special “Hub”, which in turn is connected to
 motors, servos, and sensors.
 
-The two major manufacturers of control hubs for  FTC are Modern Robotics and
+The two major manufacturers of control hubs for FTC are Modern Robotics and
 REV; however, nearly all teams are shifting over to REV because it is cheaper,
 simpler, and more reliable.
 
@@ -67,11 +67,8 @@ head to REV Robotics’ Technical Resources page on their website.
 REV Control Hub + REV Expansion Hub
 ===================================
 
-.. warning:: |firmware warning|
-
-**Note: The Control Hub is currently undergoing a pilot program and is only
-legal for competition in specific regions throughout the US.
-It is not legal for all FTC teams for the 2019-2020 season.**
+Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season onwards. In 2019-2020,
+the Control Hub was not legal for all teams as it was undergoing a pilot program.
 
 .. image:: images/control-system/ch-wiring-diagram.png
     :alt: A diagram of the Control Hub + Expansion Hub control system

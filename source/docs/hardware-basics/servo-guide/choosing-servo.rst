@@ -2,20 +2,20 @@
 Choosing a Servo
 ================
 
-For many  applications, you can just use one of the two most common servos
+For many applications, you can just use one of the two most common servos
 in FTC, `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
 `goBILDA Dual Mode Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
 However, sometimes these servos are not enough.
-Here are some of servo features you need to pay attention to when selecting
-a servo for your needs.
+Here are some important servo features to consider when selecting
+a servo.
 
 Servo Type: Regular or Continuous
 ---------------------------------
-Servos described above, which can rotate to a given position based on PWM
-input signal, are called **regular servos**. In addition, there are also
+Servos which can rotate to a given position based on PWM
+input signal are called **regular servos**. In addition, there are also
 **continuous rotation** servos, which are effectively just small motors in a
 servo form factor. They have no position control; instead, PWM signal is
-used to control their rotation  speed.
+used to control their rotation speed.
 
 Both REV Smart Servo and goBILDA Dual Mode servo (which are both based on
 FR5311m programmable servo by Feetech) can be used as either regular or
@@ -25,20 +25,20 @@ to use a servo programmer, available separately from REV or goBILDA.
 ..  caution::  Some vendors offer continuous rotation *option*
   on some servos. These options are modifications to the
   original servo made by the vendor and are illegal in FTC.
-  The only legal continuous rotation servos are CR servos from the **factory**.
+  The only legal continuous rotation servos are CR servos direct from the **manufacturer/factory**.
   If you have a seller modify a
   servo for continuous rotation, that servo is not legal.
 
 
 Servo Torque And Speed
 ----------------------
-Servo  output power is  measured in both **speed** and **torque**.
+Servo output power is measured in both **speed** and **torque**.
 Speed (normally in seconds per 60°) refers to how fast the servo turns 60
 degrees in Standard Rotation mode.
 Torque (usually measured in oz-in or in kg-cm) refers to the amount of force
 the servo can apply to a lever.
 For reference, if you put a 1” bar on a servo,
-then put a force gauge on the end, the torque rating of the servo (in oz/in)
+then put a force gauge on the end, the torque rating of the servo (in oz-in)
 will be measured.
 As you may know, speed and torque have an inverse relationship.
 Generally you can find some insanely powerful servos that are pretty slow
@@ -55,31 +55,44 @@ The two things that threaten a servo’s longevity are the internal motor burnin
 out and more commonly, the gears stripping inside the servo.
 A motor burning out is pretty uncommon, but it can happen under large loads for
 a prolonged amount of time.
-This means **you should never stall a servo against an immovable object**.
 
-Gear stripping is a very common problem, and it is directly to the material
+..  caution::   **You should never stall a servo against an immovable object**.
+
+Gear stripping is a very common problem which occurs when the torque 
+needed to actuate a component exceeds that of the servo's maximum torque.
+There are two main cases when this can occur. 
+* Shock load from external force can strip the gears easily, regardless of which material
+  the gears are made from. An example could be the component slamming into the field wall or 
+  another robot. 
+* Shock load from reversing directions on an object that is too heavy can strip the gears. 
+  Torque increases with mass and also distance from the center of rotation. If the component 
+  being actuated is far from the servo, the long lever arm means larger torque. Furthermore, 
+  if the component is moving, reversing direction also will require more torque. Thus, the principle
+  is that components should be light and not reverse direction suddenly to prolong servo life. 
+
+Shock load is impacted directly by the material
 the gears are made from. This ranges from plastic to titanium,
 so let’s go down the list, starting from the weakest.
 
 * **Plastic**: with low power servos, these are normally okay.
   Generally used for applications in model airplanes such as ailerons.
   FTC applications include light load mechanisms which will not have direct
-  contact with any game elements or the field.
+  contact with any game elements or the field. An example could be a servo 
+  which opens a trapdoor or moves game elements within the robot. 
 * **Karbonite**: Hitec’s gear plastic is a very durable and long lasting
   plastic and is very good under long use and low load.
-  Be aware that it can strip easily under the shock loads found in FTC.
-* **Brass**: Brass gears are stronger than plastics but also suffer greatly
+  Be aware that it can strip easily under the shock loads found in FTC. 
+  Karbonite is more durable than plastic but still suffers from shock loads. 
+* **Brass**: Brass gears are stronger than plastic but also suffer greatly
   when faced with shock loads in FTC, like intake wrists and deposit buckets.
-  It’s found on slightly higher end servos in the $25-30 range,
-  such as the REV smart servo.
+  It’s found on slightly higher end servos such as the REV smart servo.
 * **Steel**: This is where we start getting big.
   Steel gears are very durable and you’ll have a tough time stripping these.
-  In general, expect to pay $40+. The best value in this category is goBILDA
-  Dual mode servo (v2), which sells for $21 after team discount.
+  In general, expect to pay a premium. The goBILDA
+  Dual mode servo (v2) is an example of steel gear servo.
 * **Titanium**: Titanium is where you get into really high end,
   virtually unbreakable servos.
   Starting from $75, they can reach over $150.
-
 
 Servo Size
 ----------
