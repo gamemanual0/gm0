@@ -23,8 +23,8 @@ There are many servos from different manufacturers, which vary
 widely in price, performance and value. Fortunately, virtually all servos use
 the standard 3-wire connector, and accept the same kind of controlling signal
 (PWM signal at 50 hz). Each REV Expansion hub provides 6 servo ports, so you
-can plug in a servo from any manufacturer. Also, there is a standard size for servos
-for FTC use, so mounts can be interchanged between manufacturers. 
+can plug in a servo from any manufacturer. Also, there is a standard size for
+servos for FTC use, so mounts can be interchanged between manufacturers.
 
 .. note::   FTC robots use standard size servos, not mini or extreme size.
 
