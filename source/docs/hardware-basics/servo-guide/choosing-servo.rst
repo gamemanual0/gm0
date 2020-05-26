@@ -58,17 +58,23 @@ a prolonged amount of time.
 
 ..  caution::   **You should never stall a servo against an immovable object**.
 
-Gear stripping is a very common problem which occurs when the torque 
+Gear stripping is a very common problem which occurs when the torque
 needed to actuate a component exceeds that of the servo's maximum torque.
-There are two main cases when this can occur. 
-* Shock load from external force can strip the gears easily, regardless of which material
-  the gears are made from. An example could be the component slamming into the field wall or 
-  another robot. 
-* Shock load from reversing directions on an object that is too heavy can strip the gears. 
-  Torque increases with mass and also distance from the center of rotation. If the component 
-  being actuated is far from the servo, the long lever arm means larger torque. Furthermore, 
-  if the component is moving, reversing direction also will require more torque. Thus, the principle
-  is that components should be light and not reverse direction suddenly to prolong servo life. 
+There are two main cases when this can occur.
+
+* Shock load from external force can strip the gears easily,
+  regardless of which material the gears are made from.
+  An example could be the component slamming into the field wall or
+  another robot.
+* Shock load from reversing directions on an object that is too heavy can strip
+  the gears.
+  Torque increases with mass and also distance from the center of rotation.
+  If the component being actuated is far from the servo,
+  the long lever arm means larger torque.
+  Furthermore, if the component is moving, reversing direction also will
+  require more torque.
+  Thus, the principle is that components should be light and not reverse
+  direction suddenly to prolong servo life.
 
 Shock load is impacted directly by the material
 the gears are made from. This ranges from plastic to titanium,
@@ -77,12 +83,12 @@ so let’s go down the list, starting from the weakest.
 * **Plastic**: with low power servos, these are normally okay.
   Generally used for applications in model airplanes such as ailerons.
   FTC applications include light load mechanisms which will not have direct
-  contact with any game elements or the field. An example could be a servo 
-  which opens a trapdoor or moves game elements within the robot. 
+  contact with any game elements or the field. An example could be a servo
+  which opens a trapdoor or moves game elements within the robot.
 * **Karbonite**: Hitec’s gear plastic is a very durable and long lasting
   plastic and is very good under long use and low load.
-  Be aware that it can strip easily under the shock loads found in FTC. 
-  Karbonite is more durable than plastic but still suffers from shock loads. 
+  Be aware that it can strip easily under the shock loads found in FTC.
+  Karbonite is more durable than plastic but still suffers from shock loads.
 * **Brass**: Brass gears are stronger than plastic but also suffer greatly
   when faced with shock loads in FTC, like intake wrists and deposit buckets.
   It’s found on slightly higher end servos such as the REV smart servo.

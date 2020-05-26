@@ -12,8 +12,8 @@ the only FTC legal motors are the following ones:
 * `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
 * Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors <https://www.gobilda.com/motors/>`_,
   which are MATRIX motors with a different gearbox)
-* `REV Robotics HD Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1301/>`_
-* `REV Robotics Core Hex 12V DC Motor <http://www.revrobotics.com/rev-41-1300/>`_
+* `REV Robotics HD Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1301/>`_
+* `REV Robotics Core Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1300/>`_
 
 With the exception of REV Core Hex Motor, which is discussed separately,
 all other motors above have very similar structure.
@@ -119,7 +119,7 @@ These gearboxes can be used to replace the "standard" gearboxes listed above.
 They give you more options and gear ratios and in some cases, are more robust
 than the standard  ones, but they can be quite expensive and require more work.
 
-* `REV UltraPlanetary <http://www.revrobotics.com/rev-41-1600/>`_ gearbox -
+* `REV UltraPlanetary <https://www.revrobotics.com/rev-41-1600/>`_ gearbox -
   The UltraPlanetary is a customizable planetary
   gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1,
   and 5:1, and can be mix & matched to create a custom ratio.
@@ -131,7 +131,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   good value for a customizable motor.
   In addition, the UltraPlanetary has a female 5mm hex output shaft which
   allows teams to customize the shaft length.
-* `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-option>`_  gearboxes -
+* `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-options>`_  gearboxes -
   These gearboxes were designed to be more robust than the gearboxes found on
   Andymark NeveRest motors. The NeveRest sport gearboxes can handle larger
   shock loads, and can provide a larger reduction with options up to 256:1.

@@ -94,7 +94,7 @@ Another easy option is to use REV 45x45mm channel.
 
 Kit of Parts
 ============
-http://www.revrobotics.com/rev-45-1270/
+https://www.revrobotics.com/resources/
 
 * 2 40:1 HD Hex Motors
 * 2 Core Hex Motors

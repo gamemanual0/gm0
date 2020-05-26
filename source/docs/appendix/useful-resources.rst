@@ -8,7 +8,7 @@ helpful.
 For further reading, we highly suggest you check out those links.**
 
 * This Guide!
-    * `Game Manual 0 <http://gm0.copperforge.cc>`_
+    * `Game Manual 0 <https://gm0.copperforge.cc/en/stable/>`_
 * Official FIRSTInspires Resources
     * `2019-2020 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
     * `2019-2020 Game Manual Part 1* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf>`_
@@ -27,7 +27,7 @@ For further reading, we highly suggest you check out those links.**
     * `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
     * `FIRST things FIRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
     * `(Unofficial) FTC Tutorials <http://ftctutorials.com/>`_
-    * `The Orange Alliance (TOA) (Competition/Performance Data) <http://www.theorangealliance.org/>`_
+    * `The Orange Alliance (TOA) (Competition/Performance Data) <https://theorangealliance.org/>`_
     * `TOA Text (Query TOA Data via text messaging) <https://docs.google.com/document/d/1jnZJtvooSV0mYEuOF1iGqjgWHXIShS4nFgICLt5anjI/edit#>`_
     * `FTCScores (Sometimes used instead of TOA) <https://ftcscores.com/>`_
     * `FTC Stats (Team Data and Rankings) <http://ftcstats.org/>`_
@@ -36,7 +36,6 @@ For further reading, we highly suggest you check out those links.**
 * Building Resources - Principles
     * `Simbotics FRC Mechanical Design Principles* <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_
     * `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
-    * `FTCKey - FTC wiki (slightly outdated) <http://ftckey.com/>`_
 * Building Resources - Applications
     * `goBILDA with TETRIX (Blog for interfacing goBILDA with TETRIX) <https://gobildatetrix.blogspot.com>`_
     * `SDP-SI Timing Belt and Pulley Guide <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_
@@ -57,15 +56,15 @@ For further reading, we highly suggest you check out those links.**
     * `Guide to Rendering in CAD <https://drive.google.com/file/d/1t8Ke626MCedOHR4kzaNYtMdG7IC0bhGs/view>`_  - Justin, FTC 9656
     * `GrabCAD Workbench (Git for CAD) <https://grabcad.com/workbench>`_
     * 4137 Islandbots Library of goBILDA parts in Fusion360 format:
-        * `axles, hubs, wheels <https://a360.co/2QWq9Qh>`_
-        * `beams <https://a360.co/2QRUFej>`_
-        * `channels <https://a360.co/2WSpaGk>`_
-        * `gears, sprockets, pulleys <https://a360.co/2QTFFg1>`_
-        * `goRAIL< v-guide, lead screw <https://a360.co/2QTG95P>`_
-        * `motors, servos, accessories <https://a360.co/2I2Gkc3>`_
-        * `mounts, spacers, adapters <https://a360.co/2IryGqC>`_
-        * `plates, brackets <https://a360.co/2QWx1gx>`_
-        * `screws, threaded plates, standoffs <https://a360.co/2QRzIzY>`_
+        * `axles, hubs, wheels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9688994ea9aacfd8be4>`_
+        * `beams <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9682676eb9a313d7bc3>`_
+        * `channels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96826b9e501683ff783>`_
+        * `gears, sprockets, pulleys <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b60d668ba4d1ca75>`_
+        * `goRAIL< v-guide, lead screw <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968884b4294ac6c801c>`_
+        * `motors, servos, accessories <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96828a1241166318535>`_
+        * `mounts, spacers, adapters <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96856c1eb9ba296a12c>`_
+        * `plates, brackets <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9684fca616ff1b1a077>`_
+        * `screws, threaded plates, standoffs <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968505a45dab1a9eada>`_
 * Building Resources - Calculators
     * `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
     * `JuliaDesignCalc (JVN Alternative with Flywheel Calculations) <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_
@@ -80,18 +79,18 @@ For further reading, we highly suggest you check out those links.**
     * `Java Workshop  <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ - FTC 4613
     * `FTC Robot Controller JavaDocs  <http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html>`_
     * `Introduction to Control Systems <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_
-    * `REV Robotics Expansion Hub Guide  <http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+    * `REV Robotics Expansion Hub Guide  <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
     * `OpenFTC (useful programming tools)*  <https://github.com/OpenFTC>`_ - 4634 FROGbots
-    * `DogeCV (FTC Computer Vision Library)  <https://github.com/MechanicalMemes/DogeCV>`_
+    * `DogeCV (FTC Computer Vision Library)  <https://github.com/dogecv/DogeCV>`_
     * `FTCLib ("Library for everything you will ever need and more")  <https://github.com/FTCLib/FTCLib>`_
     * `RoadRunner (FTC 2D Robot Motion Library)  <https://github.com/acmerobotics/road-runner>`_
     * `FTC Dashboard (Tool for monitoring and debugging FTC applications remotely) <https://github.com/acmerobotics/ftc-dashboard>`_
     * `Virtual Robot (Write OpModes without a robot!) <https://github.com/Beta8397/virtual_robot>`_
     * `Editable Control Award Document <https://cdn.discordapp.com/attachments/322801353804218368/650427404623282196/Final_Control_Award.docx>`_ - Ryan, FTC 1002
 * Vendor Resources
-    * `REV Robotics Technical Resources <http://www.revrobotics.com/resources/>`_
+    * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
 * Discord
-    * `FTC Discord* <https://discordapp.com/invite/first-tech-challenge>`_
+    * `FTC Discord* <https://discord.com/invite/first-tech-challenge>`_
     * The FIRST Tech Challenge Discord server is a discussion-based community
       server that has teams ranging from first-year rookies to Winning Alliance
       Captains at the World Championships.

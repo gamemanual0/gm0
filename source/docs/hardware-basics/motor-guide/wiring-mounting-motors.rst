@@ -51,7 +51,7 @@ AndyMark also use JST XH encoder port; however, an additional problem is that
 encoders of these motors require 5v power, whereas encoder port of REV hub only
 provides 3.3v. Thus, it is recommended that you connect them using level
 shifters, available from REV Robotics. For details please check the
-`REV Expansion Hub Guide <http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_, Section 4.2.
+`REV Expansion Hub Guide <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_, Section 4.2.
 
 
 Mounting Motors

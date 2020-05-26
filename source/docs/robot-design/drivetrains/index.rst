@@ -85,8 +85,8 @@ Here are some priorities for that we think are important for each drivetrain:
 4. **Traction/Pushing Power**: While this feature is often overemphasized,
    it is still very important.
    Pushing power describes a drivetrain’s ability to endure defense/engage in
-   defense. In addition, traction will be important if the drivetrain must 
-   traverse obstacles or some sort of terrain. 
+   defense. In addition, traction will be important if the drivetrain must
+   traverse obstacles or some sort of terrain.
    Many factors affect the pushing power of a drivetrain, including wheel type,
    motor gearing, and overall weight of the robot.
    Note that if you already have a very agile drivetrain with experienced

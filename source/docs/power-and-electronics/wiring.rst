@@ -1,4 +1,3 @@
-============
 Wiring Guide
 ============
 
@@ -34,8 +33,9 @@ General Advice
 --------------
 * **Always label wires! When bunched up, you may not know which wire goes into
   which port**.
-* Tie together loose wires, and better yet, tie that bunch of wires to a structural component. 
-  This will ensure that wires don't interfere with your mechanisms. 
+* Tie together loose wires, and better yet, tie that bunch of wires to a
+  structural component.
+  This will ensure that wires don't interfere with your mechanisms.
 * **Treat every wire connection as a point of failure**.
   Therefore, use electrical tape to tape up and insulate connections and
   utilize strain relief as much as possible.
@@ -103,11 +103,12 @@ When building the robot, devote adequate space to wiring.
 This could mean mounting a PVC pipe and running wires from the back end of the
 robot through it, or simply using velcro or zipties.
 
-..  tip:: Make sure that wires are as short as possible to reduce the risk of entanglement. 
-However, as components move out of the robot, the wires move with it. Tying down every loose inch will 
-result in wire disconnecting. 
-Wiring is the art of finding the perfect balance between shortest length and allowing enough freedom as 
-mechanisms need. 
+..  tip:: Make sure that wires are as short as possible to reduce the risk of entanglement.
+
+However, as components move out of the robot, the wires move with it.
+Tying down every loose inch will result in wire disconnecting.
+Wiring is the art of finding the perfect balance between shortest length and
+allowing enough freedom as mechanisms need.
 
 **It is also recommended for electronics to be mounted on a nonconductive
 material such as wood to prevent ESD**.
@@ -194,8 +195,8 @@ Dryer sheets
     This is not directly recommended by FIRST or any vendor,
     but our empirical evidence throughout the years suggests that it helps,
     or at the very least, can’t hurt to do so.
-    However, dryer sheets may or may not be on the boundary of legality, 
-    as grounding the robot to he ground is illegal. 
+    However, dryer sheets may or may not be on the boundary of legality,
+    as grounding the robot to he ground is illegal.
 Staticide/static spray
     Staticide is a spray that helps to keep static off of the robot.
     Please be sure to spray your robot before an event and not during the

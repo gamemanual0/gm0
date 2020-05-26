@@ -11,7 +11,7 @@ Vendor List
       as well as individual game parts and the SoftTiles foam tiles.
     * AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner,
       compliant, stealth, and mecanum wheels, as well as many other items.
-* `CopperState <http://www.copperstate.com/>`_
+* `CopperState <https://www.copperstate.com/>`_
     * Cheap vendor for fasteners/other hardare.
 * `eplastics <https://www.eplastics.com/>`_
     * Vendor for raw plastics, such as polycarbonate, acetal, HDPE, etc.

@@ -67,8 +67,9 @@ head to REV Robotics’ Technical Resources page on their website.
 REV Control Hub + REV Expansion Hub
 ===================================
 
-Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season onwards. In 2019-2020,
-the Control Hub was not legal for all teams as it was undergoing a pilot program.
+Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season
+onwards. In 2019-2020, the Control Hub was not legal for all teams as it was
+undergoing a pilot program.
 
 .. image:: images/control-system/ch-wiring-diagram.png
     :alt: A diagram of the Control Hub + Expansion Hub control system
