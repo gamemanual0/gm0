@@ -11,30 +11,31 @@ Whole Notebook Decisions
 Condensed vs Long
 -----------------
 
-A trap a bunch of teams fall into is that a longer notebook is a better
-notebook, especially if it's actually quality writing but unfortunately that's
+A trap many teams fall into is that a longer notebook is a better
+notebook, especially if it's actually quality writing. Unfortunately, that is
 not necessarily true.
-At shorter competitions judges don't have a lot of team to read notebooks and
-make decisions so even if you do write a really great huge notebook they might
-be able to cross off the things off their list and you might place lower than
-you should have.
-The solution to this is to have a condensed notebook.
+At shorter competitions, judges don't have a lot of team to peruse your notebooks.
+They will likely take a cursory scan at every page and take a more detailed look at 
+certain pages. Thus, even if you do write a great but long notebook, they might
+miss the highlights and rank you lower than you should have.
+The solution to this is to create a condensed notebook.
 This is where you make a purposeful effort to get rid of redundancies and make
 sure everything written in the notebook serves the purpose of being read and
 getting things checked off of awards.
 So if you know your state competitions are going to be more than a couple days
 write a long, detailed filled notebook.
-But if it's gonna only be a day, write with every section having a purpose.
+But if it is only a day long, write with every section having a purpose.
 
 Handwritten vs Typed
 --------------------
 
 This one is a team decision.
 Some teams swear judges prefer handwritten notebooks,
-but if there is reliable proof for that it is hard to come upon.
+but there is no proof for that.
 But if you're a small team or you would prefer to write, do that.
+Be sure that the handwriting is consistent and legible!
 Typed notebooks are a lot easier to organize,
-and judges will definetely be able to read it.
+and judges will definitely be able to read it.
 
 Serious vs Charming
 -------------------
@@ -46,6 +47,8 @@ You should try and reflect that in your notebook.
 Neither way is better,
 but it's good early on to figure out your team's way of acting and writing in a
 manner that fits it.
+Generally, humor is acceptable, but try to keep jokes down to a minimum (after all,
+the engineering notebook is meant to be a professional-grade document).
 
 .. note::
     Having a consistent team brand is important so judges remember you.
@@ -91,8 +94,7 @@ This might be the most common way of documenting in notebooks.
 Even teams that are so-so about attempting to write a notebook have a couple
 months worth of logs because overall they are not that hard to do.
 
-Each team approaches it differently but your most standard way of doing looks
-like this:
+Each team approaches it differently, but a standard approach is as follows.
 
     Date
 
@@ -109,14 +111,14 @@ like this:
     +------------------+---------------------------------------------+
 
 There are other methods such as weekly, pure goals,
-or other engineering based things such as agile
+or other engineering based methods such as agile
 (if you pursue the latter you can use those hard won mentors you have gotten).
-Weekly or bi-weekly is the same as above but the date becomes a range and you
+Weekly or bi-weekly is the same as above, but the date becomes a range and you 
 talk about what happened over that period of time.
 This is better for a team that has only a couple of people doing the logs
 because overall logs get more and more tedious.
 
-Pure goals is simply this:
+Pure goals is simply as follows.
 
     +------+--------------------+---------------------------------+
     | Date | Goal and Goal Date | Was the Goal Completed in Time? |
@@ -132,20 +134,34 @@ Building Section and Documenting the Robot
 ==========================================
 You have spent a bunch of time reading the rest of this manual to learn about
 the robot and how to build it.
-The building section is mostly about two things:
-what is your robot made of and how does it do the challenge,
-and what were the driving factors in the way you built your robot.
-The robot parts and explanation of use is talking about design;
-therefore pictures of the parts and captioning to help judges understand how it
-works and why it is useful
-(use math in these explanations to target Think award).
-The second part is much more documentation heavy (at least in my experience)
+The building section is about how your robot fulfills the challenge,
+and what the driving factors were in building your robot.
+
+Information about parts and materials, as well as pictures of every mechanism (plus captions)
+will help the judges piece together how the robot works mechanically. 
+Explanations of the components will illustrate the thought processes behind the design. 
+Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges understand how it
+works and why it is useful. **However, make sure that each graphic has a caption or explanation. 
+Do not expect judges to understand how your robot works through pictures only.** 
+Additionally, use math in these explanations to target the Think award.
+
+
+The second part is much more documentation and writing heavy,
 but in some ways it is easier.
 As you are building a robot,
 you will not get your final bot in the first attempt.
-Each time you iterate upon a part of your robot, document it.
-Write about a few things: why did you use this part,
-what was good and bad about the part,
-and what are you changing for the next design.
+Think about telling a story of how your team progressed from brainstorm and idea conception
+to prototyping and final design. The judges *love* to follow a logical sequence 
+of steps as it shows how the team thought through mistakes and improved upon successes. 
+Each time you iterate upon a part of your robot or move a step 
+further in the engineering design process, document it.
+Important questions to ask while writing this section are below. 
+
+*   What prompted this change/why was this change made?  
+*   What was the change? 
+*   How was the modification enacted? 
+*   What were the results (good and bad)? 
+*   How can this design be further improved? 
+
 This also includes your first unrealized ideas that your team talked about
 right when the team came together after the season was released.

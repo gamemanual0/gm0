@@ -1,73 +1,23 @@
-======
-Wiring
-======
+============
+Wiring Guide
+============
+
+Why does wiring matter? 
+=======================
 Have you ever looked inside your robot and thought "what a mess of wires"? 
 Wiring is extremely important in FTC, but is often overlooked or hastily done 
 the hour before competition starts. However, time spent in wiring the robot properly 
 is crucial to the performance and maintenance of the robot. 
 It is highly discouraged for teams to overlook wiring,
-but many new teams seems to disregard it or put little thought into wiring the robot properly. 
+but many new teams seem to disregard it or put little thought into wiring the robot properly. 
 
-Why does wiring matter? 
-=======================
 While tedious and often no fun, wiring can mean the difference between a win and loss.
 The best robot in the world won't be able to work if a wire is loose or gets tangled up in 
 the middle of a match. Thus it is imperative that wiring is purposefully thought out when 
 designing and building a robot. 
 
-Connectors and Wires
-====================
-There are many types of connectors for use in FTC.
-Here are the most common connectors you will find on an FTC robot.
 
-* Powerpoles
-
-    .. image:: images/wiring/powerpole-connector.png
-        :alt: A powerpole connector
-        :width: 200px
-
-    * Used for module power
-    * Used for motor power
-* XT30
-
-    .. image:: images/wiring/xt30-connector.png
-        :alt: A XT30 connector
-        :width: 200px
-
-    * Used for module power
-* JST-VH
-
-    .. image:: images/wiring/jst-vh-connector.png
-        :alt: A JST-VH connector
-        :width: 200px
-
-    * Used for motor power
-* Dupont 0.1”
-
-    .. image:: images/wiring/dupont-connector.png
-        :alt: A Dupont 0.1" connector
-        :width: 200px
-
-    * Used for sensors
-    * Used for servo wires
-* JST-PH and JST-XH
-    .. image:: images/wiring/jst-sensor-connectors.png
-        :alt: JST-PH and JST-XH connectors
-        :width: 200px
-
-    * Used for sensors
-* Tamiya
-    .. image:: images/wiring/tamiya-connector.png
-        :alt: A Tamiya connector
-        :width: 200px
-
-    .. warning::
-        Do not use these connectors!
-        The metal connectors are fragile and will lead to random disconnects.
-
-    * Used for module power
-
-FTC Wiring Guide
+FIRST FTC Wiring Guide
 ================
 FIRST has created a wiring guide to help teams with tasks like crimping cables,
 soldering connections, and ESD mitigation that won’t be covered in this guide.

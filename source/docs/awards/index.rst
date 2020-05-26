@@ -21,8 +21,8 @@ Therefore, these are the topics that will be covered in this section of |gm0|.
     for example some competitions allow you to turn a custom control award
     sheet, others only accept the one listed by FIRST.
     The writers of this part of |gm0| have extensive experience with awards and
-    have even been winners and finalists for the inspire award at the World
-    Championship.
+    have even been winners and finalists for the Inspire Award at the World
+    Championships.
 
 For most awards, teams have a 5 minute presentation at the beginning of the day
 followed by some Q&A time and possibly pit judging later on
@@ -37,8 +37,7 @@ Always remember that regardless of how well you feel you did,
 awards have a level of subjectivity of the judges,
 so there is no way to 100% control how your team does for awards.
 
-Overall,
-awards are one of the core parts of the FIRST Tech Challenge competition.
+Overall, awards are one of the core parts of the FIRST Tech Challenge competition.
 They recognize teams at the end of every competition (except league meets)
 as well as determine many of the teams that advance.
 

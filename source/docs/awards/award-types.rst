@@ -12,19 +12,17 @@ Inspire Award
 -------------
 
 The Inspire award is the top award for an FTC team.
-It’s given to a team that consistently rises to the top in other awards
+It is given to a team that consistently rises to the top in other awards
 categories.
-It’s also the top line on the advancement list,
-and the winner is guaranteed to advance to the next level in most scenarios
-if there is a next level,
+It is also (barring host team advancement), the first advancement slot on the advancement list.
+This means the winner is guaranteed to advance to the next level in most scenarios,
 unlike the winning alliance captain in some states.
 In order to win the Inspire award,
 your team should focus on every other award category,
 and perform well in the robot game.
-In the past the inspire award has given much more weight to awards
+In the past the Inspire Award has given much more weight to awards
 performance, but it seems as if the judges are now taking robot performance
 into consideration more.
-The Inspire award comes with focusing on everything else.
 Of all the awards, this one is arguably the most subjective,
 as it is about how good does a team does overall,
 including and how much they weight outreach as compared to robot
@@ -75,8 +73,8 @@ Connect Award
 The Connect Award is one of the two outreach awards.
 This award is for teams that work with their local STEM community and
 corporate community.
-Unfortunately, the line between the connect award and motivate award can be
-vague, and most judges don’t know how to differentiate which outreach falls
+Unfortunately, the line between the Connect and Motivate award can be
+vague, and judges may not differentiate which outreach falls
 under which award.
 Look at the section about differentiating connect and motivate for more advice
 on this.
@@ -127,26 +125,23 @@ Official Game Manual Description
     eligible for this award.
     Entries must describe how the Team arrived at their solution.
 
-Be aware that even though the awards description says “out of the box” and
-therefore the emcee at your event will say that,
-FTC Team 7244 is not guaranteed the Innovate award.
-
 For presenting for this award, do your best to sell a few innovative parts,
-and be prepared to choose the most innovative part of your robot,
+and be prepared to explain the most innovative part of your robot,
 as that is a common question judges ask.
 
 Design Award
 ------------
 
-The Design award is one of the robot awards for mainly the hardware of the
-robot.
+The Design award is one of the robot awards that
+primarily focuses on the hardware aspect of the robot.
 It is for robots that are both functional, aesthetic,
 and use good design practices, including CAD.
 For winning the Design award, it’s recommended your team uses CAD and
 designs the robot before it is built,
-with engineering notebook entries about the development of the robot.
+with engineering notebook entries about the development of the robot
+through iterations of the engineering design process.
 While functionality is what most teams focus on,
-the Design award also takes into account aesthetic,
+the Design award also takes into account aesthetics,
 and most judges will generally be turned off by an ugly robot for this
 award (no cardboard on the robot!),
 so make sure your robot looks presentable.
@@ -190,9 +185,9 @@ Control Award
 -------------
 
 The Control award is meant to recognize a team that has a good software
-solution to make their robot intelligent.
-It’s known as the “software award” and is for the team with thebest/most
-original/most innovative software and sensor solution for the game.
+solution to make their robot "intelligent".
+It’s known as the “software award” and is for the team with the best or 
+most innovative software and sensor solution for the game.
 Don’t be tempted to overlook the control award even though it doesn’t
 advance at most competitions, as every award performance counts towards the
 Inspire award. Below is the official description in |gm1|.
@@ -216,22 +211,23 @@ teams are recommended to work on making their robots intelligent.
 The control award doesn’t just focus on autonomous though,
 and extends into the driver controlled period.
 Many top teams for the Control award have presented not only the autonomous
-period,but also features that help the drivers during the
-driver controlled period.
+period, but also features that help the drivers during the
+driver controlled period such as automating processes.
 For the Control award, don’t put code in your engineering notebook entries,
 but rather an explanation of the math and algorithms used for your code.
-Many judges are going to have a harder time reading and interpreting code
-rather than explanations.
+Firstly, judges don't have much time to look over a notebook. 
+Secondly, many judges would prefer explanations rather than 
+having to read and interpret code which they may not be familiar with. 
 If you want to, put all of your latest code in an appendix in your
 Engineering Notebook.
 
 For pit judging,
 you will usually be able to tell if a judge is trying to learn about the
 control features of your robot due to the more specific questions asked.
-Present your control points in an easy-to-understand way
-(sometimes it may be helpful to teach it to someone who isn’t a programmer,
-as they might be able to present it in a simpler manner),
-but remember to use the correct names as is used throughout the rest of
+Present your control points in an easy-to-understand way, especially 
+as some judges are non-programmers. It is helpful to try your explanation 
+to someone who isn’t a programmer and see if they understand. However,
+remember to use the correct terms as is used throughout the rest of
 your Engineering Notebook and Control Award Sheet,
 so judges can find more information in your Engineering Notebook.
 

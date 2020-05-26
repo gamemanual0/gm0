@@ -81,3 +81,4 @@ the Control Hub was not legal for all teams as it was undergoing a pilot program
     performance. See the `REV Expansion Hub firmware update docs`_.
 
 .. _REV Expansion Hub firmware update docs: https://www.revrobotics.com/software/#ExpansionHubFirmware
+
