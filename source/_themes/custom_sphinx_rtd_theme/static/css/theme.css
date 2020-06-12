@@ -5180,7 +5180,10 @@ html {
 }
 
 footer {
-    color: grey
+    background: #555555;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif
 }
 
 footer p {
