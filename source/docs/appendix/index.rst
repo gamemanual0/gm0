@@ -4,9 +4,9 @@ Appendix
 .. toctree::
     :maxdepth: 1
 
-    vendor-list
-    vendor-guide
+    glossary
     useful-resources
     gallery
-    glossary
+    vendor-list
+    vendor-guide
     license
