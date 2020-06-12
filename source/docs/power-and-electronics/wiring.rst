@@ -1,23 +1,25 @@
 Wiring Guide
 ============
 
-Why does wiring matter? 
+Why does wiring matter?
 =======================
-Have you ever looked inside your robot and thought "what a mess of wires"? 
-Wiring is extremely important in FTC, but is often overlooked or hastily done 
-the hour before competition starts. However, time spent in wiring the robot properly 
-is crucial to the performance and maintenance of the robot. 
+Have you ever looked inside your robot and thought "what a mess of wires"?
+Wiring is extremely important in FTC, but is often overlooked or hastily done
+the hour before competition starts. However, time spent in wiring the robo
+properly is crucial to the performance and maintenance of the robot.
 It is highly discouraged for teams to overlook wiring,
-but many new teams seem to disregard it or put little thought into wiring the robot properly. 
+but many new teams seem to disregard it or put little thought into wiring the
+robot properly.
 
-While tedious and often no fun, wiring can mean the difference between a win and loss.
-The best robot in the world won't be able to work if a wire is loose or gets tangled up in 
-the middle of a match. Thus it is imperative that wiring is purposefully thought out when 
-designing and building a robot. 
-
+While tedious and often no fun, wiring can mean the difference between a win
+and loss.
+The best robot in the world won't be able to work if a wire is loose or gets
+tangled up in the middle of a match.
+Thus it is imperative that wiring is purposefully thought out when designing
+and building a robot.
 
 FIRST FTC Wiring Guide
-================
+======================
 FIRST has created a wiring guide to help teams with tasks like crimping cables,
 soldering connections, and ESD mitigation that won’t be covered in this guide.
 Once you read up on electronics and wiring here,
@@ -103,7 +105,9 @@ When building the robot, devote adequate space to wiring.
 This could mean mounting a PVC pipe and running wires from the back end of the
 robot through it, or simply using velcro or zipties.
 
-..  tip:: Make sure that wires are as short as possible to reduce the risk of entanglement.
+.. tip::
+    Make sure that wires are as short as possible to reduce the risk of
+    entanglement.
 
 However, as components move out of the robot, the wires move with it.
 Tying down every loose inch will result in wire disconnecting.

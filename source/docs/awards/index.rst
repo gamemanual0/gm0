@@ -37,7 +37,8 @@ Always remember that regardless of how well you feel you did,
 awards have a level of subjectivity of the judges,
 so there is no way to 100% control how your team does for awards.
 
-Overall, awards are one of the core parts of the FIRST Tech Challenge competition.
+Overall, awards are one of the core parts of the FIRST Tech Challenge
+competition.
 They recognize teams at the end of every competition (except league meets)
 as well as determine many of the teams that advance.
 

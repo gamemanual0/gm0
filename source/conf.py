@@ -50,8 +50,12 @@ version = release
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.graphviz',
-    'sphinx_sitemap'
+    'sphinx_sitemap',
+    'hoverxref.extension'
 ]
+
+# Enable hover content on glossary term
+hoverxref_roles = ['term']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

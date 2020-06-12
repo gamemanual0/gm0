@@ -8,4 +8,5 @@ Appendix
     vendor-guide
     useful-resources
     gallery
+    glossary
     license

@@ -14,9 +14,10 @@ Inspire Award
 The Inspire award is the top award for an FTC team.
 It is given to a team that consistently rises to the top in other awards
 categories.
-It is also (barring host team advancement), the first advancement slot on the advancement list.
-This means the winner is guaranteed to advance to the next level in most scenarios,
-unlike the winning alliance captain in some states.
+It is also (barring host team advancement), the first advancement slot on the
+advancement list.
+This means the winner is guaranteed to advance to the next level in most
+scenarios, unlike the winning alliance captain in some states.
 In order to win the Inspire award,
 your team should focus on every other award category,
 and perform well in the robot game.
@@ -186,7 +187,7 @@ Control Award
 
 The Control award is meant to recognize a team that has a good software
 solution to make their robot "intelligent".
-It’s known as the “software award” and is for the team with the best or 
+It’s known as the “software award” and is for the team with the best or
 most innovative software and sensor solution for the game.
 Don’t be tempted to overlook the control award even though it doesn’t
 advance at most competitions, as every award performance counts towards the
@@ -215,17 +216,17 @@ period, but also features that help the drivers during the
 driver controlled period such as automating processes.
 For the Control award, don’t put code in your engineering notebook entries,
 but rather an explanation of the math and algorithms used for your code.
-Firstly, judges don't have much time to look over a notebook. 
-Secondly, many judges would prefer explanations rather than 
-having to read and interpret code which they may not be familiar with. 
+Firstly, judges don't have much time to look over a notebook.
+Secondly, many judges would prefer explanations rather than
+having to read and interpret code which they may not be familiar with.
 If you want to, put all of your latest code in an appendix in your
 Engineering Notebook.
 
 For pit judging,
 you will usually be able to tell if a judge is trying to learn about the
 control features of your robot due to the more specific questions asked.
-Present your control points in an easy-to-understand way, especially 
-as some judges are non-programmers. It is helpful to try your explanation 
+Present your control points in an easy-to-understand way, especially
+as some judges are non-programmers. It is helpful to try your explanation
 to someone who isn’t a programmer and see if they understand. However,
 remember to use the correct terms as is used throughout the rest of
 your Engineering Notebook and Control Award Sheet,
