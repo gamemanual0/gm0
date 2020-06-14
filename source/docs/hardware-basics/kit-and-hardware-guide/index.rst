@@ -61,9 +61,9 @@ Keep in mind that compatibility between kits varies and will be impacted by the
 unit system used.
 
 * REV Robotics (metric) is slightly cheaper but generally has a bit higher
-  learning curve than most other kits, as it is extrusion rather than channel
-  based.
-  Extrusion takes more effort to work with
+  learning curve than most other kits,
+  as it is :term:`extrusion` rather than :term:`channel` based.
+  :term:`Extrusion` takes more effort to work with
   (you need to cut aluminum extrusion to length); however,
   it allows for maximum design freedom and adjustability.
   REV is also available from FIRST storefront, which might be convenient for
@@ -75,8 +75,9 @@ unit system used.
   However, its price point may deter some teams with lesser budgets.
 * Tetrix (metric and imperial) is probably the simplest system to work with,
   but its part selection is limited,
-  and the use of 4.7mm shaft with set screws is inferior to clamping hubs used
-  in other systems.
+  and the use of :term:`4.7mm shaft <Shaft>` with
+  :term:`set screws <Set Screw>` is inferior to
+  :term:`clamping hubs <Clamping Hub>` used in other systems.
 * Actobotics (imperial) is similar to goBILDA, being made by the same company.
   It has always been a solid option with reliable parts.
   For most FTC teams, goBILDA would probably be a better choice as it is more

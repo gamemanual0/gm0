@@ -7,21 +7,22 @@ channel-based building system that uses both imperial and metric units.
 Special Considerations
 ======================
 
-* The TETRIX build system revolves around 32 mm aluminum c-channels and a 16mm
-  bolt circle, on 16mm spacing (centers of the circles are 16mm apart).
-  TETRIX is patterned along these channels to create many mounting options
-  for building structures.
+* The TETRIX build system revolves around 32 mm aluminum
+  :term:`c-channels <Channel>` and a 16mm bolt circle,
+  on 16mm spacing (centers of the circles are 16mm apart).
+  TETRIX is patterned along these :term:`channels <Channel>` to create many
+  mounting options for building structures.
 * These channels have a tendency to flex and bend under load,
-  often requiring reinforcement using multiple channels to maintain their
-  shape.
-* While TETRIX channel is measured in metric units,
-  the system employs Imperial (SAE) bolts and Imperial chain.
+  often requiring reinforcement using multiple :term:`channels <Channel>` to
+  maintain their shape.
+* While TETRIX :term:`channel` is measured in metric units,
+  the system employs Imperial (SAE) bolts and Imperial :term:`chain`.
   This mix of units means that things often don’t quite line up how they’re
   supposed to, causing unforeseen problems.
-* Additional tensioners are often required when using chain on TETRIX.
-* TETRIX gears and sprockets offer very limited options for creating
-  ratios.
-  The aluminum gears tend to grind away very quickly,
+* Additional tensioners are often required when using :term:`chain` on TETRIX.
+* TETRIX :term:`gears <Gear>` and :term:`sprockets <Sprocket>` offer very
+  limited options for creating ratios.
+  The aluminum :term:`gears <Gear>` tend to grind away very quickly,
   especially if they are not supported correctly on both sides.
 * Tetrix parts generally do not have the best track record for reliability and
   longevity due to subpar material choices.
@@ -44,16 +45,17 @@ https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf
 
 .. note:: This parts list is for the 2018-2019 season.
 
-* 32x32mm Aluminum C-Channel, various lengths
+* 32x32mm Aluminum :term:`C-Channel <Channel>`, various lengths
 * Assorted plates and brackets, flat and 90 degree
 * Flat plates
-* Axles (6mm d-shaft & 4.7mm d-shaft), hubs, spacers
-* Aluminum gears
-* Standoffs
-* HS-485 HB servo (4x), assorted accessories
+* Axles (:term:`6mm d-shaft <Shaft>` & :term:`4.7mm d-shaft <Shaft>`), hubs,
+  spacers
+* Aluminum :term:`gears <Gear>`
+* :term:`Standoffs <Standoff>`
+* :term:`HS-485 HB servo <Servo>` (4x), assorted accessories
 * TETRIX Torquenado motor (4x)
 * Bars and angles
-* omni and traction wheels
+* :term:`Omni <Omni Wheel>` and traction wheels
 * Nuts, screws, fasteners
 * Battery
 * Tools (screwdrivers, etc.)
@@ -62,8 +64,10 @@ Advantages
 ==========
 * The TETRIX kit, being the most basic of all kit options,
   is easy to learn and provides a variety of options in building.
-  The kit itself comes with c-channel, which is aluminum shaped in a C.
-  It has pre-cut holes so motors, gears, or drive shafts can be seamlessly
+  The kit itself comes with :term:`c-channel <Channel>`,
+  which is aluminum shaped in a C.
+  It has pre-cut holes so motors, :term:`gears <Gear>`,
+  or :term:`drive shafts <Shaft>` can be seamlessly
   integrated into the channel.
   For a beginner team with little to no experience,
   a TETRIX kit allows you to assemble a working drivetrain in a couple of hours
@@ -72,7 +76,7 @@ Advantages
 * Furthermore, TETRIX is decent in terms of structural integrity,
   as long as the channels are loaded in the correct orientation.
   Typically, the orientation should be like an “n”, with the top face upward.
-  Connecting the channels with locknut instead of regular nuts aids in
+  Connecting the channels with :term:`locknut` instead of regular nuts aids in
   longevity.
   However, TETRIX is the weakest of the build systems and is very prone to
   bending, especially with long pieces of channel that have multiple axes of
@@ -83,49 +87,57 @@ Advantages
 
 Disadvantages
 =============
-* The TorqueNADO motors are comparable with NeveRest 60:1.
-  They are usable, however have more limited uses due to their slow gear ratio,
+* The TorqueNADO motors are comparable with
+  :term:`NeveRest <NeveRest Motor>` 60:1.
+  They are usable, however have more limited uses due to their slow
+  :term:`gear ratio <Gear Reduction>`,
   which means high torque but relatively slow output speed.
   The TorqueNADO uses spur gearboxes, and will not handle as much shock load as
-  other planetary options, namely AndyMark 20 Orbitals, REV HD Planetary,
-  or the goBILDA Yellowjacket Planetaries.
+  other planetary options,
+  namely :term:`AndyMark 20 Orbitals <NeveRest Motor>`,
+  :term:`REV HD Planetary <HD Hex Motor>`,
+  or the :term:`goBILDA Yellow Jacket Planetaries <Yellow Jacket Motor>`.
 * The aluminum gears seem to grind against each other often,
   even with correct spacing, and do not last very long,
   especially under high torque situations.
-* TETRIX hubs are 6mm or 4.7mm round and are based on set screws which are
-  torque transferring.
-  These set screws are notorious for coming loose under load,
-  so special care must be taken to continuously tighten these screws.
+* TETRIX hubs are :term:`6mm or 4.7mm round <Shaft>` and are based on
+  :term:`set screws <Set Screw>` which are torque transferring.
+  These :term:`set screws <Set Screw>` are notorious for coming loose under
+  load, so special care must be taken to continuously tighten these screws.
   Additionally, it is highly recommended that teams use some sort of
-  threadlocker on set screws, whether it be Loctite Blue (removable) or Loctite
-  Red (nonremovable).
-  A possible workaround is purchasing 6mm D clamping hubs from goBILDA to use
-  on TETRIX shafts, however, this also necessitates the use of a pattern
-  adapter from the goBILDA pattern to TETRIX.
-* Due to using a metric based pattern but using imperial based holes and chain
-  standards, chain will not have perfect tension when running from one hole in
-  channel to another.
-  An external tensioner will be required to implement chain systems.
+  threadlocker on set screws, whether it be
+  :term:`Loctite Blue (removable) or Loctite Red (nonremovable) <Loctite>`.
+  A possible workaround is purchasing 6mm D
+  :term:`clamping hubs <Clamping Hub>` from goBILDA to use
+  on TETRIX :term:`shafts <Shaft>`, however, this also necessitates the use of
+  a pattern adapter from the goBILDA pattern to TETRIX.
+* Due to using a metric based pattern but using imperial based holes and
+  :term:`chain` standards, :term:`chain` will not have perfect tension when
+  running from one hole in :term:`channel` to another.
+  An external :term:`tensioner <Idler>` will be required to implement chain
+  systems.
 * TETRIX is also the most expensive kit on average while providing the most
   limited build options.
   Finally, the tight spacing and mix of units limits teams if they would want
   to integrate custom parts with TETRIX.
-* Set screws on TETRIX hubs can mar motor shafts, and the bore of the hub
-  itself can enlarge, leading to a wobbly or misaligned hub.
+* Set screws on TETRIX hubs can mar motor :term:`shafts <Shaft>`,
+  and the :term:`bore` of the hub itself can enlarge, leading to a wobbly or
+  misaligned hub.
 
 Tips for use
 =============
 In any build system, it is important to properly support the structure of your
 robot.
 This includes supporting axles at two or more points of contact,
-or having multiple points of support for a piece of channel.
+or having multiple points of support for a piece of :term:`channel`.
 Due to TETRIX’s relatively fragile nature, this advice goes double with TETRIX.
-Instead of just supporting a shaft at two points,
-it is recommended to support the shaft at 4 or more
+Instead of just supporting a :term:`shaft` at two points,
+it is recommended to support the :term:`shaft` at 4 or more
 (if you are using a 4.7mm standard).
-When mounting motors, it is recommended that two clamping motor mounts are used
-to mount one motor. Using standoffs inside channel to prevent the channel from
-bending inward or outward is also highly recommended.
+When mounting motors, it is recommended that
+:term:`two clamping motor mounts <Clamp Mounting>` are used to mount one motor.
+Using :term:`standoffs <Standoff>` inside :term:`channel` to prevent the
+:term:`channel` from bending inward or outward is also highly recommended.
 
 .. figure:: images/tetrix/6022-vv.jpg
     :alt: 6022 To Be Determined's Velocity Vortex Robot

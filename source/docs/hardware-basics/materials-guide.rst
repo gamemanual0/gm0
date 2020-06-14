@@ -26,7 +26,7 @@ Conditionally Recommended
 -------------------------
 
 * Aluminum sheet
-* Aluminum extrusion (1 inch)
+* Aluminum :term:`extrusion` (1 inch)
 * Plywood
 * Polyvinyl chloride (PVC)
 
@@ -45,25 +45,32 @@ Aluminum
 
 * A high strength, medium-high density material. Suitable for use in nearly
   every application; recommended in load-bearing applications.
-* Aluminum comes in channel, extrusion, flat, angle, sheet/plate,
-  and is used in some drawer slides.
+* Aluminum comes in :term:`channel`, :term:`extrusion`, flat, angle,
+  sheet/plate, and is used in some drawer slides.
 
-Aluminum channel is used in many build system kits and is very popular among
-teams of various skill levels. Channel is strong yet relatively lightweight,
-and offers many mounting options for teams.
+Aluminum :term:`channel` is used in many build system kits and is very popular
+among teams of various skill levels.
+:term:`Channel` is strong yet relatively lightweight, and offers many mounting
+options for teams.
 
-15 mm extrusion is compatible with M3 hardware, allowing teams to slide in
-bolts to their desired location. REV and MiSUMI offer 15 mm extrusion.
-REV extrusion is not as great structurally,
-but is lighter than Misumi extrusion. MiSUMI is more resistant to flexing
-and/or twisting under load. Both REV and Misumi extrusion are sold in bulk,
-and Misumi has the option to cut to the half millimeter.
-Keep in mind that a lot of extrusion can add up quickly in terms of weight.
+15 mm :term:`extrusion` is compatible with M3 hardware,
+allowing teams to slide in bolts to their desired location.
+REV and MiSUMI offer 15 mm :term:`extrusion`.
+REV :term:`extrusion` is not as great structurally,
+but is lighter than MiSUMI :term:`extrusion`.
+MiSUMI is more resistant to
+:term:`flexing and/or twisting under load <Torsional Rigidity>`.
+Both REV and MiSUMI :term:`extrusion` are sold in bulk,
+and MiSUMI has the option to cut to the half millimeter.
+Keep in mind that a lot of :term:`extrusion` can add up quickly in terms of
+weight.
 
-Misumi and 8020 also offer aluminum extrusions in other sizes, such as 20mm
-and 1". 20 mm extrusion can be a good choice if you need a sturdier frame than
-provided by 15mm extrusion. Note that then you would need to buy special
-nuts, as 20mm extrusion is not compatible with M3 nuts.
+MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other
+sizes, such as 20mm and 1".
+20 mm :term:`extrusion` can be a good choice if you need a sturdier frame than
+provided by 15mm :term:`extrusion`.
+Note that then you would need to buy special nuts, as 20mm :term:`extrusion` is
+not compatible with M3 nuts.
 1" extrusion is regularly used as the primary building system in FRC,
 but is definitely overkill for FTC.
 
@@ -76,21 +83,23 @@ relatively little space, and can adapt to any build system.
 We suggest using 1/8” alumimum with drivetrain or mounting applications,
 and 1/16” aluminum for low-load situations.
 
-Aluminum drawer slides, often with ball bearings, are recommended over
-steel drawer slides due to weight savings.
-Refer to the Linear Motion section for more information.
+Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`,
+are recommended over steel drawer slides due to weight savings.
+Refer to the
+:doc:`Linear Motion section </docs/robot-design/linear-motion-guide/index>`
+for more information.
 
 Sheet aluminum is generally used for drivetrain plates on custom drivetrains.
-The recommended thickness is 1/8" or 3/16". Because it is a plate,
-sheet aluminum will bend if not supported correctly with standoffs or
-channel.
+The recommended thickness is 1/8" or 3/16".
+Because it is a plate,
+sheet aluminum will bend if not supported correctly with
+:term:`standoffs <Standoff>` or :term:`channel`.
 Only load the sheet in the plane that it is in
 (if the sheet is vertical, then only put vertical load on it;
 do not load it horizontally).
 However, there may be some applications that would benefit from a slight bit
 of flex for adjustability - in those cases, use your judgment and test it out
 for yourself!
-
 
 Steel
 =====
@@ -115,8 +124,10 @@ Lexan
 * Thick Lexan can be used for drivetrain plates, though this is not recommended
   for inexperienced teams.
 
-..  note::  Lexan is one of the most expensive materials per square foot,
-  so make sure you have carefully planned out what you are cutting before doing so.
+..  note::
+  Lexan is one of the most expensive materials per square foot,
+  so make sure you have carefully planned out what you are cutting before doing
+  so.
 
 Thin lexan can be bent with a metal brake or sheet bender.
 It is recommended for teams to use bends instead of connecting with bolts -
@@ -219,12 +230,11 @@ Plywood and MDF
 * MDF is generally discouraged as there are better options and absorbs water
   easily.
 
-
-
 Carbon Fiber
 ============
 
-..  warning:: **Machining carbon fiber, like any fibrous substance, is a significant
+..  warning::
+  **Machining carbon fiber, like any fibrous substance, is a significant
   SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is
   incredibly dangerous.
   DO NOT MACHINE/CUT carbon fiber unless you know what you are doing.
@@ -238,7 +248,6 @@ Carbon Fiber
 * Carbon fiber rods are used in custom linear slide extensions or multi-axis
   arms.
 * It is probably the most expensive material to purchase.
-
 
 Cardboard
 =========
