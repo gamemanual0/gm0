@@ -69,8 +69,9 @@ this is something that many inexperienced teams ignore.
 A sports example is handy - even with the most talented players,
 a team won’t go far without good game strategy.
 
-.. important:: A less capable team with better strategy execution can often pull
-    off an upset.
+.. important::
+    A less capable team with better strategy execution can often pull off an
+    upset.
     Planning a strategy ensures that every second in the 2:30 game time is used
     to maximum efficiency, which yields maximum points.
 
@@ -109,8 +110,8 @@ Fully driver-controlled → Partially automated tasks
 2. Autonomously operating some mechanisms has the advantage of eliminating
    driver error and relieves stress.
    For example, if a lift has to extend to exactly 30 inches,
-   a motor with an encoder can complete that with 100% accuracy at full speed,
-   compared to a human driver's minor error.
+   a motor with an :term:`encoder` can complete that with 100% accuracy at full
+   speed, compared to a human driver's minor error.
 
 .. note:: Autonomous functions should be able to be overrided by manual input
     in case something goes wrong

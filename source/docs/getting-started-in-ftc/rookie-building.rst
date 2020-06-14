@@ -72,7 +72,7 @@ Pushbot → Mecanum, 6WD, Other Recommended Drivetrains
 We do recommend teams who have purchased the Tetrix kit to build it for
 educational purposes only -
 that is, to get familiarized with the parts and basic building principles using
-a channel-based kit.
+a :term:`channel-based <Channel>` kit.
 However, we do not advise that teams use that pushbot at a competition due to
 its many flaws.
 
