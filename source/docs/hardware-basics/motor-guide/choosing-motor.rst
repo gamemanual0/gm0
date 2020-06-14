@@ -15,37 +15,44 @@ the only FTC legal motors are the following ones:
 * `REV Robotics HD Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1301/>`_
 * `REV Robotics Core Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1300/>`_
 
-With the exception of REV Core Hex Motor, which is discussed separately,
+With the exception of :term:`REV Core Hex Motor <Core Hex Motor>`,
+which is discussed separately,
 all other motors above have very similar structure.
 They consist of the following components.
 
-* **Bare motor**. In all cases above, this is a 12V  motor of RS-555
-  type, with free speed around 6,000 RPM and stall current around 10A.
+* **Bare motor**. In all cases above, this is a 12V motor of
+  :term:`RS-555 type <RS-550 Series Motor>`, with free speed around 6,000 RPM
+  and stall current around 10A.
   The motor specs posted by different vendors might be slightly different,
   but the difference is mainly due to different testing methods.
-  In real life, the bare motors  used by  AndyMark  NeveRest motors,
-  REV Robotics HD Hex motors, and goBILDA motors are virtually identical.
+  In real life, the bare motors used by
+  :term:`AndyMark NeveRest motors <NeveRest Motor>`,
+  :term:`REV Robotics HD Hex motors <HD Hex Motor>`,
+  and :term:`goBILDA motors <Yellow Jacket Motor>` are virtually identical.
   The most reliable specs can be found on the
   `VEX  website <https://motors.vex.com/other-motors/am-NeveRest>`_.
 * **Gearbox**. The gearbox is attached to the front of the motor and reduces
-  the speed while increasing the torque. For example, a 20:1 gearbox
-  reduces the speed by factor of 20, resulting in no-load speed of around
-  300RPM.
-  A gearbox also contains the output shaft (typically 6mm D profile; REV motors
-  use 5mm hex shafts) and mounting holes. Gearbox can be replaced; this
-  is FTC legal but requires some skill.
+  the speed while increasing the torque.
+  For example, a 20:1 gearbox reduces the speed by factor of 20,
+  resulting in no-load speed of around 300RPM.
+  See :term:`Gear Reduction`.
+  A gearbox also contains the output :term:`shaft`
+  (typically 6mm D profile; REV motors use 5mm hex shafts) and mounting holes.
+  Gearbox can be replaced; this is FTC legal but requires some skill.
 * **Encoder**. Attached to the back of the motor and protected by a plastic
-  cap, the encoder contains a sensor registering motor shaft rotation.
-  It can be connected to REV hubs and used for precise control of motor speed
-  or rotating to a specific position.
+  cap, the :term:`encoder` contains a sensor registering motor :term:`shaft`
+  rotation.
+  It can be connected to :term:`REV hubs <Expansion Hub>` and used for precise
+  control of motor speed or rotating to a specific position.
 
 Since the bare motor is similar for all motors discussed above, the choice
-of the right motor is dictated by the gearbox: the gear ratio, output shaft
-type, and ease of mounting.
+of the right motor is dictated by the gearbox:
+the :term:`gear ratio <Gear Reduction>`, output :term:`shaft` type,
+and ease of mounting.
 
 Gearboxes
 ---------
-There are two kinds of gearboxes: spur  and planetary (also known
+There are two kinds of gearboxes: spur and planetary (also known
 as orbital). Their inner structure and difference is discussed in detail in
 :doc:`gearbox-anatomy` section. For new teams, it suffices to know that
 planetary gearboxes are slightly more expensive, but more reliable.
@@ -55,62 +62,77 @@ to use planetary gearbox in high-load use cases such as drivetrains.
 
 Available Spur Gearboxes and Motors
 -----------------------------------
-Motors with spur gearboxes include AndyMark NeveRest Classic motors
-(in 40:1 and 60:1 ratios), the REV HD Hex 40:1 Spur motor,
-and goBILDA 5201 Series Yellow Jacket Spur Gear Motors. All of them offer
-similar performance and reliability, so your  choice is primarily  dictated
-by the convenience of mounting and connecting to the rest of your design
-(e.g., if you use REV kit, you should probably choose REV HD Hex motor, as it
-uses the same 5mm hex shaft as the rest of REV system).
+Motors with spur gearboxes include
+:term:`AndyMark NeveRest Classic motors <NeveRest Motor>`
+(in 40:1 and 60:1 ratios),
+the :term:`REV HD Hex 40:1 Spur motor <HD Hex Motor>`,
+and goBILDA 5201 Series Yellow Jacket Spur Gear Motors.
+All of them offer similar performance and reliability,
+so your choice is primarily dictated by the convenience of mounting and
+connecting to the rest of your design (e.g., if you use REV kit, you should
+probably choose :term:`REV HD Hex motor <HD Hex Motor>`, as it
+uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
 
-.. caution::  These motors are fine for most situations, but should not be used for high
-  loads or when the motor could be subject to shock loads. In particular, it is
-  advised that you do not use them for drivetrains unless your robot is very light.
+.. caution::
+  These motors are fine for most situations, but should not be used for high
+  loads or when the motor could be subject to shock loads.
+  In particular, it is advised that you do not use them for drivetrains unless
+  your robot is very light.
 
 * goBILDA’s 5201 series spur gearboxes are much cheaper than either REV’s or
   Andymark’s; whether that’s a good or bad thing is up to you.
   They utilize the rather uncommon (in the FTC world) bullet connection for
   power. However, these are now discontinued.
   The output shaft is a 6mm D-shaft.
-* REV HD Hex Planetary 40:1 motor - This motor comes only in a 40:1 ratio,
-  but does use the same connections (JST VH) as the REV Expansion and
-  Control hub for power which means no adapter cables.
-  The output shaft is a 5mm hex shaft. REV UltraHex has a 5mm hex bore running
-  through the middle of a 1/2” hex shaft, which makes adapting this motor to
-  any length of Ultrahex, and by extension, 1/2” hex shaft, very easy.
-* Andymark NeveRest Classic motors come in a few different ratios,
-  which are 40:1 and 60:1. The output shaft is a 6mm D-shaft,
-  and like all NeveRest motors use the Anderson Power Pole to connect to power.
+* :term:`REV HD Hex Planetary 40:1 motor <HD Hex Motor>` -
+  This motor comes only in a 40:1 ratio,
+  but does use the same connections (JST VH) as the
+  :term:`REV Expansion <Expansion Hub>` and Control Hub for power which means
+  no adapter cables.
+  The output :term:`shaft` is a 5mm hex :term:`shaft`.
+  :term:`REV UltraHex <UltraHex>` has a 5mm hex :term:`bore` running
+  through the middle of a 1/2” hex :term:`shaft`, which makes adapting this
+  motor to any length of :term:`Ultrahex`, and by extension,
+  1/2” hex :term:`shaft`, very easy.
+* :term:`Andymark NeveRest Classic motors <NeveRest Motor>` come in a few
+  different ratios, which are 40:1 and 60:1.
+  The output shaft is a :term:`6mm D-shaft <Shaft>`,
+  and like all NeveRest motors use the :term:`Anderson PowerPole` to connect to
+  power.
   This connector is perhaps the most robust of the ones listed here.
 
 Standard Planetary Gearboxes
 --------------------------------------------------
-Standard planetary gearboxes include Andymark NeveRest Orbital motors,
-REV 20:1 Planetary motor, and goBILDA’s 5202 Series Yellow Jacket Planetary
-Gear Motors.
+Standard planetary gearboxes include
+:term:`Andymark NeveRest Orbital motors <NeveRest Motor>`,
+:term:`REV 20:1 Planetary motor <HD Hex Motor>`, and
+:term:`goBILDA’s 5202 Series Yellow Jacket Motors <Yellow Jacket Motor>`.
 
-Any of these “standard” gearboxes are more robust than  spur
-gearboxes.
-Like the spur gearboxes, the  gearboxes from different vendors,
+Any of these “standard” gearboxes are more robust than spur gearboxes.
+Like the spur gearboxes, the gearboxes from different vendors,
 while not interchangeable, are very comparable in terms of robustness.
-Once again, the main thing to consider here is your **desired reduction,
-your desired motor connections, and your desired output shaft type**.
+Once again, the main thing to consider here is your desired reduction,
+your desired motor connections, and your desired output :term:`shaft` type.
 
 * **goBILDA Yellow Jacket** has the most varied selection of gearbox ratios
   with too many to list here,
   but utilize the rather uncommon bullet connection for power.
-  The output shaft is a 6mm D-shaft.
+  The output :term:`shaft` is a :term:`6mm D-shaft <Shaft>`.
 * **REV HD Hex Planetary motor** - This motor comes only in a 20:1 ratio,
-  but uses the same connections (JST-VH) as the REV Expansion and Control hub
-  for power which means no adapter cables. The output shaft is a 5mm hex shaft.
-  REV Ultrahex has a 5mm hex bore running through the middle of a 1/2” hex
-  shaft, which makes adapting this motor to any length of Ultrahex,
-  and by extension, 1/2” hex shaft very easy.
-  The ratio of HD Hex is 20:1.
-* **Andymark NeveRest Orbital** motors come in two ratios,  3.7:1 and
-  20:1.
-  The output shaft is a 6mm D-shaft, and like all NeveRest motors use the
-  Anderson PowerPole to connect to power.
+  but uses the same connections (:term:`JST-VH`) as the
+  :term:`REV Expansion <Expansion Hub>` and Control hub for power which means
+  no adapter cables.
+  The output shaft is a :term:`5mm hex shaft <Shaft>`.
+  REV :term:`Ultrahex` has a 5mm hex :term:`bore` running through the middle of
+  a :term:`1/2” hex shaft <Shaft>`,
+  which makes adapting this motor to any length of :term:`Ultrahex`,
+  and by extension, :term:`1/2” hex shaft <Shaft>` very easy.
+  The ratio of the :term:`HD Hex motor` is 20:1.
+* **Andymark NeveRest Orbital** motors come in two
+  :term:`ratios <Gear Reduction>`, 3.7:1 and 20:1.
+  The output shaft is a :term:`6mm D-shaft <Shaft>`,
+  and like all :term:`NeveRest motors <NeveRest motor>` use the
+  :term:`Anderson PowerPole` to connect to power.
   This connector is perhaps the most robust of the ones listed here.
 
 High-end Planetary Gearboxes
@@ -129,17 +151,21 @@ than the standard  ones, but they can be quite expensive and require more work.
   without the typical limiting factor - high cost.
   The total cost for the three stage gearbox and motor is *exceptionally*
   good value for a customizable motor.
-  In addition, the UltraPlanetary has a female 5mm hex output shaft which
-  allows teams to customize the shaft length.
-* `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-options>`_  gearboxes -
+  In addition, the UltraPlanetary has a female
+  :term:`5mm hex output shaft <Shaft>` which allows teams to customize the
+  shaft length.
+* `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-options>`_ gearboxes -
   These gearboxes were designed to be more robust than the gearboxes found on
-  Andymark NeveRest motors. The NeveRest sport gearboxes can handle larger
-  shock loads, and can provide a larger reduction with options up to 256:1.
+  :term:`Andymark NeveRest motors <NeveRest Motor>`.
+  The NeveRest sport gearboxes can handle larger shock loads, and can provide a
+  larger reduction with options up to 256:1.
   These gearboxes are relatively expensive, as no motors are included.
-  You will need a bare NeveRest motor, REV HD Hex motor, or goBilda motor to
-  attach to the gearbox.
+  You will need a bare :term:`NeveRest motor`,
+  :term:`REV HD Hex motor <HD Hex Motor>`,
+  or goBILDA motor to attach to the gearbox.
   The selection should be based only on which connection type you like the most
-  (PowerPole vs. JST VH vs. 3.5mm bullet) for power.
+  (:term:`PowerPole <Anderson PowerPole>` vs. :term:`JST-VH` vs. 3.5mm bullet)
+  for power.
 * `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_
   gearboxes - These planetary gearboxes were designed for FRC use and are
   arguably the most durable gearbox in FTC.
@@ -149,7 +175,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   separately.
   You can disassemble the gearbox from the motor-side,
   so removing the gearbox from the mounted plate is not necessary
-  Attaching the pinion to a bare motor is simple
+  Attaching the pinion to a :term:`bare motor` is simple
   since it clamps onto the motor shaft instead of a press fit like the
   other pinion gears.
   VersaPlanetaries also
@@ -177,7 +203,8 @@ than the standard  ones, but they can be quite expensive and require more work.
   * Like the NeveRest Sport gearboxes, you *will* need to supply your own bare
     motor to attach to the gearbox.
 
-.. note:: The VPLite comes with a 3/8” hex output
+.. note::
+  The VPLite comes with a 3/8” hex output
   shaft only, whereas the more expensive VersaPlanetary comes with various
   options including 1/2” hex, 3/8” hex, 1/2” round with 1/8” keyway,
   a CIM Output option, and a Universal Female Output Shaft.

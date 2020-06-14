@@ -10,8 +10,8 @@ Advantages of 3D Printing
   speed.
 * 3D printing allows teams to adapt between kits and individual parts easily,
   as not all kits have adaptable mounts or brackets.
-  A good example of this are the Nexus mecanum bore adapters that teams 3D
-  print.
+  A good example of this are the Nexus :term:`mecanum <Mecanum Wheel>` bore
+  adapters that teams 3D print.
 * 3D printing allows teams to fabricate parts that would otherwise be
   impossible with materials such as aluminum due to machining restrictions.
 
@@ -98,7 +98,8 @@ is wasted.
     :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
     :scale: 25%
 
-.. tip::   Don't chamfer or round anything on the perimeter of the first layer
+.. tip::
+  Don't chamfer or round anything on the perimeter of the first layer
   on the bottom face of the part. Chamfering or rounding will increase the
   chances of the part warping, especially on unheated print plates.
 

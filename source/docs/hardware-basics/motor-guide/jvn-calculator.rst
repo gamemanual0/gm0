@@ -1,10 +1,11 @@
 ==============
 JVN Calculator
 ==============
-The JVN Design calculator for FTC allows teams to calculate the gear ratio that
-is necessary for a mechanism like a drivetrain or arm.
-This is a very valuable
-resource for picking appropriate gear ratios for almost application you need.
+The JVN Design calculator for FTC allows teams to calculate the
+:term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a
+drivetrain or arm.
+This is a very valuable resource for picking appropriate gear ratios for almost
+application you need.
 It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC 148,
 and was initially designed for FRC calculations.
 
@@ -27,15 +28,17 @@ on vendor pages**.
 
 The test results may be found by searching VEX Dyno Testing, or by clicking
 `here <https://motors.vex.com/other-motors/am-NeveRest>`_.
-(Note: this testing is done to the bare motor, without the end gearbox.)
+(Note: this testing is done to the :term:`bare motor`,
+without the end gearbox.)
 
 Gear Ratios
 ===========
 
-After entering in dyno data, change the gear ratio in the sheet itself.
-The bottom left has a gear reduction page.
-Simply put the overall gear ratio **of your gearbox** in the right side,
-keeping the one on the left.
+After entering in dyno data, change the :term:`gear ratio <Gear Reduction>` in
+the sheet itself.
+The bottom left has a :term:`gear reduction` page.
+Simply put the overall :term:`gear ratio <Gear Reduction>` **of your gearbox**
+in the right side, keeping the one on the left.
 For example for a NeveRest 20:1,
 write in “1” in the driving gear column and “20” in the “driven gear” column.
 Then, add any external gear ratios.
@@ -70,8 +73,8 @@ just enter in the correct motor specifications and add in the total weight and
 wheel diameter.
 Don’t worry about the efficiency and speed loss, just keep it where it is.
 The adjusted speed will account for sag into field tiles,
-loss of efficiency through belts, gears, etc.,
-and loss of grip as the wheels eventually wear out.
+loss of efficiency through :term:`belts <HTD Belt>`, :term:`gears <Gear>`,
+etc., and loss of grip as the wheels eventually wear out.
 A good starting point should be around 2 ft/s,
 though many teams have faster drivetrains ranging to 5+ ft/s.
 Bear in mind that for inexperienced teams,
@@ -86,13 +89,15 @@ General Tips
 * Ensure that the total current draw does not exceed the stall current!
   Generally, this should not be a problem, but it is something to be aware of.
 * For linear slides, maximize linear speed by using a low gear ratio.
-  For arms, maximize torque by using a high gear ratio.
+  For arms, maximize torque by using a high
+  :term:`gear ratio <Gear Reduction>`.
 * You need to keep in mind the loaded current draw on your motor.
   Your motor has a stall current of ~10 amps, so you don’t want to exceed that.
   You also have a 20amp fuse on your battery,
   so make sure that you don’t exceed that for too long,
   or else you’ll pop the fuse.
-* With each stage of gears, chains or belts, you lose efficiency.
+* With each stage of :term:`gears <Gear>`, :term:`chains <Chain>` or
+  :term:`belts <HTD Belt>`, you lose efficiency.
   Depending on how well you build your system and what you are using,
   the percent loss changes.
   However, generally it is around :math:`5\%` per stage.

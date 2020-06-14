@@ -41,9 +41,10 @@ Elimination Match
 Robot Components
 ================
 DC Motor
-    Open-loop RS-555 series 12 volt motors used to power mechanisms. Max of 8.
+    Open-loop `RS-555 series <RS-550 Series Motor>` 12 volt motors used to
+    power mechanisms. Max of 8.
 Servo
-    Closed-loop servo-motors used for precise movement.
+    Closed-loop :term:`servo-motors <Servo>` used for precise movement.
     Controlled by PWM signals. Max of 6.
 Drivetrain (DT)
     Mechanism responsible for the movement of the robot.
@@ -56,14 +57,16 @@ Linear Extension/Slide
     Mechanism responsible for extending parts beyond the starting configuration
     of the robot in a linear fashion.
 REV Expansion Hub
-    Hardware controller for the robot, connected to Robot Controller phone.
+    Hardware controller for the robot, connected to :term:`Robot Controller`
+    phone.
     Controls 4 motor and encoders, 6 servos, and various sensors via digital,
     analog, and I2C ports.
     Maximum of 2 hubs.
 REV Control Hub
-    Integrated Expansion Hub + Android phone (robot controller phone).
-    It serves many of the same purposes as the Expansion Hub but eliminates the
-    need for a robot controller phone.
+    Integrated :term:`Expansion Hub` + Android phone
+    (:term:`robot controller` phone).
+    It serves many of the same purposes as the :term:`Expansion Hub` but
+    eliminates the need for a :term:`robot controller` phone.
     1 Expansion Hub may be used along side 1 Control Hub.
 Driver Station
     Android phone connected to the gamepad controller.

@@ -37,14 +37,14 @@ Where can I get ...?
 
 * Motors and Gearboxes
     * Spur Gear Motors
-        * AndyMark NeveRest Classic
-        * REV HD Hex & Core Hex
+        * :term:`AndyMark NeveRest <NeveRest Motor>` Classic
+        * :term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`
         * goBILDA 5201 Spur Gear
         * TETRIX TorqueNado
     * Planetary Gearbox Motors (recommended)
-        * AndyMark NeveRest Orbital
-        * REV HD Hex Planetary & *UltraPlanetary*
-        * goBILDA 5202 YellowJacket Planetary
+        * :term:`AndyMark NeveRest <NeveRest Motor>` Orbital
+        * :term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*
+        * :term:`goBILDA 5202 Yellow Jacket Planetary <Yellow Jacket Motor>`
         * VEX *VersaPlanetary Lite* (gearbox only)
         * (*italicized* = customizable gearbox ratio)
     * Servos
@@ -55,7 +55,7 @@ Where can I get ...?
           25 tooth spline
         * Savox heavy-duty servos; 25 tooth spline
         * Actuonix (linear actuators)
-        * VEX 393 EDR; 1/8" square shaft
+        * :term:`VEX 393 EDR`; 1/8" square shaft
     * Sensors
         * AndyMark
         * REV
@@ -65,28 +65,31 @@ Where can I get ...?
         * Amazon
         * Local hardware store
     * Aluminum Components
-        * Actobotics channel, mini channel, X-rail extrusion
-        * REV extrusion, C channel, U channel
-        * goBILDA channel, goRAIL extrusion
-        * TETRIX channel
-        * MiSUMI extrusion
+        * Actobotics :term:`channel`, mini :term:`channel`, X-rail
+          :term:`extrusion`
+        * REV extrusion, C :term:`channel`, U :term:`channel`
+        * goBILDA :term:`channel`, goRAIL :term:`extrusion`
+        * TETRIX :term:`channel`
+        * MiSUMI :term:`extrusion`
     * Gears/Sprockets/Pulleys
-        * REV gears, sprockets, pulleys
-        * Actobotics gears, sprockets, pulleys
-        * goBILDA gears, sprockets, pulleys
-        * TETRIX gears and pulleys
-        * AndyMark gears and pulleys
-        * VEX gears, sprockets, pulleys
+        * REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
+        * Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`,
+          pulleys
+        * goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
+        * TETRIX :term:`gears <Gear>` and pulleys
+        * AndyMark :term:`gears <Gear>` and pulleys
+        * VEX :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
     * Wheels
-        * AndyMark traction, compliant, mecanum wheel
-        * REV grip, traction, omni, mecanum wheel
-        * ServoCity traction, omni wheel
-        * goBILDA traction, omni, mecanum wheel
-        * VEX colson traction and mecanum wheel
-        * TETRIX traction, omni, mecanum wheel
-        * Nexus mecanum wheel
+        * AndyMark traction, :term:`compliant <Compliant Wheel>`,
+          :term:`mecanum wheel`
+        * REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
+        * ServoCity traction, :term:`omni wheel`
+        * goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
+        * VEX colson traction and :term:`mecanum wheel`
+        * TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
+        * Nexus :term:`mecanum wheel`
     * Linear Slide Kits
-        * REV 15 mm extrusion slide kit
+        * REV 15 mm :term:`extrusion` slide kit
         * Actobotics linear slide kit
         * goBILDA linear slide kit
     * Drawer Slides

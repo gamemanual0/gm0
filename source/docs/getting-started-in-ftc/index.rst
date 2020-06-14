@@ -22,7 +22,8 @@ On the hardware side, you have your
 a :doc:`claw <../robot-design/passive-intake/index>` or
 :doc:`intake <../robot-design/active-intake/index>` to pick up game elements,
 as well as any other mechanisms specific to the game.
-On the electronics side, there are the two REV Expansion Hubs
+On the electronics side, there are the two
+:term:`REV Expansion Hubs <Expansion Hub>`
 (or one Control Hub and one Expansion Hub),
 the Android phone(s),
 and controllers.
@@ -101,8 +102,8 @@ as many new teams run into problems during their tournament because of it.
   to see if there is any damage to the field tiles.
 * Hydraulic and pneumatic devices are prohibited.
   Sorry, only the FRC kids get nice toys.
-* Commercial Off the Shelf (COTS) parts are allowed
-  **as long as they only have one degree of freedom**.
+* :term:`Commercial Off the Shelf (COTS) <COTS>` parts are
+  allowed **as long as they only have one degree of freedom**.
 * One degree of freedom generally means that the mechanism can only move along
   one axis.
   Typically, one DoF = one joint. Multiple joints allow movement in 2 or more
@@ -112,9 +113,9 @@ as many new teams run into problems during their tournament because of it.
 * The recommended batteries are the REV slim battery and Modern Robotics
   Battery (sold on goBILDA.com). The Tetrix battery is fine,
   **however, Tamiya connectors are fragile and unreliable**.
-* Only 8 DC motors and 12 servos are allowed. The VEX 393 EDR counts as a
-  servo.
-* Modifying servos and replacing fuses are not allowed.
+* Only 8 DC motors and 12 :term:`servos <Servo>` are allowed.
+  The :term:`VEX 393 EDR` counts as a :term:`servo <Servo>`.
+* Modifying :term:`servos <Servo>` and replacing fuses are not allowed.
 
 .. toctree::
     :maxdepth: 1

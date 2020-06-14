@@ -96,7 +96,7 @@ Keeping things simple can be practically achieved through a couple of ways.
 
 Score-first designs → Design for Consistency
 ============================================
-.. important::  Teams should prioritize consistency over scoring ability.
+.. important:: Teams should prioritize consistency over scoring ability.
 
 The tortoise beats the rabbit.
 An overused parable, but it still holds a kernel of truth.
@@ -131,9 +131,9 @@ Build haphazardly → Build for reliability
 =========================================
 .. important:: Build for the worst case scenario, not the best case scenario.
     When building, teams often overlook a key principle: build for reliability.
-    All too often, teams skimp on the quality of construction as well as materials,
-    which leads to one of the most common reasons for unsuccessful tournaments:
-    part failure.
+    All too often, teams skimp on the quality of construction as well as
+    materials, which leads to one of the most common reasons for unsuccessful
+    tournaments: part failure.
 
 Teams also do not take into account the rigors of competition and build as if
 the robot will not encounter opposing robots.
@@ -165,7 +165,8 @@ a key characteristic of all world-level robots.
 
 Fret about Design → Focus on Execution
 ======================================
-.. tip:: A good execution of a bad design will beat a bad execution of good design.
+.. tip::
+    A good execution of a bad design will beat a bad execution of good design.
 
 .. important:: FTC is all about how well you execute in both the mechanical
     aspect and the driver aspect.

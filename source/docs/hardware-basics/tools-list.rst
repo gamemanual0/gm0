@@ -40,7 +40,7 @@ Helpful
 
 * Bandsaw
 
-..  caution::   A bandsaw **cannot** cut through steel shafts!
+..  caution:: A bandsaw **cannot** cut through steel :term:`shafts <Shaft>`!
 
 * Impact driver
 * Drill press

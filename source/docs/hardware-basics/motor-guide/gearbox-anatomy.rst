@@ -3,8 +3,9 @@ Gearbox Internals
 =================
 Fundamentally, a gearbox is just a collection of gears and an enclosure that
 connects them. Gearboxes have an **output ratio**,
-the final gear ratio between the motor input and the final output shaft.
-Gear ratios are further explained in the glossary.
+the :term:`final gear ratio <Gear Reduction>` between the motor input and the
+:term:`final output shaft <Shaft>`.
+:term:`Gear ratios <Gear Reduction>` are further explained in the glossary.
 
 In FTC, gearboxes may be more common than you think -
 every motor has a gearbox attached to it.
@@ -15,17 +16,18 @@ motor.**
 
 Spur Gearboxes
 --------------
-Spur gearboxes are an arrangement of gear ratios,
+Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`,
 often stacked to achieve a large compound ratio (e.g. 40:1).
-Each individual ratio only has two gears- one may be 8:1,
+Each individual ratio only has two :term:`gears <Gear>`- one may be 8:1,
 another may be 5:1, but the final ratio will be 40:1.
 These gearboxes are used in the Andymark NeveRest Classic series and
-goBILDA’s 5201 series motors, as well as REV HD Hex Motors
+goBILDA’s 5201 series motors,
+as well as :term:`REV HD Hex Motors <HD Hex Motor>`.
 Due to the nature of how these gearboxes are built,
-each reduction only has a few teeth from each gear engaged,
+each reduction only has a few teeth from each :term:`gear` engaged,
 and those teeth carry the entire load of the gearbox.
 It’s easy to damage a spur gearbox from shock load,
-and if one gear breaks,
+and if one :term:`gear` breaks,
 the entire gearbox will stop functioning.
 
 ..  tip:: Using spur gearboxes on high-load applications such as
@@ -58,7 +60,9 @@ ratios without changing gear size, but all planetary gearboxes that you will
 see in FTC only achieve one gear ratio.
 Planetary gearboxes are used in the Andymark Orbital series,
 some REV HD Hex Planetary and UltraPlanetary Motors
-and goBILDA’s wide selection of planetary gear motors.
+and
+goBILDA’s wide selection of
+:term:`planetary gear motors <Yellow Jacket Motor>`.
 Additionally, AndyMark sells a few aftermarket planetary gearboxes called
 NeveRest Sport and 57 Sport,
 and VEXpro sells the customizable VersaPlanetary gearbox.
@@ -81,8 +85,8 @@ Advantages of Planetary Gearboxes
   The part should be able to wiggle around a little without having considerable
   force imparted on it.
   This is caused because it is impossible for the gear teeth inside the gearbox
-  to mesh perfectly, and is the same for chain and sprockets,
-  or any other form of power transmission.
+  to mesh perfectly, and is the same for :term:`chain` and
+  :term:`sprockets <Sprocket>`, or any other form of power transmission.
   However, planetary gearboxes have less backlash as they have less stages of
   gears.
 * Efficiency is better than spur gearboxes. A typical two-stage spur gearbox is
