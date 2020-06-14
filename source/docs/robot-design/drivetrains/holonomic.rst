@@ -6,7 +6,7 @@ Mecanum Drive
 Mecanum drivetrains consist of four mecanum wheels which are powered
 independently by one motor.
 This configuration angles the velocity of each wheel,
-allowing the robot to strafe (move side-to-side).
+allowing the robot to :term:`strafe`.
 The primary advantage to mecanum drive is the maneuverability it affords,
 especially because the robot can strafe instead of turn and drive.
 The rollers on mecanum wheels form a 45 degree angle with the wheel’s axis of
@@ -71,7 +71,7 @@ Mecanum Wheels Miniguide
 There are plenty of mecanum wheels on the market,
 and it can be very daunting to choose between the many vendors.
 An important feature is the type of mechanism that facilitates the motion,
-either **bushing** or **bearing**.
+either **:term:`bushing`** or **:term:`bearing`**.
 Bearing based mecanum wheels often have superior strafing because there is less
 resistance for the rollers to overcome.
 Another important note is that some FTC teams invest in 6 inch mecanum wheels

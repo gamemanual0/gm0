@@ -11,7 +11,7 @@ Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
 Drivetrain types
 ==================================
-A tank drivetrain primarily utilizes traction wheels and cannot strafe
+A tank drivetrain primarily utilizes :term:`traction wheels <Traction wheel>` and cannot strafe
 (move sideways).
 To change directions, a tank drivetrain relies on either turning the wheels on
 the left and right side in the opposite direction (thus spinning the robot) or

@@ -6,7 +6,7 @@ CAD Tutorial Part 1 - Drivetrain in an Hour
 
 Choosing the Drivetrain
 -----------------------
-After learning your CAD program of choice, determine the necessary
+After learning your :term:`CAD <Computer-aided design (CAD)` program of choice, determine the necessary
 requirements for the drivetrain based on the current game.
 Teams should shoot for the wheelbase that works the best in that specific
 field’s layout.
@@ -32,8 +32,8 @@ Here are some things to figure out before starting:
 
 * Drive Type (mecanum, 6wd, 8wd, etc.)
 * Number of Motors (four motors recommended in most cases)
-* Type of wheels (Colson, omni, etc.)
-* Drive power (belt, chain, gear)
+* Type of wheels (:term:`Colson <Colson wheel>`, :term:`omni <Omni wheel>`, etc.)
+* Drive power (:term:`belt <HTD belt>`, :term:`chain <Sprocket>`, :term:`gear`)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors.
 The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid
@@ -51,7 +51,7 @@ Start with a 2D sketch of everything before trying to extrude and make actual
 
 This is a sketch of the inner plate of the drive base.
 Everything should be laid out in a 2D sketch to determine the mounting holes,
-bores, center-to-center distance, etc.
+:term: `bore`, :term:`center-to-center distance <C2C>`, etc.
 2D sketches are extremely helpful and are highly recommended in any project.
 After the sketch is completed, everything else falls into place and becomes
 pretty simple.

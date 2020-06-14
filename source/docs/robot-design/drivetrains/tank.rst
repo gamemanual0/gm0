@@ -11,7 +11,8 @@ though it is usable at low competition levels.
 This is the introductory drivetrain type for many rookies,
 as it is promoted in official guides published by FIRST
 (giving it the name pushbot).
-It often has direct driven traction wheels with unpowered omni wheels.
+It often has :term:`direct driven <Direct drive>` :term:`traction wheels <Traction wheel>` 
+with unpowered :term:`omni wheels <Omni Wheel>`.
 This type of drivetrain has poor turning as the center of turning is at the
 back of the robot between the two powered wheels.
 In comparison to other drivetrains, it has poor acceleration due to only using
@@ -42,7 +43,7 @@ Disadvantages
   underpowered, and has a fragile gearbox.
 * Lacks agility and maneuverability due to 2 motor turning
 * Poor acceleration due to 2 motors
-* Often direct driven, which is highly discouraged for drivetrains
+* Often :term:`direct driven <Direct Drive>, which is highly discouraged for drivetrains
 
 .. figure:: images/tank/tetrix-pushbot.jpg
     :alt: Tetrix pushbot
@@ -57,8 +58,7 @@ but with one notable difference: **all four wheels are powered**.
 Some teams will put all four traction wheels or use all four omni wheels.
 It is not suggested to use all 4 traction wheels due to poor turning that
 results in this setup.
-This is caused by wheel scrub
-(friction between the side of the wheel and the floor tile).
+This is caused by :term:`wheel scrub`.
 Using omni wheels for all four wheels will result in incredible turning, with
 the robot rotating around its center.
 However, this advantage comes with a major loss of traction.
@@ -70,7 +70,7 @@ above the terrain.
 
 It is suggested that a four wheel drivetrain be close to, or exactly, a square.
 Otherwise, one may encounter problems turning.
-**Weight distribution is furthermore a large factor that should be considered:
+**:term:`Weight distribution` is furthermore a large factor that should be considered:
 the more weight in the back, the better**.
 Off-center turning, which may or may not be a drawback,
 is nearly ubiquitous among 4 wheel drives.
@@ -167,11 +167,11 @@ Advantages
 Disadvantages
 -------------
 
-* Drop-center 6WD is tricky to build with channel-based systems
+* Drop-center 6WD is tricky to build with :term:`channel`-based systems
 * Drop-center 6WD as slightly worse turning, but more traction
 * Drop-center 6WD is dependent on field conditions
 * Corner omni 6WD has less traction
-* Slow gear ratios will make a 6WD feel sluggish
+* Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
 
 .. figure:: images/tank/tilerunner-6wd.jpg
     :alt: AndyMark's TileRunner 6wd
@@ -209,7 +209,7 @@ wheel drive, whereas 6 wheel drives can turn more quickly.
 Furthermore, since the 8 wheel drive has wheels in the same place as a 4 wheel
 drive, it has the stability of a 4 wheel drive.
 It is suggested that all eight wheels should be powered,
-and planetary motors should be used over a spur gear motor.
+and :term:`planetary <Planetary gear>` motors should be used over a :term:`spur gear <Spur Gearbox>` motor.
 Teams have the option of using doubled omni wheels on the outer four wheels.
 Doing so will reduce traction/pushing power and increase mobility.
 
@@ -250,7 +250,7 @@ reasons.
 Tread is complex, and has many points of failure.
 Treads are also very prone to defense, and a slight hit from another robot is
 enough to misalign the treads.
-Commercial Off-The-Shelf (COTS) tread options aren’t great either -
+:term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren’t great either -
 TETRIX tracks have a tendency to snap and derail when used on robot
 drivetrains, making them not suitable for competition use.
 While it is possible to implement tread drive successfully,

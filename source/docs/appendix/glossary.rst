@@ -138,6 +138,12 @@ You’ll be able to quickly learn the lingo of FTC!
         This will affect :term:`chain`/:term:`belt <HTD Belt>` tension and gear
         meshing, so calculating this correctly is essential.
 
+    Center drop 
+        Center drop refers to a 6+ wheel tank drivetrain with the center wheel 
+        (usually a traction wheel) mounted slightly lower than the other wheels, 
+        thus "dropping" that wheel. Dropped drivetrains have more turning agility 
+        than non-dropped tank drivetrains as :term:`wheel scrub` is reduced. 
+
     Chain
         Refer to :term:`sprocket` for more information.
 
@@ -534,6 +540,11 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: A REV Robotics High Strength Hex Hub
             :width: 200
 
+    Holonomic drivetrain 
+        Holonomic drivetrains utilize mecanum and omni wheels in order for the 
+        robot to :term:`strafe <Strafe>` and turn. The most common holonomic drivetrain 
+        is a four wheel mecanum drive.  
+
     HTD Belt
         HTD belt is a type of synchronous timing belt commonly used on
         drivetrains.
@@ -695,8 +706,23 @@ You’ll be able to quickly learn the lingo of FTC!
         a gear.
 
     Planetary Gear
+        Planetary gearing consists of a center gear (sun gear) which has smaller gears 
+        (planet gears) revolving 
+        around it. The outer radius has a ring gear which holds the other gears in place.
         Refer to :doc:`/docs/hardware-basics/motor-guide/gearbox-anatomy`
         for more information.
+
+    Pocketing
+        Pocketing refers to cutting out excess material from a CAD designed part. Pocketing 
+        helps to reduce weight and can increase strength of a part. This may seem counterintuitive
+        (how can removing material strengthen a part?) but pocketing can reduce 
+        stress buildup, especially at corners. Pocketing is often seen on drivetrain sheet 
+        metal plates which will be CNC machined. In FRC, pocketing is often used to reduce weight
+        of the rectangular aluminum tubes. 
+        
+        .. image:: images/glossary/pocketing.png
+            :alt: 731 Wannabee Strance 2019 VCC outer mechanism plate
+            :width: 200
 
     Polyurethane tubing
         Polyurethane tubing is a type of clear tubing that is stiffer than
@@ -886,6 +912,10 @@ You’ll be able to quickly learn the lingo of FTC!
             Delrin  20 Tooth #25 sprocket
 
 
+    Spur gearbox 
+        A spur gearbox has spur gears which are stacked on top of each other. Gear 
+        reduction is achieved through different size gears on the same plane. 
+
     SRS Programmer
         The REV SRS Programmer is a device that will send a special data signal
         to the REV Smart Robot Servos to control their electronic endstops,
@@ -961,6 +991,13 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: A roll of surgical tubing
             :width: 200
 
+    Tank drivetrain 
+        A tank drivetrain has wheels set up in a parallel line. It commonly uses 
+        4 or 6 wheels, but the most widespread tank drivetrain is a 6 wheel 
+        :term:`drop center <Center drop>` tank drive. Tank drivetrains 
+        turn by rotating the left or right sides in opposite directions, or in the 
+        same direction at different speeds. 
+
     Thunderhex
         Thunderhex is aluminum rounded hex :term:`shaft` that comes in 3/8” and
         1/2” hex sold by VEX Robotics.
@@ -994,6 +1031,12 @@ You’ll be able to quickly learn the lingo of FTC!
         Torsional rigidity has consequences particularly in building
         drivetrains, as the drivetrain is the last mechanism on your robot that
         should flex or bend when weight or force is applied to it.
+    
+    Traction wheel 
+        A traction or grip wheel is a wheel designed for maximum grip. It has an outer ring 
+        made of rubber, and its wide track ensures a larger contact patch with the ground. 
+        Traction wheels are commonly found in tank drivetrains. They are sold in different 
+        sizes and thicknesses by different manufacturers. 
 
     UltraHex
         UltraHex is 1/2” aluminum hex :term:`shafting <Shaft>` sold by REV
@@ -1103,6 +1146,17 @@ You’ll be able to quickly learn the lingo of FTC!
         wheels are :term:`chained <Chain>`/:term:`belted <HTD Belt>` to the center wheel.
         Of course in FTC, this definition becomes much more lax,
         with most drop center 6 wheel drives being parallel plate.
+
+    Weight distribution 
+        Weight distribution generally refers to how the weight of the robot is proportioned. 
+        It is desirable to have a relatively 50-50 (50% of weight in the front half, 50% in back half) 
+        so that the drivetrain has optimal manuverability and turning. 
+
+    Wheel scrub
+        Wheel scrub refers to friction between the side of the wheel and the floor tile.
+        It inhibits turning as the drivetrain must overcome this frictional force 
+        in order to turn the robot. 
+        Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop`. 
 
     XT30
         The XT30 connector is used in the REV ecosystem through the
