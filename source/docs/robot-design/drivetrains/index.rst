@@ -24,7 +24,7 @@ Tank drivetrains are relatively simple to build,
 yet are still competitive at the highest levels.
 
 A holonomic drivetrain, in contrast to a tank drivetrain, can move sideways,
-due to using either mecanum or omni wheels.
+due to using either :term:`mecanum <Mecanum Wheel>` or :term:`omni <Omni Wheel>` wheels.
 These kinds of wheels have special rollers that allow strafing movements.
 Thus, holonomic drivetrains prioritize movement over traction.
 Holonomic drivetrains eliminate the time it takes to turn for a tank
@@ -69,7 +69,7 @@ Here are some priorities for that we think are important for each drivetrain:
    as all competitive teams use 4+ motors on the drivetrain.
    Another issue stemming from experience is that most teams’ drivetrains are
    too slow.
-   More advanced teams may focus on the ability to play defense,
+   More advanced teams may focus on the ability to play :term:`defense`,
    but in general, maneuverability and speed are the main factors to a
    successful drivetrain.
    60:1 and 40:1 drivetrains are
@@ -93,7 +93,7 @@ Here are some priorities for that we think are important for each drivetrain:
    drivers, a team can avoid defense instead of having to fend it off or engage
    in it.
 5. **Powering the drivetrain**: Generally, there are four options for power
-   transmission: direct drive, chain, gears, and belt.
+   transmission: direct drive, :term:`chain <sprocket>`, :term:`gear <gear>`, and belt.
    More detail about each option can be found in the power transmission
    section.
    Teams should stay away from direct drive, as gearboxes are prone to

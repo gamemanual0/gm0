@@ -12,7 +12,7 @@ You’ll be able to quickly learn the lingo of FTC!
         In addition, there are adapters available to other systems.
 
         .. image:: images/glossary/anderson-powerpole.png
-            :alt: Andreson powerpole connector
+            :alt: Anderson powerpole connector
             :width: 200
 
     Ball Bearing
@@ -218,6 +218,11 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: A Colson Performa Wheel
             :width: 200
 
+    Computer-aided design (CAD) 
+        CAD is software most commonly used to aid the design and drafting of parts and assemblies
+        in engineering. In FTC, CAD is used to make 3D models of robots 
+        as well as design custom parts. 
+
     COTS
         COTS (Commercial Off the Shelf) parts refer to parts that teams can
         purchase physically or through an online retailer.
@@ -324,6 +329,15 @@ You’ll be able to quickly learn the lingo of FTC!
         torque, and also eliminates the need for :term:`hubs <Clamping Hub>`.
         Additionally, the axle can be used for structural integrity,
         as it is rigidly mounted.
+
+    Defense
+        Defense is a strategy employed with the goal of preventing the opposing 
+        alliance from scoring points, or at least significantly slowing the 
+        opposition's scoring. This strategy can backfire if drivers illegally play 
+        defense and incur penalties and/or cards for their alliance. Defense is 
+        usually played by obstructing the opposing alliance, either by strategically 
+        positioning the robot to obstruct access or pushing another team's robot into 
+        a disadvantageous position.  
 
     Direct Drive
         Direct drive refers to mounting a wheel directly on the shaft of the
@@ -894,6 +908,10 @@ You’ll be able to quickly learn the lingo of FTC!
         .. image:: images/glossary/standoffs.png
             :alt: A couple of standoffr
             :width: 200
+
+    STEP file 
+        A STEP file is a filetype used to store 3D data about a part. It is 
+        recognized by different CAD softwares including SolidWorks, Inventor, Creo, etc. 
 
     Stealth Wheel
         The stealth wheel, sold by Andymark,

@@ -1,10 +1,10 @@
-=======
-CAD
-=======
+=====================
+Computer-aided design
+=====================
 
 Introduction
 ------------
-CAD stands for computer aided design: making a 3d model of your robot using
+:term:`Computer-aided design (CAD)` stands for computer aided design: making a 3d model of your robot using
 special computer software.
 
 
@@ -159,7 +159,7 @@ Getting Parts
 All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models
 of the parts they sell in STEP format, which can be imported by any of the
 CAD programs above. Some vendors also offer repositories or zip files
-containing STEP files of all the models they sell. For example, REV Robotics
+containing :term:`STEP file` of all the models they sell. For example, REV Robotics
 offers such a repository on their  `Technical Resources <http://www.revrobotics.com/resources/>`_ page.
 For more public repositories of FTC parts,
 check :doc:`../appendix/useful-resources` section in the Appendix.
