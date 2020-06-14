@@ -152,7 +152,7 @@ You’ll be able to quickly learn the lingo of FTC!
 
     Channel
         Channel (more precisely called C-Channel) is aluminum that is in the
-        profile of a C.
+        profile of a C. (It is also sometimes called U-Channel.)
         Channel, along with :term:`extrusion`,
         is the most common structural build element in FTC,
         and is found in Tetrix, REV, Actobotics, and goBILDA kits.
@@ -391,7 +391,8 @@ You’ll be able to quickly learn the lingo of FTC!
         For FTC, the most common is the 15mm extrusion,
         used in the REV and Misumi products.
         15mm extrusion accepts M3 bolts and nuts
-        (note that only regular M3 nuts can fit inside the slot, not locknuts).
+        (note that only regular M3 nuts can fit inside the slot,
+        not :term:`locknuts <Locknut>`).
         Extrusion is not a fixed pitch system,
         allowing teams to adjust components as they wish.
         This makes it simple to achieve correct tension and put mechanisms
@@ -475,7 +476,7 @@ You’ll be able to quickly learn the lingo of FTC!
         For instance, if one wishes to make a mechanism faster at the expense
         of torque by doubling the speed of that 20:1 gearbox,
         they would decrease the gear ratio by a factor of 2.
-        Since :math:`\frac{20}{2} = 10`, the new desired ratio would be 10:1
+        Since 20 divided by 2 is 10, the new desired ratio would be 10:1
         (this is referred to as gearing up).
         However, if one wishes to double torque instead,
         making the system more powerful and robust at the expense of speed,
