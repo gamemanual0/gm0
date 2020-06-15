@@ -96,6 +96,15 @@ html_theme = 'alabaster'
 html_logo = "assets/gm0-logo.png"
 html_favicon = "assets/gm0-logo.ico"
 
+html_sidebars = {
+    '**': [
+            'about.html',
+            'navigation.html',
+            'relations.html',
+            'searchbox.html',
+    ]
+}
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -105,9 +114,12 @@ html_theme_options = {
     'fixed_sidebar': True,
     'logo_name': False,
 
+    # Service links and badges
+
     # Non-service sidebar control
     'extra_nav_links': {
-        'Copperforge': 'https://copperforge.cc/'
+        'Copperforge': 'https://copperforge.cc/',
+        'GitHub': 'https://www.github.com/Coppersource/gm0',
     },
 
     # Header/footer options
@@ -121,7 +133,6 @@ html_theme_options = {
     'warn_border': '#F49E4C',
 
     # Fonts
-    font_family: '"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
