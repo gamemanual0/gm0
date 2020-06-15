@@ -3,12 +3,13 @@ Programming Tutorial - Mecanum Drivetrain
 =========================================
 Mecanum Physics
 ===============
-A very common choice for drivetrain in FTC is mecanum drive,
-but we have noticed that not a lot of people know how they work or how to
-properly program them.
-Mecanum wheels have rollers at a 45° angle to the rest of the wheel.
+A very common choice for drivetrain in FTC is
+:term:`mecanum drive <Mecanum Wheel>`, but we have noticed that not a lot of
+people know how they work or how to properly program them.
+:term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45° angle to the rest
+of the wheel.
 Since these are in contact with the ground instead of something solid like in a
-traction wheel, instead of the wheel creating a force parallel to the
+:term:`traction wheel`, instead of the wheel creating a force parallel to the
 orientation of the wheel,
 it creates one 45° from parallel.
 Depending on how the wheels are driven, X or Y components of the force vectors
@@ -25,14 +26,15 @@ This is because with 4 wheels on a robot oriented in and X orientation,
 the vectors can be cancelled such that movement is created in any direction.
 It is important to note that because of friction,
 perfect movement isn’t possible in every direction,
-so a mecanum drivetrain will be able to drive slightly faster
-forwards/backwards than any other directions.
+so a :term:`mecanum drivetrain <Mecanum Wheel>` will be able to drive slightly
+faster forwards/backwards than any other directions.
 
 .. image:: images/mecanum-drive/mecanum-drive-force-diagram.png
     :alt: Force diagram of a complete mecanum drive
 
-In that image, 1, 2, 3, and 4 are the force vectors created by the mecanum
-wheels when driven towards the top of the image.
+In that image, 1, 2, 3, and 4 are the force vectors created by the
+:term:`mecanum wheels <Mecanum Wheel>` when driven towards the top of the
+image.
 The blue and red lines are their X and Y components, respectively.
 Here are a few examples of how the wheels must be driven to achieve different
 movements (It is not recommended to hard code these in;
@@ -84,8 +86,8 @@ the value of the left wheels will be :math:`1+1=2`
 (which gets converted to 1 in the SDK) and the right wheels will be
 :math:`1-1=0`, which causes a rightward curve.
 
-Applying omnidirectional movement with mecanum wheels operates under the same
-principle as adding turning into the tank example.
+Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>`
+operates under the same principle as adding turning into the tank example.
 The left stick X values will be added or subtracted to each wheel depending on
 how that wheel needs to rotate to get the desired movement.
 The only difference between adding turning is that rather than wheels on the

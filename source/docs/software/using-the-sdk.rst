@@ -49,7 +49,7 @@ Reading and Writing to Hardware
 When using the FTC SDK, there are a variety of built in hardware classes.
 Objects can be created for these classes and then instantiated.
 These objects can then be used to communicate with hardware on the robot such
-as DC Motors, Servos, and Sensors.
+as DC Motors, :term:`Servos <Servo>`, and Sensors.
 
 Creating and Instantiating Hardware Objects
 -------------------------------------------
@@ -84,8 +84,9 @@ Examples of Using Common Hardware Components
 
 Built in to the FTC SDK are many examples of using things such as Color
 Sensors, Distance Sensors, Servos, Motors, etc.
-Here, we would like to give more of an explanation of using Motors and Servos
-because there are a few things the examples do not teach.
+Here, we would like to give more of an explanation of using Motors and
+:term:`Servos <Servo>` because there are a few things the examples do not
+teach.
 
 DC Motor
 ^^^^^^^^
@@ -171,25 +172,27 @@ Servo
 
     Servo relicServo = hardwareMap.get(Servo.class, "Release Servo");
 
-After instantiating a Servo, there are two main functions that can be called:
-``setPosition()`` and ``getPosition()``.
+After instantiating a ``Servo``, there are two main functions that can be
+called: ``setPosition()`` and ``getPosition()``.
 ::
 
     releaseServo.setPosition(0.75);
     telemetry.addData("Release Servo Target", releaseServo.getPosition());
 
-``setPosition()`` sets the position of the servo.
-The SDK will use a built-in control loop with the servo’s potentiometer to
-drive the servo to that position and hold that position. ``setPosition()``
-takes in a double between 0 and 1, where 0 is the servo’s lower limit of
-rotation and 1 is the servo’s upper limit of rotation.
+``setPosition()`` sets the position of the :term:`servo`.
+The SDK will use a built-in control loop with the :term:`servo’s <Servo>`
+potentiometer to drive the :term:`servo` to that position and hold that
+position.
+``setPosition()`` takes in a double between 0 and 1,
+where 0 is the :term:`servo’s <Servo>` lower limit of
+rotation and 1 is the :term:`servo’s <Servo>` upper limit of rotation.
 Everything between is directly proportional,
 so 0.5 is the middle, 0.75 is 3/4 the way up, etc.
 
-``getPosition()`` does not return the servo’s current position,
+``getPosition()`` does not return the :term:`servo’s <Servo>` current position,
 rather its current target position.
-If a variable for the servo’s current target position is stored properly,
-this function should never be needed.
+If a variable for the :term:`servo’s <Servo>` current target position is stored
+properly, this function should never be needed.
 
 Continuous Rotation Servo
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -233,7 +236,7 @@ Here are a few examples:
 A Note on Hardware Call Speed
 ===============================
 Every hardware call you make, (whether it be setting the power for a motor,
-setting a servo position, reading an encoder value, etc.)
+setting a :term:`servo` position, reading an encoder value, etc.)
 will take approximately 3 milliseconds to execute,
 except for I2C calls which can take upwards of 7ms.
 This is because behind the scenes, the SDK may need to make multiple hardware

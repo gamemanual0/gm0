@@ -6,9 +6,9 @@ CAD Tutorial Part 1 - Drivetrain in an Hour
 
 Choosing the Drivetrain
 -----------------------
-After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice,
-determine the necessary requirements for the drivetrain based on the current
-game.
+After learning your :term:`CAD <Computer-aided design (CAD)>`
+program of choice, determine the necessary requirements for the drivetrain
+based on the current game.
 Teams should shoot for the wheelbase that works the best in that specific
 field’s layout.
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to
@@ -53,7 +53,7 @@ Start with a 2D sketch of everything before trying to extrude and make actual
 
 This is a sketch of the inner plate of the drive base.
 Everything should be laid out in a 2D sketch to determine the mounting holes,
-:term: `bore`, :term:`center-to-center distance <C2C>`, etc.
+:term:`bore`, :term:`center-to-center distance <C2C>`, etc.
 2D sketches are extremely helpful and are highly recommended in any project.
 After the sketch is completed, everything else falls into place and becomes
 pretty simple.
@@ -280,7 +280,8 @@ are also unable to machine tight internal corners.
 For those parts that need minimum rigidity loss and a lot more machine time on
 their hands, pockets don't need to be cut all the way.
 
-:term: `Waterjet cutters <Waterjet cutter>` and :term: `laser cutters <laser cutter>` are only able to cut material all the way
+:term:`Waterjet cutters <Waterjet cutter>` and
+:term:`laser cutters <laser cutter>` are only able to cut material all the way
 through, but routers and mills are able to make surface pockets.
 These pockets don’t go all the way through the material and are multitudes more
 rigid than thru pocketing.

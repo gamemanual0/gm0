@@ -55,7 +55,7 @@ There are different types of variables
 Java-Specific Exploratory Questions
 -----------------------------------
 
-* Replace the text in coolName to something else.
+* Replace the text in ``coolName`` to something else.
   Your name, a phone number, your favorite anime.
   What about emotes and copypastas?
   What about characters in other languages?

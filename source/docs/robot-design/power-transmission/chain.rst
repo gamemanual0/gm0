@@ -9,11 +9,11 @@ Each link can rotate around its pins,
 creating a dynamic loop that can conform to any shape.
 The pins in the chain engage the gaps between teeth on each sprocket.
 If you’ve ridden a bike, chances are that you’ve already seen roller chain -
-the chain on your FTC robot is similar, but it’s probably a different **:term: `pitch`**
-(different size).
+the chain on your FTC robot is similar, but it’s probably a different
+**:term:`pitch`** (different size).
 Chains most commonly used in FTC are #25 or 8mm pitch.
 
-When using chain, often there is a :term: `master link`.
+When using chain, often there is a :term:`master link`.
 This is a special type of link that has a removable end capsule in order to
 shorten the chain.
 However, as it is removable,
@@ -21,14 +21,14 @@ it is not a very reliable chain link and can loosen and fall off under
 prolonged usage.
 There have been teams who have had master chain links fail during competition,
 costing them a match in the elimination rounds.
-A :term: `chain breaker` eliminates the need for master links because it can break and
-join chain at any point.
+A :term:`chain breaker` eliminates the need for master links because it can
+break and join chain at any point.
 Chain breakers do so by pushing out the pins in the link and re-inserting them
 back.
 
 **It is highly recommended that teams purchase a chain breaker
-(we recommend the :term: `DarkSoul` chain breaker) instead of using master links,
-which are prone to failure.**
+(we recommend the :term:`DarkSoul` chain breaker) instead of using master
+links, which are prone to failure.**
 
 .. figure:: images/chain/master-link.png
     :alt: A disassembled master link
@@ -66,7 +66,7 @@ Roller Chain
 
 Center-to-Center calculations
 =============================
-The equation to calculate :term: `center-to-center <C2C>` for chain is quite complicated.
+The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated.
 Many `online calculators <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
 can calculate C-C distances without going through the tedious calculations.
 However, the complete formula is below.

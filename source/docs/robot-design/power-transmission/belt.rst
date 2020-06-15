@@ -1,4 +1,4 @@
-===========
+============
 Timing Belt
 ===========
 When you think of a belt,
@@ -8,8 +8,8 @@ the timing Belt.
 If you’ve ever tinkered with the insides of a car before,
 you probably recognize timing belts as an important component designed to keep
 everything under the hood in sync.
-While a timing belt may complete a similar objective to :term: `chain <sprocket>`,
-its characteristics and strengths are very different.
+While a timing belt may complete a similar objective to
+:term:`chain <sprocket>`, its characteristics and strengths are very different.
 Timing belts use a series of small,
 wide teeth to engage a pulley with a number of matching grooves.
 They earn their name because they can be very precise,
@@ -19,7 +19,7 @@ They’re lighter and more compact than chains,
 but they lack the customizability of their bulkier brother -
 belts come in a closed loop of predetermined length,
 and there’s no changing that length on the fly.
-Like chain, belt is identified by its **:term: `pitch`** -
+Like chain, belt is identified by its **:term:`pitch`** -
 common pitches found on FTC robots include
 HTD 5mm, HTD 3mm, GT2 3mm, and XL 0.2”.
 
@@ -41,8 +41,8 @@ real life.
 Terms
 =====
 
-* :term: `Pitch diameter` (PD) refers to the imaginary circle which is traced by the
-  middle of the belt as the pulley rotates.
+* :term:`Pitch diameter` (PD) refers to the imaginary circle which is traced by
+  the middle of the belt as the pulley rotates.
   The outer edge of the circle is halfway between the outer face of the belt
   and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi`
 * Pitch refers to the arc length between the centerlines of two adjacent pulley
@@ -58,7 +58,7 @@ Terms
 
 Center-to-Center calculations
 =============================
-Just like chain, the actual calculations for precise :term: `C2C` distances for belts are
+Just like chain, the actual calculations for precise :term:`C2C` distances for belts are
 complicated.
 Here is a `calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
 or `two <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_

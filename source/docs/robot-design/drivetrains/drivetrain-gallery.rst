@@ -4,7 +4,7 @@ Sample Drivetrains
 
 In this section, we compile several sample drivetrains
 which you can use as a starting point for your own designs.
-You should also check :doc:`gallery of  robot designs <../../appendix/gallery>`
+You should also check :doc:`gallery of robot designs <../../appendix/gallery>`
 in the Appendix.
 
 `goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit/>`_
@@ -12,7 +12,7 @@ in the Appendix.
     an excellent starting point for robots built from goBILDA kit.
 `Strafer chassis with odometry <https://drive.google.com/open?id=1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb>`_
     Modification of goBILDA chassis by FTC 9794 Wizards.exe, which adds
-    :term: `odometry wheels <Odometry wheel>`. See also their video tutorials:
+    :term:`odometry wheels <Odometry wheel>`. See also their video tutorials:
     https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <http://www.revrobotics.com/content/docs/GearDrivetrain-Guide.pdf>`_
     Sample 6 wheel drivetrain built using REV  kit.

@@ -12,10 +12,11 @@ It has a colorful and lego-like design and includes sounds of block pieces of
 snapping together.
 
 Using a device and a robot controller phone, connect your device to the phone’s
-Wi-Fi by clicking the three dots in the top right of the RC and select
-“program / manage”.
+Wi-Fi by clicking the three dots in the top right of the
+:term:`RC <Robot Controller>` and select “program / manage”.
 This will display the WiFi SSID and password for you to connect to.
-Go onto your browser (preferably Chrome) and enter the address shown on the RC.
+Go onto your browser (preferably Chrome) and enter the address shown on the
+:term:`RC <Robot Controller>`.
 
 Advantages
 ----------
@@ -32,7 +33,8 @@ Disadvantages
 
 * Not recommended if you’re already familiar with some type of programming
     * Primarily a teaching tool for people with no programming experience
-* This will change your primary Wi-Fi network to the Robot Controller's Direct
+* This will change your primary Wi-Fi network to the
+  :term:`Robot Controller's <Robot Controller>` Direct
   Wi-Fi network, and as such, you will be unable to access the internet while
   connected to this particular network.
 
@@ -85,7 +87,7 @@ Advantages
 * Much easier to integrate libraries like
   OpenCV, DogeCV, Road Runner, OpenFTC, etc.
 * Can use plugins like `Road Runner <https://github.com/acmerobotics/road-runner>`_
-* Can use either a USB connection to the RC phone,
+* Can use either a USB connection to the :term:`RC <Robot Controller>` phone,
   or a wireless connection to upload code
 * Can debug in real-time
 * Many resources for Java, Android Studio, and IDEA
