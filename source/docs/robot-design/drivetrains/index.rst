@@ -11,8 +11,8 @@ Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
 Drivetrain types
 ==================================
-A tank drivetrain primarily utilizes :term:`traction wheels <Traction wheel>` and cannot strafe
-(move sideways).
+A tank drivetrain primarily utilizes
+:term:`traction wheels <Traction wheel>` and cannot strafe (move sideways).
 To change directions, a tank drivetrain relies on either turning the wheels on
 the left and right side in the opposite direction (thus spinning the robot) or
 running one side faster than the other side
@@ -24,7 +24,8 @@ Tank drivetrains are relatively simple to build,
 yet are still competitive at the highest levels.
 
 A holonomic drivetrain, in contrast to a tank drivetrain, can move sideways,
-due to using either :term:`mecanum <Mecanum Wheel>` or :term:`omni <Omni Wheel>` wheels.
+due to using either :term:`mecanum <Mecanum Wheel>`
+or :term:`omni <Omni Wheel>` wheels.
 These kinds of wheels have special rollers that allow strafing movements.
 Thus, holonomic drivetrains prioritize movement over traction.
 Holonomic drivetrains eliminate the time it takes to turn for a tank
@@ -93,7 +94,8 @@ Here are some priorities for that we think are important for each drivetrain:
    drivers, a team can avoid defense instead of having to fend it off or engage
    in it.
 5. **Powering the drivetrain**: Generally, there are four options for power
-   transmission: direct drive, :term:`chain <sprocket>`, :term:`gear <gear>`, and belt.
+   transmission: direct drive, :term:`chain <sprocket>`, :term:`gear <gear>`,
+   and belt.
    More detail about each option can be found in the power transmission
    section.
    Teams should stay away from direct drive, as gearboxes are prone to

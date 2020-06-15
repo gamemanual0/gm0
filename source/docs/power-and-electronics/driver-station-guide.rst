@@ -14,8 +14,9 @@ risk of disconnects.
   crowded on competition day.
   This can lead to noticeably higher ping/lag which adversely affects driver
   and robot performance.
-* USB and OTG connections can be a possible source of disconnects during a
-  match. This is generally caused by poor quality  connectors or adapters
+* USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a
+  possible source of disconnects during a match.
+  This is generally caused by poor quality connectors or adapters
   between the driver station and the gamepad controller.
   It generally is worth it to purchase higher quality connectors as opposed to
   the cheapest options.
@@ -36,7 +37,8 @@ risk of disconnects.
   However, this is likely a non-issue for the large majority of teams.
   Also, keep in mind that there are very specific models of the Xbox controller
   that are legal, so they can be hard to find new.
-* A phone holder and OTG strain relief connector can be useful as it may help
+* A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>`
+  strain relief connector can be useful as it may help
   to prevent connections from loosening.
   Especially if teams are running dual controller configuration,
   ensuring that the USB hub is secure won't hurt.

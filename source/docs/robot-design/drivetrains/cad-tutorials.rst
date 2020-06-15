@@ -6,8 +6,9 @@ CAD Tutorial Part 1 - Drivetrain in an Hour
 
 Choosing the Drivetrain
 -----------------------
-After learning your :term:`CAD <Computer-aided design (CAD)` program of choice, determine the necessary
-requirements for the drivetrain based on the current game.
+After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice,
+determine the necessary requirements for the drivetrain based on the current
+game.
 Teams should shoot for the wheelbase that works the best in that specific
 field’s layout.
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to
@@ -32,7 +33,8 @@ Here are some things to figure out before starting:
 
 * Drive Type (mecanum, 6wd, 8wd, etc.)
 * Number of Motors (four motors recommended in most cases)
-* Type of wheels (:term:`Colson <Colson wheel>`, :term:`omni <Omni wheel>`, etc.)
+* Type of wheels (:term:`Colson <Colson wheel>`, :term:`omni <Omni wheel>`,
+  etc.)
 * Drive power (:term:`belt <HTD belt>`, :term:`chain <Sprocket>`, :term:`gear`)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors.

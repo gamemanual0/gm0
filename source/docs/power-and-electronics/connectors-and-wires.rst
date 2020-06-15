@@ -13,6 +13,7 @@ Here are the most common connectors you will find on an FTC robot.
 
     * Used for module power
     * Used for motor power
+    * See :term:`Anderson Powerpole`
 * XT30
 
     .. image:: images/wiring/xt30-connector.png
@@ -20,6 +21,7 @@ Here are the most common connectors you will find on an FTC robot.
         :width: 200px
 
     * Used for module power
+    * See :term:`XT30`
 * JST-VH
 
     .. image:: images/wiring/jst-vh-connector.png
@@ -27,6 +29,7 @@ Here are the most common connectors you will find on an FTC robot.
         :width: 200px
 
     * Used for motor power
+    * See :term:`JST-VH`
 * Dupont 0.1”
 
     .. image:: images/wiring/dupont-connector.png
@@ -41,6 +44,7 @@ Here are the most common connectors you will find on an FTC robot.
         :width: 200px
 
     * Used for sensors
+    * See :term:`JST-PH`
 * Tamiya
     .. image:: images/wiring/tamiya-connector.png
         :alt: A Tamiya connector
