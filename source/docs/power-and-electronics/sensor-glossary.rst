@@ -65,7 +65,7 @@ Other
 Logic Level Converter
 =====================
 The old Modern Robotics system run on 5v sensor logic.
-The new Rev Robotics system uses 3.3v.
+The new REV Robotics system uses 3.3v.
 For most off the shelf sensors, this doesn’t cause any problems,
 but for some existing FTC sensors it does.
 To solve this Rev sells boards, called

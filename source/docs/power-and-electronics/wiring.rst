@@ -42,9 +42,10 @@ General Advice
   Therefore, use electrical tape to tape up and insulate connections and
   utilize strain relief as much as possible.
 * **Strain relief** should be used everywhere possible.
-  It is highly recommended for teams to use products like the REV USB Retention
-  Mount, as well as 3D printing strain relief methods for devices such as the
-  Expansion Hub and robot controller phones.
+  It is highly recommended for teams to use products like the
+  :term:`REV USB Retention Mount <USB Retention Mount>`,
+  as well as 3D printing strain relief methods for devices such as the
+  :term:`Expansion Hub`  and robot controller phones.
 * **DO NOT solder a wire before crimping it**.
   Solder can "creep" and losing connection is possible,
   possibly leading to fire.
@@ -62,7 +63,7 @@ General Advice
   way of other robots/game pieces.
   It is advised for teams to purchase removable velcro ties or cable ties to
   aid with cable management.
-* For power wires, lower gauge (larger size) wires are preferable.
+* For power wires, lower :term:`gauge` (larger size) wires are preferable.
   This means a lower resistance across the wire and higher power throughput.
   This is negligible for data wires, however.
 * Small wires and cables are fragile.
@@ -126,10 +127,11 @@ Specific Recommendations
 ------------------------
 Module Power
 ^^^^^^^^^^^^
-Be aware, XT30 connectors can wear out significantly faster than PowerPole
-connectors.
-Additionally, because XT30 connectors are soldered, they can break much easier
-than PowerPole connections.
+Be aware, :term:`XT30` connectors can wear out significantly faster than
+:term:`PowerPole <Anderson Powerpole>` connectors.
+Additionally, because :term:`XT30` connectors are soldered,
+they can break much easier than :term:`PowerPole <Anderson PowerPole>`
+connections.
 
 Cabling for module power should be at least 14awg, if not 12awg.
 Keep in mind that it must be stranded, not solid, wire.
@@ -139,8 +141,10 @@ Motor Power
 Cabling for motor power should be between 16awg and 12awg.
 Again, stranded, not solid, wire.
 
-Some motors (like the REV HD Hex and Core Hex) will have removable power
-connectors on the back, while other motors (like the Andymark NeveRests)
+Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and
+:term:`Core Hex <Core Hex Motor>`) will have removable power
+connectors on the back, while other motors
+(like the :term:`Andymark NeveRests <NeveRest Motor>`)
 will have a cable permanently soldered on the back.
 It is much more convenient to have a connector on the back, or failing that,
 have a very short plug on the back of the motor.
@@ -184,15 +188,15 @@ a Y cable that gives two sensors off of one port.
 Miscellaneous
 =============
 REV Grounding Strap
-    The REV Grounding Strap is currently the only legal way to ground your
-    robot.
-    Attach the end to the metal part of your robot frame, and plug the XT30
-    connector end into a free XT30 port on your robot.
+    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only
+    legal way to ground your robot.
+    Attach the end to the metal part of your robot frame, and plug the
+    :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels
-    The REV Power Distribution Block allows teams to have more than four XT30
-    connectors (2 on each Expansion Hub).
+    The REV Power Distribution Block allows teams to have more than four
+    :term:`XT30` connectors (2 on each :term:`Expansion Hub`).
     The block can be connected to the Servo Power Module to boost voltage for
-    servos or provide continuous rotation for the VEX 393 EDR.
+    servos or provide continuous rotation for the :term:`VEX 393 EDR`.
 Dryer sheets
     Dryer sheets can be used to wipe down the robot after every match in order
     to reduce static buildup.

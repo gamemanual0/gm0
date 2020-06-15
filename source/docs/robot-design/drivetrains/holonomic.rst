@@ -6,7 +6,7 @@ Mecanum Drive
 Mecanum drivetrains consist of four mecanum wheels which are powered
 independently by one motor.
 This configuration angles the velocity of each wheel,
-allowing the robot to :term:`strafe`.
+allowing the robot to strafe.
 The primary advantage to mecanum drive is the maneuverability it affords,
 especially because the robot can strafe instead of turn and drive.
 The rollers on mecanum wheels form a 45 degree angle with the wheel’s axis of
