@@ -23,10 +23,12 @@ is_release_build = os.environ.get('READTHEDOCS') == 'True'
 
 project = 'Game Manual 0'
 author = 'Game Manual 0 Contributors'
-
+# To work in the theme a static, dark-text version of the logo is needed 
+# hosted_by = """Hosting Graciously Provided By <img src="https://copperforge.cc/static/images/logo/copperforge_logo_colored.svg" alt="//Copperforge" onerror="this.style.display='none'" width="150px">"""
+hosted_by = """Hosting Graciously Provided By //Copperforge"""
 copyright_year = 2020
 
-copyright = str(copyright_year) + ", " + str(author)
+copyright = str(copyright_year) + ", " + author + " |  " + hosted_by
 
 highlight_language = "java"
 
@@ -90,17 +92,30 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'custom_sphinx_rtd_theme'
-html_theme_path = ["_themes", ]
+html_theme = 'alabaster'
 html_logo = "assets/gm0-logo.png"
 html_favicon = "assets/gm0-logo.ico"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
 html_theme_options = {
-    'logo_only': True,
+    # Basics:
+    'description': 'A guide for FTC teams',
+    'fixed_sidebar': True,
+    'logo_name': False,
+
+    # Non-service sidebar control
+    'extra_nav_links': {
+        'Copperforge': 'https://copperforge.cc/'
+    },
+
+    # Header/footer options
+    'show_powered_by': False,
+    'show_relbars': True,
+
+    # Style colors
+    
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -136,7 +151,7 @@ latex_show_urls = 'footnote'
 latex_show_pagerefs = True
 
 latex_elements = {
-    'releasename':"Game Manual 0",
+    'releasename': "Game Manual 0",
 
     'papersize': 'letterpaper',
 

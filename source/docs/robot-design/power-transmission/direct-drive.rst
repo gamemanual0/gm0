@@ -19,8 +19,8 @@ This happens when the wheel comes into contact with another robot or the field
 wall, which honestly happens more than you’d think.
 This can bend the motor shaft or permanently damage the gearbox.
 
-Second, direct drive limits the :term:`gear ratio` to whatever ratio the motor
-gearbox is at.
+Second, direct drive limits the :term:`gear ratio <Gear Reduction>` to whatever
+ratio the motor gearbox is at.
 One advantage of all the other three transmission systems is the ability to
 gear up or down, based on a team’s needs.
 Direct drive cannot do so, and if your drivetrain uses 40:1 gearboxes,
