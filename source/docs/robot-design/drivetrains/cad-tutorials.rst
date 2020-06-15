@@ -278,7 +278,7 @@ are also unable to machine tight internal corners.
 For those parts that need minimum rigidity loss and a lot more machine time on
 their hands, pockets don't need to be cut all the way.
 
-Waterjet cutters and laser cutters are only able to cut material all the way
+:term: `Waterjet cutters <Waterjet cutter>` and :term: `laser cutters <laser cutter>` are only able to cut material all the way
 through, but routers and mills are able to make surface pockets.
 These pockets don’t go all the way through the material and are multitudes more
 rigid than thru pocketing.

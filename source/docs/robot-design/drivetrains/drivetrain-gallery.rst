@@ -12,13 +12,13 @@ in the Appendix.
     an excellent starting point for robots built from goBILDA kit.
 `Strafer chassis with odometry <https://drive.google.com/open?id=1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb>`_
     Modification of goBILDA chassis by FTC 9794 Wizards.exe, which adds
-    odometry wheels. See also their video tutorials:
+    :term: `odometry wheels <Odometry wheel>`. See also their video tutorials:
     https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <http://www.revrobotics.com/content/docs/GearDrivetrain-Guide.pdf>`_
     Sample 6 wheel drivetrain built using REV  kit.
 `AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-options>`_
     A universal chassis kit sold by AndyMark. It is available in several
-    modifications: 6 wheel, mecanum, tank tread. It is pricey, but using
+    modifications: 6 wheel, mecanum, tank tread. It is expensive, but using
     provided 3d models as inspiration for your own drvietrain is free.
 `Basebot <http://basebot.co/>`_
     A customizable open source drivetrain by FTC 10355 Project Peacock.

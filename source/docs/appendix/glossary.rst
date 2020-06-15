@@ -580,6 +580,11 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: A cable with JST-VH connectors
             :width: 200
 
+    Laser cutter 
+        A laser cutter is a tool that uses a high-power laser to cut through sheet metal
+        or similar material. The laser is guided by CNC to cut preprogrammed patterns 
+        into the sheet. 
+
     Lead Screw
         A lead screw is very similar to a threaded rod.
         It is used for high load and high torque application such as hanging.
@@ -627,6 +632,13 @@ You’ll be able to quickly learn the lingo of FTC!
 
             Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)
 
+    Master link
+        The master link is a piece of metal that acts as the connector piece for chain. 
+        The link comprises one side of a chain link, and the other side is a special 
+        single-sided link piece which accomodates the master link. The master link 
+        may be removed easily to allow the chain to be shortened or lengthened. 
+        However, because it is removable, it is not very reliable and can break off. 
+
     Mecanum Wheel
         Mecanum wheels are a special type of wheel that enable maneuverability
         and holonomic strafing as opposed to traditional wheels.
@@ -641,6 +653,13 @@ You’ll be able to quickly learn the lingo of FTC!
         .. image:: images/glossary/nexus-mecanum.png
             :alt: A Nexus 100 mm mecanum wheel
             :width: 200
+
+    Mesh 
+        Meshing refers to the overlapping contact between a gear tooth and another gear tooth, chain and 
+        sprocket, or belt and pulley. A proper mesh is essential to ensure maximum 
+        torque transmission. Too little mesh can result in no power transfer, 
+        derailment or gears grinding/wearing down faster. Too much mesh can produce 
+        unwanted friction and introduce inefficiencies within the drive system. 
 
     Micro USB On The Go (OTG) Cable
         The Micro USB OTG cable connects the :term:`driver station` phone with
@@ -660,6 +679,14 @@ You’ll be able to quickly learn the lingo of FTC!
         is a :term:`RS-555 series motor <RS-550 Series Motor>` that is
         available in spur gear and planetary options.
         It has a 6mm D-shaft output compatible with Actobotics motion system.
+
+    Odometry wheel 
+        An odometry wheel is a small unpowered wheel (usually omni wheel) that tracks the 
+        distance the robot has traveled through the encoder attached to the wheel's axle. 
+        Usually, there will be two wheels - one on the x and y axis each to track the 
+        front-back and left-right position relative to the starting point. 
+        Generally, odometry wheels are sprung so that the wheel is in contact with the 
+        floor tiles at all times to ensure accuracy. 
 
     Omni Wheel
         Omni(directional) wheels, sold by many different vendors,
@@ -698,6 +725,10 @@ You’ll be able to quickly learn the lingo of FTC!
         depending on the space requirements of the wheels and drive system.
         Generally, a pod width of 3" or less is desired to maximize the space
         between the drive pods for mechanisms such as an intake.
+
+    Pitch 
+        Pitch refers to the :term: `center-to-center <C2C>` distance between one tooth 
+        of a gear or sprocket to another. 
 
     Pitch Diameter
         Pitch Diameter (PD) is the imaginary circle that mates with any other
@@ -1133,6 +1164,13 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: REV Robotics V-groove bearings riding on 1" extrusion
 
             REV Robotics V-Groove Bearing riding on 1” extrusion
+
+    Waterjet cutter
+        A waterjet cutter is a tool which cuts sheet metal and other materials 
+        via extremely high pressure water focused into a small stream. Waterjet 
+        cutters are commonly used in industrial fabrication and can follow preprogrammed 
+        instructions to cut patterns, similar to a CNC system.  
+
 
     West Coast Drivetrain
         West Coast Drivetrain (WCD), is a type of 6 wheel drive drivetrain that

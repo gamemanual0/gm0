@@ -11,7 +11,7 @@ but can’t be used for transferring power over long distances.
 Many teams dislike gears when using kit-based channels because the hole pattern
 limits which combinations of gears can be used.
 Consequently, it may be difficult to achieve a desired specific gear ratio.
-However, with extrusion systems, it’s very easy to use different ratios,
+However, with :term: `extrusion` systems, it’s very easy to use different ratios,
 since the gears can be moved around in extrusion.
 
 Gears are made in different materials, with the most common being 7075
@@ -59,7 +59,7 @@ Terms
 
 Meshing Gears
 =============
-**Be sure to never mesh gears that are not of the same diametral pitch**
+**Be sure to never :term: `mesh` gears that are not of the same diametral pitch**
 (A notable exception is 32 diametral pitch and 0.8 MOD gears.
 These are close enough to be perfectly fine.)
 

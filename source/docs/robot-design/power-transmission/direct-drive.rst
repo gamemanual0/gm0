@@ -8,7 +8,7 @@ as it is the simplest way to do so.
 However, there are significant drawbacks to this method.
 
 First, direct drive puts unnecessary load on the drive motor.
-This is because shock loads can destroy the gearbox, even planetary gearboxes.
+This is because shock loads can destroy the gearbox, even :term: `planetary gearboxes <Planetary gear>.
 Gearboxes are able to withstand load along the axis of rotation,
 such as what occurs when the wheel changes direction.
 This is a normal situation of load.
@@ -18,7 +18,7 @@ This happens when the wheel comes into contact with another robot or the field
 wall, which honestly happens more than you’d think.
 This can bend the motor shaft or permanently damage the gearbox.
 
-Second, direct drive limits the gear ratio to whatever ratio the motor gearbox
+Second, direct drive limits the :term: `gear ratio` to whatever ratio the motor gearbox
 is at.
 One advantage of all the other three transmission systems is the ability to
 gear up or down, based on a team’s needs.
@@ -30,7 +30,7 @@ This can lead to bending of the motor shaft,
 since in direct drive the shaft is only supported by one side, the gearbox.
 Generally, a principle among all engineers is to support the shaft on both
 sides, which isn’t possible in this case.
-This leads to cantilevering the shaft,
+This leads to :term: `cantilevering <Cantilever>` the shaft,
 something that should be avoided in general.
 Thus, with a heavy robot the motor shafts can easily be bent due to a lack of
 support.
