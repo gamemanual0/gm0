@@ -115,7 +115,13 @@ html_theme_options = {
     'show_relbars': True,
 
     # Style colors
-    
+    'note_bg': '#E4F3FE',
+    'note_border': '#E4F3FE',
+    'warn_bg': 'rgba(244,158,76,0.15)',
+    'warn_border': '#F49E4C',
+
+    # Fonts
+    font_family: '"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
