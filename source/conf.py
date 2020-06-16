@@ -111,7 +111,6 @@ html_sidebars = {
 html_theme_options = {
     # Basics:
     'description': 'A guide for FTC teams',
-    'fixed_sidebar': True,
     'logo_name': False,
 
     # Service links and badges
