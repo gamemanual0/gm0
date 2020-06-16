@@ -160,7 +160,7 @@ of the parts they sell in STEP format, which can be imported by any of the
 CAD programs above. Some vendors also offer repositories or zip files
 containing :term:`STEP file` of all the models they sell.
 For example, REV Robotics offers such a repository on their
-`Technical Resources <http://www.revrobotics.com/resources/>`_ page.
+`Technical Resources <https://www.revrobotics.com/resources/>`_ page.
 For more public repositories of FTC parts,
 check :doc:`../appendix/useful-resources` section in the Appendix.
 

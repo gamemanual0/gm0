@@ -48,7 +48,7 @@ Below are some tips on using servos in FTC.
 
 There are also some alternative designs of servo supports; one of them, which
 is not as strong as the original :term:`ServoBlock <ServoBlocks>` but much more
-compact, is shown below (`CAD <https://a360.co/38POMq6>`_ is also available):
+compact, is shown below (`CAD <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_ is also available):
 
 .. figure:: images/compact_servo_block.png
      :alt: compact servoblock
@@ -67,7 +67,7 @@ compact, is shown below (`CAD <https://a360.co/38POMq6>`_ is also available):
       is used as the link.
 
 * If you need more power, use
-  `REV Servo Power Module <http://www.revrobotics.com/rev-11-1144/>`_.
+  `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
   By itself, :term:`REV Expansion Hub <Expansion Hub>` provides 5V power to
   servos, and the current is limited to 2A for each of 3 pairs of servo ports
   (0-1, 2-3, 4-5).

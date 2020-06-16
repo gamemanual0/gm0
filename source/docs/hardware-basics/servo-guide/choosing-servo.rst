@@ -4,7 +4,7 @@ Choosing a Servo
 
 For many applications, you can just use one of the two most common
 :term:`servos <Servo>` in FTC,
-`REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_ or
+`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ or
 `goBILDA Dual Mode Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
 However, sometimes these :term:`servos <Servo>` are not enough.
 Here are some important :term:`servo` features to consider when selecting
@@ -190,7 +190,7 @@ Best Value
     * Futaba servos
 * Medium Priced (~$25)
     * `goBILDA Dual Mode Servo (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
-    * `REV Smart Servo <http://www.revrobotics.com/rev-41-1097/>`_
+    * `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
 * Best Performance ($75+)
     * Savox titanium servos
     * Hitec titanium servos

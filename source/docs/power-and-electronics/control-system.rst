@@ -16,7 +16,7 @@ More information about the FTC Control system can be found below.
 
 `Official control system Wiki on GitHub <https://github.com/first-tech-challenge/skystone/wiki>`_
 
-`REV Expansion Hub Documentation <http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+`REV Expansion Hub Documentation <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
 
 `FIRST troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 
@@ -62,7 +62,7 @@ is linked to the DS  (:term:`Driver Station`) phone through WiFi Direct.
 For more information on setting up the :term:`Expansion Hub` and configuring
 the robot,
 head to REV Robotics’ Technical Resources page on their website.
-* `USB Retention Mount <http://www.revrobotics.com/rev-41-1214/>`_
+* `USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_
 * `XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_
 * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
 

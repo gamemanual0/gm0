@@ -175,7 +175,7 @@ instead of the typical 4in.
 .. _TETRIX Mecanum Wheels: https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels
 .. _VEX EDR Mecanum Wheels: https://www.vexrobotics.com/vexpro/ftc/motion/edr-wheels.html
 .. _AndyMark Standard Duty Mecanum Wheels: https://www.andymark.com/products/4-in-standard-mecanum-single-wheel?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6OkNhdGFsb2
-.. _REV 75mm Mecanum Wheels: http://www.revrobotics.com/rev-45-1655/
+.. _REV 75mm Mecanum Wheels: https://www.revrobotics.com/rev-45-1655/
 
 .. figure:: images/holonomic/8103-mecanum.png
     :alt: 8103 Null Robotics's mecanum drivetrain render

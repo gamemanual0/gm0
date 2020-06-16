@@ -14,7 +14,7 @@ Encoders/Potentiometers
 * Rotational
     * Absolute (+ Potentiometers)
         * MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-cable>`_)
-        * Potentiometer (`REV-31-1155 <http://www.revrobotics.com/rev-31-1155/>`_)
+        * Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)
     * Relative
         * E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
         * Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
@@ -28,9 +28,9 @@ Contact
 
 * Physical
     * Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
-    * Touch Sensor REV (`REV-31-1425 <http://www.revrobotics.com/rev-31-1425/>`_)
+    * Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)
 * Magnetic
-    * Hall Effect Sensor REV (`REV-31-1462 <http://www.revrobotics.com/rev-31-1462/>`_)
+    * Hall Effect Sensor REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)
 
 Optical
 =======
@@ -69,9 +69,9 @@ The new REV Robotics system uses 3.3v.
 For most off the shelf sensors, this doesn’t cause any problems,
 but for some existing FTC sensors it does.
 To solve this Rev sells boards, called
-`logic level converters <http://www.revrobotics.com/rev-31-1389/>`_,
+`logic level converters <https://www.revrobotics.com/rev-31-1389/>`_,
 that convert the sensor data to be readable by the Rev hubs.
-The `Rev Expansion Hub <http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+The `Rev Expansion Hub <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
 guide has a chart detailing what adapters are needed for what sensors.
 According to Rev testing, goBILDA, Rev and TorqueNado motors don’t need logic
 level converters, but only some NeveRest motors worked with no discernable

@@ -25,9 +25,9 @@ It is recommended that teams crimp new :term:`Anderson Powerpole` connectors
 onto the battery.
 
 It is highly recommended for teams to use the
-`REV grounding strap <http://www.revrobotics.com/rev-31-1269/>`_
+`REV grounding strap <https://www.revrobotics.com/rev-31-1269/>`_
 and the
-`REV USB strain relief <http://www.revrobotics.com/rev-41-1214/>`_
+`REV USB strain relief <https://www.revrobotics.com/rev-41-1214/>`_
 to help prevent disconnections.
 
 To protect wires, teams often use

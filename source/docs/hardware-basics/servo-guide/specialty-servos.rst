@@ -29,7 +29,7 @@ and similar designs. Note that this :term:`servo` requires 6V input,
 so it can not be used directly with :term:`REV hubs <Expansion Hub>`,
 which only provide 5V.
 Instead, you need a
-`REV Servo Power Module <http://www.revrobotics.com/rev-11-1144/>`_.
+`REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
 
 VEX 393 EDR
 ===========

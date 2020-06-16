@@ -20,7 +20,7 @@ DIY alternatives.**
 
 REV Robotics 15mm Linear Motion Kit
 ===================================
-The `REV 15mm Linear Motion Kit <http://www.revrobotics.com/rev-45-1507/>`_
+The `REV 15mm Linear Motion Kit <https://www.revrobotics.com/rev-45-1507/>`_
 is based off of the 15mm extrusion system.
 **This extrusion kit does not perform spectacularly without modification.**
 This has been partially remedied by REV as they have developed a second
