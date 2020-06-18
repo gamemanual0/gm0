@@ -30,13 +30,10 @@ img {
 
 /* Center caption text in their respective figure */
 div.figure.align-default {
-    /* text-align: center;
-    display: inline-block;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Make sure captions cannot be wider than the figure they are describing */
