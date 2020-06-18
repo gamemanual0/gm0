@@ -105,6 +105,8 @@ html_sidebars = {
     ]
 }
 
+text_fonts = "'Open Sans', 'Garamond', 'Georgia', serif"
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -132,6 +134,9 @@ html_theme_options = {
     'warn_border': '#F49E4C',
 
     # Fonts
+    'caption_font_family': text_fonts,
+    'font_family': text_fonts,
+    'head_font_family': text_fonts,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
