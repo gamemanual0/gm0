@@ -3,12 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=============
-Game Manual 0
-=============
+============
 Introduction
 ============
-Hello! Welcome, and thank you for taking the time to read |gm0|,
+Hello! Welcome and thank you for taking the time to read |gm0|,
 the premier resource for new and upcoming FIRST Tech Challenge teams!
 If you are a rookie or a new team,
 we would especially like to welcome you to the FTC community.
@@ -64,11 +62,13 @@ about how to build a specific drivetrain, linear slide, intake, etc.
 The purpose of |gm0| is simply to provide knowledge and advice to teams about
 the possible options, as well as including some tips on how to get started.
 |gm0| has knowledge and advice, but not instructions.
-**It is of the utmost importance that all teams learn the proper way
-(by following the engineering design process),
-not by reading a step-by-step guide or instruction manual.
-Thus, while |gm0| has plenty of advice, we do not have specific steps included.
-Good luck, and have fun in FTC!**
+
+.. note::
+    It is of the utmost importance that all teams learn the proper way
+    (by following the engineering design process),
+    not by reading a step-by-step guide or instruction manual.
+    Thus, while |gm0| has plenty of advice, we do not have specific steps included.
+    Good luck, and have fun in FTC!
 
 .. toctree::
     :caption: Game Manual 0 Table of Contents

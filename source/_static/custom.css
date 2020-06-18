@@ -1,1 +1,16 @@
+h1.logo {
+    display: none;
+}
 
+div.sphinxsidebarwrapper p.blurb {
+    margin-top: -25px;
+}
+
+div.sphinxsidebar p.caption {
+    display: none;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
