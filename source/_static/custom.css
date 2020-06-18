@@ -1,16 +1,20 @@
+/* Used to hide the text "Game Manual 0" under the logo*/
 h1.logo {
     display: none;
 }
 
+/* Moves the description above the logo, because the logo has lots of empty space */
 div.sphinxsidebarwrapper p.blurb {
     margin-top: -25px;
 }
 
+/* Get rid of "Game Manual 0 Table of Contents" under Navigation as that is repetitive */
 div.sphinxsidebar p.caption {
     display: none;
 }
 
-div.sphinxsidebar h3, div.sphinxsidebar h4 {
+/* Change margins around Navigation to make the spacing more natural */
+div.sphinxsidebar h3 {
     margin-top: 5px;
     margin-bottom: -5px;
 }

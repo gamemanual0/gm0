@@ -1,7 +1,8 @@
 Glossary
 ========
 
-Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
+Many terms used in FTC and |gm0| that are unfamiliar to teams may be found
+here.
 You’ll be able to quickly learn the lingo of FTC!
 
 .. glossary::
