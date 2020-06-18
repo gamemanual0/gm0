@@ -72,8 +72,11 @@ above the terrain.
 
 It is suggested that a four wheel drivetrain be close to, or exactly, a square.
 Otherwise, one may encounter problems turning.
-**:term:`Weight distribution` is furthermore a large factor that should
-be considered: the more weight in the back, the better**.
+
+.. note::
+    :term:`Weight distribution` is furthermore a large factor that should
+    be considered: the more weight in the back, the better.
+
 Off-center turning, which may or may not be a drawback,
 is nearly ubiquitous among 4 wheel drives.
 This may not be a problem for teams, but it is good to be aware of it.
