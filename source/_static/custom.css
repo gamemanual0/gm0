@@ -51,3 +51,11 @@ div.ethical-sidebar, div.ethical-footer {
     position: absolute;
     left: -99999px;
 }
+
+/* Add Open Sans using google fonts so that it can be used on more browsers */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+/* Make text less cramped */
+div.body p, div.body dd, div.body li {
+    line-height: 1.5em;
+}
