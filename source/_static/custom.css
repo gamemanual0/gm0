@@ -47,6 +47,6 @@ div.body {
 }
 
 /* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
+div.ethical-sidebar, div.body > div.ethical-footer {
     display: none !important;
 }
