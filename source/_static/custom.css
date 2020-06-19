@@ -40,3 +40,8 @@ div.figure.align-default {
 div.body p.caption {
       max-width: 400px;
 }
+
+/* Make sure the body can shrink to the size of the screen (important on mobile) */
+div.body {
+    min-width: 0px;
+}
