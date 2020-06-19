@@ -45,3 +45,8 @@ div.body p.caption {
 div.body {
     min-width: 0px;
 }
+
+/* Removes community ads on read the docs */
+.ethical-footer {
+    display: none;
+}
