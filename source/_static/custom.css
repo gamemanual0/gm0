@@ -59,3 +59,7 @@ div.ethical-sidebar, div.ethical-footer {
 div.body p, div.body dd, div.body li {
     line-height: 1.5em;
 }
+
+/*Add Proza Libre using google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital@0;1&display=swap');
+
