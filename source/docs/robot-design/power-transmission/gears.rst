@@ -59,10 +59,12 @@ Terms
 
 Meshing Gears
 =============
-**Be sure to never :term:`mesh` gears that are not of the same diametral
-pitch**
-(A notable exception is 32 diametral pitch and 0.8 MOD gears.
-These are close enough to be perfectly fine.)
+
+.. note::
+    Be sure to never :term:`mesh` gears that are not of the same diametral
+    pitch.
+    (A notable exception is 32 diametral pitch and 0.8 MOD gears.
+    These are close enough to be perfectly fine.)
 
 When meshing gears,
 it is important that the gears are not too loose nor too tight.
