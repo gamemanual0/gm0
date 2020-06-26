@@ -68,6 +68,7 @@ For further reading, we highly suggest you check out those links.**
 * Building Resources - Calculators
     * `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
     * `JuliaDesignCalc (JVN Alternative with Flywheel Calculations) <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_
+    * `Thad's Everycalc <https://thaddeus-maximus.github.io/swissarmyengineer/>`_
     * `Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
     * `Pulley Center-to-Center Calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
     * `Pulley Center-to-Center Calculator, alternate version <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
