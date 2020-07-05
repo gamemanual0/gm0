@@ -52,12 +52,20 @@ version = release
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.graphviz',
+    'sphinxext.opengraph',
     'sphinx_sitemap',
     'hoverxref.extension'
 ]
 
 # Enable hover content on glossary term
 hoverxref_roles = ['term']
+
+
+# Configure OpenGraph support 
+# See https://github.com/wpilibsuite/sphinxext-opengraph
+
+ogp_site_url = "https://gm0.copperforge.cc/en/latest/"
+ogp_image = "https://gm0.copperforge.cc/en/latest/_static/gm0-logo.png"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -159,7 +167,6 @@ html_static_path = ['_static/custom.css']
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'GameManual0Sitedoc'
-
 
 # -- Options for LaTeX output ------------------------------------------------
 
