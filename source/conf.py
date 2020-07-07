@@ -66,6 +66,7 @@ hoverxref_roles = ['term']
 
 ogp_site_url = "https://gm0.copperforge.cc/en/latest/"
 ogp_image = "https://gm0.copperforge.cc/en/latest/_static/gm0-logo.png"
+ogp_site_name = "Game Manual 0"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
