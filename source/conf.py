@@ -68,6 +68,12 @@ ogp_site_url = "https://gm0.copperforge.cc/en/latest/"
 ogp_image = "https://gm0.copperforge.cc/en/latest/_static/gm0-logo.png"
 ogp_site_name = "Game Manual 0"
 
+# Enables ChiefDelphi support
+ogp_custom_meta_tags = [
+    '<meta property="og:ignore_canonical" content="true" />',
+    '<meta name="theme-color" content="#F47F27" />',
+]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
