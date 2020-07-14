@@ -9,3 +9,4 @@ Software
     using-the-sdk
     mecanum-drive
     control-loops
+    finite-state-machines

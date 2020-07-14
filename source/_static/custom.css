@@ -19,7 +19,7 @@ div.sphinxsidebar h3 {
     margin-bottom: -5px;
 }
 
-img {
+img:not(.graphviz) {
     /* Change images to be consitently 400px wide, unless specified in the source */
     width: 400px;
     /* Center all images so that figures and normal images have consistent styling */

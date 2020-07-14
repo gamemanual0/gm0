@@ -6,7 +6,7 @@ so the graphic is not meant to be a hard and fast rule.*
 
 .. graphviz::
 
-    digraph {
+   digraph {
         define[label="Define the Problem"];
         specify[label="Specify Requirements"];
         brainstorm[label="Brainstorm/CAD Design"];
