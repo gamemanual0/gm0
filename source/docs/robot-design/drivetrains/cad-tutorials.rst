@@ -33,9 +33,10 @@ Here are some things to figure out before starting:
 
 * Drive Type (mecanum, 6wd, 8wd, etc.)
 * Number of Motors (four motors recommended in most cases)
-* Type of wheels (:term:`Colson <Colson wheel>`, :term:`omni <Omni wheel>`,
+* Type of wheels (:term:`Colson <Colson Wheel>`, :term:`omni <Omni Wheel>`,
   etc.)
-* Drive power (:term:`belt <HTD belt>`, :term:`chain <Sprocket>`, :term:`gear`)
+* Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`,
+  :term:`gear <Gear>`)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors.
 The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid
@@ -53,7 +54,7 @@ Start with a 2D sketch of everything before trying to extrude and make actual
 
 This is a sketch of the inner plate of the drive base.
 Everything should be laid out in a 2D sketch to determine the mounting holes,
-:term:`bore`, :term:`center-to-center distance <C2C>`, etc.
+:term:`bore <Bore>`, :term:`center-to-center distance <C2C>`, etc.
 2D sketches are extremely helpful and are highly recommended in any project.
 After the sketch is completed, everything else falls into place and becomes
 pretty simple.
@@ -281,7 +282,7 @@ For those parts that need minimum rigidity loss and a lot more machine time on
 their hands, pockets don't need to be cut all the way.
 
 :term:`Waterjet cutters <Waterjet cutter>` and
-:term:`laser cutters <laser cutter>` are only able to cut material all the way
+:term:`laser cutters <Laser cutter>` are only able to cut material all the way
 through, but routers and mills are able to make surface pockets.
 These pockets don’t go all the way through the material and are multitudes more
 rigid than thru pocketing.

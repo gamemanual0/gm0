@@ -25,20 +25,20 @@ Notable Components
 ==================
 
 * :term:`Mini-channel <Channel>` is offered in addition to the standard size
-  :term:`channel` for non-structural components.
-* Actobotics' X-rail :term:`extrusion` system offers immense adjustability and
-  flexibility as it adds a :term:`extrusion` component to a
-  :term:`channel-based <Channel>` kit.
+  :term:`channel <Channel>` for non-structural components.
+* Actobotics' X-rail :term:`extrusion <Extrusion>` system offers
+  immense adjustability and flexibility as it adds a :term:`extrusion
+  <Extrusion>` component to a :term:`channel-based <Channel>` kit.
 * To complement the structural offerings, Actobotics uses a series of clamping
   hubs and a robust :term:`1/4” steel D-shaft <Shaft>`.
-* The Linear Motion Kit uses X-rail :term:`extrusion` to build extending
-  mechanisms.
-* The :term:`ServoBlocks`, which prolongs the life of a servo,
+* The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to
+  build extending mechanisms.
+* The :term:`Servoblocks`, which prolongs the life of a servo,
   are recommended for all teams, regardless of kit.
-  However, :term:`ServoBlocks` seamlessly interface with the
+  However, :term:`Servoblocks` seamlessly interface with the
   Actobotics ecosystem.
 * Actobotics furthermore offers motion options such as
-  :term:`bevel gears <Bevel Gear>` and Linear
+  :term:`bevel gears <Bevel gear>` and Linear
   Actuator kits (using :term:`lead screws <Lead Screw>`) for specific use
   cases.
 
@@ -73,29 +73,28 @@ Advantages
 ==========
 * Actobotics provides a great value fixed pitch build system that is generally
   easier to assemble than :term:`extrusion-based <Extrusion>` systems which
-  require cutting :term:`extrusion` to length.
-* Actobotics has the patented :term:`ServoBlocks`,
+  require cutting :term:`extrusion <Extrusion>` to length.
+* Actobotics has the patented :term:`Servoblocks`,
   which help drastically increase servo life by protecting it from shock loads.
   More information may be found in the glossary.
 * Actobotics is easily compatible with other build systems such as REV’s kit
   using adapters which can be found on the Servocity website.
 * Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has
   more support options to prevent structural bending.
-* The :term:`clamping hubs <Clamping Hub>` offered are more reliable than
-  :term:`set screws <Set Screw>`,
-  as clamping engages the shaft in more places than a :term:`set screw`
-  (one face).
-  As discussed in the :doc:`TETRIX section <tetrix>`,
-  set screws in particular are vulnerable to loosening,
-  especially without application of Loctite.
+* The :term:`clamping hubs <Clamping Hub>` offered are more reliable
+  than :term:`set screws <Set Screw>`, as clamping engages the shaft in
+  more places than a :term:`set screw <Set Screw>` (one face).  As
+  discussed in the :doc:`TETRIX section <tetrix>`, set screws in
+  particular are vulnerable to loosening, especially without application
+  of Loctite.
 * Actobotics’ motion system is **very** robust and relies on
   :term:`ball bearings <Ball Bearing>`, which have a lower coefficient of
   friction than bushings.
   Actobotics is compatible with the 5mm hex used by REV with their adaptable
   hubs.
-* Actobotics also allows for :term:`face mounting` of motors as opposed to
-  :term:`clamp mounting`.
-  This is explained in the glossary section.
+* Actobotics also allows for :term:`face mounting <Face Mounting>` of
+  motors as opposed to :term:`clamp mounting <Clamp Mounting>`.  This is
+  explained in the glossary section.
 
 Disadvantages
 =============
@@ -111,11 +110,11 @@ Disadvantages
   which is more difficult for newer teams.
   There also isn’t a large amount of space inside the channel for a belt or
   chain run, vastly limiting the size of the pulleys.
-* :term:`Channel` takes up more space than :term:`extrusion`,
+* :term:`Channel` takes up more space than :term:`extrusion <Extrusion>`,
   so mechanisms can be a bit larger with the Actobotics kit.
   To remediate this issue,
   ServoCity sells :term:`mini-channel <Channel>` which is a similar size as
-  :term:`extrusion`.
+  :term:`extrusion <Extrusion>`.
 
 .. figure:: images/actobotics/8644-rr1.jpg
     :alt: 8644 Brainstormers' Relic Recovery robot
@@ -132,5 +131,5 @@ Disadvantages
 .. figure:: images/actobotics/9794-rr2.png
     :alt: 9794 Wizards.exe's Rover Ruckus robot
 
-    9794 Wizards.exe used both Actobotics and REV :term:`extrusion` to build
+    9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` to build
     their Rover Ruckus robot

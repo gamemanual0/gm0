@@ -64,25 +64,21 @@ Here are some priorities for that we think are important for each drivetrain:
    A good resource to determine the agility of a drivetrain is the
    :doc:`../../hardware-basics//motor-guide/jvn-calculator`;
    refer to that section for more information.
-3. **Number of motors and gear ratio**: Generally, new teams may try to use
-   only two motors on the drivetrain.
-   While this is possible, it is not recommended,
-   as all competitive teams use 4+ motors on the drivetrain.
-   Another issue stemming from experience is that most teams’ drivetrains are
-   too slow.
-   More advanced teams may focus on the ability to play :term:`defense`,
-   but in general, maneuverability and speed are the main factors to a
-   successful drivetrain.
-   60:1 and 40:1 drivetrains are
-   **almost always too slow for FTC use cases**.
-   A popular setup in FTC is **4 motor, 20:1 using 4 inch wheels**.
-   This ratio gives a great balance,
-   having near instant acceleration and a high top speed.
-   Teams can slow the drivetrain down in code by providing less power to the
-   motors if needed.
-   **It is not recommended for teams to use spur gearboxes on their drivetrain.
-   Instead, use planetary gearboxes, as they are less prone to shock loads and
-   breakage.**
+3. **Number of motors and gear ratio**: Generally, new teams may try
+   to use only two motors on the drivetrain.  While this is possible,
+   it is not recommended, as all competitive teams use 4+ motors on
+   the drivetrain.  Another issue stemming from experience is that
+   most teams’ drivetrains are too slow.  More advanced teams may
+   focus on the ability to play :term:`defense <Defense>`, but in
+   general, maneuverability and speed are the main factors to a
+   successful drivetrain.  60:1 and 40:1 drivetrains are **almost
+   always too slow for FTC use cases**.  A popular setup in FTC is **4
+   motor, 20:1 using 4 inch wheels**.  This ratio gives a great
+   balance, having near instant acceleration and a high top speed.
+   Teams can slow the drivetrain down in code by providing less power
+   to the motors if needed.  **It is not recommended for teams to use
+   spur gearboxes on their drivetrain.  Instead, use planetary
+   gearboxes, as they are less prone to shock loads and breakage.**
 4. **Traction/Pushing Power**: While this feature is often overemphasized,
    it is still very important.
    Pushing power describes a drivetrain’s ability to endure defense/engage in
@@ -94,7 +90,7 @@ Here are some priorities for that we think are important for each drivetrain:
    drivers, a team can avoid defense instead of having to fend it off or engage
    in it.
 5. **Powering the drivetrain**: Generally, there are four options for power
-   transmission: direct drive, :term:`chain <sprocket>`, :term:`gear <gear>`,
+   transmission: direct drive, :term:`chain <Sprocket>`, :term:`gear <Gear>`,
    and belt.
    More detail about each option can be found in the power transmission
    section.

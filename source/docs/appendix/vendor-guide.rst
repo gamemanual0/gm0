@@ -65,12 +65,14 @@ Where can I get ...?
         * Amazon
         * Local hardware store
     * Aluminum Components
-        * Actobotics :term:`channel`, mini :term:`channel`, X-rail
-          :term:`extrusion`
-        * REV extrusion, C :term:`channel`, U :term:`channel`
-        * goBILDA :term:`channel`, goRAIL :term:`extrusion`
-        * TETRIX :term:`channel`
-        * MiSUMI :term:`extrusion`
+        * Actobotics :term:`channel <Channel>`, mini :term:`channel
+          <Channel>`, X-rail :term:`extrusion <Extrusion>`
+        * REV extrusion, C :term:`channel <Channel>`, U :term:`channel
+          <Channel>`
+        * goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion
+          <Extrusion>`
+        * TETRIX :term:`channel <Channel>`
+        * MiSUMI :term:`extrusion <Extrusion>`
     * Gears/Sprockets/Pulleys
         * REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
         * Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`,
@@ -81,15 +83,18 @@ Where can I get ...?
         * VEX :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
     * Wheels
         * AndyMark traction, :term:`compliant <Compliant Wheel>`,
-          :term:`mecanum wheel`
-        * REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
-        * ServoCity traction, :term:`omni wheel`
-        * goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
-        * VEX colson traction and :term:`mecanum wheel`
-        * TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel`
-        * Nexus :term:`mecanum wheel`
+          :term:`mecanum wheel <Mecanum Wheel>`
+        * REV grip, traction, :term:`omni <Omni Wheel>`,
+          :term:`mecanum wheel <Mecanum Wheel>`
+        * ServoCity traction, :term:`omni wheel <Omni Wheel>`
+        * goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum
+          wheel <Mecanum Wheel>`
+        * VEX colson traction and :term:`mecanum wheel <Mecanum Wheel>`
+        * TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum
+          wheel <Mecanum Wheel>`
+        * Nexus :term:`mecanum wheel <Mecanum Wheel>`
     * Linear Slide Kits
-        * REV 15 mm :term:`extrusion` slide kit
+        * REV 15 mm :term:`extrusion <Extrusion>` slide kit
         * Actobotics linear slide kit
         * goBILDA linear slide kit
     * Drawer Slides

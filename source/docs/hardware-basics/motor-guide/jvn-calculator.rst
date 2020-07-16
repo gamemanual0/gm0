@@ -28,7 +28,7 @@ on vendor pages**.
 
 The test results may be found by searching VEX Dyno Testing, or by clicking
 `here <https://motors.vex.com/other-motors/am-NeveRest>`_.
-(Note: this testing is done to the :term:`bare motor`,
+(Note: this testing is done to the :term:`Bare Motor`,
 without the end gearbox.)
 
 Gear Ratios
@@ -36,7 +36,7 @@ Gear Ratios
 
 After entering in dyno data, change the :term:`gear ratio <Gear Reduction>` in
 the sheet itself.
-The bottom left has a :term:`gear reduction` page.
+The bottom left has a :term:`Gear Reduction` page.
 Simply put the overall :term:`gear ratio <Gear Reduction>` **of your gearbox**
 in the right side, keeping the one on the left.
 For example for a NeveRest 20:1,

@@ -179,9 +179,9 @@ called: ``setPosition()`` and ``getPosition()``.
     releaseServo.setPosition(0.75);
     telemetry.addData("Release Servo Target", releaseServo.getPosition());
 
-``setPosition()`` sets the position of the :term:`servo`.
+``setPosition()`` sets the position of the :term:`servo <Servo>`.
 The SDK will use a built-in control loop with the :term:`servo’s <Servo>`
-potentiometer to drive the :term:`servo` to that position and hold that
+potentiometer to drive the :term:`servo <Servo>` to that position and hold that
 position.
 ``setPosition()`` takes in a double between 0 and 1,
 where 0 is the :term:`servo’s <Servo>` lower limit of
@@ -236,7 +236,7 @@ Here are a few examples:
 A Note on Hardware Call Speed
 ===============================
 Every hardware call you make, (whether it be setting the power for a motor,
-setting a :term:`servo` position, reading an encoder value, etc.)
+setting a :term:`servo <Servo>` position, reading an encoder value, etc.)
 will take approximately 3 milliseconds to execute,
 except for I2C calls which can take upwards of 7ms.
 This is because behind the scenes, the SDK may need to make multiple hardware

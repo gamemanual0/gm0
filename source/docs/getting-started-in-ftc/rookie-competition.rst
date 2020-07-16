@@ -107,11 +107,11 @@ Fully driver-controlled → Partially automated tasks
    as possible.
    For example, automatically stopping the intake mechanism when game elements
    have been collected saves a button press.
-2. Autonomously operating some mechanisms has the advantage of eliminating
-   driver error and relieves stress.
-   For example, if a lift has to extend to exactly 30 inches,
-   a motor with an :term:`encoder` can complete that with 100% accuracy at full
-   speed, compared to a human driver's minor error.
+2. Autonomously operating some mechanisms has the advantage of
+   eliminating driver error and relieves stress.  For example, if a
+   lift has to extend to exactly 30 inches, a motor with an
+   :term:`encoder <Encoder>` can complete that with 100% accuracy at
+   full speed, compared to a human driver's minor error.
 
 .. note:: Autonomous functions should be able to be overrided by manual input
     in case something goes wrong

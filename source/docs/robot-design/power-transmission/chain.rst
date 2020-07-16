@@ -13,18 +13,16 @@ the chain on your FTC robot is similar, but it’s probably a different
 **:term:`pitch`** (different size).
 Chains most commonly used in FTC are #25 or 8mm pitch.
 
-When using chain, often there is a :term:`master link`.
-This is a special type of link that has a removable end capsule in order to
-shorten the chain.
-However, as it is removable,
-it is not a very reliable chain link and can loosen and fall off under
-prolonged usage.
-There have been teams who have had master chain links fail during competition,
-costing them a match in the elimination rounds.
-A :term:`chain breaker` eliminates the need for master links because it can
-break and join chain at any point.
-Chain breakers do so by pushing out the pins in the link and re-inserting them
-back.
+When using chain, often there is a :term:`master link <Master link>`.
+This is a special type of link that has a removable end capsule in
+order to shorten the chain.  However, as it is removable, it is not a
+very reliable chain link and can loosen and fall off under prolonged
+usage.  There have been teams who have had master chain links fail
+during competition, costing them a match in the elimination rounds.  A
+:term:`chain breaker <Chain Breaker>` eliminates the need for master
+links because it can break and join chain at any point.  Chain
+breakers do so by pushing out the pins in the link and re-inserting
+them back.
 
 **It is highly recommended that teams purchase a chain breaker
 (we recommend the :term:`DarkSoul` chain breaker) instead of using master

@@ -1,7 +1,7 @@
 =======
 goBILDA
 =======
-goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel` based
+goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel <Channel>` based
 building system using metric units.
 It was recently released in the 2018-2019 season and is made by the same
 company as Actobotics.
@@ -41,11 +41,11 @@ Notable components
     goBILDA :term:`U-channel <Channel>` (48x48 mm)
 
 * In addition, :term:`low-side channel <Channel>`
-  (smaller profile :term:`channel`) complements
+  (smaller profile :term:`channel <Channel>`) complements
   :term:`full size channel <Channel>`.
   Low side channel is just 12mm in height and allows for more compact builds.
   Additionally, low side channel opens up possibilities such as a kit-based
-  :term:`parallel plate drivetrain`.
+  :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`.
   :term:`Low side channel <Channel>` also forms the basis of the cascading kit
   with a 2 or 4 stage option.
 
@@ -54,9 +54,9 @@ Notable components
 
     goBILDA :term:`low-side channel <Channel>` (12x48 mm)
 
-* goRAIL is :term:`extrusion` that complements the :term:`channel` offerings
-  well.
-  goRAIL is used in the linear actuator kit for extending mechanisms.
+* goRAIL is :term:`extrusion <Extrusion>` that complements the
+  :term:`channel <Channel>` offerings well.  goRAIL is used in the
+  linear actuator kit for extending mechanisms.
 
 Verdict
 =======
@@ -83,7 +83,7 @@ https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 * Square beams, u-beams, l-beams
 * Assorted brackets, standoffs, spacers
 * :term:`Gears <Gear>`, :term:`sprockets <Sprocket>`, :term:`chain <Chain>`
-  (8mm plastic :term:`chain`)
+  (8mm plastic :term:`chain <Chain>`)
 * :term:`Bearings <Ball Bearing>`, :term:`hubs <Clamping Hub>`,
   :term:`collars <Shaft Collar>`
 * :term:`Shafting (6mm D-shaft) <Shaft>`
@@ -91,10 +91,11 @@ https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 Advantages
 ==========
 * goBILDA's :term:`low-side U-channel <Channel>` opens up many new
-  possibilities due to its flexibility and compactness.
-  For example, one can now make a :term:`parallel plate drivetrain` without
-  custom machining, or make custom width :term:`U-channel <Channel>`.
-* goBILDA also has :term:`ServoBlocks`
+  possibilities due to its flexibility and compactness.  For example,
+  one can now make a :term:`parallel plate drivetrain <Parallel Plate
+  Drivetrain>` without custom machining, or make custom width
+  :term:`U-channel <Channel>`.
+* goBILDA also has :term:`Servoblocks`
   (identical to Actobotics other than hole pattern) which drastically increase
   servo life.
 * goBILDA has native large bore :term:`hex shaft <Shaft>` support
@@ -105,19 +106,19 @@ Advantages
   For more information about TETRIX-goBILDA compatibility,
   check out this `website <https://gobildatetrix.blogspot.com/>`_.
   It is also quite compatible with REV's ecosystem.
-* goBILDA has a well thought-out :term:`ball bearing` based motion system with
-  smart motion transfer.
-  It is easy to do :term:`chain` or :term:`belt <HTD Belt>` in channel.
+* goBILDA has a well thought-out :term:`ball bearing <Ball Bearing>`
+  based motion system with smart motion transfer.  It is easy to do
+  :term:`chain <Chain>` or :term:`belt <HTD Belt>` in channel.
 
   .. note::
-    8mm :term:`chain` and :term:`HTD 3 and 5 mm belt <HTD Belt>` can do perfect
+    8mm :term:`chain <Chain>` and :term:`HTD 3 and 5 mm belt <HTD Belt>` can do perfect
     :term:`C2C (center to center) <C2C>` on the goBILDA pattern.
     This saves a lot of headache when needing to calculate
     :term:`C2C` distances.
-* goBILDA has plenty of :term:`shaft`, :term:`ball bearing`,
-  and :term:`pillow block <Bushing>` options.
+* goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing
+  <Ball Bearing>`, and :term:`pillow block <Bushing>` options.
 * goBILDA motors can :term:`face mount <Face Mounting>` natively into
-  :term:`channel`,
+  :term:`channel <Channel>`,
   eliminating the need for motor mounts and providing a robust, reliable way to
   mount motors.
 * goBILDA has some special parts are unavailable in other systems,
@@ -136,12 +137,12 @@ Disadvantages
   :term:`channels <Channel>` from Tetrix, resulting in larger builds.
   However, this is more than compensated by the fact that one
   can put a :term:`goBILDA motor <Yellow Jacket Motor>`
-  *inside* a :term:`channel`.
-* Because of metric pattern spacing, goBILDA utilizes
-  :term:`8mm pitch chain <Chain>`, as opposed to the FTC standard
-  :term:`#25 Imperial chain <chain>`.
-  This means that other kits' :term:`chain` and :term:`sprockets <Sprocket>`
-  won’t work with goBILDA :term:`chain` and :term:`sprockets <Sprocket>`.
+  *inside* a :term:`channel <Channel>`.
+* Because of metric pattern spacing, goBILDA utilizes :term:`8mm pitch
+  chain <Chain>`, as opposed to the FTC standard :term:`#25 Imperial
+  chain <Chain>`.  This means that other kits' :term:`chain <Chain>` and
+  :term:`sprockets <Sprocket>` won’t work with goBILDA :term:`chain
+  <Chain>` and :term:`sprockets <Sprocket>`.
 
 .. image:: images/gobilda/7182-rr2-hanging.png
     :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander

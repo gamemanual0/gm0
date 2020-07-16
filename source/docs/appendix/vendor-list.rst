@@ -36,11 +36,11 @@ Vendor List
       Generally, McMaster-Carr's shipping is around the same price as other
       vendors, and shipping is usually next-day.
 * `MiSUMI <https://us.misumi-ec.com/>`_
-    * MiSUMI is a Japanese company specializing in industrial and manufacturing
-      components.
-      They sell bulk 15mm anodized :term:`extrusion` similar to the REV
-      Robotics :term:`extrusion`.
-      The 15mm :term:`extrusion` can be cut to length as well.
+    * MiSUMI is a Japanese company specializing in industrial and
+      manufacturing components.  They sell bulk 15mm anodized
+      :term:`extrusion <Extrusion>` similar to the REV Robotics
+      :term:`extrusion <Extrusion>`.  The 15mm :term:`extrusion
+      <Extrusion>` can be cut to length as well.
     * MiSUMI also sells aluminum drawer slides that are popular for linear
       extensions.
       They are available in different lengths, but the most common is 400mm.
@@ -50,10 +50,11 @@ Vendor List
     * Pitsco sells the Tetrix kit with channels, TorqueNado motors,
       and their own motion system.
 * `REV Robotics <https://www.revrobotics.com>`_
-    * REV Robotics sells the REV build system,
-      which is an :term:`extrusion`-based ecosystem complete with motors
-      (HD Hex, HD Planetary, Core HEX), :term:`extrusion`,
-      :term:`servos <Servo>` (Smart Robot Servo), brackets, and battery.
+    * REV Robotics sells the REV build system, which is an
+      :term:`extrusion <Extrusion>`-based ecosystem complete with
+      motors (HD Hex, HD Planetary, Core HEX), :term:`extrusion
+      <Extrusion>`, :term:`servos <Servo>` (Smart Robot Servo),
+      brackets, and battery.
     * REV also sells the control system for FTC
       (Expansion Hub and Control Hub).
     * REV offers various sensors (Magnetic Limit Switch, Color Sensor,
@@ -64,8 +65,8 @@ Vendor List
     * Servocity sells the channel-based Actobotics build system with robust
       motion and structure. They also offer the Servoblock, a highly
       recommended part.
-    * Servocity sells X-rail :term:`extrusion`, lead screw actuator kits,
-      and linear extension kits.
+    * Servocity sells X-rail :term:`extrusion <Extrusion>`, lead screw
+      actuator kits, and linear extension kits.
     * Servocity sells a wide range of :term:`servos <Servo>`,
       from Hitec to Futaba, at all price points.
     * Teams can get a 25% team discount from Servocity

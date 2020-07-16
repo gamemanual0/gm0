@@ -15,7 +15,7 @@ seem obvious, but almost every FTC newbie made these mistakes at least once.
   sometimes making it very hard to remove the hub later.
   For these reasons, whenever possible,
   use :term:`clamping hubs <Clamping Hub>` and collars instead of
-  :term:`set screw` ones.
+  :term:`set screw <Set Screw>` ones.
   If you must use set screw hubs, use a non-permanent threadlocker such as
   `Loctite blue <https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html>`_
   to prevent them from loosening.
@@ -35,7 +35,7 @@ seem obvious, but almost every FTC newbie made these mistakes at least once.
   threaded hole - otherwise, the screw will hit the bottom of the hole and you
   will be unable to tighten it properly.
   This situation commonly happens when attaching parts to a t-slot
-  :term:`extrusion` (Misumi, REV, goBILDA's goRAIL) - if
+  :term:`extrusion <Extrusion>` (Misumi, REV, goBILDA's goRAIL) - if
   the screw is too long, it will hit the bottom of the slot, and no matter
   how hard you try, you won't get a tight connection. Another case when this
   situation arises  is when using attachment blocks where two screw holes

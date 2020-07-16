@@ -9,7 +9,7 @@ However, there are significant drawbacks to this method.
 
 First, direct drive puts unnecessary load on the drive motor.
 This is because shock loads can destroy the gearbox, even
-:term:`planetary gearboxes <Planetary gear>`.
+:term:`planetary gearboxes <Planetary Gear>`.
 are able to withstand load along the axis of rotation,
 such as what occurs when the wheel changes direction.
 This is a normal situation of load.

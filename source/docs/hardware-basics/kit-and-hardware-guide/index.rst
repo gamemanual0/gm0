@@ -60,14 +60,14 @@ They are easily expandable and great part flexibility allows for customization.
 Keep in mind that compatibility between kits varies and will be impacted by the
 unit system used.
 
-* REV Robotics (metric) is slightly cheaper but generally has a bit higher
-  learning curve than most other kits,
-  as it is :term:`extrusion` rather than :term:`channel` based.
-  :term:`Extrusion` takes more effort to work with
-  (you need to cut aluminum extrusion to length); however,
-  it allows for maximum design freedom and adjustability.
-  REV is also available from FIRST storefront, which might be convenient for
-  teams doing their purchasing through official school procurement systems.
+* REV Robotics (metric) is slightly cheaper but generally has a bit
+  higher learning curve than most other kits, as it is
+  :term:`extrusion <Extrusion>` rather than :term:`channel <Channel>`
+  based.  :term:`Extrusion` takes more effort to work with (you need
+  to cut aluminum extrusion to length); however, it allows for maximum
+  design freedom and adjustability.  REV is also available from FIRST
+  storefront, which might be convenient for teams doing their
+  purchasing through official school procurement systems.
 * goBILDA (metric) is slightly more expensive,
   but is easier to get started with.
   It has a extensive parts catalog and can be adapted to other build systems

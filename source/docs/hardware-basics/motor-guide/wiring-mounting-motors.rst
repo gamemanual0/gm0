@@ -64,7 +64,7 @@ Mounting Motors
 There are two ways to mount a motor: using a
 :term:`clamping mount <Clamp Mounting>`
 (such as `32mm goBILDA clamping mount <https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-bore/>`_)
-or :term:`face mounting`,
+or :term:`face mounting <Face Mounting>`,
 using threaded holes in the front face of the gearbox.
 
 Clamping Mount
@@ -77,7 +77,7 @@ Clamping Mount
   center of the gearbox.
   Thus, motors with offset shafts are particularly sensitive to clamp mounts,
   as any rotation of the motor will alter the shaft position.
-  This may have the consequence of losing :term:`chain` or
+  This may have the consequence of losing :term:`chain <Chain>` or
   :term:`belt <HTD Belt>` tension.
 * It is possible to double clamp a motor - one in front, and one in the back.
 * To increase friction and reduce the chance of loosening,
@@ -97,18 +97,18 @@ Face Mount
   motor does not jar loose.
 
 .. tip::
-    :term:`Face mounting` is recommended for high-load and/or high vibration
+    :term:`Face mounting <Face Mounting>` is recommended for high-load and/or high vibration
     use cases such as drivetrain.
     This is as :term:`clamp mounted <Clamp Mounting>` motors can shift and come
     loose easier than :term:`face mounted <Face Mounting>` motors.
     It is also recommended to use **BLUE** :term:`Loctite` when
-    :term:`face mounting`, if possible.
+    :term:`face mounting <Face Mounting>`, if possible.
 
-Note that the pattern of :term:`face mounting` holes is different for different
-vendors.
-For example, goBILDA uses 4 M4 holes in a square with side 16 mm, whereas
-AndyMark classic motors use 6 M3 holes on a 31 mm diameter circle.
-Thus, face mounting NeveRest motors to goBILDA parts requires use of special
-adapters, and vice versa.
-Similarly, gearbox diameter also varies between motors,
-so when choosing a :term:`clamping hub`, make sure to use the right diameter.
+Note that the pattern of :term:`face mounting <Face Mounting>` holes
+is different for different vendors.  For example, goBILDA uses 4 M4
+holes in a square with side 16 mm, whereas AndyMark classic motors use
+6 M3 holes on a 31 mm diameter circle.  Thus, face mounting NeveRest
+motors to goBILDA parts requires use of special adapters, and vice
+versa.  Similarly, gearbox diameter also varies between motors, so
+when choosing a :term:`clamping hub <Clamping Hub>`, make sure to use
+the right diameter.

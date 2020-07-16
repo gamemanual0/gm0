@@ -64,9 +64,9 @@ REV Expansion Hub
     Maximum of 2 hubs.
 REV Control Hub
     Integrated :term:`Expansion Hub` + Android phone
-    (:term:`robot controller` phone).
+    (:term:`Robot Controller` phone).
     It serves many of the same purposes as the :term:`Expansion Hub` but
-    eliminates the need for a :term:`robot controller` phone.
+    eliminates the need for a :term:`Robot Controller` phone.
     1 Expansion Hub may be used along side 1 Control Hub.
 Driver Station
     Android phone connected to the gamepad controller.

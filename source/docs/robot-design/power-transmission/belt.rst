@@ -9,7 +9,7 @@ If you’ve ever tinkered with the insides of a car before,
 you probably recognize timing belts as an important component designed to keep
 everything under the hood in sync.
 While a timing belt may complete a similar objective to
-:term:`chain <sprocket>`, its characteristics and strengths are very different.
+:term:`chain <Sprocket>`, its characteristics and strengths are very different.
 Timing belts use a series of small,
 wide teeth to engage a pulley with a number of matching grooves.
 They earn their name because they can be very precise,
@@ -41,7 +41,7 @@ real life.
 Terms
 =====
 
-* :term:`Pitch diameter` (PD) refers to the imaginary circle which is traced by
+* :term:`Pitch Diameter` (PD) refers to the imaginary circle which is traced by
   the middle of the belt as the pulley rotates.
   The outer edge of the circle is halfway between the outer face of the belt
   and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi`

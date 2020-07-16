@@ -6,7 +6,7 @@ there are a couple of additional tips.
 
 The traditional :term:`XT30` connector that is used to REV is prone to breaking.
 It is highly recommended that teams replace :term:`XT30` connectors with
-:term:`Anderson Powerpole`, or put adapters on their current wires.
+:term:`Anderson PowerPole`, or put adapters on their current wires.
 An example of an adapter is
 `this <https://www.servocity.com/anderson-powerpole-to-female-xt30-adaptor>`_.
 In lieu of this, teams can also 3D print strain relief connectors on the
@@ -17,11 +17,11 @@ The file can be found on Thingiverse or through this
 .. figure:: images/tips-and-tricks/xt30-to-powerpole-adapter.jpg
     :alt: An example XT30 to Anderson Powerpole adapter
 
-    An example :term:`XT30` to :term:`Anderson Powerpole` adapter
+    An example :term:`XT30` to :term:`Anderson PowerPole` adapter
 
 The Tamiya connectors found on many of the FTC legal batteries are very weak
 and prone to becoming unreliable after many repeated plug/unplug cycles.
-It is recommended that teams crimp new :term:`Anderson Powerpole` connectors
+It is recommended that teams crimp new :term:`Anderson PowerPole` connectors
 onto the battery.
 
 It is highly recommended for teams to use the

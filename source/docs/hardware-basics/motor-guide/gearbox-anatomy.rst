@@ -24,10 +24,10 @@ These gearboxes are used in the Andymark NeveRest Classic series and
 goBILDA’s 5201 series motors,
 as well as :term:`REV HD Hex Motors <HD Hex Motor>`.
 Due to the nature of how these gearboxes are built,
-each reduction only has a few teeth from each :term:`gear` engaged,
+each reduction only has a few teeth from each :term:`gear <Gear>` engaged,
 and those teeth carry the entire load of the gearbox.
 It’s easy to damage a spur gearbox from shock load,
-and if one :term:`gear` breaks,
+and if one :term:`gear <Gear>` breaks,
 the entire gearbox will stop functioning.
 
 ..  tip:: Using spur gearboxes on high-load applications such as
@@ -85,7 +85,7 @@ Advantages of Planetary Gearboxes
   The part should be able to wiggle around a little without having considerable
   force imparted on it.
   This is caused because it is impossible for the gear teeth inside the gearbox
-  to mesh perfectly, and is the same for :term:`chain` and
+  to mesh perfectly, and is the same for :term:`chain <Chain>` and
   :term:`sprockets <Sprocket>`, or any other form of power transmission.
   However, planetary gearboxes have less backlash as they have less stages of
   gears.

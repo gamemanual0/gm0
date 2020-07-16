@@ -156,7 +156,7 @@ In order of advancement priority, these are:
     Motivate Award
         The Motivate Award is one of the two outreach awards.
         It’s for teams that work with their local and FIRST community.
-        Unfortunately, the line between the :term:`connect award` and motivate
+        Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate
         award can be vague, and most judges don’t know how to differentiate
         which outreach falls under which award.
         Look at the section about differentiating connect and motivate for more

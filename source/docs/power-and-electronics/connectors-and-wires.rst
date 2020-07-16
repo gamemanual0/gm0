@@ -13,7 +13,7 @@ Here are the most common connectors you will find on an FTC robot.
 
     * Used for module power
     * Used for motor power
-    * See :term:`Anderson Powerpole`
+    * See :term:`Anderson PowerPole`
 * XT30
 
     .. image:: images/wiring/xt30-connector.png

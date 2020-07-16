@@ -311,8 +311,8 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 
-def setup(app):
-    app.add_stylesheet('css/gm0-rtd.css')
+# def setup(app):
+#    app.add_stylesheet('css/gm0-rtd.css')
 
 # -- Options for todo extension ----------------------------------------------
 

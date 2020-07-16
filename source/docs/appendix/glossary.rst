@@ -1,6 +1,7 @@
 Glossary
 ========
 
+
 Many terms used in FTC and |gm0| that are unfamiliar to teams may be found
 here.
 You’ll be able to quickly learn the lingo of FTC!
@@ -21,7 +22,7 @@ You’ll be able to quickly learn the lingo of FTC!
         fashion.
         This allows rotation of an element with less friction than a bushing,
         primarily because the surface area (or contact area)
-        is much less than in a :term:`bushing`.
+        is much less than in a :term:`bushing <Bushing>`.
         Bearings are definitely recommended for drivetrain and high speed
         usage.
         Bearings are used in the Actobotics, goBILDA, and REV kits,
@@ -69,7 +70,7 @@ You’ll be able to quickly learn the lingo of FTC!
     Bore
         The bore refers to the shape of the opening that the shaft is inserted
         into.
-        For example, the bore for a 5 mm hex :term:`shaft` is the
+        For example, the bore for a 5 mm hex :term:`shaft <Shaft>` is the
         hexagonal shape.
         “Stripping the bore” means that over time,
         the bore will lose its hexagonal shape,
@@ -116,17 +117,15 @@ You’ll be able to quickly learn the lingo of FTC!
             REV Pillow Block
 
     Cantilever
-        A cantilever refers to when an object (usually a :term:`shaft`) is only
-        supported on one side.
-        While this provides theoretically less support,
-        as long as the shaft is still supported at two points by
-        :term:`bearings <Ball Bearing>` or :term:`bushings <Bushing>`,
-        cantilever is still a sound building technique.
-        Many drivetrains are cantilevered,
-        which provides for easy access to wheels.
+        A cantilever refers to when an object (usually a :term:`shaft
+        <Shaft>`) is only supported on one side.  While this provides
+        theoretically less support, as long as the shaft is still supported at
+        two points by :term:`bearings <Ball Bearing>` or :term:`bushings
+        <Bushing>`, cantilever is still a sound building technique.  Many
+        drivetrains are cantilevered, which provides for easy access to wheels.
         Note that supporting the shaft on both sides is theoretically more
-        structurally sound,
-        although in most cases you won’t notice a difference.
+        structurally sound, although in most cases you won’t notice a
+        difference.
 
         .. figure:: images/glossary/sanford-cantilever.png
             :alt: Sanford's cantilever 6WD prototype
@@ -136,19 +135,20 @@ You’ll be able to quickly learn the lingo of FTC!
     C2C
         Center to center (C2C) refers to the distance between the centers of a
         pair of :term:`sprockets <Sprocket>`, pulleys or :term:`gears <Gear>`.
-        This will affect :term:`chain`/:term:`belt <HTD Belt>` tension and gear
-        meshing, so calculating this correctly is essential.
+        This will affect :term:`chain <Chain>`/:term:`belt <HTD Belt>` tension
+        and gear meshing, so calculating this correctly is essential.
 
     Center drop
-        Center drop refers to a 6+ wheel tank drivetrain with the center wheel
-        (usually a traction wheel) mounted slightly lower than the other wheels,
-        thus "dropping" that wheel. Dropped drivetrains have more turning agility
-        than non-dropped tank drivetrains as :term:`wheel scrub` is reduced.
+        Center drop refers to a 6+ wheel tank drivetrain with the
+        center wheel (usually a traction wheel) mounted slightly lower than the
+        other wheels, thus "dropping" that wheel. Dropped drivetrains have more
+        turning agility than non-dropped tank drivetrains as :term:`wheel scrub
+        <Wheel scrub>` is reduced.
 
     Chain
-        Refer to :term:`sprocket` for more information.
+        Refer to :term:`sprocket <Sprocket>` for more information.
 
-    Chain breaker
+    Chain Breaker
         A chain breaker is a tool used to ''break" the chain by pushing out the
         pin in the chain link, and reconnects it by reversing the operation.
 
@@ -158,28 +158,29 @@ You’ll be able to quickly learn the lingo of FTC!
             if you plan to use chain.
 
     Channel
-        Channel (more precisely called C-Channel) is aluminum that is in the
-        profile of a C. (It is also sometimes called U-Channel.)
-        Channel, along with :term:`extrusion`,
-        is the most common structural build element in FTC,
-        and is found in Tetrix, REV, Actobotics, and goBILDA kits.
-        Channel is fixed pitch, which means that there are pre-drilled holes
-        that limit mounting to finite locations.
-        It can be used to easily construct drivetrains;
-        however, be aware that :term:`gear` and :term:`chain` mesh may not be
-        perfect with channel.
+        Channel (more precisely called C-Channel) is aluminum that is
+        in the profile of a C. (It is also sometimes called
+        U-Channel.)  Channel, along with :term:`extrusion
+        <Extrusion>`, is the most common structural build element in
+        FTC, and is found in Tetrix, REV, Actobotics, and goBILDA
+        kits.  Channel is fixed pitch, which means that there are
+        pre-drilled holes that limit mounting to finite locations.  It
+        can be used to easily construct drivetrains; however, be aware
+        that :term:`gear <Gear>` and :term:`chain <Chain>` mesh may
+        not be with channel.
 
         .. image:: images/glossary/tetrix-channel.png
             :alt: A piece of tetrix channel
             :width: 200
 
     Churro
-        Churro is a 1/2" or 3/8” hex product sold by AndyMark.
-        It has a bore that is easily tapped to accommodate 1/4-20 and
-        1/4-28 bolts, and is commonly used as a large :term:`standoff`.
-        It is light and cheap compared to other hex products.
-        Using churro as :term:`shaft` is highly discouraged,
-        as it is slightly undersized as well as prone to twisting.
+        Churro is a 1/2" or 3/8” hex product sold by AndyMark.  It
+        has a bore that is easily tapped to accommodate 1/4-20 and
+        1/4-28 bolts, and is commonly used as a large :term:`standoff
+        <Standoff>`. It is light and cheap compared to other hex
+        products.  Using churro as :term:`shaft <Shaft>` is highly
+        discouraged, as it is slightly undersized as well as prone to
+        twisting.
 
         .. image:: images/glossary/churro.png
             :alt: A piece of churro
@@ -219,7 +220,7 @@ You’ll be able to quickly learn the lingo of FTC!
         The rubber on the Colsons provide great traction with impressive
         durability.
         It is sold in a 1/2” hex bore size, so teams will have to use
-        :term:`Ultrahex` or similar product in order to use Colsons.
+        :term:`Ultrahex <UltraHex>` or similar product in order to use Colsons.
 
         .. image:: images/glossary/colson.png
             :alt: A Colson Performa Wheel
@@ -242,10 +243,10 @@ You’ll be able to quickly learn the lingo of FTC!
             as there is only one degree of freedom,
             but purchasing a multi-axis arm isn’t.
 
-        However, teams can buy individual parts and assemble them together into
-        a mechanism that has more than one degree of freedom.
-        This doesn’t apply to drivetrain kits or Actobotics’ :term:`lead screw`
-        kit.
+        However, teams can buy individual parts and assemble them
+        together into a mechanism that has more than one degree of
+        freedom.  This doesn’t apply to drivetrain kits or Actobotics’
+        :term:`lead screw <Lead Screw>` kit.
 
     Compliant Wheel
         The compliant wheel, sold by Andymark, is a flexible rubber wheel
@@ -253,12 +254,13 @@ You’ll be able to quickly learn the lingo of FTC!
 
         .. warning:: It is not designed for use in a drivetrain.
 
-        The available bore options are 1/2” and 3/8” hex :term:`bores <Bore>`,
-        as well as 8mm round with a TETRIX hole pattern (4 inch only).
-        As with the compliant wheels, :term:`durometer` (hardness of rubber)
-        affects both traction and longevity, sacrificing one for the other.
-        However, in the case of intakes, a lower durometer is recommended to
-        have maximum grippiness for intaking game elements.
+        The available bore options are 1/2” and 3/8” hex :term:`bores
+        <Bore>`, as well as 8mm round with a TETRIX hole pattern (4
+        inch only).  As with the compliant wheels, :term:`durometer
+        <Durometer>` (hardness of rubber) affects both traction and
+        longevity, sacrificing one for the other.  However, in the
+        case of intakes, a lower durometer is recommended to have
+        maximum grippiness for intaking game elements.
 
         .. note::
             Keep in mind that elements may get jammed at unfavorable angles in
@@ -290,7 +292,7 @@ You’ll be able to quickly learn the lingo of FTC!
         This is used when a specific reduction might be needed,
         or due to space issues.
         Compound gearing can be achieved by placing two :term:`gears <Gear>` or
-        :term:`sprockets <Sprocket>` of different sizes on one :term:`shaft`.
+        :term:`sprockets <Sprocket>` of different sizes on one :`shaft <Shaft>`.
 
     Core Hex Motor
         The Core Hex Motor, sold by REV, is different from the standard
@@ -311,9 +313,9 @@ You’ll be able to quickly learn the lingo of FTC!
             :width: 200
 
     DarkSoul
-        The DarkSoul :term:`chain breaker`,
+        The DarkSoul :term:`chain breaker <Chain Breaker>`,
         designed for motorsport application such as BMX,
-        is compatible with the FTC standard #25 metal :term:`chain`.
+        is compatible with the FTC standard #25 metal :term:`chain <Chain>`.
         Analogs of this include the REV #25 chain breaker and the VexPro #25
         chain breaker.
         REV and VexPro claim that they have made FIRST specific improvements to
@@ -328,15 +330,15 @@ You’ll be able to quickly learn the lingo of FTC!
             A DarkSoul #25 Chain Breaker
 
     Dead Axle
-        A dead axle refers to an axle that **intentionally** does not spin.
-        Instead, :term:`bearings <Ball Bearing>` are mounted directly to the
-        moving part, such as a wheel in a drivetrain.
-        Power is transferred with a :term:`sprocket`, pulley or :term:`gear`
-        that is also directly mounted to the moving part.
-        This eliminates the need for the :term:`axle <Shaft>` to transfer
-        torque, and also eliminates the need for :term:`hubs <Clamping Hub>`.
-        Additionally, the axle can be used for structural integrity,
-        as it is rigidly mounted.
+        A dead axle refers to an axle that **intentionally** does not
+        spin.  Instead, :term:`bearings <Ball Bearing>` are mounted
+        directly to the moving part, such as a wheel in a drivetrain.
+        Power is transferred with a :term:`sprocket <Sprocket>`,
+        pulley or :term:`gear <Gear>` that is also directly mounted to
+        the moving part.  This eliminates the need for the :term:`axle
+        <Shaft>` to transfer torque, and also eliminates the need for
+        :term:`hubs <Clamping Hub>`.  Additionally, the axle can be
+        used for structural integrity, as it is rigidly mounted.
 
     Defense
         Defense is a strategy employed with the goal of preventing the opposing
@@ -370,7 +372,7 @@ You’ll be able to quickly learn the lingo of FTC!
         a loose cable, or an error in code.
         Generally, most DCs are caused by improper wiring,
         so wire stress relief is encouraged for all teams
-        (:term:`USB retention mount`).
+        (:term:`USB Retention Mount`).
         They can also be caused by WiFi disconnects,
         or an ESD (electrostatic discharge) shock to the electronics.
 
@@ -387,21 +389,20 @@ You’ll be able to quickly learn the lingo of FTC!
 
     Encoder
         An encoder refers to a device that tracks (generally) rotational
-        movement around an axis.
-        There are both absolute and relative encoders.
-        An absolute encoder will report at exactly what angle the shaft is
-        compared to its absolute “zero”.
-        A relative encoder will report how far the :term:`shaft` has rotated
-        since it started tracking (for example, when autonomous starts).
-        Encoders are used to help find the position of where the robot,
-        or one of its mechanisms, is.
+        movement around an axis.  There are both absolute and relative
+        encoders.  An absolute encoder will report at exactly what angle the
+        shaft is compared to its absolute “zero”.  A relative encoder will
+        report how far the :term:`shaft <Shaft>` has rotated since it started
+        tracking (for example, when autonomous starts).  Encoders are used to
+        help find the position of where the robot, or one of its mechanisms,
+        is.
 
     Expansion Hub
-        The REV Expansion Hub is a hardware controller that interfaces with the
-        Android phone.
-        It includes :term:`XT30` ports for power input and output,
-        4 motor ports with :term:`encoder`, and 6 :term:`servo` ports,
-        as well as Mini USB for the Android phone.
+        The REV Expansion Hub is a hardware controller that interfaces
+        with the Android phone.  It includes :term:`XT30` ports for
+        power input and output, 4 motor ports with :term:`encoder
+        <Encoder>`, and 6 :term:`servo <Servo>` ports, as well as Mini
+        USB for the Android phone.
 
         .. image:: images/glossary/expansion-hub.png
             :alt: A REV Robotics Expansion Hub
@@ -418,7 +419,7 @@ You’ll be able to quickly learn the lingo of FTC!
         Extrusion is not a fixed pitch system,
         allowing teams to adjust components as they wish.
         This makes it simple to achieve correct tension and put mechanisms
-        where :term:`channel` would limit mounting.
+        where :term:`channel <Channel>` would limit mounting.
         The adjustability of extrusion is especially useful in precise
         situations, such as intake geometry.
 
@@ -427,18 +428,19 @@ You’ll be able to quickly learn the lingo of FTC!
             :width: 200
 
     Face Mounting
-        Face mounting refers to mounting the motor by affixing the motor
-        directly to the mount using bolts.
-        This is the preferable way of mounting the motor
-        (compared to :term:`clamp mounting`) because it is less likely to loosen over
-        time, especially with the use of :term:`Loctite` on the bolts.
+        Face mounting refers to mounting the motor by affixing the
+        motor directly to the mount using bolts.  This is the
+        preferable way of mounting the motor (compared to :term:`clamp
+        mounting <Clamp Mounting>`) because it is less likely to
+        loosen over time, especially with the use of :term:`Loctite`
+        on the bolts.
 
         .. note::
             It is advisable that 4-6 bolts be used to face mount for
             redundancy.
 
         Additionally, there is no way that the motor might rotate and cause a
-        loss of tension in :term:`belts <HTD Belt>` or :term:`chain`.
+        loss of tension in :term:`belts <HTD Belt>` or :term:`chain <Chain>`.
 
         .. figure:: images/glossary/face-mounting.png
             :alt: A REV Robotics v2 motor facemounted to a plate
@@ -447,10 +449,11 @@ You’ll be able to quickly learn the lingo of FTC!
             REV v2 Motor Facemounted
 
     Gauge
-        Wire gauge refers to the diameter of wire.
-        AWG stands for American Wire Gauge, the general system used in the US.
-        The larger the gauge number, the smaller the wire diameter.
-        Generally, :term:`servo` wires are 22 AWG and motor wires are 18 AWG.
+        Wire gauge refers to the diameter of wire.  AWG stands for
+        American Wire Gauge, the general system used in the US.  The
+        larger the gauge number, the smaller the wire diameter.
+        Generally, :term:`servo <Servo>` wires are 22 AWG and motor
+        wires are 18 AWG.
 
     Gear
         A gear is a machine part that has cut teeth,
@@ -484,7 +487,7 @@ You’ll be able to quickly learn the lingo of FTC!
         a gear ratio defines both the number of rotations of the system’s input
         and the number of rotations of the output.
         For instance, a NeveRest 20 gearmotor consists of an unmodified
-        :term:`NeveRest motor` and a planetary gearbox that has a gear ratio of
+        :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of
         20:1 (or, when spoken, “20 to 1”).
         This means that in order for the output
         shaft of the gearbox to rotate 1 time,
@@ -529,9 +532,9 @@ You’ll be able to quickly learn the lingo of FTC!
 
     High Strength Hex Hub
         REV’s hex hub is a steel attachment whose purpose is to prevent the
-        :term:`bore` wearing out over time.
-        The strengthener fits on the 5 mm hex :term:`shaft` and into the
-        :term:`gear`, :term:`sprocket`, or wheel.
+        :term:`bore <Bore>` wearing out over time.
+        The strengthener fits on the 5 mm hex :term:`shaft <Shaft>` and into the
+        :term:`gear <Gear>`, :term:`sprocket <Sprocket>`, or wheel.
 
         .. note::
             It is highly recommended that all teams use strengtheners on all
@@ -560,13 +563,13 @@ You’ll be able to quickly learn the lingo of FTC!
             :width: 200
 
     Idler
-        An idler :term:`gear`, :term:`sprocket`, or pulley is one that is
-        purposely not used
-        for driving anything else on the :term:`shaft`.
-        The purpose of this idler is, in the case of gears,
-        to transfer power to another direction.
-        For :term:`chain` and :term:`belt <HTD Belt>`, idlers are more common,
-        and are usually adjustable to maintain tension.
+        An idler :term:`gear <Gear>`, :term:`sprocket <Sprocket>`,
+        or pulley is one that is purposely not used for driving
+        anything else on the :term:`shaft <Shaft>`.  The purpose of
+        this idler is, in the case of gears, to transfer power to
+        another direction.  For :term:`chain <Chain>` and :term:`belt
+        <HTD Belt>`, idlers are more common, and are usually
+        adjustable to maintain tension.
 
     JST-PH
         JST-PH is a type of connector.
@@ -621,8 +624,9 @@ You’ll be able to quickly learn the lingo of FTC!
         which is permanent (and we mean it).
 
         .. note::
-            It is highly recommended that teams use Loctite on all motor and
-            :term:`servo` mounts, as well as any mechanism prone to vibration.
+            It is highly recommended that teams use Loctite on all
+            motor and :term:`servo <Servo>` mounts, as well as any
+            mechanism prone to vibration.
 
         .. warning::
             **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.**
@@ -664,7 +668,7 @@ You’ll be able to quickly learn the lingo of FTC!
         unwanted friction and introduce inefficiencies within the drive system.
 
     Micro USB On The Go (OTG) Cable
-        The Micro USB OTG cable connects the :term:`driver station` phone with
+        The Micro USB OTG cable connects the :term:`Driver Station` phone with
         the Logitech controller that the driver uses in order to control the
         robot.
 
@@ -770,7 +774,7 @@ You’ll be able to quickly learn the lingo of FTC!
     Punch Tubing
         The REV Punch Tube is 15 mm aluminum tubing that allows teams to use
         the 15 mm REV building system without having the disadvantages of
-        :term:`extrusion`, such as that parts come loose over time.
+        :term:`extrusion <Extrusion>`, such as that parts come loose over time.
         With punch tubing, teams must pre-drill holes and attach,
         unlike extrusion, where teams can slide and adjust mechanisms.
         Thus, it is recommended that teams use extrusion in
@@ -840,7 +844,7 @@ You’ll be able to quickly learn the lingo of FTC!
 
     Servo Power Module
         A Servo Power Module (SPM) is a device made by REV Robotics that boosts
-        the voltage that the Expansion Hub provides to a :term:`servo`.
+        the voltage that the Expansion Hub provides to a :term:`servo <Servo>`.
         The :term:`Expansion Hub's <Expansion Hub>` output for servos is 5V at
         6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
         This is important for servos under high load conditions such as the
@@ -851,12 +855,12 @@ You’ll be able to quickly learn the lingo of FTC!
             :width: 200
 
     Set Screw
-        A set screw is generally a hex socket screw that is used to fasten
-        parts such as :term:`sprockets <sprocket>` or :term:`gears <gear>`
-        to a :term:`shaft`, or to fix a shaft in place so that it doesn’t move
-        around.
-        Due to the hex socket,
-        allen keys must be used to tighten and loosen set screws.
+        A set screw is generally a hex socket screw that is used to
+        fasten parts such as :term:`sprockets <Sprocket>` or
+        :term:`gears <Gear>` to a :term:`shaft <Shaft>`, or to fix a
+        shaft in place so that it doesn’t move around.  Due to the hex
+        socket, allen keys must be used to tighten and loosen set
+        screws.
 
         .. warning::
             **Set screws are not recommended for drivetrain and high-load
@@ -895,7 +899,7 @@ You’ll be able to quickly learn the lingo of FTC!
         * Square shaft: commonly used in VEX products
 
     Shaft Collar
-        A shaft collar, which has a :term:`set screw`,
+        A shaft collar, which has a :term:`set screw <Set Screw>`,
         is fitted on to a shaft in order to secure parts.
 
         .. image:: images/glossary/shaft-collar.png
@@ -903,15 +907,14 @@ You’ll be able to quickly learn the lingo of FTC!
             :width: 200
 
     Spacer
-        A spacer is used for keeping parts aligned with each other in separate
-        :term:`shafts <shaft>`.
-        Generally, spacers are used because there isn’t space for a
-        :term:`clamping hub` or :term:`shaft collar`, as those take up more
-        space.
-        However, spacers are very low-profile and hug the shaft closely.
-        Spacers can be purchased in different configurations,
-        from 1 mm to 15 mm.
-        Custom spacers can also easily be 3D printed.
+        A spacer is used for keeping parts aligned with each other in
+        separate :term:`shafts <Shaft>`.  Generally, spacers are used
+        because there isn’t space for a :term:`clamping hub <Clamping
+        Hub>` or :term:`shaft collar <Shaft Collar>`, as those take up
+        more space.  However, spacers are very low-profile and hug the
+        shaft closely.  Spacers can be purchased in different
+        configurations, from 1 mm to 15 mm.  Custom spacers can also
+        easily be 3D printed.
 
         .. figure:: images/glossary/thin-spacer.png
             :alt: A 1.5 mm thick spacer
@@ -926,17 +929,16 @@ You’ll be able to quickly learn the lingo of FTC!
             A 15 mm thick spacer
 
     Sprocket
-        A sprocket is a mechanical part that transfers power through its cogs,
-        which fit into :term:`chain`.
-        It is similar to a :term:`gear`, except that instead of meshing with
-        another gear, the sprocket meshes with chain.
+        A sprocket is a mechanical part that transfers power
+        through its cogs, which fit into :term:`chain <Chain>`.  It is
+        similar to a :term:`gear <Gear>`, except that instead of
+        meshing with another gear, the sprocket meshes with chain.
         The cogs have the same system as gear teeth, using “numberT”
-        (e.g. 32T or 86T).
-        Chain is sold in both metal and plastic varieties.
-        #25 roller chain is usually metal, while 8mm chain used in FTC is
-        usually plastic but can be metal.
-        Plastic #25 chain is not recommended for higher load applications,
-        such as a drivetrain.
+        (e.g. 32T or 86T).  Chain is sold in both metal and plastic
+        varieties.  #25 roller chain is usually metal, while 8mm chain
+        used in FTC is usually plastic but can be metal.  Plastic #25
+        chain is not recommended for higher load applications, such as
+        a drivetrain.
 
         .. figure:: images/glossary/rev-sprocket-20-tooth.png
             :alt: A REV Robotics Delrin 20 Tooth #25 sprocket
@@ -952,7 +954,7 @@ You’ll be able to quickly learn the lingo of FTC!
     SRS Programmer
         The REV SRS Programmer is a device that will send a special data signal
         to the REV Smart Robot Servos to control their electronic endstops,
-        as well as the continuous rotation mode of the :term:`servo`.
+        as well as the continuous rotation mode of the :term:`servo <Servo>`.
         It can also be used as a servo tester for other servos.
 
     Standoff
@@ -993,7 +995,7 @@ You’ll be able to quickly learn the lingo of FTC!
         Generally, 50A wheels can survive a year’s worth of driving and use,
         but it is recommended to swap them out mid-season unless they are
         cleaned regularly.
-        Stealth wheels are available in different :term:`bore` sizes,
+        Stealth wheels are available in different :term:`bore <Bore>` sizes,
         such as 1/2” hex, 3/8” hex, 8 mm round, and 5 mm hex.
         With the 5mm hex option, it is highly recommended to use the hex hub
         strengthener from REV in order to prevent the bore from stripping out.
@@ -1011,14 +1013,13 @@ You’ll be able to quickly learn the lingo of FTC!
         and not possible with traction wheels.
 
     Surgical Tubing
-        Surgical tubing is generally latex or rubber tubing.
-        Its most common use case is in active intakes,
-        and has been popular among teams for many seasons.
-        Surgical tubing has a hollow center and is sold in different diameters
-        and wall thicknesses.
-        Teams can experiment with different kinds of surgical tubing,
-        as well as adding :term:`polyurethane tubing` in order to make the
-        tubing more stiff.
+        Surgical tubing is generally latex or rubber tubing.  Its most
+        common use case is in active intakes, and has been popular
+        among teams for many seasons.  Surgical tubing has a hollow
+        center and is sold in different diameters and wall
+        thicknesses.  Teams can experiment with different kinds of
+        surgical tubing, as well as adding :term:`polyurethane tubing
+        <Polyurethane tubing>` in order to make the tubing more stiff.
 
         .. image:: images/glossary/surgical-tubing.png
             :alt: A roll of surgical tubing
@@ -1032,13 +1033,13 @@ You’ll be able to quickly learn the lingo of FTC!
         same direction at different speeds.
 
     Thunderhex
-        Thunderhex is aluminum rounded hex :term:`shaft` that comes in 3/8” and
-        1/2” hex sold by VEX Robotics.
-        It has a center bore that can be tapped.
-        Its most notable feature is rounded corners,
-        which allow it to fit inside 10.25 or 13.75mm bearings, respectively.
-        Because of the nonstandard diameter, the cost advantage is negligible,
-        but ease of assembly and better performance are its strong points.
+        Thunderhex is aluminum rounded hex :term:`shaft
+        <Shaft>` that comes in 3/8” and 1/2” hex sold by VEX Robotics.
+        It has a center bore that can be tapped.  Its most notable
+        feature is rounded corners, which allow it to fit inside 10.25
+        or 13.75mm bearings, respectively.  Because of the nonstandard
+        diameter, the cost advantage is negligible, but ease of
+        assembly and better performance are its strong points.
 
         .. image:: images/glossary/thunderhex.png
             :alt: A piece of thunderhex shaft
@@ -1056,14 +1057,14 @@ You’ll be able to quickly learn the lingo of FTC!
             :alt: A tilerunner drivetrain
 
     Torsional Rigidity
-        Torsional rigidity refers to how difficult it is to twist an object due
-        to an applied torque.
-        This mainly refers to :term:`extrusion`,
-        as it is easier to twist extrusion than :term:`channel` or an angle
-        piece, for example.
-        Torsional rigidity has consequences particularly in building
-        drivetrains, as the drivetrain is the last mechanism on your robot that
-        should flex or bend when weight or force is applied to it.
+        Torsional rigidity refers to how difficult it is to twist an
+        object due to an applied torque.  This mainly refers to
+        :term:`extrusion <Extrusion>`, as it is easier to twist
+        extrusion than :term:`channel <Channel>` or an angle piece,
+        for example.  Torsional rigidity has consequences particularly
+        in building drivetrains, as the drivetrain is the last
+        mechanism on your robot that should flex or bend when weight
+        or force is applied to it.
 
     Traction wheel
         A traction or grip wheel is a wheel designed for maximum grip. It has an outer ring
@@ -1074,7 +1075,7 @@ You’ll be able to quickly learn the lingo of FTC!
     UltraHex
         UltraHex is 1/2” aluminum hex :term:`shafting <Shaft>` sold by REV
         Robotics.
-        There is an inner 5 mm hex :term:`bore` in the middle,
+        There is an inner 5 mm hex :term:`bore <Bore>` in the middle,
         which allows compatibility with REV’s 5 mm hex shaft motion system.
         The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into
         it.
@@ -1130,7 +1131,7 @@ You’ll be able to quickly learn the lingo of FTC!
         shaft.
         Therefore teams will have to fashion a custom motor mount and shaft
         adapter for the VEX 393.
-        Under FTC rules, it is classified as a :term:`servo`.
+        Under FTC rules, it is classified as a :term:`servo <Servo>`.
         However, in order to use the 393, teams must purchase an adapter from
         the 2-wire motor cable to the 3-wire servo cable,
         called the :term:`VEX Motor Controller 29`.
@@ -1193,10 +1194,12 @@ You’ll be able to quickly learn the lingo of FTC!
         so that the drivetrain has optimal manuverability and turning.
 
     Wheel scrub
-        Wheel scrub refers to friction between the side of the wheel and the floor tile.
-        It inhibits turning as the drivetrain must overcome this frictional force
-        in order to turn the robot.
-        Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop`.
+        Wheel scrub refers to friction between the side of the wheel
+        and the floor tile.  It inhibits turning as the drivetrain
+        must overcome this frictional force in order to turn the
+        robot.  Wheel scrub is most common on 4 or 6 wheel tank
+        drivetrains that do not have a :term:`center drop <Center
+        drop>`.
 
     XT30
         The XT30 connector is used in the REV ecosystem through the

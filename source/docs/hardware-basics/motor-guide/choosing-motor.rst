@@ -36,18 +36,18 @@ They consist of the following components.
   For example, a 20:1 gearbox reduces the speed by factor of 20,
   resulting in no-load speed of around 300RPM.
   See :term:`Gear Reduction`.
-  A gearbox also contains the output :term:`shaft`
+  A gearbox also contains the output :term:`shaft <Shaft>`
   (typically 6mm D profile; REV motors use 5mm hex shafts) and mounting holes.
   Gearbox can be replaced; this is FTC legal but requires some skill.
-* **Encoder**. Attached to the back of the motor and protected by a plastic
-  cap, the :term:`encoder` contains a sensor registering motor :term:`shaft`
-  rotation.
-  It can be connected to :term:`REV hubs <Expansion Hub>` and used for precise
+* **Encoder**. Attached to the back of the motor and protected by a
+  plastic cap, the :term:`encoder <Encoder>` contains a sensor
+  registering motor :term:`shaft <Shaft>` rotation.  It can be
+  connected to :term:`REV hubs <Expansion Hub>` and used for precise
   control of motor speed or rotating to a specific position.
 
 Since the bare motor is similar for all motors discussed above, the choice
 of the right motor is dictated by the gearbox:
-the :term:`gear ratio <Gear Reduction>`, output :term:`shaft` type,
+the :term:`gear ratio <Gear Reduction>`, output :term:`shaft <Shaft>` type,
 and ease of mounting.
 
 Gearboxes
@@ -84,16 +84,15 @@ uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
   They utilize the rather uncommon (in the FTC world) bullet connection for
   power. However, these are now discontinued.
   The output shaft is a 6mm D-shaft.
-* :term:`REV HD Hex Planetary 40:1 motor <HD Hex Motor>` -
-  This motor comes only in a 40:1 ratio,
-  but does use the same connections (JST VH) as the
-  :term:`REV Expansion <Expansion Hub>` and Control Hub for power which means
-  no adapter cables.
-  The output :term:`shaft` is a 5mm hex :term:`shaft`.
-  :term:`REV UltraHex <UltraHex>` has a 5mm hex :term:`bore` running
-  through the middle of a 1/2” hex :term:`shaft`, which makes adapting this
-  motor to any length of :term:`Ultrahex`, and by extension,
-  1/2” hex :term:`shaft`, very easy.
+* :term:`REV HD Hex Planetary 40:1 motor <HD Hex Motor>` - This motor
+  comes only in a 40:1 ratio, but does use the same connections (JST
+  VH) as the :term:`REV Expansion <Expansion Hub>` and Control Hub for
+  power which means no adapter cables.  The output :term:`shaft
+  <Shaft>` is a 5mm hex :term:`shaft <Shaft>`.  :term:`REV UltraHex
+  <UltraHex>` has a 5mm hex :term:`bore <Bore>` running through the
+  middle of a 1/2” hex :term:`shaft <Shaft>`, which makes adapting
+  this motor to any length of :term:`UltraHex`, and by extension, 1/2”
+  hex :term:`shaft <Shaft>`, very easy.
 * :term:`Andymark NeveRest Classic motors <NeveRest Motor>` come in a few
   different ratios, which are 40:1 and 60:1.
   The output shaft is a :term:`6mm D-shaft <Shaft>`,
@@ -109,29 +108,30 @@ Standard planetary gearboxes include
 :term:`goBILDA’s 5202 Series Yellow Jacket Motors <Yellow Jacket Motor>`.
 
 Any of these “standard” gearboxes are more robust than spur gearboxes.
-Like the spur gearboxes, the gearboxes from different vendors,
-while not interchangeable, are very comparable in terms of robustness.
-Once again, the main thing to consider here is your desired reduction,
-your desired motor connections, and your desired output :term:`shaft` type.
+Like the spur gearboxes, the gearboxes from different vendors, while
+not interchangeable, are very comparable in terms of robustness.  Once
+again, the main thing to consider here is your desired reduction, your
+desired motor connections, and your desired output :term:`shaft
+<Shaft>` type.
 
 * **goBILDA Yellow Jacket** has the most varied selection of gearbox ratios
   with too many to list here,
   but utilize the rather uncommon bullet connection for power.
-  The output :term:`shaft` is a :term:`6mm D-shaft <Shaft>`.
+  The output :term:`shaft <Shaft>` is a :term:`6mm D-shaft <Shaft>`.
 * **REV HD Hex Planetary motor** - This motor comes only in a 20:1 ratio,
   but uses the same connections (:term:`JST-VH`) as the
   :term:`REV Expansion <Expansion Hub>` and Control hub for power which means
   no adapter cables.
   The output shaft is a :term:`5mm hex shaft <Shaft>`.
-  REV :term:`Ultrahex` has a 5mm hex :term:`bore` running through the middle of
+  REV :term:`UltraHex` has a 5mm hex :term:`Bore` running through the middle of
   a :term:`1/2” hex shaft <Shaft>`,
-  which makes adapting this motor to any length of :term:`Ultrahex`,
+  which makes adapting this motor to any length of :term:`UltraHex`,
   and by extension, :term:`1/2” hex shaft <Shaft>` very easy.
-  The ratio of the :term:`HD Hex motor` is 20:1.
+  The ratio of the :term:`HD Hex Motor` is 20:1.
 * **Andymark NeveRest Orbital** motors come in two
   :term:`ratios <Gear Reduction>`, 3.7:1 and 20:1.
   The output shaft is a :term:`6mm D-shaft <Shaft>`,
-  and like all :term:`NeveRest motors <NeveRest motor>` use the
+  and like all :term:`NeveRest motors <NeveRest Motor>` use the
   :term:`Anderson PowerPole` to connect to power.
   This connector is perhaps the most robust of the ones listed here.
 
@@ -160,7 +160,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   The NeveRest sport gearboxes can handle larger shock loads, and can provide a
   larger reduction with options up to 256:1.
   These gearboxes are relatively expensive, as no motors are included.
-  You will need a bare :term:`NeveRest motor`,
+  You will need a bare :term:`NeveRest Motor`,
   :term:`REV HD Hex motor <HD Hex Motor>`,
   or goBILDA motor to attach to the gearbox.
   The selection should be based only on which connection type you like the most
@@ -175,7 +175,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   separately.
   You can disassemble the gearbox from the motor-side,
   so removing the gearbox from the mounted plate is not necessary
-  Attaching the pinion to a :term:`bare motor` is simple
+  Attaching the pinion to a :term:`Bare Motor` is simple
   since it clamps onto the motor shaft instead of a press fit like the
   other pinion gears.
   VersaPlanetaries also

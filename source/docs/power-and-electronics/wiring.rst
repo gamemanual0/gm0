@@ -63,9 +63,10 @@ General Advice
   way of other robots/game pieces.
   It is advised for teams to purchase removable velcro ties or cable ties to
   aid with cable management.
-* For power wires, lower :term:`gauge` (larger size) wires are preferable.
-  This means a lower resistance across the wire and higher power throughput.
-  This is negligible for data wires, however.
+* For power wires, lower :term:`gauge <Gauge>` (larger size) wires are
+  preferable. This means a lower resistance across the wire and
+  higher power throughput. This is negligible for data wires,
+  however.
 * Small wires and cables are fragile.
   Treat them as such, and don’t put them in an area where they will constantly
   be hit by another object.
@@ -128,7 +129,7 @@ Specific Recommendations
 Module Power
 ^^^^^^^^^^^^
 Be aware, :term:`XT30` connectors can wear out significantly faster than
-:term:`PowerPole <Anderson Powerpole>` connectors.
+:term:`PowerPole <Anderson PowerPole>` connectors.
 Additionally, because :term:`XT30` connectors are soldered,
 they can break much easier than :term:`PowerPole <Anderson PowerPole>`
 connections.
