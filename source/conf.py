@@ -137,7 +137,6 @@ html_theme_options = {
     'prev_next_buttons_location': 'both',
     'style_external_links': True,
     'style_nav_header_background': '#4e4a4a',
-    'github_url': 'https://github.com/Coppersource/gm0',
 }
 
 # Custom sidebar templates, must be a dictionary that maps document names
