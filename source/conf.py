@@ -38,8 +38,6 @@ release = re.sub('^v', '', os.popen('git describe').read().strip())
 # The short X.Y version
 version = release
 
-
-
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -107,57 +105,40 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+
+# on_rtd is whether we are on readthedocs.org
+import os
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+# otherwise, readthedocs.org uses their theme by default, so no need to specify it
 html_logo = "assets/gm0-logo.png"
 html_favicon = "assets/gm0-logo.ico"
 
-html_sidebars = {
-    '**': [
-            'about.html',
-            'searchbox.html',
-            'navigation.html',
-            'relations.html',
-    ]
-}
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
 
-text_fonts = "'Proza Libre', 'Open Sans', 'Garamond', 'Georgia', serif"
+html_css_files = [
+    'custom.css',
+]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    # Basics:
-    'description': 'A guide for FTC teams',
-    'logo_name': False,
-
-    # Service links and badges
-
-    # Non-service sidebar control
-    'extra_nav_links': {
-        'Copperforge': 'https://copperforge.cc/',
-        'GitHub': 'https://www.github.com/Coppersource/gm0',
-    },
-
-    # Header/footer options
-    'show_powered_by': False,
-    'show_relbars': True,
-
-    # Style colors
-    'note_bg': '#E4F3FE',
-    'note_border': '#E4F3FE',
-    'warn_bg': 'rgba(244,158,76,0.15)',
-    'warn_border': '#F49E4C',
-
-    # Fonts
-    'caption_font_family': text_fonts,
-    'font_family': text_fonts,
-    'head_font_family': text_fonts,
+    'display_version': False,
+    'logo_only': True,
+    'prev_next_buttons_location': 'both',
+    'style_external_links': True,
+    'style_nav_header_background': '#4e4a4a',
+    'github_url': 'https://github.com/Coppersource/gm0',
 }
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static/custom.css']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

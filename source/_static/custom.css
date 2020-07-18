@@ -1,66 +1,13 @@
-/* Used to hide the text "Game Manual 0" under the logo*/
-h1.logo {
-    display: none;
-}
-
-/* Moves the description above the logo, because the logo has lots of empty space */
-div.sphinxsidebarwrapper p.blurb {
-    margin-top: -25px;
-}
-
-/* Get rid of "Game Manual 0 Table of Contents" under Navigation as that is repetitive */
-div.sphinxsidebar p.caption {
-    display: none;
-}
-
-/* Change margins around Navigation to make the spacing more natural */
-div.sphinxsidebar h3 {
-    margin-top: 5px;
-    margin-bottom: -5px;
-}
-
-img:not(.graphviz) {
-    /* Change images to be consitently 400px wide, unless specified in the source */
-    width: 400px;
-    /* Center all images so that figures and normal images have consistent styling */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Center caption text in their respective figure */
-div.figure.align-default {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Make sure captions cannot be wider than the figure they are describing */
-div.body p.caption {
-      max-width: 400px;
-}
-
-/* Make sure the body can shrink to the size of the screen (important on mobile) */
-div.body {
-    min-width: 0px;
-}
-
 /* Removes community ads on read the docs */
 div.ethical-sidebar, div.ethical-footer {
     position: absolute;
     left: -99999px;
 }
 
-/* Add Open Sans using google fonts so that it can be used on more browsers */
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-
-/* Make text less cramped vertically and decrease letter spacing slightly */
-div.body p, div.body dd, div.body li {
-    line-height: 1.6em;
-    letter-spacing: -0.02em;
+.wy-nav-top, .wy-nav-side {
+    background: #4e4a4a;
 }
 
-/*Add Proza Libre using google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital@0;1&display=swap');
-
+.wy-nav-side a:hover {
+    background: #404040;
+}
