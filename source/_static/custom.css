@@ -4,7 +4,7 @@ div.ethical-sidebar, div.ethical-footer {
     left: -99999px;
 }
 
-.wy-nav-top, .wy-nav-side {
+.wy-nav-top, .wy-nav-side, .wy-side-nav-search {
     background: #4e4a4a;
 }
 
