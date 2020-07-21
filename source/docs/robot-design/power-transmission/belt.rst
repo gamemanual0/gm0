@@ -19,7 +19,7 @@ They’re lighter and more compact than chains,
 but they lack the customizability of their bulkier brother -
 belts come in a closed loop of predetermined length,
 and there’s no changing that length on the fly.
-Like chain, belt is identified by its **:term:`pitch`** -
+Like chain, belt is identified by its :term:`pitch <Pitch>` -
 common pitches found on FTC robots include
 HTD 5mm, HTD 3mm, GT2 3mm, and XL 0.2”.
 
@@ -65,7 +65,7 @@ or `two <https://www.sudenga.com/practical-applications/figuring-belt-lengths-an
 that simplifies the work.
 
 .. math::
-    C=\frac{P}{8}*`(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
+    C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
 
     L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
 
@@ -76,7 +76,7 @@ that simplifies the work.
 * :math:`n=` number of teeth in small pulley
 
 .. math::
-    C=\frac{L-1.57(D+d)}{4}+\sqrt{[(\frac{L-1.57(D+d)}{4})^2-\frac{(D-d)^2}{8}}
+    C=\frac{L-\frac{\pi}{2}(D+d)}{4}+\sqrt{[(\frac{L-\frac{\pi}{2}(D+d)}{4})^2-\frac{(D-d)^2}{8}}
 
 * :math:`D=` chosen diameter of large pulley
 * :math:`d=` chosen diameter of small pulley
