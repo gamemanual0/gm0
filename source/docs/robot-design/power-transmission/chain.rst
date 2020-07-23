@@ -70,7 +70,7 @@ can calculate C-C distances without going through the tedious calculations.
 However, the complete formula is below.
 
 .. math::
-    C=\frac{P}{8}*`(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
+    C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
 
     L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
 

@@ -1,3 +1,7 @@
+:root {
+  --image-width: 25em;
+}
+
 /* Removes community ads on read the docs */
 div.ethical-sidebar, div.ethical-footer {
     position: absolute;
@@ -10,4 +14,27 @@ div.ethical-sidebar, div.ethical-footer {
 
 .wy-nav-side a:hover {
     background: #404040;
+}
+
+
+img:not(.graphviz) {
+    /* Change images to be consitently 400px wide, unless specified in the source */
+    width: var(--image-width);
+    /* Center all images so that figures and normal images have consistent styling */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center caption text in their respective figure */
+div.figure.align-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Make sure captions cannot be wider than the figure they are describing */
+div.body p.caption {
+      max-width: var(--image-width);
 }
