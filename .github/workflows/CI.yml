@@ -49,6 +49,11 @@ jobs:
     - name: Check Links
       run: |
         make linkcheck
+    - name: Archive Linkcheck Output
+      uses: actions/upload-artifact@v2
+      with:
+        name: linkcheck-output.txt
+        path: build/linkcheck/output.txt
   check-linting:
     runs-on: ubuntu-latest
     steps:
@@ -62,8 +67,3 @@ jobs:
     - name: Check Lint
       run: |
         make lint
-    - name: Archive Linkcheck Output
-      uses: actions/upload-artifact@v2
-      with:
-        name: linkcheck-output.txt
-        path: build/linkcheck/output.txt
