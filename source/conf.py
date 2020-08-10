@@ -262,8 +262,8 @@ man_pages = [
 ]
 
 linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*",
-    "cabinetparts.com",
-    "andymark.com"]
+    "*cabinetparts.com*",
+    "*andymark.com*"]
 
 # -- Options for Texinfo output ----------------------------------------------
 
