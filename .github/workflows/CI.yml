@@ -49,7 +49,8 @@ jobs:
     - name: Check Links
       run: |
         make linkcheck
-    - name: Archive Linkcheck Output
+    - name: Archive Linkcheck Failure
+      if: failed()
       uses: actions/upload-artifact@v2
       with:
         name: linkcheck-output.txt
