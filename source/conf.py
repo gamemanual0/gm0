@@ -165,6 +165,8 @@ latex_show_urls = 'footnote'
 
 latex_show_pagerefs = True
 
+latex_use_xindy = False
+
 latex_elements = {
     'releasename': "Game Manual 0",
 
