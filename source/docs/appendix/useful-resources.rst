@@ -89,6 +89,8 @@ For further reading, we highly suggest you check out those links.**
     * `FTC Dashboard (Tool for monitoring and debugging FTC applications remotely) <https://github.com/acmerobotics/ftc-dashboard>`_
     * `Virtual Robot (Write OpModes without a robot!) <https://github.com/Beta8397/virtual_robot>`_
     * `Editable Control Award Document <https://cdn.discordapp.com/attachments/322801353804218368/650427404623282196/Final_Control_Award.docx>`_ - Ryan, FTC 1002
+    * `Learn Java for FTC <https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf>`_
+    * `Learn (FTC) Code <https://omega9656.github.io/learn-code/>`_
 * Vendor Resources
     * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
 * Discord
