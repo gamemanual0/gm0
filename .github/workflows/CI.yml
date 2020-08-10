@@ -50,7 +50,7 @@ jobs:
       run: |
         make linkcheck
     - name: Archive Linkcheck Failure
-      if: failed()
+      if: ${{ failure() }}
       uses: actions/upload-artifact@v2
       with:
         name: linkcheck-output.txt
