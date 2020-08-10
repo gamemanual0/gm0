@@ -49,7 +49,7 @@ many options to expand upon.
 
 Kit Parts
 =========
-https://www.servocity.com/ftc-competition-kit
+https://www.servocity.com/ftc-competition-kit-20-21-season/
 
 * Aluminum :term:`c-channel <Channel>` and :term:`mini channel <Channel>`,
   various lengths

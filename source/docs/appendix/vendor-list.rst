@@ -70,7 +70,7 @@ Vendor List
     * Servocity sells a wide range of :term:`servos <Servo>`,
       from Hitec to Futaba, at all price points.
     * Teams can get a 25% team discount from Servocity
-* `VEX/VEXPro <https://www.vexrobotics.com/vexpro/ftc>`_
+* `VEX/VEXPro <https://www.vexrobotics.com/pro>`_
     * VEXPro sells parts angled toward FRC use, but many of their parts,
       such as :term:`Thunderhex`, can be made compatible with FTC robots.
     * VEX sells the 393 Motor, as well as the Motor Controller 29 in order for

@@ -261,7 +261,7 @@ man_pages = [
      [author], 1)
 ]
 
-linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*"]
+linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*", "cabinetparts.com"]
 
 # -- Options for Texinfo output ----------------------------------------------
 
