@@ -165,6 +165,8 @@ latex_show_urls = 'footnote'
 
 latex_show_pagerefs = True
 
+latex_use_xindy = False
+
 latex_elements = {
     'releasename': "Game Manual 0",
 
@@ -259,7 +261,10 @@ man_pages = [
      [author], 1)
 ]
 
-linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*"]
+linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*",
+    ".*cabinetparts.com*",
+    ".*andymark.com*",
+    ".*xrcsimulator.org*"]
 
 # -- Options for Texinfo output ----------------------------------------------
 

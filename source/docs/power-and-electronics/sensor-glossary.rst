@@ -71,7 +71,7 @@ but for some existing FTC sensors it does.
 To solve this Rev sells boards, called
 `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_,
 that convert the sensor data to be readable by the Rev hubs.
-The `Rev Expansion Hub <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+The `Rev Expansion Hub <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
 guide has a chart detailing what adapters are needed for what sensors.
 According to Rev testing, goBILDA, Rev and TorqueNado motors don’t need logic
 level converters, but only some NeveRest motors worked with no discernable

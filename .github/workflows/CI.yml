@@ -19,7 +19,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Install LaTeX
       run: |
-        sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin
+        sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
     - name: Build HTML
       run: |
         make html
@@ -49,6 +49,12 @@ jobs:
     - name: Check Links
       run: |
         make linkcheck
+    - name: Archive Linkcheck Failure
+      if: ${{ failure() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: linkcheck-output.txt
+        path: build/linkcheck/output.txt
   check-linting:
     runs-on: ubuntu-latest
     steps:
@@ -62,4 +68,3 @@ jobs:
     - name: Check Lint
       run: |
         make lint
-        

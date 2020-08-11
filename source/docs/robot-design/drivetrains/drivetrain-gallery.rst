@@ -24,7 +24,7 @@ in the Appendix.
     A customizable open source drivetrain by FTC 10355 Project Peacock.
     It was designed specifically to be used by other teams as a base
     of their robots.
-`Wizards.exe 6 wheel drive chassis <https://drive.google.com/open?id=1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec>`_
+`Wizards.exe 6 wheel drive chassis <https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_
     Another design by FTC 9794 Wizards.exe. Combines custom side panels with
     Actobotics parts (gears, chain sprockets).
 `Custom drivetrain by FTC 14875 LightSpeed <https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_

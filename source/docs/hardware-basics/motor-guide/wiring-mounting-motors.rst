@@ -57,7 +57,7 @@ encoders of these motors require 5v power, whereas encoder port of
 Thus, it is recommended that you connect them using level shifters,
 available from REV Robotics.
 For details please check the
-`REV Expansion Hub Guide <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_, Section 4.2.
+`REV Expansion Hub Guide <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_, Section 4.2.
 
 Mounting Motors
 ---------------

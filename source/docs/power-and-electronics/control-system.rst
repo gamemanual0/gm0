@@ -16,7 +16,7 @@ More information about the FTC Control system can be found below.
 
 `Official control system Wiki on GitHub <https://github.com/first-tech-challenge/skystone/wiki>`_
 
-`REV Expansion Hub Documentation <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+`REV Expansion Hub Documentation <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
 
 `FIRST troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 

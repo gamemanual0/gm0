@@ -30,7 +30,7 @@ For further reading, we highly suggest you check out those links.**
     * `The Orange Alliance (TOA) (Competition/Performance Data) <https://theorangealliance.org/>`_
     * `TOA Text (Query TOA Data via text messaging) <https://docs.google.com/document/d/1jnZJtvooSV0mYEuOF1iGqjgWHXIShS4nFgICLt5anjI/edit#>`_
     * `FTCScores (Sometimes used instead of TOA) <https://ftcscores.com/>`_
-    * `FTC Stats (Team Data and Rankings) <http://ftcstats.org/>`_
+    * `FTC Stats (Team Data and Rankings) <http://www.ftcstats.org>`_
     * `FTC Scoring Software <https://github.com/FIRST-Tech-Challenge/scorekeeper>`_
     * `Slack (Professional Communication) <https://slack.com/>`_
 * Building Resources - Principles
@@ -77,11 +77,11 @@ For further reading, we highly suggest you check out those links.**
     * `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ - Henopied, FTC 8907
 * Coding and Software Resources
     * `Java in 7 Days Tutorial <https://www.guru99.com/java-tutorial.html>`_
-    * `Advanced Java Tutorial  <http://enos.itcollege.ee/~jpoial/allalaadimised/reading/Advanced-java.pdf>`_
+    * `Advanced Java Tutorial  <https://enos.itcollege.ee/~jpoial/allalaadimised/reading/Advanced-java.pdf>`_
     * `Java Workshop  <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ - FTC 4613
     * `FTC Robot Controller JavaDocs  <http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html>`_
     * `Introduction to Control Systems <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_
-    * `REV Robotics Expansion Hub Guide  <https://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`_
+    * `REV Robotics Expansion Hub Guide  <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
     * `OpenFTC (useful programming tools)*  <https://github.com/OpenFTC>`_ - 4634 FROGbots
     * `DogeCV (FTC Computer Vision Library)  <https://github.com/dogecv/DogeCV>`_
     * `FTCLib ("Library for everything you will ever need and more")  <https://github.com/FTCLib/FTCLib>`_

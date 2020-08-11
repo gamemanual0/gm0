@@ -30,7 +30,7 @@ They consist of the following components.
   :term:`REV Robotics HD Hex motors <HD Hex Motor>`,
   and :term:`goBILDA motors <Yellow Jacket Motor>` are virtually identical.
   The most reliable specs can be found on the
-  `VEX  website <https://motors.vex.com/other-motors/am-NeveRest>`_.
+  `VEX website <https://motors.vex.com/other-motors/am-neverest>`_.
 * **Gearbox**. The gearbox is attached to the front of the motor and reduces
   the speed while increasing the torque.
   For example, a 20:1 gearbox reduces the speed by factor of 20,
