@@ -37,7 +37,7 @@ and strategic planning stages.
 +--------------------------------+-----------------------------------------+
 
 Do Everything At Once to Perfect One Objective First
-===================================================
+====================================================
 **Consistency is king.**
 
 .. important:: A common pitfall for first year teams is trying to accomplish
@@ -65,7 +65,7 @@ it.
     This is a recommended goal for new teams.
 
 Overcomplicate to Simplify
-=========================
+==========================
 .. important:: Another common trap that teams fall into is to overcomplicate
     needlessly. Simplifying your robot simplifies possible headaches later.
 
@@ -95,7 +95,7 @@ Keeping things simple can be practically achieved through a couple of ways.
    change direction too many times.
 
 Score-first designs to Design for Consistency
-============================================
+=============================================
 .. important:: Teams should prioritize consistency over scoring ability.
 
 The tortoise beats the rabbit.
@@ -128,7 +128,7 @@ They are not afraid to look at teams who can’t score much, but can contribute
 every time to the alliance score, rather than selecting a boom-or-bust pick.
 
 Build haphazardly to Build for reliability
-=========================================
+==========================================
 .. important:: Build for the worst case scenario, not the best case scenario.
     When building, teams often overlook a key principle: build for reliability.
     All too often, teams skimp on the quality of construction as well as
@@ -164,7 +164,7 @@ All these tips combined will help your robot become more reliable,
 a key characteristic of all world-level robots.
 
 Fret about Design to Focus on Execution
-======================================
+=======================================
 .. tip::
     A good execution of a bad design will beat a bad execution of good design.
 

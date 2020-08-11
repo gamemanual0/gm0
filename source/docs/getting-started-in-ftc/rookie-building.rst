@@ -36,7 +36,7 @@ Rookie Mistakes: Building
 
 
 2 Motor Drivetrain to 4 Motor Drivetrain
-=======================================
+========================================
 .. important:: In general, it is not recommended for teams to use 2 motors on
     the drivetrain, but instead use 4.
     This is mainly due to the added power and increased acceleration 4 motors
@@ -64,7 +64,7 @@ for the drivetrain, so this is a pretty safe rule to follow.
 
 
 Pushbot to Mecanum, 6WD, Other Recommended Drivetrains
-=====================================================
+======================================================
 .. important:: The pushbot drivetrain,
     commonly built by first-year teams using the FIRST-provided guides,
     is not recommended as a competitive drivetrain.
@@ -91,7 +91,7 @@ see which drivetrain would fit best for their overall game strategy.
 
 
 Passive Intake/Claw to Active Intake
-===================================
+====================================
 .. important:: Active intakes (ones with continuous rotational motion)
     should always be prioritized over passive intakes and grippers.
 
@@ -120,7 +120,7 @@ Nearly every competitive robot from past years have used active intakes to
 great effect, so there is plenty of precedent to follow.
 
 Spur Gear Gearboxes to Planetary Gearboxes
-=========================================
+==========================================
 .. note:: Spur gear gearboxes are fine for most applications for a rookie team.
     We are not advocating necessarily having to upgrade to planetary motors,
     but there are some advantages which may become useful in more advanced
