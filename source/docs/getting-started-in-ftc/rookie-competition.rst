@@ -24,8 +24,8 @@ Rookie Mistakes: Competition
 +---------------------------------+-------------------------------------+
 
 
-Neglect driver practice → Constant driver training
-==================================================
+Neglect driver practice to Constant driver training
+===================================================
 .. important:: A persistent problem with new teams is neglecting driver
     practice.
     Drive practice is to be done throughout the season,
@@ -62,8 +62,8 @@ No, it's called preparedness.
 If your driver doesn't know how to react, then you need more drive practice.
 
 
-No game strategy → Strategic driving
-====================================
+No game strategy to Strategic driving
+=====================================
 Similar to drive practice,
 this is something that many inexperienced teams ignore.
 A sports example is handy - even with the most talented players,
@@ -76,7 +76,7 @@ a team won’t go far without good game strategy.
     to maximum efficiency, which yields maximum points.
 
 For example, drivers should know exactly where the robot needs to be positioned
-after the autonomous → tele-op switch.
+after the autonomous to tele-op switch.
 Practicing this switch will save a couple of seconds when drivers have to think
 “what do I do now?”
 In very competitive matches, these few seconds may be able to gain your team an
@@ -96,8 +96,8 @@ If a team wishes to execute a defensive strategy, be sure to read all the rules
 as defense can easily incur penalties/cards if done improperly.
 
 
-Fully driver-controlled → Partially automated tasks
-===================================================
+Fully driver-controlled to Partially automated tasks
+====================================================
 .. important:: Autonomous should not be limited to only the autonomous mode.
     Automating simple tasks can be a real time-saver and efficiency boost to
     teams.
