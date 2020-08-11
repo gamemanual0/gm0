@@ -36,7 +36,7 @@ and strategic planning stages.
 | * Design alone is not enough   | * Execution often beats design          |
 +--------------------------------+-----------------------------------------+
 
-Do Everything At Once → Perfect One Objective First
+Do Everything At Once to Perfect One Objective First
 ===================================================
 **Consistency is king.**
 
@@ -64,7 +64,7 @@ it.
     be competitive at the Qualifier level.
     This is a recommended goal for new teams.
 
-Overcomplicate → Simplify
+Overcomplicate to Simplify
 =========================
 .. important:: Another common trap that teams fall into is to overcomplicate
     needlessly. Simplifying your robot simplifies possible headaches later.
@@ -94,7 +94,7 @@ Keeping things simple can be practically achieved through a couple of ways.
    This can help in solving possible problems if the game elements need to
    change direction too many times.
 
-Score-first designs → Design for Consistency
+Score-first designs to Design for Consistency
 ============================================
 .. important:: Teams should prioritize consistency over scoring ability.
 
@@ -127,7 +127,7 @@ ability.**
 They are not afraid to look at teams who can’t score much, but can contribute
 every time to the alliance score, rather than selecting a boom-or-bust pick.
 
-Build haphazardly → Build for reliability
+Build haphazardly to Build for reliability
 =========================================
 .. important:: Build for the worst case scenario, not the best case scenario.
     When building, teams often overlook a key principle: build for reliability.
@@ -163,7 +163,7 @@ and use strain relief whenever possible.
 All these tips combined will help your robot become more reliable,
 a key characteristic of all world-level robots.
 
-Fret about Design → Focus on Execution
+Fret about Design to Focus on Execution
 ======================================
 .. tip::
     A good execution of a bad design will beat a bad execution of good design.

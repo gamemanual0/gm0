@@ -35,7 +35,7 @@ Rookie Mistakes: Building
 +--------------------------------+----------------------------------------+
 
 
-2 Motor Drivetrain → 4 Motor Drivetrain
+2 Motor Drivetrain to 4 Motor Drivetrain
 =======================================
 .. important:: In general, it is not recommended for teams to use 2 motors on
     the drivetrain, but instead use 4.
@@ -63,7 +63,7 @@ There has not been a game in FTC history where the top robots needed >4 motors
 for the drivetrain, so this is a pretty safe rule to follow.
 
 
-Pushbot → Mecanum, 6WD, Other Recommended Drivetrains
+Pushbot to Mecanum, 6WD, Other Recommended Drivetrains
 =====================================================
 .. important:: The pushbot drivetrain,
     commonly built by first-year teams using the FIRST-provided guides,
@@ -90,7 +90,7 @@ Therefore, it is recommended for teams to refer to the
 see which drivetrain would fit best for their overall game strategy.
 
 
-Passive Intake/Claw → Active Intake
+Passive Intake/Claw to Active Intake
 ===================================
 .. important:: Active intakes (ones with continuous rotational motion)
     should always be prioritized over passive intakes and grippers.
@@ -119,7 +119,7 @@ Therefore, active intakes are as a result much more efficient than claws.
 Nearly every competitive robot from past years have used active intakes to
 great effect, so there is plenty of precedent to follow.
 
-Spur Gear Gearboxes → Planetary Gearboxes
+Spur Gear Gearboxes to Planetary Gearboxes
 =========================================
 .. note:: Spur gear gearboxes are fine for most applications for a rookie team.
     We are not advocating necessarily having to upgrade to planetary motors,
@@ -145,7 +145,7 @@ pinion gear of the motor.
 It does not mean external ratios outside of the motor gearbox,
 which will always be in a spur gear configuration.**
 
-Single/multi axis arm → Linear extension
+Single/multi axis arm to Linear extension
 =========================================
 .. important:: Teams are generally advised to stay away from arms and move in
     the direction of linear slides, primarily due to the issue of complexity.
