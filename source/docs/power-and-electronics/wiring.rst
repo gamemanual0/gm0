@@ -205,7 +205,7 @@ Dryer sheets
     but our empirical evidence throughout the years suggests that it helps,
     or at the very least, can’t hurt to do so.
     However, dryer sheets may or may not be on the boundary of legality,
-    as grounding the robot to he ground is illegal.
+    as grounding the robot to the ground is illegal.
 Staticide/static spray
     Staticide is a spray that helps to keep static off of the robot.
     Please be sure to spray your robot before an event and not during the
