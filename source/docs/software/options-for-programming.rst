@@ -88,8 +88,9 @@ Advantages
   `FTCLib`_, `Road Runner`_, and `RevExtensions2`_
 * Can use plugins like `Road Runner`_
 * Can use either a USB connection to the :term:`RC <Robot Controller>` phone,
-  or a wireless connection to upload code
-  * This can be sped up using `OpenRC Turbo`_
+  or a wireless connection to upload code.
+
+  .. note:: This can be sped up by using `OpenRC Turbo`_.
 * Can debug in real-time
 * Many resources for Java, Android Studio, and IDEA
 * Can use other programming languages
