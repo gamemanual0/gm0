@@ -64,7 +64,7 @@ At Qualifier tournaments, every team will play 5 to 6 matches. The top 4 teams
 are captains and form four alliances of three teams each.
 As for League Meets, the meet process varies greatly among regions, but
 generally teams will
-compete at low-stress League Meets, and have a culminating Leage Championship.
+compete at low-stress League Meets, and have a culminating League Championship.
 More information on the selection process is in |gm1|.
 The top teams in both events will advance to the next level, generally the
 State or Regional Championship.
