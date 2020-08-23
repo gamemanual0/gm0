@@ -641,7 +641,7 @@ You’ll be able to quickly learn the lingo of FTC!
     Master link
         The master link is a piece of metal that acts as the connector piece for chain.
         The link comprises one side of a chain link, and the other side is a special
-        single-sided link piece which accomodates the master link. The master link
+        single-sided link piece which accommodates the master link. The master link
         may be removed easily to allow the chain to be shortened or lengthened.
         However, because it is removable, it is not very reliable and can break off.
 
