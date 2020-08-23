@@ -59,8 +59,8 @@ Here are some priorities for that we think are important for each drivetrain:
    turning radius, turn speed, and ability to strafe.
    Note that turning radius is an often overlooked feature that is critical to
    the overall agility of the drivetrain.
-   Generally, a solid drivetrain should have a speed in the range of 3-5
-   feet/second, and be able to turn fully in around 1 second.
+   Generally, a solid drivetrain should have a free speed (speed under no load)
+   in the range of 4.5-6 feet/second.
    A good resource to determine the agility of a drivetrain is the
    :doc:`../../hardware-basics//motor-guide/jvn-calculator`;
    refer to that section for more information.
@@ -68,17 +68,33 @@ Here are some priorities for that we think are important for each drivetrain:
    to use only two motors on the drivetrain.  While this is possible,
    it is not recommended, as all competitive teams use 4+ motors on
    the drivetrain.  Another issue stemming from experience is that
-   most teams’ drivetrains are too slow.  More advanced teams may
+   most teams’ drivetrains are too slow. More advanced teams may
    focus on the ability to play :term:`defense <Defense>`, but in
    general, maneuverability and speed are the main factors to a
-   successful drivetrain.  60:1 and 40:1 drivetrains are **almost
-   always too slow for FTC use cases**.  A popular setup in FTC is **4
-   motor, 20:1 using 4 inch wheels**.  This ratio gives a great
-   balance, having near instant acceleration and a high top speed.
+   successful drivetrain.
+
+   .. warning::
+       60:1 and 40:1 drivetrains are **almost always too slow for FTC use
+       cases**.
+
+   .. note::
+       Any gear ratio between 16:1 and 20:1 is perfectly reasonable on 4 inch
+       wheels. 19.2:1 on 4 inch wheels is a popular choice because it enables
+       one to go 1 to 1 off of a 19.2:1 planetary motor. This ratio gives a
+       great balance, having near instant acceleration and a high top speed.
+
+       On 3 inch wheels, the equivalent ratios are 12:1 to 15:1, which makes
+       13.7:1 on 3 inch wheels convienient, as it can be taken 1 to 1 off of
+       goBILDA's 13.7:1 planetary gearbox motor.
+
    Teams can slow the drivetrain down in code by providing less power
-   to the motors if needed.  **It is not recommended for teams to use
-   spur gearboxes on their drivetrain.  Instead, use planetary
-   gearboxes, as they are less prone to shock loads and breakage.**
+   to the motors if needed.
+
+   .. warning::
+       It is not recommended for teams to use spur gearboxes on their
+       drivetrain. Instead, use planetary gearboxes, as they are less prone to
+       shock loads and breakage.
+
 4. **Traction/Pushing Power**: While this feature is often overemphasized,
    it is still very important.
    Pushing power describes a drivetrain’s ability to endure defense/engage in

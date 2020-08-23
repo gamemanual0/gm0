@@ -83,7 +83,6 @@ For further reading, we highly suggest you check out those links.**
     * `Introduction to Control Systems <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_
     * `REV Robotics Expansion Hub Guide  <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
     * `OpenFTC (useful programming tools)*  <https://github.com/OpenFTC>`_ - 4634 FROGbots
-    * `DogeCV (FTC Computer Vision Library)  <https://github.com/dogecv/DogeCV>`_
     * `FTCLib ("Library for everything you will ever need and more")  <https://github.com/FTCLib/FTCLib>`_
     * `RoadRunner (FTC 2D Robot Motion Library)  <https://github.com/acmerobotics/road-runner>`_
     * `FTC Dashboard (Tool for monitoring and debugging FTC applications remotely) <https://github.com/acmerobotics/ftc-dashboard>`_
