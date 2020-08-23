@@ -22,7 +22,7 @@ Using Vectoring to Create Omnidirectional Movement
 As stated earlier, depending on how the wheels are driven,
 movement in any direction can be created.
 This is because with 4 wheels on a robot oriented in and X orientation,
-the vectors can be cancelled such that movement is created in any direction.
+the vectors can be canceled such that movement is created in any direction.
 It is important to note that because of friction,
 perfect movement isn’t possible in every direction,
 so a :term:`mecanum drivetrain <Mecanum Wheel>` will be able to drive slightly

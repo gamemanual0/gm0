@@ -165,7 +165,7 @@ a control loop will use that as the max power and try to drive the encoder
 position to the target position.
 
 .. warning::
-    This mode can be a convienient way to control a single-motor mechanism, as
+    This mode can be a convenient way to control a single-motor mechanism, as
     it offloads all control work; however, since every motor is dealt with
     independently, it is inadvisable to use this on mechanisms with
     multiple motors, especially drivetrains.

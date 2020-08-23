@@ -12,15 +12,15 @@ so the graphic is not meant to be a hard and fast rule.*
         brainstorm[label="Brainstorm/CAD Design"];
         prototype[label="Prototype/Experiment"];
         test[label="Test"];
-        analzye[label="Analyze Results"];
+        analyze[label="Analyze Results"];
         implementation[label="Final Implementation"];
 
         define->specify
         specify->brainstorm
         brainstorm->prototype
         prototype->test
-        test->analzye
-        analzye->brainstorm
+        test->analyze
+        analyze->brainstorm
         test->implementation
     }
 

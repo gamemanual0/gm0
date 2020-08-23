@@ -84,7 +84,7 @@ Here are some priorities for that we think are important for each drivetrain:
        great balance, having near instant acceleration and a high top speed.
 
        On 3 inch wheels, the equivalent ratios are 12:1 to 15:1, which makes
-       13.7:1 on 3 inch wheels convienient, as it can be taken 1 to 1 off of
+       13.7:1 on 3 inch wheels convenient, as it can be taken 1 to 1 off of
        goBILDA's 13.7:1 planetary gearbox motor.
 
    Teams can slow the drivetrain down in code by providing less power

@@ -68,7 +68,7 @@ had simply put each of the code’s segments into functions, and executed them i
 order. In fact, often times, programmers will structure their code like this
 instead of splitting their code up into functions. The result is an autonomous
 that’s more difficult to debug, and ultimately harder to fix on the fly during
-a competion or other time crunch.
+a competition or other time crunch.
 
 If one drew out the state transition diagram for each of the states, for the
 autonomus above it'd be very linear, and the state
