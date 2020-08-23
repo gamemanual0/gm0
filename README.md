@@ -1,6 +1,6 @@
 Game Manual 0
 =============
-![Docs Badge](https://readthedocs.org/projects/game-manual-zero/badge/) ![CI Badge](https://github.com/Coppersource/gm0/workflows/CI/badge.svg)
+![Docs Badge](https://readthedocs.org/projects/game-manual-zero/badge/) ![CI Badge](https://github.com/Coppersource/gm0/workflows/CI/badge.svg) ![reviewdog badge](https://github.com/Coppersource/gm0/workflows/reviewdog/badge.svg)
 
 Welcome to Game Manual 0 (GM0)!
 This repository contains the source of Game Manual 0.
