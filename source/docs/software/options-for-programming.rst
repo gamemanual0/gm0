@@ -90,7 +90,7 @@ Advantages
 * Can use either a USB connection to the :term:`RC <Robot Controller>` phone,
   or a wireless connection to upload code.
 
-  .. note:: This can be sped up by using `OpenRC Turbo`_.
+  .. note:: Deploy times can be sped up by using `OpenRC Turbo`_.
 * Can debug in real-time
 * Many resources for Java, Android Studio, and IDEA
 * Can use other programming languages

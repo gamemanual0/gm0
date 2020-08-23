@@ -79,12 +79,12 @@ Here are some priorities for that we think are important for each drivetrain:
 
    .. note::
        Any gear ratio between 16:1 and 20:1 is perfectly reasonable on 4 inch
-       wheels. 19.2:1 on 4" wheels is a popular choice because it enables one
-       to go 1 to 1 off of a 19.2:1 planetary motor. This ratio gives a great
-       balance, having near instant acceleration and a high top speed.
+       wheels. 19.2:1 on 4 inch wheels is a popular choice because it enables
+       one to go 1 to 1 off of a 19.2:1 planetary motor. This ratio gives a
+       great balance, having near instant acceleration and a high top speed.
 
-       On 3" wheels, the equivalent ratios are 12:1 to 15:1, which makes
-       13.7:1 on 3" wheels convienient, as it can be taken 1 to 1 off of
+       On 3 inch wheels, the equivalent ratios are 12:1 to 15:1, which makes
+       13.7:1 on 3 inch wheels convienient, as it can be taken 1 to 1 off of
        goBILDA's 13.7:1 planetary gearbox motor.
 
    Teams can slow the drivetrain down in code by providing less power
