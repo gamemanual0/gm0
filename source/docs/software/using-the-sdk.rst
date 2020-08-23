@@ -163,8 +163,12 @@ the function ``setTargetPosition()`` must be called.
 When a power is applied to the motor,
 a control loop will use that as the max power and try to drive the encoder
 position to the target position.
-This can be useful to newer teams for autonomous,
-as it can be an easy way to have accurate driving functions.
+
+.. warning::
+    This mode can be a convienient way to control a single-motor mechanism, as
+    it offloads all control work; however, since every motor is dealt with
+    independently, it is inadvisable to use this on mechanisms with
+    multiple motors, especially drivetrains.
 
 Servo
 ^^^^^
