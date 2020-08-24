@@ -67,4 +67,13 @@ jobs:
         pip install -r source/requirements.txt
     - name: Check Lint
       run: |
-        make lint
+        make lint\
+  check-spelling:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: misspell
+      uses: reviewdog/action-misspell@v1
+      with:
+        locale: "US"
+        reporter: "github-check"
