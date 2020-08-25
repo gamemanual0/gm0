@@ -60,7 +60,7 @@ Disadvantages
 * Wheels must be powered independently, so there is no redundancy
 
 .. figure:: images/holonomic/gobilda-mecanum-direction.png
-    :alt: Diagram of mecanum wheel directions
+    :alt: Diagram of mecanum directions
     :width: 100%
 
     Configuration for mecanum wheels, courtesy goBILDA
@@ -71,12 +71,12 @@ Mecanum Wheels Miniguide
 There are plenty of mecanum wheels on the market,
 and it can be very daunting to choose between the many vendors.
 An important feature is the type of mechanism that facilitates the motion,
-either **:term:`bushing`** or **:term:`bearing`**.
+either :term:`bushing <Bushing>` or :term:`bearing <Ball Bearing>`.
 Bearing based mecanum wheels often have superior strafing because there is less
 resistance for the rollers to overcome.
 Another important note is that some FTC teams invest in 6 inch mecanum wheels
-instead of 4 inch mecanum wheels, often at a much higher price.
-**It is highly recommended that teams stick with 4 inch mecanum wheels**.
+instead of 3 or 4 inch mecanum wheels, often at a much higher price.
+**It is highly recommended that teams stick with 3 or 4 inch mecanum wheels**.
 Here is a general list of the mecanum options ranked in order of
 recommendation.
 
@@ -95,6 +95,13 @@ Hubs can also be mounted inside the wheel for very low profile mounting.
 It is also the cheapest bearing mecanum on the market.
 Due to its convenient mounting and fantastic strafing performance,
 we recommend all teams consider goBILDA mecanum wheels.
+
+These are tied with the `REV 75mm Mecanum Wheels`_ ($76.50 with team discount):
+These mecanums are uniquely positioned due to their compact size, at just 75mm
+(~3 inches) in diameter and 40mm wide. They can be easily mounted to 5mm hex
+shaft with an included adapter. They are also bearing based, which give them
+great strafing performance.
+
 
 2. `Nexus Bearing Mecanum Wheel`_ ($134):
 This was the old gold standard,
@@ -158,14 +165,6 @@ printed adapters.
 These are terrible mecanum wheels.
 They barely strafe and are super fragile.
 Just buy goBILDA mecanum wheels for $13 more.
-
-**Unrated:** `REV 75mm Mecanum Wheels`_ ($76.50 with team discount):
-At the time of writing, these mecanum wheels were just released and teams have
-not had a chance to test them.
-They are bearing based, similar to the top-ranked wheels and have an included
-adapter which allows them to attach to 5mm hex shaft.
-Additionally, these mecanum wheels are 75mm (~3in) in diameter,
-instead of the typical 4in.
 
 .. _goBILDA Mecanum Wheels: https://www.gobilda.com/3606-series-mecanum-wheel-set-bearing-supported-rollers-100mm-diameter/
 .. _Nexus Bearing Mecanum Wheel: https://www.superdroidrobots.com/shop/item.aspx/4-inch-nexus-mecanum-wheels-ball-bearing-set-of-4/1352/
