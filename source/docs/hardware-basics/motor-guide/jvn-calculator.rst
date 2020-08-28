@@ -28,7 +28,7 @@ on vendor pages**.
 
 The test results may be found by searching VEX Dyno Testing, or by clicking
 `here <https://motors.vex.com/other-motors/am-neverest>`_.
-(Note: this testing is done to the :term:`Bare Motor`,
+(Note: this testing is done to the :term:`bare motor <Bare Motor>`,
 without the end gearbox.)
 
 Gear Ratios
@@ -75,16 +75,12 @@ Don’t worry about the efficiency and speed loss, just keep it where it is.
 The adjusted speed will account for sag into field tiles,
 loss of efficiency through :term:`belts <HTD Belt>`, :term:`gears <Gear>`,
 etc., and loss of grip as the wheels eventually wear out.
-A good starting point should be around 2 ft/s,
-though many teams have faster drivetrains ranging to 5+ ft/s.
-Bear in mind that for inexperienced teams,
-a fast drivetrain decreases controllability.
-
+A good starting point should be a free speed of around 5 feet per second.
 
 General Tips
 ============
-
-* Always use the VEX dyno test results for free speed, stall torque,
+* Always use the `VEX dyno <https://motors.vex.com/other-motors/am-neverest>`_
+  test results for free speed, stall torque,
   stall current, and free current.
 * Ensure that the total current draw does not exceed the stall current!
   Generally, this should not be a problem, but it is something to be aware of.
