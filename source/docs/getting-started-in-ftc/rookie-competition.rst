@@ -24,15 +24,15 @@ Rookie Mistakes: Competition
 +---------------------------------+-------------------------------------+
 
 
-Neglect driver practice to Constant driver training
-===================================================
+Neglecting driver practice to Constant driver training
+======================================================
 .. important:: A persistent problem with new teams is neglecting driver
     practice.
     Drive practice is to be done throughout the season,
     **not the week before competition.**
 
 No matter how good your robot is, the robot is only 50% of the equation.
-The driver(s) is the other 50% which determine the success of the team as a
+The driver(s) are the other 50% which determine the success of the team as a
 whole.
 Even if your robot is the best in the world,
 an inferior robot with a competent drive team more than likely will beat your
@@ -42,7 +42,7 @@ practice matches.
 
 This gives some obvious advantages compared to a team with lesser practice.
 
-1. The driver(s) is totally familiar with handling the robot in every
+1. The driver(s) are totally familiar with handling the robot in every
    situation.
 2. The robot is proven to be reliable enough to survive hours of operation.
 3. The immense data that teams gather from test runs are used to optimize every
@@ -57,8 +57,8 @@ pressure.
 Teams with intensive driver practice will purposely make things more difficult
 (such as placing a disabled robot in the middle of the field or unplugging a
 drivetrain motor).
-Extreme, you might say?
-No, it's called preparedness.
+
+While this may seem extreme, it is really just a form of preparedness.
 If your driver doesn't know how to react, then you need more drive practice.
 
 
@@ -87,17 +87,22 @@ Strategy should **always be used to maximize points** - whether this is a
 positioning strategy to access the game elements, or a defensive strategy to
 hinder the other alliance from scoring.
 
-.. tip:: Remember, denying the other alliance 10 points is the same value as
-    scoring 10 points.
+.. tip::
+   In most seasons, denying the other alliance 10 points is the same
+   value as scoring 10 points in every match; however, in the Ultimate Goal
+   season there is no advantage to denying the other alliance 10 points, as
+   ranking is based off of the number points your alliance scores as opposed to
+   how many wins you have. However, denying the other alliance points is still
+   a powerful strategy in elimination matches.
 
-*However, it is not advised for rookie teams to play defense* due to the
+**However, it is not advisable for rookie teams to play defense** due to the
 specific rules surrounding this strategy.
 If a team wishes to execute a defensive strategy, be sure to read all the rules
 as defense can easily incur penalties/cards if done improperly.
 
 
-Fully driver-controlled to Partially automated tasks
-====================================================
+Fully driver-controlled driving to Partially automated tasks
+============================================================
 .. important:: Autonomous should not be limited to only the autonomous mode.
     Automating simple tasks can be a real time-saver and efficiency boost to
     teams.
