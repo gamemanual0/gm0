@@ -9,9 +9,10 @@ application you need.
 It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC 148,
 and was initially designed for FRC calculations.
 
-It is fairly intuitive,
-but can save a lot of time doing calculations on your own,
-especially when developing designs like arms, linear slides, and drivetrains.
+It is fairly intuitive and can save a lot of time compared to
+doing calculations on your own,
+especially when developing designs like arms,
+linear slides, and drivetrains.
 This is as the balance between power/torque and speed is critical to the end
 design.
 For example, arms require much more torque than speed,
