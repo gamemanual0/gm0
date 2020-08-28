@@ -27,7 +27,7 @@ Notable components
 ==================
 
 * goBILDA uses :term:`8mm pitch chain <Chain>` and
-  :term:`HTD 3 or HTD 5 belts <HTD Belt>` for motion.
+  HTD 3 or HTD 5 :term:`belts <HTD Belt>` for motion.
 * goBILDA mostly uses :term:`clamping hubs <Clamping Hub>` (called Sonic hubs),
   eliminating the unreliable :term:`set screws <Set Screw>`.
 * goBILDA :term:`shafts <Shaft>` are metric
@@ -40,19 +40,19 @@ Notable components
 
     goBILDA :term:`U-channel <Channel>` (48x48 mm)
 
-* In addition, :term:`low-side channel <Channel>`
+* In addition, low-side channel
   (smaller profile :term:`channel <Channel>`) complements
-  :term:`full size channel <Channel>`.
+  full size channel.
   Low side channel is just 12mm in height and allows for more compact builds.
   Additionally, low side channel opens up possibilities such as a kit-based
   :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`.
-  :term:`Low side channel <Channel>` also forms the basis of the cascading kit
+  Low side channel also forms the basis of the cascading kit
   with a 2 or 4 stage option.
 
 .. figure:: images/gobilda/gobilda_low_channel.jpg
     :alt: goBILDA low-side channel
 
-    goBILDA :term:`low-side channel <Channel>` (12x48 mm)
+    goBILDA low-side channel (12x48 mm)
 
 * goRAIL is :term:`extrusion <Extrusion>` that complements the
   :term:`channel <Channel>` offerings well.  goRAIL is used in the
@@ -90,7 +90,7 @@ https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 
 Advantages
 ==========
-* goBILDA's :term:`low-side U-channel <Channel>` opens up many new
+* goBILDA's low-side U-channel opens up many new
   possibilities due to its flexibility and compactness.  For example,
   one can now make a :term:`parallel plate drivetrain <Parallel Plate
   Drivetrain>` without custom machining, or make custom width
@@ -101,7 +101,7 @@ Advantages
 * goBILDA has native large bore :term:`hex shaft <Shaft>` support
   (12mm REX is comparable to 3/8" :term:`Thunderhex`) which is one of the main
   advantages of custom fabrication brought to a kit based system.
-* goBILDA also is able to interface with :term:`TETRIX channel <Channel>`
+* goBILDA also is able to interface with TETRIX :term:`channel <Channel>`
   because they share some holes.
   For more information about TETRIX-goBILDA compatibility,
   check out this `website <https://gobildatetrix.blogspot.com/>`_.
@@ -111,7 +111,7 @@ Advantages
   :term:`chain <Chain>` or :term:`belt <HTD Belt>` in channel.
 
   .. note::
-    8mm :term:`chain <Chain>` and :term:`HTD 3 and 5 mm belt <HTD Belt>` can do perfect
+    8mm :term:`chain <Chain>`, HTD 3, and HTD 5 mm :term:`belt <HTD Belt>` can do perfect
     :term:`C2C (center to center) <C2C>` on the goBILDA pattern.
     This saves a lot of headache when needing to calculate
     :term:`C2C` distances.
@@ -138,9 +138,9 @@ Disadvantages
   However, this is more than compensated by the fact that one
   can put a :term:`goBILDA motor <Yellow Jacket Motor>`
   *inside* a :term:`channel <Channel>`.
-* Because of metric pattern spacing, goBILDA utilizes :term:`8mm pitch
-  chain <Chain>`, as opposed to the FTC standard :term:`#25 Imperial
-  chain <Chain>`.  This means that other kits' :term:`chain <Chain>` and
+* Because of metric pattern spacing, goBILDA utilizes 8mm pitch
+  :term:`chain <Chain>`, as opposed to the FTC standard #25 Imperial
+  :term:`chain <Chain>`.  This means that other kits' :term:`chain <Chain>` and
   :term:`sprockets <Sprocket>` won’t work with goBILDA :term:`chain
   <Chain>` and :term:`sprockets <Sprocket>`.
 

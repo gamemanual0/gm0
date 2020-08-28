@@ -1,5 +1,5 @@
 ============
-Rev Robotics
+REV Robotics
 ============
 The REV kit is an infinite-pitch, :term:`extrusion <Extrusion>` based
 building system which uses the metric system and M3 hardware.
@@ -15,7 +15,7 @@ Special Considerations
   tensioning :term:`chain <Chain>` is simple when sliding the mount or
   bracket increases tension.
 * The REV system uses metric dimensions (15 mm extrusion, M3 hardware),
-  with the exception of :term:`#25 roller chain <Chain>`
+  with the exception of #25 roller :term:`chain <Chain>`
   (FTC standard, imperial).
 * REV has purposefully designed with compatibility in mind, as pattern adapters
   ease compatibility issues.
@@ -38,11 +38,11 @@ Notable components
 * REV also offers :term:`punch tubing <Punch Tubing>` for teams
   wanting a more permanent mounting system while having the
   flexibility of extrusion.
-* REV uses :term:`5 mm hex steel shafts <Shaft>` and a
+* REV uses 5 mm hex steel :term:`shafts <Shaft>` and a
   :term:`ball-bearing <Ball Bearing>` motion support system.
   The shaft may be cut to length, which can be very useful for certain use
   cases.
-  Many vendors have added compatibility to :term:`5 mm hex shaft <Shaft>`.
+  Many vendors have added compatibility to 5 mm hex :term:`shaft <Shaft>`.
 * REV offers 3 types of :term:`HD HEX motors <HD Hex Motor>`:
   spur gear, planetary, and UltraPlanetary motors.
   The UltraPlanetary has customizable planetary ring gear ratios for a very
@@ -62,16 +62,18 @@ extrusion based, yet it has the ability to integrate :term:`channel
 option to upgrade parts for those wanting a further investment into
 the REV building system.
 
-.. note: REV and MiSUMI Compatibility
+.. note::
   One advantage to the REV kit is the compatibility of 15x15mm MiSUMI
-  :term:`extrusion <Extrusion>`.  15x15mm REV :term:`extrusion
-  <Extrusion>` isn’t as structurally strong as MiSUMI for two reasons.
+  :term:`extrusion <Extrusion>`.
 
-1.  REV extrusion is 6063 aluminum, while MiSUMI :term:`extrusion
-    <Extrusion>` is made out of A6N01SS-T5 aluminum, a stronger and
-    stiffer alloy.
-2.  The MiSUMI :term:`extrusion <Extrusion>` has a larger surface area,
-    so there is more area of contact.
+15x15mm REV :term:`extrusion <Extrusion>` isn’t as structurally
+strong as MiSUMI for two reasons.
+
+1. REV extrusion is 6063 aluminum, while MiSUMI :term:`extrusion
+   <Extrusion>` is made out of A6N01SS-T5 aluminum, a stronger and
+   stiffer alloy.
+2. The MiSUMI :term:`extrusion <Extrusion>` has a larger surface area,
+   so there is more area of contact.
 
 MiSUMI offers greater strength at a lower bulk cost.  Additionally,
 MiSUMI will cut to the half millimeter for free, making it a great
@@ -79,6 +81,7 @@ option for teams needing an exact cut.  The drawback to MiSUMI is that
 it is quite a bit heavier than the REV :term:`extrusion <Extrusion>`.
 It is encouraged that teams use MiSUMI for drivetrain and structural
 support, and REV for mechanisms that will be under low to medium load.
+
 REV also sells :term:`punch tubing <Punch Tubing>`, which is 15 mm
 aluminum square tubing that is compatible with 1/8” rivets.  This will
 prevent bolts from loosening or sliding around, as :term:`punch tubing
@@ -98,7 +101,10 @@ channel <Channel>`.
 
 Kit of Parts
 ============
-https://www.revrobotics.com/resources/
+.. warning::
+   This is referring to the Starter Kit V2, not the current Starter Kit V3.
+
+https://revrobotics.com/rev-45-1270/
 
 * 2 :term:`40:1 HD Hex Motors <HD Hex Motor>`
 * 2 :term:`Core Hex Motors <Core Hex Motor>`
@@ -117,12 +123,12 @@ https://www.revrobotics.com/resources/
 Advantages
 ==========
 
-* :term:`extrusion <Extrusion>` systems don’t need to worry about
+* :term:`Extrusion` systems don’t need to worry about
   tensioning as mounts are adjustable to your needs.
-* :term:`extrusion <Extrusion>` allows teams to save space as opposed
+* :term:`Extrusion` allows teams to save space as opposed
   to :term:`channel <Channel>`, and is lighter than aluminum
   :term:`channel <Channel>`.
-* :term:`extrusion <Extrusion>` allows infinite positioning options
+* :term:`Extrusion` allows infinite positioning options
   instead of being locked in to a specific distance - useful for
   fine-tuning a mechanism.
 * Delrin products are inexpensive yet durable for most use cases.
@@ -132,9 +138,9 @@ Advantages
 * 5 mm hex is a robust :term:`shaft <Shaft>` and motion system and is
   easily adaptable to :term:`UltraHex` 1/2” hex :term:`shaft <Shaft>`.
   Other companies have adapting options with 5 mm hex.
-* :term:`punch tubing <Punch Tubing>` is a great final iteration
+* :term:`Punch Tubing` is a great final iteration
   option if you are sure about placement.
-* :term:`channel <Channel>` complements extrusion extremely well -
+* :term:`Channel` complements extrusion extremely well -
   having the adjustability of extrusion and the rigidity of channel makes it a
   very solid build system.
 * Generally, REV products are designed with affordability in mind, and so the

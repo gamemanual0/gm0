@@ -8,6 +8,7 @@ The FIRST storefront currently offers two kits for new teams: the TETRIX kit
 from Pitsco, and the REV Starter kit from REV Robotics.
 However, teams should carefully consider other options, such as Actobotics from
 Servocity and goBILDA, before selecting a kit.
+
 Every build system has advantages and disadvantages,
 which we have highlighted in our detailed build system guides below.
 While the guide may not be fully objective, recommendations are based on
@@ -34,19 +35,6 @@ As will be discussed, options that don’t involve kits exist and are certainly
 very useful, but sticking to parts designed for FTC is recommended for new
 teams as a starting point.
 
-Kit Options
-===========
-Below is the list of kits commonly used in FTC.
-
-.. toctree::
-    :maxdepth: 1
-
-    tetrix
-    actobotics
-    gobilda
-    rev-robotics
-    custom
-
 Which Kit Should One Choose?
 ============================
 Choice of a kit is a matter of many a debate in FTC forums, and each team has
@@ -63,9 +51,9 @@ unit system used.
 * REV Robotics (metric) is slightly cheaper but generally has a bit
   higher learning curve than most other kits, as it is
   :term:`extrusion <Extrusion>` rather than :term:`channel <Channel>`
-  based.  :term:`Extrusion` takes more effort to work with (you need
+  based. :term:`Extrusion` takes more effort to work with (you need
   to cut aluminum extrusion to length); however, it allows for maximum
-  design freedom and adjustability.  REV is also available from FIRST
+  design freedom and adjustability. REV is also available from FIRST
   storefront, which might be convenient for teams doing their
   purchasing through official school procurement systems.
 * goBILDA (metric) is slightly more expensive,
@@ -83,3 +71,13 @@ unit system used.
   For most FTC teams, goBILDA would probably be a better choice as it is more
   flexible and compatible,
   unless you already have a large stock of Actobotics parts.
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Kit Options
+
+    tetrix
+    actobotics
+    gobilda
+    rev-robotics
+    custom
