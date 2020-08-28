@@ -38,7 +38,7 @@ at least for the near term.
 .. figure:: images/machining/8680-rr2.jpg
     :alt: 8680 Kraken Pinion's Rover Ruckus robot
 
-    8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus 
+    8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus
 
 Utilizes a kit-based drivetrain (Actobotics) and horizontal
 linear slides (REV) with a custom intake, housing, and mineral container.
@@ -54,6 +54,6 @@ Kit linear actuator (Actobotics) with custom hook.
     :alt: 731 Wannabee Strange's Rover Ruckus robot
 
     731 Wannabee Strange, Rover Ruckus, Design Award Finalist (Houston)
-    
-Utilizes a 3D printed (PETG and TPU) and machined (milled) arm/intake with a 
+
+Utilizes a 3D printed (PETG and TPU) and machined (milled) arm/intake with a
 custom HDPE drive train (CNC routed)

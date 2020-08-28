@@ -11,8 +11,9 @@ kit parts.
 Special Considerations
 ======================
 
-* Actobotics' :term:`channel <Channel>` hole pattern has many more mounting holes than a Tetrix
-  channel, so it offers more flexibility in terms of mounting.
+* Actobotics' :term:`channel <Channel>` hole pattern has many more mounting
+  holes than a Tetrix channel, so it offers more flexibility in terms of
+  mounting.
 * Actobotics uses imperial units across the board,
   allowing for clean spacing and fitting. However, most other kits use metric.
 * Actobotics can interface with
@@ -101,9 +102,9 @@ Disadvantages
   Note that with the 25% off FTC team discount,
   Actobotics can be cheaper than TETRIX.
   The only cheaper build system is REV.
-* The :term:`belts <HTD Belt>` from ServoCity are not great.
-  It is recommended that :term:`belts <HTD Belt>` are purchased from vendors other
-  than ServoCity.
+* The :term:`belts <HTD Belt>` from ServoCity are not great. It is recommended
+  that :term:`belts <HTD Belt>` are purchased from vendors other than
+  ServoCity.
   This may necessitate 3D printed belt pulleys and other parts,
   which is more difficult for newer teams.
   There also isn’t a large amount of space inside the channel for a belt or
