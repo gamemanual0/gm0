@@ -155,12 +155,12 @@ Feetech dual mode :term:`servos <Servo>`, which is a programmable type of
 :term:`servo <Servo>`.
 This includes both the **REV SRS** (Smart Robot Servo) and
 **goBILDA Dual Mode servos**.
+
 The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their
-brass :term:`gears <Gear>`.
-Coupled with high output power, this meant that stripping :term:`gears <Gear>`
-with any shock load was commonplace.
-The new goBILDA Dual Mode servos (25-2) and (25-3) have steel :term:`gears <Gear>`,
-but are new and aren’t as competition tested as other servos.
+brass :term:`gears <Gear>`. Coupled with high output power, this meant that
+stripping :term:`gears <Gear>` with any shock load was commonplace. The new
+goBILDA Dual Mode servos (25-2) and (25-3) have steel :term:`gears <Gear>`, but
+are new and aren’t as competition tested as other servos.
 
 The next big name in FTC :term:`Servos <Servo>` is Hitec,
 who are a huge name in hobby :term:`servos <Servo>` for decades and are very
