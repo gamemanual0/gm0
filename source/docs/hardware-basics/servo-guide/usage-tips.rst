@@ -7,9 +7,9 @@ Below are some tips on using servos in FTC.
 * Do not backdrive :term:`servos <Servo>`. Forcibly rotating a
   powered :term:`servo <Servo>` away from its position risks damaging
   the internal :term:`gears <Gear>`.
-* :term:`servo <Servo>` wires usually are black-red-white.  Matching
+* :term:`Servo` wires usually are black-red-white. Matching
   the colors is an easy way to check if the servo is plugged in
-  correctly. :term:`servo <Servo>` connectors provide no protection
+  correctly. :term:`Servo` connectors provide no protection
   from plugging them the wrong way: if you rotate it 180 degrees, it
   will still fit - but the :term:`servo <Servo>` would not work.  (It
   wouldn't be damaged, though). Thus, if your :term:`servo <Servo>`
@@ -29,7 +29,9 @@ Below are some tips on using servos in FTC.
   mount an arm or a claw directly on the :term:`servo <Servo>` without
   any additional precautions, it is very likely that you will break
   the :term:`servo <Servo>` first time you drive into the wall with
-  the arm extended (and this will inevitably happen). To avoid that,
+  the arm extended (and this will inevitably happen).
+
+  To avoid that,
   use additional supports.  The easiest way to do it is by using
   :term:`Servoblocks` from Actobotics or goBILDA.  These assemblies
   act as exoskeletons for the :term:`servo <Servo>`, providing

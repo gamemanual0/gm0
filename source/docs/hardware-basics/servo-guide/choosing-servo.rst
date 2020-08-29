@@ -2,13 +2,15 @@
 Choosing a Servo
 ================
 
-For many applications, you can just use one of the two most common
-:term:`servos <Servo>` in FTC, `REV Smart Servo
-<https://www.revrobotics.com/rev-41-1097/>`_ or `goBILDA Dual Mode
-Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_.
-However, sometimes these :term:`servos <Servo>` are not enough.  Here
-are some important :term:`servo <Servo>` features to consider when
-selecting a :term:`servo <Servo>`.
+For many applications, you can just use one of the three common :term:`servos
+<Servo>` in FTC, `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
+or `goBILDA Dual Mode Servo (Torque)
+<https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_, or `goBILDA Dual
+Mode Servo (Speed)
+<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ However,
+sometimes these :term:`servos <Servo>` are not enough. Here are some important
+:term:`servo <Servo>` features to consider when selecting a :term:`servo
+<Servo>`.
 
 Servo Type: Regular or Continuous
 ---------------------------------
@@ -18,13 +20,14 @@ input signal are called **regular servos**. In addition, there are also
 :term:`servo <Servo>` form factor. They have no position control;
 instead, PWM signal is used to control their rotation speed.
 
-Both REV Smart Servo and goBILDA Dual Mode servo (which are both based on
+Both REV Smart Servo and goBILDA Dual Mode servos (which are both based on
 FR5311m programmable servo by Feetech) can be used as either regular or
-continuous rotation servos. To switch between these two modes, you need
-to use a :term:`servo programmer <SRS Programmer>`,
-available separately from REV or goBILDA.
+continuous rotation servos. To switch between these two modes, you need to use
+a :term:`servo programmer <SRS Programmer>`, available separately from REV or
+goBILDA.
 
-..  caution::  Some vendors offer continuous rotation *option*
+..  warning::
+  Some vendors offer continuous rotation *option*
   on some :term:`servos <Servo>`.
   These options are modifications to the
   original :term:`servo <Servo>` made by the vendor and are illegal in FTC.
@@ -36,20 +39,22 @@ available separately from REV or goBILDA.
 
 Servo Torque And Speed
 ----------------------
-:term:`servo <Servo>` output power is measured in both **speed** and
-**torque**. Speed (normally in seconds per 60°) refers to how fast
-the :term:`servo <Servo>` turns 60 degrees in Standard Rotation mode.
-Torque (usually measured in oz-in or in kg-cm) refers to the amount of
-force the :term:`servo <Servo>` can apply to a lever.  For reference,
-if you put a 1” bar on a servo, then put a force gauge on the end, the
-torque rating of the servo (in oz-in) will be measured.  As you may
-know, speed and torque have an inverse relationship.  Generally you
-can find some insanely powerful servos that are pretty slow (slower
-than 0.20 s/60°) or some less powerful ones with faster ratios
-(anything faster than 0.12 s/60° is considered very fast).  Finding
-the right :term:`servo <Servo>` for your application can be tough, but
-a good way is trying to decide if you need more speed or torque, and
-if your :term:`servo <Servo>` will experience shock loads or not.
+:term:`Servo` output power is measured in both **speed** and **torque**. Speed
+(normally in seconds per 60°) refers to how fast the :term:`servo <Servo>`
+turns 60 degrees in Standard Rotation mode. Torque (usually measured in oz-in
+or in kg-cm) refers to the amount of force the :term:`servo <Servo>` can apply
+to a lever.
+
+For reference, if you put a 1” bar on a servo, then put a force gauge on the
+end, the torque rating of the servo (in oz-in) will be measured. As you may
+know, speed and torque have an inverse relationship. Generally you can find
+some insanely powerful servos that are pretty slow (slower than 0.20 s/60°) or
+some less powerful ones with faster ratios (anything faster than 0.12 s/60° is
+considered very fast).
+
+Finding the right :term:`servo <Servo>` for your application can be tough, but
+a good way is trying to decide if you need more speed or torque, and if your
+:term:`servo <Servo>` will experience shock loads or not.
 
 
 Durability and Servo Gear Material
@@ -60,7 +65,7 @@ the :term:`gears <Gear>` stripping inside the :term:`servo <Servo>`.
 A motor burning out is pretty uncommon, but it can happen under large loads for
 a prolonged amount of time.
 
-..  caution::   **You should never stall a servo against an immovable object**.
+..  caution:: You should **never** stall a servo against an immovable object.
 
 Gear stripping is a very common problem which occurs when the torque
 needed to actuate a component exceeds that of the
@@ -81,7 +86,7 @@ There are two main cases when this can occur.
   Thus, the principle is that components should be light and not reverse
   direction suddenly to prolong :term:`servo <Servo>` life.
 
-Shock load is impacted directly by the material
+Shock load resistance is impacted directly by the material
 the :term:`gears <Gear>` are made from. This ranges from plastic to titanium,
 so let’s go down the list, starting from the weakest.
 
@@ -102,7 +107,7 @@ so let’s go down the list, starting from the weakest.
   Steel :term:`gears <Gear>` are very durable and you’ll have a tough time
   stripping these.
   In general, expect to pay a premium.
-  The goBILDA Dual mode servo (v2) is an example of steel :term:`gear <Gear>`
+  The goBILDA Dual mode servos (v2) is an example of steel :term:`gear <Gear>`
   :term:`servo <Servo>`.
 * **Titanium**: Titanium is where you get into really high end,
   virtually unbreakable :term:`servos <Servo>`.
@@ -114,7 +119,7 @@ Servo Size
 Fortunately, almost all manufacturers use the same standard set of
 :term:`servo <Servo>` sizes, ranging from sub-micro to large.
 The two sizes commonly used in FTC are *standard size*
-(which includes REV Smart Servo and goBILDA Dual Mode Servo) and *large size*
+(which includes REV Smart Servo and goBILDA Dual Mode Servos) and *large size*
 (also known as quarter-scale) :term:`servos <Servo>`.
 However, large :term:`servos <Servo>` are quite uncommon.
 
@@ -124,13 +129,12 @@ it is not a strict rule.
 You can buy very powerful standard size :term:`servos <Servo>` -
 just expect to pay more for them.
 
-
 Servo Spline
 ------------
 The output shaft of the :term:`servo <Servo>` is commonly called the
 **spline**.  Most servos have industry standard 25 tooth spline (also
 known as F3); in particular, this is the spline used by REV Smart
-Servo and goBILDA Dual Mode servo.  However, Hitec servos using 24
+Servo and goBILDA Dual Mode servos.  However, Hitec servos using 24
 tooth spline are also very popular.
 
 .. attention::
@@ -145,6 +149,7 @@ Cost
 :term:`Servos <Servo>` range from cheap $7 :term:`servos <Servo>` for light
 applications, all the way up to some Hitec or Savox :term:`servos <Servo>` for
 close to $200.
+
 By far the best bang for your buck :term:`servos <Servo>` out there are the
 Feetech dual mode :term:`servos <Servo>`, which is a programmable type of
 :term:`servo <Servo>`.
@@ -154,7 +159,7 @@ The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their
 brass :term:`gears <Gear>`.
 Coupled with high output power, this meant that stripping :term:`gears <Gear>`
 with any shock load was commonplace.
-The new goBILDA Dual Mode servos (25-2) have steel :term:`gears <Gear>`,
+The new goBILDA Dual Mode servos (25-2) and (25-3) have steel :term:`gears <Gear>`,
 but are new and aren’t as competition tested as other servos.
 
 The next big name in FTC :term:`Servos <Servo>` is Hitec,
@@ -189,12 +194,14 @@ Best Value
     * HiTec 488HB
     * Futaba servos
 * Medium Priced (~$25)
-    * `goBILDA Dual Mode Servo (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
+    * `goBILDA Dual Mode Servo (Torque) (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
+    * `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
     * `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
+    * `25kg Coreless Servo <https://longrobotics.com/product/25kg-coreless-servo-ds3225sg/>`_
 * Best Performance ($75+)
     * Savox titanium servos
     * Hitec titanium servos
 
 REV and goBILDA :term:`servos <Servo>` can be purchased from REV and goBILDA
-websites respectively.
-For all other servos, good source is servocity.com or Amazon.
+websites respectively. For all other servos some good sources are `ServoCity
+<https://www.servocity.com/>`_ or `Amazon <https://www.amazon.com/>`_.
