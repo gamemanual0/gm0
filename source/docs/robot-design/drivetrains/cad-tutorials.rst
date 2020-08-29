@@ -11,6 +11,7 @@ program of choice, determine the necessary requirements for the drivetrain
 based on the current game.
 Teams should shoot for the wheelbase that works the best in that specific
 field’s layout.
+
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to
 not only grab glyphs from the center pit,
 but also to line up against the cryptobox.
@@ -142,27 +143,34 @@ expediency of doing so in light of the motor placement.
 Ground clearance is all dependent on if there are any obstacles on the field,
 as well as what your team wants to do in that game in regards to said
 obstacles.
+
 For example, in Rover Ruckus some teams with tank drivetrains decided to enter
 the crater.
 Therefore, they left  enough space to not beach themselves on top of the
 crater, a common mistake that inexperienced teams often make.
+
 Other teams decided to ignore driving over the crater and decided to reach over
 with an arm or slide system,
 which meant they didn't need a lot of ground clearance for their drivebase.
+
 Typically, anywhere from .25 inches of clearance to .5 inches
 (if you want to be safe) on a completely flat field will allow for the weight
 of the robot to push into the foam tiles.
 Nothing else from the robot should touch the ground.
+
 Something you can do is set the robot in CAD onto a field.
 Set up obstacles such as the crater and simulate driving over the crater by
 moving it across like you think it would in the real world.
+
 If either of the plates intersect with the obstacle,
 add some more clearance so you don't get beached like a sad whale.
+
 A general rule of thumb for most teams is the wider the intake,
 the better the chance of picking up the game piece.
 However, this is super game dependent.
 If you need to pick up a 6" cube like in Relic Recovery then you would not need
 14" of space for your intake.
+
 However, if you need to pick up a ball like in Velocity Vortex, the bigger the
 intake gives you better chances of grabbing the balls.
 Keep this in mind when designing drive pods -
@@ -204,10 +212,12 @@ and refers to material removal from plates or tubes for weight reduction and/or
 aesthetic purposes.
 For the former purpose, the idea is to strike a balance between sustaining
 structural integrity and reduce as much weight/material as possible.
+
 There are several ways to machine pockets into material including milling,
 routing, water jet cutting, laser cutting and even hand drilling.
 Depending on your access to tooling,
 pocketing can be more or less difficult for you.
+
 CNC milling and routing excel at pocketing aluminum box tubing,
 whereas water jet and laser cutting excel at pocketing plates.
 Whether pocketing on box tubing or plates, the design is fairly similar.
@@ -220,6 +230,7 @@ Materials that are weaker, thinner or under significant stress should have less
 thicker or under less stress can have more “aggressive” pocketing.
 Aggressive pocketing refers to the amount of material removal from the blank
 part (more aggressive = more material removal).
+
 Although a bit complex to understand,
 FEA (finite element analysis) can be used to determine appropriate strut
 thickness when pocketing.
@@ -235,20 +246,24 @@ Designing concise and advantageous pocketing is as simple as drawing circles
 and tangent lines.
 Parametric pockets can be defined by one or two offset values.
 The offset values determine the thickness of the remaining material.
+
 Parametric means that the entire sketch is defined by a parameter,
 in this case is the offset value which when adjusted will automatically adjust
 the entire sketch (in terms of material thickness).
+
 There are several references that can be drawn on every plate/tube which are
 screw holes, bearing holes, and corners.
 Each reference will get its own construction/sketch circle or two.
 Ideally all of the construction circles are one of less than 4 sizes to keep
 the pocketing consistent and simple.
+
 First are the screw hole construction circles with radius of the screw hole
 radius plus the offset value.
 Next are bearing holes with radius of bearing hole radius plus offset value.
 Then are edges with construction circles with the radius of an offset value.
 Then the most important circles are at each of the screw and bearing holes,
 which will define the strut thickness.
+
 The circles at the center of each screw and bearing hole will have the diameter
 of an offset value.
 After all of the construction circles are drawn,
@@ -286,6 +301,7 @@ their hands, pockets don't need to be cut all the way.
 through, but routers and mills are able to make surface pockets.
 These pockets don’t go all the way through the material and are multitudes more
 rigid than thru pocketing.
+
 The downside is increased machining time.
 The increased time is from the “lawn mowing” tool cutting path verses simply
 cutting the edges of the geometry.
@@ -301,9 +317,11 @@ If you don't have access to any precision tools, a hand drill/drill press and
 large drill bit/flat bottom boring bits can create pockets in material.
 Although this is the simplest form of pocketing,
 there is a straightforward way to optimize the circular drill method.
+
 Since the main goal of pocketing is to remove as much material as possible
 without significantly sacrificing the structural stability,
 the holes need to be drilled in specific positions with the right size bit.
+
 The most effective way to find the specific positions and drill bit sizes,
 is to first create a pocketing design as you would do with circles and tangent
 lines.
@@ -334,6 +352,7 @@ Pocketing can reduce part weight, but when using traditional machining methods
 can take a significant amount of extra time.
 Although, when adding pockets to parts that are going to be 3D printed,
 it can in some cases decrease print time as well as material used.
+
 The pocketing method above is the simplest parametric method to pocketing,
 but more complex methods exist.
 For instance, the image below is an example of a complex double iso-grid
@@ -355,15 +374,15 @@ CAD Tutorial Part 3 - Custom Pulley Template
 When designing methods of power transmission,
 it’s useful to have an adjustable pulley generator to rapidly rearrange C-C
 (center to center) distance for design changes.
-Typically, FTC teams use HTD5 5mm belt profile due to its deep tooth profile,
+Typically, FTC teams use the HTD5 belt profile due to its deep tooth profile,
 which adds resistance to slipping and increases load capacity.
-This tutorial will focus on the HTD5 5mm profile,
+This tutorial will focus on the HTD5 profile,
 but it is relatively easy to adapt for different profiles.
 
 To make the pulley fully parametric
 (adjustable without redoing the base sketch),
-we will use Equations (in Solidworks and Creo) or Parameters
-(Fusion 360 and Inventor).
+we will use Equations (in Solidworks and Creo), Parameters
+(Fusion 360 and Inventor) or Variables (Onshape).
 Equations allow a user to quickly adjust values and change multiple dimensions
 in a sketch or feature.
 
