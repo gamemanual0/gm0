@@ -44,9 +44,15 @@ Terms
 * Pitch diameter (PD) refers to the diameter of the imaginary pitch circle that
   is drawn when the gear is meshed with the pitch circle of another gear.
   **For gears, PD < OD**.
-  * PD = Module * number of teeth
-  * PD = Number of teeth / DP
-  * PD = OD - 2 * Module
+
+  .. math::
+
+     PD = Module * Number\ of\ Teeth
+
+     PD = \frac{Number\ of\ Teeth}{PD}
+
+     PD = OD - (2 * Module)
+
 * Outer diameter (OD) refers to the actual outside diameter of the gear.
   Simply, it is the circle that the outer face of the tooth draws when it
   rotates around.
@@ -73,10 +79,12 @@ If the gears are too tight, however,
 they will have too much friction and possibly grind or bind up.
 The ideal way to mesh gears are to make sure the teeth interlock and just touch
 the base of the gear.
-**If possible, it’s best to avoid meshing gears with a clamping motor mount --
-due to the sensitivity of the mesh,
-even the slightest movement of the motor inside the clamping mount can cause
-the gears to slip or damage each other.**
+
+.. attention::
+   If possible, it’s best to avoid meshing gears with a clamping
+   motor mount -- due to the sensitivity of the mesh, even the
+   slightest movement of the motor inside the clamping mount can cause
+   the gears to slip or damage each other.
 
 Calculating center-to-center distances using gears is quite simple.
 In order to calculate the desired center distance between two given gears,
