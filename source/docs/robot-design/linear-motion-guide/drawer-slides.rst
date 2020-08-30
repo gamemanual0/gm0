@@ -5,6 +5,7 @@ You’ve *definitely* used a drawer slide before -
 at least two of them are mounted to almost any drawer that you’ve opened.
 Teams use these drawer slides for linear motion,
 often stacking them using 3D printed spacers to achieve plenty of extension.
+
 These slides are available from a number of different vendors,
 and come in many varieties, so choosing the right slide can seem overwhelming.
 Steel drawer slides are common, but can be hard to mount,
@@ -16,12 +17,14 @@ but the MiSUMI rails offer much smoother motion and have a better ball bearing
 system.
 Igus is a brand known and trusted by robotics teams and manufacturers,
 but their parts are certainly not cheap, and can reach into the $100+ range.
+
 **If linear slide kits aren't for you, we recommend the MiSUMI slides for newer
 teams**, especially if you are using REV, as MiSUMIi uses the M3 standard.
-**Drawer slides should be mounted oriented vertically, like in an actual
-drawer.
-They can be mounted horizontally, but this is not recommended as they will sag
-much more.**
+
+.. attention::
+   Drawer slides should be mounted oriented vertically, like in an
+   actual drawer. They can be mounted horizontally, but this is not
+   recommended as they will sag much more.
 
 Listed below are the recommended drawer slides.
 
@@ -57,6 +60,7 @@ are preferred by many top-tier teams because they are sturdy, very reliable,
 and ridiculously smooth due to the ball bearing system.
 **MiSUMI slides are able to withstand a significant amount of load with little
 flex**.
+
 They are also low-profile, and have a M3 mounting pattern,
 making it easy to attach to REV extrusion.
 However, MiSUMI slides have a higher price point, and it is often difficult to
@@ -65,6 +69,7 @@ An easy solution is to attach the end of one slide piece to REV extrusion, and
 do the same with the next slide.
 Then attach the REV pulley bearing on the top of the extrusion piece for the
 string to run through.
+
 Some teams have 3D printed an insert that goes between each slide instead of
 using the 15mm extrusion piece,
 as it takes up quite a bit of space.
@@ -82,12 +87,16 @@ while the the SAR3 is a three-stage slide
 Teams have used both successfully, and there isn’t neither option is clearly
 superior.
 
-Rail length: 400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)
+Rail length Options:
+
+* 200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)
+* 300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)
+* 400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)
 
 Advantages
 ----------
 
-* Best slide smoothness due to ball bearing cartridge
+* Best slide smoothness due to ball bearings
 * Very little slide flex, robust build quality
 * Can handle relatively heavy load use cases (within reason)
 * Compatible with REV 15mm extrusion system
@@ -98,6 +107,45 @@ Disadvantages
 * Not cheap
 * Tricky to adapt if not using REV
 * 3D printed spacers may be required
+
+Long Robotics Slides
+====================
+The `Long Robotics <https://longrobotics.com/>`_ slides are also used
+by top-tier teams because they are sturdy, reliable, and almost as
+smooth as MiSUMI slides due to the ball bearing system.
+
+They are low profile, and utilize M4 mounting bolts. They even can
+mount directly to goBILDA channel. They are very comparable to the
+SAR2 series of MiSUMI slides, and are significantly cheaper.
+
+The manufacturer website has CAD files for 3D printed inserts that go
+between the slides, which V-bearings are mounted to. V-bearings are
+`available from Long Robotics
+<https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>`_. To
+attach slides, one will need to purchase **countersunk M4 screws**,
+which are `also available from Long Robotics
+<https://longrobotics.com/product/6mm-d-low-head-10mm-m4-screw-10-pack-t10-torx-drive/>`_.
+
+These are available in both a `300 mm rail length option
+<https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-anodized/>`_
+and `400 mm rail length option
+<https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-anodized/>`_.
+
+Advantages
+----------
+
+* Very good slide smoothness due to ball bearings
+* Can handle relatively heavy load (within reason)
+* Compatible with goBILDA channel
+* Cheaper than MiSUMI slides for comparable performance
+
+Disadvantages
+-------------
+* 3D Printed spacers are almost required; while other solutions exist,
+  3D Printed spacers are the simplest and lowest-risk
+* Can be difficult to mount to kit systems which aren't
+  :term:`extrusion <Extrusion>` based and don't have holes spaced at 8
+  mm apart
 
 Hafele drawer slides
 ====================

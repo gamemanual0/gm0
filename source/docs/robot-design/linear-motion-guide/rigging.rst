@@ -8,6 +8,7 @@ linear extension, so be sure to spend adequate time on it.
 
 .. figure:: images/rigging/7236-elevator-rigging.png
     :alt: The rigging for 7236's elevator in Rover Ruckus
+    :width: 10em
 
     Example rigging setup from team 7236 Recharged Green.
     This setup utilizes a continuous stringing setup for the first stage and a
@@ -27,9 +28,12 @@ When the motor rotates one direction, the extension spool reels in the
 extension string, so it becomes shorter.
 In doing so, the distance between the top of one stage and the bottom of the
 next stage decreases, causing the system to extend.
-Note that **the last stage always extends and retracts before the other stages
-(this can be either an advantage or a disadvantage,
-depending on the application)**.
+
+.. note::
+   The last stage always extends and retracts before the
+   other stages (this can be either an advantage or a disadvantage,
+   depending on the application).
+
 Once the last stage hits its limit, the next to last stage extends outwards,
 and so on; the pattern repeats until every stage is fully extended.
 When the motor spins **in the opposite direction**,
@@ -81,8 +85,11 @@ A second extension string, anchored to the top of the base,
 is rigged to the top of the first stage and anchored at the bottom of the
 second stage.
 The pattern continues until all stages have been rigged.
-Note that **the number of strings required to extend is equal to the number of
-stages in the system**.
+
+.. note::
+   The number of strings required to extend is equal to the number of
+   stages in the system.
+
 When the motor rotates one direction,
 the extension spool reels in the first string,
 decreasing the distance between the base and the bottom of the first stage.
@@ -96,9 +103,10 @@ A cascaded system can be retracted in three ways:
 using continuous retraction, elastic retraction, or reverse-cascade retraction.
 
 Retraction Options
-==================
-Cascade retraction
 ------------------
+
+Continuous retraction
+^^^^^^^^^^^^^^^^^^^^^
 As the name suggests, continuous retraction utilizes the same retraction method
 as continuous rigging with one notable difference:
 if the variable :math:`N` is the number of stages in the system,
@@ -106,18 +114,18 @@ the diameter of the extension spool must be :math:`N` **times smaller**
 than the retraction spool.
 
 Advantages
-^^^^^^^^^^
+""""""""""
 
 * Requires less string
   (less strings to tension, less strings that can become loose)
 
 Disadvantages
-^^^^^^^^^^^^^
+"""""""""""""
 
 * Requires more space, as it demands a larger spool retraction spool
 
 Elastic retraction
-------------------
+^^^^^^^^^^^^^^^^^^
 Instead of retracting using a retraction spool,
 one common way to retract is to attach a piece of elastic
 (commonly surgical tubing) to the last stage.
@@ -128,14 +136,14 @@ While this is the retraction method recommended by many kit slide manuals,
 we do not recommend this method.
 
 Advantages
-^^^^^^^^^^
+""""""""""
 
 * There is only one string to tension, instead of multiple, so tensioning is
   simpler.
 * The elastic automatically tensions the extension string.
 
 Disadvantages
-^^^^^^^^^^^^^
+"""""""""""""
 
 * Since the elastic applies a force to the slide at all times, this force
   opposes the force applied by the motor when extending the slides.
@@ -146,23 +154,23 @@ Disadvantages
 * It is very easy to unwind your extension spool when using elastic retraction.
 
 Cascade retraction
-------------------
+^^^^^^^^^^^^^^^^^^
 Cascade retraction entails simply rigging another set of cascade string that
 can retract the system when engaged (see the image below).
 
 Advantages
-^^^^^^^^^^
+""""""""""
 
 * Very space-efficient
 
 Disadvantages
-^^^^^^^^^^^^^
+"""""""""""""
 
 * Requires more string
   (less strings to tension, less strings that can become loose)
 
 Additional Considerations
-^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""
 
 * If the system has only one stage, cascade rigging is
   **identical to continuous rigging**
@@ -208,6 +216,7 @@ Naturally, string loosens over time,
 so you either need a mechanism that can provide extra tension (a spring) or
 manually tighten string,
 which can get a bit tedious (especially for cascade rigging).
+
 However, belts do not have this issue.
 They tend not to stretch over time,
 meaning complex external tensioners are rarely needed.
@@ -220,11 +229,12 @@ the diameter of the spool changes, making the two spools out of sync.
 
 Disadvantages over string
 -------------------------
-The main disadvantage of belt-driven slides are the size restriction.
-Simply put, belt pulleys take up much more room than the 4mm thick,
-12mm diameter pulley bearings REV sells.
-When using belt-driven slides, pulleys are at least double that thickness and
-have a considerably larger diameter, meaning each stage must be thicker.
+The main disadvantage of belt-driven slides is the amount of space
+they take up. Simply put, belt pulleys take up much more room than the
+4mm thick, 12mm diameter pulley bearings REV sells. When using
+belt-driven slides, pulleys are at least double that thickness and
+have a considerably larger diameter, meaning each stage must be
+thicker.
 
 .. figure:: images/rigging/7236-continuous-belt.png
     :alt: 7236's Rover Ruckus' robot's belt rigging
@@ -277,10 +287,12 @@ extends farthest out from the robot’s center.
 By doing so, the string will stretch out when the spool extends the arm,
 keeping tension so that the string does not detach from the pulleys in the
 linear slide extension.
+
 Another form of tensioner can be a spring-loaded pulley.
 Since the pulley is spring-loaded, it will take up the slack in the string.
 Alternatively, it is possible to mount a pulley on a piece of extrusion,
 and slide it so the string is taut.
+
 There are two main reasons that tensioners are highly recommended in string
 based linear slides, the first and oftentimes more important one,
 is that at its core, a run of string is a series of polygons,
@@ -290,6 +302,7 @@ your slide may require more or less string compared to when halfway extended.
 Or partially extended.
 The closer each set of bearings are,
 the less this impracts string tension.
+
 Another (but less impactful) thing to keep in mind that spool size changes as
 string is added/removed from the spool.
 If the spool radius increases, the speed of the extension will also increase,
@@ -297,8 +310,10 @@ and torque, which opposes speed, will decrease.
 Consequently, tension will change as well.
 Therefore, a bit of slack is inherent in all linear extension designs using
 string.
-It is highly encouraged that teams have at least one spring tensioner per
-linear slide set.
+
+.. attention::
+   It is highly encouraged that teams have at least one spring
+   tensioner per linear slide set.
 
 .. image:: images/tensioners/13075-slides.png
     :alt: An image of 13075 linear slides
@@ -319,16 +334,19 @@ Thus, the translational speed (the speed of the slide)
 is proportional to the radius of the spool,
 and since torque is inversely proportional to speed,
 changing the spool size changes torque as well.
+
 This is important to recognize, as changing spool size is often more convenient
 than changing gear ratio to get the desired combination of speed and torque.
 To illustrate this, say you have a linear extension system with a
 3.7:1 gear ratio.
 You then decide that a 5:1 gear ratio would provide a more desirable
 combination of speed and torque than your current 3.7:1 ratio.
+
 In many cases, instead of swapping gearboxes,
 it makes more sense to swap out spools to a smaller one.
 If your spool is currently 2 inches, your new size should be
 :math:`\frac{2*3.7}{5}` inches to achieve the same result.
+
 You also need to make sure that when fully wrapped on the spool,
 your cable or string doesn’t overlap.
 Overlapping can result in a change in spool diameter,
@@ -342,11 +360,13 @@ length.
 However, it is not recommended that these wires are left unprotected,
 as they can get tangled or caught in the slides much more easily than with
 protection.
+
 In general, teams should ensure that wires never protrude outside the
 structural parts of the robot, because they can get caught on other robots or
 game pieces.
 This can be accomplished by cable ties or Velcro ties,
 or by using acrylic plate to keep wires inside.
+
 However, for linear extensions, other forms of cable management are needed.
 The two types of cable management recommended are cable carrier and
 retractable coil cord.

@@ -11,10 +11,12 @@ though this is more common in FRC.
 However, this ability to handle high loads comes at a cost:
 lead screws are extremely slow.
 
-By far the most popular lead screw option is the ServoCity Linear Actuator kit.
-Overall, this kit is lightweight, simple, and cheap.
-It can be a good start for teams using REV and needing a linear extension,
-and is generally usable out of the box.
+By far the most popular lead screw option is the
+`ServoCity Linear Actuator kit
+<https://www.servocity.com/linear-actuator-kit-a-7-4-stroke-x-rail-piston/>`_.
+Overall, this kit is lightweight, simple, and cheap. It can be a good
+start for teams using REV and needing a linear extension, and is
+generally usable out of the box.
 
 Advantages
 ==========
