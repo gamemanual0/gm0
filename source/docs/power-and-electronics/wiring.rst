@@ -1,3 +1,4 @@
+============
 Wiring Guide
 ============
 
@@ -5,11 +6,14 @@ Why does wiring matter?
 =======================
 Have you ever looked inside your robot and thought "what a mess of wires"?
 Wiring is extremely important in FTC, but is often overlooked or hastily done
-the hour before competition starts. However, time spent in wiring the robo
+the hour before competition starts. However, time spent in wiring the robot
 properly is crucial to the performance and maintenance of the robot.
-It is highly discouraged for teams to overlook wiring,
-but many new teams seem to disregard it or put little thought into wiring the
-robot properly.
+
+.. attention::
+
+   It is highly discouraged for teams to overlook wiring, but many new
+   teams seem to disregard it or put little thought into wiring the
+   robot properly.
 
 While tedious and often no fun, wiring can mean the difference between a win
 and loss.
@@ -20,16 +24,16 @@ and building a robot.
 
 FIRST FTC Wiring Guide
 ======================
-FIRST has created a wiring guide to help teams with tasks like crimping cables,
-soldering connections, and ESD mitigation that won’t be covered in this guide.
-Once you read up on electronics and wiring here,
-look at the FTC Wiring Guide for the best practices and more tips & tricks.
-In addition, FIRST has written an ESD mitigation whitepaper that is worth
-taking a look at.
 
-`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_
-
-`ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_
+FIRST has created a wiring guide to help teams with tasks like
+crimping cables, soldering connections, and ESD mitigation that won’t
+be covered in this guide. Once you read up on electronics and wiring
+here, look at the `FTC Wiring Guide
+<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_
+for the best practices and more tips & tricks. In addition, FIRST has
+written an `ESD Mitigation Whitepaper
+<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_
+that is worth taking a look at.
 
 General Advice
 --------------
@@ -46,34 +50,32 @@ General Advice
   :term:`REV USB Retention Mount <USB Retention Mount>`,
   as well as 3D printing strain relief methods for devices such as the
   :term:`Expansion Hub`  and robot controller phones.
-* **DO NOT solder a wire before crimping it**.
-  Solder can "creep" and losing connection is possible,
-  possibly leading to fire.
-* Keep all wire runs as short as possible to prevent entanglement and improve
-  wire management.
-* When using data/sensor cables, keep them away from motors.
-  This will reduce electromagnetic interference (EMI).
-  Add a ferrite bead if possible.
-* Crimped connectors are generally better than soldered connectors,
-  as solder joints can break easier than a crimped connection.
-* Keep wires tucked away from moving mechanisms, and ensure that you will not
-  be at risk of a mechanism snagging a wire.
-  This is a proper application of materials such as acrylic,
-  which allow drivers to see inside the robot while keeping wires out of the
-  way of other robots/game pieces.
-  It is advised for teams to purchase removable velcro ties or cable ties to
-  aid with cable management.
-* For power wires, lower :term:`gauge <Gauge>` (larger size) wires are
-  preferable. This means a lower resistance across the wire and
+* **DO NOT solder a wire before crimping it**. Solder can "creep" and
+  losing connection is possible, possibly leading to fire.
+* **Keep all wire runs as short as possible** to prevent entanglement
+  and improve wire management.
+* **When using data/sensor cables, keep them away from motors.** This
+  will reduce electromagnetic interference (EMI). Add a ferrite bead
+  if possible.
+* **Crimped connectors are generally better than soldered
+  connectors**, as solder joints can break easier than a crimped
+  connection.
+* **Keep wires tucked away from moving mechanisms,** and ensure that
+  you will not be at risk of a mechanism snagging a wire. This is a
+  proper application of materials such as acrylic, which allow drivers
+  to see inside the robot while keeping wires out of the way of other
+  robots/game pieces. It is advised for teams to purchase removable
+  velcro ties or cable ties to aid with cable management.
+* **For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are
+  preferable.** This means a lower resistance across the wire and
   higher power throughput. This is negligible for data wires,
   however.
-* Small wires and cables are fragile.
-  Treat them as such, and don’t put them in an area where they will constantly
-  be hit by another object.
-  Larger power cables can take much more abuse.
-* Ensure that your wires are kept out of pinch points where another mechanism
-  could sandwich the wire.
-  This is especially important in arms or mechanisms that are hinged.
+* **Small wires and cables are fragile.** Treat them as such, and
+  don’t put them in an area where they will constantly be hit by
+  another object. Larger power cables can take much more abuse.
+* **Ensure that your wires are kept out of pinch points** where
+  another mechanism could sandwich the wire. This is especially
+  important in arms or mechanisms that are hinged.
 
 .. figure:: images/wiring/bad-wiring.png
     :alt: An example of poor wiring

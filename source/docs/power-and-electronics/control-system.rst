@@ -12,34 +12,19 @@ The two major manufacturers of control hubs for FTC are Modern Robotics and
 REV; however, nearly all teams are shifting over to REV because it is cheaper,
 simpler, and more reliable.
 
-More information about the FTC Control system can be found below.
+More information about the FTC Control system can be found below:
 
-`Official control system Wiki on GitHub <https://github.com/first-tech-challenge/skystone/wiki>`_
-
-`REV Expansion Hub Documentation <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
-
-`FIRST troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
+* `Official control system Wiki on GitHub <https://github.com/first-tech-challenge/skystone/wiki>`_
+* `REV Expansion Hub Documentation <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
+* `FIRST troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 
 There are three possible control systems that can be run on an FTC robot
 legally:
 
-* :term:`RC Phone <Robot Controller>` + Modern Robotics
 * :term:`RC Phone <Robot Controller>` +
   :term:`REV Expansion Hub(s) <Expansion Hub>`
-* REV Control Hub + :term:`REV Expansion Hub <Expansion Hub>`
-
-RC Phone + Modern Robotics
-==========================
-(Not included in the starter Electronics Kit).
-Modern Robotics is quickly being replaced by REV’s control system,
-as it is less expensive and more reliable than the older Modern Robotics
-products.
-It is very likely that you can ignore anything Modern Robotics related,
-especially if your team is starting from scratch.
-
-.. image:: images/control-system/mr-wiring-diagram.png
-    :alt: A diagram of the RC Phone + Modern Robotics control system
-    :width: 100%
+* REV Control Hub + :term:`REV Expansion Hub <Expansion Hub>` as it is
+  less expensive and more reliable than the older Modern Robotics
 
 RC Phone + REV Expansion Hub(s)
 ===============================
@@ -56,12 +41,15 @@ The :term:`REV Expansion Hub <Expansion Hub>` is reliable, as long as proper
 strain relief and wiring is carried out.
 This includes the :term:`USB Retention Mount`,
 as well as 3D printing :term:`XT30` stress relief mounts.
-The :term:`Expansion Hub` connects to the :term:`Robot Controller` phone
-through the mini USB port, and the :term:`RC <Robot Controller>` phone
-is linked to the DS  (:term:`Driver Station`) phone through WiFi Direct.
-For more information on setting up the :term:`Expansion Hub` and configuring
-the robot,
-head to REV Robotics’ Technical Resources page on their website.
+
+The :term:`Expansion Hub` connects to the :term:`Robot Controller`
+phone through the mini USB port, and the :term:`RC <Robot Controller>`
+phone is linked to the DS (:term:`Driver Station`) phone through WiFi
+Direct. For more information on setting up the :term:`Expansion Hub`
+and configuring the robot, head to `REV Robotics’ Technical Resources
+Expansion Hub Guide
+<https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
+
 * `USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_
 * `XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_
 * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_

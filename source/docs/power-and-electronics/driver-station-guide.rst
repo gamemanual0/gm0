@@ -10,16 +10,17 @@ risk of disconnects.
   issues.
   Have you ever noticed that  your team's robot seems to lag at competitions
   only?
+
   Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more
   crowded on competition day.
   This can lead to noticeably higher ping/lag which adversely affects driver
   and robot performance.
-* USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a
-  possible source of disconnects during a match.
-  This is generally caused by poor quality connectors or adapters
-  between the driver station and the gamepad controller.
-  It generally is worth it to purchase higher quality connectors as opposed to
-  the cheapest options.
+* USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections
+  can be a possible source of disconnects during a match. This is
+  generally caused by poor quality connectors or adapters between the
+  driver station and the gamepad controller. **It generally is worth
+  it to purchase higher quality connectors as opposed to the cheapest
+  options.**
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
 
@@ -32,11 +33,16 @@ risk of disconnects.
   can detect it, the robot will sometimes have a tendency to lurch forward.
   Dead spots make it difficult for the driver to execute fine-tuned and precise
   movements.
-  The Logitech controller has a considerably larger dead spot area,
-  so the Xbox controller is preferred.
-  However, this is likely a non-issue for the large majority of teams.
-  Also, keep in mind that there are very specific models of the Xbox controller
-  that are legal, so they can be hard to find new.
+
+  The Logitech controller has a considerably larger dead spot area, so
+  the Xbox controller is preferred. However, this is likely a
+  non-issue for the large majority of teams. Also, keep in mind that
+  there are very specific models of the Xbox controller that are
+  legal, so they can be hard to find new.
+
+  Starting with the 2020-2021 season, PS4 Dualshock 4 controllers are
+  legal; these are likely performant, but have not really been tested
+  for FTC.
 * A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>`
   strain relief connector can be useful as it may help
   to prevent connections from loosening.
