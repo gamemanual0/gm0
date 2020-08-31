@@ -83,7 +83,8 @@ For further reading, we highly suggest you check out those links.**
   * `Pulley Center-to-Center Calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
   * `Pulley Center-to-Center Calculator, alternate version <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
   * `Pulley Center-to-Center Calculator, alternate version v2 <https://sdp-si.com/eStore/CenterDistanceDesigner>`_
-  * `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ - Henopied, FTC 8907
+  * `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ - Henopied, FTC 18255
+  * `HTD Belt Generator <https://cad.onshape.com/documents/c163c756b5096bcd95e5692a/w/44c5f14084d55dd0388345f0/e/cf391d827826f30c60340bcc>`_ - Jeremiah, FTC 10641
 * Coding and Software Resources
 
   * `Java in 7 Days Tutorial <https://www.guru99.com/java-tutorial.html>`_
@@ -106,10 +107,12 @@ For further reading, we highly suggest you check out those links.**
 * Discord
 
   * `FTC Discord* <https://discord.com/invite/first-tech-challenge>`_
-  * The FIRST Tech Challenge Discord server is a discussion-based
+
+    The FIRST Tech Challenge Discord server is a discussion-based
     community server that has teams ranging from first-year rookies to
     Winning Alliance Captains at the World Championships. It also has
     a channel for direct access to vendors.
   * `FIRST Updates Now Discord <https://discord.com/invite/firstupdatesnow>`_
-  * FIRST Updates Now provides FTC/FRC related content including
+
+    FIRST Updates Now provides FTC/FRC related content including
     recaps, shows, analysis, reveals, and top 25.
