@@ -7,6 +7,8 @@ A very common choice for drivetrain in FTC is :term:`mecanum drive
 <Mecanum Wheel>`, but we have noticed that not a lot of people know
 how they work or how to properly program them.  :term:`Mecanum wheels
 <Mecanum Wheel>` have rollers at a 45° angle to the rest of the wheel.
+
+
 Since these are in contact with the ground instead of something solid
 like in a :term:`traction wheel <Traction wheel>`, instead of the
 wheel creating a force parallel to the orientation of the wheel, it
@@ -42,6 +44,7 @@ omnidirectional movement and is much cleaner):
 
 .. image:: images/mecanum-drive/mecanum-drive-directions.png
     :alt: Examples of ways to move the wheels on mecanum drive to move the robot in different directions
+    :width: 45em
 
 Deriving Mecanum Control Equations
 ==================================

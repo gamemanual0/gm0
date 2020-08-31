@@ -9,14 +9,17 @@ that slide smoothly along the slots in the extrusion.
 V-wheel slides have V-shaped groove bearings on both sides of the extrusion
 that bite intro grooves on the extrusion, allowing the stages to slide
 smoothly.
+
 REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate
 nicely with existing FTC kit parts.
 Beyond this, MakerBeam sells components for a V-wheel extrusion slide,
 and Misumi offers a few different sizes of bushing-based extrusion slides.
 REV furthermore sells a 8020 v-groove bearing slide kit for FRC,
 that is not recommended for FTC use cases.
-**We recommend that newer teams stick to slide kits designed for FTC instead of
-DIY alternatives.**
+
+.. note::
+   We recommend that newer teams stick to slide kits designed for FTC
+   instead of DIY alternatives.
 
 REV Robotics 15mm Linear Motion Kit
 ===================================
@@ -26,6 +29,7 @@ is based off of the 15mm extrusion system.
 This has been partially remedied by REV as they have developed a second
 iteration of their slide kit,
 which has much better tolerances on the Delrin sliders.
+
 Still, you’ll see a lot of competitive teams use this kit with multiple
 modifications, such as adding lots of lubricant and mounting the sliders
 differently.
@@ -36,6 +40,7 @@ to bind.
 Additionally, since the only thing attaching one extrusion to another is the
 plastic slider, the REV slides are not particularly sturdy,
 and require crossbeams to keep alignment.
+
 Overall, this kit is lightweight, simple, and cheap.
 It can be a good start for teams using REV and needing a linear extension,
 and is generally usable out of the box.
@@ -76,6 +81,7 @@ The `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-slide-kit>`_
 works well out of the box.
 However, the main caveat is that the kit has a **very low maximum load
 (2lb. at maximum extension)**.
+
 Teams will have to keep their designs on this kit particularly lightweight.
 This slide uses elastic retraction through the use of surgical tubing,
 which means that instead of having both an extend and return string,
@@ -85,10 +91,12 @@ limits how fast the slide can be run.
 Additionally, the plastic end caps have a reputation of breaking regularly
 because they endure shock load every time the slide extends to maximum.
 3D printed alternatives may be more sturdy than the stock end caps.
-**It is highly recommended that teams add an additional set of v-groove
-bearings at the end of each piece of extrusion to give each stage an additional
-point of support**.
-This will increase load capacity and possibly smoothness.
+
+.. attention::
+   It is highly recommended that teams add an additional set of
+   v-groove bearings at the end of each piece of extrusion to give
+   each stage an additional point of support. This will increase load
+   capacity and possibly smoothness.
 
 Advantages
 ----------

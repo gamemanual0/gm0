@@ -4,7 +4,7 @@ Choosing a Motor
 
 Legal Motors
 ------------
-12 V motors are strictly controlled by FTC rules. As of 2019-2020 season,
+12 V motors are strictly controlled by FTC rules. As of 2020-2021 season,
 the only FTC legal motors are the following ones:
 
 * TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_,
@@ -76,15 +76,14 @@ uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
 .. caution::
   These motors are fine for most situations, but should not be used for high
   loads or when the motor could be subject to shock loads.
-  In particular, it is advised that you do not use them for drivetrains unless
-  your robot is very light.
+  In particular, it is advised that you do not use them for drivetrains.
 
 * goBILDA’s 5201 series spur gearboxes are much cheaper than either REV’s or
   Andymark’s; whether that’s a good or bad thing is up to you.
   They utilize the rather uncommon (in the FTC world) bullet connection for
   power. However, these are now discontinued.
   The output shaft is a 6mm D-shaft.
-* :term:`REV HD Hex Planetary 40:1 motor <HD Hex Motor>` - This motor
+* :term:`REV HD Hex Planetary <HD Hex Motor>` 40:1 motor - This motor
   comes only in a 40:1 ratio, but does use the same connections (JST
   VH) as the :term:`REV Expansion <Expansion Hub>` and Control Hub for
   power which means no adapter cables.  The output :term:`shaft
@@ -93,7 +92,7 @@ uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
   middle of a 1/2” hex :term:`shaft <Shaft>`, which makes adapting
   this motor to any length of :term:`UltraHex`, and by extension, 1/2”
   hex :term:`shaft <Shaft>`, very easy.
-* :term:`Andymark NeveRest Classic motors <NeveRest Motor>` come in a few
+* :term:`Andymark NeveRest <NeveRest Motor>` Classic motors come in a few
   different ratios, which are 40:1 and 60:1.
   The output shaft is a :term:`6mm D-shaft <Shaft>`,
   and like all NeveRest motors use the :term:`Anderson PowerPole` to connect to
@@ -101,7 +100,7 @@ uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
   This connector is perhaps the most robust of the ones listed here.
 
 Standard Planetary Gearboxes
---------------------------------------------------
+----------------------------
 Standard planetary gearboxes include
 :term:`Andymark NeveRest Orbital motors <NeveRest Motor>`,
 :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and
@@ -147,12 +146,13 @@ than the standard  ones, but they can be quite expensive and require more work.
   and 5:1, and can be mix & matched to create a custom ratio.
   It is possible to use from one to three gearboxes for a minimum ratio of 3:1
   and maximum of 125:1.
+
   The UltraPlanetary was intended to give teams the maximum customization
   without the typical limiting factor - high cost.
   The total cost for the three stage gearbox and motor is *exceptionally*
   good value for a customizable motor.
   In addition, the UltraPlanetary has a female
-  :term:`5mm hex output shaft <Shaft>` which allows teams to customize the
+  5mm hex output :term:`shaft <Shaft>` which allows teams to customize the
   shaft length.
 * `Andymark NeveRest Sport <https://www.andymark.com/products/neverest-sport-options>`_ gearboxes -
   These gearboxes were designed to be more robust than the gearboxes found on
@@ -165,7 +165,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   or goBILDA motor to attach to the gearbox.
   The selection should be based only on which connection type you like the most
   (:term:`PowerPole <Anderson PowerPole>` vs. :term:`JST-VH` vs. 3.5mm bullet)
-  for power.
+  for power and price.
 * `VEX VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_
   gearboxes - These planetary gearboxes were designed for FRC use and are
   arguably the most durable gearbox in FTC.
@@ -175,7 +175,7 @@ than the standard  ones, but they can be quite expensive and require more work.
   separately.
   You can disassemble the gearbox from the motor-side,
   so removing the gearbox from the mounted plate is not necessary
-  Attaching the pinion to a :term:`Bare Motor` is simple
+  Attaching the pinion to a :term:`bare motor <Bare Motor>` is simple
   since it clamps onto the motor shaft instead of a press fit like the
   other pinion gears.
   VersaPlanetaries also
@@ -222,8 +222,11 @@ Planetary gearboxes are just a tiny bit more expensive,
 but boast better backlash and efficiency, higher load capacity,
 and better capacity for shock loads than spur gearboxes.
 The tradeoffs, cost and mechanical noise, are almost never a factor.
-**Because both gearbox types are so similar in price for similar ratios,
-we generally recommend the use of a planetary over a spur gearbox**.
+
+.. tip::
+   Because both gearbox types are so similar in price for similar ratios,
+   we generally recommend the use of a planetary over a spur gearbox.
+
 If you already own spur gearboxes, try to use them in lower-load situations and
 use planetary motors on your drivetrain.
 

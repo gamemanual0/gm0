@@ -14,20 +14,24 @@ as it is promoted in official guides published by FIRST
 It often has :term:`direct driven <Direct Drive>`
 :term:`traction wheels <Traction wheel>` with unpowered
 :term:`omni wheels <Omni Wheel>`.
+
 This type of drivetrain has poor turning as the center of turning is at the
 back of the robot between the two powered wheels.
 In comparison to other drivetrains, it has poor acceleration due to only using
 two motors.
+
 Even though it may not be an optimal drivetrain,
 it is still possible to be competitive as long as the drivetrain is reliable.
 As a consensus, we would advise every new team to build the pushbot primarily
 to learn how to build with a kit.
 The pushbot is a good starting point and helps the team get familiarized with
-using kit parts, attaching wheels, mounting motors, etc.;
-however, it is subpar to every other drivetrain in a competitive context.
-**While the pushbot is a good first drivetrain for new teams to get acquainted
-with the kit, it is recommended that teams move away from this drivetrain when
-building their competition robot.**
+using kit parts, attaching wheels, mounting motors, etc.
+However, it is subpar to every other drivetrain in a competitive context.
+
+.. attention::
+   While the pushbot is a good first drivetrain for new teams to get acquainted
+   with the kit, it is recommended that teams move away from this drivetrain
+   when building their competition robot.
 
 Advantages
 ----------
@@ -57,12 +61,14 @@ Disadvantages
 In its most common form, the drivetrain uses the same wheel layout as the two
 wheel drivetrain (2 traction wheels in the back, 2 omnis in the front),
 but with one notable difference: **all four wheels are powered**.
+
 Some teams will put all four traction wheels or use all four omni wheels.
 It is not suggested to use all 4 traction wheels due to poor turning that
 results in this setup.
 This is caused by :term:`wheel scrub <Wheel scrub>`.
 Using omni wheels for all four wheels will result in incredible turning, with
 the robot rotating around its center.
+
 However, this advantage comes with a major loss of traction.
 For these reasons, many teams choose to use two traction wheels and two omni
 wheels for a balance between quick turning and traction.
@@ -132,34 +138,44 @@ The drop should be anywhere from more than 1/16” up to 1/4”.
 However, the recommended drop is around 1/8”.
 Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots
 (>25 lbs.) perform slightly better with more than 1/8” drop.
+
 The purpose of dropping the middle wheel is to ensure that only 4 wheels are in
 contact with the ground at all times.
 This is because turning with 6 wheels on the ground introduces lots of
 friction, making it very difficult to turn quickly.
 Note that the **required drop may vary depending on both field condition and
 weight of the overall robot**.
+
 Turning can drastically degrade due to a difference in material underneath the
 field, leading to the robot sinking down further than usual.
+
 Moreover, **most drop center 6 wheel drives are made using custom drivetrains**
 because it is difficult to get the center wheel drop using a kit based build
 system (a notable exception being REV-based kit drivetrains).
 It is possible to execute a drop center using goBILDA and Actobotics using
-pillow blocks, but it is a little bit more awkward.
+pillow blocks, but it is a little bit more awkward. However, with the new
+`goBILDA drop-center bearing plate
+<https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_,
+it is straightforward to make a drop center drivetrain on goBILDA channel.
 
-6 wheel drive with corner omni wheels does not have a center drop.
-It attempts to solve the issue of turning by replacing the corner traction
-wheels with omni wheels, allowing the drivetrain to achieve better turning,
-albeit with slightly less traction than a center-drop.
-This is very easily buildable in kits, and is a great all-around drivetrain.
-Drop center and corner omnis can be combined for maximum turning reliability,
-although this comes with side effects like rocking and reduced traction.
+6 wheel drives with corner :term:`omni wheels <Omni Wheel>` do not
+need to have a center drop. It attempts to solve the issue of turning
+by replacing the corner traction wheels with omni wheels, allowing the
+drivetrain to achieve better turning, albeit with slightly less
+traction than a center-drop. This is very easily buildable in kits,
+and is a great all-around drivetrain. Drop center and corner omnis can
+be combined for maximum turning reliability, although this comes with
+side effects like rocking and reduced traction.
 
-(Side note: tolerances in the size of the wheel may affect the traction of this
-drivetrain - many VEX Robotics Competition teams have built 6WDs like this only
-to find that their center traction wheel wasn’t touching the ground due to
-variance in size.
-We don’t have data on this phenomenon with FTC-class wheels,
-but it’s something to be aware of.)
+.. sidebar:: Wheel Tolerances
+
+   Tolerances in the size of the wheel may affect the traction of this
+   drivetrain - many VEX Robotics Competition teams have built 6WDs
+   like this only to find that their center traction wheel wasn’t
+   touching the ground due to variance in size.
+
+   We don’t have data on this phenomenon with FTC-class wheels, but
+   it’s something to be aware of.
 
 Advantages
 ----------
@@ -172,9 +188,11 @@ Advantages
 Disadvantages
 -------------
 
-* Drop-center 6WD is tricky to build with :term:`channel
-  <Channel>` based systems
-* Drop-center 6WD as slightly worse turning, but more traction
+* Drop-center 6WD is tricky to build with :term:`channel <Channel>`
+  based systems, though this has been partially mitigated with the
+  `goBILDA drop-center bearing plate
+  <https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_
+* Drop-center 6WD is slightly worse at turning, but has more traction
 * Drop-center 6WD is dependent on field conditions
 * Corner omni 6WD has less traction
 * Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
@@ -207,6 +225,7 @@ combining elements found in both 4 wheel and 6 wheel drivetrains.
 For example, the 6 wheel drivetrain generally will have a dropped center wheel
 so that the robot turns on four wheels instead of six,
 reducing friction and increasing turning mobility.
+
 On an 8 wheel drive, the center four wheels are dropped.
 This means that when turning, only these middle four wheels are touching the
 ground.
@@ -214,11 +233,14 @@ Thus, the 8 wheel drivetrain has slightly more stability while turning than a 6
 wheel drive, whereas 6 wheel drives can turn more quickly.
 Furthermore, since the 8 wheel drive has wheels in the same place as a 4 wheel
 drive, it has the stability of a 4 wheel drive.
+
 It is suggested that all eight wheels should be powered,
 and :term:`planetary <Planetary Gear>` motors should be used over a
 :term:`spur gear <Spur gearbox>` motor.
-Teams have the option of using doubled omni wheels on the outer four wheels.
-Doing so will reduce traction/pushing power and increase mobility.
+
+Teams also have the option of using doubled omni wheels on the outer
+four wheels. Doing so will reduce traction/pushing power and increase
+mobility.
 
 Advantages
 ----------
@@ -254,12 +276,14 @@ Tread drive is the use of tank treads or wide belts to power movement,
 much like a real life tank.
 Unfortunately, in FTC, it is not a competitive drivetrain for a number of
 reasons.
+
 Tread is complex, and has many points of failure.
 Treads are also very prone to defense, and a slight hit from another robot is
 enough to misalign the treads.
 :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren’t great
 either - TETRIX tracks have a tendency to snap and derail when used on
 robot drivetrains, making them not suitable for competition use.
+
 While it is possible to implement tread drive successfully,
 such as in the example below, most inexperienced teams do not have the
 capability and know-how to do so.

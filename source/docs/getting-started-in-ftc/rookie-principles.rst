@@ -15,12 +15,12 @@ and strategic planning stages.
 | * Robot becomes half-baked     | * Robot is highly optimized             |
 | * Cannot excel in one area     | * Consistently excels in one area       |
 +--------------------------------+-----------------------------------------+
-| ***Over*\ complicate**         | **Simplify**                            |
+| **Overcomplicate**             | **Simplify**                            |
 |                                |                                         |
 | * More time needed to iterate  | * Best designs are usually simplest     |
 | * Less reliable                | * Less moving parts                     |
 +--------------------------------+-----------------------------------------+
-| **Score-first designs**        | **Design for consistency**              |
+| **Score-first design**         | **Design for consistency**              |
 |                                |                                         |
 | * Neglect proper principles    | * Usually reliability > scoring ability |
 | * Often wildly inconsistent    | * Great plus for alliance selection     |
@@ -36,8 +36,8 @@ and strategic planning stages.
 | * Design alone is not enough   | * Execution often beats design          |
 +--------------------------------+-----------------------------------------+
 
-Do Everything At Once to Perfect One Objective First
-====================================================
+Doing Everything At Once to Perfecting One Objective First
+==========================================================
 **Consistency is king.**
 
 .. important:: A common pitfall for first year teams is trying to accomplish
@@ -48,11 +48,13 @@ experience to do so.
 It is no small achievement to have a consistent robot that completes all
 objectives
 in competition, even at the higher levels.
+
 Too often, we see teams bring half-baked robots that will attempt to do
 everything in a match, but excel at nothing. Even if they succeed, it is often
 by thin margins and cannot be repeated.
 This robot could be much more successful if the team spent their time to
 perfect one mechanism first.
+
 Teams should always remember the principle that a robot that can complete one
 thing consistently will likely be more competitive than the robot that does
 everything inconsistently.
@@ -64,8 +66,8 @@ it.
     be competitive at the Qualifier level.
     This is a recommended goal for new teams.
 
-Overcomplicate to Simplify
-==========================
+Overcomplex to Simple
+=====================
 .. important:: Another common trap that teams fall into is to overcomplicate
     needlessly. Simplifying your robot simplifies possible headaches later.
 
@@ -74,6 +76,7 @@ keep in mind that those teams are generally experienced, have some sort of
 machining capability, and fully design their robot in CAD.
 However, many world-class teams often build designs that are ingenious yet
 ridiculously simple.
+
 Some advantages to simplicity are that the robot has less points of
 failure, given that the robot has less moving parts.
 Additionally, it takes much less time to iterate through and perfect a simple
@@ -94,8 +97,8 @@ Keeping things simple can be practically achieved through a couple of ways.
    This can help in solving possible problems if the game elements need to
    change direction too many times.
 
-Score-first designs to Design for Consistency
-=============================================
+Score-first Designing to Designing for Consistency
+====================================================
 .. important:: Teams should prioritize consistency over scoring ability.
 
 The tortoise beats the rabbit.
@@ -103,12 +106,14 @@ An overused parable, but it still holds a kernel of truth.
 Why?
 Because the tortoise, which plodded along consistently, beat the rabbit,
 which had hot and cold streaks.
+
 A hallmark of any successful team is consistency and reliability throughout the
 competition season and even across seasons. Sports dynasties are dynasties for
 the reason that they compete at a high level not for a couple games, but for
 multiple seasons.
 Without the power of consistency, it will be nearly impossible to win games,
 let alone a tournament.
+
 Too many teams fall into the pit of prioritizing scoring ability more than
 anything else, which is a grave error.
 In keeping with the first tip, to perfect one objective first,
@@ -127,8 +132,8 @@ ability.**
 They are not afraid to look at teams who can’t score much, but can contribute
 every time to the alliance score, rather than selecting a boom-or-bust pick.
 
-Build haphazardly to Build for reliability
-==========================================
+Building haphazardly to Building for reliability
+================================================
 .. important:: Build for the worst case scenario, not the best case scenario.
     When building, teams often overlook a key principle: build for reliability.
     All too often, teams skimp on the quality of construction as well as
@@ -142,29 +147,34 @@ and test the reliability of the robot.
 To remedy this problem, refer to the
 :doc:`Materials Guide <../hardware-basics/materials-guide>` to gain a better
 understanding of what materials are recommended for use.
+
 If possible, teams should build with redundancy in mind. For example, if one
 set of linear slides fails due to a wire snapping,
 having a second set will still allow the robot to operate
 instead of sitting dead in the water.
 Practically, doubling mechanisms, motors, and servos is a common method to
 build for redundancy.
+
 In addition, teams often forget to account for twisting or compression forces
 that may occur upon the mechanism.
+
 While we cannot give any specific recommendations, do keep in mind what forces
 the support structure of your mechanism must bear along the full range of
 motion, and account for what occurs when it might hit another
 robot/field wall/field.
 Building more robustly is always worth the time spent.
 However, it is good to think about the extra weight that results.
+
 Furthermore, a common cause of robot disconnect is wiring issues.
 Refer to the :doc:`Wiring section <../power-and-electronics/wiring>` for more
 information; in short, make sure to plan ahead and leave space for wires,
 and use strain relief whenever possible.
+
 All these tips combined will help your robot become more reliable,
 a key characteristic of all world-level robots.
 
-Fret about Design to Focus on Execution
-=======================================
+Fretting about Design to Focusing on Execution
+==============================================
 .. tip::
     A good execution of a bad design will beat a bad execution of good design.
 
@@ -181,6 +191,7 @@ Even though not many teams are able to do so, it still goes to show that the
 method of implementation is very important.
 When brainstorming designs, try not to get hung up on small details if
 possible.
+
 It is important to discuss different designs and debate the pros & cons, but
 after a design has been picked, stay with it unless there are major flaws that
 were originally overlooked.
@@ -188,6 +199,7 @@ Changing designs will throw away the time spent on the original design, when
 teams could have kept improving it or practiced more.
 It is possible to rebuild your robot mid-season, and many top teams have done
 so to great success.
+
 However, this is not recommended for rookie and new teams due to the general
 lack of experience. Realistically, expect to spend 50-100+ hours
 to rebuild a robot from the ground up.

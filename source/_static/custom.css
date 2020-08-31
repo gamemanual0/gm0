@@ -35,6 +35,8 @@ div.figure.align-default {
 }
 
 /* Make sure captions cannot be wider than the figure they are describing */
-div.body p.caption {
-      max-width: var(--image-width);
+span.caption-text {
+    display: inline-block;
+    max-width: var(--image-width);
+    text-align: center;
 }

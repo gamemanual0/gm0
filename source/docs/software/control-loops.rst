@@ -11,6 +11,7 @@ What is Error?
 ==============
 The first thing that must be defined when discussing control loops is the
 concept of error.
+
 Error is defined as the difference between where you are and where you want to
 be.
 For instance, say you tell your drivetrain to drive at 30 inches per second,
@@ -39,6 +40,7 @@ output of a PID controller :math:`f` at any given time :math:`t`:
 
 where :math:`K_p`, :math:`K_i`, and :math:`K_d` are constants and :math:`e(t)`,
 as previously mentioned, is the error in the system.
+
 If you have no experience with calculus, don’t worry;
 while PID is fundamentally rooted in calculus,
 you do not need any calculus experience to be able to understand it,
@@ -76,6 +78,7 @@ As you start to drive forward, your error is large,
 so you drive forward quickly, which is desirable.
 After all, you aren’t concerned with overshooting the target yet if you are far
 away from it.
+
 But as the robot’s distance to the target approaches 0,
 you will start to slow down, gaining more control over the robot.
 Once the error is zero, ideally, the robot will stop, and you have reached your
@@ -89,12 +92,14 @@ This term, :math:`K_d D(t)`, is intended to dampen the rate of change of the
 error.
 In other words, it tries to keep the error constant.
 How is this done?
+
 Well, for those of you with calculus under your belt,
 :math:`D(t)=\frac{de(t)}{dt}`.
 For those without calculus experience,
 it represents how fast the error is changing.
 Graphically, :math:`D(t)` is simply the slope of the error at any given time
 :math:`t`.
+
 This slope can be calculated by keeping track of the error over successive
 iterations of the control loop.
 One iteration occurs at time :math:`t_n` with an error of :math:`e(t_n)`.
@@ -109,6 +114,7 @@ Admittedly, the integral term is the least important term for FTC PID control
 loops.
 With a properly tuned :math:`K_p` and :math:`K_d`, you often can just set
 :math:`K_i` to 0 and call it a day.
+
 However, it can still be useful in some cases.
 Just like the derivative term, the integral term intends to correct for
 overshoot.
@@ -118,10 +124,12 @@ Perhaps the motor is no longer being supplied enough power to move.
 Well, given enough time, the integral term will increase the output
 (in this case, motor power),
 causing movement towards the destination.
+
 To explain without calculus, the integral term essentially sums the error over
 a specific interval of time.
 To do this, error in each loop iteration is added to a variable (in this case,
 :math:`I(t)`).
+
 However, summing error this way has an unfortunate side effect:
 the longer the loop takes to complete one iteration,
 the more slowly this sum increases,
@@ -168,20 +176,23 @@ Tuning a PID Loop
 The most important thing to know while tuning a PID loop is how each of the
 terms affects the output.
 This can allow you to see which gains need to be adjusted.
+
 For example, if the target is not reached but instead the setpoint begins to
 oscillate around the target, it means there is not enough D gain.
 If the target is eventually reached, albeit very slowly, that means there is
 not enough P gain or the D gain is too high.
+
 In brief, the P variable drives the error towards zero, the I variable corrects
 for steady state error, and the D variable dampens the effects of the P
 variable, more so as error approaches zero, which prevents overshoot.
 
 The most common method for tuning a PID controller is as follows:
-    1. Set the I and D gains to zero
-    2. Increase the P gain until there are oscillations around the target
-    3. Increase the D gain until no overshoot occurs
-    4. If there is steady state error, increase the I gain until it is
-       corrected
+
+  1. Set the I and D gains to zero
+  2. Increase the P gain until there are oscillations around the target
+  3. Increase the D gain until no overshoot occurs
+  4. If there is steady state error, increase the I gain until it is
+     corrected
 
 An important thing to note is that most systems do not need both I and D
 control.
@@ -191,7 +202,7 @@ Systems with a lot of friction, on the other hand, generally do not need D
 control because the friction facilitates deceleration but need I control
 because the friction prevents the system from reaching the target otherwise.
 
-`For a more in-depth explanation, click here <https://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning>`_
+For a more in-depth explanation, `click here <https://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning>`_
 
 Feedforward Control
 ===================
@@ -201,6 +212,7 @@ or Position-Velocity-Acceleration controller).
 For those without a physics background, velocity is the speed and direction
 something is moving and acceleration is how fast velocity is increasing or
 decreasing.
+
 Unlike PID, feedforward controllers require you to input not only where you
 want to go and where you are, but how fast you want to be moving at all times.
 Unlike feedback control loops such as PID, feedforward control loops don’t
@@ -233,6 +245,7 @@ After all, the entire point of using control loops are to try to create a
 balance of speed and control of a system.
 Remember, in most situations, you want to approach your destination quickly
 if you are far away and slow down if you are close for more control.
+
 For the sake of example, let’s say :math:`v(t)` is a magic function that could
 tell you exactly how fast you should be going at any point.
 To calculate velocity error, subtract your current velocity from the
@@ -272,6 +285,7 @@ way to FTC.
 A motion profile is a function used to change the speed of a power transmission
 system in a controlled and consistent way by changing desired speed gradually
 rather than instantaneously.
+
 Let’s illustrate this with an example: say you want your drivetrain,
 which is initially unmoving, to drive forward at full speed.
 Ordinarily, you would set all drivetrain motors to full power in the code.
@@ -280,6 +294,7 @@ move at full speed instantaneously, the drivetrain takes time to get to full
 speed.
 This can lead to uncontrolled movements which have the potential to make
 autonomous less consistent and, perhaps more importantly, damage mechanisms.
+
 Motion profiling attempts to solve this issue.
 
 Advantages

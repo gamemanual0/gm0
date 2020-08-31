@@ -36,7 +36,7 @@ Rookie Mistakes: Building
 
 
 2 Motor Drivetrain to 4 Motor Drivetrain
-========================================
+================================================
 .. important:: In general, it is not recommended for teams to use 2 motors on
     the drivetrain, but instead use 4.
     This is mainly due to the added power and increased acceleration 4 motors
@@ -86,7 +86,7 @@ However, most if not all of these problems will be solved by using a four-motor
 drivetrain such as the ones recommended in the drivetrain guide
 (mecanum, 6WD, etc.).
 Therefore, it is recommended for teams to refer to the
-:doc:`Drivetrain <../robot-design/drivetrains/index>` section and
+:doc:`drivetrain <../robot-design/drivetrains/index>` section and
 see which drivetrain would fit best for their overall game strategy.
 
 
@@ -138,8 +138,8 @@ due to the configuration of the sun and planet gears.
 In addition, spur gear gearboxes are prone to shock loads; therefore,
 direct drive is not advisable on drivetrains.
 Refer to the
-:doc:`Gearbox Anatomy <../hardware-basics/motor-guide/gearbox-anatomy>`
-for more complete information on gearboxes.
+:doc:`gearbox anatomy <../hardware-basics/motor-guide/gearbox-anatomy>`
+section for more complete information on gearboxes.
 **This refers to using spur gear gearboxes which are attached directly to the
 pinion gear of the motor.
 It does not mean external ratios outside of the motor gearbox,
@@ -157,7 +157,7 @@ which usually in turn will require an expensive gearbox (e.g.
 `VersaPlanetary <https://www.vexrobotics.com/versaplanetary.html>`_)
 that teams on a tight budget may not want to invest in.
 However, there are more inexpensive options such as the REV UltraPlanetary
-motor to consider.
+gearbox to consider.
 Furthermore, arms must be supported extremely well to bear the torque that the
 motor provides. A poorly supported and/or constructed arm will cause the driver
 needless pain as it is exceedingly difficult to line up an arm that constantly

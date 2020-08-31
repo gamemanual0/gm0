@@ -34,15 +34,17 @@ servos for FTC use, so mounts can be interchanged between
 manufacturers.
 
 .. note::
-    FTC robots use standard size :term:`servos <Servo>`,
-    not mini or extreme size.
+    FTC robots typically use standard size :term:`servos <Servo>`, not mini or
+    extreme size.
 
-Commonnly used :term:`servos <Servo>` used in FTC are the REV Smart
-Servo and goBILDA Dual mode Servo (25-2), but you should check out
-other :term:`servos <Servo>` as well.  Picking the right :term:`servo
-<Servo>` for your application is a question that’s almost impossible
-to give a blanket answer for.  To learn more, please read the
-:doc:`Choosing a servo <choosing-servo>` section below.
+Commonly used :term:`servos <Servo>` used in FTC are the REV Smart Servo and
+goBILDA Dual mode Servos (`25-2
+<https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_) and (`25-3
+<https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_), but you
+should check out other :term:`servos <Servo>` as well. Picking the right
+:term:`servo <Servo>` for your application is a question that’s almost
+impossible to give a blanket answer for. To learn more, please read the
+:doc:`choosing-servo` section.
 
 The most prevalent problem with :term:`servos <Servo>` is durability.
 Internal :term:`servo <Servo>` gears in

@@ -34,8 +34,9 @@ seem obvious, but almost every FTC newbie made these mistakes at least once.
   make sure the screw you are using is not longer than the depth of the
   threaded hole - otherwise, the screw will hit the bottom of the hole and you
   will be unable to tighten it properly.
-  This situation commonly happens when attaching parts to a t-slot
-  :term:`extrusion <Extrusion>` (Misumi, REV, goBILDA's goRAIL) - if
+
+  This situation commonly happens when attaching parts to a
+  :term:`t-slot extrusion <Extrusion>` (Misumi, REV, goBILDA's goRAIL) - if
   the screw is too long, it will hit the bottom of the slot, and no matter
   how hard you try, you won't get a tight connection. Another case when this
   situation arises  is when using attachment blocks where two screw holes

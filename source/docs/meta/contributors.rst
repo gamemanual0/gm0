@@ -23,6 +23,7 @@ I’m sure that they would be more than willing to help you out!
 Managing Editors
 ================
 * Tom - FTC Alum - 3736 Serious Business- seminole3736@gmail.com
+* Daniel - FTC 7026 JDroids - dansman805@gmail.com
 * Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
 * Justin - FTC 9656 Omega - evhsomega@gmail.com
 * Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics -
@@ -60,10 +61,10 @@ Hardware & Electrical
 Software
 ========
 * Wes - FTC 3658 Bosons - wgfransen@gmail.com
-* Daniel - FTC 7026 JDroids - dansman805@gmail.com
 * David - FTC 7236 Recharged Green - pellarobotics@gmail.com
 * Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
 * James - FTC 14298 Lincoln Robotics - ftc14298@gmail.com
+* Guineawheek - FTC Alum - `Github <https://github.com/guineawheek/>`_
 
 Hosting
 =======

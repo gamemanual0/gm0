@@ -13,10 +13,11 @@ a linear extension was necessary.
 Access of > 18” is necessary for nearly all games; >24” is preferred.
 In some games, an extension of 36" or more may be needed.
 
-**Note - it is possible to achieve extension with an arm,
-but since this guide is geared toward newer teams,
-linear extensions should be prioritized over arms.
-Refer to the** :doc:`Arm Guide <../arms/index>` **for more information.**
+.. note::
+   It is possible to achieve extension with an arm, but since this
+   guide is geared toward newer teams, linear extensions should be
+   prioritized over arms. Refer to the :doc:`Arm Guide
+   <../arms/index>` for more information.
 
 .. toctree::
    :maxdepth: 1

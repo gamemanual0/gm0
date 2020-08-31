@@ -265,6 +265,9 @@ linkcheck_ignore = ["https://workbench.grabcad.com/workbench/projects/*",
     ".*cabinetparts.com*",
     ".*andymark.com*",
     ".*xrcsimulator.org*"]
+linkcheck_timeout = 30
+linkcheck_retries = 3
+linkcheck_workers = 1 # To stop from hitting github's usage limits
 
 # -- Options for Texinfo output ----------------------------------------------
 

@@ -192,8 +192,11 @@ Polyvinyl chloride (PVC)
 
 Acrylic
 =======
-..  warning:: Acrylic is not a load-bearing material.
-  It will crack and possibly shatter under impact.**
+..  warning::
+
+  Acrylic is not a load-bearing material.
+  It will crack and possibly shatter under impact.
+
   Do not use it on drivetrains by any means!
 
 * Acrylic is a transparent thermoplastic commonly known as Plexiglass.
@@ -232,7 +235,7 @@ Plywood and MDF
 Carbon Fiber
 ============
 
-..  warning::
+.. danger::
   **Machining carbon fiber, like any fibrous substance, is a significant
   SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is
   incredibly dangerous.

@@ -29,15 +29,15 @@ Components of the Engineering Design Process
 In general, the design process contains these steps; however,
 every team will modify the process to their needs and limitations.
 
-* Define the problem - what are you trying to solve? what is the timeline?
-* Specify requirements - what are necessities for your proposed solution?
-* Brainstorm/CAD design - draw or sketch a prototype on paper or in CAD
-* Prototype/Experiment - put a first design together using physical materials
-* Test - ensure you thoroughly test every part of your prototype to detect
-  flaws
-* Analyze results - examine what you learned from your tests to iterate
-  successively
-* Final implementation - polish and solidify a final design that won’t change
+* Define the problem: What are you trying to solve? What is the timeline?
+* Specify requirements: What are necessities for your proposed solution?
+* Brainstorm/CAD Design: Draw or sketch a prototype on paper or in CAD.
+* Prototype/Experiment: Put a first design together using physical materials.
+* Test: Ensure you thoroughly test every part of your prototype to detect.
+  flaws.
+* Analyze results: Examine what you learned from your tests to iterate
+  successively.
+* Final implementation: Polish and solidify a final design that won’t change.
 
 As an example, let’s look at an imaginary team building a drivetrain for
 Rover Ruckus (RR2), which was 2018-2019’s game.
@@ -76,13 +76,14 @@ However, don’t change too many things at once -
 **you want to change ONLY ONE variable at a time**, or else you won’t know what
 may cause a further problem should it arise.
 Always try to change one variable at a time.
-**It often takes multiple iterations to get things right, so don’t be
-discouraged if your second or even third attempt doesn’t perform as well as you
-think it will**.
-Many teams have 10+ iterations of intake designs in order to refine and hone
-down their design to be optimally efficient. While that many tries isn’t
-recommended for new teams,
-don’t be afraid to modify *one factor* at a time to isolate and solve problems.
+
+.. note::
+   **It often takes multiple iterations to get things right, so don’t be
+   discouraged if your second or even third attempt doesn’t perform as well as
+   you think it will**. Many teams have 10+ iterations of intake designs in
+   order to refine and hone down their design to be optimally efficient. While
+   that many tries isn’t recommended for new teams, don’t be afraid to modify
+   *one factor* at a time to isolate and solve problems.
 
 Your final implementation could be just an upgraded prototype,
 or if you had used subpar/scrap materials for a prototype,

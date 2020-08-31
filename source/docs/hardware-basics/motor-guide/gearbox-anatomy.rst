@@ -3,8 +3,8 @@ Gearbox Internals
 =================
 Fundamentally, a gearbox is just a collection of gears and an enclosure that
 connects them. Gearboxes have an **output ratio**,
-the :term:`final gear ratio <Gear Reduction>` between the motor input and the
-:term:`final output shaft <Shaft>`.
+the final :term:`gear ratio <Gear Reduction>` between the motor input and the
+final output :term:`shaft <Shaft>`.
 :term:`Gear ratios <Gear Reduction>` are further explained in the glossary.
 
 In FTC, gearboxes may be more common than you think -
@@ -58,10 +58,10 @@ reduction in a compact space.
 In automotive engineering, planetary gear sets can achieve a few different
 ratios without changing gear size, but all planetary gearboxes that you will
 see in FTC only achieve one gear ratio.
+
 Planetary gearboxes are used in the Andymark Orbital series,
 some REV HD Hex Planetary and UltraPlanetary Motors
-and
-goBILDA’s wide selection of
+and goBILDA’s wide selection of
 :term:`planetary gear motors <Yellow Jacket Motor>`.
 Additionally, AndyMark sells a few aftermarket planetary gearboxes called
 NeveRest Sport and 57 Sport,
@@ -95,5 +95,7 @@ Advantages of Planetary Gearboxes
 * Load capacity is higher for planetary gearboxes.
   This is due to having multiple teeth engaged per stage,
   which spreads the load.
-  **This means planetary gearboxes will not break as easily when used in
-  high-load applications such as drivetrains**.
+
+  .. tip::
+     This means planetary gearboxes will not break as easily when used in
+     high-load applications such as drivetrains.

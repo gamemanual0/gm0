@@ -30,6 +30,7 @@ It must be noted that teams do not need to pick between a fully kit-based robot
 or a fully custom robot.
 In fact, many successful teams are actually a hybrid of both kit and custom
 parts, as can be seen in many of example robots in this section.
+
 However, our suggestion is that inexperienced teams should prioritize 3D
 printing over machining for fabricating custom parts,
 at least for the near term.
@@ -39,9 +40,9 @@ at least for the near term.
 
     8680 Kraken Pinion, Division Semifinalist (Detroit Worlds), Rover Ruckus
 
-    Kit-based drivetrain (Actobotics) and horizontal linear slides (REV) with a
-    custom intake, housing, and mineral container.
-    Kit linear actuator (Actobotics) with custom hook.
+Utilizes a kit-based drivetrain (Actobotics) and horizontal
+linear slides (REV) with a custom intake, housing, and mineral container.
+Kit linear actuator (Actobotics) with custom hook.
 
 .. figure:: images/machining/8393-rr1.jpg
     :alt: 8393 Giant Diencephalic BrainSTEM Robotics Team's Relic Recovery robot
@@ -54,6 +55,5 @@ at least for the near term.
 
     731 Wannabee Strange, Rover Ruckus, Design Award Finalist (Houston)
 
-    3D printed (PETG and TPU) and machined (milled) arm/intake
-
-    Custom HDPE drive train (CNC routed)
+Utilizes a 3D printed (PETG and TPU) and machined (milled) arm/intake with a
+custom HDPE drive train (CNC routed)

@@ -4,24 +4,24 @@ Timing Belt
 When you think of a belt,
 you’re probably thinking of a very important men’s fashion accessory.
 However, there’s another type of belt, and it’s way more relevant to robotics -
-the timing Belt.
+the timing belt.
 If you’ve ever tinkered with the insides of a car before,
 you probably recognize timing belts as an important component designed to keep
 everything under the hood in sync.
-While a timing belt may complete a similar objective to
-:term:`chain <Sprocket>`, its characteristics and strengths are very different.
-Timing belts use a series of small,
-wide teeth to engage a pulley with a number of matching grooves.
-They earn their name because they can be very precise,
-transmitting power with virtually no slop and ensuring a snug connection
-between shafts.
-They’re lighter and more compact than chains,
-but they lack the customizability of their bulkier brother -
-belts come in a closed loop of predetermined length,
-and there’s no changing that length on the fly.
-Like chain, belt is identified by its :term:`pitch <Pitch>` -
-common pitches found on FTC robots include
-HTD 5mm, HTD 3mm, GT2 3mm, and XL 0.2”.
+
+While a timing belt may complete a similar objective to :term:`chain
+<Sprocket>`, its characteristics and strengths are very different.
+Timing belts use a series of small, wide teeth to engage a pulley with
+a number of matching grooves. They earn their name because they can be
+very precise, transmitting power with virtually no slop and ensuring a
+snug connection between shafts. They’re lighter and more compact than
+chains, but they lack the customizability of their bulkier brother -
+belts come in a closed loop of predetermined length, and there’s no
+changing that length on the fly.
+
+Like chain, belt is identified by its :term:`pitch <Pitch>` - common
+pitches found on FTC robots include HTD 5mm, HTD 3mm, GT2 3mm, and XL
+0.2”.
 
 When using timing belts, correct tension is very important.
 There are two main ways to get your tension right.
@@ -41,10 +41,11 @@ real life.
 Terms
 =====
 
-* :term:`Pitch Diameter` (PD) refers to the imaginary circle which is traced by
-  the middle of the belt as the pulley rotates.
-  The outer edge of the circle is halfway between the outer face of the belt
-  and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi`
+* :term:`Pitch Diameter (PD) <Pitch Diameter>` refers to the imaginary
+  circle which is traced by the middle of the belt as the pulley
+  rotates. The outer edge of the circle is halfway between the outer
+  face of the belt and the top face of the pulley groove.
+  :math:`PD = (tooth * pitch)/\pi`
 * Pitch refers to the arc length between the centerlines of two adjacent pulley
   grooves.
   Pitch is simply the amount of pitch diameter in inches per tooth.

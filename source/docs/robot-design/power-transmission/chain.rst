@@ -1,32 +1,33 @@
 ============
 Roller Chain
 ============
-When your shafts aren’t right next to each other,
-roller chain and sprockets will allow you to transmit power securely between
-your shafts.
-Roller chain is made up of a series of links joined by pins.
-Each link can rotate around its pins,
-creating a dynamic loop that can conform to any shape.
-The pins in the chain engage the gaps between teeth on each sprocket.
-If you’ve ridden a bike, chances are that you’ve already seen roller chain -
-the chain on your FTC robot is similar, but it’s probably a different
-**:term:`pitch`** (different size).
-Chains most commonly used in FTC are #25 or 8mm pitch.
+
+When your shafts aren’t right next to each other, roller chain and
+sprockets will allow you to transmit power securely between your
+shafts. Roller chain is made up of a series of links joined by pins.
+Each link can rotate around its pins, creating a dynamic loop that can
+conform to any shape. The pins in the chain engage the gaps between
+teeth on each sprocket. If you’ve ridden a bike, chances are that
+you’ve already seen roller chain - the chain on your FTC robot is
+similar, but it’s probably a different :term:`pitch <Pitch>`
+(different size). Chains most commonly used in FTC are #25 or 8mm
+pitch.
 
 When using chain, often there is a :term:`master link <Master link>`.
 This is a special type of link that has a removable end capsule in
 order to shorten the chain.  However, as it is removable, it is not a
 very reliable chain link and can loosen and fall off under prolonged
 usage.  There have been teams who have had master chain links fail
-during competition, costing them a match in the elimination rounds.  A
-:term:`chain breaker <Chain Breaker>` eliminates the need for master
-links because it can break and join chain at any point.  Chain
-breakers do so by pushing out the pins in the link and re-inserting
-them back.
+during competition, costing them a match in the elimination rounds.
 
-**It is highly recommended that teams purchase a chain breaker
-(we recommend the :term:`DarkSoul` chain breaker) instead of using master
-links, which are prone to failure.**
+A :term:`chain breaker <Chain Breaker>` eliminates the need for master
+links because it can break and join chain at any point. Chain breakers
+do so by pushing out the pins in the link and re-inserting them back.
+
+.. attention::
+   It is highly recommended that teams purchase a :term:`chain breaker
+   <Chain Breaker>` (we recommend the :term:`DarkSoul` chain breaker)
+   instead of using master links, which are prone to failure.
 
 .. figure:: images/chain/master-link.png
     :alt: A disassembled master link
@@ -87,6 +88,7 @@ The best practice is to have 180° or more of contact**,
 as it is very unlikely to fall off with proper tensioning.
 Chain skipping, especially on drivetrains or arms,
 is very possible without proper chain wrap or tensioning.
+
 When tensioning chain, be sure to not undertension or overtension chain.
 Undertensioning chain can result in the chain falling off the sprocket or chain
 skipping, where the chain can skip along the sprocket.

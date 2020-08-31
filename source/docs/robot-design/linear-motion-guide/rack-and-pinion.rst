@@ -2,15 +2,14 @@
 Rack and Pinion
 ===============
 
-Rack and pinion refers to a circular gear (the pinion gear) attached to a shaft
-and meshed to a rack, which is a toothed linear gear.
-When the pinion gear is driven,
-it will drive the pinion gear upwards or downwards,
-depending on how the rack and pinion is mounted.
-Generally, rack and pinion is a good light-use option for FTC teams in terms of
-linear extension.
-However, there are some disadvantages to rack and pinion compared to the other
-options of linear extension.
+Rack and pinion refers to a a toothed linear gear (the rack), meshed
+with a a circular gear (the pinion gear). When the pinion gear is
+driven, it will drive the pinion gear upwards or downwards, depending
+on how the rack and pinion is mounted.
+
+Generally, rack and pinion is a good light-use option for FTC teams in
+terms of linear extension. However, there are some disadvantages to
+rack and pinion compared to the other options of linear extension.
 Therefore, rack and pinion is generally not recommended for teams.
 
 Advantages

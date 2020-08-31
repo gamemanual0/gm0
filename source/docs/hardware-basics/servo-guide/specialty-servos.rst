@@ -14,7 +14,7 @@ capable of 500-2500 microsecond PWM signal, such as :term:`REV
 Expansion Hub <Expansion Hub>`.  This makes it a great option for
 powering linear slides (as long as they do not carry too heavy load).
 
-HS788 is available from several vendors including Servocity and goBILDA,
+HS788 is available from several vendors including ServoCity and goBILDA,
 both of which offer 25% discount to FTC teams.
 
 PARALLAX High Speed CR Servo
@@ -40,10 +40,10 @@ The :term:`393 motor <VEX 393 EDR>` acts as a more powerful and faster
 continuous rotation :term:`servo <Servo>`.
 
 However, there are some difficulties to keep in mind.
-The 393 motor uses a :term:`1/8" square shaft <Shaft>`,
+The 393 motor uses a 1/8" square :term:`shaft <Shaft>`,
 which is not directly compatible with any FTC build system.
 You will have to make custom adapters.
-Using :term:`a 393 motor <VEX 393 EDR>` requires two additional equipment.
+Using a :term:`393 motor <VEX 393 EDR>` requires two additional equipment.
 
 * **Motor Controller 29**
   The :term:`VEX Motor Controller 29` converts

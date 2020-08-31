@@ -11,26 +11,26 @@ kit parts.
 Special Considerations
 ======================
 
-* Actobotics' channel hole pattern has many more mounting holes than a Tetrix
-  channel, so it offers more flexibility in terms of mounting.
+* Actobotics' :term:`channel <Channel>` hole pattern has many more mounting
+  holes than a Tetrix channel, so it offers more flexibility in terms of
+  mounting.
 * Actobotics uses imperial units across the board,
   allowing for clean spacing and fitting. However, most other kits use metric.
 * Actobotics can interface with
   other kits such as REV through a variety of Pattern Adapters.
-* ServoCity offers a 25% off discount for all FIRST teams
-  (https://www.servocity.com/first_team_discounts),
+* ServoCity offers a `25% off discount for all FIRST teams <https://www.servocity.com/first_team_discounts>`_
   making pricing competitive.
 
 Notable Components
 ==================
 
-* :term:`Mini-channel <Channel>` is offered in addition to the standard size
+* Mini-channel is offered in addition to the standard size
   :term:`channel <Channel>` for non-structural components.
 * Actobotics' X-rail :term:`extrusion <Extrusion>` system offers
   immense adjustability and flexibility as it adds a :term:`extrusion
   <Extrusion>` component to a :term:`channel-based <Channel>` kit.
 * To complement the structural offerings, Actobotics uses a series of clamping
-  hubs and a robust :term:`1/4” steel D-shaft <Shaft>`.
+  hubs and a robust 1/4” steel :term:`D-shaft <Shaft>`.
 * The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to
   build extending mechanisms.
 * The :term:`Servoblocks`, which prolongs the life of a servo,
@@ -51,14 +51,14 @@ Kit Parts
 =========
 https://www.servocity.com/ftc-competition-kit-20-21-season/
 
-* Aluminum :term:`c-channel <Channel>` and :term:`mini channel <Channel>`,
+* Aluminum :term:`c-channel <Channel>` and mini channel of
   various lengths
 * X-rail (a special type of extruded rail similar to 8020)
 * Assorted plates and brackets, flat and 90 degree
 * Flat plates
 * Clamping hubs, spacers
 * Gears and sprockets
-* :term:`1/4” d-shaft <Shaft>`
+* 1/4” :term:`D-shaft <Shaft>`
 * Standoffs
 * :term:`HS-488 HB servo <Servo>` (4x), assorted accessories
 * 5201 Series, 53:1 Ratio, 105 RPM Spur Gear Motor
@@ -93,8 +93,7 @@ Advantages
   Actobotics is compatible with the 5mm hex used by REV with their adaptable
   hubs.
 * Actobotics also allows for :term:`face mounting <Face Mounting>` of
-  motors as opposed to :term:`clamp mounting <Clamp Mounting>`.  This is
-  explained in the glossary section.
+  motors as opposed to :term:`clamp mounting <Clamp Mounting>`.
 
 Disadvantages
 =============
@@ -103,9 +102,9 @@ Disadvantages
   Note that with the 25% off FTC team discount,
   Actobotics can be cheaper than TETRIX.
   The only cheaper build system is REV.
-* The :term:`belts <HTD Belt>` from ServoCity are not great.
-  It is recommended that `belts <HTD Belt>` are purchased from vendors other
-  than ServoCity.
+* The :term:`belts <HTD Belt>` from ServoCity are not great. It is recommended
+  that :term:`belts <HTD Belt>` are purchased from vendors other than
+  ServoCity.
   This may necessitate 3D printed belt pulleys and other parts,
   which is more difficult for newer teams.
   There also isn’t a large amount of space inside the channel for a belt or
