@@ -10,8 +10,9 @@ For further reading, we highly suggest you check out those links.**
 * This Guide!
     * `Game Manual 0 <https://gm0.copperforge.cc/en/stable/>`_
 * Official FIRSTInspires Resources
-    * `2019-2020 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
-    * `2019-2020 Game Manual Part 1* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf>`_
+    * `2020-2021 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
+    * `2020-2021 Game Manual Part 1* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf>`_
+    * `2020-2021 Game Manual Part 1 - Remote Events* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-remote.pdf>`_
     * `2019-2020 Game Manual Part 2* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2.pdf>`_
     * `FTC Forum - USFIRST <https://ftcforum.firstinspires.org/>`_
     * `Robot Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`_
