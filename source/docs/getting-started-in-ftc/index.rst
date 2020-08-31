@@ -19,7 +19,7 @@ section.
 On the hardware side, you have your
 :doc:`drivetrain <../robot-design/drivetrains/index>`,
 :doc:`linear extension mechanisms <../robot-design/linear-motion-guide/index>`,
-a :doc:`claw <../robot-design/passive-intake/index>` or
+a :doc:`claw <../robot-design/passive-intake-claw>` or
 :doc:`intake <../robot-design/active-intake/index>` to pick up game elements,
 as well as any other mechanisms specific to the game.
 On the electronics side, there are the two

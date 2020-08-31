@@ -1,17 +1,17 @@
 ============
 Roller Chain
 ============
-When your shafts aren’t right next to each other,
-roller chain and sprockets will allow you to transmit power securely between
-your shafts.
-Roller chain is made up of a series of links joined by pins.
-Each link can rotate around its pins,
-creating a dynamic loop that can conform to any shape.
-The pins in the chain engage the gaps between teeth on each sprocket.
-If you’ve ridden a bike, chances are that you’ve already seen roller chain -
-the chain on your FTC robot is similar, but it’s probably a different
-:term:`pitch` (different size).
-Chains most commonly used in FTC are #25 or 8mm pitch.
+
+When your shafts aren’t right next to each other, roller chain and
+sprockets will allow you to transmit power securely between your
+shafts. Roller chain is made up of a series of links joined by pins.
+Each link can rotate around its pins, creating a dynamic loop that can
+conform to any shape. The pins in the chain engage the gaps between
+teeth on each sprocket. If you’ve ridden a bike, chances are that
+you’ve already seen roller chain - the chain on your FTC robot is
+similar, but it’s probably a different :term:`pitch <Pitch>`
+(different size). Chains most commonly used in FTC are #25 or 8mm
+pitch.
 
 When using chain, often there is a :term:`master link <Master link>`.
 This is a special type of link that has a removable end capsule in
