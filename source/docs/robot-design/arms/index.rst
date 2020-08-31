@@ -6,8 +6,11 @@ robot.
 Unlike linear extensions, arms require lots of torque -
 a standard 40:1 or even 60:1 gearbox will not be suitable in most applications.
 For example, many teams will run a 256:1 gearbox for their rotation motor.
-Do note that such motors must be very well supported, or else the motor may
-torque itself free from its mount.
+
+.. attention::
+   Such motors must be very well supported, or else the motor may
+   torque itself free from its mount.
+
 Rarely should an arm be directly mounted to the driving motor.
 Instead, torque should be transferred via gear, chain, or belt.
 Large arms can also be hard to control
@@ -32,10 +35,14 @@ Advantages
 
 Disadvantages
 =============
-* Arms require an insane amount of torque, and in order to do so,
-  teams must purchase more expensive gearboxes not found in kits,
-  such as the Andymark NeveRest Sport or VersaPlanetary.
-* While single arm arms may be more simple,
+* Arms require an insane amount of torque, and in order to do so, teams must
+  purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV
+  <https://www.revrobotics.com/rev-41-1600/>`_, or the more expensive
+  VersaPlanetary (potentially Lite) and NeveRest Sport. One can also use the
+  high gear ratio `goBILDA 5202 planetary gearbox motors
+  <https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/>`_.
+
+* While single arms may be more simple,
   they cannot provide enough extension for most games.
 
 Types of Arms
