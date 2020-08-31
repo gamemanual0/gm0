@@ -11,12 +11,13 @@ robot.
 It has a colorful and lego-like design and includes sounds of block pieces of
 snapping together.
 
-Using a device and a robot controller phone, connect your device to the phone’s
-Wi-Fi by clicking the three dots in the top right of the
-:term:`RC <Robot Controller>` and select “program / manage”.
-This will display the WiFi SSID and password for you to connect to.
-Go onto your browser (preferably Chrome) and enter the address shown on the
-:term:`RC <Robot Controller>`.
+Using a device and a robot controller phone, connect your device to
+the phone’s Wi-Fi by clicking the three dots in the top right of the
+:term:`RC <Robot Controller>` and select “Program & Manage". This will
+display the WiFi SSID and password for you to connect to. Go onto your
+browser (preferably Chrome, though other modern browser will likely
+work) and enter the address shown on the :term:`RC <Robot
+Controller>`.
 
 Advantages
 ----------
@@ -24,7 +25,8 @@ Advantages
 * Good for beginners: one of the easiest and simplest options to use.
 * Easy to set up: requires a device (laptop, chromebook, tablet) and a phone in
   the Program & Manage screen
-* Programs can be saved directly to the phone.
+* Programs can be saved directly to the phone
+
     * Changes can be made quickly
 * Doesn’t require an external Wi-Fi connection
 
@@ -32,7 +34,8 @@ Disadvantages
 -------------
 
 * Not recommended if you’re already familiar with some type of programming
-    * Primarily a teaching tool for people with no programming experience
+
+  * Primarily a teaching tool for people with no programming experience
 * This will change your primary Wi-Fi network to the
   :term:`Robot Controller's <Robot Controller>` Direct
   Wi-Fi network, and as such, you will be unable to access the internet while
@@ -64,9 +67,9 @@ Advantages
 Disadvantages
 -------------
 
-* Connecting to the robot controller’s Wi-Fi network will prevent you from
-  using anything on the internet including video tutorials and online
-  communication
+* Connecting to the robot controller’s Wi-Fi network will prevent you
+  from using anything on the internet including video tutorials and
+  online communication
 * Using external libraries is difficult and borderline impossible
 * Steeper learning curve than Blocks
 
@@ -84,11 +87,11 @@ Advantages
 * Recommended if you’re learning or have learned some programming,
   even better if you know a little Java.
 * Much greater flexibility than Block
-* Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_,
-  `FTCLib`_, `Road Runner`_, and `RevExtensions2`_
+* Much easier to integrate libraries like `EasyOpenCV`_, `FTC
+  Dashboard`_, `FTCLib`_, `Road Runner`_, and `RevExtensions2`_
 * Can use plugins like `Road Runner`_
-* Can use either a USB connection to the :term:`RC <Robot Controller>` phone,
-  or a wireless connection to upload code.
+* Can use either a USB connection to the :term:`RC <Robot Controller>`
+  phone, or a wireless connection to upload code.
 
   .. note:: Deploy times can be sped up by using `OpenRC Turbo`_.
 * Can debug in real-time

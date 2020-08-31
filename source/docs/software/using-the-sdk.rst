@@ -41,8 +41,9 @@ OpMode Methods
 * ``stop()``: Code inside this method will run exactly once after you press the
   STOP button on the driver station.
 
-Note that unlike LinearOpMode,
-all methods in OpMode must be overwritten to be used.
+.. note::
+   Unlike LinearOpMode, all methods in OpMode must be overwritten to
+   be used.
 
 Reading and Writing to Hardware
 ===============================
@@ -64,6 +65,7 @@ After the object is created, it must be instantiated.
 Part of the opmode superclass is something called ``hardwareMap``.
 ``hardwareMap`` is used in the FTC SDK to instantiate objects rather than
 calling a constructor.
+
 It contains all of the information entered into the configuration on the
 Robot Controller, such as names of hardware and what port it is plugged into.
 Here is an example of instantiating the motor we created above::
@@ -74,6 +76,7 @@ Whatever sensor you are using,
 you will pass that class into the spot where ``DcMotor.class`` is.
 For example, if liftMotor was a Servo, ``Servo.class`` would be passed
 instead.
+
 For the second argument, you pass whatever the device is named in the Robot
 Controller configuration.
 ``hardwareMap`` will then go find what port the device with that name is
@@ -148,6 +151,7 @@ It first goes through a velocity PID,
 and the output from that controller is output to the motor.
 This effectively means that setPower() sets the speed of the motor,
 not the power.
+
 If a power of .2 were fed while this mode is active,
 the motor will attempt to turn the same speed by fluctuating the output voltage
 depending on the load on the motor.
@@ -222,6 +226,7 @@ Inside of every opmode, there are already 2 working gamepad objects,
 ``gamepad1`` and ``gamepad2``.
 ``gamepad1`` is the controller that is connected using start+a, while
 ``gamepad2`` is the controller connected using start+b.
+
 To get input, no functions need to be called;
 rather fields of ``gamepad1`` or ``gamepad2`` need to be accessed.
 Here are a few examples:
@@ -265,8 +270,8 @@ For instance, do not read a sensor more than once per loop.
 Instead, read it once and store the value to a variable if you need to use it
 again at other points in the same loop cycle.
 
-Using a bulk read hardware call can help with this problem.
-A bulk read takes the same 3ms to execute as any other normal hardware call,
-but it returns far more data.
-In order to be able to use bulk reads,
-you must either be running SDK v5.4 or higher, or use RevExtensions2.
+Using a bulk read hardware call can help with this problem. A bulk
+read takes the same 3ms to execute as any other normal hardware call,
+but it returns far more data. In order to be able to use bulk reads,
+you must either be running SDK v5.4 or higher, or use `RevExtensions2
+<https://github.com/OpenFTC/RevExtensions2/>`_.
