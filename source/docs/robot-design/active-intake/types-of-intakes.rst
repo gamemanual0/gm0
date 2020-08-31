@@ -1,7 +1,7 @@
 ===============
 Types of Intake
 ===============
-**Horizontal/top Intake**
+Horizontal/top Intake
     A horizontal intake generally is a wider style of intake that has the
     intake rotating on a horizontal axis or plane.
     Horizontal intakes are generally used for intaking smaller game elements,
@@ -10,7 +10,7 @@ Types of Intake
     Rover Ruckus, where teams needed to pick up small cubes and balls from the
     floor.
 
-**Vertical Intake**
+Vertical Intake
     A vertical intake typically has wheels or other intake components rotating
     on a vertical axis (the z-axis).
     Vertical intakes are more controllable,
@@ -19,7 +19,7 @@ Types of Intake
     impossible to control more than one piece at once,
     such as the foam glyphs in Relic Recovery.
 
-*Below are different implementations of horizontal and vertical intakes.*
+Below are different implementations of horizontal and vertical intakes:
 
 Roller and Wheeled Intakes
 ==========================
@@ -36,6 +36,7 @@ Solid wheel intakes use wheels such as grip and traction wheels to pick up game
 elements.
 They can be effective in picking up large game elements which do not have much
 tolerance difference.
+
 However, compliant wheel intakes generally will be more effective because
 compliant wheels offer more adjustability and forgiveness for the game
 elements.
@@ -50,6 +51,7 @@ as the glyphs in the 2017-2018 season, Relic Recovery.
 Compliant wheel intakes excel at controlling elements with flat surfaces such
 as cubes or rectangular prisms.
 They suffer at picking up balls.
+
 In this game, robots had to pick up glyphs, which were 6 inch foam cubes,
 from the center pit and place them in the cryptobox.
 This game had many wheeled intakes primarily because the wheels had consistent
@@ -139,6 +141,7 @@ generally feature sprockets, wheels, or gears at two ends,
 with rubber bands interlaced in between to form a pliable and bendable roller.
 Generally, it can be actuated or adjustable with a servo,
 although this is not necessary.
+
 Rubber band intakes are great with intaking balls, but not so great with other
 types of game elements such as cubes.
 It generally is slower than a surgical tubing intake,
@@ -164,23 +167,27 @@ Surgical tubing or spearfishing rubber tubing,
 sold by many different manufacturers,
 is a great option for picking up small game elements such as the minerals from
 Res-Q or Rover Ruckus.
+
 Surgical tubing intakes can, and often,
 have multiple sets of tubing in order to move minerals from the collection
 point to the holding box.
 This was most often seen in games where robots had to transfer minerals from
 the field to an elevated location.
+
 Unlike wheeled and rubber band intakes, which can be spring-loaded,
 surgical tubing intakes are practically always fixed at a certain height and
 angle.
 
 Surgical tubing by itself is soft and pliable.
-Teams have two options:
-1) increase the RPM to 800-1000+ RPM,
-or use polyurethane tubing at a lower RPM (100-250 RPM).
-Polyurethane tubing can be purchased at a local hardware store and is a clear
-tubing that is quite stiff.
-Using some lubricant, insert the clear tubing into the surgical tubing for
-added stiffness.
+Teams have two options
+
+1) Increase the RPM to 800-1000+ RPM
+2) Use polyurethane tubing at a lower RPM (100-250 RPM).
+
+   Polyurethane tubing can be purchased at a local hardware store and
+   is a clear tubing that is quite stiff. Using some lubricant, insert
+   the clear tubing into the surgical tubing for added stiffness.
+
 It is encouraged that teams test different RPMs and stiffness to develop the
 optimal intake.
 You will be surprised how changing one small variable such as the

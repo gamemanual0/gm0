@@ -14,5 +14,5 @@ design of common components of FTC robots: drivetrain, linear motion
     power-transmission/index
     linear-motion-guide/index
     arms/index
-    passive-intake/index
+    passive-intake-claw
     active-intake/index

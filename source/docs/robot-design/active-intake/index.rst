@@ -23,14 +23,15 @@ used a 3.7:1 (1600 RPM) motor or a 5.2:1 (1000 RPM) motor on their intake.
     one motor to their intake if possible.
 
 
-“Touch it, own it”: the JVN school of picking stuff up
-======================================================
+.. attention::
+   When it comes to intakes, the JVN school of picking stuff: "**Touch
+   it, own it**" is really valuable.
 
-When your intake comes in contact with game elements,
-you want it to instantly control them.
-You should design with a margin for error,
-both in the orientation of the game piece and in the alignment of the robot.
-For example, look at FRC team 694’s ball intake on their 2019 robot:
+When your intake comes in contact
+with game elements, you want it to instantly control them. You should
+design with a margin for error, both in the orientation of the game
+piece and in the alignment of the robot. For example, look at FRC team
+694’s ball intake on their 2019 robot:
 
 .. figure:: images/frc694-ball-intake.png
     :alt: FRC 694's Deep Space ball intake with 2 horizontal rollers with compliant wheels
