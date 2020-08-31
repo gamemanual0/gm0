@@ -18,8 +18,12 @@ system.
 Igus is a brand known and trusted by robotics teams and manufacturers,
 but their parts are certainly not cheap, and can reach into the $100+ range.
 
-**If linear slide kits aren't for you, we recommend the MiSUMI slides for newer
-teams**, especially if you are using REV, as MiSUMIi uses the M3 standard.
+**If linear slide kits aren't for you, we recommend the Long Robotics
+or MiSUMI slides for newer teams.** MiSUMI slides interface better
+with REV products, while Long Robotics slides work well with
+:term:`extrusion <Extrusion>` based building systems or those that
+have 8mm pitch holes (such as goBILDA), are cheaper, and are of
+comparable quality.
 
 .. attention::
    Drawer slides should be mounted oriented vertically, like in an
