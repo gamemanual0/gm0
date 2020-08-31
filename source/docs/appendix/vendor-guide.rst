@@ -45,6 +45,7 @@ Where can I get ...?
     * TETRIX TorqueNado
 
   * Planetary Gearbox Motors (recommended)
+
     * :term:`AndyMark NeveRest <NeveRest Motor>` Orbital
     * :term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*
     * :term:`goBILDA 5202 Yellow Jacket Planetary <Yellow Jacket Motor>`
