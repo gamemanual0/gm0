@@ -45,7 +45,7 @@ For further reading, we highly suggest you check out those links.**
 
   * `goBILDA with TETRIX (Blog for interfacing goBILDA with TETRIX) <https://gobildatetrix.blogspot.com>`_
   * `SDP-SI Timing Belt and Pulley Guide <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_
-    * `SDP-SI Designing Belt Drives <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_
+  * `SDP-SI Designing Belt Drives <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_
   * `KHK Guide to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_
   * `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_
   * `Gear Efficiency Comparisons <https://www.meadinfo.org/2008/11/gear-efficiency-spur-helical-bevel-worm.html>`_
@@ -64,6 +64,7 @@ For further reading, we highly suggest you check out those links.**
   * `Guide to Rendering in CAD <https://drive.google.com/file/d/1t8Ke626MCedOHR4kzaNYtMdG7IC0bhGs/view>`_  - Justin, FTC 9656
   * `GrabCAD Workbench (Git for CAD) <https://grabcad.com/workbench>`_
   * 4137 Islandbots Library of goBILDA parts in Fusion360 format:
+
     * `axles, hubs, wheels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9688994ea9aacfd8be4>`_
     * `beams <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9682676eb9a313d7bc3>`_
     * `channels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96826b9e501683ff783>`_
