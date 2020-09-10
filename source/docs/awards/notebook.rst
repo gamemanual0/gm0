@@ -179,3 +179,14 @@ ask while writing this section are below.
 
 This also includes your first unrealized ideas that your team talked
 about right when the team came together after the season was released.
+
+Notebook Gallery
+================
+
+* Relic Recovery
+
+  * `4042 (West Super Regional Innovate Winner)
+    <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
+* Rover Ruckus
+
+  * `9794 (Detroit Championship Think Finalist) <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
