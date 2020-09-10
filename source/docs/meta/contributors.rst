@@ -32,7 +32,7 @@ Managing Editors
 Hardware & Electrical
 =====================
 * Kelvin - FTC Alum - 731 Wannabee Strange
-* David - FTC 2753 Team Overdrive
+* David - FTC Alum - 2753 Team Overdrive
 * Sam - FTC 2753 Team Overdrive
 * Tyler - FRC 3184 Blaze Robotics
 * Tom - FTC Alum - 3736 Serious Business- seminole3736@gmail.com
