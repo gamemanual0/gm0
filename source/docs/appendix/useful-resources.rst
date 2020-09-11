@@ -69,7 +69,7 @@ For further reading, we highly suggest you check out those links.**
     * `beams <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9682676eb9a313d7bc3>`_
     * `channels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96826b9e501683ff783>`_
     * `gears, sprockets, pulleys <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b60d668ba4d1ca75>`_
-    * `goRAIL< v-guide, lead screw <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968884b4294ac6c801c>`_
+    * `goRAIL: v-guide, lead screw <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968884b4294ac6c801c>`_
     * `motors, servos, accessories <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96828a1241166318535>`_
     * `mounts, spacers, adapters <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96856c1eb9ba296a12c>`_
     * `plates, brackets <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9684fca616ff1b1a077>`_
@@ -79,6 +79,7 @@ For further reading, we highly suggest you check out those links.**
   * `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
   * `JuliaDesignCalc (JVN Alternative with Flywheel Calculations) <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_
   * `Thad's EveryCalc <https://thaddeus-maximus.github.io/everycalc/>`_
+  * `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_
   * `Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
   * `Pulley Center-to-Center Calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
   * `Pulley Center-to-Center Calculator, alternate version <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_
