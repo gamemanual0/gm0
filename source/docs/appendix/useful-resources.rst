@@ -96,7 +96,9 @@ For further reading, we highly suggest you check out those links.**
   * `REV Robotics Expansion Hub Guide  <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
   * `OpenFTC (useful programming tools)*  <https://github.com/OpenFTC>`_ - 4634 FROGbots
   * `FTCLib ("Library for everything you will ever need and more")  <https://github.com/FTCLib/FTCLib>`_
-  * `RoadRunner (FTC 2D Robot Motion Library)  <https://github.com/acmerobotics/road-runner>`_
+  * `Road Runner (FTC 2D Robot Motion Library)  <https://github.com/acmerobotics/road-runner>`_
+  * `Road Runner Quickstart <https://github.com/acmerobotics/road-runner-quickstart>`__
+  * `Learn Road Runner <https://www.learnroadrunner.com/>`_
   * `FTC Dashboard (Tool for monitoring and debugging FTC applications remotely) <https://github.com/acmerobotics/ftc-dashboard>`_
   * `Virtual Robot (Write OpModes without a robot!) <https://github.com/Beta8397/virtual_robot>`_
   * `Editable Control Award Document <https://cdn.discordapp.com/attachments/322801353804218368/650427404623282196/Final_Control_Award.docx>`_ - Ryan, FTC 1002
