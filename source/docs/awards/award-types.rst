@@ -5,8 +5,9 @@ Award Types
 Advancing Awards
 ================
 
-There are 7 awards for FTC teams (excluding optional awards).
-In order of advancement priority, these are:
+There are 7 awards for FTC teams (excluding optional awards). For more
+information on the exact requirements for these awards, see |gm1|. In order of
+advancement priority, these are:
 
 .. glossary::
    Inspire Award
@@ -30,22 +31,20 @@ In order of advancement priority, these are:
 
       Official Game Manual Description
          This judged award is given to the team that best embodies the
-         ‘challenge’ of the FIRST Tech Challenge program. The Team
-         that receives this award is a strong ambassador for FIRST
-         programs and a role model FIRST Team. This Team is a top
-         contender for many other judged awards and is a gracious
-         competitor. The Inspire Award winner is an inspiration to
-         other Teams, acting with Gracious Professionalism® both on
-         and off the playing field. This Team shares their
-         experiences, enthusiasm and knowledge with other teams,
-         sponsors, their community, and the Judges. Working as a unit,
-         this Team will have shown success in performing the task of
-         designing and building a Robot.
+         ‘challenge’ of the FIRST Tech Challenge program. The Team that receives
+         this award is a strong ambassador for FIRST programs and a role model
+         FIRST Team. This Team is a top contender for many other judged awards
+         and is a gracious competitor. The Inspire Award winner is an
+         inspiration to other Teams, acting with Gracious Professionalism® both
+         on and off the playing field. This Team shares their experiences,
+         enthusiasm and knowledge with other teams, sponsors, their community,
+         and the Judges. Working as a unit, this Team will have shown success in
+         performing the task of designing and building a Robot.
 
    Think Award
-      The Think award is based entirely on the |EN|. In order to have
-      a chance at winning, should include as much math and physics as
-      possible in the |EN|, and document the entire journey of the
+      The Think award is based entirely on the |EN| and Engineering Portfolio.
+      In order to have a chance at winning, should include as much math and
+      physics as possible in the |EN|, and document the entire journey of the
       robot.
 
       For the Think award, it’s required to have a summary page in the
@@ -54,17 +53,17 @@ In order of advancement priority, these are:
         Official Game Manual Description
             This judged award is given to the Team that best reflects the
             journey the Team took as they experienced the engineering design
-            process during the build season.
-            The engineering content within the notebook is the key reference
-            for Judges to help identify the most deserving Team.
-            The Team’s engineering content must focus on the design and build
-            stage of the Team’s Robot.
-            Journal entries should include descriptions of the underlying
-            science and mathematics of the Robot design and game strategies,
-            the designs, redesigns, successes,
-            and opportunities for improvement.
-            A Team is not a candidate for this award if their notebook does not
-            include engineering content.
+            process during the build season. The engineering content within the
+            portfoliois the key reference for Judges to help identify the most
+            deserving Team. The Team’s engineering content must focus on the
+            design and build stage of the Team’s Robot.
+
+            Additional detailed information that is helpful for the Judges would
+            be in the team’s Engineering Notebook and would include descriptions
+            of the underlying science and mathematics of the Robotdesign and
+            game strategies, the designs, redesigns, successes, and
+            opportunities for improvement. A Team is not a candidate for this
+            award if their portfolio does not include engineering content.
 
    Connect Award
        The Connect Award is one of the two outreach awards. This award
@@ -79,18 +78,16 @@ In order of advancement priority, these are:
        advice.
 
        Official Game Manual Description
-          This judged award is given to the Team that most connects
-          with their local science, technology, engineering, and math
-          (STEM) community. A true FIRST team is more than a sum of
-          its parts and recognizes that engaging their local STEM
-          community plays an essential part in their success. The
-          recipient of this award is recognized for helping the
-          community understand FIRST, the FIRST Tech Challenge, and
-          the Team itself. The Team that wins the Connect Award
-          aggressively seeks and recruits engineers and explores the
-          opportunities available in the world of engineering, science
-          and technology. This Team has a clear Team plan and has
-          identified steps to achieve their goals.
+           This judged award is given to the Team that most connects with their
+           local science, technology, engineering, and math (STEM) community. A
+           true FIRST team is more than a sum of its parts and recognizes that
+           engaging their local STEM community plays an essential part in their
+           success. The recipient of this award is recognized for helping the
+           community understand FIRST, the FIRST Tech Challenge, and the Team
+           itself. The Team that wins the Connect Award aggressively seeks and
+           recruits engineers and explores the opportunities available in the
+           world of engineering, science and technology. This Team has a clear
+           Team plan and has identified steps to achieve their goals.
 
    Innovate Award
       The Innovate award is just like what it sounds like - it’s for
@@ -103,27 +100,24 @@ In order of advancement priority, these are:
       but others feel that software only fits under control.
 
       Official Game Manual Description
-         The Collins Aerospace Innovate Award celebrates a Team that
-         thinks outside the box and has the ingenuity, creativity and
-         inventiveness to make their designs come to life. This judged
-         award is given to the Team that has the most innovative and
-         creative Robot design solution to any specific components in
-         the FIRST Tech Challenge game. Elements of this award include
-         elegant design, robustness, and ”out of the box” thinking
-         related to design. This award may address the design of the
-         whole Robot or of a sub-assembly attached to the Robot. The
-         creative component must work consistently, but a Robot does
-         not have to work all the time during Matches to be considered
-         for this award. The Team’s engineering notebook must include
-         journal entries to show the design of the component or
-         components and the Team’s Robot to be eligible for this
-         award. Entries must describe how the Team arrived at their
-         solution.
+         The Collins Aerospace Innovate Award celebrates a Team that thinks
+         outside the box and has the ingenuity, creativity and inventiveness to
+         make their designs come to life. This judged award is given to the
+         Team that has the most innovative and creative Robot design solution
+         to any specific components in the FIRST Tech Challenge game. Elements
+         of this award include elegant design, robustness, and ”out of the box”
+         thinking related to design. This award may address the design of the
+         whole Robot or of a sub-assembly attached to the Robot. The creative
+         component must work consistently, but a Robot does not have to work
+         all the time during Matches to be considered for this award. The
+         Team’s engineering notebook must include journal entries to show the
+         design of the component or components and the Team’s Robot to be
+         eligible for this award. Entries must describe how the Team arrived at
+         their solution.
 
-        For presenting for this award, do your best to sell a few innovative
-        parts,
-        and be prepared to explain the most innovative part of your robot,
-        as that is a common question judges ask.
+      For presenting for this award, do your best to sell a few innovative
+      parts, and be prepared to explain the most innovative part of your robot,
+      as that is a common question judges ask.
 
    Control Award
       The Control award is meant to recognize a team that has a good
@@ -138,17 +132,15 @@ In order of advancement priority, these are:
       sheet which is a condensed summary of a team’s software.
 
       Official Game Manual Description
-         The Control Award celebrates a Team that uses sensors and
-         software to increase the Robot’s functionality in the field.
-         This award is given to the Team that demonstrates innovative
-         thinking to solve game challenges such as autonomous
-         operation, improving mechanical systems with intelligent
-         control, or using sensors to achieve better results. The
-         control component should work consistently in the field. The
-         Team’s engineering notebook must contain details about the
-         implementation of the software, sensors, and mechanical
-         control, but does not need to include copies of the code
-         itself.
+         The Control Award celebrates a Team that uses sensors and software to
+         increase the Robot’s functionality in the field. This award is given
+         to the Team that demonstrates innovative thinking to solve game
+         challenges such as autonomous operation, improving mechanical systems
+         with intelligent control, or using sensors to achieve better results.
+         The control component should work consistently in the field. The
+         Team’s engineering portfolio must contain a summary of the software,
+         sensors, and mechanical control, butwould likely not include copies of
+         the code itself.
 
       For winning this award, teams are recommended to work on making
       their robots intelligent. The Control award doesn’t just focus
@@ -208,15 +200,14 @@ In order of advancement priority, these are:
       writing a team plan for advice.
 
       Official Game Manual Description
-         This Team embraces the culture of FIRST and clearly shows
-         what it means to be a team. This judged award celebrates the
-         Team that represents the essence of the FIRST Tech Challenge
-         competition through Gracious Professionalism and general
-         enthusiasm for the overall philosophy of FIRST and what it
-         means to be a FIRST Tech Challenge Team. This is a Team who
-         makes a collective effort to make FIRST known throughout
-         their school and community, and sparks others to embrace the
-         culture of FIRST.
+          This Team embraces the culture of FIRST and clearly shows what it
+          means to be a team. This judged award celebrates the Team that
+          represents the essence of the FIRST Tech Challenge competition
+          through Gracious Professionalism and general enthusiasm for the
+          overall philosophy of FIRST and what it means to be a FIRST Tech
+          Challenge Team. This is a Team who makes a collective effort to make
+          FIRST known throughout their school and community, and sparks others
+          to embrace the culture of FIRST.
 
    Design Award
       The Design award is one of the robot awards that primarily
@@ -236,14 +227,13 @@ In order of advancement priority, these are:
       presentable.
 
       Official Game Manual Description
-         This judged award recognizes design elements of the Robot
-         that are both functional and aesthetic. The Design Award is
-         presented to Teams that incorporate industrial design
-         elements into their solution. These design elements could
-         simplify the Robot’s appearance by giving it a clean look, be
-         decorative in nature, or otherwise express the creativity of
-         the Team. The Robot should be durable, efficiently designed,
-         and effectively address the game challenge.
+         This judged award recognizes design elements of the Robot that are
+         both functional and aesthetic. The Design Award is presented to Teams
+         that incorporate industrial design elements into their solution. These
+         design elements could simplify the Robot’s appearance by giving it a
+         clean look, be decorative in nature, or otherwise express the
+         creativity of the Team. The Robot should be durable, efficiently
+         designed, and effectively address the game challenge.
 
 Connect vs Motivate
 -------------------
