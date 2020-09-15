@@ -14,7 +14,7 @@ For further reading, we highly suggest you check out those links.**
 
   * `2020-2021 Game and Season Information <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
   * `2020-2021 Game Manual Part 1* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-traditional-events.pdf>`_
-  * `2020-2021 Game Manual Part 1 - Remote Events* <hhttps://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf>`_
+  * `2020-2021 Game Manual Part 1 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf>`_
   * `2020-2021 Game Manual Part 2* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-traditional-events.pdf>`_
   * `2020-2021 Game Manual Part 2 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-remote-events.pdf>`_
   * `FTC Forum - USFIRST <https://ftcforum.firstinspires.org/>`_
