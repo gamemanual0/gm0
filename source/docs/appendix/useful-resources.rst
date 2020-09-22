@@ -28,7 +28,6 @@ For further reading, we highly suggest you check out those links.**
   * `Mentor Manual <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf>`_
 * General Team Resources
 
-  * `KNO3 Software/Mechanical/CAD Resources <https://www.kno3.net/resources>`_
   * `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
   * `FIRST things FIRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
   * `(Unofficial) FTC Tutorials <http://ftctutorials.com/>`_
