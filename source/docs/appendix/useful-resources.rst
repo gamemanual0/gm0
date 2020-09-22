@@ -105,6 +105,7 @@ For further reading, we highly suggest you check out those links.**
   * `Editable Control Award Document <https://cdn.discordapp.com/attachments/322801353804218368/650427404623282196/Final_Control_Award.docx>`_ - Ryan, FTC 1002
   * `Learn Java for FTC <https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf>`_
   * `Learn (FTC) Code <https://omega9656.github.io/learn-code/>`_
+  * `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
 * Vendor Resources
 
   * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
