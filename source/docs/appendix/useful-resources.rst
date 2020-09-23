@@ -43,6 +43,7 @@ For further reading, we highly suggest you check out those links.**
   * `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
 * Building Resources - Applications
 
+  * `Mechatronics: Technologies, Principles, Design, and Analysis of Complex Electro-mechanical Systems <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_
   * `goBILDA with TETRIX (Blog for interfacing goBILDA with TETRIX) <https://gobildatetrix.blogspot.com>`_
   * `SDP-SI Timing Belt and Pulley Guide <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_
   * `SDP-SI Designing Belt Drives <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_
