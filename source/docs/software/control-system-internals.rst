@@ -17,8 +17,8 @@ If an Android phone and Expansion Hub is used, :term:`LynxMessages
 not just because of the increased reliability with UART instead of USB, but
 also because :term:`LynxMessages <LynxMessage>` take approximately 3
 milliseconds over USB and approximately 2 milliseconds over UART. (The only
-exception is :term:`LynxMessages <LynxMessage>` that interact with I2C; these take upward of
-7 milliseconds over USB, and **???** over UART.)
+exception is :term:`LynxMessages <LynxMessage>` that interact with I2C; these
+take upward of 7 milliseconds over USB, and **???** over UART.)
 
 
 Control System Glossary
@@ -34,4 +34,4 @@ Control System Glossary
         A `LynxMessage
         <https://github.com/OpenFTC/OpenRC-Turbo/blob/master/Hardware/src/main/java/com/qualcomm/hardware/lynx/commands/LynxMessage.java>`_
         represents a message that can be sent to a :term:`Lynx` module; it can
-        send and recieve information.
+        send and receive information.
