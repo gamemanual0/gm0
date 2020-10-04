@@ -4,37 +4,29 @@ Control System Internals
 
 When using any method in the FTC SDK that accesses hardware, be that setting
 motor power, reading an encoder, a sensor, etc a :term:`LynxMessage` is sent.
-These are blocking, which means that only one can be sent over an interface at
-a time, and if more than one is sent they are run sequentially.
+These are blocking on the interconnnect level (be it USB or UART) for each
+hub, which means that only one can be sent to a hub at a time.
 
 .. warning::
-   :term:`LynxMessages <LynxMessage>` being blocking means that multithreading
-   hardware calls is at best not helpful and typically harmful.
+   :term:`LynxMessages <LynxMessage>` being blocking (and more specifically a
+   hub-level interconnect lock being present) means that multithreading
+   hardware calls is at best not helpful and typically harmful to performance.
 
 If an Android phone and Expansion Hub is used, :term:`LynxMessages
 <LynxMessage>` are sent over USB; however if a Control Hub is used,
 :term:`LynxMessages <LynxMessage>` are sent over UART. This is very important,
 not just because of the increased reliability with UART instead of USB, but
 also because :term:`LynxMessages <LynxMessage>` take approximately 3
-milliseconds over USB and approximately 2 milliseconds over UART. (The only
-exception is :term:`LynxMessages <LynxMessage>` that interact with I2C; these
-take upward of 7 milliseconds over USB, and **???** over UART.)
+milliseconds over USB and approximately 2 milliseconds over UART.
+
+.. note::
+   Interacting with I2C devices takes significantly longer; upwards of 7
+   milliseconds over USB. However, this is not because each :term:`LynxMessage`
+   takes longer, but because multiple :term:`LynxMessages <LynxMessage>` must
+   be sent to interact with I2C.
 
 Bulk Reads
 ==========
-.. sidebar::
-   SDK Version 5.3 or Below
-
-   If you are on an SDK version 5.3 or below, there still is as a way to do
-   bulk reads. **However, the minimum legal SDK version is 6.0 for Ultimate
-   Goal, and there is no advantage to this method if you are running a more
-   modern SDK.**
-
-   That being said, if you are using an SDK version 5.3 or below, to use bulk
-   reads `RevExtensions2 <https://github.com/OpenFTC/RevExtensions2/>`_ is
-   recommended; to see how to do this, see the `example
-   <https://github.com/OpenFTC/RevExtensions2/blob/master/examples/src/main/java/org/openftc/revextensions2/examples/BulkDataExample.java>`_.
-
 Bulk reads are a :term:`LynxMessage` that reads all sensor values (except I2C)
 on a hub at once. This takes the same amount of time to execute as any other
 :term:`LynxMessage`, and can therefore save a lot of time in the execution
@@ -46,6 +38,14 @@ way to easily access it. There are 3 modes available: ``OFF`` mode, ``AUTO``
 mode, and ``MANUAL`` mode. Here is `the official example
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_
 on how to use bulk reads.
+
+.. warning::
+   On SDK version 5.4, ``AUTO`` and ``MANUAL`` bulk read modes will
+   occasionally throw a ``NullPointerException`` (see `this GitHub issue
+   <https://github.com/FIRST-Tech-Challenge/SkyStone/issues/232>`_). Note this
+   has since been rectified in SDK version 5.5. Also note that the minimum
+   legal SDK version for Ultimate Goal is 6.0, meaning that this is no longer
+   be an issue on a device with legal software.
 
 Off Mode
 --------
