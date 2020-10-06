@@ -41,13 +41,14 @@ the approximations for the math. Teams should update their robot
 pose every cycle of their control loop.
 
 Updating the pose is as simple as adding the change to the previous
-pose:
+pose where :math:`\varphi = \Delta\theta`:
 
 .. math::
-    \varphi = \Delta\theta
-
     \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
     +\begin{pmatrix}\Delta x\\\Delta y\\\varphi\end{pmatrix}
 
 The idea of odometry is to use sensor data and math to form
 an approximation for the robot's pose over time.
+
+Finding the Change in Position
+================================
