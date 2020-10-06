@@ -3,33 +3,41 @@ Control System Internals
 ========================
 
 When using any method in the FTC SDK that accesses hardware, be that setting
-motor power, reading an encoder, a sensor, etc a :term:`LynxMessage` is sent.
+motor power, reading an encoder, a sensor, etc a :term:`LynxCommand` is sent.
 These are blocking on the interconnnect level (be it USB or UART) for each
 hub, which means that only one can be sent to a hub at a time.
 
-.. warning::
-   :term:`LynxMessages <LynxMessage>` being blocking (and more specifically a
-   hub-level interconnect lock being present) means that multithreading
-   hardware calls is at best not helpful and typically harmful to performance.
+.. note::
+   :term:`LynxCommands <LynxCommand>` are not sent directly from the Robot
+   Controller to an :term:`Expansion Hub` through USB; they are sent through
+   an FTDI, which bridges to UART.
 
-If an Android phone and Expansion Hub is used, :term:`LynxMessages
-<LynxMessage>` are sent over USB; however if a Control Hub is used,
-:term:`LynxMessages <LynxMessage>` are sent over UART. This is very important,
+.. warning::
+   :term:`LynxCommands <LynxCommand>` being blocking (and more specifically a
+   per-bus master lock being present) means that multithreading hardware calls
+   is at best not helpful and typically harmful to performance.
+
+If an Android phone and Expansion Hub is used, :term:`LynxCommands
+<LynxCommand>` are sent over USB; however if a Control Hub is used,
+:term:`LynxCommands <LynxCommand>` are sent over UART. This is very important,
 not just because of the increased reliability with UART instead of USB, but
-also because :term:`LynxMessages <LynxMessage>` take approximately 3
+also because :term:`LynxCommands <LynxCommand>` take approximately 3
 milliseconds over USB and approximately 2 milliseconds over UART.
 
 .. note::
    Interacting with I2C devices takes significantly longer; upwards of 7
-   milliseconds over USB. However, this is not because each :term:`LynxMessage`
-   takes longer, but because multiple :term:`LynxMessages <LynxMessage>` must
+   milliseconds over USB. However, this is not because each :term:`LynxCommand`
+   takes longer, but because multiple :term:`LynxCommands <LynxCommand>` must
    be sent to interact with I2C.
+
+   Please note that since version 5.5 of the SDK, I2C calls on the Control Hub
+   are much faster than those on the Expansion Hub.
 
 Bulk Reads
 ==========
-Bulk reads are a :term:`LynxMessage` that reads all sensor values (except I2C)
+Bulk reads are a :term:`LynxCommand` that reads all sensor values (except I2C)
 on a hub at once. This takes the same amount of time to execute as any other
-:term:`LynxMessage`, and can therefore save a lot of time in the execution
+:term:`LynxCommand`, and can therefore save a lot of time in the execution
 loop; with a bulk read, reading ten sensors takes as much time as reading one
 sensor (if they are not I2C and are on the same hub).
 
@@ -49,8 +57,16 @@ on how to use bulk reads.
 
 Off Mode
 --------
-This is the default, and the most boring; it means bulk reads are disabled.
-However, to manually set it you need to run
+This is the default, and the most boring; it means bulk reads are not used by
+the sdk when calling normal hardware-access methods.
+
+.. note::
+   Bulk reads can still be accessed by calling
+   ``LynxModule.getBulkInputData()`` method, however if one wishes to use bulk
+   reads (which we highly recommend) using ``AUTO`` or ``MANUAL`` modes is
+   simpler.
+
+To manually set ``OFF`` mode, you need to run
 ::
 
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
@@ -141,13 +157,49 @@ Control System Internals Glossary
 =================================
 
 .. glossary::
-    Lynx
-        "Lynx" is the codename used within the FTC SDK for the Expansion Hub.
-        Since the Control Hub is basically a System on a Chip running Android
-        attached to an Expansion Hub, it is used for the Control Hub too.
+   Control Hub
+      The :term:`Control Hub` is an :term:`Expansion Hub` with an embedded
+      Android single-board computer daughterboard connected to it. This
+      enables it to not need a Robot Controller. Internally,
+      :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard
+      to the :term:`Lynx board <Lynx>` over UART.
 
-    LynxMessage
-        A `LynxMessage
-        <https://github.com/OpenFTC/OpenRC-Turbo/blob/master/Hardware/src/main/java/com/qualcomm/hardware/lynx/commands/LynxMessage.java>`_
-        represents a message that can be sent to a :term:`Lynx` module; it can
-        send and receive information.
+      .. warning::
+         Don't take apart a Control Hub unless you really know what you are
+         doing. They can be damaged in the process, especially if one does not
+         know how to properly reassemble it.
+
+      .. figure:: images/control-system-internals/control-hub-internals.jpg
+         :alt: The single board computer and :term:`Lynx` board from a Control
+               Hub
+
+   Expansion Hub
+      The Expansion Hub contains a :term:`Lynx Board <Lynx>`. It can be
+      controlled by an Android device running the FTC SDK. This will send it
+      :term:`LynxCommands <LynxCommand>`, which will cause the Expansion Hub to
+      respond accordingly.
+
+      For more information, see the `official REV Expansion Hub documentation
+      <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
+
+   Lynx
+      "Lynx" is the codename of the board within the :term:`Expansion Hub` and
+      :term:`Control Hub` that interacts with hardware. References to "Lynx"
+      are made in the FTC SDK refer to this board.
+
+
+      .. warning::
+         Don't take apart a Control or Expansion Hub unless you really know
+         what you are doing. They can be damaged in the process, especially if
+         one does not know how to properly reassemble it.
+
+      .. figure:: images/control-system-internals/lynx-board.jpg
+         :alt: A Lynx board that was removed from its case
+
+         A Lynx Board that was removed from its case
+
+   LynxCommand
+      A `LynxCommand
+      <https://github.com/OpenFTC/Extracted-RC/blob/master/Hardware/src/main/java/com/qualcomm/hardware/lynx/commands/LynxCommand.java>`_
+      represents a command that can be sent to a :term:`Lynx` module; it can
+      send and receive information.
