@@ -44,6 +44,8 @@ Updating the pose is as simple as adding the change to the previous
 pose:
 
 .. math::
+    \varphi = \Delta\theta
+
     \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
     +\begin{pmatrix}\Delta x\\\Delta y\\\varphi\end{pmatrix}
 
