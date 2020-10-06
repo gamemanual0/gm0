@@ -16,7 +16,7 @@ as the movement of the robot is generally constrained to a
 single plane. We notate the robot's pose as :math:`\vec{x}`.
 A pose contains two entries: the robot's position and heading;
 position is generally in Cartesian coordinates, so the pose
-can be represented with :math:`x`, :math:`y`, and :math:`theta`.
+can be represented with :math:`x`, :math:`y`, and :math:`\theta`.
 A "heading" is a term for the direction towards which
 the front of the robot is facing. Because of this, the robot's
 coordinate frame is set up such that the global x-axis is lined up
