@@ -16,7 +16,7 @@ as the movement of the robot is generally constrained to a
 single plane. We notate the robot's pose as :math:`\vec{x}`.
 A pose contains two entries: the robot's position and heading;
 position is generally in Cartesian coordinates, so the pose
-can be represented with :math:`x`, :math:`y`, and :math:`theta`.
+can be represented with :math:`x`, :math:`y`, and :math:`\theta`.
 A "heading" is a term for the direction towards which
 the front of the robot is facing. Because of this, the robot's
 coordinate frame is set up such that the global x-axis is lined up
@@ -27,7 +27,25 @@ with the 0 heading.
 
     `Road Runner Coordinate Frame Documentation <https://acme-robotics.gitbook.io/road-runner/tour/coordinate-frame>`_
 
-We can refer to the current pose (:math:`\vec{x}`) of the robot as
+We can refer to the current pose (:math:`\vec{x}_0`) of the robot as
 :math:`\begin{pmatrix} x_0 \\ y_0 \\ \theta_0 \end{pmatrix}`.
 This is just fancy notation for a point on the field :math:`(x_0, y_0)`
 with a specified orientation of the robot--the heading :math:`\theta_0`.
+
+Updating the Pose
+---------------------
+The change in pose over some very small amount of time is
+:math:`\Delta \vec{x}`. The difference in time between the current
+pose and the last pose should be as small as possible to improve
+the approximations for the math. Teams should update their robot
+pose every cycle of their control loop.
+
+Updating the pose is as simple as adding the change to the previous
+pose:
+
+.. math::
+    \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
+    +\begin{pmatrix}\Delta x\\\Delta y\\\varphi\end{pmatrix}
+
+The idea of odometry is to use sensor data and math to form
+an approximation for the robot's pose over time.
