@@ -4,20 +4,18 @@ Control System Internals
 
 When using any method in the FTC SDK that accesses hardware, be that setting
 motor power, reading an encoder, a sensor, etc a :term:`LynxCommand` is sent.
-These are blocking on the interconnnect level (be it USB or UART) for each
-hub, which means that only one can be sent to a hub at a time.
 
 .. note::
    :term:`LynxCommands <LynxCommand>` are not sent directly from the Robot
    Controller to an :term:`Expansion Hub` through USB; they are sent through
-   an FTDI, which bridges to UART.
+   USB to an FTDI, which bridges to UART.
 
 .. warning::
    :term:`LynxCommands <LynxCommand>` being blocking (and more specifically a
    per-bus master lock being present) means that multithreading hardware calls
    is at best not helpful and typically harmful to performance.
 
-If an Android phone and Expansion Hub is used, :term:`LynxCommands
+If an Android phone and :term:`Expansion Hub` is used, :term:`LynxCommands
 <LynxCommand>` are sent over USB; however if a Control Hub is used,
 :term:`LynxCommands <LynxCommand>` are sent over UART. This is very important,
 not just because of the increased reliability with UART instead of USB, but
@@ -61,7 +59,7 @@ This is the default, and the most boring; it means bulk reads are not used by
 the sdk when calling normal hardware-access methods.
 
 .. note::
-   Bulk reads can still be accessed by calling
+   Bulk reads can still be accessed by calling the
    ``LynxModule.getBulkInputData()`` method, however if one wishes to use bulk
    reads (which we highly recommend) using ``AUTO`` or ``MANUAL`` modes is
    simpler.
@@ -164,6 +162,9 @@ Control System Internals Glossary
       :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard
       to the :term:`Lynx board <Lynx>` over UART.
 
+      For more information, see the `official REV Control Hub documentation
+      <https://docs.revrobotics.com/rev-control-system/control-system-overview/control-hub-basics>`_.
+
       .. warning::
          Don't take apart a Control Hub unless you really know what you are
          doing. They can be damaged in the process, especially if one does not
@@ -174,7 +175,7 @@ Control System Internals Glossary
                Hub
 
    Expansion Hub
-      The Expansion Hub contains a :term:`Lynx Board <Lynx>`. It can be
+      The Expansion Hub contains a :term:`Lynx board <Lynx>`. It can be
       controlled by an Android device running the FTC SDK. This will send it
       :term:`LynxCommands <LynxCommand>`, which will cause the Expansion Hub to
       respond accordingly.
@@ -196,7 +197,7 @@ Control System Internals Glossary
       .. figure:: images/control-system-internals/lynx-board.jpg
          :alt: A Lynx board that was removed from its case
 
-         A Lynx Board that was removed from its case
+         A Lynx board that was removed from its case
 
    LynxCommand
       A `LynxCommand
