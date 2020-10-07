@@ -3,7 +3,7 @@ Control System Internals
 ========================
 
 When using any method in the FTC SDK that accesses hardware, be that setting
-motor power, reading an encoder, a sensor, etc a :term:`LynxCommand` is sent.
+motor power, reading an encoder, a sensor, etc., a :term:`LynxCommand` is sent.
 
 .. note::
    :term:`LynxCommands <LynxCommand>` are not sent directly from the Robot
@@ -158,9 +158,10 @@ Control System Internals Glossary
    Control Hub
       The :term:`Control Hub` is an :term:`Expansion Hub` with an embedded
       Android single-board computer daughterboard connected to it. This
-      enables it to not need a Robot Controller. Internally,
+      enables it to not need a separate Robot Controller phone, as the
+      daughterboard functions as the Robot Controller. Internally,
       :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard
-      to the :term:`Lynx board <Lynx>` over UART.
+      to the :term:`Lynx board <Lynx>` over  an internal UART connection.
 
       For more information, see the `official REV Control Hub documentation
       <https://docs.revrobotics.com/rev-control-system/control-system-overview/control-hub-basics>`_.
