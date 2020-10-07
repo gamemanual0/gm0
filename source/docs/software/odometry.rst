@@ -58,8 +58,12 @@ read from the sensors. For a robot, there will be three possible
 sensors that you can use: two that are parallel with the robot's
 body in the :math:`x`-direction and one that is aligned with
 the :math:`y`-direction of movement (perpendicular to the
-drive wheels). The distance traveled by the left sensor is
-:math:`\Delta x_l` and the distance traveled by the right sensor
+drive wheels).
+
+Angle and Displacement
+-----------------------
+The displacement (or change in position) of the left sensor
+is :math:`\Delta x_l` and the displacement of the right sensor
 is :math:`\Delta x_r`. The lateral distance between these two sensors
 is called the trackwidth. This is very important for determining angle
 for turning approximations. This value will need to be
@@ -69,7 +73,7 @@ converging value that is close to the actual measurement.
 .. figure:: images/odometry/andrew-bot-forward-offset-quarter.b5714ec5.jpg
     :alt: The lateral distance, forward offset, and location of the sensors
 
-    `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#two-wheel-odometry>`_
+    `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
 
 We refer to the trackwidth with the variable :math:`L`, as it is the
 lateral distance between the two. Deriving the value of :math:`\varphi`
@@ -77,3 +81,59 @@ then becomes simple:
 
 .. math::
     \varphi = \frac{\Delta x_l - \Delta x_r}{L}
+
+To perform later calculations, we need to know the displacement
+of the robot in the x-direction relative to its center rather than
+the two parallel sensors. To do this, we take the average to derive
+:math:`\Delta x_c`, or the center displacement:
+
+.. math::
+    \Delta x_c = \frac{\Delta x_l + \Delta x_r}{2}
+
+The final displacement we need before we can determine
+the change in pose is the horizontal displacement :math:`\Delta x_\perp`.
+This is the displacement of the perpendicular sensor. In order to
+get accurate approximations, the forward offset needs to be considered.
+When the sensor is closer to the back, the offset is negative,
+but when it is closer to the front, it is positive. This is to account
+for the change in its position based on point-turns.
+
+.. note::
+    :math:`\Delta x_\perp` is not necessary if you do not have
+    perpendicular sensors, which are not required if the
+    robot cannot move in the lateral direction.
+
+    For this value, use 0 if you do not have a horizontal
+    sensor.
+
+Robot-Relative Deltas
+----------------------
+
+Finally, we need to derive the values of :math:`\Delta x` and
+:math:`\Delta y`. This requires rotating our displacements
+by the half-angle change.
+
+.. math::
+    \begin{pmatrix}
+    \Delta x \\ \Delta y \\ \varphi
+    \end{pmatrix} =
+    \begin{pmatrix}
+    \cos(\theta_0 + \frac{1}{2}\varphi)&-\sin(\theta_0 + \frac{1}{2}\varphi)&0\\
+    \sin(\theta_0 + \frac{1}{2}\varphi)&\cos(\theta_0 + \frac{1}{2}\varphi)&0\\
+    0&0&1\end{pmatrix}
+    \begin{pmatrix}
+    \Delta x_c\\ \Delta x_\perp\\ \varphi
+    \end{pmatrix}
+
+From this, we can calculate our our robot-relative change in
+pose:
+
+.. math::
+    \begin{pmatrix}
+    \Delta x \\ \Delta y \\ \varphi
+    \end{pmatrix} =
+    \begin{pmatrix}
+    \Delta x_c \cos(\theta_0 + \frac{1}{2}\varphi) - \Delta x_\perp \sin(\theta_0 + \frac{1}{2}\varphi)\\
+    \Delta x_c \sin(\theta_0 + \frac{1}{2}\varphi) + \Delta x_\perp \cos(\theta_0 + \frac{1}{2}\varphi)\\
+    \varphi
+    \end{pmatrix}
