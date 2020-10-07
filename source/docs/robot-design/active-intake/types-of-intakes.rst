@@ -223,7 +223,8 @@ Disadvantages
     :alt: 8393's surgical tubing intake
 
     8393 Giant Diencephalic BrainSTEM Robotics Team,
-    Winning Alliance First Pick (St. Louis), Relic Recovery
+    Semifinalist Alliance Captain (St. Louis), Velocity Vortex
+
 
 .. figure:: images/tubing-intake/11115-intake.png
     :alt: 11115's surgical tubing intake
