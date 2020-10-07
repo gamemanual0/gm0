@@ -426,17 +426,6 @@ You’ll be able to quickly learn the lingo of FTC!
         help find the position of where the robot, or one of its
         mechanisms, is.
 
-    Expansion Hub
-        The REV Expansion Hub is a hardware controller that interfaces
-        with the Android phone.  It includes :term:`XT30` ports for
-        power input and output, 4 motor ports with :term:`encoder
-        <Encoder>`, and 6 :term:`servo <Servo>` ports, as well as Mini
-        USB for the Android phone.
-
-        .. image:: images/glossary/expansion-hub.png
-            :alt: A REV Robotics Expansion Hub
-            :width: 200
-
     Extrusion
         Extrusion is aluminum shaped into slotted profiles able to accept
         certain types of hardware.

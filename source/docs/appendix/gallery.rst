@@ -18,6 +18,10 @@ design solutions for your robot!
   * `Robot portfolio <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__
   * `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__
   * `Animation <https://drive.google.com/file/d/1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr/view?usp=drive_open>`__
+* 14270 Quantum Robotics
+
+  * `CAD <https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968c54efb8b6d65921b>`__
+  * `Robot Reveal <https://www.youtube.com/watch?v=3d8-TN8YVNU>`__
 
 2018-19 Rover Ruckus
 --------------------

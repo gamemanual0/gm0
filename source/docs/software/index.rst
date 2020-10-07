@@ -13,3 +13,4 @@ This section covers the basics of software for FTC.
     control-loops
     finite-state-machines
     odometry
+    control-system-internals
