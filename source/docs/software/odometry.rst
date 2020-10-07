@@ -58,8 +58,8 @@ read from the sensors. For a robot, there will be three possible
 sensors that you can use: two that are parallel with the robot's
 body in the :math:`x`-direction and one that is aligned with
 the :math:`y`-direction of movement (perpendicular to the
-drive wheels). The distance travelled by the left sensor is
-:math:`\Delta x_l` and the distance travelled by the right sensor
+drive wheels). The distance traveled by the left sensor is
+:math:`\Delta x_l` and the distance traveled by the right sensor
 is :math:`\Delta x_r`. The lateral distance between these two sensors
 is called the trackwidth. This is very important for determining angle
 for turning approximations. This value will need to be
