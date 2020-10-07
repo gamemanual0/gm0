@@ -41,7 +41,7 @@ the approximations for the math. Teams should update their robot
 pose every cycle of their control loop.
 
 Updating the pose is as simple as adding the change to the previous
-pose where :math:`\varphi = \Delta\theta`:
+pose where :math:`\varphi = \Delta\theta`
 
 .. math::
     \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
@@ -52,3 +52,28 @@ an approximation for the robot's pose over time.
 
 Finding the Change in Position
 ================================
+In order to determine the current location of the robot and
+update its pose, the change must be calculated using data
+read from the sensors. For a robot, there will be three possible
+sensors that you can use: two that are parallel with the robot's
+body in the :math:`x`-direction and one that is aligned with
+the :math:`y`-direction of movement (perpendicular to the
+drive wheels). The distance travelled by the left sensor is
+:math:`\Delta x_l` and the distance travelled by the right sensor
+is :math:`\Delta x_r`. The lateral distance between these two sensors
+is called the trackwidth. This is very important for determining angle
+for turning approximations. This value will need to be
+tuned, which means tested repeatedly and then brought to some
+converging value that is close to the actual measurement.
+
+.. figure:: images/odometry/andrew-bot-forward-offset-quarter.b5714ec5.jpg
+    :alt: The lateral distance, forward offset, and location of the sensors
+
+    `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#two-wheel-odometry>`_
+
+We refer to the trackwidth with the variable :math:`L`, as it is the
+lateral distance between the two. Deriving the value of :math:`\varphi`
+then becomes simple:
+
+.. math::
+    \varphi = \frac{\Delta x_l - \Delta x_r}{L}
