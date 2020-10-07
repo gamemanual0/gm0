@@ -92,11 +92,17 @@ the two parallel sensors. To do this, we take the average to derive
 
 The final displacement we need before we can determine
 the change in pose is the horizontal displacement :math:`\Delta x_\perp`.
-This is the displacement of the perpendicular sensor. In order to
+This is the displacement of the perpendicular sensor :math:`\Delta x_h`
+with a correction for forward offset :math:`F`. In order to
 get accurate approximations, the forward offset needs to be considered.
 When the sensor is closer to the back, the offset is negative,
 but when it is closer to the front, it is positive. This is to account
 for the change in its position based on point-turns.
+
+As a result of this, we can define our horizontal displacement as:
+
+.. math::
+    \Delta x_\perp = \Delta x_h - (F * \varphi)
 
 .. note::
     :math:`\Delta x_\perp` is not necessary if you do not have
