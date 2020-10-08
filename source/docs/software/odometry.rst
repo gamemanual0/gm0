@@ -65,12 +65,12 @@ Angle and Displacement
 The displacement (or change in position) of the left sensor
 is :math:`\Delta x_l` and the displacement of the right sensor
 is :math:`\Delta x_r`. The lateral distance between these two sensors
-is called the trackwidth, notated as :math:`L`. This is very important for determining angle
-for turning approximations. This value will need to be
-tuned, which means tested repeatedly and then brought to some
-converging value that is close to the actual measurement.
+is called the trackwidth, notated as :math:`L`. This is very important
+for determining angle for turning approximations. This value will
+need to be tuned, which means tested repeatedly and then brought
+to some converging value that is close to the actual measurement.
 
-.. figure:: images/odometry/17508-odometry-offset.png
+.. figure:: images/odometry/17508-odometry-offset.jpg
     :alt: The lateral distance, forward offset, and location of the sensors
 
     `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
