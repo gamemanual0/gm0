@@ -65,13 +65,12 @@ Angle and Displacement
 The displacement (or change in position) of the left sensor
 is :math:`\Delta x_l` and the displacement of the right sensor
 is :math:`\Delta x_r`. The lateral distance between these two sensors
-is called the trackwidth. This is very important for determining angle
-for turning approximations. This value :math:`L` (for lateral)
-will need to be tuned, which means tested repeatedly and
-then brought to some converging value that is close to the
-actual measurement.
+is called the trackwidth, notated as :math:`L`. This is very important for determining angle
+for turning approximations. This value will need to be
+tuned, which means tested repeatedly and then brought to some
+converging value that is close to the actual measurement.
 
-.. figure:: images/odometry/andrew-bot-forward-offset-quarter.jpg
+.. figure:: images/odometry/17508-odometry-offset.png
     :alt: The lateral distance, forward offset, and location of the sensors
 
     `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
@@ -142,5 +141,3 @@ pose:
     \Delta x_c \sin(\theta_0 + \frac{1}{2}\varphi) + \Delta x_\perp \cos(\theta_0 + \frac{1}{2}\varphi)\\
     \varphi
     \end{pmatrix}
-
-This method of calculating the change in pose is called Euler Integration.
