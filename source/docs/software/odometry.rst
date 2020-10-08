@@ -71,6 +71,11 @@ will need to be tuned, which means tested repeatedly and
 then brought to some converging value that is close to the
 actual measurement.
 
+.. figure:: images/odometry/andrew-bot-forward-offset-quarter.jpg
+    :alt: The lateral distance, forward offset, and location of the sensors
+
+    `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
+
 Deriving the value of :math:`\varphi` then becomes simple:
 
 .. math::
