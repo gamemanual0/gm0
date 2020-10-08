@@ -70,7 +70,7 @@ for turning approximations. This value will need to be
 tuned, which means tested repeatedly and then brought to some
 converging value that is close to the actual measurement.
 
-.. figure:: images/odometry/andrew-bot-forward-offset-quarter.b5714ec5.jpg
+.. figure:: images/odometry/17508-odometry-offset.png
     :alt: The lateral distance, forward offset, and location of the sensors
 
     `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
