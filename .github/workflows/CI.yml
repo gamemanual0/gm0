@@ -19,7 +19,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Install LaTeX
       run: |
-        sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
+        sudo apt install -y texlive-full texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
     - name: Build HTML
       run: |
         make html
