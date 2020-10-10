@@ -142,3 +142,35 @@ pose:
     \Delta x_c \sin(\theta_0 + \frac{1}{2}\varphi) + \Delta x_\perp \cos(\theta_0 + \frac{1}{2}\varphi)\\
     \varphi
     \end{pmatrix}
+
+.. warning::
+    The following section is for advanced programmers and software teams!
+    It is not necessary to utilize this algorithm, but it will benefit
+    your odometry approximations.
+
+Odometry Pseudocode
+-----------------------
+.. code-block:: python
+
+    while robot_is_active():
+        delta_left_encoder_pos = left_encoder_pos - prev_left_encoder_pos
+        delta_right_encoder_pos = right_encoder_pos - prev_right_encoder_pos
+        delta_center_encoder_pos = center_encoder_pos - prev_center_encoder_pos
+
+        phi = (delta_left_encoder_pos - delta_right_encoder_pos) / trackwidth
+        delta_middle_pos = (delta_left_encoder_pos + delta_right_encoder_pos) / 2
+        delta_perp_pos = delta_center_encoder_pos - forward_offset * phi
+
+        delta_x = delta_middle_pos * cos(heading + 0.5 * phi) - delta_perp_pos * sin(heading + 0.5 * phi)
+        delta_y = delta_middle_pos * sin(heading + 0.5 * phi) + delta_perp_pos * cos(heading + 0.5 * phi)
+        
+        x_pos += delta_x
+        y_pos += delta_y
+        heading += phi
+
+        prev_left_encoder_pos = left_encoder_pos
+        prev_right_encoder_pos = right_encoder_pos
+        prev_center_encoder_pos = center_encoder_pos
+
+Using Pose Exponentials
+-------------------------
