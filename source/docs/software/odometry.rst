@@ -70,7 +70,7 @@ for determining angle for turning approximations. This value will
 need to be tuned, which means tested repeatedly and then brought
 to some converging value that is close to the actual measurement.
 
-.. figure:: images/odometry/17508-odometry-offset.jpg
+.. figure:: images/odometry/offsets-and-trackwidth.png
     :alt: The lateral distance, forward offset, and location of the sensors
 
     `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
