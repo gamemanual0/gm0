@@ -24,6 +24,7 @@ with the 0 heading.
 
 .. figure:: images/odometry/coordinate-frame.png
     :alt: The directional axes of the robot with respect to its body
+    :width: 25em
 
     `Road Runner Coordinate Frame Documentation <https://acme-robotics.gitbook.io/road-runner/tour/coordinate-frame>`_
 
