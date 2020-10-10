@@ -143,11 +143,6 @@ pose:
     \varphi
     \end{pmatrix}
 
-.. warning::
-    The following section is for advanced programmers and software teams!
-    It is not necessary to utilize this algorithm, but it will benefit
-    your odometry approximations.
-
 Odometry Pseudocode
 -----------------------
 .. code-block:: python
@@ -163,7 +158,7 @@ Odometry Pseudocode
 
         delta_x = delta_middle_pos * cos(heading + 0.5 * phi) - delta_perp_pos * sin(heading + 0.5 * phi)
         delta_y = delta_middle_pos * sin(heading + 0.5 * phi) + delta_perp_pos * cos(heading + 0.5 * phi)
-        
+
         x_pos += delta_x
         y_pos += delta_y
         heading += phi
@@ -171,6 +166,11 @@ Odometry Pseudocode
         prev_left_encoder_pos = left_encoder_pos
         prev_right_encoder_pos = right_encoder_pos
         prev_center_encoder_pos = center_encoder_pos
+
+.. warning::
+    The following section is for advanced programmers and software teams!
+    It is not necessary to utilize this algorithm, but it will benefit
+    your odometry approximations.
 
 Using Pose Exponentials
 -------------------------
