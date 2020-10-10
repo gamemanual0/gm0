@@ -113,18 +113,16 @@ As a result of this, we can define our horizontal displacement as:
 
 Robot-Relative Deltas
 ----------------------
-
 Finally, we need to derive the values of :math:`\Delta x` and
-:math:`\Delta y`. This requires rotating our displacements
-by the half-angle change.
+:math:`\Delta y`.
 
 .. math::
     \begin{pmatrix}
     \Delta x \\ \Delta y \\ \varphi
     \end{pmatrix} =
     \begin{pmatrix}
-    \cos(\theta_0 + \frac{1}{2}\varphi)&-\sin(\theta_0 + \frac{1}{2}\varphi)&0\\
-    \sin(\theta_0 + \frac{1}{2}\varphi)&\cos(\theta_0 + \frac{1}{2}\varphi)&0\\
+    \cos(\theta_0)&-\sin(\theta_0)&0\\
+    \sin(\theta_0)&\cos(\theta_0)&0\\
     0&0&1\end{pmatrix}
     \begin{pmatrix}
     \Delta x_c\\ \Delta x_\perp\\ \varphi
@@ -138,10 +136,22 @@ pose:
     \Delta x \\ \Delta y \\ \varphi
     \end{pmatrix} =
     \begin{pmatrix}
-    \Delta x_c \cos(\theta_0 + \frac{1}{2}\varphi) - \Delta x_\perp \sin(\theta_0 + \frac{1}{2}\varphi)\\
-    \Delta x_c \sin(\theta_0 + \frac{1}{2}\varphi) + \Delta x_\perp \cos(\theta_0 + \frac{1}{2}\varphi)\\
+    \Delta x_c \cos(\theta_0) - \Delta x_\perp \sin(\theta_0)\\
+    \Delta x_c \sin(\theta_0) + \Delta x_\perp \cos(\theta_0)\\
     \varphi
     \end{pmatrix}
+
+.. note::
+    This method of approximating position is known as Euler integration,
+    but we are using it for strict pose deltas instead of integrating
+    the velocity (essentially, this is a very simplified version of
+    the original theory).
+
+.. warning::
+    This is for advanced programmers; while implementing this from scratch is
+    a great learning exercise, it is likely not the optimal way to get the best auto.
+    There are several `resources <#resources-for-odometry>`_ out there for
+    producing great, well-tested, and easy-to-implement odometry.
 
 Odometry Pseudocode
 -----------------------
@@ -156,8 +166,8 @@ Odometry Pseudocode
         delta_middle_pos = (delta_left_encoder_pos + delta_right_encoder_pos) / 2
         delta_perp_pos = delta_center_encoder_pos - forward_offset * phi
 
-        delta_x = delta_middle_pos * cos(heading + 0.5 * phi) - delta_perp_pos * sin(heading + 0.5 * phi)
-        delta_y = delta_middle_pos * sin(heading + 0.5 * phi) + delta_perp_pos * cos(heading + 0.5 * phi)
+        delta_x = delta_middle_pos * cos(heading) - delta_perp_pos * sin(heading)
+        delta_y = delta_middle_pos * sin(heading) + delta_perp_pos * cos(heading)
 
         x_pos += delta_x
         y_pos += delta_y
@@ -167,10 +177,46 @@ Odometry Pseudocode
         prev_right_encoder_pos = right_encoder_pos
         prev_center_encoder_pos = center_encoder_pos
 
-.. warning::
-    The following section is for advanced programmers and software teams!
-    It is not necessary to utilize this algorithm, but it will benefit
-    your odometry approximations.
-
 Using Pose Exponentials
 -------------------------
+This method uses differential equations to solve the nonlinear
+position of the robot given constant curvature. Euler integration
+assumes that the robot follows a straight path between updates,
+which can lead to inaccurate approximations when traveling around
+curves. If you are interested in the math itself, we
+recommend you check out `this book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
+for FRC controls.
+
+We'll treat the way it is solved in this page as a black box,
+and derive the formula by implementing a correction for this
+nonlinear curvature into our Euler integration robot-relative deltas
+equation:
+
+.. math::
+    \begin{pmatrix}
+    \Delta x \\ \Delta y \\ \varphi
+    \end{pmatrix} =
+    \begin{pmatrix}
+    \cos(\theta_0)&-\sin(\theta_0)&0\\
+    \sin(\theta_0)&\cos(\theta_0)&0\\
+    0&0&1\end{pmatrix}
+    \begin{pmatrix}
+    \frac{\sin(\varphi)}{\varphi}&\frac{\cos(\varphi)-1}{\varphi}&0\\
+    \frac{1-\cos(\varphi)}{\varphi}&\frac{\sin(\varphi)}{\varphi}&0\\
+    0&0&1\end{pmatrix}
+    \begin{pmatrix}
+    \Delta x_c\\ \Delta x_\perp\\ \varphi
+    \end{pmatrix}
+
+Resources for Odometry
+============================
+There are several great resources out there for odometry.
+We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_.
+For the math behind Road Runner (which utilizes pose exponentials),
+you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_.
+An additional resource for Road Runer is `Learn Road Runner <https://www.learnroadrunner.com/>`_
+which is a step-by-step procedural guide that explains how to
+work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
+
+We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
+as it goes into great detail about various controls in FIRST robotics.
