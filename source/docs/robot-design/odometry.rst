@@ -20,8 +20,7 @@ hardware that can be used as the sensors for localization.
 Encoders
 =================
 A lot of the localization done in software relies on readings
-from encoders.
-`Encoders </hardware-basics/motor-guide/wiring-mounting-motors.html>`_
+from encoders. Encoders
 are sensors that track "counts" or "ticks," which are values
 that represent a certain amount of a rotation.
 Different encoders might have a different number of counts
