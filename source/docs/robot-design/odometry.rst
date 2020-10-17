@@ -100,3 +100,9 @@ the JST-PH ports on your REV Hub.
 
 As a result, your odometer placement is important
 for wire management.
+
+Design
+=================
+One of the great revcoder designs out there is the
+one from `open odometry <https://openodometry.weebly.com/>`_.
+They are compact and can fit in a goBILDA channel.
