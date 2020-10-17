@@ -90,3 +90,18 @@ Design
 One of the great revcoder designs out there is the
 one from `open odometry <https://openodometry.weebly.com/>`_.
 They are compact and can fit in a goBILDA channel.
+The goal of an odometer design is to remain as compact
+as possible while ensuring as much connection with the ground.
+The best way to do this have the pod be able to pivot on
+an axle and use tensioning to keep it in contact with
+the field.
+
+Spring Tensioning
+---------------------
+Spring tensioning is important for making sure there
+isn't a lot of slipping or skidding of the pods/odometers.
+
+.. figure:: images/odometry/spring-tensioned-pod.png
+    :width: 33em
+
+    Image of FTC 18275 (SubZero)'s spring tensioning
