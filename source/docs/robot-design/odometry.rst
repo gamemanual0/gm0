@@ -49,8 +49,10 @@ REV Through-Bore
 Often short-handed to "REV-coders" or "revcoders,"
 the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_
 is the option that has gained significant traction in
-the FTC community for odometry (as well as FRC) because
-of its absurd counts per revolution: 8192.
+the FTC community for odometry is because of how
+easy it is to set up and design with. Unlike
+previously used encoders like the E8T, the through-bore
+does not have a sliding disc.
 
 Some reasons teams might want to consider using the
 revcoders for their odometry are:
@@ -77,7 +79,6 @@ sensor hardware (odometers, a.k.a. odometry pods) takes up.
 However there are several disadvantages to the S4T
 when compared to the through-bore encoder:
 
-* Lower CPR
 * More expensive
 * Less durable
 
