@@ -21,7 +21,8 @@ Encoders
 =================
 A lot of the localization done in software relies on readings
 from encoders.
-`Encoders <../hardware-basics/motor-guide/wiring-mounting-motors.html>`_
+`Encoders
+<../hardware-basics/motor-guide/wiring-mounting-motors.html#encoders>`_
 are sensors that track "counts" or "ticks," which are values
 that represent a certain amount of a rotation.
 Different encoders might have a different number of counts
@@ -86,3 +87,16 @@ when compared to the through-bore encoder:
 Unlike the revcoders which are much easier to set up initially,
 to get the maximum lifetime out of S4Ts, you need gears
 to offload the strain put on the encoder.
+
+---------------------------------
+Plugging in the Encoders
+---------------------------------
+As we said before, the encoders need to be plugged into
+the JST-PH ports on your REV Hub.
+
+.. figure:: images/odometry/encoder-ports-exh.png
+    :alt: The encoder ports on the REV Hub are located
+          right next to the motor power ports
+
+As a result, your odometer placement is important
+for wire management.
