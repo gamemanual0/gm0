@@ -13,14 +13,15 @@ Odometry is a form of localization that uses data
 from sensors like encoders. Localization is a
 means for being able to locate the position
 of the bot at some point in time. This is useful
-for `software </software/odometry.html>`_, but in order
+for `software <../software/odometry.html>`_, but in order
 to produce accurate results, teams need to design
 hardware that can be used as the sensors for localization.
 
 Encoders
 =================
 A lot of the localization done in software relies on readings
-from encoders. Encoders
+from encoders.
+`Encoders <../hardware-basics/motor-guide/wiring-mounting-motors.html>`_
 are sensors that track "counts" or "ticks," which are values
 that represent a certain amount of a rotation.
 Different encoders might have a different number of counts
@@ -35,3 +36,53 @@ encoder. This should be done with motors that do not use
 encoders. If you're using dead wheels, you will not need the drive
 motor encoder ports, so those are potential ports you might want
 to use.
+
+---------------------
+Different Encoders
+---------------------
+There are really only two good options for odometry,
+specifically deadwheels. Otherwise you will want to just
+use the encoders that come with the motors you are using
+for the drivetrain if instead you would rather utilize
+the drive encoders (which is not recommended).
+
+REV Through-Bore
+---------------------
+Often short-handed to "REV-coders" or "revcoders,"
+the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_
+is the option that has gained significant traction in
+the FTC community for odometry (as well as FRC) because
+of its absurd counts per revolution: 8192.
+
+Some reasons teams might want to consider using the
+revcoders for their odometry are:
+
+* It's magnetic and won't break easily
+* Cheap
+* Large CPR
+* Easy wiring
+
+However, there will be velocity overflow if not handled properly.
+Due to the high tick count, the velocity of the
+encoder can result in integer overflow due to the REV Hub bus
+using 16-bit signed values for sensor data.
+
+S4T
+-------------
+The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_
+miniature shaft encoder is another option for FTC teams
+to use on their odometry. A team might want to use these
+encoders for the sake of packaging, which is the amount of
+space the odometry
+sensor hardware (odometers, a.k.a. odometry pods) takes up.
+
+However there are several disadvantages to the S4T
+when compared to the through-bore encoder:
+
+* Lower CPR
+* More expensive
+* Less durable
+
+Unlike the revcoders which are much easier to set up initially,
+to get the maximum lifetime out of S4Ts, you need gears
+to offload the strain put on the encoder.
