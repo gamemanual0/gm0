@@ -38,9 +38,6 @@ encoders. If you're using dead wheels, you will not need the drive
 motor encoder ports, so those are potential ports you might want
 to use.
 
----------------------
-Different Encoders
----------------------
 There are really only two good options for odometry,
 specifically deadwheels. Otherwise you will want to just
 use the encoders that come with the motors you are using
@@ -87,19 +84,6 @@ when compared to the through-bore encoder:
 Unlike the revcoders which are much easier to set up initially,
 to get the maximum lifetime out of S4Ts, you need gears
 to offload the strain put on the encoder.
-
----------------------------------
-Plugging in the Encoders
----------------------------------
-As we said before, the encoders need to be plugged into
-the JST-PH ports on your REV Hub.
-
-.. figure:: images/odometry/encoder-ports-exh.png
-    :alt: The encoder ports on the REV Hub are located
-          right next to the motor power ports
-
-As a result, your odometer placement is important
-for wire management.
 
 Design
 =================
