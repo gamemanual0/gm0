@@ -32,6 +32,7 @@ We can refer to the current pose (:math:`\vec{x}_0`) of the robot as
 :math:`\begin{pmatrix} x_0 \\ y_0 \\ \theta_0 \end{pmatrix}`.
 This is just fancy notation for a point on the field :math:`(x_0, y_0)`
 with a specified orientation of the robot--the heading :math:`\theta_0`.
+A pose generally has some beginning origin in the coordinate frame.
 
 Updating the Pose
 ---------------------
