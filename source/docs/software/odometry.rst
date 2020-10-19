@@ -41,8 +41,8 @@ pose and the last pose should be as small as possible to improve
 the approximations for the math. Teams should update their robot
 pose every cycle of their control loop.
 
-Updating the pose is as simple as adding the change to the previous
-pose where :math:`\varphi = \Delta\theta`
+Updating the pose is as simple as adding the transformed change
+to the previous pose where :math:`\varphi = \Delta\theta`
 
 .. math::
     \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
@@ -113,7 +113,14 @@ As a result of this, we can define our horizontal displacement as:
 
 Robot-Relative Deltas
 ----------------------
-Finally, we need to derive the values of :math:`\Delta x` and
+Let's come up with a simplified,
+nonoptimal way to calculate our robot-relative pose deltas
+which we can then transform into field-relative coordinate
+changes. To perform this we need to transform the
+robot-relative deltas via a rotation matrix where
+we rotate the relative pose difference by the
+original heading.
+We can derive the values of :math:`\Delta x` and
 :math:`\Delta y`.
 
 .. math::
@@ -128,7 +135,7 @@ Finally, we need to derive the values of :math:`\Delta x` and
     \Delta x_c\\ \Delta x_\perp\\ \varphi
     \end{pmatrix}
 
-From this, we can calculate our our robot-relative change in
+From this, we can calculate our field-relative change in
 pose:
 
 .. math::
@@ -220,3 +227,8 @@ work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runn
 
 We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
 as it goes into great detail about various controls in FIRST robotics.
+
+If you're using other resources, it is important
+that you do not use ones that utilize Euler integration as it
+is less optimal for real life approximations of robot
+pose.
