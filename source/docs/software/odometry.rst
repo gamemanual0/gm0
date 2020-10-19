@@ -1,6 +1,6 @@
-=============
+========
 Odometry
-=============
+========
 Odometry is a form of localization that uses data from sensors
 like encoders to derive an estimated position relative to a
 starting point. Localization is a means for being able to locate
@@ -9,7 +9,7 @@ useful in autonomous programs because it allows for easier implementation
 of different tasks on the field due to understanding one's position
 
 Pose
-=============
+====
 We refer to pose, which is the position of some body (like a bot),
 normally in the context two-dimensional space,
 as the movement of the robot is generally constrained to a
@@ -53,7 +53,7 @@ The idea of odometry is to use sensor data and math to form
 an approximation for the robot's pose over time.
 
 Finding the Change in Position
-================================
+===============================
 In order to determine the current location of the robot and
 update its pose, the change must be calculated using data
 read from the sensors. For a robot, there will be three possible
@@ -162,7 +162,7 @@ pose:
     producing great, well-tested, and easy-to-implement odometry.
 
 Odometry Pseudocode
------------------------
+-------------------
 .. code-block:: python
 
     while robot_is_active():
@@ -186,7 +186,7 @@ Odometry Pseudocode
         prev_center_encoder_pos = center_encoder_pos
 
 Using Pose Exponentials
--------------------------
+------------------------
 This method uses differential equations to solve the nonlinear
 position of the robot given constant curvature. Euler integration
 assumes that the robot follows a straight path between updates,
@@ -217,12 +217,12 @@ equation:
     \end{pmatrix}
 
 Resources for Odometry
-============================
+======================
 There are several great resources out there for odometry.
 We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_.
 For the math behind Road Runner (which utilizes pose exponentials),
 you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_.
-An additional resource for Road Runer is `Learn Road Runner <https://www.learnroadrunner.com/>`_
+An additional resource for Road Runner is `Learn Road Runner <https://www.learnroadrunner.com/>`_
 which is a step-by-step procedural guide that explains how to
 work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
 

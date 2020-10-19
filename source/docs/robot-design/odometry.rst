@@ -1,6 +1,6 @@
-=============
+========
 Odometry
-=============
+========
 
 .. warning::
     This is a very niche aspect of design in FTC.
@@ -18,7 +18,7 @@ to produce accurate results, teams need to design
 hardware that can be used as the sensors for localization.
 
 Encoders
-=================
+========
 A lot of the localization done in software relies on readings
 from encoders.
 `Encoders
@@ -28,6 +28,7 @@ that represent a certain amount of a rotation.
 Different encoders might have a different number of counts
 per revolution, or CPR (sometimes also called ticks per rev).
 The greater the number of counts, the more accurate the data.
+
 Encoders are plugged into the JST-PH ports in the REV hubs.
 These encoders can either be built-in to the motors or external.
 External encoders will still need to be plugged into an encoder
@@ -45,7 +46,7 @@ for the drivetrain if instead you would rather utilize
 the drive encoders (which is not recommended).
 
 REV Through-Bore
----------------------
+-----------------
 Often short-handed to "REV-coders" or "revcoders,"
 the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_
 is the option that has gained significant traction in
@@ -68,7 +69,7 @@ encoder can result in integer overflow due to the REV Hub bus
 using 16-bit signed values for sensor data.
 
 S4T
--------------
+---
 The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_
 miniature shaft encoder is another option for FTC teams
 to use on their odometry. A team might want to use these
@@ -87,7 +88,7 @@ to get the maximum lifetime out of S4Ts, you need gears
 to offload the strain put on the encoder.
 
 Design
-=================
+======
 One of the great revcoder designs out there is the
 one from `open odometry <https://openodometry.weebly.com/>`_.
 They are compact and can fit in a goBILDA channel.
@@ -98,7 +99,7 @@ an axle and use tensioning to keep it in contact with
 the field.
 
 Spring Tensioning
----------------------
+-----------------
 Spring tensioning is important for making sure there
 isn't a lot of slipping or skidding of the pods/odometers.
 
