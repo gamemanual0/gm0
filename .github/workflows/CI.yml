@@ -46,9 +46,10 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r source/requirements.txt
-    - name: Check Links
+    - name: Check Links (Diff)
       run: |
-        make linkcheck
+        git fetch origin master
+        make linkcheckdiff
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
       uses: actions/upload-artifact@v2
@@ -67,7 +68,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Check Lint
       run: |
-        make lint\
+        make lint
   check-spelling:
     runs-on: ubuntu-latest
     steps:

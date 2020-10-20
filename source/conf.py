@@ -51,6 +51,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.graphviz',
     'sphinxext.opengraph',
+    'sphinxext.linkcheckdiff',
     'sphinx_sitemap',
     'hoverxref.extension'
 ]
@@ -58,6 +59,7 @@ extensions = [
 # Enable hover content on glossary term
 hoverxref_roles = ['term']
 
+linkcheckdiff_branch = "origin/master"
 
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph
