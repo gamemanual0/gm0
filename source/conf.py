@@ -59,7 +59,7 @@ extensions = [
 # Enable hover content on glossary term
 hoverxref_roles = ['term']
 
-linkcheckdiff_branch = "master"
+linkcheckdiff_branch = "origin/master"
 
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph
