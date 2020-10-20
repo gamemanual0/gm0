@@ -1,6 +1,6 @@
 Game Manual 0
 =============
-![Docs Badge](https://readthedocs.org/projects/game-manual-zero/badge/) ![CI Badge](https://github.com/Coppersource/gm0/workflows/CI/badge.svg) ![Link Check](https://github.com/Coppersource/gm0/workflows/Link%20Check/badge.svg)
+![Docs Badge](https://readthedocs.org/projects/game-manual-zero/badge/) ![CI Badge](https://github.com/Coppersource/gm0/workflows/CI/badge.svg) ![Linkcheck Badge](https://github.com/Coppersource/gm0/workflows/CI/link-check.svg)
 
 Welcome to Game Manual 0 (gm0)!
 This repository contains the source of Game Manual 0.
