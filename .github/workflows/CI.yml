@@ -46,6 +46,8 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r source/requirements.txt
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
     - name: Check Links (Diff)
       run: |
         make linkcheckdiff
