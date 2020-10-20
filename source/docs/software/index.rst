@@ -12,4 +12,5 @@ This section covers the basics of software for FTC.
     mecanum-drive
     control-loops
     finite-state-machines
+    odometry
     control-system-internals
