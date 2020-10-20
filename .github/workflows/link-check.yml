@@ -17,8 +17,6 @@ jobs:
       run: pip install -r source/requirements.txt
     - name: Check Links
       run: make linkcheck
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
       uses: actions/upload-artifact@v2
