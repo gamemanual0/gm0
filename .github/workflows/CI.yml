@@ -50,6 +50,7 @@ jobs:
       uses: mxschmitt/action-tmate@v3
     - name: Check Links (Diff)
       run: |
+        git fetch origin master
         make linkcheckdiff
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
@@ -69,7 +70,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Check Lint
       run: |
-        make lint\
+        make lint
   check-spelling:
     runs-on: ubuntu-latest
     steps:
