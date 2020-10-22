@@ -185,8 +185,10 @@ the field.
 
 Spring Tensioning
 -----------------
-Spring tensioning is important in reducing slipping or skidding of
-the pods/odometers.
+For odometry, spring tensioning is the use of a spring to push odometry
+modules towards the ground, either on a pivot (recommended) or linearly.
+Spring tensioning is important in reducing slipping or skidding of the
+pods/odometers.
 
 .. figure:: images/odometry/spring-tensioned-pod.png
     :width: 33em
