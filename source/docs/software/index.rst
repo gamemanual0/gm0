@@ -8,6 +8,7 @@ This section covers the basics of software for FTC.
 
     fundamental-concepts
     options-for-programming
+    using-android-studio
     using-the-sdk
     mecanum-drive
     control-loops
