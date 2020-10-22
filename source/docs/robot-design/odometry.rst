@@ -50,7 +50,7 @@ movement respectively. However, this design forgoes the gyroscope
 and instead measures heading via the difference with the two parallel
 wheels. This is often more accurate in the context of the FTC control
 system because the BNO055 IMU (used for the gyroscope in the two-wheel
-design) utilizes I²C which is slower than the rest of the I/O
+design) utilizes I2C which is slower than the rest of the I/O
 on the REV Hub and cannot be bulk read. These two issues lead to minute
 drift issues which can compound over time, thus leading to a more
 inaccurate localization system when using the two-wheel design.
