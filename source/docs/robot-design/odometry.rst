@@ -15,7 +15,7 @@ of the bot at some point in time. Localization is crucial in
 path following and advanced autonomous modes as one needs to
 know where they are to know what movements they must make to
 reach a desired destination.
-`Localization software <../software/odometry.html>`_ plays, a
+`Localization software <../software/odometry.html>`_ plays a
 major role in odometry; however, in order
 to produce accurate results, reliable and accurate hardware
 design is a necessity.
