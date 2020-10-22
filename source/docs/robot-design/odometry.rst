@@ -50,8 +50,8 @@ movement respectively. However, this design forgoes the gyroscope
 and instead measures heading via the difference with the two parallel
 wheels. This is often more accurate in the context of the FTC control
 system because the BNO055 IMU (used for the gyroscope in the two-wheel
-design) utilizes i²c which is slower than the rest of the I/O
-on the Rev Hub and cannot be bulk read. These two issues lead to minute
+design) utilizes I²C which is slower than the rest of the I/O
+on the REV Hub and cannot be bulk read. These two issues lead to minute
 drift issues which can compound over time, thus leading to a more
 inaccurate localization system when using the two-wheel design.
 
@@ -80,18 +80,22 @@ Drive Encoder Localization
 Two-Wheel Odometry Pods
 =======================
 * Pros:
+
     * Cheaper than 3-wheel design
     * Pretty good accuracy
     * No tuning of the heading necessary
 * Cons:
+
     * Subject to more drift than the 3-wheel design
 
 Three-Wheel Odometry Pods
 =========================
 * Pros:
+
     * Relatively accurate tracking. Great accuracy in a 30-second
       autonomous mode
 * Cons:
+
     * Quite pricey
     * Tuning of the heading is very important
 
@@ -138,14 +142,14 @@ scratching, and are much less tolerant to design flaws.
     * Quite large relative to other encoders. May be challenging to
       create a compact design
 
-**Note:** The Through-Bore encoders have a very high CPR (8k). The Rev
-Hub stores velocity in a 16-bit signed integer. This means it can store a
-maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations
-a second (32k / 8k = 4) for the velocity value on the Rev Hub to
-experience an
-`integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_.
-This is only a concern when dealing with motion profiling. The existing tools
-(Road Runner and FTCLib) have mechanisms for deadling with this issue.
+.. note:: The Through-Bore encoders have a very high CPR (8k). The REV
+          Hub stores velocity in a 16-bit signed integer. This means it can
+          store a maximum value of 2^15 (which is 32768). Thus, it only takes
+          4 rotations a second (32k / 8k = 4) for the velocity value on the
+          REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_.
+          This is only a concern when dealing with motion profiling. The
+          existing tools (Road Runner and FTCLib) have mechanisms for dealing
+          with this issue.
 
 S4T
 ---
@@ -154,17 +158,17 @@ miniature shaft encoder is another viable option used in dead wheel designs.
 These encoders are very small and may reduce the footprint of your dead wheel
 design significantly.
 
-However, the S4T is quite expensive, nearly double the price of the Rev
+However, the S4T is quite expensive, nearly double the price of the REV
 Through-Bores.
 
 E8T (deprecated)
 ----------------
 Once the de facto option for most FTC teams, the
-`E8T <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_ optical
-encoders are no longer recommended as the Rev Through-Bores are a superior
+`E8T <https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical
+encoders are no longer recommended as the REV Through-Bores are a superior
 option at an equivalent price. The open-hole optical disc design of these
 encoders face a number of frustrating design flaws that made them very fragile
-and prone to breaking. The only advantage that they have against the Rev
+and prone to breaking. The only advantage that they have against the REV
 Through-Bores are their small size.
 
 
