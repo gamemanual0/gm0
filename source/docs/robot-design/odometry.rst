@@ -58,19 +58,24 @@ inaccurate localization system when using the two-wheel design.
 However, designing consistently accurate dead wheels proves
 to be a difficult design challenges doing so is often quite pricey. A
 set of three dead wheels will cost a minimum of $100 for the encoders
-alone, prior to any hardware. 
+alone, prior to any hardware.
 
 Let's go through the advantages and disadvantages of each system.
 
 Drive Encoder Localization
 ==========================
 * Pros:
-    * Cheap (the motors you're using most likely already have encoders built in)
+
+    * Cheap (the motors you're using most likely already have
+      encoders built in)
     * Accessible
     * Very little configuration necessary
 * Cons:
-    * Drive encoder localization on mecanum drive can be quite inaccurate due to lack on traction on mecanum wheels.
-    * Will drift on high acceleration on mecanum drive. Accuracy will be good enough for basic autonomous modes if acceleration is limited
+
+    * Drive encoder localization on mecanum drive can be quite inaccurate due
+      to lack on traction on mecanum wheels.
+    * Will drift on high acceleration on mecanum drive. Accuracy will be good
+      enough for basic autonomous modes if acceleration is limited
 
 Two-Wheel Odometry Pods
 =======================
@@ -80,11 +85,12 @@ Two-Wheel Odometry Pods
     * No tuning of the heading necessary
 * Cons:
     * Subject to more drift than the 3-wheel design
-    
+
 Three-Wheel Odometry Pods
 =========================
 * Pros:
-    * Relatively accurate tracking. Great accuracy in a 30-second autonomous mode
+    * Relatively accurate tracking. Great accuracy in a 30-second
+      autonomous mode
 * Cons:
     * Quite pricey
     * Tuning of the heading is very important
@@ -114,14 +120,14 @@ REV Through-Bore
 Often short-handed to "REV-coders" or "revcoders,"
 the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_
 has quickly become the de facto option the FTC community. The REV
-encoders have gained such a reptuation due to its relative affordability,
+encoders have gained such a reputation due to its relative affordability,
 much improved reliability, and ease of use. The through-bore design
 proves to be a *significant* improvement over previous optical disc
 encoder designs. Optical disc encoders are very fragile, prone to
 scratching, and are much less tolerant to design flaws.
 
 **Advantages:**
-    
+
     * Through-bore design is very robust
     * Relatively cheap
     * High CPR
@@ -129,12 +135,14 @@ scratching, and are much less tolerant to design flaws.
 
 **Disadvantages:**
 
-    * Quite large relative to other encoders. May be challenging to create a compact design
+    * Quite large relative to other encoders. May be challenging to
+      create a compact design
 
 **Note:** The Through-Bore encoders have a very high CPR (8k). The Rev
 Hub stores velocity in a 16-bit signed integer. This means it can store a
-maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second
-(32k / 8k = 4) for the velocity value on the Rev Hub to experience an
+maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations
+a second (32k / 8k = 4) for the velocity value on the Rev Hub to
+experience an
 `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_.
 This is only a concern when dealing with motion profiling. The existing tools
 (Road Runner and FTCLib) have mechanisms for deadling with this issue.
