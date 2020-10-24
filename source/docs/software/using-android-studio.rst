@@ -88,10 +88,10 @@ Opening the SDK on Android Studio
 
    .. image:: images/using-android-studio/opening-as.png
       :width: 50em
-      :alt: A screen should appear with an option to conimage
+      :alt: A screen should appear with an option to configure
             settings and import a project
 
-#. Check for updates. Click on the "conimage"
+#. Check for updates. Click on the "configure"
    dropdown and select "check for updates."
    If you do not have the latest version,
    download the updates.
