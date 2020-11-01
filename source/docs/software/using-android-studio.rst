@@ -119,6 +119,15 @@ Opening the SDK on Android Studio
    .. image:: images/using-android-studio/build-gradle.png
       :width: 50em
 
+Layout
+======
+Android Studio can look menacing at first glance, but
+there are only a few features needed to use it
+properly.
+
+.. image:: images/using-android-studio/as-layout.png
+    :alt: Android Studio layout
+
 Gradle
 ======
 
