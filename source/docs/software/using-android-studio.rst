@@ -164,6 +164,9 @@ you will find tabs for the local terminal
 and logcat. These are useful tools for
 working with your program.
 
+.. image:: images/using-android-studio/terminal-logcat-location.png
+    :alt: Terminal and logcat tabs near the bottom left
+
 Some useful information on using the
 logcat can be found
 `here <https://developer.android.com/studio/debug/am-logcat>`_.
