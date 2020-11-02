@@ -127,6 +127,73 @@ properly.
 
 .. image:: images/using-android-studio/as-layout.png
     :alt: Android Studio layout
+    :width: 50em
+
+Creating Classes
+----------------
+The first thing to note in the project view
+is the dropdown with the name of the
+project. If you drop that down, you will
+see all of the gradle files and directories.
+Navigate to the TeamCode folder. In the
+teamcode folder you will see an
+:code:`org.firstinspires.ftc.teamcode` package.
+
+.. image:: images/using-android-studio/code-project-structure.png
+    :alt: TeamCode > src > main > java
+        > org.firstinspires.ftc.teamcode
+
+This is where you will create your code for
+the robot. To create a new Java class,
+right click on the package, select New, and
+then choose "Java Class."
+
+.. image:: images/using-android-studio/new-java-class.png
+    :alt: New > Java Class
+    :width: 50em
+
+Alternatively, you can select the "Package"
+option if you want to create a subfolder
+for organization purposes. Then,
+you can create classes in those packages.
+
+Terminal and Logcat
+-------------------
+Near the bottom left of the application,
+you will find tabs for the local terminal
+and logcat. These are useful tools for
+working with your program.
+
+Some useful information on using the
+logcat can be found
+`here <https://developer.android.com/studio/debug/am-logcat>`_.
+
+.. note::
+    You can build your program through the commandline
+    via the local terminal. Click on the terminal
+    tab and then input :code:`gradlew :TeamCode:clean :TeamCode:build`.
+    This will delete the previously compiled files and
+    build your TeamCode module.
+
+Installing Your Program
+-----------------------
+To install your program onto the Robot Controller,
+you will use the play button located near the top right
+of the application window.
+
+.. image:: images/using-android-studio/build-and-run.png
+    :alt: Play button next to device dropdown
+
+Next to it you will see a dropdown
+for devices. When you connect your Robot Controller
+to your computer (using the correct cable),
+the device should appear in the dropdown after some time.
+Then, click the play button and your program will install
+onto the device.
+
+If you run into any problems with this process,
+refer to the official
+`REV documentation <https://docs.revrobotics.com/rev-control-system/>`_.
 
 Gradle
 ======
