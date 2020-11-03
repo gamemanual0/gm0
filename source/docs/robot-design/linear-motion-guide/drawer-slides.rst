@@ -10,11 +10,9 @@ These slides are available from a number of different vendors,
 and come in many varieties, so choosing the right slide can seem overwhelming.
 Steel drawer slides are common, but can be hard to mount,
 as they aren’t made to be stacked.
-Aluminum drawer slides, such as the MiSUMI slides or the Hafele slides listed
-below, are generally the best option for teams.
-The Hafele slides are less than $3.50 for a pair,
-but the MiSUMI rails offer much smoother motion and have a better ball bearing
-system.
+Aluminum drawer slides, such as the MiSUMI slides or Long Robotics slides
+are generally the best option for teams.
+
 Igus is a brand known and trusted by robotics teams and manufacturers,
 but their parts are certainly not cheap, and can reach into the $100+ range.
 
@@ -151,30 +149,6 @@ Disadvantages
   :term:`extrusion <Extrusion>` based and don't have holes spaced at 8
   mm apart
 
-Hafele drawer slides
-====================
-`Hafele drawer slides <https://www.cabinetparts.com/p/hafele-drawer-slides-side-mount-drawer-slides-HAF42058373>`_
-are a low-cost option for teams not wanting to invest in MiSUMI slides.
-Hafele slides are less smooth than MiSUMI,
-which is to be expected given their low price point.
-They become unusable when handling large amount of load
-(greater than 57 pounds).
-However, they are great for low/medium-load use cases.
-Hafele slides are a great option for teams looking for a cheap alternative to
-the other more expensive options at the cost of robustness.
-
-Advantages
-----------
-
-* Cheapest drawer slide option
-* Great value for low/medium load applications
-
-Disadvantages
--------------
-
-* Not the best slide smoothness
-* Suffers in build quality (after all, it is very cheap)
-
 Igus
 ====
 Igus slides used to be a popular option among top teams for linear extension
@@ -198,13 +172,3 @@ by all means explore this option.
     :alt: 5143's Skystone robot with its lift fully extended
 
     5143 Xcentrics, Skystone, Misumi SAR2
-
-.. image:: images/drawer-slides/11115-hafele.png
-    :alt: 11115's Relic Recovery robot with its relic slides extended
-
-.. figure:: images/drawer-slides/11115-hafele-extended.png
-    :alt: 11115's Relic Recovery robot with its relic slides mostly retracted
-
-    11115 Gluten Free, Relic Recovery, Hafele slides
-
-
