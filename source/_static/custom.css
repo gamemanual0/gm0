@@ -88,6 +88,15 @@ span[id*="MathJax-Span"] {
     background-color: var(--sidebar-background-prominent);
 }
 
+.wy-menu-vertical ul.current a {
+    color: var(--sidebar-text-color);
+    background: var(--sidebar-background) !important;
+}
+
+.wy-menu-vertical .toctree-expand {
+    filter: contrast(0) invert(95%);
+}
+
 /* gm0 color highlight on hover */
 a:hover {
     color: var(--gm0-color);
