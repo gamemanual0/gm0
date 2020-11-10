@@ -1,21 +1,101 @@
 :root {
-  --image-width: 25em;
+    --image-width: 25em;
+
+    --gm0-color: rgb(245,127,38);
+    /*
+     * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+     * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+     *
+     * Project:    Nord
+     * Version:    0.2.0
+     * Repository: https://github.com/arcticicestudio/nord
+     * License:    MIT
+     * References:
+     *   https://www.w3.org/TR/css-variables
+     *   https://www.w3.org/TR/selectors/#root-pseudo
+     *   https://drafts.csswg.org/css-variables
+     *   https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+     *   http://warpspire.com/kss
+     *   https://github.com/kss-node/kss-node
+     */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --sidebar-background: var(--nord1);
+    --sidebar-background-prominent: var(--nord3);
+    --sidebar-text-color: var(--nord6);
+    --sidebar-text-color-prominent: var(--nord4);
 }
 
-/* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
+:root {
+    --text-color-normal: var(--nord0);
+
+    --background-normal: var(--nord6);
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color-normal: var(--nord5);
+
+        --background-normal: var(--nord0);
+    }
+
+    img:not(.logo) {
+        opacity: .75;
+        transition: opacity .25s ease-in-out;
+    }
+    img:not(.logo):hover {
+        opacity: 1;
+    }
+}
+
+/* Fix code highlighting */
+.highlight {
+    color: var(--text-color-normal);
+    background: var(--background-normal);
+}
+
+.wy-nav-content, .wy-nav-content-wrap {
+    color: var(--text-color-normal);
+    background: var(--background-normal);
+}
+
+span[id*="MathJax-Span"] {
+    color: var(--text-color-normal);
+}
+
+/* Sidebar */
 .wy-nav-top, .wy-nav-side, .wy-side-nav-search {
-    background: #4e4a4a;
+    background: var(--sidebar-background);
 }
 
 .wy-nav-side a:hover {
-    background: #404040;
+    color: var(--sidebar-text-color);
+    background-color: var(--sidebar-background-prominent);
 }
 
+.wy-menu-vertical a {
+    color: var(--sidebar-text-color-prominent);
+}
+
+.wy-side-nav-search input[type="text"] {
+    color: var(--sidebar-text-color-prominent);
+    background-color: var(--sidebar-background-prominent);
+}
+
+/* gm0 color highlight on hover */
+a:hover {
+    color: var(--gm0-color);
+}
+
+.wy-menu-vertical ul.current a:hover {
+    background: var(--gm0-color) !important;
+}
 
 img:not(.graphviz) {
     /* Change images to be consitently 400px wide, unless specified in the source */
@@ -39,4 +119,10 @@ span.caption-text {
     display: inline-block;
     max-width: var(--image-width);
     text-align: center;
+}
+
+/* Removes community ads on read the docs */
+div.ethical-sidebar, div.ethical-footer {
+    position: absolute;
+    left: -99999px;
 }
