@@ -107,7 +107,7 @@ a:hover {
 }
 
 img:not(.graphviz) {
-    /* Change images to be consitently 400px wide, unless specified in the source */
+    /* Change images to be consistently 400px wide, unless specified in the source */
     width: var(--image-width);
     /* Center all images so that figures and normal images have consistent styling */
     display: block;
