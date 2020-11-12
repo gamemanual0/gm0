@@ -102,7 +102,7 @@ a:hover {
     color: var(--gm0-color);
 }
 
-.wy-menu-vertical ul.current a:hover {
+.wy-menu-vertical ul a:hover {
     background: var(--gm0-color) !important;
 }
 
