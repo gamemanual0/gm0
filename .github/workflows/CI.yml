@@ -85,5 +85,5 @@ jobs:
         reporter: github-check
         language: "en-US"
         patterns: "source/**.rst"
-        disabled_rules: "DOUBLE_PUNCTUATION,UPPERCASE_SENTENCE_START,PHRASE_REPETITION,ENGLISH_WORD_REPEAT_RULE"
+        disabled_rules: "DOUBLE_PUNCTUATION, UPPERCASE_SENTENCE_START, PHRASE_REPETITION, ENGLISH_WORD_REPEAT_RULE, A_INFINITIVE"
         level: warning
