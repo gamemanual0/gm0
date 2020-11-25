@@ -84,6 +84,6 @@ jobs:
         github_token: ${{ secrets.github_token }}
         reporter: github-check
         language: "en-US"
-        patterns: "source/**.rst"
+        patterns: "source/**.rst !source/docs/appendix/license.rst"
         disabled_rules: "DOUBLE_PUNCTUATION,UPPERCASE_SENTENCE_START,PHRASE_REPETITION,ENGLISH_WORD_REPEAT_RULE,A_INFINITIVE"
         level: warning
