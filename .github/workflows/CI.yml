@@ -69,7 +69,7 @@ jobs:
     - name: Check Lint
       run: |
         make lint
-  check-spelling:
+  check-language:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
