@@ -64,9 +64,9 @@ computer to run it (16GB RAM is standard). SolidWorks also comes with a solid
 simulation program if you wish to test the structural properties of your robot
 or a custom-designed part.
 
-If you have mentors or team members with previous experience in SolidWorks or an
-engineering class at your school that teaches SolidWorks, it will be your best
-choice.
+If you have mentors or team members with previous experience in SolidWorks or
+an engineering class at your school that teaches SolidWorks, it will be your
+best choice.
 
 `Inventor <https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
