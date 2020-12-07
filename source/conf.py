@@ -108,18 +108,8 @@ pygments_style = None
 # a list of builtin themes.
 #
 
-# on_rtd is whether we are on readthedocs.org
-import os
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# otherwise, readthedocs.org uses their theme by default, so no need to specify it
-html_logo = "assets/gm0-logo.png"
-html_favicon = "assets/gm0-logo.ico"
+html_theme = "furo"
+html_favicon = "_static/assets/gm0-logo.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -134,11 +124,17 @@ html_css_files = [
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'display_version': False,
-    'logo_only': True,
-    'prev_next_buttons_location': 'both',
-    'style_external_links': True,
-    'style_nav_header_background': '#4e4a4a',
+    "sidebar_hide_name": True,
+    "light_logo": "assets/gm0-logo.png",
+    "dark_logo": "assets/gm0-logo_white.png",
+    "light_css_variables": {
+        # Both theme variables
+        "font-stack": '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+        # Light theme only variables
+    },
+    "dark_css_variables" : {
+
+    },
 }
 
 # Custom sidebar templates, must be a dictionary that maps document names
