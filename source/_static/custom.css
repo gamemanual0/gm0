@@ -2,12 +2,6 @@
   --image-width: 25em;
 }
 
-/* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
-}
-
 .wy-nav-top, .wy-nav-side, .wy-side-nav-search {
     background: #4e4a4a;
 }
