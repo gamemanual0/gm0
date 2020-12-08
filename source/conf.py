@@ -155,7 +155,7 @@ htmlhelp_basename = 'GameManual0Sitedoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_logo = 'assets/gm0-logo.png'
+latex_logo = '_static/assets/gm0-logo.png'
 
 latex_engine = 'xelatex'
 
