@@ -40,3 +40,9 @@ span.caption-text {
     max-width: var(--image-width);
     text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+    img.graphviz {
+        filter: invert(92%);
+    }
+}
