@@ -200,6 +200,64 @@ refer to the official
 
 Gradle
 ======
+Gradle is a build tool for software development.
+In the scope of FTC, it is used to build and manage dependencies
+for your project.
+
+When you update any of your gradle files you will need to perform a
+gradle sync, which syncs your project to the changes and rebuilds it.
+In your :code:`build.common.gradle`, you will find information for
+how your robot controller application is built.
+
+Rebuilding
+----------
+You can rebuild your project easily with the build dropdown.
+
+.. image:: images/using-android-studio/gradle-build.png
+    :alt: The build dropdown at the top of the screen
+
+To rebuild from a clean project, press the clean project option.
+This removes old compiled files from your project so you
+can completely rebuild your project. It clears any production
+files, generated files, etc. When you next build your project,
+it will do so from scratch with no old compiled files to which
+it can refer. To rebuild your project, press the rebuild option.
+
+Invalidate and Restart
+----------------------
+Sometimes you can get errors after moving things around,
+refactoring, etc. The first step is to try cleaning the project
+and doing a rebuild. If this doesn't work, you might have confused
+Android Studio because it caches information about
+your project structure.
+
+The most common way to fix these errors is to do an invalidate
+and restart. In the file dropdown, there will be an option for
+this and then you will choose Invalidate and Restart. This clears
+the cache and restarts your Android Studio, which then should
+perform a gradle rebuild.
+
+Adding Dependencies
+-------------------
+If you want to add dependencies to your project, you can do so
+in the :code:`build.gradle` file in the TeamCode directory.
+
+There should be a dependencies block at the bottom of the file.
+
+.. image:: images/using-android-studio/teamcode-gradle.png
+
+Some dependencies require changes to your other gradle files.
+Make sure to read the installation instructions for whatever
+gradle dependency you want to add.
+
+Next, you add a line in the dependencies block to implement
+the dependency. This is generally done with
+:code:`implementation ''`.
+
+.. image:: images/using-android-studio/add-dependency.png
+    :alt: Add the dependency using implementation
+
+Finally, perform a gradle sync.
 
 Android Debug Bridge
 ====================
