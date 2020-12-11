@@ -261,3 +261,18 @@ Finally, perform a gradle sync.
 
 Android Debug Bridge
 ====================
+
+Version Control
+===============
+Version control is be extremely useful tool. It allows for looking at (and
+reverting to) previous versions of code, easy collaboration, having multiple
+versions of code that can be merged together, etc.
+
+As far as version control systems go, we strongly recommend git. While a git
+tutorial is out of scope for |gm0|, here are some git resources:
+
+* `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
+* `Github's collection of git resources <https://try.github.io/>`_
+* `Github's guide to installing git <https://github.com/git-guides/install-git>`_
+* `Github Desktop, a git GUI <https://desktop.github.com/>`_
+* `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_
