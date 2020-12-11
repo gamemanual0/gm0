@@ -139,14 +139,8 @@ first.
 If one is careful to follow good design practices,
 Fusion is a solid option.
 
-Creo (formerly known as Pro/E)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. note::
-   It seems there is no way to get Creo for being on a FIRST team anymore; the
-   link to register a copy of Creo on `this page
-   <https://support.ptc.com/company/community/first/teams.htm>`_ leads to a page
-   saying the program to get a copy of Creo was retired on 2020-12-02.
-
+`Creo (formerly known as Pro/E) <https://www.ptc.com/en/academic-program/academic-products/free-software/standalone-educator>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A family of CAD/CAM applications developed by
 PTC (Parametric Technology Corporation).
 Creo parametric is the main CAD package that includes robust assembly and
