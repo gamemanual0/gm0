@@ -37,7 +37,8 @@ The :term:`VEX 393 EDR` is technically a motor, but is legally counted as a
 Why this is, we do not know, but :term:`VEX 393 motors <VEX 393 EDR>` have been
 legal in FTC for many years.
 The :term:`393 motor <VEX 393 EDR>` acts as a more powerful and faster
-continuous rotation :term:`servo <Servo>`.
+continuous rotation :term:`servo <Servo>`. It should be treated as a continuous
+rotation :term:`servo <Servo>` when configuring the robot and programming.
 
 However, there are some difficulties to keep in mind.
 The 393 motor uses a 1/8" square :term:`shaft <Shaft>`,

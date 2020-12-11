@@ -64,6 +64,7 @@ For further reading, we highly suggest you check out those links.**
   * `REV Robotics Official CAD Library <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_
   * `Guide to Rendering in CAD <https://drive.google.com/file/d/1t8Ke626MCedOHR4kzaNYtMdG7IC0bhGs/view>`_  - Justin, FTC 9656
   * `GrabCAD Workbench (Git for CAD) <https://grabcad.com/workbench>`_
+  * `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
   * 4137 Islandbots Library of goBILDA parts in Fusion360 format:
 
     * `axles, hubs, wheels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9688994ea9aacfd8be4>`_
