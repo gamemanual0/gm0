@@ -264,7 +264,7 @@ Android Debug Bridge
 
 Version Control
 ===============
-Version control is be extremely useful tool. It allows for looking at (and
+Version control is an extremely useful tool. It allows for looking at (and
 reverting to) previous versions of code, easy collaboration, having multiple
 versions of code that can be merged together, etc.
 
