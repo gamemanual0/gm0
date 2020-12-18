@@ -10,6 +10,11 @@
     background: #404040;
 }
 
+/* Removes community ads on read the docs */
+div.ethical-sidebar, div.ethical-footer {
+    position: absolute;
+    left: -99999px;
+}
 
 img:not(.graphviz) {
     /* Change images to be consitently 400px wide, unless specified in the source */
