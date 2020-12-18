@@ -37,6 +37,6 @@ span.caption-text {
 
 @media (prefers-color-scheme: dark) {
     img.graphviz {
-        filter: invert(92%);
+        filter: invert(87%);
     }
 }

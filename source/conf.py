@@ -133,7 +133,7 @@ html_theme_options = {
         # Light theme only variables
     },
     "dark_css_variables" : {
-
+        "color-background-primary": "#1f2022",
     },
 }
 
