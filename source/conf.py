@@ -131,6 +131,8 @@ html_theme_options = {
     "light_css_variables": {
         # Both theme variables
         "font-stack": '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+        "admonition-font-size": "1rem",
+        "admonition-title-font-size": "1rem",
         # Light theme only variables
     },
     "dark_css_variables" : {
