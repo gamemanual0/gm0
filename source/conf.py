@@ -108,6 +108,7 @@ pygments_style = None
 # a list of builtin themes.
 #
 
+html_title = "Game Manual 0"
 html_theme = "furo"
 html_favicon = "_static/assets/gm0-logo.ico"
 
