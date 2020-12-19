@@ -40,8 +40,16 @@ span.caption-text {
     text-align: center;
 }
 
+footer {
+    font-size: var(--font-size--normal);
+}
+
 @media (prefers-color-scheme: dark) {
     img.graphviz {
         filter: invert(87%);
+    }
+
+    .dark-mode-invert {
+        filter: invert(50%);
     }
 }
