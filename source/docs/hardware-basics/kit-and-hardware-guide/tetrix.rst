@@ -143,9 +143,8 @@ is also highly recommended.
 .. figure:: images/tetrix/6022-vv.jpg
     :alt: 6022 To Be Determined's Velocity Vortex Robot
 
-    TETRIX based robots have succeeded in competition,
-    albeit it has become rarer in recent years.
-
     6022 To Be Determined:
     Worlds Semifinalist (St. Louis), Velocity Vortex
 
+TETRIX based robots have succeeded in competition, albeit it has become rarer in
+recent years.
