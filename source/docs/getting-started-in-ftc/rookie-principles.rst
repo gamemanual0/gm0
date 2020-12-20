@@ -4,9 +4,6 @@ Rookie Mistakes: Principles
 Here are some common mistakes that teams make in the high-level design
 and strategic planning stages.
 
-.. image:: images/principles.png
-    :width: 100%
-
 +--------------------------------+-----------------------------------------+
 |            Problem             |                Solution                 |
 +================================+=========================================+
