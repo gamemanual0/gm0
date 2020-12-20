@@ -44,7 +44,7 @@ Optical
     * Hardware
         * PixyCMU
     * Software
-        * OpenCV/DogeCV/EasyOpenCV
+        * OpenCV (EasyOpenCV)
         * Vuforia
         * TFLite
 
