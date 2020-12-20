@@ -146,5 +146,5 @@ is also highly recommended.
     6022 To Be Determined:
     Worlds Semifinalist (St. Louis), Velocity Vortex
 
-TETRIX based robots have succeeded in competition, albeit it has become rarer in
-recent years.
+    TETRIX based robots have succeeded in competition, albeit it has become
+    rarer in recent years.

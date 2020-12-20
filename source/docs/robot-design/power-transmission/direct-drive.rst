@@ -56,21 +56,20 @@ Disadvantages
 .. figure:: images/direct-drive/outside-supported-direct-drive.jpg
     :alt: A drivetrain with the wheel directly driven, but with an externally supported shaft
 
-    *Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)
-
     11316, Weapons of Mass Construction
+
+    *Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)
 
 .. figure:: images/direct-drive/inside-supported-direct-drive.png
     :alt: A drivetrain with the wheel directly driven, but with an internally supported shaft
 
-    *Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)
-
     Ethan Doak
+
+    *Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)
 
 .. figure:: images/direct-drive/unsupported-direct-drive.jpg
     :alt: A drivetrain with the wheel direct mounted, but with an unsupported shaft
 
-    Unsupported Direct Drive (**not recommended**)
-
     11316, Weapons of Mass Construction
 
+    Unsupported Direct Drive (**not recommended**)
