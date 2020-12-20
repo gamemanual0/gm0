@@ -46,6 +46,18 @@ Compliant wheels also accounting for different game element orientations
 
 Compliant Wheel Intake
 ----------------------
+.. sidebar:: Spring-Loaded Intakes
+
+    A spring-loaded intake is able to pivot in order to accommodate a game element
+    when it is passing through the intake,
+    but will snap back when the element has gone through.
+    A spring-loaded intake requires more thought,
+    but guarantees that the intake wheel will always be in contact with the desired
+    element.
+
+    A locked intake simply means that the wheels are locked into place and
+    cannot pivot.
+
 The compliant wheel intake is most commonly used with large game elements such
 as the glyphs in the 2017-2018 season, Relic Recovery.
 Compliant wheel intakes excel at controlling elements with flat surfaces such
@@ -61,19 +73,6 @@ point of contact to the deposit plate,
 which would flip up to deposit the glyphs.
 
 Wheeled intakes can be spring-loaded or locked into place.
-
-.. sidebar:: Spring-Loaded Intakes
-
-    A spring-loaded intake is able to pivot in order to accommodate a game element
-    when it is passing through the intake,
-    but will snap back when the element has gone through.
-    A spring-loaded intake requires more thought,
-    but guarantees that the intake wheel will always be in contact with the desired
-    element.
-
-    A locked intake simply means that the wheels are locked into place and
-    cannot pivot.
-
 Teams could choose one or mix; in Relic Recovery,
 some teams spring-loaded the set of wheels that made contact first,
 and then had a fixed set in the back.
