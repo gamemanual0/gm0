@@ -14,4 +14,3 @@ robot, including information on wiring, batteries, motors, and control system.
     driver-station-guide
     sensor-glossary
     tips-and-tricks
-    ../software/control-system-internals
