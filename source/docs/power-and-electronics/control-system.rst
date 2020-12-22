@@ -75,4 +75,4 @@ undergoing a pilot program.
     :alt: A diagram of the Control Hub + Expansion Hub control system
     :width: 100%
 
-.. _REV Expansion Hub firmware update docs: https://www.revrobotics.com/software/#ExpansionHubFirmware
+.. _REV Expansion Hub firmware update docs: https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-firmware
