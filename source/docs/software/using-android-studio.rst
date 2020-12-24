@@ -219,7 +219,9 @@ You can rebuild your project easily with the build dropdown.
 To rebuild from a clean project, press the clean project option.
 This removes old compiled files from your project so you
 can completely rebuild your project. It clears any production
-files, generated files, etc. When you next build your project,
+files, generated files, etc. This is useful for making sure
+old artifacts don't break anything when you build your code.
+When you next build your project,
 it will do so from scratch with no old compiled files to which
 it can refer. To rebuild your project, press the rebuild option.
 
@@ -261,6 +263,69 @@ Finally, perform a gradle sync.
 
 Android Debug Bridge
 ====================
+
+Logcat
+------
+The logcat is extremely useful for debugging issues
+with your code at runtime or figuring out what went wrong.
+For example, if your app activity crashes and you pull up
+the log seeing 400 pages of something like this:
+
+.. image:: images/using-android-studio/infinite-recursion.png
+    :alt: Infinite recursion
+
+then, you know that there is infinite recursion somewhere
+in your program.
+
+To use the logcat, plug in your device (or connect via ADB).
+Then, select the app you want to view the logs for. Your window
+should look like this.
+
+.. image:: images/using-android-studio/logcat-window.png
+    :alt: A selected device and app with the error messages
+
+If you have an issue you don't understand, you can print
+a PDF (option 5) of the log and open an issue on the
+SDK repository.
+
+Wireless Communication
+----------------------
+The Android Debug Bridge (or ADB) is a command-line
+tool that allows for wireless communication between the
+robot controller (phone or Control Hub).
+
+Setting Up ADB
+^^^^^^^^^^^^^^
+#.  Ensure USB debugging is enabled on your device and it is
+    in developer mode.
+
+#.  Make sure you have ADB installed. If you do not, follow
+    the instructions `here <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
+
+#.  Connect to the same WiFi network the device is either hosting or on.
+
+Connecting to the Phone
+^^^^^^^^^^^^^^^^^^^^^^^
+#.  Plug the robot controller phone into your computer.
+
+#.  Run the command :code:`adb devices` in the :code:`platform-tools`
+    directory and see if the phone shows up.
+
+#.  Run :code:`adb usb` and then :code:`adb tcpip 5555`. You
+    can then unplug the phone.
+
+#.  Connect to the phone using :code:`adb connect 192.168.49.1:5555`.
+    If this doesn't work, recheck the IP address of the phone and
+    try again with that IP address if it is different.
+
+Connecting to the Control Hub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Once you're connected to the Control Hub's network,
+you simply need to connect to the device using
+:code:`adb connect 192.168.43.1:5555`.
+
+Once a connection is established, the device should appear
+in the device dropdown in Android Studio.
 
 Version Control
 ===============
