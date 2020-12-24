@@ -300,7 +300,7 @@ Setting Up ADB
     in developer mode.
 
 #.  Make sure you have ADB installed. If you do not, follow
-    the instructions `here <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
+    the instructions at `this link <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
 
 #.  Connect to the same WiFi network the device is either hosting or on.
 
