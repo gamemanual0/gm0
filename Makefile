@@ -20,7 +20,7 @@ help:
 .PHONY: help Makefile
 
 lint:
-	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)
+	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)/docs
 
 .PHONY: help lint Makefile
 
