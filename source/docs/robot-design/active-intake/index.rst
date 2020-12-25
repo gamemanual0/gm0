@@ -5,8 +5,8 @@ There’s one main rule when it comes to intakes in FTC: you need one.
 Before diving in, what *is* an intake in the first place?
 
 Intake
-    A mechanism designed to pick up game elements using
-    some component of rotational motion powered by a motor.
+   A mechanism designed to pick up game elements using
+   some component of rotational motion powered by a motor.
 
 An intake is differentiated from a claw as an intake does not grasp individual
 game elements using a pinching motion, but rather sucks the element in
@@ -20,7 +20,7 @@ For example, near the end of Rover Ruckus, many of the top performing teams
 used a 3.7:1 (1600 RPM) motor or a 5.2:1 (1000 RPM) motor on their intake.
 
 .. tip::  While not a necessity, it is highly recommended that teams dedicate at least
-    one motor to their intake if possible.
+   one motor to their intake if possible.
 
 
 .. attention::
@@ -34,9 +34,9 @@ piece and in the alignment of the robot. For example, look at FRC team
 694’s ball intake on their 2019 robot:
 
 .. figure:: images/frc694-ball-intake.png
-    :alt: FRC 694's Deep Space ball intake with 2 horizontal rollers with compliant wheels
+   :alt: FRC 694's Deep Space ball intake with 2 horizontal rollers with compliant wheels
 
-    FRC 694 StuyPulse, Deep Space
+   FRC 694 StuyPulse, Deep Space
 
 When this robot drives up to a ball,
 it barely has to point itself at the ball before the ball is instantly locked
@@ -51,7 +51,7 @@ they didn’t have to guess whether it would work as intended:
 they put it on the field with confidence.
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    principles-of-an-intake
-    types-of-intakes
+   principles-of-an-intake
+   types-of-intakes

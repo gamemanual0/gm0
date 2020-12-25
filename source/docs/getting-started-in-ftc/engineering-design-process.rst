@@ -7,22 +7,22 @@ so the graphic is not meant to be a hard and fast rule.*
 .. graphviz::
 
    digraph {
-        define[label="Define the Problem"];
-        specify[label="Specify Requirements"];
-        brainstorm[label="Brainstorm/CAD Design"];
-        prototype[label="Prototype/Experiment"];
-        test[label="Test"];
-        analyze[label="Analyze Results"];
-        implementation[label="Final Implementation"];
+      define[label="Define the Problem"];
+      specify[label="Specify Requirements"];
+      brainstorm[label="Brainstorm/CAD Design"];
+      prototype[label="Prototype/Experiment"];
+      test[label="Test"];
+      analyze[label="Analyze Results"];
+      implementation[label="Final Implementation"];
 
-        define->specify
-        specify->brainstorm
-        brainstorm->prototype
-        prototype->test
-        test->analyze
-        analyze->brainstorm
-        test->implementation
-    }
+      define->specify
+      specify->brainstorm
+      brainstorm->prototype
+      prototype->test
+      test->analyze
+      analyze->brainstorm
+      test->implementation
+   }
 
 Components of the Engineering Design Process
 ============================================

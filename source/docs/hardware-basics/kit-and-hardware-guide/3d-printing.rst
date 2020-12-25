@@ -95,8 +95,8 @@ Parts that use no support material make sure that the least amount of plastic
 is wasted.
 
 .. image:: images/3d-printing/2-piece-gearbox.jpg
-    :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
-    :scale: 25%
+   :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
+   :scale: 25%
 
 .. tip::
   Don't chamfer or round anything on the perimeter of the first layer
@@ -142,12 +142,12 @@ In this example the side pieces were printed as separate parts on a
 complementary axis to strengthen the assembly.
 
 .. image:: images/3d-printing/printing-multipart.jpg
-    :alt: A multipart assembly 3D printing
-    :scale: 25%
+   :alt: A multipart assembly 3D printing
+   :scale: 25%
 
 .. image:: images/3d-printing/assembled-multipart.jpg
-    :alt: An assembled version of what was printing in the previous image
-    :scale: 25%
+   :alt: An assembled version of what was printing in the previous image
+   :scale: 25%
 
 This assembly is a good example of considering part orientation, draft angles,
 and stress vectors in each part of the design.

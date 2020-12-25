@@ -11,8 +11,8 @@ design solutions for your robot!
   * `CAD <https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`_
   * Videos
 
-    * `Robot Reveal <https://www.youtube.com/watch?v=i2g_b54MEFI>`_
-    * `Former World Record <https://www.youtube.com/watch?v=hL4nYgLUCeg>`_
+   * `Robot Reveal <https://www.youtube.com/watch?v=i2g_b54MEFI>`_
+   * `Former World Record <https://www.youtube.com/watch?v=hL4nYgLUCeg>`_
 * 11503 Viperbots Hyperfang
 
   * `Robot portfolio <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__
@@ -31,24 +31,24 @@ design solutions for your robot!
   * `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf876fb9be002654e2>`__
   * Videos
 
-    * `Practice Run <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__
-    * `World Record Match <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__
-    * `Behind the Bot Interview <https://www.youtube.com/watch?v=zun--sNljks>`__
+   * `Practice Run <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__
+   * `World Record Match <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__
+   * `Behind the Bot Interview <https://www.youtube.com/watch?v=zun--sNljks>`__
 * 8417 'Lectric Legends
 
   * `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf9939325e4a438df9>`__
   * Videos
 
-    * `Robot Reveal Video <https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__
-    * `Behind the bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__
+   * `Robot Reveal Video <https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__
+   * `Behind the bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__
 * 14270 Quantum Robotics
 
   * `CAD <https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968e7fc6e5b3808809c>`__
   * `Robot Description Flyer <https://qrobotics.eu/media/resources/2018-2019/mti.pdf>`__
   * Videos
 
-    * `Practice Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__
-    * `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__
+   * `Practice Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__
+   * `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__
 * 9872 (In)Formal Logic
 
   * `CAD <https://myhub.autodesk360.com/ue2814ea3/g/shares/SH56a43QTfd62c1cd968250c04221a0d6400>`__

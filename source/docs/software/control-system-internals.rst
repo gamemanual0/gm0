@@ -70,7 +70,7 @@ To manually set ``OFF`` mode, you need to run
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-       hub.setBulkCachingMode(LynxModule.BulkCaching.OFF);
+      hub.setBulkCachingMode(LynxModule.BulkCaching.OFF);
    }
 
 Auto Mode
@@ -82,17 +82,17 @@ done when a hardware read is repeated. As an example of this
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-       hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
+      hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
    }
 
    while (opModeIsActive()) {
-       // Will run one bulk read per cycle; however, if e.g.
-       // frontLeftMotor.getPosition() was called again,
-       // a new bulk read would be issued
-       int frontLeftEncoderPos = frontLeftMotor.getPosition();
-       int frontRightEncoderPos = frontRightMotor.getPosition();
-       int backLeftEncoderPos = backLeftMotor.getPosition();
-       int backRightEncoderPos = backRightMotor.getPosition();
+      // Will run one bulk read per cycle; however, if e.g.
+      // frontLeftMotor.getPosition() was called again,
+      // a new bulk read would be issued
+      int frontLeftEncoderPos = frontLeftMotor.getPosition();
+      int frontRightEncoderPos = frontRightMotor.getPosition();
+      int backLeftEncoderPos = backLeftMotor.getPosition();
+      int backRightEncoderPos = backRightMotor.getPosition();
    }
 
 However, this can be problematic, if the same hardware read is called more than
@@ -102,14 +102,14 @@ once in a given loop; an example of this
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-       hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
+      hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
    }
 
    while (opModeIsActive()) {
-       // Will run two bulk read per cycles,
-       // as frontLeftMotor.getPosition() is called twice
-       int frontLeftEncoderPos = frontLeftMotor.getPosition();
-       int frontLeftEncoderPos2 = frontLeftMotor.getPosition();
+      // Will run two bulk read per cycles,
+      // as frontLeftMotor.getPosition() is called twice
+      int frontLeftEncoderPos = frontLeftMotor.getPosition();
+      int frontLeftEncoderPos2 = frontLeftMotor.getPosition();
    }
 
 Overall, this is recommended, as it is very unlikely to mess
@@ -128,20 +128,20 @@ said, here's a proper implementation of ``MANUAL`` mode
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-       hub.setBulkCachingMode(LynxModule.BulkCaching.MANUAL);
+      hub.setBulkCachingMode(LynxModule.BulkCaching.MANUAL);
    }
 
    while (opModeIsActive()) {
-       // Will run one bulk read per cycle,
-       // even as frontLeftMotor.getPosition() is called twice
-       // because the caches are being handled manually and cleared
-       // once a loop
-       for (LynxModule hub : allHubs) {
-           hub.clearBulkCache();
-       }
+      // Will run one bulk read per cycle,
+      // even as frontLeftMotor.getPosition() is called twice
+      // because the caches are being handled manually and cleared
+      // once a loop
+      for (LynxModule hub : allHubs) {
+         hub.clearBulkCache();
+      }
 
-       int frontLeftEncoderPos = frontLeftMotor.getPosition();
-       int frontLeftEncoderPos2 = frontLeftMotor.getPosition();
+      int frontLeftEncoderPos = frontLeftMotor.getPosition();
+      int frontLeftEncoderPos2 = frontLeftMotor.getPosition();
    }
 
 .. warning::
@@ -156,52 +156,52 @@ Control System Internals Glossary
 
 .. glossary::
    Control Hub
-      The :term:`Control Hub` is an :term:`Expansion Hub` with an embedded
-      Android single-board computer daughterboard connected to it. This
-      enables it to not need a separate Robot Controller phone, as the
-      daughterboard functions as the Robot Controller. Internally,
-      :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard
-      to the :term:`Lynx board <Lynx>` over  an internal UART connection.
+     The :term:`Control Hub` is an :term:`Expansion Hub` with an embedded
+     Android single-board computer daughterboard connected to it. This
+     enables it to not need a separate Robot Controller phone, as the
+     daughterboard functions as the Robot Controller. Internally,
+     :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard
+     to the :term:`Lynx board <Lynx>` over  an internal UART connection.
 
-      For more information, see the `official REV Control Hub documentation
-      <https://docs.revrobotics.com/rev-control-system/control-system-overview/control-hub-basics>`_.
+     For more information, see the `official REV Control Hub documentation
+     <https://docs.revrobotics.com/rev-control-system/control-system-overview/control-hub-basics>`_.
 
-      .. warning::
-         Don't take apart a Control Hub unless you really know what you are
-         doing. They can be damaged in the process, especially if one does not
-         know how to properly reassemble it.
+     .. warning::
+       Don't take apart a Control Hub unless you really know what you are
+       doing. They can be damaged in the process, especially if one does not
+       know how to properly reassemble it.
 
-      .. figure:: images/control-system-internals/control-hub-internals.jpg
-         :alt: The single board computer and :term:`Lynx` board from a Control
-               Hub
+     .. figure:: images/control-system-internals/control-hub-internals.jpg
+       :alt: The single board computer and :term:`Lynx` board from a Control
+           Hub
 
    Expansion Hub
-      The Expansion Hub contains a :term:`Lynx board <Lynx>`. It can be
-      controlled by an Android device running the FTC SDK. This will send it
-      :term:`LynxCommands <LynxCommand>`, which will cause the Expansion Hub to
-      respond accordingly.
+     The Expansion Hub contains a :term:`Lynx board <Lynx>`. It can be
+     controlled by an Android device running the FTC SDK. This will send it
+     :term:`LynxCommands <LynxCommand>`, which will cause the Expansion Hub to
+     respond accordingly.
 
-      For more information, see the `official REV Expansion Hub documentation
-      <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
+     For more information, see the `official REV Expansion Hub documentation
+     <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
 
    Lynx
-      "Lynx" is the codename of the board within the :term:`Expansion Hub` and
-      :term:`Control Hub` that interacts with hardware. References to "Lynx"
-      are made in the FTC SDK refer to this board.
+     "Lynx" is the codename of the board within the :term:`Expansion Hub` and
+     :term:`Control Hub` that interacts with hardware. References to "Lynx"
+     are made in the FTC SDK refer to this board.
 
 
-      .. warning::
-         Don't take apart a Control or Expansion Hub unless you really know
-         what you are doing. They can be damaged in the process, especially if
-         one does not know how to properly reassemble it.
+     .. warning::
+       Don't take apart a Control or Expansion Hub unless you really know
+       what you are doing. They can be damaged in the process, especially if
+       one does not know how to properly reassemble it.
 
-      .. figure:: images/control-system-internals/lynx-board.jpg
-         :alt: A Lynx board that was removed from its case
+     .. figure:: images/control-system-internals/lynx-board.jpg
+       :alt: A Lynx board that was removed from its case
 
-         A Lynx board that was removed from its case
+       A Lynx board that was removed from its case
 
    LynxCommand
-      A `LynxCommand
-      <https://github.com/OpenFTC/Extracted-RC/blob/master/Hardware/src/main/java/com/qualcomm/hardware/lynx/commands/LynxCommand.java>`_
-      represents a command that can be sent to a :term:`Lynx` module; it can
-      send and receive information.
+     A `LynxCommand
+     <https://github.com/OpenFTC/Extracted-RC/blob/master/Hardware/src/main/java/com/qualcomm/hardware/lynx/commands/LynxCommand.java>`_
+     represents a command that can be sent to a :term:`Lynx` module; it can
+     send and receive information.

@@ -108,11 +108,11 @@ as many new teams run into problems during their tournament because of it.
 * Modifying :term:`servos <Servo>` and replacing fuses are not allowed.
 
 .. toctree::
-    :maxdepth: 1
-    :caption: More Information:
+   :maxdepth: 1
+   :caption: More Information:
 
-    know-your-lingo
-    engineering-design-process
-    rookie-building
-    rookie-principles
-    rookie-competition
+   know-your-lingo
+   engineering-design-process
+   rookie-building
+   rookie-principles
+   rookie-competition

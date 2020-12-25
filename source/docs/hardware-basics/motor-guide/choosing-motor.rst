@@ -184,24 +184,24 @@ than the standard  ones, but they can be quite expensive and require more work.
   important factors for you to consider.
 
   * The higher the reduction, the weaker the stage is.
-    So for instance, a gearbox with 4:1, 4:1, 5:1 stages would be stronger
-    than a 10:1, 10:1 gearbox though they end up with the same output ratio
-    of 100:1.
+   So for instance, a gearbox with 4:1, 4:1, 5:1 stages would be stronger
+   than a 10:1, 10:1 gearbox though they end up with the same output ratio
+   of 100:1.
   * Always place the highest reduction as close as you can to the motor.
-    There is less load placed on it here, and is less likely to break than if
-    you placed it higher in the reduction.
-    Then after your weakest stage, you should use your next weakest stage,
-    until you reach the output stage.
+   There is less load placed on it here, and is less likely to break than if
+   you placed it higher in the reduction.
+   Then after your weakest stage, you should use your next weakest stage,
+   until you reach the output stage.
   * VEXPro also sells a VersaPlanetary Lite option,
-    which replaces the outer aluminum ring gear and housing with a 30% glass
-    filled nylon.
-    VersaPlanetary Lite gearboxes use the same gear sets as the regular
-    VersaPlanetary, so if you ever feel the need for a stronger gearbox you
-    can mix and match parts to fill your requirement.
-    While still expensive, the VPLite is still one of the strongest gearboxes
-    available for FTC use.
+   which replaces the outer aluminum ring gear and housing with a 30% glass
+   filled nylon.
+   VersaPlanetary Lite gearboxes use the same gear sets as the regular
+   VersaPlanetary, so if you ever feel the need for a stronger gearbox you
+   can mix and match parts to fill your requirement.
+   While still expensive, the VPLite is still one of the strongest gearboxes
+   available for FTC use.
   * Like the NeveRest Sport gearboxes, you *will* need to supply your own bare
-    motor to attach to the gearbox.
+   motor to attach to the gearbox.
 
 .. note::
   The VPLite comes with a 3/8” hex output

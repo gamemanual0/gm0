@@ -30,9 +30,9 @@ do so by pushing out the pins in the link and re-inserting them back.
    instead of using master links, which are prone to failure.
 
 .. figure:: images/chain/master-link.png
-    :alt: A disassembled master link
+   :alt: A disassembled master link
 
-    The removable master link is shown on the right.
+   The removable master link is shown on the right.
 
 Terms
 =====
@@ -71,9 +71,9 @@ can calculate C-C distances without going through the tedious calculations.
 However, the complete formula is below.
 
 .. math::
-    C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
+   C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
 
-    L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
+   L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
 
 * :math:`C` = center-to-center distance, inches
 * :math:`L` = chain length in pitches
@@ -104,14 +104,14 @@ Best practices for wrap
 
 
 .. figure:: images/chain/724-dt.png
-    :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
+   :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
 
-    724 Rednek Robotics Wun, Relic Recovery
+   724 Rednek Robotics Wun, Relic Recovery
 
 .. figure:: images/chain/8103-dt.png
-    :alt: A metal chain for a drivetrain by 8103, Null Robotics
+   :alt: A metal chain for a drivetrain by 8103, Null Robotics
 
-    8103 Null Robotics, Rover Ruckus
+   8103 Null Robotics, Rover Ruckus
 
 Advantages
 ==========
@@ -159,17 +159,17 @@ Disadvantages
   so your reductions are going to be much larger.
 
 .. figure:: images/chain/7244-chain.png
-    :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
+   :alt: A metal chain for a drivetrain by 7244, OUT of the BOX Robotics
 
-    7244 OUT of the BOX Robotics, Relic Recovery
+   7244 OUT of the BOX Robotics, Relic Recovery
 
 
 .. figure:: images/chain/9794-intake.png
-    :alt: A plastic chain on an intake by 9794, Wizards.exe
+   :alt: A plastic chain on an intake by 9794, Wizards.exe
 
-    9794 Wizards.exe, Rover Ruckus, plastic chain on intake
+   9794 Wizards.exe, Rover Ruckus, plastic chain on intake
 
 .. figure:: images/chain/chain-wrap-3.png
-    :alt: Properly done chain wrap with tensioners
+   :alt: Properly done chain wrap with tensioners
 
-    Properly done chain wrap with the REV system
+   Properly done chain wrap with the REV system

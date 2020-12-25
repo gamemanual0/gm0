@@ -50,8 +50,8 @@ Start with a 2D sketch of everything before trying to extrude and make actual
 3D objects.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-technical-drawing.jpg
-    :alt: Drivetrain Plate Technical Drawing
-    :width: 100%
+   :alt: Drivetrain Plate Technical Drawing
+   :width: 100%
 
 This is a sketch of the inner plate of the drive base.
 Everything should be laid out in a 2D sketch to determine the mounting holes,
@@ -67,7 +67,7 @@ Thinner plate (3/32”) can be used as well, but generally most teams stick to
 Extrude the plate to that thickness. Below is the sketch after extruding.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate.jpg
-    :alt: Inner Drivetrain Plate
+   :alt: Inner Drivetrain Plate
 
 The next step will be making the outer plate for the drivebase.
 It is even faster to do than the inner.
@@ -75,8 +75,8 @@ To do this, simply create a new part.
 Go back to your inner plate and start a 2D sketch.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-ui-chrome.jpg
-    :alt: Drivetrain Plate, with entire face seleected
-    :width: 100%
+   :alt: Drivetrain Plate, with entire face seleected
+   :width: 100%
 
 After starting the new sketch on the inner plate,
 hit “Project Geometry” and just click anywhere on the part.
@@ -87,13 +87,13 @@ Now go hit CTRL + C, then go to the new part and hit create 2D Sketch.
 Next hit CTRL + V.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-with-parts-to-remove-selected.jpg
-    :alt: Drivetrain inner plate with the parts specific to the inner plate selected
+   :alt: Drivetrain inner plate with the parts specific to the inner plate selected
 
 It should look like an exact copy of the inner plate but now as a sketch.
 Delete your motor mounts out of the middle, then extrude the outer plate.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-outer-plate.jpg
-    :alt: Outer Drivetrain Plate
+   :alt: Outer Drivetrain Plate
 
 This is what the outer plate looks like,
 an almost exact copy of the inner one without the holes for the motors.
@@ -196,14 +196,14 @@ but to make the right side create an offset plane,
 select the mirror tool, then hit mirror.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/drive-pod.jpg
-    :alt: Left side drivetrain pod
+   :alt: Left side drivetrain pod
 
 After mirroring the drive pod to make your opposite side,
 connect those two halves together and you’re done with the drivetrain.
 Below is a rendering of the complete drivetrain in CAD.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-render.png
-    :alt: Left side drivetrain pod
+   :alt: Left side drivetrain pod
 
 CAD Tutorial Part 2 - Pocketing Guide
 =====================================
@@ -238,9 +238,9 @@ FEA can be used to generate pocketing geometry,
 but that is an entirely different rabbit hole.
 
 .. figure:: images/cad-tutorial/pocketing-guide/fea-on-plate.png
-    :alt: FEA of inner drivetrain plate
+   :alt: FEA of inner drivetrain plate
 
-    731 Wannabee Strange, Rover Ruckus, FEA of inner drivetrain plate
+   731 Wannabee Strange, Rover Ruckus, FEA of inner drivetrain plate
 
 Designing concise and advantageous pocketing is as simple as drawing circles
 and tangent lines.
@@ -278,15 +278,15 @@ sure that there is enough material around the bearing and screw holes.
 An example is below.
 
 .. image:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate1.png
-    :alt: Outer mechanism plate with pocketing sketch highlighted
+   :alt: Outer mechanism plate with pocketing sketch highlighted
 
 .. image:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate2.png
-    :alt: Outer mechanism plate with all functional geometry
+   :alt: Outer mechanism plate with all functional geometry
 
 .. figure:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate3.png
-    :alt: Outer mechanism plate fully pocketed
+   :alt: Outer mechanism plate fully pocketed
 
-    731 Wannabee Strange, 2019 Summer VCC Cadathon, Outer Mechanism Plate
+   731 Wannabee Strange, 2019 Summer VCC Cadathon, Outer Mechanism Plate
 
 The last step in pocketing is adding rounds to each and every corner,
 especially inner corners.
@@ -309,9 +309,9 @@ It is also more difficult to machine,
 because more material is milled out and chip ejection becomes more important.
 
 .. figure:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-surface-pocketing.png
-    :alt: Outer mechanism plate surface pocketed
+   :alt: Outer mechanism plate surface pocketed
 
-    Surface Pocketing Example
+   Surface Pocketing Example
 
 If you don't have access to any precision tools, a hand drill/drill press and
 large drill bit/flat bottom boring bits can create pockets in material.
@@ -330,12 +330,12 @@ An example is below with the orange as the holes to drill positioned
 tangentially to the regular pocketed edges.
 
 .. image:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-tangent-circles.png
-    :alt: Outer mechanism plate showing the tangent circles between the pockets
+   :alt: Outer mechanism plate showing the tangent circles between the pockets
 
 .. figure:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-drill-pocketing.png
-    :alt: Outer mechanism plate showing optimal drill pockets
+   :alt: Outer mechanism plate showing optimal drill pockets
 
-    Optimal Drill Pocketing Method Example
+   Optimal Drill Pocketing Method Example
 
 Although it may look like a random mess and it may take a while longer than
 just randomly “cheese holing”, this method will yield the greatest weight
@@ -359,9 +359,9 @@ For instance, the image below is an example of a complex double iso-grid
 pocketing pattern optimized for metal 3D printing.
 
 .. figure:: images/cad-tutorial/pocketing-guide/arm-pivot-mount.png
-    :alt: Arm pivot mount with complex double iso-grid pocketing pattern
+   :alt: Arm pivot mount with complex double iso-grid pocketing pattern
 
-    731 Wannabee Strange, Rover Ruckus, Arm Pivot Mount
+   731 Wannabee Strange, Rover Ruckus, Arm Pivot Mount
 
 When the pockets are designed around a 3D printed part,
 many new possibilities open up in terms of minimum inner corner radius,
@@ -387,8 +387,8 @@ Equations allow a user to quickly adjust values and change multiple dimensions
 in a sketch or feature.
 
 .. image:: images/cad-tutorial/custom-pulley-template/equations-view.png
-    :alt: A screenshot of the "Equations, Global Variables, and Dimensions" view
-    :width: 100%
+   :alt: A screenshot of the "Equations, Global Variables, and Dimensions" view
+   :width: 100%
 
 First, define a new variable “n” and set a default value of 24.
 This is crucial since “n” will affect the number of teeth –
@@ -397,7 +397,7 @@ which will define the angle between teeth and the circular pattern.
 Copy the sketch below.
 
 .. image:: images/cad-tutorial/custom-pulley-template/sketch-to-copy.png
-    :alt: The sketch to copy
+   :alt: The sketch to copy
 
 * The 15° equation is done by typing =360/”n” into the text box.
 * Note that 5mm dimension at the top describes arc length, which is done in
@@ -409,21 +409,21 @@ Leave this sketch as a reference and use “Convert Entities” to create sketch
 for additional features.
 
 .. image:: images/cad-tutorial/custom-pulley-template/pulley-profile.png
-    :alt: The profile of the pulley
+   :alt: The profile of the pulley
 
 Next, extrude the outer bold circle.
 Cut-extrude the profile in the reference sketch.
 Do these features separately.
 
 .. image:: images/cad-tutorial/custom-pulley-template/circular-pattern.png
-    :alt: A screenshot of the tool to create the circular pattern of the next step
+   :alt: A screenshot of the tool to create the circular pattern of the next step
 
 Now, just create a Circular Pattern.
 Define Direction 1 as the top face and create “n” instances of the cut-extrude
 feature.
 
 .. image:: images/cad-tutorial/custom-pulley-template/dimensioned-pulley.png
-    :alt: The CAD of the pulley with dimensions
+   :alt: The CAD of the pulley with dimensions
 
 Now just sketch on the side plane and sketch the flanges.
 This is up to you, but I prefer to keep the outer point vertical to a point
@@ -431,4 +431,4 @@ pierced through the outer circle.
 That way, the flange changes with respect to “n”.
 
 .. image:: images/cad-tutorial/custom-pulley-template/complete-pulley.png
-    :alt: The complete CAD of the pulley
+   :alt: The complete CAD of the pulley

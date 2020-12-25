@@ -23,11 +23,11 @@ coordinate frame is set up such that the global x-axis is lined up
 with the 0 heading.
 
 .. figure:: images/odometry/coordinate-frame.png
-    :alt: The directional axes of the robot with respect to its body
-    :width: 25em
-    :class: dark-mode-invert
+   :alt: The directional axes of the robot with respect to its body
+   :width: 25em
+   :class: dark-mode-invert
 
-    `Road Runner Coordinate Frame Documentation <https://acme-robotics.gitbook.io/road-runner/tour/coordinate-frame>`_
+   `Road Runner Coordinate Frame Documentation <https://acme-robotics.gitbook.io/road-runner/tour/coordinate-frame>`_
 
 We can refer to the current pose (:math:`\vec{x}_0`) of the robot as
 :math:`\begin{pmatrix} x_0 \\ y_0 \\ \theta_0 \end{pmatrix}`.
@@ -47,8 +47,8 @@ Updating the pose is as simple as adding the transformed change
 to the previous pose where :math:`\varphi = \Delta\theta`
 
 .. math::
-    \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
-    +\begin{pmatrix}\Delta x\\\Delta y\\\varphi\end{pmatrix}
+   \begin{pmatrix}x\\y\\\theta\end{pmatrix}=\begin{pmatrix}x_0\\y_0\\\theta_0\end{pmatrix}
+   +\begin{pmatrix}\Delta x\\\Delta y\\\varphi\end{pmatrix}
 
 The idea of odometry is to use sensor data and math to form
 an approximation for the robot's pose over time.
@@ -74,14 +74,14 @@ need to be tuned, which means tested repeatedly and then brought
 to some converging value that is close to the actual measurement.
 
 .. figure:: images/odometry/offsets-and-trackwidth.png
-    :alt: The lateral distance, forward offset, and location of the sensors
+   :alt: The lateral distance, forward offset, and location of the sensors
 
-    `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
+   `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
 
 Deriving the value of :math:`\varphi` then becomes simple:
 
 .. math::
-    \varphi = \frac{\Delta x_l - \Delta x_r}{L}
+   \varphi = \frac{\Delta x_l - \Delta x_r}{L}
 
 To perform later calculations, we need to know the displacement
 of the robot in the x-direction relative to its center rather than
@@ -89,7 +89,7 @@ the two parallel sensors. To do this, we take the average to derive
 :math:`\Delta x_c`, or the center displacement:
 
 .. math::
-    \Delta x_c = \frac{\Delta x_l + \Delta x_r}{2}
+   \Delta x_c = \frac{\Delta x_l + \Delta x_r}{2}
 
 The final displacement we need before we can determine
 the change in pose is the horizontal displacement :math:`\Delta x_\perp`.
@@ -103,15 +103,15 @@ for the change in its position based on point-turns.
 As a result of this, we can define our horizontal displacement as:
 
 .. math::
-    \Delta x_\perp = \Delta x_h - (F * \varphi)
+   \Delta x_\perp = \Delta x_h - (F * \varphi)
 
 .. note::
-    :math:`\Delta x_\perp` is not necessary if you do not have
-    perpendicular sensors, which are not required if the
-    robot cannot move in the lateral direction.
+   :math:`\Delta x_\perp` is not necessary if you do not have
+   perpendicular sensors, which are not required if the
+   robot cannot move in the lateral direction.
 
-    For this value, use 0 if you do not have a horizontal
-    sensor.
+   For this value, use 0 if you do not have a horizontal
+   sensor.
 
 Robot-Relative Deltas
 ----------------------
@@ -126,65 +126,65 @@ We can derive the values of :math:`\Delta x` and
 :math:`\Delta y`.
 
 .. math::
-    \begin{pmatrix}
-    \Delta x \\ \Delta y \\ \varphi
-    \end{pmatrix} =
-    \begin{pmatrix}
-    \cos(\theta_0)&-\sin(\theta_0)&0\\
-    \sin(\theta_0)&\cos(\theta_0)&0\\
-    0&0&1\end{pmatrix}
-    \begin{pmatrix}
-    \Delta x_c\\ \Delta x_\perp\\ \varphi
-    \end{pmatrix}
+   \begin{pmatrix}
+   \Delta x \\ \Delta y \\ \varphi
+   \end{pmatrix} =
+   \begin{pmatrix}
+   \cos(\theta_0)&-\sin(\theta_0)&0\\
+   \sin(\theta_0)&\cos(\theta_0)&0\\
+   0&0&1\end{pmatrix}
+   \begin{pmatrix}
+   \Delta x_c\\ \Delta x_\perp\\ \varphi
+   \end{pmatrix}
 
 From this, we can calculate our field-relative change in
 pose:
 
 .. math::
-    \begin{pmatrix}
-    \Delta x \\ \Delta y \\ \varphi
-    \end{pmatrix} =
-    \begin{pmatrix}
-    \Delta x_c \cos(\theta_0) - \Delta x_\perp \sin(\theta_0)\\
-    \Delta x_c \sin(\theta_0) + \Delta x_\perp \cos(\theta_0)\\
-    \varphi
-    \end{pmatrix}
+   \begin{pmatrix}
+   \Delta x \\ \Delta y \\ \varphi
+   \end{pmatrix} =
+   \begin{pmatrix}
+   \Delta x_c \cos(\theta_0) - \Delta x_\perp \sin(\theta_0)\\
+   \Delta x_c \sin(\theta_0) + \Delta x_\perp \cos(\theta_0)\\
+   \varphi
+   \end{pmatrix}
 
 .. note::
-    This method of approximating position is known as Euler integration,
-    but we are using it for strict pose deltas instead of integrating
-    the velocity (essentially, this is a very simplified version of
-    the original theory).
+   This method of approximating position is known as Euler integration,
+   but we are using it for strict pose deltas instead of integrating
+   the velocity (essentially, this is a very simplified version of
+   the original theory).
 
 .. warning::
-    This is for advanced programmers; while implementing this from scratch is
-    a great learning exercise, it is likely not the optimal way to get the best auto.
-    There are several `resources <#resources-for-odometry>`_ out there for
-    producing great, well-tested, and easy-to-implement odometry.
+   This is for advanced programmers; while implementing this from scratch is
+   a great learning exercise, it is likely not the optimal way to get the best auto.
+   There are several `resources <#resources-for-odometry>`_ out there for
+   producing great, well-tested, and easy-to-implement odometry.
 
 Odometry Pseudocode
 -------------------
 .. code-block:: python
 
-    while robot_is_active():
-        delta_left_encoder_pos = left_encoder_pos - prev_left_encoder_pos
-        delta_right_encoder_pos = right_encoder_pos - prev_right_encoder_pos
-        delta_center_encoder_pos = center_encoder_pos - prev_center_encoder_pos
+   while robot_is_active():
+      delta_left_encoder_pos = left_encoder_pos - prev_left_encoder_pos
+      delta_right_encoder_pos = right_encoder_pos - prev_right_encoder_pos
+      delta_center_encoder_pos = center_encoder_pos - prev_center_encoder_pos
 
-        phi = (delta_left_encoder_pos - delta_right_encoder_pos) / trackwidth
-        delta_middle_pos = (delta_left_encoder_pos + delta_right_encoder_pos) / 2
-        delta_perp_pos = delta_center_encoder_pos - forward_offset * phi
+      phi = (delta_left_encoder_pos - delta_right_encoder_pos) / trackwidth
+      delta_middle_pos = (delta_left_encoder_pos + delta_right_encoder_pos) / 2
+      delta_perp_pos = delta_center_encoder_pos - forward_offset * phi
 
-        delta_x = delta_middle_pos * cos(heading) - delta_perp_pos * sin(heading)
-        delta_y = delta_middle_pos * sin(heading) + delta_perp_pos * cos(heading)
+      delta_x = delta_middle_pos * cos(heading) - delta_perp_pos * sin(heading)
+      delta_y = delta_middle_pos * sin(heading) + delta_perp_pos * cos(heading)
 
-        x_pos += delta_x
-        y_pos += delta_y
-        heading += phi
+      x_pos += delta_x
+      y_pos += delta_y
+      heading += phi
 
-        prev_left_encoder_pos = left_encoder_pos
-        prev_right_encoder_pos = right_encoder_pos
-        prev_center_encoder_pos = center_encoder_pos
+      prev_left_encoder_pos = left_encoder_pos
+      prev_right_encoder_pos = right_encoder_pos
+      prev_center_encoder_pos = center_encoder_pos
 
 Using Pose Exponentials
 ------------------------
@@ -202,20 +202,20 @@ nonlinear curvature into our Euler integration robot-relative deltas
 equation:
 
 .. math::
-    \begin{pmatrix}
-    \Delta x \\ \Delta y \\ \varphi
-    \end{pmatrix} =
-    \begin{pmatrix}
-    \cos(\theta_0)&-\sin(\theta_0)&0\\
-    \sin(\theta_0)&\cos(\theta_0)&0\\
-    0&0&1\end{pmatrix}
-    \begin{pmatrix}
-    \frac{\sin(\varphi)}{\varphi}&\frac{\cos(\varphi)-1}{\varphi}&0\\
-    \frac{1-\cos(\varphi)}{\varphi}&\frac{\sin(\varphi)}{\varphi}&0\\
-    0&0&1\end{pmatrix}
-    \begin{pmatrix}
-    \Delta x_c\\ \Delta x_\perp\\ \varphi
-    \end{pmatrix}
+   \begin{pmatrix}
+   \Delta x \\ \Delta y \\ \varphi
+   \end{pmatrix} =
+   \begin{pmatrix}
+   \cos(\theta_0)&-\sin(\theta_0)&0\\
+   \sin(\theta_0)&\cos(\theta_0)&0\\
+   0&0&1\end{pmatrix}
+   \begin{pmatrix}
+   \frac{\sin(\varphi)}{\varphi}&\frac{\cos(\varphi)-1}{\varphi}&0\\
+   \frac{1-\cos(\varphi)}{\varphi}&\frac{\sin(\varphi)}{\varphi}&0\\
+   0&0&1\end{pmatrix}
+   \begin{pmatrix}
+   \Delta x_c\\ \Delta x_\perp\\ \varphi
+   \end{pmatrix}
 
 Resources for Odometry
 ======================

@@ -5,32 +5,32 @@ Here are some common mistakes that teams make in the high-level design
 and strategic planning stages.
 
 +--------------------------------+-----------------------------------------+
-|            Problem             |                Solution                 |
+|          Problem           |                Solution                 |
 +================================+=========================================+
-| **Do everything at once**      | **Perfect one objective first**         |
-|                                |                                         |
-| * Robot becomes half-baked     | * Robot is highly optimized             |
-| * Cannot excel in one area     | * Consistently excels in one area       |
+| **Do everything at once**     | **Perfect one objective first**        |
+|                            |                                         |
+| * Robot becomes half-baked    | * Robot is highly optimized          |
+| * Cannot excel in one area    | * Consistently excels in one area      |
 +--------------------------------+-----------------------------------------+
-| **Overcomplicate**             | **Simplify**                            |
-|                                |                                         |
-| * More time needed to iterate  | * Best designs are usually simplest     |
-| * Less reliable                | * Less moving parts                     |
+| **Overcomplicate**         | **Simplify**                            |
+|                            |                                         |
+| * More time needed to iterate  | * Best designs are usually simplest    |
+| * Less reliable            | * Less moving parts                     |
 +--------------------------------+-----------------------------------------+
-| **Score-first design**         | **Design for consistency**              |
-|                                |                                         |
-| * Neglect proper principles    | * Usually reliability > scoring ability |
-| * Often wildly inconsistent    | * Great plus for alliance selection     |
+| **Score-first design**       | **Design for consistency**            |
+|                            |                                         |
+| * Neglect proper principles   | * Usually reliability > scoring ability |
+| * Often wildly inconsistent   | * Great plus for alliance selection     |
 +--------------------------------+-----------------------------------------+
-| **Build haphazardly**          | **Build for reliability**               |
-|                                |                                         |
-| * Build with subpar materials  | * Remove unneeded moving parts          |
-| * Inadequate support structure | * Eliminate single points of failure    |
+| **Build haphazardly**        | **Build for reliability**             |
+|                            |                                         |
+| * Build with subpar materials  | * Remove unneeded moving parts        |
+| * Inadequate support structure | * Eliminate single points of failure   |
 +--------------------------------+-----------------------------------------+
-| **Fret about design**          | **Focus on execution**                  |
-|                                |                                         |
-| * Wastes testing time          | * Make a decision, then stick to it     |
-| * Design alone is not enough   | * Execution often beats design          |
+| **Fret about design**        | **Focus on execution**                |
+|                            |                                         |
+| * Wastes testing time        | * Make a decision, then stick to it     |
+| * Design alone is not enough   | * Execution often beats design        |
 +--------------------------------+-----------------------------------------+
 
 Doing Everything At Once to Perfecting One Objective First
@@ -38,7 +38,7 @@ Doing Everything At Once to Perfecting One Objective First
 **Consistency is king.**
 
 .. important:: A common pitfall for first year teams is trying to accomplish
-    all the game objectives at once, especially in tele-op and endgame.
+   all the game objectives at once, especially in tele-op and endgame.
 
 **This is highly discouraged** because oftentimes new teams do not have the
 experience to do so.
@@ -59,14 +59,14 @@ We recommend teams focus on one objective during tele-op/endgame and perfect
 it.
 
 .. tip::
-    Typically, teams which have a solid autonomous and consistent endgame can
-    be competitive at the Qualifier level.
-    This is a recommended goal for new teams.
+   Typically, teams which have a solid autonomous and consistent endgame can
+   be competitive at the Qualifier level.
+   This is a recommended goal for new teams.
 
 Overcomplex to Simple
 =====================
 .. important:: Another common trap that teams fall into is to overcomplicate
-    needlessly. Simplifying your robot simplifies possible headaches later.
+   needlessly. Simplifying your robot simplifies possible headaches later.
 
 While some robots are very complicated,
 keep in mind that those teams are generally experienced, have some sort of
@@ -117,9 +117,9 @@ In keeping with the first tip, to perfect one objective first,
 this practice will serve to increase consistency.
 
 .. important:: While scoring ability should be a priority and objective when
-    designing mechanisms, it is not everything in this game. We advise being
-    consistent at low and medium scoring levels than inconsistently
-    scoring at a high level.
+   designing mechanisms, it is not everything in this game. We advise being
+   consistent at low and medium scoring levels than inconsistently
+   scoring at a high level.
 
 Focus on being able to do that one thing every single time throughout your
 matches, and you will begin to see how important consistency is.
@@ -132,10 +132,10 @@ every time to the alliance score, rather than selecting a boom-or-bust pick.
 Building haphazardly to Building for reliability
 ================================================
 .. important:: Build for the worst case scenario, not the best case scenario.
-    When building, teams often overlook a key principle: build for reliability.
-    All too often, teams skimp on the quality of construction as well as
-    materials, which leads to one of the most common reasons for unsuccessful
-    tournaments: part failure.
+   When building, teams often overlook a key principle: build for reliability.
+   All too often, teams skimp on the quality of construction as well as
+   materials, which leads to one of the most common reasons for unsuccessful
+   tournaments: part failure.
 
 Teams also do not take into account the rigors of competition and build as if
 the robot will not encounter opposing robots.
@@ -173,14 +173,14 @@ a key characteristic of all world-level robots.
 Fretting about Design to Focusing on Execution
 ==============================================
 .. tip::
-    A good execution of a bad design will beat a bad execution of good design.
+   A good execution of a bad design will beat a bad execution of good design.
 
 .. important:: FTC is all about how well you execute in both the mechanical
-    aspect and the driver aspect.
-    If your goal is winning, then how mechanically beautiful your robot is
-    doesn't matter.
-    Your goal is less of impressing the judges but performing the best you
-    possibly can on the field.
+   aspect and the driver aspect.
+   If your goal is winning, then how mechanically beautiful your robot is
+   doesn't matter.
+   Your goal is less of impressing the judges but performing the best you
+   possibly can on the field.
 
 It is very possible to take a bad design, execute it well, and still be
 competitive at a high level.

@@ -66,9 +66,9 @@ or `two <https://www.sudenga.com/practical-applications/figuring-belt-lengths-an
 that simplifies the work.
 
 .. math::
-    C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
+   C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
 
-    L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
+   L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
 
 * :math:`C=` center-to-center distance, inches
 * :math:`L=` belt length in pitches
@@ -77,7 +77,7 @@ that simplifies the work.
 * :math:`n=` number of teeth in small pulley
 
 .. math::
-    C=\frac{L-\frac{\pi}{2}(D+d)}{4}+\sqrt{[(\frac{L-\frac{\pi}{2}(D+d)}{4})^2-\frac{(D-d)^2}{8}}
+   C=\frac{L-\frac{\pi}{2}(D+d)}{4}+\sqrt{[(\frac{L-\frac{\pi}{2}(D+d)}{4})^2-\frac{(D-d)^2}{8}}
 
 * :math:`D=` chosen diameter of large pulley
 * :math:`d=` chosen diameter of small pulley
@@ -104,15 +104,15 @@ If it’s too tight, then the belt will barely move under a gentle press.
 Best practices for wrap
 -----------------------
 .. figure:: images/belt/belt-wrap-1.png
-    :alt: Properly done belt wrap without tensioners
+   :alt: Properly done belt wrap without tensioners
 
-    Ethan Doak, goBILDA
+   Ethan Doak, goBILDA
 
 
 .. figure:: images/belt/8103-dt.png
-    :alt: A drivetrain by 8103 using belt
+   :alt: A drivetrain by 8103 using belt
 
-    8103 Null Robotics, offseason prototype, properly done belt wrap with tensioners
+   8103 Null Robotics, offseason prototype, properly done belt wrap with tensioners
 
 Advantages:
 ===========
@@ -155,11 +155,11 @@ Disadvantages:
 
 
 .. figure:: images/belt/belt-wrap-2.png
-    :alt: Properly done belt wrap with tensioners
+   :alt: Properly done belt wrap with tensioners
 
-    7236 Recharged Green, Rover Ruckus
+   7236 Recharged Green, Rover Ruckus
 
 .. figure:: images/belt/8417-dt.png
-    :alt: A drivetrain by 8417 using belt
+   :alt: A drivetrain by 8417 using belt
 
-    8417 Lectric Legends, Rover Ruckus
+   8417 Lectric Legends, Rover Ruckus

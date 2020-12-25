@@ -8,10 +8,10 @@ Typically :term:`servos <Servo>` have limited range of rotation (180°
 is common).
 
 .. note::
-    :term:`Servos <Servo>` are **NOT** replacements for DC motors,
-    and should not be used as such.
-    :term:`Servos <Servo>` are made for fine-tuned and accurate movement,
-    not high-load or fast rotation applications.
+   :term:`Servos <Servo>` are **NOT** replacements for DC motors,
+   and should not be used as such.
+   :term:`Servos <Servo>` are made for fine-tuned and accurate movement,
+   not high-load or fast rotation applications.
 
 :term:`Servos <Servo>` are commonly used in RC cars (steering) and RC planes
 (moving ailerons).
@@ -19,9 +19,9 @@ In FTC, :term:`servos <Servo>` are typically used for claws, grabbers,
 and arms.
 
 .. figure:: images/hs488.jpg
-    :alt: HS488 Hitec servo
+   :alt: HS488 Hitec servo
 
-    A common :term:`servo <Servo>`, HS488-HB from Hitec
+   A common :term:`servo <Servo>`, HS488-HB from Hitec
 
 There are many :term:`servos <Servo>` from different manufacturers,
 which vary widely in price, performance and value.  Fortunately,
@@ -34,8 +34,8 @@ servos for FTC use, so mounts can be interchanged between
 manufacturers.
 
 .. note::
-    FTC robots typically use standard size :term:`servos <Servo>`, not mini or
-    extreme size.
+   FTC robots typically use standard size :term:`servos <Servo>`, not mini or
+   extreme size.
 
 Commonly used :term:`servos <Servo>` used in FTC are the REV Smart Servo and
 goBILDA Dual mode Servos (`25-2
@@ -56,8 +56,8 @@ choose ones with metal gears and use :term:`Servoblocks` or your kit's
 equivalent to prolong longevity.
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    choosing-servo
-    specialty-servos
-    usage-tips
+   choosing-servo
+   specialty-servos
+   usage-tips

@@ -16,12 +16,12 @@ Necessary
 * **Safety glasses. Wear them when you’re using power tools. Seriously.**
 * Philips screwdrivers, assorted sizes
 * Hex drivers and hex L-keys
-    * 7/64” hex (Actobotics and TETRIX)
-    * 3/32”, ball head for set screws is discouraged (TETRIX)
-    * 2.5/3mm hex (goBILDA)
+   * 7/64” hex (Actobotics and TETRIX)
+   * 3/32”, ball head for set screws is discouraged (TETRIX)
+   * 2.5/3mm hex (goBILDA)
 * Nut drivers and wrenches
-    * 5.5 mm hex nut driver/wrench (REV)
-    * 7 mm hex nut driver/wrench (goBILDA)
+   * 5.5 mm hex nut driver/wrench (REV)
+   * 7 mm hex nut driver/wrench (goBILDA)
 * Drill and drill bits
 * Pliers, needle-nose and locking
 * Metal file (sandpaper not recommended, you're not working with wood)

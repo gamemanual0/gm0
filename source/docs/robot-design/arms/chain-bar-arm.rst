@@ -25,9 +25,9 @@ Thus, it is very difficult to be precise with a chain bar when stopping the arm
 quickly.
 
 .. image:: images/chain-bar/8103-chain-bar-1.png
-    :alt: 8103's chain bar to move the relic in Relic Recovery
+   :alt: 8103's chain bar to move the relic in Relic Recovery
 
 .. figure:: images/chain-bar/8103-chain-bar-2.png
-    :alt: 8103's chain bar to move the relic in Relic Recovery
+   :alt: 8103's chain bar to move the relic in Relic Recovery
 
-    8103 Null Robotics, Relic Recovery
+   8103 Null Robotics, Relic Recovery

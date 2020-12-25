@@ -36,9 +36,9 @@ Notable components
   :term:`U-channel <Channel>`, shown below.
 
 .. figure:: images/gobilda/gobilda_channel.jpg
-    :alt: goBILDA U-channel
+   :alt: goBILDA U-channel
 
-    goBILDA :term:`U-channel <Channel>` (48x48 mm)
+   goBILDA :term:`U-channel <Channel>` (48x48 mm)
 
 * In addition, low-side channel
   (smaller profile :term:`channel <Channel>`) complements
@@ -50,9 +50,9 @@ Notable components
   with a 2 or 4 stage option.
 
 .. figure:: images/gobilda/gobilda_low_channel.jpg
-    :alt: goBILDA low-side channel
+   :alt: goBILDA low-side channel
 
-    goBILDA low-side channel (12x48 mm)
+   goBILDA low-side channel (12x48 mm)
 
 * goRAIL is :term:`extrusion <Extrusion>` that complements the
   :term:`channel <Channel>` offerings well.  goRAIL is used in the
@@ -111,10 +111,10 @@ Advantages
   :term:`chain <Chain>` or :term:`belt <HTD Belt>` in channel.
 
   .. note::
-    8mm :term:`chain <Chain>`, HTD 3, and HTD 5 mm :term:`belt <HTD Belt>` can do perfect
-    :term:`C2C (center to center) <C2C>` on the goBILDA pattern.
-    This saves a lot of headache when needing to calculate
-    :term:`C2C` distances.
+   8mm :term:`chain <Chain>`, HTD 3, and HTD 5 mm :term:`belt <HTD Belt>` can do perfect
+   :term:`C2C (center to center) <C2C>` on the goBILDA pattern.
+   This saves a lot of headache when needing to calculate
+   :term:`C2C` distances.
 * goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing
   <Ball Bearing>`, and :term:`pillow block <Bushing>` options.
 * goBILDA motors can :term:`face mount <Face Mounting>` natively into
@@ -145,10 +145,10 @@ Disadvantages
   <Chain>` and :term:`sprockets <Sprocket>`.
 
 .. image:: images/gobilda/7182-rr2-hanging.png
-    :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander
+   :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander
 
 .. figure:: images/gobilda/7182-rr2-field.jpg
-    :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the field
+   :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the field
 
-    An example of a successful goBILDA based robot, 7182 Mechanical Paradox
-    Cubed: Finalist Alliance 1st Pick (Detroit), Rover Ruckus
+   An example of a successful goBILDA based robot, 7182 Mechanical Paradox
+   Cubed: Finalist Alliance 1st Pick (Detroit), Rover Ruckus

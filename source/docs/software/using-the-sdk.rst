@@ -59,7 +59,7 @@ In Android Studio, if the class is referenced without being imported Alt+Enter
 can be pressed to automatically import it.
 After it is imported, the next step is to create the object::
 
-    private DcMotor liftMotor;
+   private DcMotor liftMotor;
 
 After the object is created, it must be instantiated.
 Part of the opmode superclass is something called ``hardwareMap``.
@@ -70,7 +70,7 @@ It contains all of the information entered into the configuration on the
 Robot Controller, such as names of hardware and what port it is plugged into.
 Here is an example of instantiating the motor we created above::
 
-    liftMotor = hardwareMap.get(DcMotor.class, "Lift Motor");
+   liftMotor = hardwareMap.get(DcMotor.class, "Lift Motor");
 
 Whatever sensor you are using,
 you will pass that class into the spot where ``DcMotor.class`` is.
@@ -95,18 +95,18 @@ DC Motor
 ^^^^^^^^
 ::
 
-    DcMotor leftMotor = hardwareMap.get(DcMotor.class, "Left Motor");
-    DcMotor rightMotor = hardwareMap.get(DcMotor.class, "Right Motor");
+   DcMotor leftMotor = hardwareMap.get(DcMotor.class, "Left Motor");
+   DcMotor rightMotor = hardwareMap.get(DcMotor.class, "Right Motor");
 
-    DcMotor elevatorMotor = hardware.get(DcMotor.class, "Elevator Motor");
-    DcMotor intakeMotor = hardware.get(DcMotor.class, "Intake Motor");
+   DcMotor elevatorMotor = hardware.get(DcMotor.class, "Elevator Motor");
+   DcMotor intakeMotor = hardware.get(DcMotor.class, "Intake Motor");
 
 After a ``DcMotor`` is instantiated,
 there are a few variables you can set to affect how the DC Motor runs.
 The first of these is direction::
 
-    leftMotor.setDirection(DcMotor.Direction.REVERSE);
-    rightMotor.setDirection(DcMotor.Direction.FORWARD);
+   leftMotor.setDirection(DcMotor.Direction.REVERSE);
+   rightMotor.setDirection(DcMotor.Direction.FORWARD);
 
 Changing the direction of the motor does exactly what should be expected,
 it changes the direction.
@@ -118,8 +118,8 @@ forward is counterclockwise (with the exception of NeveRest motors).
 
 Next, there are two zero power behaviors that can be adjusted::
 
-    leftMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-    rightMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
+   leftMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+   rightMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
 
 Changing this variable affects how the DC Motor behaves while a power of 0 is
 applied.
@@ -131,11 +131,11 @@ the work.
 Finally, there are four different run modes that can be used with DC motors:
 ::
 
-    leftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-    rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+   leftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+   rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
-    elevatorMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-    intakeMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+   elevatorMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+   intakeMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
 It is important to note that encoder values can be read in any of these modes
 provided an encoder is properly plugged in.
@@ -169,23 +169,23 @@ a control loop will use that as the max power and try to drive the encoder
 position to the target position.
 
 .. warning::
-    This mode can be a convenient way to control a single-motor mechanism, as
-    it offloads all control work; however, since every motor is dealt with
-    independently, it is inadvisable to use this on mechanisms with
-    multiple motors, especially drivetrains.
+   This mode can be a convenient way to control a single-motor mechanism, as
+   it offloads all control work; however, since every motor is dealt with
+   independently, it is inadvisable to use this on mechanisms with
+   multiple motors, especially drivetrains.
 
 Servo
 ^^^^^
 ::
 
-    Servo relicServo = hardwareMap.get(Servo.class, "Release Servo");
+   Servo relicServo = hardwareMap.get(Servo.class, "Release Servo");
 
 After instantiating a ``Servo``, there are two main functions that can be
 called: ``setPosition()`` and ``getPosition()``.
 ::
 
-    releaseServo.setPosition(0.75);
-    telemetry.addData("Release Servo Target", releaseServo.getPosition());
+   releaseServo.setPosition(0.75);
+   telemetry.addData("Release Servo Target", releaseServo.getPosition());
 
 ``setPosition()`` sets the position of the :term:`servo <Servo>`.
 The SDK will use a built-in control loop with the :term:`servo’s <Servo>`
@@ -206,7 +206,7 @@ Continuous Rotation Servo
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 ::
 
-    CRServo intakeServo = hardwareMap.get(CRServo.class, "Intake Servo");
+   CRServo intakeServo = hardwareMap.get(CRServo.class, "Intake Servo");
 
 A CRServo has one main method; ``setPower()``.
 This works very similarly to ``DcMotor`` 's ``setPower()``, meaning that
@@ -214,7 +214,7 @@ passing it 0 makes it stop, passing it 1 makes it go forward at full speed,
 passing it -1 makes it go backwards at full speed, and everything in between.
 ::
 
-    intakeServo.setPower(0.75);
+   intakeServo.setPower(0.75);
 
 Gamepad Input
 ^^^^^^^^^^^^^
@@ -232,15 +232,15 @@ rather fields of ``gamepad1`` or ``gamepad2`` need to be accessed.
 Here are a few examples:
 ::
 
-    leftMotor.setPower(-gamepad1.left_stick_y);
-    rightMotor.setPower(-gamepad1.left_stick_y);
+   leftMotor.setPower(-gamepad1.left_stick_y);
+   rightMotor.setPower(-gamepad1.left_stick_y);
 
-    if (gamepad2.a) {
-        intakeServo.setPower(-1.0);
-    }
-    else if (gamepad2.b) {
-        intakeServo.setPower(1.0);
-    }
+   if (gamepad2.a) {
+      intakeServo.setPower(-1.0);
+   }
+   else if (gamepad2.b) {
+      intakeServo.setPower(1.0);
+   }
 
 A Note on Hardware Call Speed
 ===============================
@@ -252,9 +252,9 @@ This is because behind the scenes, the SDK may need to make multiple hardware
 calls in order to perform the I2C operation.
 
 .. note:: When using a Control Hub, you may see considerably faster hardware
-    call times because the Control Hub uses a direct UART connection to the
-    Lynx board instead of going through USB and a middle-man FTDI as happens
-    when using a phone.
+   call times because the Control Hub uses a direct UART connection to the
+   Lynx board instead of going through USB and a middle-man FTDI as happens
+   when using a phone.
 
 These times may seem fast, but they add up quickly.
 Consider a control loop to drive forward for N encoder counts while maintaining

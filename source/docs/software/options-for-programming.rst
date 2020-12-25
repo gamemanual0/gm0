@@ -27,7 +27,7 @@ Advantages
   the Program & Manage screen
 * Programs can be saved directly to the phone
 
-    * Changes can be made quickly
+   * Changes can be made quickly
 * Doesn’t require an external Wi-Fi connection
 
 Disadvantages
@@ -42,7 +42,7 @@ Disadvantages
   connected to this particular network.
 
   * Teams can get around this by purchasing an external Wi-Fi module that
-    allows computers to run 2 Wi-Fi networks at once.
+   allows computers to run 2 Wi-Fi networks at once.
 * Sacrifices flexibility and application for simplicity
 * Don’t ever use it on a phone, unless you’re out of options.
   (Not phone-friendly)

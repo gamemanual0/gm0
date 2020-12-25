@@ -54,22 +54,22 @@ Disadvantages
 * Can bend the motor shaft
 
 .. figure:: images/direct-drive/outside-supported-direct-drive.jpg
-    :alt: A drivetrain with the wheel directly driven, but with an externally supported shaft
+   :alt: A drivetrain with the wheel directly driven, but with an externally supported shaft
 
-    11316, Weapons of Mass Construction
+   11316, Weapons of Mass Construction
 
-    *Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)
+   *Outside* Supported Direct Drive (**Preferred Version of Direct Drive**)
 
 .. figure:: images/direct-drive/inside-supported-direct-drive.png
-    :alt: A drivetrain with the wheel directly driven, but with an internally supported shaft
+   :alt: A drivetrain with the wheel directly driven, but with an internally supported shaft
 
-    Ethan Doak
+   Ethan Doak
 
-    *Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)
+   *Inside* Supported Direct Drive (**Preferred Version of Direct Drive**)
 
 .. figure:: images/direct-drive/unsupported-direct-drive.jpg
-    :alt: A drivetrain with the wheel direct mounted, but with an unsupported shaft
+   :alt: A drivetrain with the wheel direct mounted, but with an unsupported shaft
 
-    11316, Weapons of Mass Construction
+   11316, Weapons of Mass Construction
 
-    Unsupported Direct Drive (**not recommended**)
+   Unsupported Direct Drive (**not recommended**)

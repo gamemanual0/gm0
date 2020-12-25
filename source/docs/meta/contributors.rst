@@ -67,7 +67,7 @@ Hosting
 * Benjamin Ward - FRC/FTC Alum - Copperforge - blward@copperforge.cc
 
 .. image:: images/copperforge-logo.png
-    :alt: Copperforge Logo
-    :height: 168px
-    :width: 1000px
-    :scale: 50%
+   :alt: Copperforge Logo
+   :height: 168px
+   :width: 1000px
+   :scale: 50%

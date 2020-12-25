@@ -39,26 +39,26 @@ Disadvantages
 =============
 
 * Depending on their use case, claws are slower than intakes.
-    * The driver must angle the robot, position the claw, and grab the game
-      element.
-    * By contrast, with an intake, the driver needs only to position the intake
-      and grab the game elements.
+   * The driver must angle the robot, position the claw, and grab the game
+     element.
+   * By contrast, with an intake, the driver needs only to position the intake
+     and grab the game elements.
 * Claws can be more fragile and break easily.
 * In cases in which claws are slower than intakes, they can be much more prone
   to defensive maneuvers.
   The more time spent collecting, the more vulnerable you are.
 
 .. figure:: images/passive-intake-claw/11115-relic-claw.png
-    :alt: 11115's relic claw
+   :alt: 11115's relic claw
 
-    11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery
+   11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery
 
 .. figure:: images/passive-intake-claw/8680-relic-claw.png
-    :alt: 8680's relic claw
+   :alt: 8680's relic claw
 
-    8680 Kraken-Pinion, Relic Recovery
+   8680 Kraken-Pinion, Relic Recovery
 
 .. figure:: images/passive-intake-claw/13075-glyph-claw.png
-    :alt: 13075's glyph claw
+   :alt: 13075's glyph claw
 
-    13075 Coram Deo Academy Robotics, Relic Recovery (**suboptimal use case**)
+   13075 Coram Deo Academy Robotics, Relic Recovery (**suboptimal use case**)

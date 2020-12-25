@@ -73,11 +73,11 @@ unit system used.
   unless you already have a large stock of Actobotics parts.
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Kit Options
+   :maxdepth: 1
+   :caption: Kit Options
 
-    tetrix
-    actobotics
-    gobilda
-    rev-robotics
-    custom
+   tetrix
+   actobotics
+   gobilda
+   rev-robotics
+   custom

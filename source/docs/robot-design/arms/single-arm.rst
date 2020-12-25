@@ -28,13 +28,13 @@ requiring much more support than a linear slide,
 and being hard to control without the proper software.
 
 .. figure:: images/single-arm/8103-single-arm.png
-    :alt: 8103's single arm attached to a belt driven linear extension
+   :alt: 8103's single arm attached to a belt driven linear extension
 
-    8103 Null Robotics, Rover Ruckus,
-    single arm + custom belt driven linear extension
+   8103 Null Robotics, Rover Ruckus,
+   single arm + custom belt driven linear extension
 
 .. figure:: images/single-arm/8417-single-arm.png
-    :alt: 8417's single arm attached to a belt driven linear extension
+   :alt: 8417's single arm attached to a belt driven linear extension
 
-    8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick
-    (Ochoa), single arm + custom belt driven linear extension
+   8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick
+   (Ochoa), single arm + custom belt driven linear extension

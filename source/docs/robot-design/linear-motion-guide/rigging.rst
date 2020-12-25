@@ -7,12 +7,12 @@ This is an important and time-consuming requirement for any team that uses
 linear extension, so be sure to spend adequate time on it.
 
 .. figure:: images/rigging/7236-elevator-rigging.png
-    :alt: The rigging for 7236's elevator in Rover Ruckus
-    :width: 10em
+   :alt: The rigging for 7236's elevator in Rover Ruckus
+   :width: 10em
 
-    Example rigging setup from team 7236 Recharged Green.
-    This setup utilizes a continuous stringing setup for the first stage and a
-    cascaded belt-driven second stage.
+   Example rigging setup from team 7236 Recharged Green.
+   This setup utilizes a continuous stringing setup for the first stage and a
+   cascaded belt-driven second stage.
 
 Continuous Rigging
 ==================
@@ -68,9 +68,9 @@ Here are some additional considerations when rigging a continuous system.
   causing the tension in the string to change.
 
 .. figure:: images/rigging/continuous-rigging-diagram.jpg
-    :alt: A diagram of continuous rigging
+   :alt: A diagram of continuous rigging
 
-    Continuous rigging diagram
+   Continuous rigging diagram
 
 Cascade Rigging
 ===============
@@ -190,15 +190,15 @@ Additional Considerations
   Any amount of misalignment can lead to the string coming off of your pulley.
 
 .. figure:: images/rigging/continuous-retraction.jpg
-    :alt: A diagram of continuous retraction
+   :alt: A diagram of continuous retraction
 
-    Continuous retraction
+   Continuous retraction
 
 
 .. figure:: images/rigging/cascading-retraction.png
-    :alt: A diagram of cascading retraction
+   :alt: A diagram of cascading retraction
 
-    Cascade retraction
+   Cascade retraction
 
 Belt-driven slides
 ==================
@@ -237,24 +237,24 @@ have a considerably larger diameter, meaning each stage must be
 thicker.
 
 .. figure:: images/rigging/7236-continuous-belt.png
-    :alt: 7236's Rover Ruckus' robot's belt rigging
+   :alt: 7236's Rover Ruckus' robot's belt rigging
 
-    7236 Recharged Green, Rover Ruckus, **continuous** rig
+   7236 Recharged Green, Rover Ruckus, **continuous** rig
 
 .. figure:: images/rigging/11190-continuous-belt.jpg
-    :alt: 11190's Relic Recovery robot's belt rigging
+   :alt: 11190's Relic Recovery robot's belt rigging
 
-    11190 Mechadojos, Relic Recovery, continuous belt rig
+   11190 Mechadojos, Relic Recovery, continuous belt rig
 
 .. figure:: images/rigging/5064-cascading-belt-diagram.jpg
-    :alt: 5064's cascading belt rigging diagram
+   :alt: 5064's cascading belt rigging diagram
 
-    5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept drawing
+   5064 Aperture Science Rover Ruckus **cascade** belt-driven proof of concept drawing
 
 .. figure:: images/rigging/5064-cascading-belt.png
-    :alt: 5064's cascading belt rigging
+   :alt: 5064's cascading belt rigging
 
-    5064 Aperture Science Rover Ruckus **cascade** belt-driven final version
+   5064 Aperture Science Rover Ruckus **cascade** belt-driven final version
 
 Belt or chain driven elevators
 ==============================
@@ -269,9 +269,9 @@ It is possible for elevators to have multi stage designs,
 but powering them will be more complex.
 
 .. figure:: images/rigging/7236-belt-driven-elevator.jpg
-    :alt: 7236's belt driven elevator
+   :alt: 7236's belt driven elevator
 
-    7236 Recharged Green, Rover Ruckus
+   7236 Recharged Green, Rover Ruckus
 
 Tensioners
 ==========
@@ -316,12 +316,12 @@ string.
    tensioner per linear slide set.
 
 .. image:: images/tensioners/13075-slides.png
-    :alt: An image of 13075 linear slides
+   :alt: An image of 13075 linear slides
 
 .. figure:: images/tensioners/13075-string-tensioner.png
-    :alt: An image of 13075 linear slide's string tensioner
+   :alt: An image of 13075 linear slide's string tensioner
 
-    13075 Coram Deo Robotics, Rover Ruckus, string tensioner
+   13075 Coram Deo Robotics, Rover Ruckus, string tensioner
 
 Picking the right spool size
 ============================
@@ -403,11 +403,11 @@ Disadvantages
 * Can be on the heavy side, especially with a long length of drag chain
 
 .. figure:: images/cable-management/7236-cable-carrier.png
-    :alt: 7236's Rover Ruckus robot with cable carriers visible
+   :alt: 7236's Rover Ruckus robot with cable carriers visible
 
-    7236 Recharged Green, Rover Ruckus
-    Cable carrier on the left side of their horizontal slides and the right
-    side of vertical slides
+   7236 Recharged Green, Rover Ruckus
+   Cable carrier on the left side of their horizontal slides and the right
+   side of vertical slides
 
 Retractable Coil Cord
 ---------------------
@@ -433,11 +433,11 @@ Disadvantages
 * Can get tangled more easily, as it is less stiff than drag chain
 
 .. image:: images/cable-management/10030-coil-cord-1.png
-    :alt: 10030's robot's coil cord
+   :alt: 10030's robot's coil cord
 
 
 .. figure:: images/cable-management/10030-coil-cord-2.png
-    :alt: 10030's robot's coil cord
+   :alt: 10030's robot's coil cord
 
-    10030 7 Sigma Robotics, Relic Recovery
-    Coil-cord on horizontal extension mechanism
+   10030 7 Sigma Robotics, Relic Recovery
+   Coil-cord on horizontal extension mechanism

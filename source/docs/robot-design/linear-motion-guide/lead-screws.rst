@@ -32,9 +32,9 @@ Disadvantages
 * High torque translates to slow extension speed
 
 .. image:: images/lead-screws/lead-screw.png
-    :alt: A lead screw with the object that rides It
+   :alt: A lead screw with the object that rides It
 
 .. figure:: images/lead-screws/11115-hang.png
-    :alt: A render of 11115's Rover Ruckus hang mechanism, using lead screws
+   :alt: A render of 11115's Rover Ruckus hang mechanism, using lead screws
 
-    11115 Gluten Free, Rover Ruckus, Actobotics lead screw used for hang
+   11115 Gluten Free, Rover Ruckus, Actobotics lead screw used for hang

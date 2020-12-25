@@ -34,8 +34,8 @@ Consistency
   not zero, one, or three.
 
   .. attention::
-     This is a common mistake that many inexperienced teams fail to
-     take into account.
+    This is a common mistake that many inexperienced teams fail to
+    take into account.
 * Another component is the varying angles that the game objects can be located
   in.
   This was especially apparent in the Relic Recovery season,

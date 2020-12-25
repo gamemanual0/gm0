@@ -63,17 +63,17 @@ Disadvantages
 * May need some modifications such as custom sliders
 
 .. image:: images/extrusion-slides/11115-slides.png
-    :alt: 11115 Gluten Free's Rover Ruckus robot with slides extended
+   :alt: 11115 Gluten Free's Rover Ruckus robot with slides extended
 
 .. figure:: images/extrusion-slides/11115-slider.png
-    :alt: 11115 Gluten Free's custom Rev slider
+   :alt: 11115 Gluten Free's custom Rev slider
 
-    11115 Gluten Free, Rover Ruckus, custom REV slides
+   11115 Gluten Free, Rover Ruckus, custom REV slides
 
 .. figure:: images/extrusion-slides/8680-slides.jpg
-    :alt: 8680 Kraken-Pinion's Rover Ruckus robot with slides extended
+   :alt: 8680 Kraken-Pinion's Rover Ruckus robot with slides extended
 
-    8680 Kraken-Pinion, Rover Ruckus, REV
+   8680 Kraken-Pinion, Rover Ruckus, REV
 
 Actobotics X-rail Slide Kit
 ===========================
@@ -113,9 +113,9 @@ Disadvantages
   than string retraction
 
 .. figure:: images/extrusion-slides/12599-slides.jpg
-    :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
+   :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
 
-    12599 Overcharged, Relic Recovery, Actobotics X-Rail
+   12599 Overcharged, Relic Recovery, Actobotics X-Rail
 
 goBILDA goRAIL
 ==============

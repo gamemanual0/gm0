@@ -2,22 +2,22 @@
 Types of Intake
 ===============
 Horizontal/top Intake
-    A horizontal intake generally is a wider style of intake that has the
-    intake rotating on a horizontal axis or plane.
-    Horizontal intakes are generally used for intaking smaller game elements,
-    as these types of intakes can control more than one piece at a time.
-    Horizontal intakes have been used successfully in games such as Res-Q and
-    Rover Ruckus, where teams needed to pick up small cubes and balls from the
-    floor.
+   A horizontal intake generally is a wider style of intake that has the
+   intake rotating on a horizontal axis or plane.
+   Horizontal intakes are generally used for intaking smaller game elements,
+   as these types of intakes can control more than one piece at a time.
+   Horizontal intakes have been used successfully in games such as Res-Q and
+   Rover Ruckus, where teams needed to pick up small cubes and balls from the
+   floor.
 
 Vertical Intake
-    A vertical intake typically has wheels or other intake components rotating
-    on a vertical axis (the z-axis).
-    Vertical intakes are more controllable,
-    as they can only pick up one element at a time.
-    Vertical intakes excel at picking up large game elements which would be
-    impossible to control more than one piece at once,
-    such as the foam glyphs in Relic Recovery.
+   A vertical intake typically has wheels or other intake components rotating
+   on a vertical axis (the z-axis).
+   Vertical intakes are more controllable,
+   as they can only pick up one element at a time.
+   Vertical intakes excel at picking up large game elements which would be
+   impossible to control more than one piece at once,
+   such as the foam glyphs in Relic Recovery.
 
 Below are different implementations of horizontal and vertical intakes:
 
@@ -48,15 +48,15 @@ Compliant Wheel Intake
 ----------------------
 .. sidebar:: Spring-Loaded Intakes
 
-    A spring-loaded intake is able to pivot in order to accommodate a game element
-    when it is passing through the intake,
-    but will snap back when the element has gone through.
-    A spring-loaded intake requires more thought,
-    but guarantees that the intake wheel will always be in contact with the desired
-    element.
+   A spring-loaded intake is able to pivot in order to accommodate a game element
+   when it is passing through the intake,
+   but will snap back when the element has gone through.
+   A spring-loaded intake requires more thought,
+   but guarantees that the intake wheel will always be in contact with the desired
+   element.
 
-    A locked intake simply means that the wheels are locked into place and
-    cannot pivot.
+   A locked intake simply means that the wheels are locked into place and
+   cannot pivot.
 
 The compliant wheel intake is most commonly used with large game elements such
 as the glyphs in the 2017-2018 season, Relic Recovery.
@@ -99,27 +99,27 @@ Disadvantages
 * Can generally only pick up one specific element shape
 
 .. figure:: images/compliant-wheel-intake/9971-intake.png
-    :alt: 9971's Relic Recovery intake
+   :alt: 9971's Relic Recovery intake
 
-    9971 LanBros, Finalist Alliance First Pick (Detroit),
-    Relic Recovery, springloaded
+   9971 LanBros, Finalist Alliance First Pick (Detroit),
+   Relic Recovery, springloaded
 
 .. figure:: images/compliant-wheel-intake/8680-intake.png
-    :alt: 8680's Relic Recovery intake
+   :alt: 8680's Relic Recovery intake
 
-    8680 Kraken-Pinion, Relic Recovery
+   8680 Kraken-Pinion, Relic Recovery
 
 .. figure:: images/compliant-wheel-intake/2856-intake.png
-    :alt: 2856's Relic Recovery intake
+   :alt: 2856's Relic Recovery intake
 
-    2856 Tesseract, Relic Recovery,
-    2 & 4 in. compliant wheels, 2 in. omni wheels
+   2856 Tesseract, Relic Recovery,
+   2 & 4 in. compliant wheels, 2 in. omni wheels
 
 .. figure:: images/compliant-wheel-intake/11115-intake.png
-    :alt: 11115's Relic Recovery intake
+   :alt: 11115's Relic Recovery intake
 
-    11115 Gluten Free, Finalist Alliance Captain (Detroit),
-    Relic Recovery, springloaded
+   11115 Gluten Free, Finalist Alliance Captain (Detroit),
+   Relic Recovery, springloaded
 
 Foam Wheel Intake
 -----------------
@@ -129,9 +129,9 @@ It is generally recommended that teams stick to compliant wheels as they are
 grippier and easier to control.
 
 .. figure:: images/foam-wheel-intake/6299-intake.png
-    :alt: 6299's ResQ intake
+   :alt: 6299's ResQ intake
 
-    6299 ViperBots QuadX, Res-Q
+   6299 ViperBots QuadX, Res-Q
 
 Rubber Band Intake
 ------------------
@@ -149,9 +149,9 @@ Zip ties can be added to increase the intake’s range to accommodate for smalle
 balls.
 
 .. figure:: images/rubber-band-intake/vrc-intake.png
-    :alt: A rubber band intake for VRC Turning Point
+   :alt: A rubber band intake for VRC Turning Point
 
-    Ball intake for VRC Game Turning Point
+   Ball intake for VRC Game Turning Point
 
 Tubing Intakes
 ==============
@@ -214,26 +214,26 @@ Disadvantages
 * Harder to pick up large elements easily
 
 .. figure:: images/tubing-intake/8375-intake.png
-    :alt: 8375's surgical tubing intake
+   :alt: 8375's surgical tubing intake
 
-    8375 Vulcan Robotics, Res-Q - great example of funneling
+   8375 Vulcan Robotics, Res-Q - great example of funneling
 
 .. figure:: images/tubing-intake/8393-intake.png
-    :alt: 8393's surgical tubing intake
+   :alt: 8393's surgical tubing intake
 
-    8393 Giant Diencephalic BrainSTEM Robotics Team,
-    Semifinalist Alliance Captain (St. Louis), Velocity Vortex
+   8393 Giant Diencephalic BrainSTEM Robotics Team,
+   Semifinalist Alliance Captain (St. Louis), Velocity Vortex
 
 
 .. figure:: images/tubing-intake/11115-intake.png
-    :alt: 11115's surgical tubing intake
+   :alt: 11115's surgical tubing intake
 
-    11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus
+   11115 Gluten Free, Winning Alliance First Pick (Detroit), Rover Ruckus
 
 .. figure:: images/tubing-intake/7203-intake.png
-    :alt: 7203's surgical tubing intake
+   :alt: 7203's surgical tubing intake
 
-    7203 KNO3, Rover Ruckus
+   7203 KNO3, Rover Ruckus
 
 Zip Tie Intake
 --------------
@@ -253,12 +253,12 @@ We recommend 3D printed intakes only if your team has had experience in 3D
 printing parts.
 
 .. figure:: images/3d-printed-intake/731-3dp-intake.png
-    :alt: 731's 3D printed intake
+   :alt: 731's 3D printed intake
 
-    731 Wannabee Strange, Rover Ruckus
+   731 Wannabee Strange, Rover Ruckus
 
 .. figure:: images/3d-printed-intake/8417-3dp-intake.png
-    :alt: 8417's 3D printed intake
+   :alt: 8417's 3D printed intake
 
-    8417 Lectric Legends, Rover Ruckus - TPU intake flaps,
-    powered by two VEX 393 motors
+   8417 Lectric Legends, Rover Ruckus - TPU intake flaps,
+   powered by two VEX 393 motors

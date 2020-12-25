@@ -15,15 +15,15 @@ Therefore, these are the topics that will be covered in this section
 of |gm0|.
 
 .. warning::
-    Judging and awards are extremely subjective and some rules change a bit
-    from state to state.
-    What works in one region may not in other regions.
-    So contact your judges about specifics of some things;
-    for example some competitions allow you to turn a custom control award
-    sheet, others only accept the one listed by FIRST.
-    The writers of this part of |gm0| have extensive experience with awards and
-    have even been winners and finalists for the Inspire Award at the World
-    Championships.
+   Judging and awards are extremely subjective and some rules change a bit
+   from state to state.
+   What works in one region may not in other regions.
+   So contact your judges about specifics of some things;
+   for example some competitions allow you to turn a custom control award
+   sheet, others only accept the one listed by FIRST.
+   The writers of this part of |gm0| have extensive experience with awards and
+   have even been winners and finalists for the Inspire Award at the World
+   Championships.
 
 For most awards, teams have a 5 minute presentation at the beginning of the day
 followed by some Q&A time and possibly pit judging later on
@@ -44,7 +44,7 @@ They recognize teams at the end of every competition (except league meets)
 as well as determine many of the teams that advance.
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    award-types
-    notebook
+   award-types
+   notebook

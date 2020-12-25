@@ -2,11 +2,11 @@
 Appendix
 ========
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    glossary
-    useful-resources
-    gallery
-    vendor-list
-    vendor-guide
-    license
+   glossary
+   useful-resources
+   gallery
+   vendor-list
+   vendor-guide
+   license

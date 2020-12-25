@@ -97,12 +97,12 @@ Face Mount
   motor does not jar loose.
 
 .. tip::
-    :term:`Face mounting <Face Mounting>` is recommended for high-load and/or high vibration
-    use cases such as drivetrain.
-    This is as :term:`clamp mounted <Clamp Mounting>` motors can shift and come
-    loose easier than :term:`face mounted <Face Mounting>` motors.
-    It is also recommended to use **BLUE** :term:`Loctite` when
-    :term:`face mounting <Face Mounting>`, if possible.
+   :term:`Face mounting <Face Mounting>` is recommended for high-load and/or high vibration
+   use cases such as drivetrain.
+   This is as :term:`clamp mounted <Clamp Mounting>` motors can shift and come
+   loose easier than :term:`face mounted <Face Mounting>` motors.
+   It is also recommended to use **BLUE** :term:`Loctite` when
+   :term:`face mounting <Face Mounting>`, if possible.
 
 Note that the pattern of :term:`face mounting <Face Mounting>` holes
 is different for different vendors.  For example, goBILDA uses 4 M4

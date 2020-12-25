@@ -57,12 +57,12 @@ Generally, humor is acceptable, but try to keep jokes down to a minimum
 document).
 
 .. note::
-    Having a consistent team brand is important so judges remember you.
-    A large amount of winning awards is being
-    remembered and advocated for by the judges.
+   Having a consistent team brand is important so judges remember you.
+   A large amount of winning awards is being
+   remembered and advocated for by the judges.
 
-    Therefore, having consistent branding helps judges know what team they are
-    talking to and what they know about you.
+   Therefore, having consistent branding helps judges know what team they are
+   talking to and what they know about you.
 
 Individual sections
 ===================
@@ -103,19 +103,19 @@ months worth of logs because overall they are not that hard to do.
 
 Each team approaches it differently, but a standard approach is as follows.
 
-    Date
+   Date
 
-    Members of Team Present
+   Members of Team Present
 
-    +------------------+---------------------------------------------+
-    | Tasks & Pictures | More Information, if the Task Was Completed |
-    +==================+=============================================+
-    | Lorem ipsum      | Dolor sit amet, consectetur adipiscing elit |
-    +------------------+---------------------------------------------+
-    |Sed do eiusmod    | Tempor incididunt  ut labore                |
-    +------------------+---------------------------------------------+
-    |Et dolore magna   | Aliqua ut enim ad minim veniam              |
-    +------------------+---------------------------------------------+
+   +------------------+---------------------------------------------+
+   | Tasks & Pictures | More Information, if the Task Was Completed |
+   +==================+=============================================+
+   | Lorem ipsum      | Dolor sit amet, consectetur adipiscing elit |
+   +------------------+---------------------------------------------+
+   |Sed do eiusmod    | Tempor incididunt  ut labore             |
+   +------------------+---------------------------------------------+
+   |Et dolore magna   | Aliqua ut enim ad minim veniam           |
+   +------------------+---------------------------------------------+
 
 There are other methods such as weekly, pure goals, or other
 engineering based methods such as agile (if you pursue the latter you
@@ -127,15 +127,15 @@ more and more tedious.
 
 Pure goals is simply as follows.
 
-    +------+--------------------+---------------------------------+
-    | Date | Goal and Goal Date | Was the Goal Completed in Time? |
-    +======+====================+=================================+
-    | Quis | Nostrud            | Exercitation ullamco            |
-    +------+--------------------+---------------------------------+
-    | Nisi | Ut aliquip ex ea   | Commodo consequat               |
-    +------+--------------------+---------------------------------+
-    | Duis | Aute irure dolor   | In reprehenderit in voluptate   |
-    +------+--------------------+---------------------------------+
+   +------+--------------------+---------------------------------+
+   | Date | Goal and Goal Date | Was the Goal Completed in Time? |
+   +======+====================+=================================+
+   | Quis | Nostrud         | Exercitation ullamco            |
+   +------+--------------------+---------------------------------+
+   | Nisi | Ut aliquip ex ea   | Commodo consequat            |
+   +------+--------------------+---------------------------------+
+   | Duis | Aute irure dolor   | In reprehenderit in voluptate   |
+   +------+--------------------+---------------------------------+
 
 Building Section and Documenting the Robot
 ==========================================
@@ -186,7 +186,7 @@ Notebook Gallery
 * Relic Recovery
 
   * `4042 (West Super Regional Innovate Winner)
-    <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
+   <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
 * Rover Ruckus
 
   * `9794 (Detroit Championship Think Finalist) <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_

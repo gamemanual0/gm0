@@ -191,16 +191,16 @@ it.
 Best Value
 ==========
 * Low Priced (~$18)
-    * HiTec 488HB
-    * Futaba servos
+   * HiTec 488HB
+   * Futaba servos
 * Medium Priced (~$25)
-    * `goBILDA Dual Mode Servo (Torque) (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
-    * `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
-    * `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
-    * `25kg Coreless Servo <https://longrobotics.com/product/25kg-coreless-servo-ds3225sg/>`_
+   * `goBILDA Dual Mode Servo (Torque) (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
+   * `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
+   * `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
+   * `25kg Coreless Servo <https://longrobotics.com/product/25kg-coreless-servo-ds3225sg/>`_
 * Best Performance ($75+)
-    * Savox titanium servos
-    * Hitec titanium servos
+   * Savox titanium servos
+   * Hitec titanium servos
 
 REV and goBILDA :term:`servos <Servo>` can be purchased from REV and goBILDA
 websites respectively. For all other servos some good sources are `ServoCity

@@ -48,8 +48,8 @@ Disadvantages
 Types of Arms
 =============
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    single-arm
-    chain-bar-arm
-    multi-axis-arm
+   single-arm
+   chain-bar-arm
+   multi-axis-arm

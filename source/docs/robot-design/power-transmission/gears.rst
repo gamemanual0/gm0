@@ -47,11 +47,11 @@ Terms
 
   .. math::
 
-     PD = Module * Number\ of\ Teeth
+    PD = Module * Number\ of\ Teeth
 
-     PD = \frac{Number\ of\ Teeth}{PD}
+    PD = \frac{Number\ of\ Teeth}{PD}
 
-     PD = OD - (2 * Module)
+    PD = OD - (2 * Module)
 
 * Outer diameter (OD) refers to the actual outside diameter of the gear.
   Simply, it is the circle that the outer face of the tooth draws when it
@@ -66,10 +66,10 @@ Meshing Gears
 =============
 
 .. note::
-    Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral
-    pitch.
-    (A notable exception is 32 diametral pitch and 0.8 MOD gears.
-    These are close enough to be perfectly fine.)
+   Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral
+   pitch.
+   (A notable exception is 32 diametral pitch and 0.8 MOD gears.
+   These are close enough to be perfectly fine.)
 
 When meshing gears,
 it is important that the gears are not too loose nor too tight.
@@ -109,9 +109,9 @@ Additionally, it is possible to average the pitch diameters of the two gears to
 find the correct center-to-center distance.
 
 .. figure:: images/gears/correct-gear-mesh.jpg
-    :alt: 2 correctly meshed gears floating midair in a render
+   :alt: 2 correctly meshed gears floating midair in a render
 
-    Correct gear mesh
+   Correct gear mesh
 
 As with sprockets,
 it is important to line up the gears so that they do not accidentally slip.
@@ -168,12 +168,12 @@ Disadvantages
   problem.
 
 .. figure:: images/gears/11115-gear-dt.png
-    :alt: A gear-based drivetrain by 11115, Gluten Free
+   :alt: A gear-based drivetrain by 11115, Gluten Free
 
-    11115 Gluten Free gear-based drivetrain
+   11115 Gluten Free gear-based drivetrain
 
 .. figure:: images/gears/13075-gear-dt.png
-    :alt: A gear-based drivetrain by 13075, Coram Deo Robotics
+   :alt: A gear-based drivetrain by 13075, Coram Deo Robotics
 
-    13075 Coram Deo Robotics, Rover Ruckus gear-based drivetrain
+   13075 Coram Deo Robotics, Rover Ruckus gear-based drivetrain
 

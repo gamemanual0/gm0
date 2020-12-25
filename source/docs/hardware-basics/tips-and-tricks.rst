@@ -53,17 +53,17 @@ seem obvious, but almost every FTC newbie made these mistakes at least once.
   to deal with the problem.
 
   - Get a better hex driver. Hex driver can also be worn out, especially
-    ball head hex drivers. Get a new hex driver (not ball head), which is not
-    yet worn out, and it might give you more traction with stubborn screws.
+   ball head hex drivers. Get a new hex driver (not ball head), which is not
+   yet worn out, and it might give you more traction with stubborn screws.
   - Put a rubber band between the tip of the hex driver and the socket.
-    This increases the traction.
+   This increases the traction.
   - Use a hacksaw or a Dremel to cut a slot in the screw head, turning it into
-    a slotted screw that can be removed using regular flat screwdriver.
+   a slotted screw that can be removed using regular flat screwdriver.
   - Use a `screw extractor <https://www.amazon.com/dp/B07GZ17QD9/>`_
   - If nothing works, drill it out.
   - If that doesn't work,
-    remember that a screw is not a screw if it is liquid metal.
-    This is obviously not a very good idea. :)
+   remember that a screw is not a screw if it is liquid metal.
+   This is obviously not a very good idea. :)
 
   Needless to say, once you removed the damaged screw, discard it immediately -
   do not put it back in the box with other screws.

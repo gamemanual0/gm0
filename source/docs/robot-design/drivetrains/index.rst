@@ -52,9 +52,9 @@ Here are some priorities for that we think are important for each drivetrain:
    especially if the robot is projected to be on the heavy side (30+ pounds).
 
    .. note::
-      Generally, more complex drivetrains pose more reliability challenges for
-      inexperienced teams. Our advice is to stick to the simpler drivetrains
-      such as 4 or 6 wheel drive and mecanum drive.
+     Generally, more complex drivetrains pose more reliability challenges for
+     inexperienced teams. Our advice is to stick to the simpler drivetrains
+     such as 4 or 6 wheel drive and mecanum drive.
 2. **Agility**: There are many factors to agility: top speed, acceleration,
    turning radius, turn speed, and ability to strafe.
    Note that turning radius is an often overlooked feature that is critical to
@@ -89,9 +89,9 @@ Here are some priorities for that we think are important for each drivetrain:
    motors if needed.
 
    .. warning::
-       It is not recommended for teams to use spur gearboxes on their
-       drivetrain. Instead, use planetary gearboxes, as they are less prone to
-       shock loads and breakage.
+      It is not recommended for teams to use spur gearboxes on their
+      drivetrain. Instead, use planetary gearboxes, as they are less prone to
+      shock loads and breakage.
 
 4. **Traction/Pushing Power**: While this feature is often overemphasized,
    it is still very important.
@@ -103,8 +103,8 @@ Here are some priorities for that we think are important for each drivetrain:
    motor gearing, and overall weight of the robot.
 
    .. note::
-      If you already have a very agile drivetrain with experienced drivers, a
-      team can avoid defense instead of having to fend it off or engage in it.
+     If you already have a very agile drivetrain with experienced drivers, a
+     team can avoid defense instead of having to fend it off or engage in it.
 
 5. **Powering the drivetrain**: Generally, there are four options for power
    transmission: direct drive, :term:`chain <Sprocket>`, :term:`gear <Gear>`,

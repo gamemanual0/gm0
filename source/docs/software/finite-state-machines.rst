@@ -31,36 +31,36 @@ looks something like this:
 .. code:: java
 
    while (opModeIsActive()) {
-       switch (state) {
-       case DETECT_SKYSTONE:
-           // skystone detection code here
-           int position = detectSkystone();
+      switch (state) {
+      case DETECT_SKYSTONE:
+         // skystone detection code here
+         int position = detectSkystone();
 
-           if (position == 0) {
-               state = SKYSTONE_POS_0;
-           } else if (position == 1) {
-               state = SKYSTONE_POS_1;
-           } else {
-               state = SKYSTONE_POS_2;
-           }
-           break;
-       case SKYSTONE_POS_0:
-           // skystone position 0 here
-           doSkystone(0);
-           state = MOVE_FOUNDATION;
-           break;
-       case SKYSTONE_POS_1:
-       case SKYSTONE_POS_2:
-           // etc etc
-           break;
-       case MOVE_FOUNDATION:
-           // foundation move code
-           state = PARK;
-           break;
-       case PARK:
-           // park the bot
-           break;
-       }
+         if (position == 0) {
+           state = SKYSTONE_POS_0;
+         } else if (position == 1) {
+           state = SKYSTONE_POS_1;
+         } else {
+           state = SKYSTONE_POS_2;
+         }
+         break;
+      case SKYSTONE_POS_0:
+         // skystone position 0 here
+         doSkystone(0);
+         state = MOVE_FOUNDATION;
+         break;
+      case SKYSTONE_POS_1:
+      case SKYSTONE_POS_2:
+         // etc etc
+         break;
+      case MOVE_FOUNDATION:
+         // foundation move code
+         state = PARK;
+         break;
+      case PARK:
+         // park the bot
+         break;
+      }
    }
 
 This however does not really have any benefits compared to if the programmer
@@ -76,24 +76,24 @@ transitions always occur because the section of the code finished:
 
 .. graphviz::
 
-    digraph {
-        detect[label="Detect Skystone"];
-        posZero[label="Skystone Position 0"];
-        posOne[label="Skystone Position 1"];
-        posTwo[label="Skystone Position 2"];
-        move[label="Foundation Move"];
-        park[label="Park"];
+   digraph {
+      detect[label="Detect Skystone"];
+      posZero[label="Skystone Position 0"];
+      posOne[label="Skystone Position 1"];
+      posTwo[label="Skystone Position 2"];
+      move[label="Foundation Move"];
+      park[label="Park"];
 
-        detect->posZero;
-        detect->posOne;
-        detect->posTwo;
+      detect->posZero;
+      detect->posOne;
+      detect->posTwo;
 
-        posZero->move;
-        posOne->move;
-        posTwo->move;
+      posZero->move;
+      posOne->move;
+      posTwo->move;
 
-        move->park;
-    }
+      move->park;
+   }
 
 In fact, in many implementations, making state transitions for any other reason
 is often difficult because the code executes linearly and is only in a loop to
@@ -101,10 +101,10 @@ rerun the switch statements. (Often times, this means the code has a hard time
 reacting to a stop request in the middle of autonomous.)
 
 .. warning::
-    It is unadvisable to write code like this. If your autonomous is
-    synchronous, it is preferable to split your
-    code up into functions and run them in order, as this will be easier to
-    understand and edit on the fly.
+   It is unadvisable to write code like this. If your autonomous is
+   synchronous, it is preferable to split your
+   code up into functions and run them in order, as this will be easier to
+   understand and edit on the fly.
 
 Useful Implementation
 ---------------------
@@ -151,19 +151,19 @@ doing. This can also add to a :term:`Control Award` submission.
 
 .. graphviz::
 
-    digraph {
-        start[label="Start"];
-        extend[label="Extend Lift"];
-        dump[label="Set Servo Dump"];
-        reset[label="Reset Servo, Retract Lift"];
+   digraph {
+      start[label="Start"];
+      extend[label="Extend Lift"];
+      dump[label="Set Servo Dump"];
+      reset[label="Reset Servo, Retract Lift"];
 
-        start->extend[label="X Pressed"];
-        extend->dump[label="Lift Fully Extended"];
-        extend->start[label="Y Pressed"];
-        dump->start[label="Y Pressed"];
-        dump->reset[label="Minerals be Dumped"];
-        reset->start[label="Lift Fully Retracted/Y Pressed"];
-    }
+      start->extend[label="X Pressed"];
+      extend->dump[label="Lift Fully Extended"];
+      extend->start[label="Y Pressed"];
+      dump->start[label="Y Pressed"];
+      dump->reset[label="Minerals be Dumped"];
+      reset->start[label="Lift Fully Retracted/Y Pressed"];
+   }
 
 Notice how resetting the dump servo and retracting the lift share a
 state. That’s because the robot don’t need to wait for the servo to reset
@@ -180,107 +180,107 @@ drivetrain.
 .. code:: java
 
    /**
-    * Some declarations that are boilerplate are
-    * skipped for the sake of brevity.
-    * Since there are no real values to use, named constants will be used.
-    */
+   * Some declarations that are boilerplate are
+   * skipped for the sake of brevity.
+   * Since there are no real values to use, named constants will be used.
+   */
 
    @TeleOp(name="FSM Example")
    public class FSMExample extends OpMode {
-       // An Enum is used to represent lift states.
-       // (This is one thing enums are designed to do)
-       public enum LiftState {
-            LIFT_START,
-            LIFT_EXTEND,
-            LIFT_DUMP,
-            LIFT_RETRACT
-      };
+      // An Enum is used to represent lift states.
+      // (This is one thing enums are designed to do)
+      public enum LiftState {
+          LIFT_START,
+          LIFT_EXTEND,
+          LIFT_DUMP,
+          LIFT_RETRACT
+     };
 
-       // The liftState variable is declared out here
-       // so its value persists between loop() calls
-       LiftState liftState = LiftState.LIFT_START;
+      // The liftState variable is declared out here
+      // so its value persists between loop() calls
+      LiftState liftState = LiftState.LIFT_START;
 
-       // Some hardware access boilerplate; these would be initialized in init()
-       // the lift motor, it's in RUN_TO_POSITION mode
-       public DcMotor liftMotor;
+      // Some hardware access boilerplate; these would be initialized in init()
+      // the lift motor, it's in RUN_TO_POSITION mode
+      public DcMotor liftMotor;
 
-       // the dump servo
-       public Servo liftDump;
-       // used with the dump servo, this will get covered in a bit
-       ElapsedTime liftTimer = new ElapsedTime();
+      // the dump servo
+      public Servo liftDump;
+      // used with the dump servo, this will get covered in a bit
+      ElapsedTime liftTimer = new ElapsedTime();
 
-       final double DUMP_IDLE; // the idle position for the dump servo
-       final double DUMP_DEPOSIT; // the dumping position for the dump servo
+      final double DUMP_IDLE; // the idle position for the dump servo
+      final double DUMP_DEPOSIT; // the dumping position for the dump servo
 
-       // the amount of time the dump servo takes to activate in seconds
-       final double DUMP_TIME;
+      // the amount of time the dump servo takes to activate in seconds
+      final double DUMP_TIME;
 
-       final int LIFT_LOW; // the low encoder position for the lift
-       final int LIFT_HIGH; // the high encoder position for the lift
+      final int LIFT_LOW; // the low encoder position for the lift
+      final int LIFT_HIGH; // the high encoder position for the lift
 
-       public void init() {
-           liftTimer.reset();
+      public void init() {
+         liftTimer.reset();
 
-           // hardware initilization code
-       }
+         // hardware initilization code
+      }
 
-       public void loop() {
-           switch (liftState) {
-               case LiftState.LIFT_START:
-                   // Waiting for some input
-                   if (gamepad1.x) {
-                       // x is pressed, start extending
-                       liftMotor.setPosition(LIFT_HIGH);
-                       liftState = LiftState.LIFT_EXTEND;
-                   }
-                   break;
-               case LiftState.LIFT_EXTEND:
-                   // check if the left has finished extending,
-                   // otherwise do nothing.
-                   if (Math.abs(liftMotor.getPosition() - LIFT_HIGH) < 10) {
-                       // our threshold is within
-                       // 10 encoder ticks of our target.
-                       // this is pretty arbitrary, and would have to be
-                       // tweaked for each robot.
+      public void loop() {
+         switch (liftState) {
+           case LiftState.LIFT_START:
+               // Waiting for some input
+               if (gamepad1.x) {
+                   // x is pressed, start extending
+                   liftMotor.setPosition(LIFT_HIGH);
+                   liftState = LiftState.LIFT_EXTEND;
+               }
+               break;
+           case LiftState.LIFT_EXTEND:
+               // check if the left has finished extending,
+               // otherwise do nothing.
+               if (Math.abs(liftMotor.getPosition() - LIFT_HIGH) < 10) {
+                   // our threshold is within
+                   // 10 encoder ticks of our target.
+                   // this is pretty arbitrary, and would have to be
+                   // tweaked for each robot.
 
-                       // set the lift dump to dump
-                       liftDump.setPosition(DUMP_DEPOSIT);
+                   // set the lift dump to dump
+                   liftDump.setPosition(DUMP_DEPOSIT);
 
-                       liftTimer.reset();
-                       liftState = LiftState.LIFT_DUMP;
-                   }
-                   break;
-               case LiftState.LIFT_DUMP:
-                   if (liftTimer.seconds() >= DUMP_TIME) {
-                       // The robot waited long enough, time to start
-                       // retracting the lift
-                       liftDump.setPosition(DUMP_IDLE);
-                       liftMotor.setPosition(LIFT_LOW);
-                       liftState = LiftState.LIFT_RETRACT;
-                   }
-                   break;
-               case LiftState.LIFT_RETRACT:
-                   if (Math.abs(liftMotor.getPosition() - LIFT_LOW) < 10) {
-                       liftState = LiftState.LIFT_START;
-                   }
-                   break;
-               default:
-                   // should never be reached, as liftState should never be null
+                   liftTimer.reset();
+                   liftState = LiftState.LIFT_DUMP;
+               }
+               break;
+           case LiftState.LIFT_DUMP:
+               if (liftTimer.seconds() >= DUMP_TIME) {
+                   // The robot waited long enough, time to start
+                   // retracting the lift
+                   liftDump.setPosition(DUMP_IDLE);
+                   liftMotor.setPosition(LIFT_LOW);
+                   liftState = LiftState.LIFT_RETRACT;
+               }
+               break;
+           case LiftState.LIFT_RETRACT:
+               if (Math.abs(liftMotor.getPosition() - LIFT_LOW) < 10) {
                    liftState = LiftState.LIFT_START;
                }
-            }
-
-
-           // small optimization, instead of repeating ourselves in each
-           // lift state case besides LIFT_START for the cancel action,
-           // it's just handled here
-           if (gamepad1.y && liftState != LiftState.LIFT_START) {
+               break;
+           default:
+               // should never be reached, as liftState should never be null
                liftState = LiftState.LIFT_START;
            }
+          }
 
-           // mecanum drive code goes here
-           // But since none of the stuff in the switch case stops
-           // the robot, this will always run!
-           updateDrive(gamepad1, gamepad2);
-       }
+
+         // small optimization, instead of repeating ourselves in each
+         // lift state case besides LIFT_START for the cancel action,
+         // it's just handled here
+         if (gamepad1.y && liftState != LiftState.LIFT_START) {
+           liftState = LiftState.LIFT_START;
+         }
+
+         // mecanum drive code goes here
+         // But since none of the stuff in the switch case stops
+         // the robot, this will always run!
+         updateDrive(gamepad1, gamepad2);
+      }
    }

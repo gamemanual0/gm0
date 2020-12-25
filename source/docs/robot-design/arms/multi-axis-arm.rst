@@ -11,12 +11,12 @@ and can really only be modeled through complex kinematic equations.
 
 
 .. figure:: images/multi-axis-arm/8148-multi-axis-arm.png
-    :alt: 8148's multi-axis arm
+   :alt: 8148's multi-axis arm
 
-    8148 Aleph Bots, Relic Recovery
+   8148 Aleph Bots, Relic Recovery
 
 .. figure:: images/multi-axis-arm/15692-multi-axis-arm.png
-    :alt: 15692's multi-axis arm
+   :alt: 15692's multi-axis arm
 
-    15692 Rust In Pieces, Rover Ruckus
+   15692 Rust In Pieces, Rover Ruckus
 

@@ -116,19 +116,19 @@ Disadvantages
   :term:`extrusion <Extrusion>`.
 
 .. figure:: images/actobotics/8644-rr1.jpg
-    :alt: 8644 Brainstormers' Relic Recovery robot
+   :alt: 8644 Brainstormers' Relic Recovery robot
 
-    An example of a successful Actobotics based robot, 8644 Brainstormers:
-    2018 Winning Alliance Captain (Detroit), Relic Recovery
+   An example of a successful Actobotics based robot, 8644 Brainstormers:
+   2018 Winning Alliance Captain (Detroit), Relic Recovery
 
 .. figure:: images/actobotics/9971-rr2.jpg
-    :alt: 9971 LanBros' Rover Ruckus robot
+   :alt: 9971 LanBros' Rover Ruckus robot
 
-    Another successful Actobotics based robot, 9971 LanBros:
-    2019 Winning Alliance Captain (Detroit), Rover Ruckus
+   Another successful Actobotics based robot, 9971 LanBros:
+   2019 Winning Alliance Captain (Detroit), Rover Ruckus
 
 .. figure:: images/actobotics/9794-rr2.png
-    :alt: 9794 Wizards.exe's Rover Ruckus robot
+   :alt: 9794 Wizards.exe's Rover Ruckus robot
 
-    9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` to build
-    their Rover Ruckus robot
+   9794 Wizards.exe used both Actobotics and REV :term:`extrusion <Extrusion>` to build
+   their Rover Ruckus robot

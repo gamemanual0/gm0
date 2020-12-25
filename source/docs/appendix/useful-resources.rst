@@ -67,15 +67,15 @@ For further reading, we highly suggest you check out those links.**
   * `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
   * 4137 Islandbots Library of goBILDA parts in Fusion360 format:
 
-    * `axles, hubs, wheels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9688994ea9aacfd8be4>`_
-    * `beams <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9682676eb9a313d7bc3>`_
-    * `channels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96826b9e501683ff783>`_
-    * `gears, sprockets, pulleys <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b60d668ba4d1ca75>`_
-    * `goRAIL: v-guide, lead screw <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968884b4294ac6c801c>`_
-    * `motors, servos, accessories <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96828a1241166318535>`_
-    * `mounts, spacers, adapters <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96856c1eb9ba296a12c>`_
-    * `plates, brackets <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9684fca616ff1b1a077>`_
-    * `screws, threaded plates, standoffs <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968505a45dab1a9eada>`_
+   * `axles, hubs, wheels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9688994ea9aacfd8be4>`_
+   * `beams <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9682676eb9a313d7bc3>`_
+   * `channels <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96826b9e501683ff783>`_
+   * `gears, sprockets, pulleys <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b60d668ba4d1ca75>`_
+   * `goRAIL: v-guide, lead screw <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968884b4294ac6c801c>`_
+   * `motors, servos, accessories <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96828a1241166318535>`_
+   * `mounts, spacers, adapters <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd96856c1eb9ba296a12c>`_
+   * `plates, brackets <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd9684fca616ff1b1a077>`_
+   * `screws, threaded plates, standoffs <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968505a45dab1a9eada>`_
 * Building Resources - Calculators
 
   * `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
@@ -114,11 +114,11 @@ For further reading, we highly suggest you check out those links.**
 
   * `FTC Discord* <https://discord.com/invite/first-tech-challenge>`_
 
-    The FIRST Tech Challenge Discord server is a discussion-based
-    community server that has teams ranging from first-year rookies to
-    Winning Alliance Captains at the World Championships. It also has
-    a channel for direct access to vendors.
+   The FIRST Tech Challenge Discord server is a discussion-based
+   community server that has teams ranging from first-year rookies to
+   Winning Alliance Captains at the World Championships. It also has
+   a channel for direct access to vendors.
   * `FIRST Updates Now Discord <https://discord.com/invite/firstupdatesnow>`_
 
-    FIRST Updates Now provides FTC/FRC related content including
-    recaps, shows, analysis, reveals, and top 25.
+   FIRST Updates Now provides FTC/FRC related content including
+   recaps, shows, analysis, reveals, and top 25.

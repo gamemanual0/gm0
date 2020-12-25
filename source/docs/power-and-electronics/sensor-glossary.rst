@@ -12,41 +12,41 @@ Encoders/Potentiometers
 =======================
 
 * Rotational
-    * Absolute (+ Potentiometers)
-        * MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-cable>`_)
-        * Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)
-    * Relative
-        * E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
-        * Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
-    * Both
-        * CTRE (VEXpro) Mag Encoder (`217-5049 <https://www.vexrobotics.com/217-5049.html>`_)
-        * REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_)
+   * Absolute (+ Potentiometers)
+      * MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-cable>`_)
+      * Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)
+   * Relative
+      * E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
+      * Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
+   * Both
+      * CTRE (VEXpro) Mag Encoder (`217-5049 <https://www.vexrobotics.com/217-5049.html>`_)
+      * REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_)
 * Positional
-    * Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)
+   * Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)
 
 Contact
 =======
 
 * Physical
-    * Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
-    * Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)
+   * Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
+   * Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)
 * Magnetic
-    * Hall Effect Sensor REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)
+   * Hall Effect Sensor REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)
 
 Optical
 =======
 
 * Color
-    * Adafruit RGB
-    * REV Color
-    * MR Color
+   * Adafruit RGB
+   * REV Color
+   * MR Color
 * Computer Vision
-    * Hardware
-        * PixyCMU
-    * Software
-        * OpenCV (EasyOpenCV)
-        * Vuforia
-        * TFLite
+   * Hardware
+      * PixyCMU
+   * Software
+      * OpenCV (EasyOpenCV)
+      * Vuforia
+      * TFLite
 
 Distance
 ========
@@ -58,10 +58,10 @@ Other
 =====
 
 * IMU
-    * Accelerometer
-    * Gyroscope
-    * Compass
-    * Magnetometer
+   * Accelerometer
+   * Gyroscope
+   * Compass
+   * Magnetometer
 
 Logic Level Converter
 =====================

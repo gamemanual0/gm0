@@ -30,7 +30,7 @@ Disadvantages
   conditions**.
 
 .. figure:: images/rack-and-pinion/tetrix-rack-and-pinion.png
-    :alt: A marketing image for the tetrix rack and pinion
+   :alt: A marketing image for the tetrix rack and pinion
 
-    The Tetrix rack and pinion has a tendency to fail under medium to high
-    load.
+   The Tetrix rack and pinion has a tendency to fail under medium to high
+   load.

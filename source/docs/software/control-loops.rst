@@ -36,7 +36,7 @@ The following equation represents the rigorous mathematical definition of the
 output of a PID controller :math:`f` at any given time :math:`t`:
 
 .. math::
-    f(t) = K_p e(t) + K_i  \int_o^t e(t) \mathrm{d}t + K_d \frac{\mathrm{d}e(t)}{\mathrm{d}t}
+   f(t) = K_p e(t) + K_i  \int_o^t e(t) \mathrm{d}t + K_d \frac{\mathrm{d}e(t)}{\mathrm{d}t}
 
 where :math:`K_p`, :math:`K_i`, and :math:`K_d` are constants and :math:`e(t)`,
 as previously mentioned, is the error in the system.
@@ -151,25 +151,25 @@ PID Pseudocode
 --------------
 .. code-block:: python
 
-    while True:
-        current_time = get_current_time()
-        current_error = desire_position-current_position
+   while True:
+      current_time = get_current_time()
+      current_error = desire_position-current_position
 
-        p = k_p * current_error
+      p = k_p * current_error
 
-        i += k_i * (current_error * (current_time - previous_time))
+      i += k_i * (current_error * (current_time - previous_time))
 
-        if i > max_i:
-            i = max_i
-        elif i < -max_i:
-            i = -max_i
+      if i > max_i:
+          i = max_i
+      elif i < -max_i:
+          i = -max_i
 
-        D = k_d * (current_error - previous_error) / (current_time - previous_time)
+      D = k_d * (current_error - previous_error) / (current_time - previous_time)
 
-        output = p + i + d
+      output = p + i + d
 
-        previous_error = current_error
-        previous_time = current_time
+      previous_error = current_error
+      previous_time = current_time
 
 Tuning a PID Loop
 -----------------
@@ -192,7 +192,7 @@ The most common method for tuning a PID controller is as follows:
   2. Increase the P gain until there are oscillations around the target
   3. Increase the D gain until no overshoot occurs
   4. If there is steady state error, increase the I gain until it is
-     corrected
+    corrected
 
 An important thing to note is that most systems do not need both I and D
 control.
@@ -261,22 +261,22 @@ Feedforward Pseudocode
 ----------------------
 .. code-block:: python
 
-    while True:
-        current_time = get_current_time()
+   while True:
+      current_time = get_current_time()
 
-        current_velocity = (current_position - previous_position) / (current_time - previous_time)
-        current_velocity_error = desired_velocity - current_velocity
+      current_velocity = (current_position - previous_position) / (current_time - previous_time)
+      current_velocity_error = desired_velocity - current_velocity
 
-        current_acceleration = (current_velocity - previous_velocity) / (current_time - previous_time)
-        current_acceleration_error = desired_acceleration - current_acceleration
-        output = F + k_v * current_velocity_error + K_A * current_acceleration_error
+      current_acceleration = (current_velocity - previous_velocity) / (current_time - previous_time)
+      current_acceleration_error = desired_acceleration - current_acceleration
+      output = F + k_v * current_velocity_error + K_A * current_acceleration_error
 
-        previous_velocity = current_velocity
+      previous_velocity = current_velocity
 
-        # end of feedforward code
+      # end of feedforward code
 
-        previous_error = current_error
-        previous_time = current_time
+      previous_error = current_error
+      previous_time = current_time
 
 Motion Profiles
 ===============
@@ -321,38 +321,38 @@ Trapezoidal profiles get their name from the shape of the graph of velocity
 over time:
 
 .. figure:: images/control-loops/trapezoidal-motion-profiling-graph.png
-    :alt: The position over time, velocity over time, and acceleration over time graphs for a trapezoidal motion profile
+   :alt: The position over time, velocity over time, and acceleration over time graphs for a trapezoidal motion profile
 
-    These are the “magic functions” for velocity and acceleration over time
-    alluded to in the feedforward section.
+   These are the “magic functions” for velocity and acceleration over time
+   alluded to in the feedforward section.
 
 Here is some pseudocode for a trapezoidal profile:
 
 .. code-block:: python
 
-    while True:
-        current_velocity = get_current_velocity()
-        current_time = get_current_time()
+   while True:
+      current_velocity = get_current_velocity()
+      current_time = get_current_time()
 
-        direction_multiplier = 1
+      direction_multiplier = 1
 
-        if position_error < 0:
-            direction_multiplier = -1
+      if position_error < 0:
+          direction_multiplier = -1
 
-        # if maximum speed has not been reached
-        if MAXIMUM_SPEED > abs(current_velocity):
-            output_velocity = current_velocity + direction_multiplier * MAX_ACCELERATION * (current_time - previous_time)
-            output_acceleration = MAX_ACCELERATION
+      # if maximum speed has not been reached
+      if MAXIMUM_SPEED > abs(current_velocity):
+          output_velocity = current_velocity + direction_multiplier * MAX_ACCELERATION * (current_time - previous_time)
+          output_acceleration = MAX_ACCELERATION
 
-        #if maximum speed has been reached, stay there for now
-        else:
-            outputVelocity = MAXIMUM_SPEED
-            outputAcceleration = 0
+      #if maximum speed has been reached, stay there for now
+      else:
+          outputVelocity = MAXIMUM_SPEED
+          outputAcceleration = 0
 
-        #if we are close enough to the object to begin slowing down
-        if position_error <= (output_velocity * output_velocity) / (2 * MAX_ACCELERATION)):
-            output_velocity = current_velocity - direction_multiplier * MAX_ACCELERATION * (current_time - previous_time)
-            output_acceleration = -MAX_ACCELERATION
+      #if we are close enough to the object to begin slowing down
+      if position_error <= (output_velocity * output_velocity) / (2 * MAX_ACCELERATION)):
+          output_velocity = current_velocity - direction_multiplier * MAX_ACCELERATION * (current_time - previous_time)
+          output_acceleration = -MAX_ACCELERATION
 
 
-        previous_time = current_time
+      previous_time = current_time

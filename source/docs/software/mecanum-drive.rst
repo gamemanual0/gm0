@@ -17,7 +17,7 @@ driven, X or Y components of the force vectors can cancel which allows
 movement in any direction.
 
 .. image:: images/mecanum-drive/mecanum-worms-eye-view.png
-    :alt: Force diagram of a single mecanum wheel
+   :alt: Force diagram of a single mecanum wheel
 
 Using Vectoring to Create Omnidirectional Movement
 ==================================================
@@ -31,7 +31,7 @@ so a :term:`mecanum drivetrain <Mecanum Wheel>` will be able to drive slightly
 faster forwards/backwards than any other directions.
 
 .. image:: images/mecanum-drive/mecanum-drive-force-diagram.png
-    :alt: Force diagram of a complete mecanum drive
+   :alt: Force diagram of a complete mecanum drive
 
 In that image, 1, 2, 3, and 4 are the force vectors created by the
 :term:`mecanum wheels <Mecanum Wheel>` when driven towards the top of the
@@ -43,8 +43,8 @@ there is a much better mathematical way to program mecanum that allows for true
 omnidirectional movement and is much cleaner):
 
 .. image:: images/mecanum-drive/mecanum-drive-directions.png
-    :alt: Examples of ways to move the wheels on mecanum drive to move the robot in different directions
-    :width: 45em
+   :alt: Examples of ways to move the wheels on mecanum drive to move the robot in different directions
+   :width: 45em
 
 Deriving Mecanum Control Equations
 ==================================
@@ -57,21 +57,21 @@ To control only forward/backward movement,
 you simply need to set the motor powers to the Y stick value
 (flip the sign since Y is reversed)::
 
-    double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
 
-    leftMotor.setPower(y);
-    rightMotor.setPower(y);
+   leftMotor.setPower(y);
+   rightMotor.setPower(y);
 
 Although at first adding rotation might seem like a difficult task,
 it’s actually super simple.
 All you need to do is subtract the x value from the right side, and add it to
 the left::
 
-    double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-    double x = gamepad1.right_stick_x;
+   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+   double x = gamepad1.right_stick_x;
 
-    leftMotor.setPower(y + x);
-    rightMotor.setPower(y - x);
+   leftMotor.setPower(y + x);
+   rightMotor.setPower(y - x);
 
 Here, if the Y stick is pressed upwards,
 both of the motors will be fed a positive value, causing the robot to move
@@ -103,14 +103,14 @@ while the back left and front right need to rotate backwards.
 So, we should add the x value to the front left and back right and subtract it
 from the back right and front left::
 
-    double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-    double x = gamepad1.left_stick_x;
-    double rx = gamepad1.right_stick_x;
+   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+   double x = gamepad1.left_stick_x;
+   double rx = gamepad1.right_stick_x;
 
-    frontLeftMotor.setPower(y + x + rx);
-    backLeftMotor.setPower(y - x + rx);
-    frontRightMotor.setPower(y - x - rx);
-    backRightMotor.setPower(y + x - rx);
+   frontLeftMotor.setPower(y + x + rx);
+   backLeftMotor.setPower(y - x + rx);
+   frontRightMotor.setPower(y - x - rx);
+   backRightMotor.setPower(y + x - rx);
 
 This is the same as the tank example,
 except now with 4 motors and the strafing component added.
@@ -135,9 +135,9 @@ In this tutorial, we will use 1.5, but it’s really up to driver preference.
 
 ::
 
-    double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-    double x = gamepad1.left_stick_x * 1.5; // Counteract imperfect strafing
-    double rx = gamepad1.right_stick_x;
+   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+   double x = gamepad1.left_stick_x * 1.5; // Counteract imperfect strafing
+   double rx = gamepad1.right_stick_x;
 
 The other improvement we can make is scale the values into the range of
 -1 to 1.
@@ -150,21 +150,21 @@ which is not the same ratio.
 Instead, we need to divide all of them by the largest number (absolute value):
 ::
 
-    // Put powers in the range of -1 to 1 only if they aren't already (not
-    // checking would cause us to always drive at full speed)
+   // Put powers in the range of -1 to 1 only if they aren't already (not
+   // checking would cause us to always drive at full speed)
 
-    if (Math.abs(frontLeftPower) > 1 || Math.abs(backLeftPower) > 1 ||
-        Math.abs(frontRightPower) > 1 || Math.abs(backRightPower) > 1 ) {
-        // Find the largest power
-        double max = 0;
-        max = Math.max(Math.abs(frontLeftPower), Math.abs(backLeftPower));
-        max = Math.max(Math.abs(frontRightPower), max);
-        max = Math.max(Math.abs(backRightPower), max);
+   if (Math.abs(frontLeftPower) > 1 || Math.abs(backLeftPower) > 1 ||
+      Math.abs(frontRightPower) > 1 || Math.abs(backRightPower) > 1 ) {
+      // Find the largest power
+      double max = 0;
+      max = Math.max(Math.abs(frontLeftPower), Math.abs(backLeftPower));
+      max = Math.max(Math.abs(frontRightPower), max);
+      max = Math.max(Math.abs(backRightPower), max);
 
-        // Divide everything by max (it's positive so we don't need to worry
-        // about signs)
-        frontLeftPower /= max;
-        backLeftPower /= max;
-        frontRightPower /= max;
-        backRightPower /= max;
-    }
+      // Divide everything by max (it's positive so we don't need to worry
+      // about signs)
+      frontLeftPower /= max;
+      backLeftPower /= max;
+      frontRightPower /= max;
+      backRightPower /= max;
+   }

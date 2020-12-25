@@ -3,42 +3,42 @@ Rookie Mistakes: Building
 =========================
 
 +--------------------------------+----------------------------------------+
-|          **Problem**           |                Solution                |
+|        **Problem**         |                Solution                |
 +================================+========================================+
-| **2 motor drivetrain**         | **4 motor drivetrain**                 |
-|                                |                                        |
-| * Less power                   | * Ability to traverse obstacles        |
-| * Less acceleration            | * Improved power and acceleration      |
+| **2 motor drivetrain**       | **4 motor drivetrain**               |
+|                            |                                        |
+| * Less power               | * Ability to traverse obstacles        |
+| * Less acceleration          | * Improved power and acceleration      |
 +--------------------------------+----------------------------------------+
-| **Pushbot**                    | **Mecanum, 6WD, etc.**                 |
-|                                |                                        |
-| * Poor agility/manuverability  | * More agile, higher top speed         |
-| * Poor top speed               | * Customizable gear ratio              |
+| **Pushbot**                | **Mecanum, 6WD, etc.**                 |
+|                            |                                        |
+| * Poor agility/manuverability  | * More agile, higher top speed       |
+| * Poor top speed           | * Customizable gear ratio              |
 +--------------------------------+----------------------------------------+
-| **Claw**                       | **Intake**                             |
-|                                |                                        |
+| **Claw**                   | **Intake**                             |
+|                            |                                        |
 | * Controls 1 element at a time | * Controls multiple elements at a time |
-| * Easy to break                | * Much more efficient                  |
+| * Easy to break            | * Much more efficient                  |
 +--------------------------------+----------------------------------------+
-| **Spur gear gearboxes**        | **Planetary gearboxes**                |
-|                                |                                        |
+| **Spur gear gearboxes**      | **Planetary gearboxes**              |
+|                            |                                        |
 | * Not for high load use cases  | * Better for drivetrains and high load |
-| * Will break under shock load  | * Resistant to shock loads             |
+| * Will break under shock load  | * Resistant to shock loads         |
 +--------------------------------+----------------------------------------+
-| **Single/multi-axis arm**      | **Linear extension**                   |
-|                                |                                        |
-| * Often needs high gear ratio  | * Generally faster than arms           |
-| * More complex than linear     | * Much more precise                    |
-|   extension                    |                                        |
+| **Single/multi-axis arm**     | **Linear extension**                |
+|                            |                                        |
+| * Often needs high gear ratio  | * Generally faster than arms         |
+| * More complex than linear    | * Much more precise                 |
+|   extension                |                                        |
 +--------------------------------+----------------------------------------+
 
 
 2 Motor Drivetrain to 4 Motor Drivetrain
 ================================================
 .. important:: In general, it is not recommended for teams to use 2 motors on
-    the drivetrain, but instead use 4.
-    This is mainly due to the added power and increased acceleration 4 motors
-    provide.
+   the drivetrain, but instead use 4.
+   This is mainly due to the added power and increased acceleration 4 motors
+   provide.
 
 Typically, top speed is determined by the gear ratio and the motor
 specifications, not the number of motors.
@@ -64,8 +64,8 @@ for the drivetrain, so this is a pretty safe rule to follow.
 Pushbot to Mecanum, 6WD, Other Recommended Drivetrains
 ======================================================
 .. important:: The pushbot drivetrain,
-    commonly built by first-year teams using the FIRST-provided guides,
-    is not recommended as a competitive drivetrain.
+   commonly built by first-year teams using the FIRST-provided guides,
+   is not recommended as a competitive drivetrain.
 
 We do recommend teams who have purchased the Tetrix kit to build it for
 educational purposes only -
@@ -91,7 +91,7 @@ see which drivetrain would fit best for their overall game strategy.
 Passive Intake/Claw to Active Intake
 ====================================
 .. important:: Active intakes (ones with continuous rotational motion)
-    should always be prioritized over passive intakes and grippers.
+   should always be prioritized over passive intakes and grippers.
 
 Active intakes are much more efficient and effective in picking up common
 game elements such as balls, cubes, and rectangular prisms than claws.
@@ -120,14 +120,14 @@ great effect, so there is plenty of precedent to follow.
 Spur Gear Gearboxes to Planetary Gearboxes
 ==========================================
 .. note:: Spur gear gearboxes are fine for most applications for a rookie team.
-    We are not advocating necessarily having to upgrade to planetary motors,
-    but there are some advantages which may become useful in more advanced
-    use cases such as high-load systems.
+   We are not advocating necessarily having to upgrade to planetary motors,
+   but there are some advantages which may become useful in more advanced
+   use cases such as high-load systems.
 
 .. important:: Spur gear gearboxes have inherent disadvantages to planetary
-    gearboxes.
-    Spur gear gearboxes should not be used in high-load situations,
-    primarily because the gears can strip and destroy the gearbox.
+   gearboxes.
+   Spur gear gearboxes should not be used in high-load situations,
+   primarily because the gears can strip and destroy the gearbox.
 
 An example would be a drivetrain that has to change directions repeatedly and
 quickly.
@@ -146,9 +146,9 @@ which will always be in a spur gear configuration.**
 Single/multi axis arm to Linear extension
 =========================================
 .. important:: Teams are generally advised to stay away from arms and move in
-    the direction of linear slides, primarily due to the issue of complexity.
-    This is because arms typically are less effective than linear extensions
-    and are harder to implement properly.
+   the direction of linear slides, primarily due to the issue of complexity.
+   This is because arms typically are less effective than linear extensions
+   and are harder to implement properly.
 
 Arms require a high gear ratio,
 which usually in turn will require an expensive gearbox (e.g.

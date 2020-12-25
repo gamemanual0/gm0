@@ -15,11 +15,11 @@ Examples will mostly be in Java, where ``//`` indicates a comment which the
 program ignores and is used for people to read.
 ::
 
-    int number; // Declaring that number will contain an integer.
-    number = 5; // Setting a value so that the variable holds something.
-    int secondNumber = 6; // Doing both above.
-    int total = number + secondNumber; // Math.
-    System.out.println(total); // Printing, it will show up as 11.
+   int number; // Declaring that number will contain an integer.
+   number = 5; // Setting a value so that the variable holds something.
+   int secondNumber = 6; // Doing both above.
+   int total = number + secondNumber; // Math.
+   System.out.println(total); // Printing, it will show up as 11.
 
 Java-Specific Exploratory Questions
 -----------------------------------
@@ -44,13 +44,13 @@ There are different types of variables
 
 ::
 
-    String coolName = "Gluten Free";
-    String restOfSentence = " is epic.";
+   String coolName = "Gluten Free";
+   String restOfSentence = " is epic.";
 
-    // Prints out the sentence by combining the strings, unlike adding if they // were integers
-    System.out.println(coolName + restOfSentence);
+   // Prints out the sentence by combining the strings, unlike adding if they // were integers
+   System.out.println(coolName + restOfSentence);
 
-    // Fun fact: Using + to add strings is called String Concatenation
+   // Fun fact: Using + to add strings is called String Concatenation
 
 Java-Specific Exploratory Questions
 -----------------------------------
@@ -81,19 +81,19 @@ and we would recommend that you read into them.
 We will only go over a few here.
 
 `Arrays <https://www.geeksforgeeks.org/arrays-in-java/>`_
-    Arrays are the most basic and simple data structure.
-    When an array is initialized, its size must be set,
-    and it cannot be changed.
+   Arrays are the most basic and simple data structure.
+   When an array is initialized, its size must be set,
+   and it cannot be changed.
 
-    If you wish to expand an array,
-    a new one must be created and all of the old data copied over.
-    Elements of an array are stored adjacent to each other in memory,
-    so when they are accessed the number you want to access times the amount of
-    bits in the object in the array is added to the starting address,
-    and data is accessed from there.
+   If you wish to expand an array,
+   a new one must be created and all of the old data copied over.
+   Elements of an array are stored adjacent to each other in memory,
+   so when they are accessed the number you want to access times the amount of
+   bits in the object in the array is added to the starting address,
+   and data is accessed from there.
 
-    This means that arrays are incredibly efficient at reading data in a
-    nonlinear order.
+   This means that arrays are incredibly efficient at reading data in a
+   nonlinear order.
 
 `ArrayList <https://www.geeksforgeeks.org/arraylist-in-java/>`_
 

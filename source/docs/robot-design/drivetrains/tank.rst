@@ -52,9 +52,9 @@ Disadvantages
   which is highly discouraged for drivetrains
 
 .. figure:: images/tank/tetrix-pushbot.jpg
-    :alt: Tetrix pushbot
+   :alt: Tetrix pushbot
 
-    Example pushbot drivetrain included in the starter FTC guide
+   Example pushbot drivetrain included in the starter FTC guide
 
 4 Wheel Drive
 =============
@@ -80,8 +80,8 @@ It is suggested that a four wheel drivetrain be close to, or exactly, a square.
 Otherwise, one may encounter problems turning.
 
 .. note::
-    :term:`Weight distribution` is furthermore a large factor that should
-    be considered: the more weight in the back, the better.
+   :term:`Weight distribution` is furthermore a large factor that should
+   be considered: the more weight in the back, the better.
 
 Off-center turning, which may or may not be a drawback,
 is nearly ubiquitous among 4 wheel drives.
@@ -106,22 +106,22 @@ Disadvantages
   robot
 
 .. figure:: images/tank/3736-modified-4wd.png
-    :alt: 3736 Serious Business' modified 4WD
+   :alt: 3736 Serious Business' modified 4WD
 
-    3736 Serious Business, Rover Ruckus; modified 4WD
+   3736 Serious Business, Rover Ruckus; modified 4WD
 
 .. figure:: images/tank/7209-4wd.jpg
-    :alt: 7209 Tech Hog's Relic Recovery Robot
+   :alt: 7209 Tech Hog's Relic Recovery Robot
 
-    7209 Tech Hogs, Relic Recovery
+   7209 Tech Hogs, Relic Recovery
 
 .. image:: images/tank/10641-4wd-table.png
-    :alt: 10641 Atomic Gear's 4WD on a table
+   :alt: 10641 Atomic Gear's 4WD on a table
 
 .. figure:: images/tank/10641-4wd-void.png
-    :alt: 10641 Atomic Gear's 4WD in a void
+   :alt: 10641 Atomic Gear's 4WD in a void
 
-    10641 Atomic Gears, Rover Ruckus
+   10641 Atomic Gears, Rover Ruckus
 
 6 Wheel Drive (6WD)
 ===================
@@ -198,25 +198,25 @@ Disadvantages
 * Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
 
 .. figure:: images/tank/tilerunner-6wd.jpg
-    :alt: AndyMark's TileRunner 6wd
+   :alt: AndyMark's TileRunner 6wd
 
-    COTS Andymark Tilerunner Drivetrain with 0.05” center drop.
-    **Not recommended due to price**.
+   COTS Andymark Tilerunner Drivetrain with 0.05” center drop.
+   **Not recommended due to price**.
 
 .. figure:: images/tank/7236-6wd.png
-    :alt: 7236 Recharged Green's 6wd
+   :alt: 7236 Recharged Green's 6wd
 
-    7236 Recharged Green, Rover Ruckus; drop center 6WD
+   7236 Recharged Green, Rover Ruckus; drop center 6WD
 
 .. figure:: images/tank/5795-6wd.png
-    :alt: 5795 Cybots's 6wd
+   :alt: 5795 Cybots's 6wd
 
-    5975 Cybots, Velocity Vortex, drop center and corner omni 6WD
+   5975 Cybots, Velocity Vortex, drop center and corner omni 6WD
 
 .. figure:: images/tank/ethan-6wd.jpg
-    :alt: Ethan Doak's 6wd
+   :alt: Ethan Doak's 6wd
 
-    Ethan Doak, goBILDA 6 wheel drive with corner omni wheels
+   Ethan Doak, goBILDA 6 wheel drive with corner omni wheels
 
 8 Wheel Drive
 =============
@@ -258,17 +258,17 @@ Disadvantages
 * Without adequate center drop, turning can be drastically reduced
 
 .. figure:: images/tank/3846-8wd.jpg
-    :alt: 3846 Maelstrom's 8WD
+   :alt: 3846 Maelstrom's 8WD
 
-    3846 Maelstrom, Rover Ruckus
+   3846 Maelstrom, Rover Ruckus
 
 .. image:: images/tank/13075-8wd-render.png
-    :alt: A render of 13075 Coram Deo Academy Robotics' 8WD
+   :alt: A render of 13075 Coram Deo Academy Robotics' 8WD
 
 .. figure:: images/tank/13075-8wd.png
-    :alt: 13075 Coram Deo Academy Robotics' 8WD
+   :alt: 13075 Coram Deo Academy Robotics' 8WD
 
-    13075 Coram Deo Academy Robotics, Rover Ruckus
+   13075 Coram Deo Academy Robotics, Rover Ruckus
 
 Tread Drive
 ===========
@@ -305,6 +305,6 @@ Disadvantages
 * Treads are prone to breakage and can fall off easily
 
 .. figure:: images/tank/5975-tread.png
-    :alt: 5975 Cybots' Tread Drive Render
+   :alt: 5975 Cybots' Tread Drive Render
 
-    5975 Cybots, Res-Q
+   5975 Cybots, Res-Q

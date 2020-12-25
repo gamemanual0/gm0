@@ -159,16 +159,16 @@ However, if your team is looking for a high-load or special use case,
 by all means explore this option.
 
 .. figure:: images/drawer-slides/7236-sar3.png
-    :alt: 7236's Rover Ruckus robot with its slides extended
+   :alt: 7236's Rover Ruckus robot with its slides extended
 
-    7236 Recharged Green, Rover Ruckus, Misumi SAR3
+   7236 Recharged Green, Rover Ruckus, Misumi SAR3
 
 .. figure:: images/drawer-slides/6929-sar3.png
-    :alt: 6929's Rover Ruckus robot with its slides extended
+   :alt: 6929's Rover Ruckus robot with its slides extended
 
-    6929 Data Force, Rover Ruckus, Misumi SAR3
+   6929 Data Force, Rover Ruckus, Misumi SAR3
 
 .. figure:: images/drawer-slides/5143-Sar-2.png
-    :alt: 5143's Skystone robot with its lift fully extended
+   :alt: 5143's Skystone robot with its lift fully extended
 
-    5143 Xcentrics, Skystone, Misumi SAR2
+   5143 Xcentrics, Skystone, Misumi SAR2

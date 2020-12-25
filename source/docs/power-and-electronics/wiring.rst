@@ -78,29 +78,29 @@ General Advice
   important in arms or mechanisms that are hinged.
 
 .. figure:: images/wiring/bad-wiring.png
-    :alt: An example of poor wiring
+   :alt: An example of poor wiring
 
-    Bad example of wiring!
+   Bad example of wiring!
 
 .. image:: images/wiring/731-wiring-1.png
-    :alt: An example of good wiring by 731
+   :alt: An example of good wiring by 731
 
 .. figure:: images/wiring/731-wiring-2.png
-    :alt: An example of good wiring by 731
+   :alt: An example of good wiring by 731
 
-    Good example of wiring by 731 Wannabee Strange, Rover Ruckus
+   Good example of wiring by 731 Wannabee Strange, Rover Ruckus
 
 
 .. figure:: images/wiring/8417-wiring.png
-    :alt: An example of good wiring by 8417
+   :alt: An example of good wiring by 8417
 
-    Good example of wiring by 8417 ‘Lectric Legends
+   Good example of wiring by 8417 ‘Lectric Legends
 
 
 .. figure:: images/wiring/7244-wiring.png
-    :alt: An example of good wiring by 7244
+   :alt: An example of good wiring by 7244
 
-    Good example of wiring by 7244 Out of the Box Robotics
+   Good example of wiring by 7244 Out of the Box Robotics
 
 When wiring, also take the time to plan out a specific layout for your wires
 and how they will run throughout the robot.
@@ -110,8 +110,8 @@ This could mean mounting a PVC pipe and running wires from the back end of the
 robot through it, or simply using velcro or zipties.
 
 .. tip::
-    Make sure that wires are as short as possible to reduce the risk of
-    entanglement.
+   Make sure that wires are as short as possible to reduce the risk of
+   entanglement.
 
 However, as components move out of the robot, the wires move with it.
 Tying down every loose inch will result in wire disconnecting.
@@ -122,9 +122,9 @@ allowing enough freedom as mechanisms need.
 material such as wood to prevent ESD**.
 
 .. figure:: images/wiring/3736-electronics-on-plastic.png
-    :alt: An example of good wiring on a non-conductive surface by 3736
+   :alt: An example of good wiring on a non-conductive surface by 3736
 
-    3736 Serious Business
+   3736 Serious Business
 
 Specific Recommendations
 ------------------------
@@ -191,35 +191,35 @@ a Y cable that gives two sensors off of one port.
 Miscellaneous
 =============
 REV Grounding Strap
-    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only
-    legal way to ground your robot.
-    Attach the end to the metal part of your robot frame, and plug the
-    :term:`XT30` connector end into a free :term:`XT30` port on your robot.
+   The :term:`REV Grounding Strap <Grounding Strap>` is currently the only
+   legal way to ground your robot.
+   Attach the end to the metal part of your robot frame, and plug the
+   :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels
-    The REV Power Distribution Block allows teams to have more than four
-    :term:`XT30` connectors (2 on each :term:`Expansion Hub`).
-    The block can be connected to the Servo Power Module to boost voltage for
-    servos or provide continuous rotation for the :term:`VEX 393 EDR`.
+   The REV Power Distribution Block allows teams to have more than four
+   :term:`XT30` connectors (2 on each :term:`Expansion Hub`).
+   The block can be connected to the Servo Power Module to boost voltage for
+   servos or provide continuous rotation for the :term:`VEX 393 EDR`.
 Dryer sheets
-    Dryer sheets can be used to wipe down the robot after every match in order
-    to reduce static buildup.
-    This is not directly recommended by FIRST or any vendor,
-    but our empirical evidence throughout the years suggests that it helps,
-    or at the very least, can’t hurt to do so.
-    However, dryer sheets may or may not be on the boundary of legality,
-    as grounding the robot to the ground is illegal.
+   Dryer sheets can be used to wipe down the robot after every match in order
+   to reduce static buildup.
+   This is not directly recommended by FIRST or any vendor,
+   but our empirical evidence throughout the years suggests that it helps,
+   or at the very least, can’t hurt to do so.
+   However, dryer sheets may or may not be on the boundary of legality,
+   as grounding the robot to the ground is illegal.
 Staticide/static spray
-    Staticide is a spray that helps to keep static off of the robot.
-    Please be sure to spray your robot before an event and not during the
-    event.
+   Staticide is a spray that helps to keep static off of the robot.
+   Please be sure to spray your robot before an event and not during the
+   event.
 Common causes of static
-    * Every single contact point of your robot to the floor will increase the
-      amount of static buildup.
-    * Too much turning scrub (or traction when wheels try to turn).
-      This is possible if a 4WD or 6WD (no center drop) with all traction
-      wheels is used.
-    * A conductive part dragging along the ground.
-      For example, try not to have an intake touch the ground when the robot is
-      moving as much as possible.
-      Foam wheels and foam rollers are a common culprit.
+   * Every single contact point of your robot to the floor will increase the
+     amount of static buildup.
+   * Too much turning scrub (or traction when wheels try to turn).
+     This is possible if a 4WD or 6WD (no center drop) with all traction
+     wheels is used.
+   * A conductive part dragging along the ground.
+     For example, try not to have an intake touch the ground when the robot is
+     moving as much as possible.
+     Foam wheels and foam rollers are a common culprit.
 

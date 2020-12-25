@@ -35,10 +35,10 @@ the entire gearbox will stop functioning.
   Instead, use planetary gearboxes.
 
 .. figure:: images/motor-hardware/spur-gearbox.jpg
-    :alt: An example spur gearbox
+   :alt: An example spur gearbox
 
-    Example of a spur gearbox.
-    Note how all gears mesh with only one other gear.
+   Example of a spur gearbox.
+   Note how all gears mesh with only one other gear.
 
 Advantages of Spur Gearboxes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,10 +70,10 @@ As you can see from the graphic below, there are more teeth meshing per stage
 than in the spur gearbox.
 
 .. figure:: images/motor-hardware/planetary-gearbox.png
-    :alt: A planetary gearbox diagram
+   :alt: A planetary gearbox diagram
 
-    Example of a planetary gearbox stage.
-    Note how the sun gear meshes with more than one gear.
+   Example of a planetary gearbox stage.
+   Note how the sun gear meshes with more than one gear.
 
 Advantages of Planetary Gearboxes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,5 +97,5 @@ Advantages of Planetary Gearboxes
   which spreads the load.
 
   .. tip::
-     This means planetary gearboxes will not break as easily when used in
-     high-load applications such as drivetrains.
+    This means planetary gearboxes will not break as easily when used in
+    high-load applications such as drivetrains.

@@ -22,7 +22,7 @@ In discussing custom options for teams, the two primary categories are as
 follows:
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 1
 
-    3d-printing
-    machining
+   3d-printing
+   machining

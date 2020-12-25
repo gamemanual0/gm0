@@ -3,11 +3,11 @@ Odometry
 ========
 
 .. warning::
-    This is a very niche aspect of design in FTC.
-    Generally it is something done by more experienced
-    teams who have had time to repeatedly test their
-    designs and mechanisms with software during
-    the off-season.
+   This is a very niche aspect of design in FTC.
+   Generally it is something done by more experienced
+   teams who have had time to repeatedly test their
+   designs and mechanisms with software during
+   the off-season.
 
 Odometry is a form of localization that uses data
 from sensors like encoders. Localization is a
@@ -104,6 +104,6 @@ Spring tensioning is important for making sure there
 isn't a lot of slipping or skidding of the pods/odometers.
 
 .. figure:: images/odometry/spring-tensioned-pod.png
-    :width: 33em
+   :width: 33em
 
-    Image of FTC 18275 (SubZero)'s spring tensioning
+   Image of FTC 18275 (SubZero)'s spring tensioning

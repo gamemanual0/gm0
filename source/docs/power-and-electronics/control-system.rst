@@ -30,11 +30,11 @@ RC Phone + REV Expansion Hub(s)
 ===============================
 
 .. warning::
-    It is of vital importance to update the
-    firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least
-    version 1.8.2.
-    It includes better protection against disconnects and improves program
-    performance. See the `REV Expansion Hub firmware update docs`_.
+   It is of vital importance to update the
+   firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least
+   version 1.8.2.
+   It includes better protection against disconnects and improves program
+   performance. See the `REV Expansion Hub firmware update docs`_.
 
 This is the standard control system for teams starting out in FTC.
 The :term:`REV Expansion Hub <Expansion Hub>` is reliable, as long as proper
@@ -55,24 +55,24 @@ Expansion Hub Guide
 * `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
 
 .. image:: images/control-system/exh-wiring-diagram.jpg
-    :alt: A diagram of the RC Phone + Expansion Hub(s) control system
-    :width: 100%
+   :alt: A diagram of the RC Phone + Expansion Hub(s) control system
+   :width: 100%
 
 REV Control Hub + REV Expansion Hub
 ===================================
 .. warning::
-    It is of vital importance to update the
-    firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least
-    version 1.8.2.
-    It includes better protection against disconnects and improves program
-    performance. See the `REV Expansion Hub firmware update docs`_.
+   It is of vital importance to update the
+   firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least
+   version 1.8.2.
+   It includes better protection against disconnects and improves program
+   performance. See the `REV Expansion Hub firmware update docs`_.
 
 Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season
 onwards. In 2019-2020, the Control Hub was not legal for all teams as it was
 undergoing a pilot program.
 
 .. image:: images/control-system/ch-wiring-diagram.png
-    :alt: A diagram of the Control Hub + Expansion Hub control system
-    :width: 100%
+   :alt: A diagram of the Control Hub + Expansion Hub control system
+   :width: 100%
 
 .. _REV Expansion Hub firmware update docs: https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-firmware

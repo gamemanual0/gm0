@@ -66,10 +66,10 @@ Disadvantages
 * Wheels must be powered independently, so there is no redundancy
 
 .. figure:: images/holonomic/gobilda-mecanum-direction.png
-    :alt: Diagram of mecanum directions
-    :width: 100%
+   :alt: Diagram of mecanum directions
+   :width: 100%
 
-    Configuration for mecanum wheels, courtesy goBILDA
+   Configuration for mecanum wheels, courtesy goBILDA
 
 Mecanum Wheels Miniguide
 ------------------------
@@ -192,19 +192,19 @@ Just buy goBILDA mecanum wheels for $13 more.
 .. _REV 75mm Mecanum Wheels: https://www.revrobotics.com/rev-45-1655/
 
 .. figure:: images/holonomic/8103-mecanum.png
-    :alt: 8103 Null Robotics's mecanum drivetrain render
+   :alt: 8103 Null Robotics's mecanum drivetrain render
 
-    8103 Null Robotics, Rover Ruckus, **using Nexus bearing mecanum**
+   8103 Null Robotics, Rover Ruckus, **using Nexus bearing mecanum**
 
 .. figure:: images/holonomic/9829-mecanum.png
-    :alt: 9829 MakBots's mecanum drivetrain
+   :alt: 9829 MakBots's mecanum drivetrain
 
-    9829 MakBots, Relic Recovery, using **VexPro mecanum**
+   9829 MakBots, Relic Recovery, using **VexPro mecanum**
 
 .. figure:: images/holonomic/731-mecanum.png
-    :alt: 731 Wannabee Strange's mecanum drivetrain render
+   :alt: 731 Wannabee Strange's mecanum drivetrain render
 
-    731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**
+   731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**
 
 X-Drive
 =======
@@ -257,14 +257,14 @@ Disadvantages
 * Often uses direct drive due to awkward form factor
 
 .. figure:: images/holonomic/731-xdrive.png
-    :alt: 731 Wannabee Strange's X-Drive
+   :alt: 731 Wannabee Strange's X-Drive
 
-    731 Wannabee Strange, Velocity Vortex
+   731 Wannabee Strange, Velocity Vortex
 
 .. figure:: images/holonomic/5040-xdrive.png
-    :alt: 5040 Nuts and Bolts's X-Drive
+   :alt: 5040 Nuts and Bolts's X-Drive
 
-    5040 Nuts and Bolts, Relic Recovery
+   5040 Nuts and Bolts, Relic Recovery
 
 H-Drive
 =======
@@ -312,6 +312,6 @@ Disadvantages
 * Complex suspension occasionally needed, depending on design
 
 .. figure:: images/holonomic/9804-hdrive.jpg
-    :alt: 9804 Bomb Squad's H-Drive
+   :alt: 9804 Bomb Squad's H-Drive
 
-    9804 Bomb Squad, Relic Recovery
+   9804 Bomb Squad, Relic Recovery

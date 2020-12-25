@@ -3,31 +3,31 @@ Rookie Mistakes: Competition
 ============================
 
 +---------------------------------+-------------------------------------+
-|           **Problem**           |            **Solution**             |
+|         **Problem**         |            **Solution**             |
 +=================================+=====================================+
-| **Neglect drive practice**      | **Constant driver training**        |
-|                                 |                                     |
+| **Neglect drive practice**     | **Constant driver training**       |
+|                             |                                     |
 | * Drivers unfamiliar with robot | * Drivers comfortable with controls |
-| * Robot reliability untested    | * Proven and tested robot           |
+| * Robot reliability untested   | * Proven and tested robot          |
 +---------------------------------+-------------------------------------+
-| **No game strategy**            | **Strategical driving**             |
-|                                 |                                     |
-| * Lack of contingency plans     | * Only purposeful actions taken     |
-| * Weakens alliance strength     | * Efficient and effective driving   |
+| **No game strategy**          | **Strategical driving**           |
+|                             |                                     |
+| * Lack of contingency plans    | * Only purposeful actions taken     |
+| * Weakens alliance strength    | * Efficient and effective driving   |
 +---------------------------------+-------------------------------------+
-| **Fully driver-controlled**     | **Partially automated tasks**       |
-|                                 |                                     |
-| * Less efficient                | * Relieves stress on driver         |
-| * Requires more practice        | * Removes human error               |
+| **Fully driver-controlled**    | **Partially automated tasks**      |
+|                             |                                     |
+| * Less efficient            | * Relieves stress on driver         |
+| * Requires more practice      | * Removes human error             |
 +---------------------------------+-------------------------------------+
 
 
 Neglecting driver practice to Constant driver training
 ======================================================
 .. important:: A persistent problem with new teams is neglecting driver
-    practice.
-    Drive practice is to be done throughout the season,
-    **not the week before competition.**
+   practice.
+   Drive practice is to be done throughout the season,
+   **not the week before competition.**
 
 No matter how good your robot is, the robot is only 50% of the equation.
 The driver(s) are the other 50% which determine the success of the team as a
@@ -68,10 +68,10 @@ A sports example is handy - even with the most talented players,
 a team won’t go far without good game strategy.
 
 .. important::
-    A less capable team with better strategy execution can often pull off an
-    upset.
-    Planning a strategy ensures that every second in the 2:30 game time is used
-    to maximum efficiency, which yields maximum points.
+   A less capable team with better strategy execution can often pull off an
+   upset.
+   Planning a strategy ensures that every second in the 2:30 game time is used
+   to maximum efficiency, which yields maximum points.
 
 For example, drivers should know exactly where the robot needs to be positioned
 after the autonomous to tele-op switch.
@@ -102,8 +102,8 @@ as defense can easily incur penalties/cards if done improperly.
 Fully driver-controlled driving to Partially automated tasks
 ============================================================
 .. important:: Autonomous should not be limited to only the autonomous mode.
-    Automating simple tasks can be a real time-saver and efficiency boost to
-    teams.
+   Automating simple tasks can be a real time-saver and efficiency boost to
+   teams.
 
 1. Automating tasks can save time and reduce the need for driver multi-tasking.
    Drivers should always be controlling the robot with as few button presses
@@ -117,6 +117,6 @@ Fully driver-controlled driving to Partially automated tasks
    full speed, compared to a human driver's minor error.
 
 .. note:: Autonomous functions should be able to be overrided by manual input
-    in case something goes wrong
-    (e.g. encoder is unplugged, a part breaks, etc.)
-    to prevent damage to the robot and to be compliant with game rules.
+   in case something goes wrong
+   (e.g. encoder is unplugged, a part breaks, etc.)
+   to prevent damage to the robot and to be compliant with game rules.

@@ -42,18 +42,18 @@ Below are some tips on using servos in FTC.
   assembly, fulfills the same function.
 
   .. figure:: images/servoblock.jpg
-      :alt: servoblock
+     :alt: servoblock
 
-      A servo in a ServoBlock
+     A servo in a ServoBlock
 
 There are also some alternative designs of servo supports; one of them, which
 is not as strong as the original :term:`Servoblock <Servoblocks>` but much more
 compact, is shown below (`CAD <https://myhub.autodesk360.com/ue2801558/g/shares/SH56a43QTfd62c1cd968b8829158db7626b9>`_ is also available):
 
 .. figure:: images/compact_servo_block.png
-     :alt: compact servoblock
+    :alt: compact servoblock
 
-     Alternative :term:`servo <Servo>` support block
+    Alternative :term:`servo <Servo>` support block
 
 
 * Use linkages. Instead of mounting some rotating piece directly on a
@@ -62,10 +62,10 @@ compact, is shown below (`CAD <https://myhub.autodesk360.com/ue2801558/g/shares/
   shown below:
 
   .. figure:: images/linkage.jpg
-      :alt: linkage
+     :alt: linkage
 
-      Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam
-      is used as the link.
+     Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam
+     is used as the link.
 
 * If you need more power, use
   `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.

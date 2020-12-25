@@ -141,10 +141,10 @@ prevent the :term:`channel <Channel>` from bending inward or outward
 is also highly recommended.
 
 .. figure:: images/tetrix/6022-vv.jpg
-    :alt: 6022 To Be Determined's Velocity Vortex Robot
+   :alt: 6022 To Be Determined's Velocity Vortex Robot
 
-    6022 To Be Determined:
-    Worlds Semifinalist (St. Louis), Velocity Vortex
+   6022 To Be Determined:
+   Worlds Semifinalist (St. Louis), Velocity Vortex
 
-    TETRIX based robots have succeeded in competition, albeit it has become
-    rarer in recent years.
+   TETRIX based robots have succeeded in competition, albeit it has become
+   rarer in recent years.

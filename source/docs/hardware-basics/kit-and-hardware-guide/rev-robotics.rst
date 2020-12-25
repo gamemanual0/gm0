@@ -90,14 +90,14 @@ fasten parts to it.  Another easy option is to use :term:`REV 45x45mm
 channel <Channel>`.
 
 .. figure:: images/rev-robotics/rev-extrusion.png
-    :alt: A piece of rev extrusion
+   :alt: A piece of rev extrusion
 
-    REV 15x15mm Extrusion
+   REV 15x15mm Extrusion
 
 .. figure:: images/rev-robotics/misumi-extrusion.png
-    :alt: A technical drawing of MiSUMI Extrusion's profile
+   :alt: A technical drawing of MiSUMI Extrusion's profile
 
-    MiSUMI 15x15mm Extrusion Profile
+   MiSUMI 15x15mm Extrusion Profile
 
 Kit of Parts
 ============
@@ -164,22 +164,22 @@ Disadvantages
   :term:`shaft <Shaft>` is long.
 
 .. figure:: images/rev-robotics/7161-rr1.png
-    :alt: 7161 ViperBots Hydra's Relic Recovery robot
+   :alt: 7161 ViperBots Hydra's Relic Recovery robot
 
-    7161 ViperBots Hydra, Finalist Alliance 1st Pick (Houston), Relic Recovery
+   7161 ViperBots Hydra, Finalist Alliance 1st Pick (Houston), Relic Recovery
 
 .. figure:: images/rev-robotics/9889-rr2.png
-    :alt: 9889 Cruise Control's Relic Recovery robot
+   :alt: 9889 Cruise Control's Relic Recovery robot
 
-    9889 Cruise Control, Rover Ruckus
+   9889 Cruise Control, Rover Ruckus
 
 .. figure:: images/rev-robotics/6299-vv.png
-    :alt: 6299 ViperBots QuadX's Velocity Vortex robot
+   :alt: 6299 ViperBots QuadX's Velocity Vortex robot
 
-    6299 ViperBots QuadX, Velocity Vortex
+   6299 ViperBots QuadX, Velocity Vortex
 
 .. figure:: images/rev-robotics/11115-rr1.png
-    :alt: 11115 Gluten Free's Relic Recovery robot
+   :alt: 11115 Gluten Free's Relic Recovery robot
 
-    11115 Gluten Free used both REV and Actobotics for the 2017-2018 season.
-    Finalist Alliance Captain (Detroit), Relic Recovery
+   11115 Gluten Free used both REV and Actobotics for the 2017-2018 season.
+   Finalist Alliance Captain (Detroit), Relic Recovery

@@ -15,9 +15,9 @@ The file can be found on Thingiverse or through this
 `link <https://www.thingiverse.com/thing:2887045>`_.
 
 .. figure:: images/tips-and-tricks/xt30-to-powerpole-adapter.jpg
-    :alt: An example XT30 to Anderson Powerpole adapter
+   :alt: An example XT30 to Anderson Powerpole adapter
 
-    An example :term:`XT30` to :term:`Anderson PowerPole` adapter
+   An example :term:`XT30` to :term:`Anderson PowerPole` adapter
 
 The Tamiya connectors found on many of the FTC legal batteries are very weak
 and prone to becoming unreliable after many repeated plug/unplug cycles.
