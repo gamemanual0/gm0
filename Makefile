@@ -8,7 +8,7 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 LINTER = doc8
-LINTEROPTS = 
+LINTEROPTS = --ignore D001 #D001 is linelength
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
