@@ -13,8 +13,8 @@ Many successful teams didn’t CAD their robot at all. Other successful teams on
 So, what's the point of CAD, then? It is encouraged that new teams try their hand at CAD, especially if you have a mentor or parent who is experienced in such an area. CAD is beneficial for multiple reasons.
 
 #. CAD solves a lot of preventable headaches, such as spacing issues. Thus, it will save time when you discover problems in CAD that you can remediate before you build your robot.
-#. CAD is a professional tool that is used in many STEM fields.    Having CAD knowledge and skills will be beneficial in your future career,    should you study and work in those fields.
-#. If you desire to create 3D-printed or machined parts,    CAD will be necessary to do so.
+#. CAD is a professional tool that is used in many STEM fields. Having CAD knowledge and skills will be beneficial in your future career, should you study and work in those fields.
+#. If you desire to create 3D-printed or machined parts, CAD will be necessary to do so.
 
 **However, CAD is not the magic genie that will guarantee you success in FTC.** When used properly, it is a great tool to aid teams in building their robot. Keep in mind, though, that many teams have had success without CAD.
 
@@ -89,12 +89,13 @@ Getting Parts
 
 All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models of the parts they sell in STEP format, which can be imported by any of the CAD programs above. Some vendors also offer repositories or zip files containing :term:`STEP file` of all the models they sell.
 
-* Vendor CAD Libraries
+- Vendor CAD Libraries
 
-  * `Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_
-  * `REV Robotics <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_
-* `10650 Hazmat Robotics CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
-* `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
+  - `Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_
+  - `REV Robotics <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_
+
+- `10650 Hazmat Robotics CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
+- `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
 
 For more public repositories of FTC parts, check :doc:`../appendix/useful-resources` section in the Appendix.
 

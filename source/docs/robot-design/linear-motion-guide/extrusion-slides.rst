@@ -1,9 +1,11 @@
+.. include:: <isonum.txt>
+
 Extrusion Slides
 ================
 
 Extrusion slides are made up of a stack of extrusions that extend by sliding along each other. There are two ways to make this happen: bushings or V-wheels. Bushing slides connect the two slides with two self-lubricating plastic pieces that slide smoothly along the slots in the extrusion. V-wheel slides have V-shaped groove bearings on both sides of the extrusion that bite intro grooves on the extrusion, allowing the stages to slide smoothly.
 
-REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate nicely with existing FTC kit parts. Beyond this, MakerBeam sells components for a V-wheel extrusion slide, and Misumi offers a few different sizes of bushing-based extrusion slides. REV furthermore sells a 8020 v-groove bearing slide kit for FRC, that is not recommended for FTC use cases.
+REV, Actobotics, and goBILDA all sell extrusion slide kits that integrate nicely with existing FTC kit parts. Beyond this, MakerBeam sells components for a V-wheel extrusion slide, and Misumi offers a few different sizes of bushing-based extrusion slides. REV furthermore sells a 8020 v-groove bearing slide kit for FRC\ |reg|, that is not recommended for FTC use cases.
 
 .. note:: We recommend that newer teams stick to slide kits designed for FTC instead of DIY alternatives.
 
@@ -19,17 +21,17 @@ Overall, this kit is lightweight, simple, and cheap. It can be a good start for 
 Advantages
 ^^^^^^^^^^
 
-* REV has complete guide on how to rig the linear slides
-* Easily interfaces with REV building system
-* Lightweight, should be used for light/medium loads only
-* If tweaked, can be a very efficient linear slide
+- REV has complete guide on how to rig the linear slides
+- Easily interfaces with REV building system
+- Lightweight, should be used for light/medium loads only
+- If tweaked, can be a very efficient linear slide
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Does not perform perfectly out of the box
-* Can flex under load, needs additional support
-* May need some modifications such as custom sliders
+- Does not perform perfectly out of the box
+- Can flex under load, needs additional support
+- May need some modifications such as custom sliders
 
 .. image:: images/extrusion-slides/11115-slides.png
    :alt: 11115 Gluten Free's Rover Ruckus robot with slides extended
@@ -56,15 +58,15 @@ Teams will have to keep their designs on this kit particularly lightweight. This
 Advantages
 ^^^^^^^^^^
 
-* Easily interfaces with Actobotics building system
-* Elastic retraction is a simple way to retract
-* **Should be used for light/medium loads only**
+- Easily interfaces with Actobotics building system
+- Elastic retraction is a simple way to retract
+- **Should be used for light/medium loads only**
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Will flex under load, needs additional support
-* Elastic retraction slows down extension speed and retraction will be slower than string retraction
+- Will flex under load, needs additional support
+- Elastic retraction slows down extension speed and retraction will be slower than string retraction
 
 .. figure:: images/extrusion-slides/12599-slides.jpg
    :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended

@@ -6,8 +6,7 @@ Mecanum Physics
 
 A very common choice for drivetrain in FTC is :term:`mecanum drive <Mecanum Wheel>`, but we have noticed that not a lot of people know how they work or how to properly program them.  :term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45° angle to the rest of the wheel.
 
-
-Since these are in contact with the ground instead of something solid like in a :term:`traction wheel <Traction wheel>`, instead of the wheel creating a force parallel to the orientation of the wheel, it creates one 45° from parallel.  Depending on how the wheels are driven, X or Y components of the force vectors can cancel which allows movement in any direction.
+Since these are in contact with the ground instead of something solid like in a :term:`traction wheel <Traction wheel>`, instead of the wheel creating a force parallel to the orientation of the wheel, it creates one 45° from parallel. Depending on how the wheels are driven, X or Y components of the force vectors can cancel which allows movement in any direction.
 
 .. image:: images/mecanum-drive/mecanum-worms-eye-view.png
    :alt: Force diagram of a single mecanum wheel

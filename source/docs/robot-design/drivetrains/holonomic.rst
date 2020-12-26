@@ -17,6 +17,7 @@ This is the primary disadvantage to mecanum drivetrains: they tend not to have m
 Due to the fact that mecanum wheels are more likely to slip because of the diagonal rollers, an optional addition to mecanum drives is a separate odometry mechanism in order to track the robot’s location during autonomous.
 
 .. attention::
+
    It is important to note that in order to maximize the efficiency and stability of mecanum drives, when viewed from above, the rollers of each wheel should point towards the center of the robot, forming an X shape, rather than a rhombus.
 
    The primary reason for this is that it allows the drivetrain to turn significantly faster than it would otherwise be able to. When using the suggested setup, when viewed from the robot’s underside, the rollers form a rhombus. This allows the force applied by the wheels on the ground to act tangent to the turn radius, leading to faster turning.
@@ -24,16 +25,16 @@ Due to the fact that mecanum wheels are more likely to slip because of the diago
 Advantages
 ^^^^^^^^^^
 
-* Fantastic maneuverability and agility due to strafing, can avoid defense very well
-* Good acceleration, can have high top speed
-* Very versatile drivetrain for nearly any game
+- Fantastic maneuverability and agility due to strafing, can avoid defense very well
+- Good acceleration, can have high top speed
+- Very versatile drivetrain for nearly any game
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Suffers in traction, as mecanum rollers have a lower coefficient of friction than traction wheels; cannot traverse terrain
-* Able to be pushed around on defense
-* Wheels must be powered independently, so there is no redundancy
+- Suffers in traction, as mecanum rollers have a lower coefficient of friction than traction wheels; cannot traverse terrain
+- Able to be pushed around on defense
+- Wheels must be powered independently, so there is no redundancy
 
 .. figure:: images/holonomic/gobilda-mecanum-direction.png
    :alt: Diagram of mecanum directions
@@ -54,12 +55,11 @@ There are plenty of mecanum wheels on the market, and it can be very daunting to
 
    Due to its convenient mounting and fantastic strafing performance, we recommend all teams consider goBILDA mecanum wheels.
 
-   .. note::
-      These are tied with the `REV 75mm Mecanum Wheels`_ ($76.50 with team discount): These mecanums are uniquely positioned due to their compact size, at just 75mm (~3 inches) in diameter and 40mm wide. They can be easily mounted to 5mm hex shaft with an included adapter. They are also bearing based, which give them great strafing performance.
+   .. note:: These are tied with the `REV 75mm Mecanum Wheels`_ ($76.50 with team discount): These mecanums are uniquely positioned due to their compact size, at just 75mm (~3 inches) in diameter and 40mm wide. They can be easily mounted to 5mm hex shaft with an included adapter. They are also bearing based, which give them great strafing performance.
 
 2. `Nexus Bearing Mecanum Wheel`_ ($134): This was the old gold standard, and still has fantastic performance for the price.
 
-   This has identical performance with goBILDA mecanum wheels, however is slightly less convenient to mount to. However, these wheels feature the 1.875" bolt pattern commonly used in FRC motion products.
+   This has identical performance with goBILDA mecanum wheels, however is slightly less convenient to mount to. However, these wheels feature the 1.875" bolt pattern commonly used in FRC\ |reg| motion products.
 
    It is also slightly heavier than goBILDA Mecanum wheels. Many teams will 3D print adapters or build new cores for Nexus Mecanum wheels. Even though the goBILDA mecanum offer advantages and very few disadvantages over Nexus bearing wheels, these wheels remain a solid option.
 
@@ -71,7 +71,7 @@ There are plenty of mecanum wheels on the market, and it can be very daunting to
 
 4. `Nexus Bushing Mecanum Wheel`_ ($84): This is the Nexus Bearing Mecanum wheel with bushings instead of bearings. Before the introduction of the goBILDA mecanum wheels, these were the best budget option, however, it is now more sensible to spend the $21 premium to get the bearing goBILDA mecanum wheels.
 
-5. `VexPro Mecanum Wheels`_ ($119.96): These mecanum wheels are most suited for vectored intakes on FRC robots. They are relatively tough, but have somewhat poor strafing and are not quite as durable as the other wheels higher on the list. They are a decent choice if you already have them, but otherwise, there is no reason to consider them.
+5. `VexPro Mecanum Wheels`_ ($119.96): These mecanum wheels are most suited for vectored intakes on FRC\ |reg| robots. They are relatively tough, but have somewhat poor strafing and are not quite as durable as the other wheels higher on the list. They are a decent choice if you already have them, but otherwise, there is no reason to consider them.
 
 6. `TETRIX Mecanum Wheels`_ ($113): At the time of writing this guide, these haven’t been released so no verdict can be reached. However, they have a built in hub so they can be easily mounted on 6mm D shaft. They are bushing based, and due to no testing and evaluation outside of TETRIX, and its higher price than the goBILDA mecanum wheels, **we cannot recommend the TETRIX Mecanum Wheels**.
 
@@ -116,6 +116,7 @@ Even though X-drive has good turning and acceleration, the main downside to the 
 Ideally, the drivetrain should take up as little space as possible to make it easier to design mechanisms around. Because the omni wheels are offset, packaging a X-Drive is more difficult than other types of holonomic drive like mecanum or H-Drive. Also because of the strange packaging, it is relatively difficult to cleanly transfer power from the motors to wheels, meaning that most X-Drives end up being direct-driven, which is bad for the lifespan of the motor gearbox.
 
 .. note::
+
    When using X-Drive, the robot moves forwards/backwards/straight side-to-side :math:`\sqrt{2}` times faster than a drivetrain with wheels in the normal orientation (with the same gear ratio and wheel size).
 
    For an explanation of why exactly this is, see `this analysis <https://www.chiefdelphi.com/t/paper-mecanum-and-omni-kinematic-and-force-analysis/106153>`_.
@@ -123,14 +124,14 @@ Ideally, the drivetrain should take up as little space as possible to make it ea
 Advantages
 ^^^^^^^^^^
 
-* Good maneuverability and agility
-* Good acceleration
+- Good maneuverability and agility
+- Good acceleration
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Prone to defense, pushed around easily
-* Often uses direct drive due to awkward form factor
+- Prone to defense, pushed around easily
+- Often uses direct drive due to awkward form factor
 
 .. figure:: images/holonomic/731-xdrive.png
    :alt: 731 Wannabee Strange's X-Drive
@@ -151,23 +152,23 @@ H-Drive is theoretically very easy to code, but most teams employ some sort of g
 
 H-Drive has a number of possible motor configurations - 1 or 2 motors can be put on each forward drive pod, and one or two motors can be put on the strafe wheels. In the configuration with one motor on each forward drive pod, H-Drive has slightly reduced acceleration compared to mecanum drive.
 
-For the highest possible reliability, many FRC teams will suspend their strafe wheels on a rocker system to ensure that all wheels are in contact with the ground while the robot is not strafing.
+For the highest possible reliability, many FRC\ |reg| teams will suspend their strafe wheels on a rocker system to ensure that all wheels are in contact with the ground while the robot is not strafing.
 
 By far the biggest advantage of H-drive is its ability to accommodate multiple motor distributions. For instance, if you want to dedicate only 3 motors to your mechanisms and you have a motor left over, using a 1 strafe motor, 4 drive motor configuration is absolutely viable. Or if you dedicate 5 motors for your mechanisms, H-drive with 2 drive motors and 1 strafe motor is definitely optimal.
 
 Advantages
 ^^^^^^^^^^
 
-* Combines tank and holonomic drivetrain advantages
-* Can be used with 3 or 5 motors
-* Good traction and top speed
-* Great maneuverability and agility
+- Combines tank and holonomic drivetrain advantages
+- Can be used with 3 or 5 motors
+- Good traction and top speed
+- Great maneuverability and agility
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Strafing is slightly less effective than mecanum
-* Complex suspension occasionally needed, depending on design
+- Strafing is slightly less effective than mecanum
+- Complex suspension occasionally needed, depending on design
 
 .. figure:: images/holonomic/9804-hdrive.jpg
    :alt: 9804 Bomb Squad's H-Drive

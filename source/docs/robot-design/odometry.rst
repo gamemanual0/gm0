@@ -21,10 +21,10 @@ Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoder
 
 Some reasons teams might want to consider using the revcoders for their odometry are:
 
-* It's magnetic and won't break easily
-* Cheap
-* Large CPR
-* Easy wiring
+- It's magnetic and won't break easily
+- Cheap
+- Large CPR
+- Easy wiring
 
 However, there will be velocity overflow if not handled properly. Due to the high tick count, the velocity of the encoder can result in integer overflow due to the REV Hub bus using 16-bit signed values for sensor data.
 
@@ -35,8 +35,8 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 
 However there are several disadvantages to the S4T when compared to the through-bore encoder:
 
-* More expensive
-* Less durable
+- More expensive
+- Less durable
 
 Unlike the revcoders which are much easier to set up initially, to get the maximum lifetime out of S4Ts, you need gears to offload the strain put on the encoder.
 

@@ -4,26 +4,26 @@ Using the FTC SDK
 LinearOpMode vs OpMode
 ----------------------
 
-There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
+There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/first-tech-challenge/SkyStone/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
 
 LinearOpMode Methods
 ^^^^^^^^^^^^^^^^^^^^
 
-* ``runOpMode()``: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.
-* ``waitForStart()``: This method pauses the Op-Mode until you press the START button on the driver station.
-* ``isStarted()``: returns ``true`` if the START button has been pressed, otherwise it returns ``false``.
-* ``isStopRequested()``: returns ``true`` if the STOP button has been pressed, otherwise it returns ``false``.
-* ``idle()``: puts the thread to sleep
-* ``opModeIsActive()``: returns ``isStarted() && !isStopRequested()`` and calls ``idle()``.
+- ``runOpMode()``: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.
+- ``waitForStart()``: This method pauses the Op-Mode until you press the START button on the driver station.
+- ``isStarted()``: returns ``true`` if the START button has been pressed, otherwise it returns ``false``.
+- ``isStopRequested()``: returns ``true`` if the STOP button has been pressed, otherwise it returns ``false``.
+- ``idle()``: puts the thread to sleep
+- ``opModeIsActive()``: returns ``isStarted() && !isStopRequested()`` and calls ``idle()``.
 
 OpMode Methods
 ^^^^^^^^^^^^^^
 
-* ``init()``: Code inside this method will run exactly once after you press the INIT button on the driver station.
-* ``init_loop()``: Once the code in ``init()`` has been run, code inside this method will run continuously until the START button is pressed on the driver station.
-* ``start()``: Code inside this method will run exactly once after you press the START button on the driver station.
-* ``loop()``: Once the code in ``start()`` has been run, code inside this method will run continuously until the STOP button is pressed on the driver station.
-* ``stop()``: Code inside this method will run exactly once after you press the STOP button on the driver station.
+- ``init()``: Code inside this method will run exactly once after you press the INIT button on the driver station.
+- ``init_loop()``: Once the code in ``init()`` has been run, code inside this method will run continuously until the START button is pressed on the driver station.
+- ``start()``: Code inside this method will run exactly once after you press the START button on the driver station.
+- ``loop()``: Once the code in ``start()`` has been run, code inside this method will run continuously until the STOP button is pressed on the driver station.
+- ``stop()``: Code inside this method will run exactly once after you press the STOP button on the driver station.
 
 .. note:: Unlike LinearOpMode, all methods in OpMode must be overwritten to be used.
 
@@ -142,7 +142,7 @@ To get input, no functions need to be called; rather fields of ``gamepad1`` or `
    }
 
 A Note on Hardware Call Speed
--------------------------------
+-----------------------------
 
 Every hardware call you make, (whether it be setting the power for a motor, setting a :term:`servo <Servo>` position, reading an encoder value, etc.) will take approximately 3 milliseconds to execute, except for I2C calls which can take upwards of 7ms. This is because behind the scenes, the SDK may need to make multiple hardware calls in order to perform the I2C operation.
 

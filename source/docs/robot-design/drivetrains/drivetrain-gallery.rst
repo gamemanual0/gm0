@@ -11,7 +11,7 @@ In this section, we compile several sample drivetrains which you can use as a st
    :term:`odometry wheels <Odometry wheel>`. See also their video tutorials:
    https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <https://www.revrobotics.com/content/docs/GearDrivetrain-Guide.pdf>`_
-   Sample 6 wheel drivetrain built using REV  kit.
+   Sample 6 wheel drivetrain built using REV kit.
 `AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-options>`_
    A universal chassis kit sold by AndyMark. It is available in several
    modifications: 6 wheel, mecanum, tank tread. It is expensive, but using

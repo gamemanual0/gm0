@@ -4,12 +4,13 @@ Glossary
 Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here. You’ll be able to quickly learn the lingo of FTC!
 
 .. glossary::
+
    Anderson PowerPole
       Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are very reliable and recommended for teams. In addition, there are adapters available to other systems.
 
       .. image:: images/glossary/anderson-powerpole.png
-          :alt: Anderson powerpole connector
-          :width: 200
+         :alt: Anderson powerpole connector
+         :width: 200
 
    Ball Bearing
       Ball bearings refer to bearings with steel balls arranged in a circular fashion. This allows rotation of an element with less friction than a bushing, primarily because the surface area (or contact area) is much less than in a :term:`bushing <Bushing>`.
@@ -17,26 +18,26 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Bearings are definitely recommended for drivetrain and high speed usage. Bearings are used in the Actobotics, goBILDA, and REV kits, and are commonly sold by most robotics vendors.
 
       .. figure:: images/glossary/actobotics-dual-ball-bearing-hub.png
-          :alt: Actobotics dual ball bearing hub
-          :width: 200
+         :alt: Actobotics dual ball bearing hub
+         :width: 200
 
-          Actobotics dual ball bearing hub
+         Actobotics dual ball bearing hub
 
    Banebots Gearbox
       The Banebots gearbox is a heavy-duty gearbox that can be attached to RS-555 series motors. It has high :term:`gearing <Gear Reduction>` options for teams to choose from if they wish to build a mechanism such as a rotating arm.
 
       .. image:: images/glossary/banebot-gearbox.png
-          :alt: Banebots gearbox
-          :width: 200
+         :alt: Banebots gearbox
+         :width: 200
 
    Bare Motor
       A motor that does not have a gearbox attached to it.
 
       .. figure:: images/glossary/bare-neverest-classic.jpg
-          :alt: A bare NeveRest Classic Motor (am-3104)
-          :width: 200
+         :alt: A bare NeveRest Classic Motor (am-3104)
+         :width: 200
 
-          A bare NeveRest Classic Motor (am-3104)
+         A bare NeveRest Classic Motor (am-3104)
 
    Bevel gear
       Bevel gears are :term:`gears <Gear>` that transfer power along different axes, which are perpendicular to each other. Bevel gears are generally considered more inefficient than regular gears.
@@ -54,15 +55,15 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       “Stripping the bore” means that over time, the bore will lose its hexagonal shape, and become close to a circular shape, rendering the bore (and subsequently, the part it is on) useless.
 
       .. image:: images/glossary/hex-bore.png
-          :alt: A bearing with a hex bore
-          :width: 200
+         :alt: A bearing with a hex bore
+         :width: 200
 
    Box Tube
       Box tube is aluminum shaped into hollow square or rectangular profiles. Commonly used in FRC, box tubing is seen less in FTC; however, small box tubing can be used for drivetrain or elevator purposes. Generally, we recommend new teams stick to kits unless they are prepared to tackle custom mechanisms.
 
       .. image:: images/glossary/box-tube.png
-          :alt: A piece of box tube
-          :width: 200
+         :alt: A piece of box tube
+         :width: 200
 
    Bushing
       A bushing is primarily mounted on the outside of a :term:`shaft <Shaft>`. It rotates in a pillow block, which holds the bushing. Generally, both are made out of a low-friction material such as Delrin or bronze.
@@ -104,6 +105,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       A chain breaker is a tool used to ''break" the chain by pushing out the pin in the chain link, and reconnects it by reversing the operation.
 
       .. note:: We highly recommend purchasing the :term:`DarkSoul chain breaker <DarkSoul>` if you plan to use chain.
+
    Channel
       Channel (more precisely called C-Channel) is aluminum that is in the profile of a C. (It is also sometimes called U-Channel.) Channel, along with :term:`extrusion <Extrusion>`, is the most common structural build element in FTC, and is found in Tetrix, REV, Actobotics, and goBILDA kits.
 
@@ -128,10 +130,10 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       .. tip:: Use friction tape around the surface of the motor that is clamped down so that it will have less chance of moving around.
 
       .. figure:: images/glossary/clamp-mounting.png
-          :alt: A TETRIX v1 motor attached with a TETRIX Clamp Mount
-          :width: 200
+         :alt: A TETRIX v1 motor attached with a TETRIX Clamp Mount
+         :width: 200
 
-          TETRIX clamp mount and v1 motor
+         TETRIX clamp mount and v1 motor
 
    Clamping Hub
       A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from moving laterally. Clamping hubs are recommended over shaft collars because clamping hubs have more contact area than a set screw.
@@ -171,16 +173,16 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Recently, goBILDA released the `72mm Gecko Wheel <https://www.gobilda.com/3613-series-gecko-wheel-14mm-bore-72mm-diameter/>`_, which integrates very well with the goBILDA ecosystem. However, at the time of writing, to our knowledge, these are untested by FTC teams.
 
       .. figure:: images/glossary/compliant-wheel-2-inch.png
-          :alt: A 2" green compliant wheel
-          :width: 200
+         :alt: A 2" green compliant wheel
+         :width: 200
 
-          A 2" compliant wheel
+         A 2" compliant wheel
 
       .. figure:: images/glossary/compliant-wheel-4-inch.png
-          :alt: A 4" green compliant wheel
-          :width: 200
+         :alt: A 4" green compliant wheel
+         :width: 200
 
-          A 4" compliant wheel
+         A 4" compliant wheel
 
    Compound Gearing
       Compound gearing refers to multiple reductions in order to transmit power from A to B. This is used when a specific reduction might be needed, or due to space issues. Compound gearing can be achieved by placing two :term:`gears <Gear>` or :term:`sprockets <Sprocket>` of different sizes on one :term:`shaft <Shaft>`.
@@ -191,8 +193,8 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       .. warning:: We advise teams to go against the Basic Bot Guide provided by FIRST, as Core Hex Motors should NOT be used to power drivetrains.
 
       .. image:: images/glossary/core-hex.png
-          :alt: A REV Robotics Core Hex motor
-          :width: 200
+         :alt: A REV Robotics Core Hex motor
+         :width: 200
 
    DarkSoul
       The DarkSoul :term:`chain breaker <Chain Breaker>`, designed for motorsport application such as BMX, is compatible with the FTC standard #25 metal :term:`chain <Chain>`.
@@ -202,10 +204,10 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       **It is highly recommended that teams purchase this chain breaker if they are planning to use #25 chain**.
 
       .. figure:: images/glossary/darksoul.png
-          :alt: A DarkSoul #25 chain breaker
-          :width: 200
+         :alt: A DarkSoul #25 chain breaker
+         :width: 200
 
-          A DarkSoul #25 Chain Breaker
+         A DarkSoul #25 Chain Breaker
 
    Dead Axle
       A dead axle refers to an axle that **intentionally** does not spin. Instead, :term:`bearings <Ball Bearing>` are mounted directly to the moving part, such as a wheel in a drivetrain.
@@ -223,9 +225,9 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       .. warning:: Direct drive is not recommended because shock loads transfer easily between wheel and gearbox, and can break the gearbox, especially in drivetrain use.
 
       .. figure:: images/glossary/basic-bot-guide-direct-drive.png
-          :alt: An example of direct drive found in REV's Basic Bot Guide
+         :alt: An example of direct drive found in REV's Basic Bot Guide
 
-          Basic Bot Guide - REV
+         Basic Bot Guide - REV
 
    Disconnect
       A disconnect (DC) is when, for any reason, the robot is not able to be controlled from the gamepad. This can happen for many reasons - static buildup on the robot, a loose cable, or an error in code.
@@ -258,6 +260,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Face mounting refers to mounting the motor by affixing the motor directly to the mount using bolts. This is the preferable way of mounting the motor (compared to :term:`clamp mounting <Clamp Mounting>`) because it is less likely to loosen over time, especially with the use of :term:`Loctite` on the bolts.
 
       .. note:: It is advisable that 4-6 bolts be used to face mount for redundancy.
+
       Additionally, there is no way that the motor might rotate and cause a
       loss of tension in :term:`belts <HTD Belt>` or :term:`chain <Chain>`.
 
@@ -341,8 +344,8 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       JST-VH is a type of connector used by FTC motors to interface with the REV Expansion Hub. It is keyed and locks into place for improved reliability.
 
       .. image:: images/glossary/jst-vh.png
-          :alt: A cable with JST-VH connectors
-          :width: 200
+         :alt: A cable with JST-VH connectors
+         :width: 200
 
    Laser cutter
       A laser cutter is a tool that uses a high-power laser to cut through sheet metal or similar material. The laser is guided by CNC to cut preprogrammed patterns into the sheet.
@@ -525,12 +528,12 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
    Shaft
       A shaft is a piece of shaped metal used in power transmission. Shafts are the primary method to transfer power from motor to wheel. Generally, shafts are made out of steel, so do not use a bandsaw to cut a shaft. Rather, use a hacksaw, as hacksaw blades can cut through steel. There are different kinds of bores in FTC, which are listed below.
 
-      * Round shaft
-      * D-shaft: has a flat part for set screws, otherwise round
-      * Hex shaft: six sided shaft
-      * Rounded Hex shaft: hex shaft that's been rounded so that it can run in round bearings
-      * Keyed shaft: round shaft which has a keyway (a slot) through the shaft
-      * Square shaft: commonly used in VEX products
+      - Round shaft
+      - D-shaft: has a flat part for set screws, otherwise round
+      - Hex shaft: six sided shaft
+      - Rounded Hex shaft: hex shaft that's been rounded so that it can run in round bearings
+      - Keyed shaft: round shaft which has a keyway (a slot) through the shaft
+      - Square shaft: commonly used in VEX products
 
    Shaft Collar
       A shaft collar, which has a :term:`set screw <Set Screw>`, is fitted on to a shaft in order to secure parts.
@@ -637,7 +640,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       A traction or grip wheel is a wheel designed for maximum grip. It has an outer ring made of rubber, and its wide track ensures a larger contact patch with the ground. Traction wheels are commonly found in tank drivetrains. They are sold in different sizes and thicknesses by different manufacturers.
 
    UltraHex
-     UltraHex is 1/2” aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV’s 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2” hex is also compatible with many FRC vendors.
+      UltraHex is 1/2” aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV’s 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2” hex is also compatible with many FRC vendors.
 
       .. image:: images/glossary/ultrahex.png
          :alt: A piece of ultrahex shaft

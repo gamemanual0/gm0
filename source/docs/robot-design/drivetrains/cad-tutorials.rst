@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 CAD Tutorials
 =============
 
@@ -18,10 +20,10 @@ Designing the Drivetrain Plates
 
 After learning the CAD software, it's time to start the actual design. Here are some things to figure out before starting:
 
-* Drive Type (mecanum, 6wd, 8wd, etc.)
-* Number of Motors (four motors recommended in most cases)
-* Type of wheels (:term:`Colson <Colson Wheel>`, :term:`omni <Omni Wheel>`, etc.)
-* Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear <Gear>`)
+- Drive Type (mecanum, 6wd, 8wd, etc.)
+- Number of Motors (four motors recommended in most cases)
+- Type of wheels (:term:`Colson <Colson Wheel>`, :term:`omni <Omni Wheel>`, etc.)
+- Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear <Gear>`)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors. The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid in turning.
 
@@ -67,7 +69,7 @@ Mounting motors is done in a plate style by face mounting the motor into the inn
 
 Ground clearance is all dependent on if there are any obstacles on the field, as well as what your team wants to do in that game in regards to said obstacles.
 
-For example, in Rover Ruckus some teams with tank drivetrains decided to enter the crater. Therefore, they left  enough space to not beach themselves on top of the crater, a common mistake that inexperienced teams often make.
+For example, in Rover Ruckus some teams with tank drivetrains decided to enter the crater. Therefore, they left enough space to not beach themselves on top of the crater, a common mistake that inexperienced teams often make.
 
 Other teams decided to ignore driving over the crater and decided to reach over with an arm or slide system, which meant they didn't need a lot of ground clearance for their drivebase.
 
@@ -96,7 +98,7 @@ After mirroring the drive pod to make your opposite side, connect those two halv
 CAD Tutorial Part 2 - Pocketing Guide
 -------------------------------------
 
-“Pocketing” is a common term in FTC and FRC lingo, and refers to material removal from plates or tubes for weight reduction and/or aesthetic purposes. For the former purpose, the idea is to strike a balance between sustaining structural integrity and reduce as much weight/material as possible.
+“Pocketing” is a common term in FTC and FRC\ |reg| lingo, and refers to material removal from plates or tubes for weight reduction and/or aesthetic purposes. For the former purpose, the idea is to strike a balance between sustaining structural integrity and reduce as much weight/material as possible.
 
 There are several ways to machine pockets into material including milling, routing, water jet cutting, laser cutting and even hand drilling. Depending on your access to tooling, pocketing can be more or less difficult for you.
 
@@ -192,9 +194,9 @@ Copy the sketch below.
 .. image:: images/cad-tutorial/custom-pulley-template/sketch-to-copy.png
    :alt: The sketch to copy
 
-* The 15° equation is done by typing =360/”n” into the text box.
-* Note that 5mm dimension at the top describes arc length, which is done in Solidworks by first selecting the two points and the connecting arc.
-* The two big circles are tangent to the two smaller circles, but the two smaller circles are not tangent to each other.
+- The 15° equation is done by typing =360/”n” into the text box.
+- Note that 5mm dimension at the top describes arc length, which is done in Solidworks by first selecting the two points and the connecting arc.
+- The two big circles are tangent to the two smaller circles, but the two smaller circles are not tangent to each other.
 
 Leave this sketch as a reference and use “Convert Entities” to create sketches for additional features.
 

@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 JVN Calculator
 ==============
 
-The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC 148, and was initially designed for FRC calculations.
+The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC\ |reg| 148, and was initially designed for FRC calculations.
 
 It is fairly intuitive and can save a lot of time compared to doing calculations on your own, especially when developing designs like arms, linear slides, and drivetrains. This is as the balance between power/torque and speed is critical to the end design. For example, arms require much more torque than speed, while linear slides need very little torque to maximize speed.
 
@@ -33,10 +35,10 @@ For 1-speed drivetrains, just enter in the correct motor specifications and add 
 General Tips
 ------------
 
-* Always use the `VEX dyno <https://motors.vex.com/other-motors/am-neverest>`_ test results for free speed, stall torque, stall current, and free current.
-* Ensure that the total current draw does not exceed the stall current! Generally, this should not be a problem, but it is something to be aware of.
-* For linear slides, maximize linear speed by using a low gear ratio. For arms, maximize torque by using a high :term:`gear ratio <Gear Reduction>`.
-* You need to keep in mind the loaded current draw on your motor. Your motor has a stall current of ~10 amps, so you don’t want to exceed that. You also have a 20amp fuse on your battery, so make sure that you don’t exceed that for too long, or else you’ll pop the fuse.
-* With each stage of :term:`gears <Gear>`, :term:`chains <Chain>` or :term:`belts <HTD Belt>`, you lose efficiency. Depending on how well you build your system and what you are using, the percent loss changes. However, generally it is around :math:`5\%` per stage. Meaning that if you had three stages of gears, your efficiency should be :math:`0.95^3`, or approximately :math:`0.857` or :math:`85.7\%`.
+- Always use the `VEX dyno <https://motors.vex.com/other-motors/am-neverest>`_ test results for free speed, stall torque, stall current, and free current.
+- Ensure that the total current draw does not exceed the stall current! Generally, this should not be a problem, but it is something to be aware of.
+- For linear slides, maximize linear speed by using a low gear ratio. For arms, maximize torque by using a high :term:`gear ratio <Gear Reduction>`.
+- You need to keep in mind the loaded current draw on your motor. Your motor has a stall current of ~10 amps, so you don’t want to exceed that. You also have a 20amp fuse on your battery, so make sure that you don’t exceed that for too long, or else you’ll pop the fuse.
+- With each stage of :term:`gears <Gear>`, :term:`chains <Chain>` or :term:`belts <HTD Belt>`, you lose efficiency. Depending on how well you build your system and what you are using, the percent loss changes. However, generally it is around :math:`5\%` per stage. Meaning that if you had three stages of gears, your efficiency should be :math:`0.95^3`, or approximately :math:`0.857` or :math:`85.7\%`.
 
 `Download Link <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_ (If the link is broken, search JVN for FTC).

@@ -12,16 +12,16 @@ Third, motor shafts are not built to carry large amounts of downward load. This 
 Advantages
 ----------
 
-* Saves space
-* Easy to build; most simple form of transmission
+- Saves space
+- Easy to build; most simple form of transmission
 
 Disadvantages
 -------------
 
-* Prone to shock loads which destroy the gearbox
-* Limited gear ratio to the motor itself
-* Wears the gearbox of the motor faster
-* Can bend the motor shaft
+- Prone to shock loads which destroy the gearbox
+- Limited gear ratio to the motor itself
+- Wears the gearbox of the motor faster
+- Can bend the motor shaft
 
 .. figure:: images/direct-drive/outside-supported-direct-drive.jpg
    :alt: A drivetrain with the wheel directly driven, but with an externally supported shaft

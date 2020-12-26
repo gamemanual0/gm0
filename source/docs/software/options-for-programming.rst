@@ -13,27 +13,27 @@ Using a device and a robot controller phone, connect your device to the phone’
 Advantages
 ^^^^^^^^^^
 
-* Good for beginners: one of the easiest and simplest options to use.
-* Easy to set up: requires a device (laptop, chromebook, tablet) and a phone in the Program & Manage screen
-* Programs can be saved directly to the phone
+- Good for beginners: one of the easiest and simplest options to use.
+- Easy to set up: requires a device (laptop, chromebook, tablet) and a phone in the Program & Manage screen
+- Programs can be saved directly to the phone
 
-   * Changes can be made quickly
-* Doesn’t require an external Wi-Fi connection
+   - Changes can be made quickly
+- Doesn’t require an external Wi-Fi connection
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Not recommended if you’re already familiar with some type of programming
+- Not recommended if you’re already familiar with some type of programming
 
-  * Primarily a teaching tool for people with no programming experience
-* This will change your primary Wi-Fi network to the :term:`Robot Controller's <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
+  - Primarily a teaching tool for people with no programming experience
+- This will change your primary Wi-Fi network to the :term:`Robot Controller's <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
 
- * Teams can get around this by purchasing an external Wi-Fi module that allows computers to run 2 Wi-Fi networks at once.
+  - Teams can get around this by purchasing an external Wi-Fi module that allows computers to run 2 Wi-Fi networks at once.
 
-* Sacrifices flexibility and application for simplicity
-* Don’t ever use it on a phone, unless you’re out of options. (Not phone-friendly)
+- Sacrifices flexibility and application for simplicity
+- Don’t ever use it on a phone, unless you’re out of options. (Not phone-friendly)
 
-  * You may make a bigger mess if you try to.
+  - You may make a bigger mess if you try to.
 
 OnBot Java
 ----------
@@ -43,18 +43,18 @@ OnBot Java uses a similar method of using a browser to code and save directly to
 Advantages
 ^^^^^^^^^^
 
-* Recommended if you’re learning or have learned some programming, even better if you know a little Java.
-* Greater flexibility than Blocks
-* There are a lot more resources available in case you need help
-* More applicable to the real-world than Blocks
-* Maintains most of the advantages of Blocks
+- Recommended if you’re learning or have learned some programming, even better if you know a little Java.
+- Greater flexibility than Blocks
+- There are a lot more resources available in case you need help
+- More applicable to the real-world than Blocks
+- Maintains most of the advantages of Blocks
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication
-* Using external libraries is difficult and borderline impossible
-* Steeper learning curve than Blocks
+- Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication
+- Using external libraries is difficult and borderline impossible
+- Steeper learning curve than Blocks
 
 Android Studio
 --------------
@@ -64,17 +64,17 @@ Android Studio is a comprehensive Integrated Development Environment (IDE) that 
 Advantages
 ^^^^^^^^^^
 
-* Recommended if you’re learning or have learned some programming, even better if you know a little Java.
-* Much greater flexibility than Block
-* Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_, `Road Runner`_, and `RevExtensions2`_
-* Can use plugins like `Road Runner`_
-* Can use either a USB connection to the :term:`RC <Robot Controller>` phone, or a wireless connection to upload code.
+- Recommended if you’re learning or have learned some programming, even better if you know a little Java.
+- Much greater flexibility than Block
+- Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_, `Road Runner`_, and `RevExtensions2`_
+- Can use plugins like `Road Runner`_
+- Can use either a USB connection to the :term:`RC <Robot Controller>` phone, or a wireless connection to upload code.
 
   .. note:: Deploy times can be sped up by using `OpenRC Turbo`_.
 
-* Can debug in real-time
-* Many resources for Java, Android Studio, and IDEA
-* Can use other programming languages
+- Can debug in real-time
+- Many resources for Java, Android Studio, and IDEA
+- Can use other programming languages
 
 .. _EasyOpenCV: https://github.com/openftc/easyopencv
 .. _FTC Dashboard: https://github.com/acmerobotics/ftc-dashboard
@@ -86,9 +86,9 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
-* Relatively easy setup process, but time consuming and is a hefty install (3GB of files between Android Studio, ftc_app, and other libraries)
-* Issues can be difficult to diagnose and solve
+- Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
+- Relatively easy setup process, but time consuming and is a hefty install (3GB of files between Android Studio, ftc_app, and other libraries)
+- Issues can be difficult to diagnose and solve
 
 Other Programming Languages
 ---------------------------
@@ -101,20 +101,20 @@ Kotlin is a relatively new and rapidly growing programming language from Jetbrai
 Advantages
 ~~~~~~~~~~
 
-* Concise, readable, easy to edit code * Easy to write as it takes much less code to do the same thing
-* Both optional type inference and a stronger type system than Java
-* Null safety
-* Thread safety
-* Functional programming
-* Seamless integration with Java code and libraries
-* Very easy to transition from Java
+- Concise, readable, easy to edit code * Easy to write as it takes much less code to do the same thing
+- Both optional type inference and a stronger type system than Java
+- Null safety
+- Thread safety
+- Functional programming
+- Seamless integration with Java code and libraries
+- Very easy to transition from Java
 
 Disadvantages
 ~~~~~~~~~~~~~
 
-* Not widely used in FTC yet
-* New and has fewer community resources for training
-* Not recommended for programmers who need large amounts of help from other teams
+- Not widely used in FTC yet
+- New and has fewer community resources for training
+- Not recommended for programmers who need large amounts of help from other teams
 
 C and C++
 ^^^^^^^^^
@@ -124,14 +124,14 @@ C and C++ are native programming languages compatible with Android. Very few tea
 Advantages
 ~~~~~~~~~~
 
-* Fast execution for extremely resource-intensive applications.
-* Supports more libraries
+- Fast execution for extremely resource-intensive applications.
+- Supports more libraries
 
 Disadvantages
 ~~~~~~~~~~~~~
 
-* Rarely needed
-* Very difficult to set up
-* Difficult to debug code
-* Very few teams can help you
-* Very few online resources
+- Rarely needed
+- Very difficult to set up
+- Difficult to debug code
+- Very few teams can help you
+- Very few online resources

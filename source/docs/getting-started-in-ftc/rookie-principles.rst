@@ -4,32 +4,32 @@ Rookie Mistakes: Principles
 Here are some common mistakes that teams make in the high-level design and strategic planning stages.
 
 +--------------------------------+-----------------------------------------+
-|          Problem           |                Solution                 |
+| Problem                        | Solution                                |
 +================================+=========================================+
-| **Do everything at once**     | **Perfect one objective first**        |
-|                            |                                         |
-| * Robot becomes half-baked    | * Robot is highly optimized          |
-| * Cannot excel in one area    | * Consistently excels in one area      |
+| **Do everything at once**      | **Perfect one objective first**         |
+|                                |                                         |
+| - Robot becomes half-baked     | - Robot is highly optimized             |
+| - Cannot excel in one area     | - Consistently excels in one area       |
 +--------------------------------+-----------------------------------------+
-| **Overcomplicate**         | **Simplify**                            |
-|                            |                                         |
-| * More time needed to iterate  | * Best designs are usually simplest    |
-| * Less reliable            | * Less moving parts                     |
+| **Overcomplicate**             | **Simplify**                            |
+|                                |                                         |
+| - More time needed to iterate  | - Best designs are usually simplest     |
+| - Less reliable                | - Less moving parts                     |
 +--------------------------------+-----------------------------------------+
-| **Score-first design**       | **Design for consistency**            |
-|                            |                                         |
-| * Neglect proper principles   | * Usually reliability > scoring ability |
-| * Often wildly inconsistent   | * Great plus for alliance selection     |
+| **Score-first design**         | **Design for consistency**              |
+|                                |                                         |
+| - Neglect proper principles    | - Usually reliability > scoring ability |
+| - Often wildly inconsistent    | - Great plus for alliance selection     |
 +--------------------------------+-----------------------------------------+
-| **Build haphazardly**        | **Build for reliability**             |
-|                            |                                         |
-| * Build with subpar materials  | * Remove unneeded moving parts        |
-| * Inadequate support structure | * Eliminate single points of failure   |
+| **Build haphazardly**          | **Build for reliability**               |
+|                                |                                         |
+| - Build with subpar materials  | - Remove unneeded moving parts          |
+| - Inadequate support structure | - Eliminate single points of failure    |
 +--------------------------------+-----------------------------------------+
-| **Fret about design**        | **Focus on execution**                |
-|                            |                                         |
-| * Wastes testing time        | * Make a decision, then stick to it     |
-| * Design alone is not enough   | * Execution often beats design        |
+| **Fret about design**          | **Focus on execution**                  |
+|                                |                                         |
+| - Wastes testing time          | - Make a decision, then stick to it     |
+| - Design alone is not enough   | - Execution often beats design          |
 +--------------------------------+-----------------------------------------+
 
 Doing Everything At Once to Perfecting One Objective First
@@ -63,7 +63,7 @@ Keeping things simple can be practically achieved through a couple of ways.
 #. Another way to simplify is to build for the shortest travel distance. Obviously, the shortest distance from A to B is in a straight line, so teams should strive to keep the game elements approximately within a reasonably straight line. This can help in solving possible problems if the game elements need to change direction too many times.
 
 Score-first Designing to Designing for Consistency
-----------------------------------------------------
+--------------------------------------------------
 
 .. important:: Teams should prioritize consistency over scoring ability.
 

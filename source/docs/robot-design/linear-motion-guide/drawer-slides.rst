@@ -21,16 +21,16 @@ Available from your local hardware store, steel slides aren’t a bad option for
 Advantages
 ^^^^^^^^^^
 
-* Commonplace at any hardware store
-* Not very expensive
+- Commonplace at any hardware store
+- Not very expensive
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Heavier than other slide options (steel as opposed to aluminum)
-* Sliding is usually good but not great
-* Hard to adapt to building systems
-* 3D printed spacers may be required
+- Heavier than other slide options (steel as opposed to aluminum)
+- Sliding is usually good but not great
+- Hard to adapt to building systems
+- 3D printed spacers may be required
 
 MiSUMI Telescopic Slide Rails
 -----------------------------
@@ -45,24 +45,24 @@ MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a two-pie
 
 Rail length Options:
 
-* 200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)
-* 300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)
-* 400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)
+- 200 mm, part number SAR220 (SAR2) or SAR320 (SAR3)
+- 300 mm, part number SAR230 (SAR2) or SAR330 (SAR3)
+- 400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)
 
 Advantages
 ^^^^^^^^^^
 
-* Best slide smoothness due to ball bearings
-* Very little slide flex, robust build quality
-* Can handle relatively heavy load use cases (within reason)
-* Compatible with REV 15mm extrusion system
+- Best slide smoothness due to ball bearings
+- Very little slide flex, robust build quality
+- Can handle relatively heavy load use cases (within reason)
+- Compatible with REV 15mm extrusion system
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Not cheap
-* Tricky to adapt if not using REV
-* 3D printed spacers may be required
+- Not cheap
+- Tricky to adapt if not using REV
+- 3D printed spacers may be required
 
 Long Robotics Slides
 --------------------
@@ -78,16 +78,16 @@ These are available in both a `300 mm rail length option <https://longrobotics.c
 Advantages
 ^^^^^^^^^^
 
-* Very good slide smoothness due to ball bearings
-* Can handle relatively heavy load (within reason)
-* Compatible with goBILDA channel
-* Cheaper than MiSUMI slides for comparable performance
+- Very good slide smoothness due to ball bearings
+- Can handle relatively heavy load (within reason)
+- Compatible with goBILDA channel
+- Cheaper than MiSUMI slides for comparable performance
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* 3D Printed spacers are almost required; while other solutions exist, 3D Printed spacers are the simplest and lowest-risk
-* Can be difficult to mount to kit systems which aren't :term:`extrusion <Extrusion>` based and don't have holes spaced at 8 mm apart
+- 3D Printed spacers are almost required; while other solutions exist, 3D Printed spacers are the simplest and lowest-risk
+- Can be difficult to mount to kit systems which aren't :term:`extrusion <Extrusion>` based and don't have holes spaced at 8 mm apart
 
 Igus
 ----

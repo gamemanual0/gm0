@@ -2,10 +2,10 @@ Types of Intake
 ===============
 
 Horizontal/top Intake
-   A horizontal intake generally is a wider style of intake that has the  intake rotating on a horizontal axis or plane.  Horizontal intakes are generally used for intaking smaller game elements,  as these types of intakes can control more than one piece at a time.  Horizontal intakes have been used successfully in games such as Res-Q and  Rover Ruckus, where teams needed to pick up small cubes and balls from the  floor.
+   A horizontal intake generally is a wider style of intake that has the intake rotating on a horizontal axis or plane. Horizontal intakes are generally used for intaking smaller game elements, as these types of intakes can control more than one piece at a time. Horizontal intakes have been used successfully in games such as Res-Q and Rover Ruckus, where teams needed to pick up small cubes and balls from the floor.
 
 Vertical Intake
-   A vertical intake typically has wheels or other intake components rotating  on a vertical axis (the z-axis).  Vertical intakes are more controllable,  as they can only pick up one element at a time.  Vertical intakes excel at picking up large game elements which would be  impossible to control more than one piece at once,  such as the foam glyphs in Relic Recovery.
+   A vertical intake typically has wheels or other intake components rotating on a vertical axis (the z-axis). Vertical intakes are more controllable, as they can only pick up one element at a time. Vertical intakes excel at picking up large game elements which would be impossible to control more than one piece at once, such as the foam glyphs in Relic Recovery.
 
 Below are different implementations of horizontal and vertical intakes:
 
@@ -26,9 +26,9 @@ Compliant Wheel Intake
 
 .. sidebar:: Spring-Loaded Intakes
 
-   A spring-loaded intake is able to pivot in order to accommodate a game element  when it is passing through the intake,  but will snap back when the element has gone through.  A spring-loaded intake requires more thought,  but guarantees that the intake wheel will always be in contact with the desired  element.
+   A spring-loaded intake is able to pivot in order to accommodate a game element when it is passing through the intake, but will snap back when the element has gone through. A spring-loaded intake requires more thought, but guarantees that the intake wheel will always be in contact with the desired element.
 
-   A locked intake simply means that the wheels are locked into place and  cannot pivot.
+   A locked intake simply means that the wheels are locked into place and cannot pivot.
 
 The compliant wheel intake is most commonly used with large game elements such as the glyphs in the 2017-2018 season, Relic Recovery. Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes or rectangular prisms. They suffer at picking up balls.
 
@@ -41,17 +41,17 @@ Wheeled intakes operate at much slower RPM than surgical tubing intakes, as whee
 Advantages
 ~~~~~~~~~~
 
-* Very controllable
-* Propels elements to desired location
-* Great at picking up large elements
+- Very controllable
+- Propels elements to desired location
+- Great at picking up large elements
 
 Disadvantages
 ~~~~~~~~~~~~~
 
-* Picks up only one element at a time
-* Elements can get jammed in a bad position
-* Not generally used for picking up small elements
-* Can generally only pick up one specific element shape
+- Picks up only one element at a time
+- Elements can get jammed in a bad position
+- Not generally used for picking up small elements
+- Can generally only pick up one specific element shape
 
 .. figure:: images/compliant-wheel-intake/9971-intake.png
    :alt: 9971's Relic Recovery intake
@@ -114,7 +114,7 @@ Surgical tubing by itself is soft and pliable. Teams have two options
 #. Increase the RPM to 800-1000+ RPM
 #. Use polyurethane tubing at a lower RPM (100-250 RPM).
 
-   Polyurethane tubing can be purchased at a local hardware store and    is a clear tubing that is quite stiff. Using some lubricant, insert    the clear tubing into the surgical tubing for added stiffness.
+   Polyurethane tubing can be purchased at a local hardware store and is a clear tubing that is quite stiff. Using some lubricant, insert the clear tubing into the surgical tubing for added stiffness.
 
 It is encouraged that teams test different RPMs and stiffness to develop the optimal intake. You will be surprised how changing one small variable such as the diameter of tubing or how far the tubing extends can affect intake effectiveness.
 
@@ -123,16 +123,16 @@ Surgical tubing intakes are especially good at picking up multiple elements at a
 Advantages
 ~~~~~~~~~~
 
-* Able to collect multiple elements at a time
-* Generally more efficient than wheeled intakes
-* Specializes in small and odd-shaped elements
+- Able to collect multiple elements at a time
+- Generally more efficient than wheeled intakes
+- Specializes in small and odd-shaped elements
 
 Disadvantages
 ~~~~~~~~~~~~~
 
-* Requires high RPM
-* Less controllable
-* Harder to pick up large elements easily
+- Requires high RPM
+- Less controllable
+- Harder to pick up large elements easily
 
 .. figure:: images/tubing-intake/8375-intake.png
    :alt: 8375's surgical tubing intake
@@ -142,8 +142,7 @@ Disadvantages
 .. figure:: images/tubing-intake/8393-intake.png
    :alt: 8393's surgical tubing intake
 
-   8393 Giant Diencephalic BrainSTEM Robotics Team,  Semifinalist Alliance Captain (St. Louis), Velocity Vortex
-
+   8393 Giant Diencephalic BrainSTEM Robotics Team, Semifinalist Alliance Captain (St. Louis), Velocity Vortex
 
 .. figure:: images/tubing-intake/11115-intake.png
    :alt: 11115's surgical tubing intake

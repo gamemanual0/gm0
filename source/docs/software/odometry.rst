@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Odometry
 ========
 
@@ -75,7 +77,7 @@ As a result of this, we can define our horizontal displacement as:
 
 .. note::
 
-   :math:`\Delta x_\perp` is not necessary if you do not have perpendicular sensors, which are not required if the robot cannot move in the lateral direction.
+   If you do not have perpendicular sensors, which are not required if the robot cannot move in the lateral direction, :math:`\Delta x_\perp` is not necessary.
 
    For this value, use 0 if you do not have a horizontal sensor.
 
@@ -85,6 +87,7 @@ Robot-Relative Deltas
 Let's come up with a simplified, nonoptimal way to calculate our robot-relative pose deltas which we can then transform into field-relative coordinate changes. To perform this we need to transform the robot-relative deltas via a rotation matrix where we rotate the relative pose difference by the original heading. We can derive the values of :math:`\Delta x` and :math:`\Delta y`.
 
 .. math::
+
    \begin{pmatrix}
       \Delta x \\
       \Delta y \\
@@ -103,6 +106,7 @@ Let's come up with a simplified, nonoptimal way to calculate our robot-relative 
 From this, we can calculate our field-relative change in pose:
 
 .. math::
+
    \begin{pmatrix}
       \Delta x \\
       \Delta y \\
@@ -146,11 +150,12 @@ Odometry Pseudocode
 Using Pose Exponentials
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This method uses differential equations to solve the nonlinear position of the robot given constant curvature. Euler integration assumes that the robot follows a straight path between updates, which can lead to inaccurate approximations when traveling around curves. If you are interested in the math itself, we recommend you check out `this book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ for FRC controls.
+This method uses differential equations to solve the nonlinear position of the robot given constant curvature. Euler integration assumes that the robot follows a straight path between updates, which can lead to inaccurate approximations when traveling around curves. If you are interested in the math itself, we recommend you check out `this book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ for FRC\ |reg| controls.
 
 We'll treat the way it is solved in this page as a black box, and derive the formula by implementing a correction for this nonlinear curvature into our Euler integration robot-relative deltas equation:
 
 .. math::
+
    \begin{pmatrix}
    \Delta x \\ \Delta y \\ \varphi
    \end{pmatrix} =
@@ -171,6 +176,6 @@ Resources for Odometry
 
 There are several great resources out there for odometry. We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. For the math behind Road Runner (which utilizes pose exponentials), you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. An additional resource for Road Runner is `Learn Road Runner <https://www.learnroadrunner.com/>`_ which is a step-by-step procedural guide that explains how to work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
 
-We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ as it goes into great detail about various controls in FIRST robotics.
+We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ as it goes into great detail about various controls in *FIRST*\ |reg| robotics.
 
 If you're using other resources, it is important that you do not use ones that utilize Euler integration as it is less optimal for real life approximations of robot pose.

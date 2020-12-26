@@ -1,5 +1,5 @@
 Notebook Designs and Decisions
-=================================
+==============================
 
 This section will cover both what needs to be in the notebook and the decisions you need to make about it affecting both individual sections and it as a whole.
 
@@ -32,6 +32,7 @@ You should try and reflect that in your notebook. Neither way is better, but it'
 Generally, humor is acceptable, but try to keep jokes down to a minimum (after all, the engineering notebook is meant to be a professional-grade document).
 
 .. note::
+
    Having a consistent team brand is important so judges remember you. A large amount of winning awards is being remembered and advocated for by the judges.
 
    Therefore, having consistent branding helps judges know what team they are talking to and what they know about you.
@@ -43,18 +44,18 @@ Section 9.2.2 of |gm1|, lists out the type of things that are expected to see in
 
 They are listed here:
 
-* Problem Definition
-* Information Gathering
-* Brainstorming Solutions
-* Concept Design
-* System Level Design
-* Testing
-* Design Improvement
-* Production
-* Promotion
-* Budgeting
-* Planning
-* Outreach
+- Problem Definition
+- Information Gathering
+- Brainstorming Solutions
+- Concept Design
+- System Level Design
+- Testing
+- Design Improvement
+- Production
+- Promotion
+- Budgeting
+- Planning
+- Outreach
 
 Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines are not plentiful, only including a team plan (which is pretty much all non robot writing including a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award) and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
 
@@ -74,9 +75,9 @@ Each team approaches it differently, but a standard approach is as follows.
    +==================+=============================================+
    | Lorem ipsum      | Dolor sit amet, consectetur adipiscing elit |
    +------------------+---------------------------------------------+
-   |Sed do eiusmod    | Tempor incididunt  ut labore             |
+   | Sed do eiusmod    | Tempor incididunt ut labore                |
    +------------------+---------------------------------------------+
-   |Et dolore magna   | Aliqua ut enim ad minim veniam           |
+   | Et dolore magna   | Aliqua ut enim ad minim veniam             |
    +------------------+---------------------------------------------+
 
 There are other methods such as weekly, pure goals, or other engineering based methods such as agile (if you pursue the latter you can use those hard won mentors you have gotten). Weekly or bi-weekly is the same as above, but the date becomes a range and you talk about what happened over that period of time. This is better for a team that has only a couple of people doing the logs because overall logs get more and more tedious.
@@ -86,9 +87,9 @@ Pure goals is simply as follows.
    +------+--------------------+---------------------------------+
    | Date | Goal and Goal Date | Was the Goal Completed in Time? |
    +======+====================+=================================+
-   | Quis | Nostrud         | Exercitation ullamco            |
+   | Quis | Nostrud            | Exercitation ullamco            |
    +------+--------------------+---------------------------------+
-   | Nisi | Ut aliquip ex ea   | Commodo consequat            |
+   | Nisi | Ut aliquip ex ea   | Commodo consequat               |
    +------+--------------------+---------------------------------+
    | Duis | Aute irure dolor   | In reprehenderit in voluptate   |
    +------+--------------------+---------------------------------+
@@ -110,24 +111,24 @@ Think about telling a story of how your team progressed from brainstorm and idea
 
 Each time you iterate upon a part of your robot or move a step further in the engineering design process, document it. Important questions to ask while writing this section are below.
 
-* What prompted this change/why was this change made?
-* What was the change?
-* How was the modification enacted?
-* What were the results (good and bad)?
-* How can this design be further improved?
+- What prompted this change/why was this change made?
+- What was the change?
+- How was the modification enacted?
+- What were the results (good and bad)?
+- How can this design be further improved?
 
 This also includes your first unrealized ideas that your team talked about right when the team came together after the season was released.
 
 Notebook Gallery
 ----------------
 
-* Relic Recovery
+- Relic Recovery
 
- * `4042 (West Super Regional Innovate Winner) <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
-* Rover Ruckus
+  - `4042 (West Super Regional Innovate Winner) <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
+- Rover Ruckus
 
-  * `9794 (Detroit Championship Think Finalist) <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
-  * `14270 (Detroit Championship Motivate Finalist) <https://qrobotics.eu/media/resources/2018-2019/engineering.pdf>`_
-* Skystone
+  - `9794 (Detroit Championship Think Finalist) <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
+  - `14270 (Detroit Championship Motivate Finalist) <https://qrobotics.eu/media/resources/2018-2019/engineering.pdf>`_
+- Skystone
 
-  * `11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-Gwenh02U-9a>`_
+  - `11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-Gwenh02U-9a>`_

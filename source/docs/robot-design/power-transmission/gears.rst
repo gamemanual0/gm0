@@ -1,7 +1,7 @@
 Gears
 =====
 
-Gears, like sprockets and pulleys, are used in power transmission for three common applications: changing the direction of power, changing the amount of torque, and changing RPM.  Gears are a less common transmission option than chain, but are still very viable for most use cases.  Gears are equally as reliable as chain, but can’t be used for transferring power over long distances.  Many teams dislike gears when using kit-based channels because the hole pattern limits which combinations of gears can be used.  Consequently, it may be difficult to achieve a desired specific gear ratio.  However, with :term:`extrusion <Extrusion>` systems, it’s very easy to use different ratios, since the gears can be moved around in extrusion.
+Gears, like sprockets and pulleys, are used in power transmission for three common applications: changing the direction of power, changing the amount of torque, and changing RPM. Gears are a less common transmission option than chain, but are still very viable for most use cases. Gears are equally as reliable as chain, but can’t be used for transferring power over long distances. Many teams dislike gears when using kit-based channels because the hole pattern limits which combinations of gears can be used. Consequently, it may be difficult to achieve a desired specific gear ratio. However, with :term:`extrusion <Extrusion>` systems, it’s very easy to use different ratios, since the gears can be moved around in extrusion.
 
 Gears are made in different materials, with the most common being 7075 aluminum. **Never mesh plastic and metal gears together**. It is acceptable to mesh different types of metal gears together, as long as they have the same diametral pitch. It is advised to stay away from TETRIX aluminum gears as they wear down very easily. Some REV gears are made out of Delrin, a self-lubricating plastic. It is a durable material, but keep in mind that it is very possible to strip the bore using a plastic gear. Thus, we advise using the REV Hex Hub Strengthener to avoid stripping the bore on Delrin gears.
 
@@ -10,20 +10,20 @@ Bevel gears are a special type of gear that allows power transmission in two dif
 Terms
 -----
 
-* Module refers to the amount of diametral pitch in millimeters per tooth. Simply, it refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module. * Diametral pitch (DP) refers to the gear tooth size.
+- Module refers to the amount of diametral pitch in millimeters per tooth. Simply, it refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module. * Diametral pitch (DP) refers to the gear tooth size.
 
   It is expressed as the number of teeth per inch of pitch diameter. Teeth size varies inversely with DP. * Pitch diameter (PD) refers to the diameter of the imaginary pitch circle that is drawn when the gear is meshed with the pitch circle of another gear. **For gears, PD < OD**.
 
   .. math::
 
-    PD = Module * Number\ of\ Teeth
+     PD = Module * Number\ of\ Teeth
 
-    PD = \frac{Number\ of\ Teeth}{PD}
+     PD = \frac{Number\ of\ Teeth}{PD}
 
-    PD = OD - (2 * Module)
+     PD = OD - (2 * Module)
 
-* Outer diameter (OD) refers to the actual outside diameter of the gear. Simply, it is the circle that the outer face of the tooth draws when it rotates around.
-* Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
+- Outer diameter (OD) refers to the actual outside diameter of the gear. Simply, it is the circle that the outer face of the tooth draws when it rotates around.
+- Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
 
 Meshing Gears
 -------------
@@ -52,21 +52,18 @@ It is highly recommended to use white lithium grease or a similar lubricant betw
 Advantages
 ----------
 
-* **Gears are a solid and proven power transmission method**. Early examples of gears date back to the 4th century BC, so you’re using technology with millennia of development behind it. When it comes to gears, there’s not much that we haven’t figured out. * **Gears are simple to use with both channel and extrusion**.
-
-* On channel, your gears are already spaced correctly - you just need to choose the right pair of gears. Extrusion gives you even more flexibility - just slide your gears into mesh, and you can have whatever ratio you want. * **Gears can give you big reductions in small areas**.
-
-* Depending on the gear combination, one can achieve big ratios in reduction in very small spaces (for example, a 10 tooth gear and a 100 tooth gear will take much less space than a 10 tooth sprocket and a 100 tooth sprocket). * **Gears require no tensioning.
-
-* Once the spacing is correct, the gears will operate quickly**. Unlike chain or belt, there is nothing further transferring the power, which cuts out the need to properly tension chain or belt. This of course has the drawback of not being able to transfer power far distances.
+- **Gears are a solid and proven power transmission method**. Early examples of gears date back to the 4th century BC, so you’re using technology with millennia of development behind it. When it comes to gears, there’s not much that we haven’t figured out.
+- **Gears are simple to use with both channel and extrusion**. On channel, your gears are already spaced correctly - you just need to choose the right pair of gears. Extrusion gives you even more flexibility - just slide your gears into mesh, and you can have whatever ratio you want.
+- **Gears can give you big reductions in small areas**. Depending on the gear combination, one can achieve big ratios in reduction in very small spaces (for example, a 10 tooth gear and a 100 tooth gear will take much less space than a 10 tooth sprocket and a 100 tooth sprocket).
+- **Gears require no tensioning: once the spacing is correct, the gears will operate quickly**. Unlike chain or belt, there is nothing further transferring the power, which cuts out the need to properly tension chain or belt. This of course has the drawback of not being able to transfer power far distances.
 
 Disadvantages
 -------------
 
-* **Sometimes, the ratio you want might not be easy to build**. Channel spacing limits gear ratios, but this can be circumvented with compound ratios and a bit of creativity.
-* **Long distance power transfer is impractical with gears**. If you need to transfer power long distances, gear combinations can become complicated very quickly, so belt/chain is preferrable.
-* **Meshing gears can be tricky**. It’s only made worse by the sensitivity of a gear mesh. However, channels do solve this problem, providing pre-spaced holes to easily mesh your gears. Do keep in mind that gear mesh may not be perfect, even with channel.
-* **Gears usually wear faster than sprockets** if there is too much friction between the gears. Teams can use white lithium grease or similar lubricant to help remedy this problem.
+- **Sometimes, the ratio you want might not be easy to build**. Channel spacing limits gear ratios, but this can be circumvented with compound ratios and a bit of creativity.
+- **Long distance power transfer is impractical with gears**. If you need to transfer power long distances, gear combinations can become complicated very quickly, so belt/chain is preferrable.
+- **Meshing gears can be tricky**. It’s only made worse by the sensitivity of a gear mesh. However, channels do solve this problem, providing pre-spaced holes to easily mesh your gears. Do keep in mind that gear mesh may not be perfect, even with channel.
+- **Gears usually wear faster than sprockets** if there is too much friction between the gears. Teams can use white lithium grease or similar lubricant to help remedy this problem.
 
 .. figure:: images/gears/11115-gear-dt.png
    :alt: A gear-based drivetrain by 11115, Gluten Free
@@ -77,4 +74,3 @@ Disadvantages
    :alt: A gear-based drivetrain by 13075, Coram Deo Robotics
 
    13075 Coram Deo Robotics, Rover Ruckus gear-based drivetrain
-

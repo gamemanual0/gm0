@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Wiring Guide
 ============
 
@@ -10,26 +12,26 @@ Have you ever looked inside your robot and thought "what a mess of wires"? Wirin
 
 While tedious and often no fun, wiring can mean the difference between a win and loss. The best robot in the world won't be able to work if a wire is loose or gets tangled up in the middle of a match. Thus it is imperative that wiring is purposefully thought out when designing and building a robot.
 
-FIRST FTC Wiring Guide
-----------------------
+*FIRST*\ |reg| FTC Wiring Guide
+-------------------------------
 
-FIRST has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won’t be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, FIRST has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
+*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won’t be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST*\ |reg| has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
 
 General Advice
 --------------
 
-* **Always label wires! When bunched up, you may not know which wire goes into which port**.
-* Tie together loose wires, and better yet, tie that bunch of wires to a structural component. This will ensure that wires don't interfere with your mechanisms.
-* **Treat every wire connection as a point of failure**. Therefore, use electrical tape to tape up and insulate connections and utilize strain relief as much as possible.
-* **Strain relief** should be used everywhere possible. It is highly recommended for teams to use products like the :term:`REV USB Retention Mount <USB Retention Mount>`, as well as 3D printing strain relief methods for devices such as the :term:`Expansion Hub` and robot controller phones.
-* **DO NOT solder a wire before crimping it**. Solder can "creep" and losing connection is possible, possibly leading to fire.
-* **Keep all wire runs as short as possible** to prevent entanglement and improve wire management.
-* **When using data/sensor cables, keep them away from motors.** This will reduce electromagnetic interference (EMI). Add a ferrite bead if possible.
-* **Crimped connectors are generally better than soldered connectors**, as solder joints can break easier than a crimped connection.
-* **Keep wires tucked away from moving mechanisms,** and ensure that you will not be at risk of a mechanism snagging a wire. This is a proper application of materials such as acrylic, which allow drivers to see inside the robot while keeping wires out of the way of other robots/game pieces. It is advised for teams to purchase removable velcro ties or cable ties to aid with cable management.
-* **For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are preferable.** This means a lower resistance across the wire and higher power throughput. This is negligible for data wires, however.
-* **Small wires and cables are fragile.** Treat them as such, and don’t put them in an area where they will constantly be hit by another object. Larger power cables can take much more abuse.
-* **Ensure that your wires are kept out of pinch points** where another mechanism could sandwich the wire. This is especially important in arms or mechanisms that are hinged.
+- **Always label wires! When bunched up, you may not know which wire goes into which port**.
+- Tie together loose wires, and better yet, tie that bunch of wires to a structural component. This will ensure that wires don't interfere with your mechanisms.
+- **Treat every wire connection as a point of failure**. Therefore, use electrical tape to tape up and insulate connections and utilize strain relief as much as possible.
+- **Strain relief** should be used everywhere possible. It is highly recommended for teams to use products like the :term:`REV USB Retention Mount <USB Retention Mount>`, as well as 3D printing strain relief methods for devices such as the :term:`Expansion Hub` and robot controller phones.
+- **DO NOT solder a wire before crimping it**. Solder can "creep" and losing connection is possible, possibly leading to fire.
+- **Keep all wire runs as short as possible** to prevent entanglement and improve wire management.
+- **When using data/sensor cables, keep them away from motors.** This will reduce electromagnetic interference (EMI). Add a ferrite bead if possible.
+- **Crimped connectors are generally better than soldered connectors**, as solder joints can break easier than a crimped connection.
+- **Keep wires tucked away from moving mechanisms,** and ensure that you will not be at risk of a mechanism snagging a wire. This is a proper application of materials such as acrylic, which allow drivers to see inside the robot while keeping wires out of the way of other robots/game pieces. It is advised for teams to purchase removable velcro ties or cable ties to aid with cable management.
+- **For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are preferable.** This means a lower resistance across the wire and higher power throughput. This is negligible for data wires, however.
+- **Small wires and cables are fragile.** Treat them as such, and don’t put them in an area where they will constantly be hit by another object. Larger power cables can take much more abuse.
+- **Ensure that your wires are kept out of pinch points** where another mechanism could sandwich the wire. This is especially important in arms or mechanisms that are hinged.
 
 .. figure:: images/wiring/bad-wiring.png
    :alt: An example of poor wiring
@@ -44,12 +46,10 @@ General Advice
 
    Good example of wiring by 731 Wannabee Strange, Rover Ruckus
 
-
 .. figure:: images/wiring/8417-wiring.png
    :alt: An example of good wiring by 8417
 
    Good example of wiring by 8417 ‘Lectric Legends
-
 
 .. figure:: images/wiring/7244-wiring.png
    :alt: An example of good wiring by 7244
@@ -117,10 +117,10 @@ REV Grounding Strap
 Power distribution blocks/panels
    The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each :term:`Expansion Hub`). The block can be connected to the Servo Power Module to boost voltage for servos or provide continuous rotation for the :term:`VEX 393 EDR`.
 Dryer sheets
-   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by FIRST or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can’t hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
+   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can’t hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray
    Staticide is a spray that helps to keep static off of the robot. Please be sure to spray your robot before an event and not during the event.
 Common causes of static
-   * Every single contact point of your robot to the floor will increase the amount of static buildup.
-   * Too much turning scrub (or traction when wheels try to turn). This is possible if a 4WD or 6WD (no center drop) with all traction wheels is used.
-   * A conductive part dragging along the ground. For example, try not to have an intake touch the ground when the robot is moving as much as possible. Foam wheels and foam rollers are a common culprit.
+   - Every single contact point of your robot to the floor will increase the amount of static buildup.
+   - Too much turning scrub (or traction when wheels try to turn). This is possible if a 4WD or 6WD (no center drop) with all traction wheels is used.
+   - A conductive part dragging along the ground. For example, try not to have an intake touch the ground when the robot is moving as much as possible. Foam wheels and foam rollers are a common culprit.

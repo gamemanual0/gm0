@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Control Loops
 =============
 
@@ -153,7 +155,7 @@ Feedforward Pseudocode
 Motion Profiles
 ---------------
 
-Motion profiling is a technique popularized in FRC that is starting to find its way to FTC. A motion profile is a function used to change the speed of a power transmission system in a controlled and consistent way by changing desired speed gradually rather than instantaneously.
+Motion profiling is a technique popularized in FRC\ |reg| that is starting to find its way to FTC. A motion profile is a function used to change the speed of a power transmission system in a controlled and consistent way by changing desired speed gradually rather than instantaneously.
 
 Let’s illustrate this with an example: say you want your drivetrain, which is initially unmoving, to drive forward at full speed. Ordinarily, you would set all drivetrain motors to full power in the code. However, this can be problematic because even though you tell the motors to move at full speed instantaneously, the drivetrain takes time to get to full speed. This can lead to uncontrolled movements which have the potential to make autonomous less consistent and, perhaps more importantly, damage mechanisms.
 
@@ -162,13 +164,13 @@ Motion profiling attempts to solve this issue.
 Advantages
 ^^^^^^^^^^
 
-* More controlled and predictable movements
-* Reduces rapid change of applied motor voltage
+- More controlled and predictable movements
+- Reduces rapid change of applied motor voltage
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Can be slower
+- Can be slower
 
 There are two main types of motion profiles: **Trapezoidal** profiles and **S-Curve** profiles. Trapezoidal profiles accelerate the system at a constant rate, and S-Curve profiles assume jerk (the speed acceleration changes) is constant. Given that S-Curve profiles are not optimal for controlling 2d trajectories (such as driving) and exist to reduce slippage (which usually only occurs when driving in FTC), trapezoidal profiles are recommended for most FTC applications.
 
@@ -206,6 +208,5 @@ Here is some pseudocode for a trapezoidal profile:
       if position_error <= (output_velocity * output_velocity) / (2 * MAX_ACCELERATION)):
           output_velocity = current_velocity - direction_multiplier * MAX_ACCELERATION * (current_time - previous_time)
           output_acceleration = -MAX_ACCELERATION
-
 
       previous_time = current_time

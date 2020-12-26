@@ -87,7 +87,7 @@ FSMs are the right tool to use when a robot needs to complete multiple tasks at 
 
 Often times, teams have issues because their teleop executes in a loop and their servo logic has sleeps in it. But, we can avoid this if we write code in an **asynchronous** fashion - where instead of waiting for a task to complete before doing the next one, tasks are performed at the same time, and each task's state is checked without stopping the other tasks from executing.
 
-An example of this would be that if one had a robot similar to `Gluten Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, and one wanted to automate the scoring lift so that the drivers don’t have to think while the bot deposits the minerals.  There are two parts of the bot that are relevant to us in this exercise: the angled scoring lift, and the servo that tips the dumper so the minerals fall out. The goal is to be able to push a button, and then the bot will:
+An example of this would be that if one had a robot similar to `Gluten Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, and one wanted to automate the scoring lift so that the drivers don’t have to think while the bot deposits the minerals. There are two parts of the bot that are relevant to us in this exercise: the angled scoring lift, and the servo that tips the dumper so the minerals fall out. The goal is to be able to push a button, and then the bot will:
 
 - extend the lift,
 - at full lift extension, angle the mineral bucket servo to deposit the minerals,
@@ -124,9 +124,9 @@ Now, let’s get into actually implementing the code for this. In a traditional 
 .. code:: java
 
    /**
-   * Some declarations that are boilerplate are
-   * skipped for the sake of brevity.
-   * Since there are no real values to use, named constants will be used.
+   - Some declarations that are boilerplate are
+   - skipped for the sake of brevity.
+   - Since there are no real values to use, named constants will be used.
    */
 
    @TeleOp(name="FSM Example")
@@ -213,7 +213,6 @@ Now, let’s get into actually implementing the code for this. In a traditional 
                liftState = LiftState.LIFT_START;
            }
           }
-
 
          // small optimization, instead of repeating ourselves in each
          // lift state case besides LIFT_START for the cancel action,

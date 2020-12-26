@@ -2,24 +2,23 @@ Rookie Mistakes: Competition
 ============================
 
 +---------------------------------+-------------------------------------+
-|         **Problem**         |            **Solution**             |
+|         **Problem**             |            **Solution**             |
 +=================================+=====================================+
-| **Neglect drive practice**     | **Constant driver training**       |
-|                             |                                     |
-| * Drivers unfamiliar with robot | * Drivers comfortable with controls |
-| * Robot reliability untested   | * Proven and tested robot          |
+| **Neglect drive practice**      | **Constant driver training**        |
+|                                 |                                     |
+| - Drivers unfamiliar with robot | - Drivers comfortable with controls |
+| - Robot reliability untested    | - Proven and tested robot           |
 +---------------------------------+-------------------------------------+
-| **No game strategy**          | **Strategical driving**           |
-|                             |                                     |
-| * Lack of contingency plans    | * Only purposeful actions taken     |
-| * Weakens alliance strength    | * Efficient and effective driving   |
+| **No game strategy**            | **Strategical driving**             |
+|                                 |                                     |
+| - Lack of contingency plans     | - Only purposeful actions taken     |
+| - Weakens alliance strength     | - Efficient and effective driving   |
 +---------------------------------+-------------------------------------+
-| **Fully driver-controlled**    | **Partially automated tasks**      |
-|                             |                                     |
-| * Less efficient            | * Relieves stress on driver         |
-| * Requires more practice      | * Removes human error             |
+| **Fully driver-controlled**     | **Partially automated tasks**       |
+|                                 |                                     |
+| - Less efficient                | - Relieves stress on driver         |
+| - Requires more practice        | - Removes human error               |
 +---------------------------------+-------------------------------------+
-
 
 Neglecting driver practice to Constant driver training
 ------------------------------------------------------

@@ -15,7 +15,7 @@ Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, often
 .. figure:: images/motor-hardware/spur-gearbox.jpg
    :alt: An example spur gearbox
 
-      Example of a spur gearbox. Note how all gears mesh with only one other gear.
+   Example of a spur gearbox. Note how all gears mesh with only one other gear.
 
 Advantages of Spur Gearboxes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,8 +39,8 @@ Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex Pla
 Advantages of Planetary Gearboxes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Backlash is lower than spur gearbox equivalents. Backlash is defined as the clearance or lost motion caused by gaps between parts. This can easily be explained through putting a wheel or gear on a motor shaft and lightly rotating it. The part should be able to wiggle around a little without having considerable force imparted on it. This is caused because it is impossible for the gear teeth inside the gearbox to mesh perfectly, and is the same for :term:`chain <Chain>` and :term:`sprockets <Sprocket>`, or any other form of power transmission. However, planetary gearboxes have less backlash as they have less stages of gears.
-* Efficiency is better than spur gearboxes. A typical two-stage spur gearbox is about 85% efficient, whereas most two stage planetary gearboxes are 94% efficient.
-* Load capacity is higher for planetary gearboxes. This is due to having multiple teeth engaged per stage, which spreads the load.
+- Backlash is lower than spur gearbox equivalents. Backlash is defined as the clearance or lost motion caused by gaps between parts. This can easily be explained through putting a wheel or gear on a motor shaft and lightly rotating it. The part should be able to wiggle around a little without having considerable force imparted on it. This is caused because it is impossible for the gear teeth inside the gearbox to mesh perfectly, and is the same for :term:`chain <Chain>` and :term:`sprockets <Sprocket>`, or any other form of power transmission. However, planetary gearboxes have less backlash as they have less stages of gears.
+- Efficiency is better than spur gearboxes. A typical two-stage spur gearbox is about 85% efficient, whereas most two stage planetary gearboxes are 94% efficient.
+- Load capacity is higher for planetary gearboxes. This is due to having multiple teeth engaged per stage, which spreads the load.
 
   .. tip:: This means planetary gearboxes will not break as easily when used in high-load applications such as drivetrains.

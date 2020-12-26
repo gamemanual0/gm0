@@ -1,9 +1,11 @@
+.. include:: <isonum.txt>
+
 Getting Started in FTC
 ======================
 
-Welcome to FIRST Tech Challenge! As a new team, you may be slightly overwhelmed and disoriented, wondering where to start. No fear! This guide is meant to help navigate you through your beginning year in FTC.
+Welcome to *FIRST*\ |reg| Tech Challenge! As a new team, you may be slightly overwhelmed and disoriented, wondering where to start. No fear! This guide is meant to help navigate you through your beginning year in FTC.
 
-After registration and going through the STIMS process in the FIRST website, you'll likely have to purchase a starter kit (**which we highly recommend for new teams**) and electronics kit in order to build your robot. The electronics kit is standard for all teams, but please read our kit guide to find out which kit is right for your team.
+After registration and going through the STIMS process in the *FIRST*\ |reg| website, you'll likely have to purchase a starter kit (**which we highly recommend for new teams**) and electronics kit in order to build your robot. The electronics kit is standard for all teams, but please read our kit guide to find out which kit is right for your team.
 
 The physical components of a robot are split into the hardware and electronics section. On the hardware side, you have your :doc:`drivetrain <../robot-design/drivetrains/index>`, :doc:`linear extension mechanisms <../robot-design/linear-motion-guide/index>`, a :doc:`claw <../robot-design/passive-intake-claw>` or :doc:`intake <../robot-design/active-intake/index>` to pick up game elements, as well as any other mechanisms specific to the game. On the electronics side, there are the two :term:`REV Expansion Hubs <Expansion Hub>` (or one Control Hub and one Expansion Hub), the Android phone(s), and controllers.
 
@@ -15,19 +17,19 @@ Each team will have at least one chance to compete, either at Qualifier Events o
 
 |gm2| is published when the season officially starts, and provides game specific rules that change from year to year. While we cannot provide any help for |gm2|, here are some rules in |gm1| for teams to be aware of, as many new teams run into problems during their tournament because of it.
 
-* All teams MUST bring the Consent and Release forms to every competition. Teams will not be allowed to compete if the forms are not signed.
-* The maximum **starting** size up the robot is an 18 inch cube. Technically, the robot may not touch the sizing cube, which usually is not a perfect cube. The robot may expand after the match starts. This sizing limit has been in place since the start of FTC.
-* Sharp corners, liquids, and certain wheels are not permitted. Be sure to file down all sharp edges for your safety (sticking your hand into the robot can result in a gash otherwise) and so that your robot won't damage the field or other robots. We advise you to use the wheels that are listed in this guide only, since you risk unknowingly using illegal wheels otherwise.
-* Any wheels that the inspectors think will damage the field tiles are not legal. This includes any wheels with ridges or bumps, such as RC wheels, as they can dig into the floor tiles and rip them up.
-* If the inspectors are uncertain about the legality of your wheels, they will have you do the Wheel/Tread Playing Field Damage Test, where the robot is run into an immovable surface (wall) for up to 60 seconds to see if there is any damage to the field tiles.
-* Hydraulic and pneumatic devices are prohibited. Sorry, only the FRC kids get nice toys.
-* :term:`Commercial Off the Shelf (COTS) <COTS>` parts are allowed **as long as they only have one degree of freedom**.
-* One degree of freedom generally means that the mechanism can only move along one axis. Typically, one DoF = one joint. Multiple joints allow movement in 2 or more planes.
-* **Each team must have a robot power button next to the robot power switch**.
-* Each team must have a secure battery and phone mount.
-* The recommended batteries are the REV slim battery and Modern Robotics   Battery (sold on `goBILDA <https://www.gobilda.com>`_). The Tetrix battery is fine,   **however, Tamiya connectors are fragile and unreliable**.
-* Only 8 DC motors and 12 :term:`servos <Servo>` are allowed. The :term:`VEX 393 EDR` counts as a :term:`servo <Servo>`.
-* Modifying :term:`servos <Servo>` and replacing fuses are not allowed.
+- All teams MUST bring the Consent and Release forms to every competition. Teams will not be allowed to compete if the forms are not signed.
+- The maximum **starting** size up the robot is an 18 inch cube. Technically, the robot may not touch the sizing cube, which usually is not a perfect cube. The robot may expand after the match starts. This sizing limit has been in place since the start of FTC.
+- Sharp corners, liquids, and certain wheels are not permitted. Be sure to file down all sharp edges for your safety (sticking your hand into the robot can result in a gash otherwise) and so that your robot won't damage the field or other robots. We advise you to use the wheels that are listed in this guide only, since you risk unknowingly using illegal wheels otherwise.
+- Any wheels that the inspectors think will damage the field tiles are not legal. This includes any wheels with ridges or bumps, such as RC wheels, as they can dig into the floor tiles and rip them up.
+- If the inspectors are uncertain about the legality of your wheels, they will have you do the Wheel/Tread Playing Field Damage Test, where the robot is run into an immovable surface (wall) for up to 60 seconds to see if there is any damage to the field tiles.
+- Hydraulic and pneumatic devices are prohibited. Sorry, only the FRC\ |reg| kids get nice toys.
+- :term:`Commercial Off the Shelf (COTS) <COTS>` parts are allowed **as long as they only have one degree of freedom**.
+- One degree of freedom generally means that the mechanism can only move along one axis. Typically, one DoF = one joint. Multiple joints allow movement in 2 or more planes.
+- **Each team must have a robot power button next to the robot power switch**.
+- Each team must have a secure battery and phone mount.
+- The recommended batteries are the REV slim battery and Modern Robotics Battery (sold on `goBILDA <https://www.gobilda.com>`_). The Tetrix battery is fine, **however, Tamiya connectors are fragile and unreliable**.
+- Only 8 DC motors and 12 :term:`servos <Servo>` are allowed. The :term:`VEX 393 EDR` counts as a :term:`servo <Servo>`.
+- Modifying :term:`servos <Servo>` and replacing fuses are not allowed.
 
 .. toctree::
    :maxdepth: 1

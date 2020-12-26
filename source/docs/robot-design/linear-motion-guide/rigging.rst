@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Rigging
 =======
 
@@ -24,14 +26,14 @@ Once the last stage hits its limit, the next to last stage extends outwards, and
 
 Here are some additional considerations when rigging a continuous system.
 
-* As a general rule, continuous spools can be powered by a system with a
+- As a general rule, continuous spools can be powered by a system with a
   relatively low gear ratio.
-* The extension string and retraction string **do not need to be separate
+- The extension string and retraction string **do not need to be separate
   strings, but it is much easier to tension the system if they are separate**.
-* The extension spool and retraction spool should be the same diameter.
-* You need to make sure, as with any time you work with strings and pulleys,
+- The extension spool and retraction spool should be the same diameter.
+- You need to make sure, as with any time you work with strings and pulleys,
   that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
-* The width and diameter of your spool should be enough such that once fully
+- The width and diameter of your spool should be enough such that once fully
   wounded, your string never overlaps.
   The reason for this is because when the string starts to overlap,
   this can change the diameter of your spool,
@@ -65,12 +67,12 @@ As the name suggests, continuous retraction utilizes the same retraction method 
 
 Advantages:
 
-* Requires less string
+- Requires less string
   (less strings to tension, less strings that can become loose)
 
 Disadvantages:
 
-* Requires more space, as it demands a larger spool retraction spool
+- Requires more space, as it demands a larger spool retraction spool
 
 Elastic retraction
 ~~~~~~~~~~~~~~~~~~
@@ -79,14 +81,14 @@ Instead of retracting using a retraction spool, one common way to retract is to 
 
 Advantages:
 
-* There is only one string to tension, instead of multiple, so tensioning is simpler.
-* The elastic automatically tensions the extension string.
+- There is only one string to tension, instead of multiple, so tensioning is simpler.
+- The elastic automatically tensions the extension string.
 
 Disadvantages:
 
-* Since the elastic applies a force to the slide at all times, this force   opposes the force applied by the motor when extending the slides. **Thus, elastic retraction decreases extension speed considerably**.
-* The elastic does not apply a constant force at all times. It applies force proportional to the amount that the slide is extended, so retraction may not be smooth and controlled, like other rigging methods.
-* It is very easy to unwind your extension spool when using elastic retraction.
+- Since the elastic applies a force to the slide at all times, this force opposes the force applied by the motor when extending the slides. **Thus, elastic retraction decreases extension speed considerably**.
+- The elastic does not apply a constant force at all times. It applies force proportional to the amount that the slide is extended, so retraction may not be smooth and controlled, like other rigging methods.
+- It is very easy to unwind your extension spool when using elastic retraction.
 
 Cascade retraction
 ~~~~~~~~~~~~~~~~~~
@@ -95,19 +97,19 @@ Cascade retraction entails simply rigging another set of cascade string that can
 
 Advantages:
 
-* Very space-efficient
+- Very space-efficient
 
 Disadvantages:
 
-* Requires more string (less strings to tension, less strings that can become loose)
+- Requires more string (less strings to tension, less strings that can become loose)
 
 Additional Considerations:
 
-* If the system has only one stage, cascade rigging is **identical to continuous rigging**
-* Unlike continuous rigging, each time a new stage is added to a cascaded   system, the gear ratio required to maintain the same extension speed   increases. For instance, if 2 stages are added to a 1 stage cascaded lift that is geared at a ratio of 3:1, the ratio must increase by a factor of   :math:`\frac{2+1}{1}` to maintain the same speed, changing the ratio to 9:1.
-* One disadvantage of cascade rigging is that each string must be kept tensioned. This is still the case with continuous rigging, but you have many more strings to keep track of, as tension must be maintained on all of them.
+- If the system has only one stage, cascade rigging is **identical to continuous rigging**
+- Unlike continuous rigging, each time a new stage is added to a cascaded system, the gear ratio required to maintain the same extension speed increases. For instance, if 2 stages are added to a 1 stage cascaded lift that is geared at a ratio of 3:1, the ratio must increase by a factor of :math:`\frac{2+1}{1}` to maintain the same speed, changing the ratio to 9:1.
+- One disadvantage of cascade rigging is that each string must be kept tensioned. This is still the case with continuous rigging, but you have many more strings to keep track of, as tension must be maintained on all of them.
 
-* You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
+- You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
 
 .. figure:: images/rigging/continuous-retraction.jpg
    :alt: A diagram of continuous retraction
@@ -159,7 +161,7 @@ The main disadvantage of belt-driven slides is the amount of space they take up.
 Belt or chain driven elevators
 ------------------------------
 
-Almost ubiquitous in FRC, belt and chain elevators have existed seemingly forever. The basic premise is to have sprockets or pulleys mounted at the top and bottom of the elevator to the robot superstructure. Then, the belt or chain is hard bolted to the elevator near the bottom sprocket or pulley. When the chain or belt is driven, the elevator will move up and down. It is possible for elevators to have multi stage designs, but powering them will be more complex.
+Almost ubiquitous in FRC\ |reg|, belt and chain elevators have existed seemingly forever. The basic premise is to have sprockets or pulleys mounted at the top and bottom of the elevator to the robot superstructure. Then, the belt or chain is hard bolted to the elevator near the bottom sprocket or pulley. When the chain or belt is driven, the elevator will move up and down. It is possible for elevators to have multi stage designs, but powering them will be more complex.
 
 .. figure:: images/rigging/7236-belt-driven-elevator.jpg
    :alt: 7236's belt driven elevator
@@ -214,20 +216,20 @@ Cable carrier, the standard wire management method within industry, is plastic c
 
 Here are some links to various drag chain products:
 
-* `igus cable carrier <https://www.igus.com/info/energy-chains-e2-micro-small-cable-carrier>`_
-* `uxcell 10x10mm drag chain, from Amazon <https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_
+- `igus cable carrier <https://www.igus.com/info/energy-chains-e2-micro-small-cable-carrier>`_
+- `uxcell 10x10mm drag chain, from Amazon <https://www.amazon.com/uxcell-InnerH-InnerW-Plastic-Carrier/dp/B01LX02PSW/ref=sr_1_1?keywords=drag%2Bchain&qid=1566188144&s=gateway&sr=8-1&th=1>`_
 
 Advantages:
 
-* Difficult to get tangled/hooked onto other objects or robots
-* Sturdy and durable
-* Protects wires very well
+- Difficult to get tangled/hooked onto other objects or robots
+- Sturdy and durable
+- Protects wires very well
 
 Disadvantages:
 
-* Large form factor, takes up a lot of space
-* Links need to be added if additional extension is needed
-* Can be on the heavy side, especially with a long length of drag chain
+- Large form factor, takes up a lot of space
+- Links need to be added if additional extension is needed
+- Can be on the heavy side, especially with a long length of drag chain
 
 .. figure:: images/cable-management/7236-cable-carrier.png
    :alt: 7236's Rover Ruckus robot with cable carriers visible
@@ -241,16 +243,16 @@ While not common within industry, coil cords are still very common (coil cord is
 
 Here are some links to coil cord products:
 
-* `Cable Science NEC (non-electric cord) <https://www.cablescience.com/coils/nec/nec-series.html>`_
+- `Cable Science NEC (non-electric cord) <https://www.cablescience.com/coils/nec/nec-series.html>`_
 
 Advantages:
 
-* Very space-efficient
-* Flexible and can usually extend to any length needed (unlike cable carriers, no new links ever need to be added)
+- Very space-efficient
+- Flexible and can usually extend to any length needed (unlike cable carriers, no new links ever need to be added)
 
 Disadvantages:
 
-* Can get tangled more easily, as it is less stiff than drag chain
+- Can get tangled more easily, as it is less stiff than drag chain
 
 .. image:: images/cable-management/10030-coil-cord-1.png
    :alt: 10030's robot's coil cord

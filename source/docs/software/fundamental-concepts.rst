@@ -13,21 +13,21 @@ Examples will mostly be in Java, where ``//`` indicates a comment which the prog
    System.out.println(total); // Printing, it will show up as 11.
 
 Java-Specific Exploratory Questions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
-* If I didn’t set a value for number and then I printed it, what would it print?
-* What other operations can I do with number and secondNumber?
-* Can I set a decimal to number? If not, what happens?
-* What is ``System.out.println();``?
-* Delete one character in the code. Remember the error (if any), and then undo it. Delete another part. How many different errors can you get?
+- If I didn’t set a value for number and then I printed it, what would it print?
+- What other operations can I do with number and secondNumber?
+- Can I set a decimal to number? If not, what happens?
+- What is ``System.out.println();``?
+- Delete one character in the code. Remember the error (if any), and then undo it. Delete another part. How many different errors can you get?
 
 There are different types of variables
 --------------------------------------
 
-* Numbers (Integers, Floats, Doubles)
-* Strings (Text) or characters
-* And a lot more depending on the language (Ex: Arrays)
-* They help tell the program know the basis of what it should do with a variable.
+- Numbers (Integers, Floats, Doubles)
+- Strings (Text) or characters
+- And a lot more depending on the language (Ex: Arrays)
+- They help tell the program know the basis of what it should do with a variable.
 
 ::
 
@@ -42,9 +42,9 @@ There are different types of variables
 Java-Specific Exploratory Questions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Replace the text in ``coolName`` to something else. Your name, a phone number, your favorite anime. What about emotes and copypastas? What about characters in other languages?
-* Try adding a number and a string, what happens?
-* Is it possible to add multiple strings and numbers together?
+- Replace the text in ``coolName`` to something else. Your name, a phone number, your favorite anime. What about emotes and copypastas? What about characters in other languages?
+- Try adding a number and a string, what happens?
+- Is it possible to add multiple strings and numbers together?
 
 Important Control Structures
 ----------------------------

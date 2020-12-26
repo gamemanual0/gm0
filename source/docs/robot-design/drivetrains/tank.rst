@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Tank (Skid-Steer) Drivetrains
 =============================
 
@@ -6,7 +8,7 @@ Tank (Skid-Steer) Drivetrains
 
 **Recommended only for first drivetrain, not for competitions**
 
-This rookie drivetrain is considered one of the inferior drivetrains, though it is usable at low competition levels. This is the introductory drivetrain type for many rookies, as it is promoted in official guides published by FIRST (giving it the name pushbot). It often has :term:`direct driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with unpowered :term:`omni wheels <Omni Wheel>`.
+This rookie drivetrain is considered one of the inferior drivetrains, though it is usable at low competition levels. This is the introductory drivetrain type for many rookies, as it is promoted in official guides published by *FIRST*\ |reg| (giving it the name pushbot). It often has :term:`direct driven <Direct Drive>` :term:`traction wheels <Traction wheel>` with unpowered :term:`omni wheels <Omni Wheel>`.
 
 This type of drivetrain has poor turning as the center of turning is at the back of the robot between the two powered wheels. In comparison to other drivetrains, it has poor acceleration due to only using two motors.
 
@@ -17,18 +19,18 @@ Even though it may not be an optimal drivetrain, it is still possible to be comp
 Advantages
 ^^^^^^^^^^
 
-* Most simple drivetrain to build
-* No need to worry about powering all four wheels
+- Most simple drivetrain to build
+- No need to worry about powering all four wheels
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Slower than other options
-* Underpowered (all other drivetrain options typically use 4 motors)
-* Uses the Tetrix MAX motor, which is prone to burning out easily, is underpowered, and has a fragile gearbox.
-* Lacks agility and maneuverability due to 2 motor turning
-* Poor acceleration due to 2 motors
-* Often :term:`direct driven <Direct Drive>`,
+- Slower than other options
+- Underpowered (all other drivetrain options typically use 4 motors)
+- Uses the Tetrix MAX motor, which is prone to burning out easily, is underpowered, and has a fragile gearbox.
+- Lacks agility and maneuverability due to 2 motor turning
+- Poor acceleration due to 2 motors
+- Often :term:`direct driven <Direct Drive>`,
   which is highly discouraged for drivetrains
 
 .. figure:: images/tank/tetrix-pushbot.jpg
@@ -54,17 +56,17 @@ Off-center turning, which may or may not be a drawback, is nearly ubiquitous amo
 Advantages
 ^^^^^^^^^^
 
-* More maneuverable than 2WD
-* Solid acceleration and traction
-* Can traverse terrain if the chassis is raised high enough
-* Good pushing power for defense, yet maneuverable enough to avoid it
+- More maneuverable than 2WD
+- Solid acceleration and traction
+- Can traverse terrain if the chassis is raised high enough
+- Good pushing power for defense, yet maneuverable enough to avoid it
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Can tip more easily than 6WD/8WD with a high center of mass
-* All traction wheel 4WD can have decreased maneuverability
-* Weight distribution factors into the turning point and turning radius of the robot
+- Can tip more easily than 6WD/8WD with a high center of mass
+- All traction wheel 4WD can have decreased maneuverability
+- Weight distribution factors into the turning point and turning radius of the robot
 
 .. figure:: images/tank/3736-modified-4wd.png
    :alt: 3736 Serious Business' modified 4WD
@@ -108,24 +110,24 @@ Moreover, **most drop center 6 wheel drives are made using custom drivetrains** 
 Advantages
 ^^^^^^^^^^
 
-* Great traction and maneuverability
-* Good acceleration, can have a high top speed
-* Great stability under all robot weights
-* Able to play defense
+- Great traction and maneuverability
+- Good acceleration, can have a high top speed
+- Great stability under all robot weights
+- Able to play defense
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Drop-center 6WD is tricky to build with :term:`channel <Channel>` based systems, though this has been partially mitigated with the `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_
-* Drop-center 6WD is slightly worse at turning, but has more traction
-* Drop-center 6WD is dependent on field conditions
-* Corner omni 6WD has less traction
-* Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
+- Drop-center 6WD is tricky to build with :term:`channel <Channel>` based systems, though this has been partially mitigated with the `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_
+- Drop-center 6WD is slightly worse at turning, but has more traction
+- Drop-center 6WD is dependent on field conditions
+- Corner omni 6WD has less traction
+- Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
 
 .. figure:: images/tank/tilerunner-6wd.jpg
    :alt: AndyMark's TileRunner 6wd
 
- COTS Andymark Tilerunner Drivetrain with 0.05” center drop. **Not recommended due to price**.
+COTS Andymark Tilerunner Drivetrain with 0.05” center drop. **Not recommended due to price**.
 
 .. figure:: images/tank/7236-6wd.png
    :alt: 7236 Recharged Green's 6wd
@@ -156,17 +158,17 @@ Teams also have the option of using doubled omni wheels on the outer four wheels
 Advantages
 ^^^^^^^^^^
 
-* Combines the stability of 6WD with the agility of 4WD
-* Even more stable than 6WD
-* Fantastic traction and acceleration
-* Great for defense
+- Combines the stability of 6WD with the agility of 4WD
+- Even more stable than 6WD
+- Fantastic traction and acceleration
+- Great for defense
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Takes up more space than 6WD
-* Powering all 8 wheels can be tricky
-* Without adequate center drop, turning can be drastically reduced
+- Takes up more space than 6WD
+- Powering all 8 wheels can be tricky
+- Without adequate center drop, turning can be drastically reduced
 
 .. figure:: images/tank/3846-8wd.jpg
    :alt: 3846 Maelstrom's 8WD
@@ -193,15 +195,15 @@ While it is possible to implement tread drive successfully, such as in the examp
 Advantages
 ^^^^^^^^^^
 
-* Very good at traversing terrain
-* Fantastic traction and pushing power
+- Very good at traversing terrain
+- Fantastic traction and pushing power
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-* Suffers in maneuverability and top speed
-* Very complex to implement
-* Treads are prone to breakage and can fall off easily
+- Suffers in maneuverability and top speed
+- Very complex to implement
+- Treads are prone to breakage and can fall off easily
 
 .. figure:: images/tank/5975-tread.png
    :alt: 5975 Cybots' Tread Drive Render
