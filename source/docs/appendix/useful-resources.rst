@@ -15,7 +15,7 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `2020-2021 Game Manual Part 1 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf>`_
   - `2020-2021 Game Manual Part 2* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-traditional-events.pdf>`_
   - `2020-2021 Game Manual Part 2 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-remote-events.pdf>`_
-  - `FTC Forum - F\IRST <https://ftcforum.firstinspires.org/>`_
+  - `FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_
   - `Robot Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`_
   - `Field Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-inspection-checklist.pdf>`_
   - `DIY Field Perimeter Build Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/low-cost-field-perimeter-guide.pdf>`_
@@ -26,8 +26,8 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `Mentor Manual <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf>`_
 - General Team Resources
 
-  - `Simbotics Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
-  - `F\IRST things F\IRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
+  - `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
+  - `FIRST things FIRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
   - `(Unofficial) FTC Tutorials <http://ftctutorials.com/>`_
   - `The Orange Alliance (TOA) (Competition/Performance Data) <https://theorangealliance.org/>`_
   - `TOA Text (Query TOA Data via text messaging) <https://docs.google.com/document/d/1jnZJtvooSV0mYEuOF1iGqjgWHXIShS4nFgICLt5anjI/edit#>`_
@@ -37,8 +37,8 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `Slack (Professional Communication) <https://slack.com/>`_
 - Building Resources - Principles
 
-  - `Simbotics Mechanical Design Principles* <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_
-  - `Simbotics Drivetrain Design (designed for F\IRST Robotics Competition)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
+  - `Simbotics FRC Mechanical Design Principles* <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_
+  - `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
 - Building Resources - Applications
 
   - `Mechatronics: Technologies, Principles, Design, and Analysis of Complex Electro-mechanical Systems <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_
@@ -55,7 +55,7 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `9794 Wizards.exe, many useful rookie guides <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured?disable_polymer=1>`_
 - Building Resources - CAD
 
-  - `SOLIDWORKS Student Sponsorship for F\IRST (SolidWorks Download) <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
+  - `SOLIDWORKS Student Sponsorship for FRC (SolidWorks Download) <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
   - `10650 Hazmat Robotics CAD Tutorials <https://www.youtube.com/watch?v=NsFmFiC0D6g&list=PLQesWhH_pYWJhEFtDG39RZnApo4vaZh7c>`_
   - `10650 Hazmat Robotics CAD Library, Various Vendors <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
   - `Actobotics (ServoCity) Official CAD Library <https://www.servocity.com/step-files>`_
@@ -104,7 +104,7 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `Editable Control Award Document <https://cdn.discordapp.com/attachments/650351992203378690/755478771796017193/Control_Award_Form_Editable_-_UG.doc>`_ - Ryan, FTC 1002
   - `Learn Java for FTC <https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf>`_
   - `Learn (FTC) Code <https://omega9656.github.io/learn-code/>`_
-  - `Controls Engineering in the F\IRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
+  - `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_
 - Vendor Resources
 
   - `REV Robotics Technical Resources <https://www.revrobotics.com/resources/>`_
@@ -113,6 +113,6 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
   - `FTC Discord* <https://discord.com/invite/first-tech-challenge>`_
 
     The *FIRST*\ |reg| Tech Challenge Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
-  - `F\IRST Updates Now Discord <https://discord.com/invite/firstupdatesnow>`_
+  - `FIRST Updates Now Discord <https://discord.com/invite/firstupdatesnow>`_
 
     *FIRST*\ |reg| Updates Now provides FTC/FRC\ |reg| related content including recaps, shows, analysis, reveals, and top 25.
