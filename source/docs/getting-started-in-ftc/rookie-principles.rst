@@ -1,6 +1,6 @@
-===========================
 Rookie Mistakes: Principles
 ===========================
+
 Here are some common mistakes that teams make in the high-level design and strategic planning stages.
 
 +--------------------------------+-----------------------------------------+
@@ -33,7 +33,8 @@ Here are some common mistakes that teams make in the high-level design and strat
 +--------------------------------+-----------------------------------------+
 
 Doing Everything At Once to Perfecting One Objective First
-==========================================================
+----------------------------------------------------------
+
 **Consistency is king.**
 
 .. important:: A common pitfall for first year teams is trying to accomplish all the game objectives at once, especially in tele-op and endgame.
@@ -47,7 +48,8 @@ Teams should always remember the principle that a robot that can complete one th
 .. tip:: Typically, teams which have a solid autonomous and consistent endgame can be competitive at the Qualifier level. This is a recommended goal for new teams.
 
 Overcomplex to Simple
-=====================
+---------------------
+
 .. important:: Another common trap that teams fall into is to overcomplicate needlessly. Simplifying your robot simplifies possible headaches later.
 
 While some robots are very complicated, keep in mind that those teams are generally experienced, have some sort of machining capability, and fully design their robot in CAD. However, many world-class teams often build designs that are ingenious yet ridiculously simple.
@@ -61,7 +63,8 @@ Keeping things simple can be practically achieved through a couple of ways.
 #. Another way to simplify is to build for the shortest travel distance. Obviously, the shortest distance from A to B is in a straight line, so teams should strive to keep the game elements approximately within a reasonably straight line. This can help in solving possible problems if the game elements need to change direction too many times.
 
 Score-first Designing to Designing for Consistency
-====================================================
+----------------------------------------------------
+
 .. important:: Teams should prioritize consistency over scoring ability.
 
 The tortoise beats the rabbit. An overused parable, but it still holds a kernel of truth. Why? Because the tortoise, which plodded along consistently, beat the rabbit, which had hot and cold streaks.
@@ -75,7 +78,8 @@ Too many teams fall into the pit of prioritizing scoring ability more than anyth
 Focus on being able to do that one thing every single time throughout your matches, and you will begin to see how important consistency is. **This tip is equally as important during alliance selections. Top teams will prioritize teams that are consistent far more than scoring ability.** They are not afraid to look at teams who can’t score much, but can contribute every time to the alliance score, rather than selecting a boom-or-bust pick.
 
 Building haphazardly to Building for reliability
-================================================
+------------------------------------------------
+
 .. important:: Build for the worst case scenario, not the best case scenario. When building, teams often overlook a key principle: build for reliability. All too often, teams skimp on the quality of construction as well as materials, which leads to one of the most common reasons for unsuccessful tournaments: part failure.
 
 Teams also do not take into account the rigors of competition and build as if the robot will not encounter opposing robots. Sufficient driver practice will be able to better simulate in-game conditions and test the reliability of the robot. To remedy this problem, refer to the :doc:`Materials Guide <../hardware-basics/materials-guide>` to gain a better understanding of what materials are recommended for use.
@@ -91,7 +95,8 @@ Furthermore, a common cause of robot disconnect is wiring issues. Refer to the :
 All these tips combined will help your robot become more reliable, a key characteristic of all world-level robots.
 
 Fretting about Design to Focusing on Execution
-==============================================
+----------------------------------------------
+
 .. tip:: A good execution of a bad design will beat a bad execution of good design.
 
 .. important:: FTC is all about how well you execute in both the mechanical aspect and the driver aspect. If your goal is winning, then how mechanically beautiful your robot is doesn't matter. Your goal is less of impressing the judges but performing the best you possibly can on the field.

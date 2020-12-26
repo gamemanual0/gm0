@@ -1,8 +1,9 @@
-=====================
 Holonomic Drivetrains
 =====================
+
 Mecanum Drive
-=============
+-------------
+
 Mecanum drivetrains consist of four mecanum wheels which are powered independently by one motor. This configuration angles the velocity of each wheel, allowing the robot to strafe.
 
 The primary advantage to mecanum drive is the maneuverability it affords, especially because the robot can strafe instead of turn and drive. The rollers on mecanum wheels form a 45 degree angle with the wheel’s axis of rotation, which means that mecanum drivetrains can’t strafe as fast as they can drive forward.
@@ -21,14 +22,14 @@ Due to the fact that mecanum wheels are more likely to slip because of the diago
    The primary reason for this is that it allows the drivetrain to turn significantly faster than it would otherwise be able to. When using the suggested setup, when viewed from the robot’s underside, the rollers form a rhombus. This allows the force applied by the wheels on the ground to act tangent to the turn radius, leading to faster turning.
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Fantastic maneuverability and agility due to strafing, can avoid defense very well
 * Good acceleration, can have high top speed
 * Very versatile drivetrain for nearly any game
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * Suffers in traction, as mecanum rollers have a lower coefficient of friction than traction wheels; cannot traverse terrain
 * Able to be pushed around on defense
@@ -41,7 +42,7 @@ Disadvantages
    Configuration for mecanum wheels, courtesy goBILDA
 
 Mecanum Wheels Miniguide
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are plenty of mecanum wheels on the market, and it can be very daunting to choose between the many vendors. An important feature is the type of mechanism that facilitates the motion, either :term:`bushing <Bushing>` or :term:`bearing <Ball Bearing>`. Bearing based mecanum wheels often have superior strafing because there is less resistance for the rollers to overcome. Another important note is that some FTC teams invest in 6 inch mecanum wheels instead of 3 or 4 inch mecanum wheels, often at a much higher price. **It is highly recommended that teams stick with 3 or 4 inch mecanum wheels**. Here is a general list of the mecanum options ranked in order of recommendation.
 
@@ -104,7 +105,8 @@ There are plenty of mecanum wheels on the market, and it can be very daunting to
    731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**
 
 X-Drive
-=======
+-------
+
 X-Drive is a holonomic omni-wheel based drivetrain. This type of drive involves mounting 4 omni wheels at the corner of the robot at a 45 degree angle.
 
 One notable difference between X-Drive and mecanum is strafe speed. While, as mentioned in the mecanum section, the ratio of strafe speed to forward speed is noticeably less than 1, the ratio on an X-Drive is exactly 1 due to the rotational symmetry of the wheel placement. This means that an X-Drive bot’s strafe speed and forward speed are equivalent. The drivetrains are slower, however, when strafing at 45° (approximately :math:`\frac{\sqrt{2}}{2}` of its forward speed).
@@ -119,13 +121,13 @@ Ideally, the drivetrain should take up as little space as possible to make it ea
    For an explanation of why exactly this is, see `this analysis <https://www.chiefdelphi.com/t/paper-mecanum-and-omni-kinematic-and-force-analysis/106153>`_.
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Good maneuverability and agility
 * Good acceleration
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * Prone to defense, pushed around easily
 * Often uses direct drive due to awkward form factor
@@ -141,7 +143,8 @@ Disadvantages
    5040 Nuts and Bolts, Relic Recovery
 
 H-Drive
-=======
+-------
+
 H-Drive (also known as U-drive, depending on the configuration) is a holonomic type drive that uses all omni wheels. H-Drive relies on a set of “strafer wheels” that are perpendicular to the forward/backward wheels to achieve strafing. H-Drive is similar to a fusion of a tank drivetrain while retaining the maneuverability and strafing of holonomic drivetrains.
 
 H-Drive is theoretically very easy to code, but most teams employ some sort of gyro correction to strafe straight, although it is not necessary with proper weight distribution.
@@ -153,7 +156,7 @@ For the highest possible reliability, many FRC teams will suspend their strafe w
 By far the biggest advantage of H-drive is its ability to accommodate multiple motor distributions. For instance, if you want to dedicate only 3 motors to your mechanisms and you have a motor left over, using a 1 strafe motor, 4 drive motor configuration is absolutely viable. Or if you dedicate 5 motors for your mechanisms, H-drive with 2 drive motors and 1 strafe motor is definitely optimal.
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Combines tank and holonomic drivetrain advantages
 * Can be used with 3 or 5 motors
@@ -161,7 +164,7 @@ Advantages
 * Great maneuverability and agility
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * Strafing is slightly less effective than mecanum
 * Complex suspension occasionally needed, depending on design

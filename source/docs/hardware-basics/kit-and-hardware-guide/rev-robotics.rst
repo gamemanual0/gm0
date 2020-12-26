@@ -1,10 +1,10 @@
-============
 REV Robotics
 ============
+
 The REV kit is an infinite-pitch, :term:`extrusion <Extrusion>` based building system which uses the metric system and M3 hardware.
 
 Special Considerations
-======================
+----------------------
 
 * The REV ecosystem is based upon 15x15mm aluminum :term:`extrusion <Extrusion>` and is complemented by 45x45mm :term:`channels <Channel>`.
 * With :term:`extrusion <Extrusion>`, there are no fixed mounting holes, increasing adjustability and flexibility. For example, tensioning :term:`chain <Chain>` is simple when sliding the mount or bracket increases tension.
@@ -14,7 +14,7 @@ Special Considerations
 * REV does have a steeper learning curve than :term:`channel <Channel>` based build systems, owing to the fact that constructing structurally sound mechanisms requires just a little more thought.
 
 Notable components
-==================
+------------------
 
 * REV's bread and butter is the 15x15mm aluminum :term:`extrusion <Extrusion>`. It accepts M3 hex screws which slide along the grooves.
 * In addition, REV also offers both 45x45mm :term:`U-channel <Channel>` and 45x45mm :term:`C-channel <Channel>`, which is stronger than :term:`extrusion <Extrusion>` and provides stiffness and support when needed.
@@ -25,7 +25,7 @@ Notable components
 * REV also has pattern adapters for other systems built into many parts such as the aluminum brackets.
 
 Verdict
-=======
+-------
 
 **The REV kit is good for teams willing to invest the time into an extrusion building system.** It is the most flexible kit as it is extrusion based, yet it has the ability to integrate :term:`channel <Channel>` along with :term:`extrusion <Extrusion>`.  REV offers the option to upgrade parts for those wanting a further investment into the REV building system.
 
@@ -52,7 +52,8 @@ REV also sells :term:`punch tubing <Punch Tubing>`, which is 15 mm aluminum squa
    MiSUMI 15x15mm Extrusion Profile
 
 Kit of Parts
-============
+------------
+
 .. warning::
    This is referring to the Starter Kit V2, not the current Starter Kit V3.
 
@@ -73,7 +74,7 @@ https://revrobotics.com/rev-45-1270/
 * 5.5 mm nut driver and 5.5 mm hex wrench
 
 Advantages
-==========
+----------
 
 * :term:`Extrusion` systems don’t need to worry about
   tensioning as mounts are adjustable to your needs.
@@ -89,7 +90,7 @@ Advantages
 * Generally, REV products are designed with affordability in mind, and so the components are of good value for money.
 
 Disadvantages
-=============
+-------------
 
 * 15x15mm :term:`extrusion <Extrusion>` is not as sturdy as   :term:`channel <Channel>` options under high stress loads.
 * Steeper learning curve, more time consuming to measure and cut :term:`extrusion <Extrusion>` to length.

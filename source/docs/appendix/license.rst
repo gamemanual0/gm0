@@ -1,10 +1,11 @@
-=======
 License
 =======
+
 Game Manual 0 is licensed under CC BY-NC 2.0.
 
 CC BY-NC 2.0 License Text
-=========================
+-------------------------
+
 .. highlight:: none
 
 ::

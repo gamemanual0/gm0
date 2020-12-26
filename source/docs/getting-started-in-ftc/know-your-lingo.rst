@@ -1,10 +1,11 @@
-===============
 Know Your Lingo
 ===============
+
 Many teams may be unfamiliar with the various terms and slang that are often thrown around at competitions and meets. Here we have compiled a guide of some commonly used terms to get you up to speed.
 
 Competitions
-============
+------------
+
 Affiliate Partner
    Regional director for teams who runs official competitions.
 Qualifier
@@ -33,7 +34,8 @@ Elimination Match
    winning alliance. Also known as elim matches, or just elims.
 
 Robot Components
-================
+----------------
+
 DC Motor
    Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used
    to power mechanisms. Max of 8.

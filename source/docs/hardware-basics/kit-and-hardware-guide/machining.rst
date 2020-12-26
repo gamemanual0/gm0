@@ -1,14 +1,16 @@
-=========
 Machining
 =========
+
 Advantages of Machining
-=======================
+-----------------------
+
 * Machining allows teams to create practically any part without limitations.
 * Machining allows teams to create custom drivetrain plates, arms, linear slides, etc to fit their design needs more effectively than kits.
 * Machining is cool. Yes, really.
 
 Disadvantages of Machining
-==========================
+--------------------------
+
 * Perhaps the biggest barrier when making a fully custom robot is that it requires very expensive manufacturing equipment. While 3D printers have become more and more common in FTC and allow teams to create or customize small parts, many teams do not have access to equipment such as lathes, routers, waterjet cutters, or CNC machines.
 * Fully custom robots need to be fully designed in CAD. Sketching will not cut it when building custom robots.
 * Another barrier is that prototyping with fully custom systems is almost always much slower than using kit parts. The full CAD process takes time, and fabrication/getting parts fabricated by a shop or sponsor is another lengthy process. Notwithstanding those two factors, if something goes drastically wrong then it will require a repeat process of CAD and fabrication.

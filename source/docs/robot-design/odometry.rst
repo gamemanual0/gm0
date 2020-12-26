@@ -7,6 +7,7 @@ Odometry is a form of localization that uses data from sensors like encoders. Lo
 
 Encoders
 --------
+
 A lot of the localization done in software relies on readings from encoders. `Encoders <../hardware-basics/motor-guide/wiring-mounting-motors.html#encoders>`_ are sensors that track "counts" or "ticks," which are values that represent a certain amount of a rotation. Different encoders might have a different number of counts per revolution, or CPR (sometimes also called ticks per rev). The greater the number of counts, the more accurate the data.
 
 Encoders are plugged into the JST-PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
@@ -15,6 +16,7 @@ There are really only two good options for odometry, specifically deadwheels. Ot
 
 REV Through-Bore
 ^^^^^^^^^^^^^^^^
+
 Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_ is the option that has gained significant traction in the FTC community for odometry is because of how easy it is to set up and design with. Unlike previously used encoders like the E8T, the through-bore does not have a sliding disc.
 
 Some reasons teams might want to consider using the revcoders for their odometry are:
@@ -28,6 +30,7 @@ However, there will be velocity overflow if not handled properly. Due to the hig
 
 S4T
 ^^^
+
 The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ miniature shaft encoder is another option for FTC teams to use on their odometry. A team might want to use these encoders for the sake of packaging, which is the amount of space the odometry sensor hardware (odometers, a.k.a. odometry pods) takes up.
 
 However there are several disadvantages to the S4T when compared to the through-bore encoder:
@@ -39,10 +42,12 @@ Unlike the revcoders which are much easier to set up initially, to get the maxim
 
 Design
 ------
+
 One of the great revcoder designs out there is the one from `open odometry <https://openodometry.weebly.com/>`_. They are compact and can fit in a goBILDA channel. The goal of an odometer design is to remain as compact as possible while ensuring as much connection with the ground. The best way to do this have the pod be able to pivot on an axle and use tensioning to keep it in contact with the field.
 
 Spring Tensioning
 ^^^^^^^^^^^^^^^^^
+
 Spring tensioning is important for making sure there isn't a lot of slipping or skidding of the pods/odometers.
 
 .. figure:: images/odometry/spring-tensioned-pod.png

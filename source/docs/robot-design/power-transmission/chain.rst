@@ -1,4 +1,3 @@
-============
 Roller Chain
 ============
 
@@ -16,9 +15,10 @@ A :term:`chain breaker <Chain Breaker>` eliminates the need for master links bec
    The removable master link is shown on the right.
 
 Terms
-=====
+-----
+
 Sprockets
----------
+^^^^^^^^^
 
 * Chain number refers to the type and size of chain that is compatible with the sprocket. Typically, #25 chain is used in FTC, though there is also 8mm chain.
 * Chain pitch refers to the distance between the pin centerlines in a chain link.
@@ -27,14 +27,15 @@ Sprockets
 * Chain clearance diameter refers to the diameter of the circle generated when the chain is fitted over the sprocket. It is larger than both PD and OD.
 
 Roller Chain
-------------
+^^^^^^^^^^^^
 
 * Outside link refers to the two outside plates connected by two pins. The pins are inside the bushings and can rotate freely.
 * Inside link refers to the two inside plates connected by two bushings. The bushings hold the pins in the outside link.
 * Pitch refers to the distance between the center of the pins. The most common pitch is #25, or 1/4” inch.
 
 Center-to-Center calculations
-=============================
+-----------------------------
+
 The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated. Many `online calculators <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_ can calculate C-C distances without going through the tedious calculations. However, the complete formula is below.
 
 .. math::
@@ -49,13 +50,14 @@ The equation to calculate :term:`center-to-center <C2C>` for chain is quite comp
 * :math:`n` = number of teeth in small sprocket
 
 Chain Wrap
-==========
+----------
+
 **Chain should, at the very least, have 90° of contact with the sprocket. The best practice is to have 180° or more of contact**, as it is very unlikely to fall off with proper tensioning. Chain skipping, especially on drivetrains or arms, is very possible without proper chain wrap or tensioning.
 
 When tensioning chain, be sure to not undertension or overtension chain. Undertensioning chain can result in the chain falling off the sprocket or chain skipping, where the chain can skip along the sprocket. Overtensioning the chain often results in the motor burning out, or less seriously, a loss of efficiency. Push along the chain run, and if the chain moves slightly without significant resistance, chances are you’ve done it correctly. If it’s too tight, then the chain will barely move under a gentle press.
 
 Best practices for wrap
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/chain/724-dt.png
    :alt: A metal chain for a drivetrain by 724, Rednek Robotics Wun
@@ -68,7 +70,7 @@ Best practices for wrap
    8103 Null Robotics, Rover Ruckus
 
 Advantages
-==========
+----------
 
 * **Chain can take a beating**. No matter what your application is, metal chain is usually up for the challenge. #25 chain can hold up to 930lbs before breaking, and there’s nothing you’ll do in FTC that will exert that force. (If your chain does break, it’s most likely due to a faulty Master Link or sprockets that are not correctly aligned.) * **Chain can be however long or short as you wish**.
 
@@ -76,7 +78,7 @@ Advantages
 * **Chain can be pretty precise**. When properly tensioned, roller chain doesn’t have very much slop. However, you really need to get your chain tension right to reduce slop, and you’ll probably want an adjustable tensioner for when the chain stretches. This can be done easily if using extrusion systems, as the sprocket can be adjusted for tension.
 
 Disadvantages
-=============
+-------------
 
 * **Chain stretches over time**. As it’s used, the connections between the links and rollers can stretch a bit. While it doesn’t look like much, this stretching can introduce lots of slop into your chain run and even derail it in some cases. You’ll most likely need an adjustable tensioner to keep your tension over time - some teams have used spring-loaded dynamic tensioners to automatically compensate for any changes.
 * **The smaller the sprocket, the faster the chain stretch**. This is because when the chain is run on a smaller sprocket, more force is applied due to a smaller radius.

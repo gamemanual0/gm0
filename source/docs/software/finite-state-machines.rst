@@ -1,19 +1,18 @@
-=====================
 Finite State Machines
 =====================
 
 Finite State Machines (FSM) are often used while programming in order to allow for more complex series of actions. This is especially useful when one needs multiple tasks to run at the same time, because it allows for tasks to depend on each other's execution in a non-linear fashion.
 
 What is a Finite State Machine?
-===============================
+-------------------------------
 
 The name of a finite state machine is very descriptive; it’s a state machine, with a finite number of states. It can be in one state at a time, and can transition to a different state once something happens. For example, see the example of a finite state machine that’s on `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-operated_turnstile>`__ because a turnstile is a great example, and it is explained very well.
 
 Implementation
-==============
+--------------
 
 Naive Implementation
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 When first learning about FSMs, it is quite common for programmers to try and use them. Often times, they try to apply an FSM to their autonomous programs by segmenting their autonomous into a giant ``switch`` statement, and it often looks something like this:
 
@@ -82,7 +81,7 @@ In fact, in many implementations, making state transitions for any other reason 
 .. warning:: It is unadvisable to write code like this. If your autonomous is synchronous, it is preferable to split your code up into functions and run them in order, as this will be easier to understand and edit on the fly.
 
 Useful Implementation
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 FSMs are the right tool to use when a robot needs to complete multiple tasks at once; a common example of this is when a robot should have automation in teleop, but still have control over the drivetrain.
 

@@ -1,6 +1,6 @@
-===============
 Tips and Tricks
 ===============
+
 Below is a collection of tips and tricks on basic building. Some of them may seem obvious, but almost every FTC newbie made these mistakes at least once.
 
 * **Color code your tools**. If you are using several different sizes of hex drivers (e.g. 2.5 mm and 3 mm used in goBILDA), color code them, using different color electric tape for different sizes.

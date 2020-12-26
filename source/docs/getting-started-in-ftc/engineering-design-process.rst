@@ -1,6 +1,6 @@
-==========================
 Engineering Design Process
 ==========================
+
 *Note: The exact process will vary from team to team, so the graphic is not meant to be a hard and fast rule.*
 
 .. graphviz::
@@ -24,7 +24,8 @@ Engineering Design Process
    }
 
 Components of the Engineering Design Process
-============================================
+--------------------------------------------
+
 In general, the design process contains these steps; however, every team will modify the process to their needs and limitations.
 
 * Define the problem: What are you trying to solve? What is the timeline?

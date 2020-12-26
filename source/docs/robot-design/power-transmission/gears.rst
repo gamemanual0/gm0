@@ -1,6 +1,6 @@
-=====
 Gears
 =====
+
 Gears, like sprockets and pulleys, are used in power transmission for three common applications: changing the direction of power, changing the amount of torque, and changing RPM.  Gears are a less common transmission option than chain, but are still very viable for most use cases.  Gears are equally as reliable as chain, but can’t be used for transferring power over long distances.  Many teams dislike gears when using kit-based channels because the hole pattern limits which combinations of gears can be used.  Consequently, it may be difficult to achieve a desired specific gear ratio.  However, with :term:`extrusion <Extrusion>` systems, it’s very easy to use different ratios, since the gears can be moved around in extrusion.
 
 Gears are made in different materials, with the most common being 7075 aluminum. **Never mesh plastic and metal gears together**. It is acceptable to mesh different types of metal gears together, as long as they have the same diametral pitch. It is advised to stay away from TETRIX aluminum gears as they wear down very easily. Some REV gears are made out of Delrin, a self-lubricating plastic. It is a durable material, but keep in mind that it is very possible to strip the bore using a plastic gear. Thus, we advise using the REV Hex Hub Strengthener to avoid stripping the bore on Delrin gears.
@@ -8,7 +8,7 @@ Gears are made in different materials, with the most common being 7075 aluminum.
 Bevel gears are a special type of gear that allows power transmission in two different planes. It is especially useful in tight spaces where a regular motor mounting position would not work.
 
 Terms
-=====
+-----
 
 * Module refers to the amount of diametral pitch in millimeters per tooth. Simply, it refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module. * Diametral pitch (DP) refers to the gear tooth size.
 
@@ -26,7 +26,7 @@ Terms
 * Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
 
 Meshing Gears
-=============
+-------------
 
 .. note:: Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral pitch. (A notable exception is 32 diametral pitch and 0.8 MOD gears. These are close enough to be perfectly fine.)
 
@@ -50,7 +50,7 @@ As with sprockets, it is important to line up the gears so that they do not acci
 It is highly recommended to use white lithium grease or a similar lubricant between the gears to reduce friction and possible binding.
 
 Advantages
-==========
+----------
 
 * **Gears are a solid and proven power transmission method**. Early examples of gears date back to the 4th century BC, so you’re using technology with millennia of development behind it. When it comes to gears, there’s not much that we haven’t figured out. * **Gears are simple to use with both channel and extrusion**.
 
@@ -61,7 +61,7 @@ Advantages
 * Once the spacing is correct, the gears will operate quickly**. Unlike chain or belt, there is nothing further transferring the power, which cuts out the need to properly tension chain or belt. This of course has the drawback of not being able to transfer power far distances.
 
 Disadvantages
-=============
+-------------
 
 * **Sometimes, the ratio you want might not be easy to build**. Channel spacing limits gear ratios, but this can be circumvented with compound ratios and a bit of creativity.
 * **Long distance power transfer is impractical with gears**. If you need to transfer power long distances, gear combinations can become complicated very quickly, so belt/chain is preferrable.

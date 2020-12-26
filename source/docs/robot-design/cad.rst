@@ -47,6 +47,7 @@ If you have mentors or team members with previous experience in Inventor or an e
 
 `Onshape <https://www.onshape.com/en/education/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 A fully-featured CAD package, but it runs entirely in the cloud. It can run on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as well.
 
 It has all of the same core features as SolidWorks and Inventor, as well as the best collaboration workflow in the industry - many people call it “the Google Docs of CAD.” Onshape allows multiple people to work on the same document at the same time, and allows users to “follow” each other and see what’s on another user’s screen.

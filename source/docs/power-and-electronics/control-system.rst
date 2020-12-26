@@ -1,4 +1,3 @@
-===============
 Control Systems
 ===============
 
@@ -18,7 +17,7 @@ There are two possible control systems that can be run on an FTC robot legally:
 * REV Control Hub + :term:`REV Expansion Hub <Expansion Hub>` as it is less expensive and more reliable than the older Modern Robotics
 
 RC Phone + REV Expansion Hub(s)
-===============================
+-------------------------------
 
 .. warning:: It is of vital importance to update the firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least version 1.8.2. It includes better protection against disconnects and improves program performance. See the `REV Expansion Hub firmware update docs`_.
 
@@ -35,7 +34,8 @@ The :term:`Expansion Hub` connects to the :term:`Robot Controller` phone through
    :width: 100%
 
 REV Control Hub + REV Expansion Hub
-===================================
+-----------------------------------
+
 .. warning:: It is of vital importance to update the firmware on :term:`REV Expansion hubs <Expansion Hub>` to at least version 1.8.2. It includes better protection against disconnects and improves program performance. See the `REV Expansion Hub firmware update docs`_.
 
 Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season onwards. In 2019-2020, the Control Hub was not legal for all teams as it was undergoing a pilot program.

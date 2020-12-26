@@ -1,6 +1,6 @@
-========
 Software
 ========
+
 This section covers the basics of software for FTC.
 
 .. toctree::

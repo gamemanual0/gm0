@@ -1,4 +1,3 @@
-================
 Choosing a Servo
 ================
 
@@ -6,6 +5,7 @@ For many applications, you can just use one of the three common :term:`servos <S
 
 Servo Type: Regular or Continuous
 ---------------------------------
+
 :term:`Servos <Servo>` which can rotate to a given position based on PWM input signal are called **regular servos**. In addition, there are also **continuous rotation servos**, which are effectively just small motors in a :term:`servo <Servo>` form factor. They have no position control; instead, PWM signal is used to control their rotation speed.
 
 Both REV Smart Servo and goBILDA Dual Mode servos (which are both based on FR5311m programmable servo by Feetech) can be used as either regular or continuous rotation servos. To switch between these two modes, you need to use a :term:`servo programmer <SRS Programmer>`, available separately from REV or goBILDA.
@@ -14,6 +14,7 @@ Both REV Smart Servo and goBILDA Dual Mode servos (which are both based on FR531
 
 Servo Torque And Speed
 ----------------------
+
 :term:`Servo` output power is measured in both **speed** and **torque**. Speed (normally in seconds per 60°) refers to how fast the :term:`servo <Servo>` turns 60 degrees in Standard Rotation mode. Torque (usually measured in oz-in or in kg-cm) refers to the amount of force the :term:`servo <Servo>` can apply to a lever.
 
 For reference, if you put a 1” bar on a servo, then put a force gauge on the end, the torque rating of the servo (in oz-in) will be measured. As you may know, speed and torque have an inverse relationship. Generally you can find some insanely powerful servos that are pretty slow (slower than 0.20 s/60°) or some less powerful ones with faster ratios (anything faster than 0.12 s/60° is considered very fast).
@@ -22,6 +23,7 @@ Finding the right :term:`servo <Servo>` for your application can be tough, but a
 
 Durability and Servo Gear Material
 ----------------------------------
+
 The two things that threaten a :term:`servo’s <Servo>` longevity are the internal motor burning out and more commonly, the :term:`gears <Gear>` stripping inside the :term:`servo <Servo>`. A motor burning out is pretty uncommon, but it can happen under large loads for a prolonged amount of time.
 
 ..  caution:: You should **never** stall a servo against an immovable object.
@@ -41,12 +43,14 @@ Shock load resistance is impacted directly by the material the :term:`gears <Gea
 
 Servo Size
 ----------
+
 :term:`Servos <Servo>` come in different sizes. Fortunately, almost all manufacturers use the same standard set of :term:`servo <Servo>` sizes, ranging from sub-micro to large. The two sizes commonly used in FTC are *standard size* (which includes REV Smart Servo and goBILDA Dual Mode Servos) and *large size* (also known as quarter-scale) :term:`servos <Servo>`. However, large :term:`servos <Servo>` are quite uncommon.
 
 Note that while in general, the larger the size, the more powerful the :term:`servo <Servo>`, it is not a strict rule. You can buy very powerful standard size :term:`servos <Servo>` - just expect to pay more for them.
 
 Servo Spline
 ------------
+
 The output shaft of the :term:`servo <Servo>` is commonly called the **spline**.  Most servos have industry standard 25 tooth spline (also known as F3); in particular, this is the spline used by REV Smart Servo and goBILDA Dual Mode servos.  However, Hitec servos using 24 tooth spline are also very popular.
 
 .. attention:: Please check the spline type before you buy the :term:`servo <Servo>` - otherwise, your :term:`servo <Servo>` attachments will not fit.
@@ -55,6 +59,7 @@ For more info about servo splines, please check https://www.servocity.com/servo-
 
 Cost
 ----
+
 :term:`Servos <Servo>` range from cheap $7 :term:`servos <Servo>` for light applications, all the way up to some Hitec or Savox :term:`servos <Servo>` for close to $200.
 
 By far the best bang for your buck :term:`servos <Servo>` out there are the Feetech dual mode :term:`servos <Servo>`, which is a programmable type of :term:`servo <Servo>`. This includes both the **REV SRS** (Smart Robot Servo) and **goBILDA Dual Mode servos**.
@@ -70,7 +75,8 @@ Where Hitec really shines is the high end market. If your budget is over $100, y
 The last big player in the :term:`servo <Servo>` market in FTC is Savox, which produces great mid-high range :term:`servos <Servo>` (think $60-$100+).  They are made with titanium :term:`gears <Gear>` (close to bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly brushless and coreless, so they do tend to scream a little under load, but they’re definitely worth it if your budget allows for it.
 
 Best Value
-==========
+----------
+
 * Low Priced (~$18)
    * HiTec 488HB
    * Futaba servos

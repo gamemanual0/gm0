@@ -1,10 +1,11 @@
-========================
 Gallery Of Robot Designs
 ========================
+
 Collection of robot designs from past seasons. Feel free to borrow some design solutions for your robot!
 
 2019-20 Skystone
 ----------------
+
 * 11115 Gluten Free
 
   * `CAD <https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`_
@@ -59,15 +60,16 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 2017-18 Relic Recovery
 ----------------------
+
 * 9794 Wizards.exe
 
   * `Robot Reveal Video <https://www.youtube.com/watch?v=wBmb-4cu4Vs>`__
   * `3d model of the claw <https://www.thingiverse.com/thing:2785600>`__
   * `Misc CAD models <https://drive.google.com/drive/folders/1Ng-DqcyMdsfpHy7Mc6W0cfxUMahaA2Sn>`__
 
-
 2016-17 Velocity Vortex
 -----------------------
+
 * 3415 Livingston Lancers
 
   * `Robot Reveal Video <https://www.youtube.com/watch?v=8jvF94d46cs>`__

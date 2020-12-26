@@ -1,4 +1,3 @@
-===============
 Types of Intake
 ===============
 
@@ -11,17 +10,20 @@ Vertical Intake
 Below are different implementations of horizontal and vertical intakes:
 
 Roller and Wheeled Intakes
-==========================
+--------------------------
+
 Roller and wheeled intakes refer to types of intakes which work by having some sort of hard or pliable object rotate along an axis. Wheeled intakes use different kinds of wheels (solid traction, compliant, or foam wheels) that propel the game element to the collection bin. Roller intakes are wider, and can sometimes intake more than one game element.
 
 Solid Wheel Intake
-------------------
+^^^^^^^^^^^^^^^^^^
+
 Solid wheel intakes use wheels such as grip and traction wheels to pick up game elements. They can be effective in picking up large game elements which do not have much tolerance difference.
 
 However, compliant wheel intakes generally will be more effective because compliant wheels offer more adjustability and forgiveness for the game elements. Compliant wheels also accounting for different game element orientations (the game pieces can get rotated when being controlled) and intake angles (the orientation of the game piece before it reaches the intake).
 
 Compliant Wheel Intake
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
+
 .. sidebar:: Spring-Loaded Intakes
 
    A spring-loaded intake is able to pivot in order to accommodate a game element  when it is passing through the intake,  but will snap back when the element has gone through.  A spring-loaded intake requires more thought,  but guarantees that the intake wheel will always be in contact with the desired  element.
@@ -37,14 +39,14 @@ Wheeled intakes can be spring-loaded or locked into place. Teams could choose on
 Wheeled intakes operate at much slower RPM than surgical tubing intakes, as wheeled intakes are meant to pick up **one** element at a time. They generally require more torque than a surgical tubing intake, which is geared for speed.
 
 Advantages
-^^^^^^^^^^
+~~~~~~~~~~
 
 * Very controllable
 * Propels elements to desired location
 * Great at picking up large elements
 
 Disadvantages
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 * Picks up only one element at a time
 * Elements can get jammed in a bad position
@@ -72,7 +74,8 @@ Disadvantages
    11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, springloaded
 
 Foam Wheel Intake
------------------
+^^^^^^^^^^^^^^^^^
+
 A foam wheel intake has the same principles as a compliant wheel intake, except that it uses foam wheels. It is generally recommended that teams stick to compliant wheels as they are grippier and easier to control.
 
 .. figure:: images/foam-wheel-intake/6299-intake.png
@@ -81,7 +84,8 @@ A foam wheel intake has the same principles as a compliant wheel intake, except 
    6299 ViperBots QuadX, Res-Q
 
 Rubber Band Intake
-------------------
+^^^^^^^^^^^^^^^^^^
+
 Rubber band intakes, commonly used by in the VEX Robotics Competition, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
 
 Rubber band intakes are great with intaking balls, but not so great with other types of game elements such as cubes. It generally is slower than a surgical tubing intake, and requires multiple stages to transfer elements from collection to deposit. Zip ties can be added to increase the intake’s range to accommodate for smaller balls.
@@ -92,11 +96,13 @@ Rubber band intakes are great with intaking balls, but not so great with other t
    Ball intake for VRC Game Turning Point
 
 Tubing Intakes
-==============
+--------------
+
 Tubing or noodle intakes typically use some sort of pliable tubing, which is rotated at high RPM to intake game pieces. Tubing intakes are particularly efficient at picking up small objects such as the balls and cubes from Res-Q, Velocity Vortex, and Rover Ruckus.
 
 Surgical Tubing Intake
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
+
 Surgical tubing or spearfishing rubber tubing, sold by many different manufacturers, is a great option for picking up small game elements such as the minerals from Res-Q or Rover Ruckus.
 
 Surgical tubing intakes can, and often, have multiple sets of tubing in order to move minerals from the collection point to the holding box. This was most often seen in games where robots had to transfer minerals from the field to an elevated location.
@@ -115,14 +121,14 @@ It is encouraged that teams test different RPMs and stiffness to develop the opt
 Surgical tubing intakes are especially good at picking up multiple elements at a time, due to the high RPM (sometimes >1000 RPM) of the rollers. However, it suffers from a lack of controllability, as sometimes the driver may accidentally pick up more than needed, and have to spit it out.
 
 Advantages
-^^^^^^^^^^
+~~~~~~~~~~
 
 * Able to collect multiple elements at a time
 * Generally more efficient than wheeled intakes
 * Specializes in small and odd-shaped elements
 
 Disadvantages
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 * Requires high RPM
 * Less controllable
@@ -150,11 +156,13 @@ Disadvantages
    7203 KNO3, Rover Ruckus
 
 Zip Tie Intake
---------------
+^^^^^^^^^^^^^^
+
 Instead of using surgical tubing, some teams opt for heavy zip ties instead. This can work, but we recommend surgical tubing as it is one of the most tried and tested methods for picking up nearly any game element. Zip ties lack the friction of rubber tubing.
 
 3D printed intake (NinjaFlex/TPU Filament)
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if designed right they work very well with VEX 393 motors (considered servos in FTC), and several teams have successfully used this configuration in competition.
 
 We recommend 3D printed intakes only if your team has had experience in 3D printing parts.

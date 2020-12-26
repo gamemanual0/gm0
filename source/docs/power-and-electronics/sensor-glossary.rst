@@ -1,10 +1,10 @@
-===============
 Sensor Glossary
 ===============
+
 Sensors are used in a variety of applications within FTC. Sensors can give external feedback regarding the position of the robot (for example, relative to the field wall or to a vision target) or internal feedback (velocity, distance traveled, voltage, etc.). Sensors can also be used to determine the rotation of a mechanism and detect color.
 
 Encoders/Potentiometers
-=======================
+-----------------------
 
 * Rotational
    * Absolute (+ Potentiometers)
@@ -20,7 +20,7 @@ Encoders/Potentiometers
    * Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)
 
 Contact
-=======
+-------
 
 * Physical
    * Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
@@ -29,7 +29,7 @@ Contact
    * Hall Effect Sensor REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)
 
 Optical
-=======
+-------
 
 * Color
    * Adafruit RGB
@@ -44,13 +44,13 @@ Optical
       * TFLite
 
 Distance
-========
+--------
 
 * ToF
 * Ultrasonic
 
 Other
-=====
+-----
 
 * IMU
    * Accelerometer
@@ -59,7 +59,8 @@ Other
    * Magnetometer
 
 Logic Level Converter
-=====================
+---------------------
+
 The old Modern Robotics system run on 5v sensor logic. The new REV Robotics system uses 3.3v. For most off the shelf sensors, this doesn’t cause any problems, but for some existing FTC sensors it does. To solve this REV sells boards, called `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data to be readable by the REV hubs. The `REV Expansion Hub <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_ guide has a chart detailing what adapters are needed for what sensors.
 
 .. attention:: According to REV testing, goBILDA, REV and TorqueNado motors don’t need logic level converters, but only some NeveRest motors worked with no discernable reason why.

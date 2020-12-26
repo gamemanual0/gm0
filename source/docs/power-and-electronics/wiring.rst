@@ -1,9 +1,9 @@
-============
 Wiring Guide
 ============
 
 Why does wiring matter?
-=======================
+-----------------------
+
 Have you ever looked inside your robot and thought "what a mess of wires"? Wiring is extremely important in FTC, but is often overlooked or hastily done the hour before competition starts. However, time spent in wiring the robot properly is crucial to the performance and maintenance of the robot.
 
 .. attention:: It is highly discouraged for teams to overlook wiring, but many new teams seem to disregard it or put little thought into wiring the robot properly.
@@ -11,12 +11,13 @@ Have you ever looked inside your robot and thought "what a mess of wires"? Wirin
 While tedious and often no fun, wiring can mean the difference between a win and loss. The best robot in the world won't be able to work if a wire is loose or gets tangled up in the middle of a match. Thus it is imperative that wiring is purposefully thought out when designing and building a robot.
 
 FIRST FTC Wiring Guide
-======================
+----------------------
 
 FIRST has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won’t be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, FIRST has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
 
 General Advice
 --------------
+
 * **Always label wires! When bunched up, you may not know which wire goes into which port**.
 * Tie together loose wires, and better yet, tie that bunch of wires to a structural component. This will ensure that wires don't interfere with your mechanisms.
 * **Treat every wire connection as a point of failure**. Therefore, use electrical tape to tape up and insulate connections and utilize strain relief as much as possible.
@@ -70,20 +71,24 @@ However, as components move out of the robot, the wires move with it. Tying down
 
 Specific Recommendations
 ------------------------
+
 Module Power
 ^^^^^^^^^^^^
+
 Be aware, :term:`XT30` connectors can wear out significantly faster than :term:`PowerPole <Anderson PowerPole>` connectors. Additionally, because :term:`XT30` connectors are soldered, they can break much easier than :term:`PowerPole <Anderson PowerPole>` connections.
 
 Cabling for module power should be at least 14awg, if not 12awg. Keep in mind that it must be stranded, not solid, wire.
 
 Motor Power
 ^^^^^^^^^^^
+
 Cabling for motor power should be between 16awg and 12awg. Again, stranded, not solid, wire.
 
 Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and :term:`Core Hex <Core Hex Motor>`) will have removable power connectors on the back, while other motors (like the :term:`Andymark NeveRests <NeveRest Motor>`) will have a cable permanently soldered on the back. It is much more convenient to have a connector on the back, or failing that, have a very short plug on the back of the motor. Once your wires are run and secured, taking them out won't be fun.
 
 Servo Wires
 ^^^^^^^^^^^
+
 Using heavy-duty extension wires are recommended.
 
 Tape the connections between extension wires and servo wires with electrical tape. This is as the connections can become loose over time and are easy to pull out.
@@ -92,18 +97,21 @@ The VEX Motor Controller 29 has the wrong gender connector on the 3-pin end. You
 
 USB
 ^^^
+
 USB is generally a strong connector, but is prone to wearing out over time. Refrain from plugging/unplugging these cables more than necessary, especially on the RC/DS phones.
 
 USB loves strain relief. To keep disconnects low, tie down cables to leave as little loose cabling on the robot as possible.
 
 Sensor Wires/Encoder Wires
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Sensor wires and their connectors can be incredibly fragile. Use caution when routing, and keep slack on the connector end when adding strain relief to the cable.
 
 The JST data connectors on the REV Expansion Hub and Control Hub have +5v, GND, and two data pins. If you are using a digital or analog sensor that does not use I2C, you can use a Y cable that gives two sensors off of one port.
 
 Miscellaneous
-=============
+-------------
+
 REV Grounding Strap
    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only legal way to ground your robot. Attach the end to the metal part of your robot frame, and plug the :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels

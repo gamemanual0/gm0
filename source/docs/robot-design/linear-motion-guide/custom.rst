@@ -1,6 +1,6 @@
-==============
 Custom Options
 ==============
+
 Some teams have opted to build custom solutions for linear motion. Many of these teams borrow concepts from FRC teams, modeling their elevators off of the tall systems found on the larger robots. There’s a reason that many competitive FRC teams build the same type of elevator - at their scale, the box tube elevator has proven to be the most efficient way to get game pieces off the ground at blisteringly fast speeds.
 
 When built correctly, an elevator of this type can withstand hundreds of pounds of load on any axis while barely weighing anything. However, existing off-the-shelf options already fill the linear motion needs of most FTC teams.

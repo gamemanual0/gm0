@@ -1,16 +1,17 @@
-===========
 Drivetrains
 ===========
+
 This section will cover the heart of any robot, the drivetrain. The purpose of the drivetrain is to facilitate the movement of the robot, and thus is crucial to the overall function of the robot. If the drivetrain doesn’t work, the rest of the robot won’t work either. There are many possible types of drivetrains in FTC, which we have covered in the guide. Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
 Drivetrain types
-==================================
+----------------
+
 A tank drivetrain primarily utilizes :term:`traction wheels <Traction wheel>` and cannot strafe (move sideways). To change directions, a tank drivetrain relies on either turning the wheels on the left and right side in the opposite direction (thus spinning the robot) or running one side faster than the other side (thus making the robot take the path of an arc). Tank drivetrains prioritize traction and acceleration over pure maneuverability, giving these drivetrains the potential to traverse obstacles and play defense. Tank drivetrains are relatively simple to build, yet are still competitive at the highest levels.
 
 A holonomic drivetrain, in contrast to a tank drivetrain, can move sideways, due to using either :term:`mecanum <Mecanum Wheel>` or :term:`omni <Omni Wheel>` wheels. These kinds of wheels have special rollers that allow strafing movements. Thus, holonomic drivetrains prioritize movement over traction. Holonomic drivetrains eliminate the time it takes to turn for a tank drivetrain. However, holonomic is susceptible to defense and can suffer with a heavy robot. Holonomic has been proven to be competitive at the highest level for many years, and is common among world-class robots.
 
 Drivetrain selection
-==========================
+--------------------------
 
 When building any mechanism, teams must list out some necessities or desired features. Here are some priorities for that we think are important for each drivetrain:
 
@@ -57,7 +58,8 @@ When building any mechanism, teams must list out some necessities or desired fea
 All of these questions should be answered before choosing a drivetrain.
 
 Drivetrain Options
-==================
+------------------
+
 .. toctree::
    :maxdepth: 2
 

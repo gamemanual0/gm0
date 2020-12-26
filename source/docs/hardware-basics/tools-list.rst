@@ -1,10 +1,10 @@
-==========
 Tools List
 ==========
+
 Here are a selection of necessary and useful tools for your team. You'll obviously need to purchase the basics such as the right screwdriver, hex keys, and drill bits. For a bit more precision and the ability to dabble in custom, opt for a drill press and bandsaw. A router might be useful for teams interested in working with wood, a great material for prototyping (and also for final iterations!)
 
 Necessary
-=========
+---------
 
 * **Safety glasses. Wear them when you’re using power tools. Seriously.**
 * Philips screwdrivers, assorted sizes
@@ -29,7 +29,7 @@ Necessary
 * Sharp pencil or very fine permanent marker
 
 Helpful
-=======
+-------
 
 * Bandsaw
 

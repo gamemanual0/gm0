@@ -1,6 +1,6 @@
-===========
 Servo Guide
 ===========
+
 A :term:`servo <Servo>` combines a small electric motor and control circuit in a single compact package. This allows the :term:`servo <Servo>` to rotate to a specified position and hold that position. Typically :term:`servos <Servo>` have limited range of rotation (180° is common).
 
 .. note:: :term:`Servos <Servo>` are **NOT** replacements for DC motors, and should not be used as such. :term:`Servos <Servo>` are made for fine-tuned and accurate movement, not high-load or fast rotation applications.

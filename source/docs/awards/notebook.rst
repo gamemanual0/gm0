@@ -1,14 +1,13 @@
-=================================
 Notebook Designs and Decisions
 =================================
 
 This section will cover both what needs to be in the notebook and the decisions you need to make about it affecting both individual sections and it as a whole.
 
 Whole Notebook Decisions
-========================
+------------------------
 
 Condensed vs Long
------------------
+^^^^^^^^^^^^^^^^^
 
 A trap many teams fall into is that a longer notebook is a better notebook, especially if it's actually quality writing. Unfortunately, that is not necessarily true.
 
@@ -19,12 +18,12 @@ This is where you make a purposeful effort to get rid of redundancies and make s
 So if you know your state competitions are going to be more than a couple days write a long, detailed filled notebook. But if it is only a day long, write with every section having a purpose.
 
 Handwritten vs Typed
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 This one is a team decision. Some teams swear judges prefer handwritten notebooks, but there is no proof for that. But if you're a small team or you would prefer to write, do that. Be sure that the handwriting is consistent and legible! Typed notebooks are a lot easier to organize, and judges will definitely be able to read it.
 
 Serious vs Charming
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 A team's notebook is an extension of its personality and branding. Some teams try to come across as an engineering firm or at least very serious, while others act the opposite.
 
@@ -38,7 +37,7 @@ Generally, humor is acceptable, but try to keep jokes down to a minimum (after a
    Therefore, having consistent branding helps judges know what team they are talking to and what they know about you.
 
 Individual sections
-===================
+-------------------
 
 Section 9.2.2 of |gm1|, lists out the type of things that are expected to see in your notebook.
 
@@ -60,7 +59,7 @@ They are listed here:
 Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines are not plentiful, only including a team plan (which is pretty much all non robot writing including a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award) and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
 
 Daily Logs and Other Ways of Documenting
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This might be the most common way of documenting in notebooks. Even teams that are so-so about attempting to write a notebook have a couple months worth of logs because overall they are not that hard to do.
 
@@ -95,7 +94,8 @@ Pure goals is simply as follows.
    +------+--------------------+---------------------------------+
 
 Building Section and Documenting the Robot
-==========================================
+------------------------------------------
+
 You have spent a bunch of time reading the rest of this manual to learn about the robot and how to build it. The building section is about how your robot fulfills the challenge, and what the driving factors were in building your robot.
 
 Information about parts and materials, as well as pictures of every mechanism (plus captions) will help the judges piece together how the robot works mechanically. Explanations of the components will illustrate the thought processes behind the design.
@@ -119,7 +119,7 @@ Each time you iterate upon a part of your robot or move a step further in the en
 This also includes your first unrealized ideas that your team talked about right when the team came together after the season was released.
 
 Notebook Gallery
-================
+----------------
 
 * Relic Recovery
 

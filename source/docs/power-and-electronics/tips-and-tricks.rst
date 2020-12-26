@@ -1,6 +1,6 @@
-===============
 Tips and Tricks
 ===============
+
 In addition to what is written in the official resources, there are a couple of additional tips.
 
 The traditional :term:`XT30` connector that is used to REV is prone to breaking. It is highly recommended that teams replace :term:`XT30` connectors with :term:`Anderson PowerPole`, or put adapters on their current wires. An example of an adapter is `this <https://www.servocity.com/anderson-powerpole-to-female-xt30-adaptor>`_. In lieu of this, teams can also 3D print strain relief connectors on the Expansion Hub to prevent :term:`XT30` disconnects. The file can be found on Thingiverse or through this `link <https://www.thingiverse.com/thing:2887045>`_.

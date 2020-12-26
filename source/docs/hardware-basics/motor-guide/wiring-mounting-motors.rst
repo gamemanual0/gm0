@@ -1,9 +1,9 @@
-=========================
 Motor Wiring And Mounting
 =========================
 
 Power Connections
 -----------------
+
 Depending on the vendor, the motors can come with one of the following connectors:
 
 * :term:`JST-VH` connector (REV motors)
@@ -21,6 +21,7 @@ For more tips on wiring the robot, see :doc:`../../power-and-electronics/wiring`
 
 Encoders
 --------
+
 .. note:: Encoder cables are very fragile. Take care to protect them from snagging and sharp impacts! It may be prudent to inspect encoder wires once in a while.
 
 If using encoders, you need to connect them to the :term:`REV hub <Expansion Hub>` by a 4-wire cable. REV Hub uses 4-pin :term:`JST-PH` connector for encoder ports. REV motors also use :term:`JST-PH` encoder ports, so you can connect them to the hub by :term:`JST-PH` 4-wire cable, available from REV Robotics.
@@ -31,6 +32,7 @@ AndyMark also use JST-XH encoder port; however, an additional problem is that en
 
 Mounting Motors
 ---------------
+
 There are two ways to mount a motor: using a :term:`clamping mount <Clamp Mounting>` (such as `32mm goBILDA clamping mount <https://www.gobilda.com/1400-series-1-side-2-post-clamping-mount-32mm-bore/>`_) or :term:`face mounting <Face Mounting>`, using threaded holes in the front face of the gearbox.
 
 Clamping Mount

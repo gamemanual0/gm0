@@ -1,6 +1,6 @@
-===============
 Materials Guide
 ===============
+
 In FTC, teams have design freedom in terms of what raw materials to use. However, there are definitely some important recommendations regarding material usage.
 
 Common raw materials may be found at your local hardware store. McMaster-Carr and OnlineMetals are two frequently used online vendors. For more vendors, check the Appendix.
@@ -34,8 +34,9 @@ Not Recommended
 
 Metals
 ------
+
 Aluminum
-========
+^^^^^^^^
 
 * A high strength, medium-high density material. Suitable for use in nearly every application; recommended in load-bearing applications.
 * Aluminum comes in :term:`channel <Channel>`, :term:`extrusion <Extrusion>`, flat, angle, sheet/plate, and is used in some drawer slides.
@@ -53,7 +54,7 @@ Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are rec
 Sheet aluminum is generally used for drivetrain plates on custom drivetrains. The recommended thickness is 1/8" or 3/16". Because it is a plate, sheet aluminum will bend if not supported correctly with :term:`standoffs <Standoff>` or :term:`channel <Channel>`. Only load the sheet in the plane that it is in (if the sheet is vertical, then only put vertical load on it; do not load it horizontally). However, there may be some applications that would benefit from a slight bit of flex for adjustability - in those cases, use your judgment and test it out for yourself!
 
 Steel
-=====
+^^^^^
 
 * Steel is unnecessarily heavy for FTC structure. Aluminum provides plenty of strength at a fraction of the weight, and doesn't require welding.
 * The proper uses of steel in FTC are in shafts (most are made out of precision-ground stainless steel) and gearboxes.
@@ -61,8 +62,10 @@ Steel
 
 Plastics
 --------
+
 Lexan
-=====
+^^^^^
+
 * Polycarbonate, commonly known by its brand name Lexan, is a material that is great for applications such as drivetrain plates or intake collector boxes.
 * Lexan can bear load and is very impact-resistant.
 * Lexan is commonly used in intake and deposit mechanisms as it is clear, allowing the drive team to see into the intake itself, an advantage over wood.
@@ -73,7 +76,8 @@ Lexan
 Thin lexan can be bent with a metal brake or sheet bender. It is recommended for teams to use bends instead of connecting with bolts - bending tends to be much stronger than bolting as it means the part stays in one continuous piece. If a sheet bender is out of the question, it is possible to use a heat gun or camping burners to heat up the lexan in order to bend it. This is not recommended as it can cause injury and bubbling if the Lexan is overheated. Alternatively, "cold bending", bending along a straight edge without applying heat can work for thinner sheets.
 
 ABS
-===
+^^^
+
 * ABS is a hard low-friction plastic that is easily machinable.
 * ABS sheet can be used for side panels, ramps, and even drivetrain plates.
 * It is not as strong as Delrin, but strong enough for most purposes.
@@ -82,19 +86,21 @@ ABS
 * Thin (1/16 inch) ABS sheets can also be cut using shears.
 
 Delrin
-======
+^^^^^^
+
 * Acetal, also known under brand name Delrin, is a low-friction strong plastic. It is a common plastic used for wheels, plastic gears, and sprockets (especially in the REV system).
 * It is a durable and strong plastic that is not easily cracked. Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness), but Delrin sheet is also quite expensive.
 * Delrin can be machined in a variety of ways including laser cutting, CNC routing and hand sculpting. However, bending Delrin is much harder than bending Lexan or ABS.
 
 HDPE
-====
+^^^^
+
 * HDPE stands for High Density Polyethylene and usually comes in opaque white or black sheets and plates
 * HDPE is a cheaper alternative with low-friction characteristics similar to delrin and flexibility/structure near polycarbonate.
 * HDPE is easily machined by both hand tools and machine tools. However, it will burn in a laser cutter, so **do not laser cut HDPE.**
 
 Polyvinyl chloride (PVC)
-========================
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 * PVC is a common lightweight plastic ubiquitous at any hardware store.
 * PVC is most commonly sold as pipe, though PVC sheet does exist.
@@ -104,7 +110,8 @@ Polyvinyl chloride (PVC)
 * PVC sheet can be bought or made by cutting vertically along the pipe so that the profile looks like a C. Bake in oven. PVC sheet is pliable yet sturdy, making it a good option for backstops or customizing connectors that require some sort of flex.
 
 Acrylic
-=======
+^^^^^^^
+
 ..  warning::
     Acrylic is not a load-bearing material. It will crack and possibly shatter under impact.
 
@@ -117,8 +124,9 @@ Acrylic
 
 Other
 -----
+
 Plywood and MDF
-===============
+^^^^^^^^^^^^^^^
 
 * A medium to high strength material suitable for use in a wide variety of applications. Keep in mind that wood cannot be exposed to water or excessive humidity, as lumber for use in FTC isn't treated and may warp or expand. Do not try to use laser cut wood for a drivetrain. This is especially important if you live in a humid region such as Florida - wood expanding can completely ruin a custom drivetrain.
 * Baltic Birch is the highest grade plywood, used in commercial applications and furniture. It contains 8+ layers (usually), is extremely dense, and is recommended for high-load applications or structure. It is quite an expensive material, so prototype and plan carefully before cutting.
@@ -126,7 +134,7 @@ Plywood and MDF
 * MDF is generally discouraged as there are better options and absorbs water easily.
 
 Carbon Fiber
-============
+^^^^^^^^^^^^
 
 .. danger:: **Machining carbon fiber, like any fibrous substance, is a significant SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is incredibly dangerous. DO NOT MACHINE/CUT carbon fiber unless you know what you are doing. When you do, make sure to either use machinery that is designed to cut carbon fiber, or cut in a well ventilated area with sufficient respiratory protection and running water over the carbon fiber.**
 
@@ -134,5 +142,6 @@ Carbon Fiber
 * It is probably the most expensive material to purchase.
 
 Cardboard
-=========
+^^^^^^^^^
+
 **Please do not use cardboard as a load-bearing material.** We have seen too many teams use cardboard in ways that it shouldn't be used. Treat cardboard as a sheet of paper: it has no structural rigidity and only should be used as guides to channel pieces from A to B.

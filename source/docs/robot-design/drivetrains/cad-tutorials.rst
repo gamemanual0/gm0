@@ -1,11 +1,12 @@
-=============
 CAD Tutorials
 =============
+
 CAD Tutorial Part 1 - Drivetrain in an Hour
-===========================================
+-------------------------------------------
 
 Choosing the Drivetrain
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
+
 After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice, determine the necessary requirements for the drivetrain based on the current game. Teams should shoot for the wheelbase that works the best in that specific field’s layout.
 
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to not only grab glyphs from the center pit, but also to line up against the cryptobox. Thus, mecanum wheels and a wide center section of the robot proved an advantage over a 6 wheel tank drive. (However, it should be noted that with sufficient practice and competent drivers, any drive base can be competitive up to a certain extent).
@@ -13,7 +14,8 @@ For instance, in Relic Recovery (2017-2018) a drivetrain required precision to n
 After selecting a drivebase, determine the number of motors. Keep in mind the eight motor limit is a pain that shouldn't be ignored. A good rule of thumb is four motors for driving and four motors for the other mechanisms (e.g. intakes, linear slides, arm, etc.) For most modern FTC games, you need minimum 7 motors to be highly competitive, although 8 is a good rule of thumb.
 
 Designing the Drivetrain Plates
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 After learning the CAD software, it's time to start the actual design. Here are some things to figure out before starting:
 
 * Drive Type (mecanum, 6wd, 8wd, etc.)
@@ -57,7 +59,8 @@ This is what the outer plate looks like, an almost exact copy of the inner one w
 Note that when using a custom drivetrain, you can cut out material from your drivetrain plates. This process is called **pocketing**. While not a vital step, pocketing helps you save weight. However, be careful not to remove too much material; if done, the plates become less sturdy. More about pocketing is in the next section.
 
 Additional Considerations
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Powering wheels can be done is a couple different ways through either belts and pulleys, chains and sprockets, gears, or even powered directly from the motor. Direct drive and chains are the simpler of the options, with direct drive not needing a calculated distance at all just have to set the motor exactly where the center of the wheel is. Chains allow for a little bit of slack not needing an exact center to center distance in the wrap like belts and pulleys do. Finally gears which need to be a certain distance apart from each other to mesh properly and not skip or bind.
 
 Mounting motors is done in a plate style by face mounting the motor into the innermost drivetrain plate. It can also be done by mounting the motors to a 3rd plate, located in between the outside and inside. This allows for the motor to take up less space in the middle of the robot, but adds complexity. Motors should always be as low as possible and depending where you want the center of mass, either the middle or towards the back of the robot. It is also worth keeping in mind the type of power transmission and the expediency of doing so in light of the motor placement.
@@ -91,7 +94,8 @@ After mirroring the drive pod to make your opposite side, connect those two halv
    :alt: Left side drivetrain pod
 
 CAD Tutorial Part 2 - Pocketing Guide
-=====================================
+-------------------------------------
+
 “Pocketing” is a common term in FTC and FRC lingo, and refers to material removal from plates or tubes for weight reduction and/or aesthetic purposes. For the former purpose, the idea is to strike a balance between sustaining structural integrity and reduce as much weight/material as possible.
 
 There are several ways to machine pockets into material including milling, routing, water jet cutting, laser cutting and even hand drilling. Depending on your access to tooling, pocketing can be more or less difficult for you.
@@ -171,7 +175,8 @@ The pocketing method above is the simplest parametric method to pocketing, but m
 When the pockets are designed around a 3D printed part, many new possibilities open up in terms of minimum inner corner radius, resolution and dimensions. Now of course, 3D printed parts can be pocketed in the same way as traditional parts with similar results.
 
 CAD Tutorial Part 3 - Custom Pulley Template
-============================================
+--------------------------------------------
+
 When designing methods of power transmission, it’s useful to have an adjustable pulley generator to rapidly rearrange C-C (center to center) distance for design changes. Typically, FTC teams use the HTD5 belt profile due to its deep tooth profile, which adds resistance to slipping and increases load capacity. This tutorial will focus on the HTD5 profile, but it is relatively easy to adapt for different profiles.
 
 To make the pulley fully parametric (adjustable without redoing the base sketch), we will use Equations (in Solidworks and Creo), Parameters (Fusion 360 and Inventor) or Variables (Onshape). Equations allow a user to quickly adjust values and change multiple dimensions in a sketch or feature.

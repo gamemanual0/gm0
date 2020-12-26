@@ -1,8 +1,9 @@
-=========================================
 Programming Tutorial - Mecanum Drivetrain
 =========================================
+
 Mecanum Physics
-===============
+---------------
+
 A very common choice for drivetrain in FTC is :term:`mecanum drive <Mecanum Wheel>`, but we have noticed that not a lot of people know how they work or how to properly program them.  :term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45° angle to the rest of the wheel.
 
 
@@ -12,7 +13,8 @@ Since these are in contact with the ground instead of something solid like in a 
    :alt: Force diagram of a single mecanum wheel
 
 Using Vectoring to Create Omnidirectional Movement
-==================================================
+--------------------------------------------------
+
 As stated earlier, depending on how the wheels are driven, movement in any direction can be created. This is because with 4 wheels on a robot oriented in and X orientation, the vectors can be canceled such that movement is created in any direction. It is important to note that because of friction, perfect movement isn’t possible in every direction, so a :term:`mecanum drivetrain <Mecanum Wheel>` will be able to drive slightly faster forwards/backwards than any other directions.
 
 .. image:: images/mecanum-drive/mecanum-drive-force-diagram.png
@@ -25,7 +27,8 @@ In that image, 1, 2, 3, and 4 are the force vectors created by the :term:`mecanu
    :width: 45em
 
 Deriving Mecanum Control Equations
-==================================
+----------------------------------
+
 Before thinking about mecanum, envision a scenario where you have a 2 motor tank drivetrain which you want to control using the left stick Y axis for forward/backward movement, and the right stick X axis for pivot turning. The motors are configured so that positive is clockwise for the right motor when the body is facing away from you, and the left motor is the opposite. To control only forward/backward movement, you simply need to set the motor powers to the Y stick value (flip the sign since Y is reversed)::
 
    double y = -gamepad1.left_stick_y; // Remember, this is reversed!

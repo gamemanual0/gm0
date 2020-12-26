@@ -1,9 +1,8 @@
-===========
 Award Types
 ===========
 
 Advancing Awards
-================
+----------------
 
 There are 7 awards for FTC teams (excluding optional awards). For more information on the exact requirements for these awards, see |gm1|. In order of advancement priority, these are:
 
@@ -87,7 +86,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
         This judged award recognizes design elements of the Robot that are both functional and aesthetic. The Design Award is presented to Teams that incorporate industrial design elements into their solution. These design elements could simplify the Robot’s appearance by giving it a clean look, be decorative in nature, or otherwise express the creativity of the Team. The Robot should be durable, efficiently designed, and effectively address the game challenge.
 
 Connect vs Motivate
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Both outreach awards can be hard to differentiate, as the official descriptions are super vague, and most judges don’t know the difference perfectly. Since the descriptions are very vague, it is up to you to determine what goes towards which award. Oftentimes, teams will put more outreach in :term:`Connect <Connect Award>` than :term:`Motivate <Motivate Award>`, as Connect is fairly high up on the advancement list unlike Motivate, so putting more into Connect and winning Connect may advance, though make sure to do your research before trying a strategy like this.
 
@@ -109,7 +108,7 @@ Tips for Both
 * Log all your outreach events, with who went and how many hours each person did in its own place separate from the engineering notebook. This makes it easier to compile total numbers and shows the judges every outreach activity/event in one place
 
 Optional Awards
-===============
+---------------
 
 There are some awards that events are not required to present; these do not advance teams.
 

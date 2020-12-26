@@ -1,4 +1,3 @@
-=============
 Drawer Slides
 =============
 
@@ -15,18 +14,18 @@ Igus is a brand known and trusted by robotics teams and manufacturers, but their
 Listed below are the recommended drawer slides.
 
 Steel-rolled cabinet drawer slides
-==================================
+----------------------------------
 
 Available from your local hardware store, steel slides aren’t a bad option for FTC teams, as they are heavy-duty enough for most use cases. However, these kinds of slides are much heavier than other aluminum slide options. Furthermore, these slides are not designed to have bearings or a second slide attached to them, because they only contain mounting for a standard drawer. Thus, these slides require drilling holes in order to mount the necessary parts for linear extension.
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Commonplace at any hardware store
 * Not very expensive
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * Heavier than other slide options (steel as opposed to aluminum)
 * Sliding is usually good but not great
@@ -34,7 +33,7 @@ Disadvantages
 * 3D printed spacers may be required
 
 MiSUMI Telescopic Slide Rails
-=============================
+-----------------------------
 
 The `MiSUMI slide rails <https://us.misumi-ec.com/vona2/detail/110300072130/?HissuCode=SAR240>`_ are preferred by many top-tier teams because they are sturdy, very reliable, and ridiculously smooth due to the ball bearing system. **MiSUMI slides are able to withstand a significant amount of load with little flex**.
 
@@ -51,7 +50,7 @@ Rail length Options:
 * 400 mm, part number SAR240 (SAR2) or SAR340 (SAR3)
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Best slide smoothness due to ball bearings
 * Very little slide flex, robust build quality
@@ -59,14 +58,14 @@ Advantages
 * Compatible with REV 15mm extrusion system
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * Not cheap
 * Tricky to adapt if not using REV
 * 3D printed spacers may be required
 
 Long Robotics Slides
-====================
+--------------------
 
 The `Long Robotics <https://longrobotics.com/>`_ slides are also used by top-tier teams because they are sturdy, reliable, and almost as smooth as MiSUMI slides due to the ball bearing system.
 
@@ -77,7 +76,7 @@ The manufacturer website has CAD files for 3D printed inserts that go between th
 These are available in both a `300 mm rail length option <https://longrobotics.com/product/lrs-300-aluminum-slide-300mm-black-anodized/>`_ and `400 mm rail length option <https://longrobotics.com/product/lrs-400-aluminum-slide-400mm-black-anodized/>`_.
 
 Advantages
-----------
+^^^^^^^^^^
 
 * Very good slide smoothness due to ball bearings
 * Can handle relatively heavy load (within reason)
@@ -85,13 +84,14 @@ Advantages
 * Cheaper than MiSUMI slides for comparable performance
 
 Disadvantages
--------------
+^^^^^^^^^^^^^
 
 * 3D Printed spacers are almost required; while other solutions exist, 3D Printed spacers are the simplest and lowest-risk
 * Can be difficult to mount to kit systems which aren't :term:`extrusion <Extrusion>` based and don't have holes spaced at 8 mm apart
 
 Igus
-====
+----
+
 Igus slides used to be a popular option among top teams for linear extension back in the earlier days of FTC. However, with the arrival of MiSUMI slides, they have decreased in popularity due to their tendency to bind. However, if your team is looking for a high-load or special use case, by all means explore this option.
 
 .. figure:: images/drawer-slides/7236-sar3.png

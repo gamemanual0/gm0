@@ -1,6 +1,6 @@
-======
 Awards
 ======
+
 This is the part of |gm0| that discusses awards. Awards exist in parallel to the robot game and serves as an alternate way to advance. While the majority of |gm0| talks about how to make decisions about creating your robot, the notebook you write is actually showing how you made those decisions.
 
 **It only benefits you to go for awards. You can't win awards without writing a notebook, and in certain states the only way to advance is awards and in others it can make it significantly easier to advance.** Therefore, these are the topics that will be covered in this section of |gm0|.

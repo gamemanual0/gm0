@@ -1,6 +1,6 @@
-==========
 Single Arm
 ==========
+
 The most simple type of arm in FTC, a single arm refers to an arm on one axis of rotation. While it is possible to successfully build this kind of arm, generally a single axis arm will only afford around 15-16” of extension, which is inadequate for nearly every game.
 
 The reason for this is that the longest a channel can be is 18” (technically you could have a longer channel by placing it diagonally, but this complicates matters). Thus, with a maximum of 18” of extension, a couple inches must be subtracted, since the point of rotation is inside the 18” sizing cube; therefore the extension is around 15-16”.

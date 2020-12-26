@@ -1,9 +1,9 @@
-================
 Choosing a Motor
 ================
 
 Legal Motors
 ------------
+
 12 V motors are strictly controlled by FTC rules. As of 2020-2021 season, the only FTC legal motors are the following ones:
 
 * TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_, `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
@@ -22,10 +22,12 @@ Since the bare motor is similar for all motors discussed above, the choice of th
 
 Gearboxes
 ---------
+
 There are two kinds of gearboxes: spur and planetary (also known as orbital). Their inner structure and difference is discussed in detail in :doc:`gearbox-anatomy` section. For new teams, it suffices to know that planetary gearboxes are slightly more expensive, but more reliable. Spur gearboxes can strip under shock loads (for example, when your robot hits a wall), requiring you to replace the gearbox. For this reason, it is advised to use planetary gearbox in high-load use cases such as drivetrains.
 
 Available Spur Gearboxes and Motors
 -----------------------------------
+
 Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors <NeveRest Motor>` (in 40:1 and 60:1 ratios), the :term:`REV HD Hex 40:1 Spur motor <HD Hex Motor>`, and goBILDA 5201 Series Yellow Jacket Spur Gear Motors. All of them offer similar performance and reliability, so your choice is primarily dictated by the convenience of mounting and connecting to the rest of your design (e.g., if you use REV kit, you should probably choose :term:`REV HD Hex motor <HD Hex Motor>`, as it uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
 
 .. caution:: These motors are fine for most situations, but should not be used for high loads or when the motor could be subject to shock loads. In particular, it is advised that you do not use them for drivetrains.
@@ -37,6 +39,7 @@ Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors <Neve
 
 Standard Planetary Gearboxes
 ----------------------------
+
 Standard planetary gearboxes include :term:`Andymark NeveRest Orbital motors <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and :term:`goBILDA’s 5202 Series Yellow Jacket Motors <Yellow Jacket Motor>`.
 
 Any of these “standard” gearboxes are more robust than spur gearboxes. Like the spur gearboxes, the gearboxes from different vendors, while not interchangeable, are very comparable in terms of robustness.  Once again, the main thing to consider here is your desired reduction, your desired motor connections, and your desired output :term:`shaft <Shaft>` type.
@@ -47,6 +50,7 @@ Any of these “standard” gearboxes are more robust than spur gearboxes. Like 
 
 High-end Planetary Gearboxes
 ----------------------------
+
 These gearboxes can be used to replace the "standard" gearboxes listed above. They give you more options and gear ratios and in some cases, are more robust than the standard  ones, but they can be quite expensive and require more work.
 
 * `REV UltraPlanetary <https://www.revrobotics.com/rev-41-1600/>`_ gearbox - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix & matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and maximum of 125:1.
@@ -61,11 +65,9 @@ These gearboxes can be used to replace the "standard" gearboxes listed above. Th
 
 .. note:: The VPLite comes with a 3/8” hex output shaft only, whereas the more expensive VersaPlanetary comes with various options including 1/2” hex, 3/8” hex, 1/2” round with 1/8” keyway, a CIM Output option, and a Universal Female Output Shaft. However, the shaft can be swapped out for a different one.
 
-
-
-
 Choosing The Right Gearbox
 --------------------------
+
 For regular use, any of the “standard” (see above) type of planetary gearboxes will fit your needs. Planetary gearboxes are just a tiny bit more expensive, but boast better backlash and efficiency, higher load capacity, and better capacity for shock loads than spur gearboxes. The tradeoffs, cost and mechanical noise, are almost never a factor.
 
 .. tip:: Because both gearbox types are so similar in price for similar ratios, we generally recommend the use of a planetary over a spur gearbox.

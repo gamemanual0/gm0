@@ -1,6 +1,6 @@
-======================
 Getting Started in FTC
 ======================
+
 Welcome to FIRST Tech Challenge! As a new team, you may be slightly overwhelmed and disoriented, wondering where to start. No fear! This guide is meant to help navigate you through your beginning year in FTC.
 
 After registration and going through the STIMS process in the FIRST website, you'll likely have to purchase a starter kit (**which we highly recommend for new teams**) and electronics kit in order to build your robot. The electronics kit is standard for all teams, but please read our kit guide to find out which kit is right for your team.

@@ -1,6 +1,6 @@
-================
 Useful Resources
 ================
+
 Here is a page dedicated to useful resources around the interwebs. Enjoy! **The links with an asterisk are resources that are especially pertinent or helpful. For further reading, we highly suggest you check out those links.**
 
 * This Guide!

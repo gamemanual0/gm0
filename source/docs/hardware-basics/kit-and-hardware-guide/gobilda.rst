@@ -1,10 +1,10 @@
-=======
 goBILDA
 =======
+
 goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel <Channel>` based building system using metric units. It was recently released in the 2018-2019 season and is made by the same company as Actobotics.
 
 Special Considerations
-======================
+----------------------
 
 * goBILDA is based on metric measurements using M4 hardware. The hole pattern has 4mm holes on 8mm grid.
 * The kit is primarily structured around :term:`U-channel <Channel>`, which is strong and durable.
@@ -15,7 +15,7 @@ Special Considerations
 * **goBILDA offers a 25% discount for FIRST teams.**
 
 Notable components
-==================
+------------------
 
 * goBILDA uses :term:`8mm pitch chain <Chain>` and HTD 3 or HTD 5 :term:`belts <HTD Belt>` for motion.
 * goBILDA mostly uses :term:`clamping hubs <Clamping Hub>` (called Sonic hubs), eliminating the unreliable :term:`set screws <Set Screw>`.
@@ -37,12 +37,13 @@ Notable components
 * goRAIL is :term:`extrusion <Extrusion>` that complements the :term:`channel <Channel>` offerings well. goRAIL is used in the linear actuator kit for extending mechanisms.
 
 Verdict
-=======
+-------
 
 goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. It offers a great deal of flexibility and part options from their catalog. goBILDA is a solid choice due to reasonable pricing, low learning curve, and thought-out design that reduces headaches.
 
 Kit of Parts
-============
+------------
+
 https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 
 .. note:: This parts list is for the 2019-2020 season.
@@ -62,7 +63,8 @@ https://www.gobilda.com/master-ftc-kit-2019-2020-season/
 * :term:`Shafting (6mm D-shaft) <Shaft>`
 
 Advantages
-==========
+----------
+
 * goBILDA's low-side U-channel opens up many new possibilities due to its flexibility and compactness. For example, one can now make a :term:`parallel plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or make custom width :term:`U-channel <Channel>`.
 * goBILDA also has :term:`Servoblocks` (identical to Actobotics other than hole pattern) which drastically increase servo life.
 * goBILDA has native large bore :term:`hex shaft <Shaft>` support (12mm REX is comparable to 3/8" :term:`Thunderhex`) which is one of the main advantages of custom fabrication brought to a kit based system.
@@ -77,7 +79,8 @@ Advantages
 * goBILDA provides a large selection of 12V DC motors. Their :term:`Yellow Jacket motors <Yellow Jacket Motor>` use orbital gearboxes and are available in 10 different gear ratios ranging from 30 RPM to 1620 RPM. No other manufacturer offers such varied gear ratios out of the box.
 
 Disadvantages
-=============
+-------------
+
 * goBILDA is not the cheapest build system; it is relatively equivalent in pricing to Actobotics, but REV is cheaper.
 * goBILDA :term:`U-channels <Channel>` are larger than the :term:`channels <Channel>` from Tetrix, resulting in larger builds. However, this is more than compensated by the fact that one can put a :term:`goBILDA motor <Yellow Jacket Motor>` *inside* a :term:`channel <Channel>`.
 * Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain <Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`. This means that other kits' :term:`chain <Chain>` and :term:`sprockets <Sprocket>` won’t work with goBILDA :term:`chain <Chain>` and :term:`sprockets <Sprocket>`.

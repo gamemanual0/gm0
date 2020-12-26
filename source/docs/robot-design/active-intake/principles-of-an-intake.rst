@@ -1,6 +1,5 @@
 =======================
 Principles of an Intake
-=======================
 Reliability
 ===========
 
@@ -15,7 +14,7 @@ Reliability
   Another way to prevent intake breaking is to make a fully retractable intake that won’t protrude outside the 18” cube, though this is seldom needed.
 
 Consistency
-===========
+-----------
 
 * The intake **must** be able to pick up game elements consistently and quickly. For example, in Rover Ruckus each robot could only possess 2 minerals at a time. Therefore, the intake should only pick up two pieces at a time, not zero, one, or three.
 
@@ -26,7 +25,7 @@ Consistency
   Even though it was relatively easy to make a compliant wheel intake that could effectively intake glyphs in one direction, it was hard to make an intake that could deal with angled glyphs. Being able to intake glyphs in all orientations was especially important for multi-glyph autonomous modes.
 
 Controllability
-===============
+---------------
 
 * The intake must be able to consistently control the game elements. For example, if the intake is too fast and the collection box is not well designed, then game pieces might fly out. If the intake is too slow, it may jam itself when contacting the game elements.
 * It is possible for pieces to get jammed at an unreachable angle, especially when using wheeled intakes. If this occurs, ensure that the driver can jar the stuck element loose to avoid having a disabled robot.
@@ -34,7 +33,7 @@ Controllability
 * It is best practice that the driver can see the game elements which are being controlled. This can be done through using clear plating such as Lexan.
 
 Efficiency
-==========
+----------
 
 * The key to any successful robot is cycle time. Reducing cycle time by having an efficient intake will lead to major improvements in score. A good intake should take no more than a few seconds to successfully collect the needed elements.
 

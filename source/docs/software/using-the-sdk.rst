@@ -1,12 +1,13 @@
-=================
 Using the FTC SDK
 =================
+
 LinearOpMode vs OpMode
-======================
+----------------------
+
 There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
 
 LinearOpMode Methods
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 * ``runOpMode()``: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.
 * ``waitForStart()``: This method pauses the Op-Mode until you press the START button on the driver station.
@@ -16,7 +17,7 @@ LinearOpMode Methods
 * ``opModeIsActive()``: returns ``isStarted() && !isStopRequested()`` and calls ``idle()``.
 
 OpMode Methods
---------------
+^^^^^^^^^^^^^^
 
 * ``init()``: Code inside this method will run exactly once after you press the INIT button on the driver station.
 * ``init_loop()``: Once the code in ``init()`` has been run, code inside this method will run continuously until the START button is pressed on the driver station.
@@ -27,11 +28,13 @@ OpMode Methods
 .. note:: Unlike LinearOpMode, all methods in OpMode must be overwritten to be used.
 
 Reading and Writing to Hardware
-===============================
+-------------------------------
+
 When using the FTC SDK, there are a variety of built in hardware classes. Objects can be created for these classes and then instantiated. These objects can then be used to communicate with hardware on the robot such as DC Motors, :term:`Servos <Servo>`, and Sensors.
 
 Creating and Instantiating Hardware Objects
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The first thing required to properly create an object is to import its class. In Android Studio, if the class is referenced without being imported Alt+Enter can be pressed to automatically import it. After it is imported, the next step is to create the object::
 
    private DcMotor liftMotor;
@@ -47,12 +50,13 @@ Whatever sensor you are using, you will pass that class into the spot where ``Dc
 For the second argument, you pass whatever the device is named in the Robot Controller configuration. ``hardwareMap`` will then go find what port the device with that name is plugged into, which allows the hardware to be accessed.
 
 Examples of Using Common Hardware Components
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Built in to the FTC SDK are many examples of using things such as Color Sensors, Distance Sensors, Servos, Motors, etc. Here, we would like to give more of an explanation of using Motors and :term:`Servos <Servo>` because there are a few things the examples do not teach.
 
 DC Motor
-^^^^^^^^
+~~~~~~~~
+
 ::
 
    DcMotor leftMotor = hardwareMap.get(DcMotor.class, "Left Motor");
@@ -94,7 +98,8 @@ The final mode is ``RUN_TO_POSITION``. To make the motor move with this mode, th
 .. warning:: This mode can be a convenient way to control a single-motor mechanism, as it offloads all control work; however, since every motor is dealt with independently, it is inadvisable to use this on mechanisms with multiple motors, especially drivetrains.
 
 Servo
-^^^^^
+~~~~~
+
 ::
 
    Servo relicServo = hardwareMap.get(Servo.class, "Release Servo");
@@ -109,7 +114,8 @@ After instantiating a ``Servo``, there are two main functions that can be called
 ``getPosition()`` does not return the :term:`servo’s <Servo>` current position, rather its current target position. If a variable for the :term:`servo’s <Servo>` current target position is stored properly, this function should never be needed.
 
 Continuous Rotation Servo
-^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ::
 
    CRServo intakeServo = hardwareMap.get(CRServo.class, "Intake Servo");
@@ -119,7 +125,7 @@ A CRServo has one main method; ``setPower()``. This works very similarly to ``Dc
    intakeServo.setPower(0.75);
 
 Gamepad Input
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 A very important aspect of programming a driver controlled opmode is taking driver controls. Thankfully in the FTC SDK, this is very easy to do. Inside of every opmode, there are already 2 working gamepad objects, ``gamepad1`` and ``gamepad2``. ``gamepad1`` is the controller that is connected using start+a, while ``gamepad2`` is the controller connected using start+b.
 
@@ -136,7 +142,8 @@ To get input, no functions need to be called; rather fields of ``gamepad1`` or `
    }
 
 A Note on Hardware Call Speed
-===============================
+-------------------------------
+
 Every hardware call you make, (whether it be setting the power for a motor, setting a :term:`servo <Servo>` position, reading an encoder value, etc.) will take approximately 3 milliseconds to execute, except for I2C calls which can take upwards of 7ms. This is because behind the scenes, the SDK may need to make multiple hardware calls in order to perform the I2C operation.
 
 .. note:: When using a Control Hub, you may see considerably faster hardware call times because the Control Hub uses a direct UART connection to the Lynx board instead of going through USB and a middle-man FTDI as happens when using a phone.

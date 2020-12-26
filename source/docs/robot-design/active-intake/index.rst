@@ -1,6 +1,6 @@
-=============
 Active Intake
 =============
+
 There’s one main rule when it comes to intakes in FTC: you need one. Before diving in, what *is* an intake in the first place?
 
 Intake

@@ -1,4 +1,3 @@
-===============
 Rack and Pinion
 ===============
 
@@ -7,14 +6,14 @@ Rack and pinion refers to a a toothed linear gear (the rack), meshed with a a ci
 Generally, rack and pinion is a good light-use option for FTC teams in terms of linear extension. However, there are some disadvantages to rack and pinion compared to the other options of linear extension. Therefore, rack and pinion is generally not recommended for teams.
 
 Advantages
-==========
+----------
 
 * Easy way to extend upwards.
 * Power and linear motion in one package
 * Can with proper support, sustain heavy load (e.g. hang robot)
 
 Disadvantages
-=============
+-------------
 
 * Rack and pinion generally is only used in one stage, because multiple mechanisms require other forms of powering it (belt, string, chain, etc.)
 

@@ -1,10 +1,11 @@
-=======
 Credits
 =======
+
 We would also like to recognize the teams who have provided pictures, videos, and CAD models of their robot(s) for this guide. We hope you find the pictures to be informative as real examples of what teams have achieved in the past seasons.
 
 FTC Teams
 =========
+
 * 724 RedNek Robotics Wun
 * 731 Wannabee Strange
 * 2818 G-Force
@@ -63,4 +64,5 @@ FTC Teams
 
 FRC Teams
 =========
+
 * 694 StuyPulse
