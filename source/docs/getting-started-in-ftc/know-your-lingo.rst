@@ -1,30 +1,20 @@
 ===============
 Know Your Lingo
 ===============
-Many teams may be unfamiliar with the various terms and slang that are often
-thrown around at competitions and meets.
-Here we have compiled a guide of some commonly used terms to get you up to
-speed.
+Many teams may be unfamiliar with the various terms and slang that are often thrown around at competitions and meets. Here we have compiled a guide of some commonly used terms to get you up to speed.
 
 Competitions
 ============
 Affiliate Partner
    Regional director for teams who runs official competitions.
 Qualifier
-   Tournament with 5-6 qualifying matches and best-of-three alliance
-   elimination matches.
-   Judging included.
-   Will advance to States/Regional level.
+   Tournament with 5-6 qualifying matches and best-of-three alliance elimination matches. Judging included. Will advance to States/Regional level.
 League Meet
-   Low-stress tournament with matches counting towards league rank.
-   No judging.
+   Low-stress tournament with matches counting towards league rank. No judging.
 League Championship
-   Tournament with ranked matches and alliance elimination matches.
-   Judging included.
-   Will advance to States/Regional level.
+   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level.
 Alliance
-   Group of two or, in eliminations, two or three teams that compete.
-   In elimination matches each team must play at least once.
+   Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
    Primary basis in rankings. For the Ultimate Goal season, this is the sum of
    the scores that the alliances you are on at traditional events, and the sum

@@ -1,8 +1,7 @@
 ========================
 Gallery Of Robot Designs
 ========================
-Collection of robot designs from past seasons. Feel free to borrow some
-design solutions for your robot!
+Collection of robot designs from past seasons. Feel free to borrow some design solutions for your robot!
 
 2019-20 Skystone
 ----------------

@@ -2,8 +2,7 @@
 Connectors and Wires
 ====================
 
-There are many types of connectors for use in FTC.
-Here are the most common connectors you will find on an FTC robot.
+There are many types of connectors for use in FTC. Here are the most common connectors you will find on an FTC robot.
 
 * Powerpoles
 
@@ -50,8 +49,6 @@ Here are the most common connectors you will find on an FTC robot.
       :alt: A Tamiya connector
       :width: 200px
 
-   .. warning::
-      Do not use these connectors!
-      The metal connectors are fragile and will lead to random disconnects.
+   .. warning:: Do not use these connectors! The metal connectors are fragile and will lead to random disconnects.
 
    * Used for module power

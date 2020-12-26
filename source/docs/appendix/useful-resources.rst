@@ -1,11 +1,7 @@
 ================
 Useful Resources
 ================
-Here is a page dedicated to useful resources around the interwebs.
-Enjoy!
-**The links with an asterisk are resources that are especially pertinent or
-helpful.
-For further reading, we highly suggest you check out those links.**
+Here is a page dedicated to useful resources around the interwebs. Enjoy! **The links with an asterisk are resources that are especially pertinent or helpful. For further reading, we highly suggest you check out those links.**
 
 * This Guide!
 
@@ -114,11 +110,7 @@ For further reading, we highly suggest you check out those links.**
 
   * `FTC Discord* <https://discord.com/invite/first-tech-challenge>`_
 
-   The FIRST Tech Challenge Discord server is a discussion-based
-   community server that has teams ranging from first-year rookies to
-   Winning Alliance Captains at the World Championships. It also has
-   a channel for direct access to vendors.
+    The FIRST Tech Challenge Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
   * `FIRST Updates Now Discord <https://discord.com/invite/firstupdatesnow>`_
 
-   FIRST Updates Now provides FTC/FRC related content including
-   recaps, shows, analysis, reveals, and top 25.
+    FIRST Updates Now provides FTC/FRC related content including recaps, shows, analysis, reveals, and top 25.
