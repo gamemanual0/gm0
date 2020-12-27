@@ -60,15 +60,15 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
 
          For the Control award, don’t put code in your engineering notebook entries, but rather an explanation of the math and algorithms used for your code. Firstly, judges don't have much time to look over a notebook. Secondly, many judges would prefer explanations rather than having to read and interpret code which they may not be familiar with. If you want to, put all of your latest code in an appendix in your Engineering Notebook. For pit judging, you will usually be able to tell if a judge is trying to learn about the control features of your robot due to the more specific questions asked. Present your control points in an easy-to-understand way, especially as some judges are non-programmers. It is helpful to try your explanation to someone who isn’t a programmer and see if they understand. However, remember to use the correct terms as is used throughout the rest of your Engineering Notebook and Control Award Sheet, so judges can find more information in your Engineering Notebook.
 
-   Some examples of control award sheets are
+      Some examples of control award sheets are:
 
-   - `11115 Gluten Free Rover Ruckus <https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_
-   - `11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_
-   - `1002 Circuit Runners Green Skystone <https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_
-   - `9866 VIRUS Skystone <https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_
-   - `5143 Xcentrics Skystone <https://docs.google.com/document/d/1HuuHvmBrM-qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_
-   - `11528 Bots of Prey Skystone <https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_
-   - `9794 Wizards.exe Skystone <https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_
+      - `11115 Gluten Free Rover Ruckus <https://docs.google.com/document/d/1dXtv628kQRlMkslx5xFYXEXGucp7-IyfMthEEfNveQ4/edit>`_
+      - `11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_
+      - `1002 Circuit Runners Green Skystone <https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_
+      - `9866 VIRUS Skystone <https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_
+      - `5143 Xcentrics Skystone <https://docs.google.com/document/d/1HuuHvmBrM-qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_
+      - `11528 Bots of Prey Skystone <https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_
+      - `9794 Wizards.exe Skystone <https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_
 
    Motivate Award
       The Motivate Award is one of the two outreach awards. It’s for teams that work with their local and *FIRST*\ |reg| community. Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate award can be vague, and most judges don’t know how to differentiate which outreach falls under which award.
@@ -119,6 +119,7 @@ There are some awards that events are not required to present; these do not adva
 
    Judges Award
       The Judges award is meant to recognize a team that doesn’t fit into any of the existing award categories, but the judges still felt the team deserved to win an award for their outstanding effort or other experience. This award is very subjective, and doesn’t advance teams. It is also optional to give at every competition, but in some regions given at every competition unless the judges don’t find a deserving team.
+
    Promote Award and Compass Award
       The Promote and Compass awards are optional awards which are usually given only at state championships and world championships. These awards do not require an engineering notebook to win, but do not advance teams. They are submitted as a video no longer than 1 minute. The Promote award is for creating a PSA for *FIRST*\ |reg| with a specific video prompt. This prompt changes every year, and is found in |gm1|. The Compass award is for recognizing an outstanding mentor. Submitting these awards is usually done on a case-by-case basis, where the event organizer sends teams instructions on how to submit.
 

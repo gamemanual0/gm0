@@ -122,8 +122,6 @@ Control System Internals Glossary
       .. image:: images/control-system-internals/control-hub-internals.jpg
          :alt: The single board computer and :term:`Lynx` board from a Control Hub
 
-         The single board computer and :term:`Lynx` board from a Control Hub
-
    Expansion Hub
       The Expansion Hub contains a :term:`Lynx board <Lynx>`. It can be controlled by an Android device running the FTC SDK. This will send it :term:`LynxCommands <LynxCommand>`, which will cause the Expansion Hub to respond accordingly.
 
