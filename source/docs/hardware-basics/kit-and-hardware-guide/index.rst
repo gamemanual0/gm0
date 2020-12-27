@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Kit and Hardware Guide
 ======================
 
