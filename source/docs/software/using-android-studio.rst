@@ -39,7 +39,7 @@ SDK can be found in the
 `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
 repository.
 
-Downloading the Zip
+Downloading the ZIP
 ^^^^^^^^^^^^^^^^^^^
 #. When you're at the repository, click the green
    "code" button. Then, select "Download ZIP."
@@ -114,14 +114,14 @@ Opening the SDK on Android Studio
    .. image:: images/using-android-studio/select-project-view.png
       :alt: Change to project view
 
-#. Wait for `gradle <Gradle>`_ to complete the build.
+#. Wait for `Gradle`_ to complete the build.
 
    .. image:: images/using-android-studio/build-gradle.png
       :width: 50em
 
 Layout
 ======
-Android Studio can look menacing at first glance, but
+Android Studio can look intimidating at first glance, but
 there are only a few features needed to use it
 properly.
 
@@ -134,7 +134,7 @@ Creating Classes
 The first thing to note in the project view
 is the dropdown with the name of the
 project. If you drop that down, you will
-see all of the gradle files and directories.
+see all of the Gradle files and directories.
 Navigate to the TeamCode folder. In the
 teamcode folder you will see an
 :code:`org.firstinspires.ftc.teamcode` package.
@@ -197,6 +197,13 @@ onto the device.
 If you run into any problems with this process,
 refer to the official
 `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_.
+Some useful pages from the REV site are
+
+- `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
+- `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
+
+If you're stull stuck you can ask for help in the
+`FTC Discord <https://discord.gg/first-tech-challenge>`_.
 
 Gradle
 ======
@@ -204,8 +211,8 @@ Gradle is a build tool for software development.
 In the scope of FTC, it is used to build and manage dependencies
 for your project.
 
-When you update any of your gradle files you will need to perform a
-gradle sync, which syncs your project to the changes and rebuilds it.
+When you update any of your Gradle files you will need to perform a
+Gradle sync, which syncs your project to the changes and rebuilds it.
 In your :code:`build.common.gradle`, you will find information for
 how your robot controller application is built.
 
@@ -237,7 +244,7 @@ The most common way to fix these errors is to do an invalidate
 and restart. In the file dropdown, there will be an option for
 this and then you will choose Invalidate and Restart. This clears
 the cache and restarts your Android Studio, which then should
-perform a gradle rebuild.
+perform a Gradle rebuild.
 
 Adding Dependencies
 -------------------
@@ -248,9 +255,9 @@ There should be a dependencies block at the bottom of the file.
 
 .. image:: images/using-android-studio/teamcode-gradle.png
 
-Some dependencies require changes to your other gradle files.
+Some dependencies require changes to your other Gradle files.
 Make sure to read the installation instructions for whatever
-gradle dependency you want to add.
+dependency you want to add.
 
 Next, you add a line in the dependencies block to implement
 the dependency. This is generally done with
@@ -259,7 +266,7 @@ the dependency. This is generally done with
 .. image:: images/using-android-studio/add-dependency.png
     :alt: Add the dependency using implementation
 
-Finally, perform a gradle sync.
+Finally, perform a Gradle sync.
 
 Android Debug Bridge
 ====================
@@ -324,8 +331,8 @@ Setting Up ADB
     which saves time. Remember, logcat is the *best* way
     to debug your software.
 
-Connecting to a Phone
-^^^^^^^^^^^^^^^^^^^^^^^
+Connecting to a Phone Wirelessly
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 #.  Plug the robot controller phone into your computer.
 
 #.  Run the command :code:`adb devices` in the :code:`platform-tools`
@@ -338,8 +345,8 @@ Connecting to a Phone
     If this doesn't work, recheck the IP address of the phone and
     try again with that IP address if it is different.
 
-Connecting to a Control Hub
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Connecting to a Control Hub Wirelessly
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Once you're connected to a Control Hub's network,
 you simply need to connect to it using
 :code:`adb connect 192.168.43.1:5555`.
