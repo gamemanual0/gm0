@@ -112,6 +112,16 @@ from the back right and front left::
     frontRightMotor.setPower(y - x - rx);
     backRightMotor.setPower(y + x - rx);
 
+.. note::
+    It's important to note that motors in FTC spin counterclockwise when
+    given positive power by default (except for Neverest motors). In this
+    case, you need to reverse the direction of the right drive motors
+    so that they spin toward the same direction as the left drive motors
+    when supplied with a positive power. This can be done simply by either
+    reversing the direction with either
+    :code:`setDirection(DcMotor.Direction.REVERSE)` or multiplying
+    the right side powers by a negative number.
+
 This is the same as the tank example,
 except now with 4 motors and the strafing component added.
 Similarly to the tank example, the Y component is added to all wheels,
