@@ -119,7 +119,7 @@ from the back right and front left::
     so that they spin toward the same direction as the left drive motors
     when supplied with a positive power. This can be done simply by either
     reversing the direction with either
-    :code:`setDirection(DcMotor.Direction.REVERSE)` or multiplying
+    :code:`DcMotor.setDirection(DcMotor.Direction.REVERSE)` or multiplying
     the right side powers by a negative number.
 
 This is the same as the tank example,
