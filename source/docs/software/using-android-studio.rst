@@ -351,7 +351,7 @@ Add ADB To PATH
 ---------------
 Adding variables to PATH:
 
-- `Windows <https://docs.alfresco.com/4.2/tasks/fot-addpath.html)>`_
+- `Windows <https://docs.alfresco.com/4.2/tasks/fot-addpath.html>`_
 
 - `Unix/Linux <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
 
