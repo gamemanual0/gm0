@@ -60,6 +60,7 @@ Software
 * David - FTC 7236 Recharged Green - pellarobotics@gmail.com
 * Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
 * James - FTC 14298 Lincoln Robotics - ftc14298@gmail.com
+* Jackson - FTC/FRC Mentor/Alum - jaxonfiles@gatech.edu
 * Guineawheek - FTC Alum - `Github <https://github.com/guineawheek/>`_
 
 Hosting
