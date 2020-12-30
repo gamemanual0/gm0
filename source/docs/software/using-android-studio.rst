@@ -347,6 +347,23 @@ you simply need to connect to it using
 Once a connection is established, it should appear
 in the device dropdown in Android Studio.
 
+Wireless Configuration
+^^^^^^^^^^^^^^^^^^^^^^
+You can set up a configuration on the Driver Station or
+Robot Controller like usual. However, you can also
+create a valid configuration XML file in
+:code:`TeamCode/src/main/res/xml`. You can find
+your configuration files in the :code:`/sdcard/FIRST`
+folder as an XML file with the same name as the
+configuration.
+
+To get these XML files wirelessly, you can use
+:code:`adb pull /sdcard/FIRST/config.xml /fully/qualified/path/res/xml`.
+
+If a valid configuration XML file is in :code:`res/xml`
+it will show up as a configuration you can use for the
+robot when you push it to the Robot Controller or a Control Hub.
+
 Add ADB To PATH
 ---------------
 Adding variables to PATH:
@@ -364,7 +381,7 @@ on your system.
 SDK Manager
 ===========
 
-You can find the SDK manager right in the top right corner
+You can find the SDK manager in the top right corner
 of your Android Studio.
 
 .. image:: images/using-android-studio/sdk-manager-icon.png
