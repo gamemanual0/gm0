@@ -294,6 +294,19 @@ Android Debug Bridge (ADB) is a command-line
 tool that allows for wireless communication between the
 robot controller (phone or Control Hub).
 
+ADB should come with the platform tools in Android Studio.
+Navigate to your :code:`local.properties` file in the root
+of your project and you should see a path to the Android SDK
+on your computer, such as
+:code:`C:\Users\Woodie\AppData\Local\Android\Sdk`.
+Then navigate to :code:`platform-tools` and an application
+called adb should be there. To use it, open CLI (like
+powershell or command prompt) and run either
+:code:`adb devices` or :code:`./adb devices`.
+
+For more information on ADB, you can look at the
+`developers page <https://developer.android.com/studio/command-line/adb>`_.
+
 Setting Up ADB
 ^^^^^^^^^^^^^^
 #.  Ensure USB debugging is enabled on your device and it is
@@ -303,6 +316,13 @@ Setting Up ADB
     the instructions at `this link <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
 
 #.  Connect to the same WiFi network the device is either hosting or on.
+
+.. note::
+    You can use logcat via ADB with the
+    :code:`adb logcat` command. This is extremely useful for
+    debugging as it allows you to look at the logs wirelessly
+    which saves time. Remember, logcat is the *best* way
+    to debug your software.
 
 Connecting to a Phone
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -326,6 +346,52 @@ you simply need to connect to it using
 
 Once a connection is established, it should appear
 in the device dropdown in Android Studio.
+
+Add ADB To PATH
+---------------
+Adding variables to PATH:
+
+- `Windows <https://docs.alfresco.com/4.2/tasks/fot-addpath.html)>`_
+
+- `Unix/Linux <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
+
+If you want to use ADB anywhere, you can set a system variable
+for it. Simply follow an online tutorial for adding to PATH
+and set the PATH to the :code:`platform-tools` directory.
+Once you do that, you can run ADB commands from anywhere
+on your system.
+
+SDK Manager
+===========
+
+You can find the SDK manager right in the top right corner
+of your Android Studio.
+
+.. image:: images/using-android-studio/sdk-manager-icon.png
+    :alt: A box with a down-facing arrow
+
+Accepting Licenses
+------------------
+If you get a warning complaining about licenses not being
+accepted, follow these steps:
+
+#.  Go to the SDK manager and under SDK Platforms.
+
+#.  Select the version with the API level specified by the warning.
+
+#.  Click "Apply" and wait for the components to install.
+
+#.  Once this finishes, press "Finish," then "Ok." Wait for Android
+    Studio to index if it is.
+
+#.  Restart Android Studio.
+
+Installing SDK Tools
+--------------------
+To install any SDK tools such as platform tools or
+build tools, open the SDK manager and go to SDK Tools.
+Select the tools you want to install and install them
+the same way you would for the SDK platforms.
 
 Version Control
 ===============
