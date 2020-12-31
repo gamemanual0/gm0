@@ -280,11 +280,23 @@ To upgrade to Java 8, navigate to your
 :code:`build.common.gradle` file. Scroll down until you
 find this block:
 
-.. image:: images/using-android-studio/java-version.png
-    :alt: The compile options block with the Java version
+.. code-block:: groovy
 
-Change the :code:`7` to :code:`8` and perform a
-Gradle sync.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+Change the :code:`7` to :code:`8`, like so:
+
+.. code-block:: groovy
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+Then, perform a Gradle sync.
 
 Android Debug Bridge
 ====================
