@@ -190,6 +190,30 @@ Next, you add a line in the dependencies block to implement the dependency. This
 
 Finally, perform a Gradle sync.
 
+Upgrading to Java 8
+-------------------
+By default, the SDK's version of Java is set to 7. Java 8 is also supported. You might want to upgrade your version of Java from 7 to 8 if you want to use features such as lambdas or generics. Some libraries may also require you to change your Java version.
+
+To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. Scroll down until you find this block:
+
+.. code-block:: groovy
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+Change the :code:`7` to :code:`8`, like so:
+
+.. code-block:: groovy
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+Then, perform a Gradle sync.
+
 Android Debug Bridge
 --------------------
 
