@@ -192,6 +192,7 @@ Finally, perform a Gradle sync.
 
 Upgrading to Java 8
 -------------------
+
 By default, the SDK's version of Java is set to 7. Java 8 is also supported. You might want to upgrade your version of Java from 7 to 8 if you want to use features such as lambdas or generics. Some libraries may also require you to change your Java version.
 
 To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. Scroll down until you find this block:
