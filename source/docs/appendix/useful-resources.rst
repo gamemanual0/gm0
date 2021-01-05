@@ -10,7 +10,6 @@ This Guide!
 
 - `Game Manual 0 <https://gm0.org/en/stable/>`_
 
-
 Official *FIRST*\ |reg| Resources
 ---------------------------------
 
