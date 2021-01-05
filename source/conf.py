@@ -31,7 +31,6 @@ extensions = [
     "sphinx.ext.graphviz",
     "sphinxext.opengraph",
     "sphinxext.linkcheckdiff",
-    "sphinx_sitemap",
     "hoverxref.extension"
 ]
 
