@@ -8,7 +8,8 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 LINTER = doc8
-LINTEROPTS = 
+LINTEROPTS = --ignore D001,WUMBO007,WUMBO008
+#D001 is linelength, WUMBO007/008 are trademark and italicization respectively
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
@@ -20,7 +21,7 @@ help:
 .PHONY: help Makefile
 
 lint:
-	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)
+	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)/docs
 
 .PHONY: help lint Makefile
 
