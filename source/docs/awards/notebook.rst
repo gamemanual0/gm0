@@ -124,11 +124,14 @@ Notebook Gallery
 
 - Relic Recovery
 
-  - `4042 (West Super Regional Innovate Winner) <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
+  - `4042 <https://drive.google.com/file/d/10TQJd4ioArq-asmswHneY9S-_okcr5vq/view>`_
 - Rover Ruckus
 
-  - `9794 (Detroit Championship Think Finalist) <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
-  - `14270 (Detroit Championship Motivate Finalist) <https://qrobotics.eu/media/resources/2018-2019/engineering.pdf>`_
+  - `9794 <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
+  - `14270 <https://qrobotics.eu/media/resources/2018-2019/engineering.pdf>`_
 - Skystone
 
   - `11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-Gwenh02U-9a>`_
+  - `8813 Design Notebook <https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_
+  - `9596 Technical Binder <https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_
+  - `9596 Non-Technical Binder <https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_
