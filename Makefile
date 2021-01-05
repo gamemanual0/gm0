@@ -8,7 +8,8 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 LINTER = doc8
-LINTEROPTS = --ignore D001 #D001 is linelength
+LINTEROPTS = --ignore D001,WUMBO007,WUMBO008
+#D001 is linelength, WUMBO007/008 are trademark and italicization respectively
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
