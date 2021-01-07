@@ -58,10 +58,11 @@ mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
 
 # Configure linkcheck
 linkcheck_ignore = [
-    "https://workbench.grabcad.com/workbench/projects/*",
-    ".*cabinetparts.com*",
-    ".*andymark.com*",
-    ".*xrcsimulator.org*"
+    r"https://workbench.grabcad.com/workbench/projects/.*",
+    r".*cabinetparts.com.*",
+    r".*andymark.com.*",
+    r".*xrcsimulator.org.*",
+    r".*amazon.com.*",
 ]
 linkcheck_timeout = 30
 linkcheck_retries = 3
