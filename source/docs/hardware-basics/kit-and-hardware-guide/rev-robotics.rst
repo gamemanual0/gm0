@@ -56,7 +56,7 @@ Kit of Parts
 
 .. warning:: This is referring to the Starter Kit V2, not the current Starter Kit V3.
 
-https://revrobotics.com/rev-45-1270/
+https://www.revrobotics.com/rev-45-1270/
 
 - 2 :term:`40:1 HD Hex Motors <HD Hex Motor>`
 - 2 :term:`Core Hex Motors <Core Hex Motor>`
