@@ -18,6 +18,8 @@ You can extend or shorten motor power cables by soldering additional length of c
 
 For more tips on wiring the robot, see :doc:`../../power-and-electronics/wiring`.
 
+.. _encoders:
+
 Encoders
 --------
 
