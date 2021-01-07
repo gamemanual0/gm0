@@ -145,7 +145,7 @@ If you run into any problems with this process, refer to the official `REV docum
 - `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
 
-If you're stull stuck you can ask for help in the `FTC Discord <https://discord.gg/first-tech-challenge>`_.
+If you're stull stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
 
 Gradle
 ------
@@ -233,7 +233,7 @@ To use logcat, plug in your device (or connect via ADB). Then, select the app yo
 .. image:: images/using-android-studio/logcat-window.png
    :alt: A selected device and app with the error messages
 
-If you have an issue you don't understand, you can print a PDF (option 5) of the log and ask a question in the `FTC discord <https://discord.gg/first-tech-challenge>`_.
+If you have an issue you don't understand, you can print a PDF (option 5) of the log and ask a question in the `FTC discord <https://discord.com/invite/first-tech-challenge>`_.
 
 Wireless Communication
 ^^^^^^^^^^^^^^^^^^^^^^

@@ -13,7 +13,7 @@ HS788 is available from several vendors including ServoCity and goBILDA, both of
 PARALLAX High Speed CR Servo
 ----------------------------
 
-This continuous rotation :term:`servo <Servo>` from Parallax (https://www.parallax.com/product/900-00025) has the speed of up to 180 RPM - three times as fast as most :term:`servos <Servo>`. This makes it usable for powering intakes (assuming you do not need much torque) and similar designs. Note that this :term:`servo <Servo>` requires 6V input, so it can not be used directly with :term:`REV hubs <Expansion Hub>`, which only provide 5V. Instead, you need a `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
+This continuous rotation :term:`servo <Servo>` from Parallax (https://www.parallax.com/product/high-speed-continuous-rotation-servo/) has the speed of up to 180 RPM - three times as fast as most :term:`servos <Servo>`. This makes it usable for powering intakes (assuming you do not need much torque) and similar designs. Note that this :term:`servo <Servo>` requires 6V input, so it can not be used directly with :term:`REV hubs <Expansion Hub>`, which only provide 5V. Instead, you need a `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
 
 VEX 393 EDR
 -----------
