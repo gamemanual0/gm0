@@ -51,6 +51,7 @@ Building Resources - Applications
 ---------------------------------
 
 - `Mechatronics: Technologies, Principles, Design, and Analysis of Complex Electro-mechanical Systems <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_
+- `NASA Robotics Alliance Project (RAP) Robotics Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_
 - `goBILDA with TETRIX (Blog for interfacing goBILDA with TETRIX) <https://gobildatetrix.blogspot.com>`_
 - `SDP-SI Timing Belt and Pulley Guide <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_
 - `SDP-SI Designing Belt Drives <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_
