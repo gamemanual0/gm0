@@ -20,7 +20,7 @@ Rookie Mistakes: Competition
 | - Requires more practice        | - Removes human error               |
 +---------------------------------+-------------------------------------+
 
-Neglecting driver practice to Constant driver training
+Neglecting driver practice → Constant driver training
 ------------------------------------------------------
 
 .. important:: A persistent problem with new teams is neglecting driver practice. Drive practice is to be done throughout the season, **not the week before competition.**
@@ -38,7 +38,7 @@ Driver practice not only familiarizes the driver(s) with the robot and serves as
 
 While this may seem extreme, it is really just a form of preparedness. If your driver doesn't know how to react, then you need more drive practice.
 
-No game strategy to Strategic driving
+No game strategy → Strategic driving
 -------------------------------------
 
 Similar to drive practice, this is something that many inexperienced teams ignore. A sports example is handy - even with the most talented players, a team won’t go far without good game strategy.
@@ -51,7 +51,7 @@ For example, drivers should know exactly where the robot needs to be positioned 
 
 **However, it is not advisable for rookie teams to play defense** due to the specific rules surrounding this strategy. If a team wishes to execute a defensive strategy, be sure to read all the rules as defense can easily incur penalties/cards if done improperly.
 
-Fully driver-controlled driving to Partially automated tasks
+Fully driver-controlled driving → Partially automated tasks
 ------------------------------------------------------------
 
 .. important:: Autonomous should not be limited to only the autonomous mode. Automating simple tasks can be a real time-saver and efficiency boost to teams.
