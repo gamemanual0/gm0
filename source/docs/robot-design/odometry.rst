@@ -65,6 +65,11 @@ REV Through-Bore
 
 Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_ has quickly become the de facto option the FTC community. The REV encoders have gained such a reputation due to its relative affordability, much improved reliability, and ease of use. The through-bore design proves to be a *significant* improvement over previous optical disc encoder designs. Optical disc encoders are very fragile, prone to scratching, and are much less tolerant to design flaws.
 
+.. figure:: images/odometry/through-bore.png
+   :width: 20em
+
+   REV Through-Bore Encoder
+
 **Advantages:**
   * Through-bore design is very robust and easy to design with
   * Relatively cheap
@@ -74,14 +79,20 @@ Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoder
 **Disadvantages:**
   * Quite large relative to other encoders. May be challenging to create a compact design
   * Many Through-Bores seem to experience slight, uneven resistance when rotating. Rev says this is normal and will subside as the encoder wears in
-  * Odd screw-terminal
+  * Odd mounting points
 
 .. note:: The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second (32k / 8k = 4) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
+
 
 U.S. Digital S4T
 ^^^^^^^^^^^^^^^^
 
 The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ miniature shaft encoder is another viable option used in dead wheel designs. These encoders are very small and may significantly reduce the footprint of your dead wheel design. Gearing these encoders is ideal to prevent shock loads.
+
+.. figure:: images/odometry/s4t.jpg
+   :width: 20em
+
+   S4T Encoder
 
 **Advantages:**
   * Very compact
@@ -97,6 +108,11 @@ SRX Mag Encoder
 
 The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
 
+.. figure:: images/odometry/srx-mag.jpg
+   :width: 20em
+
+   E8T Encoder
+
 **Advantages:**
   * Very compact
   * Relatively cheap
@@ -109,6 +125,11 @@ U.S. Digital E8T (deprecated)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once the de facto option for most FTC teams, the `E8T <https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical encoders are no longer recommended as the REV Through-Bores are a superior option at an equivalent price. The open-hole optical disc design of these encoders face a number of frustrating design flaws that made them very fragile and prone to breaking. The only advantage that they have relative to the REV Through-Bores is their smaller footprint.
+
+.. figure:: images/odometry/e8t.jpg
+   :width: 20em
+
+   E8T Encoder
 
 Design
 ------
@@ -166,14 +187,75 @@ The most popular method of spring tensioning is to pivot your pod around a point
    :target: images/odometry/14320-pivot-half.jpg
    :width: 40em
 
-   Image of FTC 14320's spring tensioning
+   FTC 14320's spring tensioning
 
 A much more niche option is to vertically spring ones pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertical springing will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields.
 
 .. figure:: images/odometry/18172-vertical-odo.jpg
    :width: 40em
 
-   Image of FTC 18172's vertical springing
+   FTC 18172's vertical springing
 
 Gallery
 -------
+
+
+Open Odometry
+^^^^^^^^^^^^^^
+
+.. figure:: images/odometry/openodo-bom.png
+   :width: 40em
+
+.. image:: images/odometry/openodo-sideview.png
+   :width: 40em
+
+FTC Team 14310
+^^^^^^^^^^^^^^
+
+.. image:: images/odometry/14310.jpg
+   :width: 40em
+
+FTC Team 8802
+^^^^^^^^^^^^^
+
+.. image:: images/odometry/8802.jpg
+   :width: 40em
+
+FTC Team 14320
+^^^^^^^^^^^^^^
+
+.. image:: images/odometry/14320.jpg
+   :width: 40em
+
+FTC Team 11115
+^^^^^^^^^^^^^^
+
+.. figure:: images/odometry/11115-cover.jpg
+   :width: 40em
+
+   `FTC Team 11115 Photo Album <https://photos.app.goo.gl/WmTxcacrziEG1YHNA>`_
+
+FTC Team 14481
+^^^^^^^^^^^^^^
+
+.. image:: images/odometry/14481.png
+   :width: 40em
+
+FTC Team 3658
+^^^^^^^^^^^^^^
+
+.. figure:: images/odometry/3658.png
+   :width: 40em
+
+   FTC Team 3658 CAD
+
+FTC Team 7236
+^^^^^^^^^^^^^^
+
+.. figure:: images/odometry/7236-cad-exploded.png
+   :width: 40em
+
+   FTC Team 7236 CAD
+
+.. image:: images/odometry/7236.jpg
+   :width: 40em
