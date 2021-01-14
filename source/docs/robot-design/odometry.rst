@@ -100,6 +100,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 **Disadvantages:**
   * More expensive (nearly double the price)
   * Less durable
+  
     * Very thin wires. Prone to breaking easily if not secured properly
   * Ideally requires external gearing
 
