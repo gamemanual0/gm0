@@ -145,7 +145,7 @@ If you run into any problems with this process, refer to the official `REV docum
 - `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
 
-If you're stull stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
+If you're still stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
 
 Gradle
 ------
@@ -217,6 +217,8 @@ Then, perform a Gradle sync.
 
 Android Debug Bridge
 --------------------
+
+.. note:: On macOS, Linux, or using PowerShell you will have to change any commands that start with :code:`adb` to start with :code:`./adb` if you are in the :code:`platform-tools` directory.
 
 Logcat
 ^^^^^^

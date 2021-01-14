@@ -54,23 +54,7 @@ REV also sells :term:`punch tubing <Punch Tubing>`, which is 15 mm aluminum squa
 Kit of Parts
 ------------
 
-.. warning:: This is referring to the Starter Kit V2, not the current Starter Kit V3.
-
-https://www.revrobotics.com/rev-45-1270/
-
-- 2 :term:`40:1 HD Hex Motors <HD Hex Motor>`
-- 2 :term:`Core Hex Motors <Core Hex Motor>`
-- 4 :term:`Smart Robot Servos <Servo>` with other attachments
-- :term:`Smart Robot Servo Programmer <SRS Programmer>`
-- 15 mm aluminum :term:`extrusion <Extrusion>`, various lengths
-- :term:`Omni <Omni Wheel>` and traction wheels
-- 32 :term:`gears <Gear>` in 7 different sizes
-- 10 :term:`sprockets <Sprocket>` in 3 different sizes
-- Delrin brackets
-- Delrin bearings and :term:`pillow blocks <Bushing>`
-- Motor and :term:`servo <Servo>` power/data cables
-- Slim Robot Battery and charger
-- 5.5 mm nut driver and 5.5 mm hex wrench
+- `FTC Starter Kit V3 <https://www.revrobotics.com/rev-45-1883/>`_
 
 Advantages
 ----------

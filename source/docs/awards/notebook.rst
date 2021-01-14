@@ -75,9 +75,9 @@ Each team approaches it differently, but a standard approach is as follows.
    +==================+=============================================+
    | Lorem ipsum      | Dolor sit amet, consectetur adipiscing elit |
    +------------------+---------------------------------------------+
-   | Sed do eiusmod    | Tempor incididunt ut labore                |
+   | Sed do eiusmod   | Tempor incididunt ut labore                 |
    +------------------+---------------------------------------------+
-   | Et dolore magna   | Aliqua ut enim ad minim veniam             |
+   | Et dolore magna  | Aliqua ut enim ad minim veniam              |
    +------------------+---------------------------------------------+
 
 There are other methods such as weekly, pure goals, or other engineering based methods such as agile (if you pursue the latter you can use those hard won mentors you have gotten). Weekly or bi-weekly is the same as above, but the date becomes a range and you talk about what happened over that period of time. This is better for a team that has only a couple of people doing the logs because overall logs get more and more tedious.
