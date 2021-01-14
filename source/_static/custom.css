@@ -2,12 +2,6 @@
   --image-width: 25em;
 }
 
-/* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
-}
-
 .wy-nav-top, .wy-nav-side, .wy-side-nav-search {
     background: #4e4a4a;
 }
@@ -16,6 +10,11 @@ div.ethical-sidebar, div.ethical-footer {
     background: #404040;
 }
 
+/* Removes community ads on read the docs */
+div.ethical-sidebar, div.ethical-footer {
+    position: absolute;
+    left: -99999px;
+}
 
 img:not(.graphviz) {
     /* Change images to be consitently 400px wide, unless specified in the source */
@@ -39,4 +38,18 @@ span.caption-text {
     display: inline-block;
     max-width: var(--image-width);
     text-align: center;
+}
+
+footer {
+    font-size: var(--font-size--normal);
+}
+
+@media (prefers-color-scheme: dark) {
+    img.graphviz {
+        filter: invert(87%);
+    }
+
+    .dark-mode-invert {
+        filter: invert(50%);
+    }
 }
