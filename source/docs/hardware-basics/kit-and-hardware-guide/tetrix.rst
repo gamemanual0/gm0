@@ -19,26 +19,11 @@ Verdict
 
 While you may be considering TETRIX as a starter kit, we encourage you to explore your options before selecting a kit. While Tetrix does pick up quite a lot of flak from the community, it isn’t a bad choice in terms of physical qualities such as strength, but the mounting options and hole patterns leave more to be desired and restrict teams in terms of flexibility.
 
-Kit Parts
----------
+Kit of Parts
+------------
 
-https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf
-
-.. note:: This parts list is for the 2018-2019 season.
-
-- 32x32mm Aluminum :term:`C-Channel <Channel>`, various lengths
-- Assorted plates and brackets, flat and 90 degree
-- Flat plates
-- Axles (:term:`6mm d-shaft <Shaft>` & :term:`4.7mm d-shaft <Shaft>`), hubs, spacers
-- Aluminum :term:`gears <Gear>`
-- :term:`Standoffs <Standoff>`
-- :term:`HS-485 HB servo <Servo>` (4x), assorted accessories
-- TETRIX Torquenado motor (4x)
-- Bars and angles
-- :term:`Omni <Omni Wheel>` and traction wheels
-- Nuts, screws, fasteners
-- Battery
-- Tools (screwdrivers, etc.)
+- `Kit of Parts <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge/TETRIX-FTC-Competition-Set>`_
+- `2020-2021 Kit of Parts BoM <https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf>`_
 
 Advantages
 ----------

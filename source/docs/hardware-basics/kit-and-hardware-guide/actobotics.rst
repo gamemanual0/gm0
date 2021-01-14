@@ -28,27 +28,10 @@ Verdict
 
 Actobotics is a solid choice for new teams, offering a reliable base kit with many options to expand upon.
 
-Kit Parts
----------
+Kit of Parts
+------------
 
-https://www.servocity.com/ftc-competition-kit-20-21-season/
-
-- Aluminum :term:`c-channel <Channel>` and mini channel of various lengths
-- X-rail (a special type of extruded rail similar to 8020)
-- Assorted plates and brackets, flat and 90 degree
-- Flat plates
-- Clamping hubs, spacers
-- Gears and sprockets
-- 1/4” :term:`D-shaft <Shaft>`
-- Standoffs
-- :term:`HS-488 HB servo <Servo>` (4x), assorted accessories
-- 5201 Series, 53:1 Ratio, 105 RPM Spur Gear Motor
-- 5201 Series, 26.9:1 Ratio, 210 RPM Spur Gear Motor
-- Bars and angles
-- :term:`Omni <Omni Wheel>` and traction wheels
-- Nuts, screws, fasteners
-- Battery
-- Tools (screwdrivers, etc.)
+- `2020-2021 Kit Parts <https://www.servocity.com/ftc-competition-kit-20-21-season/>`_
 
 Advantages
 ----------

@@ -46,23 +46,7 @@ goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. 
 Kit of Parts
 ------------
 
-https://www.gobilda.com/master-ftc-kit-2019-2020-season/
-
-.. note:: This parts list is for the 2019-2020 season.
-
-- 5202 Series, 26.9:1 Ratio, 223 RPM Planetary Gear Motor w/Encoder **x2**
-- 5202 Series, 13.7:1 Ratio, 435 RPM Planetary Gear Motor w/Encoder **x2**
-- :term:`2000 Series Dual Mode Servo (25-1) <Servo>` **x4**
-- Servo mount plates, attachments, accessories
-- Matrix 12V 3000mAh battery with XT30 to Tamiya Adaptor
-- :term:`U-channel <Channel>`, assorted lengths
-- :term:`goRAIL extrusion <Extrusion>`, assorted lengths
-- Pattern and grid plates
-- Square beams, u-beams, l-beams
-- Assorted brackets, standoffs, spacers
-- :term:`Gears <Gear>`, :term:`sprockets <Sprocket>`, :term:`chain <Chain>` (8mm plastic :term:`chain <Chain>`)
-- :term:`Bearings <Ball Bearing>`, :term:`hubs <Clamping Hub>`, :term:`collars <Shaft Collar>`
-- :term:`Shafting (6mm D-shaft) <Shaft>`
+- `2020-2021 Kit Parts <https://www.gobilda.com/master-ftc-kit-6mm-d-shaft-2020-2021-season>`_
 
 Advantages
 ----------
