@@ -54,7 +54,7 @@ We do recommend teams who have purchased the Tetrix kit to build it for educatio
 However, most if not all of these problems will be solved by using a four-motor drivetrain such as the ones recommended in the drivetrain guide (mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the :doc:`drivetrain <../robot-design/drivetrains/index>` section and see which drivetrain would fit best for their overall game strategy.
 
 Passive Intake/Claw → Active Intake
-------------------------------------
+-----------------------------------
 
 .. important:: Active intakes (ones with continuous rotational motion) should always be prioritized over passive intakes and grippers.
 
