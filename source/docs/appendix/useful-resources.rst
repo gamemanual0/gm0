@@ -18,6 +18,7 @@ Official *FIRST*\ |reg| Resources
 - `2020-2021 Game Manual Part 1 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf>`_
 - `2020-2021 Game Manual Part 2* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-traditional-events.pdf>`_
 - `2020-2021 Game Manual Part 2 - Remote Events* <https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-2-remote-events.pdf>`_
+- `Remote Field Requirements* <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/remote-field-requirements.pdf>`_
 - `FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_
 - `Robot Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`_
 - `Field Inspection Checklist <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-inspection-checklist.pdf>`_
