@@ -31,6 +31,9 @@ div.figure.align-default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 0;
+    transform: none;
 }
 
 /* Make sure captions cannot be wider than the figure they are describing */
