@@ -3,7 +3,7 @@ Odometry
 
 .. warning:: This is a very niche aspect of design in FTC. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
 
-Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. `Localization software <../software/odometry.html>`_ plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
+Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software <../software/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
 
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms. We'll explore what they mean in a bit.
 
@@ -16,7 +16,8 @@ However, designing consistently accurate dead wheels proves to be a difficult de
 Let's go through the advantages and disadvantages of each system.
 
 Drive Encoder Localization
-==========================
+--------------------------
+
 * **Pros**:
 
   * Cheap (the motors you're using most likely already have encoders built in)
@@ -28,7 +29,8 @@ Drive Encoder Localization
   * Will drift on high acceleration on mecanum drive. Accuracy will be good enough for basic autonomous modes if acceleration is limited
 
 Two-Wheel Odometry Pods
-=======================
+-----------------------
+
 * **Pros**:
 
   * Cheaper than 3-wheel design
@@ -39,7 +41,8 @@ Two-Wheel Odometry Pods
   * Subject to more drift than the 3-wheel design
 
 Three-Wheel Odometry Pods
-=========================
+-------------------------
+
 * **Pros**:
 
   * Relatively accurate tracking. Great accuracy in a 30-second autonomous mode
@@ -70,11 +73,10 @@ Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoder
 
 **Disadvantages:**
   * Quite large relative to other encoders. May be challenging to create a compact design
-  * Many Through-Bores seem to experience slight, uneven resistance when rotating. Rev says this is normal and will subside as the encoder wears in 
-  * Odd screw-terminal 
+  * Many Through-Bores seem to experience slight, uneven resistance when rotating. Rev says this is normal and will subside as the encoder wears in
+  * Odd screw-terminal
 
-.. note:: The Through-Bore encoders have a very high CPR (8k). The REV
-          Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second (32k / 8k = 4) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
+.. note:: The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second (32k / 8k = 4) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
 
 U.S. Digital S4T
 ^^^^^^^^^^^^^^^^
@@ -92,7 +94,8 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
-The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC. 
+
+The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
 
 **Advantages:**
   * Very compact
@@ -110,7 +113,7 @@ Once the de facto option for most FTC teams, the `E8T <https://www.usdigital.com
 Design
 ------
 
-There are few open source dead wheel designs. Dead wheels are often designed around a team's own drive train and FTC teams seldom publicy release their own robot CADs.
+There are few open source dead wheel designs. Dead wheels are often designed around a team's own drive train and FTC teams seldom publicly release their own robot CADs.
 
 Here are a few publicly available dead wheel designs:
 
@@ -140,7 +143,7 @@ Here are a few publicly available dead wheel designs:
 
   - https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing
   - The above link the entire robot assembly for 11115's CAD for the 2018-19 season
-  
+
   - **Things to consider**:
 
     - Uses LEGO gears
@@ -165,7 +168,7 @@ The most popular method of spring tensioning is to pivot your pod around a point
 
    Image of FTC 14320's spring tensioning
 
-A much more niche option is to vertically spring ones pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertical springing will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields. 
+A much more niche option is to vertically spring ones pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertical springing will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields.
 
 .. figure:: images/odometry/18172-vertical-odo.jpg
    :width: 40em
@@ -173,4 +176,4 @@ A much more niche option is to vertically spring ones pods. The idea is that spr
    Image of FTC 18172's vertical springing
 
 Gallery
-=======
+-------
