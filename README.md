@@ -21,7 +21,7 @@ Requirements
 * make
 
 Ensure the Python requirements are installed via running 
-`python3 -r pip install source/requirements.txt`.
+`python3 -m pip install -r source/requirements.txt`.
 
 Building
 --------
