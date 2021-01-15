@@ -1,11 +1,11 @@
-Odometry
-========
+Dead Wheels
+===========
 
 .. warning:: This is a very niche aspect of design in FTC. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
 
-Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software <../software/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
-
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms. We'll explore what they mean in a bit.
+
+Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software <../software/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
 
 The simplest form of odometry is drive encoder localization. This is the use of encoders measuring the rotation of motors that power the drive train. One is able to read the encoder data and feed it through the kinematic equation for that specific drive train to derive the body's velocity. Drive encoder localization is generally quite simple and easy to setup as almost all of the FTC legal motors have built-in encoders. Getting drive encoder localization setup is simply a matter of plugging in wires, no additional hardware needed.
 
@@ -116,10 +116,10 @@ SRX Mag Encoder
 The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
 
 .. figure:: images/odometry/srx-mag.jpg
-   :alt: A VEX SRX Mag encoder
+   :alt: A CTRE SRX Mag encoder
    :width: 20em
 
-   E8T Encoder
+   CTRE SRX Mag Encoder
 
 **Advantages:**
 
@@ -200,7 +200,7 @@ The most popular method of spring tensioning is to pivot your pod around a point
 
    FTC 14320's spring tensioning
 
-A much more niche option is to vertically spring ones pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertical springing will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields.
+A much more niche option is to vertically spring odometry pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertically sprung odometry pods will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields.
 
 .. figure:: images/odometry/18172-vertical-odo.jpg
    :alt: An example of vertical spring tensioning
