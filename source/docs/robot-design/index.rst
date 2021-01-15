@@ -13,4 +13,4 @@ This chapter covers basic principles of robot design as well as suggestions for 
    arms/index
    passive-intake-claw
    active-intake/index
-   odometry
+   dead-wheels

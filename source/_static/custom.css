@@ -17,7 +17,7 @@ div.ethical-sidebar, div.ethical-footer {
 }
 
 img:not(.graphviz) {
-    /* Change images to be consitently 400px wide, unless specified in the source */
+    /* Change images to be consistent width
     width: var(--image-width);
     /* Center all images so that figures and normal images have consistent styling */
     display: block;
@@ -31,6 +31,9 @@ div.figure.align-default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 0;
+    transform: none;
 }
 
 /* Make sure captions cannot be wider than the figure they are describing */
