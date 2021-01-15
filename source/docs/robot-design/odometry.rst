@@ -225,7 +225,7 @@ FTC Team 8802
 FTC Team 14320
 ^^^^^^^^^^^^^^
 
-.. image:: images/odometry/14320.jpg
+.. image:: images/odometry/14320.png
    :width: 40em
 
 FTC Team 11115
