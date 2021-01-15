@@ -63,6 +63,7 @@ This is the same as the tank example, except now with 4 motors and the strafing 
 Now that we have a functioning mecanum driving program, there are a few things that can be done to clean it up. The first of these would be multiplying the left X value by something to counteract imperfect strafing. Doing this will make the drive feel more accurate on non axis aligned directions, and make field centric driving more accurate. In this tutorial, we will use 1.5, but it’s really up to driver preference.
 
 ::
+
    double y = -gamepad1.left_stick_y; // Remember, this is reversed!
    double x = gamepad1.left_stick_x * 1.5; // Counteract imperfect strafing
    double rx = gamepad1.right_stick_x;
