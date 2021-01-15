@@ -18,38 +18,38 @@ Let's go through the advantages and disadvantages of each system.
 Drive Encoder Localization
 --------------------------
 
-* **Pros**:
+- **Pros**:
 
-  * Cheap (the motors you're using most likely already have encoders built in)
-  * Accessible
-  * Very little configuration necessary
-* **Cons**:
+  - Cheap (the motors you're using most likely already have encoders built in)
+  - Accessible
+  - Very little configuration necessary
+- **Cons**:
 
-  * Drive encoder localization on mecanum drive can be quite inaccurate due to lack on traction on mecanum wheels.
-  * Will drift on high acceleration on mecanum drive. Accuracy will be good enough for basic autonomous modes if acceleration is limited
+  - Drive encoder localization on mecanum drive can be quite inaccurate due to lack on traction on mecanum wheels.
+  - Will drift on high acceleration on mecanum drive. Accuracy will be good enough for basic autonomous modes if acceleration is limited
 
 Two-Wheel Odometry Pods
 -----------------------
 
-* **Pros**:
+- **Pros**:
 
-  * Cheaper than 3-wheel design
-  * Pretty good accuracy
-  * No tuning of the heading necessary
-* **Cons**:
+  - Cheaper than 3-wheel design
+  - Pretty good accuracy
+  - No tuning of the heading necessary
+- **Cons**:
 
-  * Subject to more drift than the 3-wheel design
+  - Subject to more drift than the 3-wheel design
 
 Three-Wheel Odometry Pods
 -------------------------
 
-* **Pros**:
+- **Pros**:
 
-  * Relatively accurate tracking. Great accuracy in a 30-second autonomous mode
-* **Cons**:
+  - Relatively accurate tracking. Great accuracy in a 30-second autonomous mode
+- **Cons**:
 
-  * Quite pricey
-  * Tuning of the heading is very important
+  - Quite pricey
+  - Tuning of the heading is very important
 
 Encoders
 --------
@@ -72,18 +72,19 @@ Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoder
    REV Through-Bore Encoder
 
 **Advantages:**
-  * Through-bore design is very robust and easy to design with
-  * Relatively cheap
-  * High CPR
-  * Easy wiring
+
+- Through-bore design is very robust and easy to design with
+- Relatively cheap
+- High CPR
+- Easy wiring
 
 **Disadvantages:**
-  * Quite large relative to other encoders. May be challenging to create a compact design
-  * Many Through-Bores seem to experience slight, uneven resistance when rotating. Rev says this is normal and will subside as the encoder wears in
-  * Odd mounting points
+
+- Quite large relative to other encoders. May be challenging to create a compact design
+- Many Through-Bores seem to experience slight, uneven resistance when rotating. Rev says this is normal and will subside as the encoder wears in
+- Odd mounting points
 
 .. note:: The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second (32k / 8k = 4) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
-
 
 U.S. Digital S4T
 ^^^^^^^^^^^^^^^^
@@ -97,14 +98,17 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
    S4T Encoder
 
 **Advantages:**
-  * Very compact
+
+- Very compact
 
 **Disadvantages:**
-  * More expensive (nearly double the price)
-  * Less durable
-  
-    * Very thin wires. Prone to breaking easily if not secured properly
-  * Ideally requires external gearing
+
+- More expensive (nearly double the price)
+- Less durable
+
+  - Very thin wires. Prone to breaking easily if not secured properly
+
+- Ideally requires external gearing
 
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
@@ -118,12 +122,14 @@ The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`
    E8T Encoder
 
 **Advantages:**
-  * Very compact
-  * Relatively cheap
+
+- Very compact
+- Relatively cheap
 
 **Disadvantages:**
-  * Requires assembly
-  * Not much information exists for use in FTC
+
+- Requires assembly
+- Not much information exists for use in FTC
 
 U.S. Digital E8T (deprecated)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -206,7 +212,7 @@ Gallery
 -------
 
 Open Odometry
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. image:: images/odometry/openodo-bom.png
    :alt: Exploded drawing of Open Odometry design
@@ -254,7 +260,7 @@ FTC Team 14481
    :width: 40em
 
 FTC Team 3658
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. figure:: images/odometry/3658.png
    :alt: Render of 3658's odometry
@@ -263,7 +269,7 @@ FTC Team 3658
    FTC Team 3658 CAD
 
 FTC Team 7236
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. figure:: images/odometry/7236-cad-exploded.png
    :alt: Exploded view of 7236's odometry
