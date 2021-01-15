@@ -66,6 +66,7 @@ REV Through-Bore
 Often short-handed to "REV-coders" or "revcoders," the `REV Through-Bore encoders <https://www.revrobotics.com/rev-11-1271/>`_ has quickly become the de facto option the FTC community. The REV encoders have gained such a reputation due to its relative affordability, much improved reliability, and ease of use. The through-bore design proves to be a *significant* improvement over previous optical disc encoder designs. Optical disc encoders are very fragile, prone to scratching, and are much less tolerant to design flaws.
 
 .. figure:: images/odometry/through-bore.png
+   :alt: A REV Through-Bore Encoder
    :width: 20em
 
    REV Through-Bore Encoder
@@ -90,6 +91,7 @@ U.S. Digital S4T
 The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ miniature shaft encoder is another viable option used in dead wheel designs. These encoders are very small and may significantly reduce the footprint of your dead wheel design. Gearing these encoders is ideal to prevent shock loads.
 
 .. figure:: images/odometry/s4t.jpg
+   :alt: An US Digital S4T encoder
    :width: 20em
 
    S4T Encoder
@@ -110,6 +112,7 @@ SRX Mag Encoder
 The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
 
 .. figure:: images/odometry/srx-mag.jpg
+   :alt: A VEX SRX Mag encoder
    :width: 20em
 
    E8T Encoder
@@ -128,6 +131,7 @@ U.S. Digital E8T (deprecated)
 Once the de facto option for most FTC teams, the `E8T <https://www.usdigital.com/products/encoders/incremental/kit/E8T>`_ optical encoders are no longer recommended as the REV Through-Bores are a superior option at an equivalent price. The open-hole optical disc design of these encoders face a number of frustrating design flaws that made them very fragile and prone to breaking. The only advantage that they have relative to the REV Through-Bores is their smaller footprint.
 
 .. figure:: images/odometry/e8t.jpg
+   :alt: An US Digital E8T encoder
    :width: 20em
 
    E8T Encoder
@@ -185,7 +189,7 @@ It is *highly* recommended that your dead wheel design includes some form of spr
 The most popular method of spring tensioning is to pivot your pod around a point and provide a rotational force via a spring or rubber band.
 
 .. figure:: images/odometry/14320-pivot-half.jpg
-   :target: images/odometry/14320-pivot-half.jpg
+   :alt: A demonstration of pivoting spring tensioning
    :width: 40em
 
    FTC 14320's spring tensioning
@@ -193,6 +197,7 @@ The most popular method of spring tensioning is to pivot your pod around a point
 A much more niche option is to vertically spring ones pods. The idea is that springing around a pivot will cause the dead wheels to move in the axis parallel to the ground if the height of the dead wheels relative to the ground changes. Vertical springing will not experience such an issue. However, this is not really an issue that most teams will experience. Vertically springing is much harder to design well and is not recommended for the relatively minor improvement in accuracy it yields.
 
 .. figure:: images/odometry/18172-vertical-odo.jpg
+   :alt: An example of vertical spring tensioning
    :width: 40em
 
    FTC 18172's vertical springing
@@ -200,38 +205,43 @@ A much more niche option is to vertically spring ones pods. The idea is that spr
 Gallery
 -------
 
-
 Open Odometry
 ^^^^^^^^^^^^^^
 
-.. figure:: images/odometry/openodo-bom.png
+.. image:: images/odometry/openodo-bom.png
+   :alt: Exploded drawing of Open Odometry design
    :width: 40em
 
-.. image:: images/odometry/openodo-sideview.png
+.. image:: images/odometry/openodo-sectionview.png
+   :alt: Section view of Open Odometry
    :width: 40em
 
 FTC Team 14310
 ^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14310.jpg
+   :alt: 14130's odometry
    :width: 40em
 
 FTC Team 8802
 ^^^^^^^^^^^^^
 
 .. image:: images/odometry/8802.jpg
+   :alt: 8802's odometry
    :width: 40em
 
 FTC Team 14320
 ^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14320.png
+   :alt: 14320's odometry
    :width: 40em
 
 FTC Team 11115
 ^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/11115-cover.jpg
+   :alt: 11115's odometry
    :width: 40em
 
    `FTC Team 11115 Photo Album <https://photos.app.goo.gl/WmTxcacrziEG1YHNA>`_
@@ -240,12 +250,14 @@ FTC Team 14481
 ^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14481.png
+   :alt: 14481's odometry
    :width: 40em
 
 FTC Team 3658
 ^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/3658.png
+   :alt: Render of 3658's odometry
    :width: 40em
 
    FTC Team 3658 CAD
@@ -254,9 +266,11 @@ FTC Team 7236
 ^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/7236-cad-exploded.png
+   :alt: Exploded view of 7236's odometry
    :width: 40em
 
    FTC Team 7236 CAD
 
 .. image:: images/odometry/7236.jpg
+   :alt: 7236's odometry
    :width: 40em
