@@ -87,7 +87,7 @@ Opening the SDK on Android Studio
    .. image:: images/using-android-studio/select-project-view.png
       :alt: Change to project view
 
-#. Wait for `Gradle`_ to complete the build.
+#. Wait for `Gradle`_ to complete the build. This indicator should be located at the bottom of the window by default.
 
    .. image:: images/using-android-studio/build-gradle.png
       :alt: An in-progress Gradle build
@@ -140,7 +140,7 @@ To install your program onto the Robot Controller, you will use the play button 
 
 Next to it you will see a dropdown for devices. When you connect your Robot Controller to your computer (using the correct cable), the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
 
-If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are
+If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are:
 
 - `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
@@ -251,7 +251,6 @@ Setting Up ADB
 
 #. Ensure USB debugging is enabled on your device and it is in developer mode.
 #. Make sure you have ADB installed. If you do not, follow the instructions at `this link <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
-#. Connect to the same WiFi network the device is either hosting or on.
 
 .. note:: You can use logcat via ADB with the :code:`adb logcat` command. This is extremely useful for debugging as it allows you to look at the logs wirelessly which saves time. Remember, logcat is the *best* way to debug your software.
 
@@ -261,6 +260,7 @@ Connecting to a Phone Wirelessly
 #. Plug the robot controller phone into your computer.
 #. Run the command :code:`adb devices` in the :code:`platform-tools` directory and see if the phone shows up.
 #. Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the phone.
+#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "DIRECT-TEAMNUMBER-RC" or some small derivation of that.
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
 Connecting to a Control Hub Wirelessly
