@@ -178,15 +178,31 @@ If you want to add dependencies to your project, you can do so in the :code:`bui
 
 There should be a dependencies block at the bottom of the file.
 
-.. image:: images/using-android-studio/teamcode-gradle.png
-   :alt: Bottom of TeamCode build.gradle file showing dependencies block
+.. code-block:: groovy
+
+    // Include common definitions from above.
+    apply from: '../build.common.gradle'
+    
+    repositories {
+         maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
+    }
+    
+    dependencies {
+         annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+    }
 
 Some dependencies require changes to your other Gradle files. Make sure to read the installation instructions for whatever dependency you want to add.
 
-Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation ''`.
+Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation 'com.package.name'`.
 
-.. image:: images/using-android-studio/add-dependency.png
-   :alt: Add the dependency using implementation
+.. code-block:: groovy
+
+    dependencies {
+        annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+        implementation 'com.package.name:name:version'
+    }
+
+Refer to the instructions of whatever library you are using for the correct package name and version.
 
 Finally, perform a Gradle sync.
 
