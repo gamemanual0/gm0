@@ -182,11 +182,11 @@ There should be a dependencies block at the bottom of the file.
 
     // Include common definitions from above.
     apply from: '../build.common.gradle'
-    
+
     repositories {
          maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
     }
-    
+
     dependencies {
          annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
     }
