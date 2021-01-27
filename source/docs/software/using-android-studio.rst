@@ -87,7 +87,7 @@ Opening the SDK on Android Studio
    .. image:: images/using-android-studio/select-project-view.png
       :alt: Change to project view
 
-#. Wait for `Gradle`_ to complete the build.
+#. Wait for `Gradle`_ to complete the build. This indicator should be located at the bottom of the window by default.
 
    .. image:: images/using-android-studio/build-gradle.png
       :alt: An in-progress Gradle build
@@ -140,7 +140,7 @@ To install your program onto the Robot Controller, you will use the play button 
 
 Next to it you will see a dropdown for devices. When you connect your Robot Controller to your computer (using the correct cable), the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
 
-If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are
+If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are:
 
 - `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
@@ -178,15 +178,31 @@ If you want to add dependencies to your project, you can do so in the :code:`bui
 
 There should be a dependencies block at the bottom of the file.
 
-.. image:: images/using-android-studio/teamcode-gradle.png
-   :alt: Bottom of TeamCode build.gradle file showing dependencies block
+.. code-block:: groovy
+
+    // Include common definitions from above.
+    apply from: '../build.common.gradle'
+
+    repositories {
+         maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
+    }
+
+    dependencies {
+         annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+    }
 
 Some dependencies require changes to your other Gradle files. Make sure to read the installation instructions for whatever dependency you want to add.
 
-Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation ''`.
+Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation 'com.package.name'`.
 
-.. image:: images/using-android-studio/add-dependency.png
-   :alt: Add the dependency using implementation
+.. code-block:: groovy
+
+    dependencies {
+        annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+        implementation 'com.package.name:name:version'
+    }
+
+Refer to the instructions of whatever library you are using for the correct package name and version.
 
 Finally, perform a Gradle sync.
 
@@ -251,7 +267,6 @@ Setting Up ADB
 
 #. Ensure USB debugging is enabled on your device and it is in developer mode.
 #. Make sure you have ADB installed. If you do not, follow the instructions at `this link <https://www.xda-developers.com/install-adb-windows-macos-linux/>`_
-#. Connect to the same WiFi network the device is either hosting or on.
 
 .. note:: You can use logcat via ADB with the :code:`adb logcat` command. This is extremely useful for debugging as it allows you to look at the logs wirelessly which saves time. Remember, logcat is the *best* way to debug your software.
 
@@ -261,12 +276,14 @@ Connecting to a Phone Wirelessly
 #. Plug the robot controller phone into your computer.
 #. Run the command :code:`adb devices` in the :code:`platform-tools` directory and see if the phone shows up.
 #. Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the phone.
+#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in Game Manual 1 for further details on the network naming scheme.
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
 Connecting to a Control Hub Wirelessly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
+#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in Game Manual 1 for further details on the network naming scheme.
+#. Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
 
 Once a connection is established, it should appear in the device dropdown in Android Studio.
 
