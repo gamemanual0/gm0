@@ -23,9 +23,9 @@ In the image above, vectors 1, 2, 3, and 4 are the force vectors created by the 
 
 .. image:: images/mecanum-drive/mecanum-drive-directions.png
    :alt: Examples of ways to move the wheels on mecanum drive to move the robot in different directions
+   :width: 45em
 
 .. attention:: It is strongly advised to not hardcode these movements in; there is a much better way described below that allows for true holonomic movement and is much more elegant.
-   :width: 45em
 
 Deriving Mecanum Control Equations
 ----------------------------------
