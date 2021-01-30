@@ -19,10 +19,12 @@ A standard mecanum drive configuration possesses 4 mecanum wheels oriented in an
 .. image:: images/mecanum-drive/mecanum-drive-force-diagram.png
    :alt: Force diagram of a complete mecanum drive
 
-In the image above, vectors 1, 2, 3, and 4 are the force vectors created by the :term:`mecanum wheels <Mecanum Wheel>` when the chassis is instructed to drive towards the top of the image. All motors are driving forward. The blue and red lines are their X and Y components, respectively. Here are a few examples of how the wheels must be driven to achieve different movements (It is not recommended to hard code these in; there is a much better mathematical way to program mecanum that allows for true omnidirectional movement and is much cleaner):
+In the image above, vectors 1, 2, 3, and 4 are the force vectors created by the :term:`mecanum wheels <Mecanum Wheel>` when the chassis is instructed to drive towards the top of the image. All motors are driving forward. The blue and red lines are their X and Y components, respectively. Here are a few examples of how the wheels must be driven to achieve different movements:
 
 .. image:: images/mecanum-drive/mecanum-drive-directions.png
    :alt: Examples of ways to move the wheels on mecanum drive to move the robot in different directions
+
+.. attention:: It is strongly advised to not hardcode these movements in; there is a much better way described below that allows for true holonomic movement and is much more elegant.
    :width: 45em
 
 Deriving Mecanum Control Equations
