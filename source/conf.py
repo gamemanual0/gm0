@@ -74,7 +74,6 @@ linkcheckdiff_branch = "origin/master"
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph
 
-ogp_site_url = "https://gm0.org/en/latest/"
 ogp_image = "https://raw.githubusercontent.com/Coppersource/gm0/master/source/_static/assets/gm0-logo.png"
 ogp_site_name = "Game Manual 0"
 
