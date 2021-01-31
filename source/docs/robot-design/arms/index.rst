@@ -21,7 +21,7 @@ Advantages
 Disadvantages
 -------------
 
-- Arms require an insane amount of torque, and in order to do so, teams must purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/>`_, or the more expensive VersaPlanetary (potentially Lite) and NeveRest Sport. One can also use the high gear ratio `goBILDA 5202 planetary gearbox motors <https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/>`_.
+- Arms require an insane amount of torque, and in order to do so, teams must purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/>`_, or the more expensive VersaPlanetary (potentially Lite) and NeveRest Sport. One can also use the high gear ratio `goBILDA planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_.
 
 - While single arms may be more simple, they cannot provide enough extension for most games.
 

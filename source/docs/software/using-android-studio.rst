@@ -44,7 +44,7 @@ Downloading the ZIP
 Using GitHub Desktop
 ~~~~~~~~~~~~~~~~~~~~
 
-#. `Install GitHub Desktop <https://docs.github.com/en/free-pro-team@latest/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop>`_
+#. `Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop>`_
 #. Open the `SDK repository <https://github.com/FIRST-Tech-Challenge/FTCRobotController>`_ in a browser.
 #. Click the green "code" button, and then select "Open with GitHub Desktop."
 
