@@ -40,7 +40,7 @@ To manually set ``OFF`` mode, you need to run ::
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-      hub.setBulkCachingMode(LynxModule.BulkCaching.OFF);
+      hub.setBulkCachingMode(LynxModule.BulkCachingMode.OFF);
    }
 
 Auto Mode
@@ -51,7 +51,7 @@ This is the simplest mode to use that utilizes bulk reads; a new bulk read is do
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-      hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
+      hub.setBulkCachingMode(LynxModule.BulkCachingMode.AUTO);
    }
 
    while (opModeIsActive()) {
@@ -69,7 +69,7 @@ However, this can be problematic, if the same hardware read is called more than 
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-      hub.setBulkCachingMode(LynxModule.BulkCaching.AUTO);
+      hub.setBulkCachingMode(LynxModule.BulkCachingMode.AUTO);
    }
 
    while (opModeIsActive()) {
@@ -89,7 +89,7 @@ In manual mode the cache for bulk reads is only reset once manually reset. This 
    List<LynxModule> allHubs = hardwareMap.getAll(LynxModule.class);
 
    for (LynxModule hub : allHubs) {
-      hub.setBulkCachingMode(LynxModule.BulkCaching.MANUAL);
+      hub.setBulkCachingMode(LynxModule.BulkCachingMode.MANUAL);
    }
 
    while (opModeIsActive()) {
