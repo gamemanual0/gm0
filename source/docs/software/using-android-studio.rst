@@ -276,7 +276,8 @@ Add ADB To PATH
 Adding variables to PATH:
 
 - `Windows <https://docs.alfresco.com/4.2/tasks/fot-addpath.html>`_
-- `Unix/Linux <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
+- `Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
+- `macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_
 
 If you want to use ADB from any directory, add it to PATH. Follow an online tutorial for adding to PATH and set the PATH to the :code:`platform-tools` directory. Once you do that, you can run ADB commands from anywhere on your system.
 
