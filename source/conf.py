@@ -29,8 +29,9 @@ version = release
 extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.graphviz",
-    "sphinxext.opengraph",
     "sphinxext.linkcheckdiff",
+    "sphinxext.opengraph",
+    "sphinxext.rediraffe",
     "hoverxref.extension"
 ]
 
@@ -82,6 +83,18 @@ ogp_custom_meta_tags = [
     '<meta property="og:ignore_canonical" content="true" />',
     '<meta name="theme-color" content="#F47F27" />',
 ]
+
+# Configure redirects
+# See https://github.com/wpilibsuite/sphinxext-rediraffe
+
+# Redirect branch
+rediraffe_branch = "origin/master"
+
+# File containing redirects
+rediraffe_redirects = "redirects.txt"
+
+# Required accuracy for redirect writer
+rediraffe_auto_redirect_perc = 80
 
 # -- Options for HTML output -------------------------------------------------
 
