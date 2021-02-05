@@ -60,7 +60,7 @@ Building Resources - Applications
 - `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_
 - `Gear Efficiency Comparisons <https://www.meadinfo.org/2008/11/gear-efficiency-spur-helical-bevel-worm.html>`_
 - `How Gears Work <https://ciechanow.ski/gears/>`_
-- `Gears Educational Systems Guide to Chain Drive Systems <http://gearseds.com/documentation/deb%20holmes/2.5_Chain_drive_systems.pdf>`_
+- `Gears Educational Systems Guide to Chain Drive Systems <https://web.archive.org/web/20191020193018/http://gearseds.com/documentation/deb%20holmes/2.5_Chain_drive_systems.pdf>`_
 - `3D Printing Practical and Safety Course <https://docs.google.com/presentation/d/1EmkYcllHyltXlu7-TJMrwAawMWSspljUsFFP4Se32I8/edit?usp=sharing>`_ - Tom Bladykas, FTC 3736
 - `8644 Brainstormers Tips and Tricks <https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_
 - `9794 Wizards.exe, many useful rookie guides <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured?disable_polymer=1>`_
@@ -93,7 +93,7 @@ Building Resources - Calculators
 
 - `JVN for FTC Design Calculator* <https://www.chiefdelphi.com/uploads/default/original/3X/1/6/16e019399060799a45f54f4d75a8aa5fee1f394f.xlsx>`_
 - `JuliaDesignCalc (JVN Alternative with Flywheel Calculations) <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_
-- `Thad's EveryCalc <https://thaddeus-maximus.github.io/everycalc/>`_
+- `Thad's EveryCalc <http://everycalc.thadhughes.xyz>`_
 - `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_
 - `Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_
 - `Pulley Center-to-Center Calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_
