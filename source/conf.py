@@ -57,17 +57,16 @@ hoverxref_mathjax = True
 # Use MathJax3 for better page loading times
 mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
 
+# Disable following anchors in URLS for linkcheck
+linkcheck_anchors = False
+
 # Configure linkcheck
-linkcheck_ignore = [
-    r"https://workbench.grabcad.com/workbench/projects/.*",
-    r".*cabinetparts.com.*",
-    r".*andymark.com.*",
-    r".*xrcsimulator.org.*",
-    r".*amazon.com.*",
-]
 linkcheck_timeout = 30
 linkcheck_retries = 3
 linkcheck_workers = 1 # To stop from hitting github's usage limits
+
+# Specify a standard user agent, as Sphinx default is blocked on some sites
+user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
 
 # Configure linkcheck diff branch
 linkcheckdiff_branch = "origin/master"
