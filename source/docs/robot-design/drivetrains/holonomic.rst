@@ -81,7 +81,7 @@ There are plenty of mecanum wheels on the market, and it can be very daunting to
 
 8. `AndyMark Standard Duty Mecanum Wheels`_ ($92): **DO NOT PURCHASE THESE WHEELS**. These are terrible mecanum wheels. They barely strafe and are super fragile. Just buy goBILDA mecanum wheels for $13 more.
 
-.. _goBILDA Mecanum Wheels: https://www.gobilda.com/3606-series-mecanum-wheel-set-bearing-supported-rollers-100mm-diameter/
+.. _goBILDA Mecanum Wheels: https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/
 .. _Nexus Bearing Mecanum Wheel: https://www.superdroidrobots.com/shop/item.aspx/4-inch-nexus-mecanum-wheels-ball-bearing-set-of-4/1352/
 .. _AndyMark Heavy Duty 4” Mecanum Wheel: https://www.andymark.com/products/4-in-hd-mecanum-wheel-set-options
 .. _Nexus Bushing Mecanum Wheel: https://www.amazon.com/100Mm-Aluminum-Mecanum-Wheel-Right/dp/B01CTUT4GY
