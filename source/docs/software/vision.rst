@@ -22,10 +22,10 @@ Vuforia is an augmented reality software built for mobile devices and can track 
 
 You can find Vuforia Java samples in the FTC `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java>`__, and find a blocks guide `Link text <https://github.com/FIRST-Tech-Challenge/SKYSTONE/wiki/Identifying-Vuforia-VuMarks>`_
 
-EasyOpenCv
+EasyOpenCV
 ----------
 
-EasyOpenCv is an easy way to use OpenCV with the FTC SDK. EasyOpenCv is the most powerful form of computer vision, but it is also the hardest to use. It is also the only vision software here that is NOT built into the SDK and only supports Android Studio. Therefore, we can only recommend EasyOpenCv to more advanced teams.
+EasyOpenCV is an easy way to use OpenCV with the FTC SDK. EasyOpenCV is the most powerful form of computer vision, but it is also the hardest to use. It is also the only vision software here that is NOT built into the SDK and only supports Android Studio. Therefore, we can only recommend EasyOpenCV to more advanced teams.
 
 You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV>`__. Examples can be found `here <https://github.com/OpenFTC/EasyOpenCV/tree/master/examples/src/main/java/org/openftc/easyopencv/examples>`__, and we especially recommend checking out `SkystoneDeterminationExample.java <https://github.com/OpenFTC/EasyOpenCV/blob/master/examples/src/main/java/org/openftc/easyopencv/examples/SkystoneDeterminationExample.java>`_.
 
