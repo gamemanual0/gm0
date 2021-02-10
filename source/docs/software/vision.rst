@@ -1,17 +1,17 @@
 Computer Vision
 ===============
 
-Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection that is commonly needed in FTC.
+Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC.
 
-Currently, there are 3 commonly used forms of computer vision: Tensorflow(lite), Vuforia, and EasyOpenCv.
+Currently, there are 3 commonly used forms of computer vision: TensorFlow Lite, Vuforia, and EasyOpenCV.
 
 Officially Supported Solutions
 ------------------------------
 
-Tensorflow
+TensorFlow
 ^^^^^^^^^^
 
-Tensorflow is Google’s machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow lite, which is a lightweight version of Google’s TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
+TensorFlow is Google’s machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google’s TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
 
 Sample Op Modes for TensorFlow being used for mineral detection (Rover Ruckus) can be found `here <https://github.com/ftctechnh/ftc_app/wiki/Blocks-Sample-TensorFlow-Object-Detection-Op-Mode>`__ (Blocks), and a Java example can be found `here <https://github.com/ftctechnh/ftc_app/wiki/Java-Sample-TensorFlow-Object-Detection-Op-Mode>`_.
 
@@ -32,6 +32,6 @@ You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV
 Scrcpy
 ------
 
-Scrcpy is an easy way to display and control Android devices connected over USB. It supports Linux, Windows, and macOS, offers low latency, requires low resources, has great performance, and has little to no startup time.
+Scrcpy is an easy way to display and control Android devices connected over USB. It supports Linux, Windows, and macOS, offers low latency, requires low resources, and has great performance. It is extremely useful for debugging vision code on a Control Hub, as it will enable you to see the camera output in near real time.
 
-You can read more about Scrcpy `here <https://github.com/Genymobile/scrcpy>`__.
+You can find scrcpy `here <https://github.com/Genymobile/scrcpy>`__.
