@@ -27,7 +27,7 @@ EasyOpenCV
 
 EasyOpenCV is an easy way to use openCV with the FTC SDK. EasyOpenCV is the most powerful form of computer vision, but it is also the hardest to use. It is also the only vision software here that is NOT built into the SDK and only supports Android Studio. Therefore, we can only recommend EasyOpenCV to more advanced teams.
 
-You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV>`__. Examples can be found `here <https://github.com/OpenFTC/EasyOpenCV/tree/master/examples/src/main/java/org/openftc/easyopencv/examples>`__, and we especially recommend checking out `SkystoneDeterminationExample.java <https://github.com/OpenFTC/EasyOpenCV/blob/master/examples/src/main/java/org/openftc/easyopencv/examples/SkystoneDeterminationExample.java>`_.
+You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV>`__. Examples can be found `here <https://github.com/OpenFTC/EasyOpenCV/tree/master/examples/src/main/java/org/openftc/easyopencv/examples>`__.
 
 EasyOpenCV Simulator
 ^^^^^^^^^^^^^^^^^^^^
