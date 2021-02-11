@@ -29,6 +29,13 @@ EasyOpenCV is an easy way to use openCV with the FTC SDK. EasyOpenCV is the most
 
 You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV>`__. Examples can be found `here <https://github.com/OpenFTC/EasyOpenCV/tree/master/examples/src/main/java/org/openftc/easyopencv/examples>`__, and we especially recommend checking out `SkystoneDeterminationExample.java <https://github.com/OpenFTC/EasyOpenCV/blob/master/examples/src/main/java/org/openftc/easyopencv/examples/SkystoneDeterminationExample.java>`_.
 
+EasyOpenCV Simulator
+^^^^^^^^^^^^^^^^^^^^
+
+EasyOpenCV Simulator is a straightforward way to test your pipelines directly on your computer. It supports Windows, macOS, and Linux, and simulates a portion of the FTC SDK structure, allowing you to copy and paste pipelines.
+
+You can find EasyOpenCV Simulator `here <https://github.com/serivesmejia/EOCV-Sim>`__.
+
 Scrcpy
 ------
 
