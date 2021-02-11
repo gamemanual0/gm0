@@ -20,7 +20,7 @@ Vuforia
 
 Vuforia is an augmented reality software built for mobile devices and can track 3d objects in real-time. Vuforia is known for its great image detection, as FTC vision targets are designed with Vuforia in mind. Vuforia also offers localization. Vuforia is supported in OnBot Java, Android Studio, and Blocks.
 
-You can find Vuforia Java samples in the FTC `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java>`__, and find a blocks guide `Link text <https://github.com/FIRST-Tech-Challenge/SKYSTONE/wiki/Identifying-Vuforia-VuMarks>`_
+You can find Vuforia Java samples in the FTC `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java>`__, and find a blocks guide `here <https://github.com/FIRST-Tech-Challenge/SKYSTONE/wiki/Identifying-Vuforia-VuMarks>`__.
 
 EasyOpenCV
 ----------
