@@ -6,7 +6,7 @@ Finite State Machines (FSM) are often used while programming in order to allow f
 What is a Finite State Machine?
 -------------------------------
 
-The name of a finite state machine is very descriptive; it’s a state machine, with a finite number of states. It can be in one state at a time, and can transition to a different state once something happens. For example, see the example of a finite state machine that’s on `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-operated_turnstile>`__ because a turnstile is a great example, and it is explained very well.
+The name of a finite state machine is very descriptive; it's a state machine, with a finite number of states. It can be in one state at a time, and can transition to a different state once something happens. For example, see the example of a finite state machine that's on `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-operated_turnstile>`__ because a turnstile is a great example, and it is explained very well.
 
 Implementation
 --------------
@@ -51,7 +51,7 @@ When first learning about FSMs, it is quite common for programmers to try and us
       }
    }
 
-This however does not really have any benefits compared to if the programmer had simply put each of the code’s segments into functions, and executed them in order. In fact, often times, programmers will structure their code like this instead of splitting their code up into functions. The result is an autonomous that’s more difficult to debug, and ultimately harder to fix on the fly during a competition or other time crunch.
+This however does not really have any benefits compared to if the programmer had simply put each of the code's segments into functions, and executed them in order. In fact, often times, programmers will structure their code like this instead of splitting their code up into functions. The result is an autonomous that's more difficult to debug, and ultimately harder to fix on the fly during a competition or other time crunch.
 
 If one drew out the state transition diagram for each of the states, for the autonomus above it'd be very linear, and the state transitions always occur because the section of the code finished:
 
@@ -87,7 +87,7 @@ FSMs are the right tool to use when a robot needs to complete multiple tasks at 
 
 Often times, teams have issues because their teleop executes in a loop and their servo logic has sleeps in it. But, we can avoid this if we write code in an **asynchronous** fashion - where instead of waiting for a task to complete before doing the next one, tasks are performed at the same time, and each task's state is checked without stopping the other tasks from executing.
 
-An example of this would be that if one had a robot similar to `Gluten Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, and one wanted to automate the scoring lift so that the drivers don’t have to think while the bot deposits the minerals. There are two parts of the bot that are relevant to us in this exercise: the angled scoring lift, and the servo that tips the dumper so the minerals fall out. The goal is to be able to push a button, and then the bot will:
+An example of this would be that if one had a robot similar to `Gluten Free's Rover Ruckus Robot <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__, and one wanted to automate the scoring lift so that the drivers don't have to think while the bot deposits the minerals. There are two parts of the bot that are relevant to us in this exercise: the angled scoring lift, and the servo that tips the dumper so the minerals fall out. The goal is to be able to push a button, and then the bot will:
 
 - extend the lift,
 - at full lift extension, angle the mineral bucket servo to deposit the minerals,
@@ -97,7 +97,7 @@ An example of this would be that if one had a robot similar to `Gluten Free's Ro
 
 If the drivers press a specific other button, we will stop executing the actions above as a failsafe - in case the robot is breaking somehow and the drivers need to take manual control. All the while, the drivers should still be able to control our drivetrain so we can make adjustments. Now, of course, this is a bit simplified (and probably not entirely what GF did), but it will do for now.
 
-(There’s actually a button in `Gluten Free's FTC Simulator <https://xrcsimulator.org>`_ that basically does the actions I listed above for the Angled Slides Bot, and is cancellable)
+(There's actually a button in `Gluten Free's FTC Simulator <https://xrcsimulator.org>`_ that basically does the actions I listed above for the Angled Slides Bot, and is cancellable)
 
 Before anything is programmed, it may be useful draw out the state diagram for this to get a better understanding of what we the robot should actually be doing. This can also add to a :term:`Control Award` submission.
 
@@ -117,9 +117,9 @@ Before anything is programmed, it may be useful draw out the state diagram for t
       reset->start[label="Lift Fully Retracted/Y Pressed"];
    }
 
-Notice how resetting the dump servo and retracting the lift share a state. That’s because the robot don’t need to wait for the servo to reset before moving the lift down; they can have them both happen at once.
+Notice how resetting the dump servo and retracting the lift share a state. That's because the robot doesn't need to wait for the servo to reset before moving the lift down; they can both happen at once.
 
-Now, let’s get into actually implementing the code for this. In a traditional ``OpMode``, which is commonly used for teleop, code runs repeatedly in a ``loop()`` function, so instead of waiting for a state transition to happen directly, the code will repeatedly check on each ``loop()`` call if it should perform a state transition. This kind of “update our state” pattern keeps code from blocking the rest of the ``loop()`` code from running, such as the drivetrain.
+Now, let's get into actually implementing the code for this. In a traditional ``OpMode``, which is commonly used for teleop, code runs repeatedly in a ``loop()`` function, so instead of waiting for a state transition to happen directly, the code will repeatedly check on each ``loop()`` call if it should perform a state transition. This kind of “update our state” pattern keeps code from blocking the rest of the ``loop()`` code from running, such as the drivetrain.
 
 .. code:: java
 
