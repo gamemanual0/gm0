@@ -24,38 +24,37 @@ Hardware & Electrical
 - David - FTC Alum - 2753 Team Overdrive
 - Sam - FTC 2753 Team Overdrive
 - Tyler - FRC\ |reg| 3184 Blaze Robotics
-- Tom - FTC Alum - 3736 Serious Business- seminole3736@gmail.com
-- Shurik - FTC 4137 Islandbots mentor - islandbots.ftc@gmail.com
-- Fulton - FTC 5143 Xcentrics - jfult.1503@gmail.com
+- Tom - FTC Alum - 3736 Serious Business
+- Shurik - FTC 4137 Islandbots mentor
+- Fulton - FTC 5143 Xcentrics
 - Derek - FTC Alum - 5484 EnderBots
 - Karter - FTC Alum - 5975 Cybots
-- Neo - FTC 6710 Sigmas - ftcsigmas@gmail.com
+- Neo - FTC 6710 Sigmas
 - Ethan - FTC Alum - 7236 Recharged Green - goBILDA
 - Cole - FTC 7548 SPAREPARTS
 - Ian - FTC 7842 Browncoats
-- Andrew - FTC 8417 ‘Lectric Legends - team@lectriclegends.org
-- Eric - FTC Alum - 8417 ‘Lectric Legends - team@lectriclegends.org
-- Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
+- Andrew - FTC 8417 ‘Lectric Legends
+- Eric - FTC Alum - 8417 ‘Lectric Legends
+- Frank - FTC 8581 Aedificatores
 - David - FTC 8680 Kraken Pinion
 - Kevin - FTC 9048 Philobots
-- Justin - FTC 9656 Omega - evhsomega@gmail.com
-- Arjun - FTC 9794 Wizards.exe - oberoiarjun2009@gmail.com
+- Justin - FTC 9656 Omega
+- Arjun - FTC 9794 Wizards.exe
 - Baylor - FTC 10641 Atomic Gears
-- Peter - FTC 12533 Inception - team@ftc12533.org
+- Peter - FTC 12533 Inception
 - Nate - FTC 12897 Newton’s Law of Mass
 - Adham - FTC 14875 LightSpeed
-- Dom - FTC 15692 Rust in Pieces huppdo@rustinpieces.tech
-- John V-Neun - FRC\ |reg| 148 Mentor - JVN Design Calculator
+- Dom - FTC 15692 Rust in Pieces
 
 Software
 --------
 
-* Wes - FTC 3658 Bosons - wgfransen@gmail.com
-* David - FTC 7236 Recharged Green - pellarobotics@gmail.com
-* Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
-* James - FTC 14298 Lincoln Robotics - ftc14298@gmail.com
-* Jackson - FTC/FRC Mentor/Alum - jaxonfiles@gatech.edu
-* Guineawheek - FTC Alum - `GitHub <https://github.com/guineawheek/>`_
+- Wes - FTC 3658 Bosons
+- David - FTC 7236 Recharged Green
+- Frank - FTC 8581 Aedificatores
+- James - FTC 14298 Lincoln Robotics
+- Jackson - FTC/FRC Mentor/Alum
+- Guineawheek - FTC Alum
 
 Hosting
 -------
