@@ -22,4 +22,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: linkcheck-output.txt
-        path: build/linkcheckdiff/output.txt
+        path: build/linkcheck/output.txt

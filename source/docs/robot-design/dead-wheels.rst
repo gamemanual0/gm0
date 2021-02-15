@@ -164,7 +164,7 @@ Here are a few publicly available dead wheel designs:
 
 - **goREVdometry**
 
-  - https://discord.gg/Cvz3MbM9dX
+  - https://discord.com/invite/Cvz3MbM9dX
   - Utilizes the REV Through-Bore Encoder
   - Compact enough to fit into a goBILDA channel
 
@@ -252,7 +252,7 @@ FTC Team 11115
    :alt: 11115's odometry
    :width: 40em
 
-   `FTC Team 11115 Photo Album <https://photos.app.goo.gl/WmTxcacrziEG1YHNA>`_
+   `FTC Team 11115 Photo Album <https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_
 
 FTC Team 14481
 ^^^^^^^^^^^^^^
