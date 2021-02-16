@@ -126,6 +126,7 @@ html_theme_options = {
         "font-stack": '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
         "admonition-font-size": "1rem",
         "admonition-title-font-size": "1rem",
+        "color-inline-code-background": "#BFDBFE"
         # Light theme only variables
     },
     "dark_css_variables" : {

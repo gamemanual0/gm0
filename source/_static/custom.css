@@ -2,57 +2,116 @@
   --image-width: 25em;
 }
 
-.wy-nav-top, .wy-nav-side, .wy-side-nav-search {
-    background: #4e4a4a;
+h1 {
+  font-weight: 500;
+}
+
+h2,
+h3 {
+  font-weight: 500;
+
+  margin-bottom: 0;
+}
+
+li img {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.admonition {
+  margin: 2rem 1rem;
+
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  border-left-width: 0.3rem;
+}
+
+.admonition p:not(.admonition-title) {
+  padding: 0.5rem;
+}
+
+.toctree-wrapper .caption .caption-text {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.toctree-wrapper ul {
+  margin-top: 0.5rem;
+}
+
+.toctree-wrapper ul li {
+  margin-left: 0.5rem;
+  padding: 0.05rem 0;
+}
+
+.toctree-wrapper ul li a {
+  text-decoration: none;
+}
+
+.toctree-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+
+code.literal {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.wy-nav-top,
+.wy-nav-side,
+.wy-side-nav-search {
+  background: #4e4a4a;
 }
 
 .wy-nav-side a:hover {
-    background: #404040;
+  background: #404040;
 }
 
 /* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
+div.ethical-sidebar,
+div.ethical-footer {
+  position: absolute;
+  left: -99999px;
 }
 
 img:not(.graphviz) {
-    /* Change images to be consistent width */
-    width: var(--image-width);
-    /* Center all images so that figures and normal images have consistent styling */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  /* Change images to be consistent width */
+  width: var(--image-width);
+  /* Center all images so that figures and normal images have consistent styling */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Center caption text in their respective figure */
 div.figure.align-default {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin: 0;
-    transform: none;
+  margin: 0;
+  transform: none;
 }
 
 /* Make sure captions cannot be wider than the figure they are describing */
 span.caption-text {
-    display: inline-block;
-    max-width: var(--image-width);
-    text-align: center;
+  display: inline-block;
+  max-width: var(--image-width);
+  text-align: center;
 }
 
 footer {
-    font-size: var(--font-size--normal);
+  font-size: var(--font-size--normal);
 }
 
 @media (prefers-color-scheme: dark) {
-    img.graphviz {
-        filter: invert(87%);
-    }
+  img.graphviz {
+    filter: invert(87%);
+  }
 
-    .dark-mode-invert {
-        filter: invert(50%);
-    }
+  .dark-mode-invert {
+    filter: invert(50%);
+  }
 }
