@@ -67,4 +67,4 @@ The old Modern Robotics system run on 5v sensor logic. The new REV Robotics syst
 
 It is ideal to not use logic level converters to simplify your wiring. If you need to, there is a best practice. Electrical tape the connectors on either end, this helps with static, and it keeps it from being physically disconnected. This does produce a very noticeable effect with encoders on fields with lots of static.
 
-The second tip is to never tape over the middle or LED. The board generates a very small amount of heat, and it’s very easy to overheat if it can’t ventalite, also don’t fully enclose it in any cases without holes.
+The second tip is to never tape over the middle or LED. The board generates a very small amount of heat, and it’s very easy to overheat if it can’t ventilate, also don’t fully enclose it in any cases without holes.
