@@ -13,7 +13,6 @@ Don’t deal in absolutes.
 
 |gm0| is a guide **from a competitive standpoint**.
 
-
 - Try to leave out stuff that doesn’t work well and is unpopular; if it is popular it is worth explaining the disadvantages (see H-drive vs ball drive; explaining H-drive, as a relatively popular and simple drivetrain makes sense, but ball drive, a drivetrain that barely exists and is ridiculously complicated makes no sense to bring up)
 - Try to leave opinions out as much as possible. Do not speak authoritatively on stuff you do not have first-hand experience with whenever possible
 - **Keep in mind that FTC design trends are temporary and transient**
