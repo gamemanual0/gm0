@@ -25,3 +25,4 @@ Before diving in, we would like to add a short disclaimer: this guide is not abo
    docs/software/index
    docs/awards/index
    docs/appendix/index
+   docs/contributing/index

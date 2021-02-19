@@ -1,0 +1,6 @@
+Contributing
+============
+
+.. toctree::
+
+   style-guide
