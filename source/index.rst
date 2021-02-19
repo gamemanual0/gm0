@@ -17,7 +17,6 @@ Before diving in, we would like to add a short disclaimer: this guide is not abo
    :caption: Game Manual 0 Table of Contents
    :maxdepth: 2
 
-   docs/meta/index
    docs/getting-started-in-ftc/index
    docs/hardware-basics/index
    docs/robot-design/index
