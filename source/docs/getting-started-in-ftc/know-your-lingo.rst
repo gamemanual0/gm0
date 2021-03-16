@@ -5,6 +5,7 @@ Many teams may be unfamiliar with the various terms and slang that are often thr
 
 Competitions
 ------------
+
 Program Delivery Partner (PDP)
    Director or directors for events and activities in a region. Used to be referred to as the Affiliate Partner (AP).
 Qualifier
