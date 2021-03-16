@@ -5,9 +5,8 @@ Many teams may be unfamiliar with the various terms and slang that are often thr
 
 Competitions
 ------------
-
-Affiliate Partner
-   Regional director for teams who runs official competitions.
+Program Delivery Partner (PDP)
+   Director or directors for events and activities in a region. Used to be referred to as the Affiliate Partner (AP).
 Qualifier
    Tournament with 5-6 qualifying matches and best-of-three alliance elimination matches. Judging included. Will advance to States/Regional level.
 League Meet
