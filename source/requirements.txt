@@ -8,7 +8,7 @@ docutils==0.16
 furo==2020.12.30b24
 idna==2.10
 imagesize==1.2.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 livereload==2.6.3
 MarkupSafe==1.1.1
 more-itertools==8.6.0
