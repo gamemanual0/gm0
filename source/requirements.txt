@@ -37,4 +37,4 @@ sphinxext-opengraph==0.4.1
 sphinxext-rediraffe==0.2.5
 stevedore==3.3.0
 tornado==6.1
-urllib3==1.26.2
+urllib3==1.26.3
