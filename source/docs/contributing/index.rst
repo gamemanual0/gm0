@@ -43,4 +43,5 @@ Getting Started Contributing
    :maxdepth: 1
 
    style-guide
+   methods-of-contributing
    contributors
