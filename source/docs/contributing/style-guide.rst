@@ -46,4 +46,4 @@ Adhere to brand standards when possible.
 
   - Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team’s name.
 
-You can use "you" when writing, it makes writing less awkward.
+You can use "you" when writing, when it makes writing less awkward. However, try avoiding excessively using it.
