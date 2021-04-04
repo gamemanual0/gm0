@@ -37,7 +37,7 @@ Getting Started Contributing
 #. Read through this document
 #. Read through the :doc:`style-guide`
 #. Review the `Project List <https://docs.google.com/document/d/1_o7SoUFs6OznR0U07-Mxr5CLdYmKN-NuU7TiQX8nL6A/edit>`_ and `GitHub issues <https://github.com/gamemanual0/gm0/issues>`_
-#. Check out [link to methods of contributing page]
+#. Check out the :doc:`methods-of-contributing`
 
 .. toctree::
    :maxdepth: 1

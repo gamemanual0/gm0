@@ -3,6 +3,7 @@ Methods of Contributing
 
 GitHub Pull Request (Strongly Preferred)
 ----------------------------------------
+Pull Requests should be made to the `gm0 <https://github.com/gamemanual0/gm0>`_ repository on GitHub. They will be reviewed and comments may be made. Draft pull requests are strongly recommended when you are working on something, as it allows for feedback during the development process. It also means that the CI can run.
 
 Document Submission
 -------------------
