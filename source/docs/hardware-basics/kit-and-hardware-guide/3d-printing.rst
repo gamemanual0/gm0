@@ -3,6 +3,13 @@
 3D Printing
 ===========
 
+Kinds of 3D Printing
+--------------------
+
+There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) (also known as Fused Filament Fabrication) extrudes a melted filament to create a part and is the most common type and the one we’ll focus on in this guide. SLA (stereolithography) and SLS (Selective Laser Sintering) are both options for 3D printing plastics, but they are generally more complex, expensive, or hold other disadvantages in FTC applications. For those reasons, they are not recommended.
+
+Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
+
 Advantages of 3D Printing
 -------------------------
 
@@ -17,17 +24,69 @@ Disadvantages of 3D Printing
 - **If you are out of 3D printed spares at a competition, you’re probably out of luck. Teams are advised to print at least one set of every single 3D printed part as spares for competition**.
 - 3D printed components are generally weaker than other materials such as aluminum. However, printing in the proper orientation can be very strong - teams have 3D printed hooks and other parts to support their FRC\ |reg| robot (120 pounds) and FTC robots (40 pounds).
 - 3D printed parts should only be loaded in one orientation. That is, if the robot is hanging from a hook, the only load should be on the bottom face of the curved part of the hook. Try to eliminate side loads as much as possible to avoid part failure.
-- The size of 3D printed parts are limited by the size of your print bed.
+- The size of 3D printed parts is limited by the size of your print bed.
 - Large and thick prints can take a long time (overnight) to print and can run the risk of failure.
 - 3D printing can end up quite expensive, though filament can be found for a reasonable price on online vendors such as Amazon.
 
 Common Filament Types
 ---------------------
 
-- PLA (polylactic acid) is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options, and tends to have little to no warp when printing. PLA should be used for low or no load applications such as electronics retention mounting or cable management.
-- ABS (acrylonitrile butadiene styrene) is another very common filament that is able to withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels.
-- PET/PETG (polyethylene terephthalate) can be described as a mix of PLA and ABS. It has little warp and is as durable as ABS. PETG is another great option for higher-load applications such as wheel bores.
-- TPU (thermoplastic polyurethane) is a filament different from other options. Specifically, parts made with TPU can be flexible if the infill is set low, or by using flexible TPU filament. Teams use TPU to print customized intake flaps optimized for the right stiffness in order to make the intake more efficient. TPU also has very high layer bonding strength compared to other filament types, making it suitable for high load applications that do not need to be stiff. TPU must be printed on a printer with a direct extruder. It will not work on bowden extruders. A bowden extruder is mounted on the frame of the 3D printer and is connected to the nozzle with a flexible tube that guides the filament. A direct extruder will be mounted directly on the nozzle assembly, with filament feeding directly into the nozzle.
+PLA (Polyactic Acid)
+^^^^^^^^^^^^^^^^^^^^
+
+PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to stock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
+
+- PLA hotend temperatures range from 190°-220° C
+- PLA bed temperatures range from 20°-60° C
+
+ABS (Acrylonitrile Butadiene Styrene)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ABS is another very common filament that can withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels. It can be more difficult to print, however. And often requires an enclosure to help increase the ambient temperature of the print environment.
+
+- ABS hotend temperatures range from 230º-250º C
+- ABS bed temperatures range from 100º-120º C
+
+PET/PETG (Polyethylene Terephthalate)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+PET/PETG can be described as a mix of PLA and ABS. It is not as impact-resistant as ABS, and not as stiff as PLA, but it can withstand higher temperatures (it will hold shape in a hot car unlike PLA). It is comparable in printing difficulty to PLA and can be printed on most printers out of the box. It is a great option for many FTC parts.
+
+- PETG hotend temperatures range from 230°-260° C
+- PETG bed temperatures range from 60°-80° C
+
+Exotic Filaments
+----------------
+
+Many filaments can hold advantages over the more common filament options, though they are almost always being more difficult to print.
+
+Carbon Fiber-filled
+^^^^^^^^^^^^^^^^^^^
+
+Many filaments are also sold with the addition of small chunks of Carbon Fiber mixed into the filament itself. This generally makes the filament stiffer but can make it more brittle. Carbon Fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their CF counterparts.
+
+Nylon
+^^^^^
+
+Nylon filaments can be glass-filled, carbon fiber-filled, or pure. These have very good impact resistance and can be used for parts like drivetrain wheel covers and other parts that experience high shock loads. Nylon is the king of impact resistance in many situations where the part can flex out of the way, instead of completely breaking. Nylon requires very high temperatures and generally requires an enclosure. It also must be dried before printing.
+
+- Nylon hotend temperatures range from 240º-260º C
+- Nylon bed temperatures range from 55º-80º C
+
+Polycarbonate (PC)
+^^^^^^^^^^^^^^^^^^
+
+Polycarbonate and its variants are also very very strong, technical materials. PC shines in its ability to be very rigid, and handle shock loads exceedingly well. PC also requires being dry, having a printer capable of **very** high temperatures, and an enclosure. It is also a very challenging material to print.
+
+There are several PC blends that can be much easier to print, a standout example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC that retains many of the advantages of pure PC. PolyLite is not quite as impact-resistant, but a lot cheaper. Both are much easier to print than pure PC.
+
+- PC hotend temperatures range from 250º-320º C
+- PC bed temperatures range from 80º-140º C
+
+Others
+^^^^^^
+
+There are a few other materials that can have very high-end benefits, and push the envelope on what 3D printing can accomplish, but should not be printed if you are not *very* confident in your printing skills, these materials include but are not limited to PEI (Polyether Imide, brand name ULTEM), PEEK (Polyether Ether Ketone), and PEKK (Polyetherketoneketone). These materials often require heated chambers, and are extremely expensive.
 
 3D Printing Design Guide
 ------------------------
