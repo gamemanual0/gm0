@@ -1,7 +1,5 @@
 env/
 build/
 pyvenv.cfg
-
 .dist/
-
-.DS_STORE
+.DS_STORE
