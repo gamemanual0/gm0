@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gm0"
+version = "9999"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+doc8 = "==0.8.1"
+docutils = "==0.16.0"
+furo = "==2021.3.20b30"
+latex = "==0.7.0"
+python = "^3.6"
+sphinx = "==3.4.3"
+sphinx-hoverxref = "==0.5b1"
+sphinx-tabs = "==2.0.0"
+sphinxext-linkcheckdiff = "==0.1.0"
+sphinxext-opengraph = "==0.4.1"
+sphinxext-rediraffe = "==0.2.5"
+
+[tool.poetry.dev-dependencies]
+sphinx-autobuild = "==2021.3.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
