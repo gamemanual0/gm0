@@ -32,7 +32,8 @@ extensions = [
     "sphinxext.linkcheckdiff",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
-    "hoverxref.extension"
+    "hoverxref.extension",
+    "myst_parser"
 ]
 
 templates_path = ["_templates"]
@@ -49,6 +50,10 @@ rst_epilog = """
 .. |gm2| replace:: Game Manual Part 2
 .. |EN| replace:: Engineering Notebook
 """
+
+# Configure MyST-Parser
+myst_enable_extensions = ["replacements"]
+
 # Enable hover content on glossary terms
 hoverxref_roles = ["term"]
 
@@ -178,7 +183,7 @@ latex_elements = {
         \setlength{\cftchapnumwidth}{0.75cm}
         \setlength{\cftsecindent}{\cftchapnumwidth}
         \setlength{\cftsecnumwidth}{1.25cm}
-	''',
+    ''',
 
     "fncychap": r'\usepackage[Bjornstrup]{fncychap}',
 
