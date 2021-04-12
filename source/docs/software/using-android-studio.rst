@@ -335,14 +335,14 @@ To install any SDK tools such as platform tools or build tools, open the SDK man
 Updating the SDK using Git
 --------------------------
 
-The SDK can be updated through the use of git and version control. In order to update the SDK, we will first need to set the source of the updates through git upstream, and then merge the updates into our current project.
+The SDK can be updated through the using the version control software Git. In order to update the SDK, we will first need to set the source of the updates using Git remotes, and then merge the updates into our current project.
 
-.. note:: Your FTC project needs to be set up as a Github Repository prior to following this guide.
+.. note:: Your FTC project needs to be set up as a Git repository prior to following this guide.
 
-Setting git upstream
-^^^^^^^^^^^^^^^^^^^^
+Setting Git Remote
+^^^^^^^^^^^^^^^^^^
 
-#. Open up your project in android studio
+#. Open up your project in Android Studio
 #. Open up the "terminal" tab
 #. Paste in ``git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController/`` and hit enter
 
@@ -356,7 +356,7 @@ In order to update the SDK, run ``git pull upstream master``
 Merge Conflicts
 ^^^^^^^^^^^^^^^
 
-Merge conflicts occur when competing changes are made to the same line of a file. If you modified gradle files within your project, it is very likely you will run into a merge conflict when updating the sdk.
+Merge conflicts occur when competing changes are made to the same line of a file. If you modified Gradle files within your project, it is very likely you will run into a merge conflict when updating the SDK.
 
 A pop up with the merge issue will appear when issues occur. Click "Merge"
 
