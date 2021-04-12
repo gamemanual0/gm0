@@ -360,7 +360,7 @@ Merge conflicts occur when competing changes are made to the same line of a file
 
 A pop up with the merge issue will appear when issues occur. Click "Merge"
 
-.. image:: images/using-android-studio/merge_conflicts_dialogue.png
+.. image:: images/using-android-studio/merge_conflicts_dialog.png
    :alt: Android Studio's Merge Conflicts Menu
 
 Upon clicking the merge button you will be greeted with the following menu:
