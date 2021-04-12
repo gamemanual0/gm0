@@ -346,7 +346,7 @@ Setting git upstream
 #. Open up the "terminal" tab
 #. Paste in ``git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController/`` and hit enter
 
-.. note:: The command above assumes you're using the FTC SDK. If you are using a modified version of the SDK as your base (e.g. Roadrunner Quickstart), replace the git link with the one from the modified SDK repo
+.. note:: The command above assumes you're using the FTC SDK. If you are using a modified version of the SDK as your base (e.g. Roadrunner Quickstart), replace the git link with one from the modified SDK repo
 
 Updating the SDK
 ^^^^^^^^^^^^^^^^
