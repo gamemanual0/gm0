@@ -331,30 +331,44 @@ Installing SDK Tools
 
 To install any SDK tools such as platform tools or build tools, open the SDK manager and go to SDK Tools. Select the tools you want to install and install them the same way you would for the SDK platforms.
 
+
 Updating the SDK
 ________________
 
-The SDK can be updated through the use of git and version control. In order to update the sdk, we will first need to set the source of the updates through git upstream, and then merge the updates into our current project.
+The SDK can be updated through the use of git and version control. In order to update the SDK, we will first need to set the source of the updates through git upstream, and then merge the updates into our current project.
 
-.. note:: Git needs to be installed before following this guide
+.. note:: Your FTC project needs to be set up as a Github Repository prior to following this guide.
 
 Setting git upstream
 ^^^^^^^^^^^^^^^^^^^^
 
 #. Open up your project in android studio
 #. Open up the "terminal" tab
-#. Paste in 'git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController/' and hit enter
-.. note:: The command above assumes you are using the FTC Sdk. If you are using a modified version of the SDK as your base (e.g. Roadrunner Quickstart), replace the git link with the one from the modified sdk repo
+#. Paste in ``git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController/`` and hit enter
+
+.. note:: The command above assumes you're using the FTC SDK. If you are using a modified version of the SDK as your base (e.g. Roadrunner Quickstart), replace the git link with the one from the modified SDK repo
 
 Updating the SDK
 ^^^^^^^^^^^^^^^^
 
-In order to update the SDK, run 'git pull upstream master'
+In order to update the SDK, run ``git pull upstream master``
 
 Merge Conflicts
 ^^^^^^^^^^^^^^^
 
+Merge conflicts occur when competing changes are made to the same line of a file. If you modified gradle files within your project, it is very likely you will run into a merge conflict when updating the sdk.
 
+A pop up with the merge issue will appear when issues occur. Click "Merge"
+
+https://resources.jetbrains.com/help/img/idea/2021.1/merge_conflicts_dialog.png
+
+Upon clicking the merge button you will be greeted with the following menu:
+
+https://resources.jetbrains.com/help/img/idea/2021.1/conflict_resolution_tool_legend.png
+
+Right click the issues to view the context menu and combine the code to your liking
+
+https://resources.jetbrains.com/help/img/idea/2021.1/resolve_using_left_right.png
 
 Version Control
 ---------------
