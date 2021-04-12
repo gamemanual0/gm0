@@ -332,8 +332,8 @@ Installing SDK Tools
 To install any SDK tools such as platform tools or build tools, open the SDK manager and go to SDK Tools. Select the tools you want to install and install them the same way you would for the SDK platforms.
 
 
-Updating the SDK
-----------------
+Updating the SDK using Git
+--------------------------
 
 The SDK can be updated through the use of git and version control. In order to update the SDK, we will first need to set the source of the updates through git upstream, and then merge the updates into our current project.
 
