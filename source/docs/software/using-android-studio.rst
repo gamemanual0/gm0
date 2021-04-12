@@ -333,7 +333,7 @@ To install any SDK tools such as platform tools or build tools, open the SDK man
 
 
 Updating the SDK
-________________
+----------------
 
 The SDK can be updated through the use of git and version control. In order to update the SDK, we will first need to set the source of the updates through git upstream, and then merge the updates into our current project.
 
@@ -360,15 +360,20 @@ Merge conflicts occur when competing changes are made to the same line of a file
 
 A pop up with the merge issue will appear when issues occur. Click "Merge"
 
-https://resources.jetbrains.com/help/img/idea/2021.1/merge_conflicts_dialog.png
+.. image:: images/using-android-studio/merge_conflicts_dialogue.png
+   :alt: Android Studio's Merge Conflicts Menu
 
 Upon clicking the merge button you will be greeted with the following menu:
 
-https://resources.jetbrains.com/help/img/idea/2021.1/conflict_resolution_tool_legend.png
+.. image:: images/using-android-studio/conflict_resolution_tool_legend.png
+   :alt: Merge-Conflict Resolution Menu
 
 Right click the issues to view the context menu and combine the code to your liking
 
-https://resources.jetbrains.com/help/img/idea/2021.1/resolve_using_left_right.png
+.. image:: images/using-android-studio/resolve_using_left_right.png
+   :alt: Resolve Context Menu
+
+When done click "Apply" or hit enter
 
 Version Control
 ---------------
