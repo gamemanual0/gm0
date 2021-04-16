@@ -331,6 +331,41 @@ Installing SDK Tools
 
 To install any SDK tools such as platform tools or build tools, open the SDK manager and go to SDK Tools. Select the tools you want to install and install them the same way you would for the SDK platforms.
 
+Uploading your repository to GitHub
+-----------------------------------
+
+In order to share, collaborate, and update your FTC project, it is recommended you upload your code to a Git Repository. Uploading your code to GitHub also helps you maintain an offsite backup in case of an issue.
+
+Installing Git
+^^^^^^^^^^^^^^
+
+Before proceeding with this guide, you must install git on your system. Instructions can be found on the Git website `here <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
+
+Uploading your repository to GitHub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: This guide assumes you have already created a GitHub account. Please create one if you haven't already.
+
+There are two ways of uploading a Git repository to GitHub
+
+#. Through the Git cli 
+#. Through the Intellij Git version control (recommended)
+
+Uploading your repository through the Intellij Git version control (recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Select the "VCS" menu from the menu bar 
+#. Select "Import in Version Control"
+#. Click "Share Project on Github"
+#. Re-enter your credentials if required
+
+Uploading your repository through the cli 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Create a git repository on the GitHub site
+#. Open the terminal 
+#. cd to your project directory 
+#. run the following commands: 
 
 Updating the SDK using Git
 --------------------------
@@ -380,7 +415,7 @@ Version Control
 
 Version control is an extremely useful tool. It allows for looking at (and reverting to) previous versions of code, easy collaboration, having multiple versions of code that can be merged together, etc.
 
-As far as version control systems go, we strongly recommend git. While a git tutorial is out of scope for |gm0|, here are some git resources:
+As far as version control systems go, we strongly recommend git. While a full git tutorial is out of scope for |gm0|, here are some git resources:
 
 * `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
 * `GitHub's collection of git resources <https://try.github.io/>`_
