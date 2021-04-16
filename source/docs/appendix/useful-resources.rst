@@ -8,7 +8,7 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy! **The 
 This Guide!
 -----------
 
-- `Game Manual 0 <https://gm0.org/en/stable/>`_
+- `Game Manual 0 <https://gm0.org/en/latest/>`_
 
 Official *FIRST*\ |reg| Resources
 ---------------------------------
