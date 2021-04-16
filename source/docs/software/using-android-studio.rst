@@ -307,6 +307,13 @@ To get these XML files wirelessly, you can use :code:`adb pull /sdcard/FIRST/con
 
 If a valid configuration XML file is in :code:`res/xml` it will show up as a configuration you can use for the robot when you push it to the Robot Controller or a Control Hub.
 
+Starting the app manually
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A bug in the newer versions of Android Studio fails to launch the app a lot of the time. The workaround to this would be running the command manually through ADB.
+
+To do this paste :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper` in your terminal and hit enter.
+
 SDK Manager
 -----------
 
