@@ -69,12 +69,12 @@ linkcheck_workers = 1 # To stop from hitting github's usage limits
 user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
 
 # Configure linkcheck diff branch
-linkcheckdiff_branch = "origin/master"
+linkcheckdiff_branch = "origin/main"
 
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph
 
-ogp_image = "https://raw.githubusercontent.com/gamemanual0/gm0/master/source/_static/assets/gm0-logo.png"
+ogp_image = "https://raw.githubusercontent.com/gamemanual0/gm0/main/source/_static/assets/gm0-logo.png"
 ogp_site_name = "Game Manual 0"
 
 # Enables ChiefDelphi support
@@ -87,7 +87,7 @@ ogp_custom_meta_tags = [
 # See https://github.com/wpilibsuite/sphinxext-rediraffe
 
 # Redirect branch
-rediraffe_branch = "origin/master"
+rediraffe_branch = "origin/main"
 
 # File containing redirects
 rediraffe_redirects = "redirects.txt"

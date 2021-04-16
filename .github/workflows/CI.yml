@@ -48,7 +48,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Check Links (Diff)
       run: |
-        git fetch origin master
+        git fetch origin main
         make linkcheckdiff
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
@@ -82,9 +82,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Checkout master
+    - name: Checkout main
       run: |
-        git fetch origin master --depth=1
+        git fetch origin main --depth=1
     - uses: actions/setup-python@v2
       with:
         python-version: 3.7
