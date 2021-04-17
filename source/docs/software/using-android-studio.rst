@@ -359,7 +359,7 @@ There are two ways of uploading a Git repository to GitHub
 #. Through the Intellij Git version control (recommended)
 
 Uploading your repository through the Intellij Git version control (recommended)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 #. Select the "VCS" menu from the menu bar
 #. Select "Import in Version Control"
@@ -369,10 +369,16 @@ Uploading your repository through the Intellij Git version control (recommended)
 Uploading your repository through the cli
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Create a git repository on the GitHub site
+#. Create a new repository on GitHub
 #. Open the terminal
-#. cd to your project directory
-#. run the following commands:
+#. Change the current working directory to your local project
+#. Initialize the repository by running :code:`git init -b main`
+#. Add the project files by running :code:`git add .`
+#. Commit the files by running :code:`git commit -m "First commit"`
+#. At the top right of your GitHub repository, click the clipboard icon to copy the remote repository url
+#. In Terminal, add the URL by running the following command :code:`git remote add origin <REMOTEURL>`
+#. Verify the URL by running :code:`git remote -v`
+#. Push the project using :code:`git push -u origin main`
 
 Updating the SDK using Git
 --------------------------
