@@ -359,7 +359,7 @@ There are two ways of uploading a Git repository to GitHub
 #. Through the Intellij Git version control (recommended)
 
 Uploading your repository through the Intellij Git version control (recommended)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Select the "VCS" menu from the menu bar
 #. Select "Import in Version Control"
