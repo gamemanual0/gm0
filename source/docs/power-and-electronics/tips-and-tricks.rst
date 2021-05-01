@@ -6,7 +6,7 @@ In addition to what is written in the official resources, there are a couple of 
 The traditional :term:`XT30` connector that is used to REV is prone to breaking. It is highly recommended that teams replace :term:`XT30` connectors with :term:`Anderson PowerPole`, or put adapters on their current wires. An example of an adapter is `this <https://www.servocity.com/anderson-powerpole-to-female-xt30-adaptor>`_. In lieu of this, teams can also 3D print strain relief connectors on the Expansion Hub to prevent :term:`XT30` disconnects. The file can be found on Thingiverse or through this `link <https://www.thingiverse.com/thing:2887045>`_.
 
 .. figure:: images/tips-and-tricks/xt30-to-powerpole-adapter.jpg
-   :alt: An example XT30 to Anderson Powerpole adapter
+   :alt: An example Anderson Powerpole to XT30 adapter
 
    An example :term:`Anderson PowerPole` (A) to :term:`XT30` (B) adapter. They can be found at `ServoCity <https://www.servocity.com/anderson-powerpole-to-female-xt30-adaptor/>`_ or `REV Robotics <https://www.revrobotics.com/REV-31-1385/>`_.
 
