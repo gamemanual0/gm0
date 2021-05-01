@@ -35,6 +35,7 @@ Each team will have at least one chance to compete, either at Qualifier Events o
    :maxdepth: 1
    :caption: More Information:
 
+   strategy
    know-your-lingo
    engineering-design-process
    rookie-building
