@@ -42,7 +42,7 @@ Priority Lists
 
 Priority lists are extremely important because it helps make sure your design decisions meet your strategy analysis. They give you a source of truth for when you need to make tough decisions--what is the most important. There should be team consensus on these--you will not always please everyone, but consensus is important, and enabling this consensus is the job of team leaders.
 
-A good way to do this is to have two seperate priority lists: one for desired robot qualities, such as size, speed, acceleration, agility, center of gravity, pushing power, etc, and one for robot functionality.
+A good way to do this is to have two separate priority lists: one for desired robot qualities, such as size, speed, acceleration, agility, center of gravity, pushing power, etc, and one for robot functionality.
 
 Robot Functionality
 ~~~~~~~~~~~~~~~~~~~
