@@ -307,6 +307,13 @@ To get these XML files wirelessly, you can use :code:`adb pull /sdcard/FIRST/con
 
 If a valid configuration XML file is in :code:`res/xml` it will show up as a configuration you can use for the robot when you push it to the Robot Controller or a Control Hub.
 
+Starting the app manually
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A bug in the newer versions of Android Studio fails to launch the app a lot of the time. The workaround to this would be running the command manually through ADB.
+
+To do this paste :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper` in your terminal and hit enter.
+
 SDK Manager
 -----------
 
@@ -331,12 +338,97 @@ Installing SDK Tools
 
 To install any SDK tools such as platform tools or build tools, open the SDK manager and go to SDK Tools. Select the tools you want to install and install them the same way you would for the SDK platforms.
 
+Uploading your repository to GitHub
+-----------------------------------
+
+In order to share, collaborate, and update your FTC project, it is recommended you upload your code to a Git Repository. Uploading your code to GitHub also helps you maintain an offsite backup in case of an issue.
+
+Installing Git
+^^^^^^^^^^^^^^
+
+Before proceeding with this guide, you must install git on your system. Instructions can be found on the `Git website <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
+
+Uploading your repository to GitHub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: This guide assumes you have already created a GitHub account. Please create one if you haven't already.
+
+There are two ways of uploading a Git repository to GitHub
+
+#. Through the Git cli
+#. Through the Intellij Git version control (recommended)
+
+Uploading your repository through the Intellij Git version control (recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Select the "VCS" menu from the menu bar
+#. Select "Import in Version Control"
+#. Click "Share Project on Github"
+#. Re-enter your credentials if required
+
+Uploading your repository through the cli
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Create a new repository on GitHub
+#. Open the terminal
+#. Change the current working directory to your local project
+#. Initialize the repository by running :code:`git init -b main`
+#. Add the project files by running :code:`git add .`
+#. Commit the files by running :code:`git commit -m "First commit"`
+#. At the top right of your GitHub repository, click the clipboard icon to copy the remote repository url
+#. In Terminal, add the URL by running the following command :code:`git remote add origin <REMOTEURL>`
+#. Verify the URL by running :code:`git remote -v`
+#. Push the project using :code:`git push -u origin main`
+
+Updating the SDK using Git
+--------------------------
+
+The SDK can be updated through the using the version control software Git. In order to update the SDK, we will first need to set the source of the updates using Git remotes, and then merge the updates into our current project.
+
+.. note:: Your FTC project needs to be set up as a Git repository prior to following this guide.
+
+Setting Git Remote
+^^^^^^^^^^^^^^^^^^
+
+#. Open up your project in Android Studio
+#. Open up the "terminal" tab
+#. Paste in ``git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController/`` and hit enter
+
+.. note:: The command above assumes you're using the FTC SDK. If you are using a modified version of the SDK as your base (e.g. Road Runner Quickstart), replace the git link with one from the modified SDK repo
+
+Updating the SDK
+^^^^^^^^^^^^^^^^
+
+In order to update the SDK, run ``git pull upstream master``
+
+Merge Conflicts
+^^^^^^^^^^^^^^^
+
+Merge conflicts occur when competing changes are made to the same line of a file. If you modified Gradle files within your project, it is very likely you will run into a merge conflict when updating the SDK.
+
+A pop up with the merge issue will appear when issues occur. Click "Merge"
+
+.. image:: images/using-android-studio/merge_conflicts_dialog.png
+   :alt: Android Studio's Merge Conflicts Menu
+
+Upon clicking the merge button you will be greeted with the following menu:
+
+.. image:: images/using-android-studio/conflict_resolution_tool_legend.png
+   :alt: Merge-Conflict Resolution Menu
+
+Right click the issues to view the context menu and combine the code to your liking
+
+.. image:: images/using-android-studio/resolve_using_left_right.png
+   :alt: Resolve Context Menu
+
+When done click "Apply" or hit enter
+
 Version Control
 ---------------
 
 Version control is an extremely useful tool. It allows for looking at (and reverting to) previous versions of code, easy collaboration, having multiple versions of code that can be merged together, etc.
 
-As far as version control systems go, we strongly recommend git. While a git tutorial is out of scope for |gm0|, here are some git resources:
+As far as version control systems go, we strongly recommend git. While a full git tutorial is out of scope for |gm0|, here are some git resources:
 
 * `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
 * `GitHub's collection of git resources <https://try.github.io/>`_
