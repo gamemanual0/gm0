@@ -1,6 +1,26 @@
+pyvenv.cfg
+
+# Adapted from https://www.toptal.com/developers/gitignore/api/python
+# Environments
+.env/
+.venv/
 env/
 venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Distribution / packaging
 build/
-pyvenv.cfg
 .dist/
-.DS_STORE
+
+# operating system-related files
+# file properties cache/storage on macOS
+*.DS_Store
+# thumbnail cache on Windows
+Thumbs.db
+
+# vscode
+.vscode/*
+*.code-workspace
