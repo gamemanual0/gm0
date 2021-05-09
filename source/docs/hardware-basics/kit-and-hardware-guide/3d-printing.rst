@@ -44,8 +44,8 @@ ABS (Acrylonitrile Butadiene Styrene)
 
 ABS is another very common filament that can withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels. It can be more difficult to print, however. And often requires an enclosure to help increase the ambient temperature of the print environment.
 
-- ABS hotend temperatures range from 230º-250º C
-- ABS bed temperatures range from 100º-120º C
+- ABS hotend temperatures range from 230°-250° C
+- ABS bed temperatures range from 100°-120° C
 
 PET/PETG (Polyethylene Terephthalate)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,8 +70,8 @@ Nylon
 
 Nylon filaments can be glass-filled, carbon fiber-filled, or pure. These have very good impact resistance and can be used for parts like drivetrain wheel covers and other parts that experience high shock loads. Nylon is the king of impact resistance in many situations where the part can flex out of the way, instead of completely breaking. Nylon requires very high temperatures and generally requires an enclosure. It also must be dried before printing.
 
-- Nylon hotend temperatures range from 240º-260º C
-- Nylon bed temperatures range from 55º-80º C
+- Nylon hotend temperatures range from 240°-260° C
+- Nylon bed temperatures range from 55°-80° C
 
 Polycarbonate (PC)
 ^^^^^^^^^^^^^^^^^^
@@ -80,8 +80,8 @@ Polycarbonate and its variants are also very very strong, technical materials. P
 
 There are several PC blends that can be much easier to print, a standout example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC that retains many of the advantages of pure PC. PolyLite is not quite as impact-resistant, but a lot cheaper. Both are much easier to print than pure PC.
 
-- PC hotend temperatures range from 250º-320º C
-- PC bed temperatures range from 80º-140º C
+- PC hotend temperatures range from 250°-320° C
+- PC bed temperatures range from 80°-140° C
 
 Others
 ^^^^^^
