@@ -8,7 +8,7 @@ Exceptions are events that occur during the execution of a program, disrupting t
 
 Some types of exceptions include:
 
-- NullPointerException
+- **NullPointerException**
 
   - It occurs when trying to call a method or getting a property of an object from a variable with a *null* value, which basically means that the variable doesn't hold a value *yet*, or that it doesn't exist.
   - This exception is one of the most common in FTC, below is an example that throws a NullPointerException:
@@ -16,7 +16,7 @@ Some types of exceptions include:
   .. code:: java
 
     public class CrashyOpMode extends OpMode {
-        
+
         // This call to the "get" method here will throw a NullPointerException.
         //
         // The value of the "hardwareMap" variable is null at this point, due to
@@ -50,21 +50,18 @@ Some types of exceptions include:
 
     }
 
-- InterruptedException
+- **InterruptedException**
 
-  - It means that
-
-Catching exceptions
-;;;;;;;;;;;;;;;;;;;
-
-
+  - It means that the SDK requested the OpMode to stop
 
 How the SDK handles exceptions
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK performs a "emergency stop" routine when a exception is thrown and not handled properly with the *try catch** syntax mentioned before.
+The FTC SDK performs an "emergency stop" routine when a exception is thrown and it's not handled properly (except for InterruptedExceptions, since these simply cause the OpMode to be ended), it consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
+
+This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages alone possibly isn't very helpful since they're very short, logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode, for further information check the :ref:`android studio <logcat section>` guide.
 
 Stuck in loop/stop
 ------------------
 
-OpModes are *strictly controlled programs*, in the sense that the SDK requires
+OpModes are *strictly controlled programs*, in the sense that the SDK requires them to flow in a certain way, in methods such as init(), loop(), etc. Linear opmodes are slightly more free since they can flow more freely, but they still need to be responsive to stop requests

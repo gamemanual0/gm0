@@ -236,6 +236,8 @@ Android Debug Bridge
 
 .. note:: On macOS, Linux, or using PowerShell you will have to change any commands that start with :code:`adb` to start with :code:`./adb` if you are in the :code:`platform-tools` directory.
 
+.. _logcat section:
+
 Logcat
 ^^^^^^
 
