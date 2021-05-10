@@ -5,7 +5,7 @@ Arms are another way to achieve extension past the 18” x 18” dimension of th
 
 .. attention:: Such motors must be very well supported, or else the motor may torque itself free from its mount.
 
-Rarely should an arm be directly mounted to the driving motor. Instead, torque should be transferred via gear, chain, or belt. Large arms can also be hard to control (with the addition of momentum adding load to the gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly without breaking a gearbox). In many cases, this issue can be mitigated with software (see the :doc:`../../software/control-loops` section).
+Rarely should an arm be directly mounted to the driving motor. Instead, torque should be transferred via gear, chain, or belt. Large arms can also be hard to control (with the addition of momentum adding load to the gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly without breaking a gearbox). In many cases, this issue can be mitigated with software (see the :doc:`/docs/software/control-loops` section).
 
 Depending on the application and implementation, arms can be either faster or slower than extension options.
 

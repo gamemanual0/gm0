@@ -82,7 +82,7 @@ Building haphazardly → Building for reliability
 
 .. important:: Build for the worst case scenario, not the best case scenario. When building, teams often overlook a key principle: build for reliability. All too often, teams skimp on the quality of construction as well as materials, which leads to one of the most common reasons for unsuccessful tournaments: part failure.
 
-Teams also do not take into account the rigors of competition and build as if the robot will not encounter opposing robots. Sufficient driver practice will be able to better simulate in-game conditions and test the reliability of the robot. To remedy this problem, refer to the :doc:`Materials Guide <../hardware-basics/materials-guide>` to gain a better understanding of what materials are recommended for use.
+Teams also do not take into account the rigors of competition and build as if the robot will not encounter opposing robots. Sufficient driver practice will be able to better simulate in-game conditions and test the reliability of the robot. To remedy this problem, refer to the :doc:`Materials Guide </docs/hardware-basics/materials-guide>` to gain a better understanding of what materials are recommended for use.
 
 If possible, teams should build with redundancy in mind. For example, if one set of linear slides fails due to a wire snapping, having a second set will still allow the robot to operate instead of sitting dead in the water. Practically, doubling mechanisms, motors, and servos is a common method to build for redundancy.
 
@@ -90,7 +90,7 @@ In addition, teams often forget to account for twisting or compression forces th
 
 While we cannot give any specific recommendations, do keep in mind what forces the support structure of your mechanism must bear along the full range of motion, and account for what occurs when it might hit another robot/field wall/field. Building more robustly is always worth the time spent. However, it is good to think about the extra weight that results.
 
-Furthermore, a common cause of robot disconnect is wiring issues. Refer to the :doc:`Wiring section <../power-and-electronics/wiring>` for more information; in short, make sure to plan ahead and leave space for wires, and use strain relief whenever possible.
+Furthermore, a common cause of robot disconnect is wiring issues. Refer to the :doc:`Wiring section </docs/power-and-electronics/wiring>` for more information; in short, make sure to plan ahead and leave space for wires, and use strain relief whenever possible.
 
 All these tips combined will help your robot become more reliable, a key characteristic of all world-level robots.
 
