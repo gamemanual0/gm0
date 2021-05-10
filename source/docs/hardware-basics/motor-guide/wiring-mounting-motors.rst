@@ -16,7 +16,7 @@ Since REV Hubs use :term:`JST-VH` connectors, to connect a motor with :term:`And
 
 You can extend or shorten motor power cables by soldering additional length of cable. This is legal as long as you use 18 gauge or thicker cables. Teams can also purchase extender cables to chain multiple pieces of cable together.
 
-For more tips on wiring the robot, see :doc:`../../power-and-electronics/wiring`.
+For more tips on wiring the robot, see :doc:`/docs/power-and-electronics/wiring`.
 
 .. _encoders:
 

@@ -97,7 +97,7 @@ All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models of th
 - `10650 Hazmat Robotics CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
 - `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
 
-For more public repositories of FTC parts, check :doc:`../appendix/useful-resources` section in the Appendix.
+For more public repositories of FTC parts, check :doc:`/docs/appendix/useful-resources` section in the Appendix.
 
 File sharing
 ------------

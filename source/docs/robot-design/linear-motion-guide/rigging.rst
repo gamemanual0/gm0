@@ -207,7 +207,7 @@ When extending outwards, wire management becomes increasingly important. Obvious
 
 In general, teams should ensure that wires never protrude outside the structural parts of the robot, because they can get caught on other robots or game pieces. This can be accomplished by cable ties or Velcro ties, or by using acrylic plate to keep wires inside.
 
-However, for linear extensions, other forms of cable management are needed. The two types of cable management recommended are cable carrier and retractable coil cord. Refer to the :doc:`Electronics and Wiring <../../power-and-electronics/index>` section for more information.
+However, for linear extensions, other forms of cable management are needed. The two types of cable management recommended are cable carrier and retractable coil cord. Refer to the :doc:`Electronics and Wiring </docs/power-and-electronics/index>` section for more information.
 
 Cable Carrier/Drag Chain
 ^^^^^^^^^^^^^^^^^^^^^^^^
