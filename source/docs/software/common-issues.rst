@@ -37,7 +37,7 @@ Some types of exceptions include:
 
     }
 
-  - This can be fixed moving the "motor" variable value definition to the init (or ``runOpMode()`` in linear opmodes) method as follows:
+  - This can be fixed moving the "motor" variable value definition to the init (or ``runOpMode()`` in LinearOpModes) method as follows:
 
   .. code:: java
 
@@ -65,16 +65,47 @@ Some types of exceptions include:
 
     }
 
+- **TargetPositionNotSetException**
+
+  - This exception type is a custom one from the SDK. It means you changed the motor ``RunMode`` to ``RUN_TO_POSITION`` before setting a target position.
+
+- **ArithmeticException**
+
+  - Occurs when performing any illegal arithmethic operations such as dividing by zero:
+
+  .. code:: java
+
+     int number = 128 / 0; // This will throw an ArithmeticException!
+
+  - It can be handled by enclosing the code likely to throw this type of exception with a `try catch block <https://www.w3schools.com/java/java_try_catch.asp>`_:
+
+  .. code:: java
+
+     int number; // Declaring the variable in the outside scope
+
+     try {
+        // Giving it a value that will possibly throw an ArithmeticException
+        number = 128 / 0;
+     } catch (ArithmeticException e) {
+        // Do something when the ArithmeticException happens.
+        // (The value of the "number" variable will remain 0)
+     }
+
 - **InterruptedException**
 
-  - It means that the SDK requested the OpMode to stop
+  - It means that the SDK requested the OpMode to stop,
 
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK performs an "emergency stop" routine when a exception is thrown and it's not handled properly (except for InterruptedExceptions and some other internal special cases, since these simply cause the OpMode to be ended), this routine consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
+The FTC SDK performs an "emergency stop" routine when an exception is thrown and it's not handled properly (except for InterruptedExceptions and some other internal special cases, since these simply cause the OpMode to be ended), this routine consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
 
 This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages from the Driver Station or the Robot Controller apps alone isn't very helpful since they're very short, but logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode. For further information check the :ref:`logcat section <logcat>` in the "Using Android Studio" page.
+
+Reading exception messages and stacktraces
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
 Stuck in start, loop, stop...
 -----------------------------
@@ -126,3 +157,9 @@ A example for a cooperative LinearOpMode would be as follows:
       }
 
    }
+
+
+Hardware-related issues
+-----------------------
+
+Hardware is another big source of issues that are noticed from software.
