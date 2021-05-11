@@ -21,9 +21,14 @@ Some types of exceptions include:
         //
         // The value of the "hardwareMap" variable is null at this point, due to
         // the way the SDK is limited to define the value of this variable, its
-        // value is defined right before the init (or runOpMode in linear opmodes)
+        // value is defined right before the init (or runOpMode in LinearOpModes)
         // method is called.
-        public DcMotor motor = hardwareMap.get(DcMotor.class, "slider");
+        DcMotor sliderMotor = hardwareMap.get(DcMotor.class, "slider");
+
+        @Override
+        public void init() {
+            // ...
+        }
 
         // ...
 
@@ -35,7 +40,7 @@ Some types of exceptions include:
 
     public class WorkingOpMode extends OpMode {
 
-        public DcMotor motor = null;
+        DcMotor sliderMotor = null;
 
         @Override
         public void init() {
@@ -43,7 +48,7 @@ Some types of exceptions include:
             // "hardwareMap" variable is defined at this point, but note that
             // the "get" method will return null if the name "slider" isn't
             // configured. (consult the "Using the SDK" section)
-            motor = hardwareMap.get(DcMotor.class, "slider");
+            sliderMotor = hardwareMap.get(DcMotor.class, "slider");
         }
 
         // ...
@@ -57,11 +62,13 @@ Some types of exceptions include:
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK performs an "emergency stop" routine when a exception is thrown and it's not handled properly (except for InterruptedExceptions, since these simply cause the OpMode to be ended), it consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
+The FTC SDK performs an "emergency stop" routine when a exception is thrown and it's not handled properly (except for InterruptedExceptions and some other internal special cases, since these simply cause the OpMode to be ended), this routine consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
 
-This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages alone possibly isn't very helpful since they're very short, logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode, for further information check the :ref:`android studio <logcat section>` guide.
+This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages from the Driver Station or the Robot Controller apps alone isn't very helpful since they're very short, but logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode, for further information check the :ref:`logcat section <logcat>` in the "Using Android Studio" page.
 
-Stuck in loop/stop
-------------------
+Stuck in loop, stop, etc.
+-------------------------
 
-OpModes are *strictly controlled programs*, in the sense that the SDK requires them to flow in a certain way, in methods such as init(), loop(), etc. Linear opmodes are slightly more free since they can flow more freely, but they still need to be responsive to stop requests
+OpModes are *strictly controlled programs*, in the sense that the SDK requires them to flow in a certain way with the methods ``init()``, ``loop()``, etc. If you take more than a specific time (`5 seconds, or 900 milliseconds in stop commands <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_) executing an action in any of these methods, the SDK will perform the "emergency stop" routine explained before, with the "stuck in ``action``" error message. If you need to run any sort of lenghty action in your OpMode, another option would be using a LinearOpMode instead.
+
+LinearOpModes are less strict since their single ``runOpMode()`` method can flow more freely, but they still need to be responsive to stop requests. Take the following code as an example...
