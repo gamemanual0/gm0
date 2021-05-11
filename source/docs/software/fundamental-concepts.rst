@@ -5,10 +5,15 @@ For almost any programming language, whether it’s Java, Python, or Blocks, the
 
 This section is primarily for people with limited Java experience. However, even if you are more experienced, it may still be helpful to skim through the section, as you might find concepts that have not yet been introduced to you.
 
-Examples will mostly be in Java, where ``//`` indicates a comment which the program ignores and is used for people to read. ::
+Examples will mostly be in Java, where ``//`` indicates a comment which the program ignores and is used for people to read.
+
+::
+
    int number; // Declaring that number will contain an integer.
    number = 5; // Setting a value so that the variable holds something.
+
    int secondNumber = 6; // Doing both above.
+
    int total = number + secondNumber; // Math.
    System.out.println(total); // Printing, it will show up as 11.
 
