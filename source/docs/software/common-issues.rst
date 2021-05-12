@@ -6,7 +6,7 @@ Exceptions
 
 Exceptions are events that occur during the execution of a program, disrupting the normal flow of instructions, used in error events or problems that arise during runtime. A exception can be catched to avoid propagation, otherwise any exception that's not handled will cause the program flow to stop immediately.
 
-Some types of exceptions include:
+Some common types of exceptions include:
 
 - **NullPointerException**
 
@@ -67,7 +67,17 @@ Some types of exceptions include:
 
 - **TargetPositionNotSetException**
 
-  - This exception type is a custom one from the SDK. It means you changed the motor ``RunMode`` to ``RUN_TO_POSITION`` before setting a target position.
+  - This exception type is a custom one from the SDK. It means you changed the motor ``RunMode`` to :ref:`RUN_TO_POSITION <run_to_position>` before setting a target position:
+
+  .. code:: java
+
+     // This will throw a "TargetPositionNotSetException" here!
+     motor.setRunMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+     // And this statement won't be reached.
+     // Make sure to call this method before
+     // calling setRunMode().
+     motor.setTargetPosition(1120);
 
 - **ArithmeticException**
 
@@ -93,7 +103,22 @@ Some types of exceptions include:
 
 - **InterruptedException**
 
-  - It means that the SDK requested the OpMode to stop,
+  - It means that the SDK requested the OpMode to stop, and it's considered part of normal operation. An interrupt means that the current thread has been requested to end, so don't panic when you see a spam of those in :ref:`logcat <logcat>`!
+
+  - If you call a method that possibly throws an InterruptedException (such as ``Thread.sleep()``) it should be handled like this (with the try catch syntax mentioned before):
+
+    .. code:: java
+
+       try {
+          // Block for 500 milliseconds
+          Thread.sleep(500);
+       } catch(InterruptedException e) {
+          // Tells the current thread (OpMode) to
+          // end the execution as soon as possible
+          Thread.currentThread().interrupt();
+       }
+
+  - Note that LinearOpMode already contains a shorthand `sleep() <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java#L96>`_ method that already does this under the hood. (And you shouldn't be using sleeps in OpMode since they're more strictly controlled. Read next sections for further information)
 
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,7 +130,7 @@ This behavior can be a big problem during competition matches, so it's generally
 Reading exception messages and stacktraces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
+.. stuck in start, loop, stop:
 
 Stuck in start, loop, stop...
 -----------------------------

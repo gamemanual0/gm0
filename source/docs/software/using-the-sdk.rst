@@ -95,6 +95,8 @@ Using ``RUN_WITH_ENCODER``, the power set takes a more indirect route to the mot
 
 If a power of .2 were fed while this mode is active, the motor will attempt to turn the same speed by fluctuating the output voltage depending on the load on the motor. This mode has one significant disadvantage, however. The max speed of the motor is somewhat significantly decreased, so it is recommended to use ``RUN_WITHOUT_ENCODER`` if possible if maximum speed is the goal; however, ``RUN_USING_ENCODER`` will provide more consistent results.
 
+.. _run_to_position:
+
 The final mode is ``RUN_TO_POSITION``. To make the motor move with this mode, the function ``setTargetPosition()`` must be called. When a power is applied to the motor, a control loop will use that as the max power and try to drive the encoder position to the target position.
 
 .. warning:: This mode can be a convenient way to control a single-motor mechanism, as it offloads all control work; however, since every motor is dealt with independently, it is inadvisable to use this on mechanisms with multiple motors, especially drivetrains.
