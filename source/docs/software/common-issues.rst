@@ -1,6 +1,8 @@
 Common Issues
 =============
 
+.. warning:: Be careful what code you take as a reference from this page! Some of it is intentionally buggy to demonstrate potential easy-to-make errors.
+
 Exceptions
 ----------
 
@@ -75,9 +77,17 @@ Some common types of exceptions include:
      motor.setRunMode(DcMotor.RunMode.RUN_TO_POSITION);
 
      // And this statement won't be reached.
-     // Make sure to call this method before
-     // calling setRunMode().
      motor.setTargetPosition(1120);
+
+  - It is fixed by simply switching the order of the statements; setting target position first, then changing the ``RunMode`` to :ref:`RUN_TO_POSITION <run_to_position>`:
+
+  .. code:: java
+
+     // Setting the target position first
+     motor.setTargetPosition(1120);
+
+     // Then switching the RunMode
+     motor.setRunMode(DcMotor.RunMode.RUN_TO_POSITION);
 
 - **ArithmeticException**
 
@@ -105,7 +115,7 @@ Some common types of exceptions include:
 
   - It means that the SDK requested the OpMode to stop, and it's considered part of normal operation. An interrupt means that the current thread has been requested to end, so don't panic when you see a spam of those in :ref:`logcat <logcat>`!
 
-  - If you call a method that possibly throws an InterruptedException (such as ``Thread.sleep()``) it should be handled like this (with the try catch syntax mentioned before):
+  - If you call a method that possibly throws an InterruptedException (such as ``Thread.sleep()``) it should be handled like this, with the try catch syntax mentioned before:
 
     .. code:: java
 
@@ -125,12 +135,9 @@ How the SDK handles exceptions
 
 The FTC SDK performs an "emergency stop" routine when an exception is thrown and it's not handled properly (except for InterruptedExceptions and some other internal special cases, since these simply cause the OpMode to be ended), this routine consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
 
-This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages from the Driver Station or the Robot Controller apps alone isn't very helpful since they're very short, but logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode. For further information check the :ref:`logcat section <logcat>` in the "Using Android Studio" page.
+This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages from the Driver Station or the Robot Controller apps alone isn't very helpful since they're very short, but logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode. For further information check the :ref:`logcat section <logcat>` in the :doc:`Using Android Studio <using-android-studio>` page.
 
-Reading exception messages and stacktraces
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. stuck in start, loop, stop:
+.. stuck in start loop stop:
 
 Stuck in start, loop, stop...
 -----------------------------
@@ -157,9 +164,9 @@ LinearOpModes are less strict since their single ``runOpMode()`` method can flow
 
 This code isn't cooperative to stop requests, since the ``while`` loop doesn't have an exit condition to cooperate with the OpMode stopping, therefore, this code will cause a "stuck in stop" error once it's stopped in the Driver Station.
 
-To cooperate with the stopping of the OpMode, a ``opModeIsActive()`` or ``!isStopRequested()`` condition is required to be added to all the blocking loops executed in the ``runOpMode()`` method. Consult the :ref:`"Using the FTC SDK" <linearopmode methods>` page for more information about these methods.
+To cooperate with the stopping of the OpMode, an ``opModeIsActive()`` or ``!isStopRequested()`` condition is required to be added to all the blocking loops executed in the ``runOpMode()`` method. Consult the :ref:`"Using the FTC SDK" <linearopmode methods>` page for more information about these methods.
 
-A example for a cooperative LinearOpMode would be as follows:
+An example for a cooperative LinearOpMode would be as follows:
 
 .. code:: java
 
