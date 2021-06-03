@@ -48,7 +48,7 @@ Teams using SAR3 slides will generally need to buy low profile M3 jam nuts from 
 .. figure:: images/drawer-slides/misumi-slides-inserts.png
    :alt: A 3 stage lift using SAR2 slides and a 2 stage lift using SAR3 slides
 
-   Left: cross section of a 3 stage lift using 3D printed inserts (blue) and SAR2 slides; right: cross section of a 2 stage lift using a 3D printed insert and SAR3 slides
+   Left: cross section of a 3 stage lift using 3D printed inserts (blue) and SAR2 slides; right: cross section of a 2 stage lift using a 3D printed insert and SAR3 slides. The left approach is also used for Long Robotics slides (discussed below).
 
 Rail length Options:
 
