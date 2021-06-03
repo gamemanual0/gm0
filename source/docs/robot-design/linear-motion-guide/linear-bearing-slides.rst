@@ -37,6 +37,7 @@ Disadvantages
 
 .. figure:: images/linear-bearing-slides/8813-slides.png
    :alt: 8813 The Winter Soldiers' Rover Ruckus robot with lift extended
+   :width: 20em
 
    8813 The Winter Soldiers, Rover Ruckus, MGN12 slides connected with custom box tubes
 
