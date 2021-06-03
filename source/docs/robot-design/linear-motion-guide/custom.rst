@@ -9,14 +9,7 @@ When built correctly, an elevator of this type can withstand hundreds of pounds 
 
 Custom extension systems also require tons of work in CAD, hours upon hours of manufacturing time, and may need multiple iterations before they work correctly. Due to their complexity and how challenging they are to design, less experienced teams may encounter significant challenges.
 
-Additionally some teams will opt to use custom carbon fiber rod based slides. These slides are primarily designed to withstand loads perpendicular to the direction of the slide, so they are a light strong option for slides that need to extend far and quickly.
-
 .. note:: Lightweight drawer slides (MiSUMI aluminum and Long Robotics Slides) can offer similar performance at a fraction of the complexity.
-
-.. figure:: images/custom/5975-carbon-fiber.png
-   :alt: 5975's Relic Recovery bot with carbon fiber relic slide extended
-
-   5975 Cybots, Relic Recovery, custom carbon fiber and linear bearing slide
 
 .. figure:: images/custom/7236-box-tube.png
    :alt: 7236's Rover Ruckus bot with custom box tube elevator

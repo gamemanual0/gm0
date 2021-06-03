@@ -62,6 +62,11 @@ Many teams use round linear bearings with inexpensive aluminum and carbon fiber 
 
    8417 'Lectric Legends, Rover Ruckus, round linear bearings and carbon fiber tubes with 3D printed mounts
 
+.. figure:: images/linear-bearing-slides/5975-carbon-fiber.png
+   :alt: 5975 Cybots Relic Recovery robot with relic arm extended
+
+   5975 Cybots, Relic Recovery, round linear bearings and carbon fiber tubes with 3D printed mounts
+
 .. figure:: images/linear-bearing-slides/11115-slides.png
    :alt: 11115 Gluten Free Skystone linear slide arm
 
