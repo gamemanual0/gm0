@@ -40,7 +40,7 @@ Disadvantages
 
    8813 The Winter Soldiers, Rover Ruckus, MGN12 slides connected with custom box tubes
 
-.. figure:: images/extrusion-slides/8221-slides.png
+.. figure:: images/linear-bearing-slides/8221-slides.png
    :alt: 8221 Cubix's Res-Q robot with deposit extended
 
    8221 Cubix, Res-Q, MGN slides connected with 3D printed parts
@@ -60,11 +60,6 @@ Many teams use round linear bearings with inexpensive aluminum and carbon fiber 
    :alt: 8417 'Lectric Legends' Rover Ruckus robot with slides extended
 
    8417 'Lectric Legends, Rover Ruckus, round linear bearings and carbon fiber tubes with 3D printed mounts
-
-.. figure:: images/linear-bearing-slides/5975-carbon-fiber.png
-   :alt: 5975 Cybots Relic Recovery robot with relic arm extended
-
-   5975 Cybots, Relic Recovery, round linear bearings and carbon fiber tubes with 3D printed mounts
 
 .. figure:: images/linear-bearing-slides/11115-slides.png
    :alt: 11115 Gluten Free Skystone linear slide arm
