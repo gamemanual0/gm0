@@ -23,7 +23,7 @@ Some common types of exceptions include:
         //
         // The value of the "hardwareMap" variable is null at this point, due to
         // the way the SDK is limited to define the value of this variable, its
-        // value is defined right before the init (or runOpMode() in LinearOpModes)
+        // value is defined right before the init() (or runOpMode() in LinearOpModes)
         // method is called.
         Servo clawServo = hardwareMap.get(Servo.class, "claw");
 
@@ -79,7 +79,7 @@ Some common types of exceptions include:
      // And this statement won't be reached.
      motor.setTargetPosition(1120);
 
-  - It is fixed by simply switching the order of the statements; setting target position first, then changing the ``RunMode`` to :ref:`RUN_TO_POSITION <run_to_position>`:
+  - It is fixed by simply switching the order of the statements; setting target position first, then changing the ``RunMode``:
 
   .. code:: java
 
@@ -91,7 +91,7 @@ Some common types of exceptions include:
 
 - **ArithmeticException**
 
-  - Occurs when performing any illegal arithmethic operations such as dividing by zero:
+  - Occurs when performing any illegal arithmetic operations such as dividing by zero:
 
   .. code:: java
 
@@ -128,7 +128,7 @@ Some common types of exceptions include:
           Thread.currentThread().interrupt();
        }
 
-  - Note that LinearOpMode already contains a shorthand `sleep() <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java#L96>`_ method that already does this under the hood. (And you shouldn't be using sleeps in OpMode since they're more strictly controlled. Read next sections for further information)
+  - Note that LinearOpMode already contains a shorthand `sleep() <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java#L96>`_ method that does this under the hood. (And you shouldn't be using sleeps in OpMode since they're more strictly controlled. Read next sections for further information)
 
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -142,13 +142,34 @@ This behavior can be a big problem during competition matches, so it's generally
 Stuck in start, loop, stop...
 -----------------------------
 
-OpModes are *strictly controlled programs*, in the sense that the SDK requires them to flow in a certain way with the methods ``init()``, ``loop()``, etc. If you take more than a specific time (`5 seconds, or 900 milliseconds in stop commands <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_) executing an action in any of these methods, the SDK will perform the "emergency stop" routine explained before, with the "stuck in ``action``" error message. If you need to run any sort of lenghty action in your OpMode, another option would be using a LinearOpMode instead.
-
-LinearOpModes are less strict since their single ``runOpMode()`` method can flow more freely, but they still need to be cooperative to stop requests. Take the following code as an example
+OpModes are *strictly controlled programs*, in the sense that the SDK requires them to flow in a certain way with the methods ``init()``, ``loop()``, etc. If you take more than a specific time (`5 seconds, or 900 milliseconds in stop commands <https://github.com/OpenFTC/Extracted-RC/blob/f47d6f15fa1b59faaf509a522e0ec04f223ec125/RobotCore/src/main/java/com/qualcomm/robotcore/eventloop/opmode/OpMode.java#L189>`_) executing an action in any of these methods, the SDK will perform the "emergency stop" routine explained before, with the "stuck in ``action``" error message.
 
 .. code:: java
 
-    public class StuckyOpMode extends LinearOpMode {
+   public class StuckyOpMode extends OpMode {
+
+      // ...
+
+      @Override
+      public void loop() {
+          // Don't do this in a normal iterative OpMode!
+          // This will cause a "stuck in stop" error after
+          // 5 seconds, since iterative OpModes shouldn't
+          // be blocked by loops or any lengthy operation.
+          while(true) {
+            // ...
+          }
+      }
+
+   }
+
+If you need to run any sort of lenghty action in your OpMode, another option would be using a LinearOpMode instead.
+
+LinearOpModes are less strict since their single ``runOpMode()`` method can flow more freely, but they still need to be cooperative to stop requests. Take the following code as an example:
+
+.. code:: java
+
+    public class StuckyLinearOpMode extends LinearOpMode {
 
         @Override
         public void runOpMode() {
@@ -170,21 +191,21 @@ An example for a cooperative LinearOpMode would be as follows:
 
 .. code:: java
 
-   public class CooperativeOpMode extends LinearOpMode {
+   public class CooperativeLinearOpMode extends LinearOpMode {
 
       @Override
       public void runOpMode() {
-          // Wait for the the driver to press PLAY on the DS
-          waitForStart();
-
-          while(someCondition && opModeIsActive()) {
-              // Do something while the "someCondition" is true
-              // and the OpMode is running (started and not stopped).
-          }
-
-          while(someOtherCondition && !isStopRequested()) {
+          while(someCondition && !isStopRequested()) {
               // Do something while the "someOtherCondition"
               // is true and the OpMode is not stopped.
+          }
+
+          // Wait for the driver to press PLAY on the DS
+          waitForStart();
+
+          while(someOtherCondition && opModeIsActive()) {
+              // Do something while the "someCondition" is true
+              // and the OpMode is running (started and not stopped).
           }
       }
 
@@ -194,4 +215,4 @@ An example for a cooperative LinearOpMode would be as follows:
 Hardware-related issues
 -----------------------
 
-Hardware is another big source of issues that are noticed from software.
+Hardware is another big source of issues that are manifested in software.
