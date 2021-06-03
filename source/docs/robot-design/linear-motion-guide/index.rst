@@ -10,8 +10,9 @@ Access of > 18” is necessary for nearly all games; >24” is preferred. In som
 .. toctree::
    :maxdepth: 1
 
-   extrusion-slides
    drawer-slides
+   extrusion-slides
+   linear-bearing-slides
    custom
    lead-screws
    rack-and-pinion
