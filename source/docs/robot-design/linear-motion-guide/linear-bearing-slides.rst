@@ -18,7 +18,7 @@ It is **recommended that teams only use MGN7, MGN9, and MGN12 slides.** A pair o
 
 If ordered directly through industrial supply centers such as HIWIN, these slides can be expensive. For hobbyists, however, they are sold at more reasonable prices through sellers on Amazon and eBay, although these sellers may have questionable quality control. You can find more information with a Google search of "improving cheap MGN slides"
 
-.. image:: images/linear-bearing-slides/mgn-slides.jpg
+.. image:: images/linear-bearing-slides/mgn-slides.png
    :alt: All different sizes of MGN slides
 
 Advantages
