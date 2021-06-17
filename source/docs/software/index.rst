@@ -10,6 +10,7 @@ This section covers the basics of software for FTC.
    options-for-programming
    using-android-studio
    using-the-sdk
+   debugging
    mecanum-drive
    control-loops
    finite-state-machines
