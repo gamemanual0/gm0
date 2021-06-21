@@ -32,7 +32,7 @@ Common Filament Types
 ---------------------
 
 PLA (Polylactic Acid)
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to stock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
 
