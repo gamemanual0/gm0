@@ -29,7 +29,7 @@ If using encoders, you need to connect them to the :term:`REV hub <Expansion Hub
 
 goBILDA motors use JST-XH 4-pin encoder port (**note the difference: XH vs PH**), so to connect them, you need a JST-PH to JST-XH cable, available from AndyMark or goBILDA.
 
-AndyMark also use JST-XH encoder port; however, an additional problem is that encoders of these motors require 5v power, whereas encoder port of :term:`REV hub <Expansion Hub>` only provides 3.3v. Thus, it is recommended that you connect them using level shifters, available from REV Robotics. For details please check the `REV Expansion Hub Guide <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
+AndyMark also use JST-XH encoder port; however, an additional problem is that encoders of these motors require 5v power, whereas the encoder port of :term:`REV hub <Expansion Hub>` only provides 3.3v. Thus, it is recommended that you connect them using level shifters, available from REV Robotics. For details please check the `REV Expansion Hub Guide <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
 
 Mounting Motors
 ---------------

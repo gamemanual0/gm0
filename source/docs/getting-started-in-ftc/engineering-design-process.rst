@@ -29,7 +29,7 @@ Components of the Engineering Design Process
 In general, the design process contains these steps; however, every team will modify the process to their needs and limitations.
 
 - Define the problem: What are you trying to solve? What is the timeline?
-- Specify requirements: What are necessities for your proposed solution?
+- Specify requirements: What are the necessities for your proposed solution?
 - Brainstorm/CAD Design: Draw or sketch a prototype on paper or in CAD.
 - Prototype/Experiment: Put a first design together using physical materials.
 - Test: Ensure you thoroughly test every part of your prototype to detect. flaws.
