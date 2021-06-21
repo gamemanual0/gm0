@@ -65,7 +65,7 @@ Intakes have two major advantages over claws.
 1. Intakes can control multiple game elements at a time.
 2. Intakes are indiscriminate at picking up objects, making them much more efficient.
 
-Claws can only pick up one object at a time, and the driver needs to aim the claw at that specific object to grab it. With an intake, the driver does not need to focus on one game element - instead; intakes will just pick up anything in its path, if designed properly. Claws are also prone to breakage, and thus suffer to defensive robots. They are also generally more fragile than intakes. Therefore, active intakes are as a result much more efficient than claws. Nearly every competitive robot from past years have used active intakes to great effect, so there is plenty of precedent to follow.
+Claws can only pick up one object at a time, and the driver needs to aim the claw at that specific object to grab it. With an intake, the driver does not need to focus on one game element - instead; intakes will just pick up anything in its path, if designed properly. Claws are also prone to breakage, and thus suffer to defensive robots. They are also generally more fragile than intakes. Therefore, active intakes are as a result much more efficient than claws. Nearly every competitive robot from past years has used active intakes to great effect, so there is plenty of precedent to follow.
 
 Spur Gear Gearboxes → Planetary Gearboxes
 -----------------------------------------

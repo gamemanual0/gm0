@@ -11,16 +11,16 @@ Condensed vs Long
 
 A trap many teams fall into is that a longer notebook is a better notebook, especially if it's actually quality writing. Unfortunately, that is not necessarily true.
 
-At shorter competitions, judges don't have a lot of team to peruse your notebooks. They will likely take a cursory scan at every page and take a more detailed look at certain pages. Thus, even if you do write a great but long notebook, they might miss the highlights and rank you lower than you should have. The solution to this is to create a condensed notebook.
+At shorter competitions, judges don't have a lot of time to read your notebooks. They will likely take a cursory scan at every page and take a more detailed look at certain pages. Thus, even if you do write a great but long notebook, they might miss the highlights and rank you lower than you should have. The solution to this is to create a condensed notebook.
 
 This is where you make a purposeful effort to get rid of redundancies and make sure everything written in the notebook serves the purpose of being read and getting things checked off of awards.
 
-So if you know your state competitions are going to be more than a couple days write a long, detailed filled notebook. But if it is only a day long, write with every section having a purpose.
+So if you know your state competitions are going to be more than a couple of days, write a long, detailed filled notebook. But if it is only a day long, write with every section having a purpose.
 
 Handwritten vs Typed
 ^^^^^^^^^^^^^^^^^^^^
 
-This one is a team decision. Some teams swear judges prefer handwritten notebooks, but there is no proof for that. But if you're a small team or you would prefer to write, do that. Be sure that the handwriting is consistent and legible! Typed notebooks are a lot easier to organize, and judges will definitely be able to read it.
+This one is a team decision. Some teams swear judges prefer handwritten notebooks, but there is no proof for that. But if you're a small team or you would prefer to write, do that. Be sure that the handwriting is consistent and legible! Typed notebooks are a lot easier to organize, and judges will definitely be able to read them.
 
 Serious vs Charming
 ^^^^^^^^^^^^^^^^^^^

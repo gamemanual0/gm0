@@ -31,8 +31,8 @@ Disadvantages of 3D Printing
 Common Filament Types
 ---------------------
 
-PLA (Polyactic Acid)
-^^^^^^^^^^^^^^^^^^^^
+PLA (Polylactic Acid)
+^^^^^^^^^^^^^^^^^^^^^
 
 PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to stock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
 
@@ -117,7 +117,7 @@ Perhaps the most important consideration is stress vectors. 3D printed parts are
 
 .. tip:: It might seem counterintuitive to split up a part into multiple parts to increase strength, but there is a logic behind it.
 
-The part could have been easily printed as a single part, but it would be fairly weak when stresses are exerted in the upward direction. Splitting the part and creating new flat surfaces to print on will strengthen each axis. *If one small part failed, the robot might still be able to somewhat function.* This would be preferable to the entire piece failing at once. In this example the side pieces were printed as separate parts on a complementary axis to strengthen the assembly.
+The part could have been easily printed as a single part, but it would be fairly weak when stresses are exerted in the upward direction. Splitting the part and creating new flat surfaces to print on will strengthen each axis. *If one small part failed, the robot might still be able to somewhat function.* This would be preferable to the entire piece failing at once. In this example, the side pieces were printed as separate parts on a complementary axis to strengthen the assembly.
 
 .. image:: images/3d-printing/printing-multipart.jpg
    :alt: A multipart assembly 3D printing

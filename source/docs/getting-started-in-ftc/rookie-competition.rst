@@ -34,7 +34,7 @@ This gives some obvious advantages compared to a team with lesser practice.
 #. The robot is proven to be reliable enough to survive hours of operation.
 #. The immense data that teams gather from test runs are used to optimize every element of the robot.
 
-Driver practice not only familiarizes the driver(s) with the robot and serves as a test of robot reliability, it also simulates in-game conditions. **Learning to push the limits of your robot should be done in practice, not at competition.** This way, drivers will become more comfortable driving under stress and pressure. Teams with intensive driver practice will purposely make things more difficult (such as placing a disabled robot in the middle of the field or unplugging a drivetrain motor).
+Driver practice not only familiarizes the driver(s) with the robot and serves as a test of robot reliability, it also simulates in-game conditions. **Learning to push the limits of your robot should be done during practice, not at a competition.** This way, drivers will become more comfortable driving under stress and pressure. Teams with intensive driver practice will purposely make things more difficult (such as placing a disabled robot in the middle of the field or unplugging a drivetrain motor).
 
 While this may seem extreme, it is really just a form of preparedness. If your driver doesn't know how to react, then you need more drive practice.
 
@@ -47,7 +47,7 @@ Similar to drive practice, this is something that many inexperienced teams ignor
 
 For example, drivers should know exactly where the robot needs to be positioned after the autonomous to tele-op switch. Practicing this switch will save a couple of seconds when drivers have to think “what do I do now?” In very competitive matches, these few seconds may be able to gain your team an extra cycle. Knowing when to transition from a tele-op to endgame objective is equally important (hint: perfect one first) and will save valuable time. Strategy should **always be used to maximize points** - whether this is a positioning strategy to access the game elements, or a defensive strategy to hinder the other alliance from scoring.
 
-.. tip:: In most seasons, denying the other alliance 10 points is the same value as scoring 10 points in every match; however, in the Ultimate Goal season there is no advantage to denying the other alliance 10 points, as ranking is based off of the number points your alliance scores as opposed to how many wins you have. However, denying the other alliance points is still a powerful strategy in elimination matches.
+.. tip:: In most seasons, denying the other alliance 10 points is the same value as scoring 10 points in every match; however, in the Ultimate Goal season there is no advantage to denying the other alliance 10 points, as ranking is based on the number of points your alliance scores as opposed to how many wins you have. However, denying the other alliance points is still a powerful strategy in elimination matches.
 
 **However, it is not advisable for rookie teams to play defense** due to the specific rules surrounding this strategy. If a team wishes to execute a defensive strategy, be sure to read all the rules as defense can easily incur penalties/cards if done improperly.
 
