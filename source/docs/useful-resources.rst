@@ -1,16 +1,22 @@
-.. include:: <isonum.txt>
+.. raw:: html
+
+    <style> .highlight {color:red} </style>
+
+.. role:: highlight
 
 Useful Resources
 ================
 
-Here is a page dedicated to useful resources around the interwebs. Enjoy! **The links with an asterisk are resources that are especially pertinent or helpful. For further reading, we highly suggest you check out those links.**
+Here is a page dedicated to useful resources around the interwebs. Enjoy!
+
+.. note:: The links with an asterisk (:highlight:`*`) are resources that are especially pertinent or helpful. For further reading, we highly suggest you check out those links.
 
 General Resources
 -----------------
 
 `FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC blog; important updates are typically posted here.
 
-`FTC Discord <https://discord.com/invite/first-tech-challenge>`_ --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
+`FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
 `FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_ --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
 
@@ -101,8 +107,8 @@ Electronics
 previous stuff:
 
 
-Official *FIRST*\ |reg| Resources
----------------------------------
+Official FIRST Resources
+------------------------
 
 - `Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_
 - `Team Management Resources (Budget, Engineering Notebook, etc.) <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_
