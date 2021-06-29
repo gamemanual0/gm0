@@ -20,9 +20,16 @@ General Resources
 
 `FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_ --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
 
+`FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
+
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value[]=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_ --- Where to find the information for the current season, including the Game Manuals.
+
+Team Management
+---------------
+
+`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- FIRST's FTC team management resources, covering budget, engineering notebook, etc.
 
 Strategy
 --------
@@ -41,7 +48,6 @@ Part Libraries
 
 `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A multi-vendor parts library specifically for Onshape.
 
-
 `REV Robotics Official CAD Library <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_ --- REV's official CAD library for its FTC parts.
 
 `ServoCity Official CAD Library <https://www.servocity.com/step-files>`_ --- ServoCity's entire STEP file catalog. This includes Actobotics parts.
@@ -51,12 +57,23 @@ Generators
 
 `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ --- A HTD3 and HTD5 pulley generator, with many options. This allows you to make custom pulleys which you can 3D print. Made by Henopied from FTC 18255.
 
+Rendering
+^^^^^^^^^
+
+`Blender4FTC <https://ryanhcode.gitbook.io/blender4ftc/>`_ --- A Blender addon and material library designed to make CAD rendering simple and easy, while being fully customizable for advanced users.
+
+`FTC Rendering in Fusion 360 <https://renders360.gitbook.io/ftc-rendering-in-fusion-360/>`_ --- A guide to rendering FTC robots in Fusion 360, assuming no experience in Fusion 360.
+
 Mechanical Design and Build
 ---------------------------
+
+`FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST’s official design and build resources, including TETRIX/REV build guides.
 
 `Mechatronics <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_ --- A document about technologies, principles, design, and analysis of complex electro-mechanical systems. It covers topics including fasteners, manufacturing processes, fabrication paradigms, power transmission, mechanisms, design principles, and more.
 
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
+
+`Simbotics FRC Mechanical Design Principles <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_:highlight:`*` --- An overview by FRC 1114, Simbotics, covering mechanical design principles. While the presentation was aimed at FRC, it is highly applicable to FTC as well.
 
 Calculators
 ^^^^^^^^^^^
@@ -84,9 +101,13 @@ Programming
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
 
+`FRC 4613 Software Workshops <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ --- FRC 4613's workshops that are used to teach their new programmers Java and FTC programming. It goes from the very basics of data up to more complex concepts such as Polymorphism and Functional Interfaces.
+
 `Intro to Control Theory <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_ --- A series of blog posts about control theory.
 
 `Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
+
+`REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_ --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
 Libraries
 ^^^^^^^^^
@@ -104,31 +125,25 @@ Electronics
 
 `An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
 
+`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ --- FIRST's guide to wiring FTC robots, including ESD mitigation options.
+
+Team/Event Results
+------------------
+
+`FTC Events <https://ftc-events.firstinspires.org/>`_ --- FIRST's official team and event result database for FTC.
+
+`The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run team and event result database.
+
 previous stuff:
-
-
-Official FIRST Resources
-------------------------
-
-- `Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_
-- `Team Management Resources (Budget, Engineering Notebook, etc.) <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_
-- `FTC Volunteer Resources <https://www.firstinspires.org/resource-library/ftc/volunteer-resources>`_
-- `Mentor Manual <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf>`_
 
 General Team Resources
 ----------------------
 
 - `Simbotics FRC Philosophy and Game Analysis* <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_
-- `FIRST things FIRST <https://www.youtube.com/playlist?list=PLHj0bn3rsCbRs85-1LVazl-hPFYHeYiV9>`_
-- `(Unofficial) FTC Tutorials <http://ftctutorials.com/>`_
-- `The Orange Alliance (TOA) (Competition/Performance Data) <https://theorangealliance.org/>`_
-- `TOA Text (Query TOA Data via text messaging) <https://docs.google.com/document/d/1jnZJtvooSV0mYEuOF1iGqjgWHXIShS4nFgICLt5anjI/edit#>`_
-- `FTC Stats (Team Data and Rankings) <http://www.ftcstats.org>`_
 
 Building Resources - Principles
 -------------------------------
 
-- `Simbotics FRC Mechanical Design Principles* <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_
 - `Simbotics FRC Drivetrain Design (designed for FRC)* <https://www.simbotics.org/wp-content/uploads/2019/12/drivetraindesign.pdf>`_
 
 Building Resources - Applications
@@ -151,14 +166,6 @@ Building Resources - CAD
 
 - `SOLIDWORKS Student Sponsorship for FRC (SolidWorks Download) <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
 - `10650 Hazmat Robotics CAD Tutorials <https://www.youtube.com/watch?v=NsFmFiC0D6g&list=PLQesWhH_pYWJhEFtDG39RZnApo4vaZh7c>`_
-- `Guide to Rendering in CAD <https://drive.google.com/file/d/1t8Ke626MCedOHR4kzaNYtMdG7IC0bhGs/view>`_  - Justin, FTC 9656
-- `GrabCAD Workbench (Git for CAD) <https://grabcad.com/workbench>`_
-
-Coding and Software Resources
------------------------------
-
-- `Java Workshop  <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ - FTC 4613
-- `REV Robotics Expansion Hub Guide  <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
 
 Vendor Resources
 ----------------
