@@ -18,13 +18,13 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
-`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_ --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
+`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*`  --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
 
 `FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value[]=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
-`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_ --- Where to find the information for the current season, including the Game Manuals.
+`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV products from both a hardware and software front. The control system documentation includes an introductory FTC programming tutorial.
 
