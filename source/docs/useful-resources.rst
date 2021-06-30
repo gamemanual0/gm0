@@ -14,42 +14,48 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy!
 General Resources
 -----------------
 
-`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC blog; important updates are typically posted here.
-
 `FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
 `FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*`  --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
+
+`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
+
+`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC blog; important updates are typically posted here.
 
 `FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value[]=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
-`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
-
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
-`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by Spectrum 3847. While these resources are aimed at FTC, many are directly relevant to FTC.
+`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC 3847, Spectrum. While these resources are aimed at FTC, many are directly relevant to FTC.
 
 Team Management
 ---------------
 
-`Running a FIRST Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team 1114, Simbotics, on running a FIRST team. While some details are FRC-specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
+`Running a FIRST Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a FIRST team. While some details are FRC-specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
 
 `Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- FIRST's FTC team management resources, covering budget, engineering notebook, etc.
 
 Strategy
 --------
 
-`Effective FIRST Strategies <https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team 1114, Simbotics, on effective design and competition strategies.
+`Effective FIRST Strategies <https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies.
 
 `Simbotics FRC Philosophy and Game Analysis <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_:highlight:`*` --- A presentation by about strategic and functional robot design in addition to common tasks robots have to do.
 
-`Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC team 148, the Robowranglers, to using weighted objective to decide on a strategy.
+`Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC 148, the Robowranglers, to using weighted objective to decide on a strategy.
 
 CAD
 ---
 
-`SOLIDWORKS Sponsorship <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_ --- A link to the application form for free Solidworks licenses.
+`Autodesk Education Account <https://www.autodesk.com/education/edu-software/overview>`_ --- Autodesk's education account sign up. An education account gives access to both Fusion 360 and Inventor.
+
+`Creo Education License <https://www.ptc.com/en/products/education/free-software/standalone-educator>`_ --- Creo's education license application form.
+
+`Onshape Education Account <https://www.onshape.com/en/education/>`_ --- Onshape's education account creation page.
+
+`SolidWorks Sponsorship <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_ --- A link to the application form for free Solidworks licenses for robotics teams.
 
 Part Libraries
 ^^^^^^^^^^^^^^
@@ -79,6 +85,12 @@ Rendering
 Mechanical Design and Build
 ---------------------------
 
+`Mechatronics <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_:highlight:`*` --- A document about technologies, principles, design, and analysis of complex electro-mechanical systems. It covers topics including fasteners, manufacturing processes, fabrication paradigms, power transmission, mechanisms, design principles, and more.
+
+`Simbotics FRC Mechanical Design Principles <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_:highlight:`*` --- An overview by FRC 1114, Simbotics, covering mechanical design principles. While the presentation was aimed at FRC, it is highly applicable to FTC as well.
+
+`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data when designing mechanisms.
+
 `8644 Brainstormers Tips and Tricks <https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_ --- A playlist of videos comparing different implementations of various mechanisms, gears and chain, and various other FTC robot-related topics.
 
 `9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured>`_ --- A channel containing many useful FTC videos, especially for rookies.
@@ -89,16 +101,14 @@ Mechanical Design and Build
 
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
-`Mechatronics <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_:highlight:`*` --- A document about technologies, principles, design, and analysis of complex electro-mechanical systems. It covers topics including fasteners, manufacturing processes, fabrication paradigms, power transmission, mechanisms, design principles, and more.
-
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
-
-`Simbotics FRC Mechanical Design Principles <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_:highlight:`*` --- An overview by FRC 1114, Simbotics, covering mechanical design principles. While the presentation was aimed at FRC, it is highly applicable to FTC as well.
-
-`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data when designing mechanisms.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
+
+`SDP-SI Timing Belt and Pulley Handbook <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_:highlight:`*` --- A detailed handbook about belts and pulleys. Some of the things mentioned also apply to chain.
+
+`SDP-SI Timing Belt Drive Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_:highlight:`*` --- A one-page guide to designing belt and pulley drive systems.
 
 `Gears Educational Systems Guide to Chain Drive Systems <https://web.archive.org/web/20191020193018/http://gearseds.com/documentation/deb%20holmes/2.5_Chain_drive_systems.pdf>`_ --- A guide to roller chain, featuring some useful equations.
 
@@ -107,10 +117,6 @@ Power Transmission
 `How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual guide to how gears work.
 
 `KHK Introduction to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanicis of gears.
-
-`SDP-SI Timing Belt and Pulley Handbook <https://www.sdp-si.com/PDFS/Technical-Section-Timing.pdf>`_:highlight:`*` --- A detailed handbook about belts and pulleys. Some of the things mentioned also apply to chain.
-
-`SDP-SI Timing Belt Drive Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_:highlight:`*` --- A one-page guide to designing belt and pulley drive systems.
 
 Calculators
 ^^^^^^^^^^^
@@ -132,19 +138,19 @@ Calculators
 Programming
 -----------
 
-`Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_:highlight:`*` --- A book that introduces students to the broader field of control theory.
-
-`FIRST's Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of FIRST's official programming resources, including introductions to each programming tool.
+`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
+
+`REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
+
+`Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
+
+`FIRST's Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of FIRST's official programming resources, including introductions to each programming tool.
 
 `FRC 4613 Software Workshops <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ --- FRC 4613's workshops that are used to teach their new programmers Java and FTC programming. It goes from the very basics of data up to more complex concepts such as Polymorphism and Functional Interfaces.
 
 `Intro to Control Theory <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_ --- A series of blog posts about control theory.
-
-`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
-
-`REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
 Libraries
 ^^^^^^^^^
@@ -160,9 +166,9 @@ Libraries
 Electronics
 -----------
 
-`An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
-
 `Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_:highlight:`*` --- FIRST's guide to wiring FTC robots, including ESD mitigation options.
+
+`An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
 
 Team/Event Results
 ------------------
