@@ -26,7 +26,7 @@ General Resources
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
 
-`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV products from both a hardware and software front. The control system documentation includes an introductory FTC programming tutorial.
+`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
 `Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by Spectrum 3847. While these resources are aimed at FTC, many are directly relevant to FTC.
 
@@ -44,7 +44,7 @@ Strategy
 
 `Simbotics FRC Philosophy and Game Analysis <https://www.simbotics.org/wp-content/uploads/2019/12/robotdesign.pdf>`_:highlight:`*` --- A presentation by about strategic and functional robot design in addition to common tasks robots have to do.
 
-`Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC team 148, the Robowranglers, tousing weighted objective to decide on a strategy.
+`Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC team 148, the Robowranglers, to using weighted objective to decide on a strategy.
 
 CAD
 ---
@@ -74,7 +74,7 @@ Rendering
 
 `Blender4FTC <https://ryanhcode.gitbook.io/blender4ftc/>`_ --- A Blender addon and material library designed to make CAD rendering simple and easy, while being fully customizable for advanced users.
 
-`FTC Rendering in Fusion 360 <https://renders360.gitbook.io/ftc-rendering-in-fusion-360/>`_ --- A guide to rendering FTC robots in Fusion 360, assuming no experience in Fusion 360.
+`FTC Rendering in Fusion 360 <https://renders360.gitbook.io/ftc-rendering-in-fusion-360/>`_ --- A guide to rendering FTC robots in Fusion 360, assuming little experience in Fusion 360.
 
 Mechanical Design and Build
 ---------------------------
@@ -95,7 +95,7 @@ Mechanical Design and Build
 
 `Simbotics FRC Mechanical Design Principles <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_:highlight:`*` --- An overview by FRC 1114, Simbotics, covering mechanical design principles. While the presentation was aimed at FRC, it is highly applicable to FTC as well.
 
-`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data to design robots.
+`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data when designing mechanisms.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ Power Transmission
 
 `Gear Efficiency Comparisons <https://www.meadinfo.org/2008/11/gear-efficiency-spur-helical-bevel-worm.html>`_ --- A comparison between different types of gears (spur, bevel, worm, etc).
 
-`How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual guide to how gears work, assuming little prerequisite knowledge.
+`How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual guide to how gears work.
 
 `KHK Introduction to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanicis of gears.
 
@@ -149,7 +149,7 @@ Programming
 Libraries
 ^^^^^^^^^
 
-`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use OpenCV on an FTC robot! With this library, you can go from a stock SDK to running a sample OpenCV OpMode, with either an internal or external camera, in just a few minutes!
+`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use openCV on an FTC robot. With this library, you can go from a stock SDK to running a sample openCV OpMode, with either an internal or external camera, in just a few minutes!
 
 `FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC Dashboard is a websocket-based React dashboard designed for FTC. It is very useful for debugging, including features such as displaying and graphing telemetry live as well as tuning configuration variables in real-time while opmodes are running.
 
