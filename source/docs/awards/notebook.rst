@@ -133,5 +133,5 @@ Notebook Gallery
 
   - `11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-Gwenh02U-9a>`_
   - `8813 Design Notebook <https://docs.google.com/document/d/1GedNbBgpffHRdZdgFTL2-qsATb4Zrg9NDpWnJrWLZ-M/edit>`_
-  - `9596 Technical Binder <https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_
-  - `9596 Non-Technical Binder <https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_
+  - `9656 Technical Binder <https://docs.google.com/document/d/1vNHSydZbP434VDVAdoqnoWFLOlDnErbDbVGmIFsGc58/edit>`_
+  - `9656 Non-Technical Binder <https://docs.google.com/document/d/1qCutM4_qDffwtt5spxjaUO4TVgqlh0ORxaIAm079_a4/edit>`_
