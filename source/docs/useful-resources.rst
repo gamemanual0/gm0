@@ -9,7 +9,7 @@ Useful Resources
 
 Here is a page dedicated to useful resources around the interwebs. Enjoy!
 
-.. note:: The links with an asterisk (:highlight:`*`) are resources that are especially pertinent or helpful. We highly suggest you check out those links.
+.. note:: The links with an asterisk (:highlight:`*`) are resources that are especially pertinent or helpful. We highly suggest you check out these links.
 
 General Resources
 -----------------
