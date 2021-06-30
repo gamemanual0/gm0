@@ -28,6 +28,8 @@ General Resources
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV products from both a hardware and software front. The control system documentation includes an introductory FTC programming tutorial.
 
+`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by Spectrum 3847. While these resources are aimed at FTC, many are directly relevant to FTC.
+
 Team Management
 ---------------
 
@@ -65,6 +67,8 @@ Generators
 
 `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ --- A HTD3 and HTD5 pulley generator, with many options. This allows you to make custom pulleys which you can 3D print. Made by Henopied from FTC 18255.
 
+`GT2 3mm Pulley Generator <https://cad.onshape.com/documents/a0b589f74b21e8886d697efc/w/55a240a887adfa7bff84d0b2/e/fa7ce89bdce08e7313f9580b>`_ --- A GT2 3mm pitch pulley generator with many options. This allows you to make custom pulleys which you can 3D print.
+
 Rendering
 ^^^^^^^^^
 
@@ -90,6 +94,8 @@ Mechanical Design and Build
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
 
 `Simbotics FRC Mechanical Design Principles <https://www.simbotics.org/wp-content/uploads/2019/12/mechanical.pdf>`_:highlight:`*` --- An overview by FRC 1114, Simbotics, covering mechanical design principles. While the presentation was aimed at FRC, it is highly applicable to FTC as well.
+
+`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data to design robots.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
