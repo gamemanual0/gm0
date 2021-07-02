@@ -46,7 +46,7 @@ goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. 
 Kit of Parts
 ------------
 
-- `2020-2021 Kit Parts <https://www.gobilda.com/master-ftc-kit-6mm-d-shaft-2020-2021-season>`_
+- `2021-2022 Kit Parts <https://www.gobilda.com/master-ftc-kit-8mm-rex-shaft-2021-2022-season/>`_
 
 Advantages
 ----------
