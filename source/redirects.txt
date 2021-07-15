@@ -2,3 +2,4 @@
 "docs/meta/credits.rst" "docs/contributing/contributors.rst"
 "docs/meta/index.rst" "docs/contributing/index.rst"
 "docs/meta/team-interest-form.rst" "docs/contributing/contributors.rst"
+"docs/appendix/useful-resources.rst" "docs/useful-resources.rst"

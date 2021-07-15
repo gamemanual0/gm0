@@ -3,7 +3,7 @@
 JVN Calculator
 ==============
 
-The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC\ |reg| 148, and was initially designed for FRC calculations.
+The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost every application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC\ |reg| 148, and was initially designed for FRC calculations.
 
 It is fairly intuitive and can save a lot of time compared to doing calculations on your own, especially when developing designs like arms, linear slides, and drivetrains. This is as the balance between power/torque and speed is critical to the end design. For example, arms require much more torque than speed, while linear slides need very little torque to maximize speed.
 

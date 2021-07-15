@@ -75,7 +75,7 @@ Lexan
 
 .. note:: Lexan is one of the most expensive materials per square foot, so make sure you have carefully planned out what you are cutting before doing so.
 
-Thin lexan can be bent with a metal brake or sheet bender. It is recommended for teams to use bends instead of connecting with bolts - bending tends to be much stronger than bolting as it means the part stays in one continuous piece. If a sheet bender is out of the question, it is possible to use a heat gun or camping burners to heat up the lexan in order to bend it. This is not recommended as it can cause injury and bubbling if the Lexan is overheated. Alternatively, "cold bending", bending along a straight edge without applying heat can work for thinner sheets.
+Thin Lexan can be bent with a metal brake or sheet bender. It is recommended for teams to use bends instead of connecting with bolts - bending tends to be much stronger than bolting as it means the part stays in one continuous piece. If a sheet bender is out of the question, it is possible to use a heat gun or camping burners to heat up the Lexan in order to bend it. This is not recommended as it can cause injury and bubbling if the Lexan is overheated. Alternatively, "cold bending", bending along a straight edge without applying heat can work for thinner sheets.
 
 ABS
 ^^^
@@ -98,7 +98,7 @@ HDPE
 ^^^^
 
 - HDPE stands for High Density Polyethylene and usually comes in opaque white or black sheets and plates
-- HDPE is a cheaper alternative with low-friction characteristics similar to delrin and flexibility/structure near polycarbonate.
+- HDPE is a cheaper alternative with low-friction characteristics similar to Delrin and flexibility/structure near polycarbonate.
 - HDPE is easily machined by both hand tools and machine tools. However, it will burn in a laser cutter, so **do not laser cut HDPE.**
 
 Polyvinyl chloride (PVC)
@@ -141,7 +141,7 @@ Carbon Fiber
 
 .. danger:: **Machining carbon fiber, like any fibrous substance, is a significant SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is incredibly dangerous. DO NOT MACHINE/CUT carbon fiber unless you know what you are doing. When you do, make sure to either use machinery that is designed to cut carbon fiber, or cut in a well ventilated area with sufficient respiratory protection and running water over the carbon fiber.**
 
-- Carbon fiber is one of the strongest materials for FTC use. For most teams it is totally overkill, but it can be used in some specific applications. * Carbon fiber rods are used in custom linear slide extensions or multi-axis arms.
+- Carbon fiber is one of the strongest materials for FTC use. For most teams, it is totally overkill, but it can be used in some specific applications. * Carbon fiber rods are used in custom linear slide extensions or multi-axis arms.
 - It is probably the most expensive material to purchase.
 
 Cardboard
