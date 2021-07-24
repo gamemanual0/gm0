@@ -24,7 +24,7 @@ General Resources
 
 `FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
 
-`FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value[]=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
+`FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
@@ -122,8 +122,6 @@ Calculators
 ^^^^^^^^^^^
 
 `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts an emphasis on time to target. Input a target motor, number of motors, gearing, and a wide range of elements about the drive train and electrical system. The output shows estimated peak speed, estimated sprint time, minimum system voltage, and maximum voltage while the drive train is at full speed.
-
-`Jaci's Motor Selection Tool <https://imjac.in/ta/motors>`_ --- A tool to see how different motor configurations will perform over time.
 
 `JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator based on JVN's calculator, notably adding a hooded flywheel design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `VEX's motor testing <https://motors.vex.com/>`_.
 

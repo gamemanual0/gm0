@@ -58,6 +58,6 @@ Vendor List
   - VEXPro sells parts angled toward FRC\ |reg| use, but many of their parts, such as :term:`Thunderhex`, can be made compatible with FTC robots.
   - VEX sells the 393 Motor, as well as the Motor Controller 29 in order for it to adapt to the Expansion Hub.
   - VEX offers the VersaPlanetary motor which allows teams to customize a specific gear ratio for their needs.
-- `West Coast Products <https://www.wcproducts.com/>`_
+- `West Coast Products <https://wcproducts.com/>`_
 
   - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC use. However, much like VEXPro, many of their parts can be used in FTC, especially in custom robots. In fact, VEXPro and West Coast Products sell many of the same parts.

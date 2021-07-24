@@ -1,7 +1,7 @@
 Choosing a Servo
 ================
 
-For many applications, you can just use one of the three common :term:`servos <Servo>` in FTC, `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ or `goBILDA Dual Mode Servo (Torque) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_, or `goBILDA Dual Mode Servo (Speed) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ However, sometimes these :term:`servos <Servo>` are not enough. Here are some important :term:`servo <Servo>` features to consider when selecting a :term:`servo <Servo>`.
+For many applications, you can just use one of the three common :term:`servos <Servo>` in FTC, `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_ or `goBILDA Dual Mode Servo (Torque) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_, or `goBILDA Dual Mode Servo (Speed) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_ However, sometimes these :term:`servos <Servo>` are not enough. Here are some important :term:`servo <Servo>` features to consider when selecting a :term:`servo <Servo>`.
 
 Servo Type: Regular or Continuous
 ---------------------------------
@@ -64,7 +64,7 @@ Cost
 
 By far the best bang for your buck :term:`servos <Servo>` out there are the Feetech dual mode :term:`servos <Servo>`, which is a programmable type of :term:`servo <Servo>`. This includes both the **REV SRS** (Smart Robot Servo) and **goBILDA Dual Mode servos**.
 
-The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their brass :term:`gears <Gear>`. Coupled with high output power, this meant that stripping :term:`gears <Gear>` with any shock load was commonplace. The new goBILDA Dual Mode servos (25-2) and (25-3) have steel :term:`gears <Gear>`, but are new and aren’t as competition tested as other servos.
+The biggest downside to the REV SRS and the old goBILDA servos (25-1) are their brass :term:`gears <Gear>`. Coupled with high output power, this meant that stripping :term:`gears <Gear>` with any shock load was commonplace. The new goBILDA Dual Mode servos (25-2-torque) and (25-3) have steel :term:`gears <Gear>`, but are new and aren’t as competition tested as other servos.
 
 The next big name in FTC :term:`Servos <Servo>` is Hitec, who is a huge name in hobby :term:`servos <Servo>` for decades and are very well trusted. Their low end :term:`servos <Servo>` are inexpensive but easily broken.
 
@@ -81,7 +81,7 @@ Best Value
    - HiTec 488HB
    - Futaba servos
 - Medium Priced (~$25)
-   - `goBILDA Dual Mode Servo (Torque) (25-2) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_
+   - `goBILDA Dual Mode Servo (Torque) (25-2-torque) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_
    - `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
    - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
    - `25kg Coreless Servo <https://longrobotics.com/product/25kg-coreless-servo-ds3225sg/>`_
