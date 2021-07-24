@@ -59,7 +59,7 @@ The displacement (or change in position) of the left sensor is :math:`\Delta x_l
 .. figure:: images/odometry/offsets-and-trackwidth.png
    :alt: The lateral distance, forward offset, and location of the sensors
 
-   `17508 Rising Tau's 2019/20 Skystone Bot <https://www.learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
+   `17508 Rising Tau's 2019/20 Skystone Bot <https://learnroadrunner.com/dead-wheels.html#three-wheel-odometry>`_
 
 Deriving the value of :math:`\varphi` then becomes simple:
 
@@ -174,7 +174,7 @@ We'll treat the way it is solved in this page as a black box, and derive the for
 Resources for Odometry
 ----------------------
 
-There are several great resources out there for odometry. We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. For the math behind Road Runner (which utilizes pose exponentials), you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. An additional resource for Road Runner is `Learn Road Runner <https://www.learnroadrunner.com/>`_ which is a step-by-step procedural guide that explains how to work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
+There are several great resources out there for odometry. We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. For the math behind Road Runner (which utilizes pose exponentials), you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. An additional resource for Road Runner is `Learn Road Runner <https://learnroadrunner.com/>`_ which is a step-by-step procedural guide that explains how to work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
 
 We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ as it goes into great detail about various controls in *FIRST*\ |reg| robotics.
 

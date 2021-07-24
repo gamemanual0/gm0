@@ -3,7 +3,7 @@ Sample Drivetrains
 
 In this section, we compile several sample drivetrains which you can use as a starting point for your own designs. You should also check the :doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix.
 
-`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit/>`_
+`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_
    Basic chassis by goBILDA. Simple and easy to build chassis, providing
    an excellent starting point for robots built from goBILDA kit.
 `Strafer chassis with odometry <https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_
@@ -16,10 +16,6 @@ In this section, we compile several sample drivetrains which you can use as a st
    A universal chassis kit sold by AndyMark. It is available in several
    modifications: 6 wheel, mecanum, tank tread. It is expensive, but using
    provided 3d models as inspiration for your own drvietrain is free.
-`Basebot <http://basebot.co/>`_
-   A customizable open source drivetrain by FTC 10355 Project Peacock.
-   It was designed specifically to be used by other teams as a base
-   of their robots.
 `Wizards.exe 6 wheel drive chassis <https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_
    Another design by FTC 9794 Wizards.exe. Combines custom side panels with
    Actobotics parts (gears, chain sprockets).

@@ -71,8 +71,8 @@ Because of this, if you aren’t careful, Fusion’s file hierarchy can actively
 
 If one is careful to follow good design practices, Fusion is a solid option.
 
-`Creo (formerly known as Pro/E) <https://www.ptc.com/en/academic-program/academic-products/free-software/standalone-educator>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Creo (formerly known as Pro/E) <https://www.ptc.com/en/products/education/free-software/standalone-educator>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A family of CAD/CAM applications developed by PTC (Parametric Technology Corporation). Creo parametric is the main CAD package that includes robust assembly and part modeling similar to Solidworks.
 

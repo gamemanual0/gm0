@@ -97,8 +97,6 @@ An example of this would be that if one had a robot similar to `Gluten Free's Ro
 
 If the drivers press a specific other button, we will stop executing the actions above as a failsafe - in case the robot is breaking somehow and the drivers need to take manual control. All the while, the drivers should still be able to control our drivetrain so we can make adjustments. Now, of course, this is a bit simplified (and probably not entirely what GF did), but it will do for now.
 
-(There's actually a button in `Gluten Free's FTC Simulator <https://xrcsimulator.org>`_ that basically does the actions I listed above for the Angled Slides Bot, and is cancellable)
-
 Before anything is programmed, it may be useful draw out the state diagram for this to get a better understanding of what we the robot should actually be doing. This can also add to a :term:`Control Award` submission.
 
 .. graphviz::
