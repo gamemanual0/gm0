@@ -29,6 +29,26 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 2018-19 Rover Ruckus
 --------------------
 
+8417 'Lectric Legends
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf9939325e4a438df9>`__
+- `Robot Reveal Video <https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__
+- `Behind the bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__
+
+9048 Philobots
+^^^^^^^^^^^^^^
+
+- `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf1857225708295441>`__
+
+9872 (In)Formal Logic
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://myhub.autodesk360.com/ue2814ea3/g/shares/SH56a43QTfd62c1cd968250c04221a0d6400>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`__
+- `Behind the Bot Interview <https://www.youtube.com/watch?v=6PjfbOV496c>`__
+
+
 11115 Gluten Free
 ^^^^^^^^^^^^^^^^^
 
@@ -36,13 +56,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Practice Match Video <https://www.youtube.com/watch?v=NQvhvYJXVMA>`__
 - `World Record Match Video <https://www.youtube.com/watch?v=Nm3ff5JqvzM>`__
 - `Behind the Bot Interview <https://www.youtube.com/watch?v=zun--sNljks>`__
-
-8417 'Lectric Legends
-^^^^^^^^^^^^^^^^^^^^^
-
-- `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf9939325e4a438df9>`__
-- `Robot Reveal Video <https://drive.google.com/file/d/1O44wlNqllfe16ktQYHCRPb-YUxIXzPUp/view>`__
-- `Behind the bot Interview <https://www.youtube.com/watch?v=IW70TEpFtxM>`__
 
 14270 Quantum Robotics
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -52,17 +65,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Practice Match Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__
 - `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__
 
-9872 (In)Formal Logic
-^^^^^^^^^^^^^^^^^^^^^
-
-- `CAD <https://myhub.autodesk360.com/ue2814ea3/g/shares/SH56a43QTfd62c1cd968250c04221a0d6400>`__
-- `Robot Reveal Video <https://www.youtube.com/watch?v=pMI2PXhnlS0>`__
-- `Behind the Bot Interview <https://www.youtube.com/watch?v=6PjfbOV496c>`__
-
-9048 Philobots
-^^^^^^^^^^^^^^
-
-- `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcf1857225708295441>`__
 
 2017-18 Relic Recovery
 ----------------------
@@ -84,11 +86,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Robot Render <https://drive.google.com/file/d/1oCy7M8DCr8fLGUcjR6L4Akm1JUgkqhYt/view?usp=drive_open>`__
 - `Engineering drawing <https://drive.google.com/file/d/1YQMyEWS5sPdL1YOPntXIR0FdsY30-G6H/view?usp=drive_open>`__
 
-9794 Wizards.exe
-^^^^^^^^^^^^^^^^
-
-- `Robot Reveal Video <https://www.youtube.com/watch?v=pJs-R-j0zXg>`__
-
 4137 Islandbots
 ^^^^^^^^^^^^^^^
 
@@ -96,3 +93,8 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `CAD <https://myhub.autodesk360.com/ue2801558/g/shares/SH7f1edQT22b515c761ec425b0f17a8d8573>`__
 - `Robot Reveal Video <https://www.youtube.com/watch?v=acWoCPkWOZs>`__
 - `Match Video <https://www.youtube.com/watch?v=myq3DyHqM0w>`__
+
+9794 Wizards.exe
+^^^^^^^^^^^^^^^^
+
+- `Robot Reveal Video <https://www.youtube.com/watch?v=pJs-R-j0zXg>`__
