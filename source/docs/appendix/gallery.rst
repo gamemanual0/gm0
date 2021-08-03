@@ -3,15 +3,50 @@ Gallery Of Robot Designs
 
 Collection of robot designs from past seasons. Feel free to borrow some design solutions for your robot!
 
+2020-2021 Ultimate Goal
+-----------------------
+
+13648 Jankbot
+^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/ec03c5a1726117b5dd0ef434/v/26fc62a203f44bf75b45a13d/e/863dc892f987c32991536897>`__
+- `Robot Pictures <https://photos.google.com/share/AF1QipORERv83O2EB2hgFqmfkuEavisH8N4cqhkPNFVCDFGqgaVcj6ED77WXLYPi9yIQIQ?key=VUhvZmxIejYwRUU4b3lPaXZTcmZ0emFsa21yNy13>`__
+
+16537 LOGICoyote
+^^^^^^^^^^^^^^^^
+
+- `Engineering Portfolio <https://drive.google.com/file/d/1pJoChbVlvHk76GqQmj4wkOcPWZAHNehL/edit>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=eSGSAS1RTHQ>`__
+
+17077 Adna Robotics
+^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://viewer.autodesk.com/id/dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YTM2MHZpZXdlci90NjM3NjM1NDk0NDAxOTEyMTg3X2Y5OWYzOTk1LTc5OGItNGZlYy04Zjk1LTk1MjNmMTQ5MmJmYS5jb2xsYWJvcmF0aW9u?sheetId=NjgwMGM2NmEtZjg0Mi00MmIxLWFlZjctZWQ3MzI0YzRkN2Iz>`__
+- `Engineering Portfolio <https://docs.google.com/document/d/1Gd3HlolZlD26xz__ngC1cJsoUYtvUFR_MTUYkEW_L1g/edit>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=mSsAVnTCXg0>`__
+
+18253 Beach Bots
+^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/c4258a3b5a1dbcdad41e21f5/w/4f7810069e9b16a173d2bf0a/e/f837c09187d1cca462aaeca2>`_
+- `Robot Explanation Video <https://www.youtube.com/watch?v=fZFT6Cdp58g>`_
+- `Robot Description Flyer <https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_
+
+18275 SubZero
+^^^^^^^^^^^^^
+
+- `CAD <https://gmail455333.autodesk360.com/g/shares/SH56a43QTfd62c1cd968310eba6a86848032>`__
+- `Remote Match Video <https://www.youtube.com/watch?v=4Y9WguSl4DE>`__
+
 2019-20 Skystone
 ----------------
 
 11115 Gluten Free
 ^^^^^^^^^^^^^^^^^
 
-- `CAD <https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`_
-- `Robot Reveal Video <https://www.youtube.com/watch?v=i2g_b54MEFI>`_
-- `Former World Record Match Video <https://www.youtube.com/watch?v=hL4nYgLUCeg>`_
+- `CAD <https://myhub.autodesk360.com/ue2b675b9/g/shares/SH919a0QTf3c32634dcf988c313f186aa49c?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AmAM0YCMAbAA4IAdgC0uEQBNxAFm6cY4vhFydx3IZ2kBmIQO4Lc%2BEAF8QAXSA>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=i2g_b54MEFI>`__
+- `Former World Record Match Video <https://www.youtube.com/watch?v=hL4nYgLUCeg>`__
 
 11503 Viperbots Hyperfang
 ^^^^^^^^^^^^^^^^^^^^^^^^^
