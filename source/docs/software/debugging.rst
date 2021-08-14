@@ -27,6 +27,6 @@ FTC is more than just code. It also includes a physical robot. This may sound ob
 
 Write Simple Code
 -----------------
-When writing code, it can be easy to fall into the trap of targeting complicating code. This is a tactic that takes practice and research to learn, but it starts with a mindset change. Complicated code often looks cool and can be satisfying to program, but simple code is self-documenting. That is, the code communicates what it does. This self-documentation helps maintain code. In a season, you might change code that was written several months ago, and a team might have multiple programmers working on the same codebase.
+When writing code, it can be easy to fall into the` trap of targeting complicating code. This is a tactic that takes practice and research to learn, but it starts with a mindset change. Complicated code often looks cool and can be satisfying to program, but simple code is self-documenting. That is, the code communicates what it does. This self-documentation helps maintain code. In a season, you might change code that was written several months ago, and a team might have multiple programmers working on the same codebase.
 
 Find ways to practice, learn and refine. Practice by actually writing code that does things. Learning can be done though research by using blog posts and conference recordings on YouTube. Refining is done in two ways. First critic yourself, reflect on projects asking yourself both what you did well and what you want to do differently. Also get others to review code, find out how clear it is to them.
