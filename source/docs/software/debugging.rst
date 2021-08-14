@@ -11,7 +11,7 @@ Telemetry
 ---------
 The FTC SDK has telemetry. Telemetry is a way of sending some text from the robot to the driver station. This text can be anything, a line saying you're in a certain part of the program, a sensor readout, or something else.
 
-The most common usage of telemetry is showing sensor values. It is highly reccomended to create a diagnostics or testing program. Inside this program you have telemetry of every single encoder and sensor on your robot. When you aren't sure if a sensor is working, just check this program.
+The most common usage of telemetry is showing sensor values. It is highly recommended to create a diagnostics or testing program. Inside this program you have telemetry of every single encoder and sensor on your robot. When you aren't sure if a sensor is working, just check this program.
 
 Gather information
 ------------------
