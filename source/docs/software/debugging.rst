@@ -13,6 +13,12 @@ The FTC SDK has telemetry. Telemetry is a way of sending some text from the robo
 
 The most common usage of telemetry is showing sensor values. It is highly recommended to create a diagnostics or testing program. Inside this program you have telemetry of every single encoder and sensor on your robot. When you aren't sure if a sensor is working, just check this program.
 
+LogCat And Stack traces
+----------------------
+This tip is also for Android Studio users. `LogCat <https://developer.android.com/studio/debug/am-logcat>`_ is similar to Telemetry, but instead of sending messages from the robot to a driver station, it sends them to Android Studio. LogCat is an expandable menu that you can use to view these messages. LogCat can be used for reading information from the robot controller, but the app outputs so much information, it can be hard to find particular messages.
+
+A more common usage is to read stack traces. Sometimes the robot controller will crash or an error message wil show on the driver station screen. Most of these are caused by exceptions, which are a type of code error. An error will produce a stack trace detailing what happened. The top of the stack trace is the type of exception. The rest of the stack trace is where it happened. Each line of the stack trace will provide a file name, line number and column number, and clicking the line will direct to that exact point in the code. Start at the top and read until you find the source of the exception. LogCat is the easiest way to read the stack traces. Changing the view filter from "verbose" to "error" will only show stack traces, making them easy to find.
+
 Gather information
 ------------------
 All of the above mentioned tools are used for one primary purpose, gathering information. Gathering information is a useful tool because of what causes bugs. Most bugs are made because our minds aren't capable of fully planning out complex systems. We either fail to miss how something logically or mathematically works, or we can't predict how objects will physically work.
