@@ -47,7 +47,7 @@ Disadvantages
 Mecanum Wheels Miniguide
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-One of the most important features of a mecanum wheel is the mechanism that allows the roller to spin---either :term:`bushings <Bushing>` or :term:`bearings <Ball Bearing>`. Mecanums which use bearings strafe better than those which use bushings, as the rollers can spin with less friction.
+One of the most important features of a mecanum wheel is the mechanism that allows the roller to spin---either :term:`bushings <Bushing>` or :term:`ball bearings <Ball Bearing>`. Mecanums which use ball bearings strafe better than those which use bushings, as the rollers can spin with less friction.
 
 .. note:: In the past, some teams have invested in 6 inch diameter mecanum wheels. These are generally much more expensive and generally do not provide significant performance benefits. We highly recommend sticking with wheels that are between 3 and 4 inches in diameter.
 
@@ -56,17 +56,17 @@ Recommended
 
 These wheels are the gold standard of mecanum wheels, if you are buying new mecanum wheels there is very little reason to buy any mecanum wheels not from this section.
 
-- `goBILDA Mecanum Wheels  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($105 with team discount): These wheels are excellent in all respects. They are 96 mm in diameter and are the thinnest wheel on this list at 38 mm wide. They strafe excellently because of the use of bearings. The rollers have a durometer of 70A, which gives them a solid amount of traction. They also have excellent mounting options, as they are compatible with the goBILDA pattern. This allows for the use of many shaft types, including 8/12 mm REX, 6 mm and 1/4" D-shaft, and 5 mm hex. Hubs can also be recessed into the wheel to save space.
-- `REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ ($93.50 with team discount): These wheels are 75 mm in diameter and 40.8 mm wide. They strafe excellently because of the use of bearings. These can easily be mounted to TETRIX and TETRIX-compatible hubs, such as the REV Universal Hex Adapter (included) and AndyMark nubs. However, either slight modification or an adapter is likely going to be required for other hub types.
+- `goBILDA Mecanum Wheels  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($105 with team discount): These wheels are excellent in all respects. They are 96 mm in diameter and are the thinnest wheel on this list at 38 mm wide. They strafe excellently because of the use of ball bearings. The rollers have a durometer of 70A, which gives them a solid amount of traction. They also have excellent mounting options, as they are compatible with the goBILDA pattern. This allows for the use of many shaft types, including 8/12 mm REX, 6 mm and 1/4" D-shaft, and 5 mm hex. Hubs can also be recessed into the wheel to save space.
+- `REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ ($93.50 with team discount): These wheels are 75 mm in diameter and 40.8 mm wide. They strafe excellently because of the use of ball bearings. These can easily be mounted to TETRIX and TETRIX-compatible hubs, such as the REV Universal Hex Adapter (included) and AndyMark nubs. However, either slight modification or an adapter is likely going to be required for other hub types.
 
 Viable
 ~~~~~~
 
 These mecanums have acceptable performance but there is very little reason to buy them at this point, as they have been superseded by better ones. If you already own them, they are a viable option, but consider looking at some of the mecanums from the `Recommended`_ section.
 
-- `Nexus Bearing Mecanum Wheels <https://www.robotshop.com/en/100mm-mecanum-wheel-set.html>`_ ($109.49): These wheels are 100 mm in diameter and 59 mm wide. They strafe excellently because of the use of bearings. However, they are more expensive, take up more space, have less traction, and are harder to mount to than the recommended wheels. goBILDA used to sell mecanums that were very similar to this, but were black with yellow rollers and had better mounting options.
+- `Nexus Ball Bearing Mecanum Wheels <https://www.robotshop.com/en/100mm-mecanum-wheel-set.html>`_ ($109.49): These wheels are 100 mm in diameter and 59 mm wide. They strafe excellently because of the use of ball bearings. However, they are more expensive, take up more space, have less traction, and are harder to mount to than the recommended wheels. goBILDA used to sell mecanums that were very similar to this, but were black with yellow rollers and had better mounting options.
 - `Andymark Heavy Duty Mecanum Wheels <https://www.andymark.com/products/4-in-hd-mecanum-wheel-set-options>`_ ($225): These are easily the most expensive mecanums on the list. These wheels are 4" in diameter and 1.65" wide. These are bushing based mecanums, so while they strafe decently they still perform worse than bearing based ones. They have a good amount of traction, more than the Nexus bearing or bushing wheels.
-- `Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-mecanum-wheel-set.html>`_ ($72): This is the Nexus Bearing Mecanum Wheel with bushings instead of bearings. There is not much to say about them except that they strafe decently but worse than the bearing-based equivalents.
+- `Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-mecanum-wheel-set.html>`_ ($72): This is the Nexus Ball Bearing Mecanum Wheel with bushings instead of ball bearings. There is not much to say about them except that they strafe decently but worse than the ball bearing based equivalent.
 
 Not Recommended
 ~~~~~~~~~~~~~~~
