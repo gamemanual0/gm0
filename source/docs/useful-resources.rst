@@ -95,6 +95,8 @@ Mechanical Design and Build
 
 `9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured>`_ --- A channel containing many useful FTC videos, especially for rookies.
 
+`Designing Competitive FTC Robots (paid) <https://www.amazon.com/dp/B09DN3999Y>`_ --- This book describes the overall approach to designing a robot including strategy, brainstorming, and prototyping.
+
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
 `FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST’s official design and build resources, including TETRIX/REV build guides.
@@ -136,7 +138,7 @@ Calculators
 Programming
 -----------
 
-`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
+`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book (paid) <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
 
