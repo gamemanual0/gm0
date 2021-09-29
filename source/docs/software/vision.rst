@@ -34,7 +34,7 @@ EasyOpenCV Simulator
 
 EasyOpenCV Simulator is a straightforward way to test your pipelines directly on your computer. It supports Windows, macOS, and Linux, and simulates a portion of the FTC SDK structure, allowing you to copy and paste pipelines.
 
-You can find EasyOpenCV Simulator `here <https://github.com/serivesmejia/EOCV-Sim>`__.
+You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-Sim>`__.
 
 Scrcpy
 ------
