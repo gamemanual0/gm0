@@ -16,7 +16,7 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
-`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*`  --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
+`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*` --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
 
@@ -138,7 +138,7 @@ Calculators
 Programming
 -----------
 
-`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book (paid) <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
+`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*` --- An  introduction to FTC programming, assuming no preexisting Java knowledge.
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
 

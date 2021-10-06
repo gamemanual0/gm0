@@ -4,7 +4,7 @@ Using the FTC SDK
 LinearOpMode vs OpMode
 ----------------------
 
-There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/first-tech-challenge/SkyStone/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
+There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
 
 LinearOpMode Methods
 ^^^^^^^^^^^^^^^^^^^^

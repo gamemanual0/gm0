@@ -142,7 +142,7 @@ Next to it you will see a dropdown for devices. When you connect your Robot Cont
 
 If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are:
 
-- `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
+- `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
 
 If you're still stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
