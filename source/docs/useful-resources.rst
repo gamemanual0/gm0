@@ -152,7 +152,7 @@ Programming
 
 `Intro to Control Theory <https://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this>`_ --- A series of blog posts about control theory.
 
-`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- Created by FTC #19376 Thermal Equilibrium, this guide is the most comprehensive and accessible control theory resource for First Tech Challenge teams.
+`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory created by FTC #19376 Thermal Equilibrium.
 
 Libraries
 ^^^^^^^^^
