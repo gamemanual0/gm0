@@ -146,6 +146,8 @@ Programming
 
 `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
 
+`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory created by FTC #19376 Thermal Equilibrium.
+
 `FIRST's Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of FIRST's official programming resources, including introductions to each programming tool.
 
 `FRC 4613 Software Workshops <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ --- FRC 4613's workshops that are used to teach their new programmers Java and FTC programming. It goes from the very basics of data up to more complex concepts such as Polymorphism and Functional Interfaces.
