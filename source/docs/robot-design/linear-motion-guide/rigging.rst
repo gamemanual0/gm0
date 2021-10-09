@@ -118,7 +118,7 @@ Additional Considerations:
 
 .. figure:: images/rigging/cascading-retraction.png
    :alt: A diagram of continuous rigging with a retraction string ran with the slides instead of running down from the slides
-   
+
    Continuous Rigging with a secondary method of retraction, where the string is with the slides instead of running down from the slides
 
 Belt-driven slides
