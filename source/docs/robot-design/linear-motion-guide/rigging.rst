@@ -112,13 +112,13 @@ Additional Considerations:
 - You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
 
 .. figure:: images/rigging/continuous-retraction.jpg
-   :alt: A diagram of continuous retraction
+   :alt: A diagram of cascade rigging
 
    Cascade Rigging
 
 .. figure:: images/rigging/cascading-retraction.png
-   :alt: A diagram of cascading retraction
-
+   :alt: A diagram of continuous rigging with a retraction string ran with the slides instead of running down from the slides
+   
    Continuous Rigging with a secondary method of retraction, where the string is with the slides instead of running down from the slides
 
 Belt-driven slides
