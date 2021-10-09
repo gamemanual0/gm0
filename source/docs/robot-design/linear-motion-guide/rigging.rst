@@ -114,12 +114,12 @@ Additional Considerations:
 .. figure:: images/rigging/continuous-retraction.jpg
    :alt: A diagram of continuous retraction
 
-   Continuous retraction
+   Cascade Rigging
 
 .. figure:: images/rigging/cascading-retraction.png
    :alt: A diagram of cascading retraction
 
-   Cascade retraction
+   Continuous Rigging with a secondary method of retraction, where the string is with the slides instead of running down from the slides
 
 Belt-driven slides
 ------------------
