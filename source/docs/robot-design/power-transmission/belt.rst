@@ -19,7 +19,7 @@ Terms
 Center-to-Center calculations
 -----------------------------
 
-Just like chain, the actual calculations for precise :term:`C2C` distances for belts are complicated. Here is a `calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_ or `two <https://www.sudenga.com/practical-applications/figuring-belt-lengths-and-distance-between-pulleys>`_ that simplifies the work.
+Just like chain, the actual calculations for precise :term:`C2C` distances for belts are complicated. Here is a `calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_ or `two <https://sudenga.com/resources/figuring-belt-lengths-and-distance-between-pulleys/>`_ that simplifies the work.
 
 .. math::
 
