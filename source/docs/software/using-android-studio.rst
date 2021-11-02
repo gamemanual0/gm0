@@ -182,12 +182,10 @@ There should be a dependencies block at the bottom of the file.
 
     // Include common definitions from above.
     apply from: '../build.common.gradle'
-
-    repositories {
-         maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
-    }
+    apply from: '../build.dependencies.gradle'
 
     dependencies {
+         implementation project(':FtcRobotController')
          annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
     }
 
@@ -199,6 +197,8 @@ Next, you add a line in the dependencies block to implement the dependency. This
 
     dependencies {
         annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+        implementation project(':FtcRobotController')
+
         implementation 'com.package.name:name:version'
     }
 
