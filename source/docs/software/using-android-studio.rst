@@ -196,8 +196,8 @@ Next, you add a line in the dependencies block to implement the dependency. This
 .. code-block:: groovy
 
     dependencies {
-        annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
         implementation project(':FtcRobotController')
+        annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 
         implementation 'com.package.name:name:version'
     }
