@@ -131,8 +131,6 @@ Calculators
 
 `⎰ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
-`Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_ --- A chain sprocket center-to-center calculator, either using the number of links to calculate center distance or using the center distance to calculate the number of links.
-
 `Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 
 Programming
