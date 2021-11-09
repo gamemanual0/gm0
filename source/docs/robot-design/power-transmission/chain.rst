@@ -36,7 +36,7 @@ Roller Chain
 Center-to-Center calculations
 -----------------------------
 
-The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated. Many `online calculators <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_ can calculate C-C distances without going through the tedious calculations. However, the complete formula is below.
+The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated. Many `online calculators <https://reca.lc/chains>`_ can calculate C-C distances without going through the tedious calculations. However, the complete formula is below.
 
 .. math::
 
