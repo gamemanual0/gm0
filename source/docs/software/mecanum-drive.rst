@@ -49,7 +49,8 @@ Before thinking about mecanum, envision a scenario where you have a 2 motor tank
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-1.png
+         :width: 45em
 
 Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the x value from the right side, and add it to the left:
 
@@ -69,7 +70,8 @@ Although at first adding rotation might seem like a difficult task, it’s actua
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+         :width: 45em
 
 
 Here, if the Y stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the X stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the Y stick is at 1 and the X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
@@ -97,7 +99,8 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-3.png
+         :width: 45em
 
 .. important:: Motors in FTC spin counterclockwise when given positive power by default (except for NeveRest motors). In this case, you need to reverse the direction of the right drive motors so that they spin toward the same direction as the left drive motors when supplied with a positive power (for a drivetrain using NeveRests, reverse the right side instead). This can be done with :code:`DcMotor.setDirection(DcMotor.Direction.REVERSE)`.
 
@@ -119,7 +122,8 @@ Now that we have a functioning mecanum driving program, there are a few things t
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-4.png
+         :width: 45em
 
 The other improvement we can make is scale the values into the range of -1 to 1.
 
@@ -144,7 +148,8 @@ Since the SDK simply clips (limits) the powers to that range, we can lose the ra
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-5.png
+         :width: 45em
 
 
 Make sure to set the powers on your motor and update this every loop in an opmode!
@@ -212,4 +217,7 @@ Final Sample Code
    .. tab-item:: Blocks
       :sync: blocks
 
-      why are you using blocks lol
+      :download:`Blocks file download <mecanum-drive-sample.blk>`
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-complete.png
+         :width: 45em
