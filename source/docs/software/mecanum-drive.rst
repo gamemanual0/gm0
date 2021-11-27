@@ -30,35 +30,77 @@ In the image above, vectors 1, 2, 3, and 4 are the force vectors created by the 
 Deriving Mecanum Control Equations
 ----------------------------------
 
-Before thinking about mecanum, envision a scenario where you have a 2 motor tank drivetrain which you want to control using the left stick Y axis for forward/backward movement, and the right stick X axis for pivot turning. The motors are configured so that positive is clockwise for the right motor when the body is facing away from you, and the left motor is the opposite. To control only forward/backward movement, you simply need to set the motor powers to the Y stick value (flip the sign since Y is reversed)::
+Before thinking about mecanum, envision a scenario where you have a 2 motor tank drivetrain which you want to control using the left stick Y axis for forward/backward movement, and the right stick X axis for pivot turning. The motors are configured so that positive is clockwise for the right motor when the body is facing away from you, and the left motor is the opposite. To control only forward/backward movement, you simply need to set the motor powers to the Y stick value (flip the sign since Y is reversed):
 
-   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
 
-   leftMotor.setPower(y);
-   rightMotor.setPower(y);
+.. tab-set::
 
-Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the x value from the right side, and add it to the left::
+   .. tab-item:: Java
+      :sync: java
 
-   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-   double x = gamepad1.right_stick_x;
+      .. code-block::
 
-   leftMotor.setPower(y + x);
-   rightMotor.setPower(y - x);
+         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+
+         leftMotor.setPower(y);
+         rightMotor.setPower(y);
+
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-1.png
+         :width: 45em
+
+Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the x value from the right side, and add it to the left:
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double x = gamepad1.right_stick_x;
+
+         leftMotor.setPower(y + x);
+         rightMotor.setPower(y - x);
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+         :width: 45em
+
 
 Here, if the Y stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the X stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the Y stick is at 1 and the X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
 
 Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>` operates under the same principle as adding turning into the tank example. The left stick X values will be added or subtracted to each wheel depending on how that wheel needs to rotate to get the desired movement. The only difference between adding turning is that rather than wheels on the same side being the same sign, wheels diagonal to each other will be the same sign.
 
-We want a positive X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left::
+We want a positive X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left:
 
-   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-   double x = gamepad1.left_stick_x;
-   double rx = gamepad1.right_stick_x;
+.. tab-set::
 
-   frontLeftMotor.setPower(y + x + rx);
-   backLeftMotor.setPower(y - x + rx);
-   frontRightMotor.setPower(y - x - rx);
-   backRightMotor.setPower(y + x - rx);
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double x = gamepad1.left_stick_x;
+         double rx = gamepad1.right_stick_x;
+
+         frontLeftMotor.setPower(y + x + rx);
+         backLeftMotor.setPower(y - x + rx);
+         frontRightMotor.setPower(y - x - rx);
+         backRightMotor.setPower(y + x - rx);
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-3.png
+         :width: 45em
 
 .. important:: Motors in FTC spin counterclockwise when given positive power by default (except for NeveRest motors). In this case, you need to reverse the direction of the right drive motors so that they spin toward the same direction as the left drive motors when supplied with a positive power (for a drivetrain using NeveRests, reverse the right side instead). This can be done with :code:`DcMotor.setDirection(DcMotor.Direction.REVERSE)`.
 
@@ -66,79 +108,116 @@ This is the same as the tank example, except now with 4 motors and the strafing 
 
 Now that we have a functioning mecanum driving program, there are a few things that can be done to clean it up. The first of these would be multiplying the left X value by something to counteract imperfect strafing. Doing this will make the drive feel more accurate on non axis aligned directions, and make field centric driving more accurate. In this tutorial, we will use 1.1, but it’s really up to driver preference.
 
-::
+.. tab-set::
 
-   double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-   double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
-   double rx = gamepad1.right_stick_x;
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
+         double rx = gamepad1.right_stick_x;
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-4.png
+         :width: 45em
 
 The other improvement we can make is scale the values into the range of -1 to 1.
 
 Since the SDK simply clips (limits) the powers to that range, we can lose the ratio we are looking for unless we proactively put all the numbers back in that range while still maintaining our calculated ratio. For example, if we calculate values of 0.4, 0.1, 1.1, and 1.4, they will be clipped to 0.4, 0.1, 1.0, and 1.0, which is not the same ratio. Instead, we need to divide all of them by the largest power's absolute value when it exceeds 1:
 
-::
+.. tab-set::
 
-   // Denominator is the largest motor power (absolute value) or 1
-   // This ensures all the powers maintain the same ratio, but only when
-   // at least one is out of the range [-1, 1]
-   double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
-   double frontLeftPower = (y + x + rx) / denominator;
-   double backLeftPower = (y - x + rx) / denominator;
-   double frontRightPower = (y - x - rx) / denominator;
-   double backRightPower = (y + x - rx) / denominator;
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+         // Denominator is the largest motor power (absolute value) or 1
+         // This ensures all the powers maintain the same ratio, but only when
+         // at least one is out of the range [-1, 1]
+         double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
+         double frontLeftPower = (y + x + rx) / denominator;
+         double backLeftPower = (y - x + rx) / denominator;
+         double frontRightPower = (y - x - rx) / denominator;
+         double backRightPower = (y + x - rx) / denominator;
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-5.png
+         :width: 45em
+
 
 Make sure to set the powers on your motor and update this every loop in an opmode!
 
 Final Sample Code
 -----------------
 
-::
 
-   package org.firstinspires.ftc.teamcode;
+.. tab-set::
 
-   import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-   import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-   import com.qualcomm.robotcore.hardware.DcMotor;
-   import com.qualcomm.robotcore.hardware.DcMotorSimple;
+   .. tab-item:: Java
+      :sync: java
 
-   @TeleOp
-   public class MecanumTeleOp extends LinearOpMode {
-      @Override
-      public void runOpMode() throws InterruptedException {
-         // Declare our motors
-         // Make sure your ID's match your configuration
-         DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
-         DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
-         DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
-         DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
+      .. code-block::
 
-         // Reverse the right side motors
-         // Reverse left motors if you are using NeveRests
-         motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
-         motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
 
-         waitForStart();
+         package org.firstinspires.ftc.teamcode;
 
-         if (isStopRequested()) return;
+         import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+         import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+         import com.qualcomm.robotcore.hardware.DcMotor;
+         import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
-         while (opModeIsActive()) {
-            double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-            double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
-            double rx = gamepad1.right_stick_x;
+         @TeleOp
+         public class MecanumTeleOp extends LinearOpMode {
+             @Override
+             public void runOpMode() throws InterruptedException {
+                 // Declare our motors
+                 // Make sure your ID's match your configuration
+                 DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
+                 DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
+                 DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
+                 DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
 
-            // Denominator is the largest motor power (absolute value) or 1
-            // This ensures all the powers maintain the same ratio, but only when
-            // at least one is out of the range [-1, 1]
-            double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
-            double frontLeftPower = (y + x + rx) / denominator;
-            double backLeftPower = (y - x + rx) / denominator;
-            double frontRightPower = (y - x - rx) / denominator;
-            double backRightPower = (y + x - rx) / denominator;
+                 // Reverse the right side motors
+                 // Reverse left motors if you are using NeveRests
+                 motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
+                 motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
 
-            motorFrontLeft.setPower(frontLeftPower);
-            motorBackLeft.setPower(backLeftPower);
-            motorFrontRight.setPower(frontRightPower);
-            motorBackRight.setPower(backRightPower);
+                 waitForStart();
+
+                 if (isStopRequested()) return;
+
+                 while (opModeIsActive()) {
+                     double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+                     double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
+                     double rx = gamepad1.right_stick_x;
+
+                     // Denominator is the largest motor power (absolute value) or 1
+                     // This ensures all the powers maintain the same ratio, but only when
+                     // at least one is out of the range [-1, 1]
+                     double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
+                     double frontLeftPower = (y + x + rx) / denominator;
+                     double backLeftPower = (y - x + rx) / denominator;
+                     double frontRightPower = (y - x - rx) / denominator;
+                     double backRightPower = (y + x - rx) / denominator;
+
+                     motorFrontLeft.setPower(frontLeftPower);
+                     motorBackLeft.setPower(backLeftPower);
+                     motorFrontRight.setPower(frontRightPower);
+                     motorBackRight.setPower(backRightPower);
+                 }
+             }
          }
-      }
-   }
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      :download:`Blocks file download <mecanum-drive-sample.blk>`
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-complete.png
+         :width: 45em
