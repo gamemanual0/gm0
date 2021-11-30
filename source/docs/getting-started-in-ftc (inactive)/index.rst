@@ -7,7 +7,7 @@ Welcome to *FIRST*\ |reg| Tech Challenge! As a new team, you may be slightly ove
 
 After registration and going through the STIMS process in the *FIRST*\ |reg| website, you'll likely have to purchase a starter kit (**which we highly recommend for new teams**) and electronics kit in order to build your robot. The electronics kit is standard for all teams, but please read our kit guide to find out which kit is right for your team.
 
-The physical components of a robot are split into the hardware and electronics section. On the hardware side, you have your :doc:`drivetrain </docs/robot-design/drivetrains/index>`, :doc:`linear extension mechanisms </docs/robot-design/linear-motion-guide/index>`, a :doc:`claw </docs/robot-design/passive-intake-claw>` or :doc:`intake </docs/robot-design/active-intake/index>` to pick up game elements, as well as any other mechanisms specific to the game. On the electronics side, there are the two :term:`REV Expansion Hubs <Expansion Hub>` (or one Control Hub and one Expansion Hub), the Android phone(s), and controllers.
+The physical components of a robot are split into the hardware and electronics section. On the hardware side, you have your :doc:`drivetrain </docs/common-mechanisms/drivetrains/index>`, :doc:`linear extension mechanisms </docs/common-mechanisms/linear-motion-guide/index>`, a :doc:`claw </docs/common-mechanisms/passive-intake-claw>` or :doc:`intake </docs/common-mechanisms/active-intake/index>` to pick up game elements, as well as any other mechanisms specific to the game. On the electronics side, there are the two :term:`REV Expansion Hubs <Expansion Hub>` (or one Control Hub and one Expansion Hub), the Android phone(s), and controllers.
 
 The :doc:`kit guide </docs/hardware-basics/kit-and-hardware-guide/index>` provides information on selecting the right kit for your team. Along with this, we have included a :doc:`list of tools </docs/hardware-basics/tools-list>` that may be necessary or beneficial for your team to purchase. The building guides for drivetrain, linear extension, and intake go over the different routes teams can take, as well as providing advice on which to choose. However, our personal experience is that trial and error through designing your own robot is the best teacher. We want your team to have the full learning experience, so we don't provide specific instructions for building mechanisms. Instead we have provided general and specific recommendations and best practices to follow.
 
@@ -35,8 +35,3 @@ Each team will have at least one chance to compete, either at Qualifier Events o
    :maxdepth: 1
    :caption: More Information:
 
-   know-your-lingo
-   engineering-design-process
-   rookie-building
-   rookie-principles
-   rookie-competition

@@ -1,5 +1,5 @@
-Computer-aided design
-=====================
+Computer-aided design (CAD)
+===========================
 
 Introduction
 ------------
@@ -25,6 +25,19 @@ Overview of CAD Programs
 
 There are many possible CAD programs that teams can learn, all of which can be downloaded for free under a student or FTC team license. You’ll have to do a bit of research here, as the requirements for free copies vary based on the program. Here are a couple suggestions to consider:
 
+`Onshape <https://www.onshape.com/en/education/>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A fully-featured CAD package, but it runs entirely in the cloud. It can run on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as well.
+
+It has all of the same core features as SolidWorks and Inventor, as well as the best collaboration workflow in the industry - many people call it “the Google Docs of CAD.” Onshape allows multiple people to work on the same document at the same time, and allows users to “follow” each other and see what’s on another user’s screen.
+
+OnShape also has FeatureScript, a programming language where you can write custom features. The community has created a lot of very useful FeatureScripts already which you can use completely for free.
+
+Onshape also has a comprehensive tutorial system (https://learn.onshape.com) that will not only teach you how to use their software, but how to approach design problems.
+
+If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you.
+
 `SolidWorks <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -45,18 +58,7 @@ While it’s used by many companies in the industry, it doesn’t appear in very
 
 If you have mentors or team members with previous experience in Inventor or an engineering class at your school that teaches Inventor, it will be your best choice.
 
-`Onshape <https://www.onshape.com/en/education/>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A fully-featured CAD package, but it runs entirely in the cloud. It can run on any computer (even Chromebooks!) and has iOS, iPadOS, and Android apps as well.
-
-It has all of the same core features as SolidWorks and Inventor, as well as the best collaboration workflow in the industry - many people call it “the Google Docs of CAD.” Onshape allows multiple people to work on the same document at the same time, and allows users to “follow” each other and see what’s on another user’s screen.
-
-OnShape also has FeatureScript, a programming language where you can write custom features. The community has created a lot of very useful FeatureScripts already which you can use completely for free.
-
-Onshape also has a comprehensive tutorial system (https://learn.onshape.com) that will not only teach you how to use their software, but how to approach design problems.
-
-If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you.
 
 `Fusion 360 <https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

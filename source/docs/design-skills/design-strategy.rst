@@ -1,7 +1,7 @@
-Rookie Mistakes: Principles
+Design Strategy
 ===========================
 
-Here are some common mistakes that teams make in the high-level design and strategic planning stages.
+Here are some good tips for teams to make decisions in the high-level design and strategic planning stages.
 
 +--------------------------------+-----------------------------------------+
 | Problem                        | Solution                                |

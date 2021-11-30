@@ -1,7 +1,7 @@
 .. include:: <isonum.txt>
 
-Rookie Mistakes: Building
-=========================
+Design Tradeoffs
+================
 
 +--------------------------------+----------------------------------------+
 | **Problem**                    | Solution                               |
