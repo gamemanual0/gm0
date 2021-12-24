@@ -439,7 +439,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Pitch Diameter (PD) is the imaginary circle that mates with any other gear’s pitch diameter when the gears are properly spaced. The pitch diameter will always be smaller than the outside diameter of a gear.
 
    Planetary Gear
-      Planetary gearing consists of a center gear (sun gear) which has smaller gears (planet gears) revolving around it. The outer radius has a ring gear which holds the other gears in place. Refer to :doc:`/docs/hardware-basics/motor-guide/gearbox-anatomy` for more information.
+      Planetary gearing consists of a center gear (sun gear) which has smaller gears (planet gears) revolving around it. The outer radius has a ring gear which holds the other gears in place. Refer to :doc:`/docs/power-and-electronics/motor-guide/gearbox-anatomy` for more information.
 
    Pocketing
       Pocketing refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
@@ -469,7 +469,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :width: 200
 
    Ring Gear
-      Refer to :doc:`/docs/hardware-basics/motor-guide/gearbox-anatomy` for more information.
+      Refer to :doc:`/docs/power-and-electronics/motor-guide/gearbox-anatomy` for more information.
 
    Robot Controller
       The Robot Controller (RC) phone refers to the phone that is on the robot and is connected to the :term:`Expansion Hub` via the Micro USB cable. This can now be replaced by a Control Hub.
@@ -486,7 +486,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
       Commonly, FTC uses 24 and 25 tooth splines, meaning there are 24/25 teeth around the circumference of the output shaft.
 
-      There are many different types of servos legal for use in FTC - for information on how to choose the right servo, refer to :doc:`/docs/hardware-basics/servo-guide/choosing-servo`.
+      There are many different types of servos legal for use in FTC - for information on how to choose the right servo, refer to :doc:`/docs/power-and-electronics/servo-guide/choosing-servo`.
 
       .. image:: images/glossary/servo.jpg
          :alt: A Hitec HSB-9370TH servo
@@ -691,7 +691,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
    V-Groove Bearing
       A V-groove bearing is a special type of :term:`bearing <Ball Bearing>` which has slanted “grooves” that allow for extrusion or rails to slide in between the bearing. V-groove bearings are often used in FRC for constructing linear elevators.
 
-      In general, v-groove bearings are somewhat unnecessary in FTC unless a hang is involved, as the linear slide options presented in the :doc:`/docs/robot-design/linear-motion-guide/index` guide are more than adequate for most use cases.
+      In general, v-groove bearings are somewhat unnecessary in FTC unless a hang is involved, as the linear slide options presented in the :doc:`/docs/common-mechanisms/linear-motion-guide/index` guide are more than adequate for most use cases.
 
       .. figure:: images/glossary/v-groove-bearing.png
          :alt: REV Robotics V-groove bearings riding on 1" extrusion

@@ -51,7 +51,7 @@ MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other size
 
 Aluminum flat and aluminum angle is widely available at hardware stores. In certain applications, such as adapting from different build systems, it is possible to drill custom adapter plates to mount mechanisms to the drivetrain. Aluminum angle is also a very sturdy structural support piece that takes up relatively little space, and can adapt to any build system. We suggest using 1/8” alumimum with drivetrain or mounting applications, and 1/16” aluminum for low-load situations.
 
-Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are recommended over steel drawer slides due to weight savings. Refer to the :doc:`Linear Motion section </docs/robot-design/linear-motion-guide/index>` for more information.
+Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are recommended over steel drawer slides due to weight savings. Refer to the :doc:`Linear Motion section </docs/common-mechanisms/linear-motion-guide/index>` for more information.
 
 Sheet aluminum is generally used for drivetrain plates on custom drivetrains. The recommended thickness is 1/8" or 3/16". Because it is a plate, sheet aluminum will bend if not supported correctly with :term:`standoffs <Standoff>` or :term:`channel <Channel>`. Only load the sheet in the plane that it is in (if the sheet is vertical, then only put vertical load on it; do not load it horizontally). However, there may be some applications that would benefit from a slight bit of flex for adjustability - in those cases, use your judgment and test it out for yourself!
 

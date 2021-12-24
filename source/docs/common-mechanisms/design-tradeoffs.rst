@@ -51,7 +51,7 @@ We do recommend teams who have purchased the Tetrix kit to build it for educatio
 2. The pushbot has poor top speed and turning ability, given that the gear ratio (40:1 on 4 inch wheels) is half the speed that many teams use.
 3. It is not advisable to use direct drive.
 
-However, most if not all of these problems will be solved by using a four-motor drivetrain such as the ones recommended in the drivetrain guide (mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the :doc:`drivetrain </docs/robot-design/drivetrains/index>` section and see which drivetrain would fit best for their overall game strategy.
+However, most if not all of these problems will be solved by using a four-motor drivetrain such as the ones recommended in the drivetrain guide (mecanum, 6WD, etc.). Therefore, it is recommended for teams to refer to the :doc:`drivetrain </docs/common-mechanisms/drivetrains/index>` section and see which drivetrain would fit best for their overall game strategy.
 
 Passive Intake/Claw → Active Intake
 -----------------------------------
@@ -74,7 +74,7 @@ Spur Gear Gearboxes → Planetary Gearboxes
 
 .. important:: Spur gear gearboxes have inherent disadvantages to planetary gearboxes. Spur gear gearboxes should not be used in high-load situations, primarily because the gears can strip and destroy the gearbox.
 
-An example would be a drivetrain that has to change directions repeatedly and quickly. Planetary gearboxes are much better suited for drivetrain and arms, due to the configuration of the sun and planet gears. In addition, spur gear gearboxes are prone to shock loads; therefore, direct drive is not advisable on drivetrains. Refer to the :doc:`gearbox anatomy </docs/hardware-basics/motor-guide/gearbox-anatomy>` section for more complete information on gearboxes. **This refers to using spur gear gearboxes which are attached directly to the pinion gear of the motor. It does not mean external ratios outside of the motor gearbox, which will always be in a spur gear configuration.**
+An example would be a drivetrain that has to change directions repeatedly and quickly. Planetary gearboxes are much better suited for drivetrain and arms, due to the configuration of the sun and planet gears. In addition, spur gear gearboxes are prone to shock loads; therefore, direct drive is not advisable on drivetrains. Refer to the :doc:`gearbox anatomy </docs/power-and-electronics/motor-guide/gearbox-anatomy>` section for more complete information on gearboxes. **This refers to using spur gear gearboxes which are attached directly to the pinion gear of the motor. It does not mean external ratios outside of the motor gearbox, which will always be in a spur gear configuration.**
 
 Single/multi axis arm → Linear extension
 ----------------------------------------

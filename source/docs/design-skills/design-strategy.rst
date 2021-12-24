@@ -82,7 +82,7 @@ Building haphazardly → Building for reliability
 
 .. important:: Build for the worst case scenario, not the best case scenario. When building, teams often overlook a key principle: build for reliability. All too often, teams skimp on the quality of construction as well as materials, which leads to one of the most common reasons for unsuccessful tournaments: part failure.
 
-Teams also do not take into account the rigors of competition and build as if the robot will not encounter opposing robots. Sufficient driver practice will be able to better simulate in-game conditions and test the reliability of the robot. To remedy this problem, refer to the :doc:`Materials Guide </docs/hardware-basics/materials-guide>` to gain a better understanding of what materials are recommended for use.
+Teams also do not take into account the rigors of competition and build as if the robot will not encounter opposing robots. Sufficient driver practice will be able to better simulate in-game conditions and test the reliability of the robot. To remedy this problem, refer to the :doc:`Materials Guide </docs/custom-manufacturing/materials-guide>` to gain a better understanding of what materials are recommended for use.
 
 If possible, teams should build with redundancy in mind. For example, if one set of linear slides fails due to a wire snapping, having a second set will still allow the robot to operate instead of sitting dead in the water. Practically, doubling mechanisms, motors, and servos is a common method to build for redundancy.
 
