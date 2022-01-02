@@ -57,3 +57,5 @@
 "docs/hardware-basics/index.rst" "docs/hardware-components/index.rst"
 "docs/hardware-basics/kit-and-hardware-guide/custom.rst" "docs/hardware-components/kit-and-hardware-guide/custom.rst"
 "docs/robot-design/index.rst" "docs/common-mechanisms/index.rst"
+"docs/getting-started-in-ftc/rookie-competition.rst" "docs/design-skills/design-strategy"
+"docs/getting-started-in-ftc/index.rst" "docs/start-here.rst"

@@ -6,7 +6,16 @@ Index
    :margin: 2
 
    .. grid-item-card::
-      :link: docs/design-skills/index
+      :link: /docs/start-here
+      :link-type: doc
+      :columns: 12
+
+      Start Here
+      ^^^
+      Are you a rookie team? Are you new to FTC? Are you just looking for a refresher? Check out this section for a curated list of the most pertinent pages!
+
+   .. grid-item-card::
+      :link: /docs/design-skills/index
       :link-type: doc
 
       Design Skills
@@ -14,7 +23,7 @@ Index
       Covers generic design skills, including the engineering design process, design strategy, and CAD.
 
    .. grid-item-card::
-      :link: docs/hardware-components/index
+      :link: /docs/hardware-components/index
       :link-type: doc
 
       Hardware Components
@@ -22,7 +31,7 @@ Index
       Compares the kit options, has a list of useful tools, and some general advice.
 
    .. grid-item-card::
-      :link: docs/common-mechanisms/index
+      :link: /docs/common-mechanisms/index
       :link-type: doc
       :columns: 12
 
@@ -31,7 +40,7 @@ Index
       Contains descriptions, advantages/disadvantages, and examples of common mechanisms, including: drivetrains, arms, linear motion, intakes, and dead wheels. Also covers some specific common design tradeoff recommendations and power transmission.
 
    .. grid-item-card::
-      :link: docs/custom-manufacturing/index
+      :link: /docs/custom-manufacturing/index
       :link-type: doc
 
       Custom Manufacturing
@@ -39,7 +48,7 @@ Index
       Covers which materials are appropriate to use when and specifics to 3D printing and machining.
 
    .. grid-item-card::
-      :link: docs/power-and-electronics/index
+      :link: /docs/power-and-electronics/index
       :link-type: doc
 
       Electronics and Motion Components
@@ -47,7 +56,7 @@ Index
       Covers wiring, the control system, motors, servos, and sensors.
 
    .. grid-item-card::
-      :link: docs/software/index
+      :link: /docs/software/index
       :link-type: doc
 
       Software
@@ -55,7 +64,7 @@ Index
       Covers a range of software topics.
 
    .. grid-item-card::
-      :link: docs/useful-resources
+      :link: /docs/useful-resources
       :link-type: doc
 
       Useful Resources
@@ -63,7 +72,7 @@ Index
       A list of useful resources and accompanying descriptions, with especially pertinent ones marked.
 
    .. grid-item-card::
-      :link: docs/awards/index
+      :link: /docs/awards/index
       :link-type: doc
       :columns: 12
 
@@ -72,7 +81,7 @@ Index
       While |gm0| has a heavy focus on robots, awards are an important part of FTC---this section covers what each award is for and some general Engineering Notebook tips.
 
    .. grid-item-card::
-      :link: docs/know-your-lingo
+      :link: /docs/know-your-lingo
       :link-type: doc
 
       Know Your Lingo
@@ -80,7 +89,7 @@ Index
       A list of commonly used FTC slang and their meanings.
 
    .. grid-item-card::
-      :link: docs/appendix/index
+      :link: /docs/appendix/index
       :link-type: doc
 
       Appendix
@@ -93,6 +102,7 @@ Index
    :hidden:
 
    docs/mission-statement
+   docs/start-here
    docs/know-your-lingo
    docs/design-skills/index
    docs/hardware-components/index

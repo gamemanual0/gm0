@@ -1,5 +1,8 @@
 Design Strategy
-===========================
+===============
+
+General Design Tips and Mistakes
+--------------------------------
 
 Here are some good tips for teams to make decisions in the high-level design and strategic planning stages.
 
@@ -33,7 +36,7 @@ Here are some good tips for teams to make decisions in the high-level design and
 +--------------------------------+-----------------------------------------+
 
 Doing Everything At Once to → Perfecting One Objective First
-------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Consistency is king.**
 
@@ -48,7 +51,7 @@ Teams should always remember the principle that a robot that can complete one th
 .. tip:: Typically, teams which have a solid autonomous and consistent endgame can be competitive at the Qualifier level. This is a recommended goal for new teams.
 
 Overcomplex → Simple
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 .. important:: Another common trap that teams fall into is to overcomplicate needlessly. Simplifying your robot simplifies possible headaches later.
 
@@ -63,7 +66,7 @@ Keeping things simple can be practically achieved through a couple of ways.
 #. Another way to simplify is to build for the shortest travel distance. Obviously, the shortest distance from A to B is in a straight line, so teams should strive to keep the game elements approximately within a reasonably straight line. This can help in solving possible problems if the game elements need to change direction too many times.
 
 Score-first Designing → Designing for Consistency
--------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. important:: Teams should prioritize consistency over scoring ability.
 
@@ -78,7 +81,7 @@ Too many teams fall into the pit of prioritizing scoring ability more than anyth
 Focus on being able to do that one thing every single time throughout your matches, and you will begin to see how important consistency is. **This tip is equally as important during alliance selections. Top teams will prioritize teams that are consistent far more than scoring ability.** They are not afraid to look at teams who can’t score much, but can contribute every time to the alliance score, rather than selecting a boom-or-bust pick.
 
 Building haphazardly → Building for reliability
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. important:: Build for the worst case scenario, not the best case scenario. When building, teams often overlook a key principle: build for reliability. All too often, teams skimp on the quality of construction as well as materials, which leads to one of the most common reasons for unsuccessful tournaments: part failure.
 
@@ -95,7 +98,7 @@ Furthermore, a common cause of robot disconnect is wiring issues. Refer to the :
 All these tips combined will help your robot become more reliable, a key characteristic of all world-level robots.
 
 Fretting about Design → Focusing on Execution
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. tip:: A good execution of a bad design will beat a bad execution of good design.
 
@@ -106,3 +109,68 @@ It is very possible to take a bad design, execute it well, and still be competit
 It is important to discuss different designs and debate the pros & cons, but after a design has been picked, stay with it unless there are major flaws that were originally overlooked. Changing designs will throw away the time spent on the original design, when teams could have kept improving it or practiced more. It is possible to rebuild your robot mid-season, and many top teams have done so to great success.
 
 However, this is not recommended for rookie and new teams due to the general lack of experience. Realistically, expect to spend 50-100+ hours to rebuild a robot from the ground up. Focus on how you can iterate your current design to be as effective, efficient, and refined as possible.
+
+Competition Tips and Mistakes
+-----------------------------
+
+Here are some good tips for teams to make decisions in the execution stage.
+
++---------------------------------+-------------------------------------+
+|         **Problem**             |            **Solution**             |
++=================================+=====================================+
+| **Neglect drive practice**      | **Constant driver training**        |
+|                                 |                                     |
+| - Drivers unfamiliar with robot | - Drivers comfortable with controls |
+| - Robot reliability untested    | - Proven and tested robot           |
++---------------------------------+-------------------------------------+
+| **No game strategy**            | **Strategical driving**             |
+|                                 |                                     |
+| - Lack of contingency plans     | - Only purposeful actions taken     |
+| - Weakens alliance strength     | - Efficient and effective driving   |
++---------------------------------+-------------------------------------+
+| **Fully driver-controlled**     | **Partially automated tasks**       |
+|                                 |                                     |
+| - Less efficient                | - Relieves stress on driver         |
+| - Requires more practice        | - Removes human error               |
++---------------------------------+-------------------------------------+
+
+Neglecting driver practice → Constant driver training
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. important:: A persistent problem with new teams is neglecting driver practice. Drive practice is to be done throughout the season, **not the week before competition.**
+
+No matter how good your robot is, the robot is only 50% of the equation. The driver(s) are the other 50% which determine the success of the team as a whole. Even if your robot is the best in the world, an inferior robot with a competent drive team more than likely will beat your robot with a poor drive team. By April's world championships, most top teams have run hundreds of practice matches.
+
+This gives some obvious advantages compared to a team with lesser practice.
+
+#. The driver(s) are totally familiar with handling the robot in every
+   situation.
+#. The robot is proven to be reliable enough to survive hours of operation.
+#. The immense data that teams gather from test runs are used to optimize every element of the robot.
+
+Driver practice not only familiarizes the driver(s) with the robot and serves as a test of robot reliability, it also simulates in-game conditions. **Learning to push the limits of your robot should be done during practice, not at a competition.** This way, drivers will become more comfortable driving under stress and pressure. Teams with intensive driver practice will purposely make things more difficult (such as placing a disabled robot in the middle of the field or unplugging a drivetrain motor).
+
+While this may seem extreme, it is really just a form of preparedness. If your driver doesn't know how to react, then you need more drive practice.
+
+No game strategy → Strategic driving
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Similar to drive practice, this is something that many inexperienced teams ignore. A sports example is handy - even with the most talented players, a team won’t go far without good game strategy.
+
+.. important:: A less capable team with better strategy execution can often pull off an upset. Planning a strategy ensures that every second in the 2:30 game time is used to maximum efficiency, which yields maximum points.
+
+For example, drivers should know exactly where the robot needs to be positioned after the autonomous to tele-op switch. Practicing this switch will save a couple of seconds when drivers have to think “what do I do now?” In very competitive matches, these few seconds may be able to gain your team an extra cycle. Knowing when to transition from a tele-op to endgame objective is equally important (hint: perfect one first) and will save valuable time. Strategy should **always be used to maximize points** - whether this is a positioning strategy to access the game elements, or a defensive strategy to hinder the other alliance from scoring.
+
+.. tip:: In most seasons, denying the other alliance 10 points is the same value as scoring 10 points in every match; however, in the Ultimate Goal season there is no advantage to denying the other alliance 10 points, as ranking is based on the number of points your alliance scores as opposed to how many wins you have. However, denying the other alliance points is still a powerful strategy in elimination matches.
+
+**However, it is not advisable for rookie teams to play defense** due to the specific rules surrounding this strategy. If a team wishes to execute a defensive strategy, be sure to read all the rules as defense can easily incur penalties/cards if done improperly.
+
+Fully driver-controlled driving → Partially automated tasks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. important:: Autonomous should not be limited to only the autonomous mode. Automating simple tasks can be a real time-saver and efficiency boost to teams.
+
+#. Automating tasks can save time and reduce the need for driver multi-tasking. Drivers should always be controlling the robot with as few button presses as possible. For example, automatically stopping the intake mechanism when game elements have been collected saves a button press.
+#. Autonomously operating some mechanisms has the advantage of eliminating driver error and relieves stress. For example, if a lift has to extend to exactly 30 inches, a motor with an :term:`encoder <Encoder>` can complete that with 100% accuracy at full speed, compared to a human driver's minor error.
+
+.. note:: Autonomous functions should be able to be overrided by manual input in case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to prevent damage to the robot and to be compliant with game rules.
