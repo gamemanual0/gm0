@@ -1,5 +1,5 @@
 :root {
-  --image-width: 25em;
+    --image-width: 25em;
 }
 
 .wy-nav-top, .wy-nav-side, .wy-side-nav-search {
@@ -55,4 +55,10 @@ footer {
     .dark-mode-invert {
         filter: invert(50%);
     }
+}
+
+/* Set colors for headers */
+.sd-card-header {
+    color: white !important;
+    background-color: rgb(245,127,37) !important;
 }

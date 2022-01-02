@@ -1,6 +1,96 @@
+Index
+=====
+
+.. grid:: 2
+   :gutter: 3
+   :margin: 2
+
+   .. grid-item-card::
+      :link: docs/design-skills/index
+      :link-type: doc
+
+      Design Skills
+      ^^^
+      Covers generic design skills, including the engineering design process, design strategy, and CAD.
+
+   .. grid-item-card::
+      :link: docs/hardware-components/index
+      :link-type: doc
+
+      Hardware Components
+      ^^^
+      Compares the kit options, has a list of useful tools, and some general advice.
+
+   .. grid-item-card::
+      :link: docs/common-mechanisms/index
+      :link-type: doc
+      :columns: 12
+
+      Common Mechanisms
+      ^^^
+      Contains descriptions, advantages/disadvantages, and examples of common mechanisms, including: drivetrains, arms, linear motion, intakes, and dead wheels. Also covers some specific common design tradeoff recommendations and power transmission.
+
+   .. grid-item-card::
+      :link: docs/custom-manufacturing/index
+      :link-type: doc
+
+      Custom Manufacturing
+      ^^^
+      Covers which materials are appropriate to use when and specifics to 3D printing and machining.
+
+   .. grid-item-card::
+      :link: docs/power-and-electronics/index
+      :link-type: doc
+
+      Electronics and Motion Components
+      ^^^
+      Covers wiring, the control system, motors, servos, and sensors.
+
+   .. grid-item-card::
+      :link: docs/software/index
+      :link-type: doc
+
+      Software
+      ^^^
+      Covers a range of software topics.
+
+   .. grid-item-card::
+      :link: docs/useful-resources
+      :link-type: doc
+
+      Useful Resources
+      ^^^
+      A list of useful resources and accompanying descriptions, with especially pertinent ones marked.
+
+   .. grid-item-card::
+      :link: docs/awards/index
+      :link-type: doc
+      :columns: 12
+
+      Awards
+      ^^^
+      While |gm0| has a heavy focus on robots, awards are an important part of FTC---this section covers what each award is for and some general Engineering Notebook tips.
+
+   .. grid-item-card::
+      :link: docs/know-your-lingo
+      :link-type: doc
+
+      Know Your Lingo
+      ^^^
+      A list of commonly used FTC slang and their meanings.
+
+   .. grid-item-card::
+      :link: docs/appendix/index
+      :link-type: doc
+
+      Appendix
+      ^^^
+      Contains a glossary, a robot design gallery, and information about specific vendors.
+
 .. toctree::
    :caption: Game Manual 0 Table of Contents
    :maxdepth: 1
+   :hidden:
 
    docs/mission-statement
    docs/know-your-lingo
