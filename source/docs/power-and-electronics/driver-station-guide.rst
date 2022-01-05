@@ -11,12 +11,11 @@ Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more crow
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
 
-As of the 2021-2022 season, the following controllers are  `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_
-
-- Xbox 360 Controller for Windows \n
-- Logitech F310 Controller \n
-- ETPark Wired Controller for PS4 \n
-- Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over USB) \n
+As of the 2021-2022 season, the following controllers are  `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_\
+- Xbox 360 Controller for Windows \
+- Logitech F310 Controller \
+- ETPark Wired Controller for PS4 \
+- Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over USB) \
 
 - In the past, the Xbox 360 controller was preferred by many top teams over the Logitech F310. This is mostly as the Xbox controller has less of a dead spot. A dead spot is basically the area where the joystick can move but not communicate that the stick has shifted slightly. This means that when the joystick is moved to a position where the controller can detect it, the robot will sometimes have a tendency to lurch forward. Dead spots make it difficult for the driver to execute fine-tuned and precise movements. **This is likely a non-issue for the large majority of teams. Also, keep in mind that there are very specific models of the Xbox controller that are legal, so they can be hard to find new.**
 
