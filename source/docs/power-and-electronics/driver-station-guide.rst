@@ -11,7 +11,7 @@ Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more crow
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
 
-As of the 2021-2022 season, the following controllers are `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`
+As of the 2021-2022 season, the following controllers are  `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_
 - Xbox 360 Controller for Windows
 - Logitech F310 Controller
 - ETPark Wired Controller for PS4
