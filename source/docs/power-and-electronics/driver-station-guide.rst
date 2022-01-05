@@ -24,6 +24,6 @@ General information about the controllers.
 
 - Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are legal and provide numerous advantages over Xbox 360 Controllers. Some of these advantages include, better trigger and bumper control, a more usable dpad, and trackpad support as of the 2021-2022 season. **Keep in mind that code and use for buttons on these controllers might need to change, as the standard ABXY is replaced with the Playstation Standard and some buttons are slightly moved around on the controller.**
 
-- Generally it is the opinion that the PS4 controllers are better than the other options. Among the options for PS4 controllers, the recommendation is generally the ETPark wired controllers. **Though the buttons and axis on Sony brand controllers are slightly better, the Micro USB connector on the Sony Wireless Controller can wear down, leading to disconnect issues.**
+- Generally it is the opinion that the PS4 controllers are better than the other options. Among the options for PS4 controllers, the choice is up to you. The Sony controller has slightly better buttons, but the ETPark controller is half the cost. **the Micro USB connector on the Sony Wireless Controller can wear down, leading to disconnect issues.**
 
 - A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>` strain relief connector can be useful as it may help to prevent connections from loosening. Especially if teams are running dual controller configuration, ensuring that the USB hub is secure won't hurt.
