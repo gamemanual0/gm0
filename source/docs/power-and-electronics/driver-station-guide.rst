@@ -18,7 +18,7 @@ Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more crow
 - ETPark Wired Controller for PS4 \
 - Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over USB) \
 
-General information about the controllers.
+General information about the controllers:
 
 - In the past, the Xbox 360 controller was preferred by many top teams over the Logitech F310. This is mostly as the Xbox controller has less of a dead spot. A dead spot is basically the area where the joystick can move but not communicate that the stick has shifted slightly. This means that when the joystick is moved to a position where the controller can detect it, the robot will sometimes have a tendency to lurch forward. Dead spots make it difficult for the driver to execute fine-tuned and precise movements. **This is likely a non-issue for the large majority of teams. Also, keep in mind that there are very specific models of the Xbox controller that are legal, so they can be hard to find new.**
 
