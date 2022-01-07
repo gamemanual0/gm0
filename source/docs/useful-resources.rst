@@ -16,7 +16,7 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
-`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*` --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
+`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
 
@@ -104,6 +104,8 @@ Mechanical Design and Build
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
+
+`The Unofficial FRC Mechanism Encyclopedia <https://www.projectb.net.au/resources/robot-mechanisms/>`_ --- A page containing video examples of a bunch of FRC, FTC, and VEX mechanisms categorized by type.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
