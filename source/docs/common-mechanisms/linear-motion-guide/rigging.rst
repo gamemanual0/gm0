@@ -265,7 +265,7 @@ Disadvantages:
 Self-retracting cable drawback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-While uncommon, using a self-retracting ID Badge holder may be an attractive solution. They are extremely common, but `here is one from Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
+While an uncommon technique, using a self-retracting ID Badge holder may be an attractive solution. These are extremely common; `here is one from Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
 
 This really only works for vertical or near-vertical slides because the sag induced by the lower stability gets tangled on things easily.
 
