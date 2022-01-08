@@ -2,6 +2,7 @@ Know Your Lingo
 ===============
 
 Many teams may be unfamiliar with the various terms and slang that are often thrown around at competitions and meets. Here we have compiled a guide of some commonly used terms to get you up to speed.
+For a more comprehensive list of terms, check out the `Glossary <https://gm0.org/en/latest/docs/appendix/glossary.html/>` located in the Appendix.
 
 Competitions
 ------------
@@ -13,7 +14,7 @@ Qualifier
 League Meet
    Low-stress tournament with matches counting towards league rank. No judging.
 League Championship
-   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level.
+   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level. Only for teams participating in that League. 
 Alliance
    Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
@@ -30,7 +31,7 @@ Qualification Match
    Qualifying matches (generally 5) with random alliance partners and
    opponents will be played to determine team rankings.
 Elimination Match
-   4 alliances of 2 or 3 teams each compete in best of 3 matches to determine
+   2 alliances of 2 or 3 teams each compete in best of 3 matches to determine
    winning alliance. Also known as elim matches, or just elims.
 
 Robot Components
@@ -52,6 +53,8 @@ Claw
 Linear Extension/Slide
    Mechanism responsible for extending parts beyond the starting configuration
    of the robot in a linear fashion.
+Arm
+   Mechanism responsible for extending the reach of the robot through rotational motion or multi-axis movement. 
 REV Expansion Hub
    Hardware controller for the robot, connected to :term:`Robot Controller`
    phone.
@@ -63,7 +66,7 @@ REV Control Hub
    It serves many of the same purposes as the :term:`Expansion Hub` but
    eliminates the need for a :term:`Robot Controller` phone.
    1 Expansion Hub may be used along side 1 Control Hub.
-Driver Station
+Driver Station (DS)
    Android phone connected to the gamepad controller.
    Drivers interact with the DS phone to start/stop robot.
 Robot Controller

@@ -2,6 +2,7 @@ Gallery Of Robot Designs
 ========================
 
 Collection of robot designs from past seasons. Feel free to borrow some design solutions for your robot!
+Note: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material. 
 
 2020-2021 Ultimate Goal
 -----------------------
