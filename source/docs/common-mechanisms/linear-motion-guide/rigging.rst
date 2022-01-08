@@ -265,11 +265,11 @@ Disadvantages:
 Self-retracting cable drawback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-While extremely uncommon, if you have a simple slide, using a self-retracting ID Badge holder may be an attractive solution. They are extremely common, but `here is one from Amazon<https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
+While extremely uncommon, if you have a simple slide, using a self-retracting ID Badge holder may be an attractive solution. They are extremely common, but `here is one from Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
 
 This really only works for vertical or near-vertical slides because the sag induced by the lower stability getting tangled on things easily.
 
-To rig a self-retracting cable wire, mount the hard plastic part of the badge holder to the base of your slide, and mount a pulley at the end of the holder's string. Your wires should be hard-mounted (zip ties or whatever your team uses) towards the top of the retracted slide with plenty of slack. Then run your cables through the pulley and plug them in. For best results, the badge holder should be almost completely retracted (leave a cm or two to allow for slippage) when the slide is retracted. 
+To rig a self-retracting cable wire, mount the hard plastic part of the badge holder to the base of your slide, and mount a pulley at the end of the holder's string. Your wires should be hard-mounted (zip ties or whatever your team uses) towards the top of the retracted slide with plenty of slack. Then run your cables through the pulley and plug them in. For best results, the badge holder should be almost completely retracted (leave a cm or two to allow for slippage) when the slide is retracted.
 
 Advantages:
 
