@@ -71,6 +71,8 @@ Part Libraries
 Generators
 ^^^^^^^^^^
 
+`Belt Generator <https://cad.onshape.com/documents/c163c756b5096bcd95e5692a/w/44c5f14084d55dd0388345f0/e/cf391d827826f30c60340bcc>`_ --- A belt generator with 5 different belt types. This allows you to create belts with teeth for cad, and to calculate required tensioning for more complex belt runs. Made by Jeremiah from FTC 10641.
+
 `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ --- A HTD3 and HTD5 pulley generator, with many options. This allows you to make custom pulleys which you can 3D print. Made by Henopied from FTC 18255.
 
 `GT2 3mm Pulley Generator <https://cad.onshape.com/documents/a0b589f74b21e8886d697efc/w/55a240a887adfa7bff84d0b2/e/fa7ce89bdce08e7313f9580b>`_ --- A GT2 3mm pitch pulley generator with many options. This allows you to make custom pulleys which you can 3D print.
