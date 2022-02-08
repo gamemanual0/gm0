@@ -11,7 +11,9 @@ Examples will mostly be in Java, where ``//`` indicates a comment which the prog
 
    int number; // Declaring that number will contain an integer.
    number = 5; // Setting a value so that the variable holds something.
+
    int secondNumber = 6; // Doing both above.
+
    int total = number + secondNumber; // Math.
    System.out.println(total); // Printing, it will show up as 11.
 

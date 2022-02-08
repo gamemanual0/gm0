@@ -6,6 +6,8 @@ LinearOpMode vs OpMode
 
 There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``. The one you use affects how you write the program. For examples of how to use OpMode and LinearOpMode, `refer to the example OpModes in the sdk <https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_.
 
+.. _linearopmode methods:
+
 LinearOpMode Methods
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -92,6 +94,8 @@ It is important to note that encoder values can be read in any of these modes pr
 Using ``RUN_WITH_ENCODER``, the power set takes a more indirect route to the motor. It first goes through a velocity PID, and the output from that controller is output to the motor. This effectively means that setPower() sets the speed of the motor, not the power.
 
 If a power of .2 were fed while this mode is active, the motor will attempt to turn the same speed by fluctuating the output voltage depending on the load on the motor. This mode has one significant disadvantage, however. The max speed of the motor is somewhat significantly decreased, so it is recommended to use ``RUN_WITHOUT_ENCODER`` if possible if maximum speed is the goal; however, ``RUN_USING_ENCODER`` will provide more consistent results.
+
+.. _run_to_position:
 
 The final mode is ``RUN_TO_POSITION``. To make the motor move with this mode, the function ``setTargetPosition()`` must be called. When a power is applied to the motor, a control loop will use that as the max power and try to drive the encoder position to the target position.
 
