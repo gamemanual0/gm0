@@ -210,9 +210,3 @@ An example for a cooperative LinearOpMode would be as follows:
       }
 
    }
-
-
-Hardware-related issues
------------------------
-
-Hardware is another big source of issues that are manifested in software.
