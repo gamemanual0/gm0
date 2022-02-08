@@ -26,8 +26,6 @@ Bulk reads are a :term:`LynxCommand` that reads all sensor values (except I2C) o
 
 This became much simpler to do with SDK versions 5.4 and above, with a built-in way to easily access it. There are 3 modes available: ``OFF`` mode, ``AUTO`` mode, and ``MANUAL`` mode. Here is `the official example <https://github.com/first-tech-challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_ on how to use bulk reads.
 
-.. warning:: On SDK version 5.4, ``AUTO`` and ``MANUAL`` bulk read modes will occasionally throw a ``NullPointerException`` (see `this GitHub issue <https://github.com/first-tech-challenge/SkyStone/issues/232>`_). Note this has since been rectified in SDK version 5.5. Also note that the minimum legal SDK version for Ultimate Goal is 6.0, meaning that this is no longer an issue on a device with legal software.
-
 Off Mode
 ^^^^^^^^
 

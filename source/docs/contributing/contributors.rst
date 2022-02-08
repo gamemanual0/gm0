@@ -14,8 +14,8 @@ Managing Editors
 - Daniel - FTC 7026 JDroids - dansman805@gmail.com
 - Frank - FTC 8581 Aedificatores - fgportman00@gmail.com
 - Justin - FTC 9656 Omega - ftc9656omega@gmail.com
-- Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics -
-  nathanchu@utexas.edu
+- Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics - nathanchu@utexas.edu
+- Davy - FTC 16461 Infinite Turtles - davy@mcr.club
 
 Hardware & Electrical
 ---------------------

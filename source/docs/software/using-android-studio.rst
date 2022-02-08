@@ -142,7 +142,7 @@ Next to it you will see a dropdown for devices. When you connect your Robot Cont
 
 If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are:
 
-- `Troubleshooting the Control System <https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial>`_
+- `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
 
 If you're still stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
@@ -182,12 +182,10 @@ There should be a dependencies block at the bottom of the file.
 
     // Include common definitions from above.
     apply from: '../build.common.gradle'
-
-    repositories {
-         maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
-    }
+    apply from: '../build.dependencies.gradle'
 
     dependencies {
+         implementation project(':FtcRobotController')
          annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
     }
 
@@ -198,7 +196,9 @@ Next, you add a line in the dependencies block to implement the dependency. This
 .. code-block:: groovy
 
     dependencies {
+        implementation project(':FtcRobotController')
         annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+
         implementation 'com.package.name:name:version'
     }
 
@@ -277,7 +277,7 @@ Add ADB To PATH
 
 Adding variables to PATH:
 
-- `Windows <https://docs.alfresco.com/4.2/tasks/fot-addpath.html>`_
+- `Windows <https://docs.alfresco.com/content-services/latest/admin/troubleshoot/>`_
 - `Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
 - `macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_
 
@@ -341,7 +341,7 @@ Version control is an extremely useful tool. It allows for looking at (and rever
 As far as version control systems go, we strongly recommend git. While a git tutorial is out of scope for |gm0|, here are some git resources:
 
 * `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
-* `GitHub's collection of git resources <https://try.github.io/>`_
+* `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
 * `GitHub's guide to installing git <https://github.com/git-guides/install-git>`_
 * `GitHub Desktop, a git GUI <https://desktop.github.com/>`_
 * `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_

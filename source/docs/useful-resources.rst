@@ -16,7 +16,7 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
-`FTC Forum - FIRST <https://ftcforum.firstinspires.org/>`_:highlight:`*`  --- The official forum for FTC. Importantly, the FTC game Q&A system is here, where clarifying questions about game rules from teams are asked and answered.
+`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
 
@@ -24,7 +24,7 @@ General Resources
 
 `FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
 
-`FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value[]=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
+`FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
@@ -71,6 +71,8 @@ Part Libraries
 Generators
 ^^^^^^^^^^
 
+`Belt Generator <https://cad.onshape.com/documents/c163c756b5096bcd95e5692a/w/44c5f14084d55dd0388345f0/e/cf391d827826f30c60340bcc>`_ --- A belt generator with 5 different belt types. This allows you to create belts with teeth for cad, and to calculate required tensioning for more complex belt runs. Made by Jeremiah from FTC 10641.
+
 `HTD Pulley Generator <https://cad.onshape.com/documents/cf7b858fb3c2f64bb9c06e22/w/c6c7b1a41995e254c2bc0115/e/392361de7956ba4aab215db8>`_ --- A HTD3 and HTD5 pulley generator, with many options. This allows you to make custom pulleys which you can 3D print. Made by Henopied from FTC 18255.
 
 `GT2 3mm Pulley Generator <https://cad.onshape.com/documents/a0b589f74b21e8886d697efc/w/55a240a887adfa7bff84d0b2/e/fa7ce89bdce08e7313f9580b>`_ --- A GT2 3mm pitch pulley generator with many options. This allows you to make custom pulleys which you can 3D print.
@@ -95,6 +97,8 @@ Mechanical Design and Build
 
 `9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured>`_ --- A channel containing many useful FTC videos, especially for rookies.
 
+`Designing Competitive FTC Robots (paid) <https://www.amazon.com/dp/B09DN3999Y>`_ --- This book describes the overall approach to designing a robot including strategy, brainstorming, and prototyping.
+
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
 `FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST’s official design and build resources, including TETRIX/REV build guides.
@@ -102,6 +106,8 @@ Mechanical Design and Build
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
+
+`The Unofficial FRC Mechanism Encyclopedia <https://www.projectb.net.au/resources/robot-mechanisms/>`_ --- A page containing video examples of a bunch of FRC, FTC, and VEX mechanisms categorized by type.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
@@ -123,28 +129,26 @@ Calculators
 
 `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts an emphasis on time to target. Input a target motor, number of motors, gearing, and a wide range of elements about the drive train and electrical system. The output shows estimated peak speed, estimated sprint time, minimum system voltage, and maximum voltage while the drive train is at full speed.
 
-`Jaci's Motor Selection Tool <https://imjac.in/ta/motors>`_ --- A tool to see how different motor configurations will perform over time.
-
 `JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator based on JVN's calculator, notably adding a hooded flywheel design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `VEX's motor testing <https://motors.vex.com/>`_.
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
 `⎰ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
-`Sprocket Center-to-Center Calculator <http://www.botlanta.org/converters/dale-calc/sprocket.html>`_ --- A chain sprocket center-to-center calculator, either using the number of links to calculate center distance or using the center distance to calculate the number of links.
-
 `Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 
 Programming
 -----------
 
-`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*`  --- An  introduction to FTC programming, assuming no preexisting Java knowledge. It is also available for sale as a `paperback book <https://www.amazon.com/Learn-Java-FTC-Alan-Smith/dp/B08DBVKXLZ>`_.
+`Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*` --- An  introduction to FTC programming, assuming no preexisting Java knowledge.
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
 
 `REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
 `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
+
+`CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory created by FTC #19376 Thermal Equilibrium.
 
 `FIRST's Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of FIRST's official programming resources, including introductions to each programming tool.
 

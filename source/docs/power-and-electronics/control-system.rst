@@ -9,7 +9,7 @@ The two major manufacturers of control hubs for FTC are Modern Robotics and REV;
 
 More information about the FTC Control system can be found below:
 
-- `Official control system Wiki on GitHub <https://github.com/first-tech-challenge/skystone/wiki>`_
+- `Official control system Wiki on GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki>`_
 - `REV Expansion Hub Documentation <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
 - `Official troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 

@@ -27,8 +27,9 @@ version = release
 # ones.
 #
 extensions = [
-    "sphinx.ext.mathjax",
     "sphinx.ext.graphviz",
+    "sphinx.ext.mathjax",
+    "sphinx_design",
     "sphinxext.linkcheckdiff",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
@@ -58,6 +59,10 @@ hoverxref_mathjax = True
 mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
 
 # Disable following anchors in URLS for linkcheck
+linkcheck_ignore = [
+    r".*andymark.com.*"
+]
+
 linkcheck_anchors = False
 
 # Configure linkcheck
