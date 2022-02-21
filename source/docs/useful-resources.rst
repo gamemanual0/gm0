@@ -28,7 +28,7 @@ General Resources
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
-`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC 3847, Spectrum. While these resources are not aimed at FTC, many are directly relevant to FTC.
+`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
 
 Team Management
 ---------------
