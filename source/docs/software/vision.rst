@@ -13,9 +13,9 @@ TensorFlow
 
 TensorFlow is Google’s machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google’s TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
 
-Sample OpModes for TensorFlow being used for mineral detection (Ultimate Goal) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-TensorFlow-Object-Detection-Op-Mode>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-TensorFlow-Object-Detection-Op-Mode>`_.
+Sample OpModes for TensorFlow being used for mineral detection (Ultimate Goal) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-TensorFlow-Object-Detection-Op-Mode>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-TensorFlow-Object-Detection-Op-Mode>`__.
 
-FIRST has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found here `here <https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf>`_.
+FIRST has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found here `here <https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf>`__.
 
 Vuforia
 ^^^^^^^
