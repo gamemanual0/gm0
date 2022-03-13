@@ -27,7 +27,7 @@ You can find Vuforia Java samples in the FTC `here <https://github.com/FIRST-Tec
 EasyOpenCV
 ----------
 
-EasyOpenCV is an easy way to use openCV with the FTC SDK. EasyOpenCV is the most powerful form of computer vision, but it is also the hardest to use. It is also the only vision software here that is NOT built into the SDK and only supports Android Studio. Therefore, we can only recommend EasyOpenCV to more advanced teams.
+EasyOpenCV is an easy way to use openCV with the FTC SDK. EasyOpenCV is the most powerful form of computer vision, but it is also the hardest to use. It is also the only vision software here that is NOT built into the SDK and only supports OnBot Java and Android Studio. Therefore, we can only recommend EasyOpenCV to more advanced teams.
 
 You can learn more about EasyOpenCV `here <https://github.com/OpenFTC/EasyOpenCV>`__. Examples can be found `here <https://github.com/OpenFTC/EasyOpenCV/tree/master/examples/src/main/java/org/firstinspires/ftc/teamcode>`__.
 
