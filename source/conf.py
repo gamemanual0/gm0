@@ -32,6 +32,7 @@ extensions = [
     "sphinx_design",
     "sphinxext.linkcheckdiff",
     "sphinxext.opengraph",
+    "sphinxext.photofinish",
     "sphinxext.rediraffe",
     "hoverxref.extension"
 ]

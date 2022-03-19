@@ -15,6 +15,7 @@ sphinx-design = "==0.0.13"
 sphinx-hoverxref = "==0.5b1"
 sphinx-tabs = "==2.0.0"
 sphinxext-linkcheckdiff = "==0.1.0"
+sphinxext-photofinish = "==0.1.8"
 sphinxext-opengraph = "==0.4.1"
 sphinxext-rediraffe = "==0.2.5"
 
