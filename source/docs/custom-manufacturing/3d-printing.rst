@@ -10,6 +10,8 @@ There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) 
 
 Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
 
+.. note:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
+
 Advantages of 3D Printing
 -------------------------
 
@@ -34,7 +36,7 @@ Common Filament Types
 PLA (Polylactic Acid)
 ^^^^^^^^^^^^^^^^^^^^^
 
-PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to stock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
+PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to shock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
 
 - PLA hotend temperatures range from 190°-220° C
 - PLA bed temperatures range from 20°-60° C
@@ -42,7 +44,7 @@ PLA is a common filament that does not require a heated bed. PLA is stiff but mo
 ABS (Acrylonitrile Butadiene Styrene)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ABS is another very common filament that can withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels. It can be more difficult to print, however. And often requires an enclosure to help increase the ambient temperature of the print environment.
+ABS is another very common filament that can withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels. It can be more difficult to print, however, often requiring an enclosure to help increase the ambient temperature of the print environment.
 
 - ABS hotend temperatures range from 230°-250° C
 - ABS bed temperatures range from 100°-120° C
@@ -51,6 +53,8 @@ PET/PETG (Polyethylene Terephthalate)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 PET/PETG can be described as a mix of PLA and ABS. It is not as impact-resistant as ABS, and not as stiff as PLA, but it can withstand higher temperatures (it will hold shape in a hot car unlike PLA). It is comparable in printing difficulty to PLA and can be printed on most printers out of the box. It is a great option for many FTC parts.
+
+.. warning:: Don't print PETG on bare glass! It can bond so well it removes chunks! It can be good to add some glue stick or hairspray before you start your print.
 
 - PETG hotend temperatures range from 230°-260° C
 - PETG bed temperatures range from 60°-80° C
