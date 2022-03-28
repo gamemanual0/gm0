@@ -10,7 +10,7 @@ There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) 
 
 Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
 
-.. note:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3d printing, tuning, and hardware choices.
+.. note:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
 
 Advantages of 3D Printing
 -------------------------

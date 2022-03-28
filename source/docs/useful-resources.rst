@@ -93,7 +93,7 @@ Mechanical Design and Build
 
 `9794 Wizards.exe <https://www.youtube.com/channel/UC988iYaWDOF7Fpv6HqN-wjQ/featured>`_ --- A channel containing many useful FTC videos, especially for rookies.
 
-`COREFTC <https://www.coreftc.org/>`_ --- A complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3d printing, tuning, and hardware choices.
+`COREFTC <https://www.coreftc.org/>`_ --- A complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
 
 `Designing Competitive FTC Robots (paid) <https://www.amazon.com/dp/B09DN3999Y>`_ --- This book describes the overall approach to designing a robot including strategy, brainstorming, and prototyping.
 
