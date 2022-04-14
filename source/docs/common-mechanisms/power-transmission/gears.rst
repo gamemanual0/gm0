@@ -18,7 +18,7 @@ Terms
 
      PD = Module * Number\ of\ Teeth
 
-     PD = \frac{Number\ of\ Teeth}{PD}
+     DP = \frac{Number\ of\ Teeth}{PD}
 
      PD = OD - (2 * Module)
 
