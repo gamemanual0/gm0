@@ -140,7 +140,7 @@ Programming
 
 `Learn Java for FTC <https://raw.githubusercontent.com/alan412/LearnJavaForFTC/master/LearnJavaForFTC.pdf>`_:highlight:`*` --- An  introduction to FTC programming, assuming no preexisting Java knowledge.
 
-`FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://first-tech-challenge.github.io/FtcRobotController/>`_.
+`FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://javadoc.io/doc/org.firstinspires.ftc>`_.
 
 `REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
