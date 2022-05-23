@@ -12,6 +12,7 @@ This section covers the basics of software for FTC.
    using-the-sdk
    common-issues
    mecanum-drive
+   gamepad
    control-loops
    finite-state-machines
    vision

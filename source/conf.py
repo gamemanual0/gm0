@@ -52,6 +52,9 @@ rst_epilog = """
 """
 # Enable hover content on glossary terms
 hoverxref_roles = ["term"]
+hoverxref_role_types = {
+    "term": "tooltip",
+}
 
 # Required to display LaTeX in hover content
 hoverxref_mathjax = True
