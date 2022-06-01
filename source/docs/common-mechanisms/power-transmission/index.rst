@@ -5,7 +5,7 @@ When building any mechanism, it is important to consider how the mechanism will 
 
 .. toctree::
    :maxdepth: 1
-	
+
    motion-mounting
    direct-drive
    gears
