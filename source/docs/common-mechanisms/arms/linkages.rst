@@ -3,27 +3,31 @@ Linkages
 
 There are many different types of :term:`linkages <Linkage>`. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
 
-Linkage Slides
+Considerations
 --------------
 
-A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linakge with multi degree linkage eyes is used to construct this linkage.
+There are several things to consider when constructing a linkage.
+
+- Over-centering is when a linkage is rotated past its center point (usually the point where both bars of the linkage are parallel). Driving a linkage over center can have some benefits, like making the linkage harder to backdrive. See this `informational youtube video <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. Essentially, linkages can form a structure where pushing on the linkage moves the robot instead of rotating the linkage.
+- Linkages will not have a constant linear speed or force, with a linkage they generally reach a maximum speed and force when the bars are perpendicular, then the speed and force will decrease as the linkage is rotated farther.
+- Cadding the linkage can be useful to check if it will do what you want it to do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_ for an example of how to set up the mates in OnShape.
+
+Common Linkage Types
+--------------------
+
+Linkage Slides
+^^^^^^^^^^^^^^
+
+A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linakge with multi degree ball linkage components are used to construct this linkage.
 
 .. figure:: images/linkages/7236-linkage-slides.png
    :alt: A picture of a 7236 Recharged Green linkage driven slides
 
    7236 Recharged Green, Skystone
 
-Considerations
-^^^^^^^^^^^^^^
-
-There are several things to consider when constructing a simple linkage.
-
-- Over-centering is when a linkage is rotated past its center point (usually the point where both bars of the linkage are parallel). Driving a linkage over center can have some benefits, like making the linkage harder to backdrive. See this `informational youtube video <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. Essentially, linkages can form a structure where pushing on the linkage moves the robot instead of rotating the linkage.
-- Linkages will not have a constant linear speed or force, with a simple linkage they generally reach a maximum speed and force when the two bars are perpendicular, then the speed and force will decrease as the linkage is rotated farther.
-- Cadding the linkage can be useful to check if it will do what you want it to do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_ for an example of how to set up the mates in OnShape.
 
 Four Bar
---------
+^^^^^^^^
 
 One type of linkage is called a four bar linkage. This is a linkage that keeps the end bar at the same angle to the ground at all times. For example, if the end bar of a virtual four bar is parallel to the ground when retracted, it will be parallel to the ground at all times, even when rotated fully out. This is beneficial for mechanisms like claws, which you want parallel to the ground during operation. In addition, four bars can provide extension outside of the robot frame, and generally provide both vertical and horizontal extension due to the "arc" that the arm follows. Also, the construction material of the four bar can be carefully selected to save weight.
 
@@ -37,7 +41,7 @@ Here is an `example <https://cad.onshape.com/documents/45549489f570f3694569a2df/
    VEX Robotics Four Bar Claw
 
 Virtual Four Bar
---------------------------------
+^^^^^^^^^^^^^^^^
 
 The more popular alternative to the Four Bar linkage is a Virtual Four Bar. While not technically a linkage, a virtual four bar uses chains or belts to create an effect similar to a four bar, where the end effector is kept at a fixed angle to the ground at all times. Because the need for additional bars are eliminated, this "linkage" can travel more then 180 degrees, and also can take up less space then a traditional four bar linkage.
 
@@ -51,7 +55,7 @@ Note: Both chain and belt can be used to construct a virtual four bar, and there
    7244 OUT of the BOX Robotics, Ultimate Goal
 
 Double-Reverse Four Bar
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 The double reverse four bar is an extension of the four bar linkage that allows for more extension. A double reverse four bar consists of a four bar linkage with a second four bar linkage mounted to the end of the first. This allows for purely linear extension, as opposed to the "arc" that a single four bar will take. The end effector will still stay at a fixed angle to the ground due to the purely linear extension.
 
@@ -63,7 +67,7 @@ This mechanism is not widely used in FTC due to the generally large space requir
    11115 Gluten Free, Skystone
 
 Virtual Double-Reverse Four Bar
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion then a double-reverse four bar, and can also extend in both directions.
 
