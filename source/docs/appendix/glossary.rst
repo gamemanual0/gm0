@@ -359,7 +359,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
    Linear Actuator
       Linear actuators are basically :term:`servos <Servo>` that translate their output into linear motion, instead of rotational motion. Linear actuators are rarely used in FTC due to its prohibitive cost, but they may have some uses in special applications.
-	  
+
    Linkage
       A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
 

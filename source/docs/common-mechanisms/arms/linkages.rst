@@ -1,26 +1,26 @@
 Linkages
 ===========================
 
-There are many different types of :term:`linkages <Linkage>`. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desireable for certain mechanisms. 
+There are many different types of :term:`linkages <Linkage>`. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
 
 Linkage Slides
 --------------
 
-A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linakge with multi degree linkage eyes is used to construct this linkage. 
+A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linakge with multi degree linkage eyes is used to construct this linkage.
 
 .. figure:: images/linkages/7236-linkage-slides.png
    :alt: A picture of a 7236 Recharged Green linkage driven slides
-   
+
    7236 Recharged Green, Skystone
-   
+
 Considerations
 ^^^^^^^^^^^^^^
 
 There are several things to consider when constructing a simple linkage.
 
-- Over-centering is when a linkage is rotated past its center point (usually the point where both bars of the linkage are parallel). Driving a linkage over center can have some benefits, like making the linkage harder to backdrive. See this `informational youtube video <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details
+- Over-centering is when a linkage is rotated past its center point (usually the point where both bars of the linkage are parallel). Driving a linkage over center can have some benefits, like making the linkage harder to backdrive. See this `informational youtube video <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. Essentially, linkages can form a structure where pushing on the linkage moves the robot instead of rotating the linkage.
 - Linkages will not have a constant linear speed or force, with a simple linkage they generally reach a maximum speed and force when the two bars are perpendicular, then the speed and force will decrease as the linkage is rotated farther.
-- Cadding the linkage can be useful to check if it will do what you want it to do. See this `informational youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_ for an example. 
+- Cadding the linkage can be useful to check if it will do what you want it to do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_ for an example of how to set up the mates in OnShape.
 
 Four Bar
 --------
@@ -33,7 +33,7 @@ Here is an `example <https://cad.onshape.com/documents/45549489f570f3694569a2df/
 
 .. figure:: images/linkages/vex-four-bar.png
    :alt: A picture of a VEX Four Bar
-   
+
    VEX Robotics Four Bar Claw
 
 Virtual Four Bar
@@ -47,7 +47,7 @@ Note: Both chain and belt can be used to construct a virtual four bar, and there
 
 .. figure:: images/linkages/7244-v4b.jpg
    :alt: 7244 OUT of the BOX Robotics Virtual Four Bar
-   
+
    7244 OUT of the BOX Robotics, Ultimate Goal
 
 Double-Reverse Four Bar
@@ -59,15 +59,15 @@ This mechanism is not widely used in FTC due to the generally large space requir
 
 .. figure:: images/linkages/11115-dr4b.jpg
    :alt: 11115 Gluten Free Double Reverse Four Bar
-   
+
    11115 Gluten Free, Skystone
 
 Virtual Double-Reverse Four Bar
 --------------------------------
 
-Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion then a double-reverse four bar, and can also extend in both directions. 
+Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion then a double-reverse four bar, and can also extend in both directions.
 
 .. figure:: images/linkages/8644-vdr4b.png
    :alt: 8644 Brainstormers Virtual Double Reverse Four Bar
-   
+
    8644 Brainstormers, Freight Frenzy
