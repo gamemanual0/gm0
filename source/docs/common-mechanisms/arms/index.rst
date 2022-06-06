@@ -32,5 +32,5 @@ Types of Arms
    :maxdepth: 1
 
    single-arm
-   chain-bar-arm
+   linkages
    multi-axis-arm
