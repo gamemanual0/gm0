@@ -7,7 +7,7 @@ These slides are available from a number of different vendors, and come in many 
 
 Igus is a brand known and trusted by robotics teams and manufacturers, but their parts are certainly not cheap, and can reach into the $100+ range.
 
-**If linear slide kits aren't for you, we recommend the Viper Slides or MiSUMI slides for newer teams.** MiSUMI slides interface better with REV products, while Viper Slides are cheaper and interface better with goBilda products.
+**We recommend the Viper Slides or MiSUMI slides for newer teams.** Viper Slides are cheaper and interface better with goBILDA products, while MiSUMI slides interface better with REV products. Viper slides are also available in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_
 
 .. attention:: Drawer slides should be mounted oriented vertically, like in an actual drawer. They can be mounted horizontally, but this is not recommended as they will sag much more.
 
