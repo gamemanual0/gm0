@@ -43,7 +43,7 @@ Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors <Neve
 Planetary Gearboxes
 -------------------
 
-Standard planetary gearboxes include :term:`Andymark NeveRest Orbital motors <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and :term:`goBILDA's 5202 Series Yellow Jacket Motors <Yellow Jacket Motor>`.
+Standard planetary gearboxes include :term:`Andymark NeveRest Orbital motors <NeveRest Motor>`, :term:`REV 20:1 Planetary motor <HD Hex Motor>`, and :term:`goBILDA's 5202/5203/5204 Series Yellow Jacket Motors <Yellow Jacket Motor>`.
 
 Any of these “standard” gearboxes are more robust than spur gearboxes. Like the spur gearboxes, the gearboxes from different vendors, while not interchangeable, are very comparable in terms of robustness. Once again, the main thing to consider here is your desired reduction, your desired motor connections, and your desired output :term:`shaft <Shaft>` type.
 
