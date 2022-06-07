@@ -96,7 +96,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 ^^^^^^^^^^^^^^^^^^^^^^
 
 - `CAD <https://myhub.autodesk360.com/ue2b699be/g/shares/SH56a43QTfd62c1cd968e7fc6e5b3808809c>`__
-- `Robot Description Flyer <https://qrobotics.eu/media/resources/2018-2019/mti.pdf>`__
+- `Robot Description Flyer <https://qrobotics.blob.core.windows.net/2018/mti.pdf>`__
 - `Practice Match Video <https://www.youtube.com/watch?v=v4Jpfe0eJUc>`__
 - `Robot Reveal Video <https://www.youtube.com/watch?v=v4XP_VJ7nZU>`__
 

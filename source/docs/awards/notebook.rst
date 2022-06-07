@@ -128,7 +128,7 @@ Notebook Gallery
 - Rover Ruckus
 
   - `9794 <https://drive.google.com/file/d/1qwtWxqy3eQ7hpiGFmD433G6NOsZ74guo/view>`_
-  - `14270 <https://qrobotics.eu/media/resources/2018-2019/engineering.pdf>`_
+  - `14270 <https://qrobotics.blob.core.windows.net/2018/engineering.pdf>`_
 - Skystone
 
   - `11115 <https://drive.google.com/drive/folders/1kn8IKYeHo152oeEQ1JJz-Gwenh02U-9a>`_
