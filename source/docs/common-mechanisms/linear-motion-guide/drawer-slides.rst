@@ -98,7 +98,7 @@ Disadvantages
 Long Robotics Slides
 --------------------
 
-.. warning:: Due to the tendency of the endstops to fail, as well as inconsistent jamming issues on the slides, Long Robotics slides are no longer recommended to purchase unless absolutele needed
+.. warning:: Due to the tendency of the endstops to fail, as well as inconsistent jamming issues on the slides, Long Robotics slides are no longer recommended to purchase
 
 The `Long Robotics <https://longrobotics.com/>`_ slides are also used by teams because they are almost as smooth as MiSUMI slides due to the ball bearing system but slightly cheaper.
 
