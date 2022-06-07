@@ -53,7 +53,7 @@ Any of these “standard” gearboxes are more robust than spur gearboxes. Like 
 - `REV UltraPlanetary <https://www.revrobotics.com/rev-41-1600/>`_ gearbox - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix & matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and a maximum of 125:1.
 
   .. note::
-    While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual gear ratios are slightly off. Consult the `REV UltraPlanetary User's Manual for the exact gear ratios <https://docs.revrobotics.com/ultraplanetary/ultraplanetary-gearbox/cartridge-details>`_.
+    While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual gear ratios are slightly different. Consult the `REV UltraPlanetary User's Manual for the exact gear ratios <https://docs.revrobotics.com/ultraplanetary/ultraplanetary-gearbox/cartridge-details>`_.
 
   The UltraPlanetary was intended to give teams maximum customization without the typical limiting factor - high cost. The total cost for the three stage gearbox and motor is *exceptionally* good value for a customizable motor. In addition, the UltraPlanetary has a female 5mm hex output :term:`shaft <Shaft>` which allows teams to customize the shaft length.
 
