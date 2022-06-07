@@ -4,7 +4,7 @@ Servo Usage Tips
 Below are some tips on using servos in FTC.
 
 - Do not backdrive :term:`servos <Servo>`. Forcibly rotating a powered :term:`servo <Servo>` away from its position risks damaging the internal :term:`gears <Gear>`.
-- Pay attention to a servo's travel range! The FTC API, by default, outputs 600-2400 µs. ``ServoImplEx`` can be used to increase the range to a maximum of 500-2500 µs (make sure you set the servo type in the hardware configuration to ``ServoImplEx``)
+- Pay attention to a servo's travel range! The FTC API, by default, outputs 600-2400 µs. ``ServoImplEx`` can be used to increase the range to a maximum of 500-2500 µs
 
   .. code:: java
 
