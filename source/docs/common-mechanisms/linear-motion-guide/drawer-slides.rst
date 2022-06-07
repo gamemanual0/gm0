@@ -77,7 +77,7 @@ Viper Slides
 
 `goBilda Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the goBilda ecosystem. They are COTS steel drawer slides that can be purchased in a kit with all the parts needed to assemble and rig them right away.
 
-They use M4 mounting bolts, and are on the standard 8mm goBilda pattern.
+They use M4 mounting bolts, and are on the standard 8 mm goBilda pattern.
 
 Advantages
 ^^^^^^^^^^
