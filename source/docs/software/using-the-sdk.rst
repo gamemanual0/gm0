@@ -160,4 +160,4 @@ These times may seem fast, but they add up quickly. Consider a control loop to d
 
 This means that it is critical to minimize the amount of hardware calls you make in order to keep your control loops running fast. For instance, do not read a sensor more than once per loop. Instead, read it once and store the value to a variable if you need to use it again at other points in the same loop cycle.
 
-Using a bulk read hardware call can help with this problem. A bulk read takes the same 3ms to execute as any other normal hardware call, but it returns far more data. In order to be able to use bulk reads, you must either be running SDK v5.4 or higher.
+Using a bulk read hardware call can help with this problem. A bulk read takes the same 3ms to execute as any other normal hardware call, but it returns far more data. In order to be able to use bulk reads, you must be running SDK v5.4 or higher.
