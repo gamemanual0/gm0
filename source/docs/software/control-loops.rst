@@ -252,4 +252,4 @@ Here is some pseudocode for a trapezoidal profile:
 
       previous_time = current_time
 
-A more advanced example of the math for motion profile generation as used in the `Road-runner library <https://github.com/acmerobotics/road-runner>`_ can be found in this `Jupyter Notebook <https://mybinder.org/v2/gh/acmerobotics/road-runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_.
+A more advanced example of the math for motion profile generation as used in the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ can be found in this `Jupyter Notebook <https://mybinder.org/v2/gh/acmerobotics/road-runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_.
