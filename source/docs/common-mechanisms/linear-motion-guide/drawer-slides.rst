@@ -102,7 +102,7 @@ Long Robotics Slides
 
 The `Long Robotics <https://longrobotics.com/>`_ slides are also used by teams because they are almost as smooth as MiSUMI slides due to the ball bearing system but slightly cheaper.
 
-They utilize M4 mounting bolts. They even can mount directly to goBILDA channel. They are virtually identical to the SAR2 series of MiSUMI slides.
+They utilize M4 mounting bolts, and can mount directly to goBILDA channel. They are virtually identical to the SAR2 series of MiSUMI slides.
 
 The manufacturer website has CAD files for 3D printed inserts that go between the slides, which V-bearings are mounted to. V-bearings are `available from Long Robotics <https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>`_. To attach slides, one will need to purchase **countersunk M4 screws**, which are `also available from Long Robotics <https://longrobotics.com/product/6mm-d-low-head-10mm-m4-screw-10-pack-t10-torx-drive/>`_.
 
