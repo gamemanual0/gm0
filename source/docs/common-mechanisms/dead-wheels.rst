@@ -115,7 +115,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
 
-The `SRX Mag Encoder <http://www.ctr-electronics.com/srx-magnetic-encoder.html>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
+The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
 
 .. figure:: images/odometry/srx-mag.jpg
    :alt: A CTRE SRX Mag encoder
