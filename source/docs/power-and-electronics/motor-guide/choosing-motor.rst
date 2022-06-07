@@ -31,7 +31,7 @@ Available Spur Gearboxes and Motors
 -----------------------------------
 
 .. danger::
-	Spur gearboxes are NOT recommended due to their shorter lifespan and lower mechanical resiliance compared to planetary gearboxes. If you are purchasing new motors, it is highly suggested to purchase planetary gearbox motors instead. Care should be taken to not put load on the output shaft of a spur gearbox. In perticular, spur gear motors should NOT be used in high load applications, such as a drivetrain
+  Spur gearboxes are NOT recommended due to their shorter lifespan and lower mechanical resiliance compared to planetary gearboxes. If you are purchasing new motors, it is highly suggested to purchase planetary gearbox motors instead. Care should be taken to not put load on the output shaft of a spur gearbox. In perticular, spur gear motors should NOT be used in high load applications, such as a drivetrain
 
 Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors <NeveRest Motor>` (in 40:1 and 60:1 ratios), the :term:`REV HD Hex 40:1 Spur motor <HD Hex Motor>`, and goBILDA 5201 Series Yellow Jacket Spur Gear Motors. All of them offer similar performance and reliability, so your choice is primarily dictated by the convenience of mounting and connecting to the rest of your design (e.g., if you use REV kit, you should probably choose :term:`REV HD Hex motor <HD Hex Motor>`, as it uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
 

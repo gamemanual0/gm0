@@ -77,7 +77,7 @@ Viper Slides
 
 `goBilda Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the goBilda ecosystem. They are COTS steel drawer slides that can be purchased in a kit with all the parts needed to assemble and rig them right away.
 
-They use M4 mounting bolts, and are on the standard 8mm goBilda pattern. 
+They use M4 mounting bolts, and are on the standard 8mm goBilda pattern.
 
 Advantages
 ^^^^^^^^^^
@@ -122,4 +122,4 @@ Disadvantages
 - Can be difficult to mount to kit systems which aren't :term:`extrusion <Extrusion>` based or don't have holes spaced at 8 mm apart
 - Steel ball bearings wear into the aluminum rails over time, introducing play
 - The endstops on the slides have been known to fail, spilling ball bearings out of the slide onto the field
-- Slides have been known to seize and jam on occassion
+- Slides have been known to seize and jam on occasion

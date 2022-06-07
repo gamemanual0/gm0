@@ -31,7 +31,7 @@ OpMode Methods
 - ``loop()``: Once the code in ``start()`` has been run, code inside this method will run continuously until the STOP button is pressed on the driver station.
 - ``stop()``: Code inside this method will run exactly once after you press the STOP button on the driver station.
 
-.. note:: Unlike LinearOpMode, all methods in OpMode must be overwritten to be used.  
+.. note:: Unlike LinearOpMode, all methods in OpMode must be overwritten to be used.
 
 Reading and Writing to Hardware
 -------------------------------
