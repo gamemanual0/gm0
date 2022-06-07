@@ -147,7 +147,7 @@ PID Controller Sample Rate
 For teams who desire the most performance out of their PID controller,
 it is essential to consider the Sample rate of the controller.
 The Sample rate is when the controller updates its output given new sensor data.
-Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://youtu.be/fusr9eTceEo?t=133>`_ to see how sample rate effects stability in a practical motor control example.
+Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample rate effects stability in a practical motor control example.
 The inbuilt PID controller is locked at a 20hz refresh rate (50ms sample rate). Many top FTC teams optimize their robot loops to run at up to 80hz,
 achieving *much* more stable control with an external PID.
 
