@@ -22,6 +22,7 @@ General Advice
 
 - **Always label wires! When bunched up, you may not know which wire goes into which port**.
 - Tie together loose wires, and better yet, tie that bunch of wires to a structural component. This will ensure that wires don't interfere with your mechanisms.
+- **Pay attention to port numbers!** The rev hub will often have multiple ports per connector on the REV hub. `REV has a pinout guide to avoid confusion <https://docs.revrobotics.com/rev-control-system/control-system-overview/port-pinouts>`_.
 - **Treat every wire connection as a point of failure**. Therefore, use electrical tape to tape up and insulate connections and utilize strain relief as much as possible.
 - **Strain relief** should be used everywhere possible. It is highly recommended for teams to use products like the :term:`REV USB Retention Mount <USB Retention Mount>`, as well as 3D printing strain relief methods for devices such as the :term:`Expansion Hub` and robot controller phones.
 - **DO NOT solder a wire before crimping it**. Solder can "creep" and losing connection is possible, possibly leading to fire.

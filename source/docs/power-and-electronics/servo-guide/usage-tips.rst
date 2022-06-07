@@ -4,6 +4,13 @@ Servo Usage Tips
 Below are some tips on using servos in FTC.
 
 - Do not backdrive :term:`servos <Servo>`. Forcibly rotating a powered :term:`servo <Servo>` away from its position risks damaging the internal :term:`gears <Gear>`.
+- Pay attention to a servo's travel range! The FTC API, by default, outputs 600-2400 µs. ``ServoImplEx`` can be used to increase the range to a maximum of 500-2500 µs
+
+  .. code:: java
+
+     ServoImplEx servo = hardwareMap.get(ServoImplEx.class, "myservo");
+     // ...
+     servo.setPwmRange(new PwmRange(500, 2500));
 - :term:`Servo` wires usually are black-red-white. Matching the colors is an easy way to check if the servo is plugged in correctly. :term:`Servo` connectors provide no protection from plugging them the wrong way: if you rotate it 180 degrees, it will still fit - but the :term:`servo <Servo>` would not work. (It wouldn't be damaged, though). Thus, if your :term:`servo <Servo>` is not working, first check if they are plugged in correctly. Then check it again.
 - When using :term:`servo <Servo>` wire extensions, use `retaining clips <https://www.gobilda.com/servo-connector-clip-yellow-6-pack/>`_ to prevent the connection from coming apart when someone pulls on the wire. Alternatively, electrical tape will work in a pinch.
 - Do not use socket head screws to attach :term:`servos <Servo>` - when tightened, they will damage the plastic. Use button head screws or socket heads with a washer.

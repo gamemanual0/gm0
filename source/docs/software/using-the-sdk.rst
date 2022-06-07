@@ -1,6 +1,8 @@
 Using the FTC SDK
 =================
 
+`Check out the official FTC SDK Example Programs here! <https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`_
+
 LinearOpMode vs OpMode
 ----------------------
 
@@ -10,6 +12,8 @@ There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``
 
 LinearOpMode Methods
 ^^^^^^^^^^^^^^^^^^^^
+
+.. note:: LinearOpMode is generally preferred due to OpMode having built in speed limiting as well as being prone to random delays.
 
 - ``runOpMode()``: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.
 - ``waitForStart()``: This method pauses the Op-Mode until you press the START button on the driver station.
@@ -156,4 +160,4 @@ These times may seem fast, but they add up quickly. Consider a control loop to d
 
 This means that it is critical to minimize the amount of hardware calls you make in order to keep your control loops running fast. For instance, do not read a sensor more than once per loop. Instead, read it once and store the value to a variable if you need to use it again at other points in the same loop cycle.
 
-Using a bulk read hardware call can help with this problem. A bulk read takes the same 3ms to execute as any other normal hardware call, but it returns far more data. In order to be able to use bulk reads, you must either be running SDK v5.4 or higher, or use `RevExtensions2 <https://github.com/OpenFTC/RevExtensions2/>`_.
+Using a bulk read hardware call can help with this problem. A bulk read takes the same 3ms to execute as any other normal hardware call, but it returns far more data. In order to be able to use bulk reads, you must be running SDK v5.4 or higher.

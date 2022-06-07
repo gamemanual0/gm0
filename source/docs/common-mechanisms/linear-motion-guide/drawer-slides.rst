@@ -3,11 +3,11 @@ Drawer Slides
 
 You’ve *definitely* used a drawer slide before - at least two of them are mounted to almost any drawer that you’ve opened. Teams use these drawer slides for linear motion, often stacking them using 3D printed spacers to achieve plenty of extension.
 
-These slides are available from a number of different vendors, and come in many varieties, so choosing the right slide can seem overwhelming. Steel drawer slides are common, but can be hard to mount, as they aren’t made to be stacked. Aluminum drawer slides, such as the MiSUMI slides or Long Robotics slides are generally the best option for teams.
+These slides are available from a number of different vendors, and come in many varieties, so choosing the right slide can seem overwhelming. Steel drawer slides are common, but can be hard to mount, as they aren’t made to be stacked. Aluminum drawer slides, such as the MiSUMI slides, are generally the best option for teams.
 
 Igus is a brand known and trusted by robotics teams and manufacturers, but their parts are certainly not cheap, and can reach into the $100+ range.
 
-**If linear slide kits aren't for you, we recommend the Long Robotics or MiSUMI slides for newer teams.** MiSUMI slides interface better with REV products, while Long Robotics slides work well with :term:`extrusion <Extrusion>` based building systems or those that have 8mm pitch holes (such as goBILDA), are cheaper, and are of comparable quality.
+**We recommend the Viper Slides or MiSUMI slides for newer teams.** Viper Slides are cheaper and interface better with goBILDA products, while MiSUMI slides interface better with REV products. Viper slides are also available in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_
 
 .. attention:: Drawer slides should be mounted oriented vertically, like in an actual drawer. They can be mounted horizontally, but this is not recommended as they will sag much more.
 
@@ -72,12 +72,37 @@ Disadvantages
 - 3D printed spacers may be required
 - Steel ball bearings wear into the aluminum rails over time, introducing play
 
+Viper Slides
+------------
+
+`goBILDA Viper Slides <https://www.gobilda.com/steel-viper-slide-14-ball-carriage-336mm-length-244mm-travel/>`_ are a relatively new addition to the goBilda ecosystem. They are COTS steel drawer slides that can be purchased in `a kit with all the parts needed to assemble and rig them right away <https://www.gobilda.com/2-stage-viper-slide-kit/>`_.
+
+They use M4 mounting bolts, and are on the standard 8 mm goBilda pattern.
+
+Advantages
+^^^^^^^^^^
+
+- Slide are smooth due to ball bearings
+- Compatible with goBILDA ecosystem
+- Steel slides can handle more load (can use one set of slides instead of two in many situations)
+- Available in a kit with everything you need to start using in one purchase
+- Longer stroke (more extension) then the same length misumi slide
+- Cheaper then misumi slides
+
+Disadvantages
+^^^^^^^^^^^^^
+
+- Twice as heavy per slide compared to misumi slides
+- Recommended to mount slides to channel to prevent bending
+
 Long Robotics Slides
 --------------------
 
-The `Long Robotics <https://longrobotics.com/>`_ slides are also used by top-tier teams because they are sturdy, reliable, and almost as smooth as MiSUMI slides due to the ball bearing system.
+.. warning:: Due to the tendency of the endstops to fail, as well as inconsistent jamming issues on the slides, Long Robotics slides are no longer recommended to purchase
 
-They are low profile, and utilize M4 mounting bolts. They even can mount directly to goBILDA channel. They are very comparable to the SAR2 series of MiSUMI slides, and are significantly cheaper.
+The `Long Robotics <https://longrobotics.com/>`_ slides are also used by teams because they are almost as smooth as MiSUMI slides due to the ball bearing system but slightly cheaper.
+
+They utilize M4 mounting bolts, and can mount directly to goBILDA channel. They are virtually identical to the SAR2 series of MiSUMI slides.
 
 The manufacturer website has CAD files for 3D printed inserts that go between the slides, which V-bearings are mounted to. V-bearings are `available from Long Robotics <https://longrobotics.com/product/3x12x4mm-v-bearing-10-pack/>`_. To attach slides, one will need to purchase **countersunk M4 screws**, which are `also available from Long Robotics <https://longrobotics.com/product/6mm-d-low-head-10mm-m4-screw-10-pack-t10-torx-drive/>`_.
 
@@ -86,10 +111,9 @@ These are available in both a `300 mm rail length option <https://longrobotics.c
 Advantages
 ^^^^^^^^^^
 
-- Very good slide smoothness due to ball bearings
-- Can handle relatively heavy load (within reason)
+- Slide are smooth due to ball bearings
 - Compatible with goBILDA channel
-- Cheaper than MiSUMI slides for comparable performance
+- Cheaper than MiSUMI slides
 
 Disadvantages
 ^^^^^^^^^^^^^
@@ -97,23 +121,5 @@ Disadvantages
 - 3D Printed spacers are almost required; while other solutions exist, 3D Printed spacers are the simplest and lowest-risk
 - Can be difficult to mount to kit systems which aren't :term:`extrusion <Extrusion>` based or don't have holes spaced at 8 mm apart
 - Steel ball bearings wear into the aluminum rails over time, introducing play
-
-Igus Slides
------------
-
-Igus slides used to be a popular option among top teams for linear extension back in the earlier days of FTC. However, with the arrival of MiSUMI slides, they have decreased in popularity due to their tendency to bind. However, if your team is looking for a high-load or special use case, by all means explore this option.
-
-.. figure:: images/drawer-slides/7236-sar3.png
-   :alt: 7236's Rover Ruckus robot with its slides extended
-
-   7236 Recharged Green, Rover Ruckus, Misumi SAR3
-
-.. figure:: images/drawer-slides/6929-sar3.png
-   :alt: 6929's Rover Ruckus robot with its slides extended
-
-   6929 Data Force, Rover Ruckus, Misumi SAR3
-
-.. figure:: images/drawer-slides/5143-Sar-2.png
-   :alt: 5143's Skystone robot with its lift fully extended
-
-   5143 Xcentrics, Skystone, Misumi SAR2
+- The endstops on the slides have been known to fail, spilling ball bearings out of the slide onto the field
+- Slides have been known to seize and jam on occasion

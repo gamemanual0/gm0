@@ -39,7 +39,7 @@ Some common types of exceptions include:
 
     }
 
-  - This can be fixed moving the "motor" variable value definition to the init (or ``runOpMode()`` in LinearOpModes) method as follows:
+  - This can be fixed moving the "Servo" variable value definition to the init (or ``runOpMode()`` in LinearOpModes) method as follows:
 
   .. code:: java
 

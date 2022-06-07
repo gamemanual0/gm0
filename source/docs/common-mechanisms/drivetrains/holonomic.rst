@@ -24,6 +24,8 @@ Due to the fact that mecanum wheels are more likely to slip because of the diago
 
    The primary reason for this is that it allows the drivetrain to turn significantly faster than it would otherwise be able to. When using the suggested setup, when viewed from the robot’s underside, the rollers form a rhombus. This allows the force applied by the wheels on the ground to act tangent to the turn radius, leading to faster turning.
 
+   See `this video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ and `this other video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ for a more in depth explanation.
+
 Advantages
 ^^^^^^^^^^
 
