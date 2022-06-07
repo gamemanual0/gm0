@@ -113,15 +113,14 @@ For a more in-depth explanation, `click here <https://blog.wesleyac.com/posts/in
 
 Built-In PID Controller
 ^^^^^^^^^^^^^^^^^^^^^^^
-For situations where one needs to control the velocity or position of a single motor, the built in PID controller can be used. 
-
+For situations where one needs to control the velocity or position of a single motor, the built in PID controller can be used.
 PID can be enabled by changing the run mode to ``RUN_USING_ENCODER``
 
-.. hint:: 
-    Many misunderstand the use of ``RUN_USING_ENCODER``, many may mistake that it is necessary to use this mode for the encoders to work at all, but this is not true. Instead, ``RUN_USING_ENCODER`` enables velocity feedback using the encoder. If you are using an external PID controller such as one that you implement, generally, it is recommended that you use ``RUN_WITHOUT_ENCODER``.  
+.. hint::
+    Many misunderstand the use of ``RUN_USING_ENCODER``, many may mistake that it is necessary to use this mode for the encoders to work at all, but this is not true. Instead, ``RUN_USING_ENCODER`` enables velocity feedback using the encoder. If you are using an external PID controller such as one that you implement, generally, it is recommended that you use ``RUN_WITHOUT_ENCODER``.
 
 
-For official documentation on the built in PID controller, `click here <https://docs.revrobotics.com/rev-control-system/programming/using-encoder-feedback>`_
+For official documentation on the built in PID controller, `see here <https://docs.revrobotics.com/rev-control-system/programming/using-encoder-feedback>`_
 
 Debugging Built-In PID Controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,14 +140,15 @@ Debugging Built-In PID Controller
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Motor does not reach full speed with ``.setPower``        | Use the ``.setVelocity`` method as part of DcMotorEx or use ``RUN_WITHOUT_ENCODER`` with an external PID controller.                                                      |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-PID Controller Sample Rate 
-^^^^^^^^^^^^^^^^^^^^^^^^
 
-For teams who desire the most performance out of their PID controller, 
-it is essential to consider the Sample rate of the controller. 
-The Sample rate is when the controller updates its output given new sensor data. 
-Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://youtu.be/fusr9eTceEo?t=133>`_ to see how sample rate effects stability in a practical motor control example. 
-The inbuilt PID controller is locked at a 20hz refresh rate (50ms sample rate). Many top FTC teams optimize their robot loops to run at up to 80hz, 
+PID Controller Sample Rate
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For teams who desire the most performance out of their PID controller,
+it is essential to consider the Sample rate of the controller.
+The Sample rate is when the controller updates its output given new sensor data.
+Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://youtu.be/fusr9eTceEo?t=133>`_ to see how sample rate effects stability in a practical motor control example.
+The inbuilt PID controller is locked at a 20hz refresh rate (50ms sample rate). Many top FTC teams optimize their robot loops to run at up to 80hz,
 achieving *much* more stable control with an external PID.
 
 
