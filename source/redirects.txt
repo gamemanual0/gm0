@@ -59,4 +59,4 @@
 "docs/robot-design/index.rst" "docs/common-mechanisms/index.rst"
 "docs/getting-started-in-ftc/rookie-competition.rst" "docs/design-skills/design-strategy"
 "docs/getting-started-in-ftc/index.rst" "docs/start-here.rst"
-"docs/common-mechanisms/arms/chain-bar-arms.rst" "docs/common-mechanisms/arms/linkages.rst"
+"docs/common-mechanisms/arms/chain-bar-arm.rst" "docs/common-mechanisms/arms/linkages.rst"
