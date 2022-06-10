@@ -360,6 +360,9 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
    Linear Actuator
       Linear actuators are basically :term:`servos <Servo>` that translate their output into linear motion, instead of rotational motion. Linear actuators are rarely used in FTC due to its prohibitive cost, but they may have some uses in special applications.
 
+   Linkage
+      A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
+
    Locknut
       A locknut is a nut that resists vibration by the nyloc inside. Nyloc is a type of plastic that holds the bolt securely on to the nut when it is screwed in. It is advised that teams purchase locknuts instead of regular nuts as FTC mechanisms often become loose over time.
 

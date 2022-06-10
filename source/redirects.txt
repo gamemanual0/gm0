@@ -6,7 +6,7 @@
 "docs/robot-design/active-intake/index.rst" "docs/common-mechanisms/active-intake/index.rst"
 "docs/robot-design/active-intake/principles-of-an-intake.rst" "docs/common-mechanisms/active-intake/principles-of-an-intake.rst"
 "docs/robot-design/active-intake/types-of-intakes.rst" "docs/common-mechanisms/active-intake/types-of-intakes.rst"
-"docs/robot-design/arms/chain-bar-arm.rst" "docs/common-mechanisms/arms/chain-bar-arm.rst"
+"docs/robot-design/arms/chain-bar-arm.rst" "docs/common-mechanisms/arms/linkages.rst"
 "docs/robot-design/arms/index.rst" "docs/common-mechanisms/arms/index.rst"
 "docs/robot-design/arms/multi-axis-arm.rst" "docs/common-mechanisms/arms/multi-axis-arm.rst"
 "docs/robot-design/arms/single-arm.rst" "docs/common-mechanisms/arms/single-arm.rst"
@@ -59,3 +59,4 @@
 "docs/robot-design/index.rst" "docs/common-mechanisms/index.rst"
 "docs/getting-started-in-ftc/rookie-competition.rst" "docs/design-skills/design-strategy"
 "docs/getting-started-in-ftc/index.rst" "docs/start-here.rst"
+"docs/common-mechanisms/arms/chain-bar-arm.rst" "docs/common-mechanisms/arms/linkages.rst"
