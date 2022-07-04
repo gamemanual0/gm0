@@ -163,7 +163,7 @@ Libraries
 
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
 
-`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://github.com/acmerobotics/road-runner>`_, a guide to setting up Road Runner.
+`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
 
 Electronics
 -----------
