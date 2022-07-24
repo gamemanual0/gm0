@@ -1,6 +1,7 @@
 @echo off
 
-set SPHINXOPTS=SPHINXBUILD   = sphinx-build
+set SPHINXOPTS=""
+set SPHINXBUILD = sphinx-build
 set SOURCEDIR=source
 set BUILDDIR=build
 set LINTER=doc8
