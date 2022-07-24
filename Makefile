@@ -11,6 +11,10 @@ LINTER = doc8
 LINTEROPTS = --ignore D001,WUMBO007,WUMBO008
 #D001 is linelength, WUMBO007/008 are trademark and italicization respectively
 
+WINDOWSLINTEROPTS = --ignore D001,D004,WUMBO007,WUMBO008
+# D004 is CRLF line endings;
+# git on windows often uses these but only in the working tree.
+
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
 
@@ -22,6 +26,9 @@ help:
 
 lint:
 	@$(LINTER) $(LINTEROPTS) $(SOURCEDIR)/docs
+
+winlint:
+	@$(LINTER) $(WINDOWSLINTEROPTS) $(SOURCEDIR)/docs
 
 .PHONY: help lint Makefile
 

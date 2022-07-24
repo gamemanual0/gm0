@@ -27,7 +27,7 @@ Building
 --------
 
 How to check if the documentation is valid:
-* `make lint`
+* `make lint` (note: on Windows, `make winlint` will ignore CRLF line ending errors)
 * `make linkcheck`
 
 How to build the different versions of the documentation:
