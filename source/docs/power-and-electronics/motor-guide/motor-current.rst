@@ -20,7 +20,7 @@ In order to figure out how much power your motor will be consuming or outputting
 
    Example of a MATRIX motor curve. Notice the peak power output of 29 watts at 2950 RPM.
 
-A motor curve represents a motor at 12v (equivalent to setting the motor power to 1 in software) with various amounts of load applied to the axle. As you can see, the power output from the motor is not constant, instead rising until about 50% load, before falling again. This point at 50% load is called the **peak power output** of the motor, and is at a similar point (50% load) across all FTC legal motors.
+A motor curve represents a motor at 12 V (equivalent to setting the motor power to 1 in software) with various amounts of load applied to the axle. As you can see, the power output from the motor is not constant, instead rising until about 50% load, before falling again. This point at 50% load is called the **peak power output** of the motor, and is at a similar point (50% load) across all FTC legal motors.
 
 The varying power of a motor means that speed and torque output do not change linearly when more load is applied onto the axle. Counterintuitively, placing 50% stall load on a motor doesn't halve its speed, but will rather reduce it to slightly above 50% speed. Similarly, placing more then 50% load on a motor will cause the speed to fall faster then linearly.
 
