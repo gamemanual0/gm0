@@ -261,3 +261,30 @@ Disadvantages:
    :alt: 10030's robot's coil cord
 
    10030 7 Sigma Robotics, Relic Recovery: Coil-cord on horizontal extension mechanism
+
+Self-retracting Badge Holder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+While an uncommon technique, a self-retracting ID Badge holder can help manage wiring on an extension. These are common items; `here is one from Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
+
+This really only works for vertical or near-vertical slides, as there is still some sag in the cable which can easily get entangled if it extends outside of the robot frame.
+
+To rig a self-retracting badge holder to a wire, mount the hard plastic part of the badge holder to the base of the slides, and mount end of the holder's string to the wire. The wires should be hard-mounted (using zip ties or whatever your team uses) towards the top of the retracted slide with plenty of slack. For best results, the badge holder should be almost completely retracted (leave a centimeter or two to allow for some slack) when the slide is retracted.
+
+Advantages:
+
+- Extremely simple and easy to implement
+- Flexible and can usually extend to any length needed (unlike cable carriers, no new links ever need to be added)
+
+Disadvantages:
+
+- Similar to a coil, self-retracting cable management strings can get tangled more easily, as it is less stiff than drag chain
+- Does not work well on long slides (over 2 stages) without substantial engineering work
+
+.. image:: images/cable-management/248-badge-retractor-1.jpg
+   :alt: 248's robot's badge retractor cable management
+
+.. figure:: images/cable-management/248-badge-retractor-2.jpg
+   :alt: 248's robot's badge retractor cable management
+
+   248 Fatal Error, Freight Frenzy: Badge retractor cable management on extension mechanism
