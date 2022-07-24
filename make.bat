@@ -2,7 +2,7 @@
 
 pushd %~dp0
 
-set SPHINXOPTS=""
+set SPHINXOPTS=
 set SPHINXBUILD=sphinx-build
 set SOURCEDIR=source
 set BUILDDIR=build
