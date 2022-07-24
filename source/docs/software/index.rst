@@ -17,3 +17,4 @@ This section covers the basics of software for FTC.
    vision
    odometry
    control-system-internals
+   control-system-errata
