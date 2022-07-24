@@ -2,7 +2,7 @@ Know Your Lingo
 ===============
 
 Many teams may be unfamiliar with the various terms and slang that are often thrown around at competitions and meets. Here we have compiled a guide of some commonly used terms to get you up to speed.
-For a more comprehensive list of terms, check out the `Glossary <https://gm0.org/en/latest/docs/appendix/glossary.html/>` located in the Appendix.
+For a more comprehensive list of terms, check out the :doc:`/docs/appendix/glossary` located in the Appendix.
 
 Competitions
 ------------
