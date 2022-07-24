@@ -267,9 +267,9 @@ Self-retracting Badge Holder
 
 While an uncommon technique, a self-retracting ID Badge holder can help manage wiring on an extension. These are common items; `here is one from Amazon <https://www.amazon.com/OFES-Retractable-Holder-Swivel-Alligator/dp/B07WPRJY9K/>`_.
 
-This really only works for vertical or near-vertical slides because the sag induced by the lower stability gets tangled on things easily. ??????
+This really only works for vertical or near-vertical slides, as there is still some sag in the cable which can easily get entangled if it extends outside of the robot frame.
 
-To rig a self-retracting badge holder to a wire, mount the hard plastic part of the badge holder to the base of the slides, and mount a pulley at the end of the holder's string. The wires should be hard-mounted (using zip ties or whatever your team uses) towards the top of the retracted slide with plenty of slack. Then run your cables through the pulley and plug them in. For best results, the badge holder should be almost completely retracted (leave a cm or two to allow for slippage) when the slide is retracted.
+To rig a self-retracting badge holder to a wire, mount the hard plastic part of the badge holder to the base of the slides, and mount end of the holder's string to the wire. The wires should be hard-mounted (using zip ties or whatever your team uses) towards the top of the retracted slide with plenty of slack. For best results, the badge holder should be almost completely retracted (leave a centimeter or two to allow for some slack) when the slide is retracted.
 
 Advantages:
 
@@ -280,3 +280,11 @@ Disadvantages:
 
 - Similar to a coil, self-retracting cable management strings can get tangled more easily, as it is less stiff than drag chain
 - Does not work well on long slides (over 2 stages) without substantial engineering work
+
+.. image:: images/cable-management/248-badge-retractor-1.jpg
+   :alt: 248's robot's badge retractor cable management
+
+.. figure:: images/cable-management/248-badge-retractor-2.jpg
+   :alt: 248's robot's badge retractor cable management
+
+   248 Fatal Error, Freight Frenzy: Badge retractor cable management on extension mechanism
