@@ -26,7 +26,7 @@ The varying power of a motor means that speed and torque output do not change li
 
 In addition, you can see that efficiency rises as speed goes up. This means, if current draw is a concern, one should always be running their motors with loads below 50% of their stall torque. These two properties of a motor, the peak power output being 50% of the stall torque and the efficiency of a motor being higher the lower the load is, guide the selection of the gear ratio of a motor. **Ideally, gear ratios should be chosen such that the stall torque is twice the average torque load on the motor, and should skew towards providing more torque then needed rather then less**.
 
-Note on current consumption
+Note on Current Consumption
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You may see while looking at motor curves that the stall current of ftc motors can be as high as 11 amps per motor. Recall that the battery can only provide 20A of current output before blowing the fuse. However, even if the 20A limit isn't reached, drawing too much current can cause other motors to feel sluggish or unresponsive. Care should be taken that more then two motors are never stalled at the same time (you may ignore this exception when dealing with mecanum drivetrains, as they will generally slip before the motors actually reach their stall power. However, placing very low gear ratios or more then 4 motors on traction drivetrains can exceed the current limit of an FTC Battery).
