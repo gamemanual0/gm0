@@ -1,7 +1,7 @@
 Motor Power
 ===========
 
-Just like any electrical device, motors draw current and consume a certain amount of power to function. However, motors will convert some percentage of the power that they draw into output power in the form of the shaft spinning. Thinking of motors in terms of energy instead of speed and torque can make it easier to do math with that motor and provide tools for choosing the optimal gear ratio for an application.
+Just like any electrical device, motors draw current and consume a certain amount of power to function. Motors convert some portion of the input power into spinning the shaft; this portion is the output power. Thinking of motors in terms of energy instead of speed and torque can make it easier to calculate how it should be used and provide tools for choosing the optimal gear ratio for an application.
 
 What is power?
 --------------
