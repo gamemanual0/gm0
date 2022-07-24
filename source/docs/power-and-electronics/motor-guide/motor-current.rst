@@ -18,7 +18,7 @@ In order to figure out how much power your motor will be consuming or outputting
 .. figure:: images/matrix-curve.png
    :alt: A motor curve for a modern robotics matrix motor
 
-   Example of a matrix motor curve. Notice the peak power output of 29 watts at 2950 RPM
+   Example of a MATRIX motor curve. Notice the peak power output of 29 watts at 2950 RPM.
 
 A motor curve represents a motor at 12v (equivalent to setting the motor power to 1 in software) with various amounts of load applied to the axle. As you can see, the power output from the motor is not constant, instead rising until about 50% load, before falling again. This point at 50% load is called the **peak power output** of the motor, and is at a similar point (50% load) across all FTC legal motors.
 
