@@ -54,7 +54,7 @@ Linear Extension/Slide
    Mechanism responsible for extending parts beyond the starting configuration
    of the robot in a linear fashion.
 Arm
-   Mechanism responsible for extending the reach of the robot through rotational motion or multi-axis movement. 
+   Mechanism responsible for extending the reach of the robot through rotational motion or multi-axis movement.
 REV Expansion Hub
    Hardware controller for the robot, connected to :term:`Robot Controller`
    phone.
