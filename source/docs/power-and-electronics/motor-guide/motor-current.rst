@@ -10,7 +10,7 @@ Fundamentally, power is defined as the amount of energy transferred in a given t
 
 Another piece of information, although not always as useful, is the *input* power of the motor. The input power of the motor is how many watts of power the motor consumes, which is equal to the voltage sent to the motor times the current consumed by the motor. **Motors are not 100% efficient, so to get a certain output power you often need double or even triple the input power**. For example, a standard FTC motor can consume up to 65 watts just to produce 29 watts of output power.
 
-Peak power and motor curves
+Peak Power and Motor Curves
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In order to figure out how much power your motor will be consuming or outputting, its helpful to reference a motor curve. These are data sheets that plot the output speed, output torque, output power, and efficiency all on one graph. Every FTC legal motor has been tested by VEX Robotics, and their data was made available at `motors.vex.com <https://motors.vex.com>`_ (note: you will need to find your specific motor here, generally it will be a "REV Robotics HD Hex Motor" for REV motors, or "Modern Robotics 12VDC Motor" for gobilda motors). It is safe to assume other motors (such as servos) follow similar curves, although with different speed, torques, and power outputs. An example motor curve for a Modern Robotics 12v motor is shown below.
