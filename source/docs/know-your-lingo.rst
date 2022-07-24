@@ -14,7 +14,7 @@ Qualifier
 League Meet
    Low-stress tournament with matches counting towards league rank. No judging.
 League Championship
-   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level. Only for teams participating in that League. 
+   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level. Only for teams participating in that League.
 Alliance
    Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
