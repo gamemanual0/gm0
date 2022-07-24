@@ -16,6 +16,7 @@ Peak Power and Motor Curves
 In order to figure out how much power your motor will be consuming or outputting, its helpful to reference a motor curve. These are data sheets that plot the motor's output speed, output torque, output power, and efficiency all on one graph. Every FTC legal motor except the Core Hex has been tested by VEX Robotics, and their data were made available at `motors.vex.com <https://motors.vex.com>`_. There, you will need to find your specific motor, generally it will be a "REV Robotics HD Hex Motor" for REV motors, or "Modern Robotics 12VDC Motor" for goBILDA motors. It is safe to assume other motors (such as servos) follow similarly-shaped curves, although with different speed, torque, and power outputs. An example motor curve for a Modern Robotics 12 V motor is shown below.
 
 .. figure:: images/matrix-curve.png
+   :width: 50em
    :alt: A motor curve for a modern robotics matrix motor
 
    Example of a MATRIX motor curve. Notice the peak power output of 29 watts at 2950 RPM.
