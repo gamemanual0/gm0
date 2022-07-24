@@ -10,3 +10,4 @@ Motor Guide
    gearbox-anatomy
    wiring-mounting-motors
    jvn-calculator
+   motor-current
