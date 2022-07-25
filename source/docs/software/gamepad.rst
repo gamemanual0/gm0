@@ -1,5 +1,5 @@
-Gamepad Input Handling
-======================
+Gamepad Input
+=============
 
 Gamepad Layout
 --------------
