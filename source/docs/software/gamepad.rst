@@ -129,6 +129,13 @@ In a ``LinearOpMode`` based TeleOp program, storing both current and previous ga
 Rising Edge Detector
 ^^^^^^^^^^^^^^^^^^^^
 
+.. dropdown:: Why is it called a rising edge detector?
+
+   A signal edge is a transition in a digital signal. In this case, the digital signal is the gamepad input, which is low when not held and high when held. The rising edge is the transition from low to high, and the falling edge is the transition from high to low.
+
+   .. image:: images/gamepad/rising-falling-edge.png
+      :alt: A diagram of a rising/falling edge of a square wave
+
 The most commonly used technique is a rising edge detector. It allows code to be run only once when the button is initially pressed, as opposed to every loop while it is held down. It works by checking that the button is currently pressed, but was not pressed in the previous loop. For example, inside of a TeleOp loop:
 
 .. code-block::
