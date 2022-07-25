@@ -109,10 +109,10 @@ In a ``LinearOpMode`` based TeleOp program, storing both current and previous ga
         }
     }
 
-Rising-Edge Detector
+Rising Edge Detector
 ^^^^^^^^^^^^^^^^^^^^
 
-The most commonly used technique is a rising-edge detector. It allows code to be run only once when the button is initially pressed, as opposed to every loop while it is held down. It works by checking that the button is currently pressed, but was not pressed in the previous loop. For example, inside of a TeleOp loop:
+The most commonly used technique is a rising edge detector. It allows code to be run only once when the button is initially pressed, as opposed to every loop while it is held down. It works by checking that the button is currently pressed, but was not pressed in the previous loop. For example, inside of a TeleOp loop:
 
 .. code-block::
 
@@ -122,10 +122,10 @@ The most commonly used technique is a rising-edge detector. It allows code to be
 
 This will increase the servo position by 0.1 exactly once per press of ``a``.
 
-Falling-Edge Detector
+Falling Edge Detector
 ^^^^^^^^^^^^^^^^^^^^^
 
-A very similar technique is a falling-edge detector. It allows code to be run only once when the button is released, as opposed to every loop while it is held down. It works by checking that the button is currently not pressed, but was pressed in the previous loop. For example, inside of a TeleOp loop:
+A very similar technique is a falling edge detector. It allows code to be run only once when the button is released, as opposed to every loop while it is held down. It works by checking that the button is currently not pressed, but was pressed in the previous loop. For example, inside of a TeleOp loop:
 
 .. code-block::
 
@@ -140,4 +140,37 @@ This will decrease the servo position by 0.1 exactly once per release of ``b``.
 Toggles
 ^^^^^^^
 
-One common use case for rising-edge detectors is to control toggles.
+One common use case for rising edge detectors is to control toggles. Toggles can be used to have a button for the robot to switch between states; for example, turning an intake on and off. This can be done for any number of states but is most commonly done between two. To make a toggle between two states, a rising edge detector is used to set a boolean to its opposite and then that boolean is used to control an action.
+
+Example
+~~~~~~~
+
+Within the initialization code:
+
+.. code-block::
+
+   boolean intakeToggle = false;
+
+Inside of the corresponding TeleOp loop:
+
+.. code-block::
+
+   // Rising edge detector
+   if (currentGamepad1.a && !previousGamepad1.a) {
+       // This will set intakeToggle to true if it was previously false
+       // and intakeToggle to false if it was previously true,
+       // providing a toggling behavior.
+       intakeToggle = !intakeToggle;
+   }
+
+   // Using the toggle variable to control the robot.
+   if (intakeToggle) {
+       intakeMotor.setPower(1);
+   }
+   else {
+       intakeMotor.setPower(0);
+   }
+
+This will turn on the intake when ``a`` is pressed, and leave it on until it is pressed again.
+
+.. note:: The less a driver has to keep in their head about the state of the robot the less they can screw up. Since toggles mean that a button does different things every time it is pressed, consider alternate solutions. This is especially true for toggles with more than two states.
