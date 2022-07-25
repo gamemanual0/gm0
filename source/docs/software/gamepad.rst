@@ -4,35 +4,52 @@ Gamepad Input Handling
 Gamepad Layout
 --------------
 
-Diagrams
-^^^^^^^^
+.. tab-set::
 
-.. todo:: PUT DIAGRAMS HERE BEFORE MERGING
+   .. tab-item:: Logitech F310
+
+      .. image:: images/gamepad/logitech-f310.png
+         :width: 100%
+         :alt: Logitech F310 gamepad image layout.
+
+
+   .. tab-item:: Xbox 360
+
+      .. image:: images/gamepad/xbox-360.png
+         :width: 100%
+         :alt: Xbox 360 gamepad image layout.
+
+   .. tab-item:: PS4/Etpark
+
+      .. image:: images/gamepad/ps4.png
+         :width: 100%
+         :alt: PS4/Etpark gamepad image layout.
+
+      .. note:: ``L1`` is ``left_bumper``, ``L2`` is ``left_trigger``, ``R1``/``R2`` are the right-hand equivalents.
 
 Button Aliases
 ^^^^^^^^^^^^^^
 
 Since both PS4-style and Xbox-Style controllers are FTC legal, there are `aliases in the FTC SDK <https://github.com/OpenFTC/Extracted-RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_ between PS4-style and Xbox-style button naming.
 
-.. dropdown:: Aliases
 
-   +--------------+-----------+
-   | PS4          | Xbox      |
-   +==============+===========+
-   | ``circle``   | ``b``     |
-   +--------------+-----------+
-   | ``cross``    | ``a``     |
-   +--------------+-----------+
-   | ``triangle`` | ``y``     |
-   +--------------+-----------+
-   | ``square``   | ``x``     |
-   +--------------+-----------+
-   | ``share``    | ``back``  |
-   +--------------+-----------+
-   | ``options``  | ``start`` |
-   +--------------+-----------+
-   | ``ps``       | ``guide`` |
-   +--------------+-----------+
++--------------+-----------+
+| PS4          | Xbox      |
++==============+===========+
+| ``circle``   | ``b``     |
++--------------+-----------+
+| ``cross``    | ``a``     |
++--------------+-----------+
+| ``triangle`` | ``y``     |
++--------------+-----------+
+| ``square``   | ``x``     |
++--------------+-----------+
+| ``share``    | ``back``  |
++--------------+-----------+
+| ``options``  | ``start`` |
++--------------+-----------+
+| ``ps``       | ``guide`` |
++--------------+-----------+
 
 Boolean Inputs
 --------------
