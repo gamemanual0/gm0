@@ -154,8 +154,8 @@ Since the SDK simply clips (limits) the powers to that range, we can lose the ra
 
 Make sure to set the powers on your motor and update this every loop in an opmode!
 
-Final Sample Code
------------------
+Robot-Centric Final Sample Code
+-------------------------------
 
 
 .. tab-set::
@@ -267,8 +267,8 @@ Then, these rotated values can be put into the mecanum kinematics shown earlier.
    double frontRightPower = rotY - rotX - turn;
    double backRightPower = rotY + rotX - turn;
 
-Final Sample Code
-^^^^^^^^^^^^^^^^^
+Field-Centric Final Sample Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block::
 
