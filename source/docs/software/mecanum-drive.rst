@@ -154,8 +154,8 @@ Since the SDK simply clips (limits) the powers to that range, we can lose the ra
 
 Make sure to set the powers on your motor and update this every loop in an opmode!
 
-Final Sample Code
------------------
+Robot-Centric Final Sample Code
+-------------------------------
 
 
 .. tab-set::
@@ -221,3 +221,113 @@ Final Sample Code
 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-complete.png
          :width: 45em
+
+Field Centric
+-------------
+
+With field centric mecanum drive, the translation joystick controls the direction of the robot relative to the field, as opposed to the robot frame. This is preferred by some drivers, and make some evasive action easier, as one can spin while translating in a given direction easier. To do this, the x/y components of the joysticks are rotated by the robot's angle, which is given by the IMU.
+
+There is a BNO055 IMU inside of Control Hubs (and older models of Expansion Hubs). Unlike most other hardware, it requires more than ``hardwareMap.get()`` to begin using it. Note, this is configured when creating a new configuration by default as ``imu``. There is an `FTC SDK sample on how to use the BNO055 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/aba72e566c381d65ba7b97ef4e5326b14881d4bc/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.java>`_. The way the BNO055 IMU will be initialized here is:
+
+.. code-block::
+
+   // Retrieve the IMU from the hardware map
+   BNO055IMU imu = hardwareMap.get(BNO055IMU.class, "imu");
+   BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
+   // Technically this is the default, however specifying it is clearer
+   parameters.angleUnit = BNO055IMU.AngleUnit.RADIANS;
+   // Without this, data retrieving from the IMU throws an exception
+   imu.initialize(parameters);
+
+The angle needs to be read every loop. The IMU returns heading with clockwise positive, while the following code needs counterclockwise positive, so its negative is taken.
+
+.. code-block::
+
+   // Read inverse IMU heading, as the IMU heading is CW positive
+   double botHeading = -imu.getAngularOrientation().firstAngle;
+
+Then, the translation joystick values need to be rotated by the robot heading. The joystick values are a vector, and rotating a vector in 2D requires this formula (`proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
+
+.. math::
+
+   x_2=x_1cos \beta - y_1sin \beta \\
+   y_2=x_1sin \beta + y_1cos \beta
+
+.. code-block::
+
+   double rotX = x * Math.cos(botHeading) - y * Math.sin(botHeading);
+   double rotY = x * Math.sin(botHeading) + y * Math.cos(botHeading);
+
+Then, these rotated values can be put into the mecanum kinematics shown earlier.
+
+.. code-block::
+
+   double frontLeftPower = rotY + rotX + turn;
+   double backLeftPower = rotY - rotX + turn;
+   double frontRightPower = rotY - rotX - turn;
+   double backRightPower = rotY + rotX - turn;
+
+Field-Centric Final Sample Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+   package org.firstinspires.ftc.teamcode;
+
+   import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+   import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+   import com.qualcomm.robotcore.hardware.DcMotor;
+   import com.qualcomm.robotcore.hardware.DcMotorSimple;
+
+   @TeleOp
+   public class MecanumTeleOp extends LinearOpMode {
+       @Override
+       public void runOpMode() throws InterruptedException {
+           // Declare our motors
+           // Make sure your ID's match your configuration
+           DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
+           DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
+           DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
+           DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
+
+           // Reverse the right side motors
+           // Reverse left motors if you are using NeveRests
+           motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
+           motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
+
+           // Retrieve the IMU from the hardware map
+           BNO055IMU imu = hardwareMap.get(BNO055IMU.class, "imu");
+           BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
+           // Technically this is the default, however specifying it is clearer
+           parameters.angleUnit = BNO055IMU.AngleUnit.RADIANS;
+           // Without this, data retrieving from the IMU throws an exception
+           imu.initialize(parameters);
+
+           waitForStart();
+
+           if (isStopRequested()) return;
+
+           while (opModeIsActive()) {
+               double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+               double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
+               double rx = gamepad1.right_stick_x;
+
+               double rotX = x * Math.cos(botHeading) - y * Math.sin(botHeading);
+               double rotY = x * Math.sin(botHeading) + y * Math.cos(botHeading);
+
+               // Denominator is the largest motor power (absolute value) or 1
+               // This ensures all the powers maintain the same ratio, but only when
+               // at least one is out of the range [-1, 1]
+               double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
+               double frontLeftPower = (rotY + rotX + rx) / denominator;
+               double backLeftPower = (rotY - rotX + rx) / denominator;
+               double frontRightPower = (rotY - rotX - rx) / denominator;
+               double backRightPower = (rotY + rotX - rx) / denominator;
+
+               motorFrontLeft.setPower(frontLeftPower);
+               motorBackLeft.setPower(backLeftPower);
+               motorFrontRight.setPower(frontRightPower);
+               motorBackRight.setPower(backRightPower);
+           }
+       }
+   }
