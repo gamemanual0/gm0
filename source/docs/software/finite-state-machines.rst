@@ -57,6 +57,7 @@ If one drew out the state transition diagram for each of the states, for the aut
 
 .. image:: diagrams/finite-state-machines/naive-implementation.drawio.svg
    :alt: A state transition diagram of the above code
+   :width: 45em
    :class: diagram
 
 In fact, in many implementations, making state transitions for any other reason is often difficult because the code executes linearly and is only in a loop to rerun the switch statements. (Often times, this means the code has a hard time reacting to a stop request in the middle of autonomous.)
@@ -84,6 +85,7 @@ Before anything is programmed, it may be useful draw out the state diagram for t
 
 .. image:: diagrams/finite-state-machines/gluten-free-rover-ruckus.drawio.svg
    :alt: A state transition diagram of the above goals
+   :width: 45em
    :class: diagram
 
 Notice how resetting the dump servo and retracting the lift share a state. That's because the robot doesn't need to wait for the servo to reset before moving the lift down; they can both happen at once.

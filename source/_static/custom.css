@@ -25,10 +25,6 @@ img {
     margin-right: auto;
 }
 
-img.diagram {
-    width: 100%;
-}
-
 /* Center caption text in their respective figure */
 div.figure.align-default {
     display: flex;
