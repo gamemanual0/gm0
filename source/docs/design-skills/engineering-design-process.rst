@@ -4,8 +4,8 @@ Engineering Design Process
 *Note: The exact process will vary from team to team, so the graphic is not meant to be a hard and fast rule.*
 
 .. image:: diagrams/engineering-design-process.drawio.svg
-   :alt: Engineering design process diagram
    :width: 25em
+   :alt: Engineering design process diagram
    :class: diagram
 
 Components of the Engineering Design Process

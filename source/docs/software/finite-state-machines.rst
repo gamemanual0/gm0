@@ -56,8 +56,8 @@ This however does not really have any benefits compared to if the programmer had
 If one drew out the state transition diagram for each of the states, for the autonomus above it'd be very linear, and the state transitions always occur because the section of the code finished:
 
 .. image:: diagrams/finite-state-machines/naive-implementation.drawio.svg
+   :width: 25em
    :alt: A state transition diagram of the above code
-   :width: 45em
    :class: diagram
 
 In fact, in many implementations, making state transitions for any other reason is often difficult because the code executes linearly and is only in a loop to rerun the switch statements. (Often times, this means the code has a hard time reacting to a stop request in the middle of autonomous.)
@@ -84,8 +84,8 @@ If the drivers press a specific other button, we will stop executing the actions
 Before anything is programmed, it may be useful draw out the state diagram for this to get a better understanding of what we the robot should actually be doing. This can also add to a :term:`Control Award` submission.
 
 .. image:: diagrams/finite-state-machines/gluten-free-rover-ruckus.drawio.svg
-   :alt: A state transition diagram of the above goals
    :width: 45em
+   :alt: A state transition diagram of the above goals
    :class: diagram
 
 Notice how resetting the dump servo and retracting the lift share a state. That's because the robot doesn't need to wait for the servo to reset before moving the lift down; they can both happen at once.
