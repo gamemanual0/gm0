@@ -16,13 +16,17 @@ div.ethical-sidebar, div.ethical-footer {
     left: -99999px;
 }
 
-img:not(.graphviz) {
+img {
     /* Change images to be consistent width */
     width: var(--image-width);
     /* Center all images so that figures and normal images have consistent styling */
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.diagram {
+    width: 100%;
 }
 
 /* Center caption text in their respective figure */
@@ -48,7 +52,7 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-    img.graphviz {
+    img.diagram {
         filter: invert(87%);
     }
 

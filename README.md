@@ -17,7 +17,6 @@ Requirements
 * Python 3
 * TexLive
 * dvipng
-* graphviz
 * make
 
 Ensure the Python requirements are installed via running 

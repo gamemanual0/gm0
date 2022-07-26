@@ -55,26 +55,9 @@ This however does not really have any benefits compared to if the programmer had
 
 If one drew out the state transition diagram for each of the states, for the autonomus above it'd be very linear, and the state transitions always occur because the section of the code finished:
 
-.. graphviz::
-
-   digraph {
-      detect[label="Detect Skystone"];
-      posZero[label="Skystone Position 0"];
-      posOne[label="Skystone Position 1"];
-      posTwo[label="Skystone Position 2"];
-      move[label="Foundation Move"];
-      park[label="Park"];
-
-      detect->posZero;
-      detect->posOne;
-      detect->posTwo;
-
-      posZero->move;
-      posOne->move;
-      posTwo->move;
-
-      move->park;
-   }
+.. image:: diagrams/finite-state-machines/naive-implementation.drawio.svg
+   :alt: A state transition diagram of the above code
+   :class: diagram
 
 In fact, in many implementations, making state transitions for any other reason is often difficult because the code executes linearly and is only in a loop to rerun the switch statements. (Often times, this means the code has a hard time reacting to a stop request in the middle of autonomous.)
 
@@ -99,21 +82,9 @@ If the drivers press a specific other button, we will stop executing the actions
 
 Before anything is programmed, it may be useful draw out the state diagram for this to get a better understanding of what we the robot should actually be doing. This can also add to a :term:`Control Award` submission.
 
-.. graphviz::
-
-   digraph {
-      start[label="Start"];
-      extend[label="Extend Lift"];
-      dump[label="Set Servo Dump"];
-      reset[label="Reset Servo, Retract Lift"];
-
-      start->extend[label="X Pressed"];
-      extend->dump[label="Lift Fully Extended"];
-      extend->start[label="Y Pressed"];
-      dump->start[label="Y Pressed"];
-      dump->reset[label="Minerals be Dumped"];
-      reset->start[label="Lift Fully Retracted/Y Pressed"];
-   }
+.. image:: diagrams/finite-state-machines/gluten-free-rover-ruckus.drawio.svg
+   :alt: A state transition diagram of the above goals
+   :class: diagram
 
 Notice how resetting the dump servo and retracting the lift share a state. That's because the robot doesn't need to wait for the servo to reset before moving the lift down; they can both happen at once.
 

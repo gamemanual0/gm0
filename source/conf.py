@@ -27,7 +27,6 @@ version = release
 # ones.
 #
 extensions = [
-    "sphinx.ext.graphviz",
     "sphinx.ext.mathjax",
     "sphinx_design",
     "sphinxext.linkcheckdiff",

@@ -3,25 +3,9 @@ Engineering Design Process
 
 *Note: The exact process will vary from team to team, so the graphic is not meant to be a hard and fast rule.*
 
-.. graphviz::
-
-   digraph {
-      define[label="Define the Problem"];
-      specify[label="Specify Requirements"];
-      brainstorm[label="Brainstorm/CAD Design"];
-      prototype[label="Prototype/Experiment"];
-      test[label="Test"];
-      analyze[label="Analyze Results"];
-      implementation[label="Final Implementation"];
-
-      define->specify
-      specify->brainstorm
-      brainstorm->prototype
-      prototype->test
-      test->analyze
-      analyze->brainstorm
-      test->implementation
-   }
+.. image:: diagrams/engineering-design-process.drawio.svg
+   :alt: Engineering design process diagram
+   :class: diagram
 
 Components of the Engineering Design Process
 --------------------------------------------
