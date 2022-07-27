@@ -29,7 +29,6 @@ The REV hub counts the pulses and calculates velocity by using a 5 value "ring b
 
 .. figure:: images/sdk-motors/quadrature_wave.png
    :alt: An example of a quadrature wave, with the A channel, B channel. The wave is broken up into four sections, where each section constitutes a tick.
-   
    An example of a quadrature wave, with channel A leading channel B. Each count is a "count" or "tick"
 
 Hidden Methods

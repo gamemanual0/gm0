@@ -87,4 +87,4 @@ The control hub daughterboard contains a RK3328 Quad-core ARM Cortex-A53 running
 .. figure:: images/control-system-internals/android-board.jpg
    :alt: The android board, removed from a control hub
 
-     The android board, removed from a control hub
+   The android board, removed from a control hub
