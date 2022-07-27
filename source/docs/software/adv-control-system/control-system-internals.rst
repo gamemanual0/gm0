@@ -37,7 +37,7 @@ Ports
 The expansion hub has the following ports
 
 * Two UART Debug Ports
-    * The top port always outputs a comma seperated list of debug information about the hub
+    * The top port always outputs a comma separated list of debug information about the hub
     * The bottom port outputs data at a baud rate of 115200 at a user specified baud rate
 * Four I2C Ports
     * These ports are 100/400khz complient and are isolated so there is no need to be concerned about address collisions

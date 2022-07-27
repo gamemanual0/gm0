@@ -71,3 +71,4 @@
 "docs/software/control-system-internals.rst" "docs/software/tutorials/bulk-reads.rst"
 "docs/software/control-loops.rst" "docs/software/tutorials/control-loops.rst"
 "docs/software/mecanum-drive.rst" "docs/software/tutorials/mecanum-drive.rst"
+"docs/software/gamepad.rst" "docs/software/tutorials/gamepad.rst"

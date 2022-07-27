@@ -16,7 +16,7 @@ A list of connected Lynx Module objects can be obtained using ``hardwaremap.getA
 LED
 ^^^
 
-The REV hub's LED can be set using ``setConstant()`` or ``setPattern()``.  ``setConstant()`` sets a constant colour to the LED, and ``setPattern()`` allows the user to define a pattern of colours for the REV hub to follow.
+The REV hub's LED can be set using ``setConstant()`` or ``setPattern()``.  ``setConstant()`` sets a constant color to the LED, and ``setPattern()`` allows the user to define a pattern of colors for the REV hub to follow.
 
 Power
 ^^^^^

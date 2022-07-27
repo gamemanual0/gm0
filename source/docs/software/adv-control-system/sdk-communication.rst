@@ -13,7 +13,7 @@ When using any method in the FTC SDK that accesses hardware, be that setting mot
 
 If an Android phone and :term:`Expansion Hub` is used, :term:`LynxCommands <LynxCommand>` are sent over USB; however if a Control Hub is used, :term:`LynxCommands <LynxCommand>` are sent over UART. This is very important, not just because of the increased reliability with UART instead of USB, but also because :term:`LynxCommands <LynxCommand>` take approximately 3 milliseconds over USB and approximately 2 milliseconds over UART.
 
-Any expansion hubs connected via RS485 recieve their commands via that connector. Lynx hubs do not have to retransmit packets, so the added latency from this process isn't significant, but there will be some added latency. Up to 255 expansion hubs can be connected together in theory.
+Any expansion hubs connected via RS485 receive their commands via that connector. Lynx hubs do not have to retransmit packets, so the added latency from this process isn't significant, but there will be some added latency. Up to 255 expansion hubs can be connected together in theory.
 
 .. note::
 
