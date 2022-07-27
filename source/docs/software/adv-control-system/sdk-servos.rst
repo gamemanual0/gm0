@@ -18,7 +18,7 @@ Servos are controlled via a PWM signal. PWM signal is one where the signal turns
 
 All servos require a minimum of 5v to operate, and so the expansion hub generates 5v to power the servos. The 5v power is shared between pairs of ports (0-1, 2-3, 4-5). By default, this 5v power is OFF, and doesn't provide power. However, doing any servo operation, such as setting the position of a servo, will turn ON the 5v power to both shared ports. Calling disable PWM seems to turn OFF shared power, however if another servo is used or is active the 5v power will remain ON instead.
 
-.. figure:: images/sdk-servos/pwm-wave.webp
+.. figure:: images/sdk-servos/pwm-wave.png
      :alt: An example of a PWM wave for a made up servo.
 
      An example of servo PWM waves. NOTE: Servo angles are arbitrarily selected and will not be accurate to all servos
