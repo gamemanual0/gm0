@@ -83,7 +83,6 @@ The control hub daughterboard contains a RK3328 Quad-core ARM Cortex-A53 running
    :alt: The single board computer and :term:`Lynx` board from a Control Hub
 
    The single board computer and :term:`Lynx` board from a Control Hub
- 
 .. figure:: images/control-system-internals/android-board.jpg
    :alt: The android board, removed from a control hub
 
