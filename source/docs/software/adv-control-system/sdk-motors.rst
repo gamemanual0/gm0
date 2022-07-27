@@ -3,14 +3,14 @@
 SDK Motors
 ==========
 
-The SDK offers several methods of controlling and communicating with motors, as well as a couple of hidden methods that can be easily accessed. 
+The SDK offers several methods of controlling and communicating with motors, as well as a couple of hidden methods that can be easily accessed.
 
 General Explanation
 -------------------
 
 Motor Controller
 ^^^^^^^^^^^^^^^^
-All motor ports are controlled with what is called an h-bridge motor controller, a circuit that can be used to vary the output voltage as well as signage (negative or positive) of the voltage. Negative voltage through a DC Motor reverses a motor, whereas positive motor will make the motor go forward. SDK Motor power (from -1 to 1), represents a multiplier of the input voltage that is output through the motor port. The different voltages are created via PWM, where the port is turned on and off rapidly to create a lower average voltage. 
+All motor ports are controlled with what is called an h-bridge motor controller, a circuit that can be used to vary the output voltage as well as signage (negative or positive) of the voltage. Negative voltage through a DC Motor reverses a motor, whereas positive motor will make the motor go forward. SDK Motor power (from -1 to 1), represents a multiplier of the input voltage that is output through the motor port. The different voltages are created via PWM, where the port is turned on and off rapidly to create a lower average voltage.
 
 In addition, the zero power behaviour of the motor, that is the behaviour of the motor when no power is applied, can be configured. In FLOAT mode, the motor controller simply turns off, providing minimal additional resistance. In BRAKE mode, the two motor leads are shorted together internally. Due to the inherent property that all dc brushed motors generate electricity when the shaft spins, shorting the leads causes a reverse power that stops the motor quickly and is resistant to external forces.
 
@@ -23,21 +23,21 @@ Motor Encoder
 
 FTC Encoders use the two wire quadrature format for transmitting relative encoder information. In quadrature, there are two signal wires, A and B. When moving, both A and B generate square waves that are 90 degrees apart, that is one square wave starts half way through the other square wave, and ends half way through the other square wave. When travelling in one direction, the A wire square wave leads the B wire square wave, and in the other direction the B wire square wave leads the A wire square wave. The two waves are combined in XOR to produce the output wave, where each rising and falling action is one "tick", and the faster the wave the faster the encoder is moving.
 
-The REV hub counts the pulses and calculates velocity by using a 5 value "ringbuffer", which has a new value added to it every 10 ms. These 5 values are then used to calculate the current velocity. 
+The REV hub counts the pulses and calculates velocity by using a 5 value "ringbuffer", which has a new value added to it every 10 ms. These 5 values are then used to calculate the current velocity.
 
 .. warning:: It is recommended that quadrature encoders be hooked up to special "interrupt" ports to allow them to be read correctly. The expansion hub contains special hardware for reading quadrature encoders, but because there are only two of those controllers, two of the pins are hooked up in "software" instead. Effectively, this means that ports 0 and 3, the two ports connected to the special quadrature ports, will always read accurately. **Ports 1 and 2 are connected to the less accurate "software" ports, meaning that with high CPR encoders (encoders that produce more then 4000 counts per revolution, such as the REV Through Bore Encoder or Talon SRX Encoder) they can "lose steps" and drift.**
 
 .. figure:: images/sdk-motors/quadrature_wave.png
-	 :alt: An example of a quadrature wave, with the A channel, B channel. The wave is broken up into four sections, where each section constitutes a tick.
-	 
-	 An example of a quadrature wave, with channel A leading channel B. Each count is a "count" or "tick"
+     :alt: An example of a quadrature wave, with the A channel, B channel. The wave is broken up into four sections, where each section constitutes a tick.
+
+     An example of a quadrature wave, with channel A leading channel B. Each count is a "count" or "tick"
 
 Hidden Methods
 --------------
 
 DcMotorEx
 ^^^^^^^^^
-All REV hub dc motors are instances of DcMotorEx, which exposes some more methods to the user, such as velocity control and current draw measurement. 
+All REV hub dc motors are instances of DcMotorEx, which exposes some more methods to the user, such as velocity control and current draw measurement.
 
 .. note:: There is no downside to using DcMotorEx, in order to convert a DcMotor to a DcMotorEx the user simply just needs to cast the DcMotor returned by the hardwaremap to a DcMotorEx.
 

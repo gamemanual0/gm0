@@ -54,7 +54,7 @@ Java-Specific Exploratory Questions
 Important Control Structures
 ----------------------------
 
-Be sure to familiarize yourself with basic control structures (if/else statements, for loops, while loops, and for-each loops). These control structures are by far the most commonly encountered, and thus, familiarizing yourself with these principles is extremely important (not just for FTC, but programming in general). However, there are a few control structures that are far less common that are extremely useful in FTC; namely :doc:`finite-state-machines`.
+Be sure to familiarize yourself with basic control structures (if/else statements, for loops, while loops, and for-each loops). These control structures are by far the most commonly encountered, and thus, familiarizing yourself with these principles is extremely important (not just for FTC, but programming in general). However, there are a few control structures that are far less common that are extremely useful in FTC; namely :doc:`/docs/software/tutorials/finite-state-machines`.
 
 Data Structures (Arrays)
 ------------------------
