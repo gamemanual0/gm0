@@ -3,7 +3,7 @@
 Lynx Module
 ===========
 
-The Lynx Module is an object that represents the control hub and expansion hub. One Lynx Module object is created per connected hub.
+The Lynx Module is an object that represents the Control Hub and Expansion Hub. One Lynx Module object is created per connected hub.
 
 General Explanation
 -------------------
@@ -11,7 +11,7 @@ General Explanation
 Obtaining Lynx Module Object
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A list of connected Lynx Module objects can be obtained using ``hardwaremap.getAll(LynxModule.class);``. The Control Hub or the expansion hub connected to the phone via USB will have ``isMaster()`` set to true, and the hub connected over rs485 will have it set to false.
+A list of connected Lynx Module objects can be obtained using ``hardwareMap.getAll(LynxModule.class);``. The Control Hub or the Expansion Hub connected to the phone via USB will have ``isMaster()`` set to true, and the hub connected over RS-485 will have it set to false.
 
 LED
 ^^^
@@ -21,7 +21,7 @@ The REV hub's LED can be set using ``setConstant()`` or ``setPattern()``.  ``set
 Power
 ^^^^^
 
-The total amount of current that the REV hub is pulling can be measured using ``getCurrent()``. This is the current pull of the 12v input in the specified units, so it includes everything connected to the hub as well as the hub itself. In addition, the input voltage to the expansion hub can be measured using ``getInputVoltage()``, which returns the battery voltage in the specified units.
+The total amount of current that the REV hub is pulling can be measured using ``getCurrent()``. This is the current pull of the 12V input in the specified units, so it includes everything connected to the hub as well as the hub itself. In addition, the input voltage to the expansion hub can be measured using ``getInputVoltage()``, which returns the battery voltage in the specified units.
 
 Bulk Reads
 ^^^^^^^^^^
