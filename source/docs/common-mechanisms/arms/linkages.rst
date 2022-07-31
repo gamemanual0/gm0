@@ -33,7 +33,14 @@ One type of linkage is called a four bar linkage. This is a linkage that keeps t
 
 This mechanism is not widely used in FTC due to the space requirements. The linkage bars that keep the end bar parallel restrict a four bar to under 180 degrees of travel (less then 90 degrees in either direction) without specialized mechanical construction, and the bars also take up space in the robot frame.
 
-Here is an `example <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_ of a four bar linkage. Try clicking and dragging anything green to see how the linkage moves!
+.. dropdown:: CAD Example of Four Bar (Click to expand)
+
+   .. raw:: html
+
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/decca3b6f8868b3f16ea2e35f88bf54567dcf358/Linkages/FourBar.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+   `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_.
 
 .. figure:: images/linkages/vex-four-bar.png
    :alt: A picture of a VEX Four Bar
@@ -48,6 +55,15 @@ The more popular alternative to the Four Bar linkage is a Virtual Four Bar. Whil
 This mechanism is more widely used in FTC, as it is an easy addition to an arm to maintain the end effector's angle relative to the ground.
 
 Note: Both chain and belt can be used to construct a virtual four bar, and there isn't a specific benefit to using either. Due to the fact that the chain doesn't have to completely rotate around the sprocket, a zip-tie can be used to tension the chain, making construction easier.
+
+.. dropdown:: CAD Example of Virtual Four Bar (Click to expand)
+
+   .. raw:: html
+
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/1432fdd800debce7eba45c81a26a62692eb636a5/Linkages/V4B.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+   `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`_.
 
 .. figure:: images/linkages/7244-v4b.jpg
    :alt: 7244 OUT of the BOX Robotics Virtual Four Bar
