@@ -141,7 +141,9 @@ Carbon Fiber
 
 .. danger:: **Machining carbon fiber, like any fibrous substance, is a significant SAFETY HAZARD! Carbon fiber dust especially can cause cancer and is incredibly dangerous. DO NOT MACHINE/CUT carbon fiber unless you know what you are doing. When you do, make sure to either use machinery that is designed to cut carbon fiber, or cut in a well ventilated area with sufficient respiratory protection and running water over the carbon fiber.**
 
-- Carbon fiber is one of the strongest materials for FTC use. For most teams, it is totally overkill, but it can be used in some specific applications. * Carbon fiber rods are used in custom linear slide extensions or multi-axis arms.
+- Carbon fiber is one of the strongest materials for FTC use. For most teams, it is totally overkill, but it can be used in some specific applications.
+
+  - Carbon fiber rods are used in custom linear slide extensions or multi-axis arms.
 - It is probably the most expensive material to purchase.
 
 Cardboard

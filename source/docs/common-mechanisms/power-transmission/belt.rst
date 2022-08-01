@@ -12,7 +12,9 @@ When using timing belts, correct tension is very important. There are two main w
 Terms
 -----
 
-- :term:`Pitch Diameter (PD) <Pitch Diameter>` refers to the imaginary circle which is traced by the middle of the belt as the pulley rotates. The outer edge of the circle is halfway between the outer face of the belt and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi` * Pitch refers to the arc length between the centerlines of two adjacent pulley grooves. Pitch is simply the amount of pitch diameter in inches per tooth.
+- :term:`Pitch Diameter (PD) <Pitch Diameter>` refers to the imaginary circle which is traced by the middle of the belt as the pulley rotates. The outer edge of the circle is halfway between the outer face of the belt and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi`
+
+  - Pitch refers to the arc length between the centerlines of two adjacent pulley grooves. Pitch is the amount of pitch diameter in inches per tooth.
 - Outside diameter (OD) is an imaginary circle which is traced by the top face of the grooves as the pulley rotates. **For pulleys, OD<PD.**
 - Pulley clearance diameter refers to the outer diameter of the pulley + belt when the belt is meshed properly to the pulley. The pulley clearance diameter is larger than both PD and OD and should be used to check for interference with other mechanisms.
 
