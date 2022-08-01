@@ -280,7 +280,7 @@ Field-Centric Final Sample Code
    import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
    @TeleOp
-   public class MecanumTeleOp extends LinearOpMode {
+   public class FieldCentricMecanumTeleOp extends LinearOpMode {
        @Override
        public void runOpMode() throws InterruptedException {
            // Declare our motors
@@ -311,6 +311,9 @@ Field-Centric Final Sample Code
                double y = -gamepad1.left_stick_y; // Remember, this is reversed!
                double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
                double rx = gamepad1.right_stick_x;
+
+               // Read inverse IMU heading, as the IMU heading is CW positive
+               double botHeading = -imu.getAngularOrientation().firstAngle;
 
                double rotX = x * Math.cos(botHeading) - y * Math.sin(botHeading);
                double rotY = x * Math.sin(botHeading) + y * Math.cos(botHeading);
