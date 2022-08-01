@@ -340,8 +340,8 @@ Version control is an extremely useful tool. It allows for looking at (and rever
 
 As far as version control systems go, we strongly recommend git. While a git tutorial is out of scope for |gm0|, here are some git resources:
 
-* `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
-* `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
-* `GitHub's guide to installing git <https://github.com/git-guides/install-git>`_
-* `GitHub Desktop, a git GUI <https://desktop.github.com/>`_
-* `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_
+- `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
+- `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
+- `GitHub's guide to installing git <https://github.com/git-guides/install-git>`_
+- `GitHub Desktop, a git GUI <https://desktop.github.com/>`_
+- `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_

@@ -10,9 +10,9 @@ Bevel gears are a special type of gear that allows power transmission in two dif
 Terms
 -----
 
-- Module refers to the amount of diametral pitch in millimeters per tooth. Simply, it refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module. * Diametral pitch (DP) refers to the gear tooth size.
-
-  It is expressed as the number of teeth per inch of pitch diameter. Teeth size varies inversely with DP. * Pitch diameter (PD) refers to the diameter of the imaginary pitch circle that is drawn when the gear is meshed with the pitch circle of another gear. **For gears, PD < OD**.
+- Module refers to the amount of diametral pitch in millimeters per tooth. It refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module.
+- Diametral pitch (DP) refers to the gear tooth size.  It is expressed as the number of teeth per inch of pitch diameter. Teeth size varies inversely with DP.
+- Pitch diameter (PD) refers to the diameter of the imaginary pitch circle that is drawn when the gear is meshed with the pitch circle of another gear. **For gears, PD < OD**.
 
   .. math::
 

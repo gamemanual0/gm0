@@ -17,7 +17,7 @@ Advantages
 - Easy to set up: requires a device (laptop, chromebook, tablet) and a phone in the Program & Manage screen
 - Programs can be saved directly to the phone
 
-   - Changes can be made quickly
+  - Changes can be made quickly
 - Doesn’t require an external Wi-Fi connection
 
 Disadvantages
@@ -101,7 +101,9 @@ Kotlin is a relatively new and rapidly growing programming language from Jetbrai
 Advantages
 ~~~~~~~~~~
 
-- Concise, readable, easy to edit code * Easy to write as it takes much less code to do the same thing
+- Concise, readable, easy to edit code
+
+  - Easy to write as it takes much less code to do the same thing
 - Both optional type inference and a stronger type system than Java
 - Null safety
 - Thread safety
