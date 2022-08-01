@@ -18,15 +18,10 @@ League Championship
 Alliance
    Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
-   Primary basis in rankings. For the Ultimate Goal season, this is the sum of
-   the scores that the alliances you are on at traditional events, and the sum
-   of the scores that your team earns for remote events.
+   Primary basis in rankings at traditional events. For the Power Play season, each team receives 2 RP for winning a qualification match, 1 for tieing, and 0 for losing.
 TieBreaker Points (TBP)
-   Secondary determinant in team rankings. For the Ultimate Goal season, this
-   is split up into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is
-   the alliances/teams autonomous period score. TBP2 is the alliances/teams
-   end game score. (Whether it is alliances/teams depends on if the team is at
-   traditional events, respectively.)
+   Secondary determinant in team rankings for traditional events, primary determinant for remote events. For the Power Play season, this is split up into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is
+   the alliances/teams autonomous period score. TBP2 is the alliances/teams end game score. (Whether it is alliances/teams depends on if the team is at traditional events, respectively.)
 Qualification Match
    Qualifying matches (generally 5) with random alliance partners and
    opponents will be played to determine team rankings.
