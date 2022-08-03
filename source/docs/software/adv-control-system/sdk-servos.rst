@@ -23,7 +23,7 @@ All servos require a minimum of 5v to operate, and so the expansion hub generate
 
      An example of servo PWM waves. NOTE: Servo angles are arbitrarily selected and will not be accurate to all servos
 
-.. warning:: Every pair of **two ports**, (0-1, 2-3, 4-5) share the SAME 2 amp limitation, so care should be taken that pairs of servos do not pull more then 2 amps. Putting servos in every other port is recommended when possible.
+.. warning:: Every pair of **two ports**, (0-1, 2-3, 4-5) share the SAME 2 amp limitation, so care should be taken that pairs of servos do not pull more than 2 amps. Putting servos in every other port is recommended when possible.
 
 Hidden Methods
 --------------

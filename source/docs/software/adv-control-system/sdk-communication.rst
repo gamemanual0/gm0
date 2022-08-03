@@ -6,7 +6,7 @@ SDK Communication
 When using any method in the FTC SDK that accesses hardware, be that setting motor power, reading an encoder, a sensor, etc., a :term:`LynxCommand` is sent.
 
 .. note::
-   :term:`LynxCommands <LynxCommand>` are not sent directly from the Robot Controller to an :term:`Expansion Hub` through USB; they are sent through USB to an FTDI, which converts the USB signal to a UART one.
+   :term:`LynxCommands <LynxCommand>` are not sent directly from the Robot Controller to an :term:`Expansion Hub` through USB; in an expansion hub they are sent through USB to an FTDI, which converts the USB signal to a UART one. In the control hub, this USB step is skipped, instead the control hub board sends the data directly over UART to the internal expansion hub.
 
 .. warning::
    :term:`LynxCommands <LynxCommand>` being blocking (and more specifically a master lock being present on each usb device) means that multithreading hardware calls is at best not helpful and typically harmful to performance.

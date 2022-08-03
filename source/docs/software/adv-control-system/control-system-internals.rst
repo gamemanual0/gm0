@@ -24,12 +24,7 @@ Lynx Board
 Processor
 ^^^^^^^^^
 
-The main processor of the Expansion Hub is a Texas Instruments ARM Cortex M4 running at 80 MHZ. It has a 12 bit Analog To Digital (ADC) converter, 16 bit PWM counters, two built in quadrature encoder inputs, and 105 GPIO pins.
-
-Motor Driver
-^^^^^^^^^^^^
-
-The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is capabile of handling well over the maximum amount of current an FTC motor can draw. It has integrated current sensing and has been used since the modern robotics era. It has built in thermal and current safety limits.
+The main processor of the Expansion Hub is a Texas Instruments ARM Cortex M4 running at 80 MHZ.
 
 Ports
 ^^^^^
@@ -37,13 +32,13 @@ Ports
 The expansion hub has the following ports
 
 * Two UART Debug Ports
-    * The top port always outputs a comma separated list of debug information about the hub
-    * The bottom port outputs data at a baud rate of 115200 at a user specified baud rate
+    * The top port outputs a continuous high speed CSV stream of data from the various subsystems in the hub.
+    * The bottom port outputs data at a baud rate of 115200 at a user specified verbosity.
 * Four I2C Ports
-    * These ports are 100/400khz complient and are isolated so there is no need to be concerned about address collisions
+    * These ports are 100/400khz compliant and are connected to a seperate bus so there is no need to be concerned about address collisions
     * There are integrated pull up resistors on this port
 * Eight DIO Ports
-    * 3.3v only, currnet limited, can briefly supply more then the rated amp spec
+    * 3.3v only, current limited, can briefly supply more than the rated amp spec
 * Four Analog Ports
     * 5v compliant, you can use a level shifter to supply 5v to the sensor, but take care the analog line bypasses the level shifter. The VIN and GND lines must pass through the level shifter for it to work however.
 * Six Servo Ports
@@ -52,10 +47,12 @@ The expansion hub has the following ports
     * The 5v supply is shared with the servos
 * Four Motor Ports
     * Current limited and have overtemperature protection on the chip. The output does not brake the h-bridge during the off cycle of the pwm. What this means is that there might be linearity issues while deaccelerating, because of momentum in the motor.
+	 * The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is capabile of handling well over the maximum amount of current an FTC motor can draw. It has integrated current sensing and has been used since the modern robotics era. It has built in thermal and current safety limits. This motor controller has been used for years, and may even date back to the early HiTechnic based control system.
 * Four Encoder Ports
-    * **IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be connected via hardware and are reliable at high speed**. There are two methods of connecting an encoder internally to the texas instruments microprocessor, through hardware and software. Hardware ports use the integrated motor controller and are extremely accurate at high speed, whereas encoders connected in software are not reliable at high speeds. As a result, high Count Per Revolution (CPR) encoders, those with more then 4000 counts per revolution, should NOT be used on ports 1 and 2, the ports connected in software.
+    * **IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be connected via hardware and are reliable at high speed**. There are two methods of connecting an encoder internally to the texas instruments microprocessor, through hardware and software. Hardware ports use the integrated quadrature decoder chip and are extremely accurate at high speed, whereas encoders decoded in software are not reliable at high speeds. As a result, high Count Per Revolution (CPR) encoders, those with more than 4000 counts per revolution, should NOT be used on ports 1 and 2, the ports connected in software.
 * Two XT30 Connectors
     * Care should be taken when moving around cables as these connectors have been known to fail and break off the board.
+	 * In addition, XT30s will wear and get loose with time. Hot glue is recommended if cables come loose.
 * Mini USB B Connector
     * Capable of full speed USB 2.0, and 5v output to charge a phone. The 5v output may be unreliable, it depends on the hub.
 * Internal Connector

@@ -17,7 +17,7 @@ I2C has multiple speed specifications, but the REV hub supports both 100khz and 
 
 .. tip:: Devices generally have their i2c addresses hardcoded, meaning they cannot be changed. Check the devices data sheet to make sure addresses will not conflict if connecting multiple i2c devices together.
 
-.. note:: I2C is often called slower then other forms of sensors. It is not inherently slower, but due to the way I2C communication works in the SDK it takes multiple commands to read one I2C sensor, which means one I2C read can take 2-3x longer then one digital or analog read.
+.. note:: I2C is often called slower than other forms of sensors. It is not inherently slower, but due to the way I2C communication works in the SDK it takes multiple commands to read one I2C sensor, which means one I2C read can take 2-3x longer than one digital or analog read.
 
 Analog Input
 ^^^^^^^^^^^^
