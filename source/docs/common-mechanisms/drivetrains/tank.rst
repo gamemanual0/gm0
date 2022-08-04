@@ -68,21 +68,50 @@ Disadvantages
 - All traction wheel 4WD can have decreased maneuverability
 - Weight distribution factors into the turning point and turning radius of the robot
 
-.. figure:: images/tank/3736-modified-4wd.png
-   :alt: 3736 Serious Business' modified 4WD
+.. dropdown:: CAD Examples of Four Wheel Drive (Click to expand)
 
-   3736 Serious Business, Rover Ruckus; modified 4WD
+   .. tab-set::
+
+      .. tab-item:: goBILDA COTS
+
+         .. raw:: html
+
+            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+            <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/4WD/goBilda4WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/873a6e756fd385a1b743bdc1>`__
+
+      .. tab-item:: REV COTS
+
+         .. raw:: html
+
+            <model-viewer alt="REV COTS Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/4WD/rev4WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/e02b1ee98816af5505b528e2>`__
+
+      .. tab-item:: goBILDA Custom
+
+         .. raw:: html
+
+            <model-viewer alt="Gobilda Custom Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/4WD/gobildaCustom4Wd.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/16bae3d8b801874d9b1daaff>`__
+
+      .. tab-item:: REV Custom
+
+         .. raw:: html
+
+            <model-viewer alt="Gobilda Custom Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/4WD/revCustom4WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/fab2c2e33242281f0d46e524>`__
 
 .. figure:: images/tank/7209-4wd.jpg
    :alt: 7209 Tech Hog's Relic Recovery Robot
 
    7209 Tech Hogs, Relic Recovery
 
-.. image:: images/tank/10641-4wd-table.png
+.. figure:: images/tank/10641-4wd-table.png
    :alt: 10641 Atomic Gear's 4WD on a table
-
-.. figure:: images/tank/10641-4wd-void.png
-   :alt: 10641 Atomic Gear's 4WD in a void
 
    10641 Atomic Gears, Rover Ruckus
 
@@ -97,15 +126,11 @@ The purpose of dropping the middle wheel is to ensure that only 4 wheels are in 
 
 Turning can drastically degrade due to a difference in material underneath the field, leading to the robot sinking down further than usual.
 
-Moreover, **most drop center 6 wheel drives are made using custom drivetrains** because it is difficult to get the center wheel drop using a kit based build system (a notable exception being REV-based kit drivetrains). It is possible to execute a drop center using goBILDA and Actobotics using pillow blocks, but it is a little bit more awkward. However, with the new `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_, it is straightforward to make a drop center drivetrain on goBILDA channel.
+Moreover, **most drop center 6 wheel drives are made using custom drivetrains** because it is difficult to get the center wheel drop using a kit based build system (a notable exception being REV-based kit drivetrains). It is possible to execute a drop center using goBILDA and Actobotics using pillow blocks, but it is a little bit more awkward. However, with the new `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop center drivetrain on goBILDA channel.
 
 6 wheel drives with corner :term:`omni wheels <Omni Wheel>` do not need to have a center drop. It attempts to solve the issue of turning by replacing the corner traction wheels with omni wheels, allowing the drivetrain to achieve better turning, albeit with slightly less traction than a center-drop. This is very easily buildable in kits, and is a great all-around drivetrain. Drop center and corner omnis can be combined for maximum turning reliability, although this comes with side effects like rocking and reduced traction.
 
-.. sidebar:: Wheel Tolerances
 
-   Tolerances in the size of the wheel may affect the traction of this drivetrain - many VEX Robotics Competition teams have built 6WDs like this only to find that their center traction wheel wasn’t touching the ground due to variance in size.
-
-   We don’t have data on this phenomenon with FTC-class wheels, but it’s something to be aware of.
 
 Advantages
 ^^^^^^^^^^
@@ -118,26 +143,53 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Drop-center 6WD is tricky to build with :term:`channel <Channel>` based systems, though this has been partially mitigated with the `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-32mm-pattern-2mm-drop-4-pack/>`_
+- Drop-center 6WD is tricky to build with :term:`channel <Channel>` based systems, though this has been partially mitigated with the `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-drop-4-pack/>`_
 - Drop-center 6WD is slightly worse at turning, but has more traction
 - Drop-center 6WD is dependent on field conditions
 - Corner omni 6WD has less traction
 - Slow :term:`gear ratios <Gear Reduction>` will make a 6WD feel sluggish
 
-.. figure:: images/tank/tilerunner-6wd.jpg
-   :alt: AndyMark's TileRunner 6wd
+.. dropdown:: CAD Examples of Six Wheel Drive (Click to expand)
 
-COTS Andymark Tilerunner Drivetrain with 0.05” center drop. **Not recommended due to price**.
+   .. tab-set::
+
+      .. tab-item:: goBILDA COTS
+
+         .. raw:: html
+
+            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+            <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/6WD/goBilda6WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/97e67997606a54fcabd367ac>`__
+
+      .. tab-item:: REV COTS
+
+         .. raw:: html
+
+            <model-viewer alt="REV COTS Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/6WD/rev6WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/a787322363f7646a8b7cb69e>`__
+
+      .. tab-item:: goBILDA Custom
+
+         .. raw:: html
+
+            <model-viewer alt="Gobilda Custom Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/6WD/gobildaCustom6WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/05fbe7b65c6c4be0b0cddabb>`__
+
+      .. tab-item:: REV Custom
+
+         .. raw:: html
+
+            <model-viewer alt="Gobilda Custom Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/6WD/revCustom6WD.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+         `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/258524b3c7582178ba684ac5>`__
 
 .. figure:: images/tank/7236-6wd.png
    :alt: 7236 Recharged Green's 6wd
 
    7236 Recharged Green, Rover Ruckus; drop center 6WD
-
-.. figure:: images/tank/5795-6wd.png
-   :alt: 5795 Cybots's 6wd
-
-   5975 Cybots, Velocity Vortex, drop center and corner omni 6WD
 
 .. figure:: images/tank/ethan-6wd.jpg
    :alt: Ethan Doak's 6wd
