@@ -38,7 +38,7 @@ The expansion hub has the following ports
   - The bottom port outputs data at a baud rate of 115200 at a user specified verbosity.
 - Four I2C Ports
 
-  - These ports are 100/400khz compliant and are connected to a seperate bus so there is no need to be concerned about address collisions
+  - These ports are 100/400khz compliant and are connected to a separate bus so there is no need to be concerned about address collisions
   - There are integrated pull up resistors on this port
 - Eight DIO Ports
 
