@@ -72,15 +72,6 @@ Index
       A list of useful resources and accompanying descriptions, with especially pertinent ones marked.
 
    .. grid-item-card::
-      :link: /docs/awards/index
-      :link-type: doc
-      :columns: 12
-
-      Awards
-      ^^^
-      While |gm0| has a heavy focus on robots, awards are an important part of FTC---this section covers what each award is for and some general Engineering Notebook tips.
-
-   .. grid-item-card::
       :link: /docs/know-your-lingo
       :link-type: doc
 
@@ -110,7 +101,6 @@ Index
    docs/common-mechanisms/index
    docs/power-and-electronics/index
    docs/software/index
-   docs/awards/index
    docs/useful-resources
    docs/appendix/index
    docs/contributing/index
