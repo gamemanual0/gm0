@@ -84,7 +84,7 @@ Programming/Control System
    :margin: 2
 
    .. grid-item-card::
-      :link: /docs/software/options-for-programming
+      :link: /docs/software/getting-started/options-for-programming
       :link-type: doc
       :columns: 12
 
@@ -109,7 +109,7 @@ Programming/Control System
       Because disconnects are no fun.
 
    .. grid-item-card::
-      :link: /docs/software/mecanum-drive
+      :link: /docs/software/tutorials/mecanum-drive
       :link-type: doc
 
       Programming Tutorial - Mecanum Drivetrain
@@ -117,7 +117,7 @@ Programming/Control System
       Because mecanum wheels without the right code are some very expensive questionable quality traction wheels.
 
    .. grid-item-card::
-      :link: /docs/software/vision
+      :link: /docs/software/tutorials/vision
       :link-type: doc
 
       Computer Vision
