@@ -36,7 +36,7 @@ All REV hub servos are instances of ``ServoImplEx``, which exposes some more met
 
 **Tips:**
 
-- You can use ``setPwmRange()`` to increase the servo range to a maximum of 500 to 2500 microseconds. This changes the SDK mapping, with 0 becoming the minimum microseconds and 1 becoming the maximum microseconds. **Increasing the range to 500-2500 can give more range when controlling servos that use 500-2500 PWM Range, such as goBILDA serovs and REV Smart Robot Servo**
+- You can use ``setPwmRange()`` to increase the servo range to a maximum of 500 to 2500 microseconds. This changes the SDK mapping, with 0 becoming the minimum microseconds and 1 becoming the maximum microseconds. **Increasing the range to 500-2500 can give more range when controlling servos that use 500-2500 PWM Range, such as goBILDA servos and REV Smart Robot Servo**
 - ``setPwmDisable()`` and ``setPwmEnable()`` can be used to turn on and off the PWM signal to a servo. On some servos, this will cause the servo to de-energize and "turn off" with no holding power. Other servos may stay on and hold their position. Behavior will vary from servo manufacturer to servo manufacturer. It will also disable 5V power if the servo is the only one in its group of ports.
 
 .. tip:: Both REV Smart Robot Servos and goBILDA servos will stop holding their position when ``setPwmDisable`` is called, regardless of if the 5v power is still on or not.

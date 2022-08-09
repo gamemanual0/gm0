@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-Basic information for starting out on your programming journey
+Basic information for starting out on your programming journey.
 
 .. toctree::
    :maxdepth: 1

@@ -10,7 +10,7 @@ This became much simpler to do with SDK versions 5.4 and above, with a built-in 
 Off Mode
 ^^^^^^^^
 
-This is the default, and the most boring; it means bulk reads are not used by the sdk when calling normal hardware-access methods.
+This is the default, and the most boring; it means bulk reads are not used by the SDK when calling normal hardware-access methods.
 
 .. note:: Bulk reads can still be accessed by calling the ``LynxModule.getBulkInputData()`` method, however if one wishes to use bulk reads (which we highly recommend) using ``AUTO`` or ``MANUAL`` modes is simpler.
 
