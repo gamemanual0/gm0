@@ -13,7 +13,7 @@ Expansion Hub Internals
 Lynx Board
 ^^^^^^^^^^
 
-"Lynx" is the codename of the board within the :term:`Expansion Hub` and :term:`Control Hub` that interacts with hardware. References to "Lynx" are made in the FTC SDK refer to this board. It appears to have been developed by both REV and DEKA, possibly for use in FIRST Global (judging by the FIRST Global silkscreen on the PCB).
+"Lynx" is the codename of the board within the Expansion Hub and Control Hub that interacts with hardware. References to "Lynx" are made in the FTC SDK refer to this board. It appears to have been developed by both REV and DEKA, possibly for use in FIRST Global (judging by the FIRST Global silkscreen on the PCB).
 
 .. warning:: Don't take apart a Control or Expansion Hub unless you really know what you are doing. They can be damaged in the process, especially if one does not know how to properly reassemble it.
 
@@ -73,16 +73,16 @@ The expansion hub has the following ports
 Control Hub
 ^^^^^^^^^^^
 
-The :term:`Control Hub` is an :term:`Expansion Hub` with an embedded Android single-board computer daughterboard connected to it. This enables it to not need a separate Robot Controller phone, as the daughterboard functions as the Robot Controller. Internally, :term:`LynxCommands <LynxCommand>` are sent over from the daughterboard to the :term:`Lynx board <Lynx>` over an internal UART connection.
+The Control Hub is an Expansion Hub with an embedded Android single-board computer daughterboard connected to it. This enables it to not need a separate Robot Controller phone, as the daughterboard functions as the Robot Controller. Internally, LynxCommands are sent over from the daughterboard to the Lynx board over an internal UART connection.
 
 The control hub daughterboard contains a RK3328 Quad-core ARM Cortex-A53 running a custom version of Android/Linux. This software is open source, but has nothing notible except for some software that manages the wifi access point. It has no thermal spreading, such as heat sinks, on the chip, which can cause thermal throttling when heavy applications such as tensorflow are used.
 
 .. warning:: Don't take apart a Control or Expansion Hub unless you really know what you are doing. They can be damaged in the process, especially if one does not know how to properly reassemble it.
 
 .. figure:: images/control-system-internals/control-hub-internals.jpg
-   :alt: The single board computer and :term:`Lynx` board from a Control Hub
+   :alt: The single board computer and Lynx board from a Control Hub
 
-   The single board computer and :term:`Lynx` board from a Control Hub
+   The single board computer and Lynx board from a Control Hub
 .. figure:: images/control-system-internals/android-board.jpg
    :alt: The android board, removed from a control hub
 

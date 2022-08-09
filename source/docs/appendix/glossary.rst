@@ -300,7 +300,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       The most common ways of gearing up or down are using gearboxes, gears, sprockets and belt-driven pulleys, all of which exist in various sizes.
 
    Grounding Strap
-      The REV Grounding Strap is used to ground the metal frame of the robot to the :term:`XT30` port of the :term:`Expansion Hub`. It is currently the only legal way to ground your robot.
+      The REV Grounding Strap is used to ground the metal frame of the robot to the :term:`XT30` port of the Expansion Hub. It is currently the only legal way to ground your robot.
 
       .. image:: images/glossary/grounding-strap.png
          :alt: A REV Robotics grounding strap
@@ -475,7 +475,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Refer to :doc:`/docs/power-and-electronics/motor-guide/gearbox-anatomy` for more information.
 
    Robot Controller
-      The Robot Controller (RC) phone refers to the phone that is on the robot and is connected to the :term:`Expansion Hub` via the Micro USB cable. This can now be replaced by a Control Hub.
+      The Robot Controller (RC) phone refers to the phone that is on the robot and is connected to the Expansion Hub via the Micro USB cable. This can now be replaced by a Control Hub.
 
    RS-550 Series Motor
       The RS-555 series motor is the standard motor in FTC. It forms the base for the :term:`Andymark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors.
@@ -507,7 +507,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          10030 7 Sigma, Relic Recovery
 
    Servo Power Module
-      A Servo Power Module (SPM) is a device made by REV Robotics that boosts the voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The :term:`Expansion Hub's <Expansion Hub>` output for servos is 5V at 6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
+      A Servo Power Module (SPM) is a device made by REV Robotics that boosts the voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
 
       **This is important for servos under high load conditions such as the Savox servo, as well as the VEX 393 motor.**
 
@@ -650,7 +650,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :width: 200
 
    USB Retention Mount
-      The USB Retention Mount, sold by REV, is a plastic part affixed to the :term:`Expansion Hub` that relieves stress on the USB Mini port. This is especially important because if the USB cable is loose or disconnected, the robot phone cannot communicate with the Expansion Hub, causing a disconnect.
+      The USB Retention Mount, sold by REV, is a plastic part affixed to the Expansion Hub that relieves stress on the USB Mini port. This is especially important because if the USB cable is loose or disconnected, the robot phone cannot communicate with the Expansion Hub, causing a disconnect.
 
       .. note:: For teams using an expansion hub, it is highly recommended for teams to purchase the USB retention mount.
 
@@ -718,7 +718,7 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       Wheel scrub refers to friction between the side of the wheel and the floor tile. It inhibits turning as the drivetrain must overcome this frictional force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop <Center drop>`.
 
    XT30
-      The XT30 connector is used in the REV ecosystem through the :term:`Expansion <Expansion Hub>` or Control Hub. The XT30 through the REV Slim Battery provides power to the Expansion Hub, and teams will need an XT30 cable to transfer power from the main hub to a secondary hub. This is also the connector used on the :term:`REV Grounding Strap <Grounding Strap>`.
+      The XT30 connector is used in the REV ecosystem through the Expansion or Control Hub. The XT30 through the REV Slim Battery provides power to the Expansion Hub, and teams will need an XT30 cable to transfer power from the main hub to a secondary hub. This is also the connector used on the :term:`REV Grounding Strap <Grounding Strap>`.
 
       .. image:: images/glossary/xt30.png
          :alt: A XT30 male and female connector

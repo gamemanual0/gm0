@@ -57,8 +57,8 @@ REV Expansion Hub
    analog, and I2C ports.
    Maximum of 2 hubs.
 REV Control Hub
-   Integrated :term:`Expansion Hub` + :term:`Robot Controller` phone.
-   It serves many of the same purposes as the :term:`Expansion Hub` but
+   Integrated Expansion Hub + :term:`Robot Controller` phone.
+   It serves many of the same purposes as the Expansion Hub but
    eliminates the need for a :term:`Robot Controller` phone.
    1 Expansion Hub may be used along side 1 Control Hub.
 Driver Station (DS)
