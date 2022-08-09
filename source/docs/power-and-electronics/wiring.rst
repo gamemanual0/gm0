@@ -24,7 +24,7 @@ General Advice
 - Tie together loose wires, and better yet, tie that bunch of wires to a structural component. This will ensure that wires don't interfere with your mechanisms.
 - **Pay attention to port numbers!** The rev hub will often have multiple ports per connector on the REV hub. `REV has a pinout guide to avoid confusion <https://docs.revrobotics.com/rev-control-system/control-system-overview/port-pinouts>`_.
 - **Treat every wire connection as a point of failure**. Therefore, use electrical tape to tape up and insulate connections and utilize strain relief as much as possible.
-- **Strain relief** should be used everywhere possible. It is highly recommended for teams to use products like the :term:`REV USB Retention Mount <USB Retention Mount>`, as well as 3D printing strain relief methods for devices such as the :term:`Expansion Hub` and robot controller phones.
+- **Strain relief** should be used everywhere possible. It is highly recommended for teams to use products like the :term:`REV USB Retention Mount <USB Retention Mount>`, as well as 3D printing strain relief methods for devices such as the Expansion Hub and robot controller phones.
 - **DO NOT solder a wire before crimping it**. Solder can "creep" and losing connection is possible, possibly leading to fire.
 - **Keep all wire runs as short as possible** to prevent entanglement and improve wire management.
 - **When using data/sensor cables, keep them away from motors.** This will reduce electromagnetic interference (EMI). Add a ferrite bead if possible.
@@ -116,7 +116,7 @@ Miscellaneous
 REV Grounding Strap
    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only legal way to ground your robot. Attach the end to the metal part of your robot frame, and plug the :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels
-   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each :term:`Expansion Hub`). The block can be connected to the Servo Power Module to boost voltage for servos or provide continuous rotation for the :term:`VEX 393 EDR`.
+   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos or provide continuous rotation for the :term:`VEX 393 EDR`.
 Dryer sheets
    Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can’t hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray

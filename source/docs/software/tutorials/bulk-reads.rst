@@ -3,7 +3,7 @@
 Bulk Reads
 ==========
 
-Bulk reads are a :term:`LynxCommand` that reads all sensor values (except I2C) on a hub at once. This takes the same amount of time to execute as any other :term:`LynxCommand`, and can therefore save a lot of time in the execution loop; with a bulk read, reading ten sensors takes as much time as reading one sensor (if they are not I2C and are on the same hub).
+Bulk reads are a LynxCommand that reads all sensor values (except I2C) on a hub at once. This takes the same amount of time to execute as any other LynxCommand, and can therefore save a lot of time in the execution loop; with a bulk read, reading ten sensors takes as much time as reading one sensor (if they are not I2C and are on the same hub).
 
 This became much simpler to do with SDK versions 5.4 and above, with a built-in way to easily access it. Here is `the official example <https://github.com/first-tech-challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java>`_ on how to use bulk reads.
 
