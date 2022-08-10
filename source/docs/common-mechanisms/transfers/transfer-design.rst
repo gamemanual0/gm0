@@ -15,7 +15,7 @@ One important thing to consider when designing a transfer is what object will be
 Location considerations
 -----------------------
 
-Another important consideration when designing a transfer is where the transfer will be moving items. A very common transfer mechanism is one to move objects from the intake of the robot to a scoring mechanism. In this case, it can make sense to combine the transfer system with the intake system or scoring system, so only two mechanisms are needed. In addition, moving objects in multiple axes is difficult and error-prone. When mechanisms are aligned, transfers only have to act in straight lines
+Another important consideration when designing a transfer is where the transfer will be moving items. A very common transfer mechanism is one to move objects from the intake of the robot to a scoring mechanism. In this case, it can make sense to combine the transfer system with the intake system or scoring system, so only two mechanisms are needed. In addition, moving objects in multiple axes is difficult and error-prone. When mechanisms are aligned, transfers only have to act in straight lines, avoiding unnecessary complexity.
 
 
 .. tip:: Generally, when designing transfers, you want to avoid as much mechanical complexity as possible. The less moving parts in a mechanism, the lower the chance something can fail

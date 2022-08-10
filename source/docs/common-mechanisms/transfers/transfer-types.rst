@@ -6,7 +6,7 @@ There are a lot of different styles and types of transfers, but most are a form 
 Direct Transfer
 ---------------
 
-The simplest form of transfer is a direct transfer. This is the term for when the mechanism that an item is being move to is simply placed directly behind whatever is gathering the item. The most common form of this is putting an arm or bucket directly behind the intake to collect the item as soon as it enters the intake. Since there is no mechanism between the intake and the outtake system, this is also referred to as a "transferless" system.
+The simplest form of transfer is a direct transfer. This is the term for when the mechanism that an item is being moved to is simply placed directly behind whatever is gathering the item. The most common form of this is putting an arm or bucket directly behind the intake to collect the item as soon as it enters the intake. Since there is no mechanism between the intake and the outtake system, this is also referred to as a "transferless" system.
 
 Advantages:
 
@@ -22,7 +22,7 @@ Disadvantages:
 .. figure:: images/16461_transferless.png
    :alt: A picture of a direct transfer intake from FTC 16461, where the collection bucket is behind the intake
 
-   16461 Infinite Turtles direct transfer intake, where the collection bucket is right behind the intake
+   16461 Infinite Turtles Freight Frenzy direct transfer intake, where the collection bucket is right behind the intake
 
 Flip Up Transfer
 ----------------
@@ -45,7 +45,12 @@ Disadvantages:
 .. figure:: images/6165_flip.*
    :alt: 6165 extending and flip up intake
 
-   6165 MSET Cuttlefish flip up intake. The intake is mounted on linear slides for increased horizontal reach
+   6165 MSET Cuttlefish Freight Frenzy flip up intake. The intake is mounted on linear slides for increased horizontal reach
+
+.. figure:: images/7236_flip.*
+   :alt: 7236 flip up intake
+
+   7236 Recharged Green Rover Ruckus flip up intake
 
 Grate Transfer
 --------------
@@ -64,15 +69,22 @@ Disadvantages
 - Doesn't integrate easily with rotational mechanisms
 - Limiting in range of motion, mechanisms have to move in specific orders for the transfer to work correctly
 
+.. dropdown:: Animated Grate Transfer Example (Click To Expand)
+
+   .. raw:: html
+
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <model-viewer alt="Grate Transfer" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/transfers/gratetransfer.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
 .. figure:: images/6929_grate.png
    :alt: 6929 grate transfer deposit, where the forks are visible
 
-   6929 grate transfer deposit. The forks are visible on the bottom, which would go between the forks on the intake bucket.
+   6929 Data Force Rover Ruckus grate transfer deposit. The forks are visible on the bottom, which would go between the forks on the intake bucket.
 
 Conveyor Transfers
 ------------------
 
-Conveyor Transfer is a catch all term for transfer system that uses components to linearly move mechanisms internally. Conveyors can use rollers, belts, surgical tubing, rubber bands, and other materials to move the items. These materials form conveyors to move the items. Conveyors are generally either roller conveyors, where a series of rollers move parts, or continuous conveyors, where a continuous object moves the items. In addition, a hybrid conveyor can be used which is made up of both rollers and continuous objects in between.
+Conveyor Transfer is a catch all term for transfer system that uses components to linearly move mechanisms internally. Conveyors can use rollers, belts, surgical tubing, rubber bands, and other materials to move the items. These materials then form conveyors that seamlessly move the object linearly from one mechanism to another. Conveyors are generally either roller conveyors, where a series of rollers move parts, or continuous conveyors, where a continuous object moves the items. In addition, a hybrid conveyor can be used which is made up of both rollers and continuous objects in between.
 
 General Advantages
 
@@ -95,7 +107,7 @@ Roller conveyors use a series of rollers or wheels to move objects from the begi
 .. figure:: images/7244_roller.jpeg
    :alt: 7244 Roller Conveyor intake, where a series of omni wheels moves a game element verticall
 
-   7244 OUT of the BOX Robotics roller conveyor intake, where a series of omni wheels moves the game element rings at a high vertical angle.
+   7244 OUT of the BOX Robotics Ultimate Goal roller conveyor intake, where a series of omni wheels moves the game element rings at a high vertical angle.
 
 Continuous Conveyor
 ^^^^^^^^^^^^^^^^^^^
