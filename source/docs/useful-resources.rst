@@ -26,7 +26,7 @@ General Resources
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
-`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/first-tech-challenge>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
+`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
 `Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
 
@@ -142,7 +142,7 @@ Programming
 
 `FTC Robot Controller Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_:highlight:`*` --- The home of the FTC SDK. Also check out the associated `wiki <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/>`_ and `JavaDocs <https://javadoc.io/doc/org.firstinspires.ftc>`_.
 
-`REV's Introduction to Programming <https://docs.revrobotics.com/rev-control-system/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
+`REV's Introduction to Programming <https://docs.revrobotics.com/duo-control/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
 `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
 

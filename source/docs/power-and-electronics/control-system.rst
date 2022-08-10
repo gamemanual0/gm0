@@ -10,7 +10,7 @@ The two major manufacturers of control hubs for FTC are Modern Robotics and REV;
 More information about the FTC Control system can be found below:
 
 - `Official control system Wiki on GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki>`_
-- `REV Expansion Hub Documentation <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_
+- `REV Control System Documentation <https://docs.revrobotics.com/duo-control/>`_
 - `Official troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 
 There are two possible control systems that can be run on an FTC robot legally:
@@ -25,7 +25,7 @@ RC Phone + REV Expansion Hub(s)
 
 This is the standard control system for teams starting out in FTC. The REV Expansion Hub is reliable, as long as proper strain relief and wiring is carried out. This includes the :term:`USB Retention Mount`, as well as 3D printing :term:`XT30` stress relief mounts.
 
-The Expansion Hub connects to the :term:`Robot Controller` phone through the mini USB port, and the :term:`RC <Robot Controller>` phone is linked to the DS (:term:`Driver Station`) phone through WiFi Direct. For more information on setting up the Expansion Hub and configuring the robot, head to `REV Robotics’ Technical Resources Expansion Hub Guide <https://docs.revrobotics.com/rev-control-system/control-system-overview/expansion-hub-basics>`_.
+The Expansion Hub connects to the :term:`Robot Controller` phone through the mini USB port, and the :term:`RC <Robot Controller>` phone is linked to the DS (:term:`Driver Station`) phone through WiFi Direct. For more information on setting up the Expansion Hub and configuring the robot, head to `REV Robotics’ Technical Resources Expansion Hub Guide <https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_.
 
 - `USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_
 - `XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_
@@ -46,4 +46,4 @@ Note: The Control Hub will be legal for all teams from the 2020-2021 FTC season 
    :alt: A diagram of the Control Hub + Expansion Hub control system
    :width: 100%
 
-.. _REV Expansion Hub firmware update docs: https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-firmware
+.. _REV Expansion Hub firmware update docs: https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware
