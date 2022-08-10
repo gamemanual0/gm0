@@ -46,6 +46,7 @@ Disadvantages
 - Slower form of transfer then grate or direct
 - Mechanism can be hit by other robots when outside the robot frame
 
+<<<<<<< HEAD
 .. only:: latex
 
    .. figure:: images/6165_flip.png
@@ -64,7 +65,7 @@ Disadvantages
 
 .. only:: latex
 
-   .. figure:: images/7236_flip.png
+   .. figure:: images/7236_flip.pdf
       :alt: 7236 flip up intake
 
 .. raw:: html
@@ -74,6 +75,17 @@ Disadvantages
    </video>
 
 7236 Recharged Green Rover Ruckus flip up intake
+=======
+.. figure:: images/6165-flip.*
+   :alt: 6165 extending and flip up intake
+
+   6165 MSET Cuttlefish, Freight Frenzy, Flip up transfer intake, mounted on linear slides for increased horizontal reach
+
+.. figure:: images/7236-flip.*
+   :alt: 7236 flip up intake
+
+   7236 Recharged Green, Rover Ruckus, Flip up transfer intake
+>>>>>>> e9d3a19999715570e8ebb475db5a2580fd183e32
 
 Grate Transfer
 --------------
