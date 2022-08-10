@@ -42,12 +42,10 @@ Disadvantages:
 - Slower form of transfer then grate or direct
 - Mechanism can be hit by other robots when outside the robot frame
 
-.. figure:: images/6165_flip.gif
+.. figure:: images/6165_flip.*
    :alt: 6165 extending and flip up intake
 
    6165 MSET Cuttlefish flip up intake. The intake is mounted on linear slides for increased horizontal reach
-
-The above video shows 6165 MSET Cuttlefish flip up intake. The intake also extends on a set of linear slides for increased horizontal reach.
 
 Grate Transfer
 --------------
