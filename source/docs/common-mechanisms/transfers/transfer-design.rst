@@ -23,5 +23,5 @@ Another important consideration when designing a transfer is where the transfer 
 Transfer Type Considerations
 ----------------------------
 
-There are several different types of transfers, ranging from linear to rotational transfers, and different ways of actually moving objects inside the transfer mechanism. When designing a transfer, a design that has lower mechanical complexity will be prone to less mechanical failures. See INSERT LINK HERE for examples of common transfer types
+There are several different types of transfers, ranging from linear to rotational transfers, and different ways of actually moving objects inside the transfer mechanism. When designing a transfer, a design that has lower mechanical complexity will be prone to less mechanical failures. See :doc:`transfer-types` for examples of common transfer types
 

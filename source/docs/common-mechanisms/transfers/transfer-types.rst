@@ -44,19 +44,11 @@ Disadvantages:
 
 .. raw:: html
 
-   <video width="600" controls autoplay muted>
-      <source src="images/6165_flip.mp4" type="video/mp4">
+   <video width="600" controls autoplay muted loop>
+      <source src="../../../_images/6165_flip.mp4" type="video/mp4">
    </video>
 
-6165 MSET Cuttlefish flip up intake. The intake also extends on a set of linear slides for increased horizontal reach.
-
-.. raw:: html
-
-   <video width="600" controls autoplay muted>
-      <source src="images/7303_flip.mp4" type="video/mp4">
-   </video>
-
-7303 RoboAvatars flip up intake. The intake also extends on a set of linear slides for increased horizontal reach.
+The above video shows 6165 MSET Cuttlefish flip up intake. The intake also extends on a set of linear slides for increased horizontal reach.
 
 Grate Transfer
 --------------
