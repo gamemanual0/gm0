@@ -120,7 +120,7 @@ PID can be enabled by changing the run mode to ``RUN_USING_ENCODER``
     Many misunderstand the use of ``RUN_USING_ENCODER``, many may mistake that it is necessary to use this mode for the encoders to work at all, but this is not true. Instead, ``RUN_USING_ENCODER`` enables velocity feedback using the encoder. If you are using an external PID controller such as one that you implement, generally, it is recommended that you use ``RUN_WITHOUT_ENCODER``.
 
 
-For official documentation on the built in PID controller, `see here <https://docs.revrobotics.com/rev-control-system/programming/using-encoder-feedback>`_
+For official documentation on the built in PID controller, `see here <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`_
 
 Debugging Built-In PID Controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

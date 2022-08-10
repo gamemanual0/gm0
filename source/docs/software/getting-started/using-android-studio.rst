@@ -142,10 +142,10 @@ To install your program onto the Robot Controller, you will use the play button 
 
 Next to it you will see a dropdown for devices. When you connect your Robot Controller to your computer (using the correct cable), the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
 
-If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/rev-control-system/>`_. Some useful pages from the REV site are:
+If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful pages from the REV site are:
 
 - `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
-- `Deploying Code Wirelessly <https://docs.revrobotics.com/rev-control-system/programming/android-studio-using-wireless-adb>`_
+- `Deploying Code Wirelessly <https://docs.revrobotics.com/duo-control/programming/android-studio-using-wireless-adb>`_
 
 If you're still stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
 
