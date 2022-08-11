@@ -70,7 +70,7 @@ Disadvantages
 .. raw:: html
 
    <video width="600" autoplay muted loop>
-      <source src="../../../_static/videos/common-mechanisms/transfers/7236-flip.mp4" type="video/mp4">
+      <source src="/_static/videos/common-mechanisms/transfers/7236-flip.mp4" type="video/mp4">
    </video>
 
 7236 Recharged Green Rover Ruckus flip up intake
