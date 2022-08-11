@@ -232,6 +232,18 @@ optional = false
 python-versions = ">=2.6"
 
 [[package]]
+name = "pillow"
+version = "9.2.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[[package]]
 name = "pygments"
 version = "2.12.0"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -506,6 +518,19 @@ python-versions = ">=3.6"
 sphinx = ">=2.0"
 
 [[package]]
+name = "sphinxext-photofinish"
+version = "0.1.8"
+description = "Sphinx Extension that creates responsive images."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+beautifulsoup4 = ">=4"
+pillow = ">=8"
+sphinx = ">=2.0"
+
+[[package]]
 name = "sphinxext-rediraffe"
 version = "0.2.7"
 description = "Sphinx Extension that redirects non-existent pages to working pages."
@@ -580,7 +605,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "0faaf4d2bef02afc9de6ea48abc8f3af4719011a8d10bec3662814dbf692bf9b"
+content-hash = "251ccec0c7fde8e669a32bbda7146d35f15acb8c865dab1a1a23dcd7c867c6fb"
 
 [metadata.files]
 alabaster = [
@@ -705,6 +730,7 @@ pbr = [
     {file = "pbr-5.9.0-py2.py3-none-any.whl", hash = "sha256:e547125940bcc052856ded43be8e101f63828c2d94239ffbe2b327ba3d5ccf0a"},
     {file = "pbr-5.9.0.tar.gz", hash = "sha256:e8dca2f4b43560edef58813969f52a56cef023146cbb8931626db80e6c1c4308"},
 ]
+pillow = []
 pygments = [
     {file = "Pygments-2.12.0-py3-none-any.whl", hash = "sha256:dc9c10fb40944260f6ed4c688ece0cd2048414940f1cea51b8b226318411c519"},
     {file = "Pygments-2.12.0.tar.gz", hash = "sha256:5eb116118f9612ff1ee89ac96437bb6b49e8f04d8a13b514ba26f620208e26eb"},
@@ -790,6 +816,10 @@ sphinxext-linkcheckdiff = [
 sphinxext-opengraph = [
     {file = "sphinxext-opengraph-0.6.3.tar.gz", hash = "sha256:cd89e13cc7a44739f81b64ee57c1c20ef0c05dda5d1d8201d31ec2f34e4c29db"},
     {file = "sphinxext_opengraph-0.6.3-py3-none-any.whl", hash = "sha256:bf76017c105856b07edea6caf4942b6ae9bb168585dccfd6dbdb6e4161f6b03a"},
+]
+sphinxext-photofinish = [
+    {file = "sphinxext-photofinish-0.1.8.tar.gz", hash = "sha256:4d809554c4a3b3903e88455eb25642c791a29791d67b65ab0f5b225ca136de31"},
+    {file = "sphinxext_photofinish-0.1.8-py3-none-any.whl", hash = "sha256:48bbd2e7cae703ee905f6605937321a5ced8af960eb4aff1aed21203c58b881a"},
 ]
 sphinxext-rediraffe = [
     {file = "sphinxext-rediraffe-0.2.7.tar.gz", hash = "sha256:651dcbfae5ffda9ffd534dfb8025f36120e5efb6ea1a33f5420023862b9f725d"},

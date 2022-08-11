@@ -32,6 +32,7 @@ extensions = [
     "sphinx_design",
     "sphinxext.linkcheckdiff",
     "sphinxext.opengraph",
+    "sphinxext.photofinish",
     "sphinxext.rediraffe",
     "hoverxref.extension"
 ]
@@ -96,6 +97,12 @@ ogp_custom_meta_tags = [
     '<meta property="og:ignore_canonical" content="true" />',
     '<meta name="theme-color" content="#F47F27" />',
 ]
+
+# Configure responsive images
+# See https://github.com/wpilibsuite/sphinxext-photofinish
+max_viewport_width = 700 // 2 # the parameter is half the maximum image width
+width_min = 350
+width_step = 350
 
 # Configure redirects
 # See https://github.com/wpilibsuite/sphinxext-rediraffe
