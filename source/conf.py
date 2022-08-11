@@ -100,9 +100,9 @@ ogp_custom_meta_tags = [
 
 # Configure responsive images
 # See https://github.com/wpilibsuite/sphinxext-photofinish
-max_viewport_width = 700 // 2 # the parameter is half the maximum image width
-width_min = 350
-width_step = 350
+max_viewport_width = 1000 // 2 # the parameter is half the maximum image width
+width_min = 500
+width_step = 500
 
 # Configure redirects
 # See https://github.com/wpilibsuite/sphinxext-rediraffe
