@@ -8,4 +8,5 @@ This section covers the basics of software for FTC.
 
    getting-started/index
    tutorials/index
+   concepts/index
    adv-control-system/index

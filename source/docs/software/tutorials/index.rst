@@ -8,8 +8,5 @@ Tutorials for common FTC programs.
 
    mecanum-drive
    gamepad
-   control-loops
    bulk-reads
-   finite-state-machines
    vision
-   odometry
