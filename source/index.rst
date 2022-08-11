@@ -1,6 +1,8 @@
 Index
 =====
 
+:doc:`/nonexistent`
+
 .. grid:: 2
    :gutter: 3
    :margin: 2
