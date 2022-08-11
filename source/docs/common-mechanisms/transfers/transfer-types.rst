@@ -48,7 +48,7 @@ Disadvantages
 
 .. only:: latex
 
-   .. figure:: images/6165_flip.png
+   .. figure:: images/6165-flip.png
       :alt: 6165 extending and flip up intake
       :width: 800
 
@@ -58,13 +58,13 @@ Disadvantages
       <source src="/_static/videos/common-mechanisms/transfers/6165-flip.mp4" type="video/mp4">
    </video>
 
-6165 MSET Cuttlefish, Freight Frenzy, flip up intake, mounted on linear slides for increased horizontal reach
+6165 MSET Cuttlefish, Freight Frenzy, Flip up intake, mounted on linear slides for increased horizontal reach
 
 |
 
 .. only:: latex
 
-   .. figure:: images/7236_flip.png
+   .. figure:: images/7236-flip.png
       :alt: 7236 flip up intake
 
 .. raw:: html
@@ -73,7 +73,7 @@ Disadvantages
       <source src="/_static/videos/common-mechanisms/transfers/7236-flip.mp4" type="video/mp4">
    </video>
 
-7236 Recharged Green, Rover Ruckus, flip up intake
+7236 Recharged Green, Rover Ruckus, Flip up intake
 
 Grate Transfer
 --------------
