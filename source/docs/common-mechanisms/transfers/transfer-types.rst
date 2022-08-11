@@ -58,7 +58,7 @@ Disadvantages
       <source src="/_static/videos/common-mechanisms/transfers/6165-flip.mp4" type="video/mp4">
    </video>
 
-6165 MSET Cuttlefish Freight Frenzy flip up intake. The intake is mounted on linear slides for increased horizontal reach
+6165 MSET Cuttlefish, Freight Frenzy, flip up intake, mounted on linear slides for increased horizontal reach
 
 |
 
@@ -73,7 +73,7 @@ Disadvantages
       <source src="/_static/videos/common-mechanisms/transfers/7236-flip.mp4" type="video/mp4">
    </video>
 
-7236 Recharged Green Rover Ruckus flip up intake
+7236 Recharged Green, Rover Ruckus, flip up intake
 
 Grate Transfer
 --------------
