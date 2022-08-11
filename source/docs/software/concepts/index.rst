@@ -7,4 +7,5 @@ Many of the pages here are on concepts that are not necessarily FTC specific, an
 
    control-loops
    finite-state-machines
+   kinematics
    odometry
