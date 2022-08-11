@@ -1,40 +1,42 @@
 Kinematics
 ==========
 
-Kinematics is the application of geometry to the control of various robot mechanisms. In control systems, kinematics equations are used to control mechanisms by providing specific inputs to achieve a desired output. Many of the kinematics derivations were taken from the book `Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ and the `Mobile Robot Kinematics for FTC Paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. While only tank (differential drive) and mecanum are explained here, these papers contain derivations for other esoteric drivetrains like swerve, as well as localization systems like dead wheel odometry.
+Kinematics is the application of geometry to the control of various robot mechanisms. Kinematics equations are used to control mechanisms by providing specific inputs to achieve a desired output.
+
+Many of the kinematics equations here were taken from `Controls Engineering in the FIRST Robotics Competition (book) <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ and `Mobile Robot Kinematics for FTC (paper) <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_, which contain the relevant derivations. While only tank (differential drive) and mecanum kinematics equations are shown here, these sources also contain derivations for other mechanisms such as swerve and dead wheel odometry.
 
 Forward vs Inverse Kinematics
 -----------------------------
 
-Mechanisms may have different sets of equations for their forward and inverse kinematics. Forward kinematics is the equations used to determine the state of a system given the state of its outputs, whereas inverse kinematics determines the output of a system given the desired state. For example, in a mecanum drivetrain, forward kinematics would determine body velocity of the robot based on the individual velocities of the wheels, whereas inverse kinematics would determine the required wheel velocities for a desired body velocity.
+Mechanisms may have different sets of equations for their forward and inverse kinematics. Forward kinematics are the equations used to determine the state of a system given the state of its outputs, whereas inverse kinematics determines the output of a system given the desired state. For example, in a drivetrain, forward kinematics would determine body velocity of the robot based on the individual velocities of the wheels, whereas inverse kinematics would determine the required wheel velocities for a desired body velocity.
 
 
 Tank (Differential Drive)
 -------------------------
-A tank, or differential drive, is a drivetrain consisting of two sets of wheels on either side of the robot that are independently drive. Common tank drives include 2 Wheel Drives, 4 Wheel Drives, 6 Wheel Drives, and 8 Wheel drives.
+
+A tank, or differential drive, is a drivetrain consisting of two sets of wheels on either side of the robot that are independently driven. These are described under further detail in the :doc:`/docs/common-mechanisms/drivetrains/tank` section.
 
 Variables
 ^^^^^^^^^
 
 The following variables are used in this section.
 
-:math:`v_r` denotes the linear velocity of the right wheel(s)
+- :math:`v_r` denotes the linear velocity of the right wheel(s)
+- :math:`v_l` denotes the linear velocity of the left wheel(s)
+- :math:`v_f` denotes the forward velocity of the robot, relative to itself
+- :math:`v_{\theta}` denotes the rotational velocity of the robot in radians/second
+- :math:`r_b` denotes the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
 
-:math:`v_l` denotes the linear velocity of the left wheel(s)
+.. warning::
 
-:math:`v_f` represents the forward velocity of the robot, relative to itself.
+   These variables, with the exception of :math:`v_{\theta}`, represent **linear** velocities NOT **rotational** velocities. Wheel rotational velocity in radians/second can be converted to linear velocity by multiplying by the wheel's radius.
 
-:math:`v_{\theta}` represents the rotational velocity of the robot
-
-:math:`r_b` represents the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
-
-.. warning:: These variables, with the exception of :math:`v_{\theta}` represent **linear** velocities, NOT **rotational** velocities. One can convert between rotational and linear by multiplying the wheel's rotational speed in radians per second by its radius. In addition, positive rotational velocity will spin the robot COUNTERCLOCKWISE when viewed from above.
-
-.. tip:: While the math for kinematics is fairly unitless, we assume radians per second for rotational speed to simplify the math. However, make sure that consistent units are used when implementing these equations.
+   Positive rotational velocity (:math:`v_{\theta}`) will spin the robot COUNTERCLOCKWISE when viewed from above.
 
 Forward Kinematics
 ^^^^^^^^^^^^^^^^^^
-The forward kinematics of a tank drive relates the velocity of the wheels to the forward and rotational velocities of the robot, relative to itself. The forward velocity :math:`v_f` and the rotational velocity :math:`v_{\theta}` is simply:
+
+The forward kinematics of a tank drive relate the velocity of the wheels to the forward and rotational velocities of the robot, relative to itself. The forward velocity :math:`v_f` and the rotational velocity :math:`v_{\theta}` is:
 
 .. math::
 
@@ -44,7 +46,8 @@ The forward kinematics of a tank drive relates the velocity of the wheels to the
 
 Inverse Kinematics
 ^^^^^^^^^^^^^^^^^^
-The inverse kinematics of a tank drive relates the desired velocity of the robot to the velocity required of the wheels. These velocities are as follows:
+
+The inverse kinematics of a tank drive relate the desired velocity of the robot to the velocity required of the wheels. These velocities are as follows:
 
 .. math::
 
@@ -57,43 +60,41 @@ Mecanum Drive
 
 Variables
 ^^^^^^^^^
+
 Mecanum kinematics uses the same variables as differential drive, except with four wheel velocity variables and an additional robot velocity vector for the left to right velocity.
 
-:math:`v_{fr}` denotes the linear velocity of the front (leading) right wheel
+- :math:`v_\mathrm{fr}` denotes the linear velocity of the front (leading) right wheel
+- :math:`v_\mathrm{br}` denotes the linear velocity of the back (trailing) right wheel
+- :math:`v_\mathrm{fl}` denotes the linear velocity of the front (leading) left wheel(s)
+- :math:`v_\mathrm{bl}` denotes the linear velocity of the back (trailing) left wheel(s)
+- :math:`v_f` denotes the forward velocity of the robot, relative to itself.
+- :math:`v_s` denotes the strafe (sideways) velocity of the robot, relative to itself.
+- :math:`v_{\theta}` denotes the rotational velocity of the robot in radians/second
+- :math:`r_b` represents the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
 
-:math:`v_{br}` denotes the linear velocity of the back (trailing) right wheel
+.. warning::
 
-:math:`v_{fl}` denotes the linear velocity of the front (leading) left wheel(s)
+   These variables, with the exception of :math:`v_{\theta}`, represent **linear** velocities NOT **rotational** velocities. Wheel rotational velocity in radians/second can be converted to linear velocity by multiplying by the wheel's radius.
 
-:math:`v_{bl}` denotes the linear velocity of the back (trailing) left wheel(s)
-
-:math:`v_f` represents the forward velocity of the robot, relative to itself.
-
-:math:`v_s` represents the strafe (sideways) velocity of the robot, relative to itself.
-
-:math:`v_{\theta}` represents the rotational velocity of the robot
-
-:math:`r_b` represents the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
-
-.. warning:: These variables, with the exception of :math:`v_{\theta}` represent **linear** velocities, NOT **rotational** velocities. One can convert between rotational and linear by multiplying the wheel's rotational speed in radians per second by its radius. In addition, positive rotational velocity will spin the robot COUNTERCLOCKWISE when viewed from above.
-
-.. tip:: While the math for kinematics is fairly unitless, we assume radians per second for rotational speed to simplify the math. However, make sure that consistent units are used when implementing these equations.
+   Positive rotational velocity (:math:`v_{\theta}`) will spin the robot COUNTERCLOCKWISE when viewed from above.
 
 Forward Kinematics
 ^^^^^^^^^^^^^^^^^^
-The forward kinematics of a mecanum drive relates the velocity of the wheels to the forward, strafe, and rotational velocities of the robot, relative to itself. These are as follows:
+
+The forward kinematics of a mecanum drive relate the velocity of the wheels to the forward, strafe, and rotational velocities of the robot, relative to itself. These are as follows:
 
 .. math::
 
-   v_f = \frac{v_{fr} + v_{fl} + v_{br} + v_{bl}}{4}
+   v_f = \frac{v_\mathrm{fr} + v_\mathrm{fl} + v_\mathrm{br} + v_\mathrm{bl}}{4}
 
-   v_s = \frac{v_{bl} + v_{fr} - v_{fl} - v_{br}}{4}
+   v_s = \frac{v_\mathrm{bl} + v_\mathrm{fr} - v_\mathrm{fl} - v_\mathrm{br}}{4}
 
-   v_{\theta} = \frac{v_{br} + v_{fr} - v_{fl} - v_{bl}}{8r_b}
+   v_{\theta} = \frac{v_\mathrm{br} + v_\mathrm{fr} - v_\mathrm{fl} - v_\mathrm{bl}}{4*2r_b}
 
 Inverse Kinematics
 ^^^^^^^^^^^^^^^^^^
-The inverse kinematics of a mecanum drive relates the desired velocity of the robot to the velocity required on the wheels. These are as follows:
+
+The inverse kinematics of a mecanum drive relate the desired velocity of the robot to the velocity required on the wheels. These are as follows:
 
 .. math::
 
