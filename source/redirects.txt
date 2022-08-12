@@ -74,4 +74,5 @@
 "docs/software/gamepad.rst" "docs/software/tutorials/gamepad.rst"
 "docs/software/tutorials/control-loops.rst" "docs/software/concepts/control-loops.rst"
 "docs/software/tutorials/finite-state-machines.rst" "docs/software/concepts/finite-state-machines.rst"
+"docs/software/getting-started/using-the-sdk.rst" "docs/software/getting-started/common-hardware-components.rst"
 "docs/software/tutorials/odometry.rst" "docs/software/concepts/odometry.rst"
