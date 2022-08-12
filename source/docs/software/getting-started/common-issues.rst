@@ -69,7 +69,7 @@ Some common types of exceptions include:
 
 - **TargetPositionNotSetException**
 
-  - This exception type is a custom one from the SDK. It means you changed the motor ``RunMode`` to :ref:`RUN_TO_POSITION <run_to_position>` before setting a target position:
+  - This exception type is a custom one from the SDK. It means you changed the motor ``RunMode`` to RUN_TO_POSITION before setting a target position:
 
   .. code:: java
 
@@ -185,7 +185,7 @@ LinearOpModes are less strict since their single ``runOpMode()`` method can flow
 
 This code isn't cooperative to stop requests, since the ``while`` loop doesn't have an exit condition to cooperate with the OpMode stopping, therefore, this code will cause a "stuck in stop" error once it's stopped in the Driver Station.
 
-To cooperate with the stopping of the OpMode, an ``opModeIsActive()`` or ``!isStopRequested()`` condition is required to be added to all the blocking loops executed in the ``runOpMode()`` method. Consult the :ref:`"Using the FTC SDK" <linearopmode methods>` page for more information about these methods.
+To cooperate with the stopping of the OpMode, an ``opModeIsActive()`` or ``!isStopRequested()`` condition is required to be added to all the blocking loops executed in the ``runOpMode()`` method. Consult the :doc:`linear-opmode-vs-opmode` page for more information about these methods.
 
 An example for a cooperative LinearOpMode would be as follows:
 
