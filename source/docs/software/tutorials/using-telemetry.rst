@@ -8,14 +8,14 @@ Building Telemetry
 
 There are two main methods used to add things to telemetry. ``addData()`` takes two parameters, a string for the caption, and then a value that can be any object. This is then printed on the phone screen in the format ``caption : value``. These lines are keyed, so adding a secondary ``addData()`` with the same caption will override the value set.
 
-.. codeblock::
+.. code::
 
    telemetry.addData("Caption 1", 2.5);
    telemetry.addData("Caption 2", "value");
 
 The second method used to add things to telemetry is ``addLine()``. Add line can be used to add a line with no parameters, or can take a single string to add as a line.
 
-.. codeblock::
+.. code::
 
    telemetry.addLine("This is a line!");
 
