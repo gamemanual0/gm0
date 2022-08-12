@@ -15,10 +15,10 @@ author = "Game Manual 0 Contributors"
 hosted_by = """Hosting Graciously Provided By //Copperforge"""
 copyright = author + " |  " + hosted_by
 
-# The full version, including alpha/beta/rc tags
-release = re.sub("^v", "", os.popen("git describe").read().strip())
-# The short X.Y version
-version = release
+# this is to be cute, with gm0's deploy model of just showing main actual
+# versions are fairly redundant
+release = "0"
+version = "0"
 
 # -- General configuration ---------------------------------------------------
 #
