@@ -1,7 +1,7 @@
 Design Strategy
 ===============
 
-A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies: `Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow itself <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
+A useful resource is the championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies: `Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow itself <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
 
 General Design Tips and Mistakes
 --------------------------------
