@@ -24,7 +24,7 @@ The following variables are used in this section.
 - :math:`v_r` denotes the linear velocity of the right wheel(s)
 - :math:`v_l` denotes the linear velocity of the left wheel(s)
 - :math:`v_f` denotes the forward velocity of the robot, relative to itself
-- :math:`v_{\theta}` denotes the rotational velocity of the robot in radians/second
+- :math:`v_{\omega}` denotes the rotational velocity of the robot in radians/second
 - :math:`r_b` denotes the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
 
 .. warning::
@@ -42,7 +42,7 @@ The forward kinematics of a tank drive relate the velocity of the wheels to the 
 
    v_f = \frac{v_r + v_l}{2}
 
-   v_{\theta} = \frac{v_r - v_l}{2 r_b}
+   v_{\omega} = \frac{v_r - v_l}{2 r_b}
 
 Inverse Kinematics
 ^^^^^^^^^^^^^^^^^^
@@ -51,9 +51,9 @@ The inverse kinematics of a tank drive relate the desired velocity of the robot 
 
 .. math::
 
-   v_r = \frac{v_f + r_d}{2 v_{\theta}}
+   v_r = \frac{v_f + r_d}{v_{\omega}}
 
-   v_l = \frac{v_f + r_d}{2 v_{\theta}}
+   v_l = \frac{v_f - r_d}{v_{\omega}}
 
 Mecanum Drive
 -------------
@@ -69,14 +69,14 @@ Mecanum kinematics uses the same variables as differential drive, except with fo
 - :math:`v_\mathrm{bl}` denotes the linear velocity of the back (trailing) left wheel(s)
 - :math:`v_f` denotes the forward velocity of the robot, relative to itself.
 - :math:`v_s` denotes the strafe (sideways) velocity of the robot, relative to itself.
-- :math:`v_{\theta}` denotes the rotational velocity of the robot in radians/second
+- :math:`v_{\omega}` denotes the rotational velocity of the robot in radians/second
 - :math:`r_b` represents the base track radius, or the distance between the wheel and center of the robot (half of the distance between wheels)
 
 .. warning::
 
-   These variables, with the exception of :math:`v_{\theta}`, represent **linear** velocities NOT **rotational** velocities. Wheel rotational velocity in radians/second can be converted to linear velocity by multiplying by the wheel's radius.
+   These variables, with the exception of :math:`v_{\omega}`, represent **linear** velocities NOT **rotational** velocities. Wheel rotational velocity in radians/second can be converted to linear velocity by multiplying by the wheel's radius.
 
-   Positive rotational velocity (:math:`v_{\theta}`) will spin the robot COUNTERCLOCKWISE when viewed from above.
+   Positive rotational velocity (:math:`v_{\omega}`) will spin the robot COUNTERCLOCKWISE when viewed from above.
 
 Forward Kinematics
 ^^^^^^^^^^^^^^^^^^
@@ -89,7 +89,7 @@ The forward kinematics of a mecanum drive relate the velocity of the wheels to t
 
    v_s = \frac{v_\mathrm{bl} + v_\mathrm{fr} - v_\mathrm{fl} - v_\mathrm{br}}{4}
 
-   v_{\theta} = \frac{v_\mathrm{br} + v_\mathrm{fr} - v_\mathrm{fl} - v_\mathrm{bl}}{4*2r_b}
+   v_{\omega} = \frac{v_\mathrm{br} + v_\mathrm{fr} - v_\mathrm{fl} - v_\mathrm{bl}}{4*2r_b}
 
 Inverse Kinematics
 ^^^^^^^^^^^^^^^^^^
@@ -98,10 +98,10 @@ The inverse kinematics of a mecanum drive relate the desired velocity of the rob
 
 .. math::
 
-   v_{fl} = v_f - v_s - (2r_b \cdot v_{\theta})
+   v_{fl} = v_f - v_s - (2r_b \cdot v_{\omega})
 
-   v_{rl} = v_f + v_s - (2r_b \cdot v_{\theta})
+   v_{rl} = v_f + v_s - (2r_b \cdot v_{\omega})
 
-   v_{br} = v_f - v_s + (2r_b \cdot v_{\theta})
+   v_{br} = v_f - v_s + (2r_b \cdot v_{\omega})
 
-   v_{fr} = v_f + v_s + (2r_b \cdot v_{\theta})
+   v_{fr} = v_f + v_s + (2r_b \cdot v_{\omega})
