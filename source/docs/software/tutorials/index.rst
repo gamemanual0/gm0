@@ -8,5 +8,6 @@ Tutorials for common FTC programs.
 
    mecanum-drive
    gamepad
+   using-telemetry
    bulk-reads
    vision
