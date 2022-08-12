@@ -51,9 +51,9 @@ The inverse kinematics of a tank drive relate the desired velocity of the robot 
 
 .. math::
 
-   v_r = \frac{v_f + r_d}{\omega}
+   v_r = v_f + r_d \cdot \omega
 
-   v_l = \frac{v_f - r_d}{\omega}
+   v_l = v_f - r_d \cdot \omega
 
 Mecanum Drive
 -------------
