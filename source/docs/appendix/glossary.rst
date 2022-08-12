@@ -3,14 +3,9 @@ Glossary
 
 Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here. You’ll be able to quickly learn the lingo of FTC!
 
+Hardware Basics
+^^^^^^^^^^^^^^^
 .. glossary::
-
-   Anderson PowerPole
-      Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are very reliable and recommended for teams. In addition, there are adapters available to other systems.
-
-      .. image:: images/glossary/anderson-powerpole.png
-         :alt: Anderson powerpole connector
-         :width: 200
 
    Ball Bearing
       Ball bearings refer to bearings with steel balls arranged in a circular fashion. This allows rotation of an element with less friction than a bushing, primarily because the surface area (or contact area) is much less than in a :term:`bushing <Bushing>`.
@@ -82,22 +77,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          REV Pillow Block
 
-   Cantilever
-      A cantilever refers to when an object (usually a :term:`shaft <Shaft>`) is only supported on one side. While this provides theoretically less support, as long as the shaft is still supported at two points by :term:`bearings <Ball Bearing>` or :term:`bushings <Bushing>`, cantilever is still a sound building technique. Many drivetrains are cantilevered, which provides for easy access to wheels.
-
-      .. note:: Supporting the shaft on both sides is theoretically more structurally sound, although in most cases you won’t notice a difference.
-
-      .. figure:: images/glossary/sanford-cantilever.png
-         :alt: Sanford's cantilever 6WD prototype
-
-         Sanford’s Prototype
-
-   C2C
-      Center to center (C2C) refers to the distance between the centers of a pair of :term:`sprockets <Sprocket>`, pulleys or :term:`gears <Gear>`. This will affect :term:`chain <Chain>`/:term:`belt <HTD Belt>` tension and gear meshing, so calculating this correctly is essential.
-
-   Center drop
-      Center drop refers to a 6+ wheel tank drivetrain with the center wheel (usually a traction wheel) mounted slightly lower than the other wheels, thus "dropping" that wheel. Dropped drivetrains have more turning agility than non-dropped tank drivetrains as :term:`wheel scrub <Wheel scrub>` is reduced.
-
    Chain
       Refer to :term:`sprocket <Sprocket>` for more information.
 
@@ -124,17 +103,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A piece of churro
          :width: 200
 
-   Clamp Mounting
-      Clamp mounting refers to securing a motor primarily by using friction instead of screws attached to the motor itself. This is generally discouraged as the motor can become loosened over time.
-
-      .. tip:: Use friction tape around the surface of the motor that is clamped down so that it will have less chance of moving around.
-
-      .. figure:: images/glossary/clamp-mounting.png
-         :alt: A TETRIX v1 motor attached with a TETRIX Clamp Mount
-         :width: 200
-
-         TETRIX clamp mount and v1 motor
-
    Clamping Hub
       A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from moving laterally. Clamping hubs are recommended over shaft collars because clamping hubs have more contact area than a set screw.
 
@@ -148,16 +116,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       .. image:: images/glossary/colson.png
          :alt: A Colson Performa Wheel
          :width: 200
-
-   Computer-aided design (CAD)
-      CAD is software most commonly used to aid the design and drafting of parts and assemblies in engineering. In FTC, CAD is used to make 3D models of robots as well as design custom parts.
-
-   COTS
-      COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase physically or through an online retailer.
-
-      .. warning:: FTC teams are limited to one degree of freedom (with some exceptions) to COTS parts. Therefore, buying a drawer slide is an allowable part, as there is only one degree of freedom, but purchasing a multi-axis arm isn’t.
-
-      However, teams can buy individual parts and assemble them together into a mechanism that has more than one degree of freedom. This doesn’t apply to drivetrain kits.
 
    Compliant Wheel
       The compliant wheel, sold by Andymark, is a flexible rubber wheel that is primarily used for intakes.
@@ -184,9 +142,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          A 4" compliant wheel
 
-   Compound Gearing
-      Compound gearing refers to multiple reductions in order to transmit power from A to B. This is used when a specific reduction might be needed, or due to space issues. Compound gearing can be achieved by placing two :term:`gears <Gear>` or :term:`sprockets <Sprocket>` of different sizes on one :term:`shaft <Shaft>`.
-
    Core Hex Motor
       The Core Hex Motor, sold by REV, is different from the standard :term:`RS-555 series motors <RS-550 Series Motor>` that are generally used by FTC teams. It features a 90 degree orientation and does not contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to length as needed. The Core Hex motor has a slow gear ratio (72:1), and is not as powerful as the RS-555 series motor.
 
@@ -209,44 +164,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          A DarkSoul #25 Chain Breaker
 
-   Dead Axle
-      A dead axle refers to an axle that **intentionally** does not spin. Instead, :term:`bearings <Ball Bearing>` are mounted directly to the moving part, such as a wheel in a drivetrain.
-
-      Power is transferred with a :term:`sprocket <Sprocket>`, pulley or :term:`gear <Gear>` that is also directly mounted to the moving part. This eliminates the need for the :term:`axle <Shaft>` to transfer torque, and also eliminates the need for :term:`hubs <Clamping Hub>`. Additionally, the axle can be used for structural integrity, as it is rigidly mounted.
-
-   Defense
-      Defense is a strategy employed with the goal of preventing the opposing alliance from scoring points, or at least significantly slowing the opposition's scoring.
-
-      This strategy can backfire if drivers illegally play defense and incur penalties and/or cards for their alliance. Defense is usually played by obstructing the opposing alliance, either by strategically positioning the robot to obstruct access or pushing another team's robot into a disadvantageous position.
-
-   Direct Drive
-      Direct drive refers to mounting a wheel directly on the shaft of the drivetrain motor. This means that there cannot be any change of :term:`gear ratios <Gear Reduction>` between the motor and wheel.
-
-      .. warning:: Direct drive is not recommended because shock loads transfer easily between wheel and gearbox, and can break the gearbox, especially in drivetrain use.
-
-      .. figure:: images/glossary/basic-bot-guide-direct-drive.png
-         :alt: An example of direct drive found in REV's Basic Bot Guide
-
-         Basic Bot Guide - REV
-
-   Disconnect
-      A disconnect (DC) is when, for any reason, the robot is not able to be controlled from the gamepad. This can happen for many reasons - static buildup on the robot, a loose cable, or an error in code.
-
-      Generally, most DCs are caused by improper wiring, so wire stress relief is encouraged for all teams (:term:`USB Retention Mount`). They can also be caused by WiFi disconnects, or an ESD (electrostatic discharge) shock to the electronics.
-
-   Driver Station
-      The Driver Station (DS) phone refers to the phone that is used by the drive team and connects to the gamepad(s).
-
-   Durometer
-      Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
-
-   Encoder
-      An encoder refers to a device that tracks (generally) rotational movement around an axis.
-
-      There are both absolute and relative encoders. An absolute encoder will report at exactly what angle the shaft is compared to its absolute “zero”. A relative encoder will report how far the :term:`shaft <Shaft>` has rotated since it started tracking (for example, when autonomous starts).
-
-      Encoders are used to help find the position of where the robot, or one of its mechanisms, is.
-
    Extrusion
       Extrusion is aluminum shaped into slotted profiles able to accept certain types of hardware. For FTC, the most common is the 15mm extrusion, used in the REV and Misumi products. 15mm extrusion accepts M3 bolts and nuts (note that only regular M3 nuts can fit inside the slot, not :term:`locknuts <Locknut>`).
 
@@ -256,23 +173,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A piece of REV Robotics extrusion
          :width: 200
 
-   Face Mounting
-      Face mounting refers to mounting the motor by affixing the motor directly to the mount using bolts. This is the preferable way of mounting the motor (compared to :term:`clamp mounting <Clamp Mounting>`) because it is less likely to loosen over time, especially with the use of :term:`Loctite` on the bolts.
-
-      .. note:: It is advisable that 4-6 bolts be used to face mount for redundancy.
-
-      Additionally, there is no way that the motor might rotate and cause a
-      loss of tension in :term:`belts <HTD Belt>` or :term:`chain <Chain>`.
-
-      .. figure:: images/glossary/face-mounting.png
-         :alt: A REV Robotics v2 motor facemounted to a plate
-         :width: 200
-
-         REV v2 Motor Facemounted
-
-   Gauge
-      Wire gauge refers to the diameter of wire. AWG stands for American Wire Gauge, the general system used in the US. The larger the gauge number, the smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG and motor wires are 18 AWG.
-
    Gear
       A gear is a machine part that has cut teeth, usually written in the form “numberT” (e.g. 32T, 86T). Its purpose is to transfer power from the motor. Gears can be made in different materials. The most common is aluminum, while Delrin plastic may also be used.
 
@@ -281,30 +181,8 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          56T REV aluminum gear
 
-   Gearing Up
-      Going from a higher :term:`gear ratio <Gear Reduction>` to a lower gear ratio. (i.e. 20:1 → 10:1).
-
-   Gearing Down
-      Going from a lower :term:`gear ratio <Gear Reduction>` to a higher gear ratio. (i.e. 10:1 → 20:1).
-
    Gearmotor
       A component consisting of only one motor and one gearbox.
-
-   Gear Reduction
-      Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC), a gear ratio defines both the number of rotations of the system’s input and the number of rotations of the output.
-
-      For instance, a NeveRest 20 gearmotor consists of an unmodified :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1 (or, when spoken, “20 to 1”). This means that in order for the output shaft of the gearbox to rotate 1 time, the input shaft of the motor must rotate 20 times. Gear ratios are one of the most important design considerations about a power transmission component.
-
-      Any FTC motor or servo has two properties: speed and torque (or rotational force). These two properties are inversely proportional, meaning that increasing speed decreases torque, and vice versa. For instance, if one wishes to make a mechanism faster at the expense of torque by doubling the speed of that 20:1 gearbox, they would decrease the gear ratio by a factor of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this is referred to as gearing up). However, if one wishes to double torque instead, making the system more powerful and robust at the expense of speed, they would increase the gear ratio by a factor of 2, leaving them with a 40:1 ratio (this is referred to as gearing down).
-
-      The most common ways of gearing up or down are using gearboxes, gears, sprockets and belt-driven pulleys, all of which exist in various sizes.
-
-   Grounding Strap
-      The REV Grounding Strap is used to ground the metal frame of the robot to the :term:`XT30` port of the Expansion Hub. It is currently the only legal way to ground your robot.
-
-      .. image:: images/glossary/grounding-strap.png
-         :alt: A REV Robotics grounding strap
-         :width: 200
 
    HD Hex Motor
       The HD Hex motor, sold by REV Robotics, is a :term:`RS-555 series motor <RS-550 Series Motor>` with spur gear and planetary gearbox options. The motor has a 5mm hex output shaft compatible with REV’s motion system.
@@ -322,33 +200,12 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A REV Robotics High Strength Hex Hub
          :width: 200
 
-   Holonomic drivetrain
-      Holonomic drivetrains utilize mecanum and omni wheels in order for the robot to strafe and turn. The most common holonomic drivetrain is a four wheel mecanum drive.
-
    HTD Belt
       HTD belt is a type of synchronous timing belt commonly used on drivetrains. It is available in different widths to accommodate different sized pulleys. The most common is 3mm and 5mm belt, which can be purchased from various online vendors.
 
       .. image:: images/glossary/htd-belt.png
          :alt: A picture of various HTD belts
          :width: 200
-
-   Idler
-      An idler :term:`gear <Gear>`, :term:`sprocket <Sprocket>`, or pulley is one that is purposely not used for driving anything else on the :term:`shaft <Shaft>`. The purpose of this idler is, in the case of gears, to transfer power to another direction.
-
-      For :term:`chain <Chain>` and :term:`belt <HTD Belt>`, idlers are more common, and are usually adjustable to maintain tension.
-
-   JST-PH
-      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections.
-
-   JST-VH
-      JST-VH is a type of connector used by FTC motors to interface with the REV Expansion Hub. It is keyed and locks into place for improved reliability.
-
-      .. image:: images/glossary/jst-vh.png
-         :alt: A cable with JST-VH connectors
-         :width: 200
-
-   Laser cutter
-      A laser cutter is a tool that uses a high-power laser to cut through sheet metal or similar material. The laser is guided by CNC to cut preprogrammed patterns into the sheet.
 
    Lead Screw
       A lead screw is very similar to a threaded rod. It is used for high load and high torque application such as hanging. However, due to the nature of the threaded rod, lead screws are generally quite slow compared to linear slides. The speed of a lead screw is determined by two factors. The first is how fast the motor outputs, and the second is the number of threads per inch (TPI).
@@ -359,9 +216,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
    Linear Actuator
       Linear actuators are basically :term:`servos <Servo>` that translate their output into linear motion, instead of rotational motion. Linear actuators are rarely used in FTC due to its prohibitive cost, but they may have some uses in special applications.
-
-   Linkage
-      A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
 
    Locknut
       A locknut is a nut that resists vibration by the nyloc inside. Nyloc is a type of plastic that holds the bolt securely on to the nut when it is screwed in. It is advised that teams purchase locknuts instead of regular nuts as FTC mechanisms often become loose over time.
@@ -392,20 +246,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A Nexus 100 mm mecanum wheel
          :width: 200
 
-   Mesh
-      Meshing refers to the overlapping contact between a gear tooth and another gear tooth, chain and sprocket, or belt and pulley.
-
-      A proper mesh is essential to ensure maximum torque transmission. Too little mesh can result in no power transfer, derailment or gears grinding/wearing down faster. Too much mesh can produce unwanted friction and introduce inefficiencies within the drive system.
-
-   Micro USB On The Go (OTG) Cable
-      The Micro USB OTG cable connects the :term:`Driver Station` phone with the Logitech controller that the driver uses in order to control the robot.
-
-      .. note:: It is recommended that teams purchase a couple spares due to faulty OTG cable connections and its low price.
-
-      .. image:: images/glossary/otg-cable.png
-         :alt: A USB OTG Cable
-         :width: 200
-
    NeveRest Motor
       The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor <RS-550 Series Motor>` that is available in spur gear and planetary options. It has a 6mm D-shaft output compatible with Actobotics motion system.
 
@@ -427,14 +267,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A REV Robotics omni wheel
          :width: 200
 
-   Packaging
-      Packaging refers to the relative size and location of components on the robot. Generally, you want to design and locate (or package) components in the most space-efficient way you can.
-
-   Parallel Plate Drivetrain
-      A parallel plate drivetrain is a drivetrain that has drive pods that consist of 2 plates spread apart with wheels and drive transmission in between them.
-
-      These plates can be anywhere from 1" to 5" apart, depending on the space requirements of the wheels and drive system. Generally, a pod width of 3" or less is desired to maximize the space between the drive pods for mechanisms such as an intake.
-
    Pitch
       Pitch refers to the :term:`center-to-center <C2C>` distance between one tooth of a gear or sprocket to another.
 
@@ -443,15 +275,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
    Planetary Gear
       Planetary gearing consists of a center gear (sun gear) which has smaller gears (planet gears) revolving around it. The outer radius has a ring gear which holds the other gears in place. Refer to :doc:`/docs/power-and-electronics/motor-guide/gearbox-anatomy` for more information.
-
-   Pocketing
-      Pocketing refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
-
-      Pocketing is often seen on drivetrain sheet metal plates which will be CNC machined. In FRC, pocketing is often used to reduce weight of the rectangular aluminum tubes.
-
-      .. image:: images/glossary/pocketing.png
-         :alt: 731 Wannabee Strance 2019 VCC outer mechanism plate
-         :width: 200
 
    Polyurethane tubing
       Polyurethane tubing is a type of clear tubing that is stiffer than rubber or latex tubing. It is sold in different outer diameter sizes and thicknesses, and can be fitted inside of surgical tubing to make it stiffer.
@@ -473,9 +296,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
    Ring Gear
       Refer to :doc:`/docs/power-and-electronics/motor-guide/gearbox-anatomy` for more information.
-
-   Robot Controller
-      The Robot Controller (RC) phone refers to the phone that is on the robot and is connected to the Expansion Hub via the Micro USB cable. This can now be replaced by a Control Hub.
 
    RS-550 Series Motor
       The RS-555 series motor is the standard motor in FTC. It forms the base for the :term:`Andymark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors.
@@ -590,9 +410,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A couple of standoffr
          :width: 200
 
-   STEP file
-      A STEP file is a filetype used to store 3D data about a part. It is recognized by different CAD softwares including SolidWorks, Inventor, Creo, etc.
-
    Stealth Wheel
       The stealth wheel, sold by Andymark, is a typical traction wheel used by many FTC teams from new to experienced. Andymark sells the 2” diameter and 4” diameter, but most teams use the 4” diameter option for drivetrains.
 
@@ -606,18 +423,12 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          4" Stealth Wheel
 
-   Strafing
-      Strafing is the act of moving sideways or laterally (somewhat similar to drifting). It is possible with omni or mecanum wheels, and not possible with traction wheels.
-
    Surgical Tubing
       Surgical tubing is generally latex or rubber tubing. Its most common use case is in active intakes, and has been popular among teams for many seasons. Surgical tubing has a hollow center and is sold in different diameters and wall thicknesses. Teams can experiment with different kinds of surgical tubing, as well as adding :term:`polyurethane tubing <Polyurethane tubing>` in order to make the tubing more stiff.
 
       .. image:: images/glossary/surgical-tubing.png
          :alt: A roll of surgical tubing
          :width: 200
-
-   Tank drivetrain
-      A tank drivetrain has wheels set up in a parallel line. It commonly uses 4 or 6 wheels, but the most widespread tank drivetrain is a 6 wheel :term:`drop center <Center drop>` tank drive. Tank drivetrains turn by rotating the left or right sides in opposite directions, or in the same direction at different speeds.
 
    Thunderhex
       Thunderhex is aluminum rounded hex :term:`shaft <Shaft>` that comes in 3/8” and 1/2” hex sold by VEX Robotics. It has a center bore that can be tapped.
@@ -634,11 +445,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
       .. image:: images/glossary/tilerunner.png
          :alt: A tilerunner drivetrain
 
-   Torsional Rigidity
-      Torsional rigidity refers to how difficult it is to twist an object due to an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as it is easier to twist extrusion than :term:`channel <Channel>` or an angle piece, for example.
-
-      Torsional rigidity has consequences particularly in building drivetrains, as the drivetrain is the last mechanism on your robot that should flex or bend when weight or force is applied to it.
-
    Traction wheel
       A traction or grip wheel is a wheel designed for maximum grip. It has an outer ring made of rubber, and its wide track ensures a larger contact patch with the ground. Traction wheels are commonly found in tank drivetrains. They are sold in different sizes and thicknesses by different manufacturers.
 
@@ -647,15 +453,6 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
       .. image:: images/glossary/ultrahex.png
          :alt: A piece of ultrahex shaft
-         :width: 200
-
-   USB Retention Mount
-      The USB Retention Mount, sold by REV, is a plastic part affixed to the Expansion Hub that relieves stress on the USB Mini port. This is especially important because if the USB cable is loose or disconnected, the robot phone cannot communicate with the Expansion Hub, causing a disconnect.
-
-      .. note:: For teams using an expansion hub, it is highly recommended for teams to purchase the USB retention mount.
-
-      .. image:: images/glossary/usb-retention-mount.png
-         :alt: A USB retention mount attached to a REV Expansion Hub
          :width: 200
 
    VersaPlanetary gearbox
@@ -701,6 +498,160 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
 
          REV Robotics V-Groove Bearing riding on 1” extrusion
 
+   Yellow Jacket Motor
+      Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. It has a :term:`6mm D-shaft <Shaft>` and is available in many different :term:`gear ratios <Gear Reduction>` from 3.7:1 up to 188:1.
+
+      .. image:: images/glossary/yellow-jacket.png
+         :alt: A Yellow Jacket motor
+         :width: 200
+
+Robot Design
+^^^^^^^^^^^^
+
+.. glossary::
+
+   Cantilever
+      A cantilever refers to when an object (usually a :term:`shaft <Shaft>`) is only supported on one side. While this provides theoretically less support, as long as the shaft is still supported at two points by :term:`bearings <Ball Bearing>` or :term:`bushings <Bushing>`, cantilever is still a sound building technique. Many drivetrains are cantilevered, which provides for easy access to wheels.
+
+      .. note:: Supporting the shaft on both sides is theoretically more structurally sound, although in most cases you won’t notice a difference.
+
+      .. figure:: images/glossary/sanford-cantilever.png
+         :alt: Sanford's cantilever 6WD prototype
+
+         Sanford’s Prototype
+
+   C2C
+      Center to center (C2C) refers to the distance between the centers of a pair of :term:`sprockets <Sprocket>`, pulleys or :term:`gears <Gear>`. This will affect :term:`chain <Chain>`/:term:`belt <HTD Belt>` tension and gear meshing, so calculating this correctly is essential.
+
+   Center drop
+      Center drop refers to a 6+ wheel tank drivetrain with the center wheel (usually a traction wheel) mounted slightly lower than the other wheels, thus "dropping" that wheel. Dropped drivetrains have more turning agility than non-dropped tank drivetrains as :term:`wheel scrub <Wheel scrub>` is reduced.
+
+   Clamp Mounting
+      Clamp mounting refers to securing a motor primarily by using friction instead of screws attached to the motor itself. This is generally discouraged as the motor can become loosened over time.
+
+      .. tip:: Use friction tape around the surface of the motor that is clamped down so that it will have less chance of moving around.
+
+      .. figure:: images/glossary/clamp-mounting.png
+         :alt: A TETRIX v1 motor attached with a TETRIX Clamp Mount
+         :width: 200
+
+         TETRIX clamp mount and v1 motor
+
+   Computer-aided design (CAD)
+      CAD is software most commonly used to aid the design and drafting of parts and assemblies in engineering. In FTC, CAD is used to make 3D models of robots as well as design custom parts.
+
+   COTS
+      COTS (Commercial Off the Shelf) parts refer to parts that teams can purchase physically or through an online retailer.
+
+      .. warning:: FTC teams are limited to one degree of freedom (with some exceptions) to COTS parts. Therefore, buying a drawer slide is an allowable part, as there is only one degree of freedom, but purchasing a multi-axis arm isn’t.
+
+      However, teams can buy individual parts and assemble them together into a mechanism that has more than one degree of freedom. This doesn’t apply to drivetrain kits.
+
+   Compound Gearing
+      Compound gearing refers to multiple reductions in order to transmit power from A to B. This is used when a specific reduction might be needed, or due to space issues. Compound gearing can be achieved by placing two :term:`gears <Gear>` or :term:`sprockets <Sprocket>` of different sizes on one :term:`shaft <Shaft>`.
+
+   Dead Axle
+      A dead axle refers to an axle that **intentionally** does not spin. Instead, :term:`bearings <Ball Bearing>` are mounted directly to the moving part, such as a wheel in a drivetrain.
+
+      Power is transferred with a :term:`sprocket <Sprocket>`, pulley or :term:`gear <Gear>` that is also directly mounted to the moving part. This eliminates the need for the :term:`axle <Shaft>` to transfer torque, and also eliminates the need for :term:`hubs <Clamping Hub>`. Additionally, the axle can be used for structural integrity, as it is rigidly mounted.
+
+   Defense
+      Defense is a strategy employed with the goal of preventing the opposing alliance from scoring points, or at least significantly slowing the opposition's scoring.
+
+      This strategy can backfire if drivers illegally play defense and incur penalties and/or cards for their alliance. Defense is usually played by obstructing the opposing alliance, either by strategically positioning the robot to obstruct access or pushing another team's robot into a disadvantageous position.
+
+   Direct Drive
+      Direct drive refers to mounting a wheel directly on the shaft of the drivetrain motor. This means that there cannot be any change of :term:`gear ratios <Gear Reduction>` between the motor and wheel.
+
+      .. warning:: Direct drive is not recommended because shock loads transfer easily between wheel and gearbox, and can break the gearbox, especially in drivetrain use.
+
+      .. figure:: images/glossary/basic-bot-guide-direct-drive.png
+         :alt: An example of direct drive found in REV's Basic Bot Guide
+
+         Basic Bot Guide - REV
+
+   Durometer
+      Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
+
+   Face Mounting
+      Face mounting refers to mounting the motor by affixing the motor directly to the mount using bolts. This is the preferable way of mounting the motor (compared to :term:`clamp mounting <Clamp Mounting>`) because it is less likely to loosen over time, especially with the use of :term:`Loctite` on the bolts.
+
+      .. note:: It is advisable that 4-6 bolts be used to face mount for redundancy.
+
+      Additionally, there is no way that the motor might rotate and cause a
+      loss of tension in :term:`belts <HTD Belt>` or :term:`chain <Chain>`.
+
+      .. figure:: images/glossary/face-mounting.png
+         :alt: A REV Robotics v2 motor facemounted to a plate
+         :width: 200
+
+         REV v2 Motor Facemounted
+
+   Gearing Up
+      Going from a higher :term:`gear ratio <Gear Reduction>` to a lower gear ratio. (i.e. 20:1 → 10:1).
+
+   Gearing Down
+      Going from a lower :term:`gear ratio <Gear Reduction>` to a higher gear ratio. (i.e. 10:1 → 20:1).
+
+   Gear Reduction
+      Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC), a gear ratio defines both the number of rotations of the system’s input and the number of rotations of the output.
+
+      For instance, a NeveRest 20 gearmotor consists of an unmodified :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1 (or, when spoken, “20 to 1”). This means that in order for the output shaft of the gearbox to rotate 1 time, the input shaft of the motor must rotate 20 times. Gear ratios are one of the most important design considerations about a power transmission component.
+
+      Any FTC motor or servo has two properties: speed and torque (or rotational force). These two properties are inversely proportional, meaning that increasing speed decreases torque, and vice versa. For instance, if one wishes to make a mechanism faster at the expense of torque by doubling the speed of that 20:1 gearbox, they would decrease the gear ratio by a factor of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this is referred to as gearing up). However, if one wishes to double torque instead, making the system more powerful and robust at the expense of speed, they would increase the gear ratio by a factor of 2, leaving them with a 40:1 ratio (this is referred to as gearing down).
+
+      The most common ways of gearing up or down are using gearboxes, gears, sprockets and belt-driven pulleys, all of which exist in various sizes.
+
+   Holonomic drivetrain
+      Holonomic drivetrains utilize mecanum and omni wheels in order for the robot to strafe and turn. The most common holonomic drivetrain is a four wheel mecanum drive.
+
+   Idler
+      An idler :term:`gear <Gear>`, :term:`sprocket <Sprocket>`, or pulley is one that is purposely not used for driving anything else on the :term:`shaft <Shaft>`. The purpose of this idler is, in the case of gears, to transfer power to another direction.
+
+      For :term:`chain <Chain>` and :term:`belt <HTD Belt>`, idlers are more common, and are usually adjustable to maintain tension.
+
+   Laser cutter
+      A laser cutter is a tool that uses a high-power laser to cut through sheet metal or similar material. The laser is guided by CNC to cut preprogrammed patterns into the sheet.
+
+   Linkage
+      A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
+
+   Mesh
+      Meshing refers to the overlapping contact between a gear tooth and another gear tooth, chain and sprocket, or belt and pulley.
+
+      A proper mesh is essential to ensure maximum torque transmission. Too little mesh can result in no power transfer, derailment or gears grinding/wearing down faster. Too much mesh can produce unwanted friction and introduce inefficiencies within the drive system.
+
+   Packaging
+      Packaging refers to the relative size and location of components on the robot. Generally, you want to design and locate (or package) components in the most space-efficient way you can.
+
+   Parallel Plate Drivetrain
+      A parallel plate drivetrain is a drivetrain that has drive pods that consist of 2 plates spread apart with wheels and drive transmission in between them.
+
+      These plates can be anywhere from 1" to 5" apart, depending on the space requirements of the wheels and drive system. Generally, a pod width of 3" or less is desired to maximize the space between the drive pods for mechanisms such as an intake.
+
+   Pocketing
+      Pocketing refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
+
+      Pocketing is often seen on drivetrain sheet metal plates which will be CNC machined. In FRC, pocketing is often used to reduce weight of the rectangular aluminum tubes.
+
+      .. image:: images/glossary/pocketing.png
+         :alt: 731 Wannabee Strance 2019 VCC outer mechanism plate
+         :width: 200
+
+   STEP file
+      A STEP file is a filetype used to store 3D data about a part. It is recognized by different CAD softwares including SolidWorks, Inventor, Creo, etc.
+
+   Strafing
+      Strafing is the act of moving sideways or laterally (somewhat similar to drifting). It is possible with omni or mecanum wheels, and not possible with traction wheels.
+
+   Tank drivetrain
+      A tank drivetrain has wheels set up in a parallel line. It commonly uses 4 or 6 wheels, but the most widespread tank drivetrain is a 6 wheel :term:`drop center <Center drop>` tank drive. Tank drivetrains turn by rotating the left or right sides in opposite directions, or in the same direction at different speeds.
+
+   Torsional Rigidity
+      Torsional rigidity refers to how difficult it is to twist an object due to an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as it is easier to twist extrusion than :term:`channel <Channel>` or an angle piece, for example.
+
+      Torsional rigidity has consequences particularly in building drivetrains, as the drivetrain is the last mechanism on your robot that should flex or bend when weight or force is applied to it.
+
    Waterjet cutter
       A waterjet cutter is a tool which cuts sheet metal and other materials via extremely high pressure water focused into a small stream. Waterjet cutters are commonly used in industrial fabrication and can follow preprogrammed instructions to cut patterns, similar to a CNC system.
 
@@ -717,6 +668,62 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
    Wheel scrub
       Wheel scrub refers to friction between the side of the wheel and the floor tile. It inhibits turning as the drivetrain must overcome this frictional force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop <Center drop>`.
 
+Power and Electronics
+^^^^^^^^^^^^^^^^^^^^^
+
+.. glossary::
+   Anderson PowerPole
+      Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are very reliable and recommended for teams. In addition, there are adapters available to other systems.
+
+      .. image:: images/glossary/anderson-powerpole.png
+         :alt: Anderson powerpole connector
+         :width: 200
+
+   Encoder
+      An encoder refers to a device that tracks (generally) rotational movement around an axis.
+
+      There are both absolute and relative encoders. An absolute encoder will report at exactly what angle the shaft is compared to its absolute “zero”. A relative encoder will report how far the :term:`shaft <Shaft>` has rotated since it started tracking (for example, when autonomous starts).
+
+      Encoders are used to help find the position of where the robot, or one of its mechanisms, is.
+
+   Gauge
+      Wire gauge refers to the diameter of wire. AWG stands for American Wire Gauge, the general system used in the US. The larger the gauge number, the smaller the wire diameter. Generally, :term:`servo <Servo>` wires are 22 AWG and motor wires are 18 AWG.
+
+   Grounding Strap
+      The REV Grounding Strap is used to ground the metal frame of the robot to the :term:`XT30` port of the Expansion Hub. It is currently the only legal way to ground your robot.
+
+      .. image:: images/glossary/grounding-strap.png
+         :alt: A REV Robotics grounding strap
+         :width: 200
+
+   JST-PH
+      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections.
+
+   JST-VH
+      JST-VH is a type of connector used by FTC motors to interface with the REV Expansion Hub. It is keyed and locks into place for improved reliability.
+
+      .. image:: images/glossary/jst-vh.png
+         :alt: A cable with JST-VH connectors
+         :width: 200
+
+   Micro USB On The Go (OTG) Cable
+      The Micro USB OTG cable connects the :term:`Driver Station` phone with the Logitech controller that the driver uses in order to control the robot.
+
+      .. note:: It is recommended that teams purchase a couple spares due to faulty OTG cable connections and its low price.
+
+      .. image:: images/glossary/otg-cable.png
+         :alt: A USB OTG Cable
+         :width: 200
+
+   USB Retention Mount
+      The USB Retention Mount, sold by REV, is a plastic part affixed to the Expansion Hub that relieves stress on the USB Mini port. This is especially important because if the USB cable is loose or disconnected, the robot phone cannot communicate with the Expansion Hub, causing a disconnect.
+
+      .. note:: For teams using an expansion hub, it is highly recommended for teams to purchase the USB retention mount.
+
+      .. image:: images/glossary/usb-retention-mount.png
+         :alt: A USB retention mount attached to a REV Expansion Hub
+         :width: 200
+
    XT30
       The XT30 connector is used in the REV ecosystem through the Expansion or Control Hub. The XT30 through the REV Slim Battery provides power to the Expansion Hub, and teams will need an XT30 cable to transfer power from the main hub to a secondary hub. This is also the connector used on the :term:`REV Grounding Strap <Grounding Strap>`.
 
@@ -724,9 +731,18 @@ Many terms used in FTC and |gm0| that are unfamiliar to teams may be found here.
          :alt: A XT30 male and female connector
          :width: 200
 
-   Yellow Jacket Motor
-      Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. It has a :term:`6mm D-shaft <Shaft>` and is available in many different :term:`gear ratios <Gear Reduction>` from 3.7:1 up to 188:1.
+Software
+^^^^^^^^
 
-      .. image:: images/glossary/yellow-jacket.png
-         :alt: A Yellow Jacket motor
-         :width: 200
+.. glossary::
+
+   Disconnect
+      A disconnect (DC) is when, for any reason, the robot is not able to be controlled from the gamepad. This can happen for many reasons - static buildup on the robot, a loose cable, or an error in code.
+
+      Generally, most DCs are caused by improper wiring, so wire stress relief is encouraged for all teams (:term:`USB Retention Mount`). They can also be caused by WiFi disconnects, or an ESD (electrostatic discharge) shock to the electronics.
+
+   Driver Station
+      The Driver Station (DS) phone refers to the phone that is used by the drive team and connects to the gamepad(s).
+
+   Robot Controller
+      The Robot Controller (RC) phone refers to the phone that is on the robot and is connected to the Expansion Hub via the Micro USB cable. This can now be replaced by a Control Hub.
