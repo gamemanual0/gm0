@@ -14,7 +14,7 @@ Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches fou
       Timing Belt
          Timing belts use a series of small, wide teeth to engage a pulley with a number of matching grooves. They earn their name because they can be very precise, transmitting power with virtually no slop and ensuring a snug connection between shafts.
 
-.. figure:: images/belt/belt-and-pulley.webp
+.. figure:: images/belt/belt-and-pulley.png
    :alt: A picture of timing belts on a pulley
 
    Timing belts and a pulley
