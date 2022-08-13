@@ -22,7 +22,7 @@ After learning the CAD software, it's time to start the actual design. Here are 
 
 - Drive Type (mecanum, 6wd, 8wd, etc.)
 - Number of Motors (four motors recommended in most cases)
-- Type of wheels (:term:`Colson <Colson Wheel>`, :term:`omni <Omni Wheel>`, etc.)
+- Type of wheels (:term:`Traction <Traction Wheel>`, :term:`omni <Omni Wheel>`, etc.)
 - Drive power (:term:`belt <HTD Belt>`, :term:`chain <Sprocket>`, :term:`gear <Gear>`)
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors. The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid in turning.
@@ -98,7 +98,14 @@ After mirroring the drive pod to make your opposite side, connect those two halv
 CAD Tutorial Part 2 - Pocketing Guide
 -------------------------------------
 
-“Pocketing” is a common term in FTC and FRC\ |reg| lingo, and refers to material removal from plates or tubes for weight reduction and/or aesthetic purposes. For the former purpose, the idea is to strike a balance between sustaining structural integrity and reduce as much weight/material as possible.
+.. admonition:: term
+
+   .. glossary::
+
+      Pocketing
+         “Pocketing” is a common term in FTC and FRC\ |reg| lingo that refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
+
+         Pocketing is often seen on drivetrain sheet metal plates which will be CNC machined. In FRC, pocketing is often used to reduce weight of the rectangular aluminum tubes.
 
 There are several ways to machine pockets into material including milling, routing, water jet cutting, laser cutting and even hand drilling. Depending on your access to tooling, pocketing can be more or less difficult for you.
 

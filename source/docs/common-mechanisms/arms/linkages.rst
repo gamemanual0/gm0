@@ -1,7 +1,14 @@
 Linkages
 ===========================
 
-There are many different types of :term:`linkages <Linkage>`. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
+There are many different types of linkages. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
+
+.. admonition:: term
+
+   .. glossary::
+
+      Linkage
+         A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
 
 Considerations
 --------------

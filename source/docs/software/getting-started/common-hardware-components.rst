@@ -63,7 +63,18 @@ It is important to note that encoder values can be read in any of these modes pr
 Encoders
 ~~~~~~~~
 
-While all FTC legal motors contain built in quadrature encoders, they must be wired separately and are not required for use. External encoders may be used and plugged into an encoder port so long as they use the quadrature communication protocol.
+.. admonition:: term
+
+   .. glossary::
+
+      Encoder
+         An encoder refers to a device that tracks (generally) rotational movement around an axis.
+
+         There are both absolute and relative encoders. An absolute encoder will report at exactly what angle the shaft is compared to its absolute “zero”. A relative encoder will report how far the :term:`shaft <Shaft>` has rotated since it started tracking (for example, when autonomous starts). Relative encoders will have a quadrature output, whereas absolute encoders generally have analog or i2c outputs.
+
+         Encoders are used to help find the position of where the robot, or one of its mechanisms, is.
+
+While all FTC legal motors contain built in relative quadrature encoders, they must be wired separately and are not required for use. External encoders may be used and plugged into an encoder port so long as they use the quadrature communication protocol.
 
 Accessing encoders requires calling one method on the DcMotor object, ``getCurrentPosition()``, which returns the current position of the encoder plugged into the port. This number may be arbitrary at the beginning of an opmode, and is not reset to 0 unless ``STOP_AND_RESET_ENCODERS`` is used or power is cycled to the expansion hub.
 

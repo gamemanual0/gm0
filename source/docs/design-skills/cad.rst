@@ -4,7 +4,12 @@ Computer-aided design (CAD)
 Introduction
 ------------
 
-:term:`Computer-aided design (CAD)` stands for computer aided design: making a 3d model of your robot using special computer software.
+.. admonition:: term
+
+   .. glossary::
+
+      Computer-aided design (CAD)
+         CAD is software most commonly used to aid the design and drafting of parts and assemblies in engineering. In FTC, CAD is used to make 3D models of robots as well as design custom parts.
 
 .. tip:: CAD is not necessary in FTC to build a successful robot.
 

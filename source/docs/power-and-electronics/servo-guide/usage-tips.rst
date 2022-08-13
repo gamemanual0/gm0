@@ -37,4 +37,17 @@ There are also some alternative designs of servo supports; one of them, which is
 
      Linkage example, courtesy of team 4137 Islandbots. A goBILDA flat beam is used as the link.
 
-- If you need more power, use `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_. By itself, REV Expansion Hub provides 5V power to servos, and the current is limited to 2A for each of 3 pairs of servo ports (0-1, 2-3, 4-5). Since stall current on a servo such as goBILDA Dual Mode servo is about 2.5A, it means that if one of the servos in a pair is stalled, the other one will not be getting enough power to maintain its position. The :term:`REV Servo Power Module <Servo Power Module>` provides 6V and up to 15A current total for 6 :term:`servo <Servo>` ports.
+- If you need more power, use a `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
+
+.. admonition:: term
+
+   .. glossary::
+
+      Servo Power Module
+         A Servo Power Module (SPM) is a device made by REV Robotics that boosts the voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
+
+         **This is important for servos under high load conditions such as the Savox servo, as well as the VEX 393 motor.**
+
+         .. image:: images/glossary/servo-power-module.png
+            :alt: A REV Robotics Servo Power Module
+            :width: 200

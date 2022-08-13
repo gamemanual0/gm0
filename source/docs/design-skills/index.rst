@@ -10,3 +10,4 @@ This chapter covers basic principles of robot design and design skills that can 
    design-strategy
    cad
    cad-tutorials
+   design-glossary

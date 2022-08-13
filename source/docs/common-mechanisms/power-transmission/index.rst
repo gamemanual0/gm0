@@ -11,3 +11,4 @@ When building any mechanism, it is important to consider how the mechanism will 
    gears
    chain
    belt
+   power-transmission-glossary

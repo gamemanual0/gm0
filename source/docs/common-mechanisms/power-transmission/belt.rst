@@ -3,20 +3,24 @@ Timing Belt
 
 When you think of a belt, you’re probably thinking of a very important men’s fashion accessory. However, there’s another type of belt, and it’s way more relevant to robotics - the timing belt. If you’ve ever tinkered with the insides of a car before, you probably recognize timing belts as an important component designed to keep everything under the hood in sync.
 
-While a timing belt may complete a similar objective to :term:`chain <Sprocket>`, its characteristics and strengths are very different. Timing belts use a series of small, wide teeth to engage a pulley with a number of matching grooves. They earn their name because they can be very precise, transmitting power with virtually no slop and ensuring a snug connection between shafts. They’re lighter and more compact than chains, but they lack the customizability of their bulkier brother - belts come in a closed loop of predetermined length, and there’s no changing that length on the fly.
+While a timing belt may complete a similar objective to :term:`chain <Sprocket>`, its characteristics and strengths are very different. Timing belts are lighter and more compact than chains, but they lack the customizability of their bulkier brother - belts come in a closed loop of predetermined length, and there’s no changing that length on the fly.
 
-Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches found on FTC robots include HTD 5mm, HTD 3mm, GT2 3mm, and XL 0.2”.
+Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches found on FTC robots include HTD 5mm, HTD 3mm, and GT2 3mm.
+
+.. admonition:: Term
+
+   .. glossary::
+
+      Timing Belt
+         Timing belts use a series of small, wide teeth to engage a pulley with a number of matching grooves. They earn their name because they can be very precise, transmitting power with virtually no slop and ensuring a snug connection between shafts.
+
+.. figure:: images/belt/belt-and-pulley.webp
+   :alt: A picture of timing belts on a pulley
+
+   Timing belts and a pulley
 
 When using timing belts, correct tension is very important. There are two main ways to get your tension right. The first is easy - goBILDA and Actobotics already have belts integrated into their hole patterns. You can buy correctly sized belt directly from each vendor, and your tension will be perfect as soon as the belt is installed. As your designs gain complexity, so will your belt runs - maybe there are more than 2 pulleys, and maybe your pulleys are all different sizes. To compensate for this, the second way to ensure tension is to use a dynamic tensioner, similar to those found in complex chain runs. To design for these tensioners, we recommend planning more complex belt runs in CAD before building them in real life.
 
-Terms
------
-
-- :term:`Pitch Diameter (PD) <Pitch Diameter>` refers to the imaginary circle which is traced by the middle of the belt as the pulley rotates. The outer edge of the circle is halfway between the outer face of the belt and the top face of the pulley groove. :math:`PD = (tooth * pitch)/\pi`
-
-  - Pitch refers to the arc length between the centerlines of two adjacent pulley grooves. Pitch is the amount of pitch diameter in inches per tooth.
-- Outside diameter (OD) is an imaginary circle which is traced by the top face of the grooves as the pulley rotates. **For pulleys, OD<PD.**
-- Pulley clearance diameter refers to the outer diameter of the pulley + belt when the belt is meshed properly to the pulley. The pulley clearance diameter is larger than both PD and OD and should be used to check for interference with other mechanisms.
 
 Center-to-Center calculations
 -----------------------------

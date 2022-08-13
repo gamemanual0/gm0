@@ -14,3 +14,4 @@ This chapter contains information on electric power and electronics of the robot
    servo-guide/index
    sensor-glossary
    tips-and-tricks
+   wiring-glossary

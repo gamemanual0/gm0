@@ -11,3 +11,4 @@ Motor Guide
    wiring-mounting-motors
    jvn-calculator
    motor-current
+   motor-glossary

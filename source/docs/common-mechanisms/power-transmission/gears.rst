@@ -3,16 +3,24 @@ Gears
 
 Gears, like sprockets and pulleys, are used in power transmission for three common applications: changing the direction of power, changing the amount of torque, and changing RPM. Gears are a less common transmission option than chain, but are still very viable for most use cases. Gears are equally as reliable as chain, but can’t be used for transferring power over long distances. Many teams dislike gears when using kit-based channels because the hole pattern limits which combinations of gears can be used. Consequently, it may be difficult to achieve a desired specific gear ratio. However, with :term:`extrusion <Extrusion>` systems, it’s very easy to use different ratios, since the gears can be moved around in extrusion.
 
+.. admonition:: term
+
+   .. glossary::
+
+      Gear
+         A gear is a machine part that has cut teeth, usually written in the form “numberT” (e.g. 32T, 86T). It is a form of power transmission that reverses the direction of rotation when used. The most common material for gears to be made of is aluminum or delrin plastic.
+
+         .. figure:: images/gears/rev-aluminum-gear-56-tooth.png
+            :alt: A 56T REV aluminum gear
+
+            56T REV aluminum gear
+
 Gears are made in different materials, with the most common being 7075 aluminum. **Never mesh plastic and metal gears together**. It is acceptable to mesh different types of metal gears together, as long as they have the same diametral pitch. It is advised to stay away from TETRIX aluminum gears as they wear down very easily. Some REV gears are made out of Delrin, a self-lubricating plastic. It is a durable material, but keep in mind that it is very possible to strip the bore using a plastic gear. Thus, we advise using the REV Hex Hub Strengthener to avoid stripping the bore on Delrin gears.
 
 Bevel gears are a special type of gear that allows power transmission in two different planes. It is especially useful in tight spaces where a regular motor mounting position would not work.
 
-Terms
------
-
-- Module refers to the amount of diametral pitch in millimeters per tooth. It refers to the tooth size. Typically, gears of the same material from the same manufacturer should have the same module.
-- Diametral pitch (DP) refers to the gear tooth size.  It is expressed as the number of teeth per inch of pitch diameter. Teeth size varies inversely with DP.
-- Pitch diameter (PD) refers to the diameter of the imaginary pitch circle that is drawn when the gear is meshed with the pitch circle of another gear. **For gears, PD < OD**.
+Pitch Diameter Calculation
+--------------------------
 
   .. math::
 
@@ -22,13 +30,21 @@ Terms
 
      PD = OD - (2 * Module)
 
-- Outer diameter (OD) refers to the actual outside diameter of the gear. Simply, it is the circle that the outer face of the tooth draws when it rotates around.
-- Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
+Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
 
 Meshing Gears
 -------------
 
 .. note:: Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral pitch. (A notable exception is 32 diametral pitch and 0.8 MOD gears. These are close enough to be perfectly fine.)
+
+.. admonition:: term
+
+   .. glossary::
+
+      Mesh
+         Meshing refers to the overlapping contact between a gear tooth and another gear tooth, chain and sprocket, or belt and pulley.
+
+         A proper mesh is essential to ensure maximum torque transmission. Too little mesh can result in no power transfer, derailment or gears grinding/wearing down faster. Too much mesh can produce unwanted friction and introduce inefficiencies within the drive system.
 
 When meshing gears, it is important that the gears are not too loose nor too tight. If the gears are too loose, the teeth will easily wear out, decreasing its longevity. If the gears are too tight, however, they will have too much friction and possibly grind or bind up. The ideal way to mesh gears are to make sure the teeth interlock and just touch the base of the gear.
 

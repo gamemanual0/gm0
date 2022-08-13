@@ -3,51 +3,50 @@ Connectors and Wires
 
 There are many types of connectors for use in FTC. Here are the most common connectors you will find on an FTC robot.
 
-- Powerpoles
+.. glossary::
 
-   .. image:: images/wiring/powerpole-connector.png
-      :alt: A powerpole connector
-      :width: 200px
+   Anderson PowerPole
+      Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are very reliable and recommended for teams. In addition, there are adapters available to other systems.
 
-   - Used for module power
-   - Used for motor power
-   - See :term:`Anderson PowerPole`
-- XT30
+      .. image:: images/wiring/powerpole-connector.png
+         :alt: A powerpole connector
+         :width: 200px
 
-   .. image:: images/wiring/xt30-connector.png
-      :alt: A XT30 connector
-      :width: 200px
+   XT30
+      The XT30 connector is used in the REV ecosystem through the Expansion or Control Hub. The XT30 through the REV Slim Battery provides power to the Expansion Hub, and teams will need an XT30 cable to transfer power from the main hub to a secondary hub. This is also the connector used on the :term:`REV Grounding Strap <Grounding Strap>`.
 
-   - Used for module power
-   - See :term:`XT30`
-- JST-VH
+      .. image:: images/wiring/xt30-connector.png
+         :alt: A XT30 connector
+         :width: 200px
 
-   .. image:: images/wiring/jst-vh-connector.png
-      :alt: A JST-VH connector
-      :width: 200px
+   JST-VH
+      JST-VH is a type of connector used by FTC motors to interface with the REV Expansion Hub. It is keyed and locks into place for improved reliability.
 
-   - Used for motor power
-   - See :term:`JST-VH`
-- Dupont 0.1”
+      .. image:: images/wiring/jst-vh-connector.png
+         :alt: A JST-VH connector
+         :width: 200px
 
-   .. image:: images/wiring/dupont-connector.png
-      :alt: A Dupont 0.1" connector
-      :width: 200px
+   Dupont 0.1”
 
-   - Used for sensors
-   - Used for servo wires
-- JST-PH and JST-XH
-   .. image:: images/wiring/jst-sensor-connectors.png
-      :alt: JST-PH and JST-XH connectors
-      :width: 200px
+      .. image:: images/wiring/dupont-connector.png
+         :alt: A Dupont 0.1" connector
+         :width: 200px
 
-   - Used for sensors
-   - See :term:`JST-PH`
-- Tamiya
-   .. image:: images/wiring/tamiya-connector.png
-      :alt: A Tamiya connector
-      :width: 200px
+      A small pinheader connector commonly used on servos and on some sensors.
 
-   .. warning:: Do not use these connectors! The metal connectors are fragile and will lead to random disconnects.
+   JST-PH
+      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections.
 
-   - Used for module power
+      .. image:: images/wiring/jst-sensor-connectors.png
+         :alt: JST-PH and JST-XH connectors
+         :width: 200px
+
+   JST-XH
+       JST-XH is an uncommon connector but is seen on some third party sensors
+
+   Tamiya
+      Used in some third party boards. Do not use these connectors! The metal connectors are fragile and will lead to random disconnects.
+
+      .. image:: images/wiring/tamiya-connector.png
+         :alt: A Tamiya connector
+         :width: 200px

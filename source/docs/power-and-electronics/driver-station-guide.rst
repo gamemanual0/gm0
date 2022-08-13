@@ -11,6 +11,19 @@ Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more crow
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
 
+.. admonition:: term
+
+   .. glossary::
+
+      Micro USB On The Go (OTG) Cable
+         The Micro USB OTG cable connects the :term:`Driver Station` phone with the Logitech controller that the driver uses in order to control the robot.
+
+         .. note:: It is recommended that teams purchase a couple spares due to faulty OTG cable connections and its low price.
+
+         .. image:: images/glossary/otg-cable.png
+            :alt: A USB OTG Cable
+            :width: 200
+
 Controllers
 -----------
 

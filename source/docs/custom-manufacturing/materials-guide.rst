@@ -47,6 +47,15 @@ Aluminum :term:`channel <Channel>` is used in many build system kits and is very
 
 15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing teams to slide in bolts to their desired location. REV and MiSUMI offer 15 mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not as great structurally, but is lighter than MiSUMI :term:`extrusion <Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion <Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add up quickly in terms of weight.
 
+.. admonition:: term
+
+   .. glossary::
+
+      Torsional Rigidity
+         Torsional rigidity refers to how difficult it is to twist an object due to an applied torque. This mainly refers to :term:`extrusion <Extrusion>`, as it is easier to twist extrusion than :term:`channel <Channel>` or an angle piece, for example.
+
+         Torsional rigidity has consequences particularly in building drivetrains, as the drivetrain is the last mechanism on your robot that should flex or bend when weight or force is applied to it.
+
 MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other sizes, such as 20mm and 1". 20 mm :term:`extrusion <Extrusion>` can be a good choice if you need a sturdier frame than provided by 15mm :term:`extrusion <Extrusion>`. Note that then you would need to buy special nuts, as 20mm :term:`extrusion <Extrusion>` is not compatible with M3 nuts. 1" extrusion is regularly used as the primary building system in FRC\ |reg|, but is definitely overkill for FTC.
 
 Aluminum flat and aluminum angle is widely available at hardware stores. In certain applications, such as adapting from different build systems, it is possible to drill custom adapter plates to mount mechanisms to the drivetrain. Aluminum angle is also a very sturdy structural support piece that takes up relatively little space, and can adapt to any build system. We suggest using 1/8” alumimum with drivetrain or mounting applications, and 1/16” aluminum for low-load situations.

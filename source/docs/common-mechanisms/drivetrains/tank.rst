@@ -43,13 +43,27 @@ Disadvantages
 
 In its most common form, the drivetrain uses the same wheel layout as the two wheel drivetrain (2 traction wheels in the back, 2 omnis in the front), but with one notable difference: **all four wheels are powered**.
 
-Some teams will put all four traction wheels or use all four omni wheels. It is not suggested to use all 4 traction wheels due to poor turning that results in this setup. This is caused by :term:`wheel scrub <Wheel scrub>`. Using omni wheels for all four wheels will result in incredible turning, with the robot rotating around its center.
+Some teams will put all four traction wheels or use all four omni wheels. It is not suggested to use all 4 traction wheels due to poor turning that results in this setup. This is caused by wheel scrub. Using omni wheels for all four wheels will result in incredible turning, with the robot rotating around its center.
+
+.. admonition:: term
+
+   .. glossary::
+
+      Wheel scrub
+         Wheel scrub refers to friction between the side of the wheel and the floor tile. It inhibits turning as the drivetrain must overcome this frictional force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop <Drop Center>`.
 
 However, this advantage comes with a major loss of traction. For these reasons, many teams choose to use two traction wheels and two omni wheels for a balance between quick turning and traction. The primary advantage of this drivetrain over other tank drivetrains is its ability to easily move across raised terrain when the bot’s center is raised above the terrain.
 
 It is suggested that a four wheel drivetrain be close to, or exactly, a square. Otherwise, one may encounter problems turning.
 
 .. note:: :term:`Weight distribution` is furthermore a large factor that should be considered: the more weight in the back, the better.
+
+.. admonition:: term
+
+   .. glossary::
+
+      Weight distribution
+         Weight distribution generally refers to how the weight of the robot is proportioned. It is desirable to have a relatively 50-50 (50% of weight in the front half, 50% in back half) so that the drivetrain has optimal manuverability and turning.
 
 Off-center turning, which may or may not be a drawback, is nearly ubiquitous among 4 wheel drives. This may not be a problem for teams, but it is good to be aware of it. Off-center turning can be an advantage, but be warned that turning will be slightly slower on 4 wheel drives than their six or eight wheel counterparts.
 
@@ -120,17 +134,20 @@ Disadvantages
 
 A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple reasons: it has fantastic traction, great turning, and by having 6 wheels, the drivetrain has more contact with the ground, helping with stability and traction. There are two main types of 6 wheel drivetrains: ones with **corner omnis** and ones with a **drop center**.
 
-A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly below the other two wheels. The drop should be anywhere from more than 1/16” up to 1/4”. However, the recommended drop is around 1/8”. Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots (>25 lbs.) perform slightly better with more than 1/8” drop.
+.. admonition:: Term
 
-The purpose of dropping the middle wheel is to ensure that only 4 wheels are in contact with the ground at all times. This is because turning with 6 wheels on the ground introduces lots of friction, making it very difficult to turn quickly. Note that the **required drop may vary depending on both field condition and weight of the overall robot**.
+   .. glossary::
 
-Turning can drastically degrade due to a difference in material underneath the field, leading to the robot sinking down further than usual.
+      **Drop Center**
+         A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly below the other two wheels. The drop should be anywhere from more than 1/16” up to 1/4”. However, the recommended drop is around 1/8”. Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots (>25 lbs.) perform slightly better with more than 1/8” drop.
 
-Moreover, **most drop center 6 wheel drives are made using custom drivetrains** because it is difficult to get the center wheel drop using a kit based build system (a notable exception being REV-based kit drivetrains). It is possible to execute a drop center using goBILDA and Actobotics using pillow blocks, but it is a little bit more awkward. However, with the new `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop center drivetrain on goBILDA channel.
+         The purpose of dropping the middle wheel is to ensure that only 4 wheels are in contact with the ground at all times. This is because turning with 6 wheels on the ground introduces lots of friction, making it very difficult to turn quickly. Note that the **required drop may vary depending on both field condition and weight of the overall robot**.
+
+         Turning can drastically degrade due to a difference in material underneath the field, leading to the robot sinking down further than usual.
+
+**Most drop center 6 wheel drives are made using custom drivetrains** because it is difficult to get the center wheel drop using a kit based build system (a notable exception being REV-based kit drivetrains). It is possible to execute a drop center using goBILDA and Actobotics using pillow blocks, but it is a little bit more awkward. However, with the new `goBILDA drop-center bearing plate <https://www.gobilda.com/1616-series-drop-center-bearing-plate-2mm-drop-4-pack/>`_, it is straightforward to make a drop center drivetrain on goBILDA channel.
 
 6 wheel drives with corner :term:`omni wheels <Omni Wheel>` do not need to have a center drop. It attempts to solve the issue of turning by replacing the corner traction wheels with omni wheels, allowing the drivetrain to achieve better turning, albeit with slightly less traction than a center-drop. This is very easily buildable in kits, and is a great all-around drivetrain. Drop center and corner omnis can be combined for maximum turning reliability, although this comes with side effects like rocking and reduced traction.
-
-
 
 Advantages
 ^^^^^^^^^^
