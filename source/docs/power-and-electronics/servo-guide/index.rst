@@ -3,7 +3,7 @@ Servo Guide
 
 A Servo combines a small electric motor and control circuit in a single compact package. This allows the servo to rotate to a specified position and hold that position. Typically servos have limited range of rotation (180° is common).
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

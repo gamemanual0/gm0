@@ -98,7 +98,7 @@ After mirroring the drive pod to make your opposite side, connect those two halv
 CAD Tutorial Part 2 - Pocketing Guide
 -------------------------------------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

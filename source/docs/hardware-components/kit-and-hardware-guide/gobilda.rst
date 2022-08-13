@@ -31,7 +31,7 @@ Notable components
 
 - In addition, low-side channel (smaller profile :term:`channel <Channel>`) complements full size channel. Low side channel is just 12mm in height and allows for more compact builds. Additionally, low side channel opens up possibilities such as a kit-based :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`. Low side channel also forms the basis of the cascading kit with a 2 or 4 stage option.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

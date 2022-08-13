@@ -3,7 +3,7 @@ Direct Drive
 
 Direct drive refers to powering a mechanical part (most commonly a drive wheel) directly from the motor axis. Many new and inexperienced teams will use this method to power their drivetrain as it is the simplest way to do so. However, there are significant drawbacks to this method.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -16,7 +16,7 @@ Second, direct drive limits the :term:`gear ratio <Gear Reduction>` to whatever 
 
 Third, motor shafts are not built to carry large amounts of downward load. This can lead to bending of the motor shaft, since in direct drive the shaft is only supported by one side, the gearbox. Generally, a principle among all engineers is to support the shaft on both sides, which isn’t possible in this case. This leads to :term:`cantilevering <Cantilever>` the shaft, something that should be avoided in general. Thus, with a heavy robot the motor shafts can easily be bent due to a lack of support. (While typically it is impossible to support a motor shaft on both ends, it is a common rule of thumb to have dual support on wheels or other non-motor shafts.)
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

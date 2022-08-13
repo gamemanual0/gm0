@@ -3,7 +3,7 @@ Gearbox Internals
 
 Fundamentally, a gearbox is just a collection of gears and an enclosure that connects them. Gearboxes have an **output ratio**, the final Gear Reduction between the motor input and the final output :term:`shaft <Shaft>`.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -21,7 +21,7 @@ In FTC, gearboxes may be more common than you think - every motor has a gearbox 
 Spur Gearboxes
 --------------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -49,7 +49,7 @@ Planetary Gearboxes
 
 Planetary gearboxes use a more complex system of gears to achieve a robust reduction in a compact space. In automotive engineering, planetary gear sets can achieve a few different ratios without changing gear size, but all planetary gearboxes that you will see in FTC only achieve one gear ratio.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

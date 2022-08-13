@@ -4,7 +4,7 @@ Computer-aided design (CAD)
 Introduction
 ------------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

@@ -3,7 +3,7 @@ Linkages
 
 There are many different types of linkages. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

@@ -13,7 +13,7 @@ The 5 turn torque servo is available from several vendors including ServoCity an
 VEX 393 EDR
 -----------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -41,7 +41,7 @@ However, there are some difficulties to keep in mind. The 393 motor uses a 1/8" 
 - **Motor Controller 29** The VEX Motor Controller 29 converts the 3 wire PWM signal from the REV Hub into the 2-wire motor signal used to drive the :term:`393 <VEX 393 EDR>`.
 - **REV Servo Power Module** The REV :term:`Servo Power Module` is used to boost the voltage given to :term:`servos <Servo>` through the Expansion Hub (5V) to 6V, which is needed to run a :term:`393 <VEX 393 EDR>`. The SPM accepts PWM signal through the three-pronged wire end of the :term:`MC29 <VEX Motor Controller 29>`. The SPM will need to be plugged in to the Expansion Hub's power through a Tamiya connector. Crimping ring terminals to the SPM is necessary.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

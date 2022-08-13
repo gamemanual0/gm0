@@ -47,7 +47,7 @@ Aluminum :term:`channel <Channel>` is used in many build system kits and is very
 
 15 mm :term:`extrusion <Extrusion>` is compatible with M3 hardware, allowing teams to slide in bolts to their desired location. REV and MiSUMI offer 15 mm :term:`extrusion <Extrusion>`. REV :term:`extrusion <Extrusion>` is not as great structurally, but is lighter than MiSUMI :term:`extrusion <Extrusion>`. MiSUMI is more resistant to :term:`flexing and/or twisting under load <Torsional Rigidity>`. Both REV and MiSUMI :term:`extrusion <Extrusion>` are sold in bulk, and MiSUMI has the option to cut to the half millimeter. Keep in mind that a lot of :term:`extrusion <Extrusion>` can add up quickly in terms of weight.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

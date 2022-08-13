@@ -5,7 +5,7 @@ Dead Wheels
 
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms. We'll explore what they mean in a bit.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

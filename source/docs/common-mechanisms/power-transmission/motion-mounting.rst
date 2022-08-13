@@ -6,7 +6,7 @@ When mounting a mechanism, it is important to know how to transfer power to it. 
 Live Axle
 ---------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -32,7 +32,7 @@ Disadvantages
 Dead Axle
 ---------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -55,7 +55,7 @@ Disadvantages
 Zombie Axle (Coaxial)
 ---------------------
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

@@ -16,7 +16,7 @@ Drivetrain types
    Holonomic Drivetrain
       A holonomic drivetrain, in contrast to a tank drivetrain, can move sideways, due to using either :term:`mecanum <Mecanum Wheel>` or :term:`omni <Omni Wheel>` wheels. These kinds of wheels have special rollers that allow strafing movements. Thus, holonomic drivetrains prioritize movement over traction. Holonomic drivetrains eliminate the time it takes to turn for a tank drivetrain. However, holonomic is susceptible to defense and can suffer with a heavy robot. Holonomic has been proven to be competitive at the highest level for many years, and is common among world-class robots.
 
-.. admonition:: terms
+.. admonition:: Terms
 
    .. glossary::
 

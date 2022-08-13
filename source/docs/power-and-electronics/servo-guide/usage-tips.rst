@@ -39,7 +39,7 @@ There are also some alternative designs of servo supports; one of them, which is
 
 - If you need more power, use a `REV Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`_.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

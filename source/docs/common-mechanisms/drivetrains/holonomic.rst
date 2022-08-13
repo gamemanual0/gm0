@@ -8,7 +8,7 @@ Mecanum Drive
 
 Mecanum drivetrains consist of four mecanum wheels which are powered independently by one motor. This configuration angles the velocity of each wheel, allowing the robot to strafe.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

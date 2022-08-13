@@ -14,7 +14,7 @@ Roller and Wheeled Intakes
 
 Roller and wheeled intakes refer to types of intakes which work by having some sort of hard or pliable object rotate along an axis. Wheeled intakes use different kinds of wheels (solid traction, compliant, or foam wheels) that propel the game element to the collection bin. Roller intakes are wider, and can sometimes intake more than one game element.
 
-.. admonition:: terms
+.. admonition:: Terms
 
    .. glossary::
 
@@ -65,7 +65,7 @@ Wheeled intakes can be spring-loaded or locked into place. Teams could choose on
 
 Wheeled intakes operate at much slower RPM than surgical tubing intakes, as wheeled intakes are meant to pick up **one** element at a time. They generally require more torque than a surgical tubing intake, which is geared for speed.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

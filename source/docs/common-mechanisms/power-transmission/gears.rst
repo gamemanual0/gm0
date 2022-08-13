@@ -3,7 +3,7 @@ Gears
 
 Gears, like sprockets and pulleys, are used in power transmission for three common applications: changing the direction of power, changing the amount of torque, and changing RPM. Gears are a less common transmission option than chain, but are still very viable for most use cases. Gears are equally as reliable as chain, but can’t be used for transferring power over long distances. Many teams dislike gears when using kit-based channels because the hole pattern limits which combinations of gears can be used. Consequently, it may be difficult to achieve a desired specific gear ratio. However, with :term:`extrusion <Extrusion>` systems, it’s very easy to use different ratios, since the gears can be moved around in extrusion.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -37,7 +37,7 @@ Meshing Gears
 
 .. note:: Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral pitch. (A notable exception is 32 diametral pitch and 0.8 MOD gears. These are close enough to be perfectly fine.)
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

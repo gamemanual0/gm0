@@ -10,7 +10,7 @@ Servo Type: Regular or Continuous
 
 Both REV Smart Servo and goBILDA Dual Mode servos (which are both based on FR5311m programmable servo by Feetech) can be used as either regular or continuous rotation servos. To switch between these two modes, you need to use a :term:`servo programmer <SRS Programmer>`, available separately from REV or goBILDA.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

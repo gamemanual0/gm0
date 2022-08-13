@@ -63,7 +63,7 @@ It is important to note that encoder values can be read in any of these modes pr
 Encoders
 ~~~~~~~~
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 

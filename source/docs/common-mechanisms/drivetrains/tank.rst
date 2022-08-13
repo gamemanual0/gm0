@@ -45,7 +45,7 @@ In its most common form, the drivetrain uses the same wheel layout as the two wh
 
 Some teams will put all four traction wheels or use all four omni wheels. It is not suggested to use all 4 traction wheels due to poor turning that results in this setup. This is caused by wheel scrub. Using omni wheels for all four wheels will result in incredible turning, with the robot rotating around its center.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
@@ -58,7 +58,7 @@ It is suggested that a four wheel drivetrain be close to, or exactly, a square. 
 
 .. note:: :term:`Weight distribution` is furthermore a large factor that should be considered: the more weight in the back, the better.
 
-.. admonition:: term
+.. admonition:: Term
 
    .. glossary::
 
