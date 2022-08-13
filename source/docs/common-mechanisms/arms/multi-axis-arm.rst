@@ -5,6 +5,11 @@ A multi-axis arm is an arm which has multiple points of rotation. Multi-axis arm
 
 .. warning:: This is highly discouraged for inexperienced FTC teams due to the difficulty of building as well as the need for machine tools.
 
+.. figure:: images/multi-axis-arm/20700-snap.png
+   :alt: 20700's multi-axis arm
+
+   20700 Snap, Freight Frenzy
+
 .. figure:: images/multi-axis-arm/8148-multi-axis-arm.png
    :alt: 8148's multi-axis arm
 
