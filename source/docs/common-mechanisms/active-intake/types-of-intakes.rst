@@ -1,7 +1,7 @@
 Types of Intake
 ===============
 
-Horizontal/top Intake
+Horizontal/Top Intake
    A horizontal intake generally is a wider style of intake that has the intake rotating on a horizontal axis or plane. Horizontal intakes are generally used for intaking smaller game elements, as these types of intakes can control more than one piece at a time. Horizontal intakes have been used successfully in games such as Res-Q and Rover Ruckus, where teams needed to pick up small cubes and balls from the floor.
 
 Vertical Intake
@@ -14,18 +14,16 @@ Roller and Wheeled Intakes
 
 Roller and wheeled intakes refer to types of intakes which work by having some sort of hard or pliable object rotate along an axis. Wheeled intakes use different kinds of wheels (solid traction, compliant, or foam wheels) that propel the game element to the collection bin. Roller intakes are wider, and can sometimes intake more than one game element.
 
-.. admonition:: Terms
+.. admonition:: Term
 
    .. glossary::
 
       Compliant Wheel
-         A compliant wheel is a flexible rubber wheel that is primarily used for intakes.
-
-         .. warning:: These are not designed for use in a drivetrain.
+         A compliant wheel is a flexible rubber wheel that is primarily used for intakes. These are **NOT** designed for use in drivetrains.
 
          The available bore options vary depending on the vendor. As with the compliant wheels, durometer (hardness of rubber) affects both traction and longevity, sacrificing one for the other. However, in the case of intakes, a lower durometer is recommended to have maximum grippiness for intaking game elements.
 
-         .. note:: Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
+         Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
 
          Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's Gecko Wheels.
 

@@ -22,20 +22,18 @@ Bevel gears are a special type of gear that allows power transmission in two dif
 Pitch Diameter Calculation
 --------------------------
 
-  .. math::
+.. math::
 
-     PD = Module * Number\ of\ Teeth
+   PD = Module * Number\ of\ Teeth
 
-     DP = \frac{Number\ of\ Teeth}{PD}
+   DP = \frac{Number\ of\ Teeth}{PD}
 
-     PD = OD - (2 * Module)
+   PD = OD - (2 * Module)
 
 Pitch circle refers to an imaginary circle that contacts the pitch circle of any other gear with which it is in mesh. Basically, each gear has a pitch circle. When gear 1 is meshed with gear 2, the pitch circles of both gears should touch exactly in the middle of where the teeth interlock with each other.
 
 Meshing Gears
 -------------
-
-.. note:: Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral pitch. (A notable exception is 32 diametral pitch and 0.8 MOD gears. These are close enough to be perfectly fine.)
 
 .. admonition:: Term
 
@@ -53,6 +51,8 @@ When meshing gears, it is important that the gears are not too loose nor too tig
 Calculating center-to-center distances using gears is quite simple. In order to calculate the desired center distance between two given gears, you must know the number of teeth for each gear and the **diametral pitch** of your gears (the number of teeth per inch of the gear’s diameter). With these two pieces of information, you can use the equation :math:`D=\frac{T_{1}+T_{2}}{P}`. In this equation, :math:`D` is the distance between the center of both gears, :math:`T_1` and :math:`T_2` are the number of teeth of each gear in question, and :math:`P` is the diametral pitch of the gears.
 
 The **module** (abbreviated **MOD**) of a gear is used similarly to diametral pitch. It is the number of millimeters of the gear’s diameter per tooth of the gear. The equation to find center distance :math:`D` is :math:`D = \frac{(T_{1} + T_{2}) * M}{2}`, where :math:`T_{1}` and :math:`T_2` are the number of teeth of each gear in question, and :math:`M` is the module of the gear.
+
+.. note:: Be sure to never :term:`mesh <Mesh>` gears that are not of the same diametral pitch. (A notable exception is 32 diametral pitch and 0.8 MOD gears. These are close enough to be perfectly fine.)
 
 Additionally, it is possible to average the pitch diameters of the two gears to find the correct center-to-center distance.
 

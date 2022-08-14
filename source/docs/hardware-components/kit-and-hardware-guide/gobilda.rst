@@ -31,15 +31,6 @@ Notable components
 
 - In addition, low-side channel (smaller profile :term:`channel <Channel>`) complements full size channel. Low side channel is just 12mm in height and allows for more compact builds. Additionally, low side channel opens up possibilities such as a kit-based :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`. Low side channel also forms the basis of the cascading kit with a 2 or 4 stage option.
 
-.. admonition:: Term
-
-   .. glossary::
-
-      Parallel Plate Drivetrain
-         A parallel plate drivetrain is a drivetrain that has drive pods that consist of 2 plates spread apart with wheels and drive transmission in between them.
-
-         These plates can be anywhere from 1" to 5" apart, depending on the space requirements of the wheels and drive system. Generally, a pod width of 3" or less is desired to maximize the space between the drive pods for mechanisms such as an intake.
-
 .. figure:: images/gobilda/gobilda_low_channel.jpg
    :alt: goBILDA low-side channel
 

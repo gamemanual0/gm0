@@ -8,7 +8,7 @@ There are many different types of linkages. Generally, linkages are used to conv
    .. glossary::
 
       Linkage
-         A system of solid links or bars connected to two or more other links by hinges, sliding joints, or ball-and-socket joints etc so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
+         A system of solid links or bars connected to two or more other links by hinges, sliding joints, ball-and-socket joints, etc., so as to form a closed chain or a series of closed chains. Generally used to convert linear motion to rotational motion or vice versa.
 
 Considerations
 --------------

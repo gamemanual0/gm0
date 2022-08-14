@@ -3,10 +3,10 @@ Manufacturing Glossary
 
 .. glossary::
 
-   Laser cutter
+   Laser Cutter
       A laser cutter is a tool that uses a high-power laser to cut through sheet metal or similar material. The laser is guided by CNC to cut preprogrammed patterns into the sheet.
 
-   Waterjet cutter
+   Waterjet Cutter
       A waterjet cutter is a tool which cuts sheet metal and other materials via extremely high pressure water focused into a small stream. Waterjet cutters are commonly used in industrial fabrication and can follow preprogrammed instructions to cut patterns, similar to a CNC system.
 
    Standoff

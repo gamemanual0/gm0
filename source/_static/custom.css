@@ -72,3 +72,12 @@ div.admonition-term dt {
 div.admonition-term dd {
     margin: 0em;
 }
+
+div.admonition-terms dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+div.admonition-terms dd {
+    margin: 0em;
+}

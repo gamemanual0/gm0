@@ -11,9 +11,7 @@ Introduction
       Computer-aided design (CAD)
          CAD is software most commonly used to aid the design and drafting of parts and assemblies in engineering. In FTC, CAD is used to make 3D models of robots as well as design custom parts.
 
-.. tip:: CAD is not necessary in FTC to build a successful robot.
-
-Many successful teams didn’t CAD their robot at all. Other successful teams only made parts of their robot in CAD. Still other teams fully designed their robot in CAD.
+**CAD is not necessary in FTC to build a successful robot.** Many successful teams didn’t CAD their robot at all. Other successful teams only made parts of their robot in CAD. Still other teams fully designed their robot in CAD.
 
 So, what's the point of CAD, then? It is encouraged that new teams try their hand at CAD, especially if you have a mentor or parent who is experienced in such an area. CAD is beneficial for multiple reasons.
 

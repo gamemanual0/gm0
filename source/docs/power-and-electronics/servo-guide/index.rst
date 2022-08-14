@@ -1,18 +1,12 @@
 Servo Guide
 ===========
 
-A Servo combines a small electric motor and control circuit in a single compact package. This allows the servo to rotate to a specified position and hold that position. Typically servos have limited range of rotation (180° is common).
-
 .. admonition:: Term
 
    .. glossary::
 
       Servo
-         A servo is a small DC motor attached to servo gears that is very finely controllable and interfaces via a 3 wire PWM connector. Servos are used in FTC for high-precision applications that are low-load - for example, opening a trapdoor for balls to fall through. The output has splines, which are the rigid teeth that are on top of the servo.
-
-.. note::
-
-   Servos are **NOT** replacements for DC motors, and should not be used as such. Servos are made for fine-tuned and accurate movement, not high-load or fast rotation applications.
+         a small DC motor attached to servo gears that is very finely controllable and interfaces via a 3 wire PWM connector. Servos are used in FTC for high-precision applications that are low-load - for example, opening a trapdoor for balls to fall through. Typically servos have limited range of rotation (180° is common). The output has splines, which are the rigid teeth that are on top of the servo.
 
 Servos are commonly used in RC cars (steering) and RC planes (moving ailerons). In FTC, servos are typically used for claws, grabbers, and arms.
 
@@ -21,9 +15,9 @@ Servos are commonly used in RC cars (steering) and RC planes (moving ailerons). 
 
    A common servo, HS488-HB from Hitec
 
-There are many servos from different manufacturers, which vary widely in price, performance and value. Fortunately, virtually all servos use the standard 3-wire connector, and accept the same kind of controlling signal (PWM signal at 50 hz). Each REV Expansion Hub provides 6 servo ports, so you can plug in a servo from any manufacturer. Also, there is a standard size for servos for FTC use, so mounts can be interchanged between manufacturers.
+.. note:: Servos are **NOT** replacements for DC motors, and should not be used as such. Servos are made for fine-tuned and accurate movement, not high-load or fast rotation applications.
 
-.. note:: FTC robots typically use standard size :term:`servos <Servo>`, not mini or extreme size.
+There are many servos from different manufacturers, which vary widely in price, performance and value. Fortunately, virtually all servos use the standard 3-wire connector, and accept the same kind of controlling signal (PWM signal at 50 hz). Each REV Expansion Hub provides 6 servo ports, so you can plug in a servo from any manufacturer. Also, there is a standard size for servos for FTC use, so mounts can be interchanged between manufacturers.
 
 Commonly used servos used in FTC are the REV Smart Servo and goBILDA Dual mode Servos (`25-2 <https://www.gobilda.com/2000-series-dual-mode-servo-25-2/>`_) and (`25-3 <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_), but you should check out other servos as well. Picking the right servo for your application is a question that’s almost impossible to give a blanket answer for. To learn more, please read the :doc:`choosing-servo` section.
 
