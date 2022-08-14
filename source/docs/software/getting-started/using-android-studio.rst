@@ -148,7 +148,7 @@ Next to it you will see a dropdown for devices. When you connect your Robot Cont
 
    :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`
 
-   to remotely start the app
+   to remotely start the Robot Controller app.
 
 If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful pages from the REV site are:
 
