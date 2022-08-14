@@ -213,8 +213,8 @@ A much more niche option is to vertically spring odometry pods. The idea is that
 Gallery
 -------
 
-Open Odometry
-^^^^^^^^^^^^^
+Open Odometry (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/openodo-bom.png
    :alt: Exploded drawing of Open Odometry design
@@ -224,29 +224,29 @@ Open Odometry
    :alt: Section view of Open Odometry
    :width: 40em
 
-FTC Team 14310
-^^^^^^^^^^^^^^
+FTC Team 14310 (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14310.jpg
    :alt: 14130's odometry
    :width: 40em
 
-FTC Team 8802
-^^^^^^^^^^^^^
+FTC Team 8802 (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/8802.jpg
    :alt: 8802's odometry
    :width: 40em
 
-FTC Team 14320
-^^^^^^^^^^^^^^
+FTC Team 14320 (US Digital S4T)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14320.png
    :alt: 14320's odometry
    :width: 40em
 
-FTC Team 11115
-^^^^^^^^^^^^^^
+FTC Team 11115 (US Digital S4T)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/11115-cover.jpg
    :alt: 11115's odometry
@@ -254,15 +254,15 @@ FTC Team 11115
 
    `FTC Team 11115 Photo Album <https://photos.google.com/share/AF1QipPx5inCdVxK6wAqtIznFE-KqvnuzgRq9rFxrhzI50r0DeYYo2o11hWB4hroYObm8A?key=UWwxd3hFdXpYaHFqaFhTSFJnWFlEWjgtV1FTN3Zn>`_
 
-FTC Team 14481
-^^^^^^^^^^^^^^
+FTC Team 14481 (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14481.png
    :alt: 14481's odometry
    :width: 40em
 
-FTC Team 3658
-^^^^^^^^^^^^^
+FTC Team 3658 (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/3658.png
    :alt: Render of 3658's odometry
@@ -270,8 +270,8 @@ FTC Team 3658
 
    FTC Team 3658 CAD
 
-FTC Team 7236
-^^^^^^^^^^^^^
+FTC Team 7236 (REV Through Bore Encoder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/odometry/7236-cad-exploded.png
    :alt: Exploded view of 7236's odometry
