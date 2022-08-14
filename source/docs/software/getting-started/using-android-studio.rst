@@ -142,6 +142,14 @@ To install your program onto the Robot Controller, you will use the play button 
 
 Next to it you will see a dropdown for devices. When you connect your Robot Controller to your computer (using the correct cable), the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
 
+.. tip::
+
+   Occasionally the app will fail to start on the robot controller, leaving the drivers station in a disconnected state. If this occurs you can open the terminal and run
+
+   :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`
+
+   to remotely start the app
+
 If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful pages from the REV site are:
 
 - `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
@@ -340,7 +348,7 @@ Version Control
 
 Version control is an extremely useful tool. It allows for looking at (and reverting to) previous versions of code, easy collaboration, having multiple versions of code that can be merged together, etc.
 
-As far as version control systems go, we strongly recommend git. While a git tutorial is out of scope for |gm0|, here are some git resources:
+As far as version control systems go, we strongly recommend git, especially when used with a GUI like Android Studio's built in VCS tools or Github Desktop. While a git tutorial is out of scope for |gm0|, here are some git resources:
 
 - `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
 - `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
