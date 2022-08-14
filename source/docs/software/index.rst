@@ -10,3 +10,4 @@ This section covers the basics of software for FTC.
    tutorials/index
    concepts/index
    adv-control-system/index
+   software-glossary

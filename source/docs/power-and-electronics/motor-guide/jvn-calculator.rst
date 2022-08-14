@@ -11,7 +11,7 @@ To use the calculator for rotary mechanisms (arms), select the Rotary Arm sheet.
 
 **The VEX dyno test is a trusted and accurate resource for teams, even though its results are significantly higher than the specifications posted on vendor pages**.
 
-The test results may be found by searching VEX Dyno Testing, or by clicking `here <https://motors.vex.com/other-motors/am-neverest>`_. (Note: this testing is done to the :term:`bare motor <Bare Motor>`, without the end gearbox.)
+The test results may be found by searching VEX Dyno Testing, or by clicking `here <https://motors.vex.com/other-motors/am-neverest>`_. (Note: this testing is done to the bare motor, without the end gearbox.)
 
 Gear Ratios
 -----------

@@ -31,3 +31,5 @@ Choice of a kit is a matter of many a debate in FTC forums, and each team has th
    gobilda
    rev-robotics
    custom
+   kit-glossary
+

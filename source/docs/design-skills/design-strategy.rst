@@ -167,6 +167,15 @@ For example, drivers should know exactly where the robot needs to be positioned 
 
 **However, it is not advisable for rookie teams to play defense** due to the specific rules surrounding this strategy. If a team wishes to execute a defensive strategy, be sure to read all the rules as defense can easily incur penalties/cards if done improperly.
 
+.. admonition:: Term
+
+   .. glossary::
+
+      Defense
+         Defense is a strategy employed with the goal of preventing the opposing alliance from scoring points, or at least significantly slowing the opposition's scoring.
+
+         This strategy can backfire if drivers illegally play defense and incur penalties and/or cards for their alliance. Defense is usually played by obstructing the opposing alliance, either by strategically positioning the robot to obstruct access or pushing another team's robot into a disadvantageous position.
+
 Fully driver-controlled driving → Partially automated tasks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
