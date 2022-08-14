@@ -144,7 +144,7 @@ Next to it you will see a dropdown for devices. When you connect your Robot Cont
 
 .. tip::
 
-   Occasionally the app will fail to start on the robot controller, leaving the drivers station in a disconnected state. If this occurs you can open the terminal and run
+   Occasionally the app will fail to start on the robot controller, leaving the driver station in a disconnected state. If this occurs you can open the terminal and run
 
    :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`
 
