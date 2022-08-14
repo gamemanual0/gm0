@@ -59,7 +59,7 @@ Advantages
 
   .. note:: 8mm :term:`chain <Chain>`, HTD 3, and HTD 5 mm :term:`belt <HTD Belt>` can do perfect :term:`C2C (center to center) <C2C>` on the goBILDA pattern. This saves a lot of headache when needing to calculate :term:`C2C` distances.
 
-- goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing <Ball Bearing>`, and :term:`pillow block <Bushing>` options.
+- goBILDA has plenty of :term:`shaft <Shaft>`, :term:`ball bearing <Ball Bearing>`, and pillow block options.
 - goBILDA motors can :term:`face mount <Face Mounting>` natively into :term:`channel <Channel>`, eliminating the need for motor mounts and providing a robust, reliable way to mount motors.
 - goBILDA has some special parts are unavailable in other systems, like :term:`square beam shafts <Shaft>`.
 - goBILDA provides a large selection of 12V DC motors. Their :term:`Yellow Jacket motors <Yellow Jacket Motor>` use orbital gearboxes and are available in 10 different gear ratios ranging from 30 RPM to 1620 RPM. No other manufacturer offers such varied gear ratios out of the box.

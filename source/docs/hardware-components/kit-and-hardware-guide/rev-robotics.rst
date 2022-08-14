@@ -18,7 +18,7 @@ Notable components
 
 - REV's bread and butter is the 15x15mm aluminum :term:`extrusion <Extrusion>`. It accepts M3 hex screws which slide along the grooves.
 - In addition, REV also offers both 45x45mm :term:`U-channel <Channel>` and 45x45mm :term:`C-channel <Channel>`, which is stronger than :term:`extrusion <Extrusion>` and provides stiffness and support when needed.
-- REV also offers :term:`punch tubing <Punch Tubing>` for teams wanting a more permanent mounting system while having the flexibility of extrusion.
+- REV also offers punch tubing for teams wanting a more permanent mounting system while having the flexibility of extrusion.
 - REV uses 5 mm hex steel :term:`shafts <Shaft>` and a :term:`ball-bearing <Ball Bearing>` motion support system. The shaft may be cut to length, which can be very useful for certain use cases. Many vendors have added compatibility to 5 mm hex :term:`shaft <Shaft>`.
 - REV offers 3 types of :term:`HD HEX motors <HD Hex Motor>`: spur gear, planetary, and UltraPlanetary motors. The UltraPlanetary has customizable planetary ring gear ratios for a very affordable price.
 - The Core Hex Motor may be useful in certain use cases such as space constrained mechanisms.
@@ -39,7 +39,15 @@ Verdict
 
 MiSUMI offers greater strength at a lower bulk cost. Additionally, MiSUMI will cut to the half millimeter for free, making it a great option for teams needing an exact cut. The drawback to MiSUMI is that it is quite a bit heavier than the REV :term:`extrusion <Extrusion>`. It is encouraged that teams use MiSUMI for drivetrain and structural support, and REV for mechanisms that will be under low to medium load.
 
-REV also sells :term:`punch tubing <Punch Tubing>`, which is 15 mm aluminum square tubing that is compatible with 1/8” rivets. This will prevent bolts from loosening or sliding around, as :term:`punch tubing <Punch Tubing>` requires teams to drill through the tubing in order to fasten parts to it. Another easy option is to use :term:`REV 45x45mm channel <Channel>`.
+REV also sells punch tubing, which is 15 mm aluminum tubing that allows teams to use the 15 mm REV building system without having the disadvantages of :term:`extrusion <Extrusion>`, such as that parts come loose over time.
+
+With punch tubing, teams must pre-drill holes and attach, unlike extrusion, where teams can slide and adjust mechanisms.
+
+Thus, it is recommended that teams use extrusion in prototyping/iterative design, and use punch tubing on the final iteration of their robot to save money. Punch tubing is compatible with the Metric Step Drill and 1/8" or 3.2mm pop-rivets.
+
+.. image:: images/rev-robotics/punch-tubing.png
+   :alt: A piece of REV Robotics 15mm punch tubing
+   :width: 200
 
 .. figure:: images/rev-robotics/rev-extrusion.png
    :alt: A piece of rev extrusion
@@ -68,7 +76,7 @@ Advantages
 - Delrin products are inexpensive yet durable for most use cases.
 - REV has the option to upgrade to aluminum parts if need be - something that no other build system offers. (not for all parts)
 - 5 mm hex is a robust :term:`shaft <Shaft>` and motion system and is easily adaptable to :term:`UltraHex` 1/2” hex :term:`shaft <Shaft>`. Other companies have adapting options with 5 mm hex.
-- :term:`Punch Tubing` is a great final iteration option if you are sure about placement.
+- Punch Tubing is a great final iteration option if you are sure about placement.
 - :term:`Channel` complements extrusion extremely well - having the adjustability of extrusion and the rigidity of channel makes it a very solid build system.
 - Generally, REV products are designed with affordability in mind, and so the components are of good value for money.
 
@@ -79,7 +87,7 @@ Disadvantages
 - Steeper learning curve, more time consuming to measure and cut :term:`extrusion <Extrusion>` to length.
 - Requires tools such as a saw and bandsaw.
 - Requires forethought and planning of :term:`extrusion <Extrusion>` length and placement.
-- Parts loosen over time (to remediate: use :term:`punch tubing <Punch Tubing>`)
+- Parts loosen over time (to remediate: use punch tubing)
 - M3 bolts, especially those sold directly by REV, are prone to bending under higher load (such as when used as an :term:`axle <Shaft>` for a pulley)
 - 5 mm hex :term:`shaft <Shaft>` is also prone to bending, especially if the :term:`shaft <Shaft>` is long.
 

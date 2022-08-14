@@ -3,7 +3,16 @@ Dead Wheels
 
 .. warning:: This is a very niche aspect of design in FTC. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
 
-The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms. We'll explore what they mean in a bit.
+The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms.
+
+.. admonition:: Term
+
+   .. glossary::
+
+      Dead Wheel
+         A small unpowered wheel (usually an :term:`omni wheel <Omni Wheel>`) that tracks the distance the robot has traveled through the encoder attached to the wheel's axle.
+
+         Usually, there will be two or three wheels - one or two on the x and y axis each to track the front-back and left-right position relative to the starting point. Generally, odometry wheels are sprung so that the wheel is in contact with the floor tiles at all times to ensure accuracy.
 
 Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software </docs/software/concepts/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
 

@@ -63,3 +63,21 @@ footer {
     background-color: rgb(245,127,37) !important;
 }
 
+/* Style inline glossary entries nicely */
+div.admonition-term dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+div.admonition-term dd {
+    margin: 0em;
+}
+
+div.admonition-terms dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+div.admonition-terms dd {
+    margin: 0em;
+}

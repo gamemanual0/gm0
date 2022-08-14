@@ -1,7 +1,7 @@
 Types of Intake
 ===============
 
-Horizontal/top Intake
+Horizontal/Top Intake
    A horizontal intake generally is a wider style of intake that has the intake rotating on a horizontal axis or plane. Horizontal intakes are generally used for intaking smaller game elements, as these types of intakes can control more than one piece at a time. Horizontal intakes have been used successfully in games such as Res-Q and Rover Ruckus, where teams needed to pick up small cubes and balls from the floor.
 
 Vertical Intake
@@ -13,6 +13,31 @@ Roller and Wheeled Intakes
 --------------------------
 
 Roller and wheeled intakes refer to types of intakes which work by having some sort of hard or pliable object rotate along an axis. Wheeled intakes use different kinds of wheels (solid traction, compliant, or foam wheels) that propel the game element to the collection bin. Roller intakes are wider, and can sometimes intake more than one game element.
+
+.. admonition:: Term
+
+   .. glossary::
+
+      Compliant Wheel
+         A compliant wheel is a flexible rubber wheel that is primarily used for intakes. These are **NOT** designed for use in drivetrains.
+
+         The available bore options vary depending on the vendor. As with the compliant wheels, durometer (hardness of rubber) affects both traction and longevity, sacrificing one for the other. However, in the case of intakes, a lower durometer is recommended to have maximum grippiness for intaking game elements.
+
+         Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
+
+         Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's Gecko Wheels.
+
+         .. figure:: images/compliant-wheel-2-inch.png
+            :alt: A 2" green compliant wheel
+            :width: 200
+
+            A 2" compliant wheel
+
+         .. figure:: images/compliant-wheel-4-inch.png
+            :alt: A 4" green compliant wheel
+            :width: 200
+
+            A 4" compliant wheel
 
 Solid Wheel Intake
 ^^^^^^^^^^^^^^^^^^
@@ -37,6 +62,17 @@ In this game, robots had to pick up glyphs, which were 6 inch foam cubes, from t
 Wheeled intakes can be spring-loaded or locked into place. Teams could choose one or mix; in Relic Recovery, some teams spring-loaded the set of wheels that made contact first, and then had a fixed set in the back. This is up to the design team’s choosing.
 
 Wheeled intakes operate at much slower RPM than surgical tubing intakes, as wheeled intakes are meant to pick up **one** element at a time. They generally require more torque than a surgical tubing intake, which is geared for speed.
+
+.. admonition:: Term
+
+   .. glossary::
+
+      Surgical Tubing
+            Surgical tubing is generally latex or rubber tubing. Its most common use case is in active intakes, and has been popular among teams for many seasons. Surgical tubing has a hollow center and is sold in different diameters and wall thicknesses. Teams can experiment with different kinds of surgical tubing, as well as adding polyurethane tubing (clear tubing that is stiffer than rubber or latex tubing) in order to make the tubing more stiff.
+
+            .. image:: images/surgical-tubing.png
+               :alt: A roll of surgical tubing
+               :width: 200
 
 Advantages
 ~~~~~~~~~~
