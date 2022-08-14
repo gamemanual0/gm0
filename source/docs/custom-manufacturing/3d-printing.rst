@@ -10,7 +10,7 @@ There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) 
 
 Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
 
-.. note:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
+.. tip:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
 
 Advantages of 3D Printing
 -------------------------
@@ -33,7 +33,7 @@ Disadvantages of 3D Printing
 Common Filament Types
 ---------------------
 
-For almost every part that needs to be 3D Printed for FTC, **PLA (or PLA+, Pro, etc) and PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and well, money.
+For almost every part that needs to be 3D Printed for FTC, **PLA (or PLA+, Pro, etc) and PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and money.
 
 .. danger:: If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the Ender 3 and its variants), then you **should not be printing at or above 250° C**. Doing so will cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need to print at these temperatures and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
@@ -54,7 +54,7 @@ PETG (Polyethylene Terephthalate Glycol Modified)
 
 PETG can be described as a strength upgrade to PLA. It is not difficult to print, but often has noticeably more stringing and other minor artifacts. While it technically has a lower tensile strength than PLA, it is far less brittle and withstands impacts better, with slight flexing. It is a great option for FTC parts which need to be impact resistant where PLA will not suffice. Its higher temperature resistance also means it won't warp in a high ambient temperature such as a hot car.
 
-.. warning:: PETG is known for bonding very well to print beds, **especially glass**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before you start your print.
+.. warning:: PETG is known for bonding very well to print beds, **especially glass and PEI**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before you start your print.
 
 - PETG hotend temperatures range from 230°-260° C
 - PETG bed temperatures range from 60°-80° C
@@ -84,7 +84,7 @@ TPU and TPE are both common printing filaments that are widely used for their fl
 - TPU/TPE hotend temperatures range from 210°-250° C
 - TPU/TPE does not usually need a heated bed, but if one is used it should not go over 60° C as this will fuse TPU with print bed.
 - TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus will likely need to be dried before and perhaps during a print.
-- Direct drive extruder probably necessary
+- Direct drive extruder is highly recommended
 
 
 Exotic Filaments
@@ -111,7 +111,7 @@ Many filaments are also sold with the addition of small chunks of Carbon Fiber m
 Polycarbonate (PC)
 ^^^^^^^^^^^^^^^^^^
 
-Polycarbonate and its variants are very very strong, technical materials. PC shines in its ability to be very rigid, and handle shock loads exceedingly well. PC also requires being dry, having a printer capable of **very** high temperatures, and an enclosure. It is a very challenging material to print, and is often very expensive. There is little reason to ever need printed polycarbonate parts in FTC, and anyone tying to tell that there is is likely trying to justify the time, effort, and money they just spent on it.
+Polycarbonate and its variants are very very strong, technical materials. PC shines in its ability to be very rigid, and handle shock loads exceedingly well. PC also requires being dry, having a printer capable of **very** high temperatures, and an enclosure. It is a very challenging material to print, and is often very expensive. There is little reason to ever need printed polycarbonate parts in FTC, with no use cases requiring its strength.
 
 There are several PC blends that can be much easier to print, a standout example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC that retains many of the advantages of pure PC. PolyLite is not quite as impact-resistant, but a lot cheaper. Both are much easier to print than pure PC.
 
