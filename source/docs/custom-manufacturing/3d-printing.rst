@@ -50,7 +50,7 @@ The most common 3D Printing filament is polylactic acid, or PLA. It is a plastic
 There are many variations of PLA sold by different manufacturers, like PLA+ or PLA Pro. These filaments have various additives in them to improve strength, printability, and other properties. While more expensive, these products can greatly improve the performance of PLA and cover its weaknesses.
 
 PETG (Polyethylene Terephthalate Glycol Modified)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 PETG can be described as a strength upgrade to PLA. It is not difficult to print, but often has noticeably more stringing and other minor artifacts. While it technically has a lower tensile strength than PLA, it is far less brittle and withstands impacts better, with slight flexing. It is a great option for FTC parts which need to be impact resistant where PLA will not suffice. Its higher temperature resistance also means it won't warp in a high ambient temperature such as a hot car.
 
@@ -60,7 +60,7 @@ PETG can be described as a strength upgrade to PLA. It is not difficult to print
 - PETG bed temperatures range from 60°-80° C
 
 Less-common Filaments
-----------------
+---------------------
 These filaments are less used than those listed above, but can still find acceptable use cases on an FTC robot. These usually are due to specific material properties such as flexibility or durability. These often come however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
 
 ABS (Acrylonitrile Butadiene Styrene)
@@ -120,8 +120,8 @@ There are several PC blends that can be much easier to print, a standout example
 - Enclosure required
 - Filament must be kept dry
 
-High-end exotic fiaments
-^^^^^^
+High-end exotic filaments
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are a few other materials that can have very high-end benefits, and push the envelope on what 3D printing can accomplish, but should not be printed if you are not *very* confident in your printing skills, and have basically no use in FTC. These materials include, but are not limited to, Delrin (Polyoxymethylene Homopolymer Acetal), PEI (Polyether Imide, brand name ULTEM), PEEK (Polyether Ether Ketone), and PEKK (Polyetherketoneketone). These materials are extremely hard to print, require ludicrous temperatures (some to the point where a hardened steel nozzle begins to melt), and are extremely expensive.
 
