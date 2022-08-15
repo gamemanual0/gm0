@@ -43,7 +43,7 @@ master_doc = "index"
 
 # Exclude files
 exclude_patterns = [
-    "docs/awards/*.rst" # excluded because they are out of date
+    #"docs/awards/*.rst" # excluded because they are out of date
 ]
 
 # Default syntax highlighting to java

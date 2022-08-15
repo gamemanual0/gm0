@@ -3,6 +3,8 @@ Notebook Designs and Decisions
 
 This section will cover both what needs to be in the notebook and the decisions you need to make about it affecting both individual sections and it as a whole.
 
+.. attention:: The engineering notebook is completely OPTIONAL. Having a notebook is NOT a requirement for any award. However, judges can technically still ask for the notebook for more information, so some teams still choose to make one. **This article remains here for legacy reasons for teams that wish to make engineering notebooks, even though it is completely optional and not required for teams to still have a shot at awards**. There have been several instances of teams winning high level awards like inspire and think while having no engineering notebook.
+
 Whole Notebook Decisions
 ------------------------
 
@@ -11,7 +13,7 @@ Condensed vs Long
 
 A trap many teams fall into is that a longer notebook is a better notebook, especially if it's actually quality writing. Unfortunately, that is not necessarily true.
 
-At shorter competitions, judges don't have a lot of time to read your notebooks. They will likely take a cursory scan at every page and take a more detailed look at certain pages. Thus, even if you do write a great but long notebook, they might miss the highlights and rank you lower than you should have. The solution to this is to create a condensed notebook.
+At a lot of competitions, especially with the notebook being completely optional, judges don't have a lot of time to read your notebooks. They will likely take a cursory scan at a few pages and take a more detailed look at certain pages. Thus, even if you do write a great but long notebook, they might miss the highlights and rank you lower than you should have. The solution to this is to create a condensed notebook.
 
 This is where you make a purposeful effort to get rid of redundancies and make sure everything written in the notebook serves the purpose of being read and getting things checked off of awards.
 
@@ -102,6 +104,8 @@ You have spent a bunch of time reading the rest of this manual to learn about th
 Information about parts and materials, as well as pictures of every mechanism (plus captions) will help the judges piece together how the robot works mechanically. Explanations of the components will illustrate the thought processes behind the design.
 
 Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges understand how it works and why it is useful. **However, make sure that each graphic has a caption or explanation. Do not expect judges to understand how your robot works through pictures only.**
+
+As with most documentation, using actual CAD screenshots or real world photos is generally better then high quality renders. While renders are interesting from a technological and aesthetic perspective, they usually take more time and effort and also don't convey your engineering process as well. CAD screenshots tend to make the document more like an actual engineering process documentation and can look much more professional, even if they aren't as aesthetically pleasing.
 
 Additionally, use math in these explanations to target the Think award.
 
