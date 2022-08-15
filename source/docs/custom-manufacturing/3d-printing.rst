@@ -6,91 +6,125 @@
 Kinds of 3D Printing
 --------------------
 
-There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) (also known as Fused Filament Fabrication) extrudes a melted filament to create a part and is the most common type and the one we’ll focus on in this guide. SLA (stereolithography) and SLS (Selective Laser Sintering) are both options for 3D printing plastics, but they are generally more complex, expensive, or hold other disadvantages in FTC applications. For those reasons, they are not recommended.
+There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) (also known as Fused Filament Fabrication) extrudes a melted filament to create a part and is the most common type and the one we'll focus on in this guide. SLA (stereolithography) and SLS (Selective Laser Sintering) are both options for 3D printing plastics, but they are generally more complex, expensive, or hold other disadvantages in FTC applications. For those reasons, they are not recommended.
 
 Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
 
-.. note:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
+.. tip:: Consider checking out `COREFTC <https://www.coreftc.org/>`_, a complete guide for FDM 3D printing within the scope of FTC, providing answers to a lot of the basic questions asked about 3D printing concerning topics such as: bed adhesion, tolerances, designing for 3D printing, tuning, and hardware choices.
 
 Advantages of 3D Printing
 -------------------------
 
-- **3D printing allows teams to have customizable strain relief on wires and connections. This is a great project and well worth your time.**
-- 3D printing allows for customizable sizing and perfect optimization; for example, teams can print a spool of the exact diameter needed for optimal speed.
+- 3D printing allows for customizable sizing and perfect optimization; for example, teams can print a spool of the exact diameter needed for optimal speed, or a belt pulley with a certain number of teeth.
 - 3D printing allows teams to adapt between kits and individual parts easily, as not all kits have adaptable mounts or brackets. A good example of this are the Nexus :term:`mecanum <Mecanum Wheel>` bore adapters that teams 3D print.
 - 3D printing allows teams to fabricate parts that would otherwise be impossible with materials such as aluminum due to machining restrictions.
+- 3D printing allows teams to have customizable strain relief on wires and connections. This is a great project and well worth your time.
 
 Disadvantages of 3D Printing
 ----------------------------
 
-- **If you are out of 3D printed spares at a competition, you’re probably out of luck. Teams are advised to print at least one set of every single 3D printed part as spares for competition**.
+- **If you are out of 3D printed spares at a competition, you're probably out of luck. Teams are advised to print at least one set of every single 3D printed part as spares for competition**.
 - 3D printed components are generally weaker than other materials such as aluminum. However, printing in the proper orientation can be very strong - teams have 3D printed hooks and other parts to support their FRC\ |reg| robot (120 pounds) and FTC robots (40 pounds).
 - 3D printed parts should only be loaded in one orientation. That is, if the robot is hanging from a hook, the only load should be on the bottom face of the curved part of the hook. Try to eliminate side loads as much as possible to avoid part failure.
 - The size of 3D printed parts is limited by the size of your print bed.
 - Large and thick prints can take a long time (overnight) to print and can run the risk of failure.
 - 3D printing can end up quite expensive, though filament can be found for a reasonable price on online vendors such as Amazon.
 
-Common Filament Types
----------------------
+Common Filaments
+----------------
+
+For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, Pro, etc) and/or PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and money.
+
+.. danger:: If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the Ender 3 and its variants), then you **should not be printing at or above 250° C**. Doing so will cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need to print at these temperatures and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
 PLA (Polylactic Acid)
 ^^^^^^^^^^^^^^^^^^^^^
 
-PLA is a common filament that does not require a heated bed. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA can be used in most robotics applications, but it does not hold up to shock loads (impacts to parts) as well as some other options, and as such parts should be designed accordingly.
+The most common 3D Printing filament is polylactic acid, or PLA. It is a plastic made from biological sources like corn starch and sugar cane. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA is well suited to the majority of robot parts, but it may not hold up well to shock loads (impacts to parts), and as such parts should be designed accordingly.
 
-- PLA hotend temperatures range from 190°-220° C
-- PLA bed temperatures range from 20°-60° C
+- PLA hotend temperatures range from 190°-230° C
+- PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly required for PLA
 
-ABS (Acrylonitrile Butadiene Styrene)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. tip:: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such as a hot car, as this can produce severe warping in those parts.
 
-ABS is another very common filament that can withstand higher temperatures than PLA. It is less brittle and more ductile than PLA, making it better for 3D printed parts that may be under load. Typically, ABS is used in higher-load applications such as 3D printed bores for mecanum wheels. It can be more difficult to print, however, often requiring an enclosure to help increase the ambient temperature of the print environment.
+There are many variations of PLA sold by different manufacturers, like PLA+ or PLA Pro. These filaments have various additives in them to improve strength, printability, and other properties. While more expensive, these products can greatly improve the performance of PLA and cover its weaknesses.
 
-- ABS hotend temperatures range from 230°-250° C
-- ABS bed temperatures range from 100°-120° C
+PETG (Polyethylene Terephthalate Glycol)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-PET/PETG (Polyethylene Terephthalate)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PETG can be described as a strength upgrade to PLA. It is not difficult to print, but often has noticeably more stringing and other minor artifacts. While it technically has a lower tensile strength than PLA, it is far less brittle and withstands impacts better, through slight flexing. It is a great option for FTC parts which need to be impact resistant where PLA will not suffice. Its higher temperature resistance also means it won't warp in a high ambient temperature such as a hot car.
 
-PET/PETG can be described as a mix of PLA and ABS. It is not as impact-resistant as ABS, and not as stiff as PLA, but it can withstand higher temperatures (it will hold shape in a hot car unlike PLA). It is comparable in printing difficulty to PLA and can be printed on most printers out of the box. It is a great option for many FTC parts.
-
-.. warning:: Don't print PETG on bare glass! It can bond so well it removes chunks! It can be good to add some glue stick or hairspray before you start your print.
+.. warning:: PETG is known for bonding very well to print beds, **especially glass and PEI**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before printing it.
 
 - PETG hotend temperatures range from 230°-260° C
 - PETG bed temperatures range from 60°-80° C
 
+Less Common Filaments
+---------------------
+
+These filaments are less used than those listed above, but can still find plenty of use cases on an FTC robot. These usually are used due to specific material properties such as flexibility or durability. These often come however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
+
+ABS (Acrylonitrile Butadiene Styrene)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
+
+- ABS hotend temperatures range from 230°-250° C
+- ABS bed temperatures range from 100°-120° C
+- Enclosure highly recommended to prevent warping
+
+Due to the difficulty of printing ABS and its limitations, one might look at alternatives such as ASA which offer similar properties with much better printability.
+
+TPU/TPE (Themoplastic polyurethane/Thermoplastic elastomer)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TPU and TPE are both common printing filaments that are widely used for their flexible material properties. This allows one to create printed parts that can easily flex and bend. Sold under many different durometers (a measure on the Shore Hardness Scale of the hardness/flexibility of a material), TPU/TPE's high impact resistance and layer adhesion make it not only a versatile filament, but an extremely durable one. In FTC, teams use TPU/TPE in roles such as printed intake flaps in place of a tube, as well as custom belts for low-load applications.
+
+.. tip:: Due to its flexible nature, printers that use a Bowden tube extrusion system, where the extruder motor is not placed on the hotend, will find it extremely difficult to print TPU/TPE.
+
+- TPU/TPE hotend temperatures range from 210°-250° C
+- TPU/TPE does not usually need a heated bed, but if one is used it should not go over 60° C as this will fuse TPU with print bed.
+- TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus will likely need to be dried before and perhaps during a print.
+- Direct drive extruder is highly recommended
+
+
 Exotic Filaments
 ----------------
 
-Many filaments can hold advantages over the more common filament options, though they are almost always being more difficult to print.
-
-Carbon Fiber-filled
-^^^^^^^^^^^^^^^^^^^
-
-Many filaments are also sold with the addition of small chunks of Carbon Fiber mixed into the filament itself. This generally makes the filament stiffer but can make it more brittle. Carbon Fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their CF counterparts.
+There is rarely ever any need for these filaments in FTC. They offer extremely good material properties for parts that need to be subjected to high forces and adverse environments. They are all much more expensive than any of the filaments listed above, and offer a multitude of challenges for printing.
 
 Nylon
 ^^^^^
 
-Nylon filaments can be glass-filled, carbon fiber-filled, or pure. These have very good impact resistance and can be used for parts like drivetrain wheel covers and other parts that experience high shock loads. Nylon is the king of impact resistance in many situations where the part can flex out of the way, instead of completely breaking. Nylon requires very high temperatures and generally requires an enclosure. It also must be dried before printing.
+Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is the king of impact resistance in many situations where the part can flex out of the way, instead of completely breaking. Occasionally nylon is used for parts like wheel covers on drivetrains and in places where it will be repeatedly hit and battered. Nylon requires very high temperatures, generally requires an enclosure, and absolutely must be dried before (and while) printing.
 
 - Nylon hotend temperatures range from 240°-260° C
 - Nylon bed temperatures range from 55°-80° C
+- Nylon is infamous for absorbing moisture from the air and should be thoroughly dried before and during printing. Failure to do this will probably result in a nearly unusable part.
+- Enclosure recommended
+
+Carbon Fiber-filled
+^^^^^^^^^^^^^^^^^^^
+
+Many filaments are also sold with the addition of small chunks of carbon fiber mixed into the filament itself. While often though of as an extreme strength improvement, these filaments are instead meant to be stiffer and help to improve the printability of filaments like nylon. Carbon fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their carbon fiber-filled counterparts.
+
 
 Polycarbonate (PC)
 ^^^^^^^^^^^^^^^^^^
 
-Polycarbonate and its variants are also very very strong, technical materials. PC shines in its ability to be very rigid, and handle shock loads exceedingly well. PC also requires being dry, having a printer capable of **very** high temperatures, and an enclosure. It is also a very challenging material to print.
+Polycarbonate and its variants are very very strong, technical materials. PC shines in its ability to be very rigid, and handle shock loads exceedingly well. PC also requires being dry, having a printer capable of **very** high temperatures, and an enclosure. It is a very challenging material to print, and is often very expensive. There is little reason to ever need printed polycarbonate parts in FTC, with no use cases requiring its strength.
 
 There are several PC blends that can be much easier to print, a standout example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC that retains many of the advantages of pure PC. PolyLite is not quite as impact-resistant, but a lot cheaper. Both are much easier to print than pure PC.
 
 - PC hotend temperatures range from 250°-320° C
 - PC bed temperatures range from 80°-140° C
+- Enclosure required
+- Filament must be kept dry
 
-Others
-^^^^^^
+High-end exotic filaments
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-There are a few other materials that can have very high-end benefits, and push the envelope on what 3D printing can accomplish, but should not be printed if you are not *very* confident in your printing skills, these materials include but are not limited to PEI (Polyether Imide, brand name ULTEM), PEEK (Polyether Ether Ketone), and PEKK (Polyetherketoneketone). These materials often require heated chambers, and are extremely expensive.
+There are a few other materials that can have very high-end benefits, and push the envelope on what 3D printing can accomplish, but should not be printed if you are not *very* confident in your printing skills, and have basically no use in FTC. These materials include, but are not limited to, Delrin (Polyoxymethylene Homopolymer Acetal), PEI (Polyether Imide, brand name ULTEM), PEEK (Polyether Ether Ketone), and PEKK (Polyetherketoneketone). These materials are extremely hard to print, require ludicrous temperatures (some to the point where a hardened steel nozzle begins to melt), and are extremely expensive.
 
 3D Printing Design Guide
 ------------------------
@@ -99,9 +133,9 @@ Here is a quick guide on designing 3D printed parts that we hope is helpful for 
 
 The first consideration when designing 3D printed parts is print orientation. This refers to the side that contacts the print bed. Preferably, the part should have a flat bottom to maximize contact with the print bed.
 
-.. tip:: Maximizing contact with the print bed will make sure the part doesn’t delaminate or warp from the bed and increase print quality.
+.. tip:: Maximizing contact with the print bed will make sure the part doesn't delaminate or warp from the bed and increase print quality.
 
-If it is impossible for the part to have a flat side to print on, a simple solution is to split the part into multiple parts along a plane. For instance, the gearbox plate below didn’t have a flat side to print on, so it was split in half. The part was later sandwiched with numerous screws and plastic glue. If this plate was printed as one part instead of split in half, support would have to be used to create all of the necessary holes. Parts that use no support material make sure that the least amount of plastic is wasted.
+If it is impossible for the part to have a flat side to print on, a simple solution is to split the part into multiple parts along a plane. For instance, the gearbox plate below didn't have a flat side to print on, so it was split in half. The part was later sandwiched with numerous screws and plastic glue. If this plate was printed as one part instead of split in half, support would have to be used to create all of the necessary holes. Parts that use no support material make sure that the least amount of plastic is wasted.
 
 .. image:: images/3d-printing/2-piece-gearbox.jpg
    :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
