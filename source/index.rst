@@ -1,6 +1,10 @@
 Index
 =====
 
+.. only:: translation
+
+   .. note:: This content is translated from English, and as such may include some English phrases for technical terms.
+
 .. grid:: 2
    :gutter: 3
    :margin: 2
