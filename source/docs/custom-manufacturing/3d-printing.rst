@@ -23,7 +23,7 @@ Advantages of 3D Printing
 Disadvantages of 3D Printing
 ----------------------------
 
-- **If you are out of 3D printed spares at a competition, you’re probably out of luck. Teams are advised to print at least one set of every single 3D printed part as spares for competition**.
+- **If you are out of 3D printed spares at a competition, you're probably out of luck. Teams are advised to print at least one set of every single 3D printed part as spares for competition**.
 - 3D printed components are generally weaker than other materials such as aluminum. However, printing in the proper orientation can be very strong - teams have 3D printed hooks and other parts to support their FRC\ |reg| robot (120 pounds) and FTC robots (40 pounds).
 - 3D printed parts should only be loaded in one orientation. That is, if the robot is hanging from a hook, the only load should be on the bottom face of the curved part of the hook. Try to eliminate side loads as much as possible to avoid part failure.
 - The size of 3D printed parts is limited by the size of your print bed.
@@ -133,9 +133,9 @@ Here is a quick guide on designing 3D printed parts that we hope is helpful for 
 
 The first consideration when designing 3D printed parts is print orientation. This refers to the side that contacts the print bed. Preferably, the part should have a flat bottom to maximize contact with the print bed.
 
-.. tip:: Maximizing contact with the print bed will make sure the part doesn’t delaminate or warp from the bed and increase print quality.
+.. tip:: Maximizing contact with the print bed will make sure the part doesn't delaminate or warp from the bed and increase print quality.
 
-If it is impossible for the part to have a flat side to print on, a simple solution is to split the part into multiple parts along a plane. For instance, the gearbox plate below didn’t have a flat side to print on, so it was split in half. The part was later sandwiched with numerous screws and plastic glue. If this plate was printed as one part instead of split in half, support would have to be used to create all of the necessary holes. Parts that use no support material make sure that the least amount of plastic is wasted.
+If it is impossible for the part to have a flat side to print on, a simple solution is to split the part into multiple parts along a plane. For instance, the gearbox plate below didn't have a flat side to print on, so it was split in half. The part was later sandwiched with numerous screws and plastic glue. If this plate was printed as one part instead of split in half, support would have to be used to create all of the necessary holes. Parts that use no support material make sure that the least amount of plastic is wasted.
 
 .. image:: images/3d-printing/2-piece-gearbox.jpg
    :alt: A 3D printed gearbox, printed in 2 parts, cut along a plane
