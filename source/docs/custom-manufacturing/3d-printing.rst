@@ -30,10 +30,10 @@ Disadvantages of 3D Printing
 - Large and thick prints can take a long time (overnight) to print and can run the risk of failure.
 - 3D printing can end up quite expensive, though filament can be found for a reasonable price on online vendors such as Amazon.
 
-Common Filament Types
----------------------
+Common Filaments
+----------------
 
-For almost every part that needs to be 3D Printed for FTC, **PLA (or PLA+, Pro, etc) and PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and money.
+For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, Pro, etc) and/or PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and money.
 
 .. danger:: If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the Ender 3 and its variants), then you **should not be printing at or above 250° C**. Doing so will cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need to print at these temperatures and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
@@ -45,23 +45,24 @@ The most common 3D Printing filament is polylactic acid, or PLA. It is a plastic
 - PLA hotend temperatures range from 190°-230° C
 - PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly required for PLA
 
-.. tip:: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such as a hot car, as this is an easy way to produce severe warping in those parts.
+.. tip:: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such as a hot car, as this can produce severe warping in those parts.
 
 There are many variations of PLA sold by different manufacturers, like PLA+ or PLA Pro. These filaments have various additives in them to improve strength, printability, and other properties. While more expensive, these products can greatly improve the performance of PLA and cover its weaknesses.
 
-PETG (Polyethylene Terephthalate Glycol Modified)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PETG (Polyethylene Terephthalate Glycol)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-PETG can be described as a strength upgrade to PLA. It is not difficult to print, but often has noticeably more stringing and other minor artifacts. While it technically has a lower tensile strength than PLA, it is far less brittle and withstands impacts better, with slight flexing. It is a great option for FTC parts which need to be impact resistant where PLA will not suffice. Its higher temperature resistance also means it won't warp in a high ambient temperature such as a hot car.
+PETG can be described as a strength upgrade to PLA. It is not difficult to print, but often has noticeably more stringing and other minor artifacts. While it technically has a lower tensile strength than PLA, it is far less brittle and withstands impacts better, through slight flexing. It is a great option for FTC parts which need to be impact resistant where PLA will not suffice. Its higher temperature resistance also means it won't warp in a high ambient temperature such as a hot car.
 
-.. warning:: PETG is known for bonding very well to print beds, **especially glass and PEI**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before you start your print.
+.. warning:: PETG is known for bonding very well to print beds, **especially glass and PEI**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before printing it.
 
 - PETG hotend temperatures range from 230°-260° C
 - PETG bed temperatures range from 60°-80° C
 
-Less-common Filaments
+Less Common Filaments
 ---------------------
-These filaments are less used than those listed above, but can still find acceptable use cases on an FTC robot. These usually are due to specific material properties such as flexibility or durability. These often come however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
+
+These filaments are less used than those listed above, but can still find plenty of use cases on an FTC robot. These usually are used due to specific material properties such as flexibility or durability. These often come however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
 
 ABS (Acrylonitrile Butadiene Styrene)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -77,7 +78,7 @@ Due to the difficulty of printing ABS and its limitations, one might look at alt
 TPU/TPE (Themoplastic polyurethane/Thermoplastic elastomer)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TPU and TPE are both common printing filaments that are widely used for their flexible material properties. This allows one to create printed parts that can easily flex and bend. Sold under many different durometers (a measure on the Shore Hardness Scale of the hardness /flexibility of a material), TPU/TPE's high impact resistance and layer adhesion make it not only a versatile filament, but an extremely durable one. In FTC, teams use TPU/TPE in roles such as printed intake flaps in place of a tube, as well as custom belts for low-load applications.
+TPU and TPE are both common printing filaments that are widely used for their flexible material properties. This allows one to create printed parts that can easily flex and bend. Sold under many different durometers (a measure on the Shore Hardness Scale of the hardness/flexibility of a material), TPU/TPE's high impact resistance and layer adhesion make it not only a versatile filament, but an extremely durable one. In FTC, teams use TPU/TPE in roles such as printed intake flaps in place of a tube, as well as custom belts for low-load applications.
 
 .. tip:: Due to its flexible nature, printers that use a Bowden tube extrusion system, where the extruder motor is not placed on the hotend, will find it extremely difficult to print TPU/TPE.
 
@@ -105,7 +106,7 @@ Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is the 
 Carbon Fiber-filled
 ^^^^^^^^^^^^^^^^^^^
 
-Many filaments are also sold with the addition of small chunks of Carbon Fiber mixed into the filament itself. While often though of as an extreme strength improvement, these filaments are instead meant to be stiffer and help to improve the printability of filaments like nylon. Carbon Fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their CF counterparts.
+Many filaments are also sold with the addition of small chunks of carbon fiber mixed into the filament itself. While often though of as an extreme strength improvement, these filaments are instead meant to be stiffer and help to improve the printability of filaments like nylon. Carbon fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their carbon fiber-filled counterparts.
 
 
 Polycarbonate (PC)
