@@ -23,7 +23,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
    Think Award
       The Think Award is based entirely on the |EN| and Engineering Portfolio. In order to have a chance at winning, should include as much math and physics as possible in the |EN|, and document the entire journey of the robot through iterations and other documentation of design and game strategy.
 
-      In addition, the portfolio should be well layed out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team meber and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
+      In addition, the portfolio should be well lay out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team meber and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
 
       Official Game Manual Description
          This judged award is given to the Team that best reflects the journey the Team took as they experienced the engineering design process during the build season. The engineering content within the portfolio is the key reference for judges to help identify the most deserving Team. The Teams engineering content must focus on the design and build stage of the Team’s Robot.
