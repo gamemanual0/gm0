@@ -295,3 +295,7 @@ epub_exclude_files = ["search.html"]
 
 def setup(app):
     pass
+
+# Options for translation support
+gettext_compact = False
+locale_dirs = ["locale/"]
