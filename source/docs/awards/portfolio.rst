@@ -16,7 +16,7 @@ Overall Tips
 - Organize your portfolio clearly and carefully! Sections should be easy to follow and read, and have clear headings and explanations. Having your team number somewhere on the page is helpful for judges quickly reviewing portfolios.
 - Keep formatting and branding consistent, don't vary your design a ton from one page to another. Similar layouts can help with reading the portfolio
 - Make sure your text is readable! Color choices matter a lot, try to avoid similar color text on a background.
-- Less is more: Judges are going to loose interests in large blocks of text with no breakups
+- Less is more: Judges are going to lose interest in large unbroken blocks of text
 - Images, Images, Images: CAD Drawings and screenshots can be useful tools, but also have actual pictures of mechanisms and components. While renders can look impressive in covers, a lot of judges prefer actual CAD screenshots or pictures
 - Don't over explain everything. You want to leave things for judges to ask questions about.
 - Remember that your portfolio isn't just for judges to read, its a good tool to have in judging as a quick reference to present to judges
@@ -28,23 +28,23 @@ In addition to the 15 pages, you are allowed one cover page. This should contain
 
 Generally, the required information for an engineering portfolio can be split into one of 3 categories.
 
-- Robot information
-- Team information
-- Outreach/Nontechnical information
+- Robot Information
+- Team Information
+- Outreach/Nontechnical Information
 
 Robot Information
 -----------------
 
-The season and robot overview is the core of your engineering portfolio. It contains an overview of your robot design, strategy, iterations, and is basically an overview of how your team has progressed so far throughout the season.
+The season and robot overview is the core of your engineering portfolio. It contains an overview of your robot design, strategy, iterations, and shows off how your team has progressed so far throughout the season.
 
 Robot
 ^^^^^
 
-Your portfolio obviously must contain an overview of your robot and its components. However, the portfolio should go a step beyond just describing the components of your robot. Generally, teams split up their robot into 3-4 parts, putting a different mechanism on a new page. The page should have pictures and descriptions of the mechanism, but should also have iterations and explanations of how the team arrived at that mechanism or why that system was chosen, as well as why the iteration didn't work or what was improved between changes.
+Your portfolio must contain an overview of your robot and its components. However, the portfolio should go a step beyond just describing the components of your robot. Generally, teams split up their robot into 3-4 parts, putting a different mechanism on a new page. The page should have pictures and descriptions of the mechanism, but should also have iterations and explanations of how the team arrived at that version of the mechanism or why that system was chosen, as well as why previous iterations didn't work and/or what was improved between iterations.
 
-.. tip:: Get in the habit of taking photos of everything! Whether its a quick jig meant to test something or a full on prototype, you should have pictures to put in the portfolio for iterations.
+.. tip:: Get in the habit of taking photos of everything! Whether its a quick jig meant to test something or a full on prototype, you should have pictures to put in the portfolio as iterations.
 
-As a quick reference, robot mechanism pages should contain the following
+As a quick reference, robot mechanism pages should contain the following:
 
 - Explanation of why that mechanism was needed
 - Explanation of what the mechanism is
@@ -52,15 +52,15 @@ As a quick reference, robot mechanism pages should contain the following
 - Math/equations/sensors used with that mechanism
 - Pictures and/or CAD screenshots of the mechanism
 
-In addition to specific mechanism pages, a page or two dedicated to a high level overview of your bot and sensors can be beneficial for quick reference, especially in judging.
+In addition to mechanism-specific pages, a page or two dedicated to a high level overview of your bot and sensors can be beneficial as a quick reference, especially in judging.
 
 Season
 ^^^^^^
 
-Your season overview is a higher level explanation of your robot design and how you have proceeded with the season. This doesn't have to be completely separated from mechanism pages, but should still provide a specific overview of your overall approach to the season as well as your approach to robot design in general. This section should aim to cover the following:
+Your season overview is a higher level explanation of your robot design and how you have proceeded with the season. This doesn't have to be completely separated from mechanism pages, but should still provide an explanation of your overall approach to the season as well as your approach to robot design in general. This section should aim to cover the following:
 
 - The team's approach to game and strategy analysis
-- Overall approach to robot design (engineering design process, iterations, etc)
+- Overall approach to robot design (engineering design process, iteration, etc.)
 - Approach to problem solving and decision making
 
 Having specific examples for these sections is generally recommended.
@@ -87,27 +87,27 @@ Sustainability is a very important part of an organization, and it is also a maj
 Outreach/Nontechnical Information
 ---------------------------------
 
-Outreach is the non-technical aspects of your team, such as connections with the general community, mentoring, and reaching out to the STEM Community. Due to how similar these things are, its tempting to combine them into one section, but there are distinctions that should be made between them.
+Outreach is the nontechnical aspect of your team, including connections with the general community, mentoring, and reaching out to the STEM Community. Due to how similar these things are, its tempting to combine them into one section, but there are distinctions that should be made between them.
 
 Connections with the STEM Community
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Connections with the STEM community are important to document. These should include basic details like who the person or organization is, and what they do. However, the portfolio should also explain what the team learned from the connection and why it was meaningful. Having a specific and applicable reason for a STEM connection is important, as in recent years judges have started becoming more critical of large numbers of connections for useless reasons.
+Connections with the STEM community are important to document. These should include basic details like who the person or organization is, and what they do. However, the portfolio should also explain what the team learned from the connection and why it was meaningful. Having a specific and applicable reason for a STEM connection is important, as in recent years judges have started becoming more critical of large numbers of connections that do not benefit the team.
 
-.. tip:: This should tie into your sustainability plan, as connections can often become mentors or sponsors
+.. tip:: This should tie into your sustainability plan, as connections can often become mentors or sponsors.
 
 Outreaches with the general community
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Often teams will host events or outreaches with the intent of spreading the idea of FIRST and recruiting new members to their team. Documenting this correctly is important for many awards. Generally, these sections should contain details about the event, when it took place, what your team did, and how many people you reached.
+Often teams will host events or outreaches with the intent of spreading the idea of FIRST and recruiting new members to their team. Documenting this correctly is important for some awards. Generally, these sections should contain details about the event such as when it took place, what your team did, and how many people you reached.
 
 .. attention:: Appendix F of |gm1| contains **very specific definitions of words like Mentored, Started, Reached, Ran, and more**. Misuse of these words can be held against you in judging, so make sure you meet the definitions of terms if you use them.
 
 When documenting how many people an event reached, it can be tempting to ask the organizers for an official head count and use that number. However, |gm1| specifically details that simply being an event does not count someone as being reached by the team, they have to interact with your team in some way. Keeping a rough count of how many people you interact with can help you keep track of accurate numbers. **You may be questioned on how you know your numbers are accurate, so be ready to answer questions on how you kept track**.
 
-Working with other teams
+Working with Other Teams
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mentoring, starting, and helping other teams is critical to the program itself as well as many awards. These interactions should be documented in the portfolio, as well as the evidence that proves that you meet the definitions of mentoring and starting as outlined in |gm1|. In general, mentoring requires regular, meaningful communication between teams, and starting requires the team to recognize they were started by that team.
+Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as the evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between teams, and Starting requires the team to recognize they were started by that team.
 
-.. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you mentored or started that team
+.. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you Mentored, Started, or Assisted that team
