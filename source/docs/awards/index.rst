@@ -22,5 +22,5 @@ Overall, awards are one of the core parts of the *FIRST*\ |reg| Tech Challenge c
 
    award-types
    portfolio
-   notebook
    judging-presentation
+   notebook
