@@ -13,6 +13,14 @@ Rigging refers to the way that string, belt, or chain is set up to extend and re
    This setup utilizes a continuous stringing setup for the first stage and a
    cascaded belt-driven second stage.
 
+General Rigging Tips
+--------------------
+
+- Rig your extension string when the extension is retracted, and your retract string when the extension is at maximum extension
+- Clamping a string with a bolt instead of tying it around something makes it much easier to quickly change the tension of a string
+- If tying an abrasive material string, like kevlar, around a plastic part, you can tie the string around a washer to distribute the loads across the hole in the pulley instead of tying it directly into a hole in the pulley
+- Its generally easier to start from the side with the pulley and go to the end of the slides then the other way around
+
 Continuous Rigging
 ------------------
 
