@@ -7,7 +7,7 @@ Overall Tips
 ------------
 
 - **You are a team, act like one**. You should practice multiple times with each other and act as a team. Don't talk over each other, let everyone have a chance to respond. You should know each other's scripts and also how to answer a broad range of questions.
-- Be professional. Always assume a judge is watching you. While you don't have to abstain from fun, be careful of how you act. When you encounter judges, be on your best behaviour and be as professional as you can.
+- Be professional. Always assume a judge is watching you. While you don't have to abstain from fun, be careful of how you act. When you encounter judges, be on your best behavior and be as professional as you can.
 - **Be Consistent!** If you say something during the beginning Q&A, make sure you say the same thing during pit judging. If you call out one specific mechanism as innovative, don't talk about a different mechanism when questioned. Always be consistent.
 - Vary who answers the questions. **Make sure everybody has an oppertunity to speak**
 - Use your portfolio! You can use it to reference things or point to various sections, especially if you can't remember something in the moment
