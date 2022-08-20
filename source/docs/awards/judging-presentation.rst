@@ -1,7 +1,7 @@
 The Judging Process and Presentation
 ====================================
 
-At the beginning of a competition, teams will have a 5 minute presentation followed by a brief Q&A period where judges can ask questions about the portfolio and presentation. Following this, judges will sometimes do follow up interviews in the pits where they ask teams more questions about specific things to help in their deliberations. This process is as important as your written documentation when it comes to the success of your team in awards.
+At the beginning of a competition, teams will have a 5 minute presentation followed by a brief Q&A period where judges can ask questions about the portfolio and presentation. Following this, judges may sometimes do follow up interviews in the pits where they ask teams more questions about specific things to help in their deliberations. This process is as important as your written documentation when it comes to the success of your team in awards.
 
 Overall Tips
 ------------
@@ -11,8 +11,8 @@ Overall Tips
 - **Be Consistent!** If you say something during the beginning Q&A, make sure you say the same thing during pit judging. If you call out one specific mechanism as innovative, don't talk about a different mechanism when questioned. Always be consistent.
 - Vary who answers the questions. **Make sure everybody has an oppertunity to speak**
 - Use your portfolio! You can use it to reference things or point to various sections, especially if you can't remember something in the moment
-- Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges time. **Most of the time judges have a set time allotment with each team so wasting time will decrease the number of questions you can answer**
-- Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information will get wasted.
+- Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges time. **Most of the time judges have a set time allotment with each team so wasting time may decrease the number of questions you can answer**
+- Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information may get wasted.
 
 The Presentation
 ----------------
@@ -41,11 +41,11 @@ The Q&A period is just as important as the presentation and should be practiced 
 Pit Judging
 -----------
 
-During the competition, secondary groups of judges will be walking around pits to ask more questions about specific components of the team, robot, or outreach. These questions are an important part of judging deliberation, and should be treated similarly to the Q&A in the beginning of the competition.
+During the competition, secondary groups of judges may be walking around pits to ask more questions about specific components of the team, robot, or outreach. These questions are an important part of judging deliberation, and should be treated similarly to the Q&A in the beginning of the competition.
 
-Pit judging can be difficult sometimes since judges might want to talk to your team as you are heading out to a match. While some judges will offer to come back at a different time, often it is better to have your teammates not driving talk to the judge if possible. This can ensure they don't run out of time to talk to you.
+Pit judging can be difficult sometimes since judges might want to talk to your team as you are heading out to a match. While some judges may offer to come back at a different time, often it is better to have your teammates not driving talk to the judge if possible. This can ensure they don't run out of time to talk to you.
 
-When pit judges arrive, one should try to determine roughly what they are there for. Pretty quickly judges will make it clear if they are there for control, robot-based awards, outreach, etc. If a judge is there to talk to you about the robot, don't waste their time with outreach. Similarly, if a judge is asking about your outreach don't divert to talking about the robot. Judges are there for a specific purpose, other information will essentially be discarded by them.
+When pit judges arrive, one should try to determine roughly what they are there for. Pretty quickly judges will make it clear if they are there for control, robot-based awards, outreach, etc. If a judge is there to talk to you about the robot, don't waste their time with outreach. Similarly, if a judge is asking about your outreach don't divert to talking about the robot. Judges are there for a specific purpose, other information may essentially be discarded by them.
 
 .. important:: When judges come near your pits, STAND UP and PUT THE PHONES DOWN. Uninterested students can cause a judge's opinion to quickly sour. All students should try to look interested and should participate, get as many different people speaking as you can.
 

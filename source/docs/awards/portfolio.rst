@@ -16,8 +16,10 @@ Overall Tips
 - Organize your portfolio clearly and carefully! Sections should be easy to follow and read, and have clear headings and explanations. Having your team number somewhere on the page is helpful for judges quickly reviewing portfolios.
 - Keep formatting and branding consistent, don't vary your design a ton from one page to another. Similar layouts can help with reading the portfolio
 - Make sure your text is readable! Color choices matter a lot, try to avoid similar color text on a background.
+- **Do not exceed 15 pages total, 16 with the cover page**
 - Less is more: Judges are going to lose interest in large unbroken blocks of text
 - Images, Images, Images: CAD Drawings and screenshots can be useful tools, but also have actual pictures of mechanisms and components. While renders can look impressive in covers, a lot of judges prefer actual CAD screenshots or pictures
+- **Make sure your team number is on the cover page of the portfolio**
 - Don't over explain everything. You want to leave things for judges to ask questions about.
 - Remember that your portfolio isn't just for judges to read, its a good tool to have in judging as a quick reference to present to judges
 
