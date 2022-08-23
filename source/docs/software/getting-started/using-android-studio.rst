@@ -251,19 +251,14 @@ Android Debug Bridge
 Logcat
 ^^^^^^
 
-Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of something like this:
-
-.. image:: images/using-android-studio/infinite-recursion.png
-   :alt: Infinite recursion
-
-then, you know that there is infinite recursion somewhere in your program.
+Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of the same error, there is probably infinite recursion in your code!
 
 To use logcat, plug in your device (or connect via ADB). Then, select the app you want to view the logs for. Your window should look like this.
 
-.. image:: images/using-android-studio/logcat-window.png
+.. image:: images/using-android-studio/adb-screenshot.png
    :alt: A selected device and app with the error messages
 
-If you have an issue you don't understand, you can print a PDF (option 5) of the log and ask a question in the `FTC discord <https://discord.com/invite/first-tech-challenge>`_.
+If you have an issue you don't understand, you can take a screenshot of the log or select and copy the error and ask a question in the `FTC discord <https://discord.com/invite/first-tech-challenge>`_.
 
 Wireless Communication
 ^^^^^^^^^^^^^^^^^^^^^^
