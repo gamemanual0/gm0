@@ -47,7 +47,7 @@ Here are some additional considerations when rigging a continuous system.
   this can change the diameter of your spool,
   causing the tension in the string to change.
 
-.. figure:: images/rigging/context.png
+.. figure:: images/rigging/continuous-extension.png
    :alt: A diagram of continuous rigging
 
    Continuous rigging diagram
@@ -65,7 +65,7 @@ When the motor rotates one direction, the extension spool reels in the first str
 
 A cascaded system can be retracted in three ways: using continuous retraction, elastic retraction, or reverse-cascade retraction.
 
-.. figure:: images/rigging/casextend.png
+.. figure:: images/rigging/cascade-extension.png
    :alt: A diagram of cascade rigging
 
    Cascade rigging diagram
@@ -80,7 +80,7 @@ As the name suggests, continuous retraction utilizes inverted continuous rigging
 
 .. note:: If continuous retraction is being used with cascade extension, the two spools cannot be the same diameter. If the variable :math:`N` is the number of stages in the system, the diameter of the cascade extension spool must be :math:`N` **times smaller** than the continuous retraction spool.
 
-.. figure:: images/rigging/conretract.png
+.. figure:: images/rigging/continuous-retraction.png
    :alt: A diagram of continuous retraction
 
    Continuous Retraction
@@ -130,7 +130,7 @@ Disadvantages:
 - Requires different sized spools if used with cascade extension
 
 
-.. figure:: images/rigging/casretract.png
+.. figure:: images/rigging/cascade-retraction.png
    :alt: A diagram of cascade retraction
 
    Cascade retraction
