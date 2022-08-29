@@ -46,6 +46,8 @@ Strategy
 
 `Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC 148, the Robowranglers, to using weighted objective to decide on a strategy.
 
+.. _useful-resources-cad:
+
 CAD
 ---
 

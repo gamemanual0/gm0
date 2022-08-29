@@ -109,3 +109,8 @@ File sharing
 Teams often have multiple members working on CAD models, and thus require a file sharing system for ensuring that each person has up-to-date files. Some recommendations include GrabCAD, Box, Google Drive, or Dropbox.
 
 It is also a good idea that one team member work on the model at a time to prevent confusion.
+
+Useful Resources
+----------------
+
+More CAD resources can be found in the :ref:`CAD section of the Useful Resources page <useful-resources-cad>`.
