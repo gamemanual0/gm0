@@ -5,6 +5,15 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2021-2022 Freight Frenzy
+------------------------
+
+12518 Almond Robotics
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/ebe870041c6727c32e6a81e1/w/9e5b6fc4b42139b9df352731/e/ce77d17c2170332caa7262cc?renderMode=0&uiState=630c2f3f39a497276b4d4eed>`__
+- `Portfolio <https://drive.google.com/file/d/1Fe6p13VGeGRCbjY_8PlscKRp1Vw9C9lU/view?usp=sharing>`__
+
 2020-2021 Ultimate Goal
 -----------------------
 
