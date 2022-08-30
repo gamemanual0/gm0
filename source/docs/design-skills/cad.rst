@@ -19,6 +19,7 @@ So, what's the point of CAD, then? It is encouraged that new teams try their han
 #. CAD is a professional tool that is used in many STEM fields. Having CAD knowledge and skills will be beneficial in your future career, should you study and work in those fields.
 #. If you desire to create 3D-printed or machined parts, CAD will be necessary to do so.
 #. CAD can reduce the cost of building a robot by helping to determine which parts you need for a robot before actually spending the money to buy those parts.
+#. CAD also can be a big time saver in the build process, because it gives you something to go off of when building.
 
 **However, CAD is not the magic genie that will guarantee you success in FTC.** When used properly, it is a great tool to aid teams in building their robot. Keep in mind, though, that many teams have had success without CAD.
 
