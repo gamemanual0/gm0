@@ -18,6 +18,7 @@ So, what's the point of CAD, then? It is encouraged that new teams try their han
 #. CAD solves a lot of preventable headaches, such as spacing issues. Thus, it will save time when you discover problems in CAD that you can remediate before you build your robot.
 #. CAD is a professional tool that is used in many STEM fields. Having CAD knowledge and skills will be beneficial in your future career, should you study and work in those fields.
 #. If you desire to create 3D-printed or machined parts, CAD will be necessary to do so.
+#. CAD can reduce the cost of building a robot by helping to determine which parts you need for a robot before actually spending the money to buy those parts.
 
 **However, CAD is not the magic genie that will guarantee you success in FTC.** When used properly, it is a great tool to aid teams in building their robot. Keep in mind, though, that many teams have had success without CAD.
 
@@ -39,7 +40,7 @@ OnShape also has FeatureScript, a programming language where you can write custo
 
 Onshape also has a comprehensive tutorial system (https://learn.onshape.com) that will not only teach you how to use their software, but how to approach design problems.
 
-If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you.
+If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you. This is probably the most popular CAD software in FTC.
 
 `SolidWorks <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,6 +102,7 @@ All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models of th
 
 - `10650 Hazmat Robotics CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
 - `2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
+In addition, Onshape users can email FIRST@PTC.com in order to get access to a CAD library containing the majority of parts from most major vendors.
 
 File sharing
 ------------
