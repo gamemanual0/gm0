@@ -41,7 +41,7 @@ OnShape also has FeatureScript, a programming language where you can write custo
 
 Onshape also has a comprehensive tutorial system (https://learn.onshape.com) that will not only teach you how to use their software, but how to approach design problems.
 
-If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you. This is probably the most popular CAD software in FTC.
+If you’re just starting out with CAD, or you don’t have access to powerful computers, Onshape is the software for you.
 
 `SolidWorks <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
