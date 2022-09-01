@@ -98,7 +98,7 @@ Connections with the STEM community are important to document. These should incl
 
 .. tip:: This should tie into your sustainability plan, as connections can often become mentors or sponsors.
 
-Outreaches with the general community
+Outreaches with the General Community
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Often teams will host events or outreaches with the intent of spreading the idea of FIRST and recruiting new members to their team. Documenting this correctly is important for some awards. Generally, these sections should contain details about the event such as when it took place, what your team did, and how many people you reached.
