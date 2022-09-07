@@ -105,6 +105,7 @@ Index
    docs/common-mechanisms/index
    docs/power-and-electronics/index
    docs/software/index
+   docs/awards/index
    docs/useful-resources
    docs/appendix/index
    docs/contributing/index
