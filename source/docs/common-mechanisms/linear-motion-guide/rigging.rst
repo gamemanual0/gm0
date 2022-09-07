@@ -13,6 +13,14 @@ Rigging refers to the way that string, belt, or chain is set up to extend and re
    This setup utilizes a continuous stringing setup for the first stage and a
    cascaded belt-driven second stage.
 
+General Rigging Tips
+--------------------
+
+- Rig your extension string when the extension is retracted, and your retract string when the extension is at maximum extension
+- Clamping a string with a bolt instead of tying it around something makes it much easier to quickly change the tension of a string
+- If tying an abrasive material string, like kevlar, around a plastic part, you can tie the string around a washer to distribute the loads across the hole in the pulley instead of tying it directly into a hole in the pulley
+- Its generally easier to start from the side with the pulley and go to the end of the slides then the other way around
+
 Continuous Rigging
 ------------------
 
@@ -39,7 +47,7 @@ Here are some additional considerations when rigging a continuous system.
   this can change the diameter of your spool,
   causing the tension in the string to change.
 
-.. figure:: images/rigging/continuous-rigging-diagram.jpg
+.. figure:: images/rigging/continuous-extension.png
    :alt: A diagram of continuous rigging
 
    Continuous rigging diagram
@@ -57,27 +65,41 @@ When the motor rotates one direction, the extension spool reels in the first str
 
 A cascaded system can be retracted in three ways: using continuous retraction, elastic retraction, or reverse-cascade retraction.
 
+.. figure:: images/rigging/cascade-extension.png
+   :alt: A diagram of cascade rigging
+
+   Cascade rigging diagram
+
 Retraction Options
-^^^^^^^^^^^^^^^^^^
+------------------
 
-Continuous retraction
-~~~~~~~~~~~~~~~~~~~~~
+Continuous Retraction
+^^^^^^^^^^^^^^^^^^^^^
 
-As the name suggests, continuous retraction utilizes the same retraction method as continuous rigging with one notable difference: if the variable :math:`N` is the number of stages in the system, the diameter of the extension spool must be :math:`N` **times smaller** than the retraction spool.
+As the name suggests, continuous retraction utilizes inverted continuous rigging to retract the slides. There are two main methods of doing this, **free floating retraction** where a string is run from the last stage directly back to the spool, and **with slide retraction** where the string is run in an inverse continuous pattern. Generally, **with slide retraction** should be used with extensions going outside the robot frame to prevent entanglement, and **free floating retraction** should only be used with purely vertical slides.
+
+.. note:: If continuous retraction is being used with cascade extension, the two spools cannot be the same diameter. If the variable :math:`N` is the number of stages in the system, the diameter of the cascade extension spool must be :math:`N` **times smaller** than the continuous retraction spool.
+
+.. figure:: images/rigging/continuous-retraction.png
+   :alt: A diagram of continuous retraction
+
+   Continuous Retraction
+
+.. warning:: If free floating retraction is used, **make sure your retract string is always parallel to the slides**. If the string is misaligned, it can pull on your slide and cause excess bending forces on the stages.
 
 Advantages:
 
-- Requires less string
-  (less strings to tension, less strings that can become loose)
+- Simplest retraction rigging
 
 Disadvantages:
 
-- Requires more space, as it demands a larger spool retraction spool
+- Can become tangled if free floating
+- Requires different sized spools if used with cascade retraction
 
-Elastic retraction
-~~~~~~~~~~~~~~~~~~
+Elastic Retraction
+^^^^^^^^^^^^^^^^^^
 
-Instead of retracting using a retraction spool, one common way to retract is to attach a piece of elastic (commonly surgical tubing) to the last stage. The elastic applies a force on the last stage that is counteracted by the motor when extending. However, when retracting, the motor reels the last slide back in. While this is the retraction method recommended by many kit slide manuals, we do not recommend this method.
+Instead of retracting using a retraction spool, one common way to retract is to attach a piece of elastic (commonly surgical tubing) to the last stage. The elastic applies a force on the last stage that is counteracted by the motor when extending. However, when retracting, the motor reels the last slide back in. While this is the retraction method recommended by many kit slide manuals, this method is not recommended.
 
 Advantages:
 
@@ -90,18 +112,28 @@ Disadvantages:
 - The elastic does not apply a constant force at all times. It applies force proportional to the amount that the slide is extended, so retraction may not be smooth and controlled, like other rigging methods.
 - It is very easy to unwind your extension spool when using elastic retraction.
 
-Cascade retraction
-~~~~~~~~~~~~~~~~~~
+Cascade Retraction
+^^^^^^^^^^^^^^^^^^
 
 Cascade retraction entails simply rigging another set of cascade string that can retract the system when engaged (see the image below).
+
+.. note:: If cascade retraction is being used with continuous extension, the two spools cannot be the same diameter. If the variable :math:`N` is the number of stages in the system, the diameter of the continuous extension spool must be :math:`N` **times bigger** than the cascade retraction spool.
 
 Advantages:
 
 - Very space-efficient
+- All stages retract at the same speed at the same time
 
 Disadvantages:
 
 - Requires more string (less strings to tension, less strings that can become loose)
+- Requires different sized spools if used with cascade extension
+
+
+.. figure:: images/rigging/cascade-retraction.png
+   :alt: A diagram of cascade retraction
+
+   Cascade retraction
 
 Additional Considerations:
 
@@ -110,16 +142,6 @@ Additional Considerations:
 - One disadvantage of cascade rigging is that each string must be kept tensioned. This is still the case with continuous rigging, but you have many more strings to keep track of, as tension must be maintained on all of them.
 
 - You need to make sure, as with any time you work with strings and pulleys, that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
-
-.. figure:: images/rigging/continuous-retraction.jpg
-   :alt: A diagram of cascade rigging
-
-   Cascade Rigging
-
-.. figure:: images/rigging/cascading-retraction.png
-   :alt: A diagram of continuous rigging with a retraction string ran with the slides instead of running down from the slides
-
-   Continuous Rigging with a secondary method of retraction, where the string is with the slides instead of running down from the slides
 
 Belt-driven slides
 ------------------
