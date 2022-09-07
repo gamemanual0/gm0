@@ -3,7 +3,7 @@
 Awards
 ======
 
-This is the part of |gm0| that discusses awards. *FIRST*\ |reg| Tech Challenge is more then just building robots, it contains elements of engineering documentation, outreach, and more. While the majority of |gm0| talks about how to make decisions about creating your robot, the portfolio you write is actually showing how you made those decisions and how you impact the STEM community around you in a positive way.
+*FIRST*\ |reg| Tech Challenge is more than just building robots, it contains elements of engineering documentation, outreach, and more. While the majority of |gm0| talks about how to make decisions about creating your robot, the portfolio you write is actually showing how you made those decisions and how you impact the STEM community around you in a positive way.
 
 **It only benefits you to go for awards. You can't win awards without making a portfolio, and in certain states the only way to advance is awards and in others it can make it significantly easier to advance.** In the past an engineering notebook was required for awards, however this is no longer true. Therefore, these are the topics that will be covered in this section of |gm0|.
 
