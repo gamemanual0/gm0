@@ -12,7 +12,7 @@ Vendor List
   - AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, compliant, stealth, and mecanum wheels, as well as many other items.
 - `CopperState <https://www.copperstate.com/>`_
 
-  - Cheap vendor for fasteners/other hardare.
+  - Cheap vendor for fasteners/other hardware.
 - `eplastics <https://www.eplastics.com/>`_
 
   - Vendor for raw plastics, such as polycarbonate, acetal, HDPE, etc.
@@ -21,7 +21,7 @@ Vendor List
   - Vendor for raw plastics, including smoked polycarbonate.
 - `Fastenal <https://www.fastenal.com/>`_
 
-  - Mid-range vendor for fasteners/other hardare, including tools.
+  - Mid-range vendor for fasteners/other hardware, including tools.
 - `goBILDA <https://www.gobilda.com/>`_
 
   - goBILDA sells its own build system, complete with Yellow Jacket motors, channel, motion components, and battery. Note that the cheapest batteries are found here, the MATRIX 12V Batteries are $39.99, with the team discount they are $29.99, nearly half the price of the $50 batteries sold elsewhere.
