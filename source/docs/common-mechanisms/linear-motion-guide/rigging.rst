@@ -73,7 +73,7 @@ A cascaded system can be retracted in three ways: using continuous retraction, e
 Retraction Options
 ------------------
 
-Continuous retraction
+Continuous Retraction
 ^^^^^^^^^^^^^^^^^^^^^
 
 As the name suggests, continuous retraction utilizes inverted continuous rigging to retract the slides. There are two main methods of doing this, **free floating retraction** where a string is run from the last stage directly back to the spool, and **with slide retraction** where the string is run in an inverse continuous pattern. Generally, **with slide retraction** should be used with extensions going outside the robot frame to prevent entanglement, and **free floating retraction** should only be used with purely vertical slides.
@@ -96,10 +96,10 @@ Disadvantages:
 - Can become tangled if free floating
 - Requires different sized spools if used with cascade retraction
 
-Elastic retraction
+Elastic Retraction
 ^^^^^^^^^^^^^^^^^^
 
-Instead of retracting using a retraction spool, one common way to retract is to attach a piece of elastic (commonly surgical tubing) to the last stage. The elastic applies a force on the last stage that is counteracted by the motor when extending. However, when retracting, the motor reels the last slide back in. While this is the retraction method recommended by many kit slide manuals, we do not recommend this method.
+Instead of retracting using a retraction spool, one common way to retract is to attach a piece of elastic (commonly surgical tubing) to the last stage. The elastic applies a force on the last stage that is counteracted by the motor when extending. However, when retracting, the motor reels the last slide back in. While this is the retraction method recommended by many kit slide manuals, this method is not recommended.
 
 Advantages:
 
@@ -112,7 +112,7 @@ Disadvantages:
 - The elastic does not apply a constant force at all times. It applies force proportional to the amount that the slide is extended, so retraction may not be smooth and controlled, like other rigging methods.
 - It is very easy to unwind your extension spool when using elastic retraction.
 
-Cascade retraction
+Cascade Retraction
 ^^^^^^^^^^^^^^^^^^
 
 Cascade retraction entails simply rigging another set of cascade string that can retract the system when engaged (see the image below).
