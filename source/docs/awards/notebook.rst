@@ -3,7 +3,7 @@ Notebook Designs and Decisions
 
 This section will cover both what needs to be in the notebook and the decisions you need to make about it affecting both individual sections and it as a whole.
 
-.. attention:: The engineering notebook is completely OPTIONAL. Having a notebook is NOT a requirement for any award. However, judges can technically still ask for the notebook for more information, so some teams still choose to make one. **This article remains here for legacy reasons for teams that wish to make engineering notebooks, even though it is completely optional and not required for teams to still have a shot at awards**. There have been several instances of teams winning high level awards like inspire and think while having no engineering notebook.
+.. attention:: The engineering notebook is completely OPTIONAL. Having a notebook is NOT a requirement for any award. However, judges can technically still ask for the notebook for more information, so some teams still choose to make one. **This article remains here for legacy reasons for teams that wish to make engineering notebooks, even though it is completely optional and not required for teams to still have a shot at awards**. There have been several instances of teams winning high level awards like Inspire and Think while having no engineering notebook.
 
 Whole Notebook Decisions
 ------------------------
@@ -42,7 +42,7 @@ Generally, humor is acceptable, but try to keep jokes down to a minimum (after a
 Individual sections
 -------------------
 
-Section 9.2.2 of |gm1|, lists out the type of things that are expected to see in your notebook.
+Section 9.2.2 of |gm1| lists out the type of things that are expected to see in your notebook.
 
 They are listed here:
 
@@ -59,7 +59,7 @@ They are listed here:
 - Planning
 - Outreach
 
-Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines are not plentiful, only including a team plan (which is pretty much all non robot writing including a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award) and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
+Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines are not plentiful. They include a team plan, which is pretty much all non-robot writing---a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award, and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
 
 Daily Logs and Other Ways of Documenting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
