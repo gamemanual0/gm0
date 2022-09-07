@@ -263,10 +263,6 @@ Retractable Coil Cord
 
 While not common within industry, coil cords are still very common (coil cord is a nearly ubiquitous staple of older telephones). Retractable coil cord is more flexible than cable carriers, stretching when extended.
 
-Here are some links to coil cord products:
-
-- `Cable Science NEC (non-electric cord) <https://www.cablescience.com/coils/nec/nec-series.html>`_
-
 Advantages:
 
 - Very space-efficient
