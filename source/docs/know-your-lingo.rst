@@ -11,9 +11,9 @@ Program Delivery Partner (PDP)
 Qualifier
    Tournament with 5-6 qualifying matches and best-of-three alliance elimination matches. Judging included. Will advance to States/Regional level.
 League Meet
-   Low-stress tournament with matches counting towards league rank. No judging.
-League Championship
-   Tournament with ranked matches and alliance elimination matches. Judging included. Will advance to States/Regional level. Only for teams participating in that League.
+   Low-stress competition with matches counting towards league rank at a League Tournament. No judging.
+League Tournament
+   Tournament with ranked matches and alliance elimination matches for teams participating in that League. Judging included. Will advance to States/Regional level. Sometimes called a "League Championship".
 Alliance
    Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
