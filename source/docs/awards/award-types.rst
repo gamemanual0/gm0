@@ -1,7 +1,7 @@
 .. include:: <isonum.txt>
 
-Awards Explained Simply
-=======================
+Award Categories
+================
 
 Advancing Awards
 ----------------
@@ -21,9 +21,9 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
          This judged award is given to the team that best embodies the ‘challenge’ of the *FIRST*\ |reg| Tech Challenge program. The Team that receives this award is a strong ambassador for *FIRST*\ |reg| programs and a role model *FIRST*\ |reg| Team. This Team is a top contender for many other judged awards and is a gracious competitor. The Inspire Award winner is an inspiration to other Teams, acting with Gracious Professionalism® both on and off the playing field. This Team shares their experiences, enthusiasm and knowledge with other teams, sponsors, their community, and the Judges. Working as a unit, this Team will have shown success in performing the task of designing and building a Robot.
 
    Think Award
-      The Think Award is based entirely on the |EN| and Engineering Portfolio. In order to have a chance at winning, should include as much math and physics as possible in the |EN|, and document the entire journey of the robot through iterations and other documentation of design and game strategy.
+      The Think Award is based entirely on the |EN| and Engineering Portfolio. In order to have a chance at winning, the |EN| should include as much math and physics as possible, document the entire journey of the robot through iterations, and other documentation of design and game strategy.
 
-      In addition, the portfolio should be well lay out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team meber and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
+      In addition, the portfolio should be well laid out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team meber and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
 
       Official Game Manual Description
          This judged award is given to the Team that best reflects the journey the Team took as they experienced the engineering design process during the build season. The engineering content within the portfolio is the key reference for judges to help identify the most deserving Team. The Teams engineering content must focus on the design and build stage of the Team’s Robot.
@@ -43,9 +43,9 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
          This judged award is given to the Team that most connects with their local science, technology, engineering, and math (STEM) community. A true *FIRST*\ |reg| team is more than a sum of its parts and recognizes that engaging their local STEM community plays an essential part in their success. The recipient of this award is recognized for helping the community understand *FIRST*\ |reg|, the *FIRST*\ |reg| Tech Challenge, and the Team itself. The Team that wins the Connect Award aggressively seeks and recruits engineers and explores the opportunities available in the world of engineering, science and technology. This Team has a clear Team plan and has identified steps to achieve their goals.
 
    Innovate Award
-      The Innovate award is just like what it sounds like - it’s for teams with innovative parts to their robot or the robot as a whole.
+      The Innovate award is what it sounds like - it’s for teams with innovative robots or robot mechanisms.
 
-      The Innovate award is for hardware mainly, but some teams have been able to also present software as innovative. Some judges think it’s great for presenting software as part of innovation, but others feel that software only fits under control.
+      The Innovate award is mainly for hardware, but some teams have been able to also present software as innovative. Some judges think it’s great to present software as part of innovation, but others feel that software only fits under Control.
 
       While it may be tempting to sell your entire robot as innovative, it is often much more effective to focus on one or two aspects of your robot instead. Judges will often ask what the most innovative part of your robot is, and this is your opportunity to focus in on the one or two mechanisms that you can sell.
 
@@ -55,7 +55,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
          The Innovate Award celebrates a Team that thinks imaginatively and has the ingenuity, creativity, and inventiveness to make their designs come to life. This judged award is given to the Team that has the most innovative and creative Robot design solution to any specific components in the FIRST Tech Challenge game. Elements of this award include elegant design, robustness, and ‘out of the box’ thinking related to design. This award may address the design of the whole Robot or of a sub-assembly attached to the Robot. The creative component must work consistently, but a Robot does not have to work all the time during Matches to be considered for this award. The Team’s engineering portfolio must include a summary of the design of the component or components and the Team’s Robot to be eligible for this award. Entries must describe how the Team arrived at their solution.
 
    Control Award
-      The Control award is meant to recognize a team that has a good software solution to make their robot "intelligent". It’s known as the “software award” and is for the team with the best or most innovative software and sensor solution for the game.
+      The Control award is meant to recognize a team that has a good software solution to make their robot "intelligent". It’s known as the "software award" and is for the team with the best or most innovative software and sensor solution for the game.
 
       Don’t be tempted to overlook the control award even though it doesn’t advance at most competitions. The control award counts for the inspire award, and strong performance in control counts towards inspire ranking.
 
