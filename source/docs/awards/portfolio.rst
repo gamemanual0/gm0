@@ -8,20 +8,20 @@ Portfolio Requirements
 
 .. tip:: A detailed list of the requirements is listed in section 9.3 of |gm1|
 
-The engineering portfolio is a 15 page document consisting of standard A4 sized pages and a minimum 10 point font. However, despite the small number of pages, there is a lot of information that needs to be packed into the document to meet the requirements for all awards.
+The engineering portfolio is a 15 page document consisting of standard A4 or letter sized pages and a minimum 10 point font. However, despite the small number of pages, there is a lot of information that needs to be packed into the document to meet the requirements for all awards.
 
 Overall Tips
 ^^^^^^^^^^^^
 
 - Organize your portfolio clearly and carefully! Sections should be easy to follow and read, and have clear headings and explanations. Having your team number somewhere on the page is helpful for judges quickly reviewing portfolios.
-- Keep formatting and branding consistent, don't vary your design a ton from one page to another. Similar layouts can help with reading the portfolio
+- Keep formatting and branding consistent, don't vary your design a ton from one page to another. Similar layouts can help with reading the portfolio.
 - Make sure your text is readable! Color choices matter a lot, try to avoid similar color text on a background.
-- **Do not exceed 15 pages total, 16 with the cover page**
-- Less is more: Judges are going to lose interest in large unbroken blocks of text
-- Images, Images, Images: CAD Drawings and screenshots can be useful tools, but also have actual pictures of mechanisms and components. While renders can look impressive in covers, a lot of judges prefer actual CAD screenshots or pictures
-- **Make sure your team number is on the cover page of the portfolio**
+- **Do not exceed 15 pages total, 16 with the cover page.**
+- Less is more: Judges are going to lose interest in large unbroken blocks of text.
+- Images, Images, Images: CAD Drawings and screenshots can be useful tools, but also have actual pictures of mechanisms and components. While renders can look impressive in covers, a lot of judges prefer actual CAD screenshots or pictures.
+- **Make sure your team number is on the cover page of the portfolio.**
 - Don't over explain everything. You want to leave things for judges to ask questions about.
-- Remember that your portfolio isn't just for judges to read, its a good tool to have in judging as a quick reference to present to judges
+- Remember that your portfolio isn't just for judges to read, its a good tool to have in judging as a quick reference to present to judges.
 
 Cover Page
 ^^^^^^^^^^
@@ -105,11 +105,11 @@ Often teams will host events or outreaches with the intent of spreading the idea
 
 .. attention:: Appendix F of |gm1| contains **very specific definitions of words like Mentored, Started, Reached, Ran, and more**. Misuse of these words can be held against you in judging, so make sure you meet the definitions of terms if you use them.
 
-When documenting how many people an event reached, it can be tempting to ask the organizers for an official head count and use that number. However, |gm1| specifically details that simply being an event does not count someone as being reached by the team, they have to interact with your team in some way. Keeping a rough count of how many people you interact with can help you keep track of accurate numbers. **You may be questioned on how you know your numbers are accurate, so be ready to answer questions on how you kept track**.
+When documenting how many people an event reached, it can be tempting to ask the organizers for an official head count and use that number. However, |gm1| specifically details that simply being at an event does not count someone as being reached by the team, they have to interact with your team in some way. Keeping a rough count of how many people you interact with can help you keep track of accurate numbers. **You may be questioned on how you know your numbers are accurate, so be ready to answer questions on how you kept track**.
 
 Working with Other Teams
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as the evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between teams, and Starting requires the team to recognize they were started by that team.
+Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as the evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between teams, and Starting requires the new team to recognize they were started by that team.
 
-.. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you Mentored, Started, or Assisted that team
+.. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you Mentored, Started, or Assisted that team.
