@@ -110,6 +110,6 @@ When documenting how many people an event reached, it can be tempting to ask the
 Working with Other Teams
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as the evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between teams, and Starting requires the new team to recognize they were started by that team.
+Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between you and a team, and Starting requires the new team agreeing that they were started by you.
 
 .. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you Mentored, Started, or Assisted that team.
