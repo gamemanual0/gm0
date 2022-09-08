@@ -23,12 +23,12 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
    Think Award
       The Think Award is based entirely on the |EN| and Engineering Portfolio. In order to have a chance at winning, the |EN| should include as much math and physics as possible, document the entire journey of the robot through iterations, and other documentation of design and game strategy.
 
-      In addition, the portfolio should be well laid out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team meber and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
+      In addition, the portfolio should be well laid out and contain information on various non-technical aspects of the team, such as sustainability (recruitment of new team member and mentors), training, outreach (especially the impact of the outreach and what was learned from it), and team structure. While these categories aren't as strictly important as robot documentation, they are generally recommended for a strong engineering portfolio.
 
       Official Game Manual Description
          This judged award is given to the Team that best reflects the journey the Team took as they experienced the engineering design process during the build season. The engineering content within the portfolio is the key reference for judges to help identify the most deserving Team. The Teams engineering content must focus on the design and build stage of the Team’s Robot.
 
-         The Team must be able to share or provide additional detailed information that is helpful for the judges. This could include descriptions of the underlying science and mathematics of the Robot design and game strategies,the designs, redesigns, successes, and opportunities for improvement. A Team is not a candidate for this award if their portfolio does not include engineering content.
+         The Team must be able to share or provide additional detailed information that is helpful for the judges. This could include descriptions of the underlying science and mathematics of the Robot design and game strategies, the designs, redesigns, successes, and opportunities for improvement. A Team is not a candidate for this award if their portfolio does not include engineering content.
 
    Connect Award
       The Connect Award is one of the two outreach awards. This award is for teams that work with their local STEM community and corporate community. Unfortunately, the line between the Connect and Motivate award can be vague, and judges may not differentiate which outreach falls under which award.
@@ -116,8 +116,8 @@ Tips for Both
 
 - Present numbers, but only emphasize them if they’re large with a wow factor
    - Make sure your numbers are somewhat accurate! If you are at a large event, you can get a rough headcount from the organizers, but its generally better to know roughly how many people actually stopped and looked at your team.
-- Present stories to the judges, not just overviews. Tell personal stories
-- Log all your outreach events, with who went and how many hours each person did in its own place separate from the engineering notebook. This makes it easier to compile total numbers and shows the judges every outreach activity/event in one place
+- Present stories to the judges, not just overviews. Tell personal stories.
+- Log all your outreach events, with who went and how many hours each person did in its own place separate from the engineering notebook. This makes it easier to compile total numbers and shows the judges every outreach activity/event in one place.
 - For a bigger impact make sure you have more resources then just your team's information at an event, having details for *FIRST*\ |reg| Lego League teams in addition to your *FIRST*\ |reg| Tech Challenge information can broaden how many people you reach.
 - Follow up, follow up, follow up! If a person gives you a business card or a student expresses interest, it doesn't hurt to follow up if they don't reach out as promised. People can forget or get busy, sometimes a reminder is useful!
 
