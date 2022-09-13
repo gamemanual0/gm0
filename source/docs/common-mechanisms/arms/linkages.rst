@@ -25,7 +25,7 @@ Common Linkage Types
 Linkage Slides
 ^^^^^^^^^^^^^^
 
-A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linakge with multi degree ball linkage components are used to construct this linkage.
+A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linkage with multi degree ball linkage components are used to construct these linkages.
 
 .. figure:: images/linkages/7236-linkage-slides.png
    :alt: A picture of a 7236 Recharged Green linkage driven slides
