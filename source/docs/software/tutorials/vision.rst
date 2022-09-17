@@ -15,7 +15,7 @@ TensorFlow is Google’s machine learning technology, which can be trained to de
 
 Sample OpModes for TensorFlow being used for freight detection (Freight Frenzy) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-Op-Mode-for-TensorFlow-Object-Detection>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-Op-Mode-for-TensorFlow-Object-Detection>`__.
 
-FIRST has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found here `here <https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf>`__.
+FIRST has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found `on FTC Docs <https://ftc-docs.firstinspires.org/ftc_ml/index.html>`_.
 
 Vuforia
 ^^^^^^^
