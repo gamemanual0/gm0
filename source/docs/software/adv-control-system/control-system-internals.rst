@@ -42,7 +42,7 @@ The expansion hub has the following ports
   - There are integrated pull up resistors on this port
 - Eight DIO Ports
 
-  - 3.3V only, current limited, can briefly supply more than the rated amp spec
+  - 3.3V only, current limited, can briefly supply more than the rated amp spec. Pulled up internally.
 - Four Analog Ports
 
   - 5V compliant, you can use a level shifter to supply 5v to the sensor, but take care the analog line bypasses the level shifter. The VIN and GND lines must pass through the level shifter for it to work however.
