@@ -41,9 +41,9 @@ You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-Sim>`__
 AprilTags
 ^^^^^^^^^
 
-AprilTags detect specific low-resolution, black-and-white images that can be placed on custom elements. AprilTags are a great way to detect custom elements in a variety of lighting conditions. AprilTags also return location data relative to the AprilTag image. AprilTags are a plugin for EasyOpenCV, so teams must already have EasyOpenCV installed on their robot. AprilTags are only supported in Android Studio. 
+AprilTags detect specific low-resolution, black-and-white images that can be placed on custom elements. Apriltags are a great way to detect custom elements in a variety of lighting conditions. Since AprilTags are a plugin for EasyOpenCV, teams must already have EasyOpenCV installed on their robot. AprilTags are only supported in Android Studio. 
 
-You can learn more about AprilTags `here <https://github.com/OpenFTC/EOCV-AprilTag-Plugin>`__. Examples can be found `here <https://github.com/OpenFTC/EOCV-AprilTag-Plugin/tree/master/examples/src/main/java/org/firstinspires/ftc/teamcode>`__. AprilTag images can be found `here <https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__.
+You can learn more about AprilTags on the `GitHub repository <https://github.com/OpenFTC/EOCV-AprilTag-Plugin>`__. Examples can be found on the `repository <https://github.com/OpenFTC/EOCV-AprilTag-Plugin/tree/master/examples/src/main/java/org/firstinspires/ftc/teamcode>`__ as well. Supported AprilTag images are availble on this `pdf <https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__.
 
 Scrcpy
 ------
