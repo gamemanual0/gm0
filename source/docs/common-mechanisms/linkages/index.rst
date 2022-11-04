@@ -27,7 +27,7 @@ Linkage Slides
 
 A common use for linkages is to drive a linear extension. This allows for a compact method of converting the rotational motion from a motor or servo into linear motion moving a mechanism like drawer slides. Generally, a two bar linkage with multi degree ball linkage components are used to construct these linkages.
 
-.. figure:: images/linkages/7236-linkage-slides.png
+.. figure:: images/7236-linkage-slides.png
    :alt: A picture of a 7236 Recharged Green linkage driven slides
 
    7236 Recharged Green, Skystone
@@ -49,7 +49,7 @@ This mechanism is not widely used in FTC due to the space requirements. The link
 
    `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_.
 
-.. figure:: images/linkages/vex-four-bar.png
+.. figure:: images/vex-four-bar.png
    :alt: A picture of a VEX Four Bar
 
    VEX Robotics Four Bar Claw
@@ -72,7 +72,7 @@ Note: Both chain and belt can be used to construct a virtual four bar, and there
 
    `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__.
 
-.. figure:: images/linkages/7244-v4b.jpg
+.. figure:: images/7244-v4b.jpg
    :alt: 7244 OUT of the BOX Robotics Virtual Four Bar
 
    7244 OUT of the BOX Robotics, Ultimate Goal
@@ -84,7 +84,7 @@ The double reverse four bar is an extension of the four bar linkage that allows 
 
 This mechanism is not widely used in FTC due to the generally large space requirements needed, but is a fairly compact method of producing large amounts of linear extension. Care needs to be taken that each side of a double reverse four bar is driven equally so that issues do not arise from asymmetric lifting.
 
-.. figure:: images/linkages/11115-dr4b.jpg
+.. figure:: images/11115-dr4b.jpg
    :alt: 11115 Gluten Free Double Reverse Four Bar
 
    11115 Gluten Free, Skystone
@@ -94,7 +94,7 @@ Virtual Double-Reverse Four Bar
 
 Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion then a double-reverse four bar, and can also extend in both directions.
 
-.. figure:: images/linkages/8644-vdr4b.png
+.. figure:: images/8644-vdr4b.png
    :alt: 8644 Brainstormers Virtual Double Reverse Four Bar
 
    8644 Brainstormers, Freight Frenzy
