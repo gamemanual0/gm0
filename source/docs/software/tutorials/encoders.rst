@@ -17,7 +17,7 @@ All relative encoders in FTC use the "Quadrature" protocol to send position info
 
 Terminology
 -----------
-**Count**: A "count" (sometimes referred to as a "tick") referrs to one increment of the encoder's position. Relative encoders report their position as a number equal to the number of "ticks" or "counts" the encoder has moved from its starting angle.
+**Count**: A "count" (sometimes referred to as a "tick") refers to one increment of the encoder's position. Relative encoders report their position as a number equal to the number of "ticks" or "counts" the encoder has moved from its starting angle.
 
 **Counts Per Revolution**: The number of "counts" that an encoder will report after it has gone exactly one full revolution. This value is commonly used to convert encoder "counts" into degrees or revolutions.
 
