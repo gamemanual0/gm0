@@ -236,3 +236,155 @@ Putting it all together, we get the following testing program.
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
+Running Motors With Encoders
+^^^^^^^^^^^^^^^^
+We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there? 
+
+Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, ____, to tell the motor to run to a specific position in ticks, like so 
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+            DcMotor motor = hardwareMap.dcmotor.get("Arm Motor");
+            motor.setMode(DcMotor.RunMode.RUN_TO_POSITION); // Tells the motor to run to the specific position
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+         ..
+            Add block code here
+            
+
+         :width: 45em
+
+However, before we tell the motor to go to a position, we have to tell the motor what specific position to run to. Note that the position that you tell the motor to go to must be an integer. Let's amend the above code to do that.
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+            DcMotor motor = hardwareMap.dcmotor.get("Arm Motor");
+            int desiredPosition = 1000; // The position (in ticks) that you want the motor to move to
+            motor.setTargetPosition(desiredPosition); // Tells the motor that the position it should go to is desiredPosition
+            motor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+         .. admonition:: TODO
+
+            Add block code here
+            
+         :width: 45em
+
+This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`
+
+We can cap the speed that the motor runs at using the following code
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+            DcMotor motor = hardwareMap.dcmotor.get("Arm Motor");
+            int desiredPosition = 1000; // The position (in ticks) that you want the motor to move to
+            motor.setTargetPosition(desiredPosition); // Tells the motor that the position it should go to is desiredPosition
+            motor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+            motor.setPower(0.5); // Sets the maximum power that the motor can go at
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+         .. admonition:: TODO
+
+            Add block code here
+            
+         :width: 45em
+
+Now, let's use this information to control an arm in an OpMode.
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+            package org.firstinspires.ftc.teamcode.Tests;
+
+            import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+            import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+            import com.qualcomm.robotcore.hardware.DcMotor;
+
+            @TeleOp
+            public class ArmOpMode extends LinearOpMode {
+               @Override
+               public void runOpMode() throws InterruptedException {
+                  // Position of the arm when it's lifted
+                  int armUpPosition = 1000;
+
+                  // Position of the arm when it's down
+                  int armDownPosition = 0;
+
+                  // Find a motor in the hardware map named "Arm Motor"
+                  DcMotor armMotor = hardwareMap.dcMotor.get("Arm Motor");
+
+                  // Reset the motor encoder so that it reads zero ticks
+                  armMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+                  
+                  // Sets the starting position of the arm to the down position
+                  armMotor.setTargetPosition(armDownPosition);
+                  armMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+                  waitForStart();
+
+                  while (opModeIsActive()) {
+                        // If the A button is pressed, raise the arm
+                        if (gamepad1.a) {
+                           armMotor.setTargetPosition(armUpPosition);
+                           armMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+                           armMotor.setPower(0.5);
+                        }
+
+                        // If the B button is pressed, lower the arm
+                        if (gamepad1.b) {
+                           armMotor.setTargetPosition(armDownPosition);
+                           armMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+                           armMotor.setPower(0.5);
+                        }
+
+                        // Get the current position of the armMotor
+                        double position = armMotor.getCurrentPosition();
+                        
+                        // Get the target position of the armMotor
+                        double desiredPosition = armMotor.getTargetPosition();
+
+                        // Show the position of the armMotor on telemetry
+                        telemetry.addData("Encoder Position", position);
+                        
+                        // Show the target position of the armMotor on telemetry
+                        telemetry.addData("Desired Position", desiredPosition);
+                        
+                        telemetry.update();
+                  }
+               }
+            }
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+         .. admonition:: TODO
+
+            Add block code here
+            
+         :width: 45em
+
