@@ -11,3 +11,4 @@ Tutorials for common FTC programs.
    using-telemetry
    bulk-reads
    vision
+   encoders
