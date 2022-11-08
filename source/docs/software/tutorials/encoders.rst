@@ -261,7 +261,11 @@ Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use
 
          :width: 45em
 
+.. tip:: You can find out more about run modes at the `official REV Robotics Documentation page <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`_
+
 However, before we tell the motor to go to a position, we have to tell the motor what specific position to run to. Note that the position that you tell the motor to go to must be an integer. Let's amend the above code to do that.
+
+.. warning:: Setting the motor to RUN_TO_POSITION mode before setting a target position will throw an error. Be careful not to do that!
 
 .. tab-set::
 
