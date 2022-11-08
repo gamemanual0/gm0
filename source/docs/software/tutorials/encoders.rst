@@ -237,10 +237,10 @@ Putting it all together, we get the following testing program.
          :width: 45em
 
 Running Motors With Encoders
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there? 
 
-Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, ____, to tell the motor to run to a specific position in ticks, like so 
+Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, RUN_TO_POSITION, to tell the motor to run to a specific position in ticks, like so 
 
 .. tab-set::
 
@@ -284,7 +284,7 @@ However, before we tell the motor to go to a position, we have to tell the motor
             
          :width: 45em
 
-This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`
+This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_
 
 We can cap the speed that the motor runs at using the following code
 
