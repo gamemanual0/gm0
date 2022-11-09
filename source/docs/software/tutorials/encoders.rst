@@ -236,6 +236,94 @@ Putting it all together, we get the following testing program.
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
+Tracking Wheels and Spools
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Up to this point, we have been mostly working with motors rotating something. However, a lot of mechanisms in FTC are linear, and it can be desireable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
+
+Be careful when selecting your diameter, for wheels it is just the outer diameter of the wheel, but for spools it is the inner diameter of the spool, where the string rests. For belts and chain, it is the "pitch diameter" of the sprocket or pulley.
+
+From here, we can calculate the circumference (the length of the arc of the circle, or the distance the wheel/spool will travel in one rotation)
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+
+            double diameter = 1.0; //Replace with your wheel's or spool's diameter!
+            double circumference = Math.PI * diameter;
+
+            double distance = circumference * revolutions;
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+         :width: 45em
+
+.. note:: Units are very important when dealing with FTC programming, so try to always be consistant! Whatever units you use for the diameter are the units that the distance will be calculated in. So if you measure your diameter in inches, the reported distance will also be in inches
+
+Putting this all together with our previous testing program, we get
+
+.. tab-set::
+
+   .. tab-item:: Java
+      :sync: java
+
+      .. code-block::
+         
+            package org.firstinspires.ftc.teamcode;
+
+            import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+            import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+            import com.qualcomm.robotcore.hardware.DcMotor;
+            @TeleOp
+            public class EncoderOpmode extends LinearOpMode {
+               @Override
+               public void runOpMode() throws InterruptedException {
+                  //Find a motor in the hardware map named "Arm Motor"
+                  DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
+
+                  //Reset the motor encoder so that it reads zero ticks
+                  motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+                  //Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
+                  motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+
+                  waitForStart();
+
+                  while (opModeIsActive()) {
+                        //Get the current position of the motor
+                        double CPR = [Your Counts Per Revolution Here];
+
+                        double diameter = 1.0; //Replace with your object's diameter
+                        double circumference = Math.PI * diameter;
+
+                        double position = motor.getCurrentPosition();
+                        double revolutions = position/CPR;
+
+                        double angle = revolutions * 360;
+                        double angle_normalized = angle % 360;
+
+                        double distance = revolutions * circumference;
+
+                        //Show the position of the motor on telemetry
+                        telemetry.addData("Encoder Position", position);
+                        telemetry.addData("Encoder Revolutions", revolutions);
+                        telemetry.addData("Encoder Angle (Degrees)", angle);
+                        telemetry.addData("Encoder Angle - Normalized (Degrees)", angle_normalized);
+                        telemetry.addData("Linear Distance", distance);
+                        telemetry.update();
+                  }
+               }
+            }
+
+   .. tab-item:: Blocks
+      :sync: blocks
+
+      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+         :width: 45em
+
 Running Motors With Encoders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there? 
