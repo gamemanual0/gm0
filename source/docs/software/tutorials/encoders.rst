@@ -237,7 +237,7 @@ Putting it all together, we get the following testing program.
          :width: 45em
 
 Tracking Wheels and Spools
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 Up to this point, we have been mostly working with motors rotating something. However, a lot of mechanisms in FTC are linear, and it can be desireable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
 
 Be careful when selecting your diameter, for wheels it is just the outer diameter of the wheel, but for spools it is the inner diameter of the spool, where the string rests. For belts and chain, it is the "pitch diameter" of the sprocket or pulley.
@@ -271,7 +271,7 @@ Putting this all together with our previous testing program, we get
       :sync: java
 
       .. code-block::
-         
+
             package org.firstinspires.ftc.teamcode;
 
             import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -326,9 +326,9 @@ Putting this all together with our previous testing program, we get
 
 Running Motors With Encoders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there? 
+We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there?
 
-Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, RUN_TO_POSITION, to tell the motor to run to a specific position in ticks, like so 
+Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, RUN_TO_POSITION, to tell the motor to run to a specific position in ticks, like so
 
 .. tab-set::
 
@@ -345,7 +345,7 @@ Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use
 
          ..
             Add block code here
-            
+
 
          :width: 45em
 
@@ -373,7 +373,7 @@ However, before we tell the motor to go to a position, we have to tell the motor
          .. admonition:: TODO
 
             Add block code here
-            
+
          :width: 45em
 
 This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_
@@ -399,7 +399,7 @@ We can cap the speed that the motor runs at using the following code
          .. admonition:: TODO
 
             Add block code here
-            
+
          :width: 45em
 
 Now, let's use this information to control an arm in an OpMode.
@@ -432,7 +432,7 @@ Now, let's use this information to control an arm in an OpMode.
 
                   // Reset the motor encoder so that it reads zero ticks
                   armMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-                  
+
                   // Sets the starting position of the arm to the down position
                   armMotor.setTargetPosition(armDownPosition);
                   armMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
@@ -456,16 +456,16 @@ Now, let's use this information to control an arm in an OpMode.
 
                         // Get the current position of the armMotor
                         double position = armMotor.getCurrentPosition();
-                        
+
                         // Get the target position of the armMotor
                         double desiredPosition = armMotor.getTargetPosition();
 
                         // Show the position of the armMotor on telemetry
                         telemetry.addData("Encoder Position", position);
-                        
+
                         // Show the target position of the armMotor on telemetry
                         telemetry.addData("Desired Position", desiredPosition);
-                        
+
                         telemetry.update();
                   }
                }
@@ -477,6 +477,6 @@ Now, let's use this information to control an arm in an OpMode.
          .. admonition:: TODO
 
             Add block code here
-            
+
          :width: 45em
 
