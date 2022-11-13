@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Auto Build",
+            "type": "shell",
+            "command": "make autobuild",
+            "group": "build"
+        },
+        {
+            "label": "Build HTML",
+            "type": "shell",
+            "command": "make html",
+            "group": "build"
+        },
+        {
+            "label": "Lint",
+            "type": "shell",
+            "command": "make lint",
+            "group": "test"
+        }
+    ]
+}

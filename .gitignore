@@ -23,6 +23,7 @@ Thumbs.db
 
 # vscode
 .vscode/*
+!.vscode/tasks.json
 *.code-workspace
 
 # IntelliJ/PyCharm
