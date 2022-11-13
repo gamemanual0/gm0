@@ -53,11 +53,10 @@ Vendor List
   - Servocity sells X-rail :term:`extrusion <Extrusion>`, lead screw actuator kits, and linear extension kits.
   - Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to Futaba, at all price points.
   - Teams can get a 25% team discount from Servocity
-- `VEX/VEXPro <https://www.vexrobotics.com/pro>`_
+- VEX/VEXPro
 
-  - VEXPro sells parts angled toward FRC\ |reg| use, but many of their parts, such as :term:`Thunderhex`, can be made compatible with FTC robots.
-  - VEX sells the 393 Motor, as well as the Motor Controller 29 in order for it to adapt to the Expansion Hub.
-  - VEX offers the VersaPlanetary motor which allows teams to customize a specific gear ratio for their needs.
+  - **Game Manual 0 no longer endorses or supports any products from VEX or IFI (VEX's parent company).**
+  - VEX/IFI has a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|. All of these accusations and more have been collated in a `Chief Delphi thread <https://www.chiefdelphi.com/t/cw-sexual-harassment-an-open-letter-to-vex/416929>`_. (WARNING: This thread contains many potentially sensitive topics, such as sexual harrassment. Read at your own risk!) 
 - `West Coast Products <https://wcproducts.com/>`_
 
   - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC use. However, much like VEXPro, many of their parts can be used in FTC, especially in custom robots. In fact, VEXPro and West Coast Products sell many of the same parts.
