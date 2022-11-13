@@ -2,7 +2,7 @@ Index
 =====
 
 .. warning:: 
-   **Due to recent events, VEX Robotics products are no longer endorsed or supported by GM0 in any matter. Read more about why in the** :doc:`/docs/appendix/vendor-list`
+   **Due to recent events, VEX Robotics products are no longer endorsed or supported by Game Manual 0 in any matter. Read more about why in the** :doc:`/docs/appendix/vendor-list`
 
 .. only:: translation
 

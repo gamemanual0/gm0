@@ -55,7 +55,7 @@ Vendor List
   - Teams can get a 25% team discount from Servocity
 - VEX/VEXPro
 
-  - **GM0 no longer endorses or supports any products from VEX or related IFI companies.**
+  - **Game Manual 0 no longer endorses or supports any products from VEX or related IFI companies.**
   - VEX/IFI has a history of extremely concerning accusations of workplace harrassment, toxicity, and general behaviour that does not align with the ideals of the *FIRST*\ |reg| Tech Challenge. All of these accusations and more have been collated in a `Chief Delphi thread <https://www.chiefdelphi.com/t/cw-sexual-harassment-an-open-letter-to-vex/416929>`_ (WARNING: This thread contains many potentially sensitive topics, such as sexual harrassment. Read at your own risk!) 
 - `West Coast Products <https://wcproducts.com/>`_
 
