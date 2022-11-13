@@ -14,7 +14,6 @@ Encoders/Potentiometers
       - E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
       - Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
    - Both
-      - CTRE (VEXpro) Mag Encoder (`217-5049 <https://www.vexrobotics.com/217-5049.html>`_)
       - REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_)
 - Positional
    - Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)

@@ -116,7 +116,7 @@ Miscellaneous
 REV Grounding Strap
    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only legal way to ground your robot. Attach the end to the metal part of your robot frame, and plug the :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels
-   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos or provide continuous rotation for the :term:`VEX 393 EDR`.
+   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos.
 Dryer sheets
    Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can’t hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray

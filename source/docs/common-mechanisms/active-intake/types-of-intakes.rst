@@ -122,7 +122,7 @@ A foam wheel intake has the same principles as a compliant wheel intake, except 
 Rubber Band Intake
 ^^^^^^^^^^^^^^^^^^
 
-Rubber band intakes, commonly used by in the VEX Robotics Competition, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
+Rubber band intakes, commonly used by in VRC, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
 
 Rubber band intakes are great with intaking balls, but not so great with other types of game elements such as cubes. It generally is slower than a surgical tubing intake, and requires multiple stages to transfer elements from collection to deposit. Zip ties can be added to increase the intake’s range to accommodate for smaller balls.
 
@@ -198,7 +198,7 @@ Instead of using surgical tubing, some teams opt for heavy zip ties instead. Thi
 3D printed intake (NinjaFlex/TPU Filament)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if designed right they work very well with VEX 393 motors (considered servos in FTC), and several teams have successfully used this configuration in competition.
+TPU/NinjaFlex 3D printer filament is a great low-RPM intake flap option, if designed right they work well with servos, and several teams have successfully used this configuration in competition.
 
 We recommend 3D printed intakes only if your team has had experience in 3D printing parts.
 
@@ -210,4 +210,4 @@ We recommend 3D printed intakes only if your team has had experience in 3D print
 .. figure:: images/3d-printed-intake/8417-3dp-intake.png
    :alt: 8417's 3D printed intake
 
-   8417 Lectric Legends, Rover Ruckus - TPU intake flaps,  powered by two VEX 393 motors
+   8417 Lectric Legends, Rover Ruckus - TPU intake flaps

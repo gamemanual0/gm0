@@ -12,8 +12,6 @@ Prefix Identification
 - AM- signifies AndyMark (i.e. AM-0447)
 - REV- signifies REV Robotics (i.e. REV-31-1155)
 - WCP- signifies West Coast Products (i.e. WCP-0117)
-- 217- signifies VEXpro (i.e. 217-6194)
-- 276- signifies VEX EDR (i.e. 276-2193)
 
 SKU Identification
 ^^^^^^^^^^^^^^^^^^
@@ -39,8 +37,7 @@ Where can I get ...?
 
     - :term:`AndyMark NeveRest <NeveRest Motor>` Orbital
     - :term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*
-    - :term:`goBILDA 5202 Yellow Jacket Planetary <Yellow Jacket Motor>`
-    - VEX *VersaPlanetary Lite* (gearbox only)
+    - :term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`
     - (*italicized* = customizable gearbox ratio)
 
 - Servos
@@ -51,7 +48,6 @@ Where can I get ...?
   - Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth spline
   - Savox heavy-duty servos; 25 tooth spline
   - Actuonix (linear actuators)
-  - :term:`VEX 393 EDR`; 1/8" square shaft
 
 - Sensors
 
@@ -80,7 +76,6 @@ Where can I get ...?
   - goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
   - TETRIX :term:`gears <Gear>` and pulleys
   - AndyMark :term:`gears <Gear>` and pulleys
-  - VEX :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
 
 - Wheels
 
@@ -88,7 +83,6 @@ Where can I get ...?
   - REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
   - ServoCity traction, :term:`omni wheel <Omni Wheel>`
   - goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
-  - VEX colson traction and :term:`mecanum wheel <Mecanum Wheel>`
   - TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
   - Nexus :term:`mecanum wheel <Mecanum Wheel>`
 

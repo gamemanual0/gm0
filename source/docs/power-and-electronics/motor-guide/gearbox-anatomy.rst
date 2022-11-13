@@ -56,7 +56,7 @@ Planetary gearboxes use a more complex system of gears to achieve a robust reduc
       Planetary Gear
          Planetary gearing consists of a center gear (sun gear) which has smaller gears (planet gears) revolving around it. The outer radius has a ring gear which holds the other gears in place.
 
-Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex Planetary and UltraPlanetary Motors and goBILDA’s wide selection of :term:`planetary gear motors <Yellow Jacket Motor>`. Additionally, AndyMark sells a few aftermarket planetary gearboxes called NeveRest Sport and 57 Sport, and VEXpro sells the customizable VersaPlanetary gearbox. As you can see from the graphic below, there are more teeth meshing per stage than in the spur gearbox.
+Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex Planetary and UltraPlanetary Motors and goBILDA’s wide selection of :term:`planetary gear motors <Yellow Jacket Motor>`. Additionally, AndyMark sells a few aftermarket planetary gearboxes called NeveRest Sport and 57 Sport. As you can see from the graphic below, there are more teeth meshing per stage than in the spur gearbox.
 
 .. figure:: images/motor-hardware/planetary-gearbox.png
    :alt: A planetary gearbox diagram
