@@ -124,20 +124,13 @@ Not Recommended
 
 There is almost no reason to use these mecanum wheels---they perform very poorly and are not much cheaper than those in the `Recommended`_ section. We cannot recommend the use of these on an FTC robot, if it all possible replace them with mecanums from the `Recommended`_ section.
 
-- `VexPro Mecanum Wheels <https://www.vexrobotics.com/mecanum-wheels.html>`_ ($119.96): These mecanums are most suited for vectored intakes on FRC\ |reg| robots. They have somewhat poor strafing and are not as durable as the other wheels on the list.
 - `TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ ($149): These mecanums are designed with a bushing based, hard plastic roller which in turn creates poor strafing performance. The integrated hub is a set screw based design with a round bore, causing unreliability as well as taking up extra space.
-- `VEX EDR Mecanum Wheels <https://www.vexrobotics.com/edr-wheels.html>`_ ($64.99): These are the cheapest mecanum wheels, but use an unusual shaft standard (1/8" square) and require the use of 3D printed adapters. They strafe poorly.
 - `Andymark Standard Duty Mecanum Wheels <https://www.andymark.com/products/4-in-standard-mecanum-wheel-set>`_ ($77): These wheels barely strafe and are super fragile.
 
 .. figure:: images/holonomic/8103-mecanum.png
    :alt: 8103 Null Robotics's mecanum drivetrain render
 
-   8103 Null Robotics, Rover Ruckus, **using Nexus bearing mecanum**
-
-.. figure:: images/holonomic/9829-mecanum.png
-   :alt: 9829 MakBots's mecanum drivetrain
-
-   9829 MakBots, Relic Recovery, using **VexPro mecanum**
+   8103 Null Robotics, Rover Ruckus, **using Nexus mecanum bearing**
 
 .. figure:: images/holonomic/731-mecanum.png
    :alt: 731 Wannabee Strange's mecanum drivetrain render

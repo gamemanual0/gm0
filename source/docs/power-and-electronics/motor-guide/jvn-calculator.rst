@@ -3,15 +3,15 @@
 JVN Calculator
 ==============
 
-The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost every application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, coach of FRC\ |reg| 148, and was initially designed for FRC calculations.
+The JVN Design calculator for FTC allows teams to calculate the :term:`gear ratio <Gear Reduction>` that is necessary for a mechanism like a drivetrain or arm. This is a very valuable resource for picking appropriate gear ratios for almost every application you need. It was developed by `John V-Neun <https://johnvneun.com>`_, and was initially designed for FRC calculations.
 
 It is fairly intuitive and can save a lot of time compared to doing calculations on your own, especially when developing designs like arms, linear slides, and drivetrains. This is as the balance between power/torque and speed is critical to the end design. For example, arms require much more torque than speed, while linear slides need very little torque to maximize speed.
 
-To use the calculator for rotary mechanisms (arms), select the Rotary Arm sheet. A good practice is to “pencil in” VEX’s dynamometer testing for the bare NeveRest motor.
+To use the calculator for rotary mechanisms (arms), select the Rotary Arm sheet. A good practice is to “pencil in” dynamometer testing for the bare NeveRest motor.
 
-**The VEX dyno test is a trusted and accurate resource for teams, even though its results are significantly higher than the specifications posted on vendor pages**.
+**This dyno test is a trusted and accurate resource for teams, even though its results are significantly higher than the specifications posted on vendor pages**.
 
-The test results may be found by searching VEX Dyno Testing, or by clicking `here <https://motors.vex.com/other-motors/am-neverest>`_. (Note: this testing is done to the bare motor, without the end gearbox.)
+The test results `may be found here <https://motors.vex.com/other-motors/am-neverest>`_. (Note: this testing is done to the bare motor, without the end gearbox.)
 
 Gear Ratios
 -----------
@@ -35,7 +35,7 @@ For 1-speed drivetrains, just enter in the correct motor specifications and add 
 General Tips
 ------------
 
-- Always use the `VEX dyno <https://motors.vex.com/other-motors/am-neverest>`_ test results for free speed, stall torque, stall current, and free current.
+- Always use the `dyno test results <https://motors.vex.com/other-motors/am-neverest>`_ for free speed, stall torque, stall current, and free current.
 - Ensure that the total current draw does not exceed the stall current! Generally, this should not be a problem, but it is something to be aware of.
 - For linear slides, maximize linear speed by using a low gear ratio. For arms, maximize torque by using a high :term:`gear ratio <Gear Reduction>`.
 - You need to keep in mind the loaded current draw on your motor. Your motor has a stall current of ~10 amps, so you don’t want to exceed that. You also have a 20amp fuse on your battery, so make sure that you don’t exceed that for too long, or else you’ll pop the fuse.

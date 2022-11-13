@@ -75,16 +75,6 @@ Kit Glossary
       - Hex shaft: six sided shaft
       - Rounded Hex shaft: hex shaft that's been rounded so that it can run in round bearings
       - Keyed shaft: round shaft which has a keyway (a slot) through the shaft
-      - Square shaft: commonly used in VEX products
-
-   Thunderhex
-      Thunderhex is aluminum rounded hex :term:`shaft <Shaft>` that comes in 3/8” and 1/2” hex sold by VEX Robotics. It has a center bore that can be tapped.
-
-      Its most notable feature is rounded corners, which allow it to fit inside 10.25 or 13.75mm bearings, respectively. Because of the nonstandard diameter, the cost advantage is negligible, but ease of assembly and better performance are its strong points.
-
-      .. image:: images/gobilda/thunderhex.png
-         :alt: A piece of thunderhex shaft
-         :width: 200
 
    Locknut
       A locknut is a nut that resists vibration by the nyloc inside. Nyloc is a type of plastic that holds the bolt securely on to the nut when it is screwed in. It is advised that teams purchase locknuts instead of regular nuts as FTC mechanisms often become loose over time.

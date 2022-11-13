@@ -46,7 +46,7 @@ There are also some alternative designs of servo supports; one of them, which is
         Servo Power Module
            A Servo Power Module (SPM) is a device made by REV Robotics that boosts the voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
 
-           **This is important for servos under high load conditions such as the Savox servo, as well as the VEX 393 motor.**
+           **This is important for servos under high load conditions such as the Savox servo.**
 
            .. image:: images/glossary/servo-power-module.png
               :alt: A REV Robotics Servo Power Module

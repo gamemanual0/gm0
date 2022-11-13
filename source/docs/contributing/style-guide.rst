@@ -36,7 +36,7 @@ Include pictures/videos whenever possible.
     - Examples
 
       - 11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, springloaded
-      - 8417 ‘Lectric Legends, Rover Ruckus, TPU intake flaps, powered by two VEX 393 motors
+      - 8417 ‘Lectric Legends, Rover Ruckus, TPU intake flaps
       - 7236 Recharged Green, Rover Ruckus, Misumi SAR3
 
 Adhere to brand standards when possible.

@@ -89,7 +89,7 @@ Mechanical Design and Build
 
 `Mechatronics <https://raw.githubusercontent.com/Thaddeus-Maximus/mechatronics_book/master/mechatronics.pdf>`_:highlight:`*` --- A document about technologies, principles, design, and analysis of complex electro-mechanical systems. It covers topics including fasteners, manufacturing processes, fabrication paradigms, power transmission, mechanisms, design principles, and more.
 
-`VEX Robotics DC Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data when designing mechanisms.
+`Motor Testing <https://motors.vex.com/>`_:highlight:`*` --- Provides performance data for many FTC legal motors. It also explains how to use this data when designing mechanisms.
 
 `8644 Brainstormers Tips and Tricks <https://www.youtube.com/playlist?list=PLoX10e-f5UgIWtNA3mlb_SSozS5w-eAlB>`_ --- A playlist of videos comparing different implementations of various mechanisms, gears and chain, and various other FTC robot-related topics.
 
@@ -107,7 +107,7 @@ Mechanical Design and Build
 
 `NASA RAP Design Guide <https://robotics.nasa.gov/nasa-rap-robotics-design-guide/>`_ --- A guide for competitive robotics covering topics such as manufacturing, design styles, power transmission, mechanism design, and more.
 
-`The Unofficial FRC Mechanism Encyclopedia <https://www.projectb.net.au/resources/robot-mechanisms/>`_ --- A page containing video examples of a bunch of FRC, FTC, and VEX mechanisms categorized by type.
+`The Unofficial FRC Mechanism Encyclopedia <https://www.projectb.net.au/resources/robot-mechanisms/>`_ --- A page containing video examples of a bunch of FRC and FTC mechanisms categorized by type.
 
 Power Transmission
 ^^^^^^^^^^^^^^^^^^
@@ -129,7 +129,7 @@ Calculators
 
 `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts an emphasis on time to target. Input a target motor, number of motors, gearing, and a wide range of elements about the drive train and electrical system. The output shows estimated peak speed, estimated sprint time, minimum system voltage, and maximum voltage while the drive train is at full speed.
 
-`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator based on JVN's calculator, notably adding a hooded flywheel design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `VEX's motor testing <https://motors.vex.com/>`_.
+`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator based on JVN's calculator, notably adding a hooded flywheel design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `dyno motor testing <https://motors.vex.com/>`_.
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
