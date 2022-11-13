@@ -34,7 +34,7 @@ Presentation Tips
 Q&A Period
 ^^^^^^^^^^
 
-The Q&A period is just as important as the presentation and should be practiced multiple times until the team is comfortable answering impromptu questions. A good idea is to practice the `sample judges questions (Appendix B) <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/judge-and-judge-advisor-manual.pdf>`_. Mentors should ask questions similar to those in the sample judges question, in addition to difficult to answer questions ("What award do you think you deserve?" is an example of a question that is incredibly difficult to answer on the spot).
+The Q&A period is just as important as the presentation and should be practiced multiple times until the team is comfortable answering impromptu questions. A good idea is to practice the `sample judges questions (Appendix B) <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/judge-manual.pdf>`_. Mentors should ask questions similar to those in the sample judges question, in addition to difficult to answer questions ("What award do you think you deserve?" is an example of a question that is incredibly difficult to answer on the spot).
 
 .. tip:: Judges almost always ask something along the lines of "Is there anything else that you want us to know that was not covered?" Make sure you have a response to this question! The best strategy is usually to answer with something that wasn't asked about or covered as well, so pay attention to what topics have been covered during the Q&A.
 
