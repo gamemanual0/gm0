@@ -53,7 +53,7 @@ Advantages
 
 - goBILDA's low-side U-channel opens up many new possibilities due to its flexibility and compactness. For example, one can now make a :term:`parallel plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or make custom width :term:`U-channel <Channel>`.
 - goBILDA also has :term:`Servoblocks` (identical to Actobotics other than hole pattern) which drastically increase servo life.
-- goBILDA has native large bore :term:`hex shaft <Shaft>` support (12mm REX is comparable to 3/8" :term:`Thunderhex`) which is one of the main advantages of custom fabrication brought to a kit based system.
+- goBILDA has native large bore :term:`hex shaft <Shaft>` support (12 mm REX is comparable to 3/8" rounded hex) which is one of the main advantages of custom fabrication brought to a kit based system.
 - goBILDA also is able to interface with TETRIX :term:`channel <Channel>` because they share some holes. For more information about TETRIX-goBILDA compatibility, check out this `website <https://gobildatetrix.blogspot.com/>`_. It is also quite compatible with REV's ecosystem.
 - goBILDA has a well thought-out :term:`ball bearing <Ball Bearing>` based motion system with smart motion transfer. It is easy to do :term:`chain <Chain>` or :term:`belt <HTD Belt>` in channel.
 
