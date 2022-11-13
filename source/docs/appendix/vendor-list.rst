@@ -56,7 +56,7 @@ Vendor List
 - VEX/VEXPro
 
   - **Game Manual 0 no longer endorses or supports any products from VEX or IFI (VEX's parent company).**
-  - VEX/IFI has a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|. All of these accusations and more have been collated in a `Chief Delphi thread <https://www.chiefdelphi.com/t/cw-sexual-harassment-an-open-letter-to-vex/416929>`_. (WARNING: This thread contains many potentially sensitive topics, such as sexual harrassment. Read at your own risk!)
+  - VEX/IFI has a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|. All of these accusations and more have been collated in a `Chief Delphi thread <https://www.chiefdelphi.com/t/cw-sexual-harassment-an-open-letter-to-vex/416929>`_. (WARNING: This thread contains many potentially sensitive topics, such as sexual harassment. Read at your own risk!)
 - `West Coast Products <https://wcproducts.com/>`_
 
   - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC use. However many of their parts can be used in FTC, especially in custom robots.
