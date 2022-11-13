@@ -13,8 +13,8 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install --user -r source/requirements.txt",
 	"extensions": [
+		"ms-python.python",
 		"lextudio.restructuredtext"
-		// trond-snekvik.simple-rst
 	],
 	"settings": {
 		"editor.wordWrap": "on",
