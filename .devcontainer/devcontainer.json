@@ -1,0 +1,29 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		8000
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip3 install --user -r source/requirements.txt",
+	"extensions": [
+		"lextudio.restructuredtext"
+		// trond-snekvik.simple-rst
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+		"restructuredtext.linter.extraArgs": [
+			"--ignore D001,WUMBO007,WUMBO008"
+		]
+	}
+	// Configure tool-specific properties.
+	// "customizations": {},
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
