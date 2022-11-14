@@ -67,7 +67,7 @@ A lot of the localization done in software relies on readings from encoders. :re
 
 Encoders are plugged into the JST-PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
 
-If one chooses to design dead wheels, there are only three recommended encoders that one should use for FTC: REV Through-Bore Encoders and U.S. Digital S4T Encoders.
+If one chooses to design dead wheels, there are only three recommended encoders that one should use for FTC: REV Through-Bore Encoders, Redux Through Bore Encoders, and U.S. Digital S4T Encoders.
 
 REV Through-Bore
 ^^^^^^^^^^^^^^^^
