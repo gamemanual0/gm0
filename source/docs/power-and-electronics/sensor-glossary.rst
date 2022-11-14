@@ -11,10 +11,11 @@ Encoders/Potentiometers
       - MA3 (`am-2899 <https://www.andymark.com/products/ma3-absolute-encoder-with-cable>`_)
       - Potentiometer (`REV-31-1155 <https://www.revrobotics.com/rev-31-1155/>`_)
    - Relative
+      - REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_). It has absolute support but over PWM, which is inaccessible within the FTC control system.
       - E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
       - Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
    - Both
-      - REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_)
+      - `Redux Through Bore Encoder <https://axon-robotics.com/products/redux-encoder>`_
 - Positional
    - Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)
 
@@ -22,6 +23,7 @@ Contact
 -------
 
 - Physical
+   - Limit Switches (`3103-0001-0001/3103-0001-0002 <https://www.gobilda.com/limit-switches/>`_)
    - Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
    - Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)
 - Magnetic
