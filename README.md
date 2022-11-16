@@ -4,7 +4,7 @@ Game Manual 0
 
 Welcome to Game Manual 0 (gm0)!
 This repository contains the source of Game Manual 0.
-
+ 
 Building Game Manual 0
 ======================
 Game Manual 0 employs the 
