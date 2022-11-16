@@ -40,12 +40,12 @@ The advantages of a single arm are that it is relatively easy to build, and can 
 
 However, there are many disadvantages such as having a high gear ratio, requiring much more support than a linear slide, and being hard to control without the proper software.
 
-.. figure:: images/single-arm/8103-single-arm.png
+.. figure:: images/arms/single-arm/8103-single-arm.png
    :alt: 8103's single arm attached to a belt driven linear extension
 
    8103 Null Robotics, Rover Ruckus, single arm + custom belt driven linear extension
 
-.. figure:: images/single-arm/8417-single-arm.png
+.. figure:: images/arms/single-arm/8417-single-arm.png
    :alt: 8417's single arm attached to a belt driven linear extension
 
    8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), single arm + custom belt driven linear extension
@@ -57,17 +57,17 @@ A multi-axis arm is an arm which has multiple points of rotation. Multi-axis arm
 
 .. warning:: This is highly discouraged for inexperienced FTC teams due to the difficulty of building as well as the need for machine tools.
 
-.. figure:: images/multi-axis-arm/20700-snap.png
+.. figure:: images/arms/multi-axis-arm/20700-snap.png
    :alt: 20700's multi-axis arm
 
    20700 Snap, Freight Frenzy
 
-.. figure:: images/multi-axis-arm/8148-multi-axis-arm.png
+.. figure:: images/arms/multi-axis-arm/8148-multi-axis-arm.png
    :alt: 8148's multi-axis arm
 
    8148 Aleph Bots, Relic Recovery
 
-.. figure:: images/multi-axis-arm/15692-multi-axis-arm.png
+.. figure:: images/arms/multi-axis-arm/15692-multi-axis-arm.png
    :alt: 15692's multi-axis arm
 
    15692 Rust In Pieces, Rover Ruckus
