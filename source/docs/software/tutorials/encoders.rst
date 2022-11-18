@@ -11,7 +11,7 @@ Relative Encoders
 ^^^^^^^^^^^^^^^^^
 These encoders are the most common type of encoder in FTC. Ranging from the built in encoder in every FTC legal motor to common external encoders like the REV Through Bore encoder, these encodes track the relative position of the shaft or mechanism they are attached to. **What this means is that the position tracked is relative to the position at the start of the opmode, meaning it will not remember its position between opmode runs**.
 
-.. tip:: Relative don't necessary start at 0 at the beginning of every opmode, they can start at arbitrary, or random, values! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of the opmode (see below)
+.. tip:: Relative encoders don't necessarily start at 0 at the beginning of every OpMode! They can start at arbitrary, or random, values! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of the opmode (see below)
 
 All relative encoders in FTC use the "Quadrature" protocol to send position information to the expansion hub. As a result, relative encoders must be plugged into the encoder ports located near the motor ports in order to function.
 
@@ -19,9 +19,9 @@ Terminology
 -----------
 **Count**: A "count" (sometimes referred to as a "tick") refers to one increment of the encoder's position. Relative encoders report their position as a number equal to the number of "ticks" or "counts" the encoder has moved from its starting angle.
 
-**Counts Per Revolution**: The number of "counts" that an encoder will report after it has gone exactly one full revolution. This value is commonly used to convert encoder "counts" into degrees or revolutions.
+**Counts Per Revolution**: The number of "counts" that an encoder reports after it has gone exactly one revolution. This value is commonly used to convert encoder "counts" into degrees or revolutions.
 
-.. warning:: Quadrature terminology can get very confusing! Some encoders may report "pulses per revolution". One pulse can either equal one count, or 4 counts. The best way to check is to plug the encoder into the rev hub and turn it 1 full revolution and check what it reports.
+.. warning:: Quadrature terminology can get very confusing! Some encoders may report "pulses per revolution." One pulse can either equal 1 or 4 counts. The best way to check is to plug the encoder into the REV Hub and turn it 1 full revolution, then check what it reports.
 
 Programming Encoders
 --------------------
@@ -29,7 +29,7 @@ Programming Encoders
 Reading Encoders
 ^^^^^^^^^^^^^^^^
 
-In FTC software, motor encoders and motors are both accessed by the same motor object. What this means is that we can access an encoder's position like so
+In FTC software, motor encoders and motors are accessed by the same motor object. What this means is that we can access an encoder's position like so:
 
 .. tab-set::
 
@@ -46,7 +46,7 @@ In FTC software, motor encoders and motors are both accessed by the same motor o
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-While convenient if one is using the built in motor encoder, this can easily become confusing if using external encoders. To use external encoders, you must use the motor object associated with the port. For example, if there is a motor in port 1 named "Arm Motor", and an external encoder plugged into encoder port 1, then to get that encoder's position you must do
+While convenient if one uses the built-in motor encoder, this can easily become confusing if using external encoders. To use external encoders, you must use the motor object associated with the port. For example, if there is a motor in port 1 named "Arm Motor" and an external encoder plugged into encoder port 1, you must do the following to get the encoder's position:
 
 .. tab-set::
 
@@ -64,7 +64,7 @@ While convenient if one is using the built in motor encoder, this can easily bec
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-Great! We now have the relative position of our encoder, reported in the number of "counts" it is from some arbitrary zero angle. However, it is often convenient to have the encoder start at zero at the beginning of the opmode. While it technically does not change anything, it can help with debugging and simplify future code. To do this, we simply add a call to reset the motor encoders before we read them.
+Great! We now have the relative position of our encoder, reported in the number of "counts" it is from what it considers to be zero. However, it is often convenient to have the encoder start at zero at the beginning of the OpMode. While it technically does not change anything, it can help with debugging and simplify future code. To do this, we can add a call to reset the motor encoders before we read them.
 
 .. tab-set::
 
@@ -84,9 +84,9 @@ Great! We now have the relative position of our encoder, reported in the number 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. All it does is tell the SDK not to use the motor encoder for built in velocity control**. We will go over what this means in a later section, for now know that it just turns the motor back on so we can use it after the encoder is reset.
+As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It just tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, just know that it turns the motor back on so we can use it after the encoder is reset.
 
-Now we have our position, in counts, relative to the starting angle of the encoder. We can make a quick program to see this in action. Here, we use a motor encoder plugged into a port named "Arm Motor" in the hardware configuration.
+Now we have our position (in counts) relative to the starting angle of the encoder. We can make a quick program to see this in action. Here, we use a motor encoder plugged into a port named "Arm Motor" in the hardware configuration.
 
 .. tab-set::
 
@@ -133,13 +133,13 @@ Now we have our position, in counts, relative to the starting angle of the encod
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-If you run the above opmode and turn the encoder, you should see the values change as you move. If you rotate the shaft back to where it started, you will see the number return to (very close to) normal. As an exercise, rotate the shaft one full revolution (360) degrees and note down the number.
+If you run the above OpMode and turn the encoder, you should see the values change as you move. If you rotate the shaft back to where it started, you will see the number return to (very close to) normal. As an exercise, rotate the shaft one full revolution (360) degrees and note down the number.
 
-There is one more thing we can do with encoders. While knowing the number of counts something moved is useful, often times one will need a different number, like the number of revolutions the encoder has underwent or the angle it is currently at. To determine these, we need a constant, the encoders Counts Per Revolution or CPR. For external encoders, this number is often provided in a datasheet. For motors, it will generally be on the product page, although some motors (most notibly the Rev Ultraplanetary Gearbox) do not provide it plainly.
+There is one more thing we can do with encoders. While knowing the number of counts something moved is useful, oftentimes one will need a different number, like the number of revolutions the encoder has turned or the angle it is at. To determine these, we need a constant, the encoders Counts Per Revolution or CPR. For external encoders, this number is often provided in a datasheet. For motors, it will generally be on the product page, although some motors (most notably the Rev Ultraplanetary Gearbox) do not provide it plainly.
 
-.. tip:: You can calculate a motor's Counts Per Revolution by taking the base motor's Counts Per Revolution and muliplying it by the gearbox ratio. Be careful to use the actual gearbox ratio when doing this! For example, a 5:1 Ultraplanetary motor would have a counts per revolution of 28 * (5.23) = 146.44, because the base motor has 28 Counts Per Revolution and the 5:1 gearbox is actually 5.23:1. Remember, when using two gearboxes on top of each other, you multiply the gear ratios together.
+.. tip:: You can calculate a motor's Counts Per Revolution by taking the base motor's Counts Per Revolution and multiplying it by the gearbox ratio. Be careful to use the actual gearbox ratio when doing this! For example, a 5:1 Ultraplanetary motor would have a count per revolution of 28 * (5.23) = 146.44 because the base motor has 28 Counts Per Revolution and the 5:1 gearbox actually has a 5.23:1 gear ratio. Remember, when using two gearboxes on top of each other, you multiply the gear ratios together.
 
-In the following example, we divide the encoder position by its counts per revolution in order to obtain the number of revolutions the encoder has rotated. You have to replace [Your Counts Per Revolution Here] with the counts per revolution of your motor, found on its product page or calculated using the above tip.
+In the following example, we divide the encoder position by its counts per revolution to obtain the number of revolutions the encoder has rotated. You have to replace [Your Counts Per Revolution Here] with the counts per revolution of your motor, found on its product page or calculated using the above tip.
 
 .. tab-set::
 
@@ -159,7 +159,7 @@ In the following example, we divide the encoder position by its counts per revol
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-There is one more number we can get, the angle the shaft is at. This is very simple, we just multiply the number of rotations by 360 (there are 360 degrees in one revolution). You might notice that this number can go above 360, as the shaft rotates multiple times. As such, we introduce angle_normalized, which will always be between 0 and 360.
+There is one more number we can get: the angle of the shaft. Calculating this number is very simple. We can multiply the number of rotations by 360 (since there are 360 degrees in one revolution). You might notice that this number can go above 360 as the shaft rotates multiple times. As such, we introduce angle_normalized, which will always be between 0 and 360.
 
 .. tab-set::
 
@@ -238,9 +238,9 @@ Putting it all together, we get the following testing program.
 
 Tracking Wheels and Spools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-Up to this point, we have been mostly working with motors rotating something. However, a lot of mechanisms in FTC are linear, and it can be desirable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
+Up to this point, we have mostly been working with motors rotating something. However, many mechanisms in FTC are linear, and it can be desirable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
 
-Be careful when selecting your diameter, for wheels it is just the outer diameter of the wheel, but for spools it is the inner diameter of the spool, where the string rests. For belts and chain, it is the "pitch diameter" of the sprocket or pulley.
+Be careful when selecting your diameter. For wheels, it is just the outer diameter of the wheel, but for spools, it is the inner diameter of the spool, where the string rests. For chain and belts, it is the "pitch diameter" of the sprocket or pulley.
 
 From here, we can calculate the circumference (the length of the arc of the circle, or the distance the wheel/spool will travel in one rotation)
 
@@ -261,7 +261,7 @@ From here, we can calculate the circumference (the length of the arc of the circ
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-.. note:: Units are very important when dealing with FTC programming, so try to always be consistent! Whatever units you use for the diameter are the units that the distance will be calculated in. So if you measure your diameter in inches, the reported distance will also be in inches
+.. note:: Units are very important when dealing with FTC programming, so make sure they are always consistent! Whatever units you use for the diameter are the units for your calculated distance. So if you measure your diameter in inches, the reported distance will also be in inches.
 
 Putting this all together with our previous testing program, we get
 
@@ -328,7 +328,7 @@ Running Motors With Encoders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 We've learned how to read encoder values, but how do you set where you want to go and tell the motor to go there?
 
-Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, RUN_TO_POSITION, to tell the motor to run to a specific position in ticks, like so
+Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use another motor mode, RUN_TO_POSITION, to tell the motor to run to a specific position in ticks, like so:
 
 .. tab-set::
 
@@ -343,15 +343,15 @@ Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use
    .. tab-item:: Blocks
       :sync: blocks
 
-         ..
-            Add block code here
+         .. admonition:: TODO
 
+            Add block code here
 
          :width: 45em
 
 .. tip:: You can find out more about run modes at the `official REV Robotics Documentation page <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`_
 
-However, before we tell the motor to go to a position, we have to tell the motor what specific position to run to. Note that the position that you tell the motor to go to must be an integer. Let's amend the above code to do that.
+However, before we tell the motor to go to a position, we have to tell the motor what position to run to. **Note that this value must be an integer**. Let's amend the above code to do that.
 
 .. warning:: Setting the motor to RUN_TO_POSITION mode before setting a target position will throw an error. Be careful not to do that!
 
@@ -378,7 +378,7 @@ However, before we tell the motor to go to a position, we have to tell the motor
 
 This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_
 
-We can cap the speed that the motor runs at using the following code
+We can cap the speed that the motor runs at using the following code:
 
 .. tab-set::
 
