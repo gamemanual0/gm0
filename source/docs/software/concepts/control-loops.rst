@@ -155,9 +155,9 @@ achieving *much* more stable control with an external PID.
 Feedforward Control
 -------------------
 
-Feedforward control is a method of what is known as "open-loop" control. This is the opposite of closed-loop control and the primary difference is that Feedforward does not actively use sensors to control the system.  Instead it "predicts" the desired input based on a model.
+Feedforward control is a method of what is known as "open-loop" control. This is the opposite of closed-loop control and the primary difference is that feedforward does not actively use sensors to control the system.  Instead it "predicts" the desired input based on a model.
 
-Typically Feedforward is used to control either rates of change or combat known disturbances from your system.
+Typically feedforward is used to control either rates of change or combat known disturbances from your system.
 
 Feedforward is very powerful because it is immune to noise or other sensor errors.  This is because it is not actively measuring the system, but instead predicting the desired input. However, this also means that it is not very good at correcting for errors. This is why it is often used in conjunction with a closed-loop controller such as PID.
 
@@ -172,7 +172,7 @@ The most common feedforward and the one used by libraries such as road-runner is
 
 Where :math:`K_v` is the velocity gain, :math:`K_a` is the acceleration gain, and :math:`f(t)` is the feedforward output sent to your motors.
 
-These gains can be estimated by giving the controller a series of ramp inputs (such as those computed with a Motion Profile), measuring the output, and then changing these gains till the robot matches the desired motion.
+These gains can be estimated by giving the controller a series of ramp inputs (such as those computed with a motion profile), measuring the output, and then changing these gains till the robot matches the desired motion.
 
 .. note::
    The gains will change based on the robot's mass, friction, and other factors.
