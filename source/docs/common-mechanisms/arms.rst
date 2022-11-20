@@ -25,11 +25,8 @@ Disadvantages
 
 - While single arms may be more simple, they cannot provide enough extension for most games.
 
-Types of Arms
--------------
-
-Single Arm
-==========
+Single Arms
+-----------
 
 The most simple type of arm in FTC, a single arm refers to an arm on one axis of rotation. While it is possible to successfully build this kind of arm, generally a single axis arm will only afford around 15-16” of extension, which is inadequate for nearly every game.
 
@@ -52,8 +49,8 @@ However, there are many disadvantages such as having a high gear ratio, requirin
    8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), single arm + custom belt driven linear extension
 
 
-Multi-Axis Arm
-==============
+Multi-Axis Arms
+---------------
 
 A multi-axis arm is an arm which has multiple points of rotation. Multi-axis arms introduce many variables that exponentially complicate matters and can really only be modeled through complex kinematic equations.
 

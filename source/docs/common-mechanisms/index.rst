@@ -10,9 +10,9 @@ This chapter covers suggestions for design of common components of FTC robots: d
    drivetrains/index
    power-transmission/index
    linear-motion-guide/index
-   arm
+   arms
+   linkages
    passive-intake-claw
    active-intake/index
    transfers/index
    dead-wheels
-   linkages
