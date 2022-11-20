@@ -1,7 +1,7 @@
 Arms
 ====
 
-Arms are another way to achieve extension past the 18” x 18” dimension of the robot. Unlike linear extensions, arms require lots of torque - a standard 40:1 or even 60:1 gearbox will not be suitable in most applications. For example, many teams will run a 256:1 gearbox for their rotation motor.
+Arms are another way to achieve extension past the 18" x 18" dimension of the robot. Unlike linear extensions, arms require lots of torque - a standard 40:1 or even 60:1 gearbox will not be suitable in most applications. For example, many teams will run a 256:1 gearbox for their rotation motor.
 
 .. attention:: Such motors must be very well supported, or else the motor may torque itself free from its mount.
 
@@ -9,7 +9,7 @@ Rarely should an arm be directly mounted to the driving motor. Instead, torque s
 
 Depending on the application and implementation, arms can be either faster or slower than extension options.
 
-The different types of arms in FTC include single arm, chain bar and multi-axis arms.
+The different types of arms in FTC include single arm and multi-axis arms.
 
 Advantages
 ----------
@@ -21,7 +21,7 @@ Advantages
 Disadvantages
 -------------
 
-- Arms require an insane amount of torque, and in order to do so, teams must purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/>`_, or the more expensive VersaPlanetary (potentially Lite) and NeveRest Sport. One can also use the high gear ratio `goBILDA planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_.
+- Arms require a large amount of torque, and in order to do so, teams must purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/>`_ or the high gear ratio `goBILDA planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_.
 
 - While single arms may be more simple, they cannot provide enough extension for most games.
 
