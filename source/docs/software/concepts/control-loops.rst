@@ -155,47 +155,60 @@ achieving *much* more stable control with an external PID.
 Feedforward Control
 -------------------
 
-One less popular but equally useful control loop is the feedforward controller (sometimes unofficially referred to in FTC as the PVA controller, or Position-Velocity-Acceleration controller). For those without a physics background, velocity is the speed and direction something is moving and acceleration is how fast velocity is increasing or decreasing.
+Feedforward control is a method of what is known as "open-loop" control. This is the opposite of closed-loop control and the primary difference is that Feedforward does not actively use sensors to control the system.  Instead it "predicts" the desired input based on a model.
 
-Unlike PID, feedforward controllers require you to input not only where you want to go and where you are, but how fast you want to be moving at all times. Unlike feedback control loops such as PID, feedforward control loops don’t require information about the variable you want to control. Instead of controlling a variable directly, it controls how fast that variable changes.
+Typically Feedforward is used to control either rates of change or combat known disturbances from your system.
 
-Conceptually, the controller is made up of 2 separate P controllers (remember, a P controller is made up of just the proportional term of a PID loop). Each of these P controllers are added together to create a feedforward controller.
+Feedforward is very powerful because it is immune to noise or other sensor errors.  This is because it is not actively measuring the system, but instead predicting the desired input. However, this also means that it is not very good at correcting for errors. This is why it is often used in conjunction with a closed-loop controller such as PID.
 
-Just like we did with the PID formula, we can define the function like this: :math:`f(t)=K_v*V(t)+K_a*A(t)`.
 
-In most FTC applications, :math:`f(t)` controls the position of the output. As the name PVA suggests, the first term relates to velocity, and the second relates to acceleration. Just like in a P controller, each term contains a constant multiplied by an error term (in this case, :math:`V(t)` and :math:`A(t)`). However, unlike a PID controller, each term has their own setpoints and endpoints, meaning error is calculated differently for each term.
+Kv Ka Feedforward Model
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Unlike desired position, your desired velocity is likely to change throughout the control loop. After all, the entire point of using control loops are to try to create a balance of speed and control of a system. Remember, in most situations, you want to approach your destination quickly if you are far away and slow down if you are close for more control.
+The most common feedforward and the one used by libraries such as road-runner is the Kv-Ka feedforward model:
 
-For the sake of example, let’s say :math:`v(t)` is a magic function that could tell you exactly how fast you should be going at any point. To calculate velocity error, subtract your current velocity from the magic function :math:`v(t)`. This magic function can also be used to create another magic function: :math:`a(t)`. This magic function tells you how exactly how fast the velocity should change in order to get to the next magic velocity at any specified time.
+.. math::
+   f(t) = K_v \cdot \text{Velocity} + K_a \cdot \text{Acceleration}
 
-The last step is finding the magic functions :math:`v(t)` and :math:`a(t)`, **which can be obtained using motion profiles** (discussed next).
+Where :math:`K_v` is the velocity gain, :math:`K_a` is the acceleration gain, and :math:`f(t)` is the feedforward output sent to your motors.
 
-Feedforward Pseudocode
-^^^^^^^^^^^^^^^^^^^^^^
+These gains can be estimated by giving the controller a series of ramp inputs (such as those computed with a Motion Profile), measuring the output, and then changing these gains till the robot matches the desired motion.
+
+.. note::
+   The gains will change based on the robot's mass, friction, and other factors.
+   It is recommended to re-estimate these gains every time you make a significant change to your robot.
+
+
+
+Kv Ka Feedforward Pseudocode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: python
 
    while True:
-      current_time = get_current_time()
+        targetVelocity = getTargetVelocity(time)
+        targetAcceleration = getTargetAcceleration(time)
+        output = targetVelocity * Kv + targetAcceleration * Ka;
 
-      current_velocity = (current_position - previous_position) / (current_time - previous_time)
-      current_velocity_error = desired_velocity - current_velocity
 
-      current_acceleration = (current_velocity - previous_velocity) / (current_time - previous_time)
-      current_acceleration_error = desired_acceleration - current_acceleration
-      output = F + k_v * current_velocity_error + K_A * current_acceleration_error
+Static Friction Feedforward
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In every system there is bound to be some amount of static Friction. This means that the robot mechanism will not move until a certain amount of power is applied. This can be modeled by adding a constant feedforward term in the direction you want to move.
 
-      previous_velocity = current_velocity
+.. code-block:: python
 
-      # end of feedforward code
+   while True:
+        error = desire_position - current_position;
+        sign = signum(error) # sign of error, will be -1, 0, or 1
+        output = sign * staticFriction + PID(error); # PID Controller + Friction Feedforward
 
-      previous_error = current_error
-      previous_time = current_time
 
 Motion Profiles
 ---------------
 
+.. tip::
+    Motion profiles are *not* a specific type of control loop, but rather a technique that works well in combination with other control loops such as PID and feedforward.
+    
 Motion profiling is a technique popularized in FRC\ |reg| that is starting to find its way to FTC. A motion profile is a function used to change the speed of a power transmission system in a controlled and consistent way by changing desired speed gradually rather than instantaneously.
 
 Let’s illustrate this with an example: say you want your drivetrain, which is initially unmoving, to drive forward at full speed. Ordinarily, you would set all drivetrain motors to full power in the code. However, this can be problematic because even though you tell the motors to move at full speed instantaneously, the drivetrain takes time to get to full speed. This can lead to uncontrolled movements which have the potential to make autonomous less consistent and, perhaps more importantly, damage mechanisms.
@@ -251,5 +264,7 @@ Here is some pseudocode for a trapezoidal profile:
           output_acceleration = -MAX_ACCELERATION
 
       previous_time = current_time
+
+The results of the above pseudocode are then used in a feedforward and / or PID loop to control the position of the system in a smooth and predictable way.
 
 A more advanced example of the math for motion profile generation as used in the `Road Runner library <https://github.com/acmerobotics/road-runner>`_ can be found in this `Jupyter Notebook <https://mybinder.org/v2/gh/acmerobotics/road-runner/HEAD?filepath=doc%2Fnotebook%2Froad-runner-lite.ipynb>`_.
