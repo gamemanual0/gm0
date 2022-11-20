@@ -1,7 +1,7 @@
 Linkages
-===========================
+========
 
-There are many different types of linkages. Generally, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
+There are many different types of linkages. Often, linkages are used to convert rotational motion, such as that from a servo or motor, to linear motion. Linkages can do this efficiently, and also have specialized movement patterns that can make them desirable for certain mechanisms.
 
 .. admonition:: Term
 
@@ -16,7 +16,7 @@ Considerations
 There are several things to consider when constructing a linkage.
 
 - Over-centering is when a linkage is rotated past its center point (usually the point where both bars of the linkage are parallel). Driving a linkage over center can have some benefits, like making the linkage harder to backdrive. See this `informational youtube video <https://www.youtube.com/watch?v=I7iy8DCNmic>`_ for more details on this. Essentially, linkages can form a structure where pushing on the linkage moves the robot instead of rotating the linkage.
-- Linkages will not have a constant linear speed or force, with a linkage they generally reach a maximum speed and force when the bars are perpendicular, then the speed and force will decrease as the linkage is rotated farther.
+- Linkages will not have a constant linear speed or force. They generally reach a maximum speed and force when the bars are perpendicular, and the speed and force will decrease as the linkage is rotated farther.
 - Cadding the linkage can be useful to check if it will do what you want it to do. See this `youtube video <https://www.youtube.com/watch?v=QsAC_seQHJY>`_ for an example of how to set up the mates in OnShape.
 
 Common Linkage Types
@@ -45,7 +45,7 @@ This mechanism is not widely used in FTC due to the space requirements. The link
    .. raw:: html
 
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-      <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/decca3b6f8868b3f16ea2e35f88bf54567dcf358/Linkages/FourBar.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+      <model-viewer alt="goBILDA Four Bar" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/decca3b6f8868b3f16ea2e35f88bf54567dcf358/Linkages/FourBar.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
 
    `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_.
 
