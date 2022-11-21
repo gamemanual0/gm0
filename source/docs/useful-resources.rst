@@ -129,7 +129,7 @@ Calculators
 
 `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts an emphasis on time to target. Input a target motor, number of motors, gearing, and a wide range of elements about the drive train and electrical system. The output shows estimated peak speed, estimated sprint time, minimum system voltage, and maximum voltage while the drive train is at full speed.
 
-`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator based on JVN's calculator, notably adding a hooded flywheel design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `dyno motor testing <https://motors.vex.com/>`_.
+`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from `dyno motor testing <https://motors.vex.com/>`_.
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
