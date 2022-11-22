@@ -177,7 +177,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
                }
                break;
            case LiftState.LIFT_EXTEND:
-               // check if the left has finished extending,
+               // check if the lift has finished extending,
                // otherwise do nothing.
                if (Math.abs(liftMotor.getPosition() - LIFT_HIGH) < 10) {
                    // our threshold is within
