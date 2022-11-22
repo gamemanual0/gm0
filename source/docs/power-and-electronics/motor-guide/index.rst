@@ -9,5 +9,5 @@ Motor Guide
    choosing-motor
    gearbox-anatomy
    wiring-mounting-motors
-   motor-current
+   motor-power
    motor-glossary
