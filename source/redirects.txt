@@ -81,3 +81,5 @@
 "docs/common-mechanisms/arms/multi-axis-arm.rst" "docs/common-mechanisms/arms.rst"
 "docs/common-mechanisms/arms/single-arm.rst" "docs/common-mechanisms/arms.rst"
 "docs/common-mechanisms/arms/index.rst" "docs/common-mechanisms/arms.rst"
+"docs/power-and-electronics/motor-guide/motor-current.rst" "docs/power-and-electronics/motor-guide/motor-power.rst"
+"docs/power-and-electronics/motor-guide/jvn-calculator.rst" "docs/power-and-electronics/motor-guide/motor-power.rst"

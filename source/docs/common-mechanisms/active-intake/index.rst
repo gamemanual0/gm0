@@ -14,7 +14,7 @@ There are multiple parts of an effective intake: intake geometry, intake type an
 
 .. tip:: While not a necessity, it is highly recommended that teams dedicate at least one motor to their intake if possible.
 
-.. attention:: When it comes to intakes, the JVN school of picking stuff: "**Touch it, own it**" is really valuable.
+.. attention:: When it comes to intakes: "**Touch it, own it**" is a really valuable concept.
 
 When your intake comes in contact with game elements, you want it to instantly control them. You should design with a margin for error, both in the orientation of the game piece and in the alignment of the robot. For example, look at FRC\ |reg| Team 694’s ball intake on their 2019 robot:
 

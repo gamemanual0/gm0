@@ -9,6 +9,5 @@ Motor Guide
    choosing-motor
    gearbox-anatomy
    wiring-mounting-motors
-   jvn-calculator
-   motor-current
+   motor-power
    motor-glossary
