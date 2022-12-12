@@ -103,6 +103,7 @@ Redux Through Bore Encoder
 The `Redux Through Bore Encoder <https://axon-robotics.com/products/redux-encoder>`_ is a relatively new (and therefore less-tested) option compared to REV Through-Bore Encoders, however are cheaper and share many of the same benefits.
 
 **Advantages:**
+
 - Through-bore design is very robust and easy to design with
 - Cheaper than REV Through-Bores
 - High CPR
