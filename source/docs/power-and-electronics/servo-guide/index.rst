@@ -27,5 +27,4 @@ The most prevalent problem with servos is durability. Internal servo gears in ch
    :maxdepth: 1
 
    choosing-servo
-   specialty-servos
    usage-tips
