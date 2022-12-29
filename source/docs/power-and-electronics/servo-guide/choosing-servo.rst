@@ -64,6 +64,17 @@ The output shaft of the :term:`servo <Servo>` is commonly called the **spline**.
 
 For more info about servo splines, please check https://www.servocity.com/servo-spline-info/.
 
+Servo Range
+-----------
+
+The angle over which a non-continuous :term:`servo <Servo>` can rotate while retaining position feedback is called the range. When choosing a servo, it is important to make sure you have enough range for the movement you need.
+
+When used with a :term:`servo <Servo>` controller capable of a 500-2500 microsecond PWM signal (such as the REV Expansion Hub) Long Robotics 25kg Coreless Servos and REV Smart Servos offer 270 degrees of range. REV Smart Servos can be programmed to have up to 280 degrees of range with a :term:`servo programmer <SRS Programmer>`.
+
+The goBILDA Dual Mode Servos have 300 degrees of range. Axon Robotics' MINI and MAX servos offer 180 degrees of range out of the box but up to 355 degrees of range when used with that company's servo programmer.
+
+The goBILDA 5 turn torque servo is unusual in that it offers 5 full turns of range (1800 degrees). This makes it a great option for powering linear slides, as long as they do not carry too heavy of a load. The 5 turn torque servo is available from several vendors including ServoCity and goBILDA, both of which offer a 25% discount to FTC teams.
+
 Cost
 ----
 
@@ -79,6 +90,8 @@ A mid-priced Hitec :term:`servo <Servo>` is the HS 485-HB/488-HB servo, with Kar
 
 Where Hitec really shines is the high end market. If your budget is over $100, you can get into some very powerful Hitec :term:`servos <Servo>`. Most have titanium :term:`gears <Gear>` and are programmable, so you can dial in the performance and range to exactly what you need.
 
+Axon Robotics, a relatively new company, offers programmable, titanium-geared servos in the $75+ range. Being designed with FTC applications in mind, they offer some unique features such as absolute encoder output for their MINI+ and MAX+ servos.
+
 The last big player in the :term:`servo <Servo>` market in FTC is Savox, which produces great mid-high range :term:`servos <Servo>` (think $60-$100+). They are made with titanium :term:`gears <Gear>` (close to bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly brushless and coreless, so they do tend to scream a little under load, but they’re definitely worth it if your budget allows for it.
 
 Best Value
@@ -93,6 +106,7 @@ Best Value
    - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
    - `25kg Coreless Servo <https://longrobotics.com/product/25kg-coreless-servo-ds3225sg/>`_
 - Best Performance ($75+)
+   - Axon Robotics titanium servos
    - Savox titanium servos
    - Hitec titanium servos
 
