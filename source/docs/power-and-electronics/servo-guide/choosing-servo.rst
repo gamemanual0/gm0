@@ -65,11 +65,11 @@ The output shaft of the :term:`servo <Servo>` is commonly called the **spline**.
 For more info about servo splines, please check https://www.servocity.com/servo-spline-info/.
 
 Maximum Range
--------
+------------
 
 The angle over which a (non-continuous) servo can rotate while retaining position feedback is called the range. When choosing a servo, it is important to make sure you have enough range for the movement you need.
 
-When used with a :term:`servo <Servo>` controller capable of 500-2500 microsecond PWM signal, such as the REV Expansion Hub, Long robotics and REV smart servos offer up to 270 degrees of range and goBIlda's speed and torque servos have up to 300 degree range.  Axon servos offer 180 degrees of range out of the box but up to 355 degrees of range when used with that company's servo programmer.
+When used with a :term:`servo <Servo>` controller capable of 500-2500 microsecond PWM signal, such as the REV Expansion Hub, Long robotics and REV smart servos offer up to 270 degrees of range and goBilda's speed and torque servos have up to 300 degree range.  Axon servos offer 180 degrees of range out of the box but up to 355 degrees of range when used with that company's servo programmer.
 
 This goBILDA 5 turn torque servo is unusual in that it offers up to 5 full turns of range (1800 degrees). This makes it a great option for powering linear slides (as long as they do not carry too heavy load). The 5 turn torque servo is available from several vendors including ServoCity and goBILDA, both of which offer 25% discount to FTC teams.
 
