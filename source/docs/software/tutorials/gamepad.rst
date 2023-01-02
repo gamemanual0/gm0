@@ -208,28 +208,26 @@ Gamepad feedback (i.e. rumble and LED control) can be a helpful way for robots t
 
    .. tab-item:: Logitech F310
 
-      * Rumble: none
-      * LED Control: none
+      - Rumble: none
+      - LED Control: none
 
 
    .. tab-item:: Xbox 360
 
-      * Rumble: large (whomp whomp) and small (bzzz)
-      * LED Control: none
+      - Rumble: large (whomp whomp) and small (bzzz)
+      - LED Control: none
 
    .. tab-item:: DualShock4 (PS4)
 
-      * Rumble: large (whomp whomp) and small (bzzz)
-      * LED Control: control of RGB lightbar (solid color or pattern)
+      - Rumble: large (whomp whomp) and small (bzzz)
+      - LED Control: control of RGB lightbar (solid color or pattern)
 
    .. tab-item:: EtPark
 
-      * Rumble: contains both left and right rumble motors, but both seem to be only small weight (bzzz)
-      * LED Control: control of RGB LED (solid color or pattern). LED is fairly small and dim and may not be a good choice.
+      - Rumble: contains both left and right rumble motors, but both seem to be only small weight (bzzz)
+      - LED Control: control of RGB LED (solid color or pattern). LED is fairly small and dim and may not be a good choice.
 
-.. tip::
-
-     Gamepad feedback can be used to alert drivers of: start of endgame, intake loaded, automatic aligment complete, etc.
+.. tip:: Gamepad feedback can be used to alert drivers of: start of endgame, intake loaded, automatic aligment complete, etc.
 
 
 Rumble
@@ -239,12 +237,10 @@ The SDK provides both a simple and more complex API for controlling rumble accor
 
 .. note::
 
-     * Rumble power is specified as a floating-point value in the range [0.0, 1.0].
-     * Rumble duration is specified in milliseconds as an integer. The constant ``Gamepad.RUMBLE_DURATION_CONTINUOUS`` may be used to indicate that the rumble should continue until another rumble action is commanded.
+   - Rumble power is specified as a floating-point value in the range [0.0, 1.0].
+   - Rumble duration is specified in milliseconds as an integer. The constant ``Gamepad.RUMBLE_DURATION_CONTINUOUS`` may be used to indicate that the rumble should continue until another rumble action is commanded.
 
-.. note::
-
-    All rumble actions are completed `asynchronously;` i.e. the function calls will return immediately. Any call to a rumble API will immediately displace any currently running rumble action. That is, if you command a gamepad to rumble for 750ms and then immediately command a rumble for 250ms, the gamepad will rumble for 250ms from the time the second command was issued.
+.. note:: All rumble actions are completed asynchronously; i.e. the function calls will return immediately. Any call to a rumble API will immediately displace any currently running rumble action. That is, if you command a gamepad to rumble for 750ms and then immediately command a rumble for 250ms, the gamepad will rumble for 250ms from the time the second command was issued.
 
 Simple API
 ~~~~~~~~~~
@@ -253,7 +249,7 @@ The simplest way to command rumble: rumble motor 1 at 100% power for a specified
 
 .. code-block::
 
-    gamepad1.rumble(int durationMs);
+   gamepad1.rumble(int durationMs);
 
 If control over both rumble motors and rumble intensity is desried:
 
@@ -265,7 +261,7 @@ To make a gamepad rumble for a certain number of "blips" (the notion of what a "
 
 .. code-block::
 
-    gamepad1.rumbleBlips(int numBlips);
+   gamepad1.rumbleBlips(int numBlips);
 
 
 Helper functions:
@@ -286,39 +282,37 @@ Using an anonymous instance of the builder class is the cleanest way to construc
 
 .. code-block::
 
-    Gamepad.RumbleEffect effect = new Gamepad.RumbleEffect.Builder()
-                .addStep(0.0, 1.0, 500)  //  Rumble right motor 100% for 500 mSec
-                .addStep(0.0, 0.0, 300)  //  Pause for 300 mSec
-                .addStep(1.0, 0.0, 250)  //  Rumble left motor 100% for 250 mSec
-                .addStep(0.0, 0.0, 250)  //  Pause for 250 mSec
-                .addStep(1.0, 0.0, 250)  //  Rumble left motor 100% for 250 mSec
-                .build();
+   Gamepad.RumbleEffect effect = new Gamepad.RumbleEffect.Builder()
+          .addStep(0.0, 1.0, 500)  //  Rumble right motor 100% for 500 mSec
+          .addStep(0.0, 0.0, 300)  //  Pause for 300 mSec
+          .addStep(1.0, 0.0, 250)  //  Rumble left motor 100% for 250 mSec
+          .addStep(0.0, 0.0, 250)  //  Pause for 250 mSec
+          .addStep(1.0, 0.0, 250)  //  Rumble left motor 100% for 250 mSec
+          .build();
 
 Once a ``RumbleEffect`` has been created, it can be sent to a gamepad by calling:
 
 .. code-block::
 
-    gamepad1.runRumbleEffect(effect);
+   gamepad1.runRumbleEffect(effect);
 
 LED Control
 ^^^^^^^^^^^
 
 .. note::
 
-     * RGB LED component (i.e. red, green, blue) intensity is specified as a floating-point value in the range [0.0, 1.0].
-     * LED duration is specified in milliseconds as an integer. The constant ``Gamepad.LED_DURATION_CONTINUOUS`` may be used to indicate that the LED should remain the specified color until another command is issued.
+    - RGB LED component (i.e. red, green, blue) intensity is specified as a floating-point value in the range [0.0, 1.0].
+    - LED duration is specified in milliseconds as an integer. The constant ``Gamepad.LED_DURATION_CONTINUOUS`` may be used to indicate that the LED should remain the specified color until another command is issued.
 
 
-.. note::
-
-    All LED actions are completed `asynchronously;` i.e. the function calls will return immediately. Any call to an LED API will immediately displace any currently running LED action. That is, if you command the LED green for 750ms and then immediately command purple for 250ms, the LED will light purple for 250ms from the time the second command was issued.
+.. note:: All LED actions are completed `asynchronously;` i.e. the function calls will return immediately. Any call to an LED API will immediately displace any currently running LED action. That is, if you command the LED green for 750ms and then immediately command purple for 250ms, the LED will light purple for 250ms from the time the second command was issued.
 
 
 To set the LED color for a fixed duration:
 
 .. code-block::
 
-    gamepad1.setLedColor(double r, double g, double b, int durationMs);
+   gamepad1.setLedColor(double r, double g, double b, int durationMs);
 
 To create more advanced LED behavior, an ``LedEffect`` may be created, which is composed of "Steps" which specify a color and the duration for which to maintain it. When a gamepad is commanded to run an ``LedEffect``, it will perform each of the "Steps" in series.
 
@@ -328,15 +322,15 @@ Using an anonymous instance of the builder class is the cleanest way to construc
 
 .. code-block::
 
-        Gamepad.LedEffect rgbEffect = new Gamepad.LedEffect.Builder()
-                .addStep(1, 0, 0, 250) // Show red for 250ms
-                .addStep(0, 1, 0, 250) // Show green for 250ms
-                .addStep(0, 0, 1, 250) // Show blue for 250ms
-                .addStep(1, 1, 1, 250) // Show white for 250ms
-                .build();
+   Gamepad.LedEffect rgbEffect = new Gamepad.LedEffect.Builder()
+          .addStep(1, 0, 0, 250) // Show red for 250ms
+          .addStep(0, 1, 0, 250) // Show green for 250ms
+          .addStep(0, 0, 1, 250) // Show blue for 250ms
+          .addStep(1, 1, 1, 250) // Show white for 250ms
+          .build();
 
 Once an ``LedEffect`` has been created, it can be sent to a gamepad by calling:
 
 .. code-block::
 
-    gamepad1.runLedEffect(rgbEffect);
+   gamepad1.runLedEffect(rgbEffect);
