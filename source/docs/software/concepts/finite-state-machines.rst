@@ -19,36 +19,38 @@ When first learning about FSMs, it is quite common for programmers to try and us
 .. code:: java
 
    while (opModeIsActive()) {
-      switch (state) {
-      case DETECT_SKYSTONE:
-         // skystone detection code here
-         int position = detectSkystone();
+       switch (state) {
+           case DETECT_SKYSTONE:
+               // skystone detection code here
+               int position = detectSkystone();
 
-         if (position == 0) {
-           state = SKYSTONE_POS_0;
-         } else if (position == 1) {
-           state = SKYSTONE_POS_1;
-         } else {
-           state = SKYSTONE_POS_2;
-         }
-         break;
-      case SKYSTONE_POS_0:
-         // skystone position 0 here
-         doSkystone(0);
-         state = MOVE_FOUNDATION;
-         break;
-      case SKYSTONE_POS_1:
-      case SKYSTONE_POS_2:
-         // etc etc
-         break;
-      case MOVE_FOUNDATION:
-         // foundation move code
-         state = PARK;
-         break;
-      case PARK:
-         // park the bot
-         break;
-      }
+               if (position == 0) {
+                   state = SKYSTONE_POS_0;
+               }
+               else if (position == 1) {
+                   state = SKYSTONE_POS_1;
+               }
+               else {
+                   state = SKYSTONE_POS_2;
+               }
+               break;
+           case SKYSTONE_POS_0:
+               // skystone position 0 here
+               doSkystone(0);
+               state = MOVE_FOUNDATION;
+               break;
+           case SKYSTONE_POS_1:
+           case SKYSTONE_POS_2:
+               // etc etc
+               break;
+           case MOVE_FOUNDATION:
+               // foundation move code
+               state = PARK;
+               break;
+           case PARK:
+               // park the bot
+               break;
+        }
    }
 
 This however does not really have any benefits compared to if the programmer had simply put each of the code's segments into functions, and executed them in order. In fact, often times, programmers will structure their code like this instead of splitting their code up into functions. The result is an autonomous that's more difficult to debug, and ultimately harder to fix on the fly during a competition or other time crunch.
