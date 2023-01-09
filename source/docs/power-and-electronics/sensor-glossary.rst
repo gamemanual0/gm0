@@ -14,8 +14,6 @@ Encoders/Potentiometers
       - REV Through Bore Encoder (`REV-11-1271 <https://www.revrobotics.com/rev-11-1271/>`_). It has absolute support but over PWM, which is inaccessible within the FTC control system.
       - E4T (`am-3132 <https://www.andymark.com/products/e4t-oem-miniature-optical-encoder-kit>`_)
       - Generic (`Sparkfun Rotary Encoder <https://www.sparkfun.com/products/9117>`_)
-   - Both
-      - `Redux Through Bore Encoder <https://axon-robotics.com/products/redux-encoder>`_
 - Positional
    - Linear Potentiometers Slide Pot (`Sparkfun Slide Pot <https://www.sparkfun.com/products/9119>`_)
 
