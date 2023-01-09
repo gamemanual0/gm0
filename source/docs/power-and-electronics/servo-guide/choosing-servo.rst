@@ -90,7 +90,7 @@ A mid-priced Hitec :term:`servo <Servo>` is the HS 485-HB/488-HB servo, with Kar
 
 Where Hitec really shines is the high end market. If your budget is over $100, you can get into some very powerful Hitec :term:`servos <Servo>`. Most have titanium :term:`gears <Gear>` and are programmable, so you can dial in the performance and range to exactly what you need.
 
-Axon Robotics, a relatively new company, offers programmable, titanium-geared servos in the $75+ range. Being designed with FTC applications in mind, they offer some unique features such as absolute encoder output for their MINI+ and MAX+ servos.
+Axon Robotics, a relatively new company, offers programmable, titanium-geared servos in the $75+ range.
 
 The last big player in the :term:`servo <Servo>` market in FTC is Savox, which produces great mid-high range :term:`servos <Servo>` (think $60-$100+). They are made with titanium :term:`gears <Gear>` (close to bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly brushless and coreless, so they do tend to scream a little under load, but they’re definitely worth it if your budget allows for it.
 

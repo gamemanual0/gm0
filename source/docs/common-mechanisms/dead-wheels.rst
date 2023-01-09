@@ -67,7 +67,7 @@ A lot of the localization done in software relies on readings from encoders. :re
 
 Encoders are plugged into the JST-PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
 
-If one chooses to design dead wheels, there are only three recommended encoders that one should use for FTC: REV Through-Bore Encoders, Redux Through Bore Encoders, and U.S. Digital S4T Encoders.
+If one chooses to design dead wheels, there are only two recommended encoders that one should use for FTC: REV Through-Bore Encoders and U.S. Digital S4T Encoders.
 
 REV Through-Bore
 ^^^^^^^^^^^^^^^^
@@ -96,28 +96,6 @@ Often short-handed to "REVcoders" or "revcoders," the `REV Through-Bore encoders
 - Odd mounting points
 
 .. note:: The Through-Bore encoders have a very high CPR (8k). The REV Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 4 rotations a second (32k / 8k = 4) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
-
-Redux Through Bore Encoder
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The `Redux Through Bore Encoder <https://axon-robotics.com/products/redux-encoder>`_ is a relatively new (and therefore less-tested) option compared to REV Through-Bore Encoders, however are cheaper and share many of the same benefits.
-
-**Advantages:**
-
-- Through-bore design is very robust and easy to design with
-- Cheaper than REV Through-Bores
-- High CPR
-- Easy Wiring
-- Smaller than REV Through-Bore encoders
-- goBILDA-compatible mounting
-- 12 mm REX Bore
-
-**Disadvantages:**
-
-- Less tested than REV Through-Bores
-- Still quite large compared to nonthrough-bore options
-
-.. note:: These encoders have a very high CPR (4k). The REV Hub transmits velocity in a 16-bit signed integer. This means it can only communicate a maximum value of 2^15 (which is 32768). Thus, it only takes 8 rotations a second (32k / 4k = 8) for the velocity value on the REV Hub to experience an `integer overflow <https://en.wikipedia.org/wiki/Integer_overflow?oldformat=true>`_. This is primarily a concern when dealing with motion profiling. The popular, existing tools (Road Runner and FTCLib) have `mechanisms for dealing with this issue <https://github.com/acmerobotics/road-runner-quickstart/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java>`_ so this is not a concern and should not sway your design decision. Just keep this detail in mind once you start programming.
 
 U.S. Digital S4T
 ^^^^^^^^^^^^^^^^

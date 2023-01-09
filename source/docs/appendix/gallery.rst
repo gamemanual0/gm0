@@ -64,7 +64,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 - `Technical Binder <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__
 - `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__
-- `Animation <https://drive.google.com/file/d/1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr/view?usp=drive_open>`__
 
 14270 Quantum Robotics
 ^^^^^^^^^^^^^^^^^^^^^^
