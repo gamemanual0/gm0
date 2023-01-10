@@ -64,7 +64,8 @@ mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
 # Disable following anchors in URLS for linkcheck
 linkcheck_ignore = [
     r".*andymark.com.*",
-    r".*canva.com.*"
+    r".*canva.com.*",
+    r".*ftconshape.com",
 ]
 
 linkcheck_anchors = False
