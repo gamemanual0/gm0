@@ -133,9 +133,11 @@ Some common types of exceptions include:
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK performs an "emergency stop" routine when an exception is thrown and it's not handled properly (except for InterruptedExceptions and some other internal special cases, since these simply cause the OpMode to be ended), this routine consists of showing the error message, abrouptly ending the OpMode and restarting the Robot Controller application.
+Except for InterruptedExceptions and some other internal special cases, which simply cause the OpMode to end, the FTC SDK performs and "emergency stop" routine when an exception is thrown and not handled properly. This halts the OpMode and displays the full stacktrace on screen. The stacktrace can also be viewed through :ref:`logcat` when using Android Studio.
 
-This behavior can be a big problem during competition matches, so it's generally a good idea to debug all OpModes extensively before any official match. Reading the SDK output error messages from the Driver Station or the Robot Controller apps alone isn't very helpful since they're very short, but logcat can help in these cases since it provides full stack traces with line numbers telling where the error happened in your OpMode. For further information check the :ref:`logcat section <logcat>` in the :doc:`Using Android Studio <using-android-studio>` page.
+.. note:: Before SDK 8.0, only the first line of the error would be displayed and selecting "Restart Robot" from the menu would be required before running an OpMode again.
+
+It's generally a good idea to debug all OpModes extensively before any official match, as these exceptions are disruptive.
 
 .. stuck in start loop stop:
 
