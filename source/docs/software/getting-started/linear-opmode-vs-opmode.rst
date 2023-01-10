@@ -6,8 +6,6 @@ There are two OpMode classes within the FTC SDK: ``OpMode`` and ``LinearOpMode``
 LinearOpMode Methods
 --------------------
 
-.. note:: LinearOpMode is generally preferred due to OpMode inserting 5 ms delays if the user's loop takes less than 1 ms as well as being prone to random delays.
-
 - ``runOpMode()``: Code inside this method will run exactly once after you press the INIT button. This is where you should put all code for the OpMode.
 - ``waitForStart()``: This method pauses the Op-Mode until you press the START button on the driver station.
 - ``isStarted()``: returns ``true`` if the START button has been pressed, otherwise it returns ``false``.
