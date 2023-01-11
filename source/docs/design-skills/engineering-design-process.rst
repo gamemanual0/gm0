@@ -32,11 +32,11 @@ In general, the design process contains these steps; however, every team will mo
 - Specify requirements: What are the necessities for your proposed solution?
 - Brainstorm/CAD Design: Draw or sketch a prototype on paper or in CAD.
 - Prototype/Experiment: Put a first design together using physical materials.
-- Test: Ensure you thoroughly test every part of your prototype to detect. flaws.
+- Test: Ensure you thoroughly test every part of your prototype to detect flaws.
 - Analyze results: Examine what you learned from your tests to iterate successively.
 - Final implementation: Polish and solidify a final design that won’t change.
 
-As an example, let’s look at an imaginary team building a drivetrain for Rover Ruckus (RR2), which was 2018-2019’s game. In RR2, there was a crater, which was about 3” tall, and could be traversed. In that year’s game, there were two main options: traverse said crater, or not traverse it, and instead reach over with an arm.
+As an example, let’s look at an imaginary team building a drivetrain for Rover Ruckus (RR2), which was 2018-2019’s game. In RR2, there was a crater, which was about 3” tall, and could be traversed. In that year’s game, there were two main options: traverse said crater, or not traverse it and instead reach over with an arm.
 
 The team must first specify requirements for the drivetrain. One of the most important aspects of a drivetrain is maneuverability. Another requirement could be speed, traction, reliability, etc. From the team’s specified requirements, they would now look at drivetrains that fit their requirements. If the team wanted to traverse the crater, then a 4WD or 6WD would be an optimal design. If they did not need to traverse the crater, many options are still on the table such as the holonomic drivetrains.
 
@@ -48,4 +48,4 @@ Next, analyze results and iterate. If, for example, there was too little clearan
 
 .. note:: **It often takes multiple iterations to get things right, so don’t be discouraged if your second or even third attempt doesn’t perform as well as you think it will**. Many teams have 10+ iterations of intake designs in order to refine and hone down their design to be optimally efficient. While that many tries isn’t recommended for new teams, don’t be afraid to modify *one factor* at a time to isolate and solve problems.
 
-Your final implementation could be just an upgraded prototype, or if you had used subpar/scrap materials for a prototype, you could change them out for durable ones.
+Your final implementation could be just an upgraded prototype, or, if you had used subpar/scrap materials for a prototype, you could change them out for durable ones.

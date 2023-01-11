@@ -133,7 +133,7 @@ Some common types of exceptions include:
 How the SDK handles exceptions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Except for InterruptedExceptions and some other internal special cases, which simply cause the OpMode to end, the FTC SDK performs and "emergency stop" routine when an exception is thrown and not handled properly. This halts the OpMode and displays the full stacktrace on screen. The stacktrace can also be viewed through :ref:`logcat` when using Android Studio.
+Except for InterruptedExceptions and some other internal special cases, which simply cause the OpMode to end, the FTC SDK performs an "emergency stop" routine when an exception is thrown and not handled properly. This halts the OpMode and displays the full stacktrace on screen. The stacktrace can also be viewed through :ref:`logcat` when using Android Studio.
 
 .. note:: Before SDK 8.0, only the first line of the error would be displayed and selecting "Restart Robot" from the menu would be required before running an OpMode again.
 
