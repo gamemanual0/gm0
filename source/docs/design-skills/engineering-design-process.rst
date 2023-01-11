@@ -36,7 +36,7 @@ In general, the design process contains these steps; however, every team will mo
 - Analyze results: Examine what you learned from your tests to iterate successively.
 - Final implementation: Polish and solidify a final design that won’t change.
 
-As an example, let’s look at an imaginary team building a drivetrain for Rover Ruckus (RR2), which was 2018-2019’s game. In RR2, there was a crater, which was about 3” tall, and could be traversed. In that year’s game, there were two main options: traverse said crater, or not traverse it and instead reach over with an arm.
+As an example, let’s look at an imaginary team building a drivetrain for Rover Ruckus (RR2), which was 2018-2019’s game. In RR2, there was a crater, which was about 3" tall, and could be traversed. In that year’s game, there were two main options: traverse said crater, or not traverse it and instead reach over with an arm.
 
 The team must first specify requirements for the drivetrain. One of the most important aspects of a drivetrain is maneuverability. Another requirement could be speed, traction, reliability, etc. From the team’s specified requirements, they would now look at drivetrains that fit their requirements. If the team wanted to traverse the crater, then a 4WD or 6WD would be an optimal design. If they did not need to traverse the crater, many options are still on the table such as the holonomic drivetrains.
 
