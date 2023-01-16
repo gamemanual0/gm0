@@ -312,7 +312,7 @@ Putting this all together with our previous testing program, we get
                         telemetry.addData("Encoder Position", position);
                         telemetry.addData("Encoder Revolutions", revolutions);
                         telemetry.addData("Encoder Angle (Degrees)", angle);
-                        telemetry.addData("Encoder Angle - Normalized (Degrees)", angle_normalized);
+                        telemetry.addData("Encoder Angle - Normalized (Degrees)", angleNormalized);
                         telemetry.addData("Linear Distance", distance);
                         telemetry.update();
                   }
