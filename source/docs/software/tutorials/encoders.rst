@@ -304,7 +304,7 @@ Putting this all together with our previous testing program, we get
                         double revolutions = position/CPR;
 
                         double angle = revolutions * 360;
-                        double angle_normalized = angle % 360;
+                        double angleNormalized = angle % 360;
 
                         double distance = revolutions * circumference;
 
