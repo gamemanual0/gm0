@@ -5,7 +5,7 @@ What Are Encoders?
 ------------------
 Very commonly in FTC, you want to know where something is. Whether that is how many times your drivetrain wheel has rotated, what angle your arm is at, or how far your string slides have gone, rotational encoders can help you. In FTC, an encoder refers to any sensor that tracks the rotational angle of a mechanism.
 
-There are generally two types of encoders used in FTC, relative encoders and absolute encoders. This tutorial only covers relative encoders, the most common type of encoder in FTC.
+There are two types of encoders commonly used in FTC, relative and absolute encoders. Relative encoders are the ones covered here as they are the more common type.
 
 Relative Encoders
 ^^^^^^^^^^^^^^^^^
