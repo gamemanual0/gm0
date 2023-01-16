@@ -1,5 +1,5 @@
-Programming Tutorial - Encoders
-===============================
+Encoders
+========
 
 What Are Encoders?
 ------------------
