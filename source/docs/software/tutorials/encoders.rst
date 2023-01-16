@@ -11,7 +11,7 @@ Relative Encoders
 ^^^^^^^^^^^^^^^^^
 Ranging from the built in encoder in every FTC legal motor to common external encoders like the REV Through Bore encoder, these encoders track the relative position of the shaft or mechanism they are attached to. **What this means is that the position output is relative to the initial position at robot power on, meaning position information is lost between power cycles**.
 
-.. tip:: Relative encoders don't necessarily start at 0 at the beginning of every OpMode! They can start at arbitrary, or random, values! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of the opmode (see below)
+.. tip:: Relative encoders don't reset to zero at the beginning of OpModes! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of an OpMode (see below).
 
 All relative encoders in FTC use the "Quadrature" protocol to send position information to the expansion hub. As a result, relative encoders must be plugged into the encoder ports located near the motor ports in order to function.
 
