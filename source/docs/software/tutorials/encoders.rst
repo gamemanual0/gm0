@@ -38,7 +38,7 @@ In FTC software, motor encoders and motors are accessed by the same motor object
 
       .. code-block::
 
-            double position = motor.getCurrentPosition();
+         int position = motor.getCurrentPosition();
 
    .. tab-item:: Blocks
       :sync: blocks
