@@ -224,7 +224,7 @@ Putting it all together, we get the following testing program.
                         telemetry.addData("Encoder Position", position);
                         telemetry.addData("Encoder Revolutions", revolutions);
                         telemetry.addData("Encoder Angle (Degrees)", angle);
-                        telemetry.addData("Encoder Angle - Normalized (Degrees)", angle_normalized);
+                        telemetry.addData("Encoder Angle - Normalized (Degrees)", angleNormalized);
                         telemetry.update();
                     }
                 }
