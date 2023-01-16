@@ -300,7 +300,7 @@ Putting this all together with our previous testing program, we get
                         double diameter = 1.0; //Replace with your object's diameter
                         double circumference = Math.PI * diameter;
 
-                        double position = motor.getCurrentPosition();
+                        int position = motor.getCurrentPosition();
                         double revolutions = position/CPR;
 
                         double angle = revolutions * 360;
