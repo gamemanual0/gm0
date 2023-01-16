@@ -237,7 +237,8 @@ Putting it all together, we get the following testing program.
          :width: 45em
 
 Tracking Wheels and Spools
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Up to this point, we have mostly been working with motors rotating something. However, many mechanisms in FTC are linear, and it can be desirable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
 
 Be careful when selecting your diameter. For wheels, it is just the outer diameter of the wheel, but for spools, it is the inner diameter of the spool, where the string rests. For chain and belts, it is the "pitch diameter" of the sprocket or pulley.
