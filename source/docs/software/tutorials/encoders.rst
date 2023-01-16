@@ -13,7 +13,7 @@ Ranging from the built in encoder in every FTC legal motor to common external en
 
 .. tip:: Relative encoders don't reset to zero at the beginning of OpModes! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of an OpMode (see below).
 
-All relative encoders in FTC use the "Quadrature" protocol to send position information to the expansion hub. As a result, relative encoders must be plugged into the encoder ports located near the motor ports in order to function.
+All relative encoders in FTC use the "quadrature" protocol to send position information to the expansion hub. As a result, relative encoders must be plugged into the encoder ports located near the motor ports in order to function.
 
 Terminology
 -----------
