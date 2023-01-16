@@ -21,7 +21,7 @@ Terminology
 
 **Counts Per Revolution**: The number of "counts" that an encoder reports after it has gone exactly one revolution. This value is commonly used to convert encoder "counts" into degrees or revolutions.
 
-.. warning:: Quadrature terminology can get very confusing! Some encoders may report "pulses per revolution." One pulse can either equal 1 or 4 counts. The best way to check is to plug the encoder into the REV Hub and turn it 1 full revolution, then check what it reports.
+.. warning:: Quadrature terminology can get very confusing! Some encoders may report "pulses per revolution." One pulse can either equal 1 or 4 counts. Other encoders may report "cycles per revolution", which confusingly have the same acronym as counts per revolution. The best way to check is to plug the encoder into the REV Hub and turn it 1 full revolution, then check what it reports.
 
 Programming Encoders
 --------------------
