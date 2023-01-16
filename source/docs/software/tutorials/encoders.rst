@@ -55,8 +55,8 @@ While convenient if one uses the built-in motor encoder, this can easily become 
 
       .. code-block::
 
-            DcMotor motor = hardwareMap.dcmotor.get("Arm Motor");
-            double position = motor.getCurrentPosition();
+         DcMotor motor = hardwareMap.dcmotor.get("Arm Motor");
+         double position = motor.getCurrentPosition();
 
    .. tab-item:: Blocks
       :sync: blocks
