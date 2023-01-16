@@ -29,7 +29,7 @@ Programming Encoders
 Reading Encoders
 ^^^^^^^^^^^^^^^^
 
-In FTC software, motor encoders and motors are accessed by the same motor object. What this means is that we can access an encoder's position like so:
+In FTC software, quadrature encoders and motors are accessed with the same motor object. What this means is that we can access an encoder's position like so:
 
 .. tab-set::
 
