@@ -9,7 +9,7 @@ There are two types of encoders commonly used in FTC, relative and absolute enco
 
 Relative Encoders
 ^^^^^^^^^^^^^^^^^
-These encoders are the most common type of encoder in FTC. Ranging from the built in encoder in every FTC legal motor to common external encoders like the REV Through Bore encoder, these encoders track the relative position of the shaft or mechanism they are attached to. **What this means is that the position tracked is relative to the position at the start of the opmode, meaning it will not remember its position between opmode runs**.
+Ranging from the built in encoder in every FTC legal motor to common external encoders like the REV Through Bore encoder, these encoders track the relative position of the shaft or mechanism they are attached to. **What this means is that the position output is relative to the initial position at robot power on, meaning position information is lost between power cycles**.
 
 .. tip:: Relative encoders don't necessarily start at 0 at the beginning of every OpMode! They can start at arbitrary, or random, values! You can use STOP_AND_RESET_ENCODERS to ensure that your encoders are always at zero at the beginning of the opmode (see below)
 
