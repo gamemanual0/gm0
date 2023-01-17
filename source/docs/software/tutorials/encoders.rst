@@ -159,7 +159,7 @@ In the following example, we divide the encoder position by its counts per revol
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-There is one more number we can get: the angle of the shaft. Calculating this number is very simple. We can multiply the number of rotations by 360 (since there are 360 degrees in one revolution). You might notice that this number can go above 360 as the shaft rotates multiple times. As such, we introduce angle_normalized, which will always be between 0 and 360.
+There is one more number we can get: the angle of the shaft. Calculating this number is very simple. We can multiply the number of rotations by 360 (since there are 360 degrees in one revolution). You might notice that this number can go above 360 as the shaft rotates multiple times. As such, we introduce angleNormalized, which will always be between 0 and 360.
 
 .. tab-set::
 
