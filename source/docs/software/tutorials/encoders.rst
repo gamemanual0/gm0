@@ -170,7 +170,7 @@ There is one more number we can get: the angle of the shaft. Calculating this nu
 
             double CPR = [Your Counts Per Revolution Here];
 
-            double position = motor.getCurrentPosition();
+            int position = motor.getCurrentPosition();
             double revolutions = position/CPR;
 
             double angle = revolutions * 360;
