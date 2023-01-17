@@ -84,7 +84,7 @@ Great! We now have the relative position of our encoder, reported in the number 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
          :width: 45em
 
-As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It just tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, just know that it turns the motor back on so we can use it after the encoder is reset.
+As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, just know that it turns the motor back on so we can use it after the encoder is reset.
 
 Now we have our position (in counts) relative to the starting angle of the encoder. We can make a quick program to see this in action. Here, we use a motor encoder plugged into a port named "Arm Motor" in the hardware configuration.
 
