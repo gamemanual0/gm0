@@ -73,10 +73,10 @@ Great! We now have the relative position of our encoder, reported in the number 
 
       .. code-block::
 
-            DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
-            motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER); //Reset the motor encoder
-            motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER); //Turn the motor back on when we are done
-            double position = motor.getCurrentPosition();
+         DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
+         motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER); //Reset the motor encoder
+         motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER); //Turn the motor back on when we are done
+         int position = motor.getCurrentPosition();
 
    .. tab-item:: Blocks
       :sync: blocks
