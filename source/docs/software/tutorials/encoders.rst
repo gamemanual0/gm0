@@ -117,7 +117,7 @@ Now we have our position (in counts) relative to the starting angle of the encod
 
                 while (opModeIsActive()) {
                     //Get the current position of the motor
-                    double position = motor.getCurrentPosition();
+                    int position = motor.getCurrentPosition();
 
                     //Show the position of the motor on telemetry
                     telemetry.addData("Encoder Position", position);
