@@ -218,7 +218,7 @@ Putting it all together, we get the following testing program.
                         double revolutions = position/CPR;
 
                         double angle = revolutions * 360;
-                        double angle_normalized = angle % 360;
+                        double angleNormalized = angle % 360;
 
                         //Show the position of the motor on telemetry
                         telemetry.addData("Encoder Position", position);
