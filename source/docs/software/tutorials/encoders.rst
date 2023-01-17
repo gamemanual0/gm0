@@ -174,7 +174,7 @@ There is one more number we can get: the angle of the shaft. Calculating this nu
             double revolutions = position/CPR;
 
             double angle = revolutions * 360;
-            double angle_normalized = angle % 360;
+            double angleNormalized = angle % 360;
    .. tab-item:: Blocks
       :sync: blocks
 
