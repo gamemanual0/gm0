@@ -150,7 +150,7 @@ In the following example, we divide the encoder position by its counts per revol
 
             double CPR = [Your Counts Per Revolution Here];
 
-            double position = motor.getCurrentPosition();
+            int position = motor.getCurrentPosition();
             double revolutions = position/CPR;
 
    .. tab-item:: Blocks
