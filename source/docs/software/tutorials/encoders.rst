@@ -214,7 +214,7 @@ Putting it all together, we get the following testing program.
                         //Get the current position of the motor
                         double CPR = [Your Counts Per Revolution Here];
 
-                        double position = motor.getCurrentPosition();
+                        int position = motor.getCurrentPosition();
                         double revolutions = position/CPR;
 
                         double angle = revolutions * 360;
