@@ -227,28 +227,28 @@ Robot-Centric Final Sample Code
 Field Centric
 -------------
 
-With field centric mecanum drive, the translation joystick controls the direction of the robot relative to the field, as opposed to the robot frame. This is preferred by some drivers, and make some evasive action easier, as one can spin while translating in a given direction easier. To do this, the x/y components of the joysticks are rotated by the robot's angle, which is given by the IMU.
+With field centric mecanum drive, the translation joystick controls the direction of the robot relative to the field, as opposed to the robot frame. This is preferred by some drivers, and make some evasive action easier, as one can spin while translating in a given direction easier. To do this, the x/y components of the joysticks are rotated counter to the robot's angle, which is given by the IMU.
 
-There is a BNO055 IMU inside of Control Hubs (and older models of Expansion Hubs). Unlike most other hardware, it requires more than ``hardwareMap.get()`` to begin using it. Note, this is configured when creating a new configuration by default as ``imu``. There is an `FTC SDK sample on how to use the BNO055 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/aba72e566c381d65ba7b97ef4e5326b14881d4bc/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.java>`_. The way the BNO055 IMU will be initialized here is:
+There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unlike most other hardware, it requires more than ``hardwareMap.get()`` to begin using it. Note, this is configured when creating a new configuration by default as ``imu``. See the `FTC doc page covering the IMU interface and its parameters <https://ftc-docs.firstinspires.org/programming_resources/imu/imu.html>`_ for more information. The way the IMU will be initialized here is:
 
 .. code-block::
 
    // Retrieve the IMU from the hardware map
-   BNO055IMU imu = hardwareMap.get(BNO055IMU.class, "imu");
-   BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
-   // Technically this is the default, however specifying it is clearer
-   parameters.angleUnit = BNO055IMU.AngleUnit.RADIANS;
+   imu = hardwareMap.get(IMU.class, "imu");
+   // Adjust the orientation parameters to match your robot
+   IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
+           RevHubOrientationOnRobot.LogoFacingDirection.UP,
+           RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
    // Without this, data retrieving from the IMU throws an exception
    imu.initialize(parameters);
 
-The angle needs to be read every loop. The IMU returns heading with clockwise positive, while the following code needs counterclockwise positive, so its negative is taken.
+The angle needs to be read every loop.
 
 .. code-block::
 
-   // Read inverse IMU heading, as the IMU heading is CW positive
-   double botHeading = -imu.getAngularOrientation().firstAngle;
+   double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
-Then, the translation joystick values need to be rotated by the robot heading. The joystick values are a vector, and rotating a vector in 2D requires this formula (`proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
+Then, the translation joystick values need to be counterrotated by the robot heading. The IMU returns heading, however we need to rotate the movement counter to the robot's rotation, so its negative is taken. The joystick values are a vector, and rotating a vector in 2D requires this formula (`proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
 
 .. math::
 
@@ -257,17 +257,19 @@ Then, the translation joystick values need to be rotated by the robot heading. T
 
 .. code-block::
 
-   double rotX = x * Math.cos(botHeading) - y * Math.sin(botHeading);
-   double rotY = x * Math.sin(botHeading) + y * Math.cos(botHeading);
+   // Rotate the movement direction counter to the bot's rotation
+   double rotX = x * Math.cos(-botHeading) - y * Math.sin(-botHeading);
+   double rotY = x * Math.sin(-botHeading) + y * Math.cos(-botHeading);
 
 Then, these rotated values can be put into the mecanum kinematics shown earlier.
 
 .. code-block::
 
-   double frontLeftPower = rotY + rotX + turn;
-   double backLeftPower = rotY - rotX + turn;
-   double frontRightPower = rotY - rotX - turn;
-   double backRightPower = rotY + rotX - turn;
+   double denominator = Math.max(Math.abs(rotY) + Math.abs(rotX) + Math.abs(rx), 1);
+   double frontLeftPower = (rotY + rotX + rx) / denominator;
+   double backLeftPower = (rotY - rotX + rx) / denominator;
+   double frontRightPower = (rotY - rotX - rx) / denominator;
+   double backRightPower = (rotY + rotX - rx) / denominator;
 
 Field-Centric Final Sample Code
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -298,11 +300,12 @@ Field-Centric Final Sample Code
            motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
 
            // Retrieve the IMU from the hardware map
-           BNO055IMU imu = hardwareMap.get(BNO055IMU.class, "imu");
-           BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
-           // Technically this is the default, however specifying it is clearer
-           parameters.angleUnit = BNO055IMU.AngleUnit.RADIANS;
-           // Without this, data retrieving from the IMU throws an exception
+           imu = hardwareMap.get(IMU.class, "imu");
+           // Adjust the orientation parameters to match your robot
+           IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
+                   RevHubOrientationOnRobot.LogoFacingDirection.UP,
+                   RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
+           // Without this, retrieving data from the IMU throws an exception
            imu.initialize(parameters);
 
            waitForStart();
@@ -314,16 +317,16 @@ Field-Centric Final Sample Code
                double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
                double rx = gamepad1.right_stick_x;
 
-               // Read inverse IMU heading, as the IMU heading is CW positive
-               double botHeading = -imu.getAngularOrientation().firstAngle;
+               double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
-               double rotX = x * Math.cos(botHeading) - y * Math.sin(botHeading);
-               double rotY = x * Math.sin(botHeading) + y * Math.cos(botHeading);
+               // Rotate the movement direction counter to the bot's rotation
+               double rotX = x * Math.cos(-botHeading) - y * Math.sin(-botHeading);
+               double rotY = x * Math.sin(-botHeading) + y * Math.cos(-botHeading);
 
                // Denominator is the largest motor power (absolute value) or 1
                // This ensures all the powers maintain the same ratio, but only when
                // at least one is out of the range [-1, 1]
-               double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
+               double denominator = Math.max(Math.abs(rotY) + Math.abs(rotX) + Math.abs(rx), 1);
                double frontLeftPower = (rotY + rotX + rx) / denominator;
                double backLeftPower = (rotY - rotX + rx) / denominator;
                double frontRightPower = (rotY - rotX - rx) / denominator;
