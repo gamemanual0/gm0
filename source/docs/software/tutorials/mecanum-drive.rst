@@ -239,7 +239,7 @@ There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unl
    IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
            RevHubOrientationOnRobot.LogoFacingDirection.UP,
            RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
-   // Without this, data retrieving from the IMU throws an exception
+   // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
    imu.initialize(parameters);
 
 The angle needs to be read every loop.
@@ -305,7 +305,7 @@ Field-Centric Final Sample Code
            IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
                    RevHubOrientationOnRobot.LogoFacingDirection.UP,
                    RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
-           // Without this, retrieving data from the IMU throws an exception
+           // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
            imu.initialize(parameters);
 
            waitForStart();
