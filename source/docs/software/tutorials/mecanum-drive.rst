@@ -229,7 +229,7 @@ Field Centric
 
 With field centric mecanum drive, the translation joystick controls the direction of the robot relative to the field, as opposed to the robot frame. This is preferred by some drivers, and make some evasive action easier, as one can spin while translating in a given direction easier. To do this, the x/y components of the joysticks are rotated counter to the robot's angle, which is given by the IMU.
 
-There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unlike most other hardware, it requires more than ``hardwareMap.get()`` to begin using it. Note, this is configured when creating a new configuration by default as ``imu``. See the `FTC doc page covering the IMU interface and its parameters <https://ftc-docs.firstinspires.org/programming_resources/imu/imu.html>`_ for more information. The way the IMU will be initialized here is:
+There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unlike most other hardware, it is recommended to do more than ``hardwareMap.get()`` to begin using it. Note, this is configured when creating a new configuration by default as ``imu``. See the `FTC doc page covering the IMU interface and its parameters <https://ftc-docs.firstinspires.org/programming_resources/imu/imu.html>`_ for more information. The way the IMU will be initialized here is:
 
 .. code-block::
 
@@ -239,7 +239,7 @@ There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unl
    IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
            RevHubOrientationOnRobot.LogoFacingDirection.UP,
            RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
-   // Without this, data retrieving from the IMU throws an exception
+   // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
    imu.initialize(parameters);
 
 The angle needs to be read every loop.
@@ -305,7 +305,7 @@ Field-Centric Final Sample Code
            IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
                    RevHubOrientationOnRobot.LogoFacingDirection.UP,
                    RevHubOrientationOnRobot.UsbFacingDirection.FORWARD));
-           // Without this, retrieving data from the IMU throws an exception
+           // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
            imu.initialize(parameters);
 
            waitForStart();
