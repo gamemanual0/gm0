@@ -140,7 +140,7 @@ Every hardware call you make, (whether it be setting the power for a motor, sett
 
 .. note:: When using a Control Hub, you may see considerably faster hardware call times because the Control Hub uses a direct UART connection to the Lynx board instead of going through USB and a middle-man FTDI as happens when using a phone.
 
-These times may seem fast, but they add up quickly. Consider a control loop to drive forward for N encoder counts while maintaining heading using the IMU. This would require 5 normal hardware calls (4 set power + 1 read encoder) an an I2C call (IMU) which means that the loop cycle would take approximately 22ms to execute, and thus run at approximately 45Hz.
+These times may seem fast, but they add up quickly. Consider a control loop to drive forward for N encoder counts while maintaining heading using the IMU. This would require 5 normal hardware calls (4 set power + 1 read encoder) and an I2C call (IMU) which means that the loop cycle would take approximately 22ms to execute, and thus run at approximately 45Hz.
 
 This means that it is critical to minimize the amount of hardware calls you make in order to keep your control loops running fast. For instance, do not read a sensor more than once per loop. Instead, read it once and store the value to a variable if you need to use it again at other points in the same loop cycle.
 
