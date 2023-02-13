@@ -257,7 +257,7 @@ The angle needs to be read every loop. In addition to this, while the IMU keeps 
 
    double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
-Then, the translation joystick values need to be counterrotated by the robot heading. The IMU returns heading, however we need to rotate the movement counter to the robot's rotation, so its negative is taken. The joystick values are a vector, and rotating a vector in 2D requires this formula (``proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
+Then, the translation joystick values need to be counterrotated by the robot heading. The IMU returns heading, however we need to rotate the movement counter to the robot's rotation, so its negative is taken. The joystick values are a vector, and rotating a vector in 2D requires this formula (`proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
 
 .. math::
 
