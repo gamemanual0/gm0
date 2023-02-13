@@ -242,9 +242,16 @@ There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unl
    // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
    imu.initialize(parameters);
 
-The angle needs to be read every loop.
+The angle needs to be read every loop. In addition to this, while ``IMU`` does keep a consistent zero position between different OpModes (crucially, between autonomous and TeleOp), adding a bind to reset the angle is important as the zero can be lost from some types of disconnects and to have a way to counteract drift.
 
 .. code-block::
+
+   // This button choice was made so that it is hard to hit on accident,
+   // it can be freely changed based on preference.
+   // The equivalent button is start on Xbox-style controllers.
+   if (gamepad1.options) {
+       imu.resetYaw();
+   }
 
    double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
@@ -316,6 +323,13 @@ Field-Centric Final Sample Code
                double y = -gamepad1.left_stick_y; // Remember, this is reversed!
                double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
                double rx = gamepad1.right_stick_x;
+
+               // This button choice was made so that it is hard to hit on accident,
+               // it can be freely changed based on preference.
+               // The equivalent button is start on Xbox-style controllers.
+               if (gamepad1.options) {
+                   imu.resetYaw();
+               }
 
                double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
