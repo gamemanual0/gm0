@@ -242,7 +242,7 @@ There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unl
    // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
    imu.initialize(parameters);
 
-The angle needs to be read every loop. In addition to this, while the IMU keeps a consistent zero position between OpModes (crucially, between autonomous and teleop), adding a bind to reset the angle is important to counteract drift and because the zero can change due to some types of disconnects.
+The angle needs to be read every loop. In addition to this, while the IMU keeps a consistent zero position between OpModes (relevantly, including between autonomous and teleop), adding a bind to reset the angle is important to counteract drift and because the zero can change due to some types of disconnects.
 
 .. note:: ``BNO055`` objects will reset the IMU zero when ``initialize`` is called. The ``BNO055`` class is not recommended for new development. The ``IMU`` class does not have this behavior, and is the appropriate replacement as of SDK v8.1.
 
