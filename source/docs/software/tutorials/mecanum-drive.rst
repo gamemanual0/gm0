@@ -242,7 +242,9 @@ There is an IMU inside of Control Hubs (and older models of Expansion Hubs). Unl
    // Without this, the REV Hub's orientation is assumed to be logo up / USB forward
    imu.initialize(parameters);
 
-The angle needs to be read every loop. In addition to this, while ``IMU`` does keep a consistent zero position between different OpModes (crucially, between autonomous and TeleOp), adding a bind to reset the angle is important as the zero can be lost from some types of disconnects and to have a way to counteract drift.
+The angle needs to be read every loop. In addition to this, while the IMU keeps a consistent zero position between OpModes (crucially, between autonomous and teleop), adding a bind to reset the angle is important to counteract drift and because the zero can change due to some types of disconnects.
+
+.. note:: ``BNO055`` objects will reset the IMU zero when ``initialize`` is called. The ``BNO055`` class is not recommended for new development, the ``IMU`` class is the appropriate replacement as of SDK v8.1.
 
 .. code-block::
 
@@ -255,7 +257,7 @@ The angle needs to be read every loop. In addition to this, while ``IMU`` does k
 
    double botHeading = imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS);
 
-Then, the translation joystick values need to be counterrotated by the robot heading. The IMU returns heading, however we need to rotate the movement counter to the robot's rotation, so its negative is taken. The joystick values are a vector, and rotating a vector in 2D requires this formula (`proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
+Then, the translation joystick values need to be counterrotated by the robot heading. The IMU returns heading, however we need to rotate the movement counter to the robot's rotation, so its negative is taken. The joystick values are a vector, and rotating a vector in 2D requires this formula (``proved here <https://matthew-brett.github.io/teaching/rotation_2d.html>`_), where :math:`x_1` and :math:`y_1` are the components of the original vector, :math:`\beta` is the angle to rotate by, and :math:`x_2` and :math:`y_2` are the components of the resultant vector.
 
 .. math::
 
