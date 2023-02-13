@@ -199,7 +199,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
                        liftDump.setTargetPosition(DUMP_DEPOSIT);
 
                        liftTimer.reset();
-                       liftState = LiftState.DUMP_LIFT;
+                       liftState = LiftState.LIFT_DUMP;
                    }
                    break;
                case LiftState.LIFT_DUMP:
