@@ -9,7 +9,7 @@ Igus is a brand known and trusted by robotics teams and manufacturers, but their
 
 **We recommend the Viper Slides or MiSUMI slides for newer teams.** Viper Slides are cheaper and interface better with goBILDA products, while MiSUMI slides interface better with REV products. Viper slides are also available in a `complete kit <https://www.gobilda.com/2-stage-viper-slide-kit/>`_
 
-.. attention:: Drawer slides should be mounted oriented vertically, like in an actual drawer. They can be mounted horizontally, but this is not recommended as they will sag much more.
+.. attention:: Drawer slides should be mounted or oriented vertically. They can be mounted horizontally, but this is not recommended as they will sag much more.
 
 Listed below are the recommended drawer slides.
 
