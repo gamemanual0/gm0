@@ -58,7 +58,7 @@ There are a few quirks of laser cut parts that you should keep in mind when desi
 - Most laser cutting software does not account for the width of the laser beam when cutting. This means if you require precise outer dimensions or hole diameters, you need to manually offset your paths in CAD.
 
 **Taper**
-- As the lens in a laser focuses light, it naturally leaves in a cone shape. This leads to a beveled edge on parts. While this is usually not a problem for plates, it means pressfit non-flanged bearings may work their way out over time as they are squeezed harder at one side than another. You can also lase holes undersized and then drill or ream them out to their final dimension to achieve vertical walls.
+- As the lens in a laser cutter focuses light, it naturally creates a cone shaped beam. This leads to a beveled edge on parts. While this is usually not a problem for plates, it means pressfit non-flanged bearings may work their way out over time as they are squeezed harder at one side than another. One way to get around this is to lase holes undersized and then drill or ream them out to their final dimension to achieve vertical walls.
 
 Other Uses of Laser Cutting
 -------------------------------------
