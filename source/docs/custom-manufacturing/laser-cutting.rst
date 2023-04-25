@@ -15,7 +15,7 @@ In general, there are three types of laser cutters FTC teams may have access to:
 - These are typically enclosed machines, using a moving mirror to aim the light from a 30+ watt laser tube. These can cut wood and plastics, but can only mark metal. They can be very useful in FTC for custom parts.
 
 **Fiber**
-- These combine multiple laser diodes into a fiber optic cable and can cut metal. Desktop versions usually have a very limited working area, often just a couple inches. These are very expensive and few FTC teams have access to them.
+- These combine beams from multiple laser diodes into a fiber optic cable and can cut metal. Desktop versions usually have a very limited working area, often just a couple inches. These are very expensive and few FTC teams have access to them.
 
 .. warning:: These are generalizations, and are not always true. For example, some diode cutters can cut thin metals. For more information, always research your specific laser cutter.
 
@@ -27,7 +27,7 @@ As mentioned above, CO2 lasers – like those commonly available to FTC teams �
 - Most thin wood can be easily lasercut and is great for prototypes as well as light-duty parts. For more info see `this page <./materials-guide.html#plywood-and-mdf>`__. Please note that some woods - such as MDF - contain glues that release fumes when cut. Oily or resinous woods may also have a heightened risk of catching on fire.
 
 **Acrylic**
-- Acrylic is a very commonly used material for laser cutting. Due to its tendency to fracture under load, it mainly finds use on FTC bots as decorative plates or guides to funnel game elements. For more information on using acrylic in FTC, see `this page <./materials-guide.html#acrylic>`__
+- Acrylic is a very commonly used material for laser cutting. Due to its tendency to fracture under load, it mainly finds use on FTC bots as decorative plates or as guides to funnel game elements. For more information on using acrylic in FTC, see `this page <./materials-guide.html#acrylic>`__
 
 **Delrin**
 - Delrin, also known as acetal, can be safely cut on most CO2 lasers with proper ventilation. Laser cut Delrin can be used to make everything from motor mounts to linear slide inserts to whole drivetrain plates. More informarmation on delrin can be found `here <./materials-guide.html#delrin>`__.
@@ -44,7 +44,7 @@ There are some materials - mostly plastics - you should **NEVER** try cutting on
 - These will both melt instead of cutting cleanly.
 
 **Any unknown plastic**
-- If you don’t know what a plastic is, don’t take the risk of cutting it. It could potentially burn or release toxic gasses. Be careful as some different plastics, such as acrylic and polycarbonate can resemble each other.
+- If you don’t know what a plastic is, don’t take the risk of cutting it. It could potentially burn or release toxic gasses. Be careful, as some different plastics -- such as acrylic and polycarbonate -- can resemble each other.
 
 .. warning:: This is not an exhaustive list and you should always research materials to ensure they will be safe before cutting them.
 
