@@ -13,7 +13,7 @@ In general, there are three types of laser cutters FTC teams may have access to:
 
 **CO2**
 - These are typically enclosed machines, using a moving mirror to aim the light from a 30+ watt laser tube. These can cut wood and plastics, but can only mark metal. They can be very useful in FTC for custom parts.
-   
+
 **Fiber**
 - These combine beams from multiple laser diodes into a fiber optic cable and can cut metal. Desktop versions usually have a very limited working area, often just a couple inches. These are very expensive and few FTC teams have access to them.
 
@@ -63,6 +63,7 @@ There are a few quirks of laser cut parts that you should keep in mind when desi
    :alt: Side view of a laser-cut acrylic part, showing the taper
 
    Side view of a laser-cut acrylic part, showing the taper
+
 Other Uses of Laser Cutting
 -------------------------------------
 
