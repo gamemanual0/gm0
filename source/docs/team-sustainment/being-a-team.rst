@@ -60,3 +60,8 @@ Fostering a Safe Environment
 ----------------------------
 
 Your team should strive to be as inclusive as possible. Consider a partnership with the LGBTQ+ of FIRST and ensure your queer and gender non-conforming members feel comfortable in your team environment. Ensure other members are not making homophobic, sexist, and racist jokes, and educate them on why they should refrain from doing so. Ensure you are being actively mindful to not create a “boys club” culture where women are objectified and sidelined, and make sure every member feels comfortable in their position.
+
+Team Identity
+-------------
+
+FTC has put a larger emphasis on branding and team identity in recent seasons. Create a logo design for your team, and a corresponding style guide on fonts and colors to keep consistency when creating marketing materials. This will make it easier for you to design posters, flyers, t-shirts, stickers, and even branded plates for your robot!
