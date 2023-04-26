@@ -78,7 +78,7 @@ I personally would recommend the community team route, as it offers the most fle
 
 Find funding and create your team!
 ----------------------------------
-Ultimately, the way you fund your team is dependent on which team structure you use. 
+Ultimately, the way you fund your team is dependent on which team structure you use.
 
 - If you decide to run a school team, you should reach out to your superintendent, school board, and principal. Make sure to loop in a STEM teacher or two, and maybe even a curriculum administrator.
 - For home teams, pitch to your parents or guardians! They’ll probably be dealing with a majority of the headache anyways so be nice :)
@@ -99,7 +99,7 @@ Here’s a breakdown of a typical FTC season budget:
 - The goBILDA FTC Starter Kit, which is recommended to start you with basic hardware, will run you $600 (with the FTC discount). If you CAD design your robot in advance, you can go cheaper.
 - Extra money for sensors and servos - each can run you up to $100 each! Assuming 2 servos and 3 sensors, that’s $500.
 
-The above budget adds up to $3,000 in startup costs, and roughly $2,000 per year. You can definitely start a team on a budget much cheaper than this *(see #12806 Roboken in PowerPlay)*, but if you have the opportunity to pitch a budget, seize it! 
+The above budget adds up to $3,000 in startup costs, and roughly $2,000 per year. You can definitely start a team on a budget much cheaper than this *(see #12806 Roboken in PowerPlay)*, but if you have the opportunity to pitch a budget, seize it!
 
 If you are unable to achieve this amount of funding, you can make this budget more manageable through several methods:
 
