@@ -117,3 +117,4 @@ Index
    docs/useful-resources
    docs/appendix/index
    docs/contributing/index
+   docs/team-sustainment/index
