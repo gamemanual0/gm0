@@ -114,7 +114,7 @@ Index
    docs/power-and-electronics/index
    docs/software/index
    docs/awards/index
+   docs/team-sustainment/index
    docs/useful-resources
    docs/appendix/index
    docs/contributing/index
-   docs/team-sustainment/index

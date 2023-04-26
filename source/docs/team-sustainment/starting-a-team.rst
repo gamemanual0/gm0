@@ -1,7 +1,7 @@
 Starting a Team
 ===============
 
-So you want to start an FTC team… but have no clue how! Here’s a few tips on how to get up and running.
+So you want to start an FTC team… but have no clue how! Here’s a few tips on how to get up and running. This article covers recruiting members and mentors, structuring your team, and pitching your budget.
 
 Reach out locally to recruit members.
 -------------------------------------
@@ -19,9 +19,14 @@ It’s understandable if you have difficulty with this step, but it is criticall
 Now, to find mentors: reaching out to STEM teachers in your area is a great way to find interest, but you can also reach out to local businesses to see if any of their employees would be interested in lending a hand! (See the email guide for more tips.) You can utilize your network of new recruits to ease this process a little, and it’ll make it easier for your new mentors to mesh with the rest of the team. Receiving mentorship over text and video is generally less recommended, as in-person mentors can demonstrate mechanical concepts more efficiently.
 
 .. warning::
-    Teams are required to have 2 mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening.
+    Teams are required to have 2 mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
 
     Additionally, while parents and other family members can be helpful mentors in a pinch, it’s important to have outside mentorship so that your team can survive even after you graduate.
+
+Generally mentors fall into a few primary roles. Some mentors may be purely technical, offering advice on your robot and engineering documentation; some mentors focus on “soft skills” such as leadership, fundraising, marketing, and team logistics. Many mentors blur the lines between these roles, but some prefer to stick to one area or another.
+
+.. tip::
+    Don’t be afraid to involve mentors who aren’t self proclaimed as highly “technical”. They’re sometimes the best ones.
 
 Pick a comfortable structure for your team.
 -------------------------------------------
@@ -74,7 +79,7 @@ Disadvantages
 I personally would recommend the community team route, as it offers the most flexibility and impact potential. However, you should pick one that works best for what you want!
 
 .. tip::
-    Consider finding a local nonprofit before starting one. Many are happy to expand into STEM if you pitch it convincingly!
+    Consider finding a local nonprofit before starting one, which can greatly reduce the work and time compared to starting your own. Many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
 
 Find funding and create your team!
 ----------------------------------
@@ -84,22 +89,24 @@ Ultimately, the way you fund your team is dependent on which team structure you 
 - For home teams, pitch to your parents or guardians! They’ll probably be dealing with a majority of the headache anyways so be nice :)
 - Finally, if you’re pitching to a community nonprofit, make sure you highlight how FIRST will help the organization to grow. Offer to volunteer your and your teammates’ time to other STEM programs that the organization runs, and create a symbiotic relationship.
 
+All 3 pitches should follow a similar structure; the easiest and most efficient involves a slide deck presentation. Make sure you highlight the value proposition of starting an FTC team: educational experience, building future STEM professionals, increasing the potential of the area’s technology economy, etc. You may not think it’s important, but many decision-makers take these factors into account when deciding to approve your FTC team or not!
+
 .. tip::
     A value proposition in marketing is a concise statement of the benefits that a company is delivering to customers who buy its products or services. It serves as a declaration of intent, both inside the company and in the marketplace. - `Investopedia <https://www.investopedia.com/terms/v/valueproposition.asp/>`_.
-
-All 3 pitches should follow a similar structure; the easiest and most efficient involves a slide deck presentation. Make sure you highlight the value proposition of starting an FTC team: educational experience, building future STEM professionals, increasing the potential of the area’s technology economy, etc. You may not think it’s important, but many decision-makers take these factors into account when deciding to approve your FTC team or not!
 
 Make sure you don’t underpitch your budget needs!
 -------------------------------------------------
 Here’s a breakdown of a typical FTC season budget:
 
+- FIRST Registration is $295, and allows you to obtain your team number and compete.
+- Region and competition costs vary depending on your region, ranging from $250 to $800 or more. Check with your region’s Program Delivery Partner for more information.
 - A full competition game set will run you $450 / season.
 - A competition field will also run you $650, and - unless you take care with the tiles that make it up - it will cost you additional money to replace every 2-3 years.
-- A Driver Hub (robot communication device) will cost you $250, a Control Hub (robot control board) will cost $350, and an Expansion Hub (additional control board), will cost another $250. If you’re careful, these are one-time purchases. There are also bundles for slightly cheaper.
+- FIRST’s Control and Communication set will cost you $265, and their Electronics set will cost $282. Buying an additional Expansion Hub to maximize your robot’s actuation will cost another $250. If you’re careful, these are one-time purchases.
 - The goBILDA FTC Starter Kit, which is recommended to start you with basic hardware, will run you $600 (with the FTC discount). If you CAD design your robot in advance, you can go cheaper.
 - Extra money for sensors and servos - each can run you up to $100 each! Assuming 2 servos and 3 sensors, that’s $500.
 
-The above budget adds up to $3,000 in startup costs, and roughly $2,000 per year. You can definitely start a team on a budget much cheaper than this *(see #12806 Roboken in PowerPlay)*, but if you have the opportunity to pitch a budget, seize it!
+The above budget adds up to roughly $4,000 in startup costs, and ~$2,500 per year. You can definitely start a team on a budget much cheaper than this *(see #12806 Roboken in PowerPlay)*, but if you have the opportunity to pitch a budget, seize it!
 
 If you are unable to achieve this amount of funding, you can make this budget more manageable through several methods:
 

@@ -7,3 +7,4 @@ Some tips on FIRST Tech Challenge team sustainment.
    :maxdepth: 1
 
    starting-a-team
+   being-a-team
