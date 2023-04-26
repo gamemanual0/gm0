@@ -13,7 +13,7 @@ In general, there are three types of laser cutters FTC teams may have access to:
 
 **CO2**
 - These are typically enclosed machines, using a moving mirror to aim the light from a 30+ watt laser tube. These can cut wood and plastics, but can only mark metal. They can be very useful in FTC for custom parts.
-
+   
 **Fiber**
 - These combine beams from multiple laser diodes into a fiber optic cable and can cut metal. Desktop versions usually have a very limited working area, often just a couple inches. These are very expensive and few FTC teams have access to them.
 
@@ -30,7 +30,7 @@ As mentioned above, CO2 lasers â€“ like those commonly available to FTC teams â€
 - Acrylic is a very commonly used material for laser cutting. Due to its tendency to fracture under load, it mainly finds use on FTC bots as decorative plates or as guides to funnel game elements. For more information on using acrylic in FTC, see `this page <./materials-guide.html#acrylic>`__
 
 **Delrin**
-- Delrin, also known as acetal, can be safely cut on most CO2 lasers with proper ventilation. Laser cut Delrin can be used to make everything from motor mounts to linear slide inserts to whole drivetrain plates. More informarmation on delrin can be found `here <./materials-guide.html#delrin>`__.
+- Delrin, also known as acetal, can be safely cut on most CO2 lasers with proper ventilation. Laser cut Delrin can be used to make everything from motor mounts to linear slide inserts to whole drivetrain plates. More information on delrin can be found `here <./materials-guide.html#delrin>`__.
 
 There are some materials - mostly plastics - you should **NEVER** try cutting on a desktop laser. These include:
 
@@ -59,6 +59,10 @@ There are a few quirks of laser cut parts that you should keep in mind when desi
 **Taper**
 - As the lens in a laser cutter focuses light, it naturally creates a cone shaped beam. This leads to a beveled edge on parts. While this is usually not a problem for plates, it means pressfit non-flanged bearings may work their way out over time as they are squeezed harder at one side than another. One way to get around this is to lase holes undersized and then drill or ream them out to their final dimension to achieve vertical walls.
 
+.. figure:: images/laser-cutting/taper-example.png
+   :alt: Side view of a laser-cut acrylic part, showing the taper
+
+   Side view of a laser-cut acrylic part, showing the taper
 Other Uses of Laser Cutting
 -------------------------------------
 
