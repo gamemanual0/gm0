@@ -17,7 +17,7 @@ As part of outreach, you’ll generally be pitching some form of idea to some pe
     .. tab-item:: The “Startup” Pitch
 
         Startup pitches are delivered when meeting with a potential connection or sponsor. Normally given as a slideshow, they introduce your team identity and unique goals, differentiate you from other teams, and tell a story of “why us?”.
-        
+
     .. tab-item:: The Elevator Pitch
 
         Most people refer to this as a pitch “designed to be given on an elevator ride”, as your “ask” is condensed into 30 seconds. You should use this when visiting local businesses or networking events to grab attention quickly.
