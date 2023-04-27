@@ -17,8 +17,6 @@ Both REV Smart Servo and goBILDA Dual Mode servos (which are both based on FR531
       SRS Programmer
          The REV SRS Programmer is a device that will send a special data signal to the REV Smart Robot Servos to control their electronic endstops, as well as the continuous rotation mode of the :term:`servo <Servo>`. It can also be used as a servo tester for other servos and to switch between CR and normal modes on a goBILDA servo.
 
-.. warning:: Some vendors offer continuous rotation *option* on some :term:`servos <Servo>`. These options are modifications to the original :term:`servo <Servo>` made by the vendor and are illegal in FTC. The only legal continuous rotation servos are CR servos direct from the **manufacturer/factory**. If you have a seller modify a :term:`servo <Servo>` for continuous rotation, that :term:`servo <Servo>` is not legal.
-
 Servo Torque And Speed
 ----------------------
 
