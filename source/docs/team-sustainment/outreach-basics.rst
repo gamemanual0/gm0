@@ -26,9 +26,9 @@ Let’s say you’ve decided to go with hosting weekly STEM nights at your local
 *The Pitch: STEM night hosted by x members of local robotics team on x weeknight, for x weeks.*
 
 - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea.
-- Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify. 
+- Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
 - Assign specific members to this program and loop them into the conversation as well.
-- Work with the library to determine a time each week to host your STEM night. 
+- Work with the library to determine a time each week to host your STEM night.
 - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
 
 Fundraising Outreach
@@ -66,4 +66,4 @@ General Outreach Tips
 Housekeeping
 ------------
 
-Keep a list of the programs your team has created or contributed to. Ensure you take photos at every event with team members. Keep track of your Reach (how many people have seen your team), Engagement (how many people interacted with your team/you interacted with, e.g. by attending events), Impact (how many people are directly impacted by your outreach events), and Conversion (how many people get involved with your program.)
+Keep a list of the programs your team has created or contributed to. Ensure you take photos at every event with team members. Keep track of your **Reach** (how many people have seen your team), **Engagement** (how many people interacted with your team/you interacted with, e.g. by attending events), **Impact** (how many people are directly impacted by your outreach events), and **Conversion** (how many people get involved with your program.)
