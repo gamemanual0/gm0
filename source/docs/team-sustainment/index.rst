@@ -8,4 +8,6 @@ Some tips on FIRST Tech Challenge team sustainment.
 
    starting-a-team
    being-a-team
+   collaboration-and-efficiency
    outreach-basics
+   pitching-your-team
