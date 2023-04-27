@@ -11,11 +11,11 @@ The benefit of collaboration is expanded creativity. Your team members aren’t 
 General Collaboration
 ---------------------
 
-Your team’s leadership should communicate daily about the status of their squads - it’s imperative to ensure smooth team operations. You can use platforms like Discord and Slack to facilitate organized conversations. In addition, collaborative platforms like Canva and Google Drive are ideal for hosting engineering documentation, judging presentations, and marketing materials. The more material your members can access, the more they can contribute to. 
+Your team’s leadership should communicate daily about the status of their squads - it’s imperative to ensure smooth team operations. You can use platforms like Discord and Slack to facilitate organized conversations. In addition, collaborative platforms like Canva and Google Drive are ideal for hosting engineering documentation, judging presentations, and marketing materials. The more material your members can access, the more they can contribute to.
 
 Ideally, every member will also be openly documenting the projects they work on. This way, if another member needs to take over or work to improve a project, they can utilize publicly available documentation to work effectively.
 
-.. tip:: 
+.. tip::
     Host mandatory team meetings at least once a week, and share each squad’s progress. This will give your team up-to-date knowledge about your robot and allow everyone to offer ideas at every stage of the design, programming, and outreach process.
 
 Design Collaboration
@@ -26,13 +26,13 @@ Your designers probably have different styles of design and mechanical preferenc
 Competitive Design
 ^^^^^^^^^^^^^^^^^^
 
-One way to maximize your designers’ creativity is to competitively prototype. 2-3 designers pick a mechanism and develop their own take on the design, then physically prototype them to test against certain criteria. The most successful design integrates the most successful components of each and is iteratively improved by a singular designer. 
+One way to maximize your designers’ creativity is to competitively prototype. 2-3 designers pick a mechanism and develop their own take on the design, then physically prototype them to test against certain criteria. The most successful design integrates the most successful components of each and is iteratively improved by a singular designer.
 
 The biggest benefit to this approach is that you can integrate aspects of each designers’ personal techniques.
 
 .. figure:: images/collaboration-and-efficiency/intake_competitive_prototyping.png
     :alt: 7149 Enforcers, PowerPlay, Example of Competitive Prototyping. Two of their designers built an intake, with the final optimized design utilizing the best aspects from each prototype.
-    
+
     7149 Enforcers, PowerPlay, Example of Competitive Prototyping. Two of their designers built an intake, with the final optimized design utilizing the best aspects from each prototype.
 
 Cloud CAD

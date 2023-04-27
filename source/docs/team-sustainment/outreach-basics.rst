@@ -7,7 +7,7 @@ What Do You Care About?
 
 A concerning amount of teams see outreach as a means to obtain awards. While it is true that the Motivate and Connect Awards rely on outreach performance as award criteria, outreach is so much more than that, and as FTC teams, we are poised to make a unique impact. In order to make the most of your potential, you should target outreach that you care about.
 
-.. tip:: 
+.. tip::
     From a judging perspective, it is also easier to talk about topics you care deeply about and are invested in.
 
 Many teams often hope to create large-scale programs that impact tens of thousands. However, many smaller outreach programs can often be more impactful than one big, unwieldy program that may never get off the ground. Consider what your local area needs - maybe your library needs volunteers to teach STEM, or your local FLL team requires mentorship. Maybe there are no other FLL or FTC teams in your area. Regardless, your goal should be to advocate for STEM and FIRST in your area.
@@ -20,14 +20,14 @@ Once you’ve zeroed in on the programs you’d like to create or contribute to,
 .. tab-set::
 
     .. tab-item:: Motivate Outreach
-    
+
         Let’s say you’ve decided to go with hosting weekly STEM nights at your local library.
 
         *The Pitch: STEM night hosted by x members of local robotics team on x weeknight, for x weeks.*
 
             - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea. Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
             - Assign specific members to this program and loop them into the conversation as well.
-            - Work with the library to determine a time each week to host your STEM night. 
+            - Work with the library to determine a time each week to host your STEM night.
             - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
 
     .. tab-item:: Fundraising Outreach
@@ -47,7 +47,7 @@ Once you’ve zeroed in on the programs you’d like to create or contribute to,
 
         A great way to find businesses to reach out to is through your local Chamber of Commerce (use Google to find their website), who generally will provide a large list of member businesses in the area. Try to send one email to every business on that list. In addition, target companies in the nearest metro area.
 
-.. tip:: 
+.. tip::
     Promotional materials should be striking and feature your team’s branding, with an emphasis on succinct design. Your goal is to maximize information delivery using as few words as possible.
 
 General Outreach Tips

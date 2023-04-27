@@ -10,10 +10,10 @@ Chances are, if you’re interested in robotics, you’ll find quite a few peopl
 
 At these interest events, discuss how FTC is interesting and beneficial to those who participate. Make sure to have information for both parents and students! While you’re recruiting, make sure to be inclusive - people may not have figured out that their passions lie within the scope of FIRST, and they may do so in creative ways when given the opportunity!
 
-.. note:: 
+.. note::
     Make sure to get everyone’s contact information so you can reach out to keep them interested.
 
-.. tip:: 
+.. tip::
     To ensure a sustainable team, you should recruit from grades 7 upwards if possible to allow for a constant flow of members. The key to sustainability is new faces!
 
 Find mentors.
@@ -23,14 +23,14 @@ It’s understandable if you have difficulty with this step, but it is criticall
 
 Now, to find mentors: reaching out to STEM teachers in your area is a great way to find interest, but you can also reach out to local businesses to see if any of their employees would be interested in lending a hand! (See the email guide for more tips.) New recruits can ease this process a little, and if a new mentor knows a team member it’ll make it easier for them to mesh with the rest of the team. Receiving mentorship over text and video is generally less recommended, as in-person mentors can communicate and demonstrate mechanical and software concepts more efficiently.
 
-.. warning:: 
+.. warning::
     To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
 
     While parents and other family members can be helpful mentors in a pinch, it’s important to have outside mentorship so that your team can survive even after you graduate.
 
-Generally mentors fall into a few primary roles. Some mentors may be purely technical, offering advice on your robot and engineering documentation; some mentors focus on “soft skills” such as leadership, fundraising, marketing, and team logistics. Many mentors blur the lines between these roles, but some prefer to stick to one area or another. 
+Generally mentors fall into a few primary roles. Some mentors may be purely technical, offering advice on your robot and engineering documentation; some mentors focus on “soft skills” such as leadership, fundraising, marketing, and team logistics. Many mentors blur the lines between these roles, but some prefer to stick to one area or another.
 
-.. tip:: 
+.. tip::
     Don’t be afraid to involve mentors who aren’t self proclaimed as highly “technical”. They’re sometimes the best ones.
 
 Pick a comfortable structure for your team.
@@ -43,7 +43,7 @@ There are 3 common team structures, each with advantages and disadvantages:
     .. tab-item:: School Team
 
         Run as a school-affiliated team/club with school funding. Watch for red tape regarding funds and parts. Also watch for it on the field :)
-        
+
         Advantages
             - Easier to sustain
             - Potential for consistent funding
@@ -57,7 +57,7 @@ There are 3 common team structures, each with advantages and disadvantages:
     .. tab-item:: Home Team
 
         Run out of a house or garage. Budget is whatever fundraising you can acquire.
-        
+
         Advantages
             - Freer practice schedule
             - No part sourcing constraints
@@ -65,11 +65,11 @@ There are 3 common team structures, each with advantages and disadvantages:
         Disadvantages
           - Harder to obtain sponsorships
           - Space/residential constraints
-    
+
     .. tab-item:: Community Team
 
         Run out of a house or garage. Budget is whatever fundraising you can acquire.
-        
+
         Advantages
             - Potential dedicated practice space
             - Freedom of practice schedule
@@ -80,15 +80,15 @@ There are 3 common team structures, each with advantages and disadvantages:
           - Harder to sustain
           - Many administrative tasks
 
-.. tip:: 
+.. tip::
     If going the community team route, consider finding a local nonprofit to work with. This can greatly reduce the work and time required compared to starting your own, and many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
 
-.. warning:: 
+.. warning::
     If starting a school team, make sure you figure out whether you can accept external sponsorships. This can affect your financial planning and fundraising.
 
 Find funding and create your team!
 ----------------------------------
-Ultimately, the way you fund your team is dependent on which team structure you use. 
+Ultimately, the way you fund your team is dependent on which team structure you use.
 
 .. tab-set::
 
@@ -111,14 +111,14 @@ Don’t underpitch your budget needs!
 Here’s a breakdown of a typical FTC season budget:
 
 - FIRST Registration is $295, and allows you to obtain your team number and compete.
-- Region and competition costs vary depending on your region, ranging from $250 to $800 or more. Check with your region’s Program Delivery Partner for more information. 
+- Region and competition costs vary depending on your region, ranging from $250 to $800 or more. Check with your region’s Program Delivery Partner for more information.
 - A full competition game set will run you $450 / season.
 - A competition field will also run you $659, and - unless you take care with the tiles that make it up - it will cost you additional money to replace every 2-3 years.
 - FIRST’s Control and Communication set will cost you $265, and their Electronics set will cost $282. Buying an additional Expansion Hub to maximize your robot’s actuation will cost another $250. If you’re careful, these are one-time purchases.
 - The goBILDA FTC Starter Kit, which is recommended to start you with basic hardware, will run you $600 (with the FTC discount). If you CAD design your robot in advance, you can go cheaper.
 - Extra money for sensors and servos - each can run you up to $100 each! Assuming 2 servos and 3 sensors, that’s $500.
 
-The above budget adds up to $4,000 in startup costs, and roughly $2,500 per year. You can definitely start a team on a budget much cheaper than this, but if you have the opportunity to pitch a larger budget, seize it! 
+The above budget adds up to $4,000 in startup costs, and roughly $2,500 per year. You can definitely start a team on a budget much cheaper than this, but if you have the opportunity to pitch a larger budget, seize it!
 
 .. tip::
     If you are unable to achieve this amount of funding, you can make this budget more manageable through several methods:
