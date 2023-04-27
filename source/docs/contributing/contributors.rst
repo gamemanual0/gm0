@@ -17,44 +17,39 @@ Managing Editors
 - Nathanael/Kleptomaniac - FTC Alum - 13075 Coram Deo Robotics - nathanchu@utexas.edu
 - Davy - FTC 16461 Infinite Turtles - davy@mcr.club
 
-Hardware & Electrical
----------------------
+Other Contributors
+------------------
 
-- Kelvin - FTC Alum - 731 Wannabee Strange
-- David - FTC Alum - 2753 Team Overdrive
-- Sam - FTC 2753 Team Overdrive
-- Tyler - FRC\ |reg| 3184 Blaze Robotics
-- Tom - FTC Alum - 3736 Serious Business
-- Shurik - FTC 4137 Islandbots mentor
-- Fulton - FTC 5143 Xcentrics
-- Derek - FTC Alum - 5484 EnderBots
-- Karter - FTC Alum - 5975 Cybots
-- Neo - FTC 6710 Sigmas
-- Ethan - FTC Alum - 7236 Recharged Green - goBILDA
-- Cole - FTC 7548 SPAREPARTS
-- Ian - FTC 7842 Browncoats
-- Andrew - FTC 8417 ‘Lectric Legends
-- Eric - FTC Alum - 8417 ‘Lectric Legends
-- Frank - FTC 8581 Aedificatores
-- David - FTC 8680 Kraken Pinion
-- Kevin - FTC 9048 Philobots
-- Justin - FTC 9656 Omega
+- Adham - FTC 14875 LightSpeed
 - Arjun - FTC 9794 Wizards.exe
 - Baylor - FTC 10641 Atomic Gears
-- Peter - FTC 12533 Inception
-- Nate - FTC 12897 Newton’s Law of Mass
-- Adham - FTC 14875 LightSpeed
-- Dom - FTC 15692 Rust in Pieces
-
-Software
---------
-
-- Wes - FTC 3658 Bosons
+- Cole - FTC 7548 SPAREPARTS
+- David - FTC 2753 Team Overdrive
 - David - FTC 7236 Recharged Green
+- David - FTC 8680 Kraken Pinion
+- Dom - FTC 15692 Rust in Pieces
+- Eric - FTC Alum - 8417 ‘Lectric Legends
+- Ethan - FTC 7236 Recharged Green - goBILDA
 - Frank - FTC 8581 Aedificatores
-- James - FTC 14298 Lincoln Robotics
-- Jackson - FTC/FRC Mentor/Alum
+- Frank - FTC 8581 Aedificatores
+- Fulton - FTC 5143 Xcentrics
 - Guineawheek - FTC Alum
+- Ian - FTC 7842 Browncoats
+- Jackson - FTC/FRC Mentor/Alum
+- James - FTC 14298 Lincoln Robotics
+- Justin - FTC 9656 Omega
+- Karter - FTC 5975 Cybots
+- Kelvin - FTC 731 Wannabee Strange
+- Kevin - FTC 9048 Philobots
+- Nate - FTC 12897 Newton’s Law of Mass
+- Neo - FTC 6710 Sigmas
+- Peter - FTC 12533 Inception
+- Sam - FTC 2753 Team Overdrive
+- Shurik - FTC 4137 Islandbots mentor
+- Tom - FTC 3736 Serious Business
+- Tyler - FRC\ |reg| 3184 Blaze Robotics
+- Wes - FTC 3658 Bosons
+- Whimsy - FTC 8417 ‘Lectric Legends
 
 Hosting
 -------
