@@ -10,25 +10,25 @@ As part of outreach, you’ll generally be pitching some form of idea to some pe
 
 .. tab-set::
 
-    .. tab-item:: Cold Call
+   .. tab-item:: Cold Call
 
-        This is probably the most common type of pitch you’ll make. Cold calling involves reaching out to someone unprompted, and can take the form of an email or phone call.
+      This is probably the most common type of pitch you’ll make. Cold calling involves reaching out to someone unprompted, and can take the form of an email or phone call.
 
-    .. tab-item:: "Startup"
+   .. tab-item:: "Startup"
 
-        Startup pitches are delivered when meeting with a potential connection or sponsor. Normally given as a slideshow, they introduce your team identity and unique goals, differentiate you from other teams, and tell a story of "why us?".
+      Startup pitches are delivered when meeting with a potential connection or sponsor. Normally given as a slideshow, they introduce your team identity and unique goals, differentiate you from other teams, and tell a story of "why us?".
 
-    .. tab-item:: Elevator
+   .. tab-item:: Elevator
 
-        Elevator pitches are "designed to be given on an elevator ride", as your "ask" is condensed into 30 seconds. You should use this when visiting local businesses or networking events to grab attention quickly.
+      Elevator pitches are "designed to be given on an elevator ride", as your "ask" is condensed into 30 seconds. You should use this when visiting local businesses or networking events to grab attention quickly.
 
-    .. tab-item:: Social Media
+   .. tab-item:: Social Media
 
-        This is a social media post designed to promote something - be it your recruitment campaign, an event you’re holding, or a fundraiser. Your pitch should be short and pop on whatever design you build around it.
+      This is a social media post designed to promote something - be it your recruitment campaign, an event you’re holding, or a fundraiser. Your pitch should be short and pop on whatever design you build around it.
 
-    .. tab-item:: Follow Up
+   .. tab-item:: Follow Up
 
-        Perhaps the most important type of pitch. A follow up can serve to highlight an email that was never responded to or confirm an event, sponsorship, or connection. You "secure the bag" with a follow up that is concise and echoes the main points of the original email.
+      Perhaps the most important type of pitch. A follow up can serve to highlight an email that was never responded to or confirm an event, sponsorship, or connection. You "secure the bag" with a follow up that is concise and echoes the main points of the original email.
 
 The Art of Persuasion
 ---------------------
@@ -56,20 +56,20 @@ Here are examples of the various appeals in this letter.
 
 .. tab-set::
 
-    .. tab-item:: Pathos
+   .. tab-item:: Pathos
 
-        - "...we rely on the businesses and organizations around us" conveys the desperate need for funding.
-        - "...(x% of teams worldwide)" creates a heightened sense of importance for qualifying for worlds.
-        - "Hard-fought season from September to now" highlights the length of time your team dedicates to building robots and shows to recipients that your team means business!
+      - "...we rely on the businesses and organizations around us" conveys the desperate need for funding.
+      - "...(x% of teams worldwide)" creates a heightened sense of importance for qualifying for worlds.
+      - "Hard-fought season from September to now" highlights the length of time your team dedicates to building robots and shows to recipients that your team means business!
 
-    .. tab-item:: Logos
+   .. tab-item:: Logos
 
-        - "Develop future STEM professionals and spread science and technology" appeals to the company’s logical need for more employees in the future, or an individual’s desire for the advancement of society.
-        - "Feature your company’s logo on our robot" conveys a tangible marketing benefit for the company you are reaching out to.
+      - "Develop future STEM professionals and spread science and technology" appeals to the company’s logical need for more employees in the future, or an individual’s desire for the advancement of society.
+      - "Feature your company’s logo on our robot" conveys a tangible marketing benefit for the company you are reaching out to.
 
-    .. tab-item:: Ethos
+   .. tab-item:: Ethos
 
-        - "Develop future STEM professionals and spread science and technology" also appeals to ethos, as your team (direct recipients of these benefits) are speaking to the continued benefits that stem from this donation.
+      - "Develop future STEM professionals and spread science and technology" also appeals to ethos, as your team (direct recipients of these benefits) are speaking to the continued benefits that stem from this donation.
 
 Psychological Techniques
 ^^^^^^^^^^^^^^^^^^^^^^^^

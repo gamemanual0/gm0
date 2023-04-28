@@ -19,36 +19,35 @@ Once you’ve zeroed in on the programs you’d like to create or contribute to,
 
 .. tab-set::
 
-    .. tab-item:: Motivate
+   .. tab-item:: Motivate
 
-        Let’s say you’ve decided to go with hosting weekly STEM nights at your local library.
+      Let’s say you’ve decided to go with hosting weekly STEM nights at your local library.
 
-        *The Pitch: STEM night hosted by x members of local robotics team on x weeknight, for x weeks.*
+      *The Pitch: STEM night hosted by x members of local robotics team on x weeknight, for x weeks.*
 
-        - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea. Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
-        - Assign specific members to this program and loop them into the conversation as well.
-        - Work with the library to determine a time each week to host your STEM night.
-        - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
+      - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea. Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
+      - Assign specific members to this program and loop them into the conversation as well.
+      - Work with the library to determine a time each week to host your STEM night.
+      - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
 
-    .. tab-item:: Fundraising
+   .. tab-item:: Fundraising
 
-        Your team has a fundraising idea to bag at a local supermarket.
+      Your team has a fundraising idea to bag at a local supermarket.
 
-        *The Pitch: Support local STEM students by allowing local robotics team to bag at your store!*
+      *The Pitch: Support local STEM students by allowing local robotics team to bag at your store!*
 
-        - Visit your local supermarket and talk to a manager or customer service rep to politely introduce your team.
-        - Respectfully ask if they would be willing to let you bag for customers on x date and set up tip jars.
-        - Obtain contact information of the person you spoke to, and write a followup email to them thanking them and confirming the date and time.
-        - Assign members to create promotional materials to share on social media and with friends/family.
+      - Visit your local supermarket and talk to a manager or customer service rep to politely introduce your team.
+      - Respectfully ask if they would be willing to let you bag for customers on x date and set up tip jars.
+      - Obtain contact information of the person you spoke to, and write a followup email to them thanking them and confirming the date and time.
+      - Assign members to create promotional materials to share on social media and with friends/family.
 
-    .. tab-item:: Connect / Sponsorship
+   .. tab-item:: Connect / Sponsorship
 
-        Outreach to create connections and obtain sponsorships are relatively similar. Send lots of emails to local companies asking for either help or sponsorship. You should try to tie the engineering problems you are encountering in the season to the specific company you are requesting aid from; this can make it easier for the company to justify donating their money or time.
+      Outreach to create connections and obtain sponsorships are relatively similar. Send lots of emails to local companies asking for either help or sponsorship. You should try to tie the engineering problems you are encountering in the season to the specific company you are requesting aid from; this can make it easier for the company to justify donating their money or time.
 
-        A great way to find businesses to reach out to is through your local Chamber of Commerce (use Google to find their website), who generally will provide a large list of member businesses in the area. Try to send one email to every business on that list. In addition, target companies in the nearest metro area.
+      A great way to find businesses to reach out to is through your local Chamber of Commerce (use Google to find their website), who generally will provide a large list of member businesses in the area. Try to send one email to every business on that list. In addition, target companies in the nearest metro area.
 
-.. tip::
-    Promotional materials should be striking and feature your team’s branding, with an emphasis on succinct design. Your goal is to maximize information delivery using as few words as possible.
+.. tip:: Promotional materials should be striking and feature your team’s branding, with an emphasis on succinct design. Your goal is to maximize information delivery using as few words as possible.
 
 General Outreach Tips
 ---------------------

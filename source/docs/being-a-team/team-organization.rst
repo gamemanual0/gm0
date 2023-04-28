@@ -10,8 +10,7 @@ The first step to organizing a team is determining who does what. Generally, FTC
 
 To effectively manage these squads, you will need to set a carefully chosen leadership structure - leads should possess good delegation skills and be willing to facilitate learning experiences for those assigned to their squad. Optionally, a captain can be chosen as well to oversee squad leads.
 
-.. tip::
-    Each individual member should decide which squad they would like to participate in, as people work better on tasks they care about! In addition, each member should be involved with outreach in some form, to get them involved in the community and teach them the importance of service. In addition, this will improve your judged presentations.
+.. tip:: Each individual member should decide which squad they would like to participate in, as people work better on tasks they care about! In addition, each member should be involved with outreach in some form, to get them involved in the community and teach them the importance of service. In addition, this will improve your judged presentations.
 
 Finally, your team will need to decide when it meets. Week to week, this will largely depend on the amount of work that needs to get done, but it is recommended to schedule 1-2 mandatory meetings a week to facilitate collaboration.
 

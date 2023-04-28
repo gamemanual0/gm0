@@ -10,8 +10,7 @@ Chances are, if you’re interested in robotics, you’ll find quite a few peopl
 
 At these interest events, discuss how FTC is interesting and beneficial to those who participate. Make sure to have information for both parents and students! While you’re recruiting, make sure to be inclusive - people may not have figured out that their passions lie within the scope of FIRST, and they may do so in creative ways when given the opportunity!
 
-.. tip::
-    To ensure a sustainable team, you should recruit from grades 7 upwards if possible to allow for a constant flow of members. The key to sustainability is new faces!
+.. tip:: To ensure a sustainable team, you should recruit from grades 7 upwards if possible to allow for a constant flow of members. The key to sustainability is new faces!
 
 Make sure to get everyone’s contact information so you can reach out to keep them interested.
 
@@ -23,14 +22,13 @@ It’s understandable if you have difficulty with this step, but it is criticall
 Now, to find mentors: reaching out to STEM teachers in your area is a great way to find interest, but you can also reach out to local businesses to see if any of their employees would be interested in lending a hand! (See the email guide for more tips.) New recruits can ease this process a little, and if a new mentor knows a team member it’ll make it easier for them to mesh with the rest of the team. Receiving mentorship over text and video is generally less recommended, as in-person mentors can communicate and demonstrate mechanical and software concepts more efficiently.
 
 .. important::
-    To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
+   To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
 
-    While parents and other family members can be helpful mentors in a pinch, it’s important to have outside mentorship so that your team can survive even after you graduate.
+   While parents and other family members can be helpful mentors in a pinch, it’s important to have outside mentorship so that your team can survive even after you graduate.
 
 Generally mentors fall into a few primary roles. Some mentors may be purely technical, offering advice on your robot and engineering documentation; some mentors focus on “soft skills” such as leadership, fundraising, marketing, and team logistics. Many mentors blur the lines between these roles, but some prefer to stick to one area or another.
 
-.. tip::
-    Don’t be afraid to involve mentors who aren’t self proclaimed as highly “technical”. They’re sometimes the best ones.
+.. tip:: Don’t be afraid to involve mentors who aren’t self proclaimed as highly “technical”. They’re sometimes the best ones.
 
 Pick a comfortable structure for your team.
 -------------------------------------------
@@ -39,50 +37,55 @@ There are 3 common team structures, each with advantages and disadvantages:
 
 .. tab-set::
 
-    .. tab-item:: School Team
+   .. tab-item:: School Team
 
-        Run as a school-affiliated team/club with school funding. Watch for red tape regarding funds and parts. Also watch for it on the field :)
+      Run as a school-affiliated team/club with school funding. Watch for red tape regarding funds and parts. Also watch for it on the field :)
 
-        .. important::
-           If starting a school team, make sure you figure out whether you can accept external sponsorships. This can affect your financial planning and fundraising.
+      .. important:: If starting a school team, make sure you figure out whether you can accept external sponsorships. This can affect your financial planning and fundraising.
 
-        Advantages:
-            - Easier to sustain
-            - Potential for consistent funding
+      Advantages:
 
-        Disadvantages:
-          - Less practice schedule freedom
-          - Arbitrary part sourcing restrictions
-          - Competing for funding yearly
-          - Limited/no summer practice
+      - Easier to sustain
+      - Potential for consistent funding
 
-    .. tab-item:: Home Team
+      Disadvantages:
 
-        Run out of a house or garage. Budget is whatever fundraising you can acquire.
+      - Less practice schedule freedom
+      - Arbitrary part sourcing restrictions
+      - Competing for funding yearly
+      - Limited/no summer practice
 
-        Advantages:
-            - Freer practice schedule
-            - No part sourcing constraints
+   .. tab-item:: Home Team
 
-        Disadvantages:
-          - Harder to obtain sponsorships
-          - Space/residential constraints
+      Run out of a house or garage. Budget is whatever fundraising you can acquire.
 
-    .. tab-item:: Community Team
+      Advantages:
 
-        Run out of a 501(c)3. Generally the hardest to set up, but offers the most flexibility.
+      - Freer practice schedule
+      - No part sourcing constraints
 
-        .. tip:: If going the community team route, consider finding a local nonprofit to work with. This can greatly reduce the work and time required compared to starting your own, and many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
+      Disadvantages:
 
-        Advantages:
-            - Potential dedicated practice space
-            - Freedom of practice schedule
-            - No part sourcing constraints
-            - Lucrative for donors (through tax write-offs!)
+      - Harder to obtain sponsorships
+      - Space/residential constraints
 
-        Disadvantages:
-          - Harder to sustain
-          - Many administrative tasks
+   .. tab-item:: Community Team
+
+      Run out of a 501(c)3. Generally the hardest to set up, but offers the most flexibility.
+
+      .. tip:: If going the community team route, consider finding a local nonprofit to work with. This can greatly reduce the work and time required compared to starting your own, and many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
+
+      Advantages:
+
+      - Potential dedicated practice space
+      - Freedom of practice schedule
+      - No part sourcing constraints
+      - Lucrative for donors (through tax write-offs!)
+
+      Disadvantages:
+
+      - Harder to sustain
+      - Many administrative tasks
 
 Find funding and create your team!
 ----------------------------------
@@ -90,17 +93,17 @@ Ultimately, the way you fund your team is dependent on which team structure you 
 
 .. tab-set::
 
-    .. tab-item:: School Team
+   .. tab-item:: School Team
 
-        If you decide to run a school team, you should reach out to your superintendent, school board, and principal. Make sure to loop in a STEM teacher or two, and maybe even a curriculum administrator.
+      If you decide to run a school team, you should reach out to your superintendent, school board, and principal. Make sure to loop in a STEM teacher or two, and maybe even a curriculum administrator.
 
-    .. tab-item:: Home Team
+   .. tab-item:: Home Team
 
         For home teams, pitch to your parents or guardians! They’ll probably be dealing with a majority of the headache anyways so be nice :)
 
-    .. tab-item:: Community Team
+   .. tab-item:: Community Team
 
-        If you’re pitching to a community nonprofit, make sure you highlight how FIRST will help them grow. Offer to volunteer your and your teammates’ time to help the organization with their programs, especially STEM ones, to create a mutually beneficial relationship.
+      If you’re pitching to a community nonprofit, make sure you highlight how FIRST will help them grow. Offer to volunteer your and your teammates’ time to help the organization with their programs, especially STEM ones, to create a mutually beneficial relationship.
 
 All 3 pitches should follow a similar structure; the easiest and most efficient involves a slide deck presentation. Make sure you highlight the value proposition (benefits that will be delivered) by starting an FTC team: educational experience, building future STEM professionals, increasing the potential of the area’s technology economy, etc. You may not think it’s important, but many decision-makers take these factors into account when deciding to approve your FTC team!
 
@@ -119,17 +122,17 @@ Here’s a breakdown of a typical FTC season budget:
 The above budget adds up to $4,000 in startup costs, and roughly $2,500 per year. You can definitely start a team on a budget much cheaper than this, but if you have the opportunity to pitch a larger budget, seize it!
 
 .. tip::
-    If you are unable to achieve this amount of funding, you can make this budget more manageable through several methods:
+   If you are unable to achieve this amount of funding, you can make this budget more manageable through several methods:
 
-    - **Fundraising and sponsorship** are essential ways to ensure a team’s survival. See the fundraising guide (coming soon) for more.
-    - Several general **cost-saving measures** can be employed throughout the season. These include:
-       - Keeping stock of your inventory and not over-ordering parts.
-       - Treating your parts well.
-       - Using #black-market on the FTC Discord to obtain used parts.
-       - Applying for seasonal FTC grants and the goBILDA FTC Discount.
-       - Investing in a 3D printer to fabricate your own parts.
-       - If using custom metal parts, utilizing SendCutSend or Fabworks, which are generally more financially viable than in-house CNC machining.
-    - As a last resort, **team fees** can be collected from members as a requirement to participate. These can bar less fortunate individuals from participating, so they are not recommended. **Minimum fundraising requirements** for your members can boost your budget similarly and without hardship for these members.
+   - **Fundraising and sponsorship** are essential ways to ensure a team’s survival. See the fundraising guide (coming soon) for more.
+   - Several general **cost-saving measures** can be employed throughout the season. These include:
+      - Keeping stock of your inventory and not over-ordering parts.
+      - Treating your parts well.
+      - Using #black-market on the FTC Discord to obtain used parts.
+      - Applying for seasonal FTC grants and the goBILDA FTC Discount.
+      - Investing in a 3D printer to fabricate your own parts.
+      - If using custom metal parts, utilizing SendCutSend or Fabworks, which are generally more financially viable than in-house CNC machining.
+   - As a last resort, **team fees** can be collected from members as a requirement to participate. These can bar less fortunate individuals from participating, so they are not recommended. **Minimum fundraising requirements** for your members can boost your budget similarly and without hardship for these members.
 
 Now what?
 ---------
