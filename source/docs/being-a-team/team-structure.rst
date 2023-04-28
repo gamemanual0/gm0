@@ -1,5 +1,5 @@
-Being a Team
-=============
+Team Structure
+==============
 
 A group of individuals is nothing without structure and organization. Learning the individual strengths of each of your teammates to create robots together will turn you into a force fit to conquer even the toughest game challenges. This article covers team organization and collaboration, knowledge sharing, gracious professionalism, and fostering a safe team environment.
 

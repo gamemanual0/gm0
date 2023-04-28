@@ -106,6 +106,7 @@ Index
 
    docs/mission-statement
    docs/start-here
+   docs/being-a-team/index
    docs/know-your-lingo
    docs/design-skills/index
    docs/hardware-components/index
@@ -114,7 +115,6 @@ Index
    docs/power-and-electronics/index
    docs/software/index
    docs/awards/index
-   docs/team-sustainment/index
    docs/useful-resources
    docs/appendix/index
    docs/contributing/index
