@@ -10,25 +10,25 @@ As part of outreach, you’ll generally be pitching some form of idea to some pe
 
 .. tab-set::
 
-    .. tab-item:: The Cold Call
+    .. tab-item:: Cold Call
 
         This is probably the most common type of pitch you’ll make. Cold calling involves reaching out to someone unprompted, and can take the form of an email or phone call.
 
-    .. tab-item:: The “Startup” Pitch
+    .. tab-item:: "Startup"
 
-        Startup pitches are delivered when meeting with a potential connection or sponsor. Normally given as a slideshow, they introduce your team identity and unique goals, differentiate you from other teams, and tell a story of “why us?”.
+        Startup pitches are delivered when meeting with a potential connection or sponsor. Normally given as a slideshow, they introduce your team identity and unique goals, differentiate you from other teams, and tell a story of "why us?".
 
-    .. tab-item:: The Elevator Pitch
+    .. tab-item:: Elevator
 
-        Most people refer to this as a pitch “designed to be given on an elevator ride”, as your “ask” is condensed into 30 seconds. You should use this when visiting local businesses or networking events to grab attention quickly.
+        Elevator pitches are "designed to be given on an elevator ride", as your "ask" is condensed into 30 seconds. You should use this when visiting local businesses or networking events to grab attention quickly.
 
-    .. tab-item:: The Social Media Pitch
+    .. tab-item:: Social Media
 
         This is a social media post designed to promote something - be it your recruitment campaign, an event you’re holding, or a fundraiser. Your pitch should be short and pop on whatever design you build around it.
 
-    .. tab-item:: The Follow Up
+    .. tab-item:: Follow Up
 
-        Perhaps the most important type of pitch. A follow up can serve to highlight an email that was never responded to or confirm an event, sponsorship, or connection. You “secure the bag” with a follow up that is concise and echoes the main points of the original email.
+        Perhaps the most important type of pitch. A follow up can serve to highlight an email that was never responded to or confirm an event, sponsorship, or connection. You "secure the bag" with a follow up that is concise and echoes the main points of the original email.
 
 The Art of Persuasion
 ---------------------
@@ -38,19 +38,19 @@ Your pitch should utilize rhetorical and psychological techniques to convince yo
 Rhetorical Techniques
 ^^^^^^^^^^^^^^^^^^^^^
 
-There are 3 main rhetorical appeals: pathos, ethos, and logos. Pathos “tugs on the heartstrings” of someone’s emotions. Ethos is the idea of “social credibility” and leverages a speaker’s authority. Logos relates to ideas of logic, reasoning, and analysis. When creating a pitch, you will use all 3 of these appeals to persuade your listener effectively.
+There are 3 main rhetorical appeals: pathos, ethos, and logos. Pathos "tugs on the heartstrings" of someone’s emotions. Ethos is the idea of "social credibility" and leverages a speaker’s authority. Logos relates to ideas of logic, reasoning, and analysis. When creating a pitch, you will use all 3 of these appeals to persuade your listener effectively.
 
 Here’s a brief example of a fundraising email that utilizes these 3 appeals:
 
-“Dear Company Name,
+   Dear Company Name,
 
-We are FIRST Tech Challenge Robotics Team #XXXX, representing Our School or Organization. Our team competes against 6,500 teams worldwide, and after a hard-fought season from September to now, was selected to represent our region at the FIRST World Championship and compete alongside 191 other teams (x% of teams worldwide)!
+   We are FIRST Tech Challenge Robotics Team #XXXX, representing Our School or Organization. Our team competes against 6,500 teams worldwide, and after a hard-fought season from September to now, was selected to represent our region at the FIRST World Championship and compete alongside 191 other teams (x% of teams worldwide)!
 
-However, we now have to raise $x for registration, transportation, and housing to successfully compete. As a community organization, we rely on the businesses and organizations around us to help us develop future STEM professionals and spread science and technology throughout our region. Even a $x donation would help us greatly in attending the championship, and we would love to feature your company’s logo on our robot with a donation above x.
+   However, we now have to raise $y for registration, transportation, and housing to successfully compete. As a community organization, we rely on the businesses and organizations around us to help us develop future STEM professionals and spread science and technology throughout our region. Even a $z donation would help us greatly in attending the championship, and we would love to feature your company’s logo on our robot with a donation above $n.
 
-Thank you for your time! We hope you will consider contributing to this monumental opportunity.
+   Thank you for your time! We hope you will consider contributing to this monumental opportunity.
 
-Our Team.”
+   Our Team.
 
 Here are examples of the various appeals in this letter.
 
@@ -58,26 +58,26 @@ Here are examples of the various appeals in this letter.
 
     .. tab-item:: Pathos
 
-        - “...we rely on the businesses and organizations around us” conveys the desperate need for funding.
-        - “...(x% of teams worldwide)” creates a heightened sense of importance for qualifying for worlds.
-        - “Hard-fought season from September to now” highlights the length of time your team dedicates to building robots and shows to recipients that your team means business!
+        - "...we rely on the businesses and organizations around us" conveys the desperate need for funding.
+        - "...(x% of teams worldwide)" creates a heightened sense of importance for qualifying for worlds.
+        - "Hard-fought season from September to now" highlights the length of time your team dedicates to building robots and shows to recipients that your team means business!
 
     .. tab-item:: Logos
 
-        - “Develop future STEM professionals and spread science and technology” appeals to the company’s logical need for more employees in the future, or an individual’s desire for the advancement of society.
-        - “Feature your company’s logo on our robot” conveys a tangible marketing benefit for the company you are reaching out to.
+        - "Develop future STEM professionals and spread science and technology" appeals to the company’s logical need for more employees in the future, or an individual’s desire for the advancement of society.
+        - "Feature your company’s logo on our robot" conveys a tangible marketing benefit for the company you are reaching out to.
 
     .. tab-item:: Ethos
 
-        - “Develop future STEM professionals and spread science and technology” also appeals to ethos, as your team (direct recipients of these benefits) are speaking to the continued benefits that stem from this donation.
+        - "Develop future STEM professionals and spread science and technology" also appeals to ethos, as your team (direct recipients of these benefits) are speaking to the continued benefits that stem from this donation.
 
 Psychological Techniques
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Two major psychological techniques you can use to improve your pitch are the self-reference effect and the primacy-recency effect.
 
-The **self-reference effect** is defined as “a tendency for people to encode information differently depending on whether they are implicated in the information” - which basically means that people remember information better if they believe they are connected in some way to it. If you find connections between your pitch and your contact, they will be more likely to remember you and your ideas!
+The **self-reference effect** is defined as "a tendency for people to encode information differently depending on whether they are implicated in the information" - which basically means that people remember information better if they believe they are connected in some way to it. If you find connections between your pitch and your contact, they will be more likely to remember you and your ideas!
 
-The **primacy-recency effect** is “the observation that new information is most easily absorbed and retained at the beginning and end of a learning session”. This means that information presented at the beginning and end of a pitch is the information that your audience is most likely to remember. To adapt for the primacy-recency effect, your presentations and pitches should contain its most powerful content at the beginning and end.
+The **primacy-recency effect** is "the observation that new information is most easily absorbed and retained at the beginning and end of a learning session". This means that information presented at the beginning and end of a pitch is the information that your audience is most likely to remember. To adapt for the primacy-recency effect, your presentations and pitches should contain its most powerful content at the beginning and end.
 
 Be Concise!
 -----------

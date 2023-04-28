@@ -15,33 +15,33 @@ Many teams often hope to create large-scale programs that impact tens of thousan
 Spreading The Word
 ------------------
 
-Once you’ve zeroed in on the programs you’d like to create or contribute to, figure out who you need to contact and what you need to pitch. See the Email Guide for more tips on how to write your pitch out.
+Once you’ve zeroed in on the programs you’d like to create or contribute to, figure out who you need to contact and what you need to pitch. See :doc:`./pitching-your-team` for more tips on how to write your pitch out.
 
 .. tab-set::
 
-    .. tab-item:: Motivate Outreach
+    .. tab-item:: Motivate
 
         Let’s say you’ve decided to go with hosting weekly STEM nights at your local library.
 
         *The Pitch: STEM night hosted by x members of local robotics team on x weeknight, for x weeks.*
 
-            - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea. Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
-            - Assign specific members to this program and loop them into the conversation as well.
-            - Work with the library to determine a time each week to host your STEM night.
-            - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
+        - Write an email to your library’s administration and CC (carbon copy) a librarian you know, introducing your team and describing your idea. Stress that you will dedicate team resources and members to this idea and see it through for the timeframe you specify.
+        - Assign specific members to this program and loop them into the conversation as well.
+        - Work with the library to determine a time each week to host your STEM night.
+        - Finally, assigned members work together to write lesson plans in advance and create promotional materials to share on social media and with friends/family.
 
-    .. tab-item:: Fundraising Outreach
+    .. tab-item:: Fundraising
 
         Your team has a fundraising idea to bag at a local supermarket.
 
         *The Pitch: Support local STEM students by allowing local robotics team to bag at your store!*
 
-            - Visit your local supermarket and talk to a manager or customer service rep to politely introduce your team.
-            - Respectfully ask if they would be willing to let you bag for customers on x date and set up tip jars.
-            - Obtain contact information of the person you spoke to, and write a followup email to them thanking them and confirming the date and time.
-            - Assign members to create promotional materials to share on social media and with friends/family.
+        - Visit your local supermarket and talk to a manager or customer service rep to politely introduce your team.
+        - Respectfully ask if they would be willing to let you bag for customers on x date and set up tip jars.
+        - Obtain contact information of the person you spoke to, and write a followup email to them thanking them and confirming the date and time.
+        - Assign members to create promotional materials to share on social media and with friends/family.
 
-    .. tab-item:: Connect / Sponsorship Outreach
+    .. tab-item:: Connect / Sponsorship
 
         Outreach to create connections and obtain sponsorships are relatively similar. Send lots of emails to local companies asking for either help or sponsorship. You should try to tie the engineering problems you are encountering in the season to the specific company you are requesting aid from; this can make it easier for the company to justify donating their money or time.
 
@@ -67,4 +67,4 @@ Housekeeping
 
 Keep a list of the programs your team has created or contributed to. Ensure you take photos at every event with team members. Keep track of your **Reach** (tangible interaction or observation of your team), **Engagement** (how many people interacted with your team/you interacted with, e.g. by attending events), **Impact** (how many people are directly impacted by your outreach events), and **Conversion** (how many people get involved with your program.)
 
-If looking to include these statistics in your judged presentation or portfolio, ensure you adhere to the “Awards Definitions" located in the appendix of |gm1| that outline terms relating to outreach. These terms are: *Started, Mentored, Assisted, Provided Published Resources, Ran, Hosted, Reached, and Advocated.*
+If looking to include these statistics in your judged presentation or portfolio, ensure you adhere to the “Awards Definitions" located in the appendix of |gm1| that outline terms relating to outreach. These terms are: *Started*, *Mentored*, *Assisted*, *Provided Published Resources*, *Ran*, *Hosted*, *Reached*, and *Advocated*.

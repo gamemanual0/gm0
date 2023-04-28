@@ -10,11 +10,10 @@ Chances are, if you’re interested in robotics, you’ll find quite a few peopl
 
 At these interest events, discuss how FTC is interesting and beneficial to those who participate. Make sure to have information for both parents and students! While you’re recruiting, make sure to be inclusive - people may not have figured out that their passions lie within the scope of FIRST, and they may do so in creative ways when given the opportunity!
 
-.. note::
-    Make sure to get everyone’s contact information so you can reach out to keep them interested.
-
 .. tip::
     To ensure a sustainable team, you should recruit from grades 7 upwards if possible to allow for a constant flow of members. The key to sustainability is new faces!
+
+Make sure to get everyone’s contact information so you can reach out to keep them interested.
 
 Find mentors.
 -------------
@@ -23,7 +22,7 @@ It’s understandable if you have difficulty with this step, but it is criticall
 
 Now, to find mentors: reaching out to STEM teachers in your area is a great way to find interest, but you can also reach out to local businesses to see if any of their employees would be interested in lending a hand! (See the email guide for more tips.) New recruits can ease this process a little, and if a new mentor knows a team member it’ll make it easier for them to mesh with the rest of the team. Receiving mentorship over text and video is generally less recommended, as in-person mentors can communicate and demonstrate mechanical and software concepts more efficiently.
 
-.. warning::
+.. important::
     To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST’s Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
 
     While parents and other family members can be helpful mentors in a pinch, it’s important to have outside mentorship so that your team can survive even after you graduate.
@@ -44,11 +43,14 @@ There are 3 common team structures, each with advantages and disadvantages:
 
         Run as a school-affiliated team/club with school funding. Watch for red tape regarding funds and parts. Also watch for it on the field :)
 
-        Advantages
+        .. important::
+           If starting a school team, make sure you figure out whether you can accept external sponsorships. This can affect your financial planning and fundraising.
+
+        Advantages:
             - Easier to sustain
             - Potential for consistent funding
 
-        Disadvantages
+        Disadvantages:
           - Less practice schedule freedom
           - Arbitrary part sourcing restrictions
           - Competing for funding yearly
@@ -58,33 +60,29 @@ There are 3 common team structures, each with advantages and disadvantages:
 
         Run out of a house or garage. Budget is whatever fundraising you can acquire.
 
-        Advantages
+        Advantages:
             - Freer practice schedule
             - No part sourcing constraints
 
-        Disadvantages
+        Disadvantages:
           - Harder to obtain sponsorships
           - Space/residential constraints
 
     .. tab-item:: Community Team
 
-        Run out of a house or garage. Budget is whatever fundraising you can acquire.
+        Run out of a 501(c)3. Generally the hardest to set up, but offers the most flexibility.
 
-        Advantages
+        .. tip:: If going the community team route, consider finding a local nonprofit to work with. This can greatly reduce the work and time required compared to starting your own, and many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
+
+        Advantages:
             - Potential dedicated practice space
             - Freedom of practice schedule
             - No part sourcing constraints
             - Lucrative for donors (through tax write-offs!)
 
-        Disadvantages
+        Disadvantages:
           - Harder to sustain
           - Many administrative tasks
-
-.. tip::
-    If going the community team route, consider finding a local nonprofit to work with. This can greatly reduce the work and time required compared to starting your own, and many are happy to expand into STEM if you pitch it convincingly! Some common nonprofits include 4-H groups, Scout posts, homeschool groups, and libraries.
-
-.. warning::
-    If starting a school team, make sure you figure out whether you can accept external sponsorships. This can affect your financial planning and fundraising.
 
 Find funding and create your team!
 ----------------------------------

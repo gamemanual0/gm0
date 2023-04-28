@@ -28,12 +28,12 @@ Summer projects are a great way to explore robot concepts and start outreach. Fo
 Create and utilize resources.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To start the learning process, ||gm0|| may be useful! Have your team peruse the resources here, and use that as a starting point for your own knowledge base. Make sure to check out the [Useful Resources page], where other resources are cataloged. Additionally, compiling your own resources will allow your team to explore different techniques and materials, and provide useful documentation for future team members. You could create a library of FTC-legal sensors and goBILDA kits. Make sure to include all your members in these processes.
+To start the learning process, |gm0| may be useful! Have your team peruse the resources here, and use that as a starting point for your own knowledge base. Make sure to check out the :doc:`/docs/useful-resources` section, where other resources are cataloged. Additionally, compiling your own resources will allow your team to explore different techniques and materials, and provide useful documentation for future team members. You could create a library of FTC-legal sensors and goBILDA kits. Make sure to include all your members in these processes.
 
 Cross-train your members.
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the most important knowledge-related pointer, in my opinion. Having all your members learn at least one skill outside of their expertise will go a long way towards increasing collaboration and efficiency. Programmers who CAD will be able to design and integrate their own sensor cases, reducing design team workload. Designers who know outreach will be able to write their parts and speak to their designs more effectively in judging. An outreach team that knows nothing about the mechanical and software processes on their robot is effectively useless, so I would especially stress cross-training your outreach members.
+This is the most important knowledge-related pointer, in my opinion. Having all your members learn at least one skill outside of their expertise will go a long way towards increasing collaboration and efficiency. Programmers who CAD will be able to design and integrate their own sensor cases, reducing design team workload. Designers who know outreach will be able to write their parts and speak to their designs more effectively in judging. Outreach people who know the mechanical and software processes on their robot are more effective.
 
 Create a training program for your recruits.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,14 +43,14 @@ When new members join your team, some of them will probably not know how to buil
 Gracious Professionalism
 ------------------------
 
-Teams should be gracious and professional both at practice and events - stress to your members that each of them is a representative of your team and should follow GP. Encourage them to actively assist other teams both at events and online. Finally, keep an eye on your team and ensure everyone is getting along well and being respectful.
+Teams should be gracious and professional both at practice and events - stress to your members that each of them is a representative of your team. Encourage them to actively assist other teams both at events and online. Finally, keep an eye on your team and ensure everyone is getting along well and being respectful.
 
 Fostering a Safe Environment
 ----------------------------
 
-Your team should strive to be as inclusive as possible. Consider a partnership with the LGBTQ+ of FIRST and ensure your queer and gender non-conforming members feel comfortable in your team environment. Ensure other members are not making homophobic, sexist, and/or racist jokes, and educate them on why they should refrain from doing so. Ensure you are being actively mindful to not create a “boys club” culture where women are objectified and sidelined, and make sure every member feels comfortable in their position.
+Your team should strive to be as inclusive as possible. Ensure other members are not making homophobic, sexist, racist and/or transphobic jokes, and educate them on why they should refrain from doing so. Be actively mindful to not create a "boys club" culture where women are objectified and sidelined, and make sure every member feels comfortable in their position. Everyone should feel comfortable in your team environment.
 
 Team Identity
 -------------
 
-FTC has put a larger emphasis on branding and team identity in recent seasons. Create a logo design for your team, and a corresponding style guide on fonts and colors to keep consistency when creating marketing materials. This will make it easier for you to design posters, flyers, t-shirts, stickers, and even branded plates for your robot!
+Create a logo design for your team, and a corresponding style guide on fonts and colors to keep consistency when creating marketing materials. This will make it easier for you to design posters, flyers, t-shirts, stickers, and even branded plates for your robot!

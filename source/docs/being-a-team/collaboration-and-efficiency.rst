@@ -40,12 +40,12 @@ Cloud CAD
 
 Your design team (and the rest of the team, if possible) should have access to your full suite of designs. Sharing your designs allows for teammates to help each other improve by sharing techniques and tricks, and allows your outreach team to easily create renders for presentations and marketing.
 
-This can be accomplished by using CAD software built around shared folders like Onshape or Fusion 360. It can also be accomplished with other CAD software, like Solidworks or Inventor, but this is generally significantly more complicated to set up. See the CAD page for more in-depth comparisons between options.
+This can be accomplished by using CAD software built around shared folders like Onshape or Fusion 360. It can also be accomplished with other CAD software, like Solidworks or Inventor, but this is generally significantly more complicated to set up.
 
 Software Collaboration
 ----------------------
 
-Software collaboration is easier to facilitate. Robot code should be version controlled regardless of the size of your software squad, so teaching your members how to share a team Github is an easy way to collaborate. Additionally, you can utilize pair programming (multiple members writing software together on one computer) to detect bugs.
+Software collaboration is easier to facilitate. Robot code should be version controlled regardless of the size of your software squad, so teaching your members how to share a team Github is an easy way to collaborate. Additionally, you can utilize pair programming (multiple members writing software together on one computer) to help catch bugs.
 
 Efficiency
 ----------
