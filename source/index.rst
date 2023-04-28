@@ -27,6 +27,15 @@ Index
       Are you a rookie team? Are you new to FTC? Are you just looking for a refresher? Check out this section for a curated list of the most pertinent pages!
 
    .. grid-item-card::
+      :link: /docs/being-a-team/index
+      :link-type: doc
+      :columns: 12
+
+      Being a Team
+      ^^^^^^^^^^^^
+      Covers how to start, organize, and run an effective team.
+
+   .. grid-item-card::
       :link: /docs/design-skills/index
       :link-type: doc
 
@@ -107,6 +116,7 @@ Index
    docs/mission-statement
    docs/start-here
    docs/know-your-lingo
+   docs/being-a-team/index
    docs/design-skills/index
    docs/hardware-components/index
    docs/custom-manufacturing/index

@@ -21,6 +21,15 @@ Start Here
       ^^^
       The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
 
+   .. grid-item-card::
+      :link: /docs/being-a-team/index
+      :link-type: doc
+      :columns: 12
+
+      Being a Team
+      ^^^^^^^^^^^^
+      Covers how to start, organize, and run an effective team.
+
 Hardware
 --------
 
