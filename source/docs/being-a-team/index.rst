@@ -7,7 +7,7 @@ Some tips on how to start, run, and organize a team, along with some outreach/ma
    :maxdepth: 1
 
    starting-a-team
-   team-structure
+   team-organization
    collaboration-and-efficiency
    outreach-basics
    pitching-your-team

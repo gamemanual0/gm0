@@ -1,10 +1,10 @@
-Team Structure
-==============
+Team Organization
+=================
 
 A group of individuals is nothing without structure and organization. Learning the individual strengths of each of your teammates to create robots together will turn you into a force fit to conquer even the toughest game challenges. This article covers team organization and collaboration, knowledge sharing, gracious professionalism, and fostering a safe team environment.
 
-Team Organization
------------------
+Team Structure
+--------------
 
 The first step to organizing a team is determining who does what. Generally, FTC teams are organized into design, assembly / mechanical, software, and outreach squads, with different sub-squads for different tasks - for example, an outreach squad could have a sub-squad working on industry connections. In addition, your team will probably form cross-squad teams, such as your drive team and scouting team.
 
