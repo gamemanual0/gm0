@@ -42,6 +42,7 @@ Other Contributors
 - Kelvin - FTC 731 Wannabee Strange
 - Kevin - FTC 9048 Philobots
 - Nate - FTC 12897 Newton’s Law of Mass
+- Navya - FTC 7149 ENFORCERS
 - Neo - FTC 6710 Sigmas
 - Peter - FTC 12533 Inception
 - Sam - FTC 2753 Team Overdrive
