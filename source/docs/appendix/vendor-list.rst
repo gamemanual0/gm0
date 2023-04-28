@@ -10,8 +10,8 @@ Vendor List
 
   - AndyMark sells the official game field and game sets, as well as individual game parts and the SoftTiles foam tiles.
   - AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, compliant, stealth, and mecanum wheels, as well as many other items.
-- `Axon <https://axon-robotics.com/>`_
-   - Vendor for highly customizable servos, with software functionality for range increases and CR/NCR switching.
+- `Axon Robotics <https://axon-robotics.com/>`_
+   - Vendor for highly customizable servos, with software functionality for range increases to switch between positional mode and continuous rotation mode.
 
 - `CopperState <https://www.copperstate.com/>`_
 
