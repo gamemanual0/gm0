@@ -115,8 +115,8 @@ Index
 
    docs/mission-statement
    docs/start-here
-   docs/being-a-team/index
    docs/know-your-lingo
+   docs/being-a-team/index
    docs/design-skills/index
    docs/hardware-components/index
    docs/custom-manufacturing/index
