@@ -45,7 +45,7 @@ This mechanism is not widely used in FTC due to the space requirements. The link
    .. raw:: html
 
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-      <model-viewer alt="goBILDA Four Bar" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/decca3b6f8868b3f16ea2e35f88bf54567dcf358/Linkages/FourBar.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+      <model-viewer alt="goBILDA Four Bar" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/Linkages/FourBar.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
 
    `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/204f2654fb268fb556c1b7b1>`_.
 
@@ -66,7 +66,7 @@ Note: Both chain and belt can be used to construct a virtual four bar, and there
    .. raw:: html
 
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-      <model-viewer alt="goBILDA COTS Virtual Four Bar" src="https://cdn.statically.io/gh/Eeshwar-Krishnan/gm0-models-test/1432fdd800debce7eba45c81a26a62692eb636a5/Linkages/V4B.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+      <model-viewer alt="goBILDA COTS Virtual Four Bar" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/Linkages/V4B.glb" ar ar-modes="webxr scene-viewer quick-look" autoplay seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
 
    `Click here to open this example in Onshape Cad, where you can click and drag parts to see how they move! <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/62097ae7e6d154b9232d8957>`__.
 
