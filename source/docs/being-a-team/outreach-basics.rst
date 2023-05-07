@@ -12,8 +12,7 @@ A concerning amount of teams see outreach as a means to obtain awards. While it 
 
 Many teams often hope to create large-scale programs that impact tens of thousands. However, many smaller outreach programs can often be more impactful than one big, unwieldy program that may never get off the ground. Consider what your local area needs - maybe your library needs volunteers to teach STEM, or your local FLL team requires mentorship. Maybe there are no other FLL or FTC teams in your area. Regardless, your goal should be to advocate for STEM and FIRST in your area.
 
-.. important::
-   Create a plan! Any set of outreaches should be outlined in a business plan. While this plan should also comprise your team vision, budget goals, and growth objectives, you can also document outreach as a way to expand your program's reach.
+.. important:: Create a plan! Any set of outreaches should be outlined in a business plan, documenting how they serve as a way to expand your program's reach. This plan should also contain your team's vision, budget goals, and growth objectives.
 
 Spreading The Word
 ------------------
@@ -41,7 +40,7 @@ Once you’ve zeroed in on the programs you’d like to create or contribute to,
 
       - Visit your local supermarket and talk to a manager or customer service rep to politely introduce your team.
       - Respectfully ask if they would be willing to let you bag for customers and set up tip jars.
-      - Obtain contact information of the person you spoke to, and write a followup email to them thanking them and confirming a date and time.
+      - Obtain contact information of the person you spoke to, and write a follow-up email to them thanking them and confirming a date and time.
       - Assign members to create promotional materials to share on social media and with friends/family.
 
    .. tab-item:: Connect / Sponsorship
