@@ -9,6 +9,6 @@ Tutorials for common FTC programs.
    mecanum-drive
    gamepad
    using-telemetry
+   encoders
    bulk-reads
    vision
-   encoders
