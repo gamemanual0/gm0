@@ -43,7 +43,7 @@ In FTC software, quadrature encoders and motors are accessed with the same motor
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-1.png
          :width: 45em
 
 While convenient if one uses the built-in motor encoder, this can easily become confusing if using external encoders. To use external encoders, you must use the motor object associated with the port. For example, if there is a motor in port 1 named "Arm Motor" and an external encoder plugged into encoder port 1, you must do the following to get the encoder's position:
@@ -61,7 +61,7 @@ While convenient if one uses the built-in motor encoder, this can easily become 
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-1.png
          :width: 45em
 
 Great! We now have the relative position of our encoder, reported in the number of "counts" it is from what it considers to be zero. However, it is often convenient to have the encoder start at zero at the beginning of the OpMode. While it technically does not change anything, it can help with debugging and simplify future code. To do this, we can add a call to reset the encoders before we read them.
@@ -74,14 +74,14 @@ Great! We now have the relative position of our encoder, reported in the number 
       .. code-block::
 
          DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
-         motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER); //Reset the motor encoder
-         motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER); //Turn the motor back on when we are done
+         motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER); // Reset the motor encoder
+         motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER); // Turn the motor back on when we are done
          int position = motor.getCurrentPosition();
 
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-2.png
          :width: 45em
 
 As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, just know that it turns the motor back on so we can use it after the encoder is reset.
@@ -104,22 +104,22 @@ Now we have our position (in counts) relative to the starting angle of the encod
         public class EncoderOpmode extends LinearOpMode {
             @Override
             public void runOpMode() throws InterruptedException {
-                //Find a motor in the hardware map named "Arm Motor"
+                // Find a motor in the hardware map named "Arm Motor"
                 DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
 
-                //Reset the motor encoder so that it reads zero ticks
+                // Reset the motor encoder so that it reads zero ticks
                 motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-                //Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
+                // Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
                 motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
                 waitForStart();
 
                 while (opModeIsActive()) {
-                    //Get the current position of the motor
+                    // Get the current position of the motor
                     int position = motor.getCurrentPosition();
 
-                    //Show the position of the motor on telemetry
+                    // Show the position of the motor on telemetry
                     telemetry.addData("Encoder Position", position);
                     telemetry.update();
                 }
@@ -130,7 +130,7 @@ Now we have our position (in counts) relative to the starting angle of the encod
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-3.png
          :width: 45em
 
 If you run the above OpMode and turn the encoder, you should see the values change as you move. If you rotate the shaft back to where it started, you will see the number return to (very close to) zero. As an exercise, rotate the shaft one full revolution (360) degrees and note down the number.
@@ -156,7 +156,7 @@ In the following example, we divide the encoder position by its counts per revol
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-4.png
          :width: 45em
 
 There is one more number we can get: the angle of the shaft. Calculating this number is very simple. We can multiply the number of rotations by 360 (since there are 360 degrees in one revolution). You might notice that this number can go above 360 as the shaft rotates multiple times. As such, we introduce angleNormalized, which will always be between 0 and 360.
@@ -178,7 +178,7 @@ There is one more number we can get: the angle of the shaft. Calculating this nu
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/encoder-opmode-5.png
          :width: 45em
 
 Putting it all together, we get the following testing program.
@@ -199,19 +199,19 @@ Putting it all together, we get the following testing program.
             public class EncoderOpmode extends LinearOpMode {
                 @Override
                 public void runOpMode() throws InterruptedException {
-                    //Find a motor in the hardware map named "Arm Motor"
+                    // Find a motor in the hardware map named "Arm Motor"
                     DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
 
-                    //Reset the motor encoder so that it reads zero ticks
+                    // Reset the motor encoder so that it reads zero ticks
                     motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-                    //Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
+                    // Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
                     motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
                     waitForStart();
 
                     while (opModeIsActive()) {
-                        //Get the current position of the motor
+                        // Get the current position of the motor
                         double CPR = [Your Counts Per Revolution Here];
 
                         int position = motor.getCurrentPosition();
@@ -220,7 +220,7 @@ Putting it all together, we get the following testing program.
                         double angle = revolutions * 360;
                         double angleNormalized = angle % 360;
 
-                        //Show the position of the motor on telemetry
+                        // Show the position of the motor on telemetry
                         telemetry.addData("Encoder Position", position);
                         telemetry.addData("Encoder Revolutions", revolutions);
                         telemetry.addData("Encoder Angle (Degrees)", angle);
@@ -233,7 +233,9 @@ Putting it all together, we get the following testing program.
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      :download:`Blocks file download <block-code/encoder-opmode.blk>`
+
+      .. image:: images/encoders/encoder-opmode-complete.png
          :width: 45em
 
 Tracking Wheels and Spools
@@ -252,14 +254,14 @@ From here, we can calculate the circumference (the length of the arc of the circ
 
       .. code-block::
 
-            double diameter = 1.0; //Replace with your wheel's or spool's diameter!
+            double diameter = 1.0; // Replace with your wheel/spool's diameter
             double circumference = Math.PI * diameter;
 
             double distance = circumference * revolutions;
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      .. image:: images/encoders/spool-encoder-opmode-1.png
          :width: 45em
 
 .. note:: Units are very important when dealing with FTC programming, so make sure they are always consistent! Whatever units you use for the diameter are the units for your calculated distance. So if you measure your diameter in inches, the reported distance will also be in inches.
@@ -279,25 +281,25 @@ Putting this all together with our previous testing program, we get
             import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
             import com.qualcomm.robotcore.hardware.DcMotor;
             @TeleOp
-            public class EncoderOpmode extends LinearOpMode {
+            public class SpoolEncoderOpmode extends LinearOpMode {
                @Override
                public void runOpMode() throws InterruptedException {
-                  //Find a motor in the hardware map named "Arm Motor"
+                  // Find a motor in the hardware map named "Arm Motor"
                   DcMotor motor = hardwareMap.dcMotor.get("Arm Motor");
 
-                  //Reset the motor encoder so that it reads zero ticks
+                  // Reset the motor encoder so that it reads zero ticks
                   motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-                  //Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
+                  // Turn the motor back on, required if you use STOP_AND_RESET_ENCODER
                   motor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
                   waitForStart();
 
                   while (opModeIsActive()) {
-                        //Get the current position of the motor
+                        // Get the current position of the motor
                         double CPR = [Your Counts Per Revolution Here];
 
-                        double diameter = 1.0; //Replace with your object's diameter
+                        double diameter = 1.0; // Replace with your wheel/spool's diameter
                         double circumference = Math.PI * diameter;
 
                         int position = motor.getCurrentPosition();
@@ -306,7 +308,7 @@ Putting this all together with our previous testing program, we get
                         double angle = revolutions * 360;
                         double angleNormalized = angle % 360;
 
-                        double distance = revolutions * circumference;
+                        double distance = circumference * revolutions;
 
                         //Show the position of the motor on telemetry
                         telemetry.addData("Encoder Position", position);
@@ -322,7 +324,9 @@ Putting this all together with our previous testing program, we get
    .. tab-item:: Blocks
       :sync: blocks
 
-      .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-2.png
+      :download:`Blocks file download <block-code/spool-encoder-opmode.blk>`
+
+      .. image:: images/encoders/spool-encoder-opmode-complete.png
          :width: 45em
 
 Running Motors With Encoders
