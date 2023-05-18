@@ -219,7 +219,7 @@ Robot-Centric Final Sample Code
    .. tab-item:: Blocks
       :sync: blocks
 
-      :download:`Blocks file download <mecanum-drive-sample.blk>`
+      :download:`Blocks file download <block-code/mecanum-drive-sample.blk>`
 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-complete.png
          :width: 45em
