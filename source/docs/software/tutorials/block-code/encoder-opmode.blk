@@ -6,7 +6,7 @@
 <variable id=")4Fe^RcWINgSuZdMWOM}">angle</variable>
 <variable id="JjI]ctX;Y5/S,f]w`DxW">angleNormalized</variable>
 </variables>
-<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" x="50" y="50">
+<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" x="39" y="-28">
 <field name="NAME">runOpMode</field>
 <comment pinned="false" h="45" w="532">This function is executed when this Op Mode is selected from the Driver Station.</comment>
 <statement name="STACK">
@@ -17,6 +17,9 @@
 <block type="linearOpMode_opModeIsActive" id=")o%YFX/#9kvv^sgXr4~5"/>
 </value>
 <statement name="DO0">
+<block type="comment" id="^N!w3Agh}YFe$3cj_YBD">
+<field name="COMMENT">Reset the motor encoder so that it reads zero</field>
+<next>
 <block type="dcMotor_setProperty_RunMode" id="1|iH*VXes7@mQ=J|7fMZ">
 <field name="IDENTIFIER">ArmMotorAsDcMotor</field>
 <field name="PROP">Mode</field>
@@ -27,6 +30,9 @@
 </shadow>
 </value>
 <next>
+<block type="comment" id="`tv/?-U_gI-Gv4yPeEbc">
+<field name="COMMENT">Turn motor back on, required after STOP_AND_RESET_ENCODER</field>
+<next>
 <block type="dcMotor_setProperty_RunMode" id="*x:L|f|LXRU~$*{!QRr~">
 <field name="IDENTIFIER">ArmMotorAsDcMotor</field>
 <field name="PROP">Mode</field>
@@ -36,8 +42,6 @@
 <field name="RUN_MODE">RUN_WITHOUT_ENCODER</field>
 </shadow>
 </value>
-<next>
-<block type="linearOpMode_waitForStart" id="S;K_y[buyYHS5d.;~h!Z">
 <next>
 <block type="controls_whileUntil" id="^0Kagy/e+Ea{rbZPv2G6">
 <field name="MODE">WHILE</field>
@@ -55,6 +59,9 @@
 <field name="NUM">0</field>
 </block>
 </value>
+<next>
+<block type="comment" id="ntv7`~yx/z2V0LY-bOn7">
+<field name="COMMENT">Get the current position of the motor</field>
 <next>
 <block type="variables_set" id=":Rbc)wW;VF%B~0z:y=2R">
 <field name="VAR" id="5KSqhm6%$gt?0[Mc!I]F">position</field>
@@ -130,6 +137,9 @@
 </value>
 </block>
 </value>
+<next>
+<block type="comment" id="t,H$|ENQIppI42aB`_e9">
+<field name="COMMENT"> Show the position of the motor on telemetry</field>
 <next>
 <block type="telemetry_addNumericData_Number" id="vu;U#eDcB4BOwDr6*[pT">
 <value name="KEY">
@@ -212,7 +222,13 @@
 </block>
 </next>
 </block>
+</next>
+</block>
+</next>
+</block>
 </statement>
+</block>
+</next>
 </block>
 </next>
 </block>

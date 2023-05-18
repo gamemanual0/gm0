@@ -211,9 +211,9 @@ Putting it all together, we get the following testing program.
                  waitForStart();
 
                  while (opModeIsActive()) {
-                     // Get the current position of the motor
                      double CPR = [Your Counts Per Revolution Here];
 
+                     // Get the current position of the motor
                      int position = motor.getCurrentPosition();
                      double revolutions = position/CPR;
 
@@ -296,12 +296,12 @@ Putting this all together with our previous testing program, we get
                   waitForStart();
 
                   while (opModeIsActive()) {
-                        // Get the current position of the motor
                         double CPR = [Your Counts Per Revolution Here];
 
                         double diameter = 1.0; // Replace with your wheel/spool's diameter
                         double circumference = Math.PI * diameter;
 
+                        // Get the current position of the motor
                         int position = motor.getCurrentPosition();
                         double revolutions = position/CPR;
 
@@ -348,10 +348,7 @@ Earlier, we learned about the RUN_WITHOUT_ENCODER mode for the motor. We can use
    .. tab-item:: Blocks
       :sync: blocks
 
-         .. admonition:: TODO
-
-            Add block code here
-
+      .. image:: images/encoders/arm-opmode-1.png
          :width: 45em
 
 .. tip:: You can find out more about run modes at the `official REV Robotics Documentation page <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`_
@@ -375,10 +372,7 @@ However, before we tell the motor to go to a position, we have to tell the motor
    .. tab-item:: Blocks
       :sync: blocks
 
-         .. admonition:: TODO
-
-            Add block code here
-
+      .. image:: images/encoders/arm-opmode-2.png
          :width: 45em
 
 This code tells the motor to move to 1000 ticks, using a PID loop to control the motor's position. You can read more about PID loops `here. <https://gm0.org/en/latest/docs/software/concepts/control-loops.html#pid>`_
@@ -401,10 +395,7 @@ We can cap the speed that the motor runs at using the following code:
    .. tab-item:: Blocks
       :sync: blocks
 
-         .. admonition:: TODO
-
-            Add block code here
-
+      .. image:: images/encoders/arm-opmode-3.png
          :width: 45em
 
 Now, let's use this information to control an arm in an OpMode.
@@ -479,9 +470,7 @@ Now, let's use this information to control an arm in an OpMode.
    .. tab-item:: Blocks
       :sync: blocks
 
-         .. admonition:: TODO
+      :download:`Blocks file download <block-code/arm-opmode.blk>`
 
-            Add block code here
-
+      .. image:: images/encoders/arm-opmode-complete.png
          :width: 45em
-

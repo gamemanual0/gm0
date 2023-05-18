@@ -40,8 +40,6 @@
 </shadow>
 </value>
 <next>
-<block type="linearOpMode_waitForStart" id="S;K_y[buyYHS5d.;~h!Z">
-<next>
 <block type="controls_whileUntil" id="^0Kagy/e+Ea{rbZPv2G6">
 <field name="MODE">WHILE</field>
 <value name="BOOL">
@@ -93,6 +91,9 @@
 </value>
 </block>
 </value>
+<next>
+<block type="comment" id="Yld/@9xO%z}mVNK4$$5;">
+<field name="COMMENT">Get the current position of the motor</field>
 <next>
 <block type="variables_set" id=":Rbc)wW;VF%B~0z:y=2R">
 <field name="VAR" id="5KSqhm6%$gt?0[Mc!I]F">position</field>
@@ -192,6 +193,9 @@
 </value>
 </block>
 </value>
+<next>
+<block type="comment" id="a2WH.2S@L.5;OB0x2:c8">
+<field name="COMMENT"> Show the position of the motor on telemetry</field>
 <next>
 <block type="telemetry_addNumericData_Number" id="e2=Q13-z%Hh]G#HN42]^">
 <value name="KEY">
@@ -299,9 +303,11 @@
 </block>
 </next>
 </block>
-</statement>
+</next>
 </block>
 </next>
+</block>
+</statement>
 </block>
 </next>
 </block>
