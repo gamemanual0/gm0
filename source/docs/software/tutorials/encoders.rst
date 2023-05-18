@@ -84,7 +84,7 @@ Great! We now have the relative position of our encoder, reported in the number 
       .. image:: images/encoders/encoder-opmode-2.png
          :width: 45em
 
-As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, just know that it turns the motor back on so we can use it after the encoder is reset.
+As a note, **RUN_WITHOUT_ENCODER does not disable the encoder. It instead tells the SDK not to use the motor encoder for built-in velocity control**. We will go over what this means in a later section, but for now, know that it turns the motor back on so we can use it after the encoder is reset.
 
 Now we have our position (in counts) relative to the starting angle of the encoder. We can make a quick program to see this in action. Here, we use a motor encoder plugged into a port named "Arm Motor" in the hardware configuration.
 
@@ -243,7 +243,7 @@ Tracking Wheels and Spools
 
 Up to this point, we have mostly been working with motors rotating something. However, many mechanisms in FTC are linear, and it can be desirable to measure these in a linear unit as well. Fortunately, this is very straightforward. All we need to know is the diameter of the object we are measuring.
 
-Be careful when selecting your diameter. For wheels, it is just the outer diameter of the wheel, but for spools, it is the inner diameter of the spool, where the string rests. For chain and belts, it is the "pitch diameter" of the sprocket or pulley.
+Be careful when selecting your diameter. For wheels, it is the outer diameter of the wheel, but for spools, it is the inner diameter of the spool, where the string rests. For chain and belts, it is the "pitch diameter" of the sprocket or pulley.
 
 From here, we can calculate the circumference (the length of the arc of the circle, or the distance the wheel/spool will travel in one rotation)
 
