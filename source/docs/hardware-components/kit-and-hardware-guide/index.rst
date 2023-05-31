@@ -22,6 +22,8 @@ Choice of a kit is a matter of many a debate in FTC forums, and each team has th
 - Tetrix (metric and imperial) is probably the simplest system to work with, but its part selection is limited, and the use of :term:`4.7mm shaft <Shaft>` with :term:`set screws <Set Screw>` is inferior to :term:`clamping hubs <Clamping Hub>` used in other systems.
 - Actobotics (imperial) is similar to goBILDA, being made by the same company. It has always been a solid option with reliable parts. For most FTC teams, goBILDA would probably be a better choice as it is more flexible and compatible, unless you already have a large stock of Actobotics parts.
 
+.. attention:: While VEX also sells some parts aimed towards FTC, **Game Manual 0 cannot endorse or support any VEX Robotics/IFI (VEX's parent company) products in any manner.** We cannot in good conscience drive people to support a business with a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|.
+
 .. toctree::
    :maxdepth: 1
    :caption: Kit Options
