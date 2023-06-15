@@ -1,17 +1,20 @@
 version: 2
 
-# Build documentation in the docs/ directory with Sphinx
 sphinx:
   builder: html
   configuration: source/conf.py
   fail_on_warning: true
 
-# Optionally build your docs in additional formats such as PDF and ePub
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  apt_packages:
+    - graphviz
+
 formats:
   - pdf
 
-# Optionally set the version of Python and requirements required to build your docs
 python:
-  version: 3.7
   install:
     - requirements: source/requirements.txt
