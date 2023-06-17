@@ -1,10 +1,10 @@
 Laser Cutting
-===================================
+=============
 
 Laser cutting can be a useful tool that allows FTC teams to quickly produce complex custom parts. This guide will cover the uses of laser cutting in FTC, common types of laser cutters, and how to optimize your design for laser cutting. If your team does not have access to a laser cutter, consider checking with sponsors or local makerspaces.
 
 Common Types of Laser Cutters
--------------------------------------------
+-----------------------------
 
 In general, there are three types of laser cutters FTC teams may have access to: **diode lasers**, **CO2 lasers**, and **fiber lasers**.
 
