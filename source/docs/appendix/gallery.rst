@@ -5,6 +5,22 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2022-2023 Power Play
+------------------------
+
+19043 CyLiis
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/ecc71c6b26b43f044d4b2589/w/a43082b1875fd38bd5f9bcd2/e/83bd8eba2133596a2717cfac?renderMode=0&uiState=64b5b6fb9b2a8d56d422b561>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=szGZ6emLUhE>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=PDxPbxG_3LY>`__
+
+19044 Peppers
+^^^^^^^^^^^^^^^^^^^^^
+- `CAD <https://a360.co/46LcT7E>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=oouTEb8M56g&pp=ygUUcGVwcGVycyByb2JvdCByZXZlYWw%3D>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=_PD54AEV-DM&pp=ygUUcGVwcGVycyByb2JvdCByZXZlYWw%3D>`__
+
 2021-2022 Freight Frenzy
 ------------------------
 
@@ -64,7 +80,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 - `Technical Binder <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__
 - `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__
-- `Animation <https://drive.google.com/file/d/1wCHZ42TfqL1imSi1w5dGu1kQKBtCGrvr/view?usp=drive_open>`__
 
 14270 Quantum Robotics
 ^^^^^^^^^^^^^^^^^^^^^^

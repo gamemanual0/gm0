@@ -1,3 +1,4 @@
+"docs/power-and-electronics/servo-guide/specialty-servos.rst" "docs/power-and-electronics/servo-guide/choosing-servo.rst"
 "docs/meta/contributors.rst" "docs/contributing/contributors.rst"
 "docs/meta/credits.rst" "docs/contributing/contributors.rst"
 "docs/meta/index.rst" "docs/contributing/index.rst"

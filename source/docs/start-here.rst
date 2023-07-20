@@ -14,12 +14,12 @@ Start Here
       A list of useful resources and accompanying descriptions, with especially pertinent ones marked.
 
    .. grid-item-card::
-      :link: https://discord.com/invite/first-tech-challenge
-      :link-type: url
+      :link: /docs/being-a-team/index
+      :link-type: doc
 
-      FTC Discord
-      ^^^
-      The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
+      Being a Team
+      ^^^^^^^^^^^^
+      Covers how to start, organize, and run an effective team.
 
 Hardware
 --------

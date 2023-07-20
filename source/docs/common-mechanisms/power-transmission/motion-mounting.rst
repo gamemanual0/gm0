@@ -65,7 +65,7 @@ Zombie Axle (Coaxial)
 Advantages
 ^^^^^^^^^^
 
-- Only power transmission that can power two mechanisms on the same revolution point
+- Only power transmission method that can power two mechanisms on the same revolution point
 
 Disadvantages
 ^^^^^^^^^^^^^

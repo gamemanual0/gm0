@@ -44,6 +44,7 @@ Where can I get ...?
 
   - HiTec (from ServoCity); 24 tooth spline
   - REV Smart Robot Servo; 25 tooth spline
+  - Axon Mini & Max; 25 tooth spline
   - goBILDA Dual Mode Servo; 25 tooth spline
   - Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth spline
   - Savox heavy-duty servos; 25 tooth spline

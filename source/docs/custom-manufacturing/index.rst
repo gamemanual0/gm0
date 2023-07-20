@@ -9,4 +9,5 @@ This chapter covers the basics of custom materials and manufacturing for all of 
    materials-guide
    3d-printing
    machining
+   laser-cutting
    manufacturing-glossary

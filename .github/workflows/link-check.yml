@@ -9,8 +9,8 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
       with:
         python-version: 3.7
     - name: Install Dependencies
@@ -19,7 +19,7 @@ jobs:
       run: make linkcheck
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: linkcheck-output.txt
         path: build/linkcheck/output.txt

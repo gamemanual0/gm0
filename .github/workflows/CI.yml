@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
       with:
         python-version: 3.7
     - name: Install Python Dependencies
@@ -19,6 +19,7 @@ jobs:
         pip install -r source/requirements.txt
     - name: Install LaTeX
       run: |
+        sudo apt update
         sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
     - name: Build HTML
       run: |
@@ -39,8 +40,8 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
       with:
         python-version: 3.7
     - name: Install Dependencies
@@ -59,8 +60,8 @@ jobs:
   check-linting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
       with:
         python-version: 3.7
     - name: Install Dependencies
@@ -72,7 +73,7 @@ jobs:
   check-spelling:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: misspell
       uses: reviewdog/action-misspell@v1
       with:
@@ -81,11 +82,11 @@ jobs:
   check-redirects:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Checkout main
       run: |
         git fetch origin main --depth=1
-    - uses: actions/setup-python@v2
+    - uses: actions/setup-python@v3
       with:
         python-version: 3.7
     - name: Install Dependencies

@@ -3,12 +3,6 @@
 Index
 =====
 
-.. warning::
-
-   Due to recent events, **Game Manual 0 cannot endorse or support any VEX Robotics/IFI (VEX's parent company) products in any manner.** We cannot in good conscience drive people to support or even *consider* buying from a business with a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|.
-
-   These accusations and more have been collated in a `Chief Delphi thread <https://www.chiefdelphi.com/t/cw-sexual-harassment-an-open-letter-to-vex/416929>`_. (Content warning: this thread contains many potentially sensitive topics, such as sexual harassment.)
-
 .. only:: translation
 
    .. note:: This content is translated from English, and as such may include some English phrases for technical terms.
@@ -25,6 +19,15 @@ Index
       Start Here
       ^^^
       Are you a rookie team? Are you new to FTC? Are you just looking for a refresher? Check out this section for a curated list of the most pertinent pages!
+
+   .. grid-item-card::
+      :link: /docs/being-a-team/index
+      :link-type: doc
+      :columns: 12
+
+      Being a Team
+      ^^^^^^^^^^^^
+      Covers how to start, organize, and run an effective team.
 
    .. grid-item-card::
       :link: /docs/design-skills/index
@@ -107,6 +110,7 @@ Index
    docs/mission-statement
    docs/start-here
    docs/know-your-lingo
+   docs/being-a-team/index
    docs/design-skills/index
    docs/hardware-components/index
    docs/custom-manufacturing/index

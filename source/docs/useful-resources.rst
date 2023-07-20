@@ -14,9 +14,11 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy!
 General Resources
 -----------------
 
-`FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server that has teams ranging from first-year rookies to Winning Alliance Captains at the World Championships. It also has a channel for direct access to vendors.
+`FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC Discord server is a discussion-based community server. It is the most active FTC community, which means it generally has the most up-to-date information, and is the easiest way to get quick answers to questions. It also has a channel with direct access to vendors.
 
-`FTC Docs <https://ftc-docs.firstinspires.org/ftc_ml/index.html>`_:highlight:`*` --- FIRST's official FTC documentation, including programming resources, team management resources and more.
+.. attention:: The FTC Discord's primary demographic is FTC-age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the help channels.
+
+`FTC Docs <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- FIRST's official FTC documentation, including programming resources, team management resources and more.
 
 `FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
 
