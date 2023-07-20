@@ -31,9 +31,12 @@ Disadvantages
 Bearing Stack Turret
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Bearing Stack Turrets are a type of turret that spin on a ring of bearing stacks. Bearing stacks are usually stacks of 3 bearings on a screw, shaft, or standoff that consist of a small bearing sandwiched between 2 bigger bearings. Usually, the small bearing is a radial bearing and the big bearings are thrust or radial bearings, depending on how much load teams expect the turret to have.
+Bearing Stack Turrets are a type of turret with a plate spinning on a ring of bearing stacks to allow rotational movement. Bearing stacks are usually stacks of 3 bearings on a screw, shaft, or standoff that consist of a small bearing sandwiched between 2 bigger bearings. Usually, the small bearing is a radial bearing and the big bearings are thrust or radial bearings, depending on how much load teams expect the turret to have.
 
+.. figure:: images/turret/18219-bearing-stack.png
+   :alt: Example Bearing Stack
 
+   Example Bearing Stack, a radial bearing is sandwiched between 2 thrust bearings on a shoulder screw, a plate will ride on the radial bearing whilst supported by the thrust bearings.
 
 .. note:: In the past, some teams have invested in 6 inch diameter mecanum wheels. These are generally much more expensive and generally do not provide significant performance benefits. We highly recommend sticking with wheels that are between 3 and 4 inches in diameter.
 
