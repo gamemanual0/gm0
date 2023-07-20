@@ -22,6 +22,11 @@ Disadvantages
 - Customizability, because lazy susans are prebuilt, they're generally harder to customize than some other options
 - Lateral Forces, lazy susans aren't designed to handle lateral forces, which means things like the reaction from shooting an object could wreck it.
 
+.. figure:: images/turrets/19818-turret.png
+   :alt: 19818 Jade Innovations' Lazy Susan Turret
+
+   19818 Jade Innovations, Power Play, **Using Lazy Susan Turret**
+
   
 Bearing Stack Turret
 ^^^^^^^^^^^^^^^^^^^^^^^^
