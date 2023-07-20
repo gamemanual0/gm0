@@ -3,7 +3,7 @@
 Turrets
 =====================
 
-Turrets in FTC are a mechanism that allow for the rotation of some mechanism side-to-side. Generally, this is done for the purpose of positioning said mechanism for the purpose of scoring or intaking. For example, a shooter could be mounted on a turret to allow for shooter aim without turning the robot.
+Turrets in FTC are a mechanism that allow for the rotation of some mechanism side-to-side. Generally, this is done for the purpose of positioning said mechanism for the purpose of scoring or intaking. For example, a shooter could be mounted on a turret to allow for shooter aim without turning the robot. Teams generally rotate these turrets by mounting a gear, sprocket, or pulley on it and then drive it using a motor.
 
 Lazy Susan Turrets
 -------------
@@ -49,7 +49,7 @@ Disadvantages
 
 - Manufacturing, building a bearing stack turret will likely require a lot of CAD and manufacturing to build
 
-.. figure:: images/turret/18219-turret.png
+.. figure:: images/turret/18219-turret.jpg
    :alt: 18219 Primitive Data's Bearing Stack Turret
 
    18219 Primitive Data, Ultimate Goal, **Using Bearing Stack Turret to Rotate Shooter**
