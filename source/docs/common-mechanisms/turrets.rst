@@ -23,10 +23,12 @@ Disadvantages
 - Lateral Forces, lazy susans aren't designed to handle lateral forces, which means things like the reaction from shooting an object could wreck it.
 
   
-Mecanum Wheels Miniguide
+Bearing Stack Turret
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-One of the most important features of a mecanum wheel is the mechanism that allows the roller to spin---either :term:`bushings <Bushing>` or :term:`ball bearings <Ball Bearing>`. Mecanums which use ball bearings strafe better than those which use bushings, as the rollers can spin with less friction.
+Bearing Stack Turrets are a type of turret that spin on a ring of bearing stacks. Bearing stacks are usually stacks of 3 bearings on a screw, shaft, or standoff that consist of a small bearing sandwiched between 2 bigger bearings. Usually, the small bearing is a radial bearing and the big bearings are thrust or radial bearings, depending on how much load teams expect the turret to have.
+
+
 
 .. note:: In the past, some teams have invested in 6 inch diameter mecanum wheels. These are generally much more expensive and generally do not provide significant performance benefits. We highly recommend sticking with wheels that are between 3 and 4 inches in diameter.
 
