@@ -25,7 +25,7 @@ Disadvantages
 .. figure:: images/turret/19818-turret.jpg
    :alt: 19818 Jade Innovations' Lazy Susan Turret
 
-   19818 Jade Innovations, Power Play, **Using Lazy Susan Turret**
+   19818 Jade Innovations, Power Play, **Using Lazy Susan Turret to Rotate Slides**
 
   
 Bearing Stack Turret
