@@ -10,7 +10,10 @@ If you're curious about different ways this mechanism could be mounted, our guid
 Example
 -------
 
+.. figure:: images/12518-turret.png
+   :alt: 12518 Almond Robotics' Mini Turret
 
+   In the above image from Freight Frenzy, team 12518, Almond Robotics, is using a mini turret mounted on a coaxial bearing and powered by a servo on the end of their slide assembly in order to rotate an arm that scores that year's scoring element.
 
 Advantages
 ^^^^^^^^^^
@@ -20,4 +23,4 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Heavier end effector, because these mechanisms are often (but not always) mounted to the end of slides, arms, or other mechanisms they usually result in heavier end effectors which could change a robots center of gravity or a mechanism's movement speed.
+- Heavier end effector, because these mechanisms are often (but not always) mounted to the end of slides, arms, or other mechanisms they usually result in heavier end effectors which could change a robot's center of gravity or a mechanism's movement speed.
