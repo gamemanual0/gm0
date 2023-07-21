@@ -69,5 +69,5 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Load, because these turrets often use relatively small radial bearings, they have difficulty handling large loads. That's why this type of mounting is usually more common in mini turrets rather than full turrets. However, this issue can be helped by using thrust bearings.
+- Thrust Loads, because these turrets often use radial bearings, they have difficulty handling large loads. That's why this type of mounting is usually more common in mini turrets rather than full turrets. However, this issue can be helped by using thrust bearings or an x-contact bearing.
 
