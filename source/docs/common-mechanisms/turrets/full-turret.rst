@@ -3,7 +3,9 @@
 Full Turrets
 =====================
 
-Listed below are common types of mechanisms often called "full turrets" or just "turrets" in the FTC community alongside their pros and cons. These mechanisms are commonly used to mount and rotate slide, arm, or shooter assemblies at the base of a robot.
+Listed below are common types of mechanisms often called "full turrets" or just "turrets" in the FTC community alongside their pros and cons. These mechanisms are commonly used to mount and rotate slide, arm, or shooter assemblies at the base of a robot. 
+
+In addition, the mounting outlined in these turrets can also be used for mini turrets.
 
 Lazy Susan Turrets
 -------------
@@ -53,3 +55,19 @@ Disadvantages
    :alt: 18219 Primitive Data's Bearing Stack Turret
 
    18219 Primitive Data, Ultimate Goal, **Using Bearing Stack Turret to Rotate Shooter**
+
+Coaxial Bearing Turrets
+-------------
+
+Coaxial Bearing Turrets are turrets based on a bearing or bearings coaxial with the turret's axis of rotation.
+
+Advantages
+^^^^^^^^^^
+
+- Simplicity, because you're only using bearings coaxial with the turret's axis of rotation, these turrets are generally more simple than the other ones outlined in this guide. As a result, fully cots versions of these turrets can be made without as much difficulty as lazy Susan or bearing stack turrets. For that reason, these turrets are a great option for teams with limited manufacturing capabilities or teams that don't intend on utilizing CAD.
+
+Disadvantages
+^^^^^^^^^^^^^
+
+- Load, because these turrets often use relatively small radial bearings, they have difficulty handling large loads. That's why this type of mounting is usually more common in mini turrets rather than full turrets. However, this issue can be helped by using thrust bearings.
+
