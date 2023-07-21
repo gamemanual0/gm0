@@ -74,4 +74,4 @@ Disadvantages
 .. figure:: images/16379-turret.jpg
    :alt: 16379 KookyBotz's  Turret
 
-   16379 KookyBotz, Freight Frenzy, **Using Coaxial Bearing Turret with an X-Contact**
+   16379 KookyBotz, Freight Frenzy, **Using Coaxial Bearing Turret with an X-Contact Bearing**
