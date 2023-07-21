@@ -3,7 +3,9 @@
 Turrets
 =====================
 
-Turrets in FTC are a mechanism that allow for the rotation of some mechanism side-to-side. Generally, this is done for the purpose of positioning said mechanism for the purpose of scoring or intaking. For example, a shooter could be mounted on a turret to allow for shooter aim without turning the robot. Teams generally rotate these turrets by mounting a gear, sprocket, or pulley on it and then drive it using a motor.
+In FTC, people tend to refer to turrets as a mechanism that allows for the rotation of some other mechanism side-to-side. The FTC community often splits these turrets into 2 categories, "full turrets" and "mini turrets." People often refer to turrets powered by motors or multiple servos at the base of the robot as "full turrets" and those powered by 1 or 2 servos as the end effector for some other mechanism, like slides or arms, as "mini turrets". 
+
+Generally, this is done for the purpose of positioning said mechanism for the purpose of scoring or intaking. For example, a shooter could be mounted on a turret to allow for shooter aim without turning the robot. Teams usually rotate these turrets by mounting a gear, sprocket, or pulley on it and then drive it using a motor. 
 
 Lazy Susan Turrets
 -------------
