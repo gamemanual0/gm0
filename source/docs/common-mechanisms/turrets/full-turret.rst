@@ -5,7 +5,7 @@ Full Turrets
 
 Listed below are common types of mechanisms often called "full turrets" or just "turrets" in the FTC community alongside their pros and cons. These mechanisms are commonly used to mount and rotate slide, arm, or shooter assemblies at the base of a robot. 
 
-In addition, the mounting outlined in these turrets can also be used for mini turrets.
+Note: the mounting outlined in these turrets can also be used for mini turrets, and the advantages and disadvantages still apply. However, the examples displayed are all "full turrets."
 
 Lazy Susan Turrets
 -------------
