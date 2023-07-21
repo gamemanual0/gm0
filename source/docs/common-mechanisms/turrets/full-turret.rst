@@ -71,3 +71,7 @@ Disadvantages
 
 - Thrust Loads, because these turrets often use radial bearings, they have difficulty handling large loads. That's why this type of mounting is usually more common in mini turrets rather than full turrets. However, this issue can be helped by using thrust bearings or an x-contact bearing.
 
+.. figure:: images/16379-turret.jpg
+   :alt: 16379 KookyBotz's  Turret
+
+   16379 KookyBotz, Freight Frenzy, **Using Coaxial Bearing Turret with an X-Contact**
