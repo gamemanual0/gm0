@@ -1,11 +1,9 @@
-.. include:: <isonum.txt>
-
 Turrets
-=====================
+=======
 
-In FTC, people tend to refer to turrets as a mechanism that allows for the rotation of some other mechanism side-to-side. Generally, this is done for the purpose of positioning said mechanism for the purpose of scoring or intaking. For example, a shooter could be mounted on a turret to allow for shooter aim without turning the robot. Teams usually rotate these turrets by mounting a gear, sprocket, or pulley on the turret and then driving it using a motor or servos. 
+In FTC, turrets refer to mechanisms that allow for yaw (side-to-side) rotation of another mechanism. This is typically done for the purpose of positioning an intake or scoring mechanism. For example, a shooter could be mounted on a turret to allow for aiming without turning the robot. Turrets typically have a gear, sprocket, or pulley mounted to them, which motors and servos use to rotate them.
 
-The FTC community often splits these turrets into 2 categories, "full turrets" and "mini turrets." People often refer to turrets powered by motors or multiple servos at the base of the robot as "full turrets" and those powered by 1 or 2 servos as the end effector for some other mechanism, like slides or arms, as "mini turrets". Generally, when teams use the term "turret" without any other specification, they're referring to "full turrets".
+The FTC community often splits these turrets into 2 categories, "full turrets" and "mini turrets." Full turrets are typically those powered by motors or multiple servos at the base of the robot, and move large mechanism(s), and what the lone word "turret" generally refers to. Mini turrets are typically powered by one or two servos, are located at the end of an extension of some sort, and only pivot an end effector.
 
 .. toctree::
    :maxdepth: 1
