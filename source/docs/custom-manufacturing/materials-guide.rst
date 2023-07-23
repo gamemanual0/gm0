@@ -40,6 +40,10 @@ Metals
 Aluminum
 ^^^^^^^^
 
+.. figure:: images/materials-guide/aluminum_banner.jpeg
+   :width: 100%
+   :alt: Various aluminum items including extrusion, box tube, flat sheet, channel, and drawer slides
+
 - A high strength, medium-high density material. Suitable for use in nearly every application; recommended in load-bearing applications.
 - Aluminum comes in :term:`channel <Channel>`, :term:`extrusion <Extrusion>`, flat, angle, sheet/plate, and is used in some drawer slides.
 
@@ -77,6 +81,10 @@ Plastics
 Lexan
 ^^^^^
 
+.. figure:: images/materials-guide/polycarbonate_banner.jpeg
+   :width: 100%
+   :alt: Various polycarbonate plates, inlcuing one with a 90-degree bend
+
 - Polycarbonate, commonly known by its brand name Lexan, is a material that is great for applications such as drivetrain plates or intake collector boxes.
 - Lexan can bear load and is very impact-resistant.
 - Lexan is commonly used in intake and deposit mechanisms as it is clear, allowing the drive team to see into the intake itself, an advantage over wood.
@@ -88,6 +96,9 @@ Thin Lexan can be bent with a metal brake or sheet bender. It is recommended for
 
 ABS
 ^^^
+.. figure:: images/materials-guide/ABS_banner.jpeg
+   :width: 100%
+   :alt: Various ABS plates
 
 - ABS is a hard low-friction plastic that is easily machinable.
 - ABS sheet can be used for side panels, ramps, and even drivetrain plates.
@@ -98,6 +109,9 @@ ABS
 
 Delrin
 ^^^^^^
+.. figure:: images/materials-guide/acetal_banner.jpeg
+   :width: 100%
+   :alt: Various acetal/Delrin items, including plates and three sprockets
 
 - Acetal, also known under brand name Delrin, is a low-friction strong plastic. It is a common plastic used for wheels, plastic gears, and sprockets (especially in the REV system).
 - It is a durable and strong plastic that is not easily cracked. Delrin can be used in drivetrain plates (use 1/4" or 3/16" thickness), but Delrin sheet is also quite expensive.
@@ -105,6 +119,9 @@ Delrin
 
 HDPE
 ^^^^
+.. figure:: images/materials-guide/HDPE_banner.jpeg
+   :width: 100%
+   :alt: Various HDPE plates
 
 - HDPE stands for High Density Polyethylene and usually comes in opaque white or black sheets and plates
 - HDPE is a cheaper alternative with low-friction characteristics similar to Delrin and flexibility/structure near polycarbonate.
