@@ -40,7 +40,7 @@ Metals
 Aluminum
 ^^^^^^^^
 
-.. figure:: images/materials-guide/aluminum_banner.jpeg
+.. figure:: images/materials-guide/aluminum-banner.jpg
    :width: 100%
    :alt: Various aluminum items including extrusion, box tube, flat sheet, channel, and drawer slides
 
@@ -81,7 +81,7 @@ Plastics
 Lexan
 ^^^^^
 
-.. figure:: images/materials-guide/polycarbonate_banner.jpeg
+.. figure:: images/materials-guide/polycarbonate-banner.jpg
    :width: 100%
    :alt: Various polycarbonate plates, inlcuing one with a 90-degree bend
 
@@ -97,7 +97,7 @@ Thin Lexan can be bent with a metal brake or sheet bender. It is recommended for
 ABS
 ^^^
 
-.. figure:: images/materials-guide/ABS_banner.jpeg
+.. figure:: images/materials-guide/abs-banner.jpg
    :width: 100%
    :alt: Various ABS plates
 
@@ -111,7 +111,7 @@ ABS
 Delrin
 ^^^^^^
 
-.. figure:: images/materials-guide/acetal_banner.jpeg
+.. figure:: images/materials-guide/acetal-banner.jpg
    :width: 100%
    :alt: Various acetal/Delrin items, including plates and three sprockets
 
@@ -122,7 +122,7 @@ Delrin
 HDPE
 ^^^^
 
-.. figure:: images/materials-guide/HDPE_banner.jpeg
+.. figure:: images/materials-guide/hdpe-banner.jpg
    :width: 100%
    :alt: Various HDPE plates
 
