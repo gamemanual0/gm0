@@ -178,7 +178,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
            liftMotor.setPower(1.0);
 
            switch (liftState) {
-               case LiftState.LIFT_START:
+               case LIFT_START:
                    // Waiting for some input
                    if (gamepad1.x) {
                        // x is pressed, start extending
@@ -186,7 +186,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
                        liftState = LiftState.LIFT_EXTEND;
                    }
                    break;
-               case LiftState.LIFT_EXTEND:
+               case LIFT_EXTEND:
                     // check if the lift has finished extending,
                     // otherwise do nothing.
                    if (Math.abs(liftMotor.getCurrentPosition() - LIFT_HIGH) < 10) {
@@ -202,7 +202,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
                        liftState = LiftState.LIFT_DUMP;
                    }
                    break;
-               case LiftState.LIFT_DUMP:
+               case LIFT_DUMP:
                    if (liftTimer.seconds() >= DUMP_TIME) {
                        // The robot waited long enough, time to start
                        // retracting the lift
@@ -211,7 +211,7 @@ Now, let's get into actually implementing the code for this. In a traditional ``
                        liftState = LiftState.LIFT_RETRACT;
                    }
                    break;
-               case LiftState.LIFT_RETRACT:
+               case LIFT_RETRACT:
                    if (Math.abs(liftMotor.getCurrentPosition() - LIFT_LOW) < 10) {
                        liftState = LiftState.LIFT_START;
                    }
