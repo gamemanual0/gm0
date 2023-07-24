@@ -96,6 +96,7 @@ Thin Lexan can be bent with a metal brake or sheet bender. It is recommended for
 
 ABS
 ^^^
+
 .. figure:: images/materials-guide/ABS_banner.jpeg
    :width: 100%
    :alt: Various ABS plates
@@ -109,6 +110,7 @@ ABS
 
 Delrin
 ^^^^^^
+
 .. figure:: images/materials-guide/acetal_banner.jpeg
    :width: 100%
    :alt: Various acetal/Delrin items, including plates and three sprockets
@@ -119,6 +121,7 @@ Delrin
 
 HDPE
 ^^^^
+
 .. figure:: images/materials-guide/HDPE_banner.jpeg
    :width: 100%
    :alt: Various HDPE plates
