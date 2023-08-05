@@ -1,7 +1,7 @@
 Laser Cutting
 =============
 
-Laser cutting can be a useful tool that allows FTC teams to quickly produce complex custom parts. This guide will cover the uses of laser cutting in FTC, common types of laser cutters, and how to optimize your design for laser cutting. If your team does not have access to a laser cutter, consider checking with sponsors or local makerspaces.
+Laser cutting can be a useful tool that allows FTC teams to quickly produce complex custom parts. This guide will cover the uses of laser cutting in FTC, common types of laser cutters, and how to optimize your design for laser cutting. If your team does not have access to a laser cutter, consider checking with sponsors or local makerspaces, or using a service like `Fabworks <https://www.fabworks.com/>`_ or `SendCutSend <https://sendcutsend.com/>`_.
 
 Common Types of Laser Cutters
 -----------------------------
@@ -74,6 +74,8 @@ If you don’t know what a plastic is, don’t take the risk of cutting it. It c
 
 Design Guide
 ------------
+
+.. note:: When using a sponsor, machine shop, or service like Fabworks or SendCutSend, parts may be adjusted by the vendor for you. Check with the service you are using before you make these adjustments! 
 
 There are a few quirks of laser cut parts that you should keep in mind when designing them
 
