@@ -75,7 +75,7 @@ If you don’t know what a plastic is, don’t take the risk of cutting it. It c
 Design Guide
 ------------
 
-.. note:: When using a sponsor, machine shop, or service like Fabworks or SendCutSend, parts may be adjusted by the vendor for you. Check with the service you are using before you make these adjustments! 
+.. note:: When using a sponsor, machine shop, or service like Fabworks or SendCutSend, parts may be adjusted by the vendor for you. Check with the service you are using before you make these adjustments!
 
 There are a few quirks of laser cut parts that you should keep in mind when designing them
 
