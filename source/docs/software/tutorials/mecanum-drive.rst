@@ -104,7 +104,11 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-3.png
          :width: 45em
 
-.. important:: Motors in FTC spin counterclockwise when given positive power by default (except for NeveRest motors). In this case, you need to reverse the direction of the right drive motors so that they spin toward the same direction as the left drive motors when supplied with a positive power (for a drivetrain using NeveRests, reverse the right side instead). This can be done with :code:`DcMotor.setDirection(DcMotor.Direction.REVERSE)`.
+.. important::
+
+   Most FTC motors spin counterclockwise when viewed from their face when given positive power by default, with the exception of NeveRests. If your drivetrain uses an even number of gears, this will reverse the direction the motors spin in.
+
+   On most drivetrains, you will need to reverse the left side for positive power to move forwards with most motors, and reverse the right side with NeveRests. The presence of gearing between the motor gearbox and the wheel may swap this, which is the case for the goBILDA Strafer and the REV Mecanum Drivetrain Kit.
 
 This is the same as the tank example, except now with 4 motors and the strafing component added. Similarly to the tank example, the Y component is added to all wheels, and the right x (rx) is added to the left and subtracted from the right. Now, we have added another component that will allow us to strafe rightward. In doing that, however, we have actually allowed for strafing in any direction. If you think about it, pressing the joystick to the left will do the same thing in reverse, which is what is needed to strafe left. If it is pressed at 45 degrees, the x and y components of the joystick will be equal. This will cause two diagonal motors to cancel, allowing for diagonal movement. This same effect applies to every angle of the joystick.
 
@@ -186,8 +190,11 @@ Robot-Centric Final Sample Code
                  DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
                  DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
 
-                 // Reverse the right side motors
-                 // Reverse left motors if you are using NeveRests
+                 // Reverse the right side motors.
+                 // This may be wrong for your setup.
+                 // If your robot moves backwards when commanded to go forwards,
+                 // reverse the left side instead.
+                 // See the note about this earlier on this page.
                  motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
                  motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
 
@@ -303,8 +310,11 @@ Field-Centric Final Sample Code
            DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
            DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
 
-           // Reverse the right side motors
-           // Reverse left motors if you are using NeveRests
+           // Reverse the right side motors.
+           // This may be wrong for your setup.
+           // If your robot moves backwards when commanded to go forwards,
+           // reverse the left side instead.
+           // See the note about this earlier on this page.
            motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
            motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
 
