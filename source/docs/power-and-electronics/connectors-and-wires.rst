@@ -42,7 +42,7 @@ There are many types of connectors for use in FTC. Here are the most common conn
          :width: 200px
 
    JST-XH
-       JST-XH is an uncommon connector but is seen on some third party sensors
+      JST-XH connectors are used for the encoder connections on goBILDA (MATRIX) and Andymark NeveRest motors. Both vendors sell adapters from JST-XH to the :term:`JST-PH` encoder ports on the REV Control/Expansion Hubs. These connectors are also occasionally found on some third party sensors.
 
    Tamiya
       Used in some third party boards. Do not use these connectors! The metal connectors are fragile and will lead to random disconnects.
