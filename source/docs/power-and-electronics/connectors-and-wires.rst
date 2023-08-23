@@ -35,7 +35,7 @@ There are many types of connectors for use in FTC. Here are the most common conn
       A small pinheader connector commonly used on servos and on some sensors.
 
    JST-PH
-      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections.
+      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections between the Control Hub and Expansion Hub.
 
       .. image:: images/wiring/jst-sensor-connectors.png
          :alt: JST-PH and JST-XH connectors
