@@ -54,7 +54,7 @@ Before thinking about mecanum, envision a scenario where you have a 2 motor tank
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-1.png
          :width: 45em
 
-Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the x value from the right side, and add it to the left:
+Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the right X stick value from the right wheels, and add it to the left:
 
 .. tab-set::
 
@@ -76,11 +76,11 @@ Although at first adding rotation might seem like a difficult task, it’s actua
          :width: 45em
 
 
-Here, if the Y stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the X stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the Y stick is at 1 and the X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
+Here, if the left stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the right stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the left Y stick is at 1 and the right X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
 
-Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>` operates under the same principle as adding turning into the tank example. The left stick X values will be added or subtracted to each wheel depending on how that wheel needs to rotate to get the desired movement. The only difference between adding turning is that rather than wheels on the same side being the same sign, wheels diagonal to each other will be the same sign.
+Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>` operates under the same principle as adding turning into the tank example. The left stick X values will be added or subtracted to each wheel depending on how that wheel needs to rotate to get the desired movement. The only difference from turning is that rather than wheels on the same side being the same sign, wheels diagonal to each other will be the same sign.
 
-We want a positive X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left:
+We want a positive left stick X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left:
 
 .. tab-set::
 
@@ -110,7 +110,7 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
 
    On most drivetrains, you will need to reverse the left side for positive power to move forwards with most motors, and reverse the right side with NeveRests. The presence of gearing between the motor gearbox and the wheel may swap this, which is the case for the goBILDA Strafer and the REV Mecanum Drivetrain Kit.
 
-This is the same as the tank example, except now with 4 motors and the strafing component added. Similarly to the tank example, the Y component is added to all wheels, and the right x (rx) is added to the left and subtracted from the right. Now, we have added another component that will allow us to strafe rightward. In doing that, however, we have actually allowed for strafing in any direction. If you think about it, pressing the joystick to the left will do the same thing in reverse, which is what is needed to strafe left. If it is pressed at 45 degrees, the x and y components of the joystick will be equal. This will cause two diagonal motors to cancel, allowing for diagonal movement. This same effect applies to every angle of the joystick.
+This is the same as the tank example, except now with 4 motors and the strafing component added. Similarly to the tank example, the Y component is added to all wheels, and the right X (rx) is added to the left wheels and subtracted from the right. Now, we have added a left X component (x) that allows us to strafe rightward. In doing that, however, we have actually allowed for strafing in any direction. If you think about it, pressing the left joystick to the left will do the same thing in reverse, which is what is needed to strafe left. If it is pressed at 45 degrees, the x and y components of the joystick will be equal. This will cause two diagonal motors to cancel, allowing for diagonal movement. This same effect applies to every angle of the joystick.
 
 Now that we have a functioning mecanum driving program, there are a few things that can be done to clean it up. The first of these would be multiplying the left X value by something to counteract imperfect strafing. Doing this will make the drive feel more accurate on non axis aligned directions, and make field centric driving more accurate. In this tutorial, we will use 1.1, but it’s really up to driver preference.
 
