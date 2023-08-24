@@ -42,7 +42,7 @@ Before thinking about mecanum, envision a scenario where you have a 2 motor tank
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
 
          leftMotor.setPower(y);
          rightMotor.setPower(y);
@@ -63,11 +63,11 @@ Although at first adding rotation might seem like a difficult task, it’s actua
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-         double x = gamepad1.right_stick_x;
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
+         double rx = gamepad1.right_stick_x;
 
-         leftMotor.setPower(y + x);
-         rightMotor.setPower(y - x);
+         leftMotor.setPower(y + rx);
+         rightMotor.setPower(y - rx);
 
    .. tab-item:: Blocks
       :sync: blocks
