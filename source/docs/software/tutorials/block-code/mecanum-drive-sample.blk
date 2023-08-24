@@ -5,22 +5,16 @@
 <variable id="xJZJH):(0WQtG_CIq`mH">rx</variable>
 <variable id="]#MBGP`G6{E0o46rh-XV">denominator</variable>
 </variables>
-<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" editable="false" x="50" y="50">
+<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" x="50" y="50">
 <field name="NAME">runOpMode</field>
 <comment pinned="false" h="32" w="532">This function is executed when this Op Mode is selected from the Driver Station.</comment>
+<data>{"commentPositionLeft":173,"commentPositionTop":-8}</data>
 <statement name="STACK">
-<block type="linearOpMode_waitForStart" id=":`$wN_ci`O;o6P0~.(+g">
-<next>
-<block type="controls_if" id="}Q?5mbxSO8Di;i!__6[y">
-<value name="IF0">
-<block type="linearOpMode_opModeIsActive" id=")o%YFX/#9kvv^sgXr4~5"/>
-</value>
-<statement name="DO0">
 <block type="comment" id="cBQNfb%_qY1[|[F8%CTW">
-<field name="COMMENT">Reverse the right side motors</field>
+<field name="COMMENT">Reverse the right side motors.  This may be wrong for your setup.</field>
 <next>
 <block type="comment" id="U{iU)`F=sAwX$5$|R0%;">
-<field name="COMMENT">Reverse left motors if you are using NeveRests</field>
+<field name="COMMENT">If your robot moves backwards when commanded to go forwards, reverse the left side instead.</field>
 <next>
 <block type="dcMotor_setProperty_Direction" id="#!y|w+,AdUJ^[P{o/.`c">
 <field name="IDENTIFIER">frontRightMotorAsDcMotor</field>
@@ -42,6 +36,8 @@
 </shadow>
 </value>
 <next>
+<block type="linearOpMode_waitForStart" id=":`$wN_ci`O;o6P0~.(+g">
+<next>
 <block type="controls_whileUntil" id="^0Kagy/e+Ea{rbZPv2G6">
 <field name="MODE">WHILE</field>
 <value name="BOOL">
@@ -49,7 +45,7 @@
 </value>
 <statement name="DO">
 <block type="comment" id="{Ob+XSe*L5~c;N`)5OUd">
-<field name="COMMENT">Remember, this is reversed!</field>
+<field name="COMMENT">Remember, Y stick value is reversed</field>
 <next>
 <block type="variables_set" id="9e|V1x:nDOx#x#R)t%*E">
 <field name="VAR" id="J,KtXc!}`~PyFLlNl~Fv">y</field>
@@ -69,21 +65,11 @@
 </block>
 </value>
 <next>
-<block type="variables_set" id="C/APDv:JO+C}%J;HCkzf">
-<field name="VAR" id="{7*gXSsX229h0IdVUt^[">x</field>
-<value name="VALUE">
-<block type="gamepad_getProperty_Number" id="m,eYk3}buPUWhe?y|KKw">
-<field name="IDENTIFIER">gamepad1</field>
-<field name="PROP">RightStickX</field>
-<data>{"IDENTIFIER":"gamepad1"}</data>
-</block>
-</value>
-<next>
 <block type="comment" id="F]{PtaU3e%K:-:*P@y0Y">
-<field name="COMMENT">Counteract imperfect strafing</field>
+<field name="COMMENT">Factor to counteract imperfect strafing</field>
 <next>
 <block type="variables_set" id="$W}{4%cRq!^5=kz+n:@%">
-<field name="VAR" id="xJZJH):(0WQtG_CIq`mH">rx</field>
+<field name="VAR" id="{7*gXSsX229h0IdVUt^[">x</field>
 <value name="VALUE">
 <block type="math_arithmetic" id="y_nDH*Os5TJ3wLI1jyoQ">
 <field name="OP">MULTIPLY</field>
@@ -105,20 +91,21 @@
 </block>
 </value>
 <next>
-<block type="comment" id="GoDY:CEZ]Sr`1z$qE|;3">
-<field name="COMMENT">Denominator is the largest motor power</field>
+<block type="variables_set" id="C/APDv:JO+C}%J;HCkzf">
+<field name="VAR" id="xJZJH):(0WQtG_CIq`mH">rx</field>
+<value name="VALUE">
+<block type="gamepad_getProperty_Number" id="m,eYk3}buPUWhe?y|KKw">
+<field name="IDENTIFIER">gamepad1</field>
+<field name="PROP">RightStickX</field>
+<data>{"IDENTIFIER":"gamepad1"}</data>
+</block>
+</value>
 <next>
-<block type="comment" id="P7mk|[Mz5;9`8YT#WcG*">
-<field name="COMMENT">(absolute value) or 1.</field>
+<block type="comment" id="GoDY:CEZ]Sr`1z$qE|;3">
+<field name="COMMENT">Denominator is the largest motor power (absolute value) or 1.</field>
 <next>
 <block type="comment" id="Sr8f!z6e/qTHgMJ0|X*-">
-<field name="COMMENT">This ensures all the powers maintain </field>
-<next>
-<block type="comment" id="~@wrPBOfaOXPDiFK(3.`">
-<field name="COMMENT">the same ratio, but only when at least one is</field>
-<next>
-<block type="comment" id="+O#mz`?rI^)TO#PTRLR:">
-<field name="COMMENT">out of the range [-1, 1].</field>
+<field name="COMMENT">This ensures all powers maintain the same ratio, but only if one is outside of the range [-1, 1].</field>
 <next>
 <block type="variables_set" id="K]3A9R1@h;h-}Pvb][[=">
 <field name="VAR" id="]#MBGP`G6{E0o46rh-XV">denominator</field>
@@ -435,15 +422,6 @@
 </value>
 </block>
 </value>
-<next>
-<block type="telemetry_update" id="exvivmft-pX$n!1,8Ea$"/>
-</next>
-</block>
-</next>
-</block>
-</next>
-</block>
-</next>
 </block>
 </next>
 </block>
@@ -478,8 +456,6 @@
 </next>
 </block>
 </next>
-</block>
-</statement>
 </block>
 </next>
 </block>
