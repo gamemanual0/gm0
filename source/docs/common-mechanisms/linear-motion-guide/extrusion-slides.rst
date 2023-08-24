@@ -46,33 +46,6 @@ Disadvantages
 
    8680 Kraken-Pinion, Rover Ruckus, REV slides
 
-Actobotics X-rail Slide Kit
----------------------------
-
-Actobotics' `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-slide-kit>`_ works well out of the box. However, the main caveat is that the kit has a **very low maximum load (2lb. at maximum extension)**.
-
-Teams will have to keep their designs on this kit particularly lightweight. This slide uses elastic retraction through the use of surgical tubing, which means that instead of having both an extend and return string, there is a retraction force applied at all times. This helps simplify tensioning and spooling, however, limits how fast the slide can be run. Additionally, the plastic end caps have a reputation of breaking regularly because they endure shock load every time the slide extends to maximum. 3D printed alternatives may be more sturdy than the stock end caps.
-
-.. attention:: It is highly recommended that teams add an additional set of v-groove bearings at the end of each piece of extrusion to give each stage an additional point of support. This will increase load capacity and possibly smoothness.
-
-Advantages
-^^^^^^^^^^
-
-- Easily interfaces with Actobotics building system
-- Elastic retraction is a simple way to retract
-- **Should be used for light/medium loads only**
-
-Disadvantages
-^^^^^^^^^^^^^
-
-- Will flex under load, needs additional support
-- Elastic retraction slows down extension speed and retraction will be slower than string retraction
-
-.. figure:: images/extrusion-slides/12599-slides.jpg
-   :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
-
-   12599 Overcharged, Relic Recovery, Actobotics X-Rail slides
-
 OpenBuilds Mini V Gantry Kit
 ----------------------------
 
@@ -100,3 +73,33 @@ goBILDA goRAIL
 --------------
 
 `Linear motion guides <https://www.gobilda.com/gorail-based/>`_ are goBILDA’s take on linear motion using goRAIL, which is a type of extrusion compatible with V-groove bearings. Similar to a standard 8020 V-groove carriage, used in FRC, goRAIL is a lighter option that is better suited for FTC.
+
+Actobotics X-rail Slide Kit
+---------------------------
+
+.. attention:: ServoCity has discontinued the Actobotics X-rail Slide Kit.
+
+Actobotics' `X-rail Slide Kit <https://www.servocity.com/cascading-x-rail-slide-kit>`_ works well out of the box. However, the main caveat is that the kit has a **very low maximum load (2lb. at maximum extension)**.
+
+Teams will have to keep their designs on this kit particularly lightweight. This slide uses elastic retraction through the use of surgical tubing, which means that instead of having both an extend and return string, there is a retraction force applied at all times. This helps simplify tensioning and spooling, however, limits how fast the slide can be run. Additionally, the plastic end caps have a reputation of breaking regularly because they endure shock load every time the slide extends to maximum. 3D printed alternatives may be more sturdy than the stock end caps.
+
+.. attention:: It is highly recommended that teams add an additional set of v-groove bearings at the end of each piece of extrusion to give each stage an additional point of support. This will increase load capacity and possibly smoothness.
+
+Advantages
+^^^^^^^^^^
+
+- Easily interfaces with Actobotics building system
+- Elastic retraction is a simple way to retract
+- **Should be used for light/medium loads only**
+
+Disadvantages
+^^^^^^^^^^^^^
+
+- Will flex under load, needs additional support
+- Elastic retraction slows down extension speed and retraction will be slower than string retraction
+
+.. figure:: images/extrusion-slides/12599-slides.jpg
+   :alt: 12599 Overcharged's Relic Recovery robot with relic slide extended
+
+   12599 Overcharged, Relic Recovery, Actobotics X-Rail slides
+

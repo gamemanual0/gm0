@@ -3,7 +3,7 @@
 Kit and Hardware Guide
 ======================
 
-Before beginning your season, your team is presented with a crucial decision - one that will undoubtedly heavily influence the team’s direction of hardware design in at least the first year. The *FIRST*\ |reg| storefront currently offers two kits for new teams: the TETRIX kit from Pitsco, and the REV Starter kit from REV Robotics. However, teams should carefully consider other options, such as Actobotics from Servocity and goBILDA, before selecting a kit.
+Before beginning your season, your team is presented with a crucial decision - one that will undoubtedly heavily influence the team’s direction of hardware design in at least the first year. The *FIRST*\ |reg| storefront currently offers two kits for new teams: the TETRIX kit from Pitsco, and the REV Starter kit from REV Robotics. However, teams should carefully consider other options, such as goBILDA, before selecting a kit.
 
 Every build system has advantages and disadvantages, which we have highlighted in our detailed build system guides below. While the guide may not be fully objective, recommendations are based on our own experience with the different kits, so the slant is there with reason. As with pretty much anything in FTC, there is no one right answer - but there are better answers than others. Hopefully, this guide gives some solid advice on which kit might be the best for your team.
 
@@ -20,7 +20,7 @@ Choice of a kit is a matter of many a debate in FTC forums, and each team has th
 - REV Robotics (metric) is slightly cheaper but generally has a bit higher learning curve than most other kits, as it is :term:`extrusion <Extrusion>` rather than :term:`channel <Channel>` based. :term:`Extrusion` takes more effort to work with (you need to cut aluminum extrusion to length); however, it allows for maximum design freedom and adjustability. REV is also available from the *FIRST*\ |reg| storefront, which might be convenient for teams doing their purchasing through official school procurement systems.
 - goBILDA (metric) is slightly more expensive, but is easier to get started with. It has an extensive parts catalog and can be adapted to other build systems like REV. However, its price point may deter some teams with lesser budgets.
 - Tetrix (metric and imperial) is probably the simplest system to work with, but its part selection is limited, and the use of :term:`4.7mm shaft <Shaft>` with :term:`set screws <Set Screw>` is inferior to :term:`clamping hubs <Clamping Hub>` used in other systems.
-- Actobotics (imperial) is similar to goBILDA, being made by the same company. It has always been a solid option with reliable parts. For most FTC teams, goBILDA would probably be a better choice as it is more flexible and compatible, unless you already have a large stock of Actobotics parts.
+- Actobotics (imperial) is similar to goBILDA, being made by the same company. As of June 2023 it is being discontinued. It has always been a solid option with reliable parts. For most FTC teams, goBILDA would probably be a better choice as it is more flexible and compatible, unless you already have a large stock of Actobotics parts.
 
 .. attention:: While VEX also sells some parts aimed towards FTC, **Game Manual 0 cannot endorse or support any VEX Robotics/IFI (VEX's parent company) products in any manner.** We cannot in good conscience drive people to support a business with a history of extremely concerning accusations of workplace harassment, toxicity, and general behavior that does not align with the ideals of *FIRST*\ |reg|.
 
@@ -29,9 +29,9 @@ Choice of a kit is a matter of many a debate in FTC forums, and each team has th
    :caption: Kit Options
 
    tetrix
-   actobotics
    gobilda
    rev-robotics
+   actobotics
    custom
    kit-glossary
 
