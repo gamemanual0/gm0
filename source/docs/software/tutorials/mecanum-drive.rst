@@ -295,9 +295,12 @@ Field-Centric Final Sample Code
    package org.firstinspires.ftc.teamcode;
 
    import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+   import com.qualcomm.robotcore.hardware.IMU;
    import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
    import com.qualcomm.robotcore.hardware.DcMotor;
    import com.qualcomm.robotcore.hardware.DcMotorSimple;
+   import com.qualcomm.hardware.rev.RevHubOrientationOnRobot;
+   import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 
    @TeleOp
    public class FieldCentricMecanumTeleOp extends LinearOpMode {
@@ -305,21 +308,20 @@ Field-Centric Final Sample Code
        public void runOpMode() throws InterruptedException {
            // Declare our motors
            // Make sure your ID's match your configuration
-           DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
-           DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
-           DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
-           DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
+           DcMotor frontLeftMotor = hardwareMap.dcMotor.get("frontLeftMotor");
+           DcMotor backLeftMotor = hardwareMap.dcMotor.get("backLeftMotor");
+           DcMotor frontRightMotor = hardwareMap.dcMotor.get("frontRightMotor");
+           DcMotor backRightMotor = hardwareMap.dcMotor.get("backRightMotor");
 
-           // Reverse the right side motors.
-           // This may be wrong for your setup.
+           // Reverse the right side motors. This may be wrong for your setup.
            // If your robot moves backwards when commanded to go forwards,
            // reverse the left side instead.
            // See the note about this earlier on this page.
-           motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
-           motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
+           frontRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
+           backRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
 
            // Retrieve the IMU from the hardware map
-           imu = hardwareMap.get(IMU.class, "imu");
+           IMU imu = hardwareMap.get(IMU.class, "imu");
            // Adjust the orientation parameters to match your robot
            IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
                    RevHubOrientationOnRobot.LogoFacingDirection.UP,
@@ -332,7 +334,7 @@ Field-Centric Final Sample Code
            if (isStopRequested()) return;
 
            while (opModeIsActive()) {
-               double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+               double y = -gamepad1.left_stick_y; // Remember, Y stick value is reversed
                double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
                double rx = gamepad1.right_stick_x;
 
@@ -350,18 +352,18 @@ Field-Centric Final Sample Code
                double rotY = x * Math.sin(-botHeading) + y * Math.cos(-botHeading);
 
                // Denominator is the largest motor power (absolute value) or 1
-               // This ensures all the powers maintain the same ratio, but only when
-               // at least one is out of the range [-1, 1]
+               // This ensures all the powers maintain the same ratio, 
+               // but only if at least one is out of the range [-1, 1]
                double denominator = Math.max(Math.abs(rotY) + Math.abs(rotX) + Math.abs(rx), 1);
                double frontLeftPower = (rotY + rotX + rx) / denominator;
                double backLeftPower = (rotY - rotX + rx) / denominator;
                double frontRightPower = (rotY - rotX - rx) / denominator;
                double backRightPower = (rotY + rotX - rx) / denominator;
 
-               motorFrontLeft.setPower(frontLeftPower);
-               motorBackLeft.setPower(backLeftPower);
-               motorFrontRight.setPower(frontRightPower);
-               motorBackRight.setPower(backRightPower);
+               frontLeftMotor.setPower(frontLeftPower);
+               backLeftMotor.setPower(backLeftPower);
+               frontRightMotor.setPower(frontRightPower);
+               backRightMotor.setPower(backRightPower);
            }
        }
    }
