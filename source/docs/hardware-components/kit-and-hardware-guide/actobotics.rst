@@ -28,7 +28,7 @@ Notable Components
 Verdict
 -------
 
-Actobotics is a solid choice for new teams, offering a reliable base kit with many options to expand upon.
+Prior to being discontinued, Actobotics was a solid choice for new teams, offering a reliable base kit with many options to expand upon.  Because it is no longer being produced we recommend teams consider other kits instead.
 
 Kit of Parts
 ------------
