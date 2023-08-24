@@ -89,7 +89,7 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
          double x = gamepad1.left_stick_x;
          double rx = gamepad1.right_stick_x;
 
