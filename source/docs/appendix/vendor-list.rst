@@ -50,10 +50,8 @@ Vendor List
 
     - REV offers various sensors (Magnetic Limit Switch, Color Sensor, Touch Sensor, Distance Sensor, Potentiometer, etc.)
     - Additionally, electronic components such as the Servo Power Module, SPARKmini, or Blinkin may be purchased.
-- `Servocity/Actobotics <https://www.servocity.com>`_
+- `Servocity <https://www.servocity.com>`_
 
-  - Servocity sells the channel-based Actobotics build system with robust motion and structure. They also offer the Servoblock, a highly recommended part.
-  - Servocity sells X-rail :term:`extrusion <Extrusion>`, lead screw actuator kits, and linear extension kits.
   - Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to Futaba, at all price points.
   - Teams can get a 25% team discount from Servocity
 - `West Coast Products <https://wcproducts.com/>`_
