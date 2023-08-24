@@ -3,7 +3,7 @@
 Actobotics
 ==========
 
-.. attention:: As of June 2023, ServoCity is `discontinuing the Actobotics line <https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on goBILDA . We are retaining these pages as historical reference for teams that continue to have and use Actobotics parts.
+.. attention:: As of June 2023, ServoCity is `discontinuing the Actobotics line <https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on goBILDA. We are retaining these pages as historical reference for teams that continue to have and use Actobotics parts.
 
 The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch, :term:`channel-based <Channel>` building system using imperial units. Its 1.5” :term:`c-channel <Channel>` and :term:`ball-bearing <Ball Bearing>` based motion system allows teams to iterate and build mechanisms entirely from kit parts.
 
