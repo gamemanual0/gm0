@@ -29,9 +29,9 @@ Choice of a kit is a matter of many a debate in FTC forums, and each team has th
    :caption: Kit Options
 
    tetrix
-   actobotics
    gobilda
    rev-robotics
+   actobotics
    custom
    kit-glossary
 
