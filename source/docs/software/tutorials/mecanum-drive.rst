@@ -207,7 +207,7 @@ Robot-Centric Final Sample Code
                      double rx = gamepad1.right_stick_x;
 
                      // Denominator is the largest motor power (absolute value) or 1
-                     // This ensures all the powers maintain the same ratio, 
+                     // This ensures all the powers maintain the same ratio,
                      // but only if at least one is out of the range [-1, 1]
                      double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
                      double frontLeftPower = (y + x + rx) / denominator;
@@ -352,7 +352,7 @@ Field-Centric Final Sample Code
                double rotY = x * Math.sin(-botHeading) + y * Math.cos(-botHeading);
 
                // Denominator is the largest motor power (absolute value) or 1
-               // This ensures all the powers maintain the same ratio, 
+               // This ensures all the powers maintain the same ratio,
                // but only if at least one is out of the range [-1, 1]
                double denominator = Math.max(Math.abs(rotY) + Math.abs(rotX) + Math.abs(rx), 1);
                double frontLeftPower = (rotY + rotX + rx) / denominator;
