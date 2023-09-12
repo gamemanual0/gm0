@@ -1,7 +1,7 @@
 Driver Station Guide
 ====================
 
-The driver station is the communication point for drivers. It allows you to configure settings, configure hardware, start and stop opmodes, send gamepad data, and can recieve telemetry data from the robot. There are two main different choices for a driver station, the REV Robotics Driver Hub and an Android phone.
+The driver station is the communication point for drivers. It allows you to configure settings, configure hardware, start and stop opmodes, send gamepad data, and can receive telemetry data from the robot. There are two main different choices for a driver station, the REV Robotics Driver Hub and an Android phone.
 
 REV Drivers Hub
 ---------------
@@ -20,7 +20,7 @@ Disadvantages:
 - Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased secondhand for less
 - Power Issues: Teams have reported random losses of power coming from an improperly sized battery.
 - Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster then expected
-- Wifi Issues: The wifi driver will occassionally crash when the device goes to sleep, requiring a device restart
+- Wifi Issues: The wifi driver will occasionally crash when the device goes to sleep, requiring a device restart
 
 .. important::
    If you purchase a Driver Hub and experience issues, refer to the `REV Driver Hub troubleshooting page <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. The unexpected power off fix may be done pre-emptively to prevent a shutdown during a match
