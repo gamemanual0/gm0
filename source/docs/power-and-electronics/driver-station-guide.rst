@@ -1,13 +1,50 @@
 Driver Station Guide
 ====================
 
-From many years of collective experience, the writers have accumulated some general recommendations and best practices for driver stations to reduce the risk of disconnects.
+The driver station is the communication point for drivers. It allows you to configure settings, configure hardware, start and stop opmodes, send gamepad data, and can recieve telemetry data from the robot. There are two main different choices for a driver station, the REV Robotics Driver Hub and an Android phone.
 
-- A 5GHz phone is preferred over the standard 2.4GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only?
+REV Drivers Hub
+---------------
+
+The REV Robotics Driver Hub is effectively an Android phone with built in USB ports. It is purpose built for FTC, and contains several advantages over traditional Android phones.
+
+Advantages:
+
+- Full sized USB ports do not require flimsy On The Go cables
+- Charges from USB-C including fast charging Power Delivery modes
+- Larger screen then many Android phones
+- Case is more robust then a standard Android phone
+
+Disadvantages:
+
+- Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased secondhand for less
+- Power Issues: Teams have reported random losses of power coming from an improperly sized battery.
+- Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster then expected
+- Wifi Issues: The wifi driver will occassionally crash when the device goes to sleep, requiring a device restart
+
+.. important::
+   If you purchase a Driver Hub and experience issues, refer to the `REV Driver Hub troubleshooting page <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. The unexpected power off fix may be done pre-emptively to prevent a shutdown during a match
+
+Android Phones
+--------------
+
+As of 2023-2024, Android phones are still legal for competition use.
+
+Advantages:
+
+- Android phones can be very cheap when purchased secondhand
+- Android phones generally are reliable out of the box
+
+Disadvantages:
+
+- The lack of a full size USB A port means that flimsy On The Go cables must be used
+- The phones themselves should be protected with a case to prevent damage
+
+A 5GHz phone is preferred over the standard 2.4GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only?
 
 Most teams run on 2.4GHz, which means that the 2.4GHz channels will be more crowded on competition day. This can lead to noticeably higher ping/lag which adversely affects driver and robot performance.
 
-- USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possible source of disconnects during a match. This is generally caused by poor quality connectors or adapters between the driver station and the gamepad controller. **It generally is worth it to purchase higher quality connectors as opposed to the cheapest options.**
+USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possible source of disconnects during a match. This is generally caused by poor quality connectors or adapters between the driver station and the gamepad controller. **It generally is worth it to purchase higher quality connectors as opposed to the cheapest options.**
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
 
