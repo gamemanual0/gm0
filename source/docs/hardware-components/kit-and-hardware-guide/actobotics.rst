@@ -1,7 +1,7 @@
 .. include:: <isonum.txt>
 
-Actobotics
-==========
+Actobotics (Discontinued)
+=========================
 
 .. attention:: As of June 2023, ServoCity is `discontinuing the Actobotics line <https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on goBILDA. We are retaining these pages as historical reference for teams that continue to have and use Actobotics parts.
 

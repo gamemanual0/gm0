@@ -21,7 +21,6 @@ Notable components
 - REV also offers punch tubing for teams wanting a more permanent mounting system while having the flexibility of extrusion.
 - REV uses 5 mm hex steel :term:`shafts <Shaft>` and a :term:`ball-bearing <Ball Bearing>` motion support system. The shaft may be cut to length, which can be very useful for certain use cases. Many vendors have added compatibility to 5 mm hex :term:`shaft <Shaft>`.
 - REV offers 3 types of :term:`HD HEX motors <HD Hex Motor>`: spur gear, planetary, and UltraPlanetary motors. The UltraPlanetary has customizable planetary ring gear ratios for a very affordable price.
-- The Core Hex Motor may be useful in certain use cases such as space constrained mechanisms.
 - REV also has pattern adapters for other systems built into many parts such as the aluminum brackets.
 
 Verdict

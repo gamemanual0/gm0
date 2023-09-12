@@ -1,6 +1,9 @@
 Tetrix
 ======
 
+.. attention::
+   Tetrix is generally not recommended for use, due to its restricted flexibility and long term reliability. We are retaining these pages as historical reference for teams that continue to have and use TETRIX parts.
+
 The TETRIX build system is a fixed pitch, channel-based building system that uses both imperial and metric units.
 
 Special Considerations
