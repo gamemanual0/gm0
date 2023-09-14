@@ -17,7 +17,7 @@ Disadvantages
 
 - Rack and pinion generally is only used in one stage, because multiple mechanisms require other forms of powering it (belt, string, chain, etc.)
 
-- Rack and pinion needs to be supported very will to sustain heavy load, or else the mesh will fail. **It is not advisable to use the Tetrix rack and pinion in high stress conditions**.
+- Rack and pinion needs to be supported very well to sustain heavy load, or else the mesh will fail. **It is not advisable to use the Tetrix rack and pinion in high stress conditions**.
 
 .. figure:: images/rack-and-pinion/tetrix-rack-and-pinion.png
    :alt: A marketing image for the tetrix rack and pinion

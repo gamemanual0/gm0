@@ -24,6 +24,7 @@ Other Contributors
 - Arjun - FTC 9794 Wizards.exe
 - Baylor - FTC 10641 Atomic Gears
 - Cole - FTC 7548 SPAREPARTS
+- Cooper - FTC 19458 Equilibrium.exe
 - David - FTC 2753 Team Overdrive
 - David - FTC 7236 Recharged Green
 - David - FTC 8680 Kraken Pinion

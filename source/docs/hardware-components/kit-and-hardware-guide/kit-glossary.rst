@@ -33,7 +33,7 @@ Kit Glossary
          Actobotics dual ball bearing hub
 
    Servoblocks
-      Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount :term:`servos <Servo>` to the Actobotics system. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While Servoblocks are not cheap, they are one of the best investments for teams to pursue.
+      Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount :term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While Servoblocks are not cheap, they are one of the best investments for teams to pursue.
 
       .. image:: images/actobotics/servoblock.png
          :alt: An Actobotics Servoblock

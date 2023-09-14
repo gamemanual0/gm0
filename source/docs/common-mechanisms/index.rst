@@ -16,3 +16,4 @@ This chapter covers suggestions for design of common components of FTC robots: d
    active-intake/index
    transfers/index
    dead-wheels
+   turrets/index

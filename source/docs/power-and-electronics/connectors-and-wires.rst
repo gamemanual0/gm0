@@ -35,14 +35,14 @@ There are many types of connectors for use in FTC. Here are the most common conn
       A small pinheader connector commonly used on servos and on some sensors.
 
    JST-PH
-      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. For the 3-pin connector, it is used for RS-485 connections.
+      JST-PH is a type of connector. For FTC, the 3-pin and 4-pin options will be used most often. On the REV Control/Expansion Hubs, the 4-pin connector is used for encoder, I2C, analog, and digital connections. The 3-pin connector is used for the RS-485 connection between the Control Hub and Expansion Hub.
 
       .. image:: images/wiring/jst-sensor-connectors.png
          :alt: JST-PH and JST-XH connectors
          :width: 200px
 
    JST-XH
-       JST-XH is an uncommon connector but is seen on some third party sensors
+      JST-XH connectors are used for the encoder connections on goBILDA (MATRIX) and Andymark NeveRest motors. Both vendors sell adapters from JST-XH to the :term:`JST-PH` encoder ports on the REV Control/Expansion Hubs. These connectors are also occasionally found on some third party sensors.
 
    Tamiya
       Used in some third party boards. Do not use these connectors! The metal connectors are fragile and will lead to random disconnects.

@@ -1,5 +1,5 @@
-Programming Tutorial - Mecanum Drivetrain
-=========================================
+Mecanum TeleOp
+==============
 
 Mecanum Physics
 ---------------
@@ -42,7 +42,7 @@ Before thinking about mecanum, envision a scenario where you have a 2 motor tank
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
 
          leftMotor.setPower(y);
          rightMotor.setPower(y);
@@ -54,7 +54,7 @@ Before thinking about mecanum, envision a scenario where you have a 2 motor tank
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-1.png
          :width: 45em
 
-Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the x value from the right side, and add it to the left:
+Although at first adding rotation might seem like a difficult task, it’s actually super simple. All you need to do is subtract the right X stick value from the right wheels, and add it to the left:
 
 .. tab-set::
 
@@ -63,11 +63,11 @@ Although at first adding rotation might seem like a difficult task, it’s actua
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-         double x = gamepad1.right_stick_x;
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
+         double rx = gamepad1.right_stick_x;
 
-         leftMotor.setPower(y + x);
-         rightMotor.setPower(y - x);
+         leftMotor.setPower(y + rx);
+         rightMotor.setPower(y - rx);
 
    .. tab-item:: Blocks
       :sync: blocks
@@ -76,11 +76,11 @@ Although at first adding rotation might seem like a difficult task, it’s actua
          :width: 45em
 
 
-Here, if the Y stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the X stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the Y stick is at 1 and the X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
+Here, if the left stick is pressed upwards, both of the motors will be fed a positive value, causing the robot to move forward. If it is pressed downwards, both of the motors will be fed a negative value, causing the robot to move backwards. A similar principle applies for rotation: if the right stick is pushed rightward, the left wheels will spin forward while the right spin backward, causing rotation. The opposite applies for pushing the stick left. If both sticks are pushed at the same time, say the left Y stick is at 1 and the right X stick is also at 1, the value of the left wheels will be :math:`1+1=2` (which gets clipped to 1 in the SDK) and the right wheels will be :math:`1-1=0`, which causes a rightward curve.
 
-Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>` operates under the same principle as adding turning into the tank example. The left stick X values will be added or subtracted to each wheel depending on how that wheel needs to rotate to get the desired movement. The only difference between adding turning is that rather than wheels on the same side being the same sign, wheels diagonal to each other will be the same sign.
+Applying omnidirectional movement with :term:`mecanum wheels <Mecanum Wheel>` operates under the same principle as adding turning into the tank example. The left stick X values will be added or subtracted to each wheel depending on how that wheel needs to rotate to get the desired movement. The only difference from turning is that rather than wheels on the same side being the same sign, wheels diagonal to each other will be the same sign.
 
-We want a positive X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left:
+We want a positive left stick X value to correlate to rightward strafing. If we refer back to the vectoring image, this means that the front left and back right need to rotate forward, while the back left and front right need to rotate backwards. So, we should add the x value to the front left and back right and subtract it from the back right and front left:
 
 .. tab-set::
 
@@ -89,7 +89,7 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
          double x = gamepad1.left_stick_x;
          double rx = gamepad1.right_stick_x;
 
@@ -104,9 +104,13 @@ We want a positive X value to correlate to rightward strafing. If we refer back 
       .. image:: images/mecanum-drive/mecanum-drive-blocks-sample-3.png
          :width: 45em
 
-.. important:: Motors in FTC spin counterclockwise when given positive power by default (except for NeveRest motors). In this case, you need to reverse the direction of the right drive motors so that they spin toward the same direction as the left drive motors when supplied with a positive power (for a drivetrain using NeveRests, reverse the right side instead). This can be done with :code:`DcMotor.setDirection(DcMotor.Direction.REVERSE)`.
+.. important::
 
-This is the same as the tank example, except now with 4 motors and the strafing component added. Similarly to the tank example, the Y component is added to all wheels, and the right x (rx) is added to the left and subtracted from the right. Now, we have added another component that will allow us to strafe rightward. In doing that, however, we have actually allowed for strafing in any direction. If you think about it, pressing the joystick to the left will do the same thing in reverse, which is what is needed to strafe left. If it is pressed at 45 degrees, the x and y components of the joystick will be equal. This will cause two diagonal motors to cancel, allowing for diagonal movement. This same effect applies to every angle of the joystick.
+   Most FTC motors spin counterclockwise when viewed from their face when given positive power by default, with the exception of NeveRests. If your drivetrain uses an even number of gears, this will reverse the direction the motors spin in.
+
+   On most drivetrains, you will need to reverse the left side for positive power to move forwards with most motors, and reverse the right side with NeveRests. The presence of gearing between the motor gearbox and the wheel may swap this, which is the case for the goBILDA Strafer and the REV Mecanum Drivetrain Kit.
+
+This is the same as the tank example, except now with 4 motors and the strafing component added. Similarly to the tank example, the Y component is added to all wheels, and the right X (rx) is added to the left wheels and subtracted from the right. Now, we have added a left X component (x) that allows us to strafe rightward. In doing that, however, we have actually allowed for strafing in any direction. If you think about it, pressing the left joystick to the left will do the same thing in reverse, which is what is needed to strafe left. If it is pressed at 45 degrees, the x and y components of the joystick will be equal. This will cause two diagonal motors to cancel, allowing for diagonal movement. This same effect applies to every angle of the joystick.
 
 Now that we have a functioning mecanum driving program, there are a few things that can be done to clean it up. The first of these would be multiplying the left X value by something to counteract imperfect strafing. Doing this will make the drive feel more accurate on non axis aligned directions, and make field centric driving more accurate. In this tutorial, we will use 1.1, but it’s really up to driver preference.
 
@@ -117,7 +121,7 @@ Now that we have a functioning mecanum driving program, there are a few things t
 
       .. code-block::
 
-         double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+         double y = -gamepad1.left_stick_y; // Remember, Y stick is reversed!
          double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
          double rx = gamepad1.right_stick_x;
 
@@ -181,41 +185,44 @@ Robot-Centric Final Sample Code
              public void runOpMode() throws InterruptedException {
                  // Declare our motors
                  // Make sure your ID's match your configuration
-                 DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
-                 DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
-                 DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
-                 DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
+                 DcMotor frontLeftMotor = hardwareMap.dcMotor.get("frontLeftMotor");
+                 DcMotor backLeftMotor = hardwareMap.dcMotor.get("backLeftMotor");
+                 DcMotor frontRightMotor = hardwareMap.dcMotor.get("frontRightMotor");
+                 DcMotor backRightMotor = hardwareMap.dcMotor.get("backRightMotor");
 
-                 // Reverse the right side motors
-                 // Reverse left motors if you are using NeveRests
-                 motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
-                 motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
+                 // Reverse the right side motors. This may be wrong for your setup.
+                 // If your robot moves backwards when commanded to go forwards,
+                 // reverse the left side instead.
+                 // See the note about this earlier on this page.
+                 frontRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
+                 backRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
 
                  waitForStart();
 
                  if (isStopRequested()) return;
 
                  while (opModeIsActive()) {
-                     double y = -gamepad1.left_stick_y; // Remember, this is reversed!
+                     double y = -gamepad1.left_stick_y; // Remember, Y stick value is reversed
                      double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
                      double rx = gamepad1.right_stick_x;
 
                      // Denominator is the largest motor power (absolute value) or 1
-                     // This ensures all the powers maintain the same ratio, but only when
-                     // at least one is out of the range [-1, 1]
+                     // This ensures all the powers maintain the same ratio,
+                     // but only if at least one is out of the range [-1, 1]
                      double denominator = Math.max(Math.abs(y) + Math.abs(x) + Math.abs(rx), 1);
                      double frontLeftPower = (y + x + rx) / denominator;
                      double backLeftPower = (y - x + rx) / denominator;
                      double frontRightPower = (y - x - rx) / denominator;
                      double backRightPower = (y + x - rx) / denominator;
 
-                     motorFrontLeft.setPower(frontLeftPower);
-                     motorBackLeft.setPower(backLeftPower);
-                     motorFrontRight.setPower(frontRightPower);
-                     motorBackRight.setPower(backRightPower);
+                     frontLeftMotor.setPower(frontLeftPower);
+                     backLeftMotor.setPower(backLeftPower);
+                     frontRightMotor.setPower(frontRightPower);
+                     backRightMotor.setPower(backRightPower);
                  }
              }
          }
+
    .. tab-item:: Blocks
       :sync: blocks
 
@@ -288,9 +295,12 @@ Field-Centric Final Sample Code
    package org.firstinspires.ftc.teamcode;
 
    import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+   import com.qualcomm.robotcore.hardware.IMU;
    import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
    import com.qualcomm.robotcore.hardware.DcMotor;
    import com.qualcomm.robotcore.hardware.DcMotorSimple;
+   import com.qualcomm.hardware.rev.RevHubOrientationOnRobot;
+   import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 
    @TeleOp
    public class FieldCentricMecanumTeleOp extends LinearOpMode {
@@ -298,18 +308,20 @@ Field-Centric Final Sample Code
        public void runOpMode() throws InterruptedException {
            // Declare our motors
            // Make sure your ID's match your configuration
-           DcMotor motorFrontLeft = hardwareMap.dcMotor.get("motorFrontLeft");
-           DcMotor motorBackLeft = hardwareMap.dcMotor.get("motorBackLeft");
-           DcMotor motorFrontRight = hardwareMap.dcMotor.get("motorFrontRight");
-           DcMotor motorBackRight = hardwareMap.dcMotor.get("motorBackRight");
+           DcMotor frontLeftMotor = hardwareMap.dcMotor.get("frontLeftMotor");
+           DcMotor backLeftMotor = hardwareMap.dcMotor.get("backLeftMotor");
+           DcMotor frontRightMotor = hardwareMap.dcMotor.get("frontRightMotor");
+           DcMotor backRightMotor = hardwareMap.dcMotor.get("backRightMotor");
 
-           // Reverse the right side motors
-           // Reverse left motors if you are using NeveRests
-           motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);
-           motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE);
+           // Reverse the right side motors. This may be wrong for your setup.
+           // If your robot moves backwards when commanded to go forwards,
+           // reverse the left side instead.
+           // See the note about this earlier on this page.
+           frontRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
+           backRightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
 
            // Retrieve the IMU from the hardware map
-           imu = hardwareMap.get(IMU.class, "imu");
+           IMU imu = hardwareMap.get(IMU.class, "imu");
            // Adjust the orientation parameters to match your robot
            IMU.Parameters parameters = new IMU.Parameters(new RevHubOrientationOnRobot(
                    RevHubOrientationOnRobot.LogoFacingDirection.UP,
@@ -322,8 +334,8 @@ Field-Centric Final Sample Code
            if (isStopRequested()) return;
 
            while (opModeIsActive()) {
-               double y = -gamepad1.left_stick_y; // Remember, this is reversed!
-               double x = gamepad1.left_stick_x * 1.1; // Counteract imperfect strafing
+               double y = -gamepad1.left_stick_y; // Remember, Y stick value is reversed
+               double x = gamepad1.left_stick_x;
                double rx = gamepad1.right_stick_x;
 
                // This button choice was made so that it is hard to hit on accident,
@@ -339,19 +351,21 @@ Field-Centric Final Sample Code
                double rotX = x * Math.cos(-botHeading) - y * Math.sin(-botHeading);
                double rotY = x * Math.sin(-botHeading) + y * Math.cos(-botHeading);
 
+               rotX = rotX * 1.1;  // Counteract imperfect strafing
+
                // Denominator is the largest motor power (absolute value) or 1
-               // This ensures all the powers maintain the same ratio, but only when
-               // at least one is out of the range [-1, 1]
+               // This ensures all the powers maintain the same ratio,
+               // but only if at least one is out of the range [-1, 1]
                double denominator = Math.max(Math.abs(rotY) + Math.abs(rotX) + Math.abs(rx), 1);
                double frontLeftPower = (rotY + rotX + rx) / denominator;
                double backLeftPower = (rotY - rotX + rx) / denominator;
                double frontRightPower = (rotY - rotX - rx) / denominator;
                double backRightPower = (rotY + rotX - rx) / denominator;
 
-               motorFrontLeft.setPower(frontLeftPower);
-               motorBackLeft.setPower(backLeftPower);
-               motorFrontRight.setPower(frontRightPower);
-               motorBackRight.setPower(backRightPower);
+               frontLeftMotor.setPower(frontLeftPower);
+               backLeftMotor.setPower(backLeftPower);
+               frontRightMotor.setPower(frontRightPower);
+               backRightMotor.setPower(backRightPower);
            }
        }
    }
