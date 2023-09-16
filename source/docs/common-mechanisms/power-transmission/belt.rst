@@ -39,7 +39,7 @@ Just like chain, the actual calculations for precise center-to-center (:term:`C2
    .. raw:: html
       :file: belt-c2c-calculator.html
 
-The equations for calculating these values by hand can be found in `SDP-SI's Designing a Miniature Belt and Pulley Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_.
+SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-distance-designer.php>`_, as does `ReCalc <https://www.reca.lc/belts>`_. The equations for calculating these values by hand can be found in `SDP-SI's Designing a Miniature Belt and Pulley Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_.
 
 Belt Wrap
 ---------
