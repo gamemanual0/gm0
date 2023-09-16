@@ -1,6 +1,6 @@
 <!--UI-->
 <label for="belt-pitch">Belt Pitch:</label>
-<select onchange="updateBeltC2CCalculator()" name="belt-pitch" id="belt-pitch">
+<select onchange="updateBeltCalculator()" name="belt-pitch" id="belt-pitch">
     <option value="5" selected>5 mm (HTD)</option>
     <option value="3">3 mm (HTD)</option>
     <option value="3">3 mm (GT2)</option>
@@ -10,19 +10,19 @@
 <hr>
 
 <label for="pulley-a">Pulley A Teeth:</label>
-<input oninput="updateBeltC2CCalculator()" type="number" id="pulley-a" name="pulley-a" min=1 max=1000 value=48>
+<input oninput="updateBeltCalculator()" type="number" id="pulley-a" name="pulley-a" min=1 max=1000 value=48>
 <br>
 Pulley A Pitch Diameter (mm): <span id="pulley-a-pd"></span>
 <hr>
 
 <label for="pulley-b">Pulley B Teeth:</label>
-<input oninput="updateBeltC2CCalculator()" type="number" id="pulley-b" name="pulley-b" min=1 max=1000 value=24>
+<input oninput="updateBeltCalculator()" type="number" id="pulley-b" name="pulley-b" min=1 max=1000 value=24>
 <br>
 Pulley B Pitch Diameter (mm): <span id="pulley-b-pd"></span>
 <hr>
 
 <label for="c2c">Desired Center Distance (mm):</label>
-<input oninput="updateBeltC2CCalculator()" type="number" id="c2c" name="pulley-a" min=1 max=10000 value=100>
+<input oninput="updateBeltCalculator()" type="number" id="c2c" name="pulley-a" min=1 max=10000 value=100>
 <br>
 Ratio: <span id="ratio"></span>
 <hr>
@@ -99,7 +99,7 @@ Ratio: <span id="ratio"></span>
      return 2 * c2c + Math.PI / 2 * (D+d) + Math.pow(D-d, 2)/(4*c2c);
  }
 
- function updateBeltC2CCalculator() {
+ function updateBeltCalculator() {
      const pitch = getValue("belt-pitch");
      const teethA = getValue("pulley-a");
      const teethB = getValue("pulley-b");
@@ -144,5 +144,5 @@ Ratio: <span id="ratio"></span>
      }
  }
 
- updateBeltC2CCalculator();
+ updateBeltCalculator();
 </script>

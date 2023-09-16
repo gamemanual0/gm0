@@ -22,22 +22,22 @@ Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches fou
 When using timing belts, correct tension is very important. There are two main ways to get your tension right. The first is easy - goBILDA and Actobotics already have belts integrated into their hole patterns. You can buy correctly sized belt directly from each vendor, and your tension will be perfect as soon as the belt is installed. As your designs gain complexity, so will your belt runs - maybe there are more than 2 pulleys, and maybe your pulleys are all different sizes. To compensate for this, the second way to ensure tension is to use a dynamic tensioner, similar to those found in complex chain runs. To design for these tensioners, we recommend planning more complex belt runs in CAD before building them in real life.
 
 
-Center-to-Center Calculator
----------------------------
+Belt Calculator
+---------------
 
-Just like chain, the actual calculations for precise center-to-center (:term:`C2C`) distances for belts are complicated. Below is a calculator for them:
+The actual calculations to determine which belt to use to get close to a given center-to-center (:term:`C2C`) distance are complicated. Below is a calculator to help out:
 
 .. card::
 
-   Belt C2C Distance Calculator
+   Belt Calculator
    ^^^
 
    .. only:: latex
 
-      The web version of gm0 has a C2C calculator available here.
+      The web version of gm0 has a belt calculator available here.
 
    .. raw:: html
-      :file: belt-c2c-calculator.html
+      :file: belt-calculator.html
 
 SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-distance-designer.php>`_, as does `ReCalc <https://www.reca.lc/belts>`_. The equations for calculating these values by hand can be found in `SDP-SI's Designing a Miniature Belt and Pulley Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_.
 
