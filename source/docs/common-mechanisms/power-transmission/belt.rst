@@ -25,35 +25,21 @@ When using timing belts, correct tension is very important. There are two main w
 Center-to-Center calculations
 -----------------------------
 
-Just like chain, the actual calculations for precise :term:`C2C` distances for belts are complicated. Here is a `calculator <https://www.engineersedge.com/calculators/Pulley_Center_Distance/toothed_pulley_center_distance_calculator_12900.htm>`_ or `two <https://sudenga.com/resources/figuring-belt-lengths-and-distance-between-pulleys/>`_ that simplifies the work.
+Just like chain, the actual calculations for precise center-to-center (:term:`C2C`) distances for belts are complicated. Below is a calculator for them:
 
-.. math::
+.. card::
 
-   C=\frac{P}{8}*(2L-(N+n)+\sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}*(N-n)^2})
+   Belt C2C Distance Calculator
+   ^^^
 
-   L=\frac{2C}{P}+\frac{N+n}{2}+\frac{P(\frac{N-n}{2\pi})^2}{C}
+   .. only:: latex
 
-- :math:`C=` center-to-center distance, inches
+      The web version of gm0 has a C2C calculator available here.
 
-- :math:`L=` belt length in pitches
+   .. raw:: html
+      :file: belt-c2c-calculator.html
 
-- :math:`P=` pitch of belt
-
-- :math:`N=` number of teeth in large pulley
-
-- :math:`n=` number of teeth in small pulley
-
-.. math:: C=\frac{L-\frac{\pi}{2}(D+d)}{4}+\sqrt{[(\frac{L-\frac{\pi}{2}(D+d)}{4})^2-\frac{(D-d)^2}{8}}
-
-- :math:`D=` chosen diameter of large pulley
-
-- :math:`d=` chosen diameter of small pulley
-
-- :math:`L=` length of belt
-
-- :math:`C=` center distance
-
-- (all units must be the same)
+The equations for calculating these values by hand can be found in `SDP-SI's Designing a Miniature Belt and Pulley Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_.
 
 Belt Wrap
 ---------
