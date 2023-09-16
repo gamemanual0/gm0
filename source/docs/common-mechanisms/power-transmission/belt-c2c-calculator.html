@@ -55,6 +55,23 @@ Ratio: <span id="ratio"></span>
  .closest-belt {
      font-weight: bold;
  }
+
+ table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+
+ /* Remove arrows for numeric inputs. */
+ /* Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+ /* Firefox */
+ input[type=number] {
+     -moz-appearance: textfield;
+ }
 </style>
 
 <script src="../../../_static/calculator-utils.js"></script>
