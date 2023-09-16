@@ -22,8 +22,8 @@ Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches fou
 When using timing belts, correct tension is very important. There are two main ways to get your tension right. The first is easy - goBILDA and Actobotics already have belts integrated into their hole patterns. You can buy correctly sized belt directly from each vendor, and your tension will be perfect as soon as the belt is installed. As your designs gain complexity, so will your belt runs - maybe there are more than 2 pulleys, and maybe your pulleys are all different sizes. To compensate for this, the second way to ensure tension is to use a dynamic tensioner, similar to those found in complex chain runs. To design for these tensioners, we recommend planning more complex belt runs in CAD before building them in real life.
 
 
-Center-to-Center calculations
------------------------------
+Center-to-Center Calculator
+---------------------------
 
 Just like chain, the actual calculations for precise center-to-center (:term:`C2C`) distances for belts are complicated. Below is a calculator for them:
 
