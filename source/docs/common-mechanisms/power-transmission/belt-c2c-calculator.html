@@ -83,13 +83,14 @@ Ratio: <span id="ratio"></span>
  }
 
  function updateBeltC2CCalculator() {
-     const pitch = parseFloat(getValue("belt-pitch"));
+     const pitch = getValue("belt-pitch");
      const teethA = getValue("pulley-a");
      const teethB = getValue("pulley-b");
      const c2c = getValue("c2c");
 
      const pdA = pitchDiameter(teethA, pitch);
      const pdB = pitchDiameter(teethB, pitch);
+
      const idealBeltTeeth = beltPitchLength(pdA, pdB, pitch, c2c) / pitch;
 
      writeText("pulley-a-pd", prettifyFloat(pdA));
