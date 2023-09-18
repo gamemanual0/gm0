@@ -1,0 +1,148 @@
+<!--UI-->
+<label for="belt-pitch">Belt Pitch:</label>
+<select onchange="updateBeltCalculator()" name="belt-pitch" id="belt-pitch">
+    <option value="5" selected>5 mm (HTD)</option>
+    <option value="3">3 mm (HTD)</option>
+    <option value="3">3 mm (GT2)</option>
+    <option value="2">2 mm (GT2)</option>
+    <option value="6.35">1/4" (RT25)</option>
+</select>
+<hr>
+
+<label for="pulley-a">Pulley A Teeth:</label>
+<input oninput="updateBeltCalculator()" type="number" id="pulley-a" name="pulley-a" min=1 max=1000 value=48>
+<br>
+Pulley A Pitch Diameter (mm): <span id="pulley-a-pd"></span>
+<hr>
+
+<label for="pulley-b">Pulley B Teeth:</label>
+<input oninput="updateBeltCalculator()" type="number" id="pulley-b" name="pulley-b" min=1 max=1000 value=24>
+<br>
+Pulley B Pitch Diameter (mm): <span id="pulley-b-pd"></span>
+<hr>
+
+<label for="c2c">Desired Center Distance (mm):</label>
+<input oninput="updateBeltCalculator()" type="number" id="c2c" name="pulley-a" min=1 max=10000 value=100>
+<br>
+Ratio: <span id="ratio"></span>
+<hr>
+
+<label for="belt-options">Belt Options:</label>
+<table id="belt-options">
+    <tr>
+        <th>Tooth Count</th>
+        <th>C2C (mm)</th>
+        <th>Length (mm)</th>
+    </tr>
+</table>
+
+<template id="belt-option">
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</template>
+<!--End UI-->
+
+<style>
+ #belt-options {
+     table-layout: fixed;
+     width: 100%;
+     text-align: center;
+ }
+
+ .closest-belt {
+     font-weight: bold;
+ }
+
+ table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+
+ /* Remove arrows for numeric inputs. */
+ /* Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+ /* Firefox */
+ input[type=number] {
+     -moz-appearance: textfield;
+ }
+</style>
+
+<script src="../../../_static/calculator-utils.js"></script>
+<script>
+ function pitchDiameter(teeth, pitch) {
+     return teeth*pitch/Math.PI;
+ }
+
+ // https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf
+ // Engineering Formulas Table 1, No. 1
+ function centerDistance(pitchDiameterA, pitchDiameterB, pitch, toothCount) {
+     const pl = toothCount * pitch;
+     const D = Math.max(pitchDiameterA, pitchDiameterB);
+     const d = Math.min(pitchDiameterA, pitchDiameterB);
+
+     const b = 2 * pl - (Math.PI * (D + d));
+     return (b + Math.sqrt(Math.pow(b, 2)-(8*Math.pow(D-d, 2)))) / 8;
+ }
+
+ // Engineering Formulas Table 1, No. 3
+ function beltPitchLength(pitchDiameterA, pitchDiameterB, pitch, c2c) {
+     const D = Math.max(pitchDiameterA, pitchDiameterB);
+     const d = Math.min(pitchDiameterA, pitchDiameterB);
+
+     return 2 * c2c + Math.PI / 2 * (D+d) + Math.pow(D-d, 2)/(4*c2c);
+ }
+
+ function updateBeltCalculator() {
+     const pitch = getValue("belt-pitch");
+     const teethA = getValue("pulley-a");
+     const teethB = getValue("pulley-b");
+     const c2c = getValue("c2c");
+
+     const pdA = pitchDiameter(teethA, pitch);
+     const pdB = pitchDiameter(teethB, pitch);
+
+     const idealBeltTeeth = beltPitchLength(pdA, pdB, pitch, c2c) / pitch;
+
+     writeText("pulley-a-pd", prettifyFloat(pdA));
+     writeText("pulley-b-pd", prettifyFloat(pdB));
+
+     writeText("ratio", prettifyFloat(teethA/teethB));
+
+     // in each direction, above and below the closest ones
+     const numberOfBeltsToShow = 3;
+     const minBeltTeeth = Math.floor(idealBeltTeeth) - numberOfBeltsToShow;
+     const maxBeltTeeth = Math.ceil(idealBeltTeeth) + numberOfBeltsToShow;
+
+     const beltOptions = document.getElementById("belt-options");
+
+     // remove existing non-header rows
+     beltOptions.querySelectorAll("tr").forEach(
+         (tr, i) => { if (i != 0) { tr.remove() } });
+
+     const beltOptionTemplate = document.getElementById("belt-option");
+     for (let teeth = minBeltTeeth; teeth <= maxBeltTeeth; teeth++) {
+         const beltOption = beltOptionTemplate.content.cloneNode(true);
+         let tds = beltOption.querySelectorAll("td");
+
+         if (teeth == Math.floor(idealBeltTeeth)
+             || teeth == Math.ceil(idealBeltTeeth)) {
+             tds.forEach((td) => td.classList.add("closest-belt"))
+         }
+
+         tds[0].textContent = teeth;
+         tds[1].textContent = prettifyFloat(centerDistance(pdA, pdB, pitch, teeth));
+         tds[2].textContent = prettifyFloat(teeth * pitch);
+
+         beltOptions.appendChild(beltOption);
+     }
+ }
+
+ updateBeltCalculator();
+</script>
