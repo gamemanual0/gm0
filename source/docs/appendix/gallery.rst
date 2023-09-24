@@ -48,7 +48,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 17077 Adna Robotics
 ^^^^^^^^^^^^^^^^^^^
 
-- `CAD <https://viewer.autodesk.com/id/dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YTM2MHZpZXdlci90NjM3NjM1NDk0NDAxOTEyMTg3X2Y5OWYzOTk1LTc5OGItNGZlYy04Zjk1LTk1MjNmMTQ5MmJmYS5jb2xsYWJvcmF0aW9u?sheetId=NjgwMGM2NmEtZjg0Mi00MmIxLWFlZjctZWQ3MzI0YzRkN2Iz>`__
 - `Engineering Portfolio <https://docs.google.com/document/d/1Gd3HlolZlD26xz__ngC1cJsoUYtvUFR_MTUYkEW_L1g/edit>`__
 - `Robot Reveal Video <https://www.youtube.com/watch?v=mSsAVnTCXg0>`__
 
