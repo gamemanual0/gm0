@@ -101,26 +101,20 @@ In a ``LinearOpMode`` based TeleOp program, storing both current and previous ga
         // other initialization code goes here
 
         while (opModeIsActive()) {
-            try {
-                // Store the gamepad values from the previous loop iteration in
-                // previousGamepad1/2 to be used in this loop iteration.
-                // This is equivalent to doing this at the end of the previous
-                // loop iteration, as it will run in the same order except for
-                // the first/last iteration of the loop.
-                previousGamepad1.copy(currentGamepad1);
-                previousGamepad2.copy(currentGamepad2);
+             // Store the gamepad values from the previous loop iteration in
+             // previousGamepad1/2 to be used in this loop iteration.
+             // This is equivalent to doing this at the end of the previous
+             // loop iteration, as it will run in the same order except for
+             // the first/last iteration of the loop.
+             previousGamepad1.copy(currentGamepad1);
+             previousGamepad2.copy(currentGamepad2);
 
-                // Store the gamepad values from this loop iteration in
-                // currentGamepad1/2 to be used for the entirety of this loop iteration.
-                // This prevents the gamepad values from changing between being
-                // used and stored in previousGamepad1/2.
-                currentGamepad1.copy(gamepad1);
-                currentGamepad2.copy(gamepad2);
-            }
-            catch (RobotCoreException e) {
-                // Swallow the possible exception, it should not happen as
-                // currentGamepad1/2 are being copied from valid Gamepads.
-            }
+             // Store the gamepad values from this loop iteration in
+             // currentGamepad1/2 to be used for the entirety of this loop iteration.
+             // This prevents the gamepad values from changing between being
+             // used and stored in previousGamepad1/2.
+             currentGamepad1.copy(gamepad1);
+             currentGamepad2.copy(gamepad2);
 
             // Main teleop loop goes here
         }
