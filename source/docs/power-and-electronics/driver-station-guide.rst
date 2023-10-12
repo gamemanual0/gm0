@@ -31,7 +31,8 @@ Android Phones
 
 As of 2023-2024, Android phones are still legal for competition use.
 
-Advantages:
+Advantages
+^^^^^^^^^^
 
 - Android phones can be very cheap when purchased secondhand
 - Android phones generally are reliable out of the box
