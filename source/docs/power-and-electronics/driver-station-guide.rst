@@ -37,7 +37,8 @@ Advantages
 - Android phones can be very cheap when purchased secondhand
 - Android phones generally are reliable out of the box
 
-Disadvantages:
+Disadvantages
+^^^^^^^^^^^^^
 
 - The lack of a full size USB A port means that flimsy On The Go cables must be used
 - The phones themselves should be protected with a case to prevent damage
