@@ -8,7 +8,8 @@ REV Driver Hub
 
 The REV Robotics Driver Hub is effectively an Android phone with built in USB ports. It is purpose built for FTC, and contains several advantages over traditional Android phones.
 
-Advantages:
+Advantages
+^^^^^^^^^^
 
 - Full sized USB ports do not require flimsy On The Go cables
 - Charges from USB-C including fast charging Power Delivery modes
