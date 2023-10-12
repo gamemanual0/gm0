@@ -3,8 +3,8 @@ Driver Station Guide
 
 The driver station is the communication point for drivers. It allows you to configure settings, configure hardware, start and stop opmodes, send gamepad data, and can receive telemetry data from the robot. There are two main different choices for a driver station, the REV Robotics Driver Hub and an Android phone.
 
-REV Drivers Hub
----------------
+REV Driver Hub
+--------------
 
 The REV Robotics Driver Hub is effectively an Android phone with built in USB ports. It is purpose built for FTC, and contains several advantages over traditional Android phones.
 
