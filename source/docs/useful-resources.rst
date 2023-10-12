@@ -46,8 +46,6 @@ Strategy
 
 `Effective FIRST Strategies <https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies. See also the `slideshow itself <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
 
-`Weighted Objectives <http://www.robowranglers148.com/uploads/1/0/5/4/10542658/weighted_object_tables_for_robotics.pdf>`_ --- A guide by John V-Neun, mentor of FRC 148, the Robowranglers, to using weighted objective to decide on a strategy.
-
 .. _useful-resources-cad:
 
 CAD
