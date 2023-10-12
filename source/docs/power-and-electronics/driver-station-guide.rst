@@ -12,7 +12,7 @@ Advantages:
 
 - Full sized USB ports do not require flimsy On The Go cables
 - Charges from USB-C including fast charging Power Delivery modes
-- Larger screen then many Android phones
+- Larger screen than many Android phones
 - Case is more robust then a standard Android phone
 
 Disadvantages:
