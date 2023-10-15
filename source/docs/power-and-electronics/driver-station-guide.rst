@@ -25,7 +25,7 @@ Disadvantages
 - Wifi Issues: The wifi driver will occasionally crash when the device goes to sleep, requiring a device restart
 
 .. important::
-   If you purchase a Driver Hub and experience issues, refer to the `REV Driver Hub troubleshooting page <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. The unexpected power off fix may be done pre-emptively to prevent a shutdown during a match
+   If you purchase a Driver Hub and experience issues, refer to the `REV Driver Hub troubleshooting page <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. The unexpected power off fix may be done preemptively to prevent a shutdown during a match.
 
 Android Phones
 --------------
