@@ -16,7 +16,8 @@ Advantages
 - Larger screen than many Android phones
 - Case is more robust then a standard Android phone
 
-Disadvantages:
+Disadvantages
+^^^^^^^^^^^^^
 
 - Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased secondhand for less
 - Power Issues: Teams have reported random losses of power coming from an improperly sized battery.
