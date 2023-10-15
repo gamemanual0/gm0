@@ -44,9 +44,7 @@ Disadvantages
 - The lack of a full size USB A port means that flimsy On The Go cables must be used
 - The phones themselves should be protected with a case to prevent damage
 
-A 5GHz phone is preferred over the standard 2.4GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only?
-
-Most school wifi bands run on 2.4GHz, which means that the 2.4GHz channels will be more crowded on competition day. This can lead to noticeably higher ping/lag which adversely affects driver and robot performance.
+A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only? This is because most school WiFi bands run on 2.4 GHz, which means that 2.4 GHz channels will be more crowded on competition day. This can lead to noticeably higher ping/lag which adversely affects driver and robot performance.
 
 USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possible source of disconnects during a match. This is generally caused by poor quality connectors or adapters between the driver station and the gamepad controller. **It generally is worth it to purchase higher quality connectors as opposed to the cheapest options.**
 
