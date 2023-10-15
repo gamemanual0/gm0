@@ -11,7 +11,7 @@ The REV Robotics Driver Hub is effectively an Android phone with built in USB po
 Advantages
 ^^^^^^^^^^
 
-- Full sized USB ports do not require flimsy On The Go cables
+- Full sized USB ports do not require flimsy On The Go (micro-USB connector to USB-A port) cables
 - Charges from USB-C including fast charging Power Delivery modes
 - Larger screen than many Android phones
 - Case is more robust then a standard Android phone
