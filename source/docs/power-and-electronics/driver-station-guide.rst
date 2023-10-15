@@ -1,7 +1,7 @@
 Driver Station Guide
 ====================
 
-The driver station is the communication point for drivers. It allows you to configure settings, configure hardware, start and stop opmodes, send gamepad data, and can receive telemetry data from the robot. There are two main different choices for a driver station, the REV Robotics Driver Hub and an Android phone.
+The Driver Station (DS) is the way drivers interact with the robot. Through it, you configure settings, configure hardware, start and stop OpModes, use gamepads, and receive telemetry data from the robot. There are two main different choices for a Driver Station: the REV Robotics Driver Hub and an Android phone.
 
 REV Driver Hub
 --------------
