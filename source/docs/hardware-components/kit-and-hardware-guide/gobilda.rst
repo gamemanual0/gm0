@@ -43,7 +43,7 @@ Notable components
 
    goBILDA mini-low-side channel (12x48 mm)
 
-- Viper-Slides are gobilda's version of the commonly used drawer slides for linear extension in 336mm and 240mm lengths. Notably, goBILDA sells a Viper-Slide kit, which contains all of the parts to assemble either a 2 stack or 4 stack of slides. In addition, they are one of the few vendors who sells a belted version of these slides. The 240mm slide is also uniquely bidirectional, sliding both ways.
+- Viper-Slides are goBILDA's version of the commonly used drawer slides for linear extension in 336mm and 240mm lengths. Notably, goBILDA sells a Viper-Slide kit, which contains all of the parts to assemble either a 2 stack or 4 stack of slides. In addition, they are one of the few vendors who sells a belted version of these slides. The 240mm slide is also uniquely bidirectional, sliding both ways.
 
 - goRAIL is :term:`extrusion <Extrusion>` that complements the :term:`channel <Channel>` offerings well. goRAIL is used in the linear actuator kit for extending mechanisms.
 
