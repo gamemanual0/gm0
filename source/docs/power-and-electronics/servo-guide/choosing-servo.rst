@@ -21,7 +21,7 @@ Servo Torque And Speed
 
 :term:`Servo` output power is measured in both **speed** and **torque**. Speed (normally in seconds per 60°) refers to how fast the :term:`servo <Servo>` turns 60 degrees in Standard Rotation mode.
 
-.. admonition:: Curious why its seconds per 60 degrees?
+.. admonition:: Why seconds per 60 degrees?
 
    Historically, the servos commonly used in FTC were created for RC (Radio Controlled) car setups. These cars often had steering linkages with a maximum side to side travel of 60 degrees so manufacturers would often advertise their servos using seconds for 60 degrees.
 
