@@ -39,6 +39,8 @@ The actual calculations to determine which belt to use to get close to a given c
    .. raw:: html
       :file: belt-calculator.html
 
+.. warning:: This calculator will suggest belt lengths even if they are difficult to get from vendors. Make sure the C2C distance you design around is for a belt length that you can purchase.
+
 SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-distance-designer.php>`_, as does `ReCalc <https://www.reca.lc/belts>`_. The equations for calculating these values by hand can be found in `SDP-SI's Designing a Miniature Belt and Pulley Drive System Design Guide <https://www.sdp-si.com/Belt-Drive/Designing-a-miniature-belt-drive.pdf>`_.
 
 Belt Wrap
