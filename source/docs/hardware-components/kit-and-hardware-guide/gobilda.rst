@@ -29,12 +29,21 @@ Notable components
 
    goBILDA :term:`U-channel <Channel>` (48x48 mm)
 
-- In addition, low-side channel (smaller profile :term:`channel <Channel>`) complements full size channel. Low side channel is just 12mm in height and allows for more compact builds. Additionally, low side channel opens up possibilities such as a kit-based :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`. Low side channel also forms the basis of the cascading kit with a 2 or 4 stage option.
+- Low-Side channel (smaller profile :term:`channel <Channel>`) complements full size channel. Low-Side channel is just 12mm in height and allows for more compact builds. Additionally, Low-Side channel opens up possibilities such as a kit-based :term:`parallel plate drivetrain <Parallel Plate Drivetrain>`. Low-Side channel also forms the basis of the cascading kit with a 2 or 4 stage option.
 
 .. figure:: images/gobilda/gobilda_low_channel.jpg
    :alt: goBILDA low-side channel
 
    goBILDA low-side channel (12x48 mm)
+
+- Mini-Low-Side channel (even smaller profile :term:`channel <Channel>`) that compliments Low-Side channel. Mini-Low-Side channel is 12mm tall and just 32mm wide, making it great for small structures.
+
+.. figure:: images/gobilda/gobilda_mini_channel.jpg
+   :alt: goBILDA mini-low-side channel
+
+   goBILDA mini-low-side channel (12x48 mm)
+
+- Viper-Slides are goBILDA's version of the commonly used drawer slides for linear extension in 336mm and 240mm lengths. Notably, goBILDA sells a Viper-Slide kit, which contains all of the parts to assemble either a 2 stack or 4 stack of slides. In addition, they are one of the few vendors who sells a belted version of these slides. The 240mm slide is also uniquely bidirectional, sliding both ways.
 
 - goRAIL is :term:`extrusion <Extrusion>` that complements the :term:`channel <Channel>` offerings well. goRAIL is used in the linear actuator kit for extending mechanisms.
 
@@ -46,12 +55,12 @@ goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. 
 Kit of Parts
 ------------
 
-- `2021-2022 Kit Parts <https://www.gobilda.com/master-ftc-kit-8mm-rex-shaft-2021-2022-season/>`_
+- `2023-2024 Kit Parts <https://www.gobilda.com/ftc-starter-kit-2023-2024-season/>`_
 
 Advantages
 ----------
 
-- goBILDA's low-side U-channel opens up many new possibilities due to its flexibility and compactness. For example, one can now make a :term:`parallel plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or make custom width :term:`U-channel <Channel>`.
+- goBILDA's Low-Side U-channel opens up many new possibilities due to its flexibility and compactness. For example, one can now make a :term:`parallel plate drivetrain <Parallel Plate Drivetrain>` without custom machining, or make custom width :term:`U-channel <Channel>`.
 - goBILDA also has :term:`Servoblocks` (identical to Actobotics other than hole pattern) which drastically increase servo life.
 - goBILDA has native large bore :term:`hex shaft <Shaft>` support (12 mm REX is comparable to 3/8" rounded hex) which is one of the main advantages of custom fabrication brought to a kit based system.
 - goBILDA also is able to interface with TETRIX :term:`channel <Channel>` because they share some holes. For more information about TETRIX-goBILDA compatibility, check out this `website <https://gobildatetrix.blogspot.com/>`_. It is also quite compatible with REV's ecosystem.
@@ -68,7 +77,7 @@ Disadvantages
 -------------
 
 - goBILDA is not the cheapest build system; it is relatively equivalent in pricing to Actobotics, but REV is cheaper.
-- goBILDA :term:`U-channels <Channel>` are larger than the :term:`channels <Channel>` from Tetrix, resulting in larger builds. However, this is more than compensated by the fact that one can put a :term:`goBILDA motor <Yellow Jacket Motor>` *inside* a :term:`channel <Channel>`.
+- goBILDA :term:`U-channels <Channel>` are larger than the :term:`channels <Channel>` from Tetrix, resulting in larger builds. However, this is more than compensated by the fact that one can put a :term:`goBILDA motor <Yellow Jacket Motor>` *inside* a :term:`channel <Channel>`. In addition, the introduction of mini-low-side channel allows for more compact builds where needed
 - Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain <Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`. This means that other kits' :term:`chain <Chain>` and :term:`sprockets <Sprocket>` won’t work with goBILDA :term:`chain <Chain>` and :term:`sprockets <Sprocket>`.
 
 .. image:: images/gobilda/7182-rr2-hanging.png
