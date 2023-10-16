@@ -101,7 +101,7 @@ Connections with the STEM community are important to document. These should incl
 Outreaches with the General Community
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Often teams will host events or outreaches with the intent of spreading the idea of FIRST and recruiting new members to their team. Documenting this correctly is important for some awards. Generally, these sections should contain details about the event such as when it took place, what your team did, and how many people you reached.
+Often teams will host events or outreaches with the intent of spreading the idea of *FIRST*\ |reg| and recruiting new members to their team. Documenting this correctly is important for some awards. Generally, these sections should contain details about the event such as when it took place, what your team did, and how many people you reached.
 
 .. attention:: Appendix F of |gm1| contains **very specific definitions of words like Mentored, Started, Reached, Ran, and more**. Misuse of these words can be held against you in judging, so make sure you meet the definitions of terms if you use them.
 

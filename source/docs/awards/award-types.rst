@@ -18,7 +18,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
       Of all the awards, this one is arguably the most subjective, as it is about how good does a team does overall, including and how much they weigh outreach as compared to robot performance along with documentation.
 
       Official Game Manual Description
-         This judged award is given to the team that best embodies the 'challenge' of the *FIRST*\ |reg| Tech Challenge program. The Team that receives this award is a strong ambassador for *FIRST*\ |reg| programs and a role model *FIRST*\ |reg| Team. This Team is a top contender for many other judged awards and is a gracious competitor. The Inspire Award winner is an inspiration to other Teams, acting with Gracious Professionalism\ |reg| both on and off the playing field. This Team shares their experiences, enthusiasm and knowledge with other teams, sponsors, their community, and the Judges. Working as a unit, this Team will have shown success in performing the task of designing and building a Robot.
+         This judged award is given to the team that best embodies the 'challenge' of the *FIRST*\ |reg| Tech Challenge program. The Team that receives this award is a strong ambassador for *FIRST* programs and a role model *FIRST* Team. This Team is a top contender for many other judged awards and is a gracious competitor. The Inspire Award winner is an inspiration to other Teams, acting with Gracious Professionalism\ |reg| both on and off the playing field. This Team shares their experiences, enthusiasm and knowledge with other teams, sponsors, their community, and the Judges. Working as a unit, this Team will have shown success in performing the task of designing and building a Robot.
 
    Think Award
       The Think Award is based entirely on the |EN| and Engineering Portfolio. In order to have a chance at winning, the |EN| should include as much math and physics as possible, document the entire journey of the robot through iterations, and other documentation of design and game strategy.
@@ -40,7 +40,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
       Be prepared for judges to ask you how your outreaches were meaningful, and try to avoid doing STEM outreaches just for the sake of saying you did a STEM outreach. Successful STEM outreaches are those that are undertaken for a specific purpose and have a clear intent and goal, such as meeting with an expert on computer vision to ask for advice on a vision task for the game. If you are struggling to find STEM outreaches, local colleges and businesses are a good start.
 
       Official Game Manual Description
-         This judged award is given to the Team that most connects with their local science, technology, engineering, and math (STEM) community. A true *FIRST*\ |reg| team is more than a sum of its parts and recognizes that engaging their local STEM community plays an essential part in their success. The recipient of this award is recognized for helping the community understand *FIRST*\ |reg|, the *FIRST*\ |reg| Tech Challenge, and the Team itself. The Team that wins the Connect Award aggressively seeks and recruits engineers and explores the opportunities available in the world of engineering, science and technology. This Team has a clear Team plan and has identified steps to achieve their goals.
+         This judged award is given to the Team that most connects with their local science, technology, engineering, and math (STEM) community. A true *FIRST* team is more than a sum of its parts and recognizes that engaging their local STEM community plays an essential part in their success. The recipient of this award is recognized for helping the community understand *FIRST*, the *FIRST* Tech Challenge, and the Team itself. The Team that wins the Connect Award aggressively seeks and recruits engineers and explores the opportunities available in the world of engineering, science and technology. This Team has a clear Team plan and has identified steps to achieve their goals.
 
    Innovate Award
       The Innovate award is what it sounds like - it's for teams with innovative robots or robot mechanisms.
@@ -52,7 +52,7 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
       The engineering portfolio should contain information on your robot's mechanisms, and your presentation should also mention the innovative parts of your robot. However, refrain from over describing the mechanisms you intend to sell as innovative, as you want to leave room for the judges to ask questions, which gives you more opportunities and time to sell your mechanisms. In addition, practice what aspects of the mechanisms you want to sell as innovative, and make sure you are able to thoroughly describe why they are innovative when asked.
 
       Official Game Manual Description
-         The Innovate Award celebrates a Team that thinks imaginatively and has the ingenuity, creativity, and inventiveness to make their designs come to life. This judged award is given to the Team that has the most innovative and creative Robot design solution to any specific components in the FIRST Tech Challenge game. Elements of this award include elegant design, robustness, and 'out of the box' thinking related to design. This award may address the design of the whole Robot or of a sub-assembly attached to the Robot. The creative component must work consistently, but a Robot does not have to work all the time during Matches to be considered for this award. The Team's engineering portfolio must include a summary of the design of the component or components and the Team's Robot to be eligible for this award. Entries must describe how the Team arrived at their solution.
+         The Innovate Award celebrates a Team that thinks imaginatively and has the ingenuity, creativity, and inventiveness to make their designs come to life. This judged award is given to the Team that has the most innovative and creative Robot design solution to any specific components in the *FIRST* Tech Challenge game. Elements of this award include elegant design, robustness, and 'out of the box' thinking related to design. This award may address the design of the whole Robot or of a sub-assembly attached to the Robot. The creative component must work consistently, but a Robot does not have to work all the time during Matches to be considered for this award. The Team's engineering portfolio must include a summary of the design of the component or components and the Team's Robot to be eligible for this award. Entries must describe how the Team arrived at their solution.
 
    Control Award
       The Control award is meant to recognize a team that has a good software solution to make their robot "intelligent". It's known as the "software award" and is for the team with the best or most innovative software and sensor solution for the game.
@@ -77,14 +77,14 @@ There are 7 awards for FTC teams (excluding optional awards). For more informati
       - `9794 Wizards.exe Skystone <https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_
 
    Motivate Award
-      The Motivate Award is one of the two outreach awards. It's for teams that work with their local and *FIRST*\ |reg| community. Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate award can be vague, and most judges don't know how to differentiate which outreach falls under which award.
+      The Motivate Award is one of the two outreach awards. It's for teams that work with their local and *FIRST* community. Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate award can be vague, and most judges don't know how to differentiate which outreach falls under which award.
 
       Look at the section about differentiating connect and motivate for more advice on this. For both outreach awards, a Team Plan is required. Refer to the section about writing a team plan for advice.
 
       The key aspects to include in your portfolio and presentation for motivate is showing how all team members contribute to the success of the team, how your team is recruiting members from non-stem areas, as well as plans for fundraising, funding, sustainability, and recruitment.
 
       Official Game Manual Description
-         This Team embraces the culture of *FIRST*\ |reg| and clearly shows what it means to be a team. This judged award celebrates the Team that represents the essence of the *FIRST*\ |reg| Tech Challenge competition through Gracious Professionalism and general enthusiasm for the overall philosophy of *FIRST*\ |reg| and what it means to be a *FIRST*\ |reg| Tech Challenge Team. This is a Team who makes a collective effort to make *FIRST*\ |reg| known throughout their school and community, and sparks others to embrace the culture of *FIRST*\ |reg|.
+         This Team embraces the culture of *FIRST* and clearly shows what it means to be a team. This judged award celebrates the Team that represents the essence of the *FIRST* Tech Challenge competition through Gracious Professionalism and general enthusiasm for the overall philosophy of *FIRST* and what it means to be a *FIRST* Tech Challenge Team. This is a Team who makes a collective effort to make *FIRST* known throughout their school and community, and sparks others to embrace the culture of *FIRST*.
 
    Design Award
       The Design Award is one of the robot awards that primarily focuses on the hardware aspect of the robot. It is for robots that are both functional, aesthetic, and use good design practices, including CAD.
@@ -109,7 +109,7 @@ What Falls Under Connect?
 
 What Falls Under Motivate?
 
-- Starting/Mentoring *FIRST*\ |reg| Teams
+- Starting/Mentoring *FIRST* Teams
 - Community Demos
 
 Tips for Both
@@ -118,7 +118,7 @@ Tips for Both
    - Make sure your numbers are somewhat accurate! If you are at a large event, you can get a rough headcount from the organizers, but its generally better to know roughly how many people actually stopped and looked at your team.
 - Present stories to the judges, not just overviews. Tell personal stories.
 - Log all your outreach events, with who went and how many hours each person did in its own place separate from the engineering notebook. This makes it easier to compile total numbers and shows the judges every outreach activity/event in one place.
-- For a bigger impact make sure you have more resources then just your team's information at an event, having details for *FIRST*\ |reg| Lego League teams in addition to your *FIRST*\ |reg| Tech Challenge information can broaden how many people you reach.
+- For a bigger impact make sure you have more resources then just your team's information at an event, having details for *FIRST* Lego League teams in addition to your *FIRST* Tech Challenge information can broaden how many people you reach.
 - Follow up, follow up, follow up! If a person gives you a business card or a student expresses interest, it doesn't hurt to follow up if they don't reach out as promised. People can forget or get busy, sometimes a reminder is useful!
 
 Optional Awards
@@ -132,7 +132,7 @@ There are some awards that events are not required to present; these do not adva
       The Judges Choice Award is meant to recognize a team that doesn't fit into any of the existing award categories, but the judges still felt the team deserved to win an award for their outstanding effort or other experience. This award is very subjective, and doesn't advance teams. It is also optional to give at every competition, but in some regions given at every competition unless the judges don't find a deserving team.
 
    Promote Award and Compass Award
-      The Promote and Compass awards are optional awards that are usually given only at state championships and world championships. These awards do not require an engineering notebook to win, but do not advance teams. They are submitted as a video no longer than 1 minute. The Promote award is for creating a PSA for *FIRST*\ |reg| with a specific video prompt. This prompt changes every year, and is found in |gm1|. The Compass award is for recognizing an outstanding mentor. Submitting these awards is usually done on a case-by-case basis, where the event organizer sends teams instructions on how to submit.
+      The Promote and Compass awards are optional awards that are usually given only at state championships and world championships. These awards do not require an engineering notebook to win, but do not advance teams. They are submitted as a video no longer than 1 minute. The Promote award is for creating a PSA for *FIRST* with a specific video prompt. This prompt changes every year, and is found in |gm1|. The Compass award is for recognizing an outstanding mentor. Submitting these awards is usually done on a case-by-case basis, where the event organizer sends teams instructions on how to submit.
 
       Some good Promote award submissions include:
 

@@ -16,8 +16,8 @@ Goals of |gm0|
 
 Before writing, please take the time to familiarize yourself with the goals of |gm0|. The primary goals are:
 
-#. To inform and guide newer teams, participants, and coaches of the FIRST Tech Challenge and help them achieve their competitive goals.
-#. To act as a living reference for mechanisms, techniques, and community knowledge pertinent to FIRST Tech Challenge.
+#. To inform and guide newer teams, participants, and coaches of the *FIRST*\ |reg| Tech Challenge and help them achieve their competitive goals.
+#. To act as a living reference for mechanisms, techniques, and community knowledge pertinent to *FIRST* Tech Challenge.
 
 These goals may seem relatively self-explanatory, but they have several important takeaways.
 

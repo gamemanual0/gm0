@@ -18,7 +18,7 @@ General Resources
 
 .. attention:: The FTC Discord's primary demographic is FTC-age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the help channels.
 
-`FTC Docs <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- FIRST's official FTC documentation, including programming resources, team management resources and more.
+`FTC Docs <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- Official *FIRST*\ |reg| FTC documentation, including programming resources, team management resources and more.
 
 `FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
 
@@ -28,7 +28,7 @@ General Resources
 
 `FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
 
-`FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- FIRST's resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
+`*FIRST* Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- The *FIRST* resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
@@ -37,14 +37,14 @@ General Resources
 Team Management
 ---------------
 
-`Running a FIRST Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a FIRST team. While some details are FRC-specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
+`Running a *FIRST* Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a *FIRST* team. While some details are FRC-specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
 
-`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- FIRST's FTC team management resources, covering budget, engineering notebook, etc.
+`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- *FIRST* FTC team management resources, covering budget, engineering notebook, etc.
 
 Strategy
 --------
 
-`Effective FIRST Strategies <https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies. See also the `slideshow itself <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
+`Effective *FIRST* Strategies <https://www.youtube.com/watch?v=5fifL47TvzE>`_:highlight:`*` --- A championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies. See also the `slideshow itself <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
 
 .. _useful-resources-cad:
 
@@ -101,7 +101,7 @@ Mechanical Design and Build
 
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
-`FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST's official design and build resources, including TETRIX/REV build guides.
+`*FIRST* Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of official *FIRST* design and build resources, including TETRIX/REV build guides.
 
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
@@ -146,11 +146,11 @@ Programming
 
 `REV's Introduction to Programming <https://docs.revrobotics.com/duo-control/programming/hello-robot-introduction-to-programming>`_:highlight:`*` --- REV's introductory programming documentation, covering both Blocks and Java programming. Linked here is also the rest of REV's documentation for the control system.
 
-`Controls Engineering in the FIRST Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
+`Controls Engineering in the *FIRST* Robotics Competition <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ --- A book that introduces students to the broader field of control theory.
 
 `CTRL ALT FTC <https://www.ctrlaltftc.com/>`_ --- A guide to control theory created by FTC #19376 Thermal Equilibrium.
 
-`FIRST's Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of FIRST's official programming resources, including introductions to each programming tool.
+`*FIRST* Programming Resources <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`_ --- A collection of official *FIRST* programming resources, including introductions to each programming tool.
 
 `FRC 4613 Software Workshops <https://github.com/Team4613-BarkerRedbacks/SoftwareWorkshops>`_ --- FRC 4613's workshops that are used to teach their new programmers Java and FTC programming. It goes from the very basics of data up to more complex concepts such as Polymorphism and Functional Interfaces.
 
@@ -170,13 +170,13 @@ Libraries
 Electronics
 -----------
 
-`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_:highlight:`*` --- FIRST's guide to wiring FTC robots, including ESD mitigation options.
+`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD mitigation options.
 
-`An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
+`An Analysis of ESD Mitigation for the *FIRST* Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
 
 Team/Event Results
 ------------------
 
-`FTC Events <https://ftc-events.firstinspires.org/>`_ --- FIRST's official team and event result database for FTC. However, it lacks information from before Skystone.
+`FTC Events <https://ftc-events.firstinspires.org/>`_ --- Official *FIRST* team and event result database for FTC. However, it lacks information from before Skystone.
 
 `The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run team and event result database.

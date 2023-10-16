@@ -44,7 +44,7 @@ Here's a brief example of a fundraising email that utilizes these 3 appeals:
 
    Dear Company Name,
 
-   We are FIRST Tech Challenge Robotics Team #XXXX, representing Our School or Organization. Our team competes against 6,500 teams worldwide, and after a hard-fought season from September to now, was selected to represent our region at the FIRST World Championship and compete alongside 191 other teams (x% of teams worldwide)!
+   We are *FIRST*\ |reg| Tech Challenge Robotics Team #XXXX, representing Our School or Organization. Our team competes against 6,500 teams worldwide, and after a hard-fought season from September to now, was selected to represent our region at the *FIRST* World Championship and compete alongside 191 other teams (x% of teams worldwide)!
 
    However, we now have to raise $y for registration, transportation, and housing to successfully compete. As a community organization, we rely on the businesses and organizations around us to help us develop future STEM professionals and spread science and technology throughout our region. Even a $z donation would help us greatly in attending the championship, and we would love to feature your company's logo on our robot with a donation above $n.
 
