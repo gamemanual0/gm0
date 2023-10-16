@@ -36,7 +36,7 @@ Notable components
 
    goBILDA low-side channel (12x48 mm)
 
-- A new addition is Mini-Low-Side channel (even smaller profile :term:`channel <Channel>`) that compliments Low-Side channel. Mini-Low-Side channel is 12mm tall and just 32mm wide, making it great for small structures.
+- Mini-Low-Side channel (even smaller profile :term:`channel <Channel>`) that compliments Low-Side channel. Mini-Low-Side channel is 12mm tall and just 32mm wide, making it great for small structures.
 
 .. figure:: images/gobilda/gobilda_mini_channel.jpg
    :alt: goBILDA mini-low-side channel
