@@ -91,7 +91,7 @@ Cost
 
 :term:`Servos <Servo>` range from cheap $7 :term:`servos <Servo>` for light applications, all the way up to some Hitec or Savox :term:`servos <Servo>` for close to $200.
 
-By far the best bang for your buck :term:`servos <Servo>` out there are going to be **goBILDA dual mode** and **REV SRS** servos. In addition, the **Andymark High Torque/Speed** servo has on paper specifications making it the best bang for your buck servo, but at the time of writing has not been released and tested.
+By far the best bang for your buck :term:`servos <Servo>` out there are going to be **goBILDA dual mode** and **REV SRS** servos. In addition, the **Andymark High Torque/Speed** servos on paper are the best bang for your buck servo, but at the time of writing have not been released and tested.
 
 The biggest downside to the REV SRS are their brass :term:`gears <Gear>`. Coupled with high output power, this meant that stripping :term:`gears <Gear>` with any shock load was commonplace.
 
