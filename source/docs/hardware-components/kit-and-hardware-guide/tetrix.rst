@@ -1,4 +1,4 @@
-Tetrix
+TETRIX
 ======
 
 .. attention::
