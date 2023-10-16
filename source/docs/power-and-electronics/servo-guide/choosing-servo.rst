@@ -108,7 +108,7 @@ The last big player in the :term:`servo <Servo>` market in FTC is Savox, which p
 Recommended Servos
 ------------------
 
-GM0 no longer recommends low priced servos. Due to their low strength, they end up requiring multiple replacements over time, negating any cost benefits.
+We no longer recommend low priced servos. Due to their low strength, they end up requiring multiple replacements over time, negating any cost benefits.
 
 Bang for Your Buck
 ^^^^^^^^^^^^^^^^^^
