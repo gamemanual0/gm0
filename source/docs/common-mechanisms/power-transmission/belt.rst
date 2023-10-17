@@ -94,7 +94,7 @@ Once you know what pitch and length belt you want, purchasing a belt is as simpl
 SDP-SI
 ^^^^^^
 
-SDP-SI is an established mechanical parts vendor that sells a large assortment of COTS belts. To navigate the site, go to the `main belts page <https://www.sdp-si.com/products/details/timing-belt-detail.php>`_, navigate to the correct belt type, then select the option for the correct pitch. 
+SDP-SI is an established mechanical parts vendor that sells a large assortment of COTS belts. To navigate the site, go to the `main belts page <https://www.sdp-si.com/products/details/timing-belt-detail.php>`_, navigate to the correct belt type, then select the option for the correct pitch.
 
 .. important::
     Make sure to select the Single Sided belt type, and not the Timing Belt Stock type. Timing Belt Stock is a long stretch of belt that is not in a loop, whereas Single Sided belts are a loop.
