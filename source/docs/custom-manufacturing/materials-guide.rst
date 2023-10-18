@@ -108,6 +108,8 @@ ABS
 - ABS can be machined using hand tools or CNC. ABS sheets can be also bent using sheet bender (recommended) or a heat gun.
 - Thin (1/16 inch) ABS sheets can also be cut using shears.
 
+.. _materials-guide-delrin:
+
 Delrin
 ^^^^^^
 
@@ -140,6 +142,8 @@ Polyvinyl chloride (PVC)
 - PVC pipe is sometimes used in cable management to run wires through, as it comes in different diameters and can easily be mounted.
 - PVC sheet can be bought or made by cutting vertically along the pipe so that the profile looks like a C. Bake in oven. PVC sheet is pliable yet sturdy, making it a good option for backstops or customizing connectors that require some sort of flex.
 
+.. _materials-guide-acrylic:
+
 Acrylic
 ^^^^^^^
 
@@ -156,6 +160,8 @@ Acrylic
 
 Other
 -----
+
+.. _materials-guide-plywood-and-mdf:
 
 Plywood and MDF
 ^^^^^^^^^^^^^^^
