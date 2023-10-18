@@ -35,17 +35,17 @@ As mentioned above, CO2 lasers â€“ like those commonly available to FTC teams â€
 Wood
 ^^^^
 
-Most thin wood can be easily lasercut and is great for prototypes as well as light-duty parts. For more info see `the material guide <./materials-guide.html#plywood-and-mdf>`__. Please note that some woods - such as MDF - contain glues that release fumes when cut. Oily or resinous woods may also have a heightened risk of catching on fire.
+Most thin wood can be easily lasercut and is great for prototypes as well as light-duty parts. For more info see :ref:`the material guide <materials-guide-plywood-and-mdf>`. Please note that some woods - such as MDF - contain glues that release fumes when cut. Oily or resinous woods may also have a heightened risk of catching on fire.
 
 Acrylic
 ^^^^^^^
 
-Acrylic is a very commonly used material for laser cutting. Due to its tendency to fracture under load, it mainly finds use on FTC bots as decorative plates or as guides to funnel game elements. For more information on using acrylic in FTC, see `the material guide <./materials-guide.html#acrylic>`__.
+Acrylic is a very commonly used material for laser cutting. Due to its tendency to fracture under load, it mainly finds use on FTC bots as decorative plates or as guides to funnel game elements. For more information on using acrylic in FTC, see :ref:`the material guide <materials-guide-acrylic>`.
 
 Delrin
 ^^^^^^
 
-Delrin, also known as acetal, can be safely cut on most CO2 lasers with proper ventilation. Laser cut Delrin can be used to make everything from motor mounts to linear slide inserts to whole drivetrain plates. More information on delrin can be found in `the material guide <./materials-guide.html#delrin>`__.
+Delrin, also known as acetal, can be safely cut on most CO2 lasers with proper ventilation. Laser cut Delrin can be used to make everything from motor mounts to linear slide inserts to whole drivetrain plates. More information on delrin can be found in :ref:`the material guide <materials-guide-delrin>`.
 
 What Can't You Cut?
 -------------------
