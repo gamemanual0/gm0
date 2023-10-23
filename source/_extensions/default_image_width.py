@@ -15,9 +15,17 @@ class DefaultImageWidthTransform(SphinxPostTransform):
     default_priority = 100  # chosen arbitrarily
 
     def run(self, **kwargs: Any) -> None:
-        width = self.app.config["default_image_width"]
+        if self.app.tags.has("html"):
+            width = self.app.config["default_width_html"]
+        elif self.app.tags.has("latex"):
+            width = self.app.config["default_width_latex"]
+        else:
+            return
+
         if not width:
-            raise ValueError("default_image_width must be set!")
+            raise ValueError(
+                "default_image_width_html/default_image_width_latex must be set!"
+            )
 
         for node in self.document.findall(nodes.image):
             if "width" not in node.attributes:
@@ -25,7 +33,8 @@ class DefaultImageWidthTransform(SphinxPostTransform):
 
 
 def setup(app: Sphinx) -> Dict[str, Any]:
-    app.add_config_value("default_image_width", None, True)
+    app.add_config_value("default_image_width_html", None, True)
+    app.add_config_value("default_image_width_latex", None, True)
     app.add_post_transform(DefaultImageWidthTransform)
 
     return {
