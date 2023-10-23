@@ -29,7 +29,7 @@ class DefaultImageWidthTransform(SphinxPostTransform):
 
         for node in self.document.findall(nodes.image):
             if "width" not in node.attributes:
-                node.attributes["width"] = self.app.config["default_image_width"]
+                node.attributes["width"] = width
 
 
 def setup(app: Sphinx) -> Dict[str, Any]:
