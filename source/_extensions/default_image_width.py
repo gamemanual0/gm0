@@ -16,9 +16,9 @@ class DefaultImageWidthTransform(SphinxPostTransform):
 
     def run(self, **kwargs: Any) -> None:
         if self.app.tags.has("html"):
-            width = self.app.config["default_width_html"]
+            width = self.app.config["default_image_width_html"]
         elif self.app.tags.has("latex"):
-            width = self.app.config["default_width_latex"]
+            width = self.app.config["default_image_width_latex"]
         else:
             return
 
