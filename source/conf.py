@@ -6,6 +6,11 @@
 
 import os
 import re
+import sys
+
+# add source directory to sys.path, so that we can load custom extensions
+sys.path.append(os.path.abspath("."))
+sys.path.append(os.path.abspath("./gm0/source"))
 
 # -- Project information -----------------------------------------------------
 
@@ -35,6 +40,12 @@ extensions = [
     "sphinxext.rediraffe",
     "hoverxref.extension"
 ]
+
+local_extensions = [
+    "_extensions.default_image_width"
+]
+
+extensions.extend(local_extensions)
 
 templates_path = ["_templates"]
 source_suffix = ".rst"
@@ -107,6 +118,10 @@ rediraffe_redirects = "redirects.txt"
 
 # Required accuracy for redirect writer
 rediraffe_auto_redirect_perc = 80
+
+# Set the default image width for all outputs.
+# This only applies to images without an explicit width set.
+default_image_width = "25em" if tags.has("html") else "15em"
 
 # -- Options for HTML output -------------------------------------------------
 
