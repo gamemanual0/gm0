@@ -122,7 +122,7 @@ rediraffe_auto_redirect_perc = 80
 # Set the default image width.
 # This only applies to images without an explicit width set.
 default_image_width_html = "25em"
-default_image_width_latex = "15em"
+default_image_width_latex = "20em"
 
 # -- Options for HTML output -------------------------------------------------
 
