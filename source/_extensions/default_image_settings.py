@@ -6,10 +6,10 @@ from sphinx.transforms.post_transforms import SphinxPostTransform
 from sphinx.application import Sphinx
 
 
-class DefaultImageWidthTransform(SphinxPostTransform):
+class DefaultImageSettingsTransform(SphinxPostTransform):
     """
     Set a default image width for images which do not have a width attribute
-    manually set
+    manually set. Also center images which are not centered.
     """
 
     default_priority = 100  # chosen arbitrarily
@@ -31,11 +31,18 @@ class DefaultImageWidthTransform(SphinxPostTransform):
             if "width" not in node.attributes:
                 node.attributes["width"] = width
 
+            if (
+                self.app.config["default_image_centered"]
+                and "align" not in node.attributes
+            ):
+                node.attributes["align"] = "center"
+
 
 def setup(app: Sphinx) -> Dict[str, Any]:
     app.add_config_value("default_image_width_html", None, True)
     app.add_config_value("default_image_width_latex", None, True)
-    app.add_post_transform(DefaultImageWidthTransform)
+    app.add_config_value("default_image_centered", False, True)
+    app.add_post_transform(DefaultImageSettingsTransform)
 
     return {
         "parallel_read_safe": True,

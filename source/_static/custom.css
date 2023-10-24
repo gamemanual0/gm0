@@ -12,15 +12,6 @@ div.ethical-sidebar, div.ethical-footer {
     left: -99999px;
 }
 
-img:not(.graphviz) {
-    /* Change images to be consistent width */
-    width: var(--image-width);
-    /* Center all images so that figures and normal images have consistent styling */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Center caption text in their respective figure */
 div.figure.align-default {
     display: flex;
