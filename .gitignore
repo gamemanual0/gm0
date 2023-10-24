@@ -1,4 +1,5 @@
 pyvenv.cfg
+source/_extensions/__pycache__/
 
 # Adapted from https://www.toptal.com/developers/gitignore/api/python
 # Environments
