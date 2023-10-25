@@ -3,7 +3,7 @@
 Control Systems
 ===============
 
-The FTC control system is based on using Android phones as a “:term:`Robot Controller`” and a “:term:`Driver Station`.” The “:term:`Robot Controller`” phone is mounted on the robot and connected by a USB cable to a special “Hub”, which in turn is connected to motors, servos, and sensors.
+The FTC control system is based on using Android phones as a ":term:`Robot Controller`" and a ":term:`Driver Station`." The ":term:`Robot Controller`" phone is mounted on the robot and connected by a USB cable to a special "Hub", which in turn is connected to motors, servos, and sensors.
 
 The two major manufacturers of control hubs for FTC are Modern Robotics and REV; however, nearly all teams are shifting over to REV because it is cheaper, simpler, and more reliable.
 
@@ -25,7 +25,7 @@ RC Phone + REV Expansion Hub(s)
 
 This is the standard control system for teams starting out in FTC. The REV Expansion Hub is reliable, as long as proper strain relief and wiring is carried out. This includes the :term:`USB Retention Mount`, as well as 3D printing :term:`XT30` stress relief mounts.
 
-The Expansion Hub connects to the :term:`Robot Controller` phone through the mini USB port, and the :term:`RC <Robot Controller>` phone is linked to the DS (:term:`Driver Station`) phone through WiFi Direct. For more information on setting up the Expansion Hub and configuring the robot, head to `REV Robotics’ Technical Resources Expansion Hub Guide <https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_.
+The Expansion Hub connects to the :term:`Robot Controller` phone through the mini USB port, and the :term:`RC <Robot Controller>` phone is linked to the DS (:term:`Driver Station`) phone through WiFi Direct. For more information on setting up the Expansion Hub and configuring the robot, head to `REV Robotics' Technical Resources Expansion Hub Guide <https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_.
 
 - `USB Retention Mount <https://www.revrobotics.com/rev-41-1214/>`_
 - `XT30 Stress Relief <https://www.thingiverse.com/thing:2887045>`_

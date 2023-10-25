@@ -97,7 +97,7 @@ Kit Glossary
          REV Pillow Block
 
    Churro
-      Churro is a 1/2" or 3/8” hex product sold by AndyMark. It has a bore that is easily tapped to accommodate 1/4-20 and 1/4-28 bolts, and is commonly used as a large :term:`standoff <Standoff>`. It is light and cheap compared to other hex products.
+      Churro is a 1/2" or 3/8" hex product sold by AndyMark. It has a bore that is easily tapped to accommodate 1/4-20 and 1/4-28 bolts, and is commonly used as a large :term:`standoff <Standoff>`. It is light and cheap compared to other hex products.
 
       .. warning:: Using churro as :term:`shaft <Shaft>` is highly discouraged, as it is slightly undersized as well as prone to twisting.
 
@@ -106,7 +106,7 @@ Kit Glossary
          :width: 200
 
    Set Screw
-      A set screw is generally a hex socket screw that is used to fasten parts such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` to a :term:`shaft <Shaft>`, or to fix a shaft in place so that it doesn’t move around. Due to the hex socket, allen keys must be used to tighten and loosen set screws.
+      A set screw is generally a hex socket screw that is used to fasten parts such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` to a :term:`shaft <Shaft>`, or to fix a shaft in place so that it doesn't move around. Due to the hex socket, allen keys must be used to tighten and loosen set screws.
 
       .. warning:: **Set screws are not recommended for drivetrain and high-load applications** since there is very little surface area in contact with the shaft (only the tip of the screw). This makes the set screw likely to damage the shaft. Therefore, set screws can become loose very easily.
 
@@ -128,7 +128,7 @@ Kit Glossary
    Bore
       The bore refers to the shape of the opening that the shaft is inserted into. For example, the bore for a 5 mm hex :term:`shaft <Shaft>` is the hexagonal shape.
 
-      “Stripping the bore” means that over time, the bore will lose its hexagonal shape, and become close to a circular shape, rendering the bore (and subsequently, the part it is on) useless.
+      "Stripping the bore" means that over time, the bore will lose its hexagonal shape, and become close to a circular shape, rendering the bore (and subsequently, the part it is on) useless.
 
       .. image:: images/glossary/hex-bore.png
          :alt: A bearing with a hex bore

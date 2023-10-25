@@ -30,7 +30,7 @@ Verdict
 
 .. note:: One advantage to the REV kit is the compatibility of 15x15mm MiSUMI :term:`extrusion <Extrusion>`.
 
-15x15mm REV :term:`extrusion <Extrusion>` isn’t as structurally strong as MiSUMI for two reasons.
+15x15mm REV :term:`extrusion <Extrusion>` isn't as structurally strong as MiSUMI for two reasons.
 
 1. REV extrusion is 6063 aluminum, while MiSUMI :term:`extrusion <Extrusion>` is made out of A6N01SS-T5 aluminum, a stronger and stiffer alloy.
 
@@ -66,7 +66,7 @@ Kit of Parts
 Advantages
 ----------
 
-- :term:`Extrusion` systems don’t need to worry about
+- :term:`Extrusion` systems don't need to worry about
   tensioning as mounts are adjustable to your needs.
 - :term:`Extrusion` allows teams to save space as opposed
   to :term:`channel <Channel>`, and is lighter than aluminum
@@ -74,7 +74,7 @@ Advantages
 - :term:`Extrusion` allows infinite positioning options instead of being locked in to a specific distance - useful for fine-tuning a mechanism.
 - Delrin products are inexpensive yet durable for most use cases.
 - REV has the option to upgrade to aluminum parts if need be - something that no other build system offers. (not for all parts)
-- 5 mm hex is a robust :term:`shaft <Shaft>` and motion system and is easily adaptable to :term:`UltraHex` 1/2” hex :term:`shaft <Shaft>`. Other companies have adapting options with 5 mm hex.
+- 5 mm hex is a robust :term:`shaft <Shaft>` and motion system and is easily adaptable to :term:`UltraHex` 1/2" hex :term:`shaft <Shaft>`. Other companies have adapting options with 5 mm hex.
 - Punch Tubing is a great final iteration option if you are sure about placement.
 - :term:`Channel` complements extrusion extremely well - having the adjustability of extrusion and the rigidity of channel makes it a very solid build system.
 - Generally, REV products are designed with affordability in mind, and so the components are of good value for money.

@@ -30,7 +30,7 @@ These combine beams from multiple laser diodes into a fiber optic cable and can 
 What Can You Cut?
 -----------------
 
-As mentioned above, CO2 lasers – like those commonly available to FTC teams – can cut wood and some plastics. Some of the most useful materials you can cut with a CO2 laser in the 40 watt range are:
+As mentioned above, CO2 lasers---like those commonly available to FTC teams---can cut wood and some plastics. Some of the most useful materials you can cut with a CO2 laser in the 40 watt range are:
 
 Wood
 ^^^^
@@ -70,7 +70,7 @@ These will both melt instead of cutting cleanly.
 Any unknown plastic
 ^^^^^^^^^^^^^^^^^^^
 
-If you don’t know what a plastic is, don’t take the risk of cutting it. It could potentially burn or release toxic gasses. Be careful, as some different plastics, such as acrylic and polycarbonate, can resemble each other.
+If you don't know what a plastic is, don't take the risk of cutting it. It could potentially burn or release toxic gasses. Be careful, as some different plastics, such as acrylic and polycarbonate, can resemble each other.
 
 .. warning:: This is not an exhaustive list and you should always research materials to ensure they will be safe before cutting them.
 

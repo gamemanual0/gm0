@@ -70,7 +70,7 @@ Encoders
       Encoder
          An encoder refers to a device that tracks (generally) rotational movement around an axis.
 
-         There are both absolute and relative encoders. An absolute encoder will report at exactly what angle the shaft is compared to its absolute “zero”. A relative encoder will report how far the :term:`shaft <Shaft>` has rotated since it started tracking (for example, when autonomous starts). Relative encoders will have a quadrature output, whereas absolute encoders generally have analog or i2c outputs.
+         There are both absolute and relative encoders. An absolute encoder will report at exactly what angle the shaft is compared to its absolute "zero". A relative encoder will report how far the :term:`shaft <Shaft>` has rotated since it started tracking (for example, when autonomous starts). Relative encoders will have a quadrature output, whereas absolute encoders generally have analog or i2c outputs.
 
          Encoders are used to help find the position of where the robot, or one of its mechanisms, is.
 
@@ -94,9 +94,9 @@ After instantiating a ``Servo``, there are two main functions that can be called
    releaseServo.setPosition(0.75);
    telemetry.addData("Release Servo Target", releaseServo.getPosition());
 
-``setPosition()`` sets the position of the :term:`servo <Servo>`. The SDK will use a built-in control loop with the :term:`servo’s <Servo>` potentiometer to drive the :term:`servo <Servo>` to that position and hold that position. ``setPosition()`` takes in a double between 0 and 1, where 0 is the :term:`servo’s <Servo>` lower limit of rotation and 1 is the :term:`servo’s <Servo>` upper limit of rotation. Everything between is directly proportional, so 0.5 is the middle, 0.75 is 3/4 the way up, etc.
+``setPosition()`` sets the position of the :term:`servo <Servo>`. The SDK will use a built-in control loop with the :term:`servo's <Servo>` potentiometer to drive the :term:`servo <Servo>` to that position and hold that position. ``setPosition()`` takes in a double between 0 and 1, where 0 is the :term:`servo's <Servo>` lower limit of rotation and 1 is the :term:`servo's <Servo>` upper limit of rotation. Everything between is directly proportional, so 0.5 is the middle, 0.75 is 3/4 the way up, etc.
 
-``getPosition()`` does not return the :term:`servo’s <Servo>` current position, rather its current target position. If a variable for the :term:`servo’s <Servo>` current target position is stored properly, this function should never be needed.
+``getPosition()`` does not return the :term:`servo's <Servo>` current position, rather its current target position. If a variable for the :term:`servo's <Servo>` current target position is stored properly, this function should never be needed.
 
 Continuous Rotation Servo
 ~~~~~~~~~~~~~~~~~~~~~~~~~

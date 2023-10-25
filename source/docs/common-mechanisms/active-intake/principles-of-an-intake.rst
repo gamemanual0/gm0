@@ -12,7 +12,7 @@ Reliability
 
   There are two ways to accomplish this - either by building the intake very robustly (lots of support so it doesn't break), or making the intake flexible (for example out of lexan or spring loading it) so that even though it may bend due to impacts, it will always spring back into place.
 
-  Another way to prevent intake breaking is to make a fully retractable intake that won’t protrude outside the 18” cube, though this is seldom needed.
+  Another way to prevent intake breaking is to make a fully retractable intake that won't protrude outside the 18" cube, though this is seldom needed.
 
 Consistency
 -----------
@@ -21,7 +21,7 @@ Consistency
 
   .. attention:: This is a common mistake that many inexperienced teams fail to take into account.
 
-- Another component is the varying angles that the game objects can be located in. This was especially apparent in the Relic Recovery season, where the “glyphs” (foam cubes) could be oriented in many directions.
+- Another component is the varying angles that the game objects can be located in. This was especially apparent in the Relic Recovery season, where the "glyphs" (foam cubes) could be oriented in many directions.
 
   Even though it was relatively easy to make a compliant wheel intake that could effectively intake glyphs in one direction, it was hard to make an intake that could deal with angled glyphs. Being able to intake glyphs in all orientations was especially important for multi-glyph autonomous modes.
 

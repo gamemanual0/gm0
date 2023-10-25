@@ -3,7 +3,7 @@
 Drivetrains
 ===========
 
-This section will cover the heart of any robot, the drivetrain. The purpose of the drivetrain is to facilitate the movement of the robot, and thus is crucial to the overall function of the robot. If the drivetrain doesn’t work, the rest of the robot won’t work either. There are many possible types of drivetrains in FTC, which we have covered in the guide. Drivetrains are split into two main types: tank (skid-steer) and holonomic.
+This section will cover the heart of any robot, the drivetrain. The purpose of the drivetrain is to facilitate the movement of the robot, and thus is crucial to the overall function of the robot. If the drivetrain doesn't work, the rest of the robot won't work either. There are many possible types of drivetrains in FTC, which we have covered in the guide. Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
 Drivetrain types
 ----------------
@@ -27,7 +27,7 @@ When building any mechanism, teams must list out some necessities or desired fea
 
 2. **Agility**: There are many factors to agility: top speed, acceleration, turning radius, turn speed, and ability to strafe. Note that turning radius is an often overlooked feature that is critical to the overall agility of the drivetrain. Generally, a solid drivetrain should have a free speed (speed under no load) in the range of 4.5-6 feet/second.
 
-3. **Number of motors and gear ratio**: Generally, new teams may try to use only two motors on the drivetrain. While this is possible, it is not recommended, as all competitive teams use 4+ motors on the drivetrain. Another issue stemming from experience is that most teams’ drivetrains are too slow. More advanced teams may focus on the ability to play :term:`defense <Defense>`, but in general, maneuverability and speed are the main factors to a successful drivetrain.
+3. **Number of motors and gear ratio**: Generally, new teams may try to use only two motors on the drivetrain. While this is possible, it is not recommended, as all competitive teams use 4+ motors on the drivetrain. Another issue stemming from experience is that most teams' drivetrains are too slow. More advanced teams may focus on the ability to play :term:`defense <Defense>`, but in general, maneuverability and speed are the main factors to a successful drivetrain.
 
    60:1 and 40:1 motors are **almost always too slow for FTC drivetrain use cases**. Any gear ratio between 16:1 and 20:1 is perfectly reasonable on 4 inch wheels. 19.2:1 on 4 inch wheels is a popular choice because it enables one to go 1 to 1 off of a 19.2:1 planetary motor. This ratio gives a great balance, having near instant acceleration and a high top speed.
 
@@ -37,7 +37,7 @@ When building any mechanism, teams must list out some necessities or desired fea
 
    .. warning:: It is not recommended for teams to use spur gearboxes on their drivetrain. Instead, use planetary gearboxes, as they are less prone to shock loads and breakage.
 
-4. **Traction/Pushing Power**: While this feature is often overemphasized, it is still very important. Pushing power describes a drivetrain’s ability to endure defense/engage in defense. In addition, traction will be important if the drivetrain must traverse obstacles or some sort of terrain.
+4. **Traction/Pushing Power**: While this feature is often overemphasized, it is still very important. Pushing power describes a drivetrain's ability to endure defense/engage in defense. In addition, traction will be important if the drivetrain must traverse obstacles or some sort of terrain.
    Many factors affect the pushing power of a drivetrain, including wheel type,
    motor gearing, and overall weight of the robot.
 
@@ -84,7 +84,7 @@ Glossary
 
       Furthermore, X-drive utilizes four omni wheels, though traction is at a minimum.
 
-      A mecanum wheel is *technically* an omnidirectional wheel, but when generally referred to, an “omni wheel” has rollers rotated 90 degrees to the rotation of the wheel, where a mecanum wheel is generally 45 degrees.
+      A mecanum wheel is *technically* an omnidirectional wheel, but when generally referred to, an "omni wheel" has rollers rotated 90 degrees to the rotation of the wheel, where a mecanum wheel is generally 45 degrees.
 
       .. image:: images/rev-omni-wheel.png
          :alt: A REV Robotics omni wheel

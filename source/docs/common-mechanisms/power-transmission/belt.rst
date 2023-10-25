@@ -1,7 +1,7 @@
 Timing Belt
 ===========
 
-When you think of a belt, you’re probably thinking of a very important men’s fashion accessory. However, there’s another type of belt, and it’s way more relevant to robotics - the timing belt. If you’ve ever tinkered with the insides of a car before, you probably recognize timing belts as an important component designed to keep everything under the hood in sync.
+When you think of a belt, you're probably thinking of a very important men's fashion accessory. However, there's another type of belt, and it's way more relevant to robotics - the timing belt. If you've ever tinkered with the insides of a car before, you probably recognize timing belts as an important component designed to keep everything under the hood in sync.
 
 .. admonition:: Term
 
@@ -15,7 +15,7 @@ When you think of a belt, you’re probably thinking of a very important men’s
 
             Timing belts and a pulley
 
-While a timing belt may complete a similar objective to :term:`chain <Sprocket>`, its characteristics and strengths are very different. Timing belts are lighter and more compact than chains, but they lack the customizability of their bulkier brother - belts come in a closed loop of predetermined length, and there’s no changing that length on the fly.
+While a timing belt may complete a similar objective to :term:`chain <Sprocket>`, its characteristics and strengths are very different. Timing belts are lighter and more compact than chains, but they lack the customizability of their bulkier brother - belts come in a closed loop of predetermined length, and there's no changing that length on the fly.
 
 Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches found on FTC robots include HTD 5mm, HTD 3mm, and GT2 3mm.
 
@@ -46,7 +46,7 @@ SDP-SI has a `more advanced calculator <https://sdp-si.com/tools/center-distance
 Belt Wrap
 ---------
 
-**Belt should, at the very least, have 90° of contact with the pulley. The best practice is to have 180° or more of contact**, as it is very unlikely to fall off with proper tensioning. Belt skipping, especially on drivetrains or arms, is very possible without proper belt wrap or tensioning. When tensioning belt, be sure to not undertension or overtension it. Undertensioning belt can result in the belt falling off the pulley or belt skipping, where the belt can skip along the pulley. Overtensioning belt often results in the motor burning out, or less seriously, a loss of efficiency. Push along the belt, and if it moves slightly without significant resistance, chances are you’ve done it correctly. If it’s too tight, then the belt will barely move under a gentle press.
+**Belt should, at the very least, have 90° of contact with the pulley. The best practice is to have 180° or more of contact**, as it is very unlikely to fall off with proper tensioning. Belt skipping, especially on drivetrains or arms, is very possible without proper belt wrap or tensioning. When tensioning belt, be sure to not undertension or overtension it. Undertensioning belt can result in the belt falling off the pulley or belt skipping, where the belt can skip along the pulley. Overtensioning belt often results in the motor burning out, or less seriously, a loss of efficiency. Push along the belt, and if it moves slightly without significant resistance, chances are you've done it correctly. If it's too tight, then the belt will barely move under a gentle press.
 
 Best practices for wrap
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -65,16 +65,16 @@ Advantages:
 -----------
 
 - **Pulleys can be made at home**. Pulleys can be 3D printed for most situations, allowing you to cut costs and create unique tooth counts easily.
-- **Belts are very strong**. They’re reinforced with fiberglass cords that are incredibly hard to break, giving belts immense strength. (*If you break a belt, it’s most likely because it was out of alignment or tensioned far too tightly*.)
-- **When tensioned correctly, there is absolutely no slop**. Engines use timing belt for a reason - because it’s the best possible solution for them to perfectly synchronize their shafts. There’s nothing that matches the rotational accuracy of a properly tensioned belt.
-- **Belts are efficient and quiet**. Compared to the loud shredding sound of a chain run, belt runs are dead silent, and they’re more efficient than chains (although this makes zero practical impact in the robotics use case).
+- **Belts are very strong**. They're reinforced with fiberglass cords that are incredibly hard to break, giving belts immense strength. (*If you break a belt, it's most likely because it was out of alignment or tensioned far too tightly*.)
+- **When tensioned correctly, there is absolutely no slop**. Engines use timing belt for a reason - because it's the best possible solution for them to perfectly synchronize their shafts. There's nothing that matches the rotational accuracy of a properly tensioned belt.
+- **Belts are efficient and quiet**. Compared to the loud shredding sound of a chain run, belt runs are dead silent, and they're more efficient than chains (although this makes zero practical impact in the robotics use case).
 
 Disadvantages:
 --------------
 
-- **Belts aren’t customizable**. You buy a belt of a specific length and you’re stuck with that length until you buy another one. This isn’t too bad if you’re planning out your robot properly, but chain will work better for prototypes where the chain length will be changing often.
-- **Belts can be wider than alternatives (especially chain)**. This probably won’t have much of an impact, but belt can often be wider than other power transmission methods, so it may not always fit.
-- **Belts can be expensive (but you’ll save money with pulleys)**. While you can buy chain 10 feet at a time, you’ll most likely be buying each belt brand new. While this can get expensive, you’ll be saving money on pulleys.
+- **Belts aren't customizable**. You buy a belt of a specific length and you're stuck with that length until you buy another one. This isn't too bad if you're planning out your robot properly, but chain will work better for prototypes where the chain length will be changing often.
+- **Belts can be wider than alternatives (especially chain)**. This probably won't have much of an impact, but belt can often be wider than other power transmission methods, so it may not always fit.
+- **Belts can be expensive (but you'll save money with pulleys)**. While you can buy chain 10 feet at a time, you'll most likely be buying each belt brand new. While this can get expensive, you'll be saving money on pulleys.
 
 .. figure:: images/belt/belt-wrap-2.png
    :alt: Properly done belt wrap with tensioners

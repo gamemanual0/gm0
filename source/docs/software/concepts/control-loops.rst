@@ -10,7 +10,7 @@ What is Error?
 
 The first thing that must be defined when discussing control loops is the concept of error.
 
-Error is defined as the difference between where you are and where you want to be. For instance, say you tell your drivetrain to drive at 30 inches per second, but in actuality, at a time, the drivetrain is driving at 28 inches per second. Since :math:`30-28=2`, the error of the drivetrain’s speed at this time :math:`T` is 2 inches per second. In other words, at a time :math:`t=T`, :math:`e(t)=2`.
+Error is defined as the difference between where you are and where you want to be. For instance, say you tell your drivetrain to drive at 30 inches per second, but in actuality, at a time, the drivetrain is driving at 28 inches per second. Since :math:`30-28=2`, the error of the drivetrain's speed at this time :math:`T` is 2 inches per second. In other words, at a time :math:`t=T`, :math:`e(t)=2`.
 
 PID
 ---
@@ -26,7 +26,7 @@ The following equation represents the rigorous mathematical definition of the ou
 
 where :math:`K_p`, :math:`K_i`, and :math:`K_d` are constants and :math:`e(t)`, as previously mentioned, is the error in the system.
 
-If you have no experience with calculus, don’t worry; while PID is fundamentally rooted in calculus, you do not need any calculus experience to be able to understand it, only basic algebra. However, you are still urged to read the rest of the section regardless of calculus experience, as the formula alone doesn’t tell you why it works.
+If you have no experience with calculus, don't worry; while PID is fundamentally rooted in calculus, you do not need any calculus experience to be able to understand it, only basic algebra. However, you are still urged to read the rest of the section regardless of calculus experience, as the formula alone doesn't tell you why it works.
 
 Simplification of the PID formula
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -38,11 +38,11 @@ All we have done is simply take the full formula and replaced part of the terms 
 The Proportional Term
 ^^^^^^^^^^^^^^^^^^^^^
 
-The first component of the function, :math:`K_p P(t)`, is by far the most simple and easy to understand, as :math:`P(t) = e(t)`. For the sake of example, let’s pretend that :math:`K_i=0` and :math:`K_d=0` (a PID controller with only a proportional constant is known as a **P controller**). How will the system behave? Well, if the error is large, the output will be large. Likewise, if the error is small, the output will be small. Also, ideally, given enough time, the system always approaches its destination, assuming :math:`K_p` is of the correct sign.
+The first component of the function, :math:`K_p P(t)`, is by far the most simple and easy to understand, as :math:`P(t) = e(t)`. For the sake of example, let's pretend that :math:`K_i=0` and :math:`K_d=0` (a PID controller with only a proportional constant is known as a **P controller**). How will the system behave? Well, if the error is large, the output will be large. Likewise, if the error is small, the output will be small. Also, ideally, given enough time, the system always approaches its destination, assuming :math:`K_p` is of the correct sign.
 
-Say we apply this to a drivetrain. You want to drive a distance :math:`D`, and you decide to set your motor powers using a P controller to accomplish this. In this case, your error is how far away the robot is from the desired location. As you start to drive forward, your error is large, so you drive forward quickly, which is desirable. After all, you aren’t concerned with overshooting the target yet if you are far away from it.
+Say we apply this to a drivetrain. You want to drive a distance :math:`D`, and you decide to set your motor powers using a P controller to accomplish this. In this case, your error is how far away the robot is from the desired location. As you start to drive forward, your error is large, so you drive forward quickly, which is desirable. After all, you aren't concerned with overshooting the target yet if you are far away from it.
 
-But as the robot’s distance to the target approaches 0, you will start to slow down, gaining more control over the robot. Once the error is zero, ideally, the robot will stop, and you have reached your destination. If you happen to overshoot, the error will become negative, and the robot will backtrack, repeating the process.
+But as the robot's distance to the target approaches 0, you will start to slow down, gaining more control over the robot. Once the error is zero, ideally, the robot will stop, and you have reached your destination. If you happen to overshoot, the error will become negative, and the robot will backtrack, repeating the process.
 
 The Derivative Term
 ^^^^^^^^^^^^^^^^^^^
@@ -62,9 +62,9 @@ However, it can still be useful in some cases. Just like the derivative term, th
 
 To explain without calculus, the integral term essentially sums the error over a specific interval of time. To do this, error in each loop iteration is added to a variable (in this case, :math:`I(t)`).
 
-However, summing error this way has an unfortunate side effect: the longer the loop takes to complete one iteration, the more slowly this sum increases, which is obviously not desirable, as we don’t want lag to affect how the robot moves. To compensate for this, before the error is added to :math:`I(t)`, it is multiplied by how long the previous loop took to-complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum more slowly.
+However, summing error this way has an unfortunate side effect: the longer the loop takes to complete one iteration, the more slowly this sum increases, which is obviously not desirable, as we don't want lag to affect how the robot moves. To compensate for this, before the error is added to :math:`I(t)`, it is multiplied by how long the previous loop took to-complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum more slowly.
 
-So say the robot stops short of the target. The P and D combination aren’t strong enough to move it forward to the destination. You can either tune :math:`K_p` and :math:`K_d` to compensate (**this is recommended**), or you can add the integral term to increase output (**this works too, but requires more attention and tuning to achieve the same result**).
+So say the robot stops short of the target. The P and D combination aren't strong enough to move it forward to the destination. You can either tune :math:`K_p` and :math:`K_d` to compensate (**this is recommended**), or you can add the integral term to increase output (**this works too, but requires more attention and tuning to achieve the same result**).
 
 PID Pseudocode
 ^^^^^^^^^^^^^^
@@ -211,7 +211,7 @@ Motion Profiles
 
 Motion profiling is a technique popularized in FRC\ |reg| that is starting to find its way to FTC. A motion profile is a function used to change the speed of a power transmission system in a controlled and consistent way by changing desired speed gradually rather than instantaneously.
 
-Let’s illustrate this with an example: say you want your drivetrain, which is initially unmoving, to drive forward at full speed. Ordinarily, you would set all drivetrain motors to full power in the code. However, this can be problematic because even though you tell the motors to move at full speed instantaneously, the drivetrain takes time to get to full speed. This can lead to uncontrolled movements which have the potential to make autonomous less consistent and, perhaps more importantly, damage mechanisms.
+Let's illustrate this with an example: say you want your drivetrain, which is initially unmoving, to drive forward at full speed. Ordinarily, you would set all drivetrain motors to full power in the code. However, this can be problematic because even though you tell the motors to move at full speed instantaneously, the drivetrain takes time to get to full speed. This can lead to uncontrolled movements which have the potential to make autonomous less consistent and, perhaps more importantly, damage mechanisms.
 
 Motion profiling attempts to solve this issue.
 
@@ -233,7 +233,7 @@ Trapezoidal profiles get their name from the shape of the graph of velocity over
 .. figure:: images/control-loops/trapezoidal-motion-profiling-graph.png
    :alt: The position over time, velocity over time, and acceleration over time graphs for a trapezoidal motion profile
 
-   These are the “magic functions” for velocity and acceleration over time alluded to in the feedforward section.
+   These are the "magic functions" for velocity and acceleration over time alluded to in the feedforward section.
 
 Here is some pseudocode for a trapezoidal profile:
 

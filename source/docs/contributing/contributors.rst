@@ -3,7 +3,7 @@
 Contributors
 ============
 
-|gm0| would not have been possible without the many contributors who have sacrificed their precious freetime (or merely found another excuse to procrastinate their work). I am especially grateful to Ben and Abi for helping port over |gm0| to Copperforge, and for all those who have continued to add and revise |gm0| during the busy school year. |gm0| had been my dream for quite some time, and as an alum tremendously grateful for all that *FIRST*\ |reg| has taught me, I wanted to create |gm0| to preserve and spread the knowledge base that might have been lost with the FTC class of 2019 and beyond. For this reason, I wanted to recognize all the contributors who have helped to make |gm0| a great resource for *FIRST*\ |reg| Tech Challenge teams. Feel free to contact any of the names listed below via the email (gamemanual0@gmail.com) or through the other contact emails - I’m sure that they would be more than willing to help you out!
+|gm0| would not have been possible without the many contributors who have sacrificed their precious freetime (or merely found another excuse to procrastinate their work). I am especially grateful to Ben and Abi for helping port over |gm0| to Copperforge, and for all those who have continued to add and revise |gm0| during the busy school year. |gm0| had been my dream for quite some time, and as an alum tremendously grateful for all that *FIRST*\ |reg| has taught me, I wanted to create |gm0| to preserve and spread the knowledge base that might have been lost with the FTC class of 2019 and beyond. For this reason, I wanted to recognize all the contributors who have helped to make |gm0| a great resource for *FIRST*\ |reg| Tech Challenge teams. Feel free to contact any of the names listed below via the email (gamemanual0@gmail.com) or through the other contact emails - I'm sure that they would be more than willing to help you out!
 
 **Kleptomaniac**
 
@@ -29,7 +29,7 @@ Other Contributors
 - David - FTC 7236 Recharged Green
 - David - FTC 8680 Kraken Pinion
 - Dom - FTC 15692 Rust in Pieces
-- Eric - FTC Alum - 8417 ‘Lectric Legends
+- Eric - FTC Alum - 8417 'Lectric Legends
 - Ethan - FTC 7236 Recharged Green - goBILDA
 - Frank - FTC 8581 Aedificatores
 - Frank - FTC 8581 Aedificatores
@@ -43,7 +43,7 @@ Other Contributors
 - Kelvin - FTC 731 Wannabee Strange
 - Keval - FTC 731 Wannabee Strange/FTC 10195 Night Owls
 - Kevin - FTC 9048 Philobots
-- Nate - FTC 12897 Newton’s Law of Mass
+- Nate - FTC 12897 Newton's Law of Mass
 - Navya - FTC 7149 ENFORCERS
 - Neo - FTC 6710 Sigmas
 - Peter - FTC 12533 Inception
@@ -52,7 +52,7 @@ Other Contributors
 - Tom - FTC 3736 Serious Business
 - Tyler - FRC\ |reg| 3184 Blaze Robotics
 - Wes - FTC 3658 Bosons
-- Whimsy - FTC 8417 ‘Lectric Legends
+- Whimsy - FTC 8417 'Lectric Legends
 
 Hosting
 -------

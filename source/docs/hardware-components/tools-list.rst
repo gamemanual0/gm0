@@ -6,11 +6,11 @@ Here are a selection of necessary and useful tools for your team. You'll obvious
 Necessary
 ---------
 
-- **Safety glasses. Wear them when you’re using power tools. Seriously.**
+- **Safety glasses. Wear them when you're using power tools. Seriously.**
 - Philips screwdrivers, assorted sizes
 - Hex drivers and hex L-keys
-   - 7/64” hex (Actobotics and TETRIX)
-   - 3/32”, ball head for set screws is discouraged (TETRIX)
+   - 7/64" hex (Actobotics and TETRIX)
+   - 3/32", ball head for set screws is discouraged (TETRIX)
    - 2.5/3mm hex (goBILDA)
 - Nut drivers and wrenches
    - 5.5 mm hex nut driver/wrench (REV)

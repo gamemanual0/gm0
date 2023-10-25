@@ -52,7 +52,7 @@ Some teams will put all four traction wheels or use all four omni wheels. It is 
       Wheel scrub
          Wheel scrub refers to friction between the side of the wheel and the floor tile. It inhibits turning as the drivetrain must overcome this frictional force in order to turn the robot. Wheel scrub is most common on 4 or 6 wheel tank drivetrains that do not have a :term:`center drop <Drop Center>`.
 
-However, this advantage comes with a major loss of traction. For these reasons, many teams choose to use two traction wheels and two omni wheels for a balance between quick turning and traction. The primary advantage of this drivetrain over other tank drivetrains is its ability to easily move across raised terrain when the bot’s center is raised above the terrain.
+However, this advantage comes with a major loss of traction. For these reasons, many teams choose to use two traction wheels and two omni wheels for a balance between quick turning and traction. The primary advantage of this drivetrain over other tank drivetrains is its ability to easily move across raised terrain when the bot's center is raised above the terrain.
 
 It is suggested that a four wheel drivetrain be close to, or exactly, a square. Otherwise, one may encounter problems turning.
 
@@ -139,7 +139,7 @@ A 6 wheel drivetrain is a common competitive drivetrain in FTC for multiple reas
    .. glossary::
 
       **Drop Center**
-         A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly below the other two wheels. The drop should be anywhere from more than 1/16” up to 1/4”. However, the recommended drop is around 1/8”. Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots (>25 lbs.) perform slightly better with more than 1/8” drop.
+         A drop center 6WD is a 6 wheel drive with the center wheel mounted slightly below the other two wheels. The drop should be anywhere from more than 1/16" up to 1/4". However, the recommended drop is around 1/8". Typically, lighter robots (<25 lbs.) can have less drop, while heavier robots (>25 lbs.) perform slightly better with more than 1/8" drop.
 
          The purpose of dropping the middle wheel is to ensure that only 4 wheels are in contact with the ground at all times. This is because turning with 6 wheels on the ground introduces lots of friction, making it very difficult to turn quickly. Note that the **required drop may vary depending on both field condition and weight of the overall robot**.
 
@@ -257,7 +257,7 @@ Tread Drive
 
 Tread drive is the use of tank treads or wide belts to power movement, much like a real life tank. Unfortunately, in FTC, it is not a competitive drivetrain for a number of reasons.
 
-Tread is complex, and has many points of failure. Treads are also very prone to defense, and a slight hit from another robot is enough to misalign the treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren’t great either - TETRIX tracks have a tendency to snap and derail when used on robot drivetrains, making them not suitable for competition use.
+Tread is complex, and has many points of failure. Treads are also very prone to defense, and a slight hit from another robot is enough to misalign the treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren't great either - TETRIX tracks have a tendency to snap and derail when used on robot drivetrains, making them not suitable for competition use.
 
 While it is possible to implement tread drive successfully, such as in the example below, most inexperienced teams do not have the capability and know-how to do so. Tread drive has negligible traction improvements at the cost of maneuverability. There are better options to traverse terrain, such as a 4WD.
 

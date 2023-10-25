@@ -1,7 +1,7 @@
 Fundamental Concepts of Programming
 ===================================
 
-For almost any programming language, whether it’s Java, Python, or Blocks, there are concepts in coding that transfer across languages. These ideas are foundational when learning to program and should be applicable in FTC and beyond.
+For almost any programming language, whether it's Java, Python, or Blocks, there are concepts in coding that transfer across languages. These ideas are foundational when learning to program and should be applicable in FTC and beyond.
 
 This section is primarily for people with limited Java experience. However, even if you are more experienced, it may still be helpful to skim through the section, as you might find concepts that have not yet been introduced to you.
 
@@ -20,7 +20,7 @@ Examples will mostly be in Java, where ``//`` indicates a comment which the prog
 Java-Specific Exploratory Questions
 -----------------------------------
 
-- If I didn’t set a value for number and then I printed it, what would it print?
+- If I didn't set a value for number and then I printed it, what would it print?
 - What other operations can I do with number and secondNumber?
 - Can I set a decimal to number? If not, what happens?
 - What is ``System.out.println();``?

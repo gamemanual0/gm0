@@ -1,18 +1,18 @@
 Pitching Your Team
 ==================
 
-Reaching out and getting attention is hard. Here’s some tips on how to sell your team!
+Reaching out and getting attention is hard. Here's some tips on how to sell your team!
 
 Types of Pitches
 ----------------
 
-As part of outreach, you’ll generally be pitching some form of idea to some person or organization. Here’s a couple examples of different pitch structures:
+As part of outreach, you'll generally be pitching some form of idea to some person or organization. Here's a couple examples of different pitch structures:
 
 .. tab-set::
 
    .. tab-item:: Cold Call
 
-      This is probably the most common type of pitch you’ll make. Cold calling involves reaching out to someone unprompted, and can take the form of an email or phone call.
+      This is probably the most common type of pitch you'll make. Cold calling involves reaching out to someone unprompted, and can take the form of an email or phone call.
 
    .. tab-item:: "Startup"
 
@@ -24,7 +24,7 @@ As part of outreach, you’ll generally be pitching some form of idea to some pe
 
    .. tab-item:: Social Media
 
-      This is a social media post designed to promote something - be it your recruitment campaign, an event you’re holding, or a fundraiser. Your pitch should be short and pop on whatever design you build around it.
+      This is a social media post designed to promote something - be it your recruitment campaign, an event you're holding, or a fundraiser. Your pitch should be short and pop on whatever design you build around it.
 
    .. tab-item:: Follow Up
 
@@ -38,15 +38,15 @@ Your pitch should utilize rhetorical and psychological techniques to convince yo
 Rhetorical Techniques
 ^^^^^^^^^^^^^^^^^^^^^
 
-There are 3 main rhetorical appeals: pathos, ethos, and logos. Pathos "tugs on the heartstrings" of someone’s emotions. Ethos is the idea of "social credibility" and leverages a speaker’s authority. Logos relates to ideas of logic, reasoning, and analysis. When creating a pitch, you will use all 3 of these appeals to persuade your listener effectively.
+There are 3 main rhetorical appeals: pathos, ethos, and logos. Pathos "tugs on the heartstrings" of someone's emotions. Ethos is the idea of "social credibility" and leverages a speaker's authority. Logos relates to ideas of logic, reasoning, and analysis. When creating a pitch, you will use all 3 of these appeals to persuade your listener effectively.
 
-Here’s a brief example of a fundraising email that utilizes these 3 appeals:
+Here's a brief example of a fundraising email that utilizes these 3 appeals:
 
    Dear Company Name,
 
    We are FIRST Tech Challenge Robotics Team #XXXX, representing Our School or Organization. Our team competes against 6,500 teams worldwide, and after a hard-fought season from September to now, was selected to represent our region at the FIRST World Championship and compete alongside 191 other teams (x% of teams worldwide)!
 
-   However, we now have to raise $y for registration, transportation, and housing to successfully compete. As a community organization, we rely on the businesses and organizations around us to help us develop future STEM professionals and spread science and technology throughout our region. Even a $z donation would help us greatly in attending the championship, and we would love to feature your company’s logo on our robot with a donation above $n.
+   However, we now have to raise $y for registration, transportation, and housing to successfully compete. As a community organization, we rely on the businesses and organizations around us to help us develop future STEM professionals and spread science and technology throughout our region. Even a $z donation would help us greatly in attending the championship, and we would love to feature your company's logo on our robot with a donation above $n.
 
    Thank you for your time! We hope you will consider contributing to this monumental opportunity.
 
@@ -64,8 +64,8 @@ Here are examples of the various appeals in this letter.
 
    .. tab-item:: Logos
 
-      - "Develop future STEM professionals and spread science and technology" appeals to the company’s logical need for more employees in the future, or an individual’s desire for the advancement of society.
-      - "Feature your company’s logo on our robot" conveys a tangible marketing benefit for the company you are reaching out to.
+      - "Develop future STEM professionals and spread science and technology" appeals to the company's logical need for more employees in the future, or an individual's desire for the advancement of society.
+      - "Feature your company's logo on our robot" conveys a tangible marketing benefit for the company you are reaching out to.
 
    .. tab-item:: Ethos
 
@@ -84,11 +84,11 @@ Be Concise!
 
 All of the pitches listed at the beginning of this article rely on the principle of being concise. People that deal with tens, hundreds, or thousands of people asking for their money and aid generally have short attention spans. To stand out, you need to distill a lot of information and rhetoric into a few short sentences or slides.
 
-Figure out how your team relates to the contact you are approaching, and develop your pitch around this relation; finding common ground is a great way to relate yourself to your contact and leverage the self-reference effect! You can do this by researching the company’s core values and initiatives in advance. For instance, if a company is very invested in community STEM education programs, highlight that your team develops STEM professionals in a unique way. Once you’ve figured out what connects your team with your contact, create the content of your pitch around these ideas.
+Figure out how your team relates to the contact you are approaching, and develop your pitch around this relation; finding common ground is a great way to relate yourself to your contact and leverage the self-reference effect! You can do this by researching the company's core values and initiatives in advance. For instance, if a company is very invested in community STEM education programs, highlight that your team develops STEM professionals in a unique way. Once you've figured out what connects your team with your contact, create the content of your pitch around these ideas.
 
-After developing your pitch, ensure that all information is relevant. Cutting content that doesn’t connect with the company or organization you are presenting to is a surefire way to save time. If you choose to present a slideshow, keep your slides bare. An overloaded slide will draw attention away from your team, which is bad - people connect better with people than walls of text. Also, while reviewing your script or pitch, ensure each idea is stated only once. Overall, your goal is to create a clear picture of your team, impact, and connection in as few words as possible.
+After developing your pitch, ensure that all information is relevant. Cutting content that doesn't connect with the company or organization you are presenting to is a surefire way to save time. If you choose to present a slideshow, keep your slides bare. An overloaded slide will draw attention away from your team, which is bad - people connect better with people than walls of text. Also, while reviewing your script or pitch, ensure each idea is stated only once. Overall, your goal is to create a clear picture of your team, impact, and connection in as few words as possible.
 
 Putting It All Together
 -----------------------
 
-Now that you have these tips and techniques at your disposal, integrate them into your presentations, flyers, and networking events! With passion and hard work, you’ll hopefully find your rate of success skyrocketing :)
+Now that you have these tips and techniques at your disposal, integrate them into your presentations, flyers, and networking events! With passion and hard work, you'll hopefully find your rate of success skyrocketing :)

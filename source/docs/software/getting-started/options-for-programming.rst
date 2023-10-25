@@ -8,7 +8,7 @@ Blocks
 
 The Blocks Programming Tool is a simple way to code simple actions for the robot. It has a colorful and lego-like design and includes sounds of block pieces of snapping together.
 
-Using a device and a robot controller phone, connect your device to the phone’s Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select “Program & Manage". This will display the WiFi SSID and password for you to connect to. Go onto your browser (preferably Chrome, though other modern browser will likely work) and enter the address shown on the :term:`RC <Robot Controller>`.
+Using a device and a robot controller phone, connect your device to the phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select "Program & Manage". This will display the WiFi SSID and password for you to connect to. Go onto your browser (preferably Chrome, though other modern browser will likely work) and enter the address shown on the :term:`RC <Robot Controller>`.
 
 Advantages
 ^^^^^^^^^^
@@ -18,12 +18,12 @@ Advantages
 - Programs can be saved directly to the phone
 
   - Changes can be made quickly
-- Doesn’t require an external Wi-Fi connection
+- Doesn't require an external Wi-Fi connection
 
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Not recommended if you’re already familiar with some type of programming
+- Not recommended if you're already familiar with some type of programming
 
   - Primarily a teaching tool for people with no programming experience
 - This will change your primary Wi-Fi network to the :term:`Robot Controller's <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
@@ -31,7 +31,7 @@ Disadvantages
   - Teams can get around this by purchasing an external Wi-Fi module that allows computers to run 2 Wi-Fi networks at once.
 
 - Sacrifices flexibility and application for simplicity
-- Don’t ever use it on a phone, unless you’re out of options. (Not phone-friendly)
+- Don't ever use it on a phone, unless you're out of options. (Not phone-friendly)
 
   - You may make a bigger mess if you try to.
 
@@ -43,7 +43,7 @@ OnBot Java uses a similar method of using a browser to code and save directly to
 Advantages
 ^^^^^^^^^^
 
-- Recommended if you’re learning or have learned some programming, even better if you know a little Java.
+- Recommended if you're learning or have learned some programming, even better if you know a little Java.
 - Greater flexibility than Blocks
 - There are a lot more resources available in case you need help
 - More applicable to the real-world than Blocks
@@ -52,7 +52,7 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication
+- Connecting to the robot controller's Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication
 - Using external libraries is difficult and borderline impossible
 - Steeper learning curve than Blocks
 
@@ -64,7 +64,7 @@ Android Studio is a comprehensive Integrated Development Environment (IDE) that 
 Advantages
 ^^^^^^^^^^
 
-- Recommended if you’re learning or have learned some programming, even better if you know a little Java.
+- Recommended if you're learning or have learned some programming, even better if you know a little Java.
 - Much greater flexibility than Blocks.
 - Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_, and `Road Runner`_.
 - Can use plugins like `Road Runner`_.
@@ -85,7 +85,7 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Connecting to the robot controller’s Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
+- Connecting to the robot controller's Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
 - Relatively easy setup process, but time consuming and is a hefty install (3GB of files between Android Studio, ftc_app, and other libraries)
 - Issues can be difficult to diagnose and solve
 
@@ -95,7 +95,7 @@ Other Programming Languages
 Kotlin
 ^^^^^^
 
-Kotlin is a relatively new and rapidly growing programming language from Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based off. Kotlin was made to be completely compatible with Java but be easier to work with. Google recently announced it as an official Android language, then announced they are going “Kotlin first” but still keeping Java support.
+Kotlin is a relatively new and rapidly growing programming language from Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based off. Kotlin was made to be completely compatible with Java but be easier to work with. Google recently announced it as an official Android language, then announced they are going "Kotlin first" but still keeping Java support.
 
 Advantages
 ~~~~~~~~~~

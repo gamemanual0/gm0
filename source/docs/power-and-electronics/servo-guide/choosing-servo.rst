@@ -25,7 +25,7 @@ Servo Torque And Speed
 
    Historically, the servos commonly used in FTC were created for RC (Radio Controlled) car setups. These cars often had steering linkages with a maximum side to side travel of 60 degrees so manufacturers would often advertise their servos using seconds for 60 degrees.
 
-Torque (usually measured in oz-in or in kg-cm) refers to the amount of force the :term:`servo <Servo>` can apply to a lever. For reference, if you put a 1” bar on a servo, then put a force gauge on the end, the torque rating of the servo (in oz-in) will be measured.
+Torque (usually measured in oz-in or in kg-cm) refers to the amount of force the :term:`servo <Servo>` can apply to a lever. For reference, if you put a 1" bar on a servo, then put a force gauge on the end, the torque rating of the servo (in oz-in) will be measured.
 
 As you may know, speed and torque will generally have an inverse relationship. You can find some insanely powerful servos that are pretty slow (slower than 0.20 s/60°) or some less powerful ones with faster ratios (anything faster than 0.12 s/60° is considered very fast).
 
@@ -34,7 +34,7 @@ Finding the right :term:`servo <Servo>` for your application can be tough, but a
 Durability and Servo Gear Material
 ----------------------------------
 
-The two things that threaten a :term:`servo’s <Servo>` longevity are the internal motor burning out and more commonly, the :term:`gears <Gear>` stripping inside the :term:`servo <Servo>`. A motor burning out is pretty uncommon, but it can happen under large loads for a prolonged amount of time.
+The two things that threaten a :term:`servo's <Servo>` longevity are the internal motor burning out and more commonly, the :term:`gears <Gear>` stripping inside the :term:`servo <Servo>`. A motor burning out is pretty uncommon, but it can happen under large loads for a prolonged amount of time.
 
 .. caution:: You should **never** stall a servo against an immovable object.
 
@@ -43,12 +43,12 @@ Gear stripping is a very common problem which occurs when the torque needed to a
 - Shock load from external force can strip the :term:`gears <Gear>` easily, regardless of which material the :term:`gears <Gear>` are made from. An example could be the component slamming into the field wall or another robot.
 - Shock load from reversing directions on an object that is too heavy can strip the :term:`gears <Gear>`. Torque increases with mass and also distance from the center of rotation. If the component being actuated is far from the :term:`servo <Servo>`, the long lever arm means larger torque. Furthermore, if the component is moving, reversing direction also will require more torque. Thus, the principle is that components should be light and not reverse direction suddenly to prolong :term:`servo <Servo>` life.
 
-Shock load resistance is impacted directly by the material the :term:`gears <Gear>` are made from. This ranges from plastic to titanium, so let’s go down the list, starting from the weakest.
+Shock load resistance is impacted directly by the material the :term:`gears <Gear>` are made from. This ranges from plastic to titanium, so let's go down the list, starting from the weakest.
 
 - **Plastic**: with low power :term:`servos <Servo>`, these are normally okay. Generally used for applications in model airplanes such as ailerons. FTC applications include light load mechanisms which will not have direct contact with any game elements or the field. An example could be a servo that opens a trapdoor or moves game elements within the robot.
-- **Karbonite**: Hitec’s :term:`gear <Gear>` plastic is a very durable and long lasting plastic and is very good under long use and low load. Be aware that it can strip easily under the shock loads found in FTC. Karbonite is more durable than plastic but still suffers from shock loads.
-- **Brass**: Brass :term:`gears <Gear>` are stronger than plastic but also suffer greatly when faced with shock loads in FTC like intake wrists and deposit buckets. It’s found on slightly higher end servos such as the REV Smart Servo.
-- **Steel**: This is where we start getting big. Steel :term:`gears <Gear>` are very durable and you’ll have a tough time stripping these. In general, expect to pay a premium. The goBILDA Dual mode servos (v2) is an example of steel :term:`gear <Gear>` :term:`servo <Servo>`.
+- **Karbonite**: Hitec's :term:`gear <Gear>` plastic is a very durable and long lasting plastic and is very good under long use and low load. Be aware that it can strip easily under the shock loads found in FTC. Karbonite is more durable than plastic but still suffers from shock loads.
+- **Brass**: Brass :term:`gears <Gear>` are stronger than plastic but also suffer greatly when faced with shock loads in FTC like intake wrists and deposit buckets. It's found on slightly higher end servos such as the REV Smart Servo.
+- **Steel**: This is where we start getting big. Steel :term:`gears <Gear>` are very durable and you'll have a tough time stripping these. In general, expect to pay a premium. The goBILDA Dual mode servos (v2) is an example of steel :term:`gear <Gear>` :term:`servo <Servo>`.
 - **Titanium**: Titanium is where you get into really high end, virtually unbreakable :term:`servos <Servo>`. Starting from $75, they can reach over $150. A common misconception is that titanium is stronger then steel, however its advantage is in strength to weight ratio (as in, titanium gearboxes will often be lighter then steel gearboxes).
 
 Servo Size
@@ -97,13 +97,13 @@ The biggest downside to the REV SRS are their brass :term:`gears <Gear>`. Couple
 
 The next big name in FTC :term:`Servos <Servo>` is Hitec, who is a huge name in hobby :term:`servos <Servo>` for decades and are very well trusted. Their low end :term:`servos <Servo>` are inexpensive but easily broken.
 
-A mid-priced Hitec :term:`servo <Servo>` is the HS 485-HB/488-HB servo, with Karbonite :term:`gears <Gear>`. While it shouldn’t be used in high load applications, it is fine for general use such as claws or trapdoors. 485HB uses 24 tooth spline; 488 HB uses 25 tooth spline (recommended).
+A mid-priced Hitec :term:`servo <Servo>` is the HS 485-HB/488-HB servo, with Karbonite :term:`gears <Gear>`. While it shouldn't be used in high load applications, it is fine for general use such as claws or trapdoors. 485HB uses 24 tooth spline; 488 HB uses 25 tooth spline (recommended).
 
 Where Hitec really shines is the high end market. If your budget is over $100, you can get into some very powerful Hitec :term:`servos <Servo>`. Most have titanium :term:`gears <Gear>` and are programmable, so you can dial in the performance and range to exactly what you need.
 
 Axon Robotics, a relatively new company, offers programmable, titanium-geared servos in the $75+ range.
 
-The last big player in the :term:`servo <Servo>` market in FTC is Savox, which produces great mid-high range :term:`servos <Servo>` (think $60-$100+). They are made with titanium :term:`gears <Gear>` (close to bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly brushless and coreless, so they do tend to scream a little under load, but they’re definitely worth it if your budget allows for it.
+The last big player in the :term:`servo <Servo>` market in FTC is Savox, which produces great mid-high range :term:`servos <Servo>` (think $60-$100+). They are made with titanium :term:`gears <Gear>` (close to bulletproof) and are **fast**. Savox :term:`servos <Servo>` are mostly brushless and coreless, so they do tend to scream a little under load, but they're definitely worth it if your budget allows for it.
 
 Recommended Servos
 ------------------
