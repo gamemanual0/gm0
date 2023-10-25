@@ -119,7 +119,7 @@ Before anything is programmed, it may be useful draw out the state diagram for t
 
 Notice how resetting the dump servo and retracting the lift share a state. That's because the robot doesn't need to wait for the servo to reset before moving the lift down; they can both happen at once.
 
-Now, let's get into actually implementing the code for this. In a traditional ``OpMode``, which is commonly used for teleop, code runs repeatedly in a ``loop()`` function, so instead of waiting for a state transition to happen directly, the code will repeatedly check on each ``loop()`` call if it should perform a state transition. This kind of “update our state” pattern keeps code from blocking the rest of the ``loop()`` code from running, such as the drivetrain.
+Now, let's get into actually implementing the code for this. In a traditional ``OpMode``, which is commonly used for teleop, code runs repeatedly in a ``loop()`` function, so instead of waiting for a state transition to happen directly, the code will repeatedly check on each ``loop()`` call if it should perform a state transition. This kind of "update our state" pattern keeps code from blocking the rest of the ``loop()`` code from running, such as the drivetrain.
 
 .. code:: java
 

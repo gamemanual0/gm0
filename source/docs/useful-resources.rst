@@ -101,7 +101,7 @@ Mechanical Design and Build
 
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
-`FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST’s official design and build resources, including TETRIX/REV build guides.
+`FIRST's Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of FIRST's official design and build resources, including TETRIX/REV build guides.
 
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
@@ -129,13 +129,13 @@ Calculators
 
 `ILITE Drivetrain Simulator (v2020) <https://www.chiefdelphi.com/t/ilite-drivetrain-simulator-v2020/369188>`_ --- A drivetrain calculator that puts an emphasis on time to target. Input a target motor, number of motors, gearing, and a wide range of elements about the drive train and electrical system. The output shows estimated peak speed, estimated sprint time, minimum system voltage, and maximum voltage while the drive train is at full speed.
 
-`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from the :ref:`motor-data` section.
+`JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from the :ref:`motor-data` section.
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
 `⎰ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
-`Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
+`Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 
 Programming
 -----------

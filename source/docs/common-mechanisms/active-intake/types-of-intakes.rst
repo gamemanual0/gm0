@@ -59,7 +59,7 @@ The compliant wheel intake is most commonly used with large game elements such a
 
 In this game, robots had to pick up glyphs, which were 6 inch foam cubes, from the center pit and place them in the cryptobox. This game had many wheeled intakes primarily because the wheels had consistent and controllable contact with the glyphs. Wheeled intakes were able to propel the glyphs in a consistent fashion from the point of contact to the deposit plate, which would flip up to deposit the glyphs.
 
-Wheeled intakes can be spring-loaded or locked into place. Teams could choose one or mix; in Relic Recovery, some teams spring-loaded the set of wheels that made contact first, and then had a fixed set in the back. This is up to the design team’s choosing.
+Wheeled intakes can be spring-loaded or locked into place. Teams could choose one or mix; in Relic Recovery, some teams spring-loaded the set of wheels that made contact first, and then had a fixed set in the back. This is up to the design team's choosing.
 
 Wheeled intakes operate at much slower RPM than surgical tubing intakes, as wheeled intakes are meant to pick up **one** element at a time. They generally require more torque than a surgical tubing intake, which is geared for speed.
 
@@ -124,7 +124,7 @@ Rubber Band Intake
 
 Rubber band intakes, commonly used by in VRC, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
 
-Rubber band intakes are great with intaking balls, but not so great with other types of game elements such as cubes. It generally is slower than a surgical tubing intake, and requires multiple stages to transfer elements from collection to deposit. Zip ties can be added to increase the intake’s range to accommodate for smaller balls.
+Rubber band intakes are great with intaking balls, but not so great with other types of game elements such as cubes. It generally is slower than a surgical tubing intake, and requires multiple stages to transfer elements from collection to deposit. Zip ties can be added to increase the intake's range to accommodate for smaller balls.
 
 .. figure:: images/rubber-band-intake/vrc-intake.png
    :alt: A rubber band intake for VRC Turning Point

@@ -15,7 +15,7 @@ While tedious and often no fun, wiring can mean the difference between a win and
 *FIRST*\ |reg| FTC Wiring Guide
 -------------------------------
 
-*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won’t be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST*\ |reg| has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
+*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won't be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST*\ |reg| has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
 
 General Advice
 --------------
@@ -31,7 +31,7 @@ General Advice
 - **Crimped connectors are generally better than soldered connectors**, as solder joints can break easier than a crimped connection.
 - **Keep wires tucked away from moving mechanisms,** and ensure that you will not be at risk of a mechanism snagging a wire. This is a proper application of materials such as acrylic, which allow drivers to see inside the robot while keeping wires out of the way of other robots/game pieces. It is advised for teams to purchase removable velcro ties or cable ties to aid with cable management.
 - **For power wires, lower** :term:`gauge <Gauge>` **(larger size) wires are preferable.** This means a lower resistance across the wire and higher power throughput. This is negligible for data wires, however.
-- **Small wires and cables are fragile.** Treat them as such, and don’t put them in an area where they will constantly be hit by another object. Larger power cables can take much more abuse.
+- **Small wires and cables are fragile.** Treat them as such, and don't put them in an area where they will constantly be hit by another object. Larger power cables can take much more abuse.
 - **Ensure that your wires are kept out of pinch points** where another mechanism could sandwich the wire. This is especially important in arms or mechanisms that are hinged.
 
 .. figure:: images/wiring/bad-wiring.png
@@ -50,7 +50,7 @@ General Advice
 .. figure:: images/wiring/8417-wiring.png
    :alt: An example of good wiring by 8417
 
-   Good example of wiring by 8417 ‘Lectric Legends
+   Good example of wiring by 8417 'Lectric Legends
 
 .. figure:: images/wiring/7244-wiring.png
    :alt: An example of good wiring by 7244
@@ -118,7 +118,7 @@ REV Grounding Strap
 Power distribution blocks/panels
    The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos.
 Dryer sheets
-   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can’t hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
+   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can't hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray
    Staticide is a spray that helps to keep static off of the robot. Please be sure to spray your robot before an event and not during the event.
 Common causes of static

@@ -14,7 +14,7 @@ Recommended Materials
 
 - Aluminum channel & angle
 - Aluminum extrusion (15 and 20 mm)
-- Polycarbonate (Lexan™)
+- Polycarbonate (Lexan\ |trade|)
 - ABS
 - Delrin
 - HDPE
@@ -62,7 +62,7 @@ Aluminum :term:`channel <Channel>` is used in many build system kits and is very
 
 MiSUMI and 8020 also offer aluminum :term:`extrusions <Extrusion>` in other sizes, such as 20mm and 1". 20 mm :term:`extrusion <Extrusion>` can be a good choice if you need a sturdier frame than provided by 15mm :term:`extrusion <Extrusion>`. Note that then you would need to buy special nuts, as 20mm :term:`extrusion <Extrusion>` is not compatible with M3 nuts. 1" extrusion is regularly used as the primary building system in FRC\ |reg|, but is definitely overkill for FTC.
 
-Aluminum flat and aluminum angle is widely available at hardware stores. In certain applications, such as adapting from different build systems, it is possible to drill custom adapter plates to mount mechanisms to the drivetrain. Aluminum angle is also a very sturdy structural support piece that takes up relatively little space, and can adapt to any build system. We suggest using 1/8” alumimum with drivetrain or mounting applications, and 1/16” aluminum for low-load situations.
+Aluminum flat and aluminum angle is widely available at hardware stores. In certain applications, such as adapting from different build systems, it is possible to drill custom adapter plates to mount mechanisms to the drivetrain. Aluminum angle is also a very sturdy structural support piece that takes up relatively little space, and can adapt to any build system. We suggest using 1/8" alumimum with drivetrain or mounting applications, and 1/16" aluminum for low-load situations.
 
 Aluminum drawer slides, often with :term:`ball bearings <Ball Bearing>`, are recommended over steel drawer slides due to weight savings. Refer to the :doc:`Linear Motion section </docs/common-mechanisms/linear-motion-guide/index>` for more information.
 

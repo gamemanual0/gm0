@@ -5,7 +5,7 @@ Power Transmission Glossary
    :sorted:
 
    Pitch Diameter (PD)
-      An imaginary circle around a component used for various calculations. For gears, it is the imaginary circle that mates with any other gear’s pitch diameter when the gears are properly spaced. For chain and belt, it is the circle which is traced by the middle of the belt or chain as the pulley or sprocket rotates. For gears, the pitch diameter will be smaller then the :term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter will be larger. :math:`PD = (tooth * pitch)/\pi`
+      An imaginary circle around a component used for various calculations. For gears, it is the imaginary circle that mates with any other gear's pitch diameter when the gears are properly spaced. For chain and belt, it is the circle which is traced by the middle of the belt or chain as the pulley or sprocket rotates. For gears, the pitch diameter will be smaller then the :term:`Outside Diameter (OD)`, but with chain and belts, the pitch diameter will be larger. :math:`PD = (tooth * pitch)/\pi`
 
    Pitch
       Pitch refers to the distance between the center of one tooth of a gear, sprocket, or pulley to another. In chains it refers to the distance from one pin to another, and in belts it refers to the distance betewen one groove to another.
@@ -44,7 +44,7 @@ Power Transmission Glossary
 
       .. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
 
-      .. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the “color”, we mean the fluid color. Blue loctite usually comes in a red bottle.
+      .. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
 
       .. figure:: images/loctite.png
          :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite

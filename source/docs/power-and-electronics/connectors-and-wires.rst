@@ -26,7 +26,7 @@ There are many types of connectors for use in FTC. Here are the most common conn
          :alt: A JST-VH connector
          :width: 200px
 
-   Dupont 0.1”
+   Dupont 0.1"
 
       .. image:: images/wiring/dupont-connector.png
          :alt: A Dupont 0.1" connector

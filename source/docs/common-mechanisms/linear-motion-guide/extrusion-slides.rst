@@ -14,7 +14,7 @@ REV Robotics 15mm Linear Motion Kit
 
 The `REV 15mm Linear Motion Kit <https://www.revrobotics.com/rev-45-1507/>`_ is based on the 15mm extrusion system. **This extrusion kit does not perform well without modification.** This has been partially remedied by REV as they have developed a second iteration of their slide kit, which has much better tolerances on the Delrin sliders.
 
-Still, you’ll see some competitive teams use this kit with multiple modifications, such as adding lots of lubricant and mounting the sliders differently. Teams have also 3D printed their own sliders, though this is not a great idea for teams without much 3D printing experience. One of the biggest issues with the stock REV kit is the tendency of the slides to bind. Additionally, since the only thing attaching one extrusion to another is the plastic slider, the REV slides are not particularly sturdy, and require crossbeams to keep alignment.
+Still, you'll see some competitive teams use this kit with multiple modifications, such as adding lots of lubricant and mounting the sliders differently. Teams have also 3D printed their own sliders, though this is not a great idea for teams without much 3D printing experience. One of the biggest issues with the stock REV kit is the tendency of the slides to bind. Additionally, since the only thing attaching one extrusion to another is the plastic slider, the REV slides are not particularly sturdy, and require crossbeams to keep alignment.
 
 Overall, this kit is lightweight, simple, and cheap. It can be a good start for teams using REV and needing a linear extension, and is generally usable out of the box. However, it is not very smooth and only achieves its maximum potential when modified and tweaked.
 
@@ -72,7 +72,7 @@ Disadvantages
 goBILDA goRAIL
 --------------
 
-`Linear motion guides <https://www.gobilda.com/gorail-based/>`_ are goBILDA’s take on linear motion using goRAIL, which is a type of extrusion compatible with V-groove bearings. Similar to a standard 8020 V-groove carriage, used in FRC, goRAIL is a lighter option that is better suited for FTC.
+`Linear motion guides <https://www.gobilda.com/gorail-based/>`_ are goBILDA's take on linear motion using goRAIL, which is a type of extrusion compatible with V-groove bearings. Similar to a standard 8020 V-groove carriage, used in FRC, goRAIL is a lighter option that is better suited for FTC.
 
 Actobotics X-rail Slide Kit
 ---------------------------

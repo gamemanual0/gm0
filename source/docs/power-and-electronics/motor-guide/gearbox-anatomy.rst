@@ -8,9 +8,9 @@ Fundamentally, a gearbox is just a collection of gears and an enclosure that con
    .. glossary::
 
       Gear Reduction
-         Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC), a gear ratio defines both the number of rotations of the system’s input and the number of rotations of the output.
+         Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC), a gear ratio defines both the number of rotations of the system's input and the number of rotations of the output.
 
-         For instance, a NeveRest 20 gearmotor consists of an unmodified :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1 (or, when spoken, “20 to 1”). This means that in order for the output shaft of the gearbox to rotate 1 time, the input shaft of the motor must rotate 20 times. Gear ratios are one of the most important design considerations about a power transmission component.
+         For instance, a NeveRest 20 gearmotor consists of an unmodified :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1 (or, when spoken, "20 to 1"). This means that in order for the output shaft of the gearbox to rotate 1 time, the input shaft of the motor must rotate 20 times. Gear ratios are one of the most important design considerations about a power transmission component.
 
          Any FTC motor or servo has two properties: speed and torque (or rotational force). These two properties are inversely proportional, meaning that increasing speed decreases torque, and vice versa. For instance, if one wishes to make a mechanism faster at the expense of torque by doubling the speed of that 20:1 gearbox, they would decrease the gear ratio by a factor of 2. Since 20 divided by 2 is 10, the new desired ratio would be 10:1 (this is referred to as gearing up). However, if one wishes to double torque instead, making the system more powerful and robust at the expense of speed, they would increase the gear ratio by a factor of 2, leaving them with a 40:1 ratio (this is referred to as gearing down).
 
@@ -28,7 +28,7 @@ Spur Gearboxes
       Spur gearbox
          A spur gearbox has spur gears which are stacked on top of each other. Gear reduction is achieved through different size gears on the same plane.
 
-Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, often stacked to achieve a large compound ratio (e.g. 40:1). Each individual ratio only has two :term:`gears <Gear>`- one may be 8:1, another may be 5:1, but the final ratio will be 40:1. These gearboxes are used in the Andymark NeveRest Classic series and goBILDA’s 5201 series motors, as well as :term:`REV HD Hex Motors <HD Hex Motor>`. Due to the nature of how these gearboxes are built, each reduction only has a few teeth from each :term:`gear <Gear>` engaged, and those teeth carry the entire load of the gearbox. It’s easy to damage a spur gearbox from shock load, and if one :term:`gear <Gear>` breaks, the entire gearbox will stop functioning.
+Spur gearboxes are an arrangement of :term:`gear ratios <Gear Reduction>`, often stacked to achieve a large compound ratio (e.g. 40:1). Each individual ratio only has two :term:`gears <Gear>`- one may be 8:1, another may be 5:1, but the final ratio will be 40:1. These gearboxes are used in the Andymark NeveRest Classic series and goBILDA's 5201 series motors, as well as :term:`REV HD Hex Motors <HD Hex Motor>`. Due to the nature of how these gearboxes are built, each reduction only has a few teeth from each :term:`gear <Gear>` engaged, and those teeth carry the entire load of the gearbox. It's easy to damage a spur gearbox from shock load, and if one :term:`gear <Gear>` breaks, the entire gearbox will stop functioning.
 
 .. tip:: Using spur gearboxes on high-load applications such as drivetrains or arms is not recommended. Instead, use planetary gearboxes.
 
@@ -56,7 +56,7 @@ Planetary gearboxes use a more complex system of gears to achieve a robust reduc
       Planetary Gear
          Planetary gearing consists of a center gear (sun gear) which has smaller gears (planet gears) revolving around it. The outer radius has a ring gear which holds the other gears in place.
 
-Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex Planetary and UltraPlanetary Motors and goBILDA’s wide selection of :term:`planetary gear motors <Yellow Jacket Motor>`. Additionally, AndyMark sells a few aftermarket planetary gearboxes called NeveRest Sport and 57 Sport. As you can see from the graphic below, there are more teeth meshing per stage than in the spur gearbox.
+Planetary gearboxes are used in the Andymark Orbital series, some REV HD Hex Planetary and UltraPlanetary Motors and goBILDA's wide selection of :term:`planetary gear motors <Yellow Jacket Motor>`. Additionally, AndyMark sells a few aftermarket planetary gearboxes called NeveRest Sport and 57 Sport. As you can see from the graphic below, there are more teeth meshing per stage than in the spur gearbox.
 
 .. figure:: images/motor-hardware/planetary-gearbox.png
    :alt: A planetary gearbox diagram

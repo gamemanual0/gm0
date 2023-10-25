@@ -13,7 +13,7 @@ Motor Glossary
          :width: 200
 
    HD Hex Motor
-      The HD Hex motor, sold by REV Robotics, is a :term:`RS-555 series motor <RS-550 Series Motor>` with spur gear and planetary gearbox options. The motor has a 5mm hex output shaft compatible with REV’s motion system.
+      The HD Hex motor, sold by REV Robotics, is a :term:`RS-555 series motor <RS-550 Series Motor>` with spur gear and planetary gearbox options. The motor has a 5mm hex output shaft compatible with REV's motion system.
 
       .. image:: images/glossary/hd-hex-motor.png
          :alt: A REV Robotics HD Hex motor
@@ -30,7 +30,7 @@ Motor Glossary
          :width: 200
 
    UltraHex
-      UltraHex is 1/2” aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV’s 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2” hex is also compatible with many FRC vendors.
+      UltraHex is 1/2" aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV's 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2" hex is also compatible with many FRC vendors.
 
       .. image:: images/glossary/ultrahex.png
          :alt: A piece of ultrahex shaft

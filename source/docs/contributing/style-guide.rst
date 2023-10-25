@@ -1,7 +1,7 @@
 Style Guide
 ===========
 
-Don’t deal in absolutes.
+Don't deal in absolutes.
 
 - Only a Sith deals in absolutes
 - Use pros/cons lists to compare options
@@ -13,11 +13,11 @@ Don’t deal in absolutes.
 
 |gm0| is a guide **from a competitive standpoint**.
 
-- Try to leave out stuff that doesn’t work well and is unpopular; if it is popular it is worth explaining the disadvantages (see H-drive vs ball drive; explaining H-drive, as a relatively popular and simple drivetrain makes sense, but ball drive, a drivetrain that barely exists and is ridiculously complicated makes no sense to bring up)
+- Try to leave out stuff that doesn't work well and is unpopular; if it is popular it is worth explaining the disadvantages (see H-drive vs ball drive; explaining H-drive, as a relatively popular and simple drivetrain makes sense, but ball drive, a drivetrain that barely exists and is ridiculously complicated makes no sense to bring up)
 - Try to leave opinions out as much as possible. Do not speak authoritatively on stuff you do not have first-hand experience with whenever possible
 - **Keep in mind that FTC design trends are temporary and transient**
 
-  - Just because something is popular one season doesn’t mean it’s the end all be all. There was a time when 6-wheel drives and coaxial swerve drives were all the rage, but that doesn’t mean that we should recommend them in |gm0|. Try your best to think about why something is popular, and what benefits in design, function, and execution they actually bring to the table.
+  - Just because something is popular one season doesn't mean it's the end all be all. There was a time when 6-wheel drives and coaxial swerve drives were all the rage, but that doesn't mean that we should recommend them in |gm0|. Try your best to think about why something is popular, and what benefits in design, function, and execution they actually bring to the table.
 
 Consider that not all teams have the resources to purchase the most optimal parts for their design.
 
@@ -36,7 +36,7 @@ Include pictures/videos whenever possible.
     - Examples
 
       - 11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, springloaded
-      - 8417 ‘Lectric Legends, Rover Ruckus, TPU intake flaps
+      - 8417 'Lectric Legends, Rover Ruckus, TPU intake flaps
       - 7236 Recharged Green, Rover Ruckus, Misumi SAR3
 
 Adhere to brand standards when possible.
@@ -44,6 +44,6 @@ Adhere to brand standards when possible.
 - It's gm0 not GM0 damn it; look at the logo.
 - This also applies to team names: spell them how they are officially spelled
 
-  - Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team’s name.
+  - Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team's name.
 
 You can use "you" when writing, when it makes writing less awkward. However, try avoiding excessively using it.

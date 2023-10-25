@@ -9,7 +9,7 @@ CAD Tutorial Part 1 - Drivetrain in an Hour
 Choosing the Drivetrain
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice, determine the necessary requirements for the drivetrain based on the current game. Teams should shoot for the wheelbase that works the best in that specific field’s layout.
+After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice, determine the necessary requirements for the drivetrain based on the current game. Teams should shoot for the wheelbase that works the best in that specific field's layout.
 
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to not only grab glyphs from the center pit, but also to line up against the cryptobox. Thus, mecanum wheels and a wide center section of the robot proved an advantage over a 6 wheel tank drive. (However, it should be noted that with sufficient practice and competent drivers, any drive base can be competitive up to a certain extent).
 
@@ -27,7 +27,7 @@ After learning the CAD software, it's time to start the actual design. Here are 
 
 To keep it simple, this example uses a 4 wheel tank drive using four motors. The wheels selected are 2 Colson wheels for traction, and 2 omni wheels to aid in turning.
 
-First, make the left side of the drivebase. After completing it, all you have to do is mirror the left side to the right, so you don’t have to do each side individually. Start with a 2D sketch of everything before trying to extrude and make actual 3D objects.
+First, make the left side of the drivebase. After completing it, all you have to do is mirror the left side to the right, so you don't have to do each side individually. Start with a 2D sketch of everything before trying to extrude and make actual 3D objects.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-technical-drawing.jpg
    :alt: Drivetrain Plate Technical Drawing
@@ -35,7 +35,7 @@ First, make the left side of the drivebase. After completing it, all you have to
 
 This is a sketch of the inner plate of the drive base. Everything should be laid out in a 2D sketch to determine the mounting holes, :term:`bore <Bore>`, :term:`center-to-center distance <C2C>`, etc. 2D sketches are extremely helpful and are highly recommended in any project. After the sketch is completed, everything else falls into place and becomes pretty simple.
 
-After this, extrude that sketch into the first plate of the drivetrain. Typically, a standard thickness of aluminum plate is 1/8”. Thinner plate (3/32”) can be used as well, but generally most teams stick to 1/8”. Extrude the plate to that thickness. Below is the sketch after extruding.
+After this, extrude that sketch into the first plate of the drivetrain. Typically, a standard thickness of aluminum plate is 1/8". Thinner plate (3/32") can be used as well, but generally most teams stick to 1/8". Extrude the plate to that thickness. Below is the sketch after extruding.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate.jpg
    :alt: Inner Drivetrain Plate
@@ -46,7 +46,7 @@ The next step will be making the outer plate for the drivebase. It is even faste
    :alt: Drivetrain Plate, with entire face seleected
    :width: 100%
 
-After starting the new sketch on the inner plate, hit “Project Geometry” and just click anywhere on the part. It should highlight every outline of the part. (Shown here is a yellow line; yours might be red, blue or some other color.) Now click and drag across the part selecting every line on the screen. Now go hit CTRL + C, then go to the new part and hit create 2D Sketch. Next hit CTRL + V.
+After starting the new sketch on the inner plate, hit "Project Geometry" and just click anywhere on the part. It should highlight every outline of the part. (Shown here is a yellow line; yours might be red, blue or some other color.) Now click and drag across the part selecting every line on the screen. Now go hit CTRL + C, then go to the new part and hit create 2D Sketch. Next hit CTRL + V.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-with-parts-to-remove-selected.jpg
    :alt: Drivetrain inner plate with the parts specific to the inner plate selected
@@ -56,7 +56,7 @@ It should look like an exact copy of the inner plate but now as a sketch. Delete
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-outer-plate.jpg
    :alt: Outer Drivetrain Plate
 
-This is what the outer plate looks like, an almost exact copy of the inner one without the holes for the motors. Now with those two plates made, it’s really just time to assemble the rest of the drivetrain, which is by far the most time consuming. Now, for some info on what to use to attach the two plates together, generally standoffs or churro is highly recommended. To attach the two halves of the drivetrain, use either channel, extrusion, or a custom u-brace. Some teams prefer a custom brace as it is a good way to stiffen up the drivetrain while requiring very little maintenance over the season. It is possible to use peanut extrusion or kit channel, which alternatively works just as well.
+This is what the outer plate looks like, an almost exact copy of the inner one without the holes for the motors. Now with those two plates made, it's really just time to assemble the rest of the drivetrain, which is by far the most time consuming. Now, for some info on what to use to attach the two plates together, generally standoffs or churro is highly recommended. To attach the two halves of the drivetrain, use either channel, extrusion, or a custom u-brace. Some teams prefer a custom brace as it is a good way to stiffen up the drivetrain while requiring very little maintenance over the season. It is possible to use peanut extrusion or kit channel, which alternatively works just as well.
 
 Note that when using a custom drivetrain, you can cut out material from your drivetrain plates. This process is called **pocketing**. While not a vital step, pocketing helps you save weight. However, be careful not to remove too much material; if done, the plates become less sturdy. More about pocketing is in the next section.
 
@@ -83,14 +83,14 @@ A general rule of thumb for most teams is the wider the intake, the better the c
 
 However, if you need to pick up a ball like in Velocity Vortex, the bigger the intake gives you better chances of grabbing the balls. Keep this in mind when designing drive pods - try to keep them as thin as possible without sacrificing rigidity and strength to maximize space for other mechanisms and wiring.
 
-Connecting your two plates together is really simple. Some standoffs or churro extrusion from AndyMark is a relatively easy way to connect them together with a few bolts. Just make a few 1/4 in. holes in your sketch where you want the churro tube to be. Decide how long the churro needs to be. Remember to leave enough space between the plates for your wheels, pulleys, sprockets, and spacers. You don’t need to go overkill on how many standoffs you need in between your plates; however, put them in strategic places where support is needed.
+Connecting your two plates together is really simple. Some standoffs or churro extrusion from AndyMark is a relatively easy way to connect them together with a few bolts. Just make a few 1/4 in. holes in your sketch where you want the churro tube to be. Decide how long the churro needs to be. Remember to leave enough space between the plates for your wheels, pulleys, sprockets, and spacers. You don't need to go overkill on how many standoffs you need in between your plates; however, put them in strategic places where support is needed.
 
 Shown below is a drive pod, which is one half of the drivetrain, including the shafts, bearings, wheels, motors, belts, etc. In short, the drive pod has everything that will be built in real life. This particular one is the left side, but to make the right side create an offset plane, select the mirror tool, then hit mirror.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/drive-pod.jpg
    :alt: Left side drivetrain pod
 
-After mirroring the drive pod to make your opposite side, connect those two halves together and you’re done with the drivetrain. Below is a rendering of the complete drivetrain in CAD.
+After mirroring the drive pod to make your opposite side, connect those two halves together and you're done with the drivetrain. Below is a rendering of the complete drivetrain in CAD.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-render.png
    :alt: Left side drivetrain pod
@@ -103,7 +103,7 @@ CAD Tutorial Part 2 - Pocketing Guide
    .. glossary::
 
       Pocketing
-         “Pocketing” is a common term in FTC and FRC\ |reg| lingo that refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
+         "Pocketing" is a common term in FTC and FRC\ |reg| lingo that refers to cutting out excess material from a CAD designed part. Pocketing helps to reduce weight and can increase strength of a part. This may seem counterintuitive (how can removing material strengthen a part?) but pocketing can reduce stress buildup, especially at corners.
 
          Pocketing is often seen on drivetrain sheet metal plates which will be CNC machined. In FRC, pocketing is often used to reduce weight of the rectangular aluminum tubes.
 
@@ -111,7 +111,7 @@ There are several ways to machine pockets into material including milling, routi
 
 CNC milling and routing excel at pocketing aluminum box tubing, whereas water jet and laser cutting excel at pocketing plates. Whether pocketing on box tubing or plates, the design is fairly similar.
 
-When designing pockets, **it's important to consider the type of material, thickness, and how much stress will be on the part**. Materials that are weaker, thinner or under significant stress should have less “aggressive” pocketing and materials that are stronger, thicker or under less stress can have more “aggressive” pocketing. Aggressive pocketing refers to the amount of material removal from the blank part (more aggressive = more material removal).
+When designing pockets, **it's important to consider the type of material, thickness, and how much stress will be on the part**. Materials that are weaker, thinner or under significant stress should have less "aggressive" pocketing and materials that are stronger, thicker or under less stress can have more "aggressive" pocketing. Aggressive pocketing refers to the amount of material removal from the blank part (more aggressive = more material removal).
 
 Although a bit complex to understand, FEA (finite element analysis) can be used to determine appropriate strut thickness when pocketing. FEA can be used to generate pocketing geometry, but that is an entirely different rabbit hole.
 
@@ -145,9 +145,9 @@ Tangent lines are drawn between the circles on the edges with other circles on e
 
 The last step in pocketing is adding rounds to each and every corner, especially inner corners. Rounds relieve stress buildup at corners and make it easier to machine. Some machines, such as mills and routers, are also unable to machine tight internal corners. For those parts that need minimum rigidity loss and a lot more machine time on their hands, pockets don't need to be cut all the way.
 
-:term:`Waterjet cutters <Waterjet cutter>` and :term:`laser cutters <Laser cutter>` are only able to cut material all the way through, but routers and mills are able to make surface pockets. These pockets don’t go all the way through the material and are multitudes more rigid than thru pocketing.
+:term:`Waterjet cutters <Waterjet cutter>` and :term:`laser cutters <Laser cutter>` are only able to cut material all the way through, but routers and mills are able to make surface pockets. These pockets don't go all the way through the material and are multitudes more rigid than thru pocketing.
 
-The downside is increased machining time. The increased time is from the “lawn mowing” tool cutting path verses simply cutting the edges of the geometry. It is also more difficult to machine, because more material is milled out and chip ejection becomes more important.
+The downside is increased machining time. The increased time is from the "lawn mowing" tool cutting path verses simply cutting the edges of the geometry. It is also more difficult to machine, because more material is milled out and chip ejection becomes more important.
 
 .. figure:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-surface-pocketing.png
    :alt: Outer mechanism plate surface pocketed
@@ -168,7 +168,7 @@ The most effective way to find the specific positions and drill bit sizes, is to
 
    Optimal Drill Pocketing Method Example
 
-Although it may look like a random mess and it may take a while longer than just randomly “cheese holing”, this method will yield the greatest weight reduction to structural rigidity loss ratio using the drill pocketing method.
+Although it may look like a random mess and it may take a while longer than just randomly "cheese holing", this method will yield the greatest weight reduction to structural rigidity loss ratio using the drill pocketing method.
 
 A very important tip to pocketing is to do it last when designing a part. Parts should not be designed around the pocketing pattern, rather the pocketing should be designed around the part. If there are too many holes in a part, or the part is too small to be pocketed with an offset value, then it's probably not worth it to pocket.
 
@@ -186,7 +186,7 @@ When the pockets are designed around a 3D printed part, many new possibilities o
 CAD Tutorial Part 3 - Custom Pulley Template
 --------------------------------------------
 
-When designing methods of power transmission, it’s useful to have an adjustable pulley generator to rapidly rearrange C-C (center to center) distance for design changes. Typically, FTC teams use the HTD5 belt profile due to its deep tooth profile, which adds resistance to slipping and increases load capacity. This tutorial will focus on the HTD5 profile, but it is relatively easy to adapt for different profiles.
+When designing methods of power transmission, it's useful to have an adjustable pulley generator to rapidly rearrange C-C (center to center) distance for design changes. Typically, FTC teams use the HTD5 belt profile due to its deep tooth profile, which adds resistance to slipping and increases load capacity. This tutorial will focus on the HTD5 profile, but it is relatively easy to adapt for different profiles.
 
 To make the pulley fully parametric (adjustable without redoing the base sketch), we will use Equations (in Solidworks and Creo), Parameters (Fusion 360 and Inventor) or Variables (Onshape). Equations allow a user to quickly adjust values and change multiple dimensions in a sketch or feature.
 
@@ -194,18 +194,18 @@ To make the pulley fully parametric (adjustable without redoing the base sketch)
    :alt: A screenshot of the "Equations, Global Variables, and Dimensions" view
    :width: 100%
 
-First, define a new variable “n” and set a default value of 24. This is crucial since “n” will affect the number of teeth – which will define the angle between teeth and the circular pattern.
+First, define a new variable "n" and set a default value of 24. This is crucial since "n" will affect the number of teeth, which will define the angle between teeth and the circular pattern.
 
 Copy the sketch below.
 
 .. image:: images/cad-tutorial/custom-pulley-template/sketch-to-copy.png
    :alt: The sketch to copy
 
-- The 15° equation is done by typing =360/”n” into the text box.
+- The 15° equation is done by typing =360/"n" into the text box.
 - Note that 5mm dimension at the top describes arc length, which is done in Solidworks by first selecting the two points and the connecting arc.
 - The two big circles are tangent to the two smaller circles, but the two smaller circles are not tangent to each other.
 
-Leave this sketch as a reference and use “Convert Entities” to create sketches for additional features.
+Leave this sketch as a reference and use "Convert Entities" to create sketches for additional features.
 
 .. image:: images/cad-tutorial/custom-pulley-template/pulley-profile.png
    :alt: The profile of the pulley
@@ -215,12 +215,12 @@ Next, extrude the outer bold circle. Cut-extrude the profile in the reference sk
 .. image:: images/cad-tutorial/custom-pulley-template/circular-pattern.png
    :alt: A screenshot of the tool to create the circular pattern of the next step
 
-Now, just create a Circular Pattern. Define Direction 1 as the top face and create “n” instances of the cut-extrude feature.
+Now, just create a Circular Pattern. Define Direction 1 as the top face and create "n" instances of the cut-extrude feature.
 
 .. image:: images/cad-tutorial/custom-pulley-template/dimensioned-pulley.png
    :alt: The CAD of the pulley with dimensions
 
-Now just sketch on the side plane and sketch the flanges. This is up to you, but I prefer to keep the outer point vertical to a point pierced through the outer circle. That way, the flange changes with respect to “n”.
+Now just sketch on the side plane and sketch the flanges. This is up to you, but I prefer to keep the outer point vertical to a point pierced through the outer circle. That way, the flange changes with respect to "n".
 
 .. image:: images/cad-tutorial/custom-pulley-template/complete-pulley.png
    :alt: The complete CAD of the pulley

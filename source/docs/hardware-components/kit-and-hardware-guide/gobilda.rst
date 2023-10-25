@@ -10,7 +10,7 @@ Special Considerations
 
 - goBILDA is based on metric measurements using M4 hardware. The hole pattern has 4mm holes on 8mm grid.
 - The kit is primarily structured around :term:`U-channel <Channel>`, which is strong and durable.
-- goBILDA’s robust motion system allows teams to easily build drivetrains and mechanisms without worrying about placement and tensioning.
+- goBILDA's robust motion system allows teams to easily build drivetrains and mechanisms without worrying about placement and tensioning.
 - It is arguable, but goBILDA has likely a low learning curve due to its simple yet extremely functional catalog of parts.
 - goBILDA parts can generally be easily adapted to other kit parts such as REV.
 - Additionally, goBILDA is still being developed at a quick pace and is responsive to the needs of the FTC community.
@@ -78,7 +78,7 @@ Disadvantages
 
 - goBILDA is not the cheapest build system; it is relatively equivalent in pricing to Actobotics, but REV is cheaper.
 - goBILDA :term:`U-channels <Channel>` are larger than the :term:`channels <Channel>` from Tetrix, resulting in larger builds. However, this is more than compensated by the fact that one can put a :term:`goBILDA motor <Yellow Jacket Motor>` *inside* a :term:`channel <Channel>`. In addition, the introduction of mini-low-side channel allows for more compact builds where needed
-- Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain <Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`. This means that other kits' :term:`chain <Chain>` and :term:`sprockets <Sprocket>` won’t work with goBILDA :term:`chain <Chain>` and :term:`sprockets <Sprocket>`.
+- Because of metric pattern spacing, goBILDA utilizes 8mm pitch :term:`chain <Chain>`, as opposed to the FTC standard #25 Imperial :term:`chain <Chain>`. This means that other kits' :term:`chain <Chain>` and :term:`sprockets <Sprocket>` won't work with goBILDA :term:`chain <Chain>` and :term:`sprockets <Sprocket>`.
 
 .. image:: images/gobilda/7182-rr2-hanging.png
    :alt: 7182 Mechanical Paradox Cubed's Rover Ruckus robot hanging on the lander

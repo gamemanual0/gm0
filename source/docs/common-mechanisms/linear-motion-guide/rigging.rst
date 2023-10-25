@@ -193,7 +193,7 @@ Almost ubiquitous in FRC\ |reg|, belt and chain elevators have existed seemingly
 Tensioners
 ----------
 
-Tensioning string is one of the most painstaking tasks for a builder in FTC. Ensuring that both sets of slides are tensioned evenly can be an arduous and annoying job. However, adding tensioners to your strings can help solve the uneven tension and ensure that both sides of slides run together. The most common type of tensioner is a spring that can be purchased at a hardware store. It generally will be placed at the end of the string run, near the part that extends farthest out from the robot’s center. By doing so, the string will stretch out when the spool extends the arm, keeping tension so that the string does not detach from the pulleys in the linear slide extension.
+Tensioning string is one of the most painstaking tasks for a builder in FTC. Ensuring that both sets of slides are tensioned evenly can be an arduous and annoying job. However, adding tensioners to your strings can help solve the uneven tension and ensure that both sides of slides run together. The most common type of tensioner is a spring that can be purchased at a hardware store. It generally will be placed at the end of the string run, near the part that extends farthest out from the robot's center. By doing so, the string will stretch out when the spool extends the arm, keeping tension so that the string does not detach from the pulleys in the linear slide extension.
 
 Another form of tensioner can be a spring-loaded pulley. Since the pulley is spring-loaded, it will take up the slack in the string. Alternatively, it is possible to mount a pulley on a piece of extrusion, and slide it so the string is taut.
 
@@ -214,13 +214,13 @@ Another (but less impactful) thing to keep in mind that spool size changes as st
 Picking the right spool size
 ----------------------------
 
-Spools have a special property that isn’t often discussed, but is extremely useful when creating linear slide systems. Just as the system’s speed and torque can be changed by changing its gear ratio, speed and torque can also be changed by changing the spool size. The motor rotates the spool at a constant angular speed. Thus, the translational speed (the speed of the slide) is proportional to the radius of the spool, and since torque is inversely proportional to speed, changing the spool size changes torque as well.
+Spools have a special property that isn't often discussed, but is extremely useful when creating linear slide systems. Just as the system's speed and torque can be changed by changing its gear ratio, speed and torque can also be changed by changing the spool size. The motor rotates the spool at a constant angular speed. Thus, the translational speed (the speed of the slide) is proportional to the radius of the spool, and since torque is inversely proportional to speed, changing the spool size changes torque as well.
 
 This is important to recognize, as changing spool size is often more convenient than changing gear ratio to get the desired combination of speed and torque. To illustrate this, say you have a linear extension system with a 3.7:1 gear ratio. You then decide that a 5:1 gear ratio would provide a more desirable combination of speed and torque than your current 3.7:1 ratio.
 
 In many cases, instead of swapping gearboxes, it makes more sense to swap out spools to a smaller one. If your spool is currently 2 inches, your new size should be :math:`\frac{2*3.7}{5}` inches to achieve the same result.
 
-You also need to make sure that when fully wrapped on the spool, your cable or string doesn’t overlap. Overlapping can result in a change in spool diameter, which will change the tension in your string.
+You also need to make sure that when fully wrapped on the spool, your cable or string doesn't overlap. Overlapping can result in a change in spool diameter, which will change the tension in your string.
 
 Cable management
 ----------------

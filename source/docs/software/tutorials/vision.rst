@@ -11,7 +11,7 @@ Officially Supported Solutions
 TensorFlow
 ^^^^^^^^^^
 
-TensorFlow is Google’s machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google’s TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
+TensorFlow is Google's machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google's TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
 
 Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__.
 
