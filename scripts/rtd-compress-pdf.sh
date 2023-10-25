@@ -2,7 +2,7 @@
 
 # Compresses the PDF output using ghostscript on Read the Docs.
 
-DPI=300
+DPI=400
 PDF_DIR="$READTHEDOCS_OUTPUT/pdf"
 
 # Check if the PDF build is enabled based on if the PDF output directory exists
