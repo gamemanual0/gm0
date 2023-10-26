@@ -3,9 +3,9 @@
 Control Systems
 ===============
 
-The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`". The :term:`Robot Controller` is mounted on the robot and connected to a special "Hub", which in turn is connected to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi Direct.
+The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`". The :term:`Robot Controller` is mounted on the robot and are connected to special "Hub(s)", which in turn connect to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi Direct.
 
-REV Robotics is the sole manufacturer of legal FTC control systems. The REV Expansion Hub connects to motors, servos, sensors, and a :term:`Robot Controller`. A REV Control Hub has the functionality of an Expansion Hub but with a built-in :term:`Robot Controller`.
+REV Robotics is the sole manufacturer of legal FTC control systems. The REV Expansion Hub connects to motors, servos, sensors, and a :term:`Robot Controller`. A REV Control Hub has the same functionality of an Expansion Hub but with a built-in :term:`Robot Controller`.
 
 More information about the FTC Control System can be found below:
 
@@ -27,7 +27,7 @@ REV Control Hub + REV Expansion Hub
 
 This is the standard control system for teams starting out in FTC.
 
-The Expansion Hub connects to the Control Hub through either the RS-485 port on both hubs or a USB-A port on the Control Hub to the mini USB port on the Expansion Hub. In either case, proper strain relief and cable management should be used.
+The Control Hub connects to the Expansion Hub through either a RS-485 port on both hubs or a USB-A port on the Control Hub to the mini USB port on the Expansion Hub. In either case, proper strain relief and cable management should be used.
 
 For more information on setting up the Control Hub and configuring the robot, head to `REV Robotics' Technical Resources Control Hub Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`
 
