@@ -9,7 +9,7 @@ REV Robotics is the sole manufacturer of legal FTC control systems. The REV Expa
 
 More information about the FTC Control System can be found below:
 
-- `Official control system Wiki on GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki>`_
+- `Official Control System docs on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-FTC-Control-System.html>`_
 - `REV Control System Documentation <https://docs.revrobotics.com/duo-control/>`_
 - `Official troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 
