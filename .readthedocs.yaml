@@ -11,6 +11,10 @@ build:
     python: "3.11"
   apt_packages:
     - graphviz
+    - ghostscript
+  jobs:
+    post_build:
+      - ./scripts/rtd-compress-pdf.sh
 
 formats:
   - pdf
