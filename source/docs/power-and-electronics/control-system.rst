@@ -3,9 +3,9 @@
 Control Systems
 ===============
 
-The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`." The :term:`Robot Controller` is mounted on the robot and connected to a special "Hub", which in turn is connected to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi Direct.
+The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`". The :term:`Robot Controller` is mounted on the robot and connected to a special "Hub", which in turn is connected to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi Direct.
 
-REV Robotics is the sole manufacturer of legal FTC control systems. The REV Expansion Hub connects to motors, servos, sensors, and a :term:`Robot Controller`. A REV Control Hub has the functionality of an Expansion Hub but with a built in :term:`Robot Controller`.
+REV Robotics is the sole manufacturer of legal FTC control systems. The REV Expansion Hub connects to motors, servos, sensors, and a :term:`Robot Controller`. A REV Control Hub has the functionality of an Expansion Hub but with a built-in :term:`Robot Controller`.
 
 More information about the FTC Control System can be found below:
 
@@ -18,7 +18,7 @@ There are two possible control systems that can be run on an FTC robot legally:
 - REV Control Hub + REV Expansion Hub
 - :term:`RC Phone <Robot Controller>` + REV Expansion Hub(s)
 
-.. important:: Beginning in the 2024-2025 season, :term:`RC Phones <Robot Controller>` will no longer be legal to use as a Robot Controller. Teams will be required to use a REV Control Hub as their :term:`Robot Controller`.
+.. important:: Beginning in the 2024-2025 season, an :term:`RC Phone <Robot Controller>` will no longer be legal to use as a Robot Controller. Teams will be required to use a REV Control Hub as their :term:`Robot Controller`.
 
 REV Control Hub + REV Expansion Hub
 -----------------------------------
