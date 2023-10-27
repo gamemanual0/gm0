@@ -29,7 +29,7 @@ This is the standard control system for teams starting out in FTC.
 
 The Control Hub connects to the Expansion Hub through either a RS-485 port on both hubs or a USB-A port on the Control Hub to the mini USB port on the Expansion Hub. In either case, proper strain relief and cable management should be used.
 
-For more information on setting up the Control Hub and configuring the robot, head to `REV Robotics' Technical Resources Control Hub Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`
+For more information on setting up the Control Hub and configuring the robot, head to `REV Robotics' Technical Resources Control Hub Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`_.
 
 .. image:: images/control-system/ch-wiring-diagram.png
    :alt: A diagram of the Control Hub + Expansion Hub control system
