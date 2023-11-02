@@ -3,13 +3,13 @@
 Control Systems
 ===============
 
-The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`". The :term:`Robot Controller` is mounted on the robot. It is either embedded within or connected to special "Hub(s)", which in turn connect to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi Direct.
+The FTC control system is based around a ":term:`Robot Controller`" and a ":term:`Driver Station`". The :term:`Robot Controller` is mounted on the robot. It is either embedded within or connected to special "Hub(s)", which in turn connect to motors, servos, and sensors. The :term:`Robot Controller` is linked to the :term:`Driver Station` through WiFi or WiFi Direct.
 
 REV Robotics is the sole manufacturer of legal FTC control system components. The REV Expansion Hub connects to motors, servos, sensors, and a :term:`Robot Controller`. A REV Control Hub has the same functionality of an Expansion Hub but with a built-in :term:`Robot Controller`.
 
 More information about the FTC Control System can be found below:
 
-- `Official Control System docs on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-FTC-Control-System.html>`_
+- `Official Control System Documentation on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-FTC-Control-System.html>`_
 - `REV Control System Documentation <https://docs.revrobotics.com/duo-control/>`_
 - `Official troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
 
