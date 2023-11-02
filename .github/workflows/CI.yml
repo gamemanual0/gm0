@@ -17,6 +17,10 @@ jobs:
     - name: Install Python Dependencies
       run: |
         pip install -r source/requirements.txt
+    - name: Install Graphviz
+      run: |
+        sudo apt update
+        sudo apt install -y graphviz
     - name: Build HTML
       run: |
         make html
