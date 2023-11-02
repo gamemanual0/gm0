@@ -37,11 +37,14 @@ jobs:
         pip install -r source/requirements.txt
     - name: Install LaTeX
       run: |
-        sudo apt update
-        sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
+        cd /tmp/
+        wget https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.14.1/tectonic-0.14.1-x86_64-unknown-linux-gnu.tar.gz
+        tar -xvf ./tectonic-0.14.1-x86_64-unknown-linux-gnu.tar.gz
     - name: Build PDF
       run: |
-        make latexpdf
+        make latex
+        cd build/latex
+        /tmp/tectonic GameManual0.tex
     - name: Archive PDF
       uses: actions/upload-artifact@v2
       with:
