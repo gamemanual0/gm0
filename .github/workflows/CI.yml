@@ -7,7 +7,25 @@ on:
     branches:
       - "*"
 jobs:
-  build:
+  build-html:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: 3.7
+    - name: Install Python Dependencies
+      run: |
+        pip install -r source/requirements.txt
+    - name: Build HTML
+      run: |
+        make html
+    - name: Archive HTML
+      uses: actions/upload-artifact@v2
+      with:
+        name: gm0-html
+        path: build/html/
+  build-pdf:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -21,14 +39,6 @@ jobs:
       run: |
         sudo apt update
         sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin graphviz
-    - name: Build HTML
-      run: |
-        make html
-    - name: Archive HTML
-      uses: actions/upload-artifact@v2
-      with:
-        name: gm0-html
-        path: build/html/
     - name: Build PDF
       run: |
         make latexpdf
