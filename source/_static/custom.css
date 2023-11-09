@@ -6,12 +6,6 @@
     background: #404040;
 }
 
-/* Removes community ads on read the docs */
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
-}
-
 /* Center caption text in their respective figure */
 div.figure.align-default {
     display: flex;
