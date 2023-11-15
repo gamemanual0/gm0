@@ -45,9 +45,9 @@ Adhere to brand standards when possible.
 
 - Abide by *FIRST*\ |reg| Trademark guidelines, available `here <https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_
 
+  - The first instance of *FIRST* and FTC on a page should include \ |reg| (i.e, *FIRST*\ |reg|)
   - Always capitalize and italize the name *FIRST*
-  - The first instance of *FIRST* on a page should include \ |reg| (i.e, *FIRST*\ |reg|)
-  - Do NOT use a possessive on the *FIRST* name
+  - Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)
 
 It's gm0 not GM0 damn it; look at the logo.
 
