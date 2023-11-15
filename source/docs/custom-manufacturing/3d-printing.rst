@@ -67,7 +67,7 @@ These filaments are less used than those listed above, but can still find plenty
 ABS (Acrylonitrile Butadiene Styrene)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
+ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO\ |reg| pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
 
 - ABS hotend temperatures range from 230°-250° C
 - ABS bed temperatures range from 100°-120° C

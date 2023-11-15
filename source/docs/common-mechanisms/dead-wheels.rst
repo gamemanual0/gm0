@@ -191,7 +191,7 @@ Here are a few publicly available dead wheel designs:
 
   - **Things to consider**:
 
-    - Uses LEGO gears
+    - Uses LEGO\ |reg| gears
     - Uses US Digital S4T's. Quite pricey
 
 - **9794 Wizards.exe Design**
