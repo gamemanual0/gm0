@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Outreach Basics
 ===============
 A guide to starting your team's portfolio of outreach events.

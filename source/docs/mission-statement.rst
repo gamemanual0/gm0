@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 .. raw:: html
 
     <style> .highlight {color:red} </style>
