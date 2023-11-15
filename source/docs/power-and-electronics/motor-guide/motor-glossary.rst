@@ -32,7 +32,7 @@ Motor Glossary
          :width: 200
 
    UltraHex
-      UltraHex is 1/2" aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV's 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2" hex is also compatible with many FRC vendors.
+      UltraHex is 1/2" aluminum hex :term:`shafting <Shaft>` sold by REV Robotics. There is an inner 5 mm hex :term:`bore <Bore>` in the middle, which allows compatibility with REV's 5 mm hex shaft motion system. The 5mm hex bore also allows for a 1/4-20 or M6 screw to be tapped into it. 1/2" hex is also compatible with many FRC\ |reg| vendors.
 
       .. image:: images/glossary/ultrahex.png
          :alt: A piece of ultrahex shaft

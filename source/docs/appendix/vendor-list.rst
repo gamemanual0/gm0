@@ -56,4 +56,4 @@ Vendor List
   - Teams can get a 25% team discount from Servocity
 - `West Coast Products <https://wcproducts.com/>`_
 
-  - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC use. However many of their parts can be used in FTC, especially in custom robots.
+  - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC\ |reg| use. However many of their parts can be used in FTC, especially in custom robots.

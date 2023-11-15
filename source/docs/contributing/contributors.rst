@@ -36,7 +36,7 @@ Other Contributors
 - Fulton - FTC 5143 Xcentrics
 - Guineawheek - FTC Alum
 - Ian - FTC 7842 Browncoats
-- Jackson - FTC/FRC Mentor/Alum
+- Jackson - FTC/FRC\ |reg| Mentor/Alum
 - James - FTC 14298 Lincoln Robotics
 - Justin - FTC 9656 Omega
 - Karter - FTC 5975 Cybots
@@ -50,14 +50,14 @@ Other Contributors
 - Sam - FTC 2753 Team Overdrive
 - Shurik - FTC 4137 Islandbots mentor
 - Tom - FTC 3736 Serious Business
-- Tyler - FRC\ |reg| 3184 Blaze Robotics
+- Tyler - FRC 3184 Blaze Robotics
 - Wes - FTC 3658 Bosons
 - Whimsy - FTC 8417 'Lectric Legends
 
 Hosting
 -------
 
-- Benjamin Ward - FRC\ |reg|/FTC Alum - Copperforge - blward@copperforge.cc
+- Benjamin Ward - FRC/FTC Alum - Copperforge - blward@copperforge.cc
 
 .. image:: images/copperforge-logo.png
    :alt: Copperforge Logo

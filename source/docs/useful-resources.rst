@@ -34,12 +34,12 @@ General Resources
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
-`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
+`Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC\ |reg| 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
 
 Team Management
 ---------------
 
-`Running a *FIRST* Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a *FIRST* team. While some details are FRC-specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
+`Running a *FIRST* Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a *FIRST* team. While some details are FRC specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
 
 `Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- *FIRST* FTC team management resources, covering budget, engineering notebook, etc.
 
