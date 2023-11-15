@@ -3,7 +3,7 @@
 Starting a Team
 ===============
 
-So you want to start an FTC team - here's how! Here's a few tips on how to get up and running. This article covers recruiting members and mentors, structuring your team, and pitching your budget.
+So you want to start an FTC\ |reg| team - here's how! Here's a few tips on how to get up and running. This article covers recruiting members and mentors, structuring your team, and pitching your budget.
 
 Reach out locally to recruit members.
 -------------------------------------

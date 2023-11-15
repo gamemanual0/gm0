@@ -3,7 +3,7 @@
 Drivetrains
 ===========
 
-This section will cover the heart of any robot, the drivetrain. The purpose of the drivetrain is to facilitate the movement of the robot, and thus is crucial to the overall function of the robot. If the drivetrain doesn't work, the rest of the robot won't work either. There are many possible types of drivetrains in FTC, which we have covered in the guide. Drivetrains are split into two main types: tank (skid-steer) and holonomic.
+This section will cover the heart of any robot, the drivetrain. The purpose of the drivetrain is to facilitate the movement of the robot, and thus is crucial to the overall function of the robot. If the drivetrain doesn't work, the rest of the robot won't work either. There are many possible types of drivetrains in FTC\ |reg|, which we have covered in the guide. Drivetrains are split into two main types: tank (skid-steer) and holonomic.
 
 Drivetrain types
 ----------------

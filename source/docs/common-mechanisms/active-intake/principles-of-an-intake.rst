@@ -4,7 +4,7 @@ Principles of an Intake
 Reliability
 -----------
 
-- An intake must be reliable, as picking up and scoring game elements is the primary method to gain points in all FTC games.
+- An intake must be reliable, as picking up and scoring game elements is the primary method to gain points in all FTC\ |reg| games.
 
 - Intakes have many moving parts and are susceptible to breaking, especially at high RPM. Thus, the intake material must be durable to withstand long periods of operation.
 

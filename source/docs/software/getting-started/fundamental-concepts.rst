@@ -1,7 +1,7 @@
 Fundamental Concepts of Programming
 ===================================
 
-For almost any programming language, whether it's Java, Python, or Blocks, there are concepts in coding that transfer across languages. These ideas are foundational when learning to program and should be applicable in FTC and beyond.
+For almost any programming language, whether it's Java, Python, or Blocks, there are concepts in coding that transfer across languages. These ideas are foundational when learning to program and should be applicable in FTC\ |reg| and beyond.
 
 This section is primarily for people with limited Java experience. However, even if you are more experienced, it may still be helpful to skim through the section, as you might find concepts that have not yet been introduced to you.
 

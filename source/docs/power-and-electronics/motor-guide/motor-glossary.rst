@@ -6,7 +6,7 @@ Motor Glossary
 .. glossary::
 
    Core Hex Motor
-      The Core Hex Motor, sold by REV, is different from the standard :term:`RS-555 series motors <RS-550 Series Motor>` that are generally used by FTC teams. It features a 90 degree orientation and does not contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to length as needed. The Core Hex motor has a slow gear ratio (72:1), and is not as powerful as the RS-555 series motor.
+      The Core Hex Motor, sold by REV, is different from the standard :term:`RS-555 series motors <RS-550 Series Motor>` that are generally used by FTC\ |reg| teams. It features a 90 degree orientation and does not contain an output shaft. Thus, teams will have to cut 5 mm hex shaft to length as needed. The Core Hex motor has a slow gear ratio (72:1), and is not as powerful as the RS-555 series motor.
 
       .. warning:: We advise teams to go against the Basic Bot Guide provided by *FIRST*\ |reg|, as Core Hex Motors should NOT be used to power drivetrains.
 

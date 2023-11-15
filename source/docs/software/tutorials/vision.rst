@@ -3,7 +3,7 @@
 Computer Vision
 ===============
 
-Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC.
+Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC\ |reg|.
 
 Currently, there are 3 commonly used forms of computer vision: TensorFlow Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
 
@@ -41,8 +41,8 @@ EasyOpenCV Simulator is a straightforward way to test your pipelines directly on
 
 You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-Sim>`__.
 
-FTC Dashboard
-^^^^^^^^^^^^^
+FTC\ |reg| Dashboard
+^^^^^^^^^^^^^^^^^^^^
 
 FTC Dashboard runs a dashboard webpage on the Control Hub that, among other things, streams a live preview of a connected camera. This is a very useful tool for testing and debugging vision applications.
 

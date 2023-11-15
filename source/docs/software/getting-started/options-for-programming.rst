@@ -113,7 +113,7 @@ Advantages
 Disadvantages
 ~~~~~~~~~~~~~
 
-- Not widely used in FTC yet
+- Not widely used in FTC\ |reg| yet
 - New and has fewer community resources for training
 - Not recommended for programmers who need large amounts of help from other teams
 

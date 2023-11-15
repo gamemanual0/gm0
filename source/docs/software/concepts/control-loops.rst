@@ -56,7 +56,7 @@ This slope can be calculated by keeping track of the error over successive itera
 The Integral Term
 ^^^^^^^^^^^^^^^^^
 
-Admittedly, the integral term is the least important term for FTC PID control loops. With a properly tuned :math:`K_p` and :math:`K_d`, you often can just set :math:`K_i` to 0 and call it a day.
+Admittedly, the integral term is the least important term for FTC\ |reg| PID control loops. With a properly tuned :math:`K_p` and :math:`K_d`, you often can just set :math:`K_i` to 0 and call it a day.
 
 However, it can still be useful in some cases. Just like the derivative term, the integral term intends to correct for overshoot. if the system thinks it reached its destination, it will stop, even when, in fact, the error is not yet 0. Perhaps the motor is no longer being supplied enough power to move. Well, given enough time, the integral term will increase the output (in this case, motor power), causing movement towards the destination.
 

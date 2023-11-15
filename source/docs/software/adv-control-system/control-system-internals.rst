@@ -13,7 +13,7 @@ Expansion Hub Internals
 Lynx Board
 ^^^^^^^^^^
 
-"Lynx" is the codename of the board within the Expansion Hub and Control Hub that interacts with hardware. References to "Lynx" are made in the FTC SDK refer to this board. It appears to have been developed by both REV and DEKA, possibly for use in *FIRST*\ |reg| Global (judging by the *FIRST* Global silkscreen on the PCB).
+"Lynx" is the codename of the board within the Expansion Hub and Control Hub that interacts with hardware. References to "Lynx" are made in the FTC\ |reg| SDK refer to this board. It appears to have been developed by both REV and DEKA, possibly for use in *FIRST*\ |reg| Global (judging by the *FIRST* Global silkscreen on the PCB).
 
 .. warning:: Don't take apart a Control or Expansion Hub unless you really know what you are doing. They can be damaged in the process, especially if one does not know how to properly reassemble it.
 

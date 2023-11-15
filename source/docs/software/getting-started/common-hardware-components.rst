@@ -1,7 +1,7 @@
 Reading and Writing to Hardware
 ===============================
 
-When using the FTC SDK, there are a variety of built in hardware classes which can be used to communicate with hardware on the robot such as DC Motors, :term:`Servos <Servo>`, and Sensors.
+When using the FTC\ |reg| SDK, there are a variety of built in hardware classes which can be used to communicate with hardware on the robot such as DC Motors, :term:`Servos <Servo>`, and Sensors.
 
 Creating and Instantiating Hardware Objects
 -------------------------------------------

@@ -8,7 +8,7 @@ What is Power?
 
 Fundamentally, power is defined as the amount of energy transferred in a given time period. Practically, this means power is how much "energy" you can get out of the motor. **The output power of a motor varies depending on how much load is on it, but does not change as the gear ratio of the motor changes**. What this means is that a free-spinning 1:1 motor will output the same amount of power as a free spinning 100:1 motor, but the actual speed and torque will be different. Output power is proportional to speed times torque, so as speed and torque are changed with a gearbox, the output power must remain the same.
 
-Another piece of information, although not always as useful, is the *input* power of the motor. The input power of the motor is how many watts of power the motor consumes, which is equal to the voltage sent to the motor times the current consumed by the motor. **Motors are not 100% efficient, so to get a certain output power you often need double or even triple the input power**. For example, a standard FTC motor can consume up to 65 watts just to produce 29 watts of output power.
+Another piece of information, although not always as useful, is the *input* power of the motor. The input power of the motor is how many watts of power the motor consumes, which is equal to the voltage sent to the motor times the current consumed by the motor. **Motors are not 100% efficient, so to get a certain output power you often need double or even triple the input power**. For example, a standard FTC\ |reg| motor can consume up to 65 watts just to produce 29 watts of output power.
 
 .. _motor-data:
 

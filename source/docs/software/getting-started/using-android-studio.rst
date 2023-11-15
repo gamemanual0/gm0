@@ -155,7 +155,7 @@ If you run into any problems with this process, refer to the official `REV docum
 - `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/duo-control/programming/android-studio-using-wireless-adb>`_
 
-If you're still stuck you can ask for help in the `FTC Discord <https://discord.com/invite/first-tech-challenge>`_.
+If you're still stuck you can ask for help in the `FTC\ |reg| Discord <https://discord.com/invite/first-tech-challenge>`_.
 
 Gradle
 ------

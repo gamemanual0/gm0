@@ -9,7 +9,7 @@ Awards
 
 .. warning:: Judging and awards are extremely subjective and some rules change a bit from state to state. What works in one region may not in other regions. So contact your judges about specifics of some things; for example some competitions allow you to turn a custom control award sheet, others only accept the one listed by *FIRST*. The writers of this part of |gm0| have extensive experience with awards and have even been winners and finalists for the Inspire Award at the World Championships.
 
-For most awards, teams have a 5 minute presentation at the beginning of the day followed by some Q&A time and possibly pit judging later on (read the section on the judging process for more detail). There are 7 awards for FTC teams (excluding awards that cannot advance a team).
+For most awards, teams have a 5 minute presentation at the beginning of the day followed by some Q&A time and possibly pit judging later on (read the section on the judging process for more detail). There are 7 awards for FTC\ |reg| teams (excluding awards that cannot advance a team).
 
 For winning every award, the Engineering Portfolio is a key reference and is quintessential, so make sure that your team focuses on the Engineering Portfolio.
 

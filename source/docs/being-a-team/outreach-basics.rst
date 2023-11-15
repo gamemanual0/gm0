@@ -7,7 +7,7 @@ A guide to starting your team's portfolio of outreach events.
 What Do You Care About?
 -----------------------
 
-A concerning amount of teams see outreach as a means to obtain awards. While it is true that the Motivate and Connect Awards rely on outreach performance as award criteria, outreach is so much more than that, and as FTC teams, we are poised to make a unique impact. In order to make the most of your potential, you should target outreach that you care about.
+A concerning amount of teams see outreach as a means to obtain awards. While it is true that the Motivate and Connect Awards rely on outreach performance as award criteria, outreach is so much more than that, and as FTC\ |reg| teams, we are poised to make a unique impact. In order to make the most of your potential, you should target outreach that you care about.
 
 .. tip::
     From a judging perspective, it is also easier to talk about topics you care deeply about and are invested in.

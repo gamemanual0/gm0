@@ -30,7 +30,7 @@ Gamepad Layout
 Button Aliases
 ^^^^^^^^^^^^^^
 
-Since both PS4-style and Xbox-Style controllers are FTC legal, there are `aliases in the FTC SDK <https://github.com/OpenFTC/Extracted-RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_ between PS4-style and Xbox-style button naming.
+Since both PS4-style and Xbox-Style controllers are FTC\ |reg| legal, there are `aliases in the FTC SDK <https://github.com/OpenFTC/Extracted-RC/blob/c960dd7de34d49a66c00a345636175392f936b9e/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L892>`_ between PS4-style and Xbox-style button naming.
 
 
 +--------------+-----------+

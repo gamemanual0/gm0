@@ -6,7 +6,7 @@ The Driver Station (DS) is the way drivers interact with the robot. Through it, 
 REV Driver Hub
 --------------
 
-The REV Robotics Driver Hub is effectively an Android phone with built in USB ports. It is purpose built for FTC, and has several advantages over traditional Android phones.
+The REV Robotics Driver Hub is effectively an Android phone with built in USB ports. It is purpose built for FTC\ |reg|, and has several advantages over traditional Android phones.
 
 Advantages
 ^^^^^^^^^^

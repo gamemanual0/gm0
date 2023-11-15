@@ -8,7 +8,7 @@ Special Considerations
 
 - The REV ecosystem is based upon 15x15mm aluminum :term:`extrusion <Extrusion>` and is complemented by 45x45mm :term:`channels <Channel>`.
 - With :term:`extrusion <Extrusion>`, there are no fixed mounting holes, increasing adjustability and flexibility. For example, tensioning :term:`chain <Chain>` is simple when sliding the mount or bracket increases tension.
-- The REV system uses metric dimensions (15 mm extrusion, M3 hardware), with the exception of #25 roller :term:`chain <Chain>` (FTC standard, imperial).
+- The REV system uses metric dimensions (15 mm extrusion, M3 hardware), with the exception of #25 roller :term:`chain <Chain>` (FTC\ |reg| standard, imperial).
 - REV has purposefully designed with compatibility in mind, as pattern adapters ease compatibility issues.
 - Many REV parts are made of Delrin, a high-wear resistance plastic, which reduces overall cost. However, REV offers aluminum options for high-load parts as well.
 - REV does have a steeper learning curve than :term:`channel <Channel>` based build systems, owing to the fact that constructing structurally sound mechanisms requires just a little more thought.

@@ -10,7 +10,7 @@ The traditional :term:`XT30` connector that is used to REV is prone to breaking.
 
    An example :term:`Anderson PowerPole` (A) to :term:`XT30` (B) adapter. They can be found at `ServoCity <https://www.servocity.com/anderson-powerpole-to-female-xt30-adaptor/>`_ or `REV Robotics <https://www.revrobotics.com/REV-31-1385/>`_.
 
-The Tamiya connectors found on many of the FTC legal batteries are very weak and prone to becoming unreliable after many repeated plug/unplug cycles. It is recommended that teams crimp new :term:`Anderson PowerPole` connectors onto the battery.
+The Tamiya connectors found on many of the FTC\ |reg| legal batteries are very weak and prone to becoming unreliable after many repeated plug/unplug cycles. It is recommended that teams crimp new :term:`Anderson PowerPole` connectors onto the battery.
 
 It is highly recommended for teams to use the `REV grounding strap <https://www.revrobotics.com/rev-31-1269/>`_ and the `REV USB strain relief <https://www.revrobotics.com/rev-41-1214/>`_ to help prevent disconnections.
 

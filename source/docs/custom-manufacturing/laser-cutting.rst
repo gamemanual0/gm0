@@ -1,7 +1,7 @@
 Laser Cutting
 =============
 
-Laser cutting can be a useful tool that allows FTC teams to quickly produce complex custom parts. This guide will cover the uses of laser cutting in FTC, common types of laser cutters, and how to optimize your design for laser cutting.
+Laser cutting can be a useful tool that allows FTC\ |reg| teams to quickly produce complex custom parts. This guide will cover the uses of laser cutting in FTC, common types of laser cutters, and how to optimize your design for laser cutting.
 
 If your team does not have access to a laser cutter, consider checking with sponsors or local makerspaces, or using a service like `Fabworks <https://www.fabworks.com/>`_ or `SendCutSend <https://sendcutsend.com/>`_. These may have access to laser cutters that can cut more exotic materials. For example, Fabworks and SendCutSend both cut metals such as aluminum and steel, and SendCutSend specifically offers a wide variety of woods, plastics, metals, and composites. These services may also offer post-processing such as bending, tapping, and powder coating.
 

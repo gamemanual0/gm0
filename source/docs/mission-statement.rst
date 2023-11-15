@@ -9,7 +9,7 @@
 Mission Statement
 =================
 
-Hello! Welcome and thank you for taking the time to read |gm0|, the premier resource for new and upcoming *FIRST*\ |reg| Tech Challenge teams! If you are a rookie or a new team, we would especially like to welcome you to the FTC community. We want to make your beginning steps and transition into FTC as seamless as possible, and offer some of our own experience and advice compiled over the years.
+Hello! Welcome and thank you for taking the time to read |gm0|, the premier resource for new and upcoming *FIRST*\ |reg| Tech Challenge teams! If you are a rookie or a new team, we would especially like to welcome you to the FTC\ |reg| community. We want to make your beginning steps and transition into FTC as seamless as possible, and offer some of our own experience and advice compiled over the years.
 
 The goal of |gm0| is to create a comprehensive guide for FTC teams. Physical resources for FTC are few and far between, and online resources are scattered across the interwebs. Typically, the largest inhibitor for newer teams is the lack of knowledge base, as robotics is a relatively new STEM field. New teams also have not made connections to experienced teams who might mentor or offer advice throughout the season. Thus, they are left in the dark to figure things out, seemingly with no way out. While the journey of learning cannot be shortcut, |gm0| seeks to address these shortcomings by providing a starter's guide to the hardware and software in *FIRST* Tech Challenge.
 

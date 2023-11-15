@@ -6,7 +6,7 @@ Servo Guide
    .. glossary::
 
       Servo
-         a small DC motor attached to servo gears that is very finely controllable and interfaces via a 3 wire PWM connector. Servos are used in FTC for high-precision applications that are low-load - for example, opening a trapdoor for balls to fall through. Typically servos have limited range of rotation (180° is common). The output has splines, which are the rigid teeth that are on top of the servo.
+         a small DC motor attached to servo gears that is very finely controllable and interfaces via a 3 wire PWM connector. Servos are used in FTC\ |reg| for high-precision applications that are low-load - for example, opening a trapdoor for balls to fall through. Typically servos have limited range of rotation (180° is common). The output has splines, which are the rigid teeth that are on top of the servo.
 
 Servos are commonly used in RC cars (steering) and RC planes (moving ailerons). In FTC, servos are typically used for claws, grabbers, and arms.
 

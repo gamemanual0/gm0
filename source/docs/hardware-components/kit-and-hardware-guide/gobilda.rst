@@ -13,7 +13,7 @@ Special Considerations
 - goBILDA's robust motion system allows teams to easily build drivetrains and mechanisms without worrying about placement and tensioning.
 - It is arguable, but goBILDA has likely a low learning curve due to its simple yet extremely functional catalog of parts.
 - goBILDA parts can generally be easily adapted to other kit parts such as REV.
-- Additionally, goBILDA is still being developed at a quick pace and is responsive to the needs of the FTC community.
+- Additionally, goBILDA is still being developed at a quick pace and is responsive to the needs of the FTC\ |reg| community.
 - **goBILDA offers a 25% discount for** *FIRST*\ |reg| **teams**.
 
 Notable components

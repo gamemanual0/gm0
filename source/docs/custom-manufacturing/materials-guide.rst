@@ -3,7 +3,7 @@
 Materials Guide
 ===============
 
-In FTC, teams have design freedom in terms of what raw materials to use. However, there are definitely some important recommendations regarding material usage.
+In FTC\ |reg|, teams have design freedom in terms of what raw materials to use. However, there are definitely some important recommendations regarding material usage.
 
 Common raw materials may be found at your local hardware store. McMaster-Carr and OnlineMetals are two frequently used online vendors. For more vendors, check the Appendix.
 

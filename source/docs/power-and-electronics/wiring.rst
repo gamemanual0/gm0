@@ -6,7 +6,7 @@ Wiring Guide
 Why does wiring matter?
 -----------------------
 
-Have you ever looked inside your robot and thought "what a mess of wires"? Wiring is extremely important in FTC, but is often overlooked or hastily done the hour before competition starts. However, time spent in wiring the robot properly is crucial to the performance and maintenance of the robot.
+Have you ever looked inside your robot and thought "what a mess of wires"? Wiring is extremely important in FTC\ |reg|, but is often overlooked or hastily done the hour before competition starts. However, time spent in wiring the robot properly is crucial to the performance and maintenance of the robot.
 
 .. attention:: It is highly discouraged for teams to overlook wiring, but many new teams seem to disregard it or put little thought into wiring the robot properly.
 

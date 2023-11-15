@@ -17,7 +17,7 @@ When you think of a belt, you're probably thinking of a very important men's fas
 
 While a timing belt may complete a similar objective to :term:`chain <Sprocket>`, its characteristics and strengths are very different. Timing belts are lighter and more compact than chains, but they lack the customizability of their bulkier brother - belts come in a closed loop of predetermined length, and there's no changing that length on the fly.
 
-Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches found on FTC robots include HTD 5mm, HTD 3mm, and GT2 3mm.
+Like chain, belt is identified by its :term:`pitch <Pitch>` - common pitches found on FTC\ |reg| robots include HTD 5mm, HTD 3mm, and GT2 3mm.
 
 When using timing belts, correct tension is very important. There are two main ways to get your tension right. The first is easy - goBILDA and Actobotics already have belts integrated into their hole patterns. You can buy correctly sized belt directly from each vendor, and your tension will be perfect as soon as the belt is installed. As your designs gain complexity, so will your belt runs - maybe there are more than 2 pulleys, and maybe your pulleys are all different sizes. To compensate for this, the second way to ensure tension is to use a dynamic tensioner, similar to those found in complex chain runs. To design for these tensioners, we recommend planning more complex belt runs in CAD before building them in real life.
 

@@ -1,7 +1,7 @@
 Dead Wheels
 ===========
 
-.. warning:: This is a very niche aspect of design in FTC. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
+.. warning:: This is a very niche aspect of design in FTC\ |reg|. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
 
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms.
 
@@ -124,7 +124,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
 
-The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC-centric documentation. It is more popular in FRC.
+The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC centric documentation. It is more popular in FRC.
 
 .. figure:: images/odometry/srx-mag.jpg
    :alt: A CTRE SRX Mag encoder
@@ -233,7 +233,7 @@ Open Odometry (REV Through Bore Encoder)
    :alt: Section view of Open Odometry
    :width: 40em
 
-FTC Team 14310 (REV Through Bore Encoder)
+FTC\ |reg| Team 14310 (REV Through Bore Encoder)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14310.jpg

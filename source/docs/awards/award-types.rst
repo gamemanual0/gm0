@@ -6,7 +6,7 @@ Award Categories
 Advancing Awards
 ----------------
 
-There are 7 awards for FTC teams (excluding optional awards). For more information on the exact requirements for these awards, see |gm1|. In order of advancement priority, these are:
+There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more information on the exact requirements for these awards, see |gm1|. In order of advancement priority, these are:
 
 .. glossary::
 

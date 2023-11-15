@@ -8,7 +8,7 @@ In this section, we compile several sample drivetrains which you can use as a st
 `goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_
    Basic 6 wheel drive chassis by goBILDA. Simple and easy to build chassis, providing an excellent starting point for robots built from goBILDA parts.
 `Strafer chassis with Dead Wheels <https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_
-   Modification of goBILDA chassis by FTC 9794 Wizards.exe, which adds :term:`dead wheels <Dead Wheel>`. Also see their video tutorials:
+   Modification of goBILDA chassis by FTC\ |reg| 9794 Wizards.exe, which adds :term:`dead wheels <Dead Wheel>`. Also see their video tutorials:
    https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <https://docs.revrobotics.com/duo-build/channel-drivetrain-build-guide>`_
    Sample 6 wheel drivetrain built using REV kit.

@@ -9,7 +9,7 @@ Rarely should an arm be directly mounted to the driving motor. Instead, torque s
 
 Depending on the application and implementation, arms can be either faster or slower than extension options.
 
-The different types of arms in FTC include single arm and multi-axis arms.
+The different types of arms in FTC\ |reg| include single arm and multi-axis arms.
 
 Advantages
 ----------

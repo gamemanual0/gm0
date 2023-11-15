@@ -4,7 +4,7 @@ Mecanum TeleOp
 Mecanum Physics
 ---------------
 
-:term:`Mecanum drive <Mecanum Wheel>` is a very popular drivetrain type in FTC. Mecanum drivetrains enables holonomic movement. This means that the drivetrain is able to move in any direction while rotating: forwards, backwards, side to side, translating while rotating, etc. `Here is a neat video <https://www.youtube.com/watch?v=pP8ajNMx84k>`_ demonstrating such movement.
+:term:`Mecanum drive <Mecanum Wheel>` is a very popular drivetrain type in FTC\ |reg|. Mecanum drivetrains enables holonomic movement. This means that the drivetrain is able to move in any direction while rotating: forwards, backwards, side to side, translating while rotating, etc. `Here is a neat video <https://www.youtube.com/watch?v=pP8ajNMx84k>`_ demonstrating such movement.
 
 .. note:: Some common COTS mecanum drivetrain kits are the `goBILDA Strafer Chassis Kit <https://www.gobilda.com/strafer-chassis-kit-v5/>`_ and the `REV Mecanum Drivetrain Kit <https://www.revrobotics.com/rev-45-2470/>`_.
 

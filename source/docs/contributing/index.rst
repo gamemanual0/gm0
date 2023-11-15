@@ -11,7 +11,7 @@ Hello, and thank you for taking the time to consider contributing to |gm0|. Your
 Who can contribute?
 -------------------
 
-|gm0| welcomes contributions from basically anybody. The majority of this guide was written by accomplished students of FTC from a wide variety of teams, alongside mentors and alums. Our editorial control is based purely on content, as long as the content is good, it'll be added to |gm0|.
+|gm0| welcomes contributions from basically anybody. The majority of this guide was written by accomplished students of FTC\ |reg| from a wide variety of teams, alongside mentors and alums. Our editorial control is based purely on content, as long as the content is good, it'll be added to |gm0|.
 
 Goals of |gm0|
 --------------
