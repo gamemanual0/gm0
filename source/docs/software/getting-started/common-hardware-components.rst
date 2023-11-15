@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Reading and Writing to Hardware
 ===============================
 

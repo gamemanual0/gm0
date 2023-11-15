@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Principles of an Intake
 =======================
 

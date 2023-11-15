@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Getting Started
 ===============
 

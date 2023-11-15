@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 LinearOpMode vs OpMode
 ======================
 

@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Computer-aided design (CAD)
 ===========================
 

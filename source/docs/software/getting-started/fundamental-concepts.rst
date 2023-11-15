@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Fundamental Concepts of Programming
 ===================================
 
