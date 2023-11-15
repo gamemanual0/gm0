@@ -41,7 +41,14 @@ Include pictures/videos whenever possible.
 
 Adhere to brand standards when possible.
 
-- It's gm0 not GM0 damn it; look at the logo.
+- Abide by *FIRST*\ |reg| Trademark guidelines, available `here <https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf>`_
+
+  - Always capitalize and italize the name *FIRST*
+  - The first instance of *FIRST* on a page should include \ |reg| (i.e, *FIRST*\ |reg|)
+  - Do NOT use a possessive on the *FIRST* name
+
+It's gm0 not GM0 damn it; look at the logo.
+
 - This also applies to team names: spell them how they are officially spelled
 
   - Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team's name.
