@@ -236,7 +236,7 @@ Open Odometry (REV Through Bore Encoder)
    :width: 40em
 
 FTC\ |reg| Team 14310 (REV Through Bore Encoder)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/odometry/14310.jpg
    :alt: 14130's odometry
