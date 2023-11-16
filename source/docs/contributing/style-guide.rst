@@ -17,7 +17,7 @@ Don't deal in absolutes.
 
 - Try to leave out stuff that doesn't work well and is unpopular; if it is popular it is worth explaining the disadvantages (see H-drive vs ball drive; explaining H-drive, as a relatively popular and simple drivetrain makes sense, but ball drive, a drivetrain that barely exists and is ridiculously complicated makes no sense to bring up)
 - Try to leave opinions out as much as possible. Do not speak authoritatively on stuff you do not have first-hand experience with whenever possible
-- **Keep in mind that** FTC\ |reg| **design trends are temporary and transient**
+- **Keep in mind that FTC design trends are temporary and transient**
 
   - Just because something is popular one season doesn't mean it's the end all be all. There was a time when 6-wheel drives and coaxial swerve drives were all the rage, but that doesn't mean that we should recommend them in |gm0|. Try your best to think about why something is popular, and what benefits in design, function, and execution they actually bring to the table.
 
