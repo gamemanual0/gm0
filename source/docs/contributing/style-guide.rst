@@ -49,7 +49,7 @@ Adhere to brand standards when possible.
   - Always capitalize and italize the name *FIRST*
   - Do NOT use a possessive on the *FIRST* name (e.g, *FIRST*'s)
 
-It's gm0 not GM0 damn it; look at the logo.
+- It's gm0 not GM0 damn it; look at the logo.
 
 - This also applies to team names: spell them how they are officially spelled
 
