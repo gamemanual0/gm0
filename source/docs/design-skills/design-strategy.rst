@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Design Strategy
 ===============
 
-A useful resource is the championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on effective design and competition strategies: `Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow from the presentation <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
+A useful resource is the championship conference presentation from Karthik Kanagasabapathy, former lead mentor (and current advisor) of Hall of Fame team FRC\ |reg| 1114, Simbotics, on effective design and competition strategies: `Effective FIRST Strategies. <https://www.youtube.com/watch?v=5fifL47TvzE>`_ See also the `slideshow from the presentation <https://www.simbotics.org/_files/ugd/81d293_2417ace601d84fb5afaf62f424ad5bd3.pdf>`_.
 
 General Design Tips and Mistakes
 --------------------------------
@@ -104,7 +106,7 @@ Fretting about Design → Focusing on Execution
 
 .. tip:: A good execution of a bad design will beat a bad execution of good design.
 
-.. important:: FTC is all about how well you execute in both the mechanical aspect and the driver aspect. If your goal is winning, then how mechanically beautiful your robot is doesn't matter. Your goal is less of impressing the judges but performing the best you possibly can on the field.
+.. important:: FTC\ |reg| is all about how well you execute in both the mechanical aspect and the driver aspect. If your goal is winning, then how mechanically beautiful your robot is doesn't matter. Your goal is less of impressing the judges but performing the best you possibly can on the field.
 
 It is very possible to take a bad design, execute it well, and still be competitive at a high level. Even though not many teams are able to do so, it still goes to show that the method of implementation is very important. When brainstorming designs, try not to get hung up on small details if possible.
 

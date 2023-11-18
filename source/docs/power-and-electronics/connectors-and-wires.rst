@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Connectors and Wires
 ====================
 
-There are many types of connectors for use in FTC. Here are the most common connectors you will find on an FTC robot.
+There are many types of connectors for use in FTC\ |reg|. Here are the most common connectors you will find on an FTC robot.
 
 .. glossary::
 

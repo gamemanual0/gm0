@@ -6,7 +6,7 @@ Choosing a Motor
 Legal Motors
 ------------
 
-12 V motors are strictly controlled by FTC rules. As of 2020-2021 season, the only FTC legal motors are the following ones:
+12 V motors are strictly controlled by FTC\ |reg| rules. As of 2020-2021 season, the only FTC legal motors are the following ones:
 
 - TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_, `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
 - `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_

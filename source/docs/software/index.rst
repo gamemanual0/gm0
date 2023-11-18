@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Software
 ========
 
-This section covers the basics of software for FTC.
+This section covers the basics of software for FTC\ |reg|.
 
 .. toctree::
    :maxdepth: 1

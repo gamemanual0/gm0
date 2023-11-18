@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Common Mechanisms
 =================
 
-This chapter covers suggestions for design of common components of FTC robots: drivetrain, linear motion (slides and lifts), claws, intakes, and more.
+This chapter covers suggestions for design of common components of FTC\ |reg| robots: drivetrain, linear motion (slides and lifts), claws, intakes, and more.
 
 .. toctree::
    :maxdepth: 1

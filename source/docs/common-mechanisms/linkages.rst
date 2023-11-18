@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Linkages
 ========
 
@@ -38,7 +40,7 @@ Four Bar
 
 One type of linkage is called a four bar linkage. This is a linkage that keeps the end bar at the same angle to the ground at all times. For example, if the end bar of a virtual four bar is parallel to the ground when retracted, it will be parallel to the ground at all times, even when rotated fully out. This is beneficial for mechanisms like claws, which you want parallel to the ground during operation. In addition, four bars can provide extension outside of the robot frame, and generally provide both vertical and horizontal extension due to the "arc" that the arm follows. Also, the construction material of the four bar can be carefully selected to save weight.
 
-This mechanism is not widely used in FTC due to the space requirements. The linkage bars that keep the end bar parallel restrict a four bar to under 180 degrees of travel (less then 90 degrees in either direction) without specialized mechanical construction, and the bars also take up space in the robot frame.
+This mechanism is not widely used in FTC\ |reg| due to the space requirements. The linkage bars that keep the end bar parallel restrict a four bar to under 180 degrees of travel (less then 90 degrees in either direction) without specialized mechanical construction, and the bars also take up space in the robot frame.
 
 .. dropdown:: CAD Example of Four Bar (Click to expand)
 

@@ -36,7 +36,7 @@ Disadvantages
 .. figure:: images/tank/tetrix-pushbot.jpg
    :alt: Tetrix pushbot
 
-   Example pushbot drivetrain included in the starter FTC guide
+   Example pushbot drivetrain included in the starter FTC\ |reg| guide
 
 4 Wheel Drive
 -------------

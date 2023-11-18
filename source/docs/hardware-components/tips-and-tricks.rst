@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Tips and Tricks
 ===============
 
-Below is a collection of tips and tricks on basic building. Some of them may seem obvious, but almost every FTC newbie made these mistakes at least once.
+Below is a collection of tips and tricks on basic building. Some of them may seem obvious, but almost every FTC\ |reg| newbie made these mistakes at least once.
 
 - **Color code your tools**. If you are using several different sizes of hex drivers (e.g. 2.5 mm and 3 mm used in goBILDA), color code them, using different color electric tape for different sizes.
 - **Avoid set screws**. :term:`Set screws <Set Screw>` easily come loose, causing the hub to slip. In addition, :term:`set screws <Set Screw>` damage the :term:`axle <Shaft>`, sometimes making it very hard to remove the hub later. For these reasons, whenever possible, use :term:`clamping hubs <Clamping Hub>` and collars instead of :term:`set screw <Set Screw>` ones. If you must use set screw hubs, use a non-permanent threadlocker such as `Loctite blue <https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html>`_ to prevent them from loosening.

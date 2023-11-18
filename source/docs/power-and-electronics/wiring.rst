@@ -6,7 +6,7 @@ Wiring Guide
 Why does wiring matter?
 -----------------------
 
-Have you ever looked inside your robot and thought "what a mess of wires"? Wiring is extremely important in FTC, but is often overlooked or hastily done the hour before competition starts. However, time spent in wiring the robot properly is crucial to the performance and maintenance of the robot.
+Have you ever looked inside your robot and thought "what a mess of wires"? Wiring is extremely important in FTC\ |reg|, but is often overlooked or hastily done the hour before competition starts. However, time spent in wiring the robot properly is crucial to the performance and maintenance of the robot.
 
 .. attention:: It is highly discouraged for teams to overlook wiring, but many new teams seem to disregard it or put little thought into wiring the robot properly.
 
@@ -15,7 +15,7 @@ While tedious and often no fun, wiring can mean the difference between a win and
 *FIRST*\ |reg| FTC Wiring Guide
 -------------------------------
 
-*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won't be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST*\ |reg| has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
+*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won't be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST* has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
 
 General Advice
 --------------
@@ -118,7 +118,7 @@ REV Grounding Strap
 Power distribution blocks/panels
    The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos.
 Dryer sheets
-   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST*\ |reg| or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can't hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
+   Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST* or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can't hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray
    Staticide is a spray that helps to keep static off of the robot. Please be sure to spray your robot before an event and not during the event.
 Common causes of static

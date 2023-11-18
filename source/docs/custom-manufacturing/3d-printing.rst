@@ -6,7 +6,7 @@
 Kinds of 3D Printing
 --------------------
 
-There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) (also known as Fused Filament Fabrication) extrudes a melted filament to create a part and is the most common type and the one we'll focus on in this guide. SLA (stereolithography) and SLS (Selective Laser Sintering) are both options for 3D printing plastics, but they are generally more complex, expensive, or hold other disadvantages in FTC applications. For those reasons, they are not recommended.
+There are a few different kinds of 3D printing. FDM (Fused Deposition Modeling) (also known as Fused Filament Fabrication) extrudes a melted filament to create a part and is the most common type and the one we'll focus on in this guide. SLA (stereolithography) and SLS (Selective Laser Sintering) are both options for 3D printing plastics, but they are generally more complex, expensive, or hold other disadvantages in FTC\ |reg| applications. For those reasons, they are not recommended.
 
 Metal 3D printing (SLS and others) is also becoming more and more available, but is not in the scope of this guide.
 
@@ -67,7 +67,7 @@ These filaments are less used than those listed above, but can still find plenty
 ABS (Acrylonitrile Butadiene Styrene)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
+ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO\ |reg| pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
 
 - ABS hotend temperatures range from 230°-250° C
 - ABS bed temperatures range from 100°-120° C

@@ -13,7 +13,7 @@ After learning your :term:`CAD <Computer-aided design (CAD)>` program of choice,
 
 For instance, in Relic Recovery (2017-2018) a drivetrain required precision to not only grab glyphs from the center pit, but also to line up against the cryptobox. Thus, mecanum wheels and a wide center section of the robot proved an advantage over a 6 wheel tank drive. (However, it should be noted that with sufficient practice and competent drivers, any drive base can be competitive up to a certain extent).
 
-After selecting a drivebase, determine the number of motors. Keep in mind the eight motor limit is a pain that shouldn't be ignored. A good rule of thumb is four motors for driving and four motors for the other mechanisms (e.g. intakes, linear slides, arm, etc.) For most modern FTC games, you need minimum 7 motors to be highly competitive, although 8 is a good rule of thumb.
+After selecting a drivebase, determine the number of motors. Keep in mind the eight motor limit is a pain that shouldn't be ignored. A good rule of thumb is four motors for driving and four motors for the other mechanisms (e.g. intakes, linear slides, arm, etc.) For most modern FTC\ |reg| games, you need minimum 7 motors to be highly competitive, although 8 is a good rule of thumb.
 
 Designing the Drivetrain Plates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

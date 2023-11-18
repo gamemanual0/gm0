@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Common Issues
 =============
 
@@ -13,7 +15,7 @@ Some common types of exceptions include:
 - **NullPointerException**
 
   - It occurs when trying to call a method or getting a property of an object from a variable with a *null* value, which basically means that the variable doesn't hold a value *yet*, or the value doesn't exist.
-  - This exception is one of the most common in FTC, below is an example that throws a NullPointerException:
+  - This exception is one of the most common in FTC\ |reg|, below is an example that throws a NullPointerException:
 
   .. code:: java
 

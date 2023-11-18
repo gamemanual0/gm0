@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Tutorials
 =========
 
-Tutorials for common FTC programs.
+Tutorials for common FTC\ |reg| programs.
 
 .. toctree::
    :maxdepth: 1

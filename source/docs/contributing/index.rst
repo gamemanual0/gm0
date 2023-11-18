@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Contributor's Guide
 ===================
 
@@ -9,15 +11,15 @@ Hello, and thank you for taking the time to consider contributing to |gm0|. Your
 Who can contribute?
 -------------------
 
-|gm0| welcomes contributions from basically anybody. The majority of this guide was written by accomplished students of FTC from a wide variety of teams, alongside mentors and alums. Our editorial control is based purely on content, as long as the content is good, it'll be added to |gm0|.
+|gm0| welcomes contributions from basically anybody. The majority of this guide was written by accomplished students of FTC\ |reg| from a wide variety of teams, alongside mentors and alums. Our editorial control is based purely on content, as long as the content is good, it'll be added to |gm0|.
 
 Goals of |gm0|
 --------------
 
 Before writing, please take the time to familiarize yourself with the goals of |gm0|. The primary goals are:
 
-#. To inform and guide newer teams, participants, and coaches of the FIRST Tech Challenge and help them achieve their competitive goals.
-#. To act as a living reference for mechanisms, techniques, and community knowledge pertinent to FIRST Tech Challenge.
+#. To inform and guide newer teams, participants, and coaches of the *FIRST*\ |reg| Tech Challenge and help them achieve their competitive goals.
+#. To act as a living reference for mechanisms, techniques, and community knowledge pertinent to *FIRST* Tech Challenge.
 
 These goals may seem relatively self-explanatory, but they have several important takeaways.
 

@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Roller Chain
 ============
 
@@ -10,7 +12,7 @@ When your shafts aren't right next to each other, roller chain and sprockets wil
       Chain
          Roller chain is made up of a series of links joined by pins. Each link can rotate around its pins, creating a dynamic loop that can conform to any shape. The pins in the chain engage the gaps between teeth on each sprocket.
 
-         Chain number refers to the type and size of chain that is compatible with the sprocket. #25 chain and 8mm chain are both commonly used in FTC.
+         Chain number refers to the type and size of chain that is compatible with the sprocket. #25 chain and 8mm chain are both commonly used in FTC\ |reg|.
 
 If you've ridden a bike, chances are that you've already seen roller chain - the chain on your FTC robot is similar, but it's probably a different :term:`pitch <Pitch>` (different size). Chains most commonly used in FTC are #25 (1/4 inch pitch) or 8mm pitch.
 

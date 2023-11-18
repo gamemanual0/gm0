@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Computer Vision
 ===============
 
-Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC.
+Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC\ |reg|.
 
 Currently, there are 3 commonly used forms of computer vision: TensorFlow Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
 
@@ -15,7 +17,7 @@ TensorFlow is Google's machine learning technology, which can be trained to dete
 
 Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__.
 
-FIRST has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found `on FTC Docs <https://ftc-docs.firstinspires.org/ftc_ml/index.html>`_.
+*FIRST*\ |reg| has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found `on FTC Docs <https://ftc-docs.firstinspires.org/ftc_ml/index.html>`_.
 
 AprilTags
 ^^^^^^^^^
@@ -39,8 +41,8 @@ EasyOpenCV Simulator is a straightforward way to test your pipelines directly on
 
 You can find EasyOpenCV Simulator `here <https://github.com/deltacv/EOCV-Sim>`__.
 
-FTC Dashboard
-^^^^^^^^^^^^^
+FTC\ |reg| Dashboard
+^^^^^^^^^^^^^^^^^^^^
 
 FTC Dashboard runs a dashboard webpage on the Control Hub that, among other things, streams a live preview of a connected camera. This is a very useful tool for testing and debugging vision applications.
 

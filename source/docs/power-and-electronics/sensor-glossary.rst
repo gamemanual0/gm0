@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Sensor Glossary
 ===============
 
-Sensors are used in a variety of applications within FTC. Sensors can give external feedback regarding the position of the robot (for example, relative to the field wall or to a vision target) or internal feedback (velocity, distance traveled, voltage, etc.). Sensors can also be used to determine the rotation of a mechanism and detect color.
+Sensors are used in a variety of applications within FTC\ |reg|. Sensors can give external feedback regarding the position of the robot (for example, relative to the field wall or to a vision target) or internal feedback (velocity, distance traveled, voltage, etc.). Sensors can also be used to determine the rotation of a mechanism and detect color.
 
 Encoders/Potentiometers
 -----------------------

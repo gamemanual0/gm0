@@ -1,14 +1,16 @@
+.. include:: <isonum.txt>
+
 Starting a Team
 ===============
 
-So you want to start an FTC team - here's how! Here's a few tips on how to get up and running. This article covers recruiting members and mentors, structuring your team, and pitching your budget.
+So you want to start an FTC\ |reg| team - here's how! Here's a few tips on how to get up and running. This article covers recruiting members and mentors, structuring your team, and pitching your budget.
 
 Reach out locally to recruit members.
 -------------------------------------
 
 Chances are, if you're interested in robotics, you'll find quite a few people in your area interested in the same thing! Recruiting them is all about spreading your message and sparking interest in your team, and for that, advertising is everything. Make a catchy flyer and hold a couple interest meetings! A handy tip to get people to attend is to bring food - people love free food...
 
-At these interest events, discuss how FTC is interesting and beneficial to those who participate. Make sure to have information for both parents and students! While you're recruiting, make sure to be inclusive - people may not have figured out that their passions lie within the scope of FIRST, and they may do so in creative ways when given the opportunity!
+At these interest events, discuss how FTC is interesting and beneficial to those who participate. Make sure to have information for both parents and students! While you're recruiting, make sure to be inclusive - people may not have figured out that their passions lie within the scope of *FIRST*\ |reg|, and they may do so in creative ways when given the opportunity!
 
 .. tip:: To ensure a sustainable team, you should recruit from grades 7 upwards if possible to allow for a constant flow of members. The key to sustainability is new faces!
 
@@ -22,7 +24,7 @@ It's understandable if you have difficulty with this step, but it is critically 
 Now, to find mentors: reaching out to STEM teachers in your area is a great way to find interest, but you can also reach out to local businesses to see if any of their employees would be interested in lending a hand! (See the email guide for more tips.) New recruits can ease this process a little, and if a new mentor knows a team member it'll make it easier for them to mesh with the rest of the team. Receiving mentorship over text and video is generally less recommended, as in-person mentors can communicate and demonstrate mechanical and software concepts more efficiently.
 
 .. important::
-   To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass FIRST's Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by FIRST, and is free.
+   To compete, teams are required to have at least two mentors over the age of 18. Additional mentors can be younger than 18. All mentors must pass the *FIRST* Youth Protection Screening, a once-per-year background check for mentors and volunteers. This is all handled by *FIRST*, and is free.
 
    While parents and other family members can be helpful mentors in a pinch, it's important to have outside mentorship so that your team can survive even after you graduate.
 
@@ -103,7 +105,7 @@ Ultimately, the way you fund your team is dependent on which team structure you 
 
    .. tab-item:: Community Team
 
-      If you're pitching to a community nonprofit, make sure you highlight how FIRST will help them grow. Offer to volunteer your and your teammates' time to help the organization with their programs, especially STEM ones, to create a mutually beneficial relationship.
+      If you're pitching to a community nonprofit, make sure you highlight how *FIRST* will help them grow. Offer to volunteer your and your teammates' time to help the organization with their programs, especially STEM ones, to create a mutually beneficial relationship.
 
 All 3 pitches should follow a similar structure; the easiest and most efficient involves a slide deck presentation. Make sure you highlight the value proposition (benefits that will be delivered) by starting an FTC team: educational experience, building future STEM professionals, increasing the potential of the area's technology economy, etc. You may not think it's important, but many decision-makers take these factors into account when deciding to approve your FTC team!
 
@@ -111,11 +113,11 @@ Don't underpitch your budget needs!
 -------------------------------------------------
 Here's a breakdown of a typical FTC season budget:
 
-- FIRST Registration is $295, and allows you to obtain your team number and compete.
+- *FIRST* Registration is $295, and allows you to obtain your team number and compete.
 - Region and competition costs vary depending on your region, ranging from $250 to $800 or more. Check with your region's Program Delivery Partner for more information.
 - A full competition game set will run you $450 / season.
 - A competition field will also run you $659, and - unless you take care with the tiles that make it up - it will cost you additional money to replace every 2-3 years.
-- FIRST's Control and Communication set will cost you $265, and their Electronics set will cost $282. Buying an additional Expansion Hub to maximize your robot's actuation will cost another $250. If you're careful, these are one-time purchases.
+- The *FIRST* Control and Communication set will cost you $265, and their Electronics set will cost $282. Buying an additional Expansion Hub to maximize your robot's actuation will cost another $250. If you're careful, these are one-time purchases.
 - The goBILDA FTC Starter Kit, which is recommended to start you with basic hardware, will run you $600 (with the FTC discount). If you CAD design your robot in advance, you can go cheaper.
 - Extra money for sensors and servos - each can run you up to $100 each! Assuming 2 servos and 3 sensors, that's $500.
 

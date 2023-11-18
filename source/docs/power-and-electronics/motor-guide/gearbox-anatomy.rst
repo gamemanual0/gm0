@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Gearbox Internals
 =================
 
@@ -8,7 +10,7 @@ Fundamentally, a gearbox is just a collection of gears and an enclosure that con
    .. glossary::
 
       Gear Reduction
-         Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC), a gear ratio defines both the number of rotations of the system's input and the number of rotations of the output.
+         Also known as a gear ratio. In any rotational power transmission system (typically involving motors and :term:`servos <Servo>` in FTC\ |reg|), a gear ratio defines both the number of rotations of the system's input and the number of rotations of the output.
 
          For instance, a NeveRest 20 gearmotor consists of an unmodified :term:`NeveRest Motor` and a planetary gearbox that has a gear ratio of 20:1 (or, when spoken, "20 to 1"). This means that in order for the output shaft of the gearbox to rotate 1 time, the input shaft of the motor must rotate 20 times. Gear ratios are one of the most important design considerations about a power transmission component.
 

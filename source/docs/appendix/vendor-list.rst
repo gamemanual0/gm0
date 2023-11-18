@@ -46,7 +46,7 @@ Vendor List
 - `REV Robotics <https://www.revrobotics.com>`_
 
   - REV Robotics sells the REV build system, which is an :term:`extrusion <Extrusion>`-based ecosystem complete with motors (HD Hex, HD Planetary, Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` (Smart Robot Servo), brackets, and battery.
-  - REV also sells the control system for FTC (Expansion Hub and Control Hub).
+  - REV also sells the control system for FTC\ |reg| (Expansion Hub and Control Hub).
 
     - REV offers various sensors (Magnetic Limit Switch, Color Sensor, Touch Sensor, Distance Sensor, Potentiometer, etc.)
     - Additionally, electronic components such as the Servo Power Module, SPARKmini, or Blinkin may be purchased.
@@ -56,4 +56,4 @@ Vendor List
   - Teams can get a 25% team discount from Servocity
 - `West Coast Products <https://wcproducts.com/>`_
 
-  - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC use. However many of their parts can be used in FTC, especially in custom robots.
+  - Also known as WCP, West Coast Products sells products exclusively aimed toward FRC\ |reg| use. However many of their parts can be used in FTC, especially in custom robots.

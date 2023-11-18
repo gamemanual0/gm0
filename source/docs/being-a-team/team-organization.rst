@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Team Organization
 =================
 
@@ -6,7 +8,7 @@ A group of individuals is nothing without structure and organization. Learning t
 Team Structure
 --------------
 
-The first step to organizing a team is determining who does what. Generally, FTC teams are organized into design, assembly / mechanical, software, and outreach squads, with different sub-squads for different tasks - for example, an outreach squad could have a sub-squad working on industry connections. In addition, your team will probably form cross-squad teams, such as your drive team and scouting team.
+The first step to organizing a team is determining who does what. Generally, FTC\ |reg| teams are organized into design, assembly / mechanical, software, and outreach squads, with different sub-squads for different tasks - for example, an outreach squad could have a sub-squad working on industry connections. In addition, your team will probably form cross-squad teams, such as your drive team and scouting team.
 
 To effectively manage these squads, you will need to set a carefully chosen leadership structure - leads should possess good delegation skills and be willing to facilitate learning experiences for those assigned to their squad. Optionally, a captain can be chosen as well to oversee squad leads.
 
@@ -27,7 +29,7 @@ Summer projects are a great way to explore robot concepts and start outreach. Fo
 Create and utilize resources.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To start the learning process, |gm0| may be useful! Have your team peruse the resources here, and use that as a starting point for your own knowledge base. Make sure to check out the :doc:`/docs/useful-resources` section, where other resources are cataloged. Additionally, compiling your own resources will allow your team to explore different techniques and materials, and provide useful documentation for future team members. You could create a library of FTC-legal sensors and goBILDA kits. Make sure to include all your members in these processes.
+To start the learning process, |gm0| may be useful! Have your team peruse the resources here, and use that as a starting point for your own knowledge base. Make sure to check out the :doc:`/docs/useful-resources` section, where other resources are cataloged. Additionally, compiling your own resources will allow your team to explore different techniques and materials, and provide useful documentation for future team members. You could create a library of FTC legal sensors and goBILDA kits. Make sure to include all your members in these processes.
 
 Cross-train your members.
 ^^^^^^^^^^^^^^^^^^^^^^^^^

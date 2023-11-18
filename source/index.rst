@@ -18,7 +18,7 @@ Index
 
       Start Here
       ^^^
-      Are you a rookie team? Are you new to FTC? Are you just looking for a refresher? Check out this section for a curated list of the most pertinent pages!
+      Are you a rookie team? Are you new to FTC\ |reg|? Are you just looking for a refresher? Check out this section for a curated list of the most pertinent pages!
 
    .. grid-item-card::
       :link: /docs/being-a-team/index

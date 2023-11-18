@@ -1,7 +1,9 @@
+.. include:: <isonum.txt>
+
 Collaboration and Efficiency
 ============================
 
-FTC is built on collaboration, and there are several ways to make collaborating as efficient as possible. Here's how!
+FTC\ |reg| is built on collaboration, and there are several ways to make collaborating as efficient as possible. Here's how!
 
 Why Collaborate?
 ----------------

@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Choosing a Servo
 ================
 
@@ -14,7 +16,7 @@ Servo Type: Regular or Continuous
 
 :term:`Servos <Servo>` that can rotate to a given position based on PWM input signal are called **regular servos**. In addition, there are also **continuous rotation servos**, which are effectively just small motors in a :term:`servo <Servo>` form factor. They have no position control; instead, PWM signal is used to control their rotation speed.
 
-Many servos from FTC vendors are Dual Mode, meaning they can switch between continuous and regular modes (often requiring the use of a sold-separately servo programmer). These servos can be used as either continuous or regular servos.
+Many servos from FTC\ |reg| vendors are Dual Mode, meaning they can switch between continuous and regular modes (often requiring the use of a sold-separately servo programmer). These servos can be used as either continuous or regular servos.
 
 Servo Torque And Speed
 ----------------------
