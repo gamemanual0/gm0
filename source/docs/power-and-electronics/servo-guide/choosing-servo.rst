@@ -21,7 +21,7 @@ Many servos from FTC\ |reg| vendors are Dual Mode, meaning they can switch betwe
 Servo Torque And Speed
 ----------------------
 
-:term:`Servo` output power is measured in both **speed** and **torque**. Speed (normally in seconds per 60°) refers to how fast the :term:`servo <Servo>` turns 60 degrees in Standard Rotation mode.
+:term:`Servo` output power is measured in both **speed** and **torque**. Speed (normally in seconds per 60\ |deg|) refers to how fast the :term:`servo <Servo>` turns 60 degrees in Standard Rotation mode.
 
 .. admonition:: Why seconds per 60 degrees?
 
@@ -29,7 +29,7 @@ Servo Torque And Speed
 
 Torque (usually measured in oz-in or in kg-cm) refers to the amount of force the :term:`servo <Servo>` can apply to a lever. For reference, if you put a 1" bar on a servo, then put a force gauge on the end, the torque rating of the servo (in oz-in) will be measured.
 
-As you may know, speed and torque will generally have an inverse relationship. You can find some insanely powerful servos that are pretty slow (slower than 0.20 s/60°) or some less powerful ones with faster ratios (anything faster than 0.12 s/60° is considered very fast).
+As you may know, speed and torque will generally have an inverse relationship. You can find some insanely powerful servos that are pretty slow (slower than 0.20 s/60\ |deg|) or some less powerful ones with faster ratios (anything faster than 0.12 s/60\ |deg| is considered very fast).
 
 Finding the right :term:`servo <Servo>` for your application can be tough, but a good way is trying to decide if you need more speed or torque, and if your :term:`servo <Servo>` will experience shock loads or not.
 

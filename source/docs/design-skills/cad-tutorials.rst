@@ -201,7 +201,7 @@ Copy the sketch below.
 .. image:: images/cad-tutorial/custom-pulley-template/sketch-to-copy.png
    :alt: The sketch to copy
 
-- The 15° equation is done by typing =360/"n" into the text box.
+- The 15\ |deg| equation is done by typing =360/"n" into the text box.
 - Note that 5mm dimension at the top describes arc length, which is done in Solidworks by first selecting the two points and the connecting arc.
 - The two big circles are tangent to the two smaller circles, but the two smaller circles are not tangent to each other.
 
