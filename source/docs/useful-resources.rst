@@ -135,7 +135,7 @@ Calculators
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
-`⎰ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
+`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
 `Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 
