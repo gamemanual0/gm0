@@ -109,3 +109,13 @@ jobs:
     - name: Check redirects
       run: |
         make rediraffecheckdiff
+  check-unicode-characters:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Checkout main
+      run: |
+        git fetch origin main --depth=1
+    - name: Check Unicode characters
+      run: |
+        ./scripts/check-unicode-characters.sh
