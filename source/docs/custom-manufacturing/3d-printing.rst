@@ -35,15 +35,15 @@ Common Filaments
 
 For almost every part that needs to be 3D printed for FTC, **PLA (or PLA+, Pro, etc) and/or PETG will meet all the needs for strength, durability, and aesthetics.** These two filament types are by far the easiest to print, and are sold by many manufacturers for reasonable prices. Most of the other filaments here offer very specific advantages (like TPU) that come at the cost of effort, time, and money.
 
-.. danger:: If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the Ender 3 and its variants), then you **should not be printing at or above 250° C**. Doing so will cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need to print at these temperatures and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
+.. danger:: If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the Ender 3 and its variants), then you **should not be printing at or above 250 degrees Celsius**. Doing so will cause the PTFE tube to degrade and melt, releasing toxic fumes. If you need to print at these temperatures and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
 PLA (Polylactic Acid)
 ^^^^^^^^^^^^^^^^^^^^^
 
 The most common 3D Printing filament is polylactic acid, or PLA. It is a plastic made from biological sources like corn starch and sugar cane. PLA is stiff but more brittle than other filament options and tends to have little to no warp when printing. PLA is well suited to the majority of robot parts, but it may not hold up well to shock loads (impacts to parts), and as such parts should be designed accordingly.
 
-- PLA hotend temperatures range from 190°-230° C
-- PLA bed temperatures range from 20°-60° C, but a heated bed isn't strictly required for PLA
+- PLA hotend temperatures range from 190\ |deg|-230\ |deg| C
+- PLA bed temperatures range from 20\ |deg|-60\ |deg| C, but a heated bed isn't strictly required for PLA
 
 .. tip:: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such as a hot car, as this can produce severe warping in those parts.
 
@@ -56,8 +56,8 @@ PETG can be described as a strength upgrade to PLA. It is not difficult to print
 
 .. warning:: PETG is known for bonding very well to print beds, **especially glass and PEI**, and is known to rip chunks out of the bed. It is a good idea to add some glue stick or hairspray before printing it.
 
-- PETG hotend temperatures range from 230°-260° C
-- PETG bed temperatures range from 60°-80° C
+- PETG hotend temperatures range from 230\ |deg|-260\ |deg| C
+- PETG bed temperatures range from 60\ |deg|-80\ |deg| C
 
 Less Common Filaments
 ---------------------
@@ -69,8 +69,8 @@ ABS (Acrylonitrile Butadiene Styrene)
 
 ABS used to be the standard filament for printing before PLA became commercially available. You've probably used ABS before in LEGO\ |reg| pieces. It can withstand high loads and is quite ductile. This comes at the cost of printing difficulty, where an enclosure is often necessary to raise the ambient temperature and prevent severe part warping. The strength improvements over PLA can be more easily found in PETG, so ABS parts are not as common in FTC. ABS is quite affordable though, sold at the same prices as PLA.
 
-- ABS hotend temperatures range from 230°-250° C
-- ABS bed temperatures range from 100°-120° C
+- ABS hotend temperatures range from 230\ |deg|-250\ |deg| C
+- ABS bed temperatures range from 100\ |deg|-120\ |deg| C
 - Enclosure highly recommended to prevent warping
 
 Due to the difficulty of printing ABS and its limitations, one might look at alternatives such as ASA which offer similar properties with much better printability.
@@ -82,8 +82,8 @@ TPU and TPE are both common printing filaments that are widely used for their fl
 
 .. tip:: Due to its flexible nature, printers that use a Bowden tube extrusion system, where the extruder motor is not placed on the hotend, will find it extremely difficult to print TPU/TPE.
 
-- TPU/TPE hotend temperatures range from 210°-250° C
-- TPU/TPE does not usually need a heated bed, but if one is used it should not go over 60° C as this will fuse TPU with print bed.
+- TPU/TPE hotend temperatures range from 210\ |deg|-250\ |deg| C
+- TPU/TPE does not usually need a heated bed, but if one is used it should not go over 60 |deg|\ C as this will fuse TPU with print bed.
 - TPU/TPE has the tendency to absorb a lot of moisture from the air, and thus will likely need to be dried before and perhaps during a print.
 - Direct drive extruder is highly recommended
 
@@ -98,8 +98,8 @@ Nylon
 
 Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is the king of impact resistance in many situations where the part can flex out of the way, instead of completely breaking. Occasionally nylon is used for parts like wheel covers on drivetrains and in places where it will be repeatedly hit and battered. Nylon requires very high temperatures, generally requires an enclosure, and absolutely must be dried before (and while) printing.
 
-- Nylon hotend temperatures range from 240°-260° C
-- Nylon bed temperatures range from 55°-80° C
+- Nylon hotend temperatures range from 240\ |deg|-260\ |deg| C
+- Nylon bed temperatures range from 55\ |deg|-80\ |deg| C
 - Nylon is infamous for absorbing moisture from the air and should be thoroughly dried before and during printing. Failure to do this will probably result in a nearly unusable part.
 - Enclosure recommended
 
@@ -116,8 +116,8 @@ Polycarbonate and its variants are very very strong, technical materials. PC shi
 
 There are several PC blends that can be much easier to print, a standout example is PolyMaker PolyMax PC. It is an easier-to-print, lower temp PC that retains many of the advantages of pure PC. PolyLite is not quite as impact-resistant, but a lot cheaper. Both are much easier to print than pure PC.
 
-- PC hotend temperatures range from 250°-320° C
-- PC bed temperatures range from 80°-140° C
+- PC hotend temperatures range from 250\ |deg|-320\ |deg| C
+- PC bed temperatures range from 80\ |deg|-140\ |deg| C
 - Enclosure required
 - Filament must be kept dry
 

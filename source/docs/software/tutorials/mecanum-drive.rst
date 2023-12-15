@@ -10,7 +10,7 @@ Mecanum Physics
 
 .. note:: Some common COTS mecanum drivetrain kits are the `goBILDA Strafer Chassis Kit <https://www.gobilda.com/strafer-chassis-kit-v5/>`_ and the `REV Mecanum Drivetrain Kit <https://www.revrobotics.com/rev-45-2470/>`_.
 
-:term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45° angle to the rest of the wheel. Since these are in contact with the ground instead of something solid like in a :term:`traction wheel <Traction wheel>`, instead of the wheel creating a force parallel to the orientation of the wheel, it creates one 45° from parallel. Depending on how the wheels are driven, X or Y components of the force vectors can cancel which allows movement in any direction.
+:term:`Mecanum wheels <Mecanum Wheel>` have rollers at a 45\ |deg| angle to the rest of the wheel. Since these are in contact with the ground instead of something solid like in a :term:`traction wheel <Traction wheel>`, instead of the wheel creating a force parallel to the orientation of the wheel, it creates one 45\ |deg| from parallel. Depending on how the wheels are driven, X or Y components of the force vectors can cancel which allows movement in any direction.
 
 .. image:: images/mecanum-drive/mecanum-worms-eye-view.png
    :alt: Force diagram of a single mecanum wheel
