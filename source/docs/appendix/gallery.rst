@@ -12,8 +12,8 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 ^^^^^^^^^^^^^^^^^^^^^
 
 - `CAD <https://grabcad.com/library/2023-ftc-power-play-cad-team-11329-i-c-e-robotics-glacier-1>`__
-- `Robot Reveal Video <https://youtu.be/deOm05iy3Ak>`__
-- `Behind the Bot <https://youtu.be/Bhwif_vSumw>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=deOm05iy3Ak>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=Bhwif_vSumw>`__
 - `Code <https://github.com/FTC11329/11329-2023-repo>`__
 - `Portfolio <https://drive.google.com/file/d/1Ji07uGThsF0prkGztpE3OcW9LZN0pYVJ/view>`__
 
