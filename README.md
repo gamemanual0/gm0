@@ -38,6 +38,5 @@ How to see the options for building:
 - `make help`
 
 How to develop the website:
-- Download sphinx autobuild with `pip install sphinx-autobuild` or `poetry install`
 - Run `make autobuild`
 - This will set up a file watcher and build on file changes. A development server is served at `http://127.0.0.1:8000` by default. Go to your preferred browser and open that URL to view your local development version of gm0.
