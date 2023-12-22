@@ -15,7 +15,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Robot Reveal Video <https://youtu.be/deOm05iy3Ak>`__
 - `Behind the Bot <https://youtu.be/Bhwif_vSumw>`__
 - `Code <https://github.com/FTC11329/11329-2023-repo>`__
-- `Portfolio <https://drive.google.com/file/d/1Ji07uGThsF0prkGztpE3OcW9LZN0pYVJ/view?usp=share_link>`__
+- `Portfolio <https://drive.google.com/file/d/1Ji07uGThsF0prkGztpE3OcW9LZN0pYVJ/view>`__
 
 19043 CyLiis
 ^^^^^^^^^^^^^^^^^^^^^
