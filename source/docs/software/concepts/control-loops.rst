@@ -205,7 +205,7 @@ In every system there is bound to be some amount of static Friction. This means 
 .. _gravity-compensated-feedforward:
 
 Gravity Compensated Feedforward
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In :ref:`gravity-compensation` we derive the effect of gravity upon an arm as :math:`F_g = g * \sin{\theta}`. Here we can use that with the following logic.
 

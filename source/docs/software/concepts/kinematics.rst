@@ -133,7 +133,7 @@ In a reference frame like this, the relative force of gravity will be equal to t
 
    F_g = g * \sin{\theta}
 
-Assuming you have an encoder on your arm, you can find :math:`\theta` pretty easily using the following code. 
+Assuming you have an encoder on your arm, you can find :math:`\theta` pretty easily using the following code.
 
 .. note:: DEGREE_PER_TICK can be found by taking 360 divided by your encoder resolution all multiplied by your gear ratio. A GoBuilda 5202 motor with a gear ratio of 1:1 will have a TICK_PER_REV of 751.8, and a DEGREE_PER_TICK of 0.47885075818.
 
