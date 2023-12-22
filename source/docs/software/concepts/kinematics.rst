@@ -107,3 +107,38 @@ The inverse kinematics of a mecanum drive relate the desired velocity of the rob
    v_{br} = v_f - v_s + (2r_b \cdot \omega)
 
    v_{fr} = v_f + v_s + (2r_b \cdot \omega)
+
+Manipulators
+--------------
+
+.. _gravity-compensation:
+
+Gravity Compensation
+^^^^^^^^^^^^^^^^^^^^
+
+Often in FTC, teams have arms that swing out around an axis. Controlling these arms requires a bit of thought as depending on the angle they're at, the effect of gravity drastically changes.
+
+Our first step is defining a reference frame. Our recommendation is to define zero as straight up and down, as this is when gravity doesn't have an effect on your arm. Other reference frames will still work, but the trigonometry won't be as straightforward.
+
+.. figure:: ./images/kinematics/reference_frame.svg
+   :alt: A diagram of a robot with a long arm, with 0 degrees marked up and down
+   :align: center
+   :width: 400px
+
+   Image courtesy of 11329 ICE Robotics
+
+In a reference frame like this, the relative force of gravity will be equal to the sin of the angle. This makes sense as when the sin function is evaluated at zero degrees, it returns 0, while at 90 degrees where the effect of gravity is at its greatest, it returns 1.
+
+.. math::
+
+   F_g = g * \sin{\theta}
+
+Assuming you have an encoder on your arm, you can find :math:`\theta` pretty easily using the following code. 
+
+.. note:: DEGREE_PER_TICK can be found by taking 360 divided by your encoder resolution all multiplied by your gear ratio. A GoBuilda 5202 motor with a gear ratio of 1:1 will have a TICK_PER_REV of 751.8, and a DEGREE_PER_TICK of 0.47885075818.
+
+.. code:: java
+
+   current_angle = (TICKS_AT_ZERO - current_tick) * DEGREE_PER_TICK
+
+The typical way to utilize the effect of gravity you just found, is to pass it in as a feedforward parameter to a PID controller. We cover this in :ref:`gravity-compensated-feedforward`.
