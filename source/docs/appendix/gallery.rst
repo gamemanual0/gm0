@@ -8,7 +8,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 2022-2023 Power Play
 ------------------------
 
-11329 I.C.E. Robotics 
+11329 I.C.E. Robotics
 ^^^^^^^^^^^^^^^^^^^^^
 
 - `CAD <https://grabcad.com/library/2023-ftc-power-play-cad-team-11329-i-c-e-robotics-glacier-1>`__
