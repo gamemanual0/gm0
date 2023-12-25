@@ -122,8 +122,6 @@ Our first step is defining a reference frame. Our recommendation is to define ze
 
 .. figure:: ./images/kinematics/reference_frame.svg
    :alt: A diagram of a robot with a long arm, with 0 degrees marked up and down
-   :align: center
-   :width: 400px
 
    11329 I.C.E. Robotics
 
