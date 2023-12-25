@@ -125,17 +125,17 @@ Our first step is defining a reference frame. Our recommendation is to define ze
    :align: center
    :width: 400px
 
-   Image courtesy of 11329 ICE Robotics
+   11329 I.C.E. Robotics
 
 In a reference frame like this, the relative force of gravity will be equal to the sin of the angle. This makes sense as when the sin function is evaluated at zero degrees, it returns 0, while at 90 degrees where the effect of gravity is at its greatest, it returns 1.
 
 .. math::
 
-   F_g = g * \sin{\theta}
+   F_g = g\sin{\theta}
 
-Assuming you have an encoder on your arm, you can find :math:`\theta` pretty easily using the following code.
+Assuming you have an encoder on your arm, you can find :math:`\theta` (the angle of the arm relative to the vertical) using something similar to the following pseudocode.
 
-.. note:: DEGREE_PER_TICK can be found by taking 360 divided by your encoder resolution all multiplied by your gear ratio. A GoBuilda 5202 motor with a gear ratio of 1:1 will have a TICK_PER_REV of 751.8, and a DEGREE_PER_TICK of 0.47885075818.
+.. note:: DEGREE_PER_TICK can be found by taking 360 divided by your encoder resolution all multiplied by your gear ratio. For example, for a `19.2:1 goBILDA Yellow Jacket <https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-19-2-1-ratio-24mm-length-8mm-rex-shaft-312-rpm-3-3-5v-encoder/>`_, there are 537.7 ticks per revolution, and so :math:`\frac{360}{537.7}` degrees per tick at the gearbox output shaft. If there was a 2:1 gear ratio after that, then the ticks per revolution would instead be :math:`\frac{360}{2 \times 537.7}`
 
 .. code:: java
 
