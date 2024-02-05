@@ -224,7 +224,7 @@ A much more niche option is to vertically spring odometry pods. The idea is that
 Pre-Built Odometry
 ^^^^^^^^^^^^^^^^^^
 
-For newer teams that want to experiment with the software implementations of dead wheels without building the pods from scratch, pre-built dead wheel pods can be useful. As of the 23-24 CENTERSTAGE FTC season, sprung odometry pods are exempt from the no-more-than-one degree of freedom requirement for prebuilt parts. With this in mind, goBuilda has begun selling `full prebuilt dead wheels <https://www.gobilda.com/odometry-pod-43mm-width-48mm-wheel/>`_ (with encoders and all the required hardware). 
+For newer teams that want to experiment with the software implementations of dead wheels without building the pods from scratch, pre-built dead wheel pods can be useful. As of the 23-24 CENTERSTAGE FTC season, sprung odometry pods are exempt from the no-more-than-one degree of freedom requirement for prebuilt parts. With this in mind, goBuilda has begun selling `full prebuilt dead wheels <https://www.gobilda.com/odometry-pod-43mm-width-48mm-wheel/>`_ (with encoders and all the required hardware).
 
 .. figure:: images/odometry/3110-0001-0001-Product-Insight-1__09836.webp
    :alt: goBuilda's odometry pods
