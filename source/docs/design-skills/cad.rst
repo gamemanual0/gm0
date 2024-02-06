@@ -53,6 +53,8 @@ However, **it isn't available for Mac users**, and you'll need a pretty beefy co
 
 If you have mentors or team members with previous experience in SolidWorks or an engineering class at your school that teaches SolidWorks, it will be your best choice.
 
+For a set of tutorials on how to use SolidWorks and some projects to give inspiration and show how the features can be used to design various objects and assemblies, see the stemrobotics4all.org site tutorials (https://stemrobotics4all.org/3d-modeling/solidworks/) and example projects (https://stemrobotics4all.org/3d-modeling/3d-modeling-projects/).
+
 `Inventor <https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
