@@ -6,7 +6,7 @@ Finite State Machines (FSM) are often used while programming in order to allow f
 What is a Finite State Machine?
 -------------------------------
 
-The name of a finite state machine is very descriptive; it's a state machine, with a finite number of states. It can be in one state at a time, and can transition to a different state once something happens. For example, see the example of a finite state machine that's on `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-operated_turnstile>`__ because a turnstile is a great example, and it is explained very well.
+The name of a finite state machine is very descriptive; it's a state machine, with a finite number of states. It can be in one state at a time, and can transition to a different state once something happens. The `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine#Example:_coin-operated_turnstile>`__ example of a turnstile explains the concept very well.
 
 Implementation
 --------------
