@@ -102,7 +102,7 @@ The inverse kinematics of a mecanum drive relate the desired velocity of the rob
 
    v_{fl} = v_f - v_s - (2r_b \cdot \omega)
 
-   v_{rl} = v_f + v_s - (2r_b \cdot \omega)
+   v_{bl} = v_f + v_s - (2r_b \cdot \omega)
 
    v_{br} = v_f - v_s + (2r_b \cdot \omega)
 
