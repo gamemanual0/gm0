@@ -119,10 +119,10 @@ rediraffe_redirects = "redirects.txt"
 # Required accuracy for redirect writer
 rediraffe_auto_redirect_perc = 80
 
-# Set the default image width.
+# Set the default image width (in pixels).
 # This only applies to images without an explicit width set.
-default_image_width_html = "25em"
-default_image_width_latex = "20em"
+default_image_width_html = "400"
+default_image_width_latex = "320"
 # Center images by default.
 default_image_centered = True
 
