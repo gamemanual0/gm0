@@ -51,7 +51,7 @@ Shock load resistance is impacted directly by the material the :term:`gears <Gea
 - **Karbonite**: Hitec's :term:`gear <Gear>` plastic is a very durable and long lasting plastic and is very good under long use and low load. Be aware that it can strip easily under the shock loads found in FTC. Karbonite is more durable than plastic but still suffers from shock loads.
 - **Brass**: Brass :term:`gears <Gear>` are stronger than plastic but also suffer greatly when faced with shock loads in FTC like intake wrists and deposit buckets. It's found on slightly higher end servos such as the REV Smart Servo.
 - **Steel**: This is where we start getting big. Steel :term:`gears <Gear>` are very durable and you'll have a tough time stripping these. In general, expect to pay a premium. The goBILDA Dual mode servos (v2) is an example of steel :term:`gear <Gear>` :term:`servo <Servo>`.
-- **Titanium**: Titanium is where you get into really high end, virtually unbreakable :term:`servos <Servo>`. Starting from $75, they can reach over $150. A common misconception is that titanium is stronger then steel, however its advantage is in strength to weight ratio (as in, titanium gearboxes will often be lighter then steel gearboxes).
+- **Titanium**: Titanium is where you get into really high end, virtually unbreakable :term:`servos <Servo>`. Starting from $75, they can reach over $150. A common misconception is that titanium is stronger than steel, however its advantage is in strength to weight ratio (as in, titanium gearboxes will often be lighter than steel gearboxes).
 
 Servo Size
 ----------
@@ -80,7 +80,7 @@ By default, the FTC Control Hub and FTC Expansion Hub output 600-2400 microsecon
 
 .. note::
 
-   The default 600-2400 range of the FTC Expansion Hub and FTC Control Hub can make it appear that popular servos like the goBILDA Dual Mode servos and REV Smart Robot Servo have less range then advertised. You can use the following code to expand the range to 500-2500 microseconds.
+   The default 600-2400 range of the FTC Expansion Hub and FTC Control Hub can make it appear that popular servos like the goBILDA Dual Mode servos and REV Smart Robot Servo have less range than advertised. You can use the following code to expand the range to 500-2500 microseconds.
 
    .. code-block:: java
 
@@ -116,13 +116,13 @@ Bang for Your Buck
 ^^^^^^^^^^^^^^^^^^
 
 - `goBILDA Dual Mode Servo (Torque) (25-2-torque) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_
-  - A very good price to performance servo. It is dual mode, has a higher then average output torque (and correspondingly lower speed), and steel gearbox.
+  - A very good price to performance servo. It is dual mode, has a higher than average output torque (and correspondingly lower speed), and steel gearbox.
 - `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
-  - A very good price to performance servo. It is dual mode, has a higher then average output speed (and correspondingly lower torque), and steel gearbox.
+  - A very good price to performance servo. It is dual mode, has a higher than average output speed (and correspondingly lower torque), and steel gearbox.
 - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
-  - While very good price to performance, its brass gearbox makes it less recommended then goBILDA Dual Mode Servos
+  - While very good price to performance, its brass gearbox makes it less recommended than goBILDA Dual Mode Servos
 - `Andymark High Speed/Torque Servo <https://www.andymark.com/products/programmable-servos>`_
-  - A newcomer to the market, this servo is extremely promising as a price to performance servo, with a unique 5mm hex output and imperial half inch mounting pattern. The high speed variant has more power output then the commonly used goBILDA Dual Mode servo. The high torque servo has a higher efficiency then the goBILDA Dual Mode servo. **It is unreleased at the time of writing, so these claims have not been verified.** This servo has been included due to Andymark's historical reliability.
+  - A newcomer to the market, this servo is extremely promising as a price to performance servo, with a unique 5mm hex output and imperial half inch mounting pattern. The high speed variant has more power output than the commonly used goBILDA Dual Mode servo. The high torque servo has a higher efficiency than the goBILDA Dual Mode servo. **It is unreleased at the time of writing, so these claims have not been verified.** This servo has been included due to Andymark's historical reliability.
 
 Premium Options
 ^^^^^^^^^^^^^^^
@@ -136,6 +136,6 @@ Specialty Servos
 ^^^^^^^^^^^^^^^^
 
 - `goBILDA 5 Turn Servo <https://www.gobilda.com/2000-series-5-turn-dual-mode-servo-25-2-torque/>`_
-   - goBILDA manufactures all three of their Dual Mode servos (Speed, Super Speed, Torque) in 5 turn varients, which can rotate 5 turns while still tracking position. These servos have high range, making them ideal for use with external gearboxes, but are more expensive and have a lower precision then the normal varients.
+   - goBILDA manufactures all three of their Dual Mode servos (Speed, Super Speed, Torque) in 5 turn varients, which can rotate 5 turns while still tracking position. These servos have high range, making them ideal for use with external gearboxes, but are more expensive and have a lower precision than the normal varients.
 
 REV and goBILDA :term:`servos <Servo>` can be purchased from REV and goBILDA websites respectively. For all other servos, some good sources are `ServoCity <https://www.servocity.com/>`_ or `Amazon <https://www.amazon.com/>`_.
