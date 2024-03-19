@@ -118,7 +118,7 @@ Bang for Your Buck
 - `goBILDA Dual Mode Servo (Torque) (25-2-torque) <https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`_
   - A very good price to performance servo. It is dual mode, has a higher then average output torque (and correspondingly lower speed), and steel gearbox.
 - `goBILDA Dual Mode Servo (Speed) (25-3) <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`_
-  - A very good price to performance servo. It is dual mode, has a higher then average output torque (and correspondingly lower speed), and steel gearbox.
+  - A very good price to performance servo. It is dual mode, has a higher then average output speed (and correspondingly lower torque), and steel gearbox.
 - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
   - While very good price to performance, its brass gearbox makes it less recommended then goBILDA Dual Mode Servos
 - `Andymark High Speed/Torque Servo <https://www.andymark.com/products/programmable-servos>`_
