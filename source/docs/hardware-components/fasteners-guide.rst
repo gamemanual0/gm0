@@ -103,7 +103,7 @@ These bolts have no head, the recess is instead embedded within the threads. The
 The bolts are tightened with an external hex-shaped head. When designing for these bolts, it is important to allow clearance on the side of the head for tightening.
 
 
-Every bolt requires a “drive” -- meaning the recess which is used to turn and install it. Each of the bolts listed above can have a variety of different types of drives:
+Every bolt requires a "drive" -- meaning the recess which is used to turn and install it. Each of the bolts listed above can have a variety of different types of drives:
 
 .. figure:: images/types-of-drives.png
    :alt: diagram showing thread terminology
