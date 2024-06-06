@@ -7,7 +7,7 @@ Threaded Fasteners
 Bolts, screws and nuts are all threaded fasteners -- meaning they use a helical thread to join parts.
 
 Thread Basics
-^^^^^^^^
+^^^^^^^^^^^^^
 To understand threaded fasteners, you will need to know some basic terminology
 
 
@@ -16,14 +16,14 @@ To understand threaded fasteners, you will need to know some basic terminology
 
 External thread
     A thread on an outside surface. Bolts have external threads
-Internal thread 
+Internal thread
     A thread on an inside surface. Nuts have internal threads
-Thread pitch 
+Thread pitch
     The distance from one thread to another, measured along the length of the thread. This can also be expressed as the number of threads per unit of length, for example threads per inch
 Major diameter
-    The larger of two diameters giving the height of the thread profile. 
+    The larger of two diameters giving the height of the thread profile.
 Minor diameter
-    The smaller of the two diameters giving the height of the thread profile. 
+    The smaller of the two diameters giving the height of the thread profile.
 
 Thread Standards and Naming
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,7 +35,7 @@ The universal thread standard (UTS) is based on the imperial system and commonly
 
 For major diameters of ¼" or greater, first number is simply the major diameter in inches. For those smaller than ¼", the following code is used:
 
-.. table:: 
+.. table::
    :widths: auto
 
    =====  =====
@@ -43,14 +43,14 @@ For major diameters of ¼" or greater, first number is simply the major diameter
    =====  =====
    #0     0.0600
    #1     0.0730
-   #2     0.0860 
-   #3     0.0990 
-   #4     0.1120 
-   #5     0.1250 
-   #6     0.1380 
-   #8     0.1640 
-   #10    0.1900 
-   #12    0.2160 
+   #2     0.0860
+   #3     0.0990
+   #4     0.1120
+   #5     0.1250
+   #6     0.1380
+   #8     0.1640
+   #10    0.1900
+   #12    0.2160
    =====  =====
 
 
@@ -58,14 +58,14 @@ Some common imperial thread sizes in FTC include ¼-20 (one quarter inch major d
 
 **Metric (ISO)**
 
-The ISO metric thread standard is commonly used worldwide, and for many products sold by FTC vendors. 
+The ISO metric thread standard is commonly used worldwide, and for many products sold by FTC vendors.
 
 A metric thread is designated by the letter M followed by the outer diameter in millimeters, for example M4 for a 4 mm major diameter bolt. This is then followed by a "x" and the pitch, also in millimeters. For example, “M4X0.7” means a m4 thread with a 0.7 mm pitch.
 
 Bolts
 ^^^^^
 
-Bolts are probably the most commonly used fastener in FTC. 
+Bolts are probably the most commonly used fastener in FTC.
 
 There are several types of bolts you may encounter, such as:
 
@@ -75,7 +75,7 @@ There are several types of bolts you may encounter, such as:
    :alt: diagram showing thread terminology
    :width: 150px
 
-These bolts have a cylindrical head and are tightened and loosened with a hexagonal recess. 
+These bolts have a cylindrical head and are tightened and loosened with a hexagonal recess.
 
 **Button Head Bolts**
 
@@ -83,7 +83,7 @@ These bolts have a cylindrical head and are tightened and loosened with a hexago
    :alt: diagram showing thread terminology
    :width: 150px
 
-These bolts have a domed head, in contrast to the flat top of a standard socket bolt. 
+These bolts have a domed head, in contrast to the flat top of a standard socket bolt.
 
 **Grub Screws**
 
@@ -122,7 +122,7 @@ Here are some types of nuts you may encounter in FTC:
    :alt: diagram showing thread terminology
    :width: 150px
 
-These most common type of nut. They can be tightened with a socket hex wrench 
+These most common type of nut. They can be tightened with a socket hex wrench
 
 **Square Nuts**
 
@@ -130,7 +130,7 @@ These most common type of nut. They can be tightened with a socket hex wrench
    :alt: diagram showing thread terminology
    :width: 150px
 
-These are four-sided nuts. 
+These are four-sided nuts.
 
 **T-slot Nuts**
 
@@ -157,9 +157,9 @@ These nuts can be easily tightened without a wrench.
 These nuts contain a nylon ring which prevents loosening. We recommend using these wherever possible.
 
 Making Threads
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
-Sometimes, you will want to create new threads. This process is called threading. 
+Sometimes, you will want to create new threads. This process is called threading.
 To create internal threads, you can use a cutting tool called a tap -- essentially a sharper version of a screw.
 
 To create external threads, you use a tool called a die.
@@ -172,7 +172,7 @@ To create external threads, you use a tool called a die.
 Threadlocker
 ^^^^^^^^^^^^
 
-Bolts on your robot may loosen over time, especially if there are heavy vibrations. To prevent this you may use locking nuts or lock washers, which mechanically press against the thread. Another solution is to use a threadlocker, which is an adhesive compound that -- as it's name suggests -- locks threads in place. 
+Bolts on your robot may loosen over time, especially if there are heavy vibrations. To prevent this you may use locking nuts or lock washers, which mechanically press against the thread. Another solution is to use a threadlocker, which is an adhesive compound that -- as it's name suggests -- locks threads in place.
 
 
 .. figure:: images/loctite.jpg
