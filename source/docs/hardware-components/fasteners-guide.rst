@@ -33,7 +33,7 @@ There are 2 main systems of naming and sizing threads that you will encounter in
 
 The universal thread standard (UTS) is based on the imperial system and commonly used to size threads in the US and Canada. A UTS thread is named by a number indicating the major diameter of the thread, followed by the thread's pitch measured in threads per inch.
 
-For major diameters of ¼" or greater, first number is simply the major diameter in inches. For those smaller than ¼", the following code is used:
+For major diameters of |frac14|" or greater, first number is simply the major diameter in inches. For those smaller than |frac14|", the following code is used:
 
 .. table::
    :widths: auto
@@ -54,13 +54,13 @@ For major diameters of ¼" or greater, first number is simply the major diameter
    =====  =====
 
 
-Some common imperial thread sizes in FTC include ¼-20 (one quarter inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major diameter, 32 threads per inch)
+Some common imperial thread sizes in FTC include |frac14|-20 (one quarter inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major diameter, 32 threads per inch)
 
 **Metric (ISO)**
 
 The ISO metric thread standard is commonly used worldwide, and for many products sold by FTC vendors.
 
-A metric thread is designated by the letter M followed by the outer diameter in millimeters, for example M4 for a 4 mm major diameter bolt. This is then followed by a "x" and the pitch, also in millimeters. For example, “M4X0.7” means a m4 thread with a 0.7 mm pitch.
+A metric thread is designated by the letter M followed by the outer diameter in millimeters, for example M4 for a 4 mm major diameter bolt. This is then followed by a "x" and the pitch, also in millimeters. For example, "M4X0.7" means a m4 thread with a 0.7 mm pitch.
 
 Bolts
 ^^^^^
