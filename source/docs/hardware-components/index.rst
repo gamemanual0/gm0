@@ -7,5 +7,6 @@ This chapter covers the basics of building the robot: tools, materials, kits of 
    :maxdepth: 1
 
    kit-and-hardware-guide/index
+   fasteners-guide
    tools-list
    tips-and-tricks
