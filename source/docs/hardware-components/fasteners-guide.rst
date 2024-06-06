@@ -21,7 +21,7 @@ Internal thread
 Thread pitch
     The distance from one thread to another, measured along the length of the thread. This can also be expressed as the number of threads per unit of length, for example threads per inch
 Major diameter
-    The larger of two diameters giving the height of the thread profile.
+    The larger of the two diameters giving the height of the thread profile.
 Minor diameter
     The smaller of the two diameters giving the height of the thread profile.
 
