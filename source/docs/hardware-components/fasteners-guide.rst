@@ -1,3 +1,5 @@
+..    include:: <isonum.txt>
+
 Fasteners Guide
 ===============
 If you want your robot to stay in one piece, you will need fasteners. Fasteners are any pieces of hardware that mechanically join parts. This guide will discuss common types of fasteners, and how to use them on your robot.
