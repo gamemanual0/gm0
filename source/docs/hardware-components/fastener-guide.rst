@@ -172,19 +172,22 @@ To create external threads, you use a tool called a die.
    :alt: diagram showing a tap and die
    :width: 250px
 
-
 Threadlocker
 ^^^^^^^^^^^^
 
 Bolts on your robot may loosen over time, especially if there are heavy vibrations. To prevent this you may use locking nuts or lock washers, which mechanically press against the thread. Another solution is to use a threadlocker, which is an adhesive compound that -- as it's name suggests -- locks threads in place.
 
-The most popular threadlocker among FTC teams is loctite. There are two types of Loctite: blue, which is removable, and red, which is permanent (and we mean it). To use loctite, apply it to the thread of the bolts.
+.. glossary::
 
-.. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
+   Loctite
 
-.. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
+      The most popular threadlocker among FTC teams is loctite. There are two types of Loctite: blue, which is removable, and red, which is permanent (and we mean it). To use loctite, apply it to the thread of the bolts.
 
-.. figure:: images/loctite.png
-   :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite
+      .. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
 
-   Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)
+      .. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
+
+      .. figure:: images/loctite.png
+         :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite
+
+         Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)
