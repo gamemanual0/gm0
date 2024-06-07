@@ -39,14 +39,3 @@ Power Transmission Glossary
    GT2 Belt
       GT2 belt is a type of synchronous timing belt commonly used on drivetrains and other mechanisms. Its available in different widths and pitches, although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`
 
-   Loctite
-      Loctite is thread locking fluid used so that bolts do not come loose under use and vibration. Loctite should be applied to the threads of the bolts. There are two types of Loctite: blue, which is removable, and red, which is permanent (and we mean it).
-
-      .. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
-
-      .. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
-
-      .. figure:: images/loctite.png
-         :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite
-
-         Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)
