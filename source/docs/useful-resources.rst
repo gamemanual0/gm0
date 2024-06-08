@@ -32,6 +32,8 @@ General Resources
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- The *FIRST* resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
+`Portfolio Perch <https://portfolioperch.com>`_ --- Library of award-winning Engineering Portfolios from various seasons, curated by FTC 10195 and contributed to by the community.
+
 `Engineering Portfolio Library <https://portfolios.hivemindrobotics.net>`_ --- A library of past award-winning Engineering Portfolios. Created by Polar from FTC 23396 and managed by the community.
 
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
