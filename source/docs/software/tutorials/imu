@@ -1,0 +1,146 @@
+.. include:: <isonum.txt>
+
+IMU (Inertial Measurement Unit)
+===============================
+
+What Is the IMU?
+------------------
+The IMU is built into the Rev control hub. It can measure yaw, pitch, roll, and their acceleration's for a total of six axes. However, yaw is the most useful in most cases, as it allows you to use the IMU as a simple gyro sensor. Using it as a gyro sensor allows for concise and readable turning functions in autonomous.
+
+There are two IMU interfaces in the FTC robot controller. Here, we will use the newer implementation as it is universal. This tutorial also assumes that you are mounting your Rev control hub orthogonally. However, more complex orientations are also possible.
+
+Writing a Turning Function
+--------------------------
+Creating the IMU Object
+^^^^^^^^^^^^^^^^^^^^^^^
+The first thing you need to do is create the IMU object. Put this at the beginning of your program with your motor objects, etc.
+
+.. code::
+  IMU imu;
+
+Initializing the IMU
+^^^^^^^^^^^^^^^^^^^^
+IMUs are more complex to configure than most motors and sensors because the numerous ways they can be mounted affect their sensor readings. Inside your initialization function, you need to specify the details of your IMU’s orientation. In this example, the logo is facing up and the USB is facing forward. Be sure to change the orientation variables of the control hub to however it is mounted on your particular robot.
+
+.. code::
+  RevHubOrientationOnRobot.LogoFacingDirection logoDirection = RevHubOrientationOnRobot.LogoFacingDirection.UP;
+  RevHubOrientationOnRobot.UsbFacingDirection  usbDirection  = RevHubOrientationOnRobot.UsbFacingDirection.FORWARD;
+
+  imu = hwMap.get(IMU.class, "imu");
+  RevHubOrientationOnRobot orientationOnRobot = new RevHubOrientationOnRobot(logoDirection, usbDirection);
+  imu.initialize(new IMU.Parameters(orientationOnRobot));
+
+Basic Turning Function
+^^^^^^^^^^^^^^^^^^^^^^
+In its simplest form, the turning function can take in just two values, the angle to be turned to and the speed to turn to it at.
+
+.. code::
+  public void turn(double angle, double speed){}
+
+The first thing you want to do at the beginning of the function is to call a function to reset the IMU. This function will set the value of the IMU to zero and forget the old value. Then you need to add a boolean that will be used to kick out of the while loop we use to continually check the yaw value.
+
+.. code::
+  imu.resetYaw();
+  Boolean isDone = false;
+
+Inside the while loop, we need to continually read the yaw so that we can react to it. Because this is a function, you need to be sure to use opmode.telemetry rather than just telemetry.
+
+.. code::
+  YawPitchRollAngles orientation = imu.getRobotYawPitchRollAngles();
+  opmode.telemetry.addData("Yaw", "%.2f Deg. (Heading)", orientation.getYaw(AngleUnit.DEGREES));
+  opmode.telemetry.update();
+
+As for the logic, if the angle has not yet been reached, then the robot should turn in the direction that results in the shortest path. Firstly, we can check if the angle has been exceeded by checking its absolute value against the absolute value of the angle we are turning to. Then, we can choose whether it's faster to turn left or right based on the sign of the angle being turned to. In this example, if the angle is positive, then it's faster to turn right, and vice versa. If this is not the case for your robot, then check what you set your IMU’s orientation too in the initialization function.
+
+.. code::
+  if(Math.abs(orientation.getYaw(AngleUnit.DEGREES))< Math.abs(angle)){
+     if(angle<0) {
+         //call your turn left function here or manually set your motor powers
+     }
+     if(angle>0){
+         //call your turn right function here or manually set your motor powers
+     }
+   
+Otherwise, the robot should exit the loop and continue with the rest of your autonomous. We need to be sure to set the motor powers to zero, otherwise the robot will keep rotating despite having finished running the function.
+
+.. code::
+  else{
+     imu.resetYaw();
+     //add code to set motor powers to zero here
+     isDone=true;
+     break;
+  }
+
+Turning Intelligently
+^^^^^^^^^^^^^^^^^^^^^
+For more precise turns, we will implement a `P-Controller <https://en.wikipedia.org/wiki/Proportional_control>`_. This helps us to avoid overshooting by scaling the speed of the robot according to the amount of the turn completed. We take the amount of the turn completed and multiply it by kP. Here, kP is a tuned constant, so that you slow down as you approach the target and don’t overshoot.
+
+.. code::
+  speed = (angle - orientation.getYaw(AngleUnit.DEGREES)) * kP;
+
+If you decide to implement this code to stop your robot from overshooting, be sure to also change the speed input to a kP input. Furthermore, while this algorithm is much more sophisticated than a binary controller, more advanced teams may still want to implement a `PID algorithm <https://gm0.org/en/latest/docs/software/concepts/control-loops.html>`_ in order to obtain even more accurate turns.
+
+Putting it all Together
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Here is one example of what putting together the IMU object, initialization, and advanced turning function could look like. In this example, it is just one part of a larger drivetrain function. This drivetrain function is often also where you should also store your functions for stopping and rotating the robot.
+
+.. code::
+  public class DriveTrain {
+     private DcMotor FrontLM = null;
+     private DcMotor FrontRM = null;
+     public DcMotor BackLM = null;
+     public DcMotor BackRM = null;
+
+     IMU imu;
+
+     private LinearOpMode opmode = null;
+
+     public DriveTrain() {
+     }
+
+     public void init(LinearOpMode opMode) {
+         HardwareMap hwMap;
+
+         opmode = opMode;
+         hwMap = opMode.hardwareMap;
+
+         RevHubOrientationOnRobot.LogoFacingDirection logoDirection = RevHubOrientationOnRobot.LogoFacingDirection.UP;
+         RevHubOrientationOnRobot.UsbFacingDirection usbDirection = RevHubOrientationOnRobot.UsbFacingDirection.FORWARD;
+
+         imu = hwMap.get(IMU.class, "imu");
+
+         RevHubOrientationOnRobot orientationOnRobot = new RevHubOrientationOnRobot(logoDirection, usbDirection);
+
+         imu.initialize(new IMU.Parameters(orientationOnRobot));
+
+     }
+
+     public void turnMath(double angle, double kP) {
+         imu.resetYaw();
+         Boolean isDone = false;
+         double speed=0;
+         while (!isDone) {
+             YawPitchRollAngles orientation = imu.getRobotYawPitchRollAngles();
+             opmode.telemetry.addData("Yaw", "%.2f Deg. (Heading)", orientation.getYaw(AngleUnit.DEGREES));
+             opmode.telemetry.update();
+             if (Math.abs(orientation.getYaw(AngleUnit.DEGREES)) < Math.abs(angle)) {
+                 speed = (angle - orientation.getYaw(AngleUnit.DEGREES)) * kP;
+
+                 if (angle < 0) {
+  //code to turn left
+                 }
+                 if (angle > 0) {
+  //code to turn right
+                 }
+             } else {
+                 imu.resetYaw();
+  //code to stop robot
+                 isDone = true;
+                 break;
+             }
+         }
+     }
+  }
+
+
