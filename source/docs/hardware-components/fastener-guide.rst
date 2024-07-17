@@ -89,6 +89,14 @@ These bolts have a cylindrical head and are tightened and loosened with a hexago
 
 These bolts have a domed head, in contrast to the flat top of a standard socket bolt.
 
+**Countersunk Head Bolts**
+
+.. figure:: images/countersunk-head.jpg
+   :alt: picture of a countersunk head bolt
+   :width: 150px
+
+These bolts have a cone-shaped head, and can be used in countersunk (cone-shaped) holes to achieve a flush surface finish.
+
 **Grub Screws**
 
 .. figure:: images/grub-screw.jpg
@@ -185,7 +193,11 @@ Bolts on your robot may loosen over time, especially if there are heavy vibratio
 
       .. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
 
-      .. danger:: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
+      .. danger::
+
+         Blue or red Loctite should not be used with brittle plastics such as polycarbonate. This is known to cause the plastic to crack. Instead, either use a `cyanoacrolate based glue <https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch <https://www.mcmaster.com/products/screws/socket-head-screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this will not damage the plastic.
+
+         Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
 
       .. figure:: images/loctite.png
          :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite
