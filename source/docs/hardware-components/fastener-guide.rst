@@ -193,10 +193,10 @@ Bolts on your robot may loosen over time, especially if there are heavy vibratio
 
       .. note:: It is highly recommended that teams use Loctite on all motor and :term:`servo <Servo>` mounts, as well as any mechanism prone to vibration.
 
-      .. danger:: 
-         
+      .. danger::
+
          Blue or red Loctite should not be used with brittle plastics such as polycarbonate. This is known to cause the plastic to crack. Instead, either use a `cyanoacrolate based glue <https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch <https://www.mcmaster.com/products/screws/socket-head-screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this will not damage the plastic.
-         
+
          Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
 
       .. figure:: images/loctite.png
