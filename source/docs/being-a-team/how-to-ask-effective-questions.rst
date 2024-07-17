@@ -41,10 +41,14 @@ This means doing the following:
 For example, when encountering robot crashes, try to collect as much data as possible around the times when your robot crashes.
 You may not understand this information yourself, but it can be a huge help to others trying to diagnose your issue.
 
-1. **Provide some context.** It is often helpful to provide context for example, what you may have changed recently, what skills you are new to and hence, could be the root of the issues.
+2. **Provide some context.** It is often helpful to provide context for example,  what skills you are new to and hence, could be the root of the issues.
 Furthermore, information about your resources can help others to determine solutions which are feasible and effective within your own constraints.
 
-1. **Don't just use words.** You should always try to provide some additional media related to the problem.
+3. **Share your progress.** Explain the steps you have already taken to address the problem.
+This may include specific troubleshooting methods, or examples of what you have been changing to try solve the issue.
+This helps others to gain a better understanding of the problem and avoid suggesting solutions that you have already tried.
+
+4. **Don't just use words.** You should always try to provide some additional media related to the problem.
 This may be sections of code, CAD files, images or videos.
 All of these provide others with a much better understanding of your problem, and often provide significantly useful information, which could be seemingly unrelated.
 
