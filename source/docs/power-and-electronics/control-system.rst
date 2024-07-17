@@ -18,8 +18,6 @@ There are two possible control systems that can be run on an FTC robot legally:
 - REV Control Hub + REV Expansion Hub
 - :term:`RC Phone <Robot Controller>` + REV Expansion Hub(s)
 
-.. important:: Beginning in the 2024-2025 season, an :term:`RC Phone <Robot Controller>` will no longer be legal to use as a Robot Controller. Teams will be required to use a REV Control Hub as their :term:`Robot Controller`.
-
 REV Control Hub + REV Expansion Hub
 -----------------------------------
 
