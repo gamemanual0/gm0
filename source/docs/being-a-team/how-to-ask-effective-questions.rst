@@ -15,23 +15,30 @@ In the end, this research will pay off in the long run, helping you to learn abo
 
 Here are some steps that you could take to research your problem:
 
--**Checking Official Documentation** - If documentation or instructions are available, make sure to carefully examine the relevant sections of them . Your problem may already be addressed, or may be caused by you misreading something.
+- **Checking Official Documentation** - If documentation or instructions are available, make sure to carefully examine the relevant sections of them.
+  Your problem may already be addressed, or may be caused by you misreading something.
 
 - **Google** - Simply search your problem.
   You will be surprised by how often this solves the issue.
   Try word the question in many different ways to find similar questions that may have already been asked.
+  Focus on including keywords about your problem and if it is about programming, include relevant error messages and codes.
 
 .. tip::
-    Add "filetype:pdf" to the beginning of your search to filter the search results into only .pdf documents.
-    This can help you when looking for past documents or sections of textbooks.
+    When looking for past documents or sections of textbooks, add "filetype:pdf" to the beginning of your search to filter the search results into only .pdf documents.
 
 - **YouTube** - There are many great resources on YouTube which can help with even obscure problems.
-- **Reddit and Discord** - The FTC [subreddit](https://www.reddit.com/r/ftc/) and [Discord server](https://discord.gg/first-tech-challenge) can also be useful places to find previous answers or to ask your own.
+
+- **Reddit and Discord** - The `FTC Subreddit <https://www.reddit.com/r/ftc/>`_ and `Discord Server <https://discord.gg/first-tech-challenge>`_ can also be useful places to find previous answers or to ask your own.
   Try searching through the past questions with keywords relating to your own.
-  You may find information in this discussion which can help you to solve your own problem.
+
 - **Past Examples** - Try find past implementations of whatever problem you are trying to solve.
   This step may take more time to find the example, and then decipher how someone else figured out the solution, but this process can be super valuable.
-  For programming, digging through another person's repo can be very insightful, and likewise, for mechanical design, taking a look at a teams technical binder or CAD release.
+  For programming, digging through another person's repository can be very insightful.
+  Likewise, for mechanical design, taking a look at a teams technical binder or CAD release.
+
+.. tip::
+    For programming questions, it can sometimes be helpful to find past implementations through `GitHub Code Search <https://github.com/search?type=code&auto_enroll=true>`_.
+    Even if you don't find the solution, examining other codebases can teach you a lot about general strategies and functions you may not have seen before.
 
 Be Specific
 -----------
@@ -39,26 +46,38 @@ Be Specific
 For others to be able to provide a good solution to your problem, they need the specifics.
 This means doing the following:
 
-1. **Break down the problem.** You should try to pinpoint the problem as much as possible.
+1. **Break down the problem.**
+
+You should try to pinpoint the problem as much as possible.
 For example, when encountering robot crashes, try to collect as much data as possible around the times when your robot crashes.
-You may not understand this information yourself, but it can be a huge help to others trying to diagnose your issue.
+You may not understand this information yourself, but it may allow others to solve your issue.
+It can also be useful to explain why you're asking.
+It can be easy to get stuck on a specific solution to a problem when it would be better solved in an entirely different way; this is known as the `XY Problem <https://xyproblem.info/>`_.
 
-2. **Provide some context.** It is often helpful to provide context for example,  what skills you are new to and hence, could be the root of the issues.
+2. **Provide some context.**
+
+It is often helpful to provide context for example, what skills you are new to and hence, could be the root of the issues.
 Furthermore, information about your resources can help others to determine solutions which are feasible and effective within your own constraints.
+For example, you might be competing within a week and looking for a quick fix; make sure to mention this in your question if so.
 
-3. **Share your progress.** Explain the steps you have already taken to address the problem.
+3. **Share your progress.**
+
+Explain the steps you have already taken to address the problem.
 This may include specific troubleshooting methods, or examples of what you have been changing to try solve the issue.
 This helps others to gain a better understanding of the problem and avoid suggesting solutions that you have already tried.
 
-4. **Don't just use words.** You should always try to provide some additional media related to the problem.
-This may be sections of code, CAD files, images or videos.
-All of these provide others with a much better understanding of your problem, and often provide significantly useful information, which could be seemingly unrelated.
+4. **Don't just use words.**
+
+You should always try to provide some additional media related to the problem.
+This may be relevant sections of code, CAD files, images or videos.
+All of these provide others with a much better understanding of your problem.
+
 
 Understand the Solution
 -----------------------
 
 The final step for asking a question is understanding the solution.
-This is your own responsibility. 
+This is your own responsibility.
 No matter how good a teacher is, if you do not ask clarifying questions, you limit your own learning.
 To really understand the solution, you should do the following.
 
@@ -70,3 +89,7 @@ To really understand the solution, you should do the following.
 .. tip::
     If the answer is not immediately obvious to one of the steps above, ask the person who helped you and have them provide some more insight.
     If they were willing to help you figure out the initial problem, they will probably help you to understand the solution as well.
+
+.. important::
+    If you solve the problem on your own but already posted a question, post a response which describes how you solved the issue.
+    This clarification can help someone in the future solve the problem in much less time.
