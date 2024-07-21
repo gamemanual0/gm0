@@ -9,23 +9,25 @@ Being able to learn from your questions properly is crucial and as such, you sho
 Research First
 --------------
 
-Before you ask a question, you should be doing your own research to find the answer.
-This will take more time, it will take more effort, but it is a crucial skill to learn to find solutions on your own, and learn how to research effectively to find solutions to your problems.
+Before you ask a question, you should do your own research to find the answer.
+This will take more time and more effort, but it is crucial to learn to find solutions on your own, and learn how to research effectively to find solutions to your problems.
 In the end, this research will pay off in the long run, helping you to learn about topics relevant to your question, and often helping you to understand the roots of the problems you encounter.
 
-Here are some steps that you could take to research your problem before asking someone a question about your current problem.
+Here are some steps that you could take to research your problem:
+
+-**Checking Official Documentation** - If documentation or instructions are available, make sure to carefully examine the relevant sections of them . Your problem may already be addressed, or may be caused by you misreading something.
 
 - **Google** - Simply search your problem.
-  You will be surprised by how often this can quickly solve your problem although you may not have expected it to.
+  You will be surprised by how often this solves the issue.
   Try word the question in many different ways to find similar questions that may have already been asked.
 
 .. tip::
     Add "filetype:pdf" to the beginning of your search to filter the search results into only .pdf documents.
     This can help you when looking for past documents or sections of textbooks.
 
-- **Youtube** - Just like google, there are many great resources on Youtube which can help with very specific, obscure problems.
-- **Reddit and Discord** - If you can't find your own question online, the FTC Reddit and Discord will be the other most likely place to have a past question similar to your own.
-  Try searching through the past questions with words related to your question and see if a similar question has been asiked before.
+- **YouTube** - There are many great resources on YouTube which can help with even obscure problems.
+- **Reddit and Discord** - The FTC [subreddit](https://www.reddit.com/r/ftc/) and [Discord server](https://discord.gg/first-tech-challenge) can also be useful places to find previous answers or to ask your own.
+  Try searching through the past questions with keywords relating to your own.
   You may find information in this discussion which can help you to solve your own problem.
 - **Past Examples** - Try find past implementations of whatever problem you are trying to solve.
   This step may take more time to find the example, and then decipher how someone else figured out the solution, but this process can be super valuable.
@@ -56,12 +58,13 @@ Understand the Solution
 -----------------------
 
 The final step for asking a question is understanding the solution.
-This is your own responsibility and no matter how good a teacher is, if you do not ask clarifying questions, you limit your own learning.
+This is your own responsibility. 
+No matter how good a teacher is, if you do not ask clarifying questions, you limit your own learning.
 To really understand the solution, you should do the following.
 
 - **Understand why the problem is solved.** How was your problem fixed? Why does this fix work?
 - **Figure out why the problem occurred.** What was the root cause of the problem? How can you stop it happening again?
-- **Ask for an outline of someone elses problem solving process.** How did someone else solve the problem? How can you use this process to solve more of your own problems in the future?
+- **Ask for an outline of someone else's problem solving process.** How did someone else solve the problem? How can you use this process to solve more of your own problems in the future?
 - **Find gaps in your knowledge.** What information were you missing that led to the problem? How can you develop this area of your knowledge?
 
 .. tip::
