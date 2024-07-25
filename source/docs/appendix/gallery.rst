@@ -5,6 +5,15 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2023-2024 Center Stage
+------------------------
+
+19234 ByteForce
+^^^^^^^^^^^^^^^^^^^^^
+
+- `Portfolio (English) <https://drive.google.com/file/d/1wx9naEp4gLObyNXjph1JLryPXUEph6ik/view>`__
+- `Portfolio (Romanian) <https://drive.google.com/file/d/1lNLNuKn5PMewyk5oaLIF3951BtJYJSvq/view>`__
+
 2022-2023 Power Play
 ------------------------
 
