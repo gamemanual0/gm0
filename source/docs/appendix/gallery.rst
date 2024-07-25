@@ -11,8 +11,8 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 19234 ByteForce
 ^^^^^^^^^^^^^^^^^^^^^
 
-- `Portfolio EN <https://drive.google.com/file/d/1wx9naEp4gLObyNXjph1JLryPXUEph6ik/view>`__
-- `Portfolio RO <https://drive.google.com/file/d/1lNLNuKn5PMewyk5oaLIF3951BtJYJSvq/view>`__
+- `Portfolio (English) <https://drive.google.com/file/d/1wx9naEp4gLObyNXjph1JLryPXUEph6ik/view>`__
+- `Portfolio (Romanian) <https://drive.google.com/file/d/1lNLNuKn5PMewyk5oaLIF3951BtJYJSvq/view>`__
 
 2022-2023 Power Play
 ------------------------
