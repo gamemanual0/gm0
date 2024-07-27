@@ -3,8 +3,7 @@
 How to Ask Effective Questions
 ==============================
 
-Asking questions effectively is one of the most important skills to develop, especially for your life outside of robotics.
-Being able to learn from your questions properly is crucial and as such, you should be able to ask good questions, help those who want to help you, and make the most of what you are taught.
+Asking questions effectively is one of the most important skills to develop, especially for your life outside of robotics. Being able to learn from your questions properly is crucial and as such, you should be able to ask good questions, help those who want to help you, and make the most of what you are taught.
 
 Research First
 --------------
