@@ -31,12 +31,12 @@ Here are some steps that you could take to research your problem:
   Try searching through the past questions with keywords relating to your own.
 
 - **Past Examples** - Try find past implementations of whatever problem you are trying to solve.
-  This step may take more time to find the example, and then decipher how someone else figured out the solution, but this process can be super valuable.
+  This step may take more time, as it requires finding the example, and then deciphering how someone else figured out the solution, but this process can be super valuable.
   For programming, digging through another person's repository can be very insightful.
   Likewise, for mechanical design, taking a look at a teams technical binder or CAD release.
 
 .. tip::
-    For programming questions, it can sometimes be helpful to find past implementations through `GitHub Code Search <https://github.com/search?type=code&auto_enroll=true>`_.
+    For programming questions, it can sometimes be helpful to find past implementations through `GitHub Code Search <https://github.com/search?type=code>`_. Note this currently requires a GitHub account.
     Even if you don't find the solution, examining other codebases can teach you a lot about general strategies and functions you may not have seen before.
 
 Be Specific
@@ -47,11 +47,7 @@ This means doing the following:
 
 1. **Break down the problem.**
 
-You should try to pinpoint the problem as much as possible.
-For example, when encountering robot crashes, try to collect as much data as possible around the times when your robot crashes.
-You may not understand this information yourself, but it may allow others to solve your issue.
-It can also be useful to explain why you're asking.
-It can be easy to get stuck on a specific solution to a problem when it would be better solved in an entirely different way; this is known as the `XY Problem <https://xyproblem.info/>`_.
+   You should try to pinpoint the problem as much as possible. For example, when encountering robot crashes, try to collect as much data as possible around the times when your robot crashes. You may not understand this information yourself, but it may allow others to solve your issue. It can also be useful to explain why you're asking. It can be easy to get stuck on a specific solution to a problem when it would be better solved in an entirely different way; this is known as the `XY Problem <https://xyproblem.info/>`_.
 
 2. **Provide some context.**
 
@@ -86,7 +82,7 @@ To really understand the solution, you should do the following.
 - **Find gaps in your knowledge.** What information were you missing that led to the problem? How can you develop this area of your knowledge?
 
 .. tip::
-    If the answer is not immediately obvious to one of the steps above, ask the person who helped you and have them provide some more insight.
+    If the answer to one of these questions is not apparent, ask the person who helped you and have them provide some more insight.
     If they were willing to help you figure out the initial problem, they will probably help you to understand the solution as well.
 
 .. important::
