@@ -11,3 +11,4 @@ Some tips on how to start, run, and organize a team, along with some outreach/ma
    collaboration-and-efficiency
    outreach-basics
    pitching-your-team
+   how-to-ask-effective-questions
