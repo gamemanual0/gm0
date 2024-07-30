@@ -8,6 +8,12 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 2023-2024 Center Stage
 ------------------------
 
+19043 CyLiis
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://a360.co/3yfMwuh>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=9B9PK5Rr0gs>`__
+
 19234 ByteForce
 ^^^^^^^^^^^^^^^^^^^^^
 
