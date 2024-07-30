@@ -8,6 +8,12 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 2023-2024 Center Stage
 ------------------------
 
+23396 hivemind
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://go.hivemindrobotics.net/cad>`__
+- `Portfolio <https://go.hivemindrobotics.net/csportfolio>`__
+
 19043 CyLiis
 ^^^^^^^^^^^^^^^^^^^^^
 
