@@ -174,7 +174,9 @@ We'll treat the way it is solved in this page as a black box, and derive the for
 Resources for Odometry
 ----------------------
 
-There are several great resources out there for odometry. We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. For the math behind Road Runner (which utilizes pose exponentials), you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. An additional resource for Road Runner is `Learn Road Runner <https://learnroadrunner.com/>`_ which is a step-by-step procedural guide that explains how to work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_.
+There are several great resources out there for odometry. We highly recommend `Road Runner <https://acme-robotics.gitbook.io/road-runner/>`_. For the math behind Road Runner (which utilizes pose exponentials), you can also read `Ryan's paper <https://github.com/acmerobotics/road-runner/blob/master/doc/pdf/Mobile_Robot_Kinematics_for_FTC.pdf>`_. Roadrunner currently has a legacy version and a newer version in beta; the beta implements a new action framework that eliminates continuity errors and signfiicantly simplifies the tuning process. An additional resource for legacy Road Runner is `Learn Road Runner <https://learnroadrunner.com/>`_ which is a step-by-step procedural guide that explains how to work with the `Road Runner quickstart <https://github.com/acmerobotics/road-runner-quickstart>`_. For beta roadrunner, the `official docs <https://rr.brott.dev/docs/>`_ detail migration and tuning.
+
+The MeepMeep visualizer is immensely helpful in prototyping and debugging paths in Roadrunner. It can be run from within Android Studio, and the legacy-compatible version is maintained in this `git repo <https://github.com/NoahBres/MeepMeep>`_, while the beta-compatible one is `here <https://github.com/acmerobotics/MeepMeep>`_.
 
 We also recommend `Tyler's book <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>`_ as it goes into great detail about various controls in *FIRST*\ |reg| robotics.
 
