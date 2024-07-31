@@ -23,8 +23,8 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 23396 hivemind
 ^^^^^^^^^^^^^^^^^^^^^
 
-- `CAD <https://cad.onshape.com/documents/fba422c04d9f259e36433b8c/w/661ed7aa8a40b6c0f5d26203/e/6205d0d7691937476f4d9a4c?renderMode=0&uiState=662b07d69f2a5f750315222b>`__
-- `Portfolio <https://www.dropbox.com/scl/fi/djsasr2ofjwxe2u6x30q4/23396-CS.pdf?rlkey=i6i2m0biob18iiegup48wnkus&st=kntv960r&dl=0>`__
+- `CAD <https://cad.onshape.com/documents/fba422c04d9f259e36433b8c/w/661ed7aa8a40b6c0f5d26203/e/6205d0d7691937476f4d9a4c>`__
+- `Portfolio <https://www.dropbox.com/scl/fi/djsasr2ofjwxe2u6x30q4/23396-CS.pdf>`__
 
 2022-2023 Power Play
 ------------------------
