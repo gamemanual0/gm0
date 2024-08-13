@@ -13,7 +13,7 @@ Advantages of Machining
 Disadvantages of Machining
 --------------------------
 
-- Perhaps the biggest barrier when making a fully custom robot is that it requires very expensive manufacturing equipment. While 3D printers have become more and more common in FTC\ |reg| and allow teams to create or customize small parts, many teams do not have access to equipment such as lathes, routers, waterjet cutters, or CNC machines.
+- Perhaps the biggest barrier when making a fully custom robot is that it requires very expensive manufacturing equipment. While 3D printers have become more and more common in FTC\ |reg| and allow teams to create or customize small parts, many teams do not have access to equipment such as lathes, routers, waterjet cutters, or CNC machines. Some teams without machines have uses services, such as `Fabworks <https://www.fabworks.com/>` or `SendCutSend <https://sendcutsend.com/>`.
 - Fully custom robots need to be fully designed in CAD. Sketching will not cut it when building custom robots.
 - Another barrier is that prototyping with fully custom systems is almost always much slower than using kit parts. The full CAD process takes time, and fabrication/getting parts fabricated by a shop or sponsor is another lengthy process. Notwithstanding those two factors, if something goes drastically wrong then it will require a repeat process of CAD and fabrication.
 
