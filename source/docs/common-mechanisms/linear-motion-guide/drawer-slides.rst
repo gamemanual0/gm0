@@ -115,7 +115,7 @@ Disadvantages
 - More expensive than other slide options
 
 BWTlink Slides
-------------
+--------------
 
 `BWTlink slides <https://bwtlink.com/ProductItem.aspx?PID=17>`_ are known for being extremely compact. They also come with pulley modules (like MiSUMI slide inserts) that are small and based on a string rigging system. No spacers are required to connect one stage of the slide to the next. This makes the slides very stable.
 
