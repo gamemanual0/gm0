@@ -5,6 +5,27 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2023-2024 Center Stage
+------------------------
+
+19043 CyLiis
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://a360.co/3yfMwuh>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=9B9PK5Rr0gs>`__
+
+19234 ByteForce
+^^^^^^^^^^^^^^^^^^^^^
+
+- `Portfolio (English) <https://drive.google.com/file/d/1wx9naEp4gLObyNXjph1JLryPXUEph6ik/view>`__
+- `Portfolio (Romanian) <https://drive.google.com/file/d/1lNLNuKn5PMewyk5oaLIF3951BtJYJSvq/view>`__
+
+23396 hivemind
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/fba422c04d9f259e36433b8c/w/661ed7aa8a40b6c0f5d26203/e/6205d0d7691937476f4d9a4c>`__
+- `Portfolio <https://www.dropbox.com/scl/fi/djsasr2ofjwxe2u6x30q4/23396-CS.pdf>`__
+
 2022-2023 Power Play
 ------------------------
 

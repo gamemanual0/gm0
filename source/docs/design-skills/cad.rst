@@ -1,4 +1,5 @@
 .. include:: <isonum.txt>
+.. include:: <isolat1.txt>
 
 Computer-aided design (CAD)
 ===========================
@@ -47,7 +48,7 @@ If you're just starting out with CAD, or you don't have access to powerful compu
 `SolidWorks <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An industry standard CAD package made by Dassault Systemes. It's as fully featured as CAD software gets, including great simulation features and a very robust assembly environment. It's used widely in industry and is also the program of choice for most college-level engineering classes.
+An industry standard CAD package made by Dassault Syst\ |egrave|\ mes. It's as fully featured as CAD software gets, including great simulation features and a very robust assembly environment. It's used widely in industry and is also the program of choice for most college-level engineering classes.
 
 However, **it isn't available for Mac users**, and you'll need a pretty beefy computer to run it (16GB RAM is standard). SolidWorks also comes with a solid simulation program if you wish to test the structural properties of your robot or a custom-designed part.
 

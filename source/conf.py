@@ -48,7 +48,7 @@ local_extensions = [
 extensions.extend(local_extensions)
 
 templates_path = ["_templates"]
-source_suffix = ".rst"
+source_suffix = { ".rst": "restructuredtext" }
 # The master toctree document.
 master_doc = "index"
 

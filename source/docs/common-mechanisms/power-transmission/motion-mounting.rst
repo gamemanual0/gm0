@@ -27,7 +27,7 @@ Disadvantages
 ^^^^^^^^^^^^^
 
 - Can physically take up more space (bearings needed on either side of a shaft)
-- Usually requires some form of shaft retention to prevent the shaft from moving
+- Usually requires some form of :doc:`/docs/common-mechanisms/power-transmission/shaft-retention` to prevent the shaft from moving
 
 Dead Axle
 ---------

@@ -7,6 +7,7 @@ When building any mechanism, it is important to consider how the mechanism will 
    :maxdepth: 1
 
    motion-mounting
+   shaft-retention
    direct-drive
    gears
    chain
