@@ -50,6 +50,7 @@ Other Contributors
 - Sam - FTC 2753 Team Overdrive
 - Shurik - FTC 4137 Islandbots mentor
 - Tom - FTC 3736 Serious Business
+- Tristan - FTC 25707 Solar Flare
 - Tyler - FRC 3184 Blaze Robotics
 - Wes - FTC 3658 Bosons
 - Whimsy - FTC 8417 'Lectric Legends
