@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - "*"
+
 jobs:
   build-html:
     runs-on: ubuntu-latest
@@ -25,10 +26,11 @@ jobs:
       run: |
         make html
     - name: Archive HTML
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: gm0-html
         path: build/html/
+
   build-pdf:
     runs-on: ubuntu-latest
     steps:
@@ -47,10 +49,11 @@ jobs:
       run: |
         make latexpdf
     - name: Archive PDF
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: gm0-pdf
         path: build/latex/GameManual0.pdf
+
   check-links:
     runs-on: ubuntu-latest
     steps:
@@ -67,10 +70,11 @@ jobs:
         make linkcheckdiff
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: linkcheck-output.txt
         path: build/linkcheck/output.txt
+
   check-linting:
     runs-on: ubuntu-latest
     steps:
@@ -84,6 +88,7 @@ jobs:
     - name: Check Lint
       run: |
         make lint
+
   check-spelling:
     runs-on: ubuntu-latest
     steps:
@@ -93,6 +98,7 @@ jobs:
       with:
         locale: "US"
         reporter: "github-check"
+
   check-redirects:
     runs-on: ubuntu-latest
     steps:
@@ -109,6 +115,7 @@ jobs:
     - name: Check redirects
       run: |
         make rediraffecheckdiff
+
   check-unicode-characters:
     runs-on: ubuntu-latest
     steps:
