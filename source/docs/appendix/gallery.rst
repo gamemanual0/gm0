@@ -27,7 +27,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Portfolio <https://www.dropbox.com/scl/fi/djsasr2ofjwxe2u6x30q4/23396-CS.pdf>`__
 
 24331 Caesar Circuitry
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - `CAD <https://a360.co/3C451mJ>`__
 - `Portfolio <https://drive.google.com/file/d/1LNdKZ7orF9qO4ThLHI0WbrNtDWNpuYc6/view?usp=drive_link>`__
