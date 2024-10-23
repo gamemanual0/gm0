@@ -30,7 +30,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - `CAD <https://a360.co/3C451mJ>`__
-- `Portfolio <https://drive.google.com/file/d/1LNdKZ7orF9qO4ThLHI0WbrNtDWNpuYc6/view?usp=drive_link>`__
+- `Portfolio <https://drive.google.com/file/d/19FOZEtQpSgrPPihCX20dnA4_-t7p6nDa/view?usp=sharing>`__
 
 2022-2023 Power Play
 ------------------------
