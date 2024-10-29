@@ -107,3 +107,36 @@ The inverse kinematics of a mecanum drive relate the desired velocity of the rob
    v_{br} = v_f - v_s + (2r_b \cdot \omega)
 
    v_{fr} = v_f + v_s + (2r_b \cdot \omega)
+
+
+Manipulators
+--------------
+
+.. _gravity-compensation:
+
+Gravity Compensation
+^^^^^^^^^^^^^^^^^^^^
+
+Often in FTC, teams have arms that swing out around an axis. Controlling these arms requires a bit of thought as depending on the angle they're at, the effect of gravity drastically changes.
+
+Our first step is defining a reference frame. Our recommendation is to define zero as straight to the side, as this is when gravity has the greatest effect on your arm. Other reference frames will still work, but the exact trigonometry will change.
+
+.. figure:: ./images/kinematics/reference-frame.svg
+   :alt: A diagram of a robot with a long arm, with 0 degrees marked to the side
+
+   11329 I.C.E. Robotics
+
+In a reference frame like this, the relative force of gravity will be equal to the cos of the angle. This makes sense as when the cos function is evaluated at zero degrees, it returns 1, while at 90 degrees where there is no effect of gravity, it returns 0.
+
+.. math::
+   F_g = g\cos{\theta}
+
+Assuming you have an encoder on your arm, you can find :math:`\theta` (the angle of the arm relative to the vertical) using something similar to the following pseudocode.
+
+.. note:: DEGREE_PER_TICK can be found by taking 360 divided by your encoder resolution all multiplied by your gear ratio. For example, for a `19.2:1 goBILDA Yellow Jacket <https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-19-2-1-ratio-24mm-length-8mm-rex-shaft-312-rpm-3-3-5v-encoder/>`_, there are 537.7 ticks per revolution, and so :math:`\frac{360}{537.7}` degrees per tick at the gearbox output shaft. If there was a 2:1 gear ratio after that, then the ticks per revolution would instead be :math:`\frac{360}{2 \times 537.7}`
+
+.. code:: java
+
+   current_angle = (TICKS_AT_ZERO - current_tick) * DEGREE_PER_TICK
+
+The typical way to utilize the effect of gravity you just found, is to pass it in as a feedforward parameter to a PID controller. We cover this in :ref:`gravity-compensated-feedforward`.
