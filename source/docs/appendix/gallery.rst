@@ -8,6 +8,14 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 2023-2024 Center Stage
 ------------------------
 
+11329 I.C.E. Robotics
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://grabcad.com/library/2023-4-centerstage-avalanche-1>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=zgxeoOq_rXw>`__
+- `Behind the Bot <https://www.youtube.com/watch?v=clzm3SEnHik>`__
+- `Code <https://github.com/FTC11329/11329-2024-repo>`__
+
 19043 CyLiis
 ^^^^^^^^^^^^^^^^^^^^^
 
