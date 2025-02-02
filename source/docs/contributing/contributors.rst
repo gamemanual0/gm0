@@ -53,6 +53,7 @@ Other Contributors
 - Tyler - FRC 3184 Blaze Robotics
 - Wes - FTC 3658 Bosons
 - Whimsy - FTC 8417 'Lectric Legends
+- Akshara - FTC 23292 SuperPowered Jalapenos 
 
 Hosting
 -------
