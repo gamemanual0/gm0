@@ -149,7 +149,7 @@ Using PTFE Tubing and John Guest Adapters to Route the String
 If you're looking for flexibility in mounting your linear slides in a different location than your motor/pulley, consider using PTFE tubing and John Guest Adapters to route the string.
 
 .. figure:: images/rigging/23292-adapters.jpg
-   :alt: 23292 SuperPowered Jalapeños Rigging Image
+   :alt: 23292 SuperPowered Jalapenos Rigging Image
 
 
 
