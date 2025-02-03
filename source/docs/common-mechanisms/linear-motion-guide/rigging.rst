@@ -158,13 +158,13 @@ If you're looking for flexibility in mounting your linear slides in a different 
 The tubing can be routed over long distances without adding significant friction
 
 .. figure:: images/rigging/23292-JohnGuestAdapters-Rigging.png
-   :alt: 23292 SuperPowered Jalapeños Rigging Image
+   :alt: 23292 SuperPowered Jalapenos Rigging Image
 
 
 
 
 
-   23292 SuperPowered Jalapeños John Guest Adapters- Rigging
+   23292 SuperPowered Jalapenos John Guest Adapters- Rigging
 
 
 Belt-driven slides
