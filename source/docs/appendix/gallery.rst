@@ -5,6 +5,15 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2024-2025 Into The Deep
+-------------------------
+
+24331 Caesar Circuitry
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/cf533bb8c8240c95e41a2fee/w/2bb5a6848b6905cb05e5da11/e/d904bd552471b4afe760ec98>`__
+- `Code <https://github.com/Caesar-Circuitry/Caesar-Circuitry-ITD-Atlas>`__
+
 2023-2024 Center Stage
 ------------------------
 
