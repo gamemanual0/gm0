@@ -50,6 +50,9 @@ Tips for use
 
 In any build system, it is important to properly support the structure of your robot. This includes supporting axles at two or more points of contact, or having multiple points of support for a piece of :term:`channel <Channel>`. Due to TETRIX's relatively fragile nature, this advice goes double with TETRIX. Instead of just supporting a :term:`shaft <Shaft>` at two points, it is recommended to support the :term:`shaft <Shaft>` at 4 or more (if you are using a 4.7mm standard). When mounting motors, it is recommended that :term:`two clamping motor mounts <Clamp Mounting>` are used to mount one motor. Using :term:`standoffs <Standoff>` inside :term:`channel <Channel>` to prevent the :term:`channel <Channel>` from bending inward or outward is also highly recommended.
 
+Example Robots
+--------------
+
 .. figure:: images/tetrix/6022-vv.jpg
    :alt: 6022 To Be Determined's Velocity Vortex Robot
 

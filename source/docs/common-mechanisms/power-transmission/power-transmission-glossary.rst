@@ -34,8 +34,8 @@ Power Transmission Glossary
          Delrin  20 Tooth #25 sprocket
 
    HTD Belt
-      HTD belt is a type of synchronous timing belt commonly used on drivetrains. It is available in different widths to accommodate different sized pulleys. The most common is HTD3 (3mm :term:`Pitch`) and HTD5 (5mm :term:`Pitch`) belts, as these are compatible with goBILDA :term:`COTS` pulleys. See :term:`Timing Belt`
+      HTD belt is a type of synchronous timing belt commonly used on drivetrains and other mechanisms. It is available in different widths and pitches to accommodate different sized pulleys. The most common are HTD3 (3mm :term:`Pitch`) and HTD5 (5mm :term:`Pitch`) belts, as these are compatible with goBILDA :term:`COTS` pulleys. See :term:`Timing Belt`
 
    GT2 Belt
-      GT2 belt is a type of synchronous timing belt commonly used on drivetrains and other mechanisms. Its available in different widths and pitches, although the most common is GT2 3mm (3mm :term:`Pitch`), compatible with REV Robotics :term:`COTS` Pulleys. See :term:`Timing Belt`
+      GT2 belt is a type of synchronous timing belt commonly used on linear slides and other mechanisms. It is available in different widths and pitches to accommodate different sized pulleys. The most common are GT2 2mm (2mm :term:`Pitch`), compatible with goBILDA :term:`COTS` pulleys, and GT2 3mm (3mm :term:`Pitch`), compatible with REV Robotics :term:`COTS` pulleys. See :term:`Timing Belt`
 
