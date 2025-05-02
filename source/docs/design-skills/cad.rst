@@ -96,7 +96,7 @@ College-level engineering classes as well as numerous companies in the automotiv
 Getting Parts
 -------------
 
-All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models of the parts they sell in STEP format, which can be imported by any of the CAD programs above. Some vendors also offer repositories or zip files containing :term:`STEP file` of all the models they sell.
+All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3D models of the parts they sell in STEP format, which can be imported by any of the CAD programs above. Some vendors also offer repositories or zip files containing :term:`STEP file` of all the models they sell.
 
 - Vendor CAD Libraries
 
