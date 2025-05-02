@@ -10,47 +10,55 @@ Kit Glossary
 
       Channel is fixed pitch, which means that there are pre-drilled holes that limit mounting to finite locations. It can be used to easily construct drivetrains; however, be aware that :term:`gear <Gear>` and :term:`chain <Chain>` mesh may not be with channel.
 
-      .. image:: images/tetrix/tetrix-channel.png
-         :alt: A piece of tetrix channel
+      .. figure:: images/gobilda/gobilda_channel.jpg
+         :alt: A piece of goBILDA U-Channel
          :width: 200
+
+         A piece of goBILDA U-Channel
 
    Extrusion
       Extrusion is aluminum shaped into slotted profiles able to accept certain types of hardware. For FTC, the most common is the 15mm extrusion, used in the REV and Misumi products. 15mm extrusion accepts M3 bolts and nuts (note that only regular M3 nuts can fit inside the slot, not :term:`locknuts <Locknut>`).
 
       Extrusion is not a fixed pitch system, allowing teams to adjust components as they wish. This makes it simple to achieve correct tension and put mechanisms where :term:`channel <Channel>` would limit mounting. The adjustability of extrusion is especially useful in precise situations, such as intake geometry. However, extra care must be taken to ensure components do not shift under load.
 
-      .. image:: images/rev-robotics/extrusion.png
+      .. figure:: images/rev-robotics/extrusion.png
          :alt: A piece of REV Robotics extrusion
          :width: 200
+
+         A piece of REV Robotics extrusion
 
    Ball Bearing
       Ball bearings refer to bearings with steel balls arranged in a circular fashion. This allows rotation of an element with less friction than a bushing, primarily because the surface area (or contact area) is much less than in a :term:`bushing <Bushing>`.
 
-      Bearings are definitely recommended for drivetrain and high speed usage. Bearings are used in the Actobotics, goBILDA, and REV kits, and are commonly sold by most robotics vendors.
+      Bearings are definitely recommended for drivetrain and high speed usage. Bearings are used in the goBILDA, REV, and Actobotics kits, and are commonly sold by most robotics vendors.
 
       .. figure:: images/actobotics/actobotics-dual-ball-bearing-hub.png
-         :alt: Actobotics dual ball bearing hub
+         :alt: An Actobotics dual ball bearing hub
          :width: 200
 
-         Actobotics dual ball bearing hub
+         An Actobotics dual ball bearing hub
 
    Servoblocks
-      Servoblocks, sold by Servocity/Actobotics/goBILDA, are a way to mount :term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While Servoblocks are not cheap, they are one of the best investments for teams to pursue.
+      Servoblocks, sold by goBILDA/Servocity/Actobotics, are a way to mount :term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While Servoblocks are not cheap, they are one of the best investments for teams to pursue to prevent servo failure in high-load mechanisms.
 
-      .. image:: images/actobotics/servoblock.png
+      .. figure:: images/actobotics/servoblock.png
          :alt: An Actobotics Servoblock
 
-      .. figure:: images/actobotics/10030-servoblock-usage.png
-         :alt: An example of a servoblock being used on a robot
+         An Actobotics Servoblock
 
-         10030 7 Sigma, Relic Recovery
+      .. figure:: images/actobotics/10030-servoblock-usage.png
+         :alt: An example of a servoblock being used on a robot (10030 7 Sigma, Relic Recovery)
+
+         An example of an Actobotics servoblock being used on a robot (Team 10030 7 Sigma, Relic Recovery)
 
    Clamping Hub
-      A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from moving laterally. Unlike shaft collars, clamping hubs use screws to apply clamping force around the entire shaft, giving a better hold. As a result, clamping hubs are recommended over shaft collars.
+      A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from moving laterally. Unlike shaft collars, clamping hubs use one or more screws to apply clamping force around the entire shaft, giving a better hold. As a result, clamping hubs are recommended over shaft collars.
 
-      .. image:: images/actobotics/clamping-hub.png
-         :alt: An Actobotics clamping hub
+      .. figure:: images/gobilda/sonic-hub.jpg
+         :alt: A goBILDA Sonic hub
          :width: 200
+
+         A goBILDA Sonic hub
 
    Bevel gear
       Bevel gears are :term:`gears <Gear>` that transfer power along different axes, which are perpendicular to each other. Bevel gears are generally considered more inefficient than regular gears.

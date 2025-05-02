@@ -92,6 +92,9 @@ Disadvantages
 - M3 bolts, especially those sold directly by REV, are prone to bending under higher load (such as when used as an :term:`axle <Shaft>` for a pulley)
 - 5 mm hex :term:`shaft <Shaft>` is also prone to bending, especially if the :term:`shaft <Shaft>` is long.
 
+Example Robots
+--------------
+
 .. figure:: images/rev-robotics/7161-rr1.png
    :alt: 7161 ViperBots Hydra's Relic Recovery robot
 
