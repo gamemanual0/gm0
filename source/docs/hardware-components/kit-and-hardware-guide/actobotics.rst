@@ -3,7 +3,7 @@
 Actobotics (Discontinued)
 =========================
 
-.. attention:: As of June 2023, ServoCity is `discontinuing the Actobotics line <https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on goBILDA. We are retaining these pages as historical reference for teams that continue to have and use Actobotics parts.
+.. attention:: As of June 2023, ServoCity has `discontinued the Actobotics line <https://www.servocity.com/blog/farewell-to-actobotics/>`_ to focus on goBILDA. We are retaining these pages as historical reference for teams that continue to have and use Actobotics parts.
 
 The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch, :term:`channel-based <Channel>` building system using imperial units. Its 1.5" :term:`c-channel <Channel>` and :term:`ball-bearing <Ball Bearing>` based motion system allows teams to iterate and build mechanisms entirely from kit parts.
 
@@ -13,7 +13,7 @@ Special Considerations
 - Actobotics' :term:`channel <Channel>` hole pattern has many more mounting holes than a Tetrix channel, so it offers more flexibility in terms of mounting.
 - Actobotics uses imperial units across the board, allowing for clean spacing and fitting. However, most other kits use metric.
 - Actobotics can interface with other kits such as REV through a variety of Pattern Adapters.
-- ServoCity offers a 25% off discount for all *FIRST*\ |reg| teams making, pricing competitive: https://www.servocity.com/first_team_discounts
+- ServoCity offers a 25% off discount for all *FIRST*\ |reg| teams, making pricing competitive: https://www.servocity.com/first_team_discounts
 
 Notable Components
 ------------------
@@ -53,6 +53,9 @@ Disadvantages
 - Actobotics is not very cheap, so its cost may be prohibitive for some teams with a low budget. Note that with the 25% off FTC\ |reg| team discount, Actobotics can be cheaper than TETRIX. The only cheaper build system is REV.
 - The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is recommended that :term:`belts <HTD Belt>` are purchased from ServoCity instead, which may necessitate the use of 3D printed pulleys. There also isn't a large amount of space inside the channel for a belt or chain run, vastly limiting the size of the pulleys.
 - :term:`Channel` takes up more space than :term:`extrusion <Extrusion>`, so mechanisms can be a bit larger with the Actobotics kit. To remediate this issue, ServoCity sells :term:`mini-channel <Channel>` which is a similar size as :term:`extrusion <Extrusion>`.
+
+Example Robots
+--------------
 
 .. figure:: images/actobotics/8644-rr1.jpg
    :alt: 8644 Brainstormers' Relic Recovery robot

@@ -63,7 +63,7 @@ Thus, it is recommended that teams use extrusion in prototyping/iterative design
 Kit of Parts
 ------------
 
-- `FTC Starter Kit V3 <https://www.revrobotics.com/rev-45-1883/>`_
+- `FTC Starter Kit V3.1 <https://www.revrobotics.com/rev-45-3529/>`_
 
 Advantages
 ----------
@@ -91,6 +91,9 @@ Disadvantages
 - Parts loosen over time (to remediate: use punch tubing)
 - M3 bolts, especially those sold directly by REV, are prone to bending under higher load (such as when used as an :term:`axle <Shaft>` for a pulley)
 - 5 mm hex :term:`shaft <Shaft>` is also prone to bending, especially if the :term:`shaft <Shaft>` is long.
+
+Example Robots
+--------------
 
 .. figure:: images/rev-robotics/7161-rr1.png
    :alt: 7161 ViperBots Hydra's Relic Recovery robot
