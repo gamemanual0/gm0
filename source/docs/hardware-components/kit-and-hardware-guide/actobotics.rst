@@ -51,7 +51,7 @@ Disadvantages
 
 - Actobotics is no longer being produced by ServoCity, so it may be difficult to locate some parts.
 - Actobotics is not very cheap, so its cost may be prohibitive for some teams with a low budget. Note that with the 25% off FTC\ |reg| team discount, Actobotics can be cheaper than TETRIX. The only cheaper build system is REV.
-- The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is recommended that :term:`belts <HTD Belt>` are purchased from ServoCity instead, which may necessitate the use of 3d printed pulleys. There also isn't a large amount of space inside the channel for a belt or chain run, vastly limiting the size of the pulleys.
+- The XL :term:`belts <Timing Belt>` from ServoCity are not great. It is recommended that :term:`belts <HTD Belt>` are purchased from ServoCity instead, which may necessitate the use of 3D printed pulleys. There also isn't a large amount of space inside the channel for a belt or chain run, vastly limiting the size of the pulleys.
 - :term:`Channel` takes up more space than :term:`extrusion <Extrusion>`, so mechanisms can be a bit larger with the Actobotics kit. To remediate this issue, ServoCity sells :term:`mini-channel <Channel>` which is a similar size as :term:`extrusion <Extrusion>`.
 
 .. figure:: images/actobotics/8644-rr1.jpg
