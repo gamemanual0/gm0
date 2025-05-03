@@ -335,3 +335,6 @@ def setup(app):
 # Options for translation support
 gettext_compact = False
 locale_dirs = ["locale/"]
+
+# -- GraphViz configuration ----------------------------------
+graphviz_output_format = 'svg'

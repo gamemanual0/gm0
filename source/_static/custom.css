@@ -29,7 +29,8 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-    img.graphviz {
+    /* Make diagrams look (mostly) correct in dark mode */
+    img.graphviz, object.graphviz {
         filter: invert(87%);
     }
 
