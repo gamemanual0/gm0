@@ -294,13 +294,13 @@ Connecting to a Phone Wirelessly
 #. Plug the robot controller phone into your computer.
 #. Run the command :code:`adb devices` in the :code:`platform-tools` directory and see if the phone shows up.
 #. Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the phone.
-#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
+#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
 Connecting to a Control Hub Wirelessly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
+#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
 #. Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
 
 Once a connection is established, it should appear in the device dropdown in Android Studio.
