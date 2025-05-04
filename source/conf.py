@@ -58,8 +58,6 @@ highlight_language = "java"
 
 rst_epilog = """
 .. |gm0| replace:: Game Manual 0
-.. |gm1| replace:: Game Manual Part 1
-.. |gm2| replace:: Game Manual Part 2
 .. |cm| replace:: Competition Manual
 .. |EN| replace:: Engineering Notebook
 """
