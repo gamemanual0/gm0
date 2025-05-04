@@ -8,7 +8,7 @@ The engineering portfolio is a concise but detailed overview of your team and se
 Portfolio Requirements
 ----------------------
 
-.. tip:: A detailed list of the requirements is listed in section 9.3 of |gm1|
+.. tip:: A detailed list of the requirements is listed in section 6 of the |cm|.
 
 The engineering portfolio is a 15 page document consisting of standard A4 or letter sized pages and a minimum 10 point font. However, despite the small number of pages, there is a lot of information that needs to be packed into the document to meet the requirements for all awards.
 
@@ -105,13 +105,13 @@ Outreaches with the General Community
 
 Often teams will host events or outreaches with the intent of spreading the idea of *FIRST*\ |reg| and recruiting new members to their team. Documenting this correctly is important for some awards. Generally, these sections should contain details about the event such as when it took place, what your team did, and how many people you reached.
 
-.. attention:: Appendix F of |gm1| contains **very specific definitions of words like Mentored, Started, Reached, Ran, and more**. Misuse of these words can be held against you in judging, so make sure you meet the definitions of terms if you use them.
+.. attention:: The `Award Terms and Definitions <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-terms-and-definitions.pdf>`_ document contains **very specific definitions of words like Started, Mentored, Assisted, Reached, and more**. Misuse of these words can be held against you in judging, so make sure you meet the definitions of terms if you use them.
 
-When documenting how many people an event reached, it can be tempting to ask the organizers for an official head count and use that number. However, |gm1| specifically details that simply being at an event does not count someone as being reached by the team, they have to interact with your team in some way. Keeping a rough count of how many people you interact with can help you keep track of accurate numbers. **You may be questioned on how you know your numbers are accurate, so be ready to answer questions on how you kept track**.
+When documenting how many people an event reached, it can be tempting to ask the organizers for an official head count and use that number. However, the document specifically details that simply being at an event does not count someone as being reached by the team, they have to interact with your team in some way. Keeping a rough count of how many people you interact with can help you keep track of accurate numbers. **You may be questioned on how you know your numbers are accurate, so be ready to answer questions on how you kept track**.
 
 Working with Other Teams
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in |gm1|. In general, Mentoring requires regular, meaningful communication between you and a team, and Starting requires the new team agreeing that they were started by you.
+Mentoring, starting, and helping other teams is critical to the program itself as well as some awards. These interactions should be documented in the portfolio, as well as evidence that proves that you meet the definitions of Mentoring, Starting, and Assisting as outlined in the `Award Terms and Definitions <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-terms-and-definitions.pdf>`_ document. In general, Mentoring requires regular, meaningful communication between you and a team, and Starting requires the new team agreeing that they were started by you.
 
 .. tip:: An easy way to prove you met the definitions is to have screenshots of emails from mentors on the teams you helped stating that you Mentored, Started, or Assisted that team.

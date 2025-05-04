@@ -42,7 +42,7 @@ Generally, humor is acceptable, but try to keep jokes down to a minimum (after a
 Individual sections
 -------------------
 
-Section 9.2.2 of |gm1| lists out the type of things that are expected to see in your notebook.
+Section 9.2.2 of the |cm| lists out the type of things that are expected to see in your notebook.
 
 They are listed here:
 
@@ -59,7 +59,7 @@ They are listed here:
 - Planning
 - Outreach
 
-Specific sections named in |gm1|, the Judges Manual, and Notebook Guidelines are not plentiful. They include a team plan, which is pretty much all non-robot writing---a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award, and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
+Specific sections named in the |cm|, the Judges Manual, and Notebook Guidelines are not plentiful. They include a team plan, which is pretty much all non-robot writing---a sustainability plan, a strategic plan, and a business plan all fall into it, and doing one of these sections is required for Inspire award, and telling us what they want in the notebook (listed above). It falls to the individual notebook writers to figure out what they specifically want to call each section and what to put in each section.
 
 Daily Logs and Other Ways of Documenting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
