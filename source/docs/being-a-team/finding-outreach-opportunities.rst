@@ -11,7 +11,7 @@ Outreach is a team's way of establishing its values for *FIRST* and STEM through
 Why is outreach important?
 --------------------------
 
-Outreach is important because it allows your team to demonstrate how it made an impact on the STEM community and spread *FIRST* values. A few awards, such as Connect, Motivate, and Inspire (the highest|hyphen|ranked award), are all based on a team's outreach. Outreach usually takes up 2–3 pages of the Engineering Portfolio, which is typically 16 pages. Judges are looking for a diverse set of outreach events that have been done throughout the year and demonstrate a clear impact and Gracious Professionalism. If your FTC team isn't sure how to establish good outreach, here are some tips and tricks for where to find opportunities.
+Outreach is important because it allows your team to demonstrate how it made an impact on the STEM community and spread *FIRST* values. A few awards, such as Connect, Motivate, and Inspire (the highest|hyphen|ranked award), are all based on a team's outreach. Outreach usually takes up 2|hyphen|3 pages of the Engineering Portfolio, which is typically 16 pages. Judges are looking for a diverse set of outreach events that have been done throughout the year and demonstrate a clear impact and Gracious Professionalism. If your FTC team isn't sure how to establish good outreach, here are some tips and tricks for where to find opportunities.
 
 How to establish outreach:
 --------------------------
