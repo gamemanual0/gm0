@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>'
+
 --
 How to Establish Good Outreach in FIRST
 --
@@ -48,15 +50,14 @@ Outreach is important because it allows your team to demonstrate how it made an 
 **How to talk about outreach in the engineering portfolio:**
 Outreach should be described in a specific way in the portfolio to be deemed impactful. A few strategies some teams have used:
 
-   | 1.​ Categorizing whether the impact is local, state, national, or
+    1.​ Categorizing whether the impact is local, state, national, or
      international
-   | 2.​ Sharing how many people reached, what kind of people
-   | 3.​ Describe outreach in 1-2 sentences
-   | 4.​ Sharing how many hours were dedicated to outreach
-   | 5.​ Including key images as proof
-   | 6.​ Being specific about what the team itself accomplished and its
+    2.​ Sharing how many people reached, what kind of people
+    3.​ Describe outreach in 1-2 sentences
+    4.​ Sharing how many hours were dedicated to outreach
+    5.​ Including key images as proof
+    6.​ Being specific about what the team itself accomplished and its
      impact
-   | A simple way to keep track of everything is to use a spreadsheet. A
-     tool like that can then count up all the values in one column and
-     provide useful outreach analytics for the portfolio.
+
+A simple way to keep track of everything is to use a spreadsheet. A tool like that can then count up all the values in one column and provide useful outreach analytics for the portfolio.
 
