@@ -5,19 +5,13 @@ Computer Vision
 
 Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC\ |reg|.
 
-Currently, there are 3 commonly used forms of computer vision: TensorFlow Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
+Currently, there are 2 commonly used forms of computer vision: AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
 
 Officially Supported Solutions
 ------------------------------
 
-TensorFlow
-^^^^^^^^^^
-
-TensorFlow is Google's machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google's TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
-
-Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__.
-
-*FIRST*\ |reg| has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found `on FTC Docs <https://ftc-docs.firstinspires.org/ftc_ml/index.html>`_.
+.. warning::
+    The FTC SDK previously included TensorFlow Lite, a lightweight version of Google's TensorFlow machine learning technology designed to run on mobile devices.  However, TensorFlow Lite was removed from the SDK in version 10.0. Some documentation may still refer to TensorFlow, so it is important to keep in mind that it has been removed.
 
 AprilTags
 ^^^^^^^^^
