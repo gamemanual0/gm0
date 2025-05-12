@@ -30,7 +30,7 @@ A chain breaker eliminates the need for master links because it can break and jo
 Center-to-Center calculations
 -----------------------------
 
-The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated. Many `online calculators <https://reca.lc/chains>`_ can calculate C-C distances without going through the tedious calculations. However, the complete formula is below.
+The equation to calculate :term:`center-to-center <C2C>` for chain is quite complicated. Many `online calculators <https://www.reca.lc/chains>`_ can calculate C-C distances without going through the tedious calculations. However, the complete formula is below.
 
 .. math::
 

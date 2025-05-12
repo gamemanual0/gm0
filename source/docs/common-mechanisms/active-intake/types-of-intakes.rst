@@ -2,7 +2,7 @@ Types of Intake
 ===============
 
 Horizontal/Top Intake
-   A horizontal intake generally is a wider style of intake that has the intake rotating on a horizontal axis or plane. Horizontal intakes are generally used for intaking smaller game elements, as these types of intakes can control more than one piece at a time. Horizontal intakes have been used successfully in games such as Res-Q and Rover Ruckus, where teams needed to pick up small cubes and balls from the floor.
+   A horizontal intake generally is a wider style of intake that has the intake rotating on a horizontal axis or plane. Horizontal intakes are generally used for intaking smaller game elements, as these types of intakes can control more than one piece at a time. Horizontal intakes have been used successfully in games such as RES-Q and Rover Ruckus, where teams needed to pick up small cubes and balls from the floor.
 
 Vertical Intake
    A vertical intake typically has wheels or other intake components rotating on a vertical axis (the z-axis). Vertical intakes are more controllable, as they can only pick up one element at a time. Vertical intakes excel at picking up large game elements which would be impossible to control more than one piece at once, such as the foam glyphs in Relic Recovery.
@@ -21,7 +21,7 @@ Roller and wheeled intakes refer to types of intakes which work by having some s
       Compliant Wheel
          A compliant wheel is a flexible rubber wheel that is primarily used for intakes. These are **NOT** designed for use in drivetrains.
 
-         The available bore options vary depending on the vendor. As with the compliant wheels, durometer (hardness of rubber) affects both traction and longevity, sacrificing one for the other. However, in the case of intakes, a lower durometer is recommended to have maximum grippiness for intaking game elements.
+         The available bore options vary depending on the vendor. As with standard wheels, durometer (hardness of rubber) affects both traction and longevity, sacrificing one for the other. However, in the case of intakes, a lower durometer is recommended to have maximum grippiness for intaking game elements.
 
          Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
 
@@ -55,7 +55,7 @@ Compliant Wheel Intake
 
    A locked intake simply means that the wheels are locked into place and cannot pivot.
 
-The compliant wheel intake is most commonly used with large game elements such as the glyphs in the 2017-2018 season, Relic Recovery. Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes or rectangular prisms. They suffer at picking up balls.
+The compliant wheel intake is most commonly used with large game elements, such as the Glyphs in the 2017-2018 game Relic Recovery, and the Stones in the 2019-2020 game Skystone. Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes or rectangular prisms. They suffer at picking up balls.
 
 In this game, robots had to pick up glyphs, which were 6 inch foam cubes, from the center pit and place them in the cryptobox. This game had many wheeled intakes primarily because the wheels had consistent and controllable contact with the glyphs. Wheeled intakes were able to propel the glyphs in a consistent fashion from the point of contact to the deposit plate, which would flip up to deposit the glyphs.
 
