@@ -16,36 +16,42 @@ Prefix Identification
 SKU Identification
 ^^^^^^^^^^^^^^^^^^
 
-- Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. PQ12)
 - goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. 3213-3606-0001)
-- Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. W44260)
 - Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. 615190)
+- Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. W44260)
+- Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. PQ12)
 
 Where can I get ...?
 --------------------
 
+// FIXME: add links to products?
+
 - Motors and Gearboxes
-
-  - Spur Gear Motors
-
-    - :term:`AndyMark NeveRest <NeveRest Motor>` Classic
-    - :term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`
-    - goBILDA 5201 Spur Gear
-    - TETRIX TorqueNado
 
   - Planetary Gearbox Motors (recommended)
 
+    - :term:`goBILDA 5202/5203/5204 Yellow Jacket Planetary <Yellow Jacket Motor>`
+    - :term:`REV HD Hex <HD Hex Motor>` Planetary & UltraPlanetary
+
+      - (The UltraPlanetary gearboxes have a customizable gearbox ratio)
     - :term:`AndyMark NeveRest <NeveRest Motor>` Orbital
-    - :term:`REV HD Hex <HD Hex Motor>` Planetary & *UltraPlanetary*
-    - :term:`goBILDA 5202/5203 Yellow Jacket Planetary <Yellow Jacket Motor>`
-    - (*italicized* = customizable gearbox ratio)
+
+  - Spur Gearbox Motors (NOT recommended)
+
+    - :term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`
+    - :term:`AndyMark NeveRest <NeveRest Motor>` Classic
+    - TETRIX TorqueNado
 
 - Servos
 
-  - HiTec (from ServoCity); 24 tooth spline
+  - goBILDA servos (all use a 25 tooth spline)
+
+    - Dual Mode Servos
+    - 5-Turn Dual Mode Servos
+    - Proton Servos
+  - Axon Micro, Mini, and Max servos; 25 tooth spline (Note: the Micro uses a smaller B25T spline)
   - REV Smart Robot Servo; 25 tooth spline
-  - Axon Mini & Max; 25 tooth spline
-  - goBILDA Dual Mode Servo; 25 tooth spline
+  - HiTec (from ServoCity); 24 and 25 tooth spline options
   - Futaba (Futaba servos are widely used in RC and hobby aircraft); 25 tooth spline
   - Savox heavy-duty servos; 25 tooth spline
   - Actuonix (linear actuators)
@@ -64,34 +70,31 @@ Where can I get ...?
 
 - Aluminum Components
 
-  - Actobotics :term:`channel <Channel>`, mini :term:`channel <Channel>`, X-rail :term:`extrusion <Extrusion>`
+  - goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`, goTUBE
   - REV extrusion, C :term:`channel <Channel>`, U :term:`channel <Channel>`
-  - goBILDA :term:`channel <Channel>`, goRAIL :term:`extrusion <Extrusion>`
   - TETRIX :term:`channel <Channel>`
   - MiSUMI :term:`extrusion <Extrusion>`
 
 - Gears/Sprockets/Pulleys
 
-  - REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
-  - Actobotics :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
   - goBILDA :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
+  - REV :term:`gears <Gear>`, :term:`sprockets <Sprocket>`, pulleys
   - TETRIX :term:`gears <Gear>` and pulleys
   - AndyMark :term:`gears <Gear>` and pulleys
 
 - Wheels
 
-  - AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
-  - REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
-  - ServoCity traction, :term:`omni wheel <Omni Wheel>`
   - goBILDA traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
+  - REV grip, traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
+  - AndyMark traction, :term:`compliant <Compliant Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
+  - ServoCity traction, :term:`omni wheel <Omni Wheel>`
   - TETRIX traction, :term:`omni <Omni Wheel>`, :term:`mecanum wheel <Mecanum Wheel>`
   - Nexus :term:`mecanum wheel <Mecanum Wheel>`
 
 - Linear Slide Kits
 
+  - goBILDA Viper-Slide kit, Linear Actuator kit, other `goBILDA linear motion kits <https://www.gobilda.com/linear-motion-kits>`_
   - REV 15 mm :term:`extrusion <Extrusion>` slide kit
-  - Actobotics linear slide kit
-  - goBILDA linear slide kit
 
 - Drawer Slides
 

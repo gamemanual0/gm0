@@ -5,7 +5,7 @@ If you are powering any mechanism with a :term:`live axle <Live Axle>` system, y
 
 .. note:: Make sure to use an appropriately sized shim/washer between the thing retaining the shaft and the bearing, such that it only touches the bearings inner race. Otherwise, the rubbing will lead to inefficiency.
 
-Outlined below are some common methods FTC teams use for shaft retention.
+Outlined below are some common methods teams use for shaft retention.
 
 Shaft Collars
 -------------

@@ -118,7 +118,7 @@ Kit Glossary
    Set Screw
       A set screw is generally a hex socket screw that is used to fasten parts such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` to a :term:`shaft <Shaft>`, or to fix a shaft in place so that it doesn't move around. Due to the hex socket, allen keys must be used to tighten and loosen set screws.
 
-      .. warning:: **Set screws are not recommended for drivetrain and high-load applications** since there is very little surface area in contact with the shaft (only the tip of the screw). This makes the set screw likely to damage the shaft. Therefore, set screws can become loose very easily.
+      .. warning:: **Set screws are not recommended (especially for drivetrain and high-load applications)**, since there is very little surface area in contact with the shaft (only the tip of the screw). This makes the set screw likely to damage the shaft. Therefore, set screws can become loose very easily.
 
       If set screws must be used, then it is imperative to use :term:`Loctite` to reduce the chance of them shaking loose.
 

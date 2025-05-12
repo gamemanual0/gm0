@@ -5,6 +5,8 @@ goBILDA
 
 goBILDA (https://www.gobilda.com/) is a fixed-pitch, :term:`channel <Channel>` based building system using metric units. It was first released in the 2018-2019 season and is made by the same company that previously made Actobotics.
 
+goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. It offers a great deal of flexibility and part options from their catalog. goBILDA is a solid choice due to reasonable pricing, low learning curve, and thought-out design that reduces headaches.
+
 Special Considerations
 ----------------------
 
@@ -47,11 +49,6 @@ Notable components
 - Viper-Slides are goBILDA's version of the commonly used drawer slides for linear extension in 336mm and 240mm lengths. Notably, goBILDA sells a Viper-Slide kit, which contains all of the parts to assemble either a 2 stack or 4 stack of slides. In addition, they are one of the few vendors who sells a belted version of these slides. The 240mm slide is also uniquely bidirectional, sliding both ways.
 
 - goRAIL is :term:`extrusion <Extrusion>` that complements the :term:`channel <Channel>` offerings well. goRAIL is used in the linear actuator kit for extending mechanisms.
-
-Verdict
--------
-
-goBILDA's kit is a solid, albeit slightly more expensive, option for new teams. It offers a great deal of flexibility and part options from their catalog. goBILDA is a solid choice due to reasonable pricing, low learning curve, and thought-out design that reduces headaches.
 
 Kit of Parts
 ------------

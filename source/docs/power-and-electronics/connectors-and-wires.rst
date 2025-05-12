@@ -3,7 +3,7 @@
 Connectors and Wires
 ====================
 
-There are many types of connectors for use in FTC\ |reg|. Here are the most common connectors you will find on an FTC robot.
+There are many types of connectors for use in FTC\ |reg|. Here are the most common connectors you will find on an FTC robot. // FIXME: Talk about the new connectors on the 2027 SystemCore and MotionCore.  Also talk about the Wago-style connectors used by the Servo Hub.
 
 .. glossary::
 
