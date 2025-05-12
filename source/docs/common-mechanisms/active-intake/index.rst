@@ -3,7 +3,7 @@
 Active Intake
 =============
 
-There's one main rule when it comes to intakes in FTC: you need one. Before diving in, what *is* an intake in the first place?
+There's one main rule when it comes to active intakes: you *probably* need one. (A notable exception was the 2024-25 Into the Deep game, where both claws and active intakes were competitive at all levels of play.) Before diving in, what *is* an intake in the first place?
 
 Intake
    A mechanism designed to pick up game elements using some component of rotational motion powered by a motor.
@@ -12,11 +12,11 @@ An intake is differentiated from a claw as an intake does not grasp individual g
 
 There are multiple parts of an effective intake: intake geometry, intake type and material, and speed. However, a common rule of them is the faster the intake, often the more effective it is. For example, near the end of Rover Ruckus, many of the top performing teams used a 3.7:1 (1600 RPM) motor or a 5.2:1 (1000 RPM) motor on their intake.
 
-.. tip:: While not a necessity, it is highly recommended that teams dedicate at least one motor to their intake if possible.
+.. tip:: Teams should generally plan to dedicate either one motor, or 1-2 very high speed servos (e.g. the Melonbotics Super Servo Plus), to their intake.
 
-.. attention:: When it comes to intakes: "**Touch it, own it**" is a really valuable concept.
+.. attention:: When it comes to intakes, "**Touch it, own it**" is a really valuable concept.
 
-When your intake comes in contact with game elements, you want it to instantly control them. You should design with a margin for error, both in the orientation of the game piece and in the alignment of the robot. For example, look at FRC\ |reg| Team 694's ball intake on their 2019 robot:
+When your intake comes in contact with game elements, you want it to instantly control them. You should design with a margin for error, both in the orientation of the game piece and in the alignment of the robot. For example, look at FRC\ |reg| Team 694's ball intake on their 2019 robot: // FIXME: find an FTC example?
 
 .. figure:: images/frc694-ball-intake.png
    :alt: FRC Team 694's Deep Space ball intake with 2 horizontal rollers with compliant wheels

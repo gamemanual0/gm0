@@ -3,7 +3,7 @@
 Dead Wheels
 ===========
 
-.. warning:: This is a very niche aspect of design in FTC\ |reg|. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
+.. warning:: This is a very niche aspect of design in FTC\ |reg|. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season. // FIXME: No longer accurate, teams should buy goBILDA Pinpoint+pods bundle, or the OTOS.  TODO: Write about these COTS solutions
 
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms.
 
@@ -110,7 +110,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 
    S4T Encoder
 
-*****Advantages:**
+**Advantages:**
 
 - Very compact
 
@@ -126,7 +126,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
 
-The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC centric documentation. It is more popular in FRC\ |reg|.
+The `SRX Mag Encoder <https://store.ctr-electronics.com/products/srx-mag-encoder>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC centric documentation. It is more popular in FRC\ |reg|.
 
 .. figure:: images/odometry/srx-mag.jpg
    :alt: A CTRE SRX Mag encoder
@@ -187,7 +187,7 @@ Here are a few publicly available dead wheel designs:
 - **11115 Gluten Free Design - 2019**
 
   - https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing
-  - The above link the entire robot assembly for 11115's CAD for the 2018-19 season
+  - The above link is for 11115's entire robot assembly CAD for the 2018-19 season
 
   - **Things to consider**:
 
