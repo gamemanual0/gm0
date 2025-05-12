@@ -16,9 +16,9 @@ Officially Supported Solutions
 AprilTags
 ^^^^^^^^^
 
-AprilTags detect specific low-resolution, black-and-white images that are placed on various parts of the field. AprilTags are a great way to detect specific parts of the fields at wide angles, distances, and in a variety of lighting conditions. AprilTags are supported in OnBot Java, Android Studio, and Blocks.
+AprilTags detect specific low-resolution, black-and-white images that are placed on various parts of the field. AprilTags are a great way to detect specific parts of the fields at wide angles, distances, and in a variety of lighting conditions, which can then be used to calculate the current position of your robot. AprilTags are supported in OnBot Java, Android Studio, and Blocks.
 
-You can learn more about implementing AprilTags `on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__. Supported AprilTag images are available on this `pdf <https://www.dotproduct3d.com/uploads/8/5/1/1/85115558/apriltags1-20.pdf>`__.
+You can learn more about implementing AprilTags `on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__.
 
 VisionPortal
 ^^^^^^^^^^^^
@@ -40,7 +40,7 @@ FTC\ |reg| Dashboard
 
 FTC Dashboard runs a dashboard webpage on the Control Hub that, among other things, streams a live preview of a connected camera. This is a very useful tool for testing and debugging vision applications.
 
-.. warning:: FTC Dashboard is not legal to run during matches, make sure it is disabled during a competition. More information can be found `here <https://acmerobotics.github.io/ftc-dashboard/competition>`__.
+.. warning:: FTC Dashboard is not legal to run during matches, so it is best to make sure it is disabled during competition. More information can be found `here <https://acmerobotics.github.io/ftc-dashboard/competition>`__.
 
 You can find FTC Dashboard `here <https://github.com/acmerobotics/ftc-dashboard>`__.
 

@@ -6,18 +6,31 @@ Choosing a Motor
 Legal Motors
 ------------
 
-12 V motors are strictly controlled by FTC\ |reg| rules. As of 2020-2021 season, the only FTC legal motors are the following ones:
+12 V motors are strictly controlled by FTC\ |reg| rules. As of 2024-2025 season, the only FTC legal motors are the following ones:
 
-- TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_, `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
-- `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
-- Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors <https://www.gobilda.com/motors/>`_, which are MATRIX motors with a different gearbox)
-- `REV Robotics HD Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1301/>`_
-- `REV Robotics Core Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1300/>`_
+- `AndyMark NeveRest 12V DC <https://www.andymark.com/products/neverest-series-motor-only?Pinion%20and%20Connector=12%20Tooth%20w%2F%20Anderson%20Powerpole%20(am-3104)&quantity=1>`_ (am-3104, am-3104b)
+- `AndyMark NeveRest Hex 12V DC <https://www.andymark.com/products/neverest-series-motor-only?Pinion%20and%20Connector=17%20Tooth%20JST-VH-2%20(f)%20connector%20(am-3104c_17t)&quantity=1>`_ (am-3104c)
+- `goBILDA Yellow Jacket 520x Series 12V DC <https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_ (5201, 5202, 5203, and 5204 series, e.g. 5201-0002-0026)
+- `Modern Robotics / MATRIX 12V DC <https://www.gobilda.com/modern-robotics-12vdc-motor/>`_ (5000-0002-0001)
+- `REV Robotics HD Hex 12V DC <https://www.revrobotics.com/REV-41-1291/>`_ (REV-41-1291)
+- `REV Robotics Core Hex 12V DC <https://www.revrobotics.com/rev-41-1300/>`_ (REV-41-1300)
+- `Studica Robotics Maverick 12V DC <https://www.studica.com/studica-robotics-brand/maverick-dc-gear-motor-611-w-encoder>`_ (75001)
+- TETRIX MAX 12V DC (739530, 39530; now discontinued)
+- `TETRIX MAX TorqueNADO 12V DC <https://www.pitsco.com/products/tetrix-max-torquenado-motor-with-encoder>`_ (W44260)
+- `VEX EDR 393 <https://www.vexrobotics.com/393-motors.html>`_ (276-2177) (Counts as a servo for R503)
+
+.. tip::
+  Many legal gearmotors are sold with labeling based on the entire assembly. These motors may be used with or without the provided gearbox, and/or with any other compatible gearbox.
+
+  - `REV Robotics UltraPlanetary Gearbox Kit & HD Hex Motor <https://www.revrobotics.com/rev-41-1600/>`_
+  - `REV Robotics HD Hex Motor 20:1 Spur Gearbox <https://www.revrobotics.com/rev-41-1298/>`_
+  - `REV Robotics HD Hex Motor 40:1 Spur Gearbox <https://www.revrobotics.com/rev-41-1301/>`_
+  - `AndyMark NeveRest Gearmotors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
 
 With the exception of :term:`REV Core Hex Motor <Core Hex Motor>`, which is discussed separately, all other motors above have very similar structures. They consist of the following components.
 
 - **Bare motor**. In all cases above, this is a 12V motor of :term:`RS-555 type <RS-550 Series Motor>`, with free speed around 6,000 RPM and stall current around 10A. The motor specs posted by different vendors might be slightly different, but the difference is mainly due to different testing methods. In real life, the bare motors used by :term:`AndyMark NeveRest motors <NeveRest Motor>`, :term:`REV Robotics HD Hex motors <HD Hex Motor>`, and :term:`goBILDA motors <Yellow Jacket Motor>` are virtually identical. The most reliable specs can be found in the :ref:`motor-data` section.
-- **Gearbox**. The gearbox is attached to the front of the motor and reduces the speed while increasing the torque. For example, a 20:1 gearbox reduces the speed by a factor of 20, resulting in a no-load speed of around 300RPM. See :term:`Gear Reduction`. A gearbox also contains the output :term:`shaft <Shaft>` (typically 6mm D profile; REV motors use 5mm hex shafts) and mounting holes. The gearbox can also be replaced; this is FTC legal but requires some skill.
+- **Gearbox**. The gearbox is attached to the front of the motor and reduces the speed while increasing the torque. For example, a 20:1 gearbox reduces the speed by a factor of 20, resulting in a no-load speed of around 300RPM. See :term:`Gear Reduction`. A gearbox also contains the output :term:`shaft <Shaft>` (typically a 8mm REX shaft, 6mm D shaft, or 5mm hex shaft) and mounting holes. The gearbox can also be replaced; this is FTC legal but requires some skill.
 - **Encoder**. Attached to the back of the motor and protected by a plastic cap, the :term:`encoder <Encoder>` contains a sensor registering motor :term:`shaft <Shaft>` rotation. It can be connected to REV hubs and used for precise control of motor speed or rotating to a specific position.
 
 Since the bare motor is similar for all motors discussed above, the choice of the right motor is dictated by the gearbox: the :term:`gear ratio <Gear Reduction>`, output :term:`shaft <Shaft>` type, and ease of mounting.
@@ -31,7 +44,7 @@ Available Spur Gearboxes and Motors
 -----------------------------------
 
 .. danger::
-  Spur gearboxes are NOT recommended due to their shorter lifespan and lower mechanical resilience compared to planetary gearboxes. If you are purchasing new motors, it is highly suggested to purchase planetary gearbox motors instead. Care should be taken to not put load on the output shaft of a spur gearbox. In particular, spur gear motors should NOT be used in high load applications, such as a drivetrain
+  Spur gearboxes are NOT recommended due to their shorter lifespan and lower mechanical resilience compared to planetary gearboxes. If you are purchasing new motors, it is highly suggested to purchase planetary gearbox motors instead. Care should be taken to not put load on the output shaft of a spur gearbox. In particular, spur gear motors should NOT be used in high load applications, such as a drivetrain.
 
 Motors with spur gearboxes include :term:`AndyMark NeveRest Classic motors <NeveRest Motor>` (in 40:1 and 60:1 ratios), the :term:`REV HD Hex 40:1 Spur motor <HD Hex Motor>`, and goBILDA 5201 Series Yellow Jacket Spur Gear Motors. All of them offer similar performance and reliability, so your choice is primarily dictated by the convenience of mounting and connecting to the rest of your design (e.g., if you use REV kit, you should probably choose :term:`REV HD Hex motor <HD Hex Motor>`, as it uses the same :term:`5mm hex shaft <Shaft>` as the rest of REV system).
 

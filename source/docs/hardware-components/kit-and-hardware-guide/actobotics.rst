@@ -7,6 +7,8 @@ Actobotics (Discontinued)
 
 The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch, :term:`channel-based <Channel>` building system using imperial units. Its 1.5" :term:`c-channel <Channel>` and :term:`ball-bearing <Ball Bearing>` based motion system allows teams to iterate and build mechanisms entirely from kit parts.
 
+Prior to being discontinued, Actobotics was a solid choice for new teams, offering a reliable base kit with many options to expand upon.  Because it is no longer being produced, we recommend teams consider other kits instead.
+
 Special Considerations
 ----------------------
 
@@ -24,11 +26,6 @@ Notable Components
 - The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build extending mechanisms.
 - The :term:`Servoblocks`, which prolongs the life of a servo, are recommended for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly interface with the Actobotics ecosystem.
 - Actobotics furthermore offers motion options such as :term:`bevel gears <Bevel gear>` and Linear Actuator kits (using :term:`lead screws <Lead Screw>`) for specific use cases.
-
-Verdict
--------
-
-Prior to being discontinued, Actobotics was a solid choice for new teams, offering a reliable base kit with many options to expand upon.  Because it is no longer being produced we recommend teams consider other kits instead.
 
 Kit of Parts
 ------------

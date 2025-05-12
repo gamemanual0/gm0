@@ -21,8 +21,8 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased secondhand for less
-- Power Issues: Teams have reported random losses of power coming from an improperly sized battery.
+- Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased used for much less
+- Power Issues: Teams have reported random losses of power coming from improper tolerences of the battery connection.
 - Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster then expected
 - Wifi Issues: The wifi driver will occasionally crash when the device goes to sleep, requiring a device restart
 
@@ -32,12 +32,12 @@ Disadvantages
 Android Phones
 --------------
 
-As of 2023-2024, Android phones are still legal for competition use.
+As of 2024-2025, specific Android phones are still legal for competition use.
 
 Advantages
 ^^^^^^^^^^
 
-- Android phones can be very cheap when purchased secondhand
+- Legal Android phones can be very cheap when purchased secondhand
 - Android phones generally are reliable out of the box
 
 Disadvantages
@@ -51,6 +51,8 @@ A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping issues
 USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possible source of disconnects during a match. This is generally caused by poor quality cables/adapters between the driver station and the gamepads. **It generally is worth it to purchase higher quality cables and adapters as opposed to the cheapest options.**
 
   `Recommended USB to OTG Cable <https://www.amazon.com/gp/product/B00YOX4JU6?pf_rd_r=PY8B4WPEQRQ80XYJCMSH&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee/>`_
+
+A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>` strain relief connector can be useful as it may help to prevent connections from loosening. Especially if teams are running a dual controller configuration, ensuring that the USB hub is secure won't hurt.
 
 .. admonition:: Term
 
@@ -68,17 +70,20 @@ USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possi
 Controllers
 -----------
 
-**LEGAL CONTROLLERS:** As of the 2021-2022 season, the following controllers are  `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_
+**LEGAL CONTROLLERS:** As of the 2024-2025 season, the following controllers are `legal for competition: <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_
 
-- Xbox 360 Controller for Windows
-- Logitech F310 Controller
-- ETPark Wired Controller for PS4
-- Sony DualShock 4 Wireless Controller for PS4 (Must be connected wired over USB)
+- `Logitech F310 Controller <https://www.amazon.com/dp/B003VAHYQY>`_ (940-00010)
+- Xbox 360 Controller for Windows (52A-00004)
+- `Sony DualShock 4 Wireless Controller for PS4 <https://www.amazon.com/dp/B01LWVX2RG>`_\*
+- `Sony DualSense Wireless Controller for PS5 <https://www.amazon.com/dp/B0CQKKHT5J>`_\*
+- `Etpark Wired Controller for PS4 <https://www.revrobotics.com/rev-39-1865/>`_ (REV-39-1865, now discontinued)
+- `REV Robotics USB PS4 Compatible Gamepad <https://www.revrobotics.com/rev-31-2983/>`_ (REV-31-2983)
+- `Quadstick game controller <https://www.quadstick.com/>`_ in Xbox 360 Emulation Mode
+
+\*\ *Operating in wired mode only (i.e., connected through USB cable without being Bluetooth paired to any device). This DOES NOT include the Sony DualSense Edge Wireless Controller in any configuration.*
 
 In the past, the Xbox 360 controller was preferred by many top teams over the Logitech F310. This is mostly as the Xbox controller has less of a dead spot. A dead spot is basically the area where the joystick can move but not communicate that the stick has shifted slightly. This means that when the joystick is moved to a position where the controller can detect it, the robot will sometimes have a tendency to lurch forward. Dead spots make it difficult for the driver to execute fine-tuned and precise movements. **This is likely a non-issue for the large majority of teams. Also, keep in mind that there are very specific models of the Xbox controller that are legal, so they can be hard to find new.**
 
-Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are legal and provide numerous advantages over Xbox 360 Controllers. Some of these advantages include, better trigger and bumper control, a more usable dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 controller is slightly different because the locations of the Left Stick and DPAD are swapped and `some button names are different. <https://github.com/OpenFTC/OpenRC-Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_ **Pro Tip: Make sure your drivers have experience with the controller they plan to use for competition.**
+Now, the Etpark, REV, Sony PS4, and Sony PS5 controllers are legal and provide numerous advantages over Xbox 360 controllers. Some of these advantages include, better trigger and bumper control, a more usable dpad, and trackpad support. Use of the PS4/PS5-style controllers is slightly different because the locations of the Left Stick and DPAD are swapped compared to the Xbox 360 controller and `some button names are different. <https://github.com/OpenFTC/Extracted-RC/blob/ce0a67af28c966c7a166ae51765e115a853734fc/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L891>`_ **Pro Tip: Make sure your drivers have experience with the controller they plan to use for competition.**
 
-Generally it is the opinion that the PS4 controllers are better than the other options. Among the options for PS4 controllers, the choice is really up to you. The Sony controller has slightly better buttons, but the ETPark controller is half the cost and a more solid connecting wire. **Keep in mind that the drivers can use different controllers, so pick the one most comfortable to you.**
-
-A phone holder and :term:`OTG <Micro USB On The Go (OTG) Cable>` strain relief connector can be useful as it may help to prevent connections from loosening. Especially if teams are running dual controller configuration, ensuring that the USB hub is secure won't hurt.
+Generally it is the opinion that the PS4/PS5 controllers are better than the other options. Among the options for PS4/PS5 controllers, the choice is really up to you. The Sony controllers have slightly better buttons, but the REV controller is half the cost and has a built-in solid connecting wire, meaning there is one less connection to potentially unplug or get damaged. **Keep in mind that different drivers can use different controllers, so have each driver pick the one most comfortable to them.**

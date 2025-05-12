@@ -47,6 +47,7 @@ Other Contributors
 - Navya - FTC 7149 ENFORCERS
 - Neo - FTC 6710 Sigmas
 - Peter - FTC 12533 Inception
+- QwertyChouskie - FTC 10298 Brain Stormz (Alumni/Mentor)
 - Sam - FTC 2753 Team Overdrive
 - Shurik - FTC 4137 Islandbots mentor
 - Tom - FTC 3736 Serious Business

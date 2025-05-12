@@ -16,25 +16,23 @@ Here is a page dedicated to useful resources around the interwebs. Enjoy!
 General Resources
 -----------------
 
-`FTC Discord <https://discord.com/invite/first-tech-challenge>`_:highlight:`*` --- The **unofficial** FTC\ |reg| Discord server is a discussion-based community server. It is the most active FTC community, which means it generally has the most up-to-date information, and is the easiest way to get quick answers to questions. It also has a channel with direct access to vendors.
+`FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- The **unofficial** FTC\ |reg| Discord server is a discussion-based community server. It is the most active FTC community, which means it generally has the most up-to-date information, and is the easiest way to get quick answers to questions. It also has a channel with direct access to vendors.
 
-.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the help channels.
+.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the topic-specifc channels and help forums.
 
-`FTC Docs <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- Official *FIRST*\ |reg| FTC documentation, including programming resources, team management resources and more.
+`FIRST Tech Challenge documentation <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- The official *FIRST*\ |reg| Tech Challenge documentation, including programming resources, team management resources, and more.
 
-`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
+`FIRST Tech Challenge Question and Answer System <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The official *FIRST* Tech Challenge Question and Answer System, where clarifying questions about game rules from teams are asked and answered.
 
-`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
+`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Competition Manual and Team Updates.
 
-`FTC Blog <https://firsttechchallenge.blogspot.com/>`_ --- The official FTC blog; important updates are typically posted here.
-
-`FTC Tutorials <http://ftctutorials.com>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
+`FIRST Community Blog <https://community.firstinspires.org/>`_ --- The official *FIRST* blog; important updates are typically posted here.
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- The *FIRST* resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `Engineering Portfolio Library <https://portfolios.hivemindrobotics.net>`_ --- A library of past award-winning Engineering Portfolios. Created by Polar from FTC 23396 and managed by the community.
 
-`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
+`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/rev-duo>`_ --- Covers REV's hardware and software. `The control system documentation <https://docs.revrobotics.com/duo-control>`_ includes an introductory FTC programming tutorial.
 
 `Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC\ |reg| 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
 
@@ -43,7 +41,7 @@ Team Management
 
 `Running a FIRST Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a *FIRST* team. While some details are FRC specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
 
-`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- *FIRST* FTC team management resources, covering budget, engineering notebook, etc.
+`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- Official *FIRST* Tech Challenge team management resources, covering budget, engineering notebook, etc.
 
 Strategy
 --------
@@ -55,24 +53,20 @@ Strategy
 CAD
 ---
 
-`Autodesk Education Account <https://www.autodesk.com/education/edu-software/overview>`_ --- Autodesk's education account sign up. An education account gives access to both Fusion 360 and Inventor.
-
-`Creo Education License <https://www.ptc.com/en/products/education/free-software/standalone-educator>`_ --- Creo's education license application form.
-
 `Onshape Education Account <https://www.onshape.com/en/education/>`_ --- Onshape's education account creation page.
 
+`Autodesk Education Account <https://www.autodesk.com/education/edu-software/overview>`_ --- Autodesk's education account sign up. An education account gives access to both Fusion 360 and Inventor. Note that education accounts are only available to students of "qualified educational institutions", and you will need to upload a form of documentation (School transcript, School-issued confirmation letter, or School ID) to verify your account.
+
 `SolidWorks Sponsorship <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_ --- A link to the application form for free Solidworks licenses for robotics teams.
+
+`Creo Education License <https://www.ptc.com/en/products/education/free-software/standalone-educator>`_ --- Creo's education license application form.
 
 Part Libraries
 ^^^^^^^^^^^^^^
 
-`10650 Hazmat Robotics Public CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_ --- A multi-vendor part library that works across CAD software due to its use of STEP files.
+`Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A multi-vendor parts library specifically for Onshape, originally started by team 2901 Purple Gears, and maintained by the community.
 
-`2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A multi-vendor parts library specifically for Onshape.
-
-`REV Robotics Official CAD Library <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_ --- REV's official CAD library for its FTC parts.
-
-`ServoCity Official CAD Library <https://www.servocity.com/step-files>`_ --- ServoCity's entire STEP file catalog. This includes Actobotics parts.
+.. note:: This section used to have many more libraries, but all of the other libraries that were previously listed here no longer exist.
 
 Generators
 ^^^^^^^^^^
@@ -135,9 +129,9 @@ Calculators
 
 `JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from the :ref:`motor-data` section.
 
-`Pulley Center-to-Center Calculator <https://sdp-si.com/eStore/CenterDistanceDesigner>`_ --- A fully featured belt pulley center-to-center distance calculator.
+`Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-distance-designer.php>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
-`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
+`ReCalc <https://www.reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
 `Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 

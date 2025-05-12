@@ -1,10 +1,10 @@
 TETRIX
 ======
 
+The TETRIX build system is a fixed pitch, channel-based building system that uses both imperial and metric units.
+
 .. attention::
    TETRIX is generally not recommended due to its restricted flexibility and low long-term reliability. This page serves as historical reference for teams that have and use TETRIX parts, but there is little reason to purchase them.
-
-The TETRIX build system is a fixed pitch, channel-based building system that uses both imperial and metric units.
 
 Special Considerations
 ----------------------
@@ -17,16 +17,11 @@ Special Considerations
 - Tetrix parts generally do not have the best track record for reliability and longevity due to subpar material choices.
 - Tetrix parts are slightly overpriced and lack bang-for-your-buck value found in kits such as REV and goBILDA.
 
-Verdict
--------
-
-While you may be considering TETRIX as a starter kit, we encourage you to explore your options before selecting a kit. While Tetrix does pick up quite a lot of flak from the community, it isn't a bad choice in terms of physical qualities such as strength, but the mounting options and hole patterns leave more to be desired and restrict teams in terms of flexibility.
-
 Kit of Parts
 ------------
 
-- `Kit of Parts <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge/TETRIX-FTC-Competition-Set>`_
-- `2020-2021 Kit of Parts BoM <https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf>`_
+- `Kit of Parts <https://www.pitsco.com/products/tetrix-ftc-competition-set>`_
+- `Kit of Parts BoM <https://asset.pitsco.com/sharedimages/resources/ftcset_productlist-0719.pdf>`_
 
 Advantages
 ----------
@@ -58,5 +53,4 @@ Example Robots
 
    6022 To Be Determined: Worlds Semifinalist (St. Louis), Velocity Vortex
 
-   TETRIX based robots have succeeded in competition, albeit it has become
-   rarer in recent years.
+   TETRIX based robots have succeeded in competition in the past, although in recent years, this is not really the case anymore.

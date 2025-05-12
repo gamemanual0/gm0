@@ -24,10 +24,12 @@ Now that you have Android Studio installed, you're going to want to use the curr
 Downloading the SDK
 ^^^^^^^^^^^^^^^^^^^
 
-The SDK is publicly released to a GitHub repository every season. The current season's SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
+The SDK is publicly released to a GitHub repository. The current SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
 
 Downloading the ZIP
 ~~~~~~~~~~~~~~~~~~~
+
+// FIXME: Using the zip is error-prone and just kinda bad, use intellij built-in git clone instead
 
 #. When you're at the repository, click the green "code" button. Then, select "Download ZIP."
 
@@ -63,7 +65,7 @@ From the Command Line
 
 #. `Install git <https://github.com/git-guides/install-git>`_
 #. Open the terminal (probably bash) in the desired resource location.
-#. Use :code:`$ git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`
+#. Run :code:`git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`
 
 Opening the SDK on Android Studio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -215,31 +217,6 @@ Next, you add a line in the dependencies block to implement the dependency. This
 Refer to the instructions of whatever library you are using for the correct package name and version.
 
 Finally, perform a Gradle sync.
-
-Upgrading to Java 8
--------------------
-
-By default, the SDK's version of Java is set to 7. Java 8 is also supported. You might want to upgrade your version of Java from 7 to 8 if you want to use features such as lambdas or generics. Some libraries may also require you to change your Java version.
-
-To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. Scroll down until you find this block:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-Change the :code:`7` to :code:`8`, like so:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-Then, perform a Gradle sync.
 
 Android Debug Bridge
 --------------------
