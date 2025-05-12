@@ -12,7 +12,7 @@ Overall Tips
 - Vary who answers the questions. **Make sure everybody has an opportunity to speak.**
 - Use your portfolio! You can use it to reference things or point to various sections, especially if you can't remember something in the moment.
 - Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges time. **Most of the time, judges have a set time allotment with each team so wasting time may decrease the number of questions you can answer.**
-- Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information may get wasted.
+- Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information may get wasted. Also, the judges for one awards category are often completely different than the judges for another category, e.g. the judges for an outreach award are likely completely different than the judges for robot design.
 
 The Presentation
 ----------------
@@ -28,7 +28,7 @@ Presentation Tips
 
 - Practice speaking clearly and precisely. You should practice multiple times and not only know your lines, but what people around you are going to say.
 - Use the robot! Have other team members point and move things on the robot as you speak to demonstrate.
-- While having a script won't be held against you, try to avoid gluing your eyes to your script and looking down. Looking at the judges occasionally will go a long way in making your presentation more professional
+- While having a script won't be held against you, try to avoid gluing your eyes to your script and looking down. Looking at the judges occasionally will go a long way in making your presentation more professional.
 - **Make sure everybody gets a chance to say something or answer a question**. Having students say nothing during judging can look bad.
 
 Q&A Period
@@ -47,7 +47,7 @@ Pit judging can be difficult sometimes since judges might want to talk to your t
 
 When pit judges arrive, one should try to determine roughly what they are there for. Judges will make it clear pretty quickly if they are there for control, robot-based awards, outreach, etc. If a judge is there to talk to you about the robot, don't waste their time with outreach. Similarly, if a judge is asking about your outreach don't divert to talking about the robot. Judges are there for a specific purpose, other information may essentially be discarded by them.
 
-.. important:: When judges come near your pits, STAND UP and PUT THE PHONES DOWN. Uninterested students can cause a judge's opinion of your team to quickly sour. All students should try to look interested and should participate, get as many different people speaking as you can.
+.. important:: When judges come near your pits, STAND UP and PUT THE PHONES DOWN. (Even if you're not the one talking to the judges!) Uninterested students can cause a judge's opinion of your team to quickly sour. All students should try to look interested and should participate, get as many different people speaking as you reasonably can.
 
 Pit Judging Tips
 ^^^^^^^^^^^^^^^^
