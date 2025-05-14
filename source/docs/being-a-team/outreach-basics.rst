@@ -4,7 +4,7 @@ Outreach Basics
 ===============
 
 What is Outreach in *FIRST*?
------------------
+----------------------------
 
 Outreach is a team's way of establishing its values for *FIRST* and STEM throughout the community. This can involve activities like networking with professionals, visiting robotics labs nearby, coaching and mentoring other *FIRST* teams, volunteering, and STEM|hyphen|related activities, and so much more.
 
@@ -126,3 +126,4 @@ Housekeeping
 Keep a list of the programs your team has created or contributed to. Ensure you take photos at every event with team members. Keep track of your **Reach** (tangible interaction or observation of your team), **Engagement** (how many people interacted with your team/you interacted with, e.g. by attending events), **Impact** (how many people are directly impacted by your outreach events), and **Conversion** (how many people get involved with your program.)
 
 If looking to include these statistics in your judged presentation or portfolio, ensure you adhere to the "Awards Definitions" located in the appendix of |gm1| that outline terms relating to outreach. These terms are: *Started*, *Mentored*, *Assisted*, *Provided Published Resources*, *Ran*, *Hosted*, *Reached*, and *Advocated*.
+
