@@ -35,7 +35,6 @@ extensions = [
     "sphinx.ext.graphviz",
     "sphinx.ext.mathjax",
     "sphinx_design",
-    "sphinxext.linkcheckdiff",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
     "hoverxref.extension"
@@ -91,9 +90,6 @@ linkcheck_workers = 1 # To stop from hitting github's usage limits
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
 user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
-
-# Configure linkcheck diff branch
-linkcheckdiff_branch = "origin/main"
 
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph

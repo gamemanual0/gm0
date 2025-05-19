@@ -64,10 +64,10 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r source/requirements.txt
-    - name: Check Links (Diff)
+    - name: Check Links
       run: |
         git fetch origin main
-        make linkcheckdiff
+        make linkcheck
     - name: Archive Linkcheck Failure
       if: ${{ failure() }}
       uses: actions/upload-artifact@v4
