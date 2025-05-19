@@ -11,8 +11,8 @@ jobs:
   build-html:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
     - name: Install Python Dependencies
@@ -34,8 +34,8 @@ jobs:
   build-pdf:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
     - name: Install Python Dependencies
@@ -57,8 +57,8 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
     - name: Install Dependencies
@@ -78,8 +78,8 @@ jobs:
   check-linting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
     - name: Install Dependencies
@@ -92,7 +92,7 @@ jobs:
   check-spelling:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: misspell
       uses: reviewdog/action-misspell@v1
       with:
@@ -102,11 +102,11 @@ jobs:
   check-redirects:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Checkout main
       run: |
         git fetch origin main --depth=1
-    - uses: actions/setup-python@v3
+    - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
     - name: Install Dependencies
@@ -119,7 +119,7 @@ jobs:
   check-unicode-characters:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Checkout main
       run: |
         git fetch origin main --depth=1
