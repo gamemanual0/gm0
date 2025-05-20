@@ -35,6 +35,7 @@ extensions = [
     "sphinx.ext.graphviz",
     "sphinx.ext.mathjax",
     "sphinx_design",
+    "sphinx_favicon",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
 ]
@@ -94,6 +95,7 @@ user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25
 # Configure OpenGraph support 
 # See https://github.com/wpilibsuite/sphinxext-opengraph
 
+# Sadly, OpenGraph does not appear to support SVGs: https://indieweb.org/The-Open-Graph-protocol#Does_not_support_SVG_images
 ogp_image = "https://raw.githubusercontent.com/gamemanual0/gm0/main/source/_static/assets/gm0-logo.png"
 ogp_site_name = "Game Manual 0"
 
@@ -130,7 +132,28 @@ default_image_centered = True
 
 html_title = "Game Manual 0"
 html_theme = "furo"
-html_favicon = "_static/assets/gm0-logo.ico"
+
+# Instead of using html_favicon, we use the sphinx-favicon extension to allow for better favicon handling.
+favicons = [
+    # Output courtesy of https://realfavicongenerator.net/
+    # Note: We are using our original favicon.svg with the relevant light/dark mode handling added manually, instead of the generated/processed favicon.svg
+    # 
+    # <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    # <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    # <link rel="shortcut icon" href="/favicon.ico" />
+    # <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    # <meta name="apple-mobile-web-app-title" content="Game Manual 0" />
+    # <link rel="manifest" href="/site.webmanifest" />
+
+    {"rel": "icon", "type": "image/png", "href": "assets/favicon/favicon-96x96.png", "sizes": "96x96"},
+    "assets/favicon/favicon.svg",
+    # The default generated favicon.ico is the dark mode one, which doesn't work on light mode browsers.  I generated both light and dark mode .ico files, and set the browser to load the relevant one.  This whole thing would be unnecessary if Safari just supported SVG favicons, but alas, it doesn't.
+    {"rel": "icon", "type": "image/x-icon", "href": "assets/favicon/favicon-dark.ico", "media": "(prefers-color-scheme: dark)"},
+    {"rel": "icon", "type": "image/x-icon", "href": "assets/favicon/favicon.ico", "media": "(prefers-color-scheme: light)"},
+    # Back to the original defs
+    {"rel": "apple-touch-icon", "sizes": "180x180", "href": "assets/favicon/apple-touch-icon.png"},
+    {"rel": "manifest", "href": "assets/favicon/site.webmanifest"}
+]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -146,8 +169,8 @@ html_css_files = [
 # documentation.
 html_theme_options = {
     "sidebar_hide_name": True,
-    "light_logo": "assets/gm0-logo.png",
-    "dark_logo": "assets/gm0-logo_white.png",
+    "light_logo": "assets/gm0-logo.svg",
+    "dark_logo": "assets/gm0-logo_white.svg",
     "light_css_variables": {
         # Both theme variables
         "font-stack": '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
@@ -178,7 +201,7 @@ htmlhelp_basename = "GameManual0Sitedoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_logo = "_static/assets/gm0-logo.png"
+latex_logo = "_static/assets/gm0-logo_svg-tex.pdf"
 
 latex_engine = "xelatex"
 
@@ -238,7 +261,7 @@ latex_elements = {
             \vspace{0mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.25]{gm0-logo.png}
+                \includegraphics[scale=0.25,natwidth=1999,natheight=1499]{gm0-logo_svg-tex.pdf}
             \end{figure}
             \begin{flushright}
                 \textbf{\Huge {"Game Manual 0"}}
