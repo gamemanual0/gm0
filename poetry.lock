@@ -708,26 +708,6 @@ theme-rtd = ["sphinx-rtd-theme (>=2.0,<3.0)"]
 theme-sbt = ["sphinx-book-theme (>=1.1,<2.0)"]
 
 [[package]]
-name = "sphinx-hoverxref"
-version = "1.4.0"
-description = "Sphinx extension to show tooltips with content embedded when hover a reference."
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "sphinx_hoverxref-1.4.0-py2.py3-none-any.whl", hash = "sha256:7687522d0f2f81b9ace330e3d69f93b00acba4020e91c26c204fc0a547c6d04b"},
-    {file = "sphinx_hoverxref-1.4.0.tar.gz", hash = "sha256:1f6ea89b172a87ed15f082c0af9c2217284182529265d0a1b485584a11b96b56"},
-]
-
-[package.dependencies]
-sphinx = ">=5.0"
-sphinxcontrib-jquery = "*"
-
-[package.extras]
-doc = ["sphinx", "sphinx-autoapi", "sphinx-autobuild", "sphinx-notfound-page", "sphinx-prompt", "sphinx-rtd-theme", "sphinx-tabs", "sphinx-version-warning", "sphinxcontrib-bibtex (>=2.6.0)", "sphinxemoji"]
-test = ["tox"]
-
-[[package]]
 name = "sphinx-tabs"
 version = "3.4.5"
 description = "Tabbed views for Sphinx"
@@ -798,21 +778,6 @@ files = [
 lint = ["mypy", "ruff (==0.5.5)", "types-docutils"]
 standalone = ["Sphinx (>=5)"]
 test = ["html5lib", "pytest"]
-
-[[package]]
-name = "sphinxcontrib-jquery"
-version = "4.1"
-description = "Extension to include jQuery on newer Sphinx releases"
-optional = false
-python-versions = ">=2.7"
-groups = ["main"]
-files = [
-    {file = "sphinxcontrib-jquery-4.1.tar.gz", hash = "sha256:1620739f04e36a2c779f1a131a2dfd49b2fd07351bf1968ced074365933abc7a"},
-    {file = "sphinxcontrib_jquery-4.1-py2.py3-none-any.whl", hash = "sha256:f936030d7d0147dd026a4f2b5a57343d233f1fc7b363f68b3d4f1cb0993878ae"},
-]
-
-[package.dependencies]
-Sphinx = ">=1.8"
 
 [[package]]
 name = "sphinxcontrib-jsmath"
@@ -1186,4 +1151,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "f88070a5e1a8e204e5272c34f49aeb4e014ca051c941ad5b14f93f72904e4341"
+content-hash = "c0781388f8bedee4d2cd9862ddf4661250df841480f7a482dc73ee8a9e795a32"

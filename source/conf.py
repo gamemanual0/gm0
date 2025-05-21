@@ -37,7 +37,6 @@ extensions = [
     "sphinx_design",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
-    "hoverxref.extension"
 ]
 
 local_extensions = [
@@ -60,16 +59,6 @@ rst_epilog = """
 .. |gm2| replace:: Game Manual Part 2
 .. |EN| replace:: Engineering Notebook
 """
-# Enable hover content on glossary terms
-hoverxref_roles = ["term"]
-hoverxref_role_types = {
-    "term": "tooltip",
-}
-
-# Required to display LaTeX in hover content
-hoverxref_mathjax = True
-# Use MathJax3 for better page loading times
-mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
 
 # Disable following anchors in URLS for linkcheck
 linkcheck_ignore = [
