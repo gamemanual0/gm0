@@ -79,6 +79,17 @@ linkcheck_ignore = [
     r".*canva.com.*",
     r".*ftconshape.com",
     r".*ptc.com.*",
+    r".*sdp-si.com.*",
+    r".*onlinemetals.com.*",
+    r".*fastenal.com.*",
+    r".*studica.com.*",
+    r".*vexrobotics.com.*",
+    r".*stackexchange.com.*",
+    r".*chiefdelphi.com.*",
+    r".*misumi-ec.com.*",
+    r".*axon-robotics.com.*",
+    r".*reddit.com.*",
+    r".*thingiverse.com.*",    
 ]
 
 linkcheck_anchors = False
