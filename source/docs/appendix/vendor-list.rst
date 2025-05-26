@@ -10,11 +10,12 @@ Vendor List
 - `AndyMark <https://www.andymark.com>`_
 
   - AndyMark sells the official game field and game sets, as well as individual game parts and the SoftTiles foam tiles.
-  - AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, compliant, stealth, and mecanum wheels, as well as many other items.
-  - AndyMark sells the Robits build system, which uses non-metric components similar to the Tetrix build system.
+  - AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner chassis, compliant, stealth, and mecanum wheels, as well as many other items.
+  - AndyMark sells the Robits build system, which uses non-metric components similar to the Tetrix build system. This system is primarily marketed by accessibility/ease-of-use, which may be attractive for beginner teams.
 
 - `Axon Robotics <https://axon-robotics.com/>`_
-   - Vendor for highly customizable servos, with software functionality for range increases to switch between positional mode and continuous rotation mode.
+
+  - Vendor for highly powerful and configurable servos, with software functionality for range increases, switching between positional mode and continuous rotation mode, and more.
 
 - `CopperState <https://www.copperstate.com/>`_
 
@@ -30,7 +31,7 @@ Vendor List
   - Mid-range vendor for fasteners/other hardware, including tools.
 - `goBILDA <https://www.gobilda.com/>`_
 
-  - goBILDA sells its own build system, complete with Yellow Jacket motors, channel, motion components, and battery. Note that the cheapest batteries are found here, the MATRIX 12V Batteries are $39.99, with the team discount they are $29.99, nearly half the price of the $50 batteries sold elsewhere.
+  - goBILDA sells its own build system, complete with Yellow Jacket motors, channel, motion components, and battery.
   - Teams can get a 25% Team Discount from goBILDA.
 - `McMaster-Carr <https://www.mcmaster.com>`_
 
@@ -38,8 +39,8 @@ Vendor List
   - Don't be turned off by the hidden shipping. Generally, McMaster-Carr's shipping is around the same price as other vendors, and shipping is usually next-day.
 - `MiSUMI <https://us.misumi-ec.com/>`_
 
-  - MiSUMI is a Japanese company specializing in industrial and manufacturing components. They sell bulk 15mm anodized :term:`extrusion <Extrusion>` similar to the REV Robotics :term:`extrusion <Extrusion>`. The 15mm :term:`extrusion <Extrusion>` can be cut to length as well.
-  - MiSUMI also sells aluminum drawer slides that are popular for linear extensions. They are available in different lengths, but the most common is 400mm.
+  - MiSUMI is a Japanese company specializing in industrial and manufacturing components. They sell the SAR2 and SAR3 series aluminum drawer slides that are popular for linear extensions. They are available in many different lengths, but the most common are 300mm and 400mm.
+  - MiSUMI also sells bulk 15mm anodized :term:`extrusion <Extrusion>` similar to the REV Robotics :term:`extrusion <Extrusion>`. The 15mm :term:`extrusion <Extrusion>` can be cut to length as well.
 - `OnlineMetals <https://www.onlinemetals.com/>`_
 
   - A common vendor for purchasing various raw metals.
@@ -49,19 +50,19 @@ Vendor List
 - `REV Robotics <https://www.revrobotics.com>`_
 
   - REV Robotics sells the REV build system, which is an :term:`extrusion <Extrusion>`-based ecosystem complete with motors (HD Hex, HD Planetary, Core HEX), :term:`extrusion <Extrusion>`, :term:`servos <Servo>` (Smart Robot Servo), brackets, and battery.
-  - REV also sells the control system for FTC\ |reg| (Expansion Hub and Control Hub).
+  - REV also sells the control system for FTC\ |reg| (Control Hub, Expansion Hub, Driver Hub, and optional Servo Hub).
 
     - REV offers various sensors (Magnetic Limit Switch, Color Sensor, Touch Sensor, Distance Sensor, Potentiometer, etc.)
-    - Additionally, electronic components such as the Servo Power Module, SPARKmini, or Blinkin may be purchased.
+    - Additionally, electronic components such as the SPARKmini and Blinkin may be purchased.
 - `Servocity <https://www.servocity.com>`_
 
   - Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to Futaba, at all price points.
   - Teams can get a 25% team discount from Servocity
 
-- `Studica <https://www.studica.com/ftc-2>`_
+- `Studica <https://www.studica.com/first-tech-challenge>`_
 
-  - Studica sells the Studica build system, which has hole patterns compatible with most systems.
-  - Additionally Studica owns and sells the navX product, a higher-end IMU than what is provided in the Control Hub.
+  - Studica sells the Studica build system, which uses M3 screws and has hole patterns compatible with many systems.
+  - Additionally, Studica owns and sells the navX product, a higher-end IMU than what is provided in the Control Hub.
 
 - `West Coast Products <https://wcproducts.com/>`_
 

@@ -24,70 +24,35 @@ Now that you have Android Studio installed, you're going to want to use the curr
 Downloading the SDK
 ^^^^^^^^^^^^^^^^^^^
 
-The SDK is publicly released to a GitHub repository every season. The current season's SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
+The SDK is publicly released to a GitHub repository. The current SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
 
-Downloading the ZIP
-~~~~~~~~~~~~~~~~~~~
+Downloading and opening the SDK in Android Studio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. When you're at the repository, click the green "code" button. Then, select "Download ZIP."
+#. Open Android Studio. If you have another project open, close it (File -> Close Project). Make sure "Projects" is selected on the sidebar.
 
-   .. image:: images/using-android-studio/download-zip.png
-      :width: 50em
-      :alt: Click the Download ZIP option
-
-#. Then, save it to the desired location in your computer.
-
-   .. image:: images/using-android-studio/save-to-computer.png
-      :width: 50em
-      :alt: The ZIP file should be called FtcRobotController-master
-
-#. After it is saved, extract the contents of the ZIP and place them into whatever desired location. You should see the contents of the SDK inside of the folder location.
-
-Using GitHub Desktop
-~~~~~~~~~~~~~~~~~~~~
-
-#. `Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop>`_
-#. Open the `SDK repository <https://github.com/FIRST-Tech-Challenge/FTCRobotController>`_ in a browser.
-#. Click the green "code" button, and then select "Open with GitHub Desktop."
-
-   .. image:: images/using-android-studio/open-with-gh-desktop.png
-      :width: 50em
-      :alt: Click the Open with GitHub Desktop option
-#. Clone the project.
-
-   .. image:: images/using-android-studio/clone-github-desktop.png
-      :alt: Clone the repository to your resource folder
-
-From the Command Line
-~~~~~~~~~~~~~~~~~~~~~
-
-#. `Install git <https://github.com/git-guides/install-git>`_
-#. Open the terminal (probably bash) in the desired resource location.
-#. Use :code:`$ git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`
-
-Opening the SDK on Android Studio
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. Open Android Studio. If you have another project open, close it.
-
-   .. image:: images/using-android-studio/opening-as.png
+   .. image:: images/using-android-studio/as-welcome.png
       :width: 50em
       :alt: A screen should appear with an option to configure settings and import a project
 
-#. Check for updates. Click on the "configure" dropdown and select "check for updates." If you do not have the latest version, download the updates.
+#. Click on the gear icon in the bottom left corner, and select "check for updates." If you do not have the latest version, download the updates.
 
-   .. image:: images/using-android-studio/check-for-updates.png
-      :alt: If you have no new updates, it should say that you have the latest version installed
+#. Select "Get from VCS". Make sure "Repository URL" is selected on the sidebar, then put ``https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`` into the URL text box. Finally, click the Clone button in the bottom right corner to download the SDK.
 
-#. Select "Import Project." Navigate to where you have the SDK saved on your computer. Choose the directory that has the Android logo.
+   .. tip:: Consider also changing the name of the final folder in the Directory textbox from ``FtcRobotController`` to something that reflects your team and the season, e.g. team number 99999 might use ``99999-2025-06-code``.
 
-   .. image:: images/using-android-studio/select-the-sdk.png
-      :alt: Only select the folder with the Android logo
+   .. image:: images/using-android-studio/as-get-from-vcs.png
+      :alt: TODO: alt text
 
-#. Change to project view. In the top left corner should be a dropdown that allows you to change the way you are looking at your project.
+#. When asked if you want to trust and open the project, choose "Trust Project".
 
-   .. image:: images/using-android-studio/select-project-view.png
-      :alt: Change to project view
+   .. image:: images/using-android-studio/as-trust-project-dialog.png
+      :alt: TODO: alt text
+
+#. Select the hammer icon in the icon group in the top right corner of the window. This will download any needed modules and build the project.
+
+   .. image:: images/using-android-studio/as-make-module.png
+      :alt: TODO: alt text
 
 #. Wait for `Gradle`_ to complete the build. This indicator should be located at the bottom of the window by default.
 
@@ -128,7 +93,7 @@ Near the bottom left of the application, you will find tabs for the local termin
 .. image:: images/using-android-studio/terminal-logcat-location.png
    :alt: Terminal and logcat tabs near the bottom left
 
-Some useful information on using the logcat can be found `here <https://developer.android.com/studio/debug/am-logcat>`_.
+Some useful information on using the logcat can be found `here <https://developer.android.com/studio/debug/logcat>`_.
 
 .. note:: You can build your program through the commandline via the local terminal. Click on the terminal tab and then input :code:`gradlew :TeamCode:clean :TeamCode:build`. This will delete the previously compiled files and build your TeamCode module.
 
@@ -216,31 +181,6 @@ Refer to the instructions of whatever library you are using for the correct pack
 
 Finally, perform a Gradle sync.
 
-Upgrading to Java 8
--------------------
-
-By default, the SDK's version of Java is set to 7. Java 8 is also supported. You might want to upgrade your version of Java from 7 to 8 if you want to use features such as lambdas or generics. Some libraries may also require you to change your Java version.
-
-To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. Scroll down until you find this block:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-Change the :code:`7` to :code:`8`, like so:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-Then, perform a Gradle sync.
-
 Android Debug Bridge
 --------------------
 
@@ -267,7 +207,7 @@ Android Debug Bridge (ADB) is a command-line tool that allows for wireless commu
 
 ADB should come with the platform tools in Android Studio. Navigate to your :code:`local.properties` file in the root of your project and you should see a path to the Android SDK on your computer, such as :code:`C:\Users\Woodie\AppData\Local\Android\Sdk`. Then navigate to :code:`platform-tools` and an application called adb should be there. To use it, open CLI (like PowerShell or command prompt) and run either :code:`adb devices` or :code:`./adb devices`.
 
-For more information on ADB, you can look at the `developers page <https://developer.android.com/studio/command-line/adb>`_.
+For more information on ADB, you can look at the `ADB documentation <https://developer.android.com/tools/adb>`_.
 
 Setting Up ADB
 ~~~~~~~~~~~~~~
@@ -294,13 +234,13 @@ Connecting to a Phone Wirelessly
 #. Plug the robot controller phone into your computer.
 #. Run the command :code:`adb devices` in the :code:`platform-tools` directory and see if the phone shows up.
 #. Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the phone.
-#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
+#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
 Connecting to a Control Hub Wirelessly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
+#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
 #. Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
 
 Once a connection is established, it should appear in the device dropdown in Android Studio.
@@ -346,7 +286,7 @@ Version control is an extremely useful tool. It allows for looking at (and rever
 As far as version control systems go, we strongly recommend git, especially when used with a GUI like Android Studio's built in VCS tools or Github Desktop. While a git tutorial is out of scope for |gm0|, here are some git resources:
 
 - `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
-- `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
+- `GitHub's collection of git resources <https://docs.github.com/en/get-started/git-basics/set-up-git>`_
 - `GitHub's guide to installing git <https://github.com/git-guides/install-git>`_
 - `GitHub Desktop, a git GUI <https://desktop.github.com/>`_
 - `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_

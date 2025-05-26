@@ -24,7 +24,7 @@ Contact
 
 - Physical
    - Limit Switches (`3103-0001-0001/3103-0001-0002 <https://www.gobilda.com/limit-switches/>`_)
-   - Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13013>`_)
+   - Endstops Generic (`Sparkfun <https://www.sparkfun.com/products/13014>`_)
    - Touch Sensor REV (`REV-31-1425 <https://www.revrobotics.com/rev-31-1425/>`_)
 - Magnetic
    - Hall Effect Sensor REV (`REV-31-1462 <https://www.revrobotics.com/rev-31-1462/>`_)
@@ -41,8 +41,6 @@ Optical
       - PixyCMU
    - Software
       - OpenCV (EasyOpenCV)
-      - Vuforia
-      - TFLite
 
 Distance
 --------
@@ -62,7 +60,7 @@ Other
 Logic Level Converter
 ---------------------
 
-The old Modern Robotics system run on 5v sensor logic. The new REV Robotics system uses 3.3v. For most off the shelf sensors, this doesn't cause any problems, but for some existing FTC sensors it does. To solve this REV sells boards, called `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data to be readable by the REV hubs. The `REV Expansion Hub <https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-converter>`_ guide has a chart detailing what adapters are needed for what sensors.
+The REV Robotics system runs on 3.3v sensor logic. Most off the shelf sensors used in FTC natively use/support 3.3v logic, but some sensors may not. To solve this, REV sells boards, called `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data to be readable by the REV hubs. The `REV Expansion Hub <https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-converter>`_ guide has a chart detailing what adapters are needed for what sensors.
 
 .. attention:: According to REV testing, goBILDA, REV and TorqueNado motors don't need logic level converters, but only some NeveRest motors worked with no discernable reason why.
 
