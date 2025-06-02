@@ -21,6 +21,7 @@ Other Contributors
 ------------------
 
 - Adham - FTC 14875 LightSpeed
+- Allison - FTC 24158 Green Gang/FTC 6417 Blu Cru
 - Arjun - FTC 9794 Wizards.exe
 - Baylor - FTC 10641 Atomic Gears
 - Cole - FTC 7548 SPAREPARTS
