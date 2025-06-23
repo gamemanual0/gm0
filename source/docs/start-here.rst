@@ -1,6 +1,10 @@
 Start Here
 ==========
 
+.. raw:: html
+
+    <iframe src="https://gold872.github.io/elastic-dashboard/" height="90vh"></iframe>
+
 .. grid:: 2
    :gutter: 3
    :margin: 2
