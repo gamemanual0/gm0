@@ -6,7 +6,7 @@ Kit Glossary
 .. glossary::
 
    Channel
-      Channel (more precisely called C-Channel) is aluminum that is in the profile of a C. (It is also sometimes called U-Channel.) Channel, along with :term:`extrusion <Extrusion>`, is the most common structural build element in FTC\ |reg|, and is found in Tetrix, REV, Actobotics, and goBILDA kits.
+      Channel (more precisely called C-Channel) is aluminum that is in the profile of a C. (It is also sometimes called U-Channel.) Channel, along with :term:`extrusion <Extrusion>`, is the most common structural build element in FTC\ |reg|, and is found in goBILDA, REV, Actobotics, and other kits.
 
       Channel is fixed pitch, which means that there are pre-drilled holes that limit mounting to finite locations. It can be used to easily construct drivetrains; however, be aware that :term:`gear <Gear>` and :term:`chain <Chain>` mesh may not be with channel.
 
@@ -153,7 +153,7 @@ Kit Glossary
          :alt: A TETRIX v1 motor attached with a TETRIX Clamp Mount
          :width: 200
 
-         TETRIX clamp mount and v1 motor
+         TETRIX clamp mount and v1 motor // FIXME: replace with non-Tetrix example?
 
    Face Mounting
       Face mounting refers to mounting the motor by affixing the motor directly to the mount using bolts. This is the preferable way of mounting the motor (compared to :term:`clamp mounting <Clamp Mounting>`) because it is less likely to loosen over time, especially with the use of :term:`Loctite` on the bolts.
