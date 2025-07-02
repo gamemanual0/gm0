@@ -107,7 +107,7 @@ If you have mentors or team members with previous experience in Creo or an engin
 Getting Parts
 -------------
 
-Most vendors (goBILDA, REV, AndyMark, Tetrix, and more) provide 3D models of the parts they sell in STEP format (usually linked on the product page of each part), which can be imported by any of the CAD programs above. Onshape users are recommended to use the `FTC Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_, which contains a majority of parts from most major vendors.
+Most vendors (goBILDA, REV, AndyMark, and more) provide 3D models of the parts they sell in STEP format (usually linked on the product page of each part), which can be imported by any of the CAD programs above. Onshape users are recommended to use the `FTC Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_, which contains a majority of parts from most major vendors.
 // FIXME: probably should replace last sentence with link to section that lists part libraries
 
 File sharing

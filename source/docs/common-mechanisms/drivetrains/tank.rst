@@ -27,16 +27,15 @@ Disadvantages
 
 - Slower than other options
 - Underpowered (all other drivetrain options typically use 4 motors)
-- Uses the Tetrix MAX motor, which is prone to burning out easily, is underpowered, and has a fragile gearbox.
 - Lacks agility and maneuverability due to 2 motor turning
 - Poor acceleration due to 2 motors
 - Often :term:`direct driven <Direct Drive>`,
   which is highly discouraged for drivetrains
 
-.. figure:: images/tank/tetrix-pushbot.jpg
-   :alt: Tetrix pushbot
+.. figure:: images/tank/REV-starter-chassis.svg
+   :alt: Drivetrain from the REV DUO FTC Starter Bot
 
-   Example pushbot drivetrain included in the starter FTC\ |reg| guide
+   The drivetrain included in the REV DUO FTC Starter Bot guide
 
 4 Wheel Drive
 -------------
@@ -257,7 +256,7 @@ Tread Drive
 
 Tread drive is the use of tank treads or wide belts to power movement, much like a real life tank. Unfortunately, in FTC, it is not a competitive drivetrain for a number of reasons.
 
-Tread is complex, and has many points of failure. Treads are also very prone to defense, and a slight hit from another robot is enough to misalign the treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren't great either - TETRIX tracks have a tendency to snap and derail when used on robot drivetrains, making them not suitable for competition use.
+Tread is complex, and has many points of failure. Treads are also very prone to defense, and a slight hit from another robot is enough to misalign the treads. :term:`Commercial Off-The-Shelf (COTS) <COTS>` tread options aren't great either - TETRIX tracks have a tendency to snap and derail when used on robot drivetrains, making them not suitable for competition use. // FIXME: I think goBILDA sells treads now?  They are probably robust, but still, treads aren't generally recommended for other reasons.
 
 While it is possible to implement tread drive successfully, such as in the example below, most inexperienced teams do not have the capability and know-how to do so. Tread drive has negligible traction improvements at the cost of maneuverability. There are better options to traverse terrain, such as a 4WD.
 

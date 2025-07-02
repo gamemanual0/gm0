@@ -15,7 +15,7 @@ Gears, like sprockets and pulleys, are used in power transmission for three comm
 
             56T REV aluminum gear
 
-Gears are made in different materials, with the most common being 7075 aluminum. **Never mesh plastic and metal gears together**. It is acceptable to mesh different types of metal gears together, as long as they have the same diametral pitch. It is advised to stay away from TETRIX aluminum gears as they wear down very easily. Some REV gears are made out of Delrin, a self-lubricating plastic. It is a durable material, but keep in mind that it is very possible to strip the bore using a plastic gear. Thus, we advise using the REV Hex Hub Strengthener to avoid stripping the bore on Delrin gears.
+Gears are made in different materials, with the most common being 7075 aluminum. **Never mesh plastic and metal gears together**. It is acceptable to mesh different types of metal gears together, as long as they have the same diametral pitch. Some REV gears are made out of Delrin, a self-lubricating plastic. It is a durable material, but keep in mind that it is very possible to strip the bore using a plastic gear. Thus, we advise using the REV Hex Hub Strengthener to avoid stripping the bore on Delrin gears.
 
 Bevel gears are a special type of gear that allows power transmission in two different planes. It is especially useful in tight spaces where a regular motor mounting position would not work.
 
