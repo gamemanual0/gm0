@@ -10,7 +10,7 @@ Portfolio Requirements
 
 .. tip:: A detailed list of the requirements is listed in section 6 of the |cm|.
 
-The engineering portfolio is a 15 page document consisting of standard A4 or letter sized pages and a minimum 10 point font. However, despite the small number of pages, there is a lot of information that needs to be packed into the document to meet the requirements for all awards.
+The engineering portfolio is a 15 page document consisting of standard A4 or letter sized pages and a minimum 10 point font. Despite the small number of pages, a lot of information needs to be put into it to meet the requirements for all awards.
 
 Overall Tips
 ^^^^^^^^^^^^

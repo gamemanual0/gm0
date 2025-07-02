@@ -31,7 +31,7 @@ Vendor List
   - Mid-range vendor for fasteners/other hardware, including tools.
 - `goBILDA <https://www.gobilda.com/>`_
 
-  - goBILDA sells its own build system, complete with Yellow Jacket motors, channel, motion components, and battery.
+  - goBILDA sells its own build system, complete with motors, channel, motion components, and battery.
   - Teams can get a 25% Team Discount from goBILDA.
 - `McMaster-Carr <https://www.mcmaster.com>`_
 
@@ -62,7 +62,6 @@ Vendor List
 - `Studica <https://www.studica.com/first-tech-challenge>`_
 
   - Studica sells the Studica build system, which uses M3 screws and has hole patterns compatible with many systems.
-  - Additionally, Studica owns and sells the navX product, a higher-end IMU than what is provided in the Control Hub.
 
 - `West Coast Products <https://wcproducts.com/>`_
 

@@ -7,7 +7,7 @@ Actobotics (Discontinued)
 
 The Actobotics kit from ServoCity (https://www.servocity.com/actobotics) is a fixed-pitch, :term:`channel-based <Channel>` building system using imperial units. Its 1.5" :term:`c-channel <Channel>` and :term:`ball-bearing <Ball Bearing>` based motion system allows teams to iterate and build mechanisms entirely from kit parts.
 
-Prior to being discontinued, Actobotics was a solid choice for new teams, offering a reliable base kit with many options to expand upon.  Because it is no longer being produced, we recommend teams consider other kits instead.
+Prior to being discontinued, Actobotics was a solid choice for new teams, offering a reliable base kit with many options to expand upon. Because it is no longer being produced, we recommend teams consider other kits instead.
 
 Special Considerations
 ----------------------

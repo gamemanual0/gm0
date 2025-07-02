@@ -7,5 +7,5 @@ However, forgoing a full custom robot opens up many opportunities. Many teams ch
 
 The methods that teams use to make custom parts typically involve either additive or subtractive manufacturing: either building a part from raw material (3D printing) or removing material from stock to create a part (Milling, Routing, and Laser Cutting).
 
-You can now find details on 3D printing and milling in our :doc:`Custom Manufacturing </docs/custom-manufacturing/index>` section, with tutorials and general tips to help bring your parts from CAD to real life.
+Details on 3D printing and machining can be found in the :doc:`Custom Manufacturing </docs/custom-manufacturing/index>` section, with tutorials and general tips to help bring your parts from CAD to real life.
 

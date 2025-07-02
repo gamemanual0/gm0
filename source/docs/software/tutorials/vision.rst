@@ -11,7 +11,7 @@ Officially Supported Solutions
 ------------------------------
 
 .. warning::
-    The FTC SDK previously included TensorFlow Lite, a lightweight version of Google's TensorFlow machine learning technology designed to run on mobile devices.  However, TensorFlow Lite was removed from the SDK in version 10.0. Some documentation may still refer to TensorFlow, so it is important to keep in mind that it has been removed.
+    The FTC SDK previously included TensorFlow Lite, a lightweight version of Google's TensorFlow machine learning technology designed to run on mobile devices. However, TensorFlow Lite was removed from the SDK in version 10.0. Some documentation may still refer to TensorFlow, so it is important to keep in mind that it has been removed.
 
 AprilTags
 ^^^^^^^^^

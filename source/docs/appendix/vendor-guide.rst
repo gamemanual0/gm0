@@ -18,6 +18,7 @@ SKU Identification
 
 - goBILDA: 12 digit SKU, numerical, in the form of 0000-0000-0000 (i.e. 3213-3606-0001)
 - Servocity/Actobotics: 6 digit SKU, numerical, in the form of 000000 (i.e. 615190)
+- REV: 6 digit SKU, "REV" + 2 numbers + 4 numbers, in the form of REV-00-0000 (i.e. REV-31-1595)
 - Pitsco/Tetrix: 6 digit SKU, W + 5 numbers, in the form of W00000 (i.e. W44260)
 - Actuonix: 3-4 digit SKU, alphanumeric, in the form of XX00 or X00 (i.e. PQ12)
 

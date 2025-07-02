@@ -5,11 +5,11 @@ Awards
 
 *FIRST*\ |reg| Tech Challenge is more than just building robots, it contains elements of engineering documentation, outreach, and more. While the majority of |gm0| talks about how to make decisions about creating your robot, the portfolio you write is actually showing how you made those decisions and how you impact the STEM community around you in a positive way.
 
-**It only benefits you to go for awards. You can't win awards without making a portfolio, and in certain states the only way to advance is awards and in others it can make it significantly easier to advance.** In the past an engineering notebook was required for awards, however this is no longer true. Therefore, these are the topics that will be covered in this section of |gm0|.
+**It only benefits you to go for awards, as winning awards significantly improves your chance of advancing to the next level of competition. You likely will not win any awards without making a portfolio, and some awards strictly require a portfolio to be eligible for that award.**
 
 .. warning:: Judging and awards can be extremely subjective and some rules can change a bit from state to state. What works in one region may not in other regions, so contact your judges about specifics of some things; for example, some competitions have you submit your portfolio the day of, while others have you submit it digitally a few days before the competition. The writers of this part of |gm0| have extensive experience with awards and have even been winners and finalists for the Inspire Award at the World Championships.
 
-For most awards, teams have a 5 minute presentation at the beginning of the day followed by some Q&A time and possibly pit judging later on (read the section on the judging process for more detail). There are 7 awards for FTC\ |reg| teams (excluding awards that cannot advance a team).
+For most awards, teams have a 5 minute presentation at the beginning of the day followed by some Q&A time and possibly pit judging later on (read the section on the judging process for more detail). There are 7 awards for FTC\ |reg| teams that are relevant for advancement.
 
 For winning every award, the Engineering Portfolio is a key reference and is quintessential, so make sure that your team focuses on the Engineering Portfolio.
 
