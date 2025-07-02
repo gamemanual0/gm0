@@ -55,9 +55,9 @@ Compliant Wheel Intake
 
    A locked intake simply means that the wheels are locked into place and cannot pivot.
 
-The compliant wheel intake is most commonly used with large game elements, such as the Glyphs in the 2017-2018 game Relic Recovery, and the Stones in the 2019-2020 game Skystone. Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes or rectangular prisms. They suffer at picking up balls.
+The compliant wheel intake is most commonly used with large game elements, such as the "glyphs" in the 2017-2018 game Relic Recovery, and the "stones" in the 2019-2020 game Skystone. Compliant wheel intakes excel at controlling elements with flat surfaces such as cubes or rectangular prisms. They suffer at picking up balls.
 
-In this game, robots had to pick up glyphs, which were 6 inch foam cubes, from the center pit and place them in the cryptobox. This game had many wheeled intakes primarily because the wheels had consistent and controllable contact with the glyphs. Wheeled intakes were able to propel the glyphs in a consistent fashion from the point of contact to the deposit plate, which would flip up to deposit the glyphs.
+In Relic Recovery, robots had to pick up glyphs, which were 6 inch foam cubes, from the center pit and place them in the cryptobox. This game had many wheeled intakes, primarily because the wheels had consistent and controllable contact with the glyphs. Wheeled intakes were able to propel the glyphs in a consistent fashion from the point of contact to the deposit plate, which would flip up to deposit the glyphs.
 
 Wheeled intakes can be spring-loaded or locked into place. Teams could choose one or mix; in Relic Recovery, some teams spring-loaded the set of wheels that made contact first, and then had a fixed set in the back. This is up to the design team's choosing.
 

@@ -106,7 +106,8 @@ Recommended
 
 These wheels are the gold standard of mecanum wheels, if you are buying new mecanum wheels there is very little reason to buy any mecanum wheels not from this section.
 
-- `goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team discount): The goBILDA v2 Mecanum Wheels are the gold standard for teams wanting a quality design in all aspects. They feature a 96mm diameter and a thickness of 38mm, with ball bearing supported, 70A durometer rollers that provide excellent strafing performance. With the use of recessed 16x16mm and 32x32mm holes, these wheels have the largest amount of mounting options and can fit all shaft styles commonly used in FTC\ |reg|.
+- `goBILDA GripForce Mecanum Wheels <https://www.gobilda.com/gripforce-mecanum-wheel-set-o104mm-40a-durometer-rollers/>`_ ($142.49 with team discount): The goBILDA GripForce Mecanum Wheels are the gold standard for teams wanting a quality design in all aspects. They feature a 104mm diameter and a thickness of 38mm, with ball bearing supported 40A durometer rollers that provide excellent strafing performance. With the use of recessed 16x16mm and 32x32mm holes, these wheels have the largest amount of mounting options and can fit all shaft styles commonly used in FTC\ |reg|.
+- `goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team discount): The goBILDA v2 Mecanum Wheels are the previous gold standard for teams wanting a quality design in all aspects. They feature a 96mm diameter and a thickness of 38mm, with ball bearing supported 70A durometer rollers that provide good strafing performance. Teams purchasing new wheels are recommended to opt for the similarly-priced upgraded GripForce wheels, but these older wheels still provide rock-solid performance.
 - `REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ ($127.50 with team discount): The REV Robotics Mecanum Wheels come in at only 75mm in diameter, providing a smaller mecanum wheel option to FTC teams; however, they are not the thinnest option at 40.8mm thick. They feature ball bearing supported rollers that provide exceptional strafing capabilities and traction. The hole pattern featured on these wheels is compatible with Andymark Nubs as well as the REV Robotics Universal Hex Adapter v2 (which is included); however, in order to use other shaft options the use of an adapter or physical modification will likely be required.
 
 Viable
@@ -119,14 +120,6 @@ These mecanums have acceptable performance but there is very little reason to bu
 - `Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-mecanum-wheels>`_ ($225): These are easily the most expensive mecanums on the list. These wheels are 4" in diameter and 1.65" wide. These are bushing based mecanums, so while they strafe decently they still perform worse than bearing based ones. They have a good amount of traction, more than the Nexus bearing or bushing wheels.
 - `Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-mecanum-wheel-set.html>`_ ($80.00): This is the Nexus Ball Bearing Mecanum Wheel with bushings instead of ball bearings. There is not much to say about them except that they strafe decently but worse than the ball bearing based equivalent.
 
-Not Recommended
-~~~~~~~~~~~~~~~
-
-There is almost no reason to use these mecanum wheels---they perform very poorly and are not much cheaper than those in the `Recommended`_ section. We cannot recommend the use of these on an FTC robot, if at all possible replace them with mecanums from the `Recommended`_ section.
-
-- `TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ ($149.00): These mecanums are designed with a bushing based, hard plastic roller which in turn creates poor strafing performance. The integrated hub is a set screw based design with a round bore, causing unreliability as well as taking up extra space.
-- `Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super fragile.
-
 .. figure:: images/holonomic/8103-mecanum.png
    :alt: 8103 Null Robotics's mecanum drivetrain render
 
@@ -136,6 +129,14 @@ There is almost no reason to use these mecanum wheels---they perform very poorly
    :alt: 731 Wannabee Strange's mecanum drivetrain render
 
    731 Wannabee Strange, Rover Ruckus, using **AndyMark HD mecanum wheels**
+
+Not Recommended
+~~~~~~~~~~~~~~~
+
+There is almost no reason to use these mecanum wheels --- they perform very poorly and are not much cheaper than those in the `Recommended`_ section. We cannot recommend the use of these on an FTC robot; if at all possible, replace them with mecanums from the `Recommended`_ section.
+
+- `TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ ($149.00): These mecanums are designed with a bushing based, hard plastic roller which in turn creates poor strafing performance. The integrated hub is a set screw based design with a round bore, causing unreliability as well as taking up extra space.
+- `Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super fragile.
 
 X-Drive
 -------
