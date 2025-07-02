@@ -155,11 +155,11 @@ achieving *much* more stable control with an external PID.
 Feedforward Control
 -------------------
 
-Feedforward control is a method of what is known as "open-loop" control. This is the opposite of closed-loop control and the primary difference is that feedforward does not actively use sensors to control the system.  Instead it "predicts" the desired input based on a model.
+Feedforward control is a method of what is known as "open-loop" control, which is the opposite of closed-loop control. The primary difference is that feedforward does not actively use sensors to control the system;, but instead, it "predicts" the desired input based on a model.
 
 Typically feedforward is used to control either rates of change or combat known disturbances from your system.
 
-Feedforward is very powerful because it is immune to noise or other sensor errors.  This is because it is not actively measuring the system, but instead predicting the desired input. However, this also means that it is not very good at correcting for errors. This is why it is often used in conjunction with a closed-loop controller such as PID.
+Feedforward is very powerful because it is immune to noise or other sensor errors. This is because it is not actively measuring the system, but instead predicting the desired input. However, this also means that it is not very good at correcting for errors. This is why it is often used in conjunction with a closed-loop controller such as PID.
 
 
 Kv Ka Feedforward Model

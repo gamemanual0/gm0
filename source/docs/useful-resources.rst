@@ -18,11 +18,11 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- The **unofficial** FTC\ |reg| Discord server is a discussion-based community server. It is the most active FTC community, which means it generally has the most up-to-date information, and is the easiest way to get quick answers to questions. It also has a channel with direct access to vendors.
 
-.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the topic-specifc channels and help forums.
+.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the topic-specific channels and help forums.
 
 `FIRST Tech Challenge documentation <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- The official *FIRST*\ |reg| Tech Challenge documentation, including programming resources, team management resources, and more.
 
-`FIRST Tech Challenge Question and Answer System <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The official *FIRST* Tech Challenge Question and Answer System, where clarifying questions about game rules from teams are asked and answered.
+`FIRST Tech Challenge Question and Answer System <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The official *FIRST* Tech Challenge Question and Answer System, where questions about ambiguities in the game rules are asked by teams and answered by FIRST.
 
 `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Competition Manual and Team Updates.
 
@@ -99,7 +99,7 @@ Mechanical Design and Build
 
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
-`FIRST Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of official *FIRST* design and build resources, including TETRIX/REV build guides.
+`FIRST Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of official *FIRST* design and build resources, including starter bot build guides for goBILDA, REV, and more.
 
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
@@ -157,13 +157,11 @@ Programming
 Libraries
 ^^^^^^^^^
 
-`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use openCV on an FTC robot. With this library, you can go from a stock SDK to running a sample openCV OpMode, with either an internal or external camera, in just a few minutes!
-
 `FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC Dashboard is a websocket-based React dashboard designed for FTC. It is very useful for debugging, including features such as displaying and graphing telemetry live as well as tuning configuration variables in real-time while opmodes are running.
 
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
 
-`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
+`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities.
 
 Electronics
 -----------

@@ -65,7 +65,7 @@ There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more in
 
       Don't be tempted to overlook the control award even though it doesn't advance at most competitions. The control award counts for the inspire award, and strong performance in control counts towards inspire ranking.
 
-      **Do not directly put code into your portfolio or notebook, the judges will not care**. Instead, focus on explaining key algorithms that you use, and explain the software in an easy to understand way. Remember, your control award judges may not be software engineers or programmers, so make sure you can explain everything to someone without a software background.
+      **Do not directly put code into your portfolio, the judges will not care**. Instead, focus on explaining key algorithms that you use, and explain the software in an easy to understand way. Remember, your control award judges may not be software engineers or programmers, so make sure you can explain everything to someone without a software background.
 
       In addition, control award software is more then just your autonomous mode programs. Driver assistance, feedback, and automation all are vital to the control award.
 
@@ -86,11 +86,11 @@ There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more in
          These sheets used to be submitted separately, but the contents are now part of the Engineering Portfolio, and therefore has to fit with all your other Portfolio content within the 15 allowed Portfolio pages.
 
    Motivate Award
-      The Motivate Award is one of the two outreach awards. It's for teams that work with their local and *FIRST* community. Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate award can be vague, and most judges don't know how to differentiate which outreach falls under which award.
+      The Motivate Award is one of the two outreach awards. It's for teams that work with their local community. Unfortunately, the line between the :term:`connect award <Connect Award>` and motivate award can be vague, and most judges don't know how to differentiate which outreach falls under which award. Read `Connect vs. Motivate`_ for more advice on this.
 
-      Look at the section about differentiating connect and motivate for more advice on this. For both outreach awards, a Team Plan (preferably in the portfolio, but verbally-communicated is also allowed) is required. Refer to the section about writing a team plan for advice.
+      For both outreach awards, a Team Plan (preferably in the portfolio, but verbally-communicated is also allowed) is required. Refer to the section about writing a team plan for advice.
 
-      The key aspects to include in your portfolio and presentation for motivate is showing how all team members contribute to the success of the team, how your team is recruiting members from non-stem areas, as well as plans for fundraising, funding, sustainability, and recruitment.
+      The key aspects to include in your portfolio and presentation for Motivate is showing how all team members contribute to the success of the team, how your team is recruiting members from non-STEM areas, as well as plans for fundraising, funding, sustainability, and recruitment.
 
       Official Competition Manual Description
          *Sparking others to embrace the culture of STEM through FIRST!*
@@ -107,8 +107,8 @@ There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more in
       Official Competition Manual Description
          The Design Award celebrates the team that demonstrates industrial design principles, striking a balance between form, function, and aesthetics. The design process used should result in a ROBOT which is efficiently designed, and effectively addresses the game challenge. A PORTFOLIO is not required for this award.
 
-Connect vs Motivate
-^^^^^^^^^^^^^^^^^^^
+Connect vs. Motivate
+^^^^^^^^^^^^^^^^^^^^
 
 Both outreach awards can be hard to differentiate, as the official descriptions are super vague, and most judges don't know the difference perfectly. Since the descriptions are very vague, it is up to you to determine what goes towards which award. Oftentimes, teams will put more outreach in :term:`Connect <Connect Award>` than :term:`Motivate <Motivate Award>`, as Connect is fairly high up on the advancement list unlike Motivate, so putting more into Connect and winning Connect may advance, though make sure to do your research before trying a strategy like this.
 
