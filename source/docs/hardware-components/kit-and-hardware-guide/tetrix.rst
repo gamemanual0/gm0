@@ -1,10 +1,10 @@
-TETRIX
-======
+TETRIX (Not Recommended)
+========================
 
 The TETRIX build system is a fixed pitch, channel-based building system that uses both imperial and metric units.
 
 .. attention::
-   TETRIX is generally not recommended due to its restricted flexibility and low long-term reliability. This page serves as historical reference for teams that have and use TETRIX parts, but there is little reason to purchase them.
+   TETRIX is not recommended due to its restricted flexibility and low long-term reliability. This page serves as historical reference for teams that have and use TETRIX parts, but teams should no longer purchase them. This page is provided for historical reasons only.
 
 Special Considerations
 ----------------------
@@ -53,4 +53,4 @@ Example Robots
 
    6022 To Be Determined: Worlds Semifinalist (St. Louis), Velocity Vortex
 
-   TETRIX based robots have succeeded in competition in the past, although in recent years, this is not really the case anymore.
+   TETRIX-based robots have historically seen competitive success in the earlier days of FTC; however, with the introduction of much more robust, extensive, and easy-to-use building systems (e.g. goBILDA), TETRIX has become obsolete.
