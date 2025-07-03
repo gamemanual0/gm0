@@ -38,6 +38,7 @@ extensions = [
     "sphinx_favicon",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
+    "sphinxcontrib.rsvgconverter",
 ]
 
 local_extensions = [
