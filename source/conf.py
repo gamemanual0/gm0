@@ -59,6 +59,8 @@ rst_epilog = """
 .. |gm0| replace:: Game Manual 0
 .. |gm1| replace:: Game Manual Part 1
 .. |gm2| replace:: Game Manual Part 2
+.. |CM| replace:: Competition Manual
+.. |EP| replace:: Engineering Portfolio
 .. |EN| replace:: Engineering Notebook
 """
 # Enable hover content on glossary terms
