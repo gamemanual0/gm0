@@ -24,7 +24,7 @@ Disadvantages
 - Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased used for much less
 - Power Issues: Teams have reported random losses of power coming from improper tolerences of the battery connection.
 - Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster then expected
-- Wifi Issues: The wifi driver will occasionally crash when the device goes to sleep, requiring a device restart
+- Wi-Fi Issues: The Wi-Fi driver will occasionally crash when the device goes to sleep, requiring a device restart
 
 .. important::
    If you purchase a Driver Hub and experience issues, refer to the `REV Driver Hub troubleshooting page <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting>`_. The unexpected power off fix may be done preemptively to prevent a shutdown during a match.
@@ -46,7 +46,7 @@ Disadvantages
 - The lack of a full size USB A port means that flimsy On The Go cables must be used
 - The phones themselves should be protected with a case to prevent damage
 
-A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only? This is because most school WiFi bands run on 2.4 GHz, which means that 2.4 GHz channels will be more crowded on competition day. This can lead to noticeably higher ping/lag which adversely affects driver and robot performance.
+A 5 GHz phone is preferred over the standard 2.4 GHz phone to reduce ping issues. Have you ever noticed that your team's robot seems to lag at competitions only? This is because most school Wi-Fi bands run on 2.4 GHz, which means that 2.4 GHz channels will be more crowded on competition day. This can lead to noticeably higher ping/lag which adversely affects driver and robot performance.
 
 USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possible source of disconnects during a match. This is generally caused by poor quality cables/adapters between the driver station and the gamepads. **It generally is worth it to purchase higher quality cables and adapters as opposed to the cheapest options.**
 
