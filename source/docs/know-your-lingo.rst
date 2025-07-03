@@ -9,24 +9,27 @@ Competitions
 Program Delivery Partner (PDP)
    Director or directors for events and activities in a region. Used to be referred to as the Affiliate Partner (AP).
 Qualifier
-   Tournament with 5-6 qualifying matches and best-of-three alliance elimination matches. Judging included. Will advance to States/Regional level.
+   Tournament with 5-6 qualifying matches and alliance elimination matches. Judging included. Will advance to States/Regional level.
 League Meet
    Low-stress competition with matches counting towards league rank at a League Tournament. No judging.
 League Tournament
    Tournament with ranked matches and alliance elimination matches for teams participating in that League. Judging included. Will advance to States/Regional level. Sometimes called a "League Championship".
+Inter-League Tournament
+   League Tournament with multiple (usually 2) leagues combined into the tounament
 Alliance
    Group of two or, in eliminations, two or three teams that compete. In elimination matches each team must play at least once.
 Ranking Points (RP)
-   Primary basis in rankings at traditional events. For the Power Play season, each team receives 2 RP for winning a qualification match, 1 for tieing, and 0 for losing.
+   Primary basis in rankings at events. For the Into the Deep season, each team receives 2 RP for winning a qualification match, 1 for tieing, and 0 for losing.  Your overall RP is the average of your RP from each match.
 TieBreaker Points (TBP)
-   Secondary determinant in team rankings for traditional events, primary determinant for remote events. For the Power Play season, this is split up into two parts; TBP1 and TBP2. TBP1 is used before TBP2, and is
-   the alliances/teams autonomous period score. TBP2 is the alliances/teams end game score. (Whether it is alliances/teams depends on if the team is at traditional events, respectively.)
+   Secondary determinant in team rankings for traditional events. For the Into the Deep season, there are three levels of TBP; TBP1 is used before TBP2, and so on. TBP1 is
+   the average autonomous period score of your alliance. TBP2 is
+   the average ascent period score of your alliance.  TBP3 is your highest score in any match.
 Qualification Match
    Qualifying matches (generally 5) with random alliance partners and
    opponents will be played to determine team rankings.
 Elimination Match
-   2 alliances of 2 or 3 teams each compete in best of 3 matches to determine
-   winning alliance. Also known as elim matches, or just elims.
+   Alliances of 2 or 3 teams each compete in matches to determine
+   the winning alliance. Also known as elim matches, or just elims.
 
 Robot Components
 ----------------
@@ -56,16 +59,16 @@ REV Expansion Hub
    analog, and I2C ports.
    Maximum of 2 hubs.
 REV Control Hub
-   Integrated Expansion Hub + :term:`Robot Controller` phone.
+   Integrated Expansion Hub + :term:`Robot Controller` Android device.
    It serves many of the same purposes as the Expansion Hub but
    eliminates the need for a :term:`Robot Controller` phone.
    1 Expansion Hub may be used along side 1 Control Hub.
 Driver Station (DS)
-   Android phone connected to the gamepad controller.
-   Drivers interact with the DS phone to start/stop robot.
-Robot Controller
-   Android phone connected to the Expansion Hub.
-   Connects to DS phone via WiFi-Direct.
-Gamepad Controller
+   REV Driver Hub or Android phone connected to the robot via Wi-Fi, and with gamepad(s) plugged into it.
+   Drivers interact with the DS screen to start/stop the robot, and usev the gamepads to control the robot.
+Robot Controller (RC)
+   REV Control Hub or Android phone connected to the Expansion Hub.
+   Connects to DS phone via Wi-Fi.
+Gamepad/Controller
    An Xbox or PS4 style controller which the driver uses to control the robot
    during driver-control period. Maximum of 2.

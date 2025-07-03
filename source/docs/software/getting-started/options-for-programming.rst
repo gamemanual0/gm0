@@ -10,7 +10,7 @@ Blocks
 
 The Blocks Programming Tool is a visual programming language (similar to tools like Scratch) which provides a simple way to code simple actions for the robot. It has a colorful and LEGO\ |reg| like design (including sounds of block pieces of snapping together), making the system very accessible to those new to the world of programming.
 
-Using a device and a robot controller phone, connect your device to the phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select "Program & Manage". This will display the WiFi SSID and password for you to connect to. Go onto your browser (preferably Chrome, though other modern browsers will likely work) and enter the address shown on the :term:`RC <Robot Controller>`.
+Using a device and a robot controller phone, connect your device to the phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select "Program & Manage". This will display the Wi-Fi SSID and password for you to connect to. Go to your browser and enter the address shown on the :term:`RC <Robot Controller>`.
 
 Advantages
 ^^^^^^^^^^
@@ -29,7 +29,7 @@ Disadvantages
 
   - Primarily a teaching tool for people with no programming experience
 - Using external libraries is impossible
-- This will change your primary Wi-Fi network to the :term:`Robot Controller's <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
+- This will change your computer's Wi-Fi connection to the :term:`Robot Controller's <Robot Controller>` Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
 
   - Teams can get around this by purchasing an external Wi-Fi module that allows their computer to connect to 2 Wi-Fi networks at once.
 
@@ -58,14 +58,14 @@ Disadvantages
 - Steeper learning curve than Blocks
 - The OnBotJava editor lacks a lot of features (e.g. autocomplete) that make working with a text-based programming language convenient
 - Using external libraries is functionally impossible
-- This will change your primary Wi-Fi network to the :term:`Robot Controller's <Robot Controller>` Direct Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
+- This will change your computer's Wi-Fi connection to the :term:`Robot Controller's <Robot Controller>` Wi-Fi network, and as such, you will be unable to access the internet while connected to this particular network.
 
   - Teams can get around this by purchasing an external Wi-Fi module that allows their computer to connect to 2 Wi-Fi networks at once.
 
 Android Studio
 --------------
 
-Android Studio is a comprehensive Integrated Development Environment (IDE) that uses Java to program the phones. Instead of using a browser to upload code, Android Studio will compile your Robot Controller code into a .apk file (an app installer), and install that on the phone.
+Android Studio is a comprehensive Integrated Development Environment (IDE) that uses Java and/or Kotlin to program the phones. Instead of using a browser to upload code, Android Studio will compile your Robot Controller code into a .apk file (an app installer), and install that on the phone.
 
 Advantages
 ^^^^^^^^^^
@@ -76,7 +76,7 @@ Advantages
 - Can use libraries like `Road Runner`_, `FTCLib`_, and `FTC Dashboard`_.
 - Can use either a USB connection to the :term:`RC <Robot Controller>` phone, or a wireless connection to upload code.
 
-  .. note:: Deploy times can be sped up significantly by using `Sloth`_.
+  .. tip:: Deploy times can be sped up significantly by using `Sloth`_.
 
 - Can debug in real-time
 - Many resources for Java, Android Studio, and IntelliJ IDEA
@@ -90,8 +90,8 @@ Advantages
 Disadvantages
 ^^^^^^^^^^^^^
 
-- Connecting to the robot controller's Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
-- Relatively easy setup process, but time consuming and is a relatively hefty install (3GB of files between Android Studio, ftc_app, and other libraries)
+- Connecting to the robot controller's Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wi-Fi adapter (cheap and easy)
+- Relatively easy setup process, but time consuming and is a relatively hefty install (3GB of files between Android Studio, FtcRobotController, and other libraries)
 - There are a number of oddities that can easily cause issues/confusion when first setting everything up. Reaching out to the community for assistance is recommended if you are having issues.
 
 Other Programming Languages
@@ -102,7 +102,7 @@ When using Android Studio, it is possible to use languages besides Java.
 Kotlin
 ~~~~~~
 
-Kotlin is a relatively new and rapidly growing programming language from Jetbrains, the creator of the IntelliJ IDE, which Android Studio is based off. Kotlin was made to be completely compatible with Java but be easier to work with. Google recently announced it as an official Android language, then announced they are going "Kotlin first" but still keeping Java support.
+Kotlin is a relatively new and rapidly growing programming language from JetBrains, the creator of the IntelliJ IDE, which Android Studio is based on. Kotlin was made to be completely compatible with Java, while being easier to work with and supporting more modern language features. Google now considers it the primary language for Android application development, but Java is still supported.
 
 Advantages
 """"""""""
@@ -122,7 +122,7 @@ Disadvantages
 
 - Not widely used in FTC\ |reg| yet
 - New and has fewer community resources for training
-- Not recommended for programmers who need large amounts of help from other teams
+- Not recommended for programmers who need large amounts of help from other teams, unless those teams are experienced in Kotlin
 
 C and C++
 ~~~~~~~~~
