@@ -9,7 +9,7 @@ Legal Motors
 12 V motors are strictly controlled by FTC\ |reg| rules. As of 2020-2021 season, the only FTC legal motors are the following ones:
 
 - TETRIX 12V DC Motor (`regular <https://www.pitsco.com/TETRIX-DC-Gear-Motor>`_, `Torquenado <https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/>`_)
-- `AndyMark NeveRest series 12V DC Motors <https://www.andymark.com/categories/mechanical-gearboxes-gearmotors>`_
+- `AndyMark NeveRest series 12V DC Motors <https://andymark.com/collections/neverest>`_
 - Modern Robotics/MATRIX 12V DC Motors (this also includes `goBILDA motors <https://www.gobilda.com/motors/>`_, which are MATRIX motors with a different gearbox)
 - `REV Robotics HD Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1301/>`_
 - `REV Robotics Core Hex 12V DC Motor <https://www.revrobotics.com/rev-41-1300/>`_
@@ -53,7 +53,7 @@ Any of these "standard" gearboxes are more robust than spur gearboxes. Like the 
 - `REV UltraPlanetary <https://www.revrobotics.com/rev-41-1600/>`_ gearbox - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix & matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and a maximum of 125:1.
 
   .. note::
-    While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual gear ratios are slightly different. Consult the `REV UltraPlanetary User's Manual for the exact gear ratios <https://docs.revrobotics.com/ultraplanetary/ultraplanetary-gearbox/cartridge-details>`_.
+    While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual gear ratios are slightly different. Consult the `REV UltraPlanetary User's Manual for the exact gear ratios <https://docs.revrobotics.com/rev-crossover-products/ultraplanetary/cartridge-details>`_.
 
   The UltraPlanetary was intended to give teams maximum customization without the typical limiting factor - high cost. The total cost for the three stage gearbox and motor is *exceptionally* good value for a customizable motor. In addition, the UltraPlanetary has a female 5mm hex output :term:`shaft <Shaft>` which allows teams to customize the shaft length.
 
