@@ -15,6 +15,13 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Portfolio <https://drive.google.com/file/d/19-r9fQ_jjRlhKa4-4TjrS-gDAT8_-YqN/view?usp=drive_link>`__
 - `Code <https://github.com/Caesar-Circuitry/Caesar-Circuitry-ITD-Atlas>`__
 
+23400 UFORCE
+^^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://a360.co/404quW5>`__
+- `Portfolio <https://drive.google.com/file/d/1HQgGVoOyZ0jzxsOwiJioX2KoaqiV3NVd/view?usp=sharing>`__
+- `Code <https://github.com/TeamUforce23400/ITD_FINAL/>`__
+
 2023-2024 Center Stage
 ------------------------
 
