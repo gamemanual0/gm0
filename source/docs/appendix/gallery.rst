@@ -104,7 +104,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 - `CAD <https://cad.onshape.com/documents/c4258a3b5a1dbcdad41e21f5/w/4f7810069e9b16a173d2bf0a/e/f837c09187d1cca462aaeca2>`_
 - `Robot Explanation Video <https://www.youtube.com/watch?v=fZFT6Cdp58g>`_
-- `Robot Description Flyer <https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_
+- `Robot Description Flyer <https://web.archive.org/web/20220619062141/https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_
 
 18275 SubZero
 ^^^^^^^^^^^^^
