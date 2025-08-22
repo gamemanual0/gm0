@@ -36,10 +36,10 @@ Robot Components
 
 DC Motor
    Open-loop :term:`RS-555 series <RS-550 Series Motor>` 12 volt motors used
-   to power mechanisms. Max of 8.
+   to power mechanisms.
 Servo
    Closed-loop :term:`servo-motors <Servo>` used for precise movement.
-   Controlled by PWM signals. Max of 12.
+   Controlled by PWM signals.
 Drivetrain (DT)
    Mechanism responsible for the movement of the robot.
 Intake
