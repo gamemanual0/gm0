@@ -94,7 +94,11 @@ Using heavy-duty extension wires are recommended.
 
 Tape the connections between extension wires and servo wires with electrical tape. This is as the connections can become loose over time and are easy to pull out.
 
-The VEX Motor Controller 29 has the wrong gender connector on the 3-pin end. You are required to either use an adapter cable, or add the right connector to the wires (recommended). **Be sure to protect the MC29, as it is fragile and prone to failure if it takes impact from another object**.
+.. tip::
+   Some vendors sell extension wires with versions of the 3-pin female connector that are locking, which significantly improves the reliability of the extension wires. BackBayRC on Amazon sells `servo extension wires with locking connectors <https://www.amazon.com/BackBayRC-Extension-Strands-Vehicles-bikes/dp/B0CXR2YBS4/>`_; and Ferra Components sells both `pre-made servo extension wires with locking connectors <https://ferracomponents.com/products/20awg-locking-servo-wire>`_, and `packs of locking connectors you can crimp yourself <https://ferracomponents.com/products/servo-locking-connector>`_.
+      .. image:: images/wiring/dupont-connector-locking.png
+         :alt: Locking female 3-pin Dupont connectors
+         :width: 300px
 
 USB
 ^^^
@@ -116,7 +120,7 @@ Miscellaneous
 REV Grounding Strap
    The :term:`REV Grounding Strap <Grounding Strap>` is currently the only legal way to ground your robot. Attach the end to the metal part of your robot frame, and plug the :term:`XT30` connector end into a free :term:`XT30` port on your robot.
 Power distribution blocks/panels
-   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub). The block can be connected to the Servo Power Module to boost voltage for servos.
+   The REV Power Distribution Block allows teams to have more than four :term:`XT30` connectors (2 on each Expansion Hub).
 Dryer sheets
    Dryer sheets can be used to wipe down the robot after every match in order to reduce static buildup. This is not directly recommended by *FIRST* or any vendor, but our empirical evidence throughout the years suggests that it helps, or at the very least, can't hurt to do so. However, dryer sheets may or may not be on the boundary of legality, as grounding the robot to the ground is illegal.
 Staticide/static spray

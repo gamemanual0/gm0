@@ -24,7 +24,7 @@ Notable Components
 - Actobotics' X-rail :term:`extrusion <Extrusion>` system offers immense adjustability and flexibility as it adds a :term:`extrusion <Extrusion>` component to a :term:`channel-based <Channel>` kit.
 - To complement the structural offerings, Actobotics uses a series of clamping hubs and a robust 1/4" steel :term:`D-shaft <Shaft>`.
 - The Linear Motion Kit uses X-rail :term:`extrusion <Extrusion>` to build extending mechanisms.
-- The :term:`Servoblocks`, which prolongs the life of a servo, are recommended for all teams, regardless of kit. However, :term:`Servoblocks` seamlessly interface with the Actobotics ecosystem.
+- The :term:`ServoBlocks`, which prolongs the life of a servo, are recommended for all teams, regardless of kit. However, :term:`ServoBlocks` seamlessly interface with the Actobotics ecosystem.
 - Actobotics furthermore offers motion options such as :term:`bevel gears <Bevel gear>` and Linear Actuator kits (using :term:`lead screws <Lead Screw>`) for specific use cases.
 
 Kit of Parts
@@ -36,7 +36,7 @@ Advantages
 ----------
 
 - Actobotics provides a great value fixed pitch build system that is generally easier to assemble than :term:`extrusion-based <Extrusion>` systems which require cutting :term:`extrusion <Extrusion>` to length.
-- Actobotics has the patented :term:`Servoblocks`, which help drastically increase servo life by protecting it from shock loads. More information may be found in the glossary.
+- Actobotics has the patented :term:`ServoBlocks`, which help drastically increase servo life by protecting it from shock loads. More information may be found in the glossary.
 - Actobotics is easily compatible with other build systems such as REV's kit using adapters which can be found on the Servocity website.
 - Actobotics is more sturdy than TETRIX in terms of drivetrain flex and has more support options to prevent structural bending.
 - The :term:`clamping hubs <Clamping Hub>` offered are more reliable than :term:`set screws <Set Screw>`, as clamping engages the shaft in more places than a :term:`set screw <Set Screw>` (one face). As discussed in the :doc:`TETRIX section <tetrix>`, set screws in particular are vulnerable to loosening, especially without application of Loctite.

@@ -38,18 +38,18 @@ Kit Glossary
 
          An Actobotics dual ball bearing hub
 
-   Servoblocks
-      Servoblocks, sold by goBILDA/Servocity/Actobotics, are a way to mount :term:`servos <Servo>` to the goBILDA and Actobotics systems. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While Servoblocks are not cheap, they are one of the best investments for teams to pursue to prevent servo failure in high-load mechanisms.
+   ServoBlocks
+      ServoBlocks, sold by goBILDA, are a way to mount :term:`servos <Servo>` to the goBILDA system. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While ServoBlocks are not cheap, they are one of the best investments for teams to pursue to prevent servo failure in high-load mechanisms.
 
-      .. figure:: images/actobotics/servoblock.png
-         :alt: An Actobotics Servoblock
+      .. figure:: images/gobilda/servoblock.jpg
+         :alt: A servo in a compact ServoBlock
 
-         An Actobotics Servoblock
+         A servo in a compact ServoBlock
 
       .. figure:: images/actobotics/10030-servoblock-usage.png
-         :alt: An example of a servoblock being used on a robot (10030 7 Sigma, Relic Recovery)
+         :alt: An example of an original ServoBlock being used on a robot (10030 7 Sigma, Relic Recovery)
 
-         An example of an Actobotics servoblock being used on a robot (Team 10030 7 Sigma, Relic Recovery)
+         An example of an original Actobotics ServoBlock being used on a robot (Team 10030 7 Sigma, Relic Recovery)
 
    Clamping Hub
       A clamping hub is used to fixate part such as :term:`sprockets <Sprocket>` or :term:`gears <Gear>` on shafts. It is also used to prevent shafts from moving laterally. Unlike shaft collars, clamping hubs use one or more screws to apply clamping force around the entire shaft, giving a better hold. As a result, clamping hubs are recommended over shaft collars.

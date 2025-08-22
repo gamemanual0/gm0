@@ -32,15 +32,16 @@ Where can I get ...?
   - Planetary Gearbox Motors (recommended)
 
     - :term:`goBILDA 5202/5203/5204 Yellow Jacket Planetary <Yellow Jacket Motor>`
-    - :term:`REV HD Hex <HD Hex Motor>` Planetary & UltraPlanetary
+    - :term:`REV HD Hex <HD Hex Motor>` UltraPlanetary
 
       - (The UltraPlanetary gearboxes have a customizable gearbox ratio)
-    - :term:`AndyMark NeveRest <NeveRest Motor>` Orbital
+    - :term:`AndyMark NeveRest Orbital <NeveRest Motor>`
+    - :term:`AndyMark NeveRest Hex <NeveRest Motor>`
 
   - Spur Gearbox Motors (NOT recommended)
 
     - :term:`REV HD Hex <HD Hex Motor>` & :term:`Core Hex <Core Hex Motor>`
-    - :term:`AndyMark NeveRest <NeveRest Motor>` Classic
+    - :term:`AndyMark NeveRest Classic <NeveRest Motor>`
     - TETRIX TorqueNado
 
 - Servos
