@@ -2,7 +2,16 @@
 
 Outreach Basics
 ===============
-A guide to starting your team's portfolio of outreach events.
+
+What is Outreach in *FIRST*?
+----------------------------
+
+Outreach is a team's way of establishing its values for *FIRST* and STEM throughout the community. This can involve activities like networking with professionals, visiting robotics labs nearby, coaching and mentoring other *FIRST* teams, volunteering, and STEM|hyphen|related activities, and so much more.
+
+Why is Outreach Important?
+--------------------------
+
+Outreach is important because it allows your team to demonstrate how it made an impact on the STEM community and spread *FIRST* values. A few awards, such as Connect, Motivate, and Inspire (the highest|hyphen|ranked award), are all based on a team's outreach. Outreach usually takes up 2|hyphen|3 pages of the Engineering Portfolio, which is typically 16 pages. Judges are looking for a diverse set of outreach events that have been done throughout the year and demonstrate a clear impact and Gracious Professionalism. If your FTC team isn't sure how to establish good outreach, here are some tips and tricks for where to find opportunities.
 
 What Do You Care About?
 -----------------------
@@ -15,6 +24,39 @@ A concerning amount of teams see outreach as a means to obtain awards. While it 
 Many teams often hope to create large-scale programs that impact tens of thousands. However, many smaller outreach programs can often be more impactful than one big, unwieldy program that may never get off the ground. Consider what your local area needs - maybe your library needs volunteers to teach STEM, or your local FLL team requires mentorship. Maybe there are no other FLL or FTC teams in your area. Regardless, your goal should be to advocate for STEM and *FIRST*\ |reg| in your area.
 
 .. important:: Create a plan! Any set of outreaches should be outlined in a business plan, documenting how they serve as a way to expand your program's reach. This plan should also contain your team's vision, budget goals, and growth objectives.
+
+How to establish outreach:
+--------------------------
+
+1. Cold email professionals and ask to be mentored
+
+   - This may seem intimidating, but there are many templates online that can help you reach out to professionals.
+   - Simply search 'How to ask for a mentor over email' and Google should provide many options.
+
+2. Research science fairs/events nearby
+
+   - Start by compiling a list of science events nearby in a document or spreadsheet.
+   - Local events could be found on Eventbrite, on blog pages, and in magazines.
+   - Note the date of the event and whether they allow exhibitors to sign up, and if not, then contact them directly!
+
+3. Sign up to demo at STEM showcases
+
+   - Many elementary and middle schools have science fairs or STEM nights that allow people to demonstrate things like robots, coding, and engineering practices.
+   - Check out the local schools in your area and see if there are any opportunities like that nearby.
+
+4. Ask nearby *FIRST* teams if they need any help or want a mentor
+
+   - Mentoring or helping other teams is an amazing way to give back to the *FIRST* community.
+   - You can connect with a team on the *FIRST* Mentor Network if an 18+ team member makes an account as a mentor, or by asking local FTC teams either online, through social media, or using connections.
+   - Mentoring can involve providing advice to a team, helping a rookie team learn about *FIRST*, providing feedback on engineering portfolios, and more.
+
+5. Ask more experienced teams for their mentorship
+
+   - Take note of any very skilled teams in the area and consider reaching out to them and asking for their mentorship.
+   - That way, you can get invaluable advice on engineering, teamwork, programming, and more.
+   - Chances are, a team would say yes since that means they get some outreach out of it.
+
+6. Volunteer in STEM|hyphen|related activities
 
 Spreading The Word
 ------------------
@@ -53,6 +95,18 @@ Once you've zeroed in on the programs you'd like to create or contribute to, fig
 
 .. tip:: Promotional materials should be striking and feature your team's branding, with an emphasis on succinct design. Your goal is to maximize information delivery using as few words as possible.
 
+Outreach in the Portfolio
+-------------------------
+
+Outreach should be described in a specific way in the portfolio to be deemed impactful. A few strategies some teams have used:
+
+1. Categorizing whether the impact: local, state, national vs. international
+2. Use numbers! Share how many people your volunteering reached, and what communities benefited
+3. Keep it brief! Describe each activity in 1|hyphen|2 sentences
+4. Track your hours: using a spreadsheet helps, and that way your portfolio can have quantitative impact
+5. Include photos, images, and logos that add visual appeal and illustrate your impact
+6. Be specific; if the sentence can describe any outreach activity, it can't describe any!
+
 General Outreach Tips
 ---------------------
 
@@ -71,3 +125,4 @@ Housekeeping
 Keep a list of the programs your team has created or contributed to. Ensure you take photos at every event with team members. Keep track of your **Reach** (tangible interaction or observation of your team), **Engagement** (how many people interacted with your team/you interacted with, e.g. by attending events), **Impact** (how many people are directly impacted by your outreach events), and **Conversion** (how many people get involved with your program.)
 
 If looking to include these statistics in your judged presentation or portfolio, ensure you adhere to the "Awards Definitions" located in the appendix of |gm1| that outline terms relating to outreach. These terms are: *Started*, *Mentored*, *Assisted*, *Provided Published Resources*, *Ran*, *Hosted*, *Reached*, and *Advocated*.
+
