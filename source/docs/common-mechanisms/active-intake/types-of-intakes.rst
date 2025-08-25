@@ -25,7 +25,7 @@ Roller and wheeled intakes refer to types of intakes which work by having some s
 
          Durometer refers to the hardness of rubber. Having a high durometer translates to a harder rubber surface, more durability, but less traction. A low durometer means a softer rubber, worse durability, but improved traction.
 
-         Examples of compliant wheel are Andymark's Compliant Wheels, and goBILDA's Gecko Wheels.
+         Examples of compliant wheel are AndyMark's Compliant Wheels, and goBILDA's Gecko Wheels.
 
          .. figure:: images/compliant-wheel-2-inch.png
             :alt: A 2" green compliant wheel
