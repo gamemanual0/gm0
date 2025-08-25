@@ -5,13 +5,10 @@ Sample Drivetrains
 
 In this section, we compile several sample drivetrains which you can use as a starting point for your own designs. You should also check the :doc:`gallery of robot designs </docs/appendix/gallery>` in the Appendix.
 
-`goBILDA strafer chassis <https://www.gobilda.com/strafer-chassis-kit-v4/>`_
+`goBILDA Strafer Chassis <https://www.gobilda.com/strafer-chassis-kit-104mm-gripforce-mecanum-wheels/>`_
    Basic mecanum chassis by goBILDA. Simple and easy to build chassis, providing an excellent starting point for robots built from goBILDA parts.
-`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit/>`_
+`goBILDA BeeLine Chassis <https://www.gobilda.com/beeline-chassis-kit-v2/>`_
    Basic 6 wheel drive chassis by goBILDA. Simple and easy to build chassis, providing an excellent starting point for robots built from goBILDA parts.
-`Strafer chassis with Dead Wheels <https://drive.google.com/file/d/1R85u8nGGmBu5_6jIztOH3-5_W4XK08Mb/view?usp=drive_open>`_
-   Modification of goBILDA chassis by FTC\ |reg| 9794 Wizards.exe, which adds :term:`dead wheels <Dead Wheel>`. Also see their video tutorials:
-   https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <https://docs.revrobotics.com/duo-build/channel-drivetrain-build-guide>`_
    Sample 6 wheel drivetrain built using REV kit.
 `AndyMark Tile Runner chassis <https://andymark.com/products/configurable-tilerunner-chassis-options>`_
