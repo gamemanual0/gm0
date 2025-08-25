@@ -53,7 +53,7 @@ Notable components
 Kit of Parts
 ------------
 
-- `FTC Starter Kit (2024-2025 Season) <https://www.gobilda.com/ftc-starter-kit-2024-2025-season/>`_
+- `FTC Starter Kit (2025-2026 Season) <https://www.gobilda.com/ftc-starter-kit-2025-2026-season/>`_
 - `Strafer Chassis Kit (104mm GripForce Mecanum Wheels) <https://www.gobilda.com/strafer-chassis-kit-104mm-gripforce-mecanum-wheels/>`_
 
 Advantages

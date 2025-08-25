@@ -35,6 +35,12 @@ Due to the fact that mecanum wheels are more likely to slip because of the diago
 
    See `this video <https://www.youtube.com/watch?v=xgWf_t8owI0&t=3152s>`_ and `this other video <https://youtu.be/YJaX3vQ6kHw?t=123>`_ for a more in depth explanation.
 
+   .. figure:: images/holonomic/gobilda-mecanum-direction.png
+      :alt: Diagram of mecanum directions
+      :width: 100%
+
+      Configuration for mecanum wheels, courtesy goBILDA
+
 Advantages
 ^^^^^^^^^^
 
@@ -59,7 +65,25 @@ Disadvantages
          .. raw:: html
 
             <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-            <model-viewer alt="goBILDA COTS Mecanum Drive" src="https://cdn.statically.io/gh/gamemanual0/3d-models/main/Mecanum/gobildaCots.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan style="width:100%; height:500px;overflow:auto; --poster-color: transparent"></model-viewer>
+
+            <iframe style="width:100%; height:500px; overflow:auto; color-scheme: light;" class="lazy-iframe" frameborder="0" data-src="https://sketchfab.com/models/54db9036700e4f4eb1838c396bd51889/embed?ui_theme=dark&amp;transparent=1&amp;ui_watermark=0&amp;preload=0&amp;annotations_visible=1&amp;ui_infos=0&amp;ui_inspector=0&amp;autostart=1&amp;autospin=0.5&amp;ui_settings=0&amp;animation_autoplay=1&amp;ui_color=f57f26" allowfullscreen="true"></iframe>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find the dropdown toggle button
+                const dropdownToggle = document.querySelector('details summary');
+                const iframe = document.querySelector('.lazy-iframe');
+                
+                if (dropdownToggle && iframe) {
+                    dropdownToggle.addEventListener('click', function() {
+                        // Load iframe only if it hasn't been loaded yet
+                        if (!iframe.src && iframe.dataset.src) {
+                            iframe.src = iframe.dataset.src;
+                        }
+                    });
+                }
+            });
+            </script>
 
          `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/df9bcea72fcdd7e4aee4134b>`__
 
@@ -88,12 +112,6 @@ Disadvantages
          `Click here to explore this model in OnShape online CAD <https://cad.onshape.com/documents/45549489f570f3694569a2df/w/85ff26b9fca4988ebc4df3b4/e/40c3266dab2e444011cce79c>`__
 
 
-.. figure:: images/holonomic/gobilda-mecanum-direction.png
-   :alt: Diagram of mecanum directions
-   :width: 100%
-
-   Configuration for mecanum wheels, courtesy goBILDA
-
 Mecanum Wheels Miniguide
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -106,8 +124,8 @@ Recommended
 
 These wheels are the gold standard of mecanum wheels, if you are buying new mecanum wheels there is very little reason to buy any mecanum wheels not from this section.
 
-- `goBILDA GripForce Mecanum Wheels <https://www.gobilda.com/gripforce-mecanum-wheel-set-o104mm-40a-durometer-rollers/>`_ ($142.49 with team discount): The goBILDA GripForce Mecanum Wheels are the gold standard for teams wanting a quality design in all aspects. They feature a 104mm diameter and a thickness of 38mm, with ball bearing supported 40A durometer rollers that provide excellent strafing performance. With the use of recessed 16x16mm and 32x32mm holes, these wheels have the largest amount of mounting options and can fit all shaft styles commonly used in FTC\ |reg|.
-- `goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team discount): The goBILDA v2 Mecanum Wheels are the previous gold standard for teams wanting a quality design in all aspects. They feature a 96mm diameter and a thickness of 38mm, with ball bearing supported 70A durometer rollers that provide good strafing performance. Teams purchasing new wheels are recommended to opt for the similarly-priced upgraded GripForce wheels, but these older wheels still provide rock-solid performance.
+- `goBILDA GripForce™ Mecanum Wheels <https://www.gobilda.com/gripforce-mecanum-wheel-set-o104mm-40a-durometer-rollers/>`_ ($142.49 with team discount): The goBILDA GripForce™ Mecanum Wheels are the gold standard for teams wanting a quality design in all aspects. They feature a 104mm diameter and a thickness of 38mm, with ball bearing supported 40A durometer rollers that provide excellent strafing performance. With the use of recessed 16x16mm and 32x32mm holes, these wheels have the largest amount of mounting options and can fit all shaft styles commonly used in FTC\ |reg|.
+- `goBILDA Mecanum Wheels v2  <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ ($127.49 with team discount): The goBILDA v2 Mecanum Wheels are the previous gold standard for teams wanting a quality design in all aspects. They feature a 96mm diameter and a thickness of 38mm, with ball bearing supported 70A durometer rollers that provide good strafing performance. Teams purchasing new wheels are recommended to opt for the similarly-priced upgraded GripForce™ wheels, but these older wheels still provide rock-solid performance.
 - `REV Robotics Mecanum Wheels <https://www.revrobotics.com/rev-45-1655/>`_ ($127.50 with team discount): The REV Robotics Mecanum Wheels come in at only 75mm in diameter, providing a smaller mecanum wheel option to FTC teams; however, they are not the thinnest option at 40.8mm thick. They feature ball bearing supported rollers that provide exceptional strafing capabilities and traction. The hole pattern featured on these wheels is compatible with Andymark Nubs as well as the REV Robotics Universal Hex Adapter v2 (which is included); however, in order to use other shaft options the use of an adapter or physical modification will likely be required.
 
 Viable
