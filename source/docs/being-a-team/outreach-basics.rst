@@ -32,7 +32,6 @@ How to establish outreach:
 
    - This may seem intimidating, but there are many templates online that can help you reach out to professionals.
    - Simply search 'How to ask for a mentor over email' and Google should provide many options.
-   - Another option is to ask for mentors in the Unofficial FTC Discord Server and get help and advice there virtually.
 
 2. Research science fairs/events nearby
 
