@@ -6,7 +6,7 @@ Kit Glossary
 .. glossary::
 
    Channel
-      Channel (more precisely called C-Channel) is aluminum that is in the profile of a C. (It is also sometimes called U-Channel.) Channel, along with :term:`extrusion <Extrusion>`, is the most common structural build element in FTC\ |reg|, and is found in goBILDA, REV, Actobotics, and other kits.
+      Channel (more precisely called C-Channel) is aluminum that is in the profile of a C. (It is also sometimes called U-Channel.) Channel, along with :term:`extrusion <Extrusion>`, is the most common structural build element in FTC\ |reg|, and is found in goBILDA, REV, and other kits.
 
       Channel is fixed pitch, which means that there are pre-drilled holes that limit mounting to finite locations. It can be used to easily construct drivetrains; however, be aware that :term:`gear <Gear>` and :term:`chain <Chain>` mesh may not be with channel.
 
@@ -30,13 +30,13 @@ Kit Glossary
    Ball Bearing
       Ball bearings refer to bearings with steel balls arranged in a circular fashion. This allows rotation of an element with less friction than a bushing, primarily because the surface area (or contact area) is much less than in a :term:`bushing <Bushing>`.
 
-      Bearings are definitely recommended for drivetrain and high speed usage. Bearings are used in the goBILDA, REV, and Actobotics kits, and are commonly sold by most robotics vendors.
+      Bearings are definitely recommended for drivetrain and high speed usage. Bearings are used in the goBILDA, REV, and other kits, and are commonly sold by most robotics vendors.
 
-      .. figure:: images/actobotics/actobotics-dual-ball-bearing-hub.png
-         :alt: An Actobotics dual ball bearing hub
+      .. figure:: images/gobilda/bearings.jpg
+         :alt: Bearings commonly used by the goBILDA system
          :width: 200
 
-         An Actobotics dual ball bearing hub
+         Bearings commonly used by the goBILDA system
 
    ServoBlocks
       ServoBlocks, sold by goBILDA, are a way to mount :term:`servos <Servo>` to the goBILDA system. It is by far the best way to mount servos because it decreases the load on the servo spline, which is the weakest part of the servo. This is because under load, the servo spline teeth can easily become stripped, rendering the servo unusable. While ServoBlocks are not cheap, they are one of the best investments for teams to pursue to prevent servo failure in high-load mechanisms.
@@ -61,19 +61,25 @@ Kit Glossary
          A goBILDA Sonic hub
 
    Bevel gear
-      Bevel gears are :term:`gears <Gear>` that transfer power along different axes, which are perpendicular to each other. Bevel gears are generally considered more inefficient than regular gears.
+      Bevel gears are :term:`gears <Gear>` that transfer power along different axes, which are perpendicular to each other.
+      
+      Bevel gears are generally considered more inefficient than regular gears. However, bevel gears can be very useful, especially in areas of limited space where the motor can be placed perpendicular to the element it is driving, and not in the same plane.
 
-      However, bevel gears can be very useful, especially in areas of limited space where the motor can be placed perpendicular to the element it is driving, and not in the same plane.
+      .. figure:: images/gobilda/clamping_miter_gear.jpg
+         :alt: A goBILDA clamping miter gear, a type of bevel gear
+         :width: 200
+
+         A goBILDA clamping miter gear, a type of bevel gear
 
       .. figure:: images/actobotics/3736-bevel-gear-usage.png
          :alt: 3736 Serious Business' use of bevel gears in Rover Ruckus
 
-         3736 Serious Business, Rover Ruckus
+         3736 Serious Business' use of bevel gears in Rover Ruckus
 
    Lead Screw
       A lead screw is very similar to a threaded rod. It is used for high load and high torque application such as hanging. However, due to the nature of the threaded rod, lead screws are generally quite slow compared to linear slides. The speed of a lead screw is determined by two factors. The first is how fast the motor outputs, and the second is the number of threads per inch (TPI).
 
-      .. image:: images/actobotics/lead-screw.png
+      .. image:: images/gobilda/lead-screw.jpg
          :alt: A leadscrew
          :width: 200
 
