@@ -9,7 +9,7 @@ Choosing a :term:`servo <Servo>` can seem daunting at first, given the number of
 
    It is very important to keep the reliability of a given vendor in mind when choosing servos. It is very common for manufacturers and resellers on Amazon and other similar sites to significantly exaggerate their servos' specs, or pick unrealistic best-case scenarios for measuring the specs. We have limited our recommendations only to vendors who historically have been reliable with publishing accurate servo specifications.
 
-   As a rule of thumb established manufacturers (Hitec, Savox, ServoCity, goBILDA, Andymark, etc) will usually publish accurate numbers, and servos from marketplaces (Amazon, AliExpress, hobby stores, etc) should be viewed with significant skepticism.
+   As a rule of thumb established manufacturers (Hitec, Savox, ServoCity, goBILDA, AndyMark, etc) will usually publish accurate numbers, and servos from marketplaces (Amazon, AliExpress, hobby stores, etc) should be viewed with significant skepticism.
 
 Servo Type: Regular or Continuous
 ---------------------------------
@@ -71,7 +71,7 @@ Servo Spline
 
 The output shaft of the :term:`servo <Servo>` is commonly called the **spline**. Most servos have industry standard 25 tooth spline (also known as F3); in particular, this is the spline used by REV Smart Servo and goBILDA Dual Mode servos. Hitec servos using 24 tooth spline were historically also very popular, but are much less common today.
 
-Andymark servos are an exception to this, as they use a 5mm hex shaft as their output instead of a 24 or 25 tooth servo spline.
+AndyMark servos are an exception to this, as they use a 5mm hex shaft as their output instead of a 24 or 25 tooth servo spline.
 
 .. attention:: Please check the spline type before you buy the :term:`servo <Servo>` - otherwise, your :term:`servo <Servo>` attachments will not fit.
 
@@ -82,11 +82,11 @@ Servo Range
 
 The angle over which a non-continuous :term:`servo <Servo>` can rotate while retaining position feedback is called the range. When choosing a servo, it is important to make sure you have enough range for the movement you need.
 
-By default, the FTC Control Hub and FTC Expansion Hub output 600-2400 microsecond signals. However, this range can be expanded to 500-2500 microseconds. When choosing a servo, it is important to make sure that its range will be usable for your application inside of 500-2500 microseconds.
+By default, the FTC control system outputs 600-2400 microsecond signals. However, this range can be expanded to 500-2500 microseconds. When choosing a servo, it is important to make sure that its range will be usable for your application inside of 500-2500 microseconds.
 
 .. note::
 
-   The default 600-2400 range of the FTC Expansion Hub and FTC Control Hub when selecting the "Servo" configuration can make it appear that popular servos like the goBILDA Dual Mode Servos and REV Smart Robot Servos have less range than advertised. Make sure you select the "Full Range Servo" configuration instead to get the full 500-2500 range.
+   The default 600-2400 range of the FTC control system when selecting the "Servo" configuration can make it appear that popular servos like the goBILDA Dual Mode Servos and REV Smart Robot Servos have less range than advertised. Make sure you select the "Full Range Servo" configuration instead to get the full 500-2500 range.
 
 Cost
 ----

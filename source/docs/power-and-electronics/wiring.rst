@@ -85,7 +85,7 @@ Motor Power
 
 Cabling for motor power should be between 16awg and 12awg. Again, stranded, not solid, wire.
 
-Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and :term:`Core Hex <Core Hex Motor>`) will have removable power connectors on the back, while other motors (like the :term:`Andymark NeveRests <NeveRest Motor>`) will have a cable permanently soldered on the back. It is much more convenient to have a connector on the back, or failing that, have a very short plug on the back of the motor. Once your wires are run and secured, taking them out won't be fun.
+Some motors (like the :term:`REV HD Hex <HD Hex Motor>` and :term:`Core Hex <Core Hex Motor>`) will have removable power connectors on the back, while other motors (like the :term:`AndyMark NeveRests <NeveRest Motor>`) will have a cable permanently soldered on the back. It is much more convenient to have a connector on the back, or failing that, have a very short plug on the back of the motor. Once your wires are run and secured, taking them out won't be fun.
 
 Servo Wires
 ^^^^^^^^^^^

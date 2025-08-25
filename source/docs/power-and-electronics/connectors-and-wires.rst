@@ -67,7 +67,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
          :width: 300px
 
    JST XH
-      JST XH connectors are used for the encoder connections on goBILDA (MATRIX) and Andymark NeveRest motors. Both vendors sell adapters from JST XH to the :term:`JST PH` encoder ports on the REV Control/Expansion Hubs. These connectors are also occasionally found on some third party sensors. JST XH connectors are crimped onto wires.
+      JST XH connectors are used for the encoder connections on goBILDA (MATRIX) and AndyMark NeveRest motors. Both vendors sell adapters from JST XH to the :term:`JST PH` encoder ports on the REV Control/Expansion Hubs. These connectors are also occasionally found on some third party sensors. JST XH connectors are crimped onto wires.
 
    Tamiya
       Used on some batteries, such as the Modern Robotics battery that was sold by goBILDA prior to goBILDA's own battery design being allowed by the competition manual.

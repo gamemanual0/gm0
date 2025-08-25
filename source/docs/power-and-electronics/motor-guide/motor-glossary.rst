@@ -39,7 +39,7 @@ Motor Glossary
          :width: 200
 
    RS-550 Series Motor
-      The RS-555 series motor is the standard motor in FTC. It forms the base for the :term:`Andymark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors.
+      The RS-555 series motor is the standard motor in FTC. It forms the base for the :term:`AndyMark NeveRest <NeveRest Motor>`, :term:`REV HD Hex <HD Hex Motor>`, and :term:`goBILDA Yellow Jacket <Yellow Jacket Motor>` motors.
 
       .. image:: images/glossary/rs-550-series-motor.png
          :alt: A RS-555 motor, in the form of a bare NeveRest motor
