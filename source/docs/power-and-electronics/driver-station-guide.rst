@@ -68,7 +68,7 @@ USB and :term:`OTG <Micro USB On The Go (OTG) Cable>` connections can be a possi
 Controllers
 -----------
 
-**LEGAL CONTROLLERS:** As of the 2021-2022 season, the following controllers are  `legal for competition: <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_
+**LEGAL CONTROLLERS:** As of the 2021-2022 season, the following controllers are  `legal for competition: <https://web.archive.org/web/20220131114951/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf>`_
 
 - Xbox 360 Controller for Windows
 - Logitech F310 Controller

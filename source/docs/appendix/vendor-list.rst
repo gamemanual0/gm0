@@ -7,7 +7,7 @@ Vendor List
 
   - Actuonix sells linear actuators and linear motion components. Expensive, but robust. Teams can apply for a *FIRST*\ |reg| sponsorship.
 
-- `AndyMark <https://www.andymark.com>`_
+- `AndyMark <https://andymark.com>`_
 
   - AndyMark sells the official game field and game sets, as well as individual game parts and the SoftTiles foam tiles.
   - AndyMark also sells NeveRest and NeveRest Sport motors, TileRunner, compliant, stealth, and mecanum wheels, as well as many other items.
@@ -58,7 +58,7 @@ Vendor List
   - Servocity sells a wide range of :term:`servos <Servo>`, from Hitec to Futaba, at all price points.
   - Teams can get a 25% team discount from Servocity
 
-- `Studica <https://www.studica.com/ftc-2>`_
+- `Studica <https://www.studica.com/first-tech-challenge>`_
 
   - Studica sells the Studica build system, which has hole patterns compatible with most systems.
   - Additionally Studica owns and sells the navX product, a higher-end IMU than what is provided in the Control Hub.

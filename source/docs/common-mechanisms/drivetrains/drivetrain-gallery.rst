@@ -14,7 +14,7 @@ In this section, we compile several sample drivetrains which you can use as a st
    https://www.youtube.com/watch?v=OjNvAD350M4&list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp
 `REV Robotics 6 wheel drivetrain <https://docs.revrobotics.com/duo-build/channel-drivetrain-build-guide>`_
    Sample 6 wheel drivetrain built using REV kit.
-`AndyMark Tile Runner chassis <https://www.andymark.com/products/tilerunner-options>`_
+`AndyMark Tile Runner chassis <https://andymark.com/products/configurable-tilerunner-chassis-options>`_
    A universal chassis kit sold by AndyMark. It is available in several modifications: 6 wheel, mecanum, tank tread. It is expensive, but using provided 3d models as inspiration for your own drivetrain is free.
 `Wizards.exe 6 wheel drive chassis <https://drive.google.com/file/d/1iu2UUNlqoQ6bS1vnoRPtUI0Uv3lLjNec/view?usp=drive_open>`_
    Another design by FTC 9794 Wizards.exe. Combines custom side panels with Actobotics parts (gears, chain sprockets).

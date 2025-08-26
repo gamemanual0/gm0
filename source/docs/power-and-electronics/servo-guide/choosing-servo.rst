@@ -121,7 +121,7 @@ Bang for Your Buck
   - A very good price to performance servo. It is dual mode, has a higher than average output speed (and correspondingly lower torque), and steel gearbox.
 - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`_
   - While very good price to performance, its brass gearbox makes it less recommended than goBILDA Dual Mode Servos
-- `Andymark High Speed/Torque Servo <https://www.andymark.com/products/programmable-servos>`_
+- `Andymark High Speed/Torque Servo <https://andymark.com/products/programmable-servos>`_
   - A newcomer to the market, this servo is extremely promising as a price to performance servo, with a unique 5mm hex output and imperial half inch mounting pattern. The high speed variant has more power output than the commonly used goBILDA Dual Mode servo. The high torque servo has a higher efficiency than the goBILDA Dual Mode servo. **It is unreleased at the time of writing, so these claims have not been verified.** This servo has been included due to Andymark's historical reliability.
 
 Premium Options

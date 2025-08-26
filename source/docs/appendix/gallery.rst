@@ -5,6 +5,23 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 .. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
 
+2024-2025 Into The Deep
+-------------------------
+
+24331 Caesar Circuitry
+^^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/cf533bb8c8240c95e41a2fee/w/2bb5a6848b6905cb05e5da11/e/d904bd552471b4afe760ec98>`__
+- `Portfolio <https://drive.google.com/file/d/19-r9fQ_jjRlhKa4-4TjrS-gDAT8_-YqN/view?usp=drive_link>`__
+- `Code <https://github.com/Caesar-Circuitry/Caesar-Circuitry-ITD-Atlas>`__
+
+23400 UFORCE
+^^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://a360.co/404quW5>`__
+- `Portfolio <https://drive.google.com/file/d/1HQgGVoOyZ0jzxsOwiJioX2KoaqiV3NVd/view?usp=sharing>`__
+- `Code <https://github.com/TeamUforce23400/ITD_FINAL/>`__
+
 2023-2024 Center Stage
 ------------------------
 
@@ -94,7 +111,7 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 
 - `CAD <https://cad.onshape.com/documents/c4258a3b5a1dbcdad41e21f5/w/4f7810069e9b16a173d2bf0a/e/f837c09187d1cca462aaeca2>`_
 - `Robot Explanation Video <https://www.youtube.com/watch?v=fZFT6Cdp58g>`_
-- `Robot Description Flyer <https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_
+- `Robot Description Flyer <https://web.archive.org/web/20220619062141/https://www.canva.com/design/DAEkqnr3g_8/vUqf5zKo3njwY0KRxsmhXg/view>`_
 
 18275 SubZero
 ^^^^^^^^^^^^^

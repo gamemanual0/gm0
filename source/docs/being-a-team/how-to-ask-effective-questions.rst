@@ -21,7 +21,7 @@ Here are some steps that you could take to research your problem:
 
 - **YouTube** - There are many great resources on YouTube which can help with even obscure problems.
 
-- **Reddit and Discord** - The `FTC Subreddit <https://www.reddit.com/r/ftc/>`_ and Discord Server (:doc:`../useful-resources`) can also be useful places to find previous answers or to ask your own. Try searching through the past questions with keywords relating to your own.
+- **Reddit and Discord** - The `FTC Subreddit <https://www.reddit.com/r/FTC/>`_ and Discord Server (:doc:`../useful-resources`) can also be useful places to find previous answers or to ask your own. Try searching through the past questions with keywords relating to your own.
 
 - **Past Examples** - Try find past implementations of whatever problem you are trying to solve. This step may take more time, as it requires finding the example, and then deciphering how someone else figured out the solution, but this process can be super valuable. For programming, digging through another person's repository can be very insightful. Likewise, for mechanical design, taking a look at a teams technical binder or CAD release.
 
