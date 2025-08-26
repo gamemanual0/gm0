@@ -21,11 +21,9 @@ There are two possible control systems that can be run on an FTC robot legally:
 REV Control Hub + REV Expansion Hub
 -----------------------------------
 
-.. warning:: It is of vital importance to update the firmware on REV Expansion hubs to at least version 1.8.2. It includes better protection against disconnects and improves program performance. See the `REV Expansion Hub firmware update docs`_.
+This is the standard control system for teams in FTC.
 
-This is the standard control system for teams starting out in FTC.
-
-The Control Hub connects to the Expansion Hub through either a RS-485 connection, or a USB-A (Control Hub side) to mini-USB (Expansion Hub-side) connection. In either case, proper strain relief and cable management should be used.
+The Control Hub connects to the Expansion Hub through either a RS-485 connection, or a USB-A (Control Hub side) to USB Mini-B (Expansion Hub-side) connection. In either case, proper strain relief and cable management should be used.
 
 For more information on setting up the Control Hub and configuring the robot, head to `REV Robotics' Technical Resources Control Hub Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`_.
 
@@ -36,9 +34,7 @@ For more information on setting up the Control Hub and configuring the robot, he
 RC Phone + REV Expansion Hub(s)
 -------------------------------
 
-.. warning:: It is of vital importance to update the firmware on REV Expansion hubs to at least version 1.8.2. It includes better protection against disconnects and improves program performance. See the `REV Expansion Hub firmware update docs`_.
-
-The Expansion Hub connects to the :term:`Robot Controller` phone through its mini USB port. The REV Expansion Hub is reliable, as long as proper strain relief and wiring is carried out. This includes the :term:`USB Retention Mount`, as well as 3D printing :term:`XT30` stress relief mounts.
+The Expansion Hub connects to the :term:`Robot Controller` phone through its USB Mini-B port. The REV Expansion Hub is reliable, as long as proper strain relief and wiring is carried out. This includes the :term:`USB Retention Mount`, as well as 3D printing :term:`XT30` stress relief mounts.
 
 For more information on setting up the Expansion Hub and configuring the robot, head to `REV Robotics' Technical Resources Expansion Hub Guide <https://docs.revrobotics.com/duo-control/legacy/expansion-hub-gs>`_.
 
@@ -48,5 +44,3 @@ For more information on setting up the Expansion Hub and configuring the robot, 
 .. image:: images/control-system/exh-wiring-diagram.jpg
    :alt: A diagram of the RC Phone + Expansion Hub(s) control system
    :width: 100%
-
-.. _REV Expansion Hub firmware update docs: https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware
