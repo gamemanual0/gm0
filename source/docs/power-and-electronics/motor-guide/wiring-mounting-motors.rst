@@ -6,13 +6,13 @@ Power Connections
 
 Depending on the vendor, the motors can come with one of the following connectors:
 
-- :term:`JST-VH` connector (REV motors)
-- :term:`Anderson PowerPole` (AndyMark's NeveRest)
-- 3.5mm Bullet connector (goBILDA)
+- :term:`JST VH` connector (REV motors, some AndyMark NeveRest motors)
+- :term:`3.5mm Bullet` connector (goBILDA motors)
+- :term:`Anderson PowerPole` (some AndyMark NeveRest motors)
 
-:term:`JST-VH` is probably easiest to use, as it is the same connector used by REV Expansion Hub. The :term:`JST-VH` connection has a locking mechanism for peace of mind. :term:`PowerPoles <Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. Bullet connectors are very compact, making it easy to route the cable through openings, but can disconnect if someone pulls on the wire, so you need to be careful with them.
+:term:`JST VH` is probably easiest to use, as it is the same connector used by REV Control/Expansion Hubs. The :term:`JST VH` connection has a locking mechanism for peace of mind. :term:`PowerPoles <Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. :term:`3.5mm Bullet` connectors are very compact, making it easy to route the cable through openings, but can disconnect if someone pulls on the wire, so you need to be careful with them.
 
-Since REV Hubs use :term:`JST-VH` connectors, to connect a motor with :term:`Anderson PowerPole` or bullet connectors you need adapters which you can purchase from REV Robotics and goBILDA.
+Since REV hubs use :term:`JST VH` connectors, to connect a motor with :term:`3.5mm Bullet` or :term:`Anderson PowerPole` connectors, you need adapters which you can purchase from REV Robotics, goBILDA, and AndyMark.
 
 You can extend or shorten motor power cables by soldering additional length of cable. This is legal as long as you use 18 gauge or thicker cables. Teams can also purchase extender cables to chain multiple pieces of cable together.
 
@@ -25,11 +25,9 @@ Encoders
 
 .. note:: Encoder cables are very fragile. Take care to protect them from snagging and sharp impacts! It may be prudent to inspect encoder wires once in a while.
 
-If using encoders, you need to connect them to the REV hub by a 4-wire cable. REV Hub uses 4-pin :term:`JST-PH` connector for encoder ports. REV motors also use :term:`JST-PH` encoder ports, so you can connect them to the hub by :term:`JST-PH` 4-wire cable, available from REV Robotics.
+If using encoders, you need to connect them to the REV hub by a 4-wire cable. REV Hub uses 4-pin :term:`JST PH` connector for encoder ports. REV motors also use :term:`JST PH` encoder ports, so you can connect them to the hub by :term:`JST PH` 4-wire cable, available from REV Robotics.
 
-goBILDA motors use JST-XH 4-pin encoder port (**note the difference: XH vs PH**), so to connect them, you need a JST-PH to JST-XH cable, available from AndyMark or goBILDA.
-
-AndyMark also use JST-XH encoder port; however, an additional problem is that encoders of these motors require 5v power, whereas the encoder port of REV hub only provides 3.3v. Thus, it is recommended that you connect them using level shifters, available from REV Robotics. For details please check the `REV's documentation <https://docs.revrobotics.com/duo-control/sensors/5v-sensors#connecting-5v-encoder>`_.
+goBILDA and AndyMark motors use JST XH 4-pin encoder port (**note the difference: XH vs PH**), so to connect them, you need a JST PH to JST XH cable, available from goBILDA and AndyMark.
 
 Mounting Motors
 ---------------
@@ -39,7 +37,6 @@ There are two ways to mount a motor: using a :term:`clamping mount <Clamp Mounti
 Clamping Mount
 ^^^^^^^^^^^^^^
 
-- Easiest way to mount a motor, as only one screw is required.
 - Not as secure as face mounting, as clamp friction is looser than face mounting using screws.
 - Some gearboxes (particularly spur gear) do not place the output shaft in the center of the gearbox.
 
@@ -50,8 +47,6 @@ Clamping Mount
 Face Mount
 ^^^^^^^^^^
 
-- Slightly more tedious and uses more screws.
-- Repairing a broken gearbox or swapping a motor is slower than if using clamp mounting.
 - Face mounting is much more reliable than clamp mounting, as the screws hold the motor in place very tightly.
 - Teams can use **BLUE** :term:`Loctite` on high-vibration motors to ensure the motor does not jar loose.
 

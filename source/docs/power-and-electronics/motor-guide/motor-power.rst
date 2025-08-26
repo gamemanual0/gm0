@@ -8,7 +8,7 @@ Just like any electrical device, motors draw current and consume a certain amoun
 What is Power?
 --------------
 
-Fundamentally, power is defined as the amount of energy transferred in a given time period. Practically, this means power is how much "energy" you can get out of the motor. **The output power of a motor varies depending on how much load is on it, but does not change as the gear ratio of the motor changes**. What this means is that a free-spinning 1:1 motor will output the same amount of power as a free spinning 100:1 motor, but the actual speed and torque will be different. Output power is proportional to speed times torque, so as speed and torque are changed with a gearbox, the output power must remain the same.
+Fundamentally, power is defined as the amount of energy transferred in a given time period. Practically, this means power is how much "energy" you can get out of the motor. **The output power of a motor varies depending on how much load is on it, but does not change as the gear ratio of the motor changes**. What this means is that a free-spinning 1:1 motor will output the same amount of power as a free spinning 100:1 motor (ignoring friction differences), but the actual speed and torque will be different. Output power is proportional to speed times torque, so as speed and torque are changed with a gearbox, the output power must remain the same.
 
 Another piece of information, although not always as useful, is the *input* power of the motor. The input power of the motor is how many watts of power the motor consumes, which is equal to the voltage sent to the motor times the current consumed by the motor. **Motors are not 100% efficient, so to get a certain output power you often need double or even triple the input power**. For example, a standard FTC\ |reg| motor can consume up to 65 watts just to produce 29 watts of output power.
 
@@ -71,8 +71,8 @@ In addition, you can see that efficiency rises as speed goes up. This means, if 
 Note on Current Consumption
 ---------------------------
 
-You may see while looking at motor curves that the stall current of FTC motors can be as high as 11 amps per motor. FTC batteries can only provide 20 A of current output before blowing the fuse. However, even if the 20 A limit isn't reached, drawing too much current can cause other motors to feel sluggish or unresponsive. Care should be taken that more then two motors are never stalled at the same time.
+You may see while looking at motor curves that the stall current of FTC motors can be as high as 11 amps per motor. FTC batteries can only provide 20 amps of current output before blowing the fuse is likely. However, even if the 20 amp limit isn't reached, drawing too much current can cause other motors to feel sluggish or unresponsive. Care should be taken to ensure that more than two motors are never stalled at the same time.
 
-.. note:: You may ignore this exception when dealing with mecanum drivetrains, as they will generally slip before the motors actually reach their stall current. However, placing very low gear ratios or more than 4 motors on traction drivetrains can exceed the current limit of an FTC Battery.
+.. note:: You may be able to ignore this when dealing with mecanum drivetrains, as they will generally slip before the motors actually reach their stall current. However, placing very low gear ratios or more than 4 motors on traction drivetrains can exceed the current limit of an FTC battery.
 
 Motors can pull "transient current" where they pull a large amount of current for extremely brief amounts of time. This often happens when the motor starts moving or when a momentary load is placed on it. While transients generally cannot cause a fuse to pop, they can cause other issues, such as sluggish control if pulled by a motor, or low voltage if the transient is pulled by a servo (goBILDA Super Speed servos have been observed to do this occasionally).
