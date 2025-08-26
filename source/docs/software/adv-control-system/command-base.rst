@@ -33,21 +33,19 @@ Subsystems represent hardware components. For example, a Drivetrain, Arm, or Int
 
 .. code-block:: java
 
-public class Drivetrain extends SubsystemBase {
-private final DcMotor leftMotor, rightMotor;
+    public class Drivetrain extends SubsystemBase {
+        private final DcMotor leftMotor, rightMotor;
 
-   public Drivetrain(HardwareMap hardwareMap) {
-       leftMotor = hardwareMap.get(DcMotor.class, "leftMotor");
-       rightMotor = hardwareMap.get(DcMotor.class, "rightMotor");
-   }
+        public Drivetrain(HardwareMap hardwareMap) {
+            leftMotor = hardwareMap.get(DcMotor.class, "leftMotor");
+            rightMotor = hardwareMap.get(DcMotor.class, "rightMotor");
+        }
 
-   public void tankDrive(double leftPower, double rightPower) {
-       leftMotor.setPower(leftPower);
-       rightMotor.setPower(rightPower);
-   }
-
-
-}
+        public void tankDrive(double leftPower, double rightPower) {
+            leftMotor.setPower(leftPower);
+            rightMotor.setPower(rightPower);
+        }
+    }
 
 Commands
 --------
@@ -56,37 +54,35 @@ Commands declare behavior and use one or more subsystems. They contain logic for
 
 .. code-block:: java
 
-public class DriveForwardCommand extends CommandBase {
-private final Drivetrain drivetrain;
-private final double power;
-private final long duration;
-private ElapsedTime timer;
+    public class DriveForwardCommand extends CommandBase {
+        private final Drivetrain drivetrain;
+        private final double power;
+        private final long duration;
+        private ElapsedTime timer;
 
-   public DriveForwardCommand(Drivetrain drivetrain, double power, long duration) {
-       this.drivetrain = drivetrain;
-       this.power = power;
-       this.duration = duration;
-       addRequirements(drivetrain);
-   }
+        public DriveForwardCommand(Drivetrain drivetrain, double power, long duration) {
+            this.drivetrain = drivetrain;
+            this.power = power;
+            this.duration = duration;
+            addRequirements(drivetrain);
+        }
 
-   @Override
-   public void initialize() {
-       timer = new ElapsedTime();
-       drivetrain.tankDrive(power, power);
-   }
+        @Override
+        public void initialize() {
+            timer = new ElapsedTime();
+            drivetrain.tankDrive(power, power);
+        }
 
-   @Override
-   public boolean isFinished() {
-       return timer.milliseconds() >= duration;
-   }
+        @Override
+        public boolean isFinished() {
+            return timer.milliseconds() >= duration;
+        }
 
-   @Override
-   public void end(boolean interrupted) {
-       drivetrain.tankDrive(0, 0);
-   }
-
-
-}
+        @Override
+        public void end(boolean interrupted) {
+            drivetrain.tankDrive(0, 0);
+        }
+    }
 
 .. warning:: Avoid putting long delays or blocking calls (like Thread.sleep()) inside commands. Use timers and state transitions instead.
 
@@ -97,36 +93,35 @@ This is the engine that runs commands. In OpMode loop methods (typically runOpMo
 
 .. code-block:: java
 
-CommandScheduler.getInstance().run();
+    CommandScheduler.getInstance().run();
 
 This updates active commands and handles transitions.
 
 Usage in OpModes
+^^^^^^^^^^^^^^^^
 
 Here's a simplified example of how to use command-based logic in a LinearOpMode.
 
 .. code-block:: java
 
-@TeleOp
-public class MyTeleOp extends LinearOpMode {
-private Drivetrain drivetrain;
+    @TeleOp
+    public class MyTeleOp extends LinearOpMode {
+        private Drivetrain drivetrain;
 
-   @Override
-   public void runOpMode() {
-       drivetrain = new Drivetrain(hardwareMap);
-       CommandScheduler.getInstance().registerSubsystem(drivetrain);
+        @Override
+        public void runOpMode() {
+            drivetrain = new Drivetrain(hardwareMap);
+            CommandScheduler.getInstance().registerSubsystem(drivetrain);
 
-       waitForStart();
+            waitForStart();
 
-       CommandScheduler.getInstance().schedule(new DriveForwardCommand(drivetrain, 0.5, 2000));
+            CommandScheduler.getInstance().schedule(new DriveForwardCommand(drivetrain, 0.5, 2000));
 
-       while (opModeIsActive()) {
-           CommandScheduler.getInstance().run();
-       }
-   }
-
-
-}
+            while (opModeIsActive()) {
+                CommandScheduler.getInstance().run();
+            }
+        }
+    }
 
 Advanced Features
 ^^^^^^^^^^^^^^^^^
