@@ -23,7 +23,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
       A power connector used on the goBILDA Yellow Jacket motors. Bullet connectors are soldered onto wires.
 
       .. warning::
-         Due to the relatively strong holding force and the small size, it is common for teams to unplug these connectors be pulling on the wires instead of pulling on the connectors. This will cause fatigue and eventually failure. If you find yourself often operating these connectors, it is recommended to replace them with a connector that can be easily unplugged without damaging the connector, such as the :term:`JST VH` or :term:`Anderson PowerPole` connectors.
+         Due to the relatively strong holding force and the small size, it is common for teams to unplug these connectors by pulling on the wires instead of pulling on the connectors. This will cause fatigue and eventually failure. If you find yourself often operating these connectors, it is recommended to replace them with a connector that can be easily unplugged without damaging the connector, such as the :term:`JST VH` or :term:`Anderson PowerPole` connectors.
 
       .. image:: images/wiring/bullet-connector.jpg
          :alt: A 3.5mm Bullet connector
