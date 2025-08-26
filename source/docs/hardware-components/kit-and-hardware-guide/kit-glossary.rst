@@ -62,7 +62,7 @@ Kit Glossary
 
    Bevel gear
       Bevel gears are :term:`gears <Gear>` that transfer power along different axes, which are perpendicular to each other.
-      
+
       Bevel gears are generally considered more inefficient than regular gears. However, bevel gears can be very useful, especially in areas of limited space where the motor can be placed perpendicular to the element it is driving, and not in the same plane.
 
       .. figure:: images/gobilda/clamping_miter_gear.jpg
