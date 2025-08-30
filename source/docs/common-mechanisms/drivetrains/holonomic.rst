@@ -116,7 +116,7 @@ These mecanums have acceptable performance but there is very little reason to bu
 
 - `Nexus Ball Bearing Mecanum Wheels <https://www.robotshop.com/en/100mm-mecanum-wheel-set.html>`_ ($134.00): These wheels are 100 mm in diameter and 59 mm wide. They strafe excellently because of the use of ball bearings. However, they are more expensive, take up more space, have less traction, and are harder to mount to than the recommended wheels.
 - `goBILDA Mecanum Wheels v1 <https://www.gobilda.com/96mm-mecanum-wheel-set-70a-durometer-bearing-supported-rollers/>`_ (discontinued): These wheels are very similar to the Nexus Ball Bearing Mecanum Wheels, but with a different color scheme and better mounting options.
-- `Andymark Heavy Duty Mecanum Wheels <https://www.andymark.com/products/4-in-hd-mecanum-wheel-set-options>`_ ($225): These are easily the most expensive mecanums on the list. These wheels are 4" in diameter and 1.65" wide. These are bushing based mecanums, so while they strafe decently they still perform worse than bearing based ones. They have a good amount of traction, more than the Nexus bearing or bushing wheels.
+- `Andymark Heavy Duty Mecanum Wheels <https://andymark.com/products/4-in-hd-mecanum-wheels>`_ ($225): These are easily the most expensive mecanums on the list. These wheels are 4" in diameter and 1.65" wide. These are bushing based mecanums, so while they strafe decently they still perform worse than bearing based ones. They have a good amount of traction, more than the Nexus bearing or bushing wheels.
 - `Nexus Bushing Mecanum Wheels <https://www.robotshop.com/en/100mm-aluminum-mecanum-wheel-set.html>`_ ($80.00): This is the Nexus Ball Bearing Mecanum Wheel with bushings instead of ball bearings. There is not much to say about them except that they strafe decently but worse than the ball bearing based equivalent.
 
 Not Recommended
@@ -125,7 +125,7 @@ Not Recommended
 There is almost no reason to use these mecanum wheels---they perform very poorly and are not much cheaper than those in the `Recommended`_ section. We cannot recommend the use of these on an FTC robot, if at all possible replace them with mecanums from the `Recommended`_ section.
 
 - `TETRIX Mecanum Wheels <https://www.pitsco.com/TETRIX-MAX-Mecanum-Wheels>`_ ($149.00): These mecanums are designed with a bushing based, hard plastic roller which in turn creates poor strafing performance. The integrated hub is a set screw based design with a round bore, causing unreliability as well as taking up extra space.
-- `Andymark Standard Duty Mecanum Wheels <https://www.andymark.com/products/4-in-standard-mecanum-wheel-set>`_ ($77.00): These wheels barely strafe and are super fragile.
+- `Andymark Standard Duty Mecanum Wheels <https://andymark.com/products/4-in-sd-mecanum-wheel>`_ ($77.00): These wheels barely strafe and are super fragile.
 
 .. figure:: images/holonomic/8103-mecanum.png
    :alt: 8103 Null Robotics's mecanum drivetrain render

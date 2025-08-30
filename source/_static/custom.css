@@ -29,7 +29,8 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-    img.graphviz {
+    /* Make diagrams look (mostly) correct in dark mode */
+    img.graphviz, object.graphviz {
         filter: invert(87%);
     }
 
@@ -61,4 +62,9 @@ div.admonition-terms dt {
 
 div.admonition-terms dd {
     margin: 0em;
+}
+
+/* Make loading bar for model viewer gm0 orange, which makes it always clearly visible in both light and dark mode */
+model-viewer {
+    --progress-bar-color: rgb(245,127,37);
 }
