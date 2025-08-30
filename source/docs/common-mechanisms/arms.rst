@@ -51,6 +51,11 @@ A multi-axis arm comprises of multiple rotational joints. A multi-axis arm provi
 
 .. warning:: This is highly discouraged for inexperienced FTC teams.
 
+.. figure:: images/multi-axis-arm/11146-Barker-Redbacks.jpg
+   :alt: 11146's multi-axis arm
+
+   11146 Barker Redbacks, Into The Deep
+
 .. figure:: images/multi-axis-arm/20700-snap.png
    :alt: 20700's multi-axis arm
 
