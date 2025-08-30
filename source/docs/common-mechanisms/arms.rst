@@ -3,73 +3,76 @@
 Arms
 ====
 
-Arms are another way to achieve extension past the 18" x 18" dimension of the robot. Unlike linear extensions, arms require lots of torque - a standard 40:1 or even 60:1 gearbox will not be suitable in most applications. For example, many teams will run a 256:1 gearbox for their rotation motor.
+Arms encompass a large variety of mechanisms. In FTC, they are mostly used for extension and to add flexibility to end effectors. Arms are especially powerful when paired with other mechanisms like linear extension and mini-turrets. Long arms are a simple way to provide extension beyond the starting cube. Meanwhile small arms with end effectors are often used to provide additional flexibility when intaking, outtaking, or transferring.
 
-.. attention:: Such motors must be very well supported, or else the motor may torque itself free from its mount.
+.. admonition:: Term
 
-Rarely should an arm be directly mounted to the driving motor. Instead, torque should be transferred via gear, chain, or belt. Large arms can also be hard to control (with the addition of momentum adding load to the gearbox, it is hard to stop a three-foot arm that weighs five pounds quickly without breaking a gearbox). In many cases, this issue can be mitigated with software (see the :doc:`/docs/software/concepts/control-loops` section).
+   .. glossary::
 
-Depending on the application and implementation, arms can be either faster or slower than extension options.
+      Arm
+         A system consisting of rigid bodies (links) connected by joints (revolute, ball, spherical, prismatic, etc) forming an open-chain (serial) mechanism. They are often categorized by how many joints they have.
 
-The different types of arms in FTC\ |reg| include single arm and multi-axis arms.
+Arms for Extension
+------------------
 
-Advantages
-----------
+Arms can provide extension beyond the 18" by 18" by 18" starting cube. Extension arms are long by nature so a very large motor reduction is needed. The example in the Single Arm section uses a 254.5:1 reduction. These motors must be supported well to prevent the motor freeing itself from its mount. It is recommended to transfer torque to the arm through a gear, chain, or belt rather than directly mounting to a motor shaft. Due to the large momentum these arms can carry, they may be able to break a motor's gearbox if suddenly stopped. Software control can help to reduce the load on motor gearboxes (see the :doc:`/docs/software/concepts/control-loops` section).
 
-- Single bar arms can be relatively simple to build.
-- Arms can be useful in low-load applications;
-  however, most mechanisms in FTC are not very light.
+Depending on the application and implementation, arms can be either faster or slower than other extension options.
 
-Disadvantages
--------------
+Single Arm
+^^^^^^^^^^
 
-- Arms require a large amount of torque, and in order to do so, teams must purchase high-torque gearboxes, such as `UltraPlanetary gearbox from REV <https://www.revrobotics.com/rev-41-1600/>`_ or the high gear ratio `goBILDA planetary gearbox motors <https://www.gobilda.com/yellow-jacket-planetary-gear-motors>`_.
+The most simple type of arm, a single arm refers to an arm on one axis of rotation. These arms are relatively easy and quick to build, however they have little competitive viability as a main extension system since it only provides 15-16" of extension (due to needing to fit in the sizing cube) meanwhile having over 24" of extension is desired for most games.
 
-- While single arms may be more simple, they cannot provide enough extension for most games.
+.. figure:: images/single-arm/gb-single-arm.jpg
+   :alt: GoBilda starter bot, Into The Deep, single arm.
 
-Single Arms
------------
+   Gobilda starter bot, Into The Deep, single arm used for extension.
 
-The most simple type of arm in FTC, a single arm refers to an arm on one axis of rotation. While it is possible to successfully build this kind of arm, generally a single axis arm will only afford around 15-16" of extension, which is inadequate for nearly every game.
+Pivot Extension
+^^^^^^^^^^^^^^^
 
-The reason for this is that the longest a channel can be is 18" (technically you could have a longer channel by placing it diagonally, but this complicates matters). Thus, with a maximum of 18" of extension, a couple inches must be subtracted, since the point of rotation is inside the 18" sizing cube; therefore the extension is around 15-16".
+A pivot extension mechanism is an arm with a linear extension (typically linear slides) attached. This allows the linear extension to provide the desired extension length for both horizontal and vertical extension and removes the need for a transfer stage.
 
-Therefore, a single arm with further linear extension is optimal. For example, some teams built a single arm with an added linear extension mechanism to reach the desired extension length, which is generally >24".
+.. figure:: images/pivot-extension/19098-pivot-extension.png
+   :alt: 19098's pivot slides
 
-The advantages of a single arm are that it is relatively easy to build, and can be a quick way to gain some form of extension outside of the robot cube.
+   19098 Eastern Foxes, Into The Deep, Winning Alliance First Pick (Franklin), pivoting linear slides
 
-However, there are many disadvantages such as having a high gear ratio, requiring much more support than a linear slide, and being hard to control without the proper software.
-
-.. figure:: images/single-arm/8103-single-arm.png
-   :alt: 8103's single arm attached to a belt driven linear extension
-
-   8103 Null Robotics, Rover Ruckus, single arm + custom belt driven linear extension
-
-.. figure:: images/single-arm/8417-single-arm.png
+.. figure:: images/pivot-extension/8417-pivot-extension.png
    :alt: 8417's single arm attached to a belt driven linear extension
 
    8417 'Lectric Legends, Rover Ruckus, Finalist Alliance First Pick (Ochoa), single arm + custom belt driven linear extension
 
-
 Multi-Axis Arms
----------------
+^^^^^^^^^^^^^^^
 
-A multi-axis arm is an arm which has multiple points of rotation. Multi-axis arms introduce many variables that exponentially complicate matters and can really only be modeled through complex kinematic equations.
+A multi-axis arm comprises of multiple rotational joints. A multi-axis arm provides the extension single arms lack in addition to providing much more flexibility in positioning the end effector. However multi-axis arms are difficult to design, manufacture, and control while providing little benefit over other extension methods in FTC.
 
-.. warning:: This is highly discouraged for inexperienced FTC teams due to the difficulty of building as well as the need for machine tools.
+.. warning:: This is highly discouraged for inexperienced FTC teams.
 
 .. figure:: images/multi-axis-arm/20700-snap.png
    :alt: 20700's multi-axis arm
 
    20700 Snap, Freight Frenzy
 
-.. figure:: images/multi-axis-arm/8148-multi-axis-arm.png
-   :alt: 8148's multi-axis arm
+Arms for End Effectors
+----------------------
 
-   8148 Aleph Bots, Relic Recovery
+Arms are the most common way to add flexibility and control to end effectors. These arms typically have one or more rotational joints and/or linear extension. Due to the relatively small power requirement of these arms, they are often driven by servos instead of motors.
 
-.. figure:: images/multi-axis-arm/15692-multi-axis-arm.png
-   :alt: 15692's multi-axis arm
+.. attention:: End effectors are likely to see collisions and with arms acting as a lever, it is imperative to take extra caution to mount and support these servos properly (see :doc:`/docs/power-and-electronics/servo-guide/usage-tips`).
 
-   15692 Rust In Pieces, Rover Ruckus
+Single and multi-axis arms add control to the vertical and horizontal distance of the end effector. In Into The Deep, this type of arm was common in intakes to allow the intake on a horizontal extension to go over the submersible barrier and then "reach down" for samples. They can be used to line up intakes and outtakes to facilitate transfers or just generally add flexibility to end effectors.
 
+Linear extension is usually seen on outtakes to increase the range of the robot's deposit.
+
+.. figure:: images/multi-axis-arm/15972-TehnoZ.jpg
+   :alt: 15972's robot with multi-axis intake and outtake arms
+
+   15972 TehnoZ, Into The Deep, Finalist Alliance Captain (Edison), arms used on both intake and outtake, linear extension is used on outtake.
+
+.. figure:: images/multi-axis-arm/12993-RoboKings-Aurum-Outtake.png
+   :alt: 12993's high dof outtake with horizontal extension
+
+   12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high dof outtake arm with horizontal extension.
