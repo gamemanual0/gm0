@@ -59,7 +59,7 @@ There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more in
 
       Don't be tempted to overlook the control award even though it doesn't advance at most competitions. The control award counts for the inspire award, and strong performance in control counts towards inspire ranking.
 
-      This award requires a separate submission sheet which is a condensed summary of a team's software. Check your region's rules, some require `the traditional (in person) <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-award-submission-form-traditional.pdf>`_ or `remote <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-award-submission-form-remote.pdf>`_ form, but some accept custom forms. Check with your affiliate partner or judges if you are unsure. **Do not directly put code into your portfolio, control award sheet or notebook, the judges will not care**. Instead, focus on explaining key algorithms that you use, and explain the software in an easy to understand way. Remember, your control award judges may not be software engineers or programmers, so make sure you can explain everything to someone without a software background.
+      This award requires a separate submission sheet which is a condensed summary of a team's software. Check your region's rules, some require `the traditional (in person) <https://web.archive.org/web/20240417142400/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-award-submission-form-traditional.pdf>`_ or `remote <https://web.archive.org/web/20240417142511/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-award-submission-form-remote.pdf>`_ form, but some accept custom forms. Check with your affiliate partner or judges if you are unsure. **Do not directly put code into your portfolio, control award sheet or notebook, the judges will not care**. Instead, focus on explaining key algorithms that you use, and explain the software in an easy to understand way. Remember, your control award judges may not be software engineers or programmers, so make sure you can explain everything to someone without a software background.
 
       In addition, control award software is more then just your autonomous mode programs. Driver assistance, feedback, and automation all are vital to the control award.
 
@@ -72,7 +72,7 @@ There are 7 awards for FTC\ |reg| teams (excluding optional awards). For more in
       - `11115 Gluten Free Skystone <https://docs.google.com/document/d/18laHXP-aKpkPc_QzlaC5b9aeHVzLxlHNPuzaLOYh84Y/edit>`_
       - `1002 Circuit Runners Green Skystone <https://docs.google.com/document/d/1jwoP1ZpFJdSB36ybrIu1igLV8cwLweD767LLgi7pX6Y/edit>`_
       - `9866 VIRUS Skystone <https://drive.google.com/file/d/1hWp07uPvID0qbwyuOulewDEwrAl6lpMA/view>`_
-      - `5143 Xcentrics Skystone <https://docs.google.com/document/d/1HuuHvmBrM-qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_
+      - `5143 Xcentrics Skystone <https://web.archive.org/web/20220619063643/https://docs.google.com/document/d/1HuuHvmBrM-qRmuz3W7KvYm7uiQcRyLXmuo-KRQFgw4E/edit>`_
       - `11528 Bots of Prey Skystone <https://drive.google.com/file/d/1PEFclEL5nApEOcNh-k4O4m94mGgoa35u/view?usp=sharing>`_
       - `9794 Wizards.exe Skystone <https://drive.google.com/file/d/1YS9scvXvqHFiqJL1beXzEUJmslHtX0IS/view?usp=sharing>`_
 
