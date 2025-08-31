@@ -3,26 +3,27 @@
 Arms
 ====
 
-Arms encompass a large variety of mechanisms. In FTC, they are mostly used for extension and to add flexibility to end effectors. Arms are especially powerful when paired with other mechanisms like linear extension and mini-turrets. Long arms are a simple way to provide extension beyond the starting cube. Meanwhile small arms with end effectors are often used to provide additional flexibility when intaking, outtaking, or transferring.
+Arms encompass a large variety of mechanisms. In FTC, they are used to add extension and flexibility to end effectors. Arms are especially powerful when paired with other mechanisms such as linear extension and mini-turrets.
 
 .. admonition:: Term
 
    .. glossary::
 
       Arm
-         A system consisting of rigid bodies (links) connected by joints (revolute, ball, spherical, prismatic, etc) forming an open-chain (serial) mechanism. They are often categorized by how many joints they have.
+         A system consisting of rigid bodies (links) connected by joints (revolute, ball, spherical, prismatic, etc) forming an open-chain (serial) mechanism. They are often categorized by how many joints (or equivalently DoFs or axes) they have.
+
 
 Arms for Extension
 ------------------
 
-Arms can provide extension beyond the 18" by 18" by 18" starting cube. Extension arms are long by nature so a very large motor reduction is needed. The example in the Single Arm section uses a 254.5:1 reduction. These motors must be supported well to prevent the motor freeing itself from its mount. It is recommended to transfer torque to the arm through a gear, chain, or belt rather than directly mounting to a motor shaft. Due to the large momentum these arms can carry, they may be able to break a motor's gearbox if suddenly stopped. Software control can help to reduce the load on motor gearboxes (see the :doc:`/docs/software/concepts/control-loops` section).
+Arms can be a useful tool for extension. Long arms need large reduction ratios to drive. The example in the Single Arm section uses a 254.5:1 reduction. It is recommended to transfer torque to the arm through a gear, chain, or belt rather than directly mounting to a motor shaft due to axial forces as well as the ability to get a larger reduction. Due to the large momentum these arms can carry, they may be able to break a motor's gearbox if suddenly stopped and tip your robot over, so be aware of backlash and your Center of Gravity (COG) when designing your robot. Software control can help to reduce the load on motor gearboxes (see the :doc:`/docs/software/concepts/control-loops` section).
 
 Depending on the application and implementation, arms can be either faster or slower than other extension options.
 
 Single Arm
 ^^^^^^^^^^
 
-The most simple type of arm, a single arm refers to an arm on one axis of rotation. These arms are relatively easy and quick to build, however they have little competitive viability as a main extension system since it only provides 15-16" of extension (due to needing to fit in the sizing cube) meanwhile having over 24" of extension is desired for most games.
+The most simple type of arm, a single arm refers to an arm on one axis of rotation. These arms are relatively easy and quick to build, however they have little competitive viability as a main extension system since it only provides limited levels of extension due to the need to fit inside the starting area.  For many games, an extension of over 24” is desired.
 
 .. figure:: images/single-arm/gb-single-arm.jpg
    :alt: GoBilda starter bot, Into The Deep, single arm.
@@ -33,6 +34,11 @@ Pivot Extension
 ^^^^^^^^^^^^^^^
 
 A pivot extension mechanism is an arm with a linear extension (typically linear slides) attached. This allows the linear extension to provide the desired extension length for both horizontal and vertical extension and removes the need for a transfer stage.
+
+.. figure:: images/pivot-extension/RI3D-pivot-extension.png
+   :alt: RI3D pivot slides
+
+   GoBilda RI3D, Into The Deep, pivoting linear slides
 
 .. figure:: images/pivot-extension/19098-pivot-extension.png
    :alt: 19098's pivot slides
@@ -47,7 +53,7 @@ A pivot extension mechanism is an arm with a linear extension (typically linear 
 Multi-Axis Arms
 ^^^^^^^^^^^^^^^
 
-A multi-axis arm comprises of multiple rotational joints. A multi-axis arm provides the extension single arms lack in addition to providing much more flexibility in positioning the end effector. However multi-axis arms are difficult to design, manufacture, and control while providing little benefit over other extension methods in FTC.
+A multi-axis arm is comprised of multiple rotational joints. A multi-axis arm provides the extension single arms lack in addition to providing much more flexibility in positioning the end effector. However, multi-axis arms are more difficult to design, manufacture, and control, having issues with accuracy, backlash, and packaging, while providing little benefit over other extension methods in FTC.
 
 .. warning:: This is highly discouraged for inexperienced FTC teams.
 
@@ -77,7 +83,7 @@ Linear extension is usually seen on outtakes to increase the range of the robot'
 
    15972 TehnoZ, Into The Deep, Finalist Alliance Captain (Edison), arms used on both intake and outtake, linear extension is used on outtake.
 
-.. figure:: images/multi-axis-arm/12993-RoboKings-Aurum-Outtake.png
+.. figure:: images/multi-axis-arm/12993-RoboKings-Aurum.png
    :alt: 12993's high dof outtake with horizontal extension
 
    12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high dof outtake arm with horizontal extension.
