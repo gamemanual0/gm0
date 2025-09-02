@@ -36,6 +36,7 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx_design",
     "sphinx_favicon",
+    "sphinx_new_tab_link",
     "sphinxext.opengraph",
     "sphinxext.rediraffe",
     "sphinxcontrib.rsvgconverter",
@@ -345,3 +346,6 @@ locale_dirs = ["locale/"]
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
+
+# Show icon for external links (https://github.com/ftnext/sphinx-new-tab-link/tree/main?tab=readme-ov-file#new_tab_link_show_external_link_icon)
+new_tab_link_show_external_link_icon = True
