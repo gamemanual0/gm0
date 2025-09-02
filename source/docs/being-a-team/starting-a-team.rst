@@ -130,10 +130,10 @@ The above budget adds up to $4,000 in startup costs, and roughly $2,500 per year
    - Several general **cost-saving measures** can be employed throughout the season. These include:
       - Keeping stock of your inventory and not over-ordering parts.
       - Treating your parts well.
-      - Using #black-market on the FTC Discord to obtain used parts.
+      - Using #marketplace on the FTC Discord to obtain used parts.
       - Applying for seasonal FTC grants and the goBILDA FTC Discount.
       - Investing in a 3D printer to fabricate your own parts.
-      - If using custom metal parts, utilizing SendCutSend or Fabworks, which are generally more financially viable than in-house CNC machining.
+      - If using custom metal parts, utilizing `Fabworks <https://www.fabworks.com/>`_ or `SendCutSend <https://sendcutsend.com/>`_, which are generally more financially viable than in-house CNC machining.
    - As a last resort, **team fees** can be collected from members as a requirement to participate. These can bar less fortunate individuals from participating, so they are not recommended. **Minimum fundraising requirements** for your members can boost your budget similarly and without hardship for these members.
 
 Now what?

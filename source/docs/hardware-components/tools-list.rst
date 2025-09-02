@@ -9,8 +9,6 @@ Necessary
 - **Safety glasses. Wear them when you're using power tools. Seriously.**
 - Philips screwdrivers, assorted sizes
 - Hex drivers and hex L-keys
-   - 7/64" hex (Actobotics and TETRIX)
-   - 3/32", ball head for set screws is discouraged (TETRIX)
    - 2.5/3mm hex (goBILDA)
 - Nut drivers and wrenches
    - 5.5 mm hex nut driver/wrench (REV)
@@ -46,6 +44,6 @@ Helpful
 - Router or table saw
 - Jigsaw
 - Metal brake
-- 3d printer
+- 3D printer
 
-A 3d printer, CNC machine, or laser cutter greatly increases your ability to create custom robot designs. For most teams, buying a CNC or laser cutter is way beyond their budget, but you might be able to get access to one through school, local college, or nearby makerspace.
+A 3D printer, CNC machine, or laser cutter greatly increases your ability to create custom robot designs. For most teams, buying a CNC or laser cutter is way beyond their budget, but you might be able to get access to one through school, local college, or nearby makerspace.

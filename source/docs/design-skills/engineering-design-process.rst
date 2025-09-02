@@ -38,7 +38,7 @@ In general, the design process contains these steps; however, every team will mo
 
 As an example, let's look at an imaginary team building a drivetrain for Rover Ruckus (RR2), which was 2018-2019's game. In RR2, there was a crater, which was about 3" tall, and could be traversed. In that year's game, there were two main options: traverse said crater, or not traverse it and instead reach over with an arm.
 
-The team must first specify requirements for the drivetrain. One of the most important aspects of a drivetrain is maneuverability. Another requirement could be speed, traction, reliability, etc. From the team's specified requirements, they would now look at drivetrains that fit their requirements. If the team wanted to traverse the crater, then a 4WD or 6WD would be an optimal design. If they did not need to traverse the crater, many options are still on the table such as the holonomic drivetrains.
+The team must first specify requirements for the drivetrain. One of the most important aspects of a drivetrain is maneuverability. Another requirement could be speed, traction, reliability, etc. From the team's specified requirements, they would now look at drivetrains that fit their requirements. If the team wanted to traverse the crater, then a 4WD or 6WD would be an optimal design. If they did not need to traverse the crater, many options are still on the table such as the holonomic drivetrains. // FIXME: you could totally traverse the crater with 8" mecanums.  tank just doesn't make sense in this example, and really never makes sense nowadays.
 
 The next step would be to brainstorm actual designs. It would be prudent to have more than one student to design one drivetrain prototype, so that the team could test more than one drivetrain.
 

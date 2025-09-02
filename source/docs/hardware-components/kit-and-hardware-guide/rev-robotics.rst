@@ -5,6 +5,8 @@ REV Robotics
 
 The REV kit is an infinite-pitch, :term:`extrusion <Extrusion>` based building system which uses the metric system and M3 hardware.
 
+**The REV kit is good for teams willing to invest the time into an extrusion building system.** It is a very flexible kit as it is extrusion based, yet it has the ability to integrate :term:`channel <Channel>` along with :term:`extrusion <Extrusion>`. REV offers the option to upgrade parts for those wanting a further investment into the REV building system.
+
 Special Considerations
 ----------------------
 
@@ -24,11 +26,6 @@ Notable components
 - REV uses 5 mm hex steel :term:`shafts <Shaft>` and a :term:`ball-bearing <Ball Bearing>` motion support system. The shaft may be cut to length, which can be very useful for certain use cases. Many vendors have added compatibility to 5 mm hex :term:`shaft <Shaft>`.
 - REV offers 3 types of :term:`HD HEX motors <HD Hex Motor>`: spur gear, planetary, and UltraPlanetary motors. The UltraPlanetary has customizable planetary ring gear ratios for a very affordable price.
 - REV also has pattern adapters for other systems built into many parts such as the aluminum brackets.
-
-Verdict
--------
-
-**The REV kit is good for teams willing to invest the time into an extrusion building system.** It is the most flexible kit as it is extrusion based, yet it has the ability to integrate :term:`channel <Channel>` along with :term:`extrusion <Extrusion>`. REV offers the option to upgrade parts for those wanting a further investment into the REV building system.
 
 .. note:: One advantage to the REV kit is the compatibility of 15x15mm MiSUMI :term:`extrusion <Extrusion>`.
 
@@ -92,6 +89,9 @@ Disadvantages
 - M3 bolts, especially those sold directly by REV, are prone to bending under higher load (such as when used as an :term:`axle <Shaft>` for a pulley)
 - 5 mm hex :term:`shaft <Shaft>` is also prone to bending, especially if the :term:`shaft <Shaft>` is long.
 
+Example Robots
+--------------
+
 .. figure:: images/rev-robotics/7161-rr1.png
    :alt: 7161 ViperBots Hydra's Relic Recovery robot
 
@@ -110,4 +110,4 @@ Disadvantages
 .. figure:: images/rev-robotics/11115-rr1.png
    :alt: 11115 Gluten Free's Relic Recovery robot
 
-   11115 Gluten Free used both REV and Actobotics for the 2017-2018 season. Finalist Alliance Captain (Detroit), Relic Recovery
+   11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery. They used both REV and Actobotics in this robot.

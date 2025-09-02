@@ -5,24 +5,18 @@ Computer Vision
 
 Computer vision is the process of using computers to understand digital images, such as photographs and videos. Computer vision offers object detection which is commonly needed in FTC\ |reg|.
 
-Currently, there are 3 commonly used forms of computer vision: TensorFlow Lite, AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
+Currently, there are 2 commonly used forms of computer vision: AprilTags, and OpenCV (via VisionPortal/EasyOpenCV).
 
 Officially Supported Solutions
 ------------------------------
 
-TensorFlow
-^^^^^^^^^^
-
-TensorFlow is Google's machine learning technology, which can be trained to detect objects. The FTC SDK uses TensorFlow Lite, which is a lightweight version of Google's TensorFlow designed to run on mobile devices. Along with Android Studio and OnBot support, TensorFlow has block support which makes it a good choice for most teams.
-
-Sample OpModes for TensorFlow being used for pixel detection (CENTERSTAGE) can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Sample-OpMode-for-TFOD>`__ (Blocks), and a Java example can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Java-Sample-OpMode-for-TFOD>`__.
-
-*FIRST*\ |reg| has released a tool called FTC-ML to train your own TensorFlow Lite model for detecting custom objects. Details about FTC-ML can be found `on FTC Docs <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/ftc_ml/index.html>`_.
+.. warning::
+    The FTC SDK previously included TensorFlow Lite, a lightweight version of Google's TensorFlow machine learning technology designed to run on mobile devices. However, TensorFlow Lite was removed from the SDK in version 10.0. Some documentation may still refer to TensorFlow, so it is important to keep in mind that it has been removed.
 
 AprilTags
 ^^^^^^^^^
 
-AprilTags detect specific low-resolution, black-and-white images that are placed on various parts of the field. AprilTags are a great way to detect specific parts of the fields at wide angles, distances, and in a variety of lighting conditions. AprilTags are supported in OnBot Java, Android Studio, and Blocks.
+AprilTags detect specific low-resolution, black-and-white images that are placed on various parts of the field. AprilTags are a great way to detect specific parts of the fields at wide angles, distances, and in a variety of lighting conditions, which can then be used to calculate the current position of your robot. AprilTags are supported in OnBot Java, Android Studio, and Blocks.
 
 You can learn more about implementing AprilTags `on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__. Supported AprilTag images are available on this `PDF <https://ftc-docs.firstinspires.org/en/latest/_downloads/ba0d87cc0d392ad0bad054d4b81e9077/AprilTag_0-20_family36h11.pdf>`__.
 
@@ -46,7 +40,7 @@ FTC\ |reg| Dashboard
 
 FTC Dashboard runs a dashboard webpage on the Control Hub that, among other things, streams a live preview of a connected camera. This is a very useful tool for testing and debugging vision applications.
 
-.. warning:: FTC Dashboard is not legal to run during matches, make sure it is disabled during a competition. More information can be found `here <https://acmerobotics.github.io/ftc-dashboard/competition>`__.
+.. warning:: FTC Dashboard is not legal to run during matches, so it is best to make sure it is disabled during competition. More information can be found `here <https://acmerobotics.github.io/ftc-dashboard/competition>`__.
 
 You can find FTC Dashboard `here <https://github.com/acmerobotics/ftc-dashboard>`__.
 

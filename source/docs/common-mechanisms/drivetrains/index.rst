@@ -49,7 +49,7 @@ When building any mechanism, teams must list out some necessities or desired fea
 
    We recommend belted drivetrains, but realize that belt is a difficult option for new teams. Chain and gears are also great options - chain requires a bit more forethought, as 1+ tensioner per side is required to maintain correct tension in the chain.
 
-   CAD or a detailed sketch is generally recommended with chain in order to visualize the chain run (where the chain will be placed). Gears are slightly simpler, and can be a fantastic and easy option, especially when using extrusion. We would advise to stay away from TETRIX gears, and use the gears from other kits such as the REV delrin gears (with hex hub strengthener) or REV aluminum gears.
+   CAD or a detailed sketch is generally recommended with chain in order to visualize the chain run (where the chain will be placed). Gears are slightly simpler, and can be a fantastic and easy option, especially when using extrusion. We would advise to use the gears from kit systems, such as the various goBILDA gears, the REV delrin gears (with hex hub strengthener), or the REV aluminum gears.
 
    See the :doc:`/docs/common-mechanisms/power-transmission/index` section for more details.
 
