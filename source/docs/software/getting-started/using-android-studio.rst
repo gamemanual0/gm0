@@ -3,7 +3,7 @@
 Using Android Studio
 ====================
 
-`Android Studio <https://developer.android.com/studio/intro>`_ is an integrated development environment (IDE) for Android app development based on IntelliJ. It compiles your code to an apk which is then installed onto the Robot Controller: either the Control Hub or a legal Android phone.
+`Android Studio <https://developer.android.com/studio/intro>`_ is an integrated development environment (IDE) for Android app development based on IntelliJ. It compiles your code which is then installed onto the Robot Controller: either the Control Hub or a legal Android phone.
 
 Downloading Android Studio
 --------------------------
@@ -13,7 +13,7 @@ If you've already downloaded Android Studio, you can move on to the next step, w
 The steps to download and setup Android Studio are:
 
 #. Check to make sure your system meets the `necessary requirements <https://developer.android.com/studio#Requirements>`_
-#. Install the *latest* version of Android Studio from https://developer.android.com/studio/index.html
+#. Install the latest version of Android Studio from https://developer.android.com/studio/index.html
 #. Run the executable, follow the setup wizard, and use any and all recommended development kits
 
 Setting up the SDK
@@ -83,22 +83,10 @@ This is where you will create your code for the robot. To create a new Java clas
    :alt: New > Java Class
    :width: 50em
 
-Alternatively, you can select the "Package" option if you want to create a subfolder for organization purposes. Then, you can create classes in those packages.
+If you want to create a subfolder for organization purposes, you can select the "Package" option. Then, you can create classes in those packages.
 
 .. tip::
-   The :code:`readme.md` file in this directory contains useful documentation, including information on sample programs shipped with the SDK that you can use and modify. We highly recommend teams read this information.
-
-Terminal and Logcat
-^^^^^^^^^^^^^^^^^^^
-
-On the left of the application near the bottom, you will find tabs for the local terminal and logcat. These are useful tools for working with your program.
-
-.. image:: images/using-android-studio/terminal-logcat-location.png
-   :alt: Terminal and logcat tabs near the bottom left
-
-Some useful information on using the logcat can be found `here <https://developer.android.com/studio/debug/logcat>`_.
-
-.. note:: If you want, you can build your program through the commandline via the local terminal. Click on the terminal tab, then input :code:`gradlew :TeamCode:clean :TeamCode:build`. This will delete the previously compiled files and build your TeamCode module.
+   The :code:`readme.md` file in this directory contains useful documentation, including information on sample programs shipped with the SDK that you can use and modify. We highly recommend you read this information.
 
 Installing Your Program
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -134,14 +122,12 @@ You can rebuild your project easily with the Build menu.
 
    Note: On Windows and Linux, the menubar is accessed by clicking the hamburger menu icon at the top left of the window.
 
-To rebuild from a clean project, choose the clean project option. This removes old compiled files from your project so you can completely rebuild your project. It clears any production files, generated files, etc. This is useful for making sure old artifacts don't break anything when you build your code. When you next build your project, it will do so from scratch with no old compiled files to which it can refer. To rebuild your project, choose the rebuild option.
+To clean your project to allow you to rebuild your project from scratch, choose the ``clean project`` option. This removes old compiled files from your project. To then rebuild your project, choose the rebuild option.
 
 Invalidate and Restart
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you can get errors after moving things around, refactoring, etc. The first step is to try cleaning the project and doing a rebuild. If this doesn't work, you might have confused Android Studio because it caches information about your project structure.
-
-The most common way to fix these errors is to do an invalidate and restart. In the file dropdown, there will be an option for this and then you will choose Invalidate and Restart. This clears the cache and restarts your Android Studio, which then should perform a Gradle rebuild.
+Sometimes you can get errors after moving things around, refactoring, etc. The first step is to try cleaning the project and doing a rebuild. If this doesn't work, you may be able to fix these errors with ``invalidate and restart`` under the ``file`` dropdown. This clears any caches Android Studio has and restarts it.
 
 Adding Dependencies
 ^^^^^^^^^^^^^^^^^^^
@@ -172,24 +158,10 @@ Refer to the instructions of whatever library you are using for the correct pack
 
 Finally, perform a Gradle sync.
 
-Android Debug Bridge
---------------------
+Android Debug Bridge (adb)
+--------------------------
 
 .. note:: On macOS, Linux, or using PowerShell, you will have to change any commands that start with :code:`adb` to start with :code:`./adb` if you are in the :code:`platform-tools` directory.
-
-.. _logcat:
-
-Logcat
-^^^^^^
-
-Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of the same error, there is probably infinite recursion in your code!
-
-To use logcat, plug in your device (or connect via ADB). Then, select the logcat button. Your window should look like this.
-
-.. image:: images/using-android-studio/logcat-panel.png
-   :alt: A selected device and app with the error messages
-
-If you have an issue you don't understand, you can take a screenshot of the log or select and copy the error and ask a question in the `FTC discord <https://discord.com/invite/ftc>`_.
 
 Wireless Communication
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -237,6 +209,25 @@ Connecting to a Phone Wirelessly
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
 Once a connection is established to a Control Hub or phone, it should automatically appear in the device dropdown in Android Studio.
+
+.. _logcat:
+
+Logcat
+~~~~~~
+
+Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of the same error, there is probably infinite recursion in your code!
+
+To use logcat, plug in your device (or connect via ADB). Then, select the logcat button. Your window should look like this.
+
+.. image:: images/using-android-studio/terminal-logcat-location.png
+   :alt: Terminal and logcat tabs near the bottom left
+
+.. image:: images/using-android-studio/logcat-panel.png
+   :alt: A selected device and app with the error messages
+
+Some useful information on using logcat can be found `here <https://developer.android.com/studio/debug/logcat>`_.
+
+If you have an issue you don't understand, you can take a screenshot of the log or select and copy the error and ask a question in the `FTC discord <https://discord.com/invite/ftc>`_.
 
 Wireless Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
