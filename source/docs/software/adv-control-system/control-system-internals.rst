@@ -58,7 +58,7 @@ The expansion hub has the following ports
   - The motor driver is a ST Microelectronics VNH5050 motor driver IC, which is capabile of handling well over the maximum amount of current an FTC motor can draw. It has integrated current sensing and has been used since the Modern Robotics era. It has built in thermal and current safety limits. This motor controller has been used for years, and may even date back to the early HiTechnic based control system.
 - Four Encoder Ports
 
-  - **IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be connected via hardware and are reliable at high speeds**. There are two methods of connecting an encoder internally to the Texas Instruments microprocessor, through hardware and software. Hardware ports use the integrated quadrature decoder chip and are extremely accurate at high speeds, whereas encoders decoded in software are not reliable at high speeds. As a result, high Count Per Revolution (CPR) encoders (those with more than around 4000 counts per revolution) should NOT be used on ports 1 and 2, the ports connected in software.
+  - **IMPORTANT: Only two of the encoder ports (Ports 0 and 3) appear to be connected via hardware and are reliable at high speeds**. There are two methods of connecting an encoder internally to the Texas Instruments microprocessor, through hardware and software. Hardware ports use the integrated quadrature decoder chip and are extremely accurate at high speeds, whereas encoders decoded in software are not reliable at high speeds. As a result, high Count per Revolution (CPR) encoders (those with more than around 4000 counts per revolution) should NOT be used on ports 1 and 2.
 - Two XT30 Connectors
 
   - Care should be taken when moving around cables as these connectors have been known to fail and break off the board.
@@ -68,12 +68,12 @@ The expansion hub has the following ports
   - Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v output may be unreliable, it depends on the hub.
 - Internal Connector
 
-  - This connector is what is used to connect to the computer daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub.
+  - This connector is what is used to connect to the compute daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub.
 
 Control Hub
 ^^^^^^^^^^^
 
-The Control Hub is an Expansion Hub with an embedded single-board computer daughterboard connected to it. This enables it to not need a separate Robot Controller phone, as the compute board functions as the Robot Controller. Internally, LynxCommands are sent over from the daughterboard to the Lynx board over an internal UART connection.
+The Control Hub is an Expansion Hub with an embedded single-board compute daughterboard connected to it. This enables it to not need a separate Robot Controller phone, as the compute board functions as the Robot Controller. Internally, LynxCommands are sent over from the daughterboard to the Lynx board over an internal UART connection.
 
 The compute board's physical layout is based on the 96Boards CE spec, and is visibly extremely similar to the `Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_.
 
@@ -86,7 +86,7 @@ The Control Hub compute board runs a customized version of Android 7.1. It does 
 
   - CPU: Quad-core ARM\ |reg| Cortex-A53
 
-    - The deivce tree in the official kernel seems to indicate that the CPU can clock up to 1.5GHz
+    - The device tree in the official kernel seems to indicate that the CPU can clock up to 1.5 GHz
   - GPU - ARM\ |reg| Mali 450MP4
 
     - HDMI 2.0 support for 4k @ 60Hz
@@ -106,7 +106,7 @@ The Control Hub compute board runs a customized version of Android 7.1. It does 
 .. tip::
    It is possible to install an Armbian Linux build from https://forum.armbian.com/topic/26978-csc-armbian-for-rk3318rk3328-tv-box-boards/ and have it work on the Control Hub. Enable the `rk3318-box-led-conf3` board type using the ``rk3318-config`` command to allow Wi-FI and all USB ports to work. Enable the ``rk3328-uart1`` overlay using ``armbian-config`` to allow communicating with the Lynx board over the internal UART connection using ``/dev/ttyS1``.
 
-   You shouldn't be doing this in FTC, this is for non-FTC purposes only!
+   **YOU SHOULDN'T BE DOING THIS FOR FTC!**
 
 .. figure:: images/control-system-internals/control-hub-internals.jpg
    :alt: The single board computer and Lynx board from a Control Hub
