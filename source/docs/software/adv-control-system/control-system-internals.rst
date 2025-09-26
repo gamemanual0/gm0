@@ -91,7 +91,10 @@ The Control Hub compute board runs a customized version of Android 7.1. It does 
 
     - HDMI 2.0 support for 4k @ 60Hz
 - RAM: 1GB DDR3
-- Storage: 8GB eMMC 4.51 listed by REV, but multiple real-world units that were checked all had 16GB eMMC chips found on their boards.
+- Storage: 8 to 16GB of eMMC flash memory
+
+  - "8GB eMMC 4.51" is the spec officially listed by REV, but multiple real-world units that were checked all had 16GB eMMC chips found on their boards.
+  - According to REV, in a support email: **"Original builds of the Control Hub were manufactured with 8GB eMMC chips. However, some 16GB versions were made due to supply chain constraints. Recent Control Hubs (purchased after 2022) are more likely to have the 16GB eMMC chip."**
 - USB: 1x USB 3.0, 1x USB 2.0, 1x internal USB 2.0 used to connect the Wi-Fi chip
 - Wi-Fi: Realtek RTL8821CU
 
