@@ -6,6 +6,7 @@ This section covers advanced details about the SDK and control system.
 .. toctree::
    :maxdepth: 1
 
+   command-base
    control-system-internals
    sdk-communication
    sdk-motors
