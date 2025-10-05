@@ -82,7 +82,7 @@ Disadvantages
 ^^^^^^^^^^^^^
 
 - Connecting to the robot controller's Wi-Fi network will prevent you from using anything on the internet including video tutorials and online communication, unless you have a second Wifi adapter (cheap and easy)
-- Relatively easy setup process, but time consuming and is a hefty install (3GB of files between Android Studio, ftc_app, and other libraries)
+- Relatively easy setup process, but time consuming and is a hefty install (3GB of files between Android Studio, FtcRobotController, and other libraries)
 - Issues can be difficult to diagnose and solve
 
 Other Programming Languages
