@@ -68,21 +68,16 @@ Advantages
 
 - Recommended if you're learning or have learned some programming, even better if you know a little Java.
 - Much greater flexibility than Blocks.
-- Much easier to integrate libraries like `EasyOpenCV`_, `FTC Dashboard`_, `FTCLib`_, and `Road Runner`_.
+- Much easier to integrate libraries like `FTC Dashboard`_, `FTCLib`_, and `Road Runner`_.
 - Can use plugins like `Road Runner`_.
 - Can use either a USB connection to the :term:`RC <Robot Controller>` phone, or a wireless connection to upload code.
-
-  .. note:: Deploy times can be sped up by using `OpenRC Turbo`_.
-
 - Can debug in real-time
 - Many resources for Java, Android Studio, and IDEA
 - Can use other programming languages
 
-.. _EasyOpenCV: https://github.com/openftc/easyopencv
 .. _FTC Dashboard: https://github.com/acmerobotics/ftc-dashboard
 .. _FTCLib: https://github.com/ftclib/ftclib
 .. _Road Runner: https://github.com/acmerobotics/road-runner
-.. _OpenRC Turbo: https://github.com/OpenFTC/OpenRC-Turbo
 
 Disadvantages
 ^^^^^^^^^^^^^
