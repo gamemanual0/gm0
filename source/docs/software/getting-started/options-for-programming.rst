@@ -69,7 +69,6 @@ Advantages
 - Recommended if you're learning or have learned some programming, even better if you know a little Java.
 - Much greater flexibility than Blocks.
 - Much easier to integrate libraries like `FTC Dashboard`_, `FTCLib`_, and `Road Runner`_.
-- Can use plugins like `Road Runner`_.
 - Can use either a USB connection to the :term:`RC <Robot Controller>` phone, or a wireless connection to upload code.
 - Can debug in real-time
 - Many resources for Java, Android Studio, and IDEA
