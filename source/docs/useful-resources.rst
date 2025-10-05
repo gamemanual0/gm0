@@ -165,9 +165,9 @@ Libraries
 
 `FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC Dashboard is a websocket-based React dashboard designed for FTC. It is very useful for debugging, including features such as displaying and graphing telemetry live as well as tuning configuration variables in real-time while opmodes are running.
 
-`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one dashboard for FTC robots that lets you control OpModes, tune Limelight pipelines wirelessly, record and replay match data, configure variables in real time, visualize telemetry with interactive field and graph tools, and build plugins for any feature.
-
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
+
+`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one dashboard for FTC robots that lets you control OpModes, tune Limelight pipelines wirelessly, record and replay match data, configure variables in real time, and visualize telemetry with interactive field and graph tools.
 
 `Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
 
