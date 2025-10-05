@@ -167,6 +167,8 @@ Libraries
 
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
 
+`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one dashboard for FTC robots that lets you control OpModes, tune Limelight pipelines wirelessly, record and replay match data, configure variables in real time, and visualize telemetry with interactive field and graph tools.
+
 `Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
 
 Electronics
