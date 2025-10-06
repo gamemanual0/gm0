@@ -63,7 +63,7 @@ Thus, it is recommended that teams use extrusion in prototyping/iterative design
 Kit of Parts
 ------------
 
-- `FTC Starter Kit V3 <https://www.revrobotics.com/rev-45-1883/>`_
+- `FTC Starter Kit V3.1 <https://www.revrobotics.com/rev-45-3529/>`_
 
 Advantages
 ----------

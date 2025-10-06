@@ -39,7 +39,7 @@ This is the most important knowledge-related pointer, in my opinion. Having all 
 Create a training program for your recruits.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When new members join your team, some of them will probably not know how to build and program a robot, or may have experiences with different techniques and softwares. Document a specific onboarding program for your new members - what logins will you have to give them? What softwares will they need to learn? What are some design techniques they will have to learn? Assign dedicated members to teach younger members about these techniques and to share their knowledge.
+When new members join your team, some of them will probably not know how to build and program a robot, or may have experiences with different techniques and software. Document a specific onboarding program for your new members - what logins will you have to give them? What software will they need to learn? What are some design techniques they will have to learn? Assign dedicated members to teach younger members about these techniques and to share their knowledge.
 
 Gracious Professionalism
 ------------------------

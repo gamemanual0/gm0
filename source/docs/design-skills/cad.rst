@@ -54,8 +54,8 @@ However, **it isn't available for Mac users**, and you'll need a pretty beefy co
 
 If you have mentors or team members with previous experience in SolidWorks or an engineering class at your school that teaches SolidWorks, it will be your best choice.
 
-`Inventor <https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Inventor <https://www.autodesk.com/education/edu-software/overview>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Autodesk's industrial CAD offering. It offers many similar features to SolidWorks, but has a different UI and three distinct assembly modes.
 
@@ -67,8 +67,8 @@ If you have mentors or team members with previous experience in Inventor or an e
 
 
 
-`Fusion 360 <https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Fusion 360 <https://www.autodesk.com/education/edu-software/overview>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A cloud-based all-in-one CAD/CAM package, also made by Autodesk. Fusion 360 is cross platform compatible, although it doesn't run very well on low-spec computers.
 
@@ -80,8 +80,8 @@ Because of this, if you aren't careful, Fusion's file hierarchy can actively enc
 
 If one is careful to follow good design practices, Fusion is a solid option.
 
-`Creo (formerly known as Pro/E) <https://www.ptc.com/en/products/education/free-software/standalone-educator>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Creo (formerly known as Pro/E) <https://www.ptc.com/en/education/free-software/creo-standalone-educator>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A family of CAD/CAM applications developed by PTC (Parametric Technology Corporation). Creo parametric is the main CAD package that includes robust assembly and part modeling similar to Solidworks.
 
@@ -100,10 +100,9 @@ All vendors (REV, goBILDA, Actobotics, AndyMark, Tetrix) provide 3d models of th
 
 - Vendor CAD Libraries
 
-  - `Actobotics (ServoCity) <https://www.servocity.com/step-files/>`_
-  - `REV Robotics <https://workbench.grabcad.com/workbench/projects/gcEvgrMnw6kRPx7OR6r45Gvb2t-iOdLiNG3m_ALpdGYzK_#/space/gcFd6nwp5Brrc3ks-92gagLZCV2FkceNTX3qGzaMvy2wQD/folder/2906404>`_
+  - `Actobotics (ServoCity) <https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_
 
-- `10650 Hazmat Robotics CAD Library <https://workbench.grabcad.com/workbench/projects/gcpgZgLBwhIdL0FfUKJJfM75cqa9RW1ncXaL-lQ4KOl1wa#/space/gcSzacmSeI-l19BYQNPm422pSHLenRxOxVtmaD-Pzynwsq/folder/6578524>`_
+- `10650 Hazmat Robotics CAD Library + MiSUMI Parts <https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_
 - `FTC Onshape Parts Library (contains a majority of parts from most major vendors) <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_
 
 File sharing
