@@ -10,7 +10,7 @@ Depending on the vendor, the motors can come with one of the following connector
 - :term:`3.5mm Bullet` connector (goBILDA motors)
 - :term:`Anderson PowerPole` (some AndyMark NeveRest motors)
 
-:term:`JST VH` is probably easiest to use, as it is the same connector used by REV Control/Expansion Hubs. The :term:`JST VH` connection has a locking mechanism for peace of mind. :term:`PowerPoles <Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. :term:`3.5mm Bullet` connectors are very compact, making it easy to route the cable through openings, but can disconnect if someone pulls on the wire, so you need to be careful with them.
+:term:`JST VH` is probably easiest to use, as it is the same connector used by REV Control/Expansion Hubs. It is also locking. :term:`PowerPoles <Anderson PowerPole>` are very reliable and sturdy but somewhat bulky. :term:`3.5mm Bullet` connectors are very compact, making cables easy to route through openings, but can be disconnected.
 
 Since REV hubs use :term:`JST VH` connectors, to connect a motor with :term:`3.5mm Bullet` or :term:`Anderson PowerPole` connectors, you need adapters which you can purchase from REV Robotics, goBILDA, and AndyMark.
 

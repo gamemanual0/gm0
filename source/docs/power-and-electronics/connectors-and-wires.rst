@@ -8,12 +8,12 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
 .. glossary::
 
    Anderson PowerPole
-      Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are extremely reliable, and are an excellent choice for high-usage connectors, such as batteries. In addition, there are adapters available to other systems. PowerPole connectors are crimped onto wires.
+      Anderson PowerPole is a connector used by AndyMark on their :term:`NeveRest motors <NeveRest Motor>`. PowerPole connectors are extremely reliable, and are an excellent choice for high-usage connectors, such as batteries. There are adapters available to/from other systems. PowerPole connectors are crimped onto wires.
 
       .. warning::
-         While OEM Anderson brand PowerPole connectors are extremely reliable, off-brand PowerPole connectors commonly available on site like Amazon often have major reliability issues. When purchasing PowerPole connectors, only purchase ones specifically listed as Anderson brand.
+         While OEM Anderson brand PowerPole connectors are extremely reliable, off-brand PowerPole connectors, commonly available on sites like Amazon, often have major reliability issues. When purchasing PowerPole connectors, only purchase ones specifically listed as Anderson brand.
 
-         Additionally, it is important to use crimpers specifically designed for PowerPole connectors. The `IWISS iCrimp AP-11 <https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a reasonable price point on Amazon, though any quality crimpers specifically designed for PowerPole should work just fine.
+         Additionally, it is important to use crimpers specifically designed for PowerPole connectors. The `IWISS iCrimp AP-11 <https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a reasonable price point on Amazon, though any quality crimpers specifically designed for PowerPole should work fine.
 
       .. image:: images/wiring/powerpole-connector.png
          :alt: A PowerPole connector
@@ -43,7 +43,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
          :width: 300px
 
    XT30
-      The XT30 connector is commonly used by batteries (such as the goBILDA Nested Battery and REV Slim Battery) and things connected to battery power, such as the robot power switch, the REV Control Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, and others. XT30 connectors are soldered onto wires.
+      The XT30 connector is commonly used by batteries (such as the goBILDA Nested Battery and the REV Slim Battery), the robot power switch, the REV Control Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, and others. XT30 connectors are soldered onto wires.
 
       .. warning::
          The pins in the XT30 connectors on the Control Hub and Expansion Hub often compress over time, causing loose power connectivity. See `XT30 Pins are Compressed - Expansion Hub Troubleshooting <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details on the issue and how to fix it.
@@ -60,7 +60,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
          :width: 300px
 
    JST PH
-      JST PH is a type of connector used by the REV Control/Expansion Hubs and various electronics, such as sensors. For FTC, the 3-pin and 4-pin options will be used most often. On the REV Control/Expansion Hubs, the 4-pin connector is used for encoder, I2C, analog, and digital connections. The 3-pin connector is used for the RS-485 connection between the Control Hub and Expansion Hub. JST PH connectors are crimped onto wires.
+      JST PH is a type of connector used by the REV Control/Expansion Hubs and various electronics, such as sensors. On the REV Control/Expansion Hubs, the 4-pin connector is used for encoder, I2C, analog, and digital connections. The 3-pin connector is used for the RS-485 connection between the Control Hub and Expansion Hub. JST PH connectors are crimped onto wires.
 
       .. image:: images/wiring/jst-sensor-connectors.png
          :alt: JST PH and JST XH connectors

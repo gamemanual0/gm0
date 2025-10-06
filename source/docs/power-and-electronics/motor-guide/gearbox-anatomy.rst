@@ -18,7 +18,7 @@ Fundamentally, a gearbox is just a collection of gears and an enclosure that con
 
          The most common ways of gearing up or down are using gearboxes, gears, sprockets and belt-driven pulleys, all of which exist in various sizes.
 
-In FTC, gearboxes may be more common than you think - nearly every motor and servo has a gearbox attached to it or built-in to it. These gearboxes are one of the following two types: spur or planetary. Below we give a detailed analysis of each of these gearbox types.
+In FTC, gearboxes may be more common than you think. Nearly every motor and servo has a gearbox attached or built-in to it. These gearboxes are either spur or planetary.
 
 Spur Gearboxes
 --------------

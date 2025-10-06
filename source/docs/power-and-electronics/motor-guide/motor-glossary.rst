@@ -22,10 +22,10 @@ Motor Glossary
          :width: 200
 
    NeveRest Motor
-      The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor <RS-550 Series Motor>` that is available in spur gear and planetary options. It has a 6mm D-shaft output.
+      The NeveRest Motor, sold by AndyMark, is a :term:`RS-555 series motor <RS-550 Series Motor>` that is available in spur gear and planetary options. It has a 6 mm D-shaft output.
 
    Yellow Jacket Motor
-      Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. They come with a 6mm D-shaft (5202 series) or 8mm REX shaft (5203/5204 series) and are available in many different :term:`gear ratios <Gear Reduction>` from 3.7:1 up to 188:1.
+      Yellow Jacket motors are the :term:`RS-555 series motor <RS-550 Series Motor>` and :term:`planetary gearbox <Planetary Gear>` sold by goBILDA. They come with a 6 mm D-shaft (5202 series) or 8 mm REX shaft (5203/5204 series) and are available in many different :term:`gear ratios <Gear Reduction>` from 3.7:1 up to 188:1.
 
       .. image:: images/glossary/yellow-jacket.png
          :alt: A Yellow Jacket motor
