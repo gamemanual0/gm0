@@ -25,15 +25,11 @@ You do not have to comply with the license for elements of the material in the p
 
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as `publicity, privacy, or moral rights <https://creativecommons.org/licenses/by-nc/2.0/deed.en#ref-publicity-privacy-or-moral-rights>`_ may limit how you use the material.
 
-Legal disclaimers
+Legal Disclaimers
 -----------------
 
-*FIRST*\ |reg|\ *, FIRST*\ |reg| *Robotics Competition, and FIRST*\ |reg| *Tech Challenge, are registered trademarks of FIRST*\ |reg| *\(*\ |firstinspires.org|_\ *) which is not overseeing, involved with, or responsible for this activity, product, or service.*
+*FIRST*\ |reg|, *FIRST*\ |reg| *Robotics Competition*, and *FIRST*\ |reg| *Tech Challenge*, are registered trademarks of FIRST\ |reg| (https://www.firstinspires.org) which is not overseeing, involved with, or responsible for this activity, product, or service.
 
-*FIRST*\ |reg| LEGO\ |reg| League is a jointly held trademark of *FIRST*\ |reg| *\(*\ |firstinspires.org|_\ *) and* the LEGO Group, *neither of which is overseeing, involved with, or responsible for this activity, product, or service.*
+*FIRST*\ |reg| **LEGO**\ |reg| *League* is a jointly held trademark of *FIRST*\ |reg| (https://www.firstinspires.org) and the **LEGO Group**, neither of which is overseeing, involved with, or responsible for this activity, product, or service.
 
-LEGO\ |reg|, *the* LEGO\ |reg| *logo*, MINDSTORMS\ |reg|, *the* MINDSTORMS\ |reg| *NXT logo, the Minifigure, and the Brick and Knob configurations are trademarks of* the LEGO Group *which is not overseeing, involved with, or responsible for this activity, product, or service.*
-
-.. _firstinspires.org: https://www.firstinspires.org
-
-.. |firstinspires.org| replace:: *www.firstinspires.org*
+**LEGO**\ |reg|, the **LEGO**\ |reg| logo, **MINDSTORMS**\ |reg|, the **MINDSTORMS**\ |reg| *NXT* logo, the *Minifigure*, and the *Brick* and *Knob* configurations are trademarks of the LEGO Group which is not overseeing, involved with, or responsible for this activity, product, or service.
