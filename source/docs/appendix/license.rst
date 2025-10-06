@@ -5,6 +5,9 @@ License
 
 Game Manual 0 is licensed under the `Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license <https://github.com/gamemanual0/gm0/blob/main/LICENSE>`_.
 
+License Summary
+---------------
+
 You are free to:
     - Share - copy and redistribute the material in any medium or format
     - Adapt - remix, transform, and build upon the material
