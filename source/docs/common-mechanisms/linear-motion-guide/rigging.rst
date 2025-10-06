@@ -146,25 +146,19 @@ Additional Considerations:
 Using PTFE Tubing and John Guest Adapters to Route the String
 -------------------------------------------------------------
 
-If you're looking for flexibility in mounting your linear slides in a different location than your motor/pulley, consider using PTFE tubing and John Guest Adapters to route the string.
+If you're looking for the ability to mount your linear slides in a different location than your motor/pulley, consider using PTFE tubing and John Guest Adapters to route the string.
 
 .. figure:: images/rigging/23292-adapters.jpg
    :alt: 23292 SuperPowered Jalapenos Rigging Image
-
-
 
 1/8 in. PTFE tubing and John-guest push-to-connect adapters with M5 thread on one side work really well for this purpose. These tubing are identical to the ones used in 3D printers to route filament.
 
 The tubing can be routed over long distances without adding significant friction
 
-.. figure:: images/rigging/23292-JohnGuestAdapters-Rigging.png
-   :alt: 23292 SuperPowered Jalapenos Rigging Image
+.. figure:: images/rigging/23292-john-guest-adapter-rigging.png
+   :alt: String going from slide rigging to a pulley on a motor through John Guest adapters and PTFE tubing.
 
-
-
-
-
-   23292 SuperPowered Jalapenos John Guest Adapters- Rigging
+   23292 SuperPowered Jalapenos, John Guest adapters rigging example
 
 
 Belt-driven slides
