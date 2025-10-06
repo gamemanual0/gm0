@@ -21,6 +21,7 @@ Other Contributors
 ------------------
 
 - Adham - FTC 14875 LightSpeed
+- Akshara - FTC 23292 SuperPowered Jalapenos
 - Arjun - FTC 9794 Wizards.exe
 - Baylor - FTC 10641 Atomic Gears
 - Cole - FTC 7548 SPAREPARTS
@@ -53,7 +54,7 @@ Other Contributors
 - Tyler - FRC 3184 Blaze Robotics
 - Wes - FTC 3658 Bosons
 - Whimsy - FTC 8417 'Lectric Legends
-- Akshara - FTC 23292 SuperPowered Jalapenos
+
 Hosting
 -------
 
