@@ -5,30 +5,25 @@ Arms
 
 Arms encompass a large variety of mechanisms. In FTC, they are used to add extension and flexibility to end effectors. Arms are especially powerful when paired with other mechanisms such as linear extension and mini-turrets.
 
-.. admonition:: Term
-
-   .. glossary::
-
-      Arm
-         A system consisting of rigid bodies (links) connected by joints (revolute, ball, spherical, prismatic, etc) forming an open-chain (serial) mechanism. They are often categorized by how many joints (or equivalently DoFs or axes) they have.
-
 
 Arms for Extension
 ------------------
 
-Arms can be a useful tool for extension. Long arms need large reduction ratios to drive. The example in the Single Arm section uses a 254.5:1 reduction. It is recommended to transfer torque to the arm through a gear, chain, or belt rather than directly mounting to a motor shaft due to axial forces as well as the ability to get a larger reduction. Due to the large momentum these arms can carry, they may be able to break a motor's gearbox if suddenly stopped and tip your robot over, so be aware of backlash and your center of gravity (COG) when designing your robot. Software control can help to reduce the load on motor gearboxes (see :doc:`/docs/software/concepts/control-loops`).
+Arms can be a useful tool for extension. Long arms need large reduction ratios to drive. The example in the :ref:`Single Arm section <single-arm>` uses a 254.5:1 reduction. It is recommended to transfer torque to the arm through a gear, chain, or belt rather than directly mounting to a motor shaft due to axial forces and the ability to get a larger reduction. Due to the large amount of momentum these arms can carry, if suddenly stopped they may be able to break a motor's gearbox or even tip your robot over. Software control can help to reduce the load on motor gearboxes (see :doc:`/docs/software/concepts/control-loops`).
 
 Depending on the application and implementation, arms can be either faster or slower than other extension options.
+
+.. _single-arm:
 
 Single Arm
 ^^^^^^^^^^
 
-The most simple type of arm, a single arm refers to an arm on one axis of rotation. These arms are relatively easy and quick to build, however they have little competitive viability as a main extension system since the extension it provides is limited due to the length restrictions of the starting cube, only being able to provide around 16" of extension whereas over 24" of extension is desired for most games.
+The most simple type of arm, a single arm refers to an arm on one axis of rotation. These arms are relatively easy and quick to build, however they have little high-level competitive viability as a main extension system since the extension it provides is limited due to the length restrictions of the starting cube, only being able to provide around 16" of extension whereas over 24" of extension is desired for most games.
 
 .. figure:: images/single-arm/gb-single-arm.jpg
-   :alt: GoBilda starter bot, Into The Deep, single arm.
+   :alt: goBILDA starter bot, Into The Deep, single arm.
 
-   Gobilda starter bot, Into The Deep, single arm used for extension.
+   goBILDA starter bot, Into The Deep, single arm used for extension.
 
 Pivot Extension
 ^^^^^^^^^^^^^^^
@@ -36,9 +31,9 @@ Pivot Extension
 A pivot extension mechanism is an arm with a linear extension (typically linear slides) attached. This allows the linear extension to provide the desired extension length for both horizontal and vertical extension along with removing the need for a transfer stage.
 
 .. figure:: images/pivot-extension/RI3D-pivot-extension.png
-   :alt: RI3D pivot slides
+   :alt: Robot with a pivoting arm and long linear extension.
 
-   GoBilda RI3D, Into The Deep, pivoting linear slides
+   goBILDA Robot in 3 Days, Into The Deep, pivoting linear slides
 
 .. figure:: images/pivot-extension/19098-pivot-extension.png
    :alt: 19098's pivot slides
@@ -74,7 +69,7 @@ Arms are the most common way to add flexibility and control to end effectors. Th
 
 .. attention:: End effectors are likely to see collisions and with arms acting as a lever, it is imperative to take extra caution to mount and support these servos properly (see :doc:`/docs/power-and-electronics/servo-guide/usage-tips`).
 
-Single and multi-axis arms add control to the vertical and horizontal distance of the end effector. In Into The Deep, this type of arm was common in intakes to allow the intake on a horizontal extension to go over the submersible barrier and then "reach down" for samples. They can be used to line up intakes and outtakes to facilitate transfers or just generally add flexibility to where end effectors can act.
+Single and multi-axis arms can add control to the vertical and horizontal distance of an end effector. In Into The Deep, this type of arm was common in intakes to allow the intake on a horizontal extension to go over the submersible barrier and then "reach down" for samples. They can be used to line up intakes and outtakes to facilitate transfers or just generally add flexibility to where end effectors can act.
 
 Linear extension is usually seen on outtakes to increase the range of the robot's deposit.
 
@@ -86,4 +81,4 @@ Linear extension is usually seen on outtakes to increase the range of the robot'
 .. figure:: images/multi-axis-arm/12993-RoboKings-Aurum.png
    :alt: 12993's high dof outtake with horizontal extension
 
-   12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high dof outtake arm with horizontal extension.
+   12993 RoboKings Aurum, Centerstage, Finalist Alliance 1st Pick, high degree of freedom outtake arm with horizontal extension.
