@@ -3,91 +3,56 @@
 Using Android Studio
 ====================
 
-`Android Studio <https://developer.android.com/studio/intro>`_ is an integrated development environment (IDE) for Android app development based on IntelliJ. It compiles your code to an apk which is then installed onto the Robot Controller: either the Control Hub or a legal Android phone.
+`Android Studio <https://developer.android.com/studio/intro>`_ is an integrated development environment (IDE) for Android app development based on IntelliJ. It compiles your code which is then installed onto the Robot Controller: either the Control Hub or a legal Android phone.
 
 Downloading Android Studio
 --------------------------
 
-If you've already downloaded Android Studio, you can move on to the next step, which is `setting up the SDK <#setting-up-the-sdk>`_.
+If you've already downloaded Android Studio, you can move on to the next step, which is `setting up the SDK`_.
 
 The steps to download and setup Android Studio are:
 
 #. Check to make sure your system meets the `necessary requirements <https://developer.android.com/studio#Requirements>`_
-#. Install the *latest* version of Android Studio from https://developer.android.com/studio/index.html
+#. Install the latest version of Android Studio from https://developer.android.com/studio/index.html
 #. Run the executable, follow the setup wizard, and use any and all recommended development kits
 
 Setting up the SDK
 ------------------
 
-Now that you have Android Studio installed, you're going to want to use the current season's SDK (software development kit) where you will create your team's code.
+Now that you have Android Studio installed, you're going to want to use the current season's FTC\ |reg| SDK (software development kit) where you will create your team's code.
 
 Downloading the SDK
 ^^^^^^^^^^^^^^^^^^^
 
-The SDK is publicly released to a GitHub repository every season. The current season's SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
+The SDK is publicly released to a GitHub repository. The current SDK can be found in the `FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository.
 
-Downloading the ZIP
-~~~~~~~~~~~~~~~~~~~
+Downloading and opening the SDK in Android Studio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. When you're at the repository, click the green "code" button. Then, select "Download ZIP."
+#. Open Android Studio. If you have another project open, close it (File -> Close Project). Make sure "Projects" is selected on the sidebar.
 
-   .. image:: images/using-android-studio/download-zip.png
-      :width: 50em
-      :alt: Click the Download ZIP option
-
-#. Then, save it to the desired location in your computer.
-
-   .. image:: images/using-android-studio/save-to-computer.png
-      :width: 50em
-      :alt: The ZIP file should be called FtcRobotController-master
-
-#. After it is saved, extract the contents of the ZIP and place them into whatever desired location. You should see the contents of the SDK inside of the folder location.
-
-Using GitHub Desktop
-~~~~~~~~~~~~~~~~~~~~
-
-#. `Install GitHub Desktop <https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop>`_
-#. Open the `SDK repository <https://github.com/FIRST-Tech-Challenge/FTCRobotController>`_ in a browser.
-#. Click the green "code" button, and then select "Open with GitHub Desktop."
-
-   .. image:: images/using-android-studio/open-with-gh-desktop.png
-      :width: 50em
-      :alt: Click the Open with GitHub Desktop option
-#. Clone the project.
-
-   .. image:: images/using-android-studio/clone-github-desktop.png
-      :alt: Clone the repository to your resource folder
-
-From the Command Line
-~~~~~~~~~~~~~~~~~~~~~
-
-#. `Install git <https://github.com/git-guides/install-git>`_
-#. Open the terminal (probably bash) in the desired resource location.
-#. Use :code:`$ git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`
-
-Opening the SDK on Android Studio
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. Open Android Studio. If you have another project open, close it.
-
-   .. image:: images/using-android-studio/opening-as.png
+   .. image:: images/using-android-studio/as-welcome.png
       :width: 50em
       :alt: A screen should appear with an option to configure settings and import a project
 
-#. Check for updates. Click on the "configure" dropdown and select "check for updates." If you do not have the latest version, download the updates.
+#. Click on the gear icon in the bottom left corner, and select "check for updates." If you do not have the latest version, download the updates.
 
-   .. image:: images/using-android-studio/check-for-updates.png
-      :alt: If you have no new updates, it should say that you have the latest version installed
+#. Select "Get from VCS". Make sure "Repository URL" is selected on the sidebar, then put ``https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`` into the URL text box. Finally, click the Clone button in the bottom right corner to download the SDK.
 
-#. Select "Import Project." Navigate to where you have the SDK saved on your computer. Choose the directory that has the Android logo.
+   .. tip:: Consider also changing the name of the final folder in the Directory textbox from ``FtcRobotController`` to something that reflects your team and the season, e.g. team number 99999 might use ``99999-2025-26-code``.
 
-   .. image:: images/using-android-studio/select-the-sdk.png
-      :alt: Only select the folder with the Android logo
+   .. image:: images/using-android-studio/as-get-from-vcs.png
+      :alt: TODO: alt text
 
-#. Change to project view. In the top left corner should be a dropdown that allows you to change the way you are looking at your project.
+#. When asked if you want to trust and open the project, choose "Trust Project".
 
-   .. image:: images/using-android-studio/select-project-view.png
-      :alt: Change to project view
+   .. image:: images/using-android-studio/as-trust-project-dialog.png
+      :alt: TODO: alt text
+
+#. Select the hammer icon in the icon group in the top right corner of the window. This will download any needed modules and build the project.
+
+   .. image:: images/using-android-studio/as-make-module.png
+      :alt: TODO: alt text
 
 #. Wait for `Gradle`_ to complete the build. This indicator should be located at the bottom of the window by default.
 
@@ -107,10 +72,10 @@ Android Studio can look intimidating at first glance, but there are only a few f
 Creating Classes
 ^^^^^^^^^^^^^^^^
 
-The first thing to note in the project view is the dropdown with the name of the project. If you drop that down, you will see all of the Gradle files and directories. Navigate to the TeamCode folder. In the teamcode folder you will see an :code:`org.firstinspires.ftc.teamcode` package.
+The first thing to note in the project view is the left panel with the project components. Expand the :code:`TeamCode` folder, then the :code:`java` folder, and you will see an :code:`org.firstinspires.ftc.teamcode` package.
 
 .. image:: images/using-android-studio/code-project-structure.png
-   :alt: TeamCode > src > main > java > org.firstinspires.ftc.teamcode
+   :alt: TeamCode > java > org.firstinspires.ftc.teamcode
 
 This is where you will create your code for the robot. To create a new Java class, right click on the package, select New, and then choose "Java Class."
 
@@ -118,44 +83,27 @@ This is where you will create your code for the robot. To create a new Java clas
    :alt: New > Java Class
    :width: 50em
 
-Alternatively, you can select the "Package" option if you want to create a subfolder for organization purposes. Then, you can create classes in those packages.
+If you want to create a subfolder for organization purposes, you can select the "Package" option. Then, you can create classes in those packages.
 
-Terminal and Logcat
-^^^^^^^^^^^^^^^^^^^
-
-Near the bottom left of the application, you will find tabs for the local terminal and logcat. These are useful tools for working with your program.
-
-.. image:: images/using-android-studio/terminal-logcat-location.png
-   :alt: Terminal and logcat tabs near the bottom left
-
-Some useful information on using the logcat can be found `here <https://developer.android.com/studio/debug/am-logcat>`_.
-
-.. note:: You can build your program through the commandline via the local terminal. Click on the terminal tab and then input :code:`gradlew :TeamCode:clean :TeamCode:build`. This will delete the previously compiled files and build your TeamCode module.
+.. tip::
+   The :code:`readme.md` file in this directory contains useful documentation, including information on sample programs shipped with the SDK that you can use and modify. We highly recommend you read this information.
 
 Installing Your Program
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-To install your program onto the Robot Controller, you will use the play button located near the top right of the application window.
+To install your program onto the Robot Controller, you will use the play button located near the top middle of the application window.
 
 .. image:: images/using-android-studio/build-and-run.png
    :alt: Play button next to device dropdown
 
-Next to it you will see a dropdown for devices. When you connect your Robot Controller to your computer (using the correct cable), the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
-
-.. tip::
-
-   Occasionally the app will fail to start on the robot controller, leaving the driver station in a disconnected state. If this occurs you can open the terminal and run
-
-   :code:`adb shell am start -n com.qualcomm.ftcrobotcontroller/org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper`
-
-   to remotely start the Robot Controller app.
+Near it you will see a dropdown for devices. When you connect your Robot Controller to your computer, the device should appear in the dropdown after some time. Then, click the play button and your program will install onto the device.
 
 If you run into any problems with this process, refer to the official `REV documentation <https://docs.revrobotics.com/duo-control/>`_. Some useful pages from the REV site are:
 
 - `Troubleshooting the Control System <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Android-Studio-Tutorial>`_
 - `Deploying Code Wirelessly <https://docs.revrobotics.com/duo-control/programming/android-studio-using-wireless-adb>`_
 
-If you're still stuck you can ask for help in the `FTC\ |reg| Discord <https://discord.com/invite/ftc>`_.
+If you're still stuck, you can ask for help in the `FTC Discord <https://discord.com/invite/ftc>`_.
 
 Gradle
 ------
@@ -167,19 +115,19 @@ When you update any of your Gradle files you will need to perform a Gradle sync,
 Rebuilding
 ^^^^^^^^^^
 
-You can rebuild your project easily with the build dropdown.
+You can rebuild your project easily with the Build menu.
 
-.. image:: images/using-android-studio/gradle-build.png
-   :alt: The build dropdown at the top of the screen
+.. figure:: images/using-android-studio/gradle-build.png
+   :alt: The build menu at the top of the screen
 
-To rebuild from a clean project, press the clean project option. This removes old compiled files from your project so you can completely rebuild your project. It clears any production files, generated files, etc. This is useful for making sure old artifacts don't break anything when you build your code. When you next build your project, it will do so from scratch with no old compiled files to which it can refer. To rebuild your project, press the rebuild option.
+   Note: On Windows and Linux, the menubar is accessed by clicking the hamburger menu icon at the top left of the window.
+
+To clean your project to allow you to rebuild your project from scratch, choose the ``clean project`` option. This removes old compiled files from your project. To then rebuild your project, choose the rebuild option.
 
 Invalidate and Restart
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you can get errors after moving things around, refactoring, etc. The first step is to try cleaning the project and doing a rebuild. If this doesn't work, you might have confused Android Studio because it caches information about your project structure.
-
-The most common way to fix these errors is to do an invalidate and restart. In the file dropdown, there will be an option for this and then you will choose Invalidate and Restart. This clears the cache and restarts your Android Studio, which then should perform a Gradle rebuild.
+Sometimes you can get errors after moving things around, refactoring, etc. The first step is to try cleaning the project and doing a rebuild. If this doesn't work, you may be able to fix these errors with ``invalidate and restart`` under the ``file`` dropdown. This clears any caches Android Studio has and restarts it.
 
 Adding Dependencies
 ^^^^^^^^^^^^^^^^^^^
@@ -190,75 +138,30 @@ There should be a dependencies block at the bottom of the file.
 
 .. code-block:: groovy
 
-    // Include common definitions from above.
-    apply from: '../build.common.gradle'
-    apply from: '../build.dependencies.gradle'
-
     dependencies {
-         implementation project(':FtcRobotController')
-         annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
+        implementation project(':FtcRobotController')
     }
 
 Some dependencies require changes to your other Gradle files. Make sure to read the installation instructions for whatever dependency you want to add.
 
-Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation 'com.package.name'`.
+Next, you add a line in the dependencies block to implement the dependency. This is generally done with :code:`implementation 'com.developer.package:name:version'`.
 
 .. code-block:: groovy
 
     dependencies {
         implementation project(':FtcRobotController')
-        annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 
-        implementation 'com.package.name:name:version'
+        implementation 'com.developer.package:name:version'
     }
 
 Refer to the instructions of whatever library you are using for the correct package name and version.
 
 Finally, perform a Gradle sync.
 
-Upgrading to Java 8
--------------------
+Android Debug Bridge (adb)
+--------------------------
 
-By default, the SDK's version of Java is set to 7. Java 8 is also supported. You might want to upgrade your version of Java from 7 to 8 if you want to use features such as lambdas or generics. Some libraries may also require you to change your Java version.
-
-To upgrade to Java 8, navigate to your :code:`build.common.gradle` file. Scroll down until you find this block:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-Change the :code:`7` to :code:`8`, like so:
-
-.. code-block:: groovy
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-Then, perform a Gradle sync.
-
-Android Debug Bridge
---------------------
-
-.. note:: On macOS, Linux, or using PowerShell you will have to change any commands that start with :code:`adb` to start with :code:`./adb` if you are in the :code:`platform-tools` directory.
-
-.. _logcat:
-
-Logcat
-^^^^^^
-
-Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of the same error, there is probably infinite recursion in your code!
-
-To use logcat, plug in your device (or connect via ADB). Then, select the app you want to view the logs for. Your window should look like this.
-
-.. image:: images/using-android-studio/adb-screenshot.png
-   :alt: A selected device and app with the error messages
-
-If you have an issue you don't understand, you can take a screenshot of the log or select and copy the error and ask a question in the `FTC discord <https://discord.com/invite/ftc>`_.
+.. note:: On macOS, Linux, or using PowerShell, you will have to change any commands that start with :code:`adb` to start with :code:`./adb` if you are in the :code:`platform-tools` directory.
 
 Wireless Communication
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -267,7 +170,7 @@ Android Debug Bridge (ADB) is a command-line tool that allows for wireless commu
 
 ADB should come with the platform tools in Android Studio. Navigate to your :code:`local.properties` file in the root of your project and you should see a path to the Android SDK on your computer, such as :code:`C:\Users\Woodie\AppData\Local\Android\Sdk`. Then navigate to :code:`platform-tools` and an application called adb should be there. To use it, open CLI (like PowerShell or command prompt) and run either :code:`adb devices` or :code:`./adb devices`.
 
-For more information on ADB, you can look at the `developers page <https://developer.android.com/studio/command-line/adb>`_.
+For more information on ADB, you can look at the `ADB documentation <https://developer.android.com/tools/adb>`_.
 
 Setting Up ADB
 ~~~~~~~~~~~~~~
@@ -280,13 +183,21 @@ Setting Up ADB
 Add ADB To PATH
 ^^^^^^^^^^^^^^^
 
+If you want to use ADB from any directory, add it to PATH. Follow an online tutorial for adding to PATH and set the PATH to include the :code:`platform-tools` directory. Once you do that, you can run ADB commands from anywhere on your system.
+
 Adding variables to PATH:
 
 - `Windows <https://docs.alfresco.com/content-services/latest/admin/troubleshoot/>`_
 - `Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
 - `macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_
 
-If you want to use ADB from any directory, add it to PATH. Follow an online tutorial for adding to PATH and set the PATH to the :code:`platform-tools` directory. Once you do that, you can run ADB commands from anywhere on your system.
+Connecting to a Control Hub Wirelessly
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Connect to the Wi-Fi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
+#. Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
+
+   - Alternatively, if you have the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_ running, it will attempt to automatically connect ADB to any Control Hub connected via Wi-Fi. This option does not require manually setting up ADB, and is therefore preferred by many teams using supported computers.
 
 Connecting to a Phone Wirelessly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -294,16 +205,29 @@ Connecting to a Phone Wirelessly
 #. Plug the robot controller phone into your computer.
 #. Run the command :code:`adb devices` in the :code:`platform-tools` directory and see if the phone shows up.
 #. Run :code:`adb usb` and then :code:`adb tcpip 5555`. You can then unplug the phone.
-#. Connect to the same WiFi network the device is either hosting or on. The WiFi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
+#. Connect to the same Wi-Fi network the device is either hosting or on. The Wi-Fi direct network created by the phone should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to R707 in the |cm| for further details on the network naming scheme.
 #. Connect to the phone using :code:`adb connect 192.168.49.1:5555`. If this doesn't work, recheck the IP address of the phone and try again with that IP address if it is different.
 
-Connecting to a Control Hub Wirelessly
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Once a connection is established to a Control Hub or phone, it should automatically appear in the device dropdown in Android Studio.
 
-#. Connect to the WiFi hotspot hosted by the Control Hub. The hotspot should be called "TEAMNUMBER-RC" or some small derivation of that. It may include extra letters if you have multiple devices per team. Refer to RS01 in |gm1| for further details on the network naming scheme.
-#. Once you're connected to a Control Hub's network, you simply need to connect to it using :code:`adb connect 192.168.43.1:5555`.
+.. _logcat:
 
-Once a connection is established, it should appear in the device dropdown in Android Studio.
+Logcat
+~~~~~~
+
+Logcat is extremely useful for debugging issues with your code at runtime or figuring out what went wrong. For example, if your app activity crashes and you pull up the log seeing 5000 lines of the same error, there is probably infinite recursion in your code!
+
+To use logcat, plug in your device (or connect via ADB). Then, select the logcat button. Your window should look like this.
+
+.. image:: images/using-android-studio/terminal-logcat-location.png
+   :alt: Terminal and logcat tabs near the bottom left
+
+.. image:: images/using-android-studio/logcat-panel.png
+   :alt: A selected device and app with the error messages
+
+Some useful information on using logcat can be found `here <https://developer.android.com/studio/debug/logcat>`_.
+
+If you have an issue you don't understand, you can take a screenshot of the log or select and copy the error and ask a question in the `FTC discord <https://discord.com/invite/ftc>`_.
 
 Wireless Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -314,30 +238,6 @@ To get these XML files wirelessly, you can use :code:`adb pull /sdcard/FIRST/con
 
 If a valid configuration XML file is in :code:`res/xml` it will show up as a configuration you can use for the robot when you push it to the Robot Controller or a Control Hub.
 
-SDK Manager
------------
-
-You can find the SDK manager in the top right corner of your Android Studio.
-
-.. image:: images/using-android-studio/sdk-manager-icon.png
-   :alt: A box with a down-facing arrow
-
-Accepting Licenses
-^^^^^^^^^^^^^^^^^^
-
-If you get a warning complaining about licenses not being accepted, follow these steps:
-
-#. Go to the SDK manager and under SDK Platforms.
-#. Select the version with the API level specified by the warning.
-#. Click "Apply" and wait for the components to install.
-#. Once this finishes, press "Finish," then "Ok." Wait for Android Studio to index if it is.
-#. Restart Android Studio.
-
-Installing SDK Tools
-^^^^^^^^^^^^^^^^^^^^
-
-To install any SDK tools such as platform tools or build tools, open the SDK manager and go to SDK Tools. Select the tools you want to install and install them the same way you would for the SDK platforms.
-
 Version Control
 ---------------
 
@@ -346,7 +246,7 @@ Version control is an extremely useful tool. It allows for looking at (and rever
 As far as version control systems go, we strongly recommend git, especially when used with a GUI like Android Studio's built in VCS tools or Github Desktop. While a git tutorial is out of scope for |gm0|, here are some git resources:
 
 - `The official git tutorial <https://git-scm.com/docs/gittutorial>`_
-- `GitHub's collection of git resources <https://docs.github.com/en/get-started/quickstart/set-up-git>`_
+- `GitHub's collection of git resources <https://docs.github.com/en/get-started/git-basics/set-up-git>`_
 - `GitHub's guide to installing git <https://github.com/git-guides/install-git>`_
 - `GitHub Desktop, a git GUI <https://desktop.github.com/>`_
 - `Android Studio's/IntelliJ's git integration documentation <https://www.jetbrains.com/help/idea/version-control-integration.html>`_
