@@ -202,6 +202,22 @@ In every system there is bound to be some amount of static Friction. This means 
         sign = signum(error) # sign of error, will be -1, 0, or 1
         output = sign * staticFriction + PID(error); # PID Controller + Friction Feedforward
 
+.. _gravity-compensated-feedforward:
+
+Gravity Compensated Feedforward
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In :ref:`gravity-compensation` we derive the effect of gravity upon an arm as :math:`F_g = g\cos{\theta}`. Here we can use that with the following logic.
+
+.. code-block:: python
+
+   while True:
+       error = desire_position - current_position; # no effect on gravity compensation
+       current_angle = (TICKS_AT_ZERO - current_tick) * DEGREE_PER_TICK
+       output = PID(error) + cos(radians(current_angle)) * kF
+
+This code uses a kF constant to approximate how much power the arm needs to counteract gravity. In theory, this is something related to gravity multiplied by the rotational moment of inertia of your arm. Calculating this is impractical and kF is instead found empirically. This can be done by setting the gains on the PID to 0, and increasing kF until the arm can hold itself up at any position. If your arm is still falling, increase kF, and if your arm is moving upwards, decrease kF. FTC team 16379 Kookybotz has `an excellent video on Arm programming <https://youtu.be/E6H6Nqe6qJo?si=AztzVtAqShFEA4EP&t=440>`_, where they demonstrate how to increase kF.
+
 
 Motion Profiles
 ---------------
