@@ -221,6 +221,19 @@ A much more niche option is to vertically spring odometry pods. The idea is that
 
    FTC 18172's vertical springing
 
+Pre-Built Odometry
+^^^^^^^^^^^^^^^^^^
+
+For newer teams that want to experiment with the software implementations of dead wheels without building the pods from scratch, pre-built dead wheel pods can be useful. As of the 23-24 CENTERSTAGE FTC season, sprung odometry pods are exempt from the no-more-than-one degree of freedom requirement for prebuilt parts. With this in mind, goBuilda has begun selling `full prebuilt dead wheels <https://www.gobilda.com/odometry-pod-43mm-width-48mm-wheel/>`_ (with encoders and all the required hardware).
+
+.. figure:: images/odometry/goBuildaPod.png
+   :alt: goBuilda's odometry pods
+   :width: 40em
+
+   goBuilda's pre-built odometry pods
+
+Teams have used these odometry pods to localize with great success, but they are on the expensive side (~$100 per pod) and their long-term reliability has yet to be seen.
+
 Gallery
 -------
 
