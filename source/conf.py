@@ -73,6 +73,7 @@ linkcheck_ignore = [
     r".*chiefdelphi.com.*",
     r".*fastenal.com.*",
     r".*ftconshape.com",
+    r".*gobilda.com",
     r".*misumi-ec.com.*",
     r".*onlinemetals.com.*",
     r".*ptc.com.*",
