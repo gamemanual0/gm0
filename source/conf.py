@@ -63,25 +63,30 @@ rst_epilog = """
 .. |EN| replace:: Engineering Notebook
 """
 
-# Disable following anchors in URLS for linkcheck
+# Disable following anchors in URLs for linkcheck.
+# Note they are sorted alphabetically.
 linkcheck_ignore = [
     r".*andymark.com.*",
     r".*asset.pitsco.com.*",
     r".*autodesk.com.*",
-    r".*canva.com.*",
-    r".*ftconshape.com",
-    r".*ptc.com.*",
-    r".*sdp-si.com.*",
-    r".*onlinemetals.com.*",
-    r".*fastenal.com.*",
-    r".*studica.com.*",
-    r".*vexrobotics.com.*",
-    r".*stackexchange.com.*",
-    r".*chiefdelphi.com.*",
-    r".*misumi-ec.com.*",
     r".*axon-robotics.com.*",
+    r".*canva.com.*",
+    r".*chiefdelphi.com.*",
+    r".*fastenal.com.*",
+    r".*ftconshape.com",
+    r".*gobilda.com",
+    r".*misumi-ec.com.*",
+    r".*onlinemetals.com.*",
+    r".*openbuilds.com",
+    r".*ptc.com.*",
     r".*reddit.com.*",
-    r".*thingiverse.com.*",    
+    r".*revrobotics.com.*",
+    r".*sdp-si.com.*",
+    r".*servocity.com.*",
+    r".*stackexchange.com.*",
+    r".*studica.com.*",
+    r".*thingiverse.com.*",
+    r".*vexrobotics.com.*",
 ]
 
 linkcheck_anchors = False

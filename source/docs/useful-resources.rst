@@ -174,7 +174,7 @@ Libraries
 Electronics
 -----------
 
-`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD mitigation options.
+`Robot Wiring Guide <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD mitigation options.
 
 `An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
 
