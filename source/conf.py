@@ -81,7 +81,9 @@ linkcheck_ignore = [
     r".*misumi-ec.com.*",
     r".*axon-robotics.com.*",
     r".*reddit.com.*",
-    r".*thingiverse.com.*",    
+    r".*thingiverse.com.*",
+    r".*servocity.com.*",
+    r".*revrobotics.com.*",
 ]
 
 linkcheck_anchors = False
