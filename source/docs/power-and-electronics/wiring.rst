@@ -15,7 +15,7 @@ While tedious and often no fun, wiring can mean the difference between a win and
 *FIRST*\ |reg| FTC Wiring Guide
 -------------------------------
 
-*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won't be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_ for the best practices and more tips & tricks. In addition, *FIRST* has written an `ESD Mitigation Whitepaper <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
+*FIRST*\ |reg| has created a wiring guide to help teams with tasks like crimping cables, soldering connections, and ESD mitigation that won't be covered in this guide. Once you read up on electronics and wiring here, look at the `FTC Wiring Guide <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`_ for the best practices and more tips & tricks. In addition, *FIRST* has written an `ESD Mitigation Whitepaper <https://web.archive.org/web/20250921212551/https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ that is worth taking a look at.
 
 General Advice
 --------------

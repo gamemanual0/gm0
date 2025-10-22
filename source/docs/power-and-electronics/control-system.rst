@@ -11,7 +11,7 @@ More information about the FTC Control System can be found below:
 
 - `Official Control System Documentation on FTC Docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-FTC-Control-System.html>`_
 - `REV Control System Documentation <https://docs.revrobotics.com/duo-control/>`_
-- `Official troubleshooting guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/control-system-troubleshooting-guide.pdf>`_
+- `Official troubleshooting guide <https://ftc-resources.firstinspires.org/ftc/archive/2026/team/robot-troubleshooting>`_
 
 There are two possible control systems that can be run on an FTC robot legally:
 
