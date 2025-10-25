@@ -24,7 +24,7 @@ Disadvantages
 - Requires the scoring mechanism to be able to go both behind the intake as well as into whatever position is needed for scoring
 
 .. figure:: images/16461-transferless.png
-   :alt: A picture of a direct transfer intake from FTC\ |reg| 16461, where the collection bucket is behind the intake
+   :alt: A picture of a direct transfer intake from team 16461 Infinite Turtles, where the collection bucket is behind the intake
 
    16461 Infinite Turtles, Freight Frenzy, Direct transfer intake, where the collection bucket is right behind the intake
 

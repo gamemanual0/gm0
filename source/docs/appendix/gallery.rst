@@ -1,9 +1,9 @@
 Gallery Of Robot Designs
 ========================
 
-Collection of robot designs from past seasons. Feel free to borrow some design solutions for your robot!
+Collection of robot designs from past seasons. Feel free to borrow some design solutions to adapt for your robot!
 
-.. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way. Just like copying your friend's homework doesn't mean you learned the material.
+.. note:: Copying another team's design usually doesn't work if you don't understand why their design works and why they built it that way, just like copying your friend's homework doesn't mean you learned the material. Understanding *why* something was designed a certain way is very important.
 
 2024-2025 Into The Deep
 -------------------------

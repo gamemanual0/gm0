@@ -3,7 +3,7 @@
 Connectors and Wires
 ====================
 
-There are many types of connectors for use in FTC\ |reg|. Here are the most common connectors you will find on an FTC robot.
+There are many types of connectors for use in FTC\ |reg|. Here are the most common connectors you will find on an FTC robot. // FIXME: Talk about the new connectors on the 2027 SystemCore and MotionCore.  Also talk about the Wago-style connectors used by the Servo Hub.
 
 .. glossary::
 
@@ -13,7 +13,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
       .. warning::
          While OEM Anderson brand PowerPole connectors are extremely reliable, off-brand PowerPole connectors, commonly available on sites like Amazon, often have major reliability issues. When purchasing PowerPole connectors, only purchase ones specifically listed as Anderson brand.
 
-         Additionally, it is important to use crimpers specifically designed for PowerPole connectors. The `IWISS iCrimp AP-11 <https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a reasonable price point on Amazon, though any quality crimpers specifically designed for PowerPole should work fine.
+         Additionally, it is important to use crimpers specifically designed for PowerPole connectors. The `IWISS iCrimp AP-11 <https://www.amazon.com/dp/B01MSQPTDS>`_ crimpers are a solid choice at a reasonable price point on Amazon, though any good quality crimpers specifically designed for PowerPole should work fine.
 
       .. image:: images/wiring/powerpole-connector.png
          :alt: A PowerPole connector
@@ -43,7 +43,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
          :width: 300px
 
    XT30
-      The XT30 connector is commonly used by batteries (such as the goBILDA Nested Battery and the REV Slim Battery), the robot power switch, the REV Control Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, and others. XT30 connectors are soldered onto wires.
+      The XT30 connector is commonly used by batteries (such as the goBILDA Nested Battery and REV Slim Battery) and things connected to battery power, such as the robot power switch, the REV Control Hub and Expansion Hub, the :term:`REV Grounding Strap <Grounding Strap>`, and others. XT30 connectors are soldered onto wires.
 
       .. warning::
          The pins in the XT30 connectors on the Control Hub and Expansion Hub often compress over time, causing loose power connectivity. See `XT30 Pins are Compressed - Expansion Hub Troubleshooting <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`_ for details on the issue and how to fix it.

@@ -18,23 +18,21 @@ General Resources
 
 `FTC Discord <https://discord.com/invite/ftc>`_:highlight:`*` --- The **unofficial** FTC\ |reg| Discord server is a discussion-based community server. It is the most active FTC community, which means it generally has the most up-to-date information, and is the easiest way to get quick answers to questions. It also has a channel with direct access to vendors.
 
-.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the help channels.
+.. attention:: The FTC Discord's primary demographic is FTC age participants, which strongly affects the average quality of its discourse, which is often off-topic and occasionally problematic. We recommend mostly sticking to the topic-specific channels and help forums.
 
-`FTC Docs <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- Official *FIRST*\ |reg| FTC documentation, including programming resources, team management resources and more.
+`FIRST Tech Challenge documentation <https://ftc-docs.firstinspires.org>`_:highlight:`*` --- The official *FIRST*\ |reg| Tech Challenge documentation, including programming resources, team management resources, and more.
 
-`FTC Q&A <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The FTC game Q&A, where clarifying questions about game rules from teams are asked and answered.
+`FIRST Tech Challenge Question and Answer System <https://ftc-qa.firstinspires.org>`_:highlight:`*` --- The official *FIRST* Tech Challenge Question and Answer System, where questions about ambiguities in the game rules are asked by teams and answered by FIRST.
 
-`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Game Manuals.
+`Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_:highlight:`*` --- Where to find the information for the current season, including the Competition Manual and Team Updates.
 
-`FTC Blog <https://community.firstinspires.org/topic/ftc>`_ --- The official FTC blog; important updates are typically posted here.
-
-`FTC Tutorials <https://web.archive.org/web/20231203044359/https://ftctutorials.com/en/>`_ --- (Unofficial) FTC Tutorials, covering the robot, competitions, and team management.
+`FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`_ --- The official FTC blog; important updates are typically posted here.
 
 `FIRST Resource Library <https://www.firstinspires.org/resource-library?field_content_type_value%5B%5D=first_tech_challenge>`_  --- The *FIRST* resource library (filtered for FTC resources). These includes robot/field inspection checklists, robot building and programming resources, team management resources, the FTC mentor manual, and more.
 
 `Engineering Portfolio Library <https://portfolios.hivemindrobotics.net>`_ --- A library of past award-winning Engineering Portfolios. Created by Polar from FTC 23396 and managed by the community.
 
-`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
+`REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ --- Covers REV's hardware and software. `The control system documentation <https://docs.revrobotics.com/duo-control>`_ includes an introductory FTC programming tutorial.
 
 `Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC\ |reg| 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
 
@@ -43,7 +41,7 @@ Team Management
 
 `Running a FIRST Team <https://drive.google.com/file/d/0B8Oix1YVtSZgcUJYTUs0QWlnZkE/view>`_:highlight:`*` --- A guide by Karthik Kanagasbathy, former lead mentor (and current advisor) of Hall of Fame team FRC 1114, Simbotics, on running a *FIRST* team. While some details are FRC specific (namely the 6 week timeline), much of it is applicable to running a FTC team.
 
-`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- *FIRST* FTC team management resources, covering budget, engineering notebook, etc.
+`Team Management Resources <https://www.firstinspires.org/resource-library/ftc/team-management-resources>`_ --- Official *FIRST* Tech Challenge team management resources, covering budget, engineering notebook, etc.
 
 Strategy
 --------
@@ -55,22 +53,20 @@ Strategy
 CAD
 ---
 
-`Autodesk Education Account <https://www.autodesk.com/education/edu-software/overview>`_ --- Autodesk's education account sign up. An education account gives access to both Fusion 360 and Inventor.
-
-`Creo Education License <https://www.ptc.com/en/education/free-software/creo-standalone-educator>`_ --- Creo's education license application form.
-
 `Onshape Education Account <https://www.onshape.com/en/education/>`_ --- Onshape's education account creation page.
 
+`Autodesk Education Account <https://www.autodesk.com/education/edu-software/overview>`_ --- Autodesk's education account sign up. An education account gives access to both Fusion 360 and Inventor. Note that education accounts are only available to students of "qualified educational institutions", and you will need to upload a form of documentation (School transcript, School-issued confirmation letter, or School ID) to verify your account.
+
 `SolidWorks Sponsorship <https://app.smartsheet.com/b/form/6762f6652a04487ca9786fcb06b84cb5>`_ --- A link to the application form for free Solidworks licenses for robotics teams.
+
+`Creo Education License <https://www.ptc.com/en/education/free-software/creo-standalone-educator>`_ --- Creo's education license application form.
 
 Part Libraries
 ^^^^^^^^^^^^^^
 
-`10650 Hazmat Robotics Public CAD Library + MiSUMI Parts <https://grabcad.com/library/ftc-cad-files-w-misumi-parts-1>`_ --- A multi-vendor part library that works across CAD software due to its use of STEP files.
+`Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A multi-vendor parts library specifically for Onshape, originally started by team 2901 Purple Gears, and maintained by the community.
 
-`2901 Purple Gears Onshape Parts Library <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`_ --- A multi-vendor parts library specifically for Onshape.
-
-`ServoCity Official CAD Library <https://www.dropbox.com/s/y14pykn1f2gmuss/All_STEP_Files.zip?dl=0>`_ --- ServoCity's entire STEP file catalog. This includes Actobotics parts.
+.. note:: This section used to have many more libraries, but all of the other libraries that were previously listed here no longer exist.
 
 Generators
 ^^^^^^^^^^
@@ -103,7 +99,7 @@ Mechanical Design and Build
 
 `Fastener Guide <https://www.boltdepot.com/fastener-information/printable-tools/printable-fastener-tools.pdf>`_ --- A guide explaining the different types of fasteners and where they are useful. It also includes printouts with drawings of various to scale fasteners to help identify them.
 
-`FIRST Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of official *FIRST* design and build resources, including TETRIX/REV build guides.
+`FIRST Robot Building Resources <https://www.firstinspires.org/resource-library/ftc/robot-building-resources>`_ --- A collection of official *FIRST* design and build resources, including starter bot build guides for goBILDA, REV, and more.
 
 `goBILDA with TETRIX <https://gobildatetrix.blogspot.com>`_ --- Documentation covering how to use goBILDA together with TETRIX.
 
@@ -135,7 +131,7 @@ Calculators
 
 `Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-distance-designer.php>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
-`ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
+`ReCalc <https://www.reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
 
 `Thad's EveryCalc <http://everycalc.thadhughes.xyz/>`_ --- A mechanical design calculator which covers a wide variety of mechanisms, while also providing some utilities like belt sizing, a trajectory calculator, and more.
 
@@ -161,15 +157,13 @@ Programming
 Libraries
 ^^^^^^^^^
 
-`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use openCV on an FTC robot. With this library, you can go from a stock SDK to running a sample openCV OpMode, with either an internal or external camera, in just a few minutes!
-
 `FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC Dashboard is a websocket-based React dashboard designed for FTC. It is very useful for debugging, including features such as displaying and graphing telemetry live as well as tuning configuration variables in real-time while opmodes are running.
 
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
 
 `Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one dashboard for FTC robots that lets you control OpModes, tune Limelight pipelines wirelessly, record and replay match data, configure variables in real time, and visualize telemetry with interactive field and graph tools.
 
-`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
+`Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities.
 
 Electronics
 -----------

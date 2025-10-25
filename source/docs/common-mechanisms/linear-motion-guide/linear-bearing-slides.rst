@@ -7,7 +7,7 @@ Linear bearings are specialty ball bearings. Unlike radial ball bearings, they r
 
 .. attention:: Unlike with most slides, the balls of linear bearings are not well retained when the bearings are removed from their rails. Linear bearings with a few balls missing have slightly decreased performance. Be sure to handle and store the bearings with care and to be prepared if their balls fall out.
 
-There are two types of linear bearings generally used in FTC: round linear bearings and linear bearing blocks.
+There are two types of linear bearings generally used in FTC\ |reg|: round linear bearings and linear bearing blocks.
 
 MGN Series Linear Bearing Blocks
 --------------------------------

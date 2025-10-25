@@ -3,7 +3,7 @@
 Dead Wheels
 ===========
 
-.. warning:: This is a very niche aspect of design in FTC\ |reg|. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season.
+.. warning:: This is a very niche aspect of design in FTC\ |reg|. Generally it is something done by more experienced teams who have had time to repeatedly test their designs and mechanisms with software during the off-season. // FIXME: No longer accurate, teams should buy goBILDA Pinpoint+pods bundle, or the OTOS.  TODO: Write about these COTS solutions
 
 The term dead wheels, tracking wheels, odometry pods, and odometry are often conflated in the FTC community. However, there are a few key differences one must keep in mind. Odometry is an umbrella term and refers to the general use of motion sensors for localization purposes. Meanwhile, dead wheels, tracking wheels, and odometry pods are all synonymous terms.
 
@@ -67,7 +67,7 @@ Encoders
 
 A lot of the localization done in software relies on readings from encoders. :ref:`encoders` are sensors that track "counts" or "ticks," which are values that represent a certain amount of a rotation. Different encoders might have a different number of counts per revolution (CPR), which is also sometimes also called ticks per revolution. The greater the number of counts, the more precise the data.
 
-Encoders are plugged into the JST-PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
+Encoders are plugged into the JST PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
 
 If one chooses to design dead wheels, there are only two recommended encoders that one should use for FTC: REV Through-Bore Encoders and U.S. Digital S4T Encoders.
 
@@ -110,7 +110,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 
    S4T Encoder
 
-*****Advantages:**
+**Advantages:**
 
 - Very compact
 
@@ -126,7 +126,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 SRX Mag Encoder
 ^^^^^^^^^^^^^^^
 
-The `SRX Mag Encoder <https://store.ctr-electronics.com/srx-mag-encoder/>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC centric documentation. It is more popular in FRC\ |reg|.
+The `SRX Mag Encoder <https://store.ctr-electronics.com/products/srx-mag-encoder>`_ from Cross The Road Electronics is a magnetic encoder. It is not used by many FTC teams due to its slightly higher complexity to use and lack of FTC centric documentation. It is more popular in FRC\ |reg|.
 
 .. figure:: images/odometry/srx-mag.jpg
    :alt: A CTRE SRX Mag encoder
