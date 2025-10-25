@@ -60,9 +60,7 @@ Other
 Logic Level Converter
 ---------------------
 
-The REV Robotics system runs on 3.3v sensor logic. Most off the shelf sensors used in FTC natively use/support 3.3v logic, but some sensors may not. To solve this, REV sells boards, called `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data to be readable by the REV hubs. The `REV Expansion Hub <https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-converter>`_ guide has a chart detailing what adapters are needed for what sensors.
-
-.. attention:: According to REV testing, goBILDA, REV and TorqueNado motors don't need logic level converters, but only some NeveRest motors worked with no discernible reason why.
+The REV Robotics system runs on 3.3v sensor logic. Most off the shelf sensors used in FTC natively use/support 3.3v logic, but some sensors may not. To solve this, REV sells boards, called `logic level converters <https://www.revrobotics.com/rev-31-1389/>`_, that convert the sensor data to be readable by the REV hubs. The `REV Expansion Hub guide <https://docs.revrobotics.com/duo-control/sensors/5v-sensors#logic-level-converter>`_ has a chart detailing what adapters are needed for what sensors.
 
 It is ideal to not use logic level converters to simplify your wiring. If you need to, there is a best practice. Electrical tape the connectors on either end, this helps with static, and it keeps it from being physically disconnected. This does produce a very noticeable effect with encoders on fields with lots of static.
 
