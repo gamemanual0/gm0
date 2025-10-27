@@ -62,6 +62,20 @@ Three-Wheel Odometry Pods
   - Quite pricey
   - Tuning of the heading is very important
 
+Wwo-Wheel Odometry Pods + goBILDA Pinpoint Fusion
+--------------------------
+
+- **Pros**:
+
+  - Reduced Development Time
+  - Plug and play odometry pod imu fusion
+  - Very compact form factor
+  - Very accurate tracking with a very fast update rate
+- **Cons**:
+
+  - Requires configuration on your dead wheel (ticks/mm)
+  - Deppendent on an external coprocessor and I²C
+
 Encoders
 --------
 
