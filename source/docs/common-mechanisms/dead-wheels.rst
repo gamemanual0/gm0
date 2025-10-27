@@ -74,7 +74,7 @@ Two-Wheel Odometry Pods + goBILDA Pinpoint Fusion
 - **Cons**:
 
   - Requires configuration on your dead wheel (ticks/mm)
-  - Dependent on an external coprocessor and I²C
+  - Dependent on an external coprocessor and I2C
 
 
 Encoders
