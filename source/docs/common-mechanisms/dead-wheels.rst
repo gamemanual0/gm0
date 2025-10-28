@@ -62,6 +62,21 @@ Three-Wheel Odometry Pods
   - Quite pricey
   - Tuning of the heading is very important
 
+Two-Wheel Odometry Pods + goBILDA Pinpoint Fusion
+-------------------------------------------------
+
+.. note:: The Two-Wheel Odometry Pods + GoBILDA Pinpoint uses one Odometry Pod for vertical measuring, one for horizontal measuring, and instead of using another one for rotation it uses the pinpoint's own IMU or Inertial Measurement Unit
+- **Pros**:
+
+  - Reduced Development Time
+  - Plug and play odometry pod imu fusion
+  - Very compact form factor
+  - Very accurate tracking with a very fast update rate
+- **Cons**:
+
+  - Requires configuration on your dead wheel (ticks/mm)
+  - Dependent on an external coprocessor and I2C
+
 Encoders
 --------
 
