@@ -15,7 +15,6 @@ The term dead wheels, tracking wheels, odometry pods, and odometry are often con
          A small unpowered wheel (usually an :term:`omni wheel <Omni Wheel>`) that tracks the distance the robot has traveled through the encoder attached to the wheel's axle.
 
          Usually, there will be two or three wheels - one or two on the x and y axis each to track the front-back and left-right position relative to the starting point. Generally, odometry wheels are sprung so that the wheel is in contact with the floor tiles at all times to ensure accuracy.
-
    Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software </docs/software/concepts/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
 
 The simplest form of odometry is drive encoder localization. This is the use of encoders measuring the rotation of motors that power the drive train. One is able to read the encoder data and feed it through the kinematic equation for that specific drive train to derive the body's velocity. Drive encoder localization is generally quite simple and easy to setup as almost all of the FTC legal motors have built-in encoders. Getting drive encoder localization setup is simply a matter of plugging in wires, no additional hardware needed.
@@ -66,6 +65,7 @@ Two-Wheel Odometry Pods + goBILDA Pinpoint Fusion
 -------------------------------------------------
 
 .. note:: The Two-Wheel Odometry Pods + GoBILDA Pinpoint uses one Odometry Pod for vertical measuring, one for horizontal measuring, and instead of using another one for rotation it uses the pinpoint's own IMU or Inertial Measurement Unit
+
 - **Pros**:
 
   - Reduced Development Time
