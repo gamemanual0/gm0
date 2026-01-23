@@ -13,7 +13,7 @@ Expansion Hub Internals
 Lynx Board
 ^^^^^^^^^^
 
-"Lynx" is the codename of the board within the Expansion Hub and Control Hub that interacts with hardware. References to "Lynx" are made in the FTC\ |reg| SDK refer to this board. It appears to have been developed by both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), possibly for use in *FIRST*\ |reg| Global (judging by the *FIRST* Global silkscreen on the PCB).
+"Lynx" is the codename of the board within the Expansion Hub and Control Hub that interacts with hardware. References to "Lynx" are made in the FTC\ |reg| SDK refer to this board. It appears to have been developed by both REV and `DEKA <https://dekaresearch.com/>`_ (Dean Kamen's company), possibly for use in *FIRST*\ |reg| Global (judging by the *FIRST* Global silkscreen on the PCB). A reverse-engineered schematic can be found `here <https://github.com/DuckTapeAndAPrayer/LynxSchematic>`_.
 
 .. warning:: Don't take apart a Control or Expansion Hub unless you really know what you are doing. They can be damaged in the process, especially if one does not know how to properly reassemble it.
 
@@ -68,7 +68,7 @@ The expansion hub has the following ports
   - Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v output may be unreliable, it depends on the hub.
 - Internal Connector
 
-  - This connector is what is used to connect to the compute daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub.
+  - This connector is what is used to connect to the compute daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub. A Lynx board from an Expansion hub connected with Control Hub's daughterboard will work as a Control Hub. To go the other way the RHSP address has to be changed to something other than the Control Hub address of 173 after the daughterboard is removed. 
 
 Control Hub
 ^^^^^^^^^^^
@@ -80,7 +80,7 @@ The compute board's physical layout is based on the 96Boards CE spec, and is vis
 .. note::
    The original version of the Control Hub (REV-31-1152) used in FIRST Global actually used a `Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_ as the compute board.
 
-The Control Hub compute board runs a customized version of Android 7.1. It does not have a proper heatsink on the SOC, only an exremely small and thin heat spreader, which can cause thermal throttling when heavy processes such as vision pipelines are used.
+The Control Hub compute board runs a customized version of Android 7.1. It does not have a proper heatsink on the SOC, only RF shield that does not touch the SOC, which can cause thermal throttling when heavy processes such as vision pipelines are used. A large amount of heat seems to be sunk by the daughterboard PCB which acts like a heat spreader.
 
 - SOC: Rockchip RK3328
 
