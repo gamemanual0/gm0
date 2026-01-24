@@ -80,7 +80,7 @@ The compute board's physical layout is based on the 96Boards CE spec, and is vis
 .. note::
    The original version of the Control Hub (REV-31-1152) used in FIRST Global actually used a `Dragonboard 410c <https://www.96boards.org/product/dragonboard410c/>`_ as the compute board.
 
-The Control Hub compute board runs a customized version of Android 7.1. It does not have a proper heatsink on the SOC, only RF shield that does not touch the SOC, which can cause thermal throttling when heavy processes such as vision pipelines are used. A large amount of heat seems to be sunk by the daughterboard PCB which acts like a heat spreader.
+The Control Hub compute board runs a customized version of Android 7.1. It does not have a proper heatsink on the SOC, only an RF shield that does not touch the SOC, which can cause thermal throttling when heavy processes such as vision pipelines are used. A large amount of heat seems to be sunk by the daughterboard PCB, which acts like a heat spreader.
 
 - SOC: Rockchip RK3328
 
