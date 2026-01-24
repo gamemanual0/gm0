@@ -68,7 +68,7 @@ The expansion hub has the following ports
   - Capable of full speed USB 2.0, and 5V output to charge a phone. The 5v output may be unreliable, it depends on the hub.
 - Internal Connector
 
-  - This connector is what is used to connect to the compute daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub. A Lynx board from an Expansion hub connected with Control Hub's daughterboard will work as a Control Hub. To go the other way the RHSP address has to be changed to something other than the Control Hub address of 173 after the daughterboard is removed. 
+  - This connector is what is used to connect to the compute daughterboard. It has a UART connection, as well as power and ground. All Expansion Hubs have this connector, whether or not they are a Control Hub. A Lynx board from an Expansion hub connected with Control Hub's daughterboard will work as a Control Hub. To go the other way the RHSP address has to be changed to something other than the Control Hub address of 173 after the daughterboard is removed.
 
 Control Hub
 ^^^^^^^^^^^
