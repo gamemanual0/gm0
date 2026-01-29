@@ -6,7 +6,7 @@ Types of Awards
 Advancing Awards
 ----------------
 
-There are 8 awards for FTC\ |reg| teams (excluding optional awards). For more information on the exact requirements for these awards, see |CM|.
+There are 8 awards for FTC\ |reg| teams (excluding optional awards). For more information on the exact requirements for these awards, see |cm|.
 
 .. image:: images/award-types/award-hierarchy.png
    :alt: Award hierarchy
@@ -24,7 +24,7 @@ These are:
 Inspire Award
 ~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -65,7 +65,7 @@ Inspire Award Criteria
 Think Award
 ~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -109,7 +109,7 @@ Tips for this award:
 Connect Award
 ~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -158,7 +158,7 @@ The core of this award is depth, purpose, and learning, not just quantity.
 Reach Award
 ~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -205,7 +205,7 @@ This award is about growth, inclusion, and creating new FIRST enthusiasts.
 Sustain Award
 ~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -269,7 +269,7 @@ This award is about systems, processes, and forward-thinking to ensure the team 
 Innovate Award
 ~~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -358,7 +358,7 @@ Tips for this award:
 Control Award
 ~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 .. admonition:: Term
 
@@ -395,7 +395,7 @@ Control Award Criteria
 Design Award
 ~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -438,7 +438,7 @@ There are some awards that events are not required to present; these do not adva
 Dean's List Award
 ~~~~~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term
@@ -470,7 +470,7 @@ There are three (3) "categories" of FIRST Dean's List Award students:
 Compass Award
 ~~~~~~~~~~~~~
 
-Official |CM| Description
+Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. admonition:: Term

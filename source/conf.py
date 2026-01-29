@@ -61,7 +61,6 @@ rst_epilog = """
 .. |gm2| replace:: Game Manual Part 2
 .. |cm| replace:: Competition Manual
 .. |EN| replace:: Engineering Notebook
-.. |CM| replace:: Competition Manual
 .. |EP| replace:: Engineering Portfolio
 """
 
