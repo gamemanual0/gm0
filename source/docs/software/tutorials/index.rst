@@ -14,3 +14,4 @@ Tutorials for common FTC\ |reg| programs.
    encoders
    bulk-reads
    vision
+   limelight/index
