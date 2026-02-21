@@ -135,12 +135,6 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Robot Reveal Video <https://www.youtube.com/watch?v=i2g_b54MEFI>`__
 - `Former World Record Match Video <https://www.youtube.com/watch?v=hL4nYgLUCeg>`__
 
-11503 Viperbots Hyperfang
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- `Technical Binder <https://docs.google.com/presentation/d/1MtXrXihTsF2XNWUVU9fH8fmdqNRnnIpUPR5ZxJDZaH0/edit?usp=sharing>`__
-- `CAD <https://myhub.autodesk360.com/ue2d6cfee/g/shares/SH919a0QTf3c32634dcfc62291ba1fe920f7>`__
-
 14270 Quantum Robotics
 ^^^^^^^^^^^^^^^^^^^^^^
 
