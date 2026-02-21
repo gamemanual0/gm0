@@ -184,5 +184,3 @@ Team/Event Results
 `FTC Events <https://ftc-events.firstinspires.org/>`_ --- Official *FIRST* team and event result database for FTC.
 
 `FTC Scout <https://ftcscout.org>`_ --- A community FTC Events frontend with more features and a more slick UI.
-
-`The Orange Alliance <https://theorangealliance.org/>`_ --- A community-run team and event result database, primarily useful for its more comprehensive results before Ultimate Goal (2020-2021).
