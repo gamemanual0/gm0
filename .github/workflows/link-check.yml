@@ -21,5 +21,5 @@ jobs:
       if: ${{ failure() }}
       uses: actions/upload-artifact@v4
       with:
-        name: linkcheck-output.txt
+        name: linkcheck-output.zip
         path: build/linkcheck/output.txt
