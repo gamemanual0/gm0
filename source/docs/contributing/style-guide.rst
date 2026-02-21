@@ -53,6 +53,6 @@ Adhere to brand standards when possible.
 
 - This also applies to team names: spell them how they are officially spelled
 
-  - Check `The Orange Alliance <https://theorangealliance.org/>`_ or `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team's name.
+  - Check `FTC Events <https://ftc-events.firstinspires.org/>`_ if you do not know how to spell a team's name.
 
 You can use "you" when writing, when it makes writing less awkward. However, try avoiding excessively using it.
