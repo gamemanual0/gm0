@@ -77,6 +77,7 @@ linkcheck_ignore = [
     r".*fastenal.com.*",
     r".*ftconshape.com",
     r".*gobilda.com",
+    r".*grabcad.com",
     r".*misumi-ec.com.*",
     r".*onlinemetals.com.*",
     r".*openbuilds.com",
