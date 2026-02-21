@@ -8,7 +8,7 @@ Common Issues
 Exceptions
 ----------
 
-Exceptions are events that occur during the execution of a program, disrupting the normal flow of instructions, used in error events or problems that arise during runtime. A exception can be catched to avoid propagation, otherwise any exception that's not handled will cause the program flow to stop immediately.
+Exceptions are events that occur during the execution of a program, disrupting the normal flow of instructions, used in error events or problems that arise during runtime. A exception can be caught to avoid propagation, otherwise any exception that's not handled will cause the program flow to stop immediately.
 
 Some common types of exceptions include:
 
@@ -167,7 +167,7 @@ OpModes are *strictly controlled programs*, in the sense that the SDK requires t
 
    }
 
-If you need to run any sort of lenghty action in your OpMode, another option would be using a LinearOpMode instead.
+If you need to run any sort of lengthy action in your OpMode, another option would be using a LinearOpMode instead.
 
 LinearOpModes are less strict since their single ``runOpMode()`` method can flow more freely, but they still need to be cooperative to stop requests. Take the following code as an example:
 

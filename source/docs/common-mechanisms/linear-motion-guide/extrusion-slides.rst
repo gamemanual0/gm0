@@ -49,7 +49,7 @@ Disadvantages
 OpenBuilds Mini V Gantry Kit
 ----------------------------
 
-The `OpenBuilds Mini V Gantry Kit <https://openbuildspartstore.com/mini-v-gantry-kit/>`_ is designed for use with OpenBuilds' 20mm V-slot extrusion, which can be mounted to other build systems using M3 screws and sliding T nuts. OpenBuilds slides are used for high precision applications such as 3D printers and CNC machines and have a **much higher load capacity** than REV and Actobotics slides. OpenBuilds slides are also much heavier than REV and Actobotics slides, but because they are so strong they can be used in applications where two sets of lighter duty slides would otherwise be required. Out of the box, OpenBuilds slides are tailored to single-stage belt lifts, but they could easily be adapted to work for multi-stage or string lifts given some thought and additional parts.
+The `OpenBuilds Mini V Gantry Kit <https://us.openbuilds.com/mini-v-gantry-kit/>`_ is designed for use with OpenBuilds' 20mm V-slot extrusion, which can be mounted to other build systems using M3 screws and sliding T nuts. OpenBuilds slides are used for high precision applications such as 3D printers and CNC machines and have a **much higher load capacity** than REV and Actobotics slides. OpenBuilds slides are also much heavier than REV and Actobotics slides, but because they are so strong they can be used in applications where two sets of lighter duty slides would otherwise be required. Out of the box, OpenBuilds slides are tailored to single-stage belt lifts, but they could easily be adapted to work for multi-stage or string lifts given some thought and additional parts.
 
 Advantages
 ^^^^^^^^^^

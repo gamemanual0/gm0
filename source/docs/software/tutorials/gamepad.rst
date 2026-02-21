@@ -223,7 +223,7 @@ Gamepad feedback (i.e. rumble and LED control) can be a helpful way for robots t
       - Rumble: contains both left and right rumble motors, but both seem to be only small weight (bzzz)
       - LED Control: control of RGB LED (solid color or pattern). LED is fairly small and dim and may not be a good choice.
 
-.. tip:: Gamepad feedback can be used to alert drivers of: start of endgame, intake loaded, automatic aligment complete, etc.
+.. tip:: Gamepad feedback can be used to alert drivers of: start of endgame, intake loaded, automatic alignment complete, etc.
 
 
 Rumble

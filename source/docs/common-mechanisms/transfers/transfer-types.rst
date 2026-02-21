@@ -134,7 +134,7 @@ Roller Conveyor
 Roller conveyors use a series of rollers or wheels to move objects from the beginning of the conveyor to the end. These transfers allow for the use of compliant wheel for different or odd shaped items, but care must be taken that objects don't get stuck in between rollers. In addition, wheels tend to have better grip then many forms of continuous conveyors. Surgical tubing can also be used instead of rollers.
 
 .. figure:: images/7244-roller.jpg
-   :alt: 7244 Roller Conveyor intake, where a series of omni wheels moves a game element verticall
+   :alt: 7244 Roller Conveyor intake, where a series of omni wheels moves a game element vertical
 
    7244 OUT of the BOX Robotics, Ultimate Goal, Roller conveyor transfer intake, where a series of omni wheels moves the game element rings at a high vertical angle
 

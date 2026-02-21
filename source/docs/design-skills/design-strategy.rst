@@ -186,4 +186,4 @@ Fully driver-controlled driving |rarr| Partially automated tasks
 #. Automating tasks can save time and reduce the need for driver multi-tasking. Drivers should always be controlling the robot with as few button presses as possible. For example, automatically stopping the intake mechanism when game elements have been collected saves a button press.
 #. Autonomously operating some mechanisms has the advantage of eliminating driver error and relieves stress. For example, if a lift has to extend to exactly 30 inches, a motor with an :term:`encoder <Encoder>` can complete that with 100% accuracy at full speed, compared to a human driver's minor error.
 
-.. note:: Autonomous functions should be able to be overrided by manual input in case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to prevent damage to the robot and to be compliant with game rules.
+.. note:: Autonomous functions should be able to be overridden by manual input in case something goes wrong (e.g. encoder is unplugged, a part breaks, etc.) to prevent damage to the robot and to be compliant with game rules.

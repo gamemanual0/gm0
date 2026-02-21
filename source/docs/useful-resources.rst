@@ -167,12 +167,14 @@ Libraries
 
 `FTCLib <https://github.com/FTCLib/FTCLib>`_ --- A fairly comprehensive FTC library, notably providing a command-based programming paradigm and vision pipelines.
 
+`Panels <https://panels.bylazar.com>`_ --- FTControl Panels is an all-in-one dashboard for FTC robots that lets you control OpModes, tune Limelight pipelines wirelessly, record and replay match data, configure variables in real time, and visualize telemetry with interactive field and graph tools.
+
 `Road Runner <https://github.com/acmerobotics/road-runner>`_ --- Road Runner is a motion planning library. Designed primarily for autonomous robotic movement, it allows for complex path following and generation while maintaining control of velocity and acceleration. This enables bots to have more accurate and advanced path following capabilities. Also see `Learn Road Runner <https://www.learnroadrunner.com/>`_, a guide to setting up Road Runner.
 
 Electronics
 -----------
 
-`Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD mitigation options.
+`Robot Wiring Guide <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`_:highlight:`*` --- *FIRST* guide to wiring FTC robots, including ESD mitigation options.
 
 `An Analysis of ESD Mitigation for the FIRST Tech Challenge <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`_ --- An analysis of different methods to mitigate electrostatic discharge (ESD) issues, which can cause robots to disconnect. The paper has great recommendations on what to do to help mitigate these issues  in its conclusion.
 

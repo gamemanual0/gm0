@@ -22,6 +22,12 @@ Collection of robot designs from past seasons. Feel free to borrow some design s
 - `Portfolio <https://drive.google.com/file/d/1HQgGVoOyZ0jzxsOwiJioX2KoaqiV3NVd/view?usp=sharing>`__
 - `Code <https://github.com/TeamUforce23400/ITD_FINAL/>`__
 
+9746 PML30 North Wind
+^^^^^^^^^^^^^^^^^^^^^
+
+- `CAD <https://cad.onshape.com/documents/e71101eaad919471b9efdb3c/w/c48921a11c5b7fdc33d7b7e5/e/703b9f8f90c51389619a4818?renderMode=0&uiState=67f5d0db8f62cc290321ec94>`__
+- `Robot Reveal Video <https://www.youtube.com/watch?v=IOHaC8i0SA4>`__
+
 2023-2024 Center Stage
 ------------------------
 

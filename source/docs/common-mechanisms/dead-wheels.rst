@@ -184,16 +184,6 @@ Here are a few publicly available dead wheel designs:
     - Information only available through their Discord channel
     - Hasn't been iterated on in a while
 
-- **11115 Gluten Free Design - 2019**
-
-  - https://drive.google.com/file/d/16ZQRSiWdzTKSH92VpKrxKpXy3TTh0sA5/view?usp=sharing
-  - The above link the entire robot assembly for 11115's CAD for the 2018-19 season
-
-  - **Things to consider**:
-
-    - Uses LEGO\ |reg| gears
-    - Uses US Digital S4T's. Quite pricey
-
 - **9794 Wizards.exe Design**
 
   - https://www.youtube.com/watch?list=PLICNg-rquurYgWAQGhu6iC0At75vgqFJp&v=OjNvAD350M4&feature=emb_title

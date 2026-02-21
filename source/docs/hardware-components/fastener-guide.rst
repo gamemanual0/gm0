@@ -200,6 +200,6 @@ Bolts on your robot may loosen over time, especially if there are heavy vibratio
          Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
 
       .. figure:: images/loctite.png
-         :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permament) loctite
+         :alt: A red bottle containing blue (removable) loctite, and a blue bottle containing red (permanent) loctite
 
-         Blue Loctite (removable, in red tube), Red Loctite (permament, in blue tube)
+         Blue Loctite (removable, in red tube), Red Loctite (permanent, in blue tube)
