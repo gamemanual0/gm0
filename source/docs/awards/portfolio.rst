@@ -12,6 +12,8 @@ Portfolio Requirements
 
 The engineering portfolio is a 15 page document consisting of standard A4 or letter sized pages and a minimum 10 point font. However, despite the small number of pages, there is a lot of information that needs to be packed into the document to meet the requirements for all awards.
 
+.. note:: If you'd like a second set of eyes, `Team 31000 Portfolio Coach <https://coach.team31000.org>`_ is an **unofficial** AI-assisted tool that analyzes a portfolio and provides rubric-based scoring and award-by-award feedback (including what to improve), plus portfolio-specific interview questions with suggested answers (organized by award).
+
 Overall Tips
 ^^^^^^^^^^^^
 

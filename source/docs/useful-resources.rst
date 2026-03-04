@@ -34,6 +34,8 @@ General Resources
 
 `Engineering Portfolio Library <https://portfolios.hivemindrobotics.net>`_ --- A library of past award-winning Engineering Portfolios. Created by Polar from FTC 23396 and managed by the community.
 
+`Team 31000 Portfolio Coach <https://coach.team31000.org>`_ --- An **unofficial** AI-assisted tool that analyzes an engineering portfolio and provides rubric-based scoring and award-by-award feedback, including what to improve and portfolio-specific interview questions with suggested answers (organized by award).
+
 `REV Robotics FTC Documentation <https://docs.revrobotics.com/docs/duo>`_ --- Covers REV's hardware and software. The control system documentation includes an introductory FTC programming tutorial.
 
 `Spectrum's Recommended Reading <https://spectrum3847.org/recommendedreading>`_ --- A list of resources collated by FRC\ |reg| 3847, Spectrum. While these resources are aimed at FRC, many are directly relevant to FTC.
