@@ -21,7 +21,6 @@ Odometry refers to the use of motion sensors for localization. Localization is a
 The simplest form of odometry is drive encoder localization. This is the use of encoders measuring the rotation of motors that power the drive train. One is able to read the encoder data and feed it through the kinematic equation for that specific drive train to derive the body's velocity. Drive encoder localization is generally quite simple and easy to setup as almost all of the FTC legal motors have built-in encoders. Getting drive encoder localization setup is simply a matter of plugging in wires, no additional hardware needed.
 
 Many teams in the community have converged on a unique solution that isn't seen very much outside of FTC: the use of "dead wheels," "tracking wheels," or "odometry pods" (these terms are all synonymous). These refer to small "dead" or non-driven (not powered by a motor) wheels attached to an `encoder sensor <#encoders>`_. Two or three dead wheel pods are often sprung to the ground to ensure accurate tracking. The two-wheel design utilizes one parallel and one perpendicular pod (parallel and perpendicular with respect to the drive wheel axis), measuring x and y movement respectively. Change in heading is measured via a gyroscope. The three-wheel design utilizes two parallel and one perpendicular pod, measuring x and y movement respectively. However, this design forgoes the gyroscope and instead measures heading via the difference with the two parallel wheels. This is often more accurate in the context of the FTC control system because the BNO055 IMU (used for the gyroscope in the two-wheel design) utilizes I2C which is slower than the rest of the I/O on the REV Hub and cannot be bulk read. These two issues lead to minute drift issues which can compound over time, thus leading to a more inaccurate localization system when using the two-wheel design.
-
 However, designing consistently accurate dead wheels proves to be a difficult design challenge. It is often quite pricey. A set of three dead wheels will cost a minimum of $100 for the encoders alone, prior to any hardware.
 
 Let's go through the advantages and disadvantages of each system.
@@ -61,6 +60,22 @@ Three-Wheel Odometry Pods
 
   - Quite pricey
   - Tuning of the heading is very important
+
+Two-Wheel Odometry Pods + goBILDA Pinpoint Fusion
+-------------------------------------------------
+
+.. note:: The Two-Wheel Odometry Pods + GoBILDA Pinpoint uses one Odometry Pod for vertical measuring, one for horizontal measuring, and instead of using another one for rotation it uses the pinpoint's own IMU or Inertial Measurement Unit
+
+- **Pros**:
+
+  - Reduced Development Time
+  - Plug and play odometry pod imu fusion
+  - Very compact form factor
+  - Very accurate tracking with a very fast update rate
+- **Cons**:
+
+  - Requires configuration on your dead wheel (ticks/mm)
+  - Dependent on an external coprocessor and I2C
 
 Encoders
 --------
