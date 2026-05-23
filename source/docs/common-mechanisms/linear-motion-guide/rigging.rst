@@ -171,7 +171,7 @@ Advantages over string
 
 Unlike string, belts used on slides never need to be tensioned. As discussed in the linear motion section, in order for string-driven slides to remain efficient, string tension must be maintained. Naturally, string loosens over time, so you either need a mechanism that can provide extra tension (a spring) or manually tighten string, which can get a bit tedious (especially for cascade rigging).
 
-However, belts do not have this issue. They tend not to stretch over time, meaning complex external tensioners are rarely needed. Belts are also on an automatic one to one loop, meaning that for every inch you pull in on the extension side, you always feed back out that inch on the retraction side, and vise versa. While this might not seem like a big deal, if a string winds itself up on a spool and overlaps at any point, the diameter of the spool changes, making the two spools out of sync.
+However, belts do not have this issue. They tend not to stretch over time, meaning complex external tensioners are rarely needed. Belts are also on an automatic one to one loop, meaning that for every inch you pull in on the extension side, you always feed back out that inch on the retraction side, and vice versa. While this might not seem like a big deal, if a string winds itself up on a spool and overlaps at any point, the diameter of the spool changes, making the two spools out of sync.
 
 Disadvantages over string
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -215,7 +215,7 @@ Tensioning string is one of the most painstaking tasks for a builder in FTC. Ens
 
 Another form of tensioner can be a spring-loaded pulley. Since the pulley is spring-loaded, it will take up the slack in the string. Alternatively, it is possible to mount a pulley on a piece of extrusion, and slide it so the string is taut.
 
-There are two main reasons that tensioners are highly recommended in string based linear slides, the first and oftentimes more important one, is that at its core, a run of string is a series of polygons, and as the slide extends the effective size of that polygon changes. Meaning that when fully extended, your slide may require more or less string compared to when halfway extended. Or partially extended. The closer each set of bearings are, the less this impracts string tension.
+There are two main reasons that tensioners are highly recommended in string based linear slides, the first and oftentimes more important one is that at its core, a run of string is a series of polygons, and as the slide extends the effective size of that polygon changes. Meaning that when fully extended, your slide may require more or less string compared to when halfway extended. Or partially extended. The closer each set of bearings are, the less this impacts string tension.
 
 Another (but less impactful) thing to keep in mind that spool size changes as string is added/removed from the spool. If the spool radius increases, the speed of the extension will also increase, and torque, which opposes speed, will decrease. Consequently, tension will change as well. Therefore, a bit of slack is inherent in all linear extension designs using string.
 
