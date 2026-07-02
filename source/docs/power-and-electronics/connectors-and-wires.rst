@@ -73,7 +73,7 @@ There are many types of connectors for use in FTC\ |reg|. Here are the most comm
       Used on some batteries, such as the Modern Robotics battery that was sold by goBILDA prior to goBILDA's own battery design being allowed by the competition manual.
 
       .. attention::
-         Do not use these connectors! The metal connectors are fragile and will lead to random disconnects. It is highly recommended to replace any of thse connectors with a reliable type of connector, such as the :term:`Anderson PowerPole` connectors.
+         Do not use these connectors! The metal connectors are fragile and will lead to random disconnects. It is highly recommended to replace any of these connectors with a reliable type of connector, such as the :term:`Anderson PowerPole` connectors.
 
       .. image:: images/wiring/tamiya-connector.png
          :alt: A Tamiya connector
