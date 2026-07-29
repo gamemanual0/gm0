@@ -435,7 +435,7 @@ Individual Awards
 
 There are some awards that events are not required to present; these do not advance teams.
 
-Dean's List Award
+FIRST Leadership Award 
 ~~~~~~~~~~~~~~~~~
 
 Official |cm| Description
@@ -445,27 +445,27 @@ Official |cm| Description
 
    .. glossary::
 
-      In an effort to recognize the leadership and dedication of the most outstanding secondary school STUDENTS from FIRST, the Kamen family sponsors awards for selected 10th or 11th grade STUDENTS known as the FIRST Tech Challenge FIRST Dean's List Award. The STUDENTS who earn FIRST Dean's List status as a semi-finalist, finalist or winner, are great examples of current STUDENT leaders who have led their teams and communities to increased awareness for FIRST and its mission, champion FIRST Core Values such as Inclusion, and embody Gracious Professionalism\ |reg| . It is the goal of FIRST that these individuals will continue, post-award, as great leaders, STUDENT alumni, and advocates of FIRST. Please visit the Dean's List Award Website to see complete award submission details and to see past FIRST Tech Challenge winners. For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for STUDENTS who are two (2) to three (3) years away from entering college or university. STUDENTS that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.
+      The STUDENTS who earn FIRST Leadership Award status as a semi-finalist, finalist or winner, are great examples of current STUDENT leaders who have led their teams and communities to increased awareness for FIRST and its mission, champion FIRST Core Values such as Inclusion, and embody Gracious Professionalism®. It is the goal of FIRST that these individuals will continue, post-award, as great leaders, STUDENT alumni, and advocates of FIRST. Please visit the FIRST Leadership Award Website to see complete award submission details and to see past FIRST Tech Challenge winners. For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for STUDENTS who are two (2) to three (3) years away from entering college or university. STUDENTS that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.
 
-There are three (3) "categories" of FIRST Dean's List Award students:
+There are three (3) "categories" of FIRST Leadership Award students:
 
-1. **FIRST Dean's List Semi-finalists** - comprised of the two (2) students in their 10th or 11th grade school year* nominated by each team.
+1. **FIRST Leadership Award Semi-finalists** - comprised of the two (2) students in their 10th or 11th grade school year* nominated by each team.
 
-   Officially the semi-finalists from a team are chosen by a coach. But it's not forbidden to make a voting in a team to choose the best candidates.
+   Officially, the semi-finalists from a team are chosen by a coach, but it's not forbidden to let your team vote for the best candidates.
 
-   The coach/dean's submittor is required to fill the form on firstinspires.org in dashboard where essays and some personal information about the students are attached. Every year FIRST sets a deadline till which you can nominate candidates. You can find nominative instruction and more information `here <https://info.firstinspires.org/hubfs/web/program/ftc/deans-list-nomination-guide.pdf>`_.
+   The coach is required to fill the form on firstinspires.org in dashboard where essays and some personal information about the students are attached. Every year, FIRST sets a deadline until which you can nominate candidates. You can find nominative instruction and more information `here <https://info.firstinspires.org/hubfs/web/program/ftc/deans-list-nomination-guide.pdf>`_.
 
-2. **FIRST Dean's List Finalists** - comprised of the students (2, 3, or 4, depending on the region) selected at each State/Regions Championship.
+2. **FIRST Leadership Award Finalists** - comprised of the students (2, 3, or 4, depending on the region) selected at each State/Regions Championship.
 
-   Upon the nomination window closing, every semi-finalist will receive an email from FIRST which provides the Semi-finalist with the nomination written by the coach. Semi-finalists should make sure to read the nomination to help prepare for the interview. Be prepared to discuss topics written in your nomination and anything else that you might want to mention that is relevant. It is also helpful to prepare a list of topics you want to discuss during the interview.
+   Upon the nomination window closing, every semi-finalist will receive an email from FIRST that provides the Semi-finalist with the nomination written by the coach. Semi-finalists should make sure to read the nomination to help prepare for the interview. Be prepared to discuss topics written in your nomination and anything else that you might want to mention that is relevant. It is also helpful to prepare a list of topics you want to discuss during the interview.
 
-   The interview is where the Dean's List Interviewers can meet you and potentially learn some new information about you. There is no need to dress up for your interview, but we do recommend that you prepare for it as if it were a job interview. Come up with some talking points so you can remember things that you want to tell the judges in response to questions, do mock interviews, and come into the interview planning to be confident and engaging. Remember that this is a conversational interview, there are no presentations, video links provided to the interviewer for post-interview review, or informational handouts involved.
+   The interview is where the Leadership Award Interviewers can meet you and potentially learn some new information about you. There is no need to dress up for your interview, but we do recommend that you prepare for it as if it were a job interview. Come up with some talking points so you can remember things that you want to tell the judges in response to questions, do mock interviews, and come into the interview planning to be confident and engaging. Remember that this is a conversational interview; there are no presentations, video links provided to the interviewer for post-interview review, or informational handouts involved.
 
    During the interview, please remember that it is about YOU, your contributions, leadership, etc. in relation to the criteria of the award. For example, if you are discussing accomplishments of your team as a whole, make sure to specify how your individual efforts were vital in the success of those accomplishments. Do not be shy about sharing your personal successes!
 
    The number of semi-finalists that will move onto the next level as finalists depends upon the region. Regions with larger team numbers will have additional spots to advance students based on the previous year's registration numbers. You can find number of advancing finalists by region `here <https://info.firstinspires.org/hubfs/web/program/ftc/deans-list-nomination-guide.pdf>`_.
 
-3. **FIRST Dean's List Winners** - comprised of the ten (10) FIRST Robotics Competition and ten (10) FIRST Tech Challenge students selected from the applicable FIRST Dean's List Finalists at the FIRST Championship.
+3. **FIRST Leadership Award Winners** - comprised of the ten (10) FIRST Robotics Competition and ten (10) FIRST Tech Challenge students selected from the applicable FIRST Leadership Award Finalists at the FIRST Championship.
 
 Compass Award
 ~~~~~~~~~~~~~
