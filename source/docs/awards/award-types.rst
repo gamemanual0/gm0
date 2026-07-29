@@ -455,7 +455,7 @@ There are three (3) "categories" of FIRST Leadership Award students:
 
    The coach is required to fill the form on firstinspires.org in dashboard where essays and some personal information about the students are attached. Every year, FIRST sets a deadline until which you can nominate candidates. You can find nominative instruction and more information `here <https://info.firstinspires.org/hubfs/web/program/ftc/deans-list-nomination-guide.pdf>`_.
 
-2. **FIRST Leadership Award Finalists** - comprised of the students (2, 3, or 4, depending on the region) selected at each State/Regions Championship.
+2. **FIRST Leadership Award Finalists** - comprised of the students (2, 3, or 4, depending on the region) selected at each State/Regional Championship.
 
    Upon the nomination window closing, every semi-finalist will receive an email from FIRST that provides the Semi-finalist with the nomination written by the coach. Semi-finalists should make sure to read the nomination to help prepare for the interview. Be prepared to discuss topics written in your nomination and anything else that you might want to mention that is relevant. It is also helpful to prepare a list of topics you want to discuss during the interview.
 
