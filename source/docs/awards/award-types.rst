@@ -435,8 +435,8 @@ Individual Awards
 
 There are some awards that events are not required to present; these do not advance teams.
 
-FIRST Leadership Award 
-~~~~~~~~~~~~~~~~~
+FIRST Leadership Award
+~~~~~~~~~~~~~~~~~~~~~~
 
 Official |cm| Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -445,7 +445,7 @@ Official |cm| Description
 
    .. glossary::
 
-      The STUDENTS who earn FIRST Leadership Award status as a semi-finalist, finalist or winner, are great examples of current STUDENT leaders who have led their teams and communities to increased awareness for FIRST and its mission, champion FIRST Core Values such as Inclusion, and embody Gracious Professionalism®. It is the goal of FIRST that these individuals will continue, post-award, as great leaders, STUDENT alumni, and advocates of FIRST. Please visit the FIRST Leadership Award Website to see complete award submission details and to see past FIRST Tech Challenge winners. For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for STUDENTS who are two (2) to three (3) years away from entering college or university. STUDENTS that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.
+      The STUDENTS who earn FIRST Leadership Award status as a semi-finalist, finalist or winner, are great examples of current STUDENT leaders who have led their teams and communities to increased awareness for FIRST and its mission, champion FIRST Core Values such as Inclusion, and embody Gracious Professionalism\ |reg|. It is the goal of FIRST that these individuals will continue, post-award, as great leaders, STUDENT alumni, and advocates of FIRST. Please visit the FIRST Leadership Award Website to see complete award submission details and to see past FIRST Tech Challenge winners. For regions of the world that do not use grade levels such as this to identify years of schooling: This award is intended for STUDENTS who are two (2) to three (3) years away from entering college or university. STUDENTS that would be attending college or university in the next academic year are not eligible. Mentors will be asked for the year of graduation during the nomination process.
 
 There are three (3) "categories" of FIRST Leadership Award students:
 
