@@ -133,6 +133,8 @@ Calculators
 
 `JuliaDesignCalc <https://www.chiefdelphi.com/uploads/short-url/uJyrWsJqE8OVqbvMLMnSgJ8QUdP.xlsx>`_ --- A spreadsheet design calculator. However, it does not include FTC motor data, so you will need to add that manually using the data from the :ref:`motor-data` section.
 
+`MotionConvert <https://motionconvert.com/>`_ --- Belt length and center distance, gear ratio finder and motion profile calculators in the browser, with sharable links.
+
 `Pulley Center-to-Center Calculator <https://sdp-si.com/tools/center-distance-designer.php>`_ --- A fully featured belt pulley center-to-center distance calculator.
 
 `ReCalc <https://reca.lc/>`_ --- A collaboration focused mechanical design calculator, currently in alpha, which provides sharable links.
