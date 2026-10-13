@@ -38,7 +38,7 @@ Below are some tips on using servos in FTC\ |reg|.
            A Servo Power Module (SPM) is a device made by REV Robotics that boosts the voltage that the Expansion Hub provides to a :term:`servo <Servo>`. The Control/Expansion Hub's output for servos is 5V at 6 amps, and the SPM boosts the voltage to 6V and up to 15amps.
 
            .. attention::
-              The Servo Power Module has a tendency to fail spectacularly, burning out the SPM, and sometimes the Control/Expansion Hub it is plugged into.  Teams shouold use the newer REV Servo Hub or goBILDA Servo Power Injector instead.
+              The Servo Power Module has a tendency to fail spectacularly, burning out the SPM, and sometimes the Control/Expansion Hub it is plugged into.  Teams should use the newer REV Servo Hub or goBILDA Servo Power Injector instead.
 
            .. image:: images/glossary/servo-power-module.png
               :alt: A REV Robotics Servo Power Module
