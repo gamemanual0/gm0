@@ -91,7 +91,7 @@ Disadvantages:
 Purchasing Belts
 ----------------
 
-Once you know what pitch and length belt you want, purchasing a belt requires navigating the vendor's website. Almost every COTS belt vendor will identify belts by 3 values: pitch, pitch length, and width. Pitch is the pitch of the belt, pitch length is the length of the belt (belt teeth times pitch), and width is the width of the belt. From there, its a matter of searching the vendor's page for the right belt.
+Once you know what pitch and length belt you want, purchasing a belt requires navigating the vendor's website. Almost every COTS belt vendor will identify belts by 3 values: pitch, pitch length, and width. Pitch is the pitch of the belt, pitch length is the length of the belt (belt teeth times pitch), and width is the width of the belt. From there, it's a matter of searching the vendor's page for the right belt.
 
 SDP-SI
 ^^^^^^

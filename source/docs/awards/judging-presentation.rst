@@ -11,13 +11,13 @@ Overall Tips
 - **Be Consistent!** If you say something during the beginning Q&A, make sure you say the same thing during pit judging. If you call out one specific mechanism as innovative, don't talk about a different mechanism when questioned. Always be consistent.
 - Vary who answers the questions. **Make sure everybody has an opportunity to speak.**
 - Use your portfolio! You can use it to reference things or point to various sections, especially if you can't remember something in the moment.
-- Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges time. **Most of the time, judges have a set time allotment with each team so wasting time may decrease the number of questions you can answer.**
+- Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges' time. **Most of the time, judges have a set time allotment with each team so wasting time may decrease the number of questions you can answer.**
 - Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information may get wasted.
 
 The Presentation
 ----------------
 
-The presentation is a 5 minute presentation during which judges are not allowed to interrupt. At the end of 5 minutes, you will either be asked to stop or be interrupted by the judges. There is no set format for this period, so your team can figure out how they want to present. Generally, most teams will do scripted formal presentations, often with each student tackling a different part of information about the team, robot, outreaches, etc. Its recommended teams cover topics from every award topic.
+The presentation is a 5 minute presentation during which judges are not allowed to interrupt. At the end of 5 minutes, you will either be asked to stop or be interrupted by the judges. There is no set format for this period, so your team can figure out how they want to present. Generally, most teams will do scripted formal presentations, often with each student tackling a different part of information about the team, robot, outreaches, etc. It's recommended teams cover topics from every award topic.
 
 .. tip:: While it may be tempting to do something unique, like singing or performing your presentation, be aware that this is usually difficult for little benefit. Unless you know you can pull it off very well, you probably shouldn't try it.
 

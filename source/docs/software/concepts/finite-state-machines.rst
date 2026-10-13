@@ -55,7 +55,7 @@ When first learning about FSMs, it is quite common for programmers to try and us
 
 This however does not really have any benefits compared to if the programmer had simply put each of the code's segments into functions, and executed them in order. In fact, often times, programmers will structure their code like this instead of splitting their code up into functions. The result is an autonomous that's more difficult to debug, and ultimately harder to fix on the fly during a competition or other time crunch.
 
-If one drew out the state transition diagram for each of the states, for the autonomus above it'd be very linear, and the state transitions always occur because the section of the code finished:
+If one drew out the state transition diagram for each of the states, for the autonomous above it'd be very linear, and the state transitions always occur because the section of the code finished:
 
 .. graphviz::
 
@@ -99,7 +99,7 @@ An example of this would be that if one had a robot similar to `Gluten Free's Ro
 
 If the drivers press a specific other button, we will stop executing the actions above as a failsafe - in case the robot is breaking somehow and the drivers need to take manual control. All the while, the drivers should still be able to control our drivetrain so we can make adjustments. Now, of course, this is a bit simplified (and probably not entirely what GF did), but it will do for now.
 
-Before anything is programmed, it may be useful draw out the state diagram for this to get a better understanding of what we the robot should actually be doing. This can also add to a Control Award submission.
+Before anything is programmed, it may be useful to draw out the state diagram for this to get a better understanding of what the robot should actually be doing. This can also add to a Control Award submission.
 
 .. graphviz::
 

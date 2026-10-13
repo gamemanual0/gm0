@@ -10,7 +10,7 @@ Downloading Android Studio
 
 If you've already downloaded Android Studio, you can move on to the next step, which is `setting up the SDK`_.
 
-The steps to download and setup Android Studio are:
+The steps to download and set up Android Studio are:
 
 #. Check to make sure your system meets the `necessary requirements <https://developer.android.com/studio#Requirements>`_
 #. Install the latest version of Android Studio from https://developer.android.com/studio/index.html

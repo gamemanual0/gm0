@@ -43,7 +43,7 @@ After this, extrude that sketch into the first plate of the drivetrain. Typicall
 The next step will be making the outer plate for the drivebase. It is even faster to do than the inner. To do this, simply create a new part. Go back to your inner plate and start a 2D sketch.
 
 .. image:: images/cad-tutorial/drivetrain-in-an-hour/dt-inner-plate-ui-chrome.jpg
-   :alt: Drivetrain Plate, with entire face seleected
+   :alt: Drivetrain Plate, with entire face selected
    :width: 100%
 
 After starting the new sketch on the inner plate, hit "Project Geometry" and just click anywhere on the part. It should highlight every outline of the part. (Shown here is a yellow line; yours might be red, blue or some other color.) Now click and drag across the part selecting every line on the screen. Now go hit CTRL + C, then go to the new part and hit create 2D Sketch. Next hit CTRL + V.
@@ -63,7 +63,7 @@ Note that when using a custom drivetrain, you can cut out material from your dri
 Additional Considerations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Powering wheels can be done is a couple different ways through either belts and pulleys, chains and sprockets, gears, or even powered directly from the motor. Direct drive and chains are the simpler of the options, with direct drive not needing a calculated distance at all just have to set the motor exactly where the center of the wheel is. Chains allow for a little bit of slack not needing an exact center to center distance in the wrap like belts and pulleys do. Finally gears which need to be a certain distance apart from each other to mesh properly and not skip or bind.
+Powering wheels can be done in a couple different ways through either belts and pulleys, chains and sprockets, gears, or even powered directly from the motor. Direct drive and chains are the simpler of the options, with direct drive not needing a calculated distance at all just have to set the motor exactly where the center of the wheel is. Chains allow for a little bit of slack not needing an exact center to center distance in the wrap like belts and pulleys do. Finally gears which need to be a certain distance apart from each other to mesh properly and not skip or bind.
 
 Mounting motors is done in a plate style by face mounting the motor into the innermost drivetrain plate. It can also be done by mounting the motors to a 3rd plate, located in between the outside and inside. This allows for the motor to take up less space in the middle of the robot, but adds complexity. Motors should always be as low as possible and depending where you want the center of mass, either the middle or towards the back of the robot. It is also worth keeping in mind the type of power transmission and the expediency of doing so in light of the motor placement.
 
@@ -147,7 +147,7 @@ The last step in pocketing is adding rounds to each and every corner, especially
 
 :term:`Waterjet cutters <Waterjet cutter>` and :term:`laser cutters <Laser cutter>` are only able to cut material all the way through, but routers and mills are able to make surface pockets. These pockets don't go all the way through the material and are multitudes more rigid than thru pocketing.
 
-The downside is increased machining time. The increased time is from the "lawn mowing" tool cutting path verses simply cutting the edges of the geometry. It is also more difficult to machine, because more material is milled out and chip ejection becomes more important.
+The downside is increased machining time. The increased time is from the "lawn mowing" tool cutting path versus simply cutting the edges of the geometry. It is also more difficult to machine, because more material is milled out and chip ejection becomes more important.
 
 .. figure:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-surface-pocketing.png
    :alt: Outer mechanism plate surface pocketed
@@ -158,7 +158,7 @@ If you don't have access to any precision tools, a hand drill/drill press and la
 
 Since the main goal of pocketing is to remove as much material as possible without significantly sacrificing the structural stability, the holes need to be drilled in specific positions with the right size bit.
 
-The most effective way to find the specific positions and drill bit sizes, is to first create a pocketing design as you would do with circles and tangent lines. Then draw holes tangent to the struts created by the circles and tangent lines. An example is below with the orange as the holes to drill positioned tangentially to the regular pocketed edges.
+The most effective way to find the specific positions and drill bit sizes is to first create a pocketing design as you would do with circles and tangent lines. Then draw holes tangent to the struts created by the circles and tangent lines. An example is below with the orange as the holes to drill positioned tangentially to the regular pocketed edges.
 
 .. image:: images/cad-tutorial/pocketing-guide/outer-mechanism-plate-tangent-circles.png
    :alt: Outer mechanism plate showing the tangent circles between the pockets

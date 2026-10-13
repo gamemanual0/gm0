@@ -1,7 +1,7 @@
 Using Telemetry
 ===============
 
-The SDK has "telemetry" that can be sent from the robot controller to the drivers station to display basic text. This telemetry is accessible through the ``Telemetry`` class, and the ``telemetry`` variable accessible in both OpMode and LinearOpMode.
+The SDK has "telemetry" that can be sent from the robot controller to the driver station to display basic text. This telemetry is accessible through the ``Telemetry`` class, and the ``telemetry`` variable accessible in both OpMode and LinearOpMode.
 
 Building Telemetry
 ------------------

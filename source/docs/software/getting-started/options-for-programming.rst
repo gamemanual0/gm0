@@ -8,9 +8,9 @@ There are three recommended options for teams to use when programming a robot to
 Blocks
 ------
 
-The Blocks Programming Tool is a simple way to code simple actions for the robot. It has a colorful and lego-like design and includes sounds of block pieces of snapping together.
+The Blocks Programming Tool is a simple way to code simple actions for the robot. It has a colorful and lego-like design and includes sounds of block pieces snapping together.
 
-Using a device and a robot controller phone, connect your device to the phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select "Program & Manage". This will display the WiFi SSID and password for you to connect to. Go onto your browser (preferably Chrome, though other modern browser will likely work) and enter the address shown on the :term:`RC <Robot Controller>`.
+Using a device and a robot controller phone, connect your device to the phone's Wi-Fi by clicking the three dots in the top right of the :term:`RC <Robot Controller>` and select "Program & Manage". This will display the WiFi SSID and password for you to connect to. Go onto your browser (preferably Chrome, though other modern browsers will likely work) and enter the address shown on the :term:`RC <Robot Controller>`.
 
 Advantages
 ^^^^^^^^^^

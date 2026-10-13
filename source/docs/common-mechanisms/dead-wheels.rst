@@ -18,7 +18,7 @@ The term dead wheels, tracking wheels, odometry pods, and odometry are often con
 
 Odometry refers to the use of motion sensors for localization. Localization is a means for being able to locate the position of the bot at some point in time. Localization is crucial in path following and advanced autonomous modes as one needs to know where they are to generate the necessary movements needed to reach a desired destination. :doc:`Localization software </docs/software/concepts/odometry>` plays a major role in odometry; however, in order to produce accurate results, reliable and accurate hardware design is a necessity.
 
-The simplest form of odometry is drive encoder localization. This is the use of encoders measuring the rotation of motors that power the drive train. One is able to read the encoder data and feed it through the kinematic equation for that specific drive train to derive the body's velocity. Drive encoder localization is generally quite simple and easy to setup as almost all of the FTC legal motors have built-in encoders. Getting drive encoder localization setup is simply a matter of plugging in wires, no additional hardware needed.
+The simplest form of odometry is drive encoder localization. This is the use of encoders measuring the rotation of motors that power the drive train. One is able to read the encoder data and feed it through the kinematic equation for that specific drive train to derive the body's velocity. Drive encoder localization is generally quite simple and easy to set up as almost all of the FTC legal motors have built-in encoders. Getting drive encoder localization set up is simply a matter of plugging in wires, no additional hardware needed.
 
 Many teams in the community have converged on a unique solution that isn't seen very much outside of FTC: the use of "dead wheels," "tracking wheels," or "odometry pods" (these terms are all synonymous). These refer to small "dead" or non-driven (not powered by a motor) wheels attached to an `encoder sensor <#encoders>`_. Two or three dead wheel pods are often sprung to the ground to ensure accurate tracking. The two-wheel design utilizes one parallel and one perpendicular pod (parallel and perpendicular with respect to the drive wheel axis), measuring x and y movement respectively. Change in heading is measured via a gyroscope. The three-wheel design utilizes two parallel and one perpendicular pod, measuring x and y movement respectively. However, this design forgoes the gyroscope and instead measures heading via the difference with the two parallel wheels. This is often more accurate in the context of the FTC control system because the BNO055 IMU (used for the gyroscope in the two-wheel design) utilizes I2C which is slower than the rest of the I/O on the REV Hub and cannot be bulk read. These two issues lead to minute drift issues which can compound over time, thus leading to a more inaccurate localization system when using the two-wheel design.
 
@@ -36,7 +36,7 @@ Drive Encoder Localization
   - Very little configuration necessary
 - **Cons**:
 
-  - Drive encoder localization on mecanum drive can be quite inaccurate due to lack on traction on mecanum wheels.
+  - Drive encoder localization on mecanum drive can be quite inaccurate due to lack of traction on mecanum wheels.
   - Will drift on high acceleration on mecanum drive. Accuracy will be good enough for basic autonomous modes if acceleration is limited
 
 Two-Wheel Odometry Pods
@@ -65,7 +65,7 @@ Three-Wheel Odometry Pods
 Encoders
 --------
 
-A lot of the localization done in software relies on readings from encoders. :ref:`encoders` are sensors that track "counts" or "ticks," which are values that represent a certain amount of a rotation. Different encoders might have a different number of counts per revolution (CPR), which is also sometimes also called ticks per revolution. The greater the number of counts, the more precise the data.
+A lot of the localization done in software relies on readings from encoders. :ref:`encoders` are sensors that track "counts" or "ticks," which are values that represent a certain amount of a rotation. Different encoders might have a different number of counts per revolution (CPR), which is also sometimes called ticks per revolution. The greater the number of counts, the more precise the data.
 
 Encoders are plugged into the JST-PH ports in the REV hubs. These encoders can either be built-in to the motors or external. External encoders will still need to be plugged into an encoder port but are not related to the motor in that port. Through software, we can use the motor object to determine the position of the encoder. This should be done with motors that do not use encoders. If you're using dead wheels, you will not need the drive motor encoder ports, so those are potential ports you might want to use.
 
@@ -110,7 +110,7 @@ The `S4T <https://www.usdigital.com/products/encoders/incremental/shaft/S4T>`_ m
 
    S4T Encoder
 
-*****Advantages:**
+**Advantages:**
 
 - Very compact
 

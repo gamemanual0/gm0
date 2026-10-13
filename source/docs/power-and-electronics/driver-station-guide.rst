@@ -16,14 +16,14 @@ Advantages
 - Full sized USB ports do not require flimsy On The Go (micro-USB connector to USB-A port) cables
 - Charges from USB-C including fast charging Power Delivery modes
 - Larger screen than many Android phones
-- Case is more robust then a standard Android phone
+- Case is more robust than a standard Android phone
 
 Disadvantages
 ^^^^^^^^^^^^^
 
 - Price: A Driver Hub costs $250.00, whereas legal Android phones can be purchased secondhand for less
 - Power Issues: Teams have reported random losses of power coming from an improperly sized battery.
-- Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster then expected
+- Battery Issues: Teams have reported high battery drain in sleep mode, leading to hubs dying faster than expected
 - Wifi Issues: The wifi driver will occasionally crash when the device goes to sleep, requiring a device restart
 
 .. important::
@@ -77,7 +77,7 @@ Controllers
 
 In the past, the Xbox 360 controller was preferred by many top teams over the Logitech F310. This is mostly as the Xbox controller has less of a dead spot. A dead spot is basically the area where the joystick can move but not communicate that the stick has shifted slightly. This means that when the joystick is moved to a position where the controller can detect it, the robot will sometimes have a tendency to lurch forward. Dead spots make it difficult for the driver to execute fine-tuned and precise movements. **This is likely a non-issue for the large majority of teams. Also, keep in mind that there are very specific models of the Xbox controller that are legal, so they can be hard to find new.**
 
-Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are legal and provide numerous advantages over Xbox 360 Controllers. Some of these advantages include, better trigger and bumper control, a more usable dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 controller is slightly different because the locations of the Left Stick and DPAD are swapped and `some button names are different. <https://github.com/OpenFTC/OpenRC-Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_ **Pro Tip: Make sure your drivers have experience with the controller they plan to use for competition.**
+Starting with the 2020-2021 season, the ETPark and Sony PS4 Controllers are legal and provide numerous advantages over Xbox 360 Controllers. Some of these advantages include better trigger and bumper control, a more usable dpad, and trackpad support as of the 2021-2022 season. Use of the PS4 controller is slightly different because the locations of the Left Stick and DPAD are swapped and `some button names are different. <https://github.com/OpenFTC/OpenRC-Turbo/blob/2d1e527d3d53c3ac7da701a73d342b85cf407835/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/Gamepad.java#L884>`_ **Pro Tip: Make sure your drivers have experience with the controller they plan to use for competition.**
 
 Generally it is the opinion that the PS4 controllers are better than the other options. Among the options for PS4 controllers, the choice is really up to you. The Sony controller has slightly better buttons, but the ETPark controller is half the cost and a more solid connecting wire. **Keep in mind that the drivers can use different controllers, so pick the one most comfortable to you.**
 

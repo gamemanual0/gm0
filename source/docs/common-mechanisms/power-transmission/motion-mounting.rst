@@ -44,7 +44,7 @@ Advantages
 
 - Simple power transmission with custom building
 - Axle can be used as a standoff support between different plates
-- Can require less parts then a live axle setup
+- Can require less parts than a live axle setup
 
 Disadvantages
 ^^^^^^^^^^^^^

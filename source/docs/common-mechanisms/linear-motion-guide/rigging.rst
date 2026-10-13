@@ -19,7 +19,7 @@ General Rigging Tips
 - Rig your extension string when the extension is retracted, and your retract string when the extension is at maximum extension
 - Clamping a string with a bolt instead of tying it around something makes it much easier to quickly change the tension of a string
 - If tying an abrasive material string, like kevlar, around a plastic part, you can tie the string around a washer to distribute the loads across the hole in the pulley instead of tying it directly into a hole in the pulley
-- Its generally easier to start from the side with the pulley and go to the end of the slides then the other way around
+- It's generally easier to start from the side with the pulley and go to the end of the slides than the other way around
 
 Continuous Rigging
 ------------------
@@ -42,7 +42,7 @@ Here are some additional considerations when rigging a continuous system.
 - You need to make sure, as with any time you work with strings and pulleys,
   that you are pulling the string straight. Any amount of misalignment can lead to the string coming off of your pulley.
 - The width and diameter of your spool should be enough such that once fully
-  wounded, your string never overlaps.
+  wound, your string never overlaps.
   The reason for this is because when the string starts to overlap,
   this can change the diameter of your spool,
   causing the tension in the string to change.
@@ -217,7 +217,7 @@ Another form of tensioner can be a spring-loaded pulley. Since the pulley is spr
 
 There are two main reasons that tensioners are highly recommended in string based linear slides, the first and oftentimes more important one is that at its core, a run of string is a series of polygons, and as the slide extends the effective size of that polygon changes. Meaning that when fully extended, your slide may require more or less string compared to when halfway extended. Or partially extended. The closer each set of bearings are, the less this impacts string tension.
 
-Another (but less impactful) thing to keep in mind that spool size changes as string is added/removed from the spool. If the spool radius increases, the speed of the extension will also increase, and torque, which opposes speed, will decrease. Consequently, tension will change as well. Therefore, a bit of slack is inherent in all linear extension designs using string.
+Another (but less impactful) thing to keep in mind is that spool size changes as string is added/removed from the spool. If the spool radius increases, the speed of the extension will also increase, and torque, which opposes speed, will decrease. Consequently, tension will change as well. Therefore, a bit of slack is inherent in all linear extension designs using string.
 
 .. attention:: It is highly encouraged that teams have at least one spring tensioner per linear slide set.
 

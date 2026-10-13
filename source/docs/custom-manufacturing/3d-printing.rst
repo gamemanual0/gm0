@@ -62,7 +62,7 @@ PETG can be described as a strength upgrade to PLA. It is not difficult to print
 Less Common Filaments
 ---------------------
 
-These filaments are less used than those listed above, but can still find plenty of use cases on an FTC robot. These usually are used due to specific material properties such as flexibility or durability. These often come however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
+These filaments are less used than those listed above, but can still find plenty of use cases on an FTC robot. These usually are used due to specific material properties such as flexibility or durability. These often come, however, with substantial obstacles for printing that prevent some printers from printing them out of the box, along with sometimes being significantly more expensive.
 
 ABS (Acrylonitrile Butadiene Styrene)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -106,7 +106,7 @@ Nylon filaments can be glass-filled, carbon fiber-filled, or pure. Nylon is the 
 Carbon Fiber-filled
 ^^^^^^^^^^^^^^^^^^^
 
-Many filaments are also sold with the addition of small chunks of carbon fiber mixed into the filament itself. While often though of as an extreme strength improvement, these filaments are instead meant to be stiffer and help to improve the printability of filaments like nylon. Carbon fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their carbon fiber-filled counterparts.
+Many filaments are also sold with the addition of small chunks of carbon fiber mixed into the filament itself. While often thought of as an extreme strength improvement, these filaments are instead meant to be stiffer and help to improve the printability of filaments like nylon. Carbon fiber-filled filaments generally require higher temperatures, and a hardened steel nozzle, but if you can print the pure variants of those filaments, you should be able to print their carbon fiber-filled counterparts.
 
 
 Polycarbonate (PC)

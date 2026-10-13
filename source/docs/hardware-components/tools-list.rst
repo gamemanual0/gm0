@@ -7,7 +7,7 @@ Necessary
 ---------
 
 - **Safety glasses. Wear them when you're using power tools. Seriously.**
-- Philips screwdrivers, assorted sizes
+- Phillips screwdrivers, assorted sizes
 - Hex drivers and hex L-keys
    - 7/64" hex (Actobotics and TETRIX)
    - 3/32", ball head for set screws is discouraged (TETRIX)

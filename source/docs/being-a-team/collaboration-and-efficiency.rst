@@ -47,7 +47,7 @@ This can be accomplished by using CAD software built around shared folders like 
 Software Collaboration
 ----------------------
 
-Software collaboration is easier to facilitate. Robot code should be version controlled regardless of the size of your software squad, so teaching your members how to share a team Github is an easy way to collaborate. Additionally, you can utilize pair programming (multiple members writing software together on one computer) to help catch bugs.
+Software collaboration is easier to facilitate. Robot code should be version controlled regardless of the size of your software squad, so teaching your members how to share a team GitHub is an easy way to collaborate. Additionally, you can utilize pair programming (multiple members writing software together on one computer) to help catch bugs.
 
 Efficiency
 ----------

@@ -8,7 +8,7 @@ Common Issues
 Exceptions
 ----------
 
-Exceptions are events that occur during the execution of a program, disrupting the normal flow of instructions, used in error events or problems that arise during runtime. A exception can be caught to avoid propagation, otherwise any exception that's not handled will cause the program flow to stop immediately.
+Exceptions are events that occur during the execution of a program, disrupting the normal flow of instructions, used in error events or problems that arise during runtime. An exception can be caught to avoid propagation, otherwise any exception that's not handled will cause the program flow to stop immediately.
 
 Some common types of exceptions include:
 
@@ -41,7 +41,7 @@ Some common types of exceptions include:
 
     }
 
-  - This can be fixed moving the "Servo" variable value definition to the init (or ``runOpMode()`` in LinearOpModes) method as follows:
+  - This can be fixed by moving the "Servo" variable value definition to the init (or ``runOpMode()`` in LinearOpModes) method as follows:
 
   .. code:: java
 

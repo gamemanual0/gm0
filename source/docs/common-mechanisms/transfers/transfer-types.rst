@@ -45,7 +45,7 @@ Disadvantages
 
 - Limited in horizontal and vertical movement
 - Care must be taken that mechanisms align properly to each other
-- Slower form of transfer then grate or direct
+- Slower form of transfer than grate or direct
 - Mechanism can be hit by other robots when outside the robot frame
 
 .. only:: latex
@@ -131,7 +131,7 @@ There are different types of conveyors that can be used.
 Roller Conveyor
 ^^^^^^^^^^^^^^^
 
-Roller conveyors use a series of rollers or wheels to move objects from the beginning of the conveyor to the end. These transfers allow for the use of compliant wheel for different or odd shaped items, but care must be taken that objects don't get stuck in between rollers. In addition, wheels tend to have better grip then many forms of continuous conveyors. Surgical tubing can also be used instead of rollers.
+Roller conveyors use a series of rollers or wheels to move objects from the beginning of the conveyor to the end. These transfers allow for the use of compliant wheel for different or odd shaped items, but care must be taken that objects don't get stuck in between rollers. In addition, wheels tend to have better grip than many forms of continuous conveyors. Surgical tubing can also be used instead of rollers.
 
 .. figure:: images/7244-roller.jpg
    :alt: 7244 Roller Conveyor intake, where a series of omni wheels moves a game element vertical
@@ -156,4 +156,4 @@ A continuous conveyor uses a continuous object, such as belts, surgical tubing, 
 Hybrid Conveyor
 ^^^^^^^^^^^^^^^
 
-Hybrid conveyors use rollers with continuous objects such as belts and rubber bands between them. This solves the contact issues of roller conveyors while also having more grip then purely continuous conveyors. However, these conveyors have to be designed to allow both the roller and continuous materials to make contact with the item.
+Hybrid conveyors use rollers with continuous objects such as belts and rubber bands between them. This solves the contact issues of roller conveyors while also having more grip than purely continuous conveyors. However, these conveyors have to be designed to allow both the roller and continuous materials to make contact with the item.

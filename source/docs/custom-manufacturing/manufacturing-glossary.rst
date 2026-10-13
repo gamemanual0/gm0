@@ -17,5 +17,5 @@ Manufacturing Glossary
       Standoffs are usually used in drivetrain purposes, such as in parallel plate drivetrains, where the plates must be separated and supported by standoffs at equal distances.
 
       .. image:: images/standoffs.png
-         :alt: A couple of standoffr
+         :alt: A couple of standoffs
          :width: 200

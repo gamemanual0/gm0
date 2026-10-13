@@ -119,7 +119,7 @@ Here's a breakdown of a typical FTC season budget:
 - A competition field will also run you $659, and - unless you take care with the tiles that make it up - it will cost you additional money to replace every 2-3 years.
 - The *FIRST* Control and Communication set will cost you $265, and their Electronics set will cost $282. Buying an additional Expansion Hub to maximize your robot's actuation will cost another $250. If you're careful, these are one-time purchases.
 - The goBILDA FTC Starter Kit, which is recommended to start you with basic hardware, will run you $600 (with the FTC discount). If you CAD design your robot in advance, you can go cheaper.
-- Extra money for sensors and servos - each can run you up to $100 each! Assuming 2 servos and 3 sensors, that's $500.
+- Extra money for sensors and servos - each can run you up to $100! Assuming 2 servos and 3 sensors, that's $500.
 
 The above budget adds up to $4,000 in startup costs, and roughly $2,500 per year. You can definitely start a team on a budget much cheaper than this, but if you have the opportunity to pitch a larger budget, seize it!
 

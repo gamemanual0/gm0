@@ -124,7 +124,7 @@ Power Transmission
 
 `How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual guide to how gears work.
 
-`KHK Introduction to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanicis of gears.
+`KHK Introduction to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanics of gears.
 
 Calculators
 ^^^^^^^^^^^
@@ -161,7 +161,7 @@ Programming
 Libraries
 ^^^^^^^^^
 
-`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use openCV on an FTC robot. With this library, you can go from a stock SDK to running a sample openCV OpMode, with either an internal or external camera, in just a few minutes!
+`Easy Open CV <https://github.com/OpenFTC/EasyOpenCV>`_ --- A straightforward way to use OpenCV on an FTC robot. With this library, you can go from a stock SDK to running a sample OpenCV OpMode, with either an internal or external camera, in just a few minutes!
 
 `FTC Dashboard <https://github.com/acmerobotics/ftc-dashboard>`_ --- FTC Dashboard is a websocket-based React dashboard designed for FTC. It is very useful for debugging, including features such as displaying and graphing telemetry live as well as tuning configuration variables in real-time while opmodes are running.
 
