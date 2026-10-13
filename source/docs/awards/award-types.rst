@@ -118,7 +118,7 @@ Official |cm| Description
 
       This judged award is given to the team that connects with their local science, technology, engineering, and math (STEM) community to learn and adopt new tools through effort and persistence. This team has a team plan and has identified steps to achieve their goals. A PORTFOLIO is not required for this award.
 
-Be prepared for judges to ask you how your outreaches were meaningful, and try to avoid doing STEM outreaches just for the sake of saying you did a STEM connections. Successful STEM outreaches are those that are undertaken for a specific purpose and have a clear intent and goal, such as meeting with an expert on computer vision to ask for advice on a vision task for the game. If you are struggling to find STEM outreaches, local colleges and businesses are a good start.
+Be prepared for judges to ask you how your outreaches were meaningful, and try to avoid doing STEM outreaches just for the sake of saying you did a STEM connection. Successful STEM outreaches are those that are undertaken for a specific purpose and have a clear intent and goal, such as meeting with an expert on computer vision to ask for advice on a vision task for the game. If you are struggling to find STEM outreaches, local colleges and businesses are a good start.
 
 Connect Award Criteria
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -147,7 +147,7 @@ The core of this award is depth, purpose, and learning, not just quantity.
 - The problem you were trying to solve.
 - Who you met (e.g., "Dr. Anna Smith, Professor of Computer Vision").
 - Key takeaways and advice received.
-- Photos of your team with the expert or implementing of their advice.
+- Photos of your team with the expert or the implementing of their advice.
 
 **Show a Spectrum of Connections.** A strong portfolio shows you seek help for different needs:
 
@@ -263,7 +263,7 @@ This award is about systems, processes, and forward-thinking to ensure the team 
    - Make sure your numbers are somewhat accurate! If you are at a large event, you can get a rough headcount from the organizers, but it's generally better to know roughly how many people actually stopped and looked at your team.
    - Present stories to the judges, not just overviews. Tell personal stories.
    - Log all your outreach events, with who went and how many hours each person did in its own place separate from the |EP|. This makes it easier to compile total numbers and shows the judges every outreach activity/event in one place.
-   - For a bigger impact make sure you have more resources then just your team's information at an event, having details for FIRST Lego League teams in addition to your FIRST Tech Challenge information can broaden how many people you reach.
+   - For a bigger impact make sure you have more resources than just your team's information at an event, having details for FIRST Lego League teams in addition to your FIRST Tech Challenge information can broaden how many people you reach.
    - Follow up, follow up, follow up! If a person gives you a business card or a student expresses interest, it doesn't hurt to follow up if they don't reach out as promised. People can forget or get busy, sometimes a reminder is useful!
 
 Innovate Award
@@ -371,7 +371,7 @@ The Control award is meant to recognize a team that has a good software solution
 
 Do not directly put code into your portfolio, the judges will not care. Instead, focus on explaining key algorithms that you use, and explain the software in an easy to understand way. Remember, your control award judges may not be software engineers or programmers, so make sure you can explain everything to someone without a software background.
 
-In addition, control award software is more then just your autonomous mode programs. Driver assistance, feedback, and automation all are vital to the control award.
+In addition, control award software is more than just your autonomous mode programs. Driver assistance, feedback, and automation all are vital to the control award.
 
 Control Award Criteria
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -406,7 +406,7 @@ Official |cm| Description
 
 The Design Award is one of the robot awards that primarily focuses on the hardware aspect of the robot. It is for robots that are both functional, aesthetic, and use good design practices, including CAD.
 
-In order to be considered for the Design Award, it's recommended that your team uses CAD and designs the robot before it is built, with |EP| sections about the development of the robot through iterations of the engineering design process. Its important to include CAD screenshots and drawings in your portfolio, and your design should be consistent with any team goals listed.
+In order to be considered for the Design Award, it's recommended that your team uses CAD and designs the robot before it is built, with |EP| sections about the development of the robot through iterations of the engineering design process. It's important to include CAD screenshots and drawings in your portfolio, and your design should be consistent with any team goals listed.
 
 While functionality is what most teams focus on, the Design Award also takes into account aesthetics, and most judges will generally be turned off by an ugly robot for this award (no cardboard on the robot!), so make sure your robot looks presentable.
 
@@ -425,8 +425,8 @@ Design Award Criteria
 | **Encouraged** | 5 | Design is effective and consistent with the team's game plan and/or strategy.                                                                  |
 +----------------+---+------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Judges Choice Award
-~~~~~~~~~~~~~~~~~~~
+Judges' Choice Award
+~~~~~~~~~~~~~~~~~~~~
 
 This award is optional and not given at all FIRST Tech Challenge events. During the competition, the judging panel may meet a team whose unique efforts, performance, or dynamics merit recognition, but does not fit into any of the other award categories. To recognize these unique teams, FIRST offers a Judges' Choice Award.
 

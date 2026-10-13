@@ -122,7 +122,7 @@ A foam wheel intake has the same principles as a compliant wheel intake, except 
 Rubber Band Intake
 ^^^^^^^^^^^^^^^^^^
 
-Rubber band intakes, commonly used by in VRC, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
+Rubber band intakes, commonly used in VRC, generally feature sprockets, wheels, or gears at two ends, with rubber bands interlaced in between to form a pliable and bendable roller. Generally, it can be actuated or adjustable with a servo, although this is not necessary.
 
 Rubber band intakes are great with intaking balls, but not so great with other types of game elements such as cubes. It generally is slower than a surgical tubing intake, and requires multiple stages to transfer elements from collection to deposit. Zip ties can be added to increase the intake's range to accommodate for smaller balls.
 

@@ -21,7 +21,7 @@ Servos are commonly used in RC cars (steering) and RC planes (moving ailerons). 
 
 There are many servos from different manufacturers, which vary widely in price, performance and value. Fortunately, virtually all servos use the standard 3-wire connector, and accept the same kind of controlling signal (PWM signal at 50 hz). Each REV Expansion Hub provides 6 servo ports, so you can plug in a servo from any manufacturer. Also, there is a standard size for servos for FTC use, so mounts can be interchanged between manufacturers.
 
-Commonly used servos used in FTC are the `goBILDA Dual Mode Servos <https://www.gobilda.com/standard-size-servos>`_ and REV Smart Robot Servo, but you should check out other servos as well. Picking the right servo for your application is a question that's almost impossible to give a blanket answer for. To learn more, please read the :doc:`choosing-servo` section.
+Commonly used servos in FTC are the `goBILDA Dual Mode Servos <https://www.gobilda.com/standard-size-servos>`_ and REV Smart Robot Servo, but you should check out other servos as well. Picking the right servo for your application is a question that's almost impossible to give a blanket answer for. To learn more, please read the :doc:`choosing-servo` section.
 
 The most prevalent problem with servos is durability. Internal servo gears in cheaper servos strip easily when subjected to shock loads. Servos are also often poor at handling lateral loads or bending of the shaft. To avoid having to frequently replace servos, choose ones with steel gears and use :term:`ServoBlocks` or your kit's equivalent to prolong longevity.
 

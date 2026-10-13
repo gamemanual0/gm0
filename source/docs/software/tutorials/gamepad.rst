@@ -56,7 +56,7 @@ Since both PS4-style and Xbox-Style controllers are FTC\ |reg| legal, there are 
 Boolean Inputs
 --------------
 
-TeleOp OpModes are generally written in iterative style, with a loop that contains code that is called over an over. Under this paradigm, a simple handling of user input could look like
+TeleOp OpModes are generally written in iterative style, with a loop that contains code that is called over and over. Under this paradigm, a simple handling of user input could look like
 
 .. code-block::
 
@@ -247,7 +247,7 @@ The simplest way to command rumble: rumble motor 1 at 100% power for a specified
 
    gamepad1.rumble(int durationMs);
 
-If control over both rumble motors and rumble intensity is desried:
+If control over both rumble motors and rumble intensity is desired:
 
 .. code-block::
 

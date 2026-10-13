@@ -10,7 +10,7 @@ General Explanation
 
 Motor Controller
 ^^^^^^^^^^^^^^^^
-All motor ports are controlled with what is called an H-bridge motor controller, a circuit that can be used to vary the output voltage as well as signage (negative or positive) of the voltage. Negative voltage through a DC Motor reverses a motor, whereas positive motor will make the motor go forward. SDK Motor power (from -1 to 1), represents a multiplier of the input voltage that is output through the motor port. The different voltages are created via PWM, where the port is turned on and off rapidly to create a lower average voltage.
+All motor ports are controlled with what is called an H-bridge motor controller, a circuit that can be used to vary the output voltage as well as sign (negative or positive) of the voltage. Negative voltage through a DC Motor reverses a motor, whereas positive voltage will make the motor go forward. SDK Motor power (from -1 to 1) represents a multiplier of the input voltage that is output through the motor port. The different voltages are created via PWM, where the port is turned on and off rapidly to create a lower average voltage.
 
 In addition, the zero power behavior of the motor, that is the behavior of the motor when no power is applied, can be configured. In FLOAT mode, the motor controller simply turns off, providing minimal additional resistance. In BRAKE mode, the two motor leads are shorted together internally. Due to the inherent property that all DC brushed motors generate electricity when the shaft spins, shorting the leads causes a reverse power that stops the motor quickly and is resistant to external forces.
 
@@ -47,4 +47,4 @@ Tips
 - While current readings are not bulk read, current alerts (``isMotorOverCurrent()``) is bulk read.
 - PID/PIDF coefficients use internal units for the output, a two byte short from -32767 to 32767, instead of the user -1 to 1.
 - The default ``getVelocity()`` method returns the encoder velocity in ticks per second.
-- The ``RunMode`` ``STOP_AND_RESET_ENCODERS`` is not actually a run mode. Instead, it just sets the power to zero and sends a ``LynxResetMotorEncoderCommand``. This command can be issued manually if one wants to easy reset a motor encoder without changing the run mode.
+- The ``RunMode`` ``STOP_AND_RESET_ENCODERS`` is not actually a run mode. Instead, it just sets the power to zero and sends a ``LynxResetMotorEncoderCommand``. This command can be issued manually if one wants to easily reset a motor encoder without changing the run mode.

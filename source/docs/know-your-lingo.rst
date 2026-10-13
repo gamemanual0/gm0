@@ -59,7 +59,7 @@ REV Control Hub
    Integrated Expansion Hub + :term:`Robot Controller` phone.
    It serves many of the same purposes as the Expansion Hub but
    eliminates the need for a :term:`Robot Controller` phone.
-   1 Expansion Hub may be used along side 1 Control Hub.
+   1 Expansion Hub may be used alongside 1 Control Hub.
 Driver Station (DS)
    Android phone connected to the gamepad controller.
    Drivers interact with the DS phone to start/stop robot.

@@ -139,4 +139,4 @@ Assuming you have an encoder on your arm, you can find :math:`\theta` (the angle
 
    current_angle = (TICKS_AT_ZERO - current_tick) * DEGREE_PER_TICK
 
-The typical way to utilize the effect of gravity you just found, is to pass it in as a feedforward parameter to a PID controller. We cover this in :ref:`gravity-compensated-feedforward`.
+The typical way to utilize the effect of gravity you just found is to pass it in as a feedforward parameter to a PID controller. We cover this in :ref:`gravity-compensated-feedforward`.

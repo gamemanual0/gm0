@@ -23,7 +23,7 @@ Overall Tips
 - Images, Images, Images: CAD Drawings and screenshots can be useful tools, but also have actual pictures of mechanisms and components. While renders can look impressive in covers, a lot of judges prefer actual CAD screenshots or pictures.
 - **Make sure your team number is on the cover page of the portfolio.**
 - Don't over explain everything. You want to leave things for judges to ask questions about.
-- Remember that your portfolio isn't just for judges to read, its a good tool to have in judging as a quick reference to present to judges.
+- Remember that your portfolio isn't just for judges to read, it's a good tool to have in judging as a quick reference to present to judges.
 
 Cover Page
 ^^^^^^^^^^
@@ -46,7 +46,7 @@ Robot
 
 Your portfolio must contain an overview of your robot and its components. However, the portfolio should go a step beyond just describing the components of your robot. Generally, teams split up their robot into 3-4 parts, putting a different mechanism on a new page. The page should have pictures and descriptions of the mechanism, but should also have iterations and explanations of how the team arrived at that version of the mechanism or why that system was chosen, as well as why previous iterations didn't work and/or what was improved between iterations.
 
-.. tip:: Get in the habit of taking photos of everything! Whether its a quick jig meant to test something or a full on prototype, you should have pictures to put in the portfolio as iterations.
+.. tip:: Get in the habit of taking photos of everything! Whether it's a quick jig meant to test something or a full on prototype, you should have pictures to put in the portfolio as iterations.
 
 As a quick reference, robot mechanism pages should contain the following:
 
@@ -72,7 +72,7 @@ Having specific examples for these sections is generally recommended.
 Team Information
 ----------------
 
-An engineering portfolio needs to cover more then just the team's season and robot, it should cover details about the team itself. This doesn't just mean a list of team members. Topics covered in this section should include:
+An engineering portfolio needs to cover more than just the team's season and robot, it should cover details about the team itself. This doesn't just mean a list of team members. Topics covered in this section should include:
 
 - Basic outline of team members and groups
 - Funding, sponsors, and expenses
@@ -91,7 +91,7 @@ Sustainability is a very important part of an organization, and it is also a maj
 Outreach/Nontechnical Information
 ---------------------------------
 
-Outreach is the nontechnical aspect of your team, including connections with the general community, mentoring, and reaching out to the STEM Community. Due to how similar these things are, its tempting to combine them into one section, but there are distinctions that should be made between them.
+Outreach is the nontechnical aspect of your team, including connections with the general community, mentoring, and reaching out to the STEM Community. Due to how similar these things are, it's tempting to combine them into one section, but there are distinctions that should be made between them.
 
 Connections with the STEM Community
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

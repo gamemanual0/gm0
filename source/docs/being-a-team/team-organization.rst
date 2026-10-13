@@ -24,7 +24,7 @@ Teams should strive to increase their knowledge of FTC design, software, and out
 Practice over the summer.
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Summer projects are a great way to explore robot concepts and start outreach. For instance, your team could research different lift designs and create a decision matrix of strengths and weaknesses. More often than not, the designs you research will make it onto your competition robot in the upcoming season - and regardless, the mechanical techniques you learn will be helpful. Reaching out to STEM businesses before the season will help you gain insights that could be helpful for the upcoming year, and planning and implementing outreach initiatives in your community will give you a headstart for the season.
+Summer projects are a great way to explore robot concepts and start outreach. For instance, your team could research different lift designs and create a decision matrix of strengths and weaknesses. More often than not, the designs you research will make it onto your competition robot in the upcoming season - and regardless, the mechanical techniques you learn will be helpful. Reaching out to STEM businesses before the season will help you gain insights that could be helpful for the upcoming year, and planning and implementing outreach initiatives in your community will give you a head start for the season.
 
 Create and utilize resources.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

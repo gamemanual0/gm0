@@ -13,7 +13,7 @@ Design Tradeoffs
 +--------------------------------+----------------------------------------+
 | **Pushbot**                    | **Mecanum, 6WD, etc.**                 |
 |                                |                                        |
-| - Poor agility/manuverability  | - More agile, higher top speed         |
+| - Poor agility/maneuverability | - More agile, higher top speed         |
 | - Poor top speed               | - Customizable gear ratio              |
 +--------------------------------+----------------------------------------+
 | **Claw**                       | **Intake**                             |

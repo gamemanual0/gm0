@@ -10,7 +10,7 @@ Bolts, screws and nuts are all threaded fasteners -- meaning they use a helical 
 
 Thread Basics
 ^^^^^^^^^^^^^
-To understand threaded fasteners, you will need to know some basic terminology
+To understand threaded fasteners, you will need to know some basic terminology.
 
 
 .. figure:: images/thread-diagram.png
@@ -57,7 +57,7 @@ For major diameters of |frac14|" or greater, first number is simply the major di
    =====  =====
 
 
-Some common imperial thread sizes in FTC include |frac14|-20 (one quarter inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major diameter, 32 threads per inch)
+Some common imperial thread sizes in FTC include |frac14|-20 (one quarter inch major diameter, 20 threads per inch) and #6-32 (0.138 inch major diameter, 32 threads per inch).
 
 Metric (ISO)
 ~~~~~~~~~~~~
@@ -183,7 +183,7 @@ To create external threads, you use a tool called a die.
 Threadlocker
 ^^^^^^^^^^^^
 
-Bolts on your robot may loosen over time, especially if there are heavy vibrations. To prevent this you may use locking nuts or lock washers, which mechanically press against the thread. Another solution is to use a threadlocker, which is an adhesive compound that -- as it's name suggests -- locks threads in place.
+Bolts on your robot may loosen over time, especially if there are heavy vibrations. To prevent this you may use locking nuts or lock washers, which mechanically press against the thread. Another solution is to use a threadlocker, which is an adhesive compound that -- as its name suggests -- locks threads in place.
 
 .. glossary::
 
@@ -195,7 +195,7 @@ Bolts on your robot may loosen over time, especially if there are heavy vibratio
 
       .. danger::
 
-         Blue or red Loctite should not be used with brittle plastics such as polycarbonate. This is known to cause the plastic to crack. Instead, either use a `cyanoacrolate based glue <https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch <https://www.mcmaster.com/products/screws/socket-head-screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this will not damage the plastic.
+         Blue or red Loctite should not be used with brittle plastics such as polycarbonate. This is known to cause the plastic to crack. Instead, either use a `cyanoacrylate based glue <https://www.loctiteproducts.com/products/central-pdp.html/loctite-super-pro-gel/SAP_0201DGL029Z5.html>`_ or use a `screw with a nylon patch <https://www.mcmaster.com/products/screws/socket-head-screws~/18-8-stainless-steel-thread-locking-socket-head-screws/>`_ as this will not damage the plastic.
 
          Also note: **THE BOTTLE COLOR AND THE FLUID COLOR ARE REVERSED.** When we refer to the "color", we mean the fluid color. Blue loctite usually comes in a red bottle.
 

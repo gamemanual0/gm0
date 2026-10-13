@@ -19,7 +19,7 @@ Drivetrain types
 Drivetrain selection
 --------------------
 
-When building any mechanism, teams must list out some necessities or desired features. Here are some priorities for that we think are important for each drivetrain:
+When building any mechanism, teams must list out some necessities or desired features. Here are some priorities that we think are important for each drivetrain:
 
 1. **Reliability**: Reliability, the key to success in *FIRST*\ |reg| Tech Challenge, starts with the drivetrain, the foundation to any robot. One aspect of reliability to consider is the type of motor and gearbox that is used in the drivetrain. For example, spur gearboxes are more likely to break under load than a planetary gearboxes. (See the :doc:`/docs/power-and-electronics/motor-guide/index` for details). Thus, spur gear motors are not the optimal choice for drivetrain, especially if the robot is projected to be on the heavy side (30+ pounds).
 

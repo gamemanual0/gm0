@@ -43,7 +43,7 @@ Since the bare motor is similar for all motors discussed above, the choice of th
 Gearboxes
 ---------
 
-There are two kinds of gearboxes: spur gearboxes, and planetary (also known as orbital) gearboxes. Their inner structure and difference is discussed in detail in :doc:`gearbox-anatomy` section. For new teams, it suffices to know that planetary gearboxes much more reliable, but may be slightly more expensive. Spur gearboxes can strip under shock loads (for example, when your robot hits a wall), requiring you to replace the gearbox. For this reason, it is advised to use planetary gearboxs, especially in high-load use cases such as drivetrains.
+There are two kinds of gearboxes: spur gearboxes, and planetary (also known as orbital) gearboxes. Their inner structure and difference is discussed in detail in :doc:`gearbox-anatomy` section. For new teams, it suffices to know that planetary gearboxes much more reliable, but may be slightly more expensive. Spur gearboxes can strip under shock loads (for example, when your robot hits a wall), requiring you to replace the gearbox. For this reason, it is advised to use planetary gearboxes, especially in high-load use cases such as drivetrains.
 
 Planetary Gearboxes
 ^^^^^^^^^^^^^^^^^^^
@@ -53,7 +53,7 @@ Standard planetary gearboxes include :term:`AndyMark NeveRest Orbital motors <Ne
 Any of these "standard" gearboxes are more robust than spur gearboxes. Like the spur gearboxes, the gearboxes from different vendors, while not interchangeable, are very comparable in terms of robustness. Once again, the main thing to consider here is your desired reduction, your desired motor connections, and your desired output :term:`shaft <Shaft>` type.
 
 - `goBILDA Yellow Jacket <https://www.gobilda.com/yellow-jacket-planetary-gear-motors/>`_ has the most varied selection of gearbox ratios with too many to list here, but utilize the rather uncommon :term:`3.5mm Bullet` connection for power. The output :term:`shaft <Shaft>` is a 8mm REX (7mm hex rounded to 8 mm) or :term:`6mm D-shaft <Shaft>`.
-- `REV HD Hex Motor with UltraPlanetary Gearbox <https://www.revrobotics.com/rev-41-1600/>`_ - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mix & matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and a maximum of 125:1.  The motor uses the same connections (:term:`JST VH`) as the REV Expansion and Control Hub for power, which means no adapter cables are necessary.
+- `REV HD Hex Motor with UltraPlanetary Gearbox <https://www.revrobotics.com/rev-41-1600/>`_ - The UltraPlanetary is a customizable planetary gearbox that is designed for FTC. The three gearbox options are 3:1, 4:1, and 5:1, and can be mixed & matched to create a custom ratio. It is possible to use from one to three gearboxes for a minimum ratio of 3:1 and a maximum of 125:1.  The motor uses the same connections (:term:`JST VH`) as the REV Expansion and Control Hub for power, which means no adapter cables are necessary.
 
   .. note::
      While REV lists the UltraPlanetary stages as 3:1, 4:1, and 5:1, their actual gear ratios are slightly different. Consult the `REV UltraPlanetary User's Manual for the exact gear ratios <https://docs.revrobotics.com/rev-crossover-products/ultraplanetary/cartridge-details>`_.

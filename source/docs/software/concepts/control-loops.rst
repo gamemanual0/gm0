@@ -58,11 +58,11 @@ The Integral Term
 
 Admittedly, the integral term is the least important term for FTC\ |reg| PID control loops. With a properly tuned :math:`K_p` and :math:`K_d`, you often can just set :math:`K_i` to 0 and call it a day.
 
-However, it can still be useful in some cases. Just like the derivative term, the integral term intends to correct for overshoot. if the system thinks it reached its destination, it will stop, even when, in fact, the error is not yet 0. Perhaps the motor is no longer being supplied enough power to move. Well, given enough time, the integral term will increase the output (in this case, motor power), causing movement towards the destination.
+However, it can still be useful in some cases. Just like the derivative term, the integral term intends to correct for overshoot. If the system thinks it reached its destination, it will stop, even when, in fact, the error is not yet 0. Perhaps the motor is no longer being supplied enough power to move. Well, given enough time, the integral term will increase the output (in this case, motor power), causing movement towards the destination.
 
 To explain without calculus, the integral term essentially sums the error over a specific interval of time. To do this, error in each loop iteration is added to a variable (in this case, :math:`I(t)`).
 
-However, summing error this way has an unfortunate side effect: the longer the loop takes to complete one iteration, the more slowly this sum increases, which is obviously not desirable, as we don't want lag to affect how the robot moves. To compensate for this, before the error is added to :math:`I(t)`, it is multiplied by how long the previous loop took to-complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum more slowly.
+However, summing error this way has an unfortunate side effect: the longer the loop takes to complete one iteration, the more slowly this sum increases, which is obviously not desirable, as we don't want lag to affect how the robot moves. To compensate for this, before the error is added to :math:`I(t)`, it is multiplied by how long the previous loop took to complete, or :math:`t_{n+1}-t_n`, preventing lag from making the system sum more slowly.
 
 So say the robot stops short of the target. The P and D combination aren't strong enough to move it forward to the destination. You can either tune :math:`K_p` and :math:`K_d` to compensate (**this is recommended**), or you can add the integral term to increase output (**this works too, but requires more attention and tuning to achieve the same result**).
 
@@ -147,7 +147,7 @@ PID Controller Sample Rate
 For teams who desire the most performance out of their PID controller,
 it is essential to consider the Sample rate of the controller.
 The Sample rate is when the controller updates its output given new sensor data.
-Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample rate effects stability in a practical motor control example.
+Higher Sample rates allow for more stable control and allow for the usage of more significant PID coefficients to reduce settling time. See this `video <https://www.youtube.com/watch?v=fusr9eTceEo&t=133s>`_ to see how sample rate affects stability in a practical motor control example.
 The inbuilt PID controller is locked at a 20hz refresh rate (50ms sample rate). Many top FTC teams optimize their robot loops to run at up to 80hz,
 achieving *much* more stable control with an external PID.
 

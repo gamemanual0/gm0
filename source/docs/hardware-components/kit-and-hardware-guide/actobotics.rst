@@ -13,7 +13,7 @@ Special Considerations
 - Actobotics' :term:`channel <Channel>` hole pattern has many more mounting holes than a Tetrix channel, so it offers more flexibility in terms of mounting.
 - Actobotics uses imperial units across the board, allowing for clean spacing and fitting. However, most other kits use metric.
 - Actobotics can interface with other kits such as REV through a variety of Pattern Adapters.
-- ServoCity offers a 25% off discount for all *FIRST*\ |reg| teams making, pricing competitive: https://www.servocity.com/first_team_discounts
+- ServoCity offers a 25% off discount for all *FIRST*\ |reg| teams, making pricing competitive: https://www.servocity.com/first_team_discounts
 
 Notable Components
 ------------------

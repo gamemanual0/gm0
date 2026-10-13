@@ -105,7 +105,7 @@ Information about parts and materials, as well as pictures of every mechanism (p
 
 Ample graphics (CAD screenshots/renders, pictures, etc.) will help judges understand how it works and why it is useful. **However, make sure that each graphic has a caption or explanation. Do not expect judges to understand how your robot works through pictures only.**
 
-As with most documentation, using actual CAD screenshots or real world photos is generally better then high quality renders. While renders are interesting from a technological and aesthetic perspective, they usually take more time and effort and also don't convey your engineering process as well. CAD screenshots tend to make the document more like an actual engineering process documentation and can look much more professional, even if they aren't as aesthetically pleasing.
+As with most documentation, using actual CAD screenshots or real world photos is generally better than high quality renders. While renders are interesting from a technological and aesthetic perspective, they usually take more time and effort and also don't convey your engineering process as well. CAD screenshots tend to make the document more like an actual engineering process documentation and can look much more professional, even if they aren't as aesthetically pleasing.
 
 Additionally, use math in these explanations to target the Think award.
 

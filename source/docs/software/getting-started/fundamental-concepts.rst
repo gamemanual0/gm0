@@ -41,7 +41,7 @@ There are different types of variables
    String coolName = "Gluten Free";
    String restOfSentence = " is epic.";
 
-   // Prints out the sentence by combining the strings, unlike adding if they // were integers
+   // Prints out the sentence by combining the strings, unlike adding if they were integers
    System.out.println(coolName + restOfSentence);
 
    // Fun fact: Using + to add strings is called String Concatenation

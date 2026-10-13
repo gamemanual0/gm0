@@ -10,7 +10,7 @@ Intake
 
 An intake is differentiated from a claw as an intake does not grasp individual game elements using a pinching motion, but rather sucks the element in through a variety of means such as wheels, tubes, etc.
 
-There are multiple parts of an effective intake: intake geometry, intake type and material, and speed. However, a common rule of them is the faster the intake, often the more effective it is. For example, near the end of Rover Ruckus, many of the top performing teams used a 3.7:1 (1600 RPM) motor or a 5.2:1 (1000 RPM) motor on their intake.
+There are multiple parts of an effective intake: intake geometry, intake type and material, and speed. However, a common rule of thumb is the faster the intake, often the more effective it is. For example, near the end of Rover Ruckus, many of the top performing teams used a 3.7:1 (1600 RPM) motor or a 5.2:1 (1000 RPM) motor on their intake.
 
 .. tip:: While not a necessity, it is highly recommended that teams dedicate at least one motor to their intake if possible.
 

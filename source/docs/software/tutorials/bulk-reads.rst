@@ -52,7 +52,7 @@ However, this can be problematic, if the same hardware read is called more than 
    }
 
    while (opModeIsActive()) {
-      // Will run two bulk read per cycles,
+      // Will run two bulk reads per cycles,
       // as frontLeftMotor.getCurrentPosition() is called twice
       int frontLeftEncoderPos = frontLeftMotor.getCurrentPosition();
       int frontLeftEncoderPos2 = frontLeftMotor.getCurrentPosition();

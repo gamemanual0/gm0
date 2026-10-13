@@ -63,7 +63,7 @@ It is suggested that a four wheel drivetrain be close to, or exactly, a square. 
    .. glossary::
 
       Weight distribution
-         Weight distribution generally refers to how the weight of the robot is proportioned. It is desirable to have a relatively 50-50 (50% of weight in the front half, 50% in back half) so that the drivetrain has optimal manuverability and turning.
+         Weight distribution generally refers to how the weight of the robot is proportioned. It is desirable to have a relatively 50-50 (50% of weight in the front half, 50% in back half) so that the drivetrain has optimal maneuverability and turning.
 
 Off-center turning, which may or may not be a drawback, is nearly ubiquitous among 4 wheel drives. This may not be a problem for teams, but it is good to be aware of it. Off-center turning can be an advantage, but be warned that turning will be slightly slower on 4 wheel drives than their six or eight wheel counterparts.
 

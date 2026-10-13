@@ -40,7 +40,7 @@ Four Bar
 
 One type of linkage is called a four bar linkage. This is a linkage that keeps the end bar at the same angle to the ground at all times. For example, if the end bar of a virtual four bar is parallel to the ground when retracted, it will be parallel to the ground at all times, even when rotated fully out. This is beneficial for mechanisms like claws, which you want parallel to the ground during operation. In addition, four bars can provide extension outside of the robot frame, and generally provide both vertical and horizontal extension due to the "arc" that the arm follows. Also, the construction material of the four bar can be carefully selected to save weight.
 
-This mechanism is not widely used in FTC\ |reg| due to the space requirements. The linkage bars that keep the end bar parallel restrict a four bar to under 180 degrees of travel (less then 90 degrees in either direction) without specialized mechanical construction, and the bars also take up space in the robot frame.
+This mechanism is not widely used in FTC\ |reg| due to the space requirements. The linkage bars that keep the end bar parallel restrict a four bar to under 180 degrees of travel (less than 90 degrees in either direction) without specialized mechanical construction, and the bars also take up space in the robot frame.
 
 .. dropdown:: CAD Example of Four Bar (Click to expand)
 
@@ -57,7 +57,7 @@ This mechanism is not widely used in FTC\ |reg| due to the space requirements. T
 Virtual Four Bar
 ^^^^^^^^^^^^^^^^
 
-The more popular alternative to the Four Bar linkage is a Virtual Four Bar. While not technically a linkage, a virtual four bar uses chains or belts to create an effect similar to a four bar, where the end effector is kept at a fixed angle to the ground at all times. Because the need for additional bars are eliminated, this "linkage" can travel more then 180 degrees, and also can take up less space then a traditional four bar linkage.
+The more popular alternative to the Four Bar linkage is a Virtual Four Bar. While not technically a linkage, a virtual four bar uses chains or belts to create an effect similar to a four bar, where the end effector is kept at a fixed angle to the ground at all times. Because the need for additional bars are eliminated, this "linkage" can travel more than 180 degrees, and also can take up less space than a traditional four bar linkage.
 
 This mechanism is more widely used in FTC, as it is an easy addition to an arm to maintain the end effector's angle relative to the ground.
 
@@ -92,7 +92,7 @@ This mechanism is not widely used in FTC due to the generally large space requir
 Virtual Double-Reverse Four Bar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion then a double-reverse four bar, and can also extend in both directions.
+Similar to the virtual four bar, the virtual double-reverse four bar is a linkage that uses belts or chains to replace the linkage bars of the double-reverse four bar. The virtual double-reverse four bar is simply a virtual four bar where the end effector sprocket/pulley is half the size of the static sprocket/pulley, leading to a 2:1 driving ratio. Then, a bar is mounted to the end effector sprocket/pulley, and another chain/belt is run, which creates purely linear motion with an end effector that is always at the same angle to the ground. This creates much more compact linear motion than a double-reverse four bar, and can also extend in both directions.
 
 .. figure:: images/linkages/8644-vdr4b.png
    :alt: 8644 Brainstormers Virtual Double Reverse Four Bar

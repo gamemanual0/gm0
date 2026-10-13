@@ -81,7 +81,7 @@ Design Guide
 
 .. note:: When using a sponsor, machine shop, or service like Fabworks or SendCutSend, parts may be adjusted by the vendor for you. Check with the service you are using before you make these adjustments!
 
-There are a few quirks of laser cut parts that you should keep in mind when designing them
+There are a few quirks of laser cut parts that you should keep in mind when designing them.
 
 Kerf
 ^^^^

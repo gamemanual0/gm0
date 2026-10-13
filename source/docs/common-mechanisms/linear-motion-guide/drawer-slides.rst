@@ -57,7 +57,7 @@ They are also low-profile, and have a M3 mounting pattern, meaning they are easy
 
 To save space, some teams have 3D printed an insert that goes between each slide instead of using the 15mm extrusion piece. In order to attach the slides to anything, teams will need to purchase **countersunk M3 screws** from McMaster-Carr. For attaching to REV extrusion, buy 6mm M3 screws with the M3 nut (**not locknut**) to insert inside the extrusion. As a tip, try to protect chips or sawdust from falling into the slides, as the sliding will have a noticeable difference.
 
-MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a two-piece slide, while the the SAR3 is a three-stage slide (has intermediate slider to increase the extension of the slide). Teams have used both successfully, and there isn't neither option is clearly superior.
+MiSUMI sells two different types of slides: SAR2 and SAR3. The SAR2 is a two-piece slide, while the SAR3 is a three-stage slide (has intermediate slider to increase the extension of the slide). Teams have used both successfully, and neither option is clearly superior.
 
 Teams using SAR3 slides will generally need to buy low profile M3 jam nuts from McMaster-Carr to connect the slides together. These nuts fit inside the slides with a tiny bit of clearance when tightened.
 
@@ -102,8 +102,8 @@ Advantages
 - Compatible with goBILDA ecosystem
 - Steel slides can handle more load (can use one set of slides instead of two in many situations)
 - Available in a kit with everything you need to start using in one purchase
-- Longer stroke (more extension) then the same length misumi slide
-- Cheaper then misumi slides
+- Longer stroke (more extension) than the same length misumi slide
+- Cheaper than misumi slides
 
 Disadvantages
 ^^^^^^^^^^^^^

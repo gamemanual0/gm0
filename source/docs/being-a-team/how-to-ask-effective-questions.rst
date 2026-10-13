@@ -14,7 +14,7 @@ Here are some steps that you could take to research your problem:
 
 - **Checking Official Documentation** - If documentation or instructions are available, make sure to carefully examine the relevant sections of them. Your problem may already be addressed, or may be caused by you misreading something.
 
-- **Google** - Simply search your problem. You will be surprised by how often this solves the issue. Try word the question in many different ways to find similar questions that may have already been asked. Focus on including keywords about your problem and if it is about programming, include relevant error messages and codes.
+- **Google** - Simply search your problem. You will be surprised by how often this solves the issue. Try to word the question in many different ways to find similar questions that may have already been asked. Focus on including keywords about your problem and if it is about programming, include relevant error messages and codes.
 
 .. tip::
     When looking for past documents or sections of textbooks, add "filetype:pdf" to the beginning of your search to filter the search results into only .pdf documents.
@@ -23,7 +23,7 @@ Here are some steps that you could take to research your problem:
 
 - **Reddit and Discord** - The `FTC Subreddit <https://www.reddit.com/r/FTC/>`_ and Discord Server (:doc:`../useful-resources`) can also be useful places to find previous answers or to ask your own. Try searching through the past questions with keywords relating to your own.
 
-- **Past Examples** - Try find past implementations of whatever problem you are trying to solve. This step may take more time, as it requires finding the example, and then deciphering how someone else figured out the solution, but this process can be super valuable. For programming, digging through another person's repository can be very insightful. Likewise, for mechanical design, taking a look at a teams technical binder or CAD release.
+- **Past Examples** - Try to find past implementations of whatever problem you are trying to solve. This step may take more time, as it requires finding the example, and then deciphering how someone else figured out the solution, but this process can be super valuable. For programming, digging through another person's repository can be very insightful. Likewise, for mechanical design, taking a look at a team's technical binder or CAD release.
 
 .. tip::
     For programming questions, it can sometimes be helpful to find past implementations through `GitHub Code Search <https://github.com/search?type=code>`_. Note this currently requires a GitHub account. Even if you don't find the solution, examining other codebases can teach you a lot about general strategies and functions you may not have seen before.
@@ -43,7 +43,7 @@ For others to be able to provide a good solution to your problem, they need the 
 
 3. **Share your progress.**
 
-   Explain the steps you have already taken to address the problem. This may include specific troubleshooting methods, or examples of what you have been changing to try solve the issue. This helps others to gain a better understanding of the problem and avoid suggesting solutions that you have already tried.
+   Explain the steps you have already taken to address the problem. This may include specific troubleshooting methods, or examples of what you have been changing to try to solve the issue. This helps others to gain a better understanding of the problem and avoid suggesting solutions that you have already tried.
 
 4. **Don't just use words.**
 

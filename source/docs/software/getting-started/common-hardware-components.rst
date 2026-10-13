@@ -80,7 +80,7 @@ While all FTC legal motors contain built in relative quadrature encoders, they m
 
 Accessing encoders requires calling one method on the DcMotor object, ``getCurrentPosition()``, which returns the current position of the encoder plugged into the port. This number may be arbitrary at the beginning of an opmode, and is not reset to 0 unless ``STOP_AND_RESET_ENCODERS`` is used or power is cycled to the expansion hub.
 
-.. important:: There is no real standardized terminology when dealing with quadrature encoders. The SDK uses "CPR" or Counts Per Revolution by default,. You may also see some datasheets list "PPR" or Pulses per Revolution. One pulse can be equivalent to anywhere from 1 to 4 SDK "counts". Be careful when reading datasheets!
+.. important:: There is no real standardized terminology when dealing with quadrature encoders. The SDK uses "CPR" or Counts Per Revolution by default. You may also see some datasheets list "PPR" or Pulses per Revolution. One pulse can be equivalent to anywhere from 1 to 4 SDK "counts". Be careful when reading datasheets!
 
 .. warning:: Encoders with high numbers of Counts per Revolution, such as the REV Through Bore Encoder, can lose steps if plugged into ports 1 or 2. In addition, calls to ``getVelocity()`` on a DcMotorEx object may overflow with high counts per revolution encoders, due to the returned number only being a 16 bit signed integer.
 
@@ -107,7 +107,7 @@ Continuous Rotation Servo
 
    CRServo intakeServo = hardwareMap.get(CRServo.class, "Intake Servo");
 
-A CRServo has one main method; ``setPower()``. This works very similarly to ``DcMotor`` 's ``setPower()``, meaning that passing it 0 makes it stop, passing it 1 makes it go forward at full speed, passing it -1 makes it go backwards at full speed, and everything in between. ::
+A CRServo has one main method; ``setPower()``. This works very similarly to ``DcMotor`` \'s ``setPower()``, meaning that passing it 0 makes it stop, passing it 1 makes it go forward at full speed, passing it -1 makes it go backwards at full speed, and everything in between. ::
 
    intakeServo.setPower(0.75);
 
@@ -138,7 +138,7 @@ An ``AnalogInput`` has one main method: ``getVoltage()`` which is used to get th
 A Note on Hardware Call Speed
 -----------------------------
 
-Every hardware call you make, (whether it be setting the power for a motor, setting a :term:`servo <Servo>` position, reading an encoder value, etc.) will take approximately 3 milliseconds to execute, except for I2C calls which can take upwards of 7ms. This is because behind the scenes, the SDK may need to make multiple hardware calls in order to perform the I2C operation.
+Every hardware call you make (whether it be setting the power for a motor, setting a :term:`servo <Servo>` position, reading an encoder value, etc.) will take approximately 3 milliseconds to execute, except for I2C calls which can take upwards of 7ms. This is because behind the scenes, the SDK may need to make multiple hardware calls in order to perform the I2C operation.
 
 .. note:: When using a Control Hub, you may see considerably faster hardware call times because the Control Hub uses a direct UART connection to the Lynx board instead of going through USB and a middle-man FTDI as happens when using a phone.
 
