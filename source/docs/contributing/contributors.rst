@@ -33,8 +33,6 @@ Other Contributors
 - Dom - FTC 15692 Rust in Pieces
 - Eric - FTC Alum - 8417 'Lectric Legends
 - Ethan - FTC 7236 Recharged Green - goBILDA
-- Frank - FTC 8581 Aedificatores
-- Frank - FTC 8581 Aedificatores
 - Fulton - FTC 5143 Xcentrics
 - Guineawheek - FTC Alum
 - Ian - FTC 7842 Browncoats
