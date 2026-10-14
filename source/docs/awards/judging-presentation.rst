@@ -11,7 +11,7 @@ How the Interview Works
 +-------------------------------------+----------------------------------------------------------------------------------+
 | Stage                               | What happens                                                                     |
 +=====================================+==================================================================================+
-| First stage (once)                  | A prepared team presentation (5 minutes), then judges' questions (10–15 minutes) |
+| First stage (once)                  | A prepared team presentation (5 minutes), then judges' questions (10-15 minutes) |
 +-------------------------------------+----------------------------------------------------------------------------------+
 | Second stage (several judge panels) | Questions tied to specific awards                                                |
 +-------------------------------------+----------------------------------------------------------------------------------+
