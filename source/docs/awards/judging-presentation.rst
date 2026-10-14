@@ -1,57 +1,129 @@
-The Judging Process and Presentation
-====================================
+.. include:: <isonum.txt>
 
-At the beginning of a competition, teams will have a 5 minute presentation followed by a brief Q&A period where judges can ask questions about the portfolio and presentation. Following this, judges may sometimes do follow up interviews in the pits where they ask teams more questions about specific things to help in their deliberations. This process is as important as your written documentation when it comes to the success of your team in awards.
+Preparing for the Judging Interview
+===================================
 
-Overall Tips
-------------
+The portfolio and the interview work together: the portfolio is the written record, the interview is where an FTC\ |reg| team brings it to life.
 
-- **You are a team, act like one**. You should practice multiple times with each other and act as a team. Don't talk over each other, let everyone have a chance to respond. You should know each other's scripts and also how to answer a broad range of questions.
-- Be professional. Always assume a judge is watching you. While you don't have to abstain from fun, be careful of how you act. When you encounter judges, be on your best behavior and be as professional as you can.
-- **Be Consistent!** If you say something during the beginning Q&A, make sure you say the same thing during pit judging. If you call out one specific mechanism as innovative, don't talk about a different mechanism when questioned. Always be consistent.
-- Vary who answers the questions. **Make sure everybody has an opportunity to speak.**
-- Use your portfolio! You can use it to reference things or point to various sections, especially if you can't remember something in the moment.
-- Don't ramble but also don't cut it short. Answer questions fully, but there is no benefit to wasting judges' time. **Most of the time, judges have a set time allotment with each team so wasting time may decrease the number of questions you can answer.**
-- Try not to go off topic. If a judge asks about outreach, don't talk about robot design too much. Judges are usually asking things for a specific purpose and other information may get wasted.
+How the Interview Works
+-----------------------
 
-The Presentation
++-------------------------------------+----------------------------------------------------------------------------------+
+| Stage                               | What happens                                                                     |
++=====================================+==================================================================================+
+| First stage (once)                  | A prepared team presentation (5 minutes), then judges' questions (10–15 minutes) |
++-------------------------------------+----------------------------------------------------------------------------------+
+| Second stage (several judge panels) | Questions tied to specific awards                                                |
++-------------------------------------+----------------------------------------------------------------------------------+
+
+Good and Poor Preparation
+-------------------------
+
++---------------------------------------------+----------------------------------------------------------+
+| Well prepared                               | Poorly prepared                                          |
++=============================================+==========================================================+
+| Understand what exactly is being asked      | Memorized the text and the answers                       |
++---------------------------------------------+----------------------------------------------------------+
+| Support the story with visuals              | Get lost when a question is phrased differently          |
++---------------------------------------------+----------------------------------------------------------+
+| Answer briefly and to the point             | Don't know what to do after forgetting part of an answer |
++---------------------------------------------+----------------------------------------------------------+
+| Give a concrete example from their own work | Try to say everything they know                          |
++---------------------------------------------+----------------------------------------------------------+
+| Speak with energy and interest              | Sound flat, as if forced to be there                     |
++---------------------------------------------+----------------------------------------------------------+
+
+A good interview is a lively conversation between people who love what they do. Preparation exists to reduce stress, build confidence, and free up time for content. The team should know in advance what will happen, who speaks about what, which topics each member knows well, and what to do with an unexpected question.
+
+When to Start
+-------------
+
+A new team should not start drilling interviews on day one. From the start of the season, focus on the robot and outreach, accumulating material, decisions, versions, mistakes, and projects. Around December, start active preparation: turn it all into a presentation and practice answering.
+
+Writing and Splitting the Speech
+--------------------------------
+
+Condense the team's whole season into 5 minutes. Try to cover as many criteria as possible, refer to concrete examples, include key results, and use the judges' marker words.
+
+Don't split it as "you take slide 1, I take slide 2." Decide instead:
+
+- Who is responsible for which area
+- Who can answer which potential questions
+- Who stands where
+- Who shows what
+- Who holds the poster or extra materials
+- Who advances the slides
+
+Visuals Help You Answer
+-----------------------
+
+Judges absorb information better when they can see it, not just hear it.
+
++-------------------+------------------------------+
+| Visual            | Use it to show               |
++===================+==============================+
+| The robot         | A specific mechanism         |
++-------------------+------------------------------+
+| Poster or diagram | A process or an architecture |
++-------------------+------------------------------+
+| Presentation      | A chart or results           |
++-------------------+------------------------------+
+| Extra materials   | Prototypes, CAD, test photos |
++-------------------+------------------------------+
+
+Rehearse in Stages
+------------------
+
+1. Just say the speech.
+2. Fit it into the time limit.
+3. Add the robot, posters, or slides.
+4. Add questions.
+5. Rehearse with unfamiliar adults.
+6. Recreate competition conditions as closely as possible.
+
+Rehearse behavior, not only content: no one laughs, no one interrupts, no one forgets their part.
+
+.. tip::
+   Rehearse with strangers. A coach knows the team, its story, and what a student meant to say. A stranger doesn't. They will phrase questions differently, use unfamiliar words, and ask about things the team considered obvious, just like a real judge.
+
+Answering Questions
+-------------------
+
+A perfect 5-minute speech is not an interview. The hardest part is not inventing a perfect answer, but understanding what answer is actually wanted. Work through four steps:
+
+1. What am I being asked?
+2. What information do they want?
+3. What from our experience proves it?
+4. How can I answer as briefly as possible?
+
++------------------------------------------------------+----------------------------------------------------+-------------------------------------------------------+
+| Question                                             | Weak answer                                        | Strong answer                                         |
++======================================================+====================================================+=======================================================+
+| "What skills did you gain from working on the team?" | "We learned to program, and we also have a robot…" | Name the skills, list them, back each with an example |
++------------------------------------------------------+----------------------------------------------------+-------------------------------------------------------+
+| "Why did you choose this design?"                    | Everything about the design                        | Problem → chosen solution → result                    |
++------------------------------------------------------+----------------------------------------------------+-------------------------------------------------------+
+
+Aim for **thought + explanation + specifics**:
+
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| Too little                      | Enough                                                                                                                                                                 | Too much                                                                                                      |
++=================================+========================================================================================================================================================================+===============================================================================================================+
+| "Because it's more convenient." | "We chose this design because we needed to reduce weight and free up space for mechanism X. After testing two options, we kept this one because it was 200 g lighter." | Three minutes on the robot's history, every design variant, and the time someone forgot to charge the battery |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+
+General questions about the team, robot, engineering decisions, programming, teamwork, outreach, and skills can be found in public question banks. Individual questions can't be fully prepared for: they come from what your team says. Your speech raises questions, and those become your individual questions.
+
+Useful Resources
 ----------------
 
-The presentation is a 5 minute presentation during which judges are not allowed to interrupt. At the end of 5 minutes, you will either be asked to stop or be interrupted by the judges. There is no set format for this period, so your team can figure out how they want to present. Generally, most teams will do scripted formal presentations, often with each student tackling a different part of information about the team, robot, outreaches, etc. It's recommended teams cover topics from every award topic.
+- *FIRST*\ |reg| Judge Manual and the current |cm|
+- Engineering Portfolio Resource v3.0 (a Russian translation is available from team 11044)
+- FTCPortfolioLab
+- Portfolio Perch
+- OpenVault FTC
+- Matplotlib, for charts built from your data
+- :doc:`award-types`
 
-.. tip:: While it may be tempting to do something unique, like singing or performing your presentation, be aware that this is usually difficult for little benefit. Unless you know you can pull it off very well, you probably shouldn't try it.
-
-There is generally no penalty for using scripts, so it is highly recommended they are used. In addition, you should practice the judging period repeatedly before the competition. Practice everything from walking in and giving your portfolio to the judges to the question and answer period. **Make sure you are comfortable with your script and with answering questions**.
-
-Presentation Tips
-^^^^^^^^^^^^^^^^^
-
-- Practice speaking clearly and precisely. You should practice multiple times and not only know your lines, but what people around you are going to say.
-- Use the robot! Have other team members point and move things on the robot as you speak to demonstrate.
-- While having a script won't be held against you, try to avoid gluing your eyes to your script and looking down. Looking at the judges occasionally will go a long way in making your presentation more professional
-- **Make sure everybody gets a chance to say something or answer a question**. Having students say nothing during judging can look bad.
-
-Q&A Period
-^^^^^^^^^^
-
-The Q&A period is just as important as the presentation and should be practiced multiple times until the team is comfortable answering impromptu questions. A good idea is to practice the `sample judges' questions <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/question-bank>`_. Mentors should ask questions similar to those in the sample judges' question, in addition to difficult to answer questions ("What award do you think you deserve?" is an example of a question that is incredibly difficult to answer on the spot).
-
-.. tip:: Judges almost always ask something along the lines of "Is there anything else that you want us to know that was not covered?" Make sure you have a response to this question! The best strategy is usually to answer with something that wasn't asked about or covered as well, so pay attention to what topics have been covered during the Q&A.
-
-Pit Judging
------------
-
-During the competition, secondary groups of judges may be walking around pits to ask more questions about specific components of the team, robot, or outreach. These questions are an important part of judging deliberation, and should be treated similarly to the Q&A in the beginning of the competition.
-
-Pit judging can be difficult sometimes since judges might want to talk to your team as you are heading out to a match. While some judges may offer to come back at a different time, often it is better to have your teammates not driving talk to the judge if possible. This can ensure they don't run out of time to talk to you.
-
-When pit judges arrive, one should try to determine roughly what they are there for. Judges will make it clear pretty quickly if they are there for control, robot-based awards, outreach, etc. If a judge is there to talk to you about the robot, don't waste their time with outreach. Similarly, if a judge is asking about your outreach don't divert to talking about the robot. Judges are there for a specific purpose, other information may essentially be discarded by them.
-
-.. important:: When judges come near your pits, STAND UP and PUT THE PHONES DOWN. Uninterested students can cause a judge's opinion of your team to quickly sour. All students should try to look interested and should participate, get as many different people speaking as you can.
-
-Pit Judging Tips
-^^^^^^^^^^^^^^^^
-
-- Judges have limited amounts of time, don't waste it! Answer questions thoroughly but consciously.
-- Have a portfolio or notebook ready for quick reference as needed.
-- Try to vary who answers questions, getting everyone involved.
+.. tip::
+   Study winning portfolios. Many teams publish theirs online, and some sites list which award each team won, so you can look at the portfolios that were strongest in the award you are targeting. Borrow ideas, but never copy word for word.
