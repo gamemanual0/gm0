@@ -124,7 +124,7 @@ Power Transmission
 
 `How Gears Work <https://ciechanow.ski/gears/>`_ --- An interactive visual guide to how gears work.
 
-`KHK Introduction to Gears <https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanics of gears.
+`KHK Introduction to Gears <https://web.archive.org/web/20241225084147/https://www.khkgears.co.jp/kr/gear_technology/pdf/gear_guide_060817.pdf>`_ --- A handbook covering fundamentals about the mechanics of gears.
 
 Calculators
 ^^^^^^^^^^^

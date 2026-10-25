@@ -187,7 +187,7 @@ If you want to use ADB from any directory, add it to PATH. Follow an online tuto
 
 Adding variables to PATH:
 
-- `Windows <https://docs.alfresco.com/content-services/latest/admin/troubleshoot/>`_
+- `Windows <https://stackoverflow.com/a/40754030>`_
 - `Linux/Unix (bash) <https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path>`_
 - `macOS (zsh) <https://koenwoortman.com/zsh-add-directory-to-path/>`_
 
